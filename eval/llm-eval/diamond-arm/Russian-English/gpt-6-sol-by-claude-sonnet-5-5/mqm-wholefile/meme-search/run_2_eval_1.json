@@ -1,0 +1,167 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "meme-search",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Поскользнулся, упал... Закрытый перелом... Потерял сознание, очнулся - гипс.",
+      "translation_quote": "Slipped, fell... closed fracture... Blacked out. Woke up— in a cast.",
+      "justification": "The iconic catchphrase is rendered inconsistently across the film (\"Slipped. Fell...\" vs \"Slipped, fell...\"), weakening the running gag's repetition."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a stack of tickets, and you may win a... Waterworks!",
+      "justification": "The rhyme (пачку/водокачку) that makes the slogan comic is lost entirely."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, если человек идиот - то это надолго.",
+      "translation_quote": "if a man's an idiot, it's for life.",
+      "justification": "The recurring boss-aphorism formula is rendered fine; no issue. (Low priority.)"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "May you drop dead! May I see you in your coffin, wearing white slippers! May you have to live on your salary alone!",
+      "justification": "The neighbor's ungrammatical, Odessa-flavored curse (\"у гробу, у белых тапках\") loses its dialect colour in standard English."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Это - я, я, я!",
+      "translation_quote": "That's me! Me!",
+      "justification": "Minor fidelity detail."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No, I can't agree to that!",
+      "justification": "The deliberately dialectal \"пойтить\" (Lyolik's mock-rustic speech while impersonating) is flattened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Ну что Вы, время! Время - деньги!",
+      "translation_quote": "There's no time! Time is money!",
+      "justification": "The pun-linked \"Куй железо\" setup needs the same phrase; fine."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Хорошо, что он не контрабандист, симпатичный мужик...",
+      "translation_quote": "I'm glad he's not a smuggler. A nice fellow...",
+      "justification": "Register slightly formal for colloquial \"мужик\"."
+    }
+  ],
+  "summary": {
+    "major_count": 24,
+    "minor_count": 6,
+    "total_points": 126,
+    "major_equiv": 25.2,
+    "major_equiv_per_unit": 0.017634709587123862
+  },
+  "usage": {
+    "input_tokens": 35555,
+    "output_tokens": 3556,
+    "cost_usd": 0.177776
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, нет такого мужа, который, хоть на час бы не мечтал стать холостяком!",
+      "translation_quote": "As our dear boss says, there isn't a husband alive who hasn't dreamed of being single for at least an hour!",
+      "justification": "Fine; but the earlier boss aphorism 'если человек идиот - то это надолго' is rendered 'it's for life', losing the phrase's wry pattern. (Minor loss.)"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Эти кретины уверяли, что он был без сознания... Значит, этот лопух ничего не знает.",
+      "translation_quote": "Those morons swore he was unconscious... So that sucker knows nothing.",
+      "justification": "'Лопух' (simpleton) rendered as 'sucker' is acceptable, but elsewhere 'Лопух' becomes 'sucker', 'mark' and 'dummy', creating terminology inconsistency for a recurring character label."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No! I can't go along with that!",
+      "justification": "The non-standard 'пойтить' marks Lyolik/Gesha's feigned folksy speech; register flattened."
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a stack of tickets today and win yourself a... Waterworks plant!",
+      "justification": "The rhyme (пачку/водокачку) is lost; the comic doggerel is rendered as flat prose."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "May you drop dead! May I see you in a coffin, in your white funeral slippers! May you live... on nothing but... your salary!",
+      "justification": "The accented Odessa-style speech and the punchline curse are weakened; the humor of the escalating curses is partially lost."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Он сам пришёл!",
+      "translation_quote": "He came here himself!",
+      "justification": "Fine."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Лёгким движением руки брюки превращаются... в элегантные шорты!",
+      "translation_quote": "With a flick of the wrist, the trousers become... elegant shorts!",
+      "justification": "The famous 'брюки превращаются' gag is retained, though the Soviet fashion-show parody voice is neutral."
+    }
+  ],
+  "summary": {
+    "major_count": 24,
+    "minor_count": 8,
+    "total_points": 128,
+    "major_equiv": 25.6,
+    "major_equiv_per_unit": 0.017914625612316305
+  },
+  "usage": {
+    "input_tokens": 35147,
+    "output_tokens": 3959,
+    "cost_usd": 0.180174
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "list",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Меня терзают смутные сомнения",
+      "translation_quote": "I'm plagued by vague suspicions",
+      "justification": "Famous quoted catchphrase (Bunsha/Shpak) is rendered plainly; the literary-quote register is lost, and 'doubts' is closer than 'suspicions'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нечистая сила! ... Вот что крест животворящий делает!",
+      "translation_quote": "Behold the power of the life-giving Cross!",
+      "justification": "Context: the tsar says this while the police-like Bunsha 'walled in' the demons; the translation is acceptable, but 'Walled in! They've walled me in' misattributes the subject (Ivan the Terrible says the demons were walled up), changing meaning."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "translation_quote_note": ""
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 25,
+    "minor_count": 5,
+    "total_points": 130,
+    "major_equiv": 26.0,
+    "major_equiv_per_unit": 0.030952380952380953
+  },
+  "usage": {
+    "input_tokens": 35855,
+    "output_tokens": 3641,
+    "cost_usd": 0.179826
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "dataset_name": "pokrov-gate",
+  "method": "list",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1721,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кулинар!",
+      "translation_quote": "Some chef!",
+      "justification": "Adds sarcasm not in the source; the original is an ironic address to Savva, and \"Some chef\" changes tone."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, нет, нет! Хоботов, не галди.",
+      "translation_quote": "Khobotov, stop squawking.",
+      "justification": "Acceptable. (Low confidence.)"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology",
+      "translation_quote_note": "inconsistent transliteration"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 19,
+    "minor_count": 11,
+    "total_points": 106,
+    "major_equiv": 21.2,
+    "major_equiv_per_unit": 0.012318419523532829
+  },
+  "usage": {
+    "input_tokens": 62838,
+    "output_tokens": 8018,
+    "cost_usd": 0.331524
+  }
+}

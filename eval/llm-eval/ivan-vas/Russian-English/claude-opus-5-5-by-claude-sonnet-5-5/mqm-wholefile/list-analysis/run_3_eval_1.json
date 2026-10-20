@@ -1,0 +1,151 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "list-analysis",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это я удачно зашел!",
+      "translation_quote": "Now this is a lucky place to drop in!",
+      "justification": "Mistranslation: the speaker says he dropped in at a lucky moment, and the savings-bank quip is a joke. Rendering is garbled."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Перегорели все транзисторы.",
+      "translation_quote": "There was a short circuit. All the transistors burned out.",
+      "justification": "Source explicitly blames the 'бердыш' (halberd) for the short circuit; translation keeps 'cursed halberd', acceptable, but 'Это сон какой-то' etc. fine. Low confidence."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Дорогая царица, очень рад! ... Очень приятно, царь!",
+      "translation_quote": "Pleased to meet you, I'm the Tsar!",
+      "justification": "Bunsha's confused introduction is rendered with added 'I'm the Tsar', changing who is speaking and muddling the comic repetition."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Шпак — магнитофон, у посла — медальон.",
+      "translation_quote": "Shpak loses a tape recorder, the ambassador loses a medallion.",
+      "justification": "The rhyme 'магнитофон/медальон' is lost, but the joke is about the suspicion; acceptable."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 21,
+    "minor_count": 8,
+    "total_points": 113,
+    "major_equiv": 22.6,
+    "major_equiv_per_unit": 0.026904761904761907
+  },
+  "usage": {
+    "input_tokens": 35847,
+    "output_tokens": 3548,
+    "cost_usd": 0.178864
+  }
+}

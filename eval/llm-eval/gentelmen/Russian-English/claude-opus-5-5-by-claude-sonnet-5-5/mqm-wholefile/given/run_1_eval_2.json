@@ -1,0 +1,104 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "given",
+  "run": "1",
+  "eval_run": 2,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Ну, а я знаю? Мужик какой-то. ... Сидячий? ... Кто же его посадит? Он же памятник!",
+      "translation_quote": "Was he inside? ... Who’d put him inside? He’s a monument!",
+      "justification": "Wordplay on 'сидячий' (seated vs. imprisoned) is mistranslated as 'inside'; the humor of a thief understanding 'sitting' as 'jailed' is not conveyed."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший ты человек, Косой",
+      "translation_quote": "You're a not-so-good person, Kosoy",
+      "justification": "Awkward, literal rendering of 'нехороший человек' used repeatedly; the colloquial effect is lost and the phrase becomes stilted."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк",
+      "translation_quote": "Who's afraid of the big bad wolf",
+      "justification": "Substitution of a Disney song for the Soviet adaptation is an acceptable domestication, but the following lines 'Я злой и страшный серый волк' are mismatched (rendered 'I know a piglet or two' ) and lose the rhyme."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 9,
+    "minor_count": 9,
+    "total_points": 54,
+    "major_equiv": 10.8,
+    "major_equiv_per_unit": 0.01935483870967742
+  },
+  "usage": {
+    "input_tokens": 26363,
+    "output_tokens": 2549,
+    "cost_usd": 0.028130099999999998
+  }
+}

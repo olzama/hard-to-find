@@ -1,0 +1,62 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "characters",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Все! Кина не будет. Электричество кончилось.",
+      "translation_quote": "That's it! No movie today. The electricity's run out.",
+      "justification": "'Кина не будет' is a famous comic catchphrase with a folksy, jokey tone. The flat 'No movie today' loses that flavor, and 'The electricity's run out' is slightly unnatural."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 3,
+    "minor_count": 6,
+    "total_points": 21,
+    "major_equiv": 4.2,
+    "major_equiv_per_unit": 0.007526881720430108
+  },
+  "usage": {
+    "input_tokens": 26482,
+    "output_tokens": 7150,
+    "cost_usd": 0.17742400000000003
+  }
+}

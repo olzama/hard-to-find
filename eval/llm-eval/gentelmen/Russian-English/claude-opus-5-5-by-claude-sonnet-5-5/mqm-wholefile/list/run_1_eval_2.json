@@ -1,0 +1,114 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "list",
+  "run": "1",
+  "eval_run": 2,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк, серый волк, серый волк...",
+      "translation_quote": "Who's afraid of the big bad wolf, big bad wolf, big bad wolf...",
+      "justification": "Substitutes a Western song; reasonable domestication but the following 'Я злой и страшный серый волк' rhyme is rewritten so the kindergarten skit reads fine. Acceptable, low severity."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Девушка? - Чувиха.",
+      "translation_quote": "- Girl? - A chick.",
+      "justification": "The humor is Russian-to-English slang inversion; acceptable but 'chick' is a weak equivalent of 1970s Soviet thieves' slang 'чувиха' and the English lesson gag loses its point."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Пасть порву",
+      "translation_quote": "I'll rip your jaw off",
+      "justification": "'Пасть' is an animal-like mouth; 'jaw' loses the bestial insult, though used consistently."
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Вам что, товарищи? Я сейчас.",
+      "translation_quote": "What can I do for you, comrades?",
+      "justification": "Reasonable. (Minor.)"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кина не будет. Электричество кончилось.",
+      "translation_quote": "No movie tonight. The electricity's run out.",
+      "justification": "Quote from Gentlemen of Fortune/White Sun of the Desert ('Кина не будет') is a famous catchphrase; the translation loses the film-quote humor."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 12,
+    "minor_count": 7,
+    "total_points": 67,
+    "major_equiv": 13.4,
+    "major_equiv_per_unit": 0.024014336917562724
+  },
+  "usage": {
+    "input_tokens": 26470,
+    "output_tokens": 2085,
+    "cost_usd": 0.023500800000000002
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "given",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Меня терзают смутные сомнения",
+      "translation_quote": "Vague doubts haunt me.",
+      "justification": "The film's famous quoted catchphrase is rendered as plain prose; the mock-literary effect and recurrence are weakened, and the later 'Vague doubts haunt me once again' does not match the recurring gag in a recognisable form."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Здравствуйте, царь! Очень приятно!",
+      "translation_quote": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.",
+      "justification": "The source is the Tsarina's and Bunsha's overlapping greetings; the translation invents 'Hello, I’m the Tsar' and garbles who says what, adding material not in the source."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Тот, кто ждет, все снесет, как бы жизнь не била.",
+      "translation_quote": "He who waits will bear it all, however hard life may hit.",
+      "justification": "Song lyrics are rendered inconsistently: 'Танцуют все!' becomes 'The floor is open to everyone!', changing meaning ('Everybody dance!'), and 'Ты пришло, ты сбылось' is translated 'You have come, you've come true', awkward."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 14,
+    "minor_count": 6,
+    "total_points": 76,
+    "major_equiv": 15.2,
+    "major_equiv_per_unit": 0.018095238095238095
+  },
+  "usage": {
+    "input_tokens": 35780,
+    "output_tokens": 2872,
+    "cost_usd": 0.171836
+  }
+}

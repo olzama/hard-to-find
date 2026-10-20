@@ -1,0 +1,160 @@
+{
+  "dataset_name": "pokrov-gate",
+  "method": "characters",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1721,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Хоботов, это мелко.",
+      "translation_quote": "Khobotov, that's petty.",
+      "justification": "Acceptable, but 'Он превратит молитву в фарс' and similar lines are rendered literally. Also 'Фюнф минут' is transliterated as 'Fünf Minuten' correctly, though the comic mock-German of Savva (his 'Зер гут', 'Яволь') is handled consistently; the exception is 'Швапс тринкен' → 'Schnaps trinken', which loses the comic distortion."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Вы популярны. Нет, это витаминизация популярна, не я...",
+      "translation_quote": "You're popular. No, it's vitamin shots that are popular, not me...",
+      "justification": "Fine, but 'Вы прекрасно кололи' becoming 'You gave such wonderful injections' makes the double entendre less subtle, and the earlier 'Вы забыли направление' has 'referral' retained consistently, which is good. Minor naturalness issue only."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Резать к чертовой матери.",
+      "translation_quote": "Cut it out, damn it.",
+      "justification": "\"Cut it out\" is ambiguous in English and idiomatically means \"stop it\", which reverses the intended \"cut the thing out\". The meaning is unclear."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 14,
+    "minor_count": 18,
+    "total_points": 88,
+    "major_equiv": 17.6,
+    "major_equiv_per_unit": 0.010226612434631029
+  },
+  "usage": {
+    "input_tokens": 62774,
+    "output_tokens": 7415,
+    "cost_usd": 0.325238
+  }
+}

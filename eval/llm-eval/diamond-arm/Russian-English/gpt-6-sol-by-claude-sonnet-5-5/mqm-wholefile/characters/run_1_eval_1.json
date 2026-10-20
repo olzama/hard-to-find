@@ -1,0 +1,150 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "characters",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "translation_quote_note": "password phrase"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole roll of lottery tickets and you might win... A water pump!",
+      "justification": "The rhymed slogan (пачку/водокачку) is a joke on absurd prizes; the rhyme is lost and the humor flattened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Поскользнулся, упал... Закрытый перелом",
+      "translation_quote": "A simple fracture",
+      "justification": "'Закрытый перелом' (closed fracture) versus 'открытый' (open) is the basis of the wife's joke; 'simple' vs 'compound' is a defensible rendering but 'closed/open fracture' is the standard term and keeps the pun-like contrast clearer."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No, I can't agree to that!",
+      "justification": "Gorbunkov's deliberately folksy, mock-bureaucratic voice ('пойтить') and the comic stalling are flattened into neutral English."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Если человек идиот - то это надолго.",
+      "translation_quote": "if a man's an idiot, it's usually for life.",
+      "justification": "The aphorism 'надолго' (for a long time) is rendered 'for life', and the Boss's pseudo-wise sayings, a recurring gag, lose their deadpan cadence."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Эти кретины уверяли, что он был без сознания... Значит, этот лопух ничего не знает.",
+      "translation_quote": "Then that sucker doesn't know a thing.",
+      "justification": "'Sucker' is used for 'лопух' throughout; acceptable but 'sap' or 'chump' would better fit the period voice."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, не надо, я сам... Семён Семёнович, ну давайте без самодеятельности!",
+      "translation_quote": "Semyon Semyonovich, let's stick to the plan!",
+      "justification": "'Самодеятельность' echoes the earlier 'amateur dramatics' exchange; the callback is lost, and 'stick to the plan' misses 'no improvising'."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 16,
+    "minor_count": 11,
+    "total_points": 91,
+    "major_equiv": 18.2,
+    "major_equiv_per_unit": 0.012736179146256122
+  },
+  "usage": {
+    "input_tokens": 35441,
+    "output_tokens": 3601,
+    "cost_usd": 0.17776999999999998
+  }
+}

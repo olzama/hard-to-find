@@ -1,0 +1,115 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "meme-search",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это не актуально!",
+      "translation_quote": "They're out of fashion!",
+      "justification": "'Не актуально' means 'not relevant/topical' and is a dismissal of the idea; 'out of fashion' shifts the meaning, and the irony of the line is weakened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "Drop dead! May I see you in a coffin, wearing white slippers! May you have to live on your salary alone!",
+      "justification": "The Odessan/Yiddish-inflected non-standard speech of the curse (исдох, у гробу, у белых тапках) is rendered in neutral standard English, losing the colorful character voice."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole sheaf of tickets and win... a pumping station!",
+      "justification": "The rhyme (пачку/водокачку) and comic mock-slogan are lost; no rhyming equivalent is attempted."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No, I can't go along with that!",
+      "justification": "The deliberately comic non-standard 'пойтить' (Gorbunkov's feigned naivety) is not reflected."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 11,
+    "minor_count": 9,
+    "total_points": 64,
+    "major_equiv": 12.8,
+    "major_equiv_per_unit": 0.008957312806158153
+  },
+  "usage": {
+    "input_tokens": 35594,
+    "output_tokens": 2792,
+    "cost_usd": 0.170292
+  }
+}

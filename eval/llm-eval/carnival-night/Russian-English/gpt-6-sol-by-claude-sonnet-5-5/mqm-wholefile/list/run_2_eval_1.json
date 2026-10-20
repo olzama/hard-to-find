@@ -1,0 +1,113 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "list",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "А я тебя нет!..",
+      "translation_quote": "only to hear, \"I don't love you\"!",
+      "justification": "The source rejection is a childish/comic retort ('and I you not'); the translation flattens it to a plain statement and loses the comic ring, and 'only to hear' alters the structure."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это нетипично!",
+      "translation_quote": "It's untypical!",
+      "justification": "'Untypical' is awkward but intentional bureaucratese; later 'Это ж нетипично' is rendered 'That's untypical' and 'will be more typical' — acceptable but clunky English that does not capture the Soviet cliché."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 8,
+    "total_points": 73,
+    "major_equiv": 14.6,
+    "major_equiv_per_unit": 0.02597864768683274
+  },
+  "usage": {
+    "input_tokens": 32234,
+    "output_tokens": 2618,
+    "cost_usd": 0.155112
+  }
+}

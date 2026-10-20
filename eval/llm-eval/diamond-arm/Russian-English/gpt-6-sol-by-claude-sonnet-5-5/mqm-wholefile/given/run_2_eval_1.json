@@ -1,0 +1,182 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "given",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, в нашем деле гланое - этот самый реализм!",
+      "translation_quote": "As our dear boss says, the main thing in our line of work is realism!",
+      "justification": "The Russian features the speaker's characteristic malapropism/intonation ('гланое'), which is dropped. Minor on its own but part of a pattern of lost verbal tics."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "если человек идиот - то это надолго.",
+      "translation_quote": "'If a man is an idiot, it's for a long time!'",
+      "justification": "The idiom (a play on 'if a man is a fool, it's for life') is translated literally and awkwardly; 'for a long time' sounds unnatural and the aphoristic punch is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "за чужой счёт пьют даже трезвенники и язвенники",
+      "translation_quote": "On someone else's dime, even teetotalers and convalescers drink!",
+      "justification": "'язвенники' means people with ulcers, not 'convalescers'. Mistranslation."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole ticket pack, win... a tractor rack!",
+      "justification": "The original rhyme is a mock prize ('водокачка' = water pump tower). 'Tractor rack' is invented and meaningless, losing the absurd joke about the lottery prize."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты жил на одну зарплату!",
+      "translation_quote": "May you live... on nothing but... your salary!",
+      "justification": "The curse's comic anticlimax is ruined by the ellipses; 'live on your salary alone' needs to land as the worst curse. Also the previous curse 'в белых тапках' is rendered clumsily."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Шампанское по утрам пьют или аристократы, или дегенераты!",
+      "translation_quote": "In the morning, champagne is drunk only by aristocrats and degenerates.",
+      "justification": "'Или...или' (either/or) and the punchy aphorism are lost with 'only'; reads as flat."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Достаточно одной таблэтки...",
+      "translation_quote": "Just one 'tab-LEHT' will do.",
+      "justification": "The phonetic mimicry is an odd, unexplained gimmick that does not correspond to a joke in English; similarly 'coff-ey' for 'кофэ'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "Twasn't my fault!",
+      "justification": "'Twasn't' is archaic and wrong for the register of a modern woman's colloquial panic."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No! I ain't doing no such thing!",
+      "justification": "The fake-folksy voice is overdone relative to the source ('пойтить' is a mild rustic form); 'ain't doing no such thing' is an American register mismatch."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 30,
+    "minor_count": 3,
+    "total_points": 153,
+    "major_equiv": 30.6,
+    "major_equiv_per_unit": 0.021413575927221835
+  },
+  "usage": {
+    "input_tokens": 35397,
+    "output_tokens": 4569,
+    "cost_usd": 0.187274
+  }
+}

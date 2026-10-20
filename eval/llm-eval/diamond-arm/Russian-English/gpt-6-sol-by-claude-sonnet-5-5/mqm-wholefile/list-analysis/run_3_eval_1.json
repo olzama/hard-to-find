@@ -1,0 +1,130 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list-analysis",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "если человек идиот - то это надолго",
+      "translation_quote": "if a man's an idiot, it's a lifelong condition",
+      "justification": "The boss's aphorism is rendered flatly; the colloquial punch of 'надолго' is lost and the stiff phrasing doesn't sound like a catchphrase."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a great big stack, and you could win a... Waterworks plant!",
+      "justification": "The rhyming slogan (пачку/водокачку) is a joke on a ridiculous prize; the translation loses the rhyme and the absurd comic effect."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Чтоб ты жил на одну зарплату!",
+      "translation_quote": "May you live... on nothing... but your salary!",
+      "justification": "The curse is punchy in Russian; the English hesitations and rewording weaken the comic escalation."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Шеф, всё пропало!",
+      "translation_quote": "Boss, it's all gone wrong!",
+      "justification": "Hmm: fine; but 'Я во!... м... м...' and related sections are rendered inconsistently, with some sounds dropped."
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "I didn't do nothin' wrong!",
+      "justification": "Double negative slang gives a wrong dialect register compared with the colloquial Russian of the character."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 10,
+    "total_points": 75,
+    "major_equiv": 15.0,
+    "major_equiv_per_unit": 0.010496850944716585
+  },
+  "usage": {
+    "input_tokens": 35441,
+    "output_tokens": 3130,
+    "cost_usd": 0.17306
+  }
+}

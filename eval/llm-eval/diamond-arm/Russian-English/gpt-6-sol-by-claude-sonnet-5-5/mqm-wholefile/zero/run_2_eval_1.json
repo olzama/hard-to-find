@@ -1,0 +1,156 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "zero",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, в нашем деле гланое - этот самый реализм!",
+      "translation_quote": "Ha-ha-ha-ha-ha-ha-ha! Well! Time to go, tourist! No need... Go on...",
+      "justification": "Surrounding lines are fine, but the fake-injury scene's comic logic is blurred: 'Нынадо' (a mock-Georgian/dialect 'don't need to') is rendered as a flat 'No need...' losing the characteristic comic voice of Lyolik's speech."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Мы вообще дальше Дубровки никуда не ездили. - Х-х-х-х-ха... Но и Вы, тоже едете за границу в первый раз? Нет, я никуда не еду. Мы провожаем папу!!!",
+      "translation_quote": "- Ha-ha-ha! And is this your first trip abroad too? No, I'm not going anywhere. We're seeing Daddy off!",
+      "justification": "The scene is a staged radio rehearsal gag, but the interviewer's question and the child's interruption are muddled; speaker turns are unclear and the humor of the interruption is weakened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, с ночёвкой не поеду, боюсь застудить.",
+      "translation_quote": "No, I can't stay overnight. I might catch a chill.",
+      "justification": "Minor meaning shift, but more importantly 'Козлодоев' wordplay: the source insults Kozadoyev's name as 'Козлодоев' (козёл + доить), and the translation retains the names but does not convey that the pun is deliberate insult."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Не взял попутных - это не таксист!",
+      "translation_quote": "He won't take passengers? He's no taxi driver!",
+      "justification": "The line is Gorbunkov's inner paranoia that the driver refused to pick up passersby, so he's 'not a real cabbie'. The translation turns it into a question and breaks the logic of Senya's suspicion."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Хорошо бы ай-лю-лю, цигель, цигель - время, товарищ!",
+      "translation_quote": "\"ai-lyulyu\" would be lovely, but tsigel, tsigel: time!",
+      "justification": "'Цигель, цигель, ай-люлю' is a famous nonsense refrain which the guide mimics; leaving it transliterated without any comic cue leaves English viewers without the joke that this is a parody of foreign flirting."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш любимый шеф, если человек идиот - то это надолго.",
+      "translation_quote": "As our beloved Chief says, if a man's an idiot, it's for life.",
+      "justification": "Acceptable; however 'Куда поедем? Домой.' etc. are fine. This item is fine in meaning but the later 'Как говорит наш дорогой шеф, нет такого мужа...' is fine too; the issue is the loss of the running gag structure where the Chief's aphorisms are comic misquotes."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Достаточно одной таблэтки...",
+      "translation_quote": "One tablet is enough...",
+      "justification": "Ok, but the following exchange 'Скажите, пожалуйста, У Вас нет такого же, но без крыльев?' is a comedic scene in a department store; the translation also contains stray subtitle timing text '1107 01:12:00,413 --> 01:12:01,513' inserted in the output, which is an addition not in the source."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 24,
+    "minor_count": 4,
+    "total_points": 124,
+    "major_equiv": 24.8,
+    "major_equiv_per_unit": 0.017354793561931422
+  },
+  "usage": {
+    "input_tokens": 35432,
+    "output_tokens": 4356,
+    "cost_usd": 0.185284
+  }
+}

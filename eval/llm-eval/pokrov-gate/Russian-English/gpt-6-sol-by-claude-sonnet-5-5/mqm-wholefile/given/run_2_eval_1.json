@@ -1,0 +1,226 @@
+{
+  "dataset_name": "pokrov-gate",
+  "method": "given",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1721,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Хоботов, это мелко.",
+      "translation_quote": "Khobotov! That is petty!",
+      "justification": "Inconsistent speaker handling: the line is addressed by Velyurov-type interlocutor in the dialogue ('Хоботов, это мелко. - Пусть.'), but the translation merges it into Khobotov's own speech, and the answering 'Пусть' is dropped, breaking the exchange."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кулинар! Савва Игнатьевич...",
+      "translation_quote": "Some cook you are! Savva Ignatyevich...",
+      "justification": "Alisa Vitalyevna is calling the cook/culinary expert (an affectionate address), not mocking him; the added sarcasm changes meaning and tone."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Высокие... Высокие отношения.",
+      "translation_quote": "What an evolved... highly e-v-volved relationship!",
+      "justification": "Invented stammer 'e-v-volved' is unmotivated; the source is a stuttered repetition of 'высокие'. The odd rendering is awkward and the speaker's register is changed."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Тебя ведь это тоже касается. Не понимаю. В какой связи?",
+      "translation_quote": "How?",
+      "justification": "\"В какой связи?\" is a stiff, formal retort characteristic of Khobotov; \"How?\" is too casual and loses the pedantic tone."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, извините!",
+      "translation_quote": "I beg your pardon!",
+      "justification": "Khobotov is protesting 'No, excuse me!'; 'I beg your pardon' reads as someone hearing wrongly rather than objecting, weakening the confrontation."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 24,
+    "minor_count": 23,
+    "total_points": 143,
+    "major_equiv": 28.6,
+    "major_equiv_per_unit": 0.01661824520627542
+  },
+  "usage": {
+    "input_tokens": 61539,
+    "output_tokens": 5987,
+    "cost_usd": 0.306018
+  }
+}

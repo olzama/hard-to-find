@@ -1,0 +1,163 @@
+{
+  "dataset_name": "pokrov-gate",
+  "method": "given",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1721,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Высокие... Высокие отношения.",
+      "translation_quote": "What an evolved... highly e-v-volved relationship!",
+      "justification": "Added stuttering 'e-v-volved' and 'evolved' have no basis in the source; the repeated phrase is a deadpan euphemism ('lofty relations'), and the invented wordplay distorts it. The second occurrence also replaces a different speaker's line."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нет, я историк.",
+      "translation_quote": "Setzen Sie, bitte!",
+      "justification": "Source says 'зетсен зи битте' as a garbled German phrase; the translation gives a corrected, grammatical-looking form, losing Savva's comic broken German."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Резать к чертовой матери.",
+      "translation_quote": "Cut it the hell out",
+      "justification": "The phrasing is awkward and ungrammatical-sounding. It does not give a natural rude-doctor idiom such as \"Cut the damn thing out\"."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Живут не для радости, а для совести.",
+      "translation_quote": "You don't live to be happy, you live to do your duty.",
+      "justification": "\"Совесть\" means conscience, not duty. The moral-pressure tone of the original is shifted."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 14,
+    "minor_count": 18,
+    "total_points": 88,
+    "major_equiv": 17.6,
+    "major_equiv_per_unit": 0.010226612434631029
+  },
+  "usage": {
+    "input_tokens": 62186,
+    "output_tokens": 7908,
+    "cost_usd": 0.327816
+  }
+}

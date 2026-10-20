@@ -1,0 +1,156 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "given",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Просит ... Бабу Ягу со стороны брать не будем, воспитаем в своём коллективе! - Попытаемся.",
+      "translation_quote": "We won’t bring in a witch from outside — we’ll train one in-house.",
+      "justification": "Em dash and curly apostrophes are inconsistent with the rest of the text's typography; also 'train' slightly changes 'воспитаем' (raise/rear), losing the humorous upbringing angle."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Выходит докладчик! - Докладчик? - Да! И так коротенько",
+      "translation_quote": "And so: Briefly, about forty minutes, I don’t think we need any more than that… he delivers his talk.",
+      "justification": "Punctuation and capitalization are awkward and break the spoken rhythm; 'And so: Briefly' is stilted."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Прошу всех взглянуть на небо ... вооружённым глазом ... лучше всего, конечно, пять звёздочек!",
+      "translation_quote": "[The best cognac in USSR was known as 5*]",
+      "justification": "An editorial bracketed gloss was inserted into the subtitle text, which is not subtitle material. Also 'aided eye' is a stilted rendering of 'вооружённым глазом' (naked vs. armed eye); 'Peo-ple! ... hellooo!' and 'Assa' are rendered unnaturally."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 17,
+    "minor_count": 14,
+    "total_points": 99,
+    "major_equiv": 19.8,
+    "major_equiv_per_unit": 0.03523131672597865
+  },
+  "usage": {
+    "input_tokens": 33175,
+    "output_tokens": 3967,
+    "cost_usd": 0.172366
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "zero",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это не актуально!",
+      "translation_quote": "That's not topical!",
+      "justification": "Soviet-style dismissive 'не актуально' is rendered with an odd, unnatural English; also 'the song about the hares' exchange loses the comedy of Gennady steering him away."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "сам рыбак",
+      "translation_quote": "I'm a fisherman myself!",
+      "justification": "The line responds to 'живец' (live bait) and means he is himself the angler-turned-bait/fisherman figure; plain literal rendering loses the wry self-aware humor."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Вы говорите: поскользнулся, упал... закрытый перелом",
+      "translation_quote": "And you say: I slipped, fell...",
+      "justification": "The captain is instructing Gorbunkov what to say; the English reads as a question/statement of fact and loses the instructional tone."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Шампанское по утрам пьют или аристократы, или дегенераты!",
+      "translation_quote": "Only two kinds drink champagne in the morning: aristocrats and degenerates!",
+      "justification": "Good, but 'Измена' misrendered elsewhere: 'В измене!' translated as 'Treason!', whereas Nadya means marital infidelity ('adultery'). This distorts the whole domestic misunderstanding."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Это - я, я, я!",
+      "translation_quote": "That's me, me, me!",
+      "justification": "Fine; minor."
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Who buys a pack of tickets, gets... A water tower!",
+      "justification": "The rhyme (пачку/водокачку) is lost; 'водокачка' is a water pump house, not a water tower, and the rhyming slogan joke fails."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто заказывал такси на Дубровку?",
+      "translation_quote": "Who ordered a taxi to Dubrovka?",
+      "justification": "Fine; but the interlocking ambiguity 'Тогда ... Ладыженский' passage 'Хорошо, что он не контрабандист' is rendered fine."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Не сорвёшь!",
+      "translation_quote": "you won't pull it off!",
+      "justification": "Mildly ambiguous in English; combined with 'Don't worry, you drunk' reads oddly."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 26,
+    "minor_count": 12,
+    "total_points": 142,
+    "major_equiv": 28.4,
+    "major_equiv_per_unit": 0.0198740377886634
+  },
+  "usage": {
+    "input_tokens": 36569,
+    "output_tokens": 4444,
+    "cost_usd": 0.190712
+  }
+}

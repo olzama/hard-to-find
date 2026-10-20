@@ -1,0 +1,103 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "list-analysis",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "- Хмыренок! Деточка, а вам не кажется, что ваше место возле параши?",
+      "translation_quote": "Little one, don't you think your proper place is by the slop bucket?",
+      "justification": "Inconsistent handling of the nickname Хмырь (Creep/Little Creep) and mistranslation of the sarcastic 'деточка' register. Also 'Никола Питерский' rendered as 'Nikola of Piter', an unexplained oddity."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "You no go there, you go here, or snow on head fall - you be totally dead!",
+      "justification": "Here the pidgin is justified (Vasya's mock-Central-Asian speech), but it is then applied to Vasya in places where he speaks normal Russian (e.g., 'Gas kerosene stove I buy', 'Because it warm there'), making voice inconsistent."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк",
+      "translation_quote": "Who's afraid of the big bad wolf",
+      "justification": "Replaces the Soviet-era Russian version with the Disney song; acceptable but the following rhymed verse is paraphrased, losing 'поросята' wit."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кину не будет. Электричество кончилось.",
+      "translation_quote": "Ain't gonna be no picture show. Electricity's all used up.",
+      "justification": "Famous catchphrase 'Кина не будет' is rendered in a Western-American register that jars with the Soviet setting."
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 7,
+    "total_points": 57,
+    "major_equiv": 11.4,
+    "major_equiv_per_unit": 0.02043010752688172
+  },
+  "usage": {
+    "input_tokens": 26587,
+    "output_tokens": 2261,
+    "cost_usd": 0.128954
+  }
+}

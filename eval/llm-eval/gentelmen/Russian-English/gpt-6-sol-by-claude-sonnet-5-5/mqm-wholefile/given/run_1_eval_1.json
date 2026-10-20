@@ -1,0 +1,125 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "given",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "За Доцента! Это тебе не мелочь по карманам тырить!",
+      "translation_quote": "Got him! To Docent! This ain’t lifting wallets…",
+      "justification": "The line is a gloss-scene toast/exclamation ('For Docent!') in a scene of celebration; 'Got him! To Docent!' is garbled and the register ('ain't') is inconsistent with the rest."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "- A bad person? - A rotten radish.",
+      "justification": "'Редиска' is a mild insult for a bad person; 'rotten radish' is an odd literal calque used throughout and sounds unnatural, though it keeps the pun with 'нехороший человек'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кушать подано!",
+      "translation_quote": "Dinner is served!",
+      "justification": "Acceptable, but 'Садитесь жрать' rendered as 'stuff your faces' is fine; the major problem is that 'Шакал я паршивый' as 'lousy jackal' is a stiff calque of the Russian insult."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Hey, citizin! You don’t go there, you go here! Snow fall on head — you be dead completely!",
+      "justification": "Pidgin imitation is acceptable but 'citizin' spelling is inconsistent."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нах нас... Не страшен серый волк... Я злой и страшный серый волк, я в поросятах знаю толк.",
+      "translation_quote": "I’m the Big Bad Wolf, and I know a piglet or two!",
+      "justification": "The rhyme and the 'знаю толк' (I'm an expert on piglets) sense are weakened."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк",
+      "translation_quote": "We're not afraid of the big bad wolf",
+      "justification": "The established Russian pop-culture reference to the Three Little Pigs song is domesticated but acceptable."
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 8,
+    "total_points": 73,
+    "major_equiv": 14.6,
+    "major_equiv_per_unit": 0.026164874551971324
+  },
+  "usage": {
+    "input_tokens": 26238,
+    "output_tokens": 2955,
+    "cost_usd": 0.134498
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "given",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, в нашем деле гланое - этот самый реализм!",
+      "translation_quote": "As our dear boss says, in our line of work, realism is everything!",
+      "justification": "Acceptable, but the recurring catchphrase structure 'Как говорит наш дорогой шеф' is rendered inconsistently across the film ('As our beloved boss says', 'As our dear boss says'), and the boss's mangled proverbs lose their comedic malapropism."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole ticket pack, win... a tractor rack!",
+      "justification": "The source rhyme pun (пачку/водокачку, the absurd prize of a water tower) is replaced by an odd 'tractor rack', which is not a meaningful object and loses the absurd Soviet lottery humor."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "За чужой счёт пьют даже трезвенники и язвенники.",
+      "translation_quote": "On someone else's dime, even teetotalers and convalescers drink!",
+      "justification": "'Язвенники' means people with ulcers; 'convalescers' is a mistranslation, and the humor of the rhyming pair is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Если человек идиот - то это надолго.",
+      "translation_quote": "'If a man is an idiot, it's for a long time!'",
+      "justification": "Awkward literal rendering of the boss's aphorism; also uses single quotes inconsistently. The deadpan wisdom reads unnaturally; 'being an idiot is for life' would work."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Таблэтки",
+      "translation_quote": "Just one 'tab-LEHT' will do.",
+      "justification": "Source 'таблэтка' is a mispronunciation joke; the translation's phonetic 'tab-LEHT' is awkward and confusing. Same with 'coff-ey'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Хорошо бы ай-лю-лю, цигель, цигель",
+      "translation_quote": "Comrade, comrade, it'd be good to ai-lyu-lyu! Zigel, zigel!",
+      "justification": "The pseudo-foreign gibberish is transliterated inconsistently ('Zigel' vs 'Zigel-zigel'), and the comic-foreign effect is weak for English viewers."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Закрытый перелом... Потерял сознание, очнулся - гипс",
+      "translation_quote": "Closed fracture. Passed out. Woke up in a cast.",
+      "justification": "The running gag is consistent, but its mantra-like cadence of the original is a little less rhythmic."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No! I ain't doing no such thing!",
+      "justification": "Register shift: Lyolik's rustic mispronunciation is rendered as American slang with a double negative, which is inconsistent with other lines."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 16,
+    "minor_count": 15,
+    "total_points": 95,
+    "major_equiv": 19.0,
+    "major_equiv_per_unit": 0.013296011196641007
+  },
+  "usage": {
+    "input_tokens": 35567,
+    "output_tokens": 4052,
+    "cost_usd": 0.182784
+  }
+}

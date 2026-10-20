@@ -1,0 +1,90 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "characters",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это нетипично!",
+      "translation_quote": "It's not typical! ... That would be typical.",
+      "justification": "The bureaucratic cliché 'типично/нетипично' is rendered literally and sounds odd in English, failing to evoke Soviet officialese."
+    }
+  ],
+  "summary": {
+    "major_count": 11,
+    "minor_count": 5,
+    "total_points": 60,
+    "major_equiv": 12.0,
+    "major_equiv_per_unit": 0.021352313167259787
+  },
+  "usage": {
+    "input_tokens": 32444,
+    "output_tokens": 2281,
+    "cost_usd": 0.152582
+  }
+}

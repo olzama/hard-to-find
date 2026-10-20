@@ -1,0 +1,91 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "zero",
+  "run": "1",
+  "eval_run": 2,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Нам не страшен серый волк, серый волк, серый волк...",
+      "translation_quote": "Who's afraid of the big bad wolf, big bad wolf, big bad wolf...",
+      "justification": "Substituting the Disney song is a defensible adaptation, but the following rhyming couplet is then rewritten loosely; the kindergarten song loses its link to the original film gag."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Пасть порву",
+      "translation_quote": "I'll rip your mouth out",
+      "justification": "Acceptable literal rendering, but 'Пасть' is an animal's maw; 'I'll rip your trap/jaws off' would better convey the coarse insult. The same line is used as a refrain, so the weaker choice is repeated."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Сидячий?",
+      "translation_quote": "Seated?",
+      "justification": "The joke ('Who'd put him in jail/seat him? He's a monument') relies on the pun on 'сажать'; the translation 'Who'd put him away?' only partly transfers it."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Это тебе не мелочь по карманам тырить!",
+      "translation_quote": "This ain't like pinching small change from pockets!",
+      "justification": "Awkward and ungrammatical-sounding; 'ain't like' is an odd register for the speaker (a police officer). Should be 'This isn't pinching small change from pockets!'"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 7,
+    "minor_count": 7,
+    "total_points": 42,
+    "major_equiv": 8.4,
+    "major_equiv_per_unit": 0.015053763440860216
+  },
+  "usage": {
+    "input_tokens": 26431,
+    "output_tokens": 2023,
+    "cost_usd": 0.022876900000000002
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "list-analysis",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Бабу Ягу со стороны брать не будем, воспитаем в своём коллективе!",
+      "translation_quote": "We won't hire a Baba Yaga from outside, we'll raise our own within the collective!",
+      "justification": "Acceptable, but 'Так вот, Коты у меня в смете запланированы, а на сапоги денег нет' with 'Cut. - Cut what? - The cats.' loses the original's punchline nuance of 'Урезать / Котов' (cutting the cats, i.e. cutting boots vs cats)."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Лектора беру на себя. ... Лектор готов? - Готов лектор, давно готов!",
+      "translation_quote": "Oh, he's gone, the lecturer. Long gone!",
+      "justification": "'Готов' means both 'ready' and slang 'plastered/drunk'; the translation changes it to 'gone', which obscures the joke that the lecturer is drunk."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 15,
+    "minor_count": 9,
+    "total_points": 84,
+    "major_equiv": 16.8,
+    "major_equiv_per_unit": 0.029893238434163704
+  },
+  "usage": {
+    "input_tokens": 33175,
+    "output_tokens": 3139,
+    "cost_usd": 0.164086
+  }
+}

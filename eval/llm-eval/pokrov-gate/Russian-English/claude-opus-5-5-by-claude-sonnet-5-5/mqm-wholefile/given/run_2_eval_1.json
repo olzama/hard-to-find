@@ -1,0 +1,175 @@
+{
+  "dataset_name": "pokrov-gate",
+  "method": "given",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1721,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Высокие... Высокие отношения.",
+      "translation_quote": "What an evolved... highly e-v-volved relationship!",
+      "justification": "The source line is a straightforward repeated phrase \"lofty relations\"; the translation adds an invented stutter and 'evolved' wording, changing the meaning and tone."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кому? Нет, нет, нет! Хоботов, не галди.",
+      "translation_quote": "Khobotov, stop making a racket.",
+      "justification": "Acceptable, but earlier \"Анфант террибль, несчастный\" is rendered \"Enfant terrible, you poor thing\" which softens the insult."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Нет, нет, нет! Хоботов, не галди.",
+      "translation_quote": "Pray, tell me, name them!!",
+      "justification": "Stilted, archaic 'Pray' and doubled punctuation do not match the angry, colloquial Russian 'Назови!'."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Живут не для радости, а для совести.",
+      "translation_quote": "You don't live to be happy, you live to do your duty.",
+      "justification": "'Совесть' means conscience, not duty. The shift weakens the moralizing, paternalistic tone of Savva's pronouncement."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 17,
+    "minor_count": 18,
+    "total_points": 103,
+    "major_equiv": 20.6,
+    "major_equiv_per_unit": 0.011969785008715863
+  },
+  "usage": {
+    "input_tokens": 62934,
+    "output_tokens": 7389,
+    "cost_usd": 0.32561799999999996
+  }
+}

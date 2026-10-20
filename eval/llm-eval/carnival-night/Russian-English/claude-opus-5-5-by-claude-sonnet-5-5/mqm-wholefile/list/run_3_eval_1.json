@@ -1,0 +1,136 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "list",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "И так коротенько, минут на сорок",
+      "translation_quote": "And briefly, say, about forty minutes",
+      "justification": "The comic contradiction 'коротенько, минут на сорок' is preserved, but 'say' adds a hedge that weakens the bureaucratic deadpan."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Лектор готов? - Готов лектор, давно готов!",
+      "translation_quote": "Oh, he's ready, all right. Well past ready!",
+      "justification": "Implicit meaning is that the lecturer is drunk; translation hides this, losing the joke setup though the following scene shows it."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "И посмотреть вооружённым глазом",
+      "translation_quote": "And look with the un-naked eye",
+      "justification": "'Вооружённым глазом' (armed eye) is rendered as 'un-naked eye', which is awkward; the drunken lecturer's escalating star count ('five-star' for brandy) is a clever solution, but 'un-naked' reads as forced."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 13,
+    "total_points": 78,
+    "major_equiv": 15.6,
+    "major_equiv_per_unit": 0.02775800711743772
+  },
+  "usage": {
+    "input_tokens": 33010,
+    "output_tokens": 3068,
+    "cost_usd": 0.162716
+  }
+}

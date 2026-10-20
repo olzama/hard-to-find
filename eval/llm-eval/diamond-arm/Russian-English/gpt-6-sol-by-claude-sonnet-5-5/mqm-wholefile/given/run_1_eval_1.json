@@ -1,0 +1,167 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "given",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты жил на одну зарплату!",
+      "translation_quote": "May you live... on nothing but... your salary!",
+      "justification": "The famous curse is weakened; the translation hedges with ellipses and loses the comic punch of a mundane 'curse' (live on one salary), and the preceding curse's Russian dialectal flavor (\"у гробу, у белых тапках\") is flattened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole ticket pack, win... a tractor rack!",
+      "justification": "The rhyming lottery slogan is altered to an invented, nonsensical prize; the absurd comic prize (a water tower/pump) is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "за чужой счёт пьют даже трезвенники и язвенники",
+      "translation_quote": "even teetotalers and convalescers drink",
+      "justification": "'Язвенники' means people with ulcers, not 'convalescers'; mistranslation."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Если человек идиот - то это надолго.",
+      "translation_quote": "If a man is an idiot, it's for a long time!",
+      "justification": "Literal rendering; the boss's aphorism parody sounds awkward and the sardonic delivery is weak; also the first boss aphorism 'главное - реализм' is fine but this one misses idiomatic punch ('being an idiot is for life')."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No! I ain't doing no such thing!",
+      "justification": "Lyolik's substandard 'пойтить' is rendered with heavy American-rural slang ('ain't doing no such thing'), which mismatches the character's voice elsewhere."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нет, нет, не надо, я сам... Семён Семёнович, ну давайте без самодеятельности!",
+      "translation_quote": "No, no. I'll pay myself... Semyon Semyonovich, please don't improvise!",
+      "justification": "'Without amateur initiative' carries a Soviet institutional flavor; 'improvise' is acceptable but loses the 'amateur theatre' echo with the earlier 'самодеятельность' question."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "Twasn't my fault! He came here on his own!",
+      "justification": "Register shift: the Russian is a woman's colloquial protest; archaic English misleads."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Шампанское по утрам пьют или аристократы, или дегенераты!",
+      "translation_quote": "In the morning, champagne is drunk only by aristocrats and degenerates.",
+      "justification": "The punchy Soviet aphorism is rendered as stiff passive prose, and 'только' is added; spoken punch is lost."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 17,
+    "total_points": 82,
+    "major_equiv": 16.4,
+    "major_equiv_per_unit": 0.011476557032890132
+  },
+  "usage": {
+    "input_tokens": 35570,
+    "output_tokens": 3783,
+    "cost_usd": 0.18010600000000002
+  }
+}

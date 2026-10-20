@@ -1,0 +1,96 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "characters",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк, серый волк, серый волк...",
+      "translation_quote": "Who's afraid of the big bad wolf, big bad wolf, big bad wolf...",
+      "justification": "The kids' song is rendered with a different cultural reference, and the following 'Я злой и страшный серый волк, я в поросятах знаю толк' is mangled into 'I know a thing or two about piglets', losing the rhyme and the playful menace of the kindergarten skit."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A bad person? - A radish.",
+      "justification": "Literal 'radish' as slang for a bad person has no resonance in English and no gloss; the recurring joke built around this word is opaque to English viewers. Needs an English equivalent (e.g. 'rotten egg')."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Чего ты свистишь?",
+      "translation_quote": "Quit your blabbing!",
+      "justification": "'Свистишь' means telling lies/making things up, not blabbing."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 6,
+    "total_points": 56,
+    "major_equiv": 11.2,
+    "major_equiv_per_unit": 0.02007168458781362
+  },
+  "usage": {
+    "input_tokens": 26265,
+    "output_tokens": 2000,
+    "cost_usd": 0.125056
+  }
+}

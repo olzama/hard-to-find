@@ -1,0 +1,133 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list-analysis",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, за чужой счёт пьют даже трезвенники и язвенники.",
+      "translation_quote": "on someone else's dime even the abstemious drink and the ulcerous!",
+      "justification": "The pairing 'трезвенники и язвенники' is a humorous rhyming/aphoristic formula; 'the abstemious ... the ulcerous' is stilted and loses the comic punch and register of the boss's maxim."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a stack of tickets and you'll win... A water tower!",
+      "justification": "The rhymed lottery slogan (пачку/водокачку) is a joke and loses its rhyme; 'water tower' is also not 'водокачка' (water pump house). The comic rhyming jingle is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Дитям - мороженое, его бабе - цветы. Смотри, не перепутай!",
+      "translation_quote": "ice cream fer the kiddies, flowers fer his old lady. Mind ya don't mix 'em up!",
+      "justification": "The punchline is that Lyolik mixes them up (ice cream thrown at the face/flowers); acceptable, but the dialect spelling ('fer', 'ya') introduces an unmotivated register for this character."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Если человек идиот - то это надолго.",
+      "translation_quote": "if a man is an idiot, it's chronic.",
+      "justification": "'Chronic' loses the aphoristic punch of 'надолго' (it's for a long time); the boss's pseudo-wisdom quip is weakened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No! I ain't goin' for that!",
+      "justification": "Lyolik's comic uneducated speech ('пойтить') is rendered as American-sounding dialect, and inconsistent with how his speech is handled elsewhere."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Эти кретины уверяли, что он был без сознания... Значит, этот лопух ничего не знает.",
+      "translation_quote": "So this sucker doesn't know a thing.",
+      "justification": "Acceptable, but the repeated rendering of 'лопух' as 'sucker' versus 'A sucker...' is fine; no issue beyond minor register."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 10,
+    "total_points": 75,
+    "major_equiv": 15.0,
+    "major_equiv_per_unit": 0.010496850944716585
+  },
+  "usage": {
+    "input_tokens": 36292,
+    "output_tokens": 3156,
+    "cost_usd": 0.176724
+  }
+}

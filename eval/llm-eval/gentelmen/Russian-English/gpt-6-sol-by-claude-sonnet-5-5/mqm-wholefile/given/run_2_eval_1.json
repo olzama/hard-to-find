@@ -1,0 +1,128 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "given",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, не он. - Легавый. - Точно.",
+      "translation_quote": "- Well? - No, it's not him. - A cop. - Definitely.",
+      "justification": "Fine in general, but the earlier 'Ес, ес, ОБХС' is rendered 'IRS', an anachronistic and wrong cultural substitution for the Soviet anti-embezzlement police; the joke (the forger hearing a cop-word) is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк... Я злой и страшный серый волк, я в поросятах знаю толк.",
+      "translation_quote": "I'm the Big Bad Wolf, and I know a piglet or two!",
+      "justification": "The rhyme and the pun 'знаю толк' (I have a taste for piglets) are lost; song lacks rhyme and play."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Ну ты даешь! ... Во заливает! На фронте!",
+      "translation_quote": "Listen to him making things up! The front!",
+      "justification": "Acceptable, but the character Sanych's 'Alexander Sanych' voice and the thieves' slang vs. polite register contrast is flattened by plain modern English."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Hey, citizin! You don’t go there, you go here! Snow fall on head — you be dead completely!",
+      "justification": "Pidgin imitation of the Central Asian dialect is inconsistent ('citizin', mixed grammar), and 'You don’t go there, you go here' is standard English, weakening the comic accent."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Это тебе не мелочь по карманам тырить!",
+      "translation_quote": "This ain’t lifting wallets…",
+      "justification": "Register shift: 'ain’t' is inconsistent with the otherwise neutral voice, and the retort loses force."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Сидячий? - Чего? - Сидит? - Кто? - Мужик этот твой!",
+      "translation_quote": "Was he inside?",
+      "justification": "The pun on 'сидячий/сидит' (seated vs. jailed) is mistranslated as 'inside', and 'Who'd put him inside?' fails to carry the wordplay about a seated statue."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Федя",
+      "translation_quote": "I’m Feodor.",
+      "justification": "Inconsistent naming: Fedya elsewhere, Feodor here."
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 8,
+    "total_points": 73,
+    "major_equiv": 14.6,
+    "major_equiv_per_unit": 0.026164874551971324
+  },
+  "usage": {
+    "input_tokens": 26197,
+    "output_tokens": 2732,
+    "cost_usd": 0.132104
+  }
+}

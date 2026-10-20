@@ -1,0 +1,114 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это не актуально! \"Остров Невезения\"!",
+      "translation_quote": "They're not topical! \"Island of Misfortune\"!",
+      "justification": "'Не актуально' is a dated Soviet idiom for 'out of fashion/irrelevant'; 'topical' is a stiff, wrong rendering. Also 'Ba-ba-ba' and 'Oh yes, be chill, all right' mistranslate the garbled pseudo-English 'О ес, би чел' (a joke of fake English)."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Хорошо, что он не контрабандист, симпатичный мужик",
+      "translation_quote": "I'm glad he's not a smuggler.",
+      "justification": "Minor loss of nuance, but also 'Ты зачем усы сбрил, дурик?' is fine. The larger issue is the omitted/odd ending lyric and 'Ну-ка иди отсюда, Миша! Как у вас там говорят, топай до хазы' rendered as 'get back to your pad' which loses the mock-criminal slang."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "Drop dead! I hope to see you in your coffin, in your little white slippers! May you live... on nothing... but your salary!",
+      "justification": "The neighbour's Odessa-style dialectal Yiddish-inflected speech ('у гробу, у белых тапках') is rendered in standard English, losing the character voice."
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a stack of tickets, win a fabulous... waterworks!",
+      "justification": "The Russian rhyme (пачку/водокачку) is lost and 'fabulous' is an addition; the comic anticlimax is weakened."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Шампанское по утрам пьют или аристократы, или дегенераты!",
+      "translation_quote": "Only aristocrats and degenerates drink champagne in the morning!",
+      "justification": "Acceptable, but the official Soviet moralizing tone of the building manager could be sharper."
+    }
+  ],
+  "summary": {
+    "major_count": 11,
+    "minor_count": 8,
+    "total_points": 63,
+    "major_equiv": 12.6,
+    "major_equiv_per_unit": 0.008817354793561931
+  },
+  "usage": {
+    "input_tokens": 35330,
+    "output_tokens": 2686,
+    "cost_usd": 0.168176
+  }
+}

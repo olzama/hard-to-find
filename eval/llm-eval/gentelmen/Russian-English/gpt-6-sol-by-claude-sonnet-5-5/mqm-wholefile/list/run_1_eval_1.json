@@ -1,0 +1,96 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "list",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нету. Были, а теперь нет.",
+      "translation_quote": "- It's gone. It was here, but it's gone.",
+      "justification": "Speaker confusion aside, the exchange about the lost money is muddled; 'Нету' answers the request for ten rubles, which the translation obscures."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Не было у нас такого уговора!",
+      "translation_quote": "- That wasn't the deal!",
+      "justification": "Acceptable, but 'Косой, плавать умеешь?' translated 'Squint' inconsistent with 'Косой' later rendered 'Squint' while 'Хмырь' became 'Weasel' and 'Хмыренок' 'Weasel' too, plus 'Weasel' versus 'Рябой' as 'Speckled': nickname rendering is inconsistent."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек, Косой",
+      "translation_quote": "You're a bad man, Squint.",
+      "justification": "The childlike euphemism 'нехороший человек' is a running joke; 'bad man' is less deliberately naive."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 6,
+    "total_points": 56,
+    "major_equiv": 11.2,
+    "major_equiv_per_unit": 0.02007168458781362
+  },
+  "usage": {
+    "input_tokens": 25865,
+    "output_tokens": 1990,
+    "cost_usd": 0.12335600000000001
+  }
+}

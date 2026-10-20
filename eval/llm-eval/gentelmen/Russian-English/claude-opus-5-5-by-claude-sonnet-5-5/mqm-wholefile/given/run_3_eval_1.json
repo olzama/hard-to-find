@@ -1,0 +1,137 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "given",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A not-so-good person? - A radish.",
+      "justification": "\"Not-so-good person\" is a stilted literal rendering of the euphemistic 'нехороший человек'; repeated throughout (Cross-Eye, 'not-so-good person'), it sounds unnatural. The joke of the Docent's euphemism vs. slang is weakened; 'bad egg'/'rotten apple' would work better."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Ты того... Чего \"того\"?",
+      "translation_quote": "You, kind of... Kind of what?",
+      "justification": "Acceptable overall, but the Docent's comic confrontation is flattened; minor rendering inaccuracies reduce the effect."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Я злой и страшный серый волк, я в поросятах знаю толк.",
+      "translation_quote": "I’m the Big Bad Wolf, and I know a piglet or two!",
+      "justification": "The rhyming children's song parody ('Nobody fears the grey wolf') is only partly preserved; the original rhyme and the cultural reference to the Russian version are lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Девушка? - Чувиха.",
+      "translation_quote": "- Girl? - Chick.",
+      "justification": "The Russian gag is slang vs. English lesson; here the translation works, but 'Это Вася... младший научный сотрудник' follows with incoherent flow."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Сколько я зарезал, сколько перерезал, сколько душ я загубил!",
+      "translation_quote": "Oh, how many I’ve stabbed, how many I’ve slashed, how many souls I’ve damned!",
+      "justification": "This is the parodic thieves' song ('Сколько я зарезал, сколько перерезал'); 'damned' misrenders 'загубил' (destroyed/ruined) and the rhythm of the parody is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Ты чего свистишь?",
+      "translation_quote": "What are you blowing smoke for?",
+      "justification": "'Свистишь' here means 'lying/making things up'; the translation is somewhat unnatural."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 16,
+    "minor_count": 8,
+    "total_points": 88,
+    "major_equiv": 17.6,
+    "major_equiv_per_unit": 0.031541218637992835
+  },
+  "usage": {
+    "input_tokens": 26482,
+    "output_tokens": 3066,
+    "cost_usd": 0.136584
+  }
+}

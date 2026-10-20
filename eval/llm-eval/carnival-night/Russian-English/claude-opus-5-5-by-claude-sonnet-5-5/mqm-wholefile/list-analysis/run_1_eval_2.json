@@ -1,0 +1,63 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "list-analysis",
+  "run": "1",
+  "eval_run": 2,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 3,
+    "minor_count": 7,
+    "total_points": 22,
+    "major_equiv": 4.4,
+    "major_equiv_per_unit": 0.007829181494661922
+  },
+  "usage": {
+    "input_tokens": 33175,
+    "output_tokens": 5505,
+    "cost_usd": 0.0583713
+  }
+}

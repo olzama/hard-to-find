@@ -1,0 +1,113 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "zero",
+  "run": "1",
+  "eval_run": 2,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Есть ли жизнь на Марсе... Асса.. Асса..",
+      "translation_quote": "Assa... Assa...",
+      "justification": "Untranslated interjection (drunken 'Hup-la/Whoopee') is opaque in English."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Бабу Ягу со стороны брать не будем, воспитаем в своём коллективе",
+      "translation_quote": "We won't bring Baba Yaga in from outside, we'll raise one within our own collective!",
+      "justification": "Acceptable; however 'staff position' for 'единицы' earlier is slightly off for the Soviet staffing term, and the earlier 'snowflakes, 30 units' is inconsistent."
+    }
+  ],
+  "summary": {
+    "major_count": 9,
+    "minor_count": 12,
+    "total_points": 57,
+    "major_equiv": 11.4,
+    "major_equiv_per_unit": 0.020284697508896797
+  },
+  "usage": {
+    "input_tokens": 33056,
+    "output_tokens": 2715,
+    "cost_usd": 0.0304594
+  }
+}

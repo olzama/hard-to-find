@@ -1,0 +1,167 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "zero",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "gpt-5.4",
+  "translator": "gpt-5.2",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "не задерживайте",
+      "translation_quote": "don’t задерживайте",
+      "justification": "An untranslated Russian verb is left in the subtitle. This is a clear accuracy problem that interrupts basic comprehension."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Я никак не рассчитывал, что он... гипсом...",
+      "translation_quote": "I didn’t рассчитывал that he’d... with plaster...",
+      "justification": "The key verb 'рассчитывал' is left untranslated, making the line broken and unprofessional. The sentence should be fully rendered into idiomatic English."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "лёгким движением руки",
+      "translation_quote": "With a легким movement of the hand",
+      "justification": "The adjective is left in Russian. This line is iconic, so leaving it mixed-language seriously harms delivery and comic effect."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Руссо туристо… Облико морале… ферштейн?",
+      "translation_quote": "Russo tourist… Obliko morale… verstanden?",
+      "justification": "This macaronic pseudo-foreign comic line is left almost entirely as transliteration, so the humor does not cross into English. The gag depends on the listener grasping the meaning: roughly 'Soviet tourist, moral character—understand?' As instructed, a joke that fails cross-culturally is a major issue."
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Наши люди в булочную на такси не ездят!",
+      "translation_quote": "Our people don’t take a taxi to the bakery!",
+      "justification": "The line is translated literally, but the idiomatic Soviet-social register and punch are not conveyed. In English it sounds merely factual, not like a memorable social catchphrase. Given the status of the line and its comic-cultural function, this is a major style loss."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "It’s not my fault! He came himself!",
+      "justification": "The famous melodramatic cliché is rendered too literally. 'He came himself' is awkward and unintentionally bizarre in English, failing to reproduce the comic register. Something like 'It’s not my fault—he came to me on his own!' would better carry the theatrical flavor."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology",
+      "source_quote": "гипс",
+      "translation_quote": "plaster",
+      "justification": "The translation oscillates around 'plaster' for a cast. In this context, especially in repeated comic formulae, 'cast' would be the more idiomatic and consistent choice in English subtitles."
+    },
+    {
+      "severity": "minor",
+      "category": "terminology",
+      "source_quote": "закрытый перелом",
+      "translation_quote": "a closed fracture",
+      "justification": "Medically accurate, but for colloquial dialogue repeated as a comic refrain, 'simple fracture' or just 'fracture' might sound more natural in English. The literal term feels technical and stiff."
+    }
+  ],
+  "summary": {
+    "major_count": 22,
+    "minor_count": 8,
+    "total_points": 118,
+    "major_equiv": 23.6,
+    "major_equiv_per_unit": 0.016515045486354095
+  },
+  "usage": {
+    "input_tokens": 23917,
+    "output_tokens": 2083,
+    "cost_usd": 0.09103750000000001
+  }
+}

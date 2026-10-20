@@ -1,0 +1,103 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "meme-search",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "Bad person? - Radish.",
+      "justification": "Literal 'radish' retained as a slang term for a bad person; the English audience loses the slang sense (the Russian 'redisk' is a known thieves' cant for a scoundrel), and the running gag is opaque. No explanation or equivalent slang such as 'rat' or 'creep'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Hey, citizen! You no go there, you go here, or snow fall on head - you be totally dead!",
+      "justification": "The mock-Central-Asian accent is a deliberate comic disguise; the translation renders it as generic pidgin, losing the ethnic specificity but that is acceptable; however it is applied inconsistently elsewhere (e.g. 'Why you so mean?'), blurring the distinction."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Шах! - Ходи лошадью, лошадью ходи, дурак!",
+      "translation_quote": "- Move the horse, move the horse, you idiot!",
+      "justification": "Chess scene: 'horse' for knight is a literal calque (the Russian slang 'лошадь' for knight is natural, but English players say 'knight'). The calque reads odd, though comprehensible."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк",
+      "translation_quote": "Who's afraid of the big bad wolf, big bad wolf, big bad wolf...",
+      "justification": "Swapped for a Disney song, which anachronistically replaces the Soviet cultural reference, though it works functionally; the following 'I am the big bad scary wolf, and piglets I know well enough' is clumsy."
+    }
+  ],
+  "summary": {
+    "major_count": 11,
+    "minor_count": 6,
+    "total_points": 61,
+    "major_equiv": 12.2,
+    "major_equiv_per_unit": 0.02186379928315412
+  },
+  "usage": {
+    "input_tokens": 26500,
+    "output_tokens": 2524,
+    "cost_usd": 0.13123600000000002
+  }
+}

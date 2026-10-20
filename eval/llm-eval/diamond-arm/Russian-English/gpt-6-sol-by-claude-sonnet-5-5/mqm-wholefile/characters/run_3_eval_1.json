@@ -1,0 +1,87 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "characters",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Закрытый перелом",
+      "translation_quote": "Simple fracture",
+      "severity_note": "",
+      "justification": "The running gag contrasts 'закрытый' (closed) and 'открытый' (open) fracture; 'simple vs compound' conveys the medical contrast but 'simple' loses the sense of 'closed', and the joke is that the plaster hides something. Acceptable but flattened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 9,
+    "minor_count": 6,
+    "total_points": 51,
+    "major_equiv": 10.2,
+    "major_equiv_per_unit": 0.007137858642407277
+  },
+  "usage": {
+    "input_tokens": 35498,
+    "output_tokens": 2176,
+    "cost_usd": 0.163748
+  }
+}

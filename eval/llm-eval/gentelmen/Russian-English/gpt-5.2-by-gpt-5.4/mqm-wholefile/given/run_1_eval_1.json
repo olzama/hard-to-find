@@ -1,0 +1,199 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "given",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "gpt-5.4",
+  "translator": "gpt-5.2",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это тебе не мелочь по карманам тырить!",
+      "translation_quote": "This ain’t lifting wallets…",
+      "justification": "The source means 'This isn't petty pickpocketing / stealing loose change from pockets.' 'Lifting wallets' narrows and changes the image, losing the contrast with small-time theft."
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "terminology",
+      "source_quote": "Пасть порву! ... Моргалы выколю!",
+      "translation_quote": "I’ll rip your trap! ... poke your peepers out!",
+      "justification": "These repeated catchphrases are rendered inconsistently and awkwardly. 'Rip your trap' is highly marked and unnatural in English, while 'peepers' pushes the tone into cartoonish slang. Because these are core recurring verbal tics, unstable/inapt rendering damages characterization."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Деточка, а вам не кажется, что ваше место возле параши?",
+      "translation_quote": "Sweetheart, don’t you think you belong with the punks?",
+      "justification": "'Возле параши' refers to the prison toilet/bucket, a very specific humiliating threat. 'With the punks' is a different idea entirely and removes the prison-specific insult."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Сколько душ я загубил!",
+      "translation_quote": "how many souls I’ve damned!",
+      "justification": "The Russian means 'ruined/destroyed/killed.' 'Damned' introduces a theological meaning absent from the source and blunts the criminal bravado."
+    },
+    {
+      "severity": "major",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Устроили тут ромашка: Помню-не помню.",
+      "translation_quote": "You’re making a daisy out of it: Remember-don’t remember.",
+      "justification": "This is too literal and opaque. The idiomatic complaint about back-and-forth repetition does not come across naturally in English."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Пруд там был? - Не было. Лужи были.",
+      "translation_quote": "Was there a square? — There was.",
+      "justification": "The translation changes 'pond' to 'square' and flips the answer. This is a clear factual mistranslation that disrupts the location-finding dialogue."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Кушать подано! Садитесь жрать, пожалуйста.",
+      "translation_quote": "Dinner is served! Please be seated and stuff your faces.",
+      "justification": "The Russian deliberately mixes polite formula with coarse vulgarity for comic effect. 'Stuff your faces' is close in crudeness but misses the deadpan mock-servility of the original phrase."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "You don’t go there, you go here! Snow fall on head — you be dead completely!",
+      "justification": "This famous line uses a stylized migrant-accent Russian. The broken English solution is risky and reads like generic caricature rather than preserving the original Soviet comic voice. The joke's cultural flavor is significantly altered."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "terminology"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 33,
+    "minor_count": 5,
+    "total_points": 170,
+    "major_equiv": 34.0,
+    "major_equiv_per_unit": 0.06093189964157706
+  },
+  "usage": {
+    "input_tokens": 17855,
+    "output_tokens": 3147,
+    "cost_usd": 0.09184250000000001
+  }
+}

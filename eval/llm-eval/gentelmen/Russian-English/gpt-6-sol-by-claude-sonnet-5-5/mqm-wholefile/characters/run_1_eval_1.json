@@ -1,0 +1,123 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "characters",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Ходи лошадью, лошадью ходи, дурак!",
+      "translation_quote": "Move your knight! The knight, you fool!",
+      "justification": "Acceptable, but later 'Отвалис!/Отвались' rendered 'Buzz off' is too mild; more importantly the chess scene's 'Мат' stakes are fine. (Low-weight note.)"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Hey, mister! Don't go that way. Come this way! Snow fall on head that way. You be completely dead!",
+      "justification": "Parody of broken Russian accent in the original is rendered as pidgin, which is a stereotype and reads as offensive caricature; the humor of the source (Central Asian accent) is not matched in a controlled way."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Пасть порву",
+      "translation_quote": "I'll rip your mouth off",
+      "justification": "Literal rendering of a signature threat; 'rip your mouth off' is unnatural English where 'I'll tear your head off' or 'I'll smash your face in' would be idiomatic."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "моргалы выколю",
+      "translation_quote": "poke your peepers out",
+      "justification": "'Peepers' is too cute/jocular for a menacing slang threat."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 14,
+    "minor_count": 8,
+    "total_points": 78,
+    "major_equiv": 15.6,
+    "major_equiv_per_unit": 0.02795698924731183
+  },
+  "usage": {
+    "input_tokens": 26225,
+    "output_tokens": 2962,
+    "cost_usd": 0.134516
+  }
+}

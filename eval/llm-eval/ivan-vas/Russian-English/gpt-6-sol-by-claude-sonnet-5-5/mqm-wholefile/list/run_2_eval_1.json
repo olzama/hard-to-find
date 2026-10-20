@@ -1,0 +1,97 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "list",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Меня терзают смутные сомнения.",
+      "translation_quote": "I'm having vague suspicions.",
+      "justification": "The mock-literary, parodic register of the iconic Russian line is lost; plain 'I'm having vague suspicions' reads neutral. A more theatrical rendering, e.g. 'I am plagued by vague doubts', would preserve the effect."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Замороская икра... Баклажанная!",
+      "translation_quote": "Exotic caviar... Eggplant!",
+      "justification": "The joke is that 'overseas caviar' is eggplant spread; 'Exotic caviar... Eggplant!' is acceptable but loses 'заморская' (from across the sea) period flavor."
+    }
+  ],
+  "summary": {
+    "major_count": 8,
+    "minor_count": 9,
+    "total_points": 49,
+    "major_equiv": 9.8,
+    "major_equiv_per_unit": 0.011666666666666667
+  },
+  "usage": {
+    "input_tokens": 34812,
+    "output_tokens": 2250,
+    "cost_usd": 0.161744
+  }
+}

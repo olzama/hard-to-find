@@ -1,0 +1,104 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "characters",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Ну, с тем, с которым Вы были... на рыбалке",
+      "translation_quote": "Treason!",
+      "justification": "'В измене!' (infidelity) is rendered as 'Treason', which changes the meaning: Nadya suspects adultery, and the later joke about espionage/recruitment depends on the contrast. 'Infidelity' is needed."
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, за чужой счёт пьют даже трезвенники и язвенники.",
+      "translation_quote": "even teetotalers drink and ulcer sufferers.",
+      "justification": "Ungrammatical/awkward: should be 'even teetotalers and ulcer sufferers drink'."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Whoever buys a whole stack will get... A water tank!",
+      "justification": "The rhyme (пачку/водокачку) of the lottery slogan is lost; 'водокачка' is a water pumping tower, and the humor of the absurd prize is weakened."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 8,
+    "minor_count": 10,
+    "total_points": 50,
+    "major_equiv": 10.0,
+    "major_equiv_per_unit": 0.006997900629811057
+  },
+  "usage": {
+    "input_tokens": 36357,
+    "output_tokens": 2503,
+    "cost_usd": 0.170454
+  }
+}

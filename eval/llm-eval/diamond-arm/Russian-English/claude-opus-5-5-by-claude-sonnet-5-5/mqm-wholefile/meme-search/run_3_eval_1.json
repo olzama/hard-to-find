@@ -1,0 +1,134 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "meme-search",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Как говорит наш дорогой шеф, в нашем деле гланое - этот самый реализм!",
+      "translation_quote": "As our dear chief says, in our business the main thing is this here realism!",
+      "justification": "'this here' makes a rustic voice that does not match the original's mockingly pompous quotation of the chief; recurring catchphrase is also inconsistently rendered across the film."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy your tickets by the batch, and you'll win... A water tower to match!",
+      "justification": "Adequate rhyme, but 'water tower' misrenders водокачка (pumping station) and the verse is the lottery slogan parody; minor meaning shift weakens the joke."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Достаточно одной таблэтки...",
+      "translation_quote": "Just vun tablet...",
+      "justification": "Invented German accent not present in the source (the character speaks plain Russian with a comic 'таблэтки'); creates an inconsistent character voice."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "Ain't my fault! He come by hisself!",
+      "justification": "Heavy non-standard English dialect overshoots the source's mildly colloquial speech and clashes with the character's earlier voice."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No, that I ain't goin' along with!",
+      "justification": "The source's rustic ungrammatical 'пойтить' is a fake-peasant touch, but the English dialect is again too heavy and sounds American."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 17,
+    "minor_count": 7,
+    "total_points": 92,
+    "major_equiv": 18.4,
+    "major_equiv_per_unit": 0.012876137158852344
+  },
+  "usage": {
+    "input_tokens": 36543,
+    "output_tokens": 3089,
+    "cost_usd": 0.177058
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "list",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это нетипично!",
+      "translation_quote": "It's unrepresentative!",
+      "justification": "Ogurtsov's bureaucratic catchphrase 'нетипично/типично' is rendered inconsistently ('unrepresentative', 'more representative') and awkwardly; it reads as a mistranslation rather than a recurring comic bureaucratic tic."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 16,
+    "minor_count": 3,
+    "total_points": 83,
+    "major_equiv": 16.6,
+    "major_equiv_per_unit": 0.029537366548042707
+  },
+  "usage": {
+    "input_tokens": 32512,
+    "output_tokens": 2666,
+    "cost_usd": 0.15670399999999998
+  }
+}

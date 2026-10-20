@@ -1,0 +1,99 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list-analysis",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No! I ain't goin' along with that!",
+      "justification": "Lyolik's pretend-rustic 'пойтить' is rendered with American hillbilly slang ('ain't goin'') clashing with the otherwise British-leaning register; also Semyon speaking this way is out of character."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "Drop dead! May I see you in your coffin, wearing white slippers! May you live... on nothing but... your salary!",
+      "justification": "The Odessan/Yiddish-flavored curse voice (исдох, у гробу, у белых тапках) is flattened into neutral English, and the dialect that makes the curse funny is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole stack, and you might win... A pumping station!",
+      "justification": "The rhyme (пачку/водокачку) and the joke of an absurd lottery prize are lost in the translation."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "It weren't my fault!",
+      "justification": "Non-standard grammar 'weren't' is an odd dialect choice that does not map well to the Russian substandard 'не виноватая я'."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 8,
+    "minor_count": 8,
+    "total_points": 48,
+    "major_equiv": 9.6,
+    "major_equiv_per_unit": 0.0067179846046186145
+  },
+  "usage": {
+    "input_tokens": 35500,
+    "output_tokens": 2017,
+    "cost_usd": 0.162166
+  }
+}

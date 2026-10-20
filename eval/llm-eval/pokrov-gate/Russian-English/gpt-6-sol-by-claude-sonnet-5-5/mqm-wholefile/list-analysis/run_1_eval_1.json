@@ -1,0 +1,172 @@
+{
+  "dataset_name": "pokrov-gate",
+  "method": "list-analysis",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1721,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Вы популярны. Нет, это витаминизация популярна, не я...",
+      "translation_quote": "You're in demand. No, it's the vitamin shots, not me...",
+      "justification": "Acceptable, but 'Так много нервных больных, совсем некому колоть' becomes 'patients with nerves', slightly unnatural."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это не ты говоришь, это кричит твой вакуум.",
+      "translation_quote": "That's not you speaking. It's the emptiness inside you crying out.",
+      "justification": "Acceptable; however 'Это в твоих руках все горит' is misattributed: 'Yes, he burns through everything. That's you!' garbles who burns things."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это не серьезно и не порядочно по отношению этой девушке. Я не порядочен?",
+      "translation_quote": "It isn't serious, and it isn't fair to this girl. I'm not fair?",
+      "justification": "\"Порядочный\" means decent or honorable, a moral judgment. \"Fair\" changes the accusation, and \"I'm not fair?\" sounds odd as an indignant retort. \"Decent\" or \"honorable\" is needed. The film's moral argument is blurred."
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 20,
+    "minor_count": 15,
+    "total_points": 115,
+    "major_equiv": 23.0,
+    "major_equiv_per_unit": 0.01336432306798373
+  },
+  "usage": {
+    "input_tokens": 61653,
+    "output_tokens": 9750,
+    "cost_usd": 0.344104
+  }
+}

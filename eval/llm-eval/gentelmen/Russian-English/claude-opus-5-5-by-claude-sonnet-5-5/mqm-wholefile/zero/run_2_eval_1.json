@@ -1,0 +1,121 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "zero",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Устроили тут ромашка: Помню-не помню.",
+      "translation_quote": "Playing loves-me-loves-me-not in here: Remember, don't remember.",
+      "justification": "Acceptable idea, but 'ромашка' here is a dismissive slang for fussing; rendering is awkward and loses the gruff voice."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "You no go there, you come here, or snow fall on head - you be totally dead!",
+      "justification": "The pidgin imitation of a Central Asian dialect is rendered as stereotypical broken English, which is potentially offensive; but more importantly the register is applied inconsistently in later lines for other characters (Vasya, Fedya), blurring character voice."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Это тебе не мелочь по карманам тырить!",
+      "translation_quote": "This ain't like lifting small change from pockets!",
+      "justification": "Unnatural phrasing; should be 'This isn't like lifting small change from pockets.'"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Нам не страшен серый волк, серый волк, серый волк...",
+      "translation_quote": "Who's afraid of the big bad wolf, big bad wolf, big bad wolf...",
+      "justification": "Substitution of Disney song is a reasonable adaptation, but the following lines then diverge; the wolf's 'я в поросятах знаю толк' becomes a clumsy 'know a thing or two about piglets'."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Пожалуйста, моргалы выколю",
+      "translation_quote": "gouge his peepers out",
+      "justification": "'Peepers' is a decent slang equivalent, but the series of threats ('sausage, you wiener, you radish, Nebuchadnezzar, Hamburg rooster') is a literal list with lost comic rhythm."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Кудай-то он?",
+      "translation_quote": "Where's he off to?",
+      "justification": "Dialectal/rustic voice of the speaker is not conveyed."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 7,
+    "total_points": 72,
+    "major_equiv": 14.4,
+    "major_equiv_per_unit": 0.025806451612903226
+  },
+  "usage": {
+    "input_tokens": 26595,
+    "output_tokens": 2628,
+    "cost_usd": 0.132656
+  }
+}

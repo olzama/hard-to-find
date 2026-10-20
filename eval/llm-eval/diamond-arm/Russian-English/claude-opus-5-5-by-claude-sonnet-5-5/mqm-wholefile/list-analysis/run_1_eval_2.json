@@ -1,0 +1,107 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list-analysis",
+  "run": "1",
+  "eval_run": 2,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a stack of tickets and you'll win... A water tower!",
+      "justification": "The rhymed lottery jingle (пачку/водокачку) loses its rhyme and comic doggerel effect; 'water tower' without rhyme is flat."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Поскользнулся, упал... Закрытый перелом... Потерял сознание, очнулся - гипс.",
+      "translation_quote": "Slipped, fell... Closed fracture... Blacked out, woke up — cast.",
+      "justification": "The refrain is a famous catchphrase; the translation is functional but the 'открытый перелом' punchline (closed vs open fracture, Nadya's joke) is rendered fine. Minor stylistic loss of Soviet officialese."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Дитям - мороженое, его бабе - цветы.",
+      "translation_quote": "ice cream fer the kiddies, flowers fer his old lady",
+      "justification": "Dialect markers ('fer', 'ya', 'ev'rythin'') are inconsistently applied across the gang members and sound like American hick speech, mismatching a Soviet setting."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "I ain't to blame! He come on his own!",
+      "justification": "Substandard grammar overdone and register not matching a hotel guest's colloquial Russian."
+    }
+  ],
+  "summary": {
+    "major_count": 6,
+    "minor_count": 12,
+    "total_points": 42,
+    "major_equiv": 8.4,
+    "major_equiv_per_unit": 0.0058782365290412876
+  },
+  "usage": {
+    "input_tokens": 36292,
+    "output_tokens": 2310,
+    "cost_usd": 0.026733
+  }
+}

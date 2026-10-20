@@ -1,0 +1,126 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "characters",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "Drop dead! I hope I see you in your coffin, in white slippers! I hope you live on nothing but your salary!",
+      "justification": "The neighbour's Odessa/Yiddish-flavoured vernacular ('у гробу', 'у белых тапках') is lost; the English is standard and flat, losing the characteristic voice and humor."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Поскользнулся... - Упал. - Упал. Закрытый перелом...",
+      "translation_quote": "A simple fracture",
+      "justification": "'Simple fracture' is a recurring mistranslation of 'закрытый перелом' (closed fracture). It is used consistently throughout, and it destroys the closed/open wordplay in Nadya's line ('не закрытый, а открытый перелом')."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Облико морале… ферштейн?",
+      "translation_quote": "Moral standards... verstehen?",
+      "justification": "'Облико морале' is a pseudo-Latin/Italian mock phrase; the rendering loses the comic faux-foreign flavor of the original. Also the Russian is 'ферштейн' and the English rendered 'verstehen' changes the form."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш любимый шеф, если человек идиот - то это надолго.",
+      "translation_quote": "As our beloved Boss says, if someone's an idiot, it's for life.",
+      "justification": "Acceptable; the 'Boss' catchphrase pattern is preserved. Minor naturalness only."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a great big stack of tickets and you'll win... A waterworks!",
+      "justification": "The rhyme (пачку/водокачку) that makes the lottery slogan comic is lost; the English has no rhyme and the joke of an absurd prize in a pat slogan does not land."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 15,
+    "minor_count": 7,
+    "total_points": 82,
+    "major_equiv": 16.4,
+    "major_equiv_per_unit": 0.011476557032890132
+  },
+  "usage": {
+    "input_tokens": 35677,
+    "output_tokens": 3159,
+    "cost_usd": 0.174294
+  }
+}

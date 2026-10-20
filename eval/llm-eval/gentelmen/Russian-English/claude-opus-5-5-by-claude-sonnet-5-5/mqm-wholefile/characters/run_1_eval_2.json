@@ -1,0 +1,70 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "characters",
+  "run": "1",
+  "eval_run": 2,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Все! Кина не будет. Электричество кончилось.",
+      "translation_quote": "That's it! No movie tonight. Power's out.",
+      "justification": "This is a famous quote, and the Russian film-slang spelling \"кина\" gives it a colloquial, jokey flavor. The English is flat and neutral."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 1,
+    "minor_count": 10,
+    "total_points": 15,
+    "major_equiv": 3.0,
+    "major_equiv_per_unit": 0.005376344086021506
+  },
+  "usage": {
+    "input_tokens": 26265,
+    "output_tokens": 5134,
+    "cost_usd": 0.05397029999999999
+  }
+}

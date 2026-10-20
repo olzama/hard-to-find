@@ -1,0 +1,98 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "list",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Снизу звёздочки кажутся маленькие-маленькие. ... две звёздочки, три звёздочки.. Четыре звёздочки, лучше всего, конечно, пять звёздочек!",
+      "translation_quote": "two-star, three-star... Four-star, and best of all, of course, five-star!",
+      "justification": "The lecturer is drunk and drifts into cognac star ratings; the translation keeps this but does not convey the hotel/cognac joke any better, and 'Assa... Assa...' remains untranslated gibberish; acceptable but the humor is weak. Borderline."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 8,
+    "minor_count": 10,
+    "total_points": 50,
+    "major_equiv": 10.0,
+    "major_equiv_per_unit": 0.017793594306049824
+  },
+  "usage": {
+    "input_tokens": 33126,
+    "output_tokens": 2549,
+    "cost_usd": 0.15799
+  }
+}

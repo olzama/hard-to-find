@@ -1,0 +1,131 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "zero",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "Drop dead! I hope I see you in a coffin, wearing white slippers! May you have to live on your salary alone!",
+      "justification": "The curse is delivered in a Yiddish/Odessan-flavored dialect ('у гробу, у белых тапках'); the dialectal voice is entirely lost, and it is neutralised into standard English."
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Скажите, пожалуйста, У Вас нет такого же, но без крыльев?",
+      "translation_quote": "Excuse me, do you have one just like this, but without the wings?",
+      "justification": "Lost context that this is a pre-planned coded exchange for the sting scene; 'No, then?' and the stray subtitle timecode '1107 01:12:00,413 --> 01:12:01,513' left in the translation is a clear artifact."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Вы ей ничего не говорите о контрабандистах, золоте, бриллиантах… Нет, на это я пойтить не могу!",
+      "translation_quote": "don't tell her about the smugglers, the gold or the diamonds... No, I can't do that!",
+      "justification": "Gorbunkov's request is to tell his wife nothing about smugglers; the driver-villain Lyolik's reply 'Нет, на это я пойтить не могу' is a refusal to take orders on his own authority, comic with substandard 'пойтить'. The dialectal marker is lost."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole roll of tickets and you might win a... Water pump!",
+      "justification": "The rhyme (пачку/водокачку) is lost, so the comic jingle falls flat."
+    }
+  ],
+  "summary": {
+    "major_count": 18,
+    "minor_count": 6,
+    "total_points": 96,
+    "major_equiv": 19.2,
+    "major_equiv_per_unit": 0.013435969209237229
+  },
+  "usage": {
+    "input_tokens": 35433,
+    "output_tokens": 3300,
+    "cost_usd": 0.174728
+  }
+}

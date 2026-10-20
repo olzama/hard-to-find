@@ -1,0 +1,87 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "zero",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "translation_quote_note": ""
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "severity_note": ""
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, не он. - Легавый.",
+      "translation_quote": "- Well? - No, it's not him. - A cop.",
+      "justification": "The earlier 'Ну, он?' / 'Черт его знает... Проверю' sequence is a test for the forger acquaintance; the added 'Well?' and mixing of speakers plus the 'Спичек не найдется' test lose clarity."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Устроили тут ромашка: Помню-не помню.",
+      "translation_quote": "You're playing \"loves me, loves me not\": remember, don't remember.",
+      "justification": "Acceptable idea but fine; however 'Бывает!' is rendered 'Sure can!' while the speaker's earlier line 'Так не бывает' is a different speaker; flow of turns is confusing."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 6,
+    "minor_count": 8,
+    "total_points": 38,
+    "major_equiv": 7.6,
+    "major_equiv_per_unit": 0.013620071684587813
+  },
+  "usage": {
+    "input_tokens": 26431,
+    "output_tokens": 2068,
+    "cost_usd": 0.1264
+  }
+}

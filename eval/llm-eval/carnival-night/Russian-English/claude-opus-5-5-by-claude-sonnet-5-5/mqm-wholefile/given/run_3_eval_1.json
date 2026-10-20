@@ -1,0 +1,101 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "given",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Две звёздочки, три звёздочки.. Четыре звёздочки, лучше всего, конечно, пять звёздочек!",
+      "translation_quote": "[The best cognac in USSR was known as 5*]",
+      "justification": "Translator's bracketed note inserted into subtitles; it is not standard and breaks immersion, and 'in USSR' is ungrammatical."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Есть ли жизнь на Марсе, нет ли жизни на Марсе, это науке неизвестно.",
+      "translation_quote": "look with the aided eye!",
+      "justification": "'Вооружённым глазом' is a set phrase (naked eye vs. aided eye); 'aided eye' is stiff, and the drunken lecturer's rambling comedic tone is dulled."
+    }
+  ],
+  "summary": {
+    "major_count": 15,
+    "minor_count": 3,
+    "total_points": 78,
+    "major_equiv": 15.6,
+    "major_equiv_per_unit": 0.02775800711743772
+  },
+  "usage": {
+    "input_tokens": 33140,
+    "output_tokens": 2490,
+    "cost_usd": 0.157456
+  }
+}

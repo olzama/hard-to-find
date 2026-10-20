@@ -1,0 +1,98 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "zero",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Меня терзают смутные сомнения.",
+      "translation_quote": "I'm tormented by vague doubts.",
+      "justification": "Famous parodic quote (Ilf and Petrov / Bunsha's catchphrase). The mock-literary register and recurring joke are flattened into neutral prose, and the later repetition is not signalled as a running gag."
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "translation_quote_note": "German ungrammatical"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Вот что крест животворящий делает! А где царь? Закусывать надо!",
+      "translation_quote": "That's the power of the life-giving cross! And where's the tsar? Should've had a bite with it!",
+      "justification": "'Закусывать надо' is a snack-with-drink remark made by the drunk-ish Zhorzh after shouting; 'Should've had a bite with it' garbles the meaning (they need to eat/drink). It adds an unclear 'with it' and loses the joke."
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 7,
+    "total_points": 57,
+    "major_equiv": 11.4,
+    "major_equiv_per_unit": 0.013571428571428571
+  },
+  "usage": {
+    "input_tokens": 35709,
+    "output_tokens": 2177,
+    "cost_usd": 0.16460200000000003
+  }
+}

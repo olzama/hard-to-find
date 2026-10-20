@@ -1,0 +1,117 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "given",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole ticket pack, win... a tractor rack!",
+      "justification": "The source rhyme refers to a water pump tower (водокачка), a absurd prize; 'tractor rack' is an invented, meaningless prize and the lottery-ticket gag is weakened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "за чужой счёт пьют даже трезвенники и язвенники",
+      "translation_quote": "On someone else's dime, even teetotalers and convalescers drink!",
+      "justification": "'язвенники' means people with ulcers, not 'convalescers'; mistranslation that destroys the joke."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "если человек идиот - то это надолго",
+      "translation_quote": "'If a man is an idiot, it's for a long time!'",
+      "justification": "The boss's aphorism is rendered awkwardly and literally; the punchy wording ('being an idiot is for life') is lost. Also the 'наш любимый шеф' catchphrase format varies throughout."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Ну что Вы, время! Время - деньги!",
+      "translation_quote": "Come on, time! Time is money!",
+      "justification": "Flat and unnatural dialogue, slightly detached from context."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "May you drop dead! May I see you in a coffin, in white slippers! May you live... on nothing but... your salary!",
+      "justification": "The neighbour's Odessa/Yiddish-flavoured speech (исдох, у гробу, у белых тапках) is lost; the translation is neutral and the curse's punchline is padded with hesitation dots."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это - я, я, я! ... Шикарный план, шеф!",
+      "translation_quote": "A brilliant plan, boss! By 12:00 everything will be ready!",
+      "justification": "Fine, but 'Хаза? Ксива?' criminal slang rendered 'Crib? Papers?' mixes American and neutral; 'Печёнкой чую' rendered 'in my gut' ok. Main loss: 'Ты меня уважаешь? ... Тогда я тебя укушу!' drunk humor rendered okay. Criminal-slang register is inconsistent across the translation."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 12,
+    "minor_count": 7,
+    "total_points": 67,
+    "major_equiv": 13.4,
+    "major_equiv_per_unit": 0.009377186843946816
+  },
+  "usage": {
+    "input_tokens": 36365,
+    "output_tokens": 2961,
+    "cost_usd": 0.175066
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "list",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк, серый волк, серый волк...",
+      "translation_quote": "Who's afraid of the big bad wolf, big bad wolf, big bad wolf...",
+      "justification": "Reasonable cultural substitution, but the next lines (pigs rhyme) are rendered with invented content 'I know my piglets, limb by limb' that adds a gruesome meaning absent from the original 'I know a thing or two about piglets'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Пасть порву",
+      "translation_quote": "I'll rip your jaw off",
+      "Translation_quote": "",
+      "justification": "Core catchphrase 'пасть порву' is a comic running gag; 'jaw' loses the animal-mouth vulgarity, though consistent. Also, 'Tickety-boo' for 'тики-так' (thieves' slang for 'okay') gives a British upper-class register that clashes with criminal slang."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Хмыренок! Деточка, а вам не кажется, что ваше место возле параши?",
+      "translation_quote": "Little Creep! Sweetie, don't you think your place is by the slop bucket?",
+      "justification": "Nicknames are inconsistently rendered: Хмырь/Хмыренок become 'Creep' while elsewhere 'Hmyr' meaning is lost; 'Косой' = 'Squint' fine, but 'Хмыренок' is a diminutive of the nickname, and later 'Хмыренку этому на Хмыря' is flattened to 'Creep's kid about Creep'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кина не будет. Электричество кончилось.",
+      "translation_quote": "No pictures today. Electricity's all run out.",
+      "justification": "The famous line from Bumbarash/Soviet comedy 'Кина не будет' is a cultural joke; 'no pictures' is clumsy and 'all run out' is ungrammatical."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кушать подано! Садитесь жрать, пожалуйста.",
+      "translation_quote": "Dinner is served! Please sit down and stuff your faces.",
+      "justification": "The comic contrast between butler-like politeness and crude 'жрать' is only partly kept; minor register wobble."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 9,
+    "minor_count": 8,
+    "total_points": 53,
+    "major_equiv": 10.6,
+    "major_equiv_per_unit": 0.01899641577060932
+  },
+  "usage": {
+    "input_tokens": 26321,
+    "output_tokens": 2301,
+    "cost_usd": 0.12829
+  }
+}

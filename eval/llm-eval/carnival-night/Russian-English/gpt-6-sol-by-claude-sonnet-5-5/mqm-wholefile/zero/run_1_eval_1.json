@@ -1,0 +1,101 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "zero",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Бабу Ягу со стороны брать не будем, воспитаем в своём коллективе!",
+      "translation_quote": "We won't bring in a Baba Yaga from outside. We'll cultivate one in our own team!",
+      "justification": "Humor works partly, but the earlier budget joke 'Коты в Сапогах'/'Puss in Boots' rendered as 'Puss in Boots' then 'cats' creates inconsistency with plural 'Коты'; the joke about 'единицы' (staff positions) is rendered as 'budget line', which is acceptable."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Это нетипично!",
+      "translation_quote": "It's unrepresentative!",
+      "justification": "Ogurtsov's bureaucratic catchphrase 'нетипично/типично' is rendered with a stiff, unnatural word; 'unrepresentative' is awkward and odd in English, though consistent."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 9,
+    "minor_count": 9,
+    "total_points": 54,
+    "major_equiv": 10.8,
+    "major_equiv_per_unit": 0.01921708185053381
+  },
+  "usage": {
+    "input_tokens": 32322,
+    "output_tokens": 2643,
+    "cost_usd": 0.15571400000000002
+  }
+}

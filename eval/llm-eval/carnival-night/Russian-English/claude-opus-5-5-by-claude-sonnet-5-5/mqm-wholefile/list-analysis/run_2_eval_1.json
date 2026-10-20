@@ -1,0 +1,121 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "list-analysis",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "- Лектор готов? - Готов лектор, давно готов!",
+      "translation_quote": "Oh, he's set, all right, well oiled, has been for ages!",
+      "justification": "Addition of 'well oiled' is a creative joke about the drunk lecturer and fits, but the following lecture is fine. Minor risk; kept as note."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "И посмотреть вооружённым глазом",
+      "translation_quote": "And look with the un-naked eye",
+      "justification": "'Вооружённым глазом' (armed eye) is a standard phrase; 'un-naked eye' is a weird coinage but works as drunk speech. The 'five stars' cognac joke is preserved. Acceptable overall."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 19,
+    "minor_count": 4,
+    "total_points": 99,
+    "major_equiv": 19.8,
+    "major_equiv_per_unit": 0.03523131672597865
+  },
+  "usage": {
+    "input_tokens": 33217,
+    "output_tokens": 3456,
+    "cost_usd": 0.16742400000000002
+  }
+}

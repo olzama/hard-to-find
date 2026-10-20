@@ -1,0 +1,123 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "list-analysis",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A bad person? - A rotten radish.",
+      "justification": "Literal 'rotten radish' (and the added 'rotten') is not English slang; the joke of an innocent veggie word used as thieves' cant, later recurring as an insult, is flattened. 'Hmm, a heel/creep' style slang would work better."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Сколько я зарезал, сколько перерезал, сколько душ я загубил!",
+      "translation_quote": "How many I've stabbed, how many I've slain, how many poor souls I've sent to their graves!",
+      "justification": "Acceptable, but the song-parody 'Nikola from Petersburg' is fine; however the nickname 'Хмыренок' is rendered 'Gav, you old rogue', which wrongly uses a name belonging to another character and misattributes the line."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Деточка, а вам не кажется, что ваше место возле параши?",
+      "translation_quote": "My dear child, don't you think your place is beside the cell bucket?",
+      "justification": "Previous line 'Хмыренок!' is translated as 'Gav, you old rogue', an invented, wrong rendering (Gavrila is the Doc-impersonating character's companion, not the greeted person); confuses characters."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Какой же это арматурный, это слесарный.",
+      "translation_quote": "That's a machine shop, not the steelworks.",
+      "justification": "'Арматурный склад' (fittings/reinforcement warehouse) is rendered 'steelworks', changing the setting; 'слесарный' is a locksmith/fitter's shop. Mistranslation of place."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк, серый волк, серый волк...",
+      "translation_quote": "We're not afraid of the Big Bad Wolf, the Big Bad Wolf, the Big Bad Wolf...",
+      "justification": "Source's rhyming couplet 'Я злой и страшный серый волк, я в поросятах знаю толк' is rendered adequately, but the 'Электричество кончилось... Кина не будет' joke ('Кина не будет' is a famous catchphrase) is rendered as 'That's all, folks!' which is a Looney Tunes reference with a different tone."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "fluency",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Hey, citizen! Don't go there. Come this way! Snow hit head there. You be completely dead!",
+      "justification": "Pidgin imitating a Central Asian speaker is rendered as broken English that reads as a generic caricature and partly drops the humor of cheeky street-sweepers' cover talk; also inconsistent with the 'Time!' that follows."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Кушать подано! Садитесь жрать, пожалуйста.",
+      "translation_quote": "Dinner is served! Please sit down and stuff your faces.",
+      "justification": "Acceptable, but 'Физкультпривет' is rendered inconsistently as 'Greetings, fellow athletes' / 'Hey!'."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Пасть порву",
+      "translation_quote": "I'll rip your maw off",
+      "justification": "'Maw' is an archaic/literary word and inconsistent with 'maws' / 'rip your maw open'; a coarse street-register like 'I'll rip your mouth off' or 'trap' would suit."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 6,
+    "total_points": 71,
+    "major_equiv": 14.2,
+    "major_equiv_per_unit": 0.025448028673835124
+  },
+  "usage": {
+    "input_tokens": 26049,
+    "output_tokens": 2819,
+    "cost_usd": 0.132382
+  }
+}

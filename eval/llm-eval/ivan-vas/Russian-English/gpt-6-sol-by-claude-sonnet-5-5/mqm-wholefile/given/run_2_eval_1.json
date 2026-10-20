@@ -1,0 +1,166 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "given",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Меня терзают смутные сомнения.",
+      "translation_quote": "I'm beginning to have vague suspicions.",
+      "justification": "This is a famous catchphrase with a parodic literary register (echoing 'Терзают смутные сомненья'); it is rendered as flat prose and later inconsistently as 'Vague doubts haunt me once again'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Три магнитофона, 3 кинокамеры, 3 портсигара отечественных",
+      "translation_quote": "Three tape recorders, three movie cameras, Three tape recorders, three movie cameras, three cigarette cases, domestic…",
+      "justification": "Duplicated text and ellipses in the translation produce a garbled, unnatural subtitle."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Выходит, два. - И оба Бунши? Оба! И тебя вылечат!",
+      "translation_quote": "Both! and they’ll cure you too… and they’ll cure me… They'll cure me too!",
+      "justification": "Garbled, repeated and inconsistent fragments with stray ellipses and capitalization."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Здравствуйте, царь! Очень приятно!",
+      "translation_quote": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.",
+      "justification": "Source is a confused string of greetings; the translation adds 'I'm the Tsar' and is awkward and inconsistent."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Оставь меня, старушка, я в печали.",
+      "translation_quote": "Leave me, old woman, I am in sorrow.",
+      "justification": "The comic archaic register is acceptable but 'I am in sorrow' is stiff; also 'старушка' (a cheeky diminutive) becomes harsh 'old woman'."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 17,
+    "minor_count": 15,
+    "total_points": 100,
+    "major_equiv": 20.0,
+    "major_equiv_per_unit": 0.023809523809523808
+  },
+  "usage": {
+    "input_tokens": 34823,
+    "output_tokens": 3887,
+    "cost_usd": 0.17815799999999998
+  }
+}

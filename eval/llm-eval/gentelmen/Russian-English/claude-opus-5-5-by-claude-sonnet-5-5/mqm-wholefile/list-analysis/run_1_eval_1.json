@@ -1,0 +1,79 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "list-analysis",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это не смешно, тетя.",
+      "translation_quote": "- He's a thief. - That's not funny, lady.",
+      "justification": "The joke 'Вор он' (He's a thief) is a blunt truth dismissed as a joke; acceptable. However 'Ничего страшного' after 'Помогите! Хулиганы зрения лишают!' is rendered 'Nothing serious', which loses the ironic dismissal."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Ну и дура.",
+      "translation_quote": "Then you're a silly cow.",
+      "justification": "'Then' implies a causal link that does not exist; the line is a mutter after the girl's rejection of Fedya, and 'silly cow' is a British register mismatch with the otherwise American-flavored slang."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк, серый волк, серый волк...",
+      "translation_quote": "Who's afraid of the big bad wolf, big bad wolf, big bad wolf...",
+      "justification": "A beloved Soviet cartoon song is replaced with the Disney song, an acceptable domestication, but the following 'Я злой и страшный серый волк, я в поросятах знаю толк' is rendered with an invented rhyme that changes the meaning slightly ('know my stuff' of piglets), which is acceptable. Less defensible: 'Кина не будет. Электричество кончилось' is a famous quote ('Кина не будет'), rendered flatly as 'No more picture show', losing the citation."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Пасть порву.",
+      "translation_quote": "I'll rip your jaws.",
+      "justification": "Unnatural English for a thug's catchphrase, used repeatedly. 'I'll tear your mouth off' or 'I'll rip your face off' would sound more idiomatic."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 7,
+    "minor_count": 4,
+    "total_points": 39,
+    "major_equiv": 7.8,
+    "major_equiv_per_unit": 0.013978494623655914
+  },
+  "usage": {
+    "input_tokens": 26374,
+    "output_tokens": 1686,
+    "cost_usd": 0.122352
+  }
+}

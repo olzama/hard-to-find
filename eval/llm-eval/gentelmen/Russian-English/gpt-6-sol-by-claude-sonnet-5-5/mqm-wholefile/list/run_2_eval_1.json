@@ -1,0 +1,92 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "list",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк... Я злой и страшный серый волк, я в поросятах знаю толк.",
+      "translation_quote": "I'm the big bad wolf, so mean and gray! I know just how to eat piglets all day!",
+      "justification": "Song lyrics are adapted adequately, but 'Мне нравится. Только, знаешь, это страшнее.' is rendered 'you should make it scarier', which changes meaning: the speaker says the version is scarier (i.e. the performer's menace), not an instruction."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Хмыренок! Деточка, а вам не кажется, что ваше место возле параши?",
+      "translation_quote": "Little Sourpuss! Sonny, don't you think you belong over by the slop bucket?",
+      "justification": "'Хмырь' is a derogatory prison nickname meaning a shady/sleazy type; 'Sourpuss' is a mild, inaccurate equivalent that loses the criminal-underworld insult and is used throughout as a name."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Не отмывается совсем.",
+      "translation_quote": "Such good cement. It won't wash off at all.",
+      "justification": "Minor, but more critically 'Так он же на этом скачке расколется, редиска... Поди сюда, Федя... Редиска - нехороший человек' is rendered with 'Rotten turnip', an unnatural calque of 'редиска' for 'bad guy'; the English audience loses the slang sense and the joke of the vocabulary lesson."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 5,
+    "total_points": 55,
+    "major_equiv": 11.0,
+    "major_equiv_per_unit": 0.01971326164874552
+  },
+  "usage": {
+    "input_tokens": 26036,
+    "output_tokens": 2301,
+    "cost_usd": 0.12715
+  }
+}

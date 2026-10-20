@@ -1,0 +1,128 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "given",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Тебя терзают смутные сомнения",
+      "translation_quote": "Vague doubts haunt me.",
+      "justification": "The famous quoted line ('Меня терзают смутные сомнения') is a deliberate cultural reference; the rendering loses the literary/mock-heroic echo, and the tense shift to 'haunt' flattens the joke."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Это же все же, все же, что нажито непосильным трудом",
+      "translation_quote": "Everything, everything I acquired through backbreaking labor",
+      "justification": "The phrase echoes Ilf and Petrov's 'нажито непосильным трудом' comic cliché; acceptable but flattened."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Танцуют все!",
+      "translation_quote": "The floor is open to everyone!",
+      "justification": "Mistranslation: 'Everybody dance!' is meant; 'the floor is open' implies speaking."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 14,
+    "total_points": 64,
+    "major_equiv": 12.8,
+    "major_equiv_per_unit": 0.015238095238095238
+  },
+  "usage": {
+    "input_tokens": 35724,
+    "output_tokens": 3109,
+    "cost_usd": 0.173982
+  }
+}

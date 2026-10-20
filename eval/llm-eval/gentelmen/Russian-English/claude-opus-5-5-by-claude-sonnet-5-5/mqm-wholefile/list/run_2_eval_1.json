@@ -1,0 +1,160 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "list",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A bad person? - A radish.",
+      "justification": "The thieves' slang 'редиска' (a lowlife/bad guy) becomes a running gag; rendering as 'radish' with no explanation makes it opaque, and later 'not-nice person' glosses are inconsistent with 'bad person'. The joke of the slang lesson partly fails."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Hey, citizen-man! You no go there, you go here, or snow hit head - you be all dead!",
+      "justification": "Parody of a broken-Russian Central Asian accent works, but elsewhere the same pidgin is applied inconsistently to Vasya (e.g., 'Give tenner, I buy kerosene stove') while at times he speaks normally ('Shakal I parshivy' rendered as 'I'm mangy jackal'); pidgin is overused and makes characters sound cartoonish in places where the Russian is merely colloquial (e.g., 'Why you so mean? Why like a dog?' for Vasya)."
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology",
+      "source_quote": "Ходи лошадью, лошадью ходи, дурак!",
+      "translation_quote": "Move the horse, move the horse, you fool!",
+      "justification": "In English chess the piece is 'knight'; 'horse' is a literal rendering. Even if a layman's slang, it reads odd."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Сколько я зарезал, сколько перерезал, сколько душ я загубил!",
+      "translation_quote": "So many I've knifed, so many I've sliced, so many souls I've sent to their graves!",
+      "justification": "This line is a deliberate parody of a famous Russian folk-song/'robber' refrain and the persona 'Никола Питерский'; the translation keeps the content but loses the rhythmic parody."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Не хотелось Вам говорить",
+      "translation_quote": "I didn't want to tell you",
+      "justification": "Fine."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Чегой-то ты воруешь?",
+      "translation_quote": "What're you stealing?",
+      "justification": "Loses the folksy rustic marker, minor."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк",
+      "translation_quote": "Who's afraid of the big bad wolf",
+      "justification": "Replaces the Soviet song with the Disney song; changes cultural reference and the following parody ('Я злой и страшный серый волк') is rendered as invented rhymes that drift from the source."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 25,
+    "minor_count": 4,
+    "total_points": 129,
+    "major_equiv": 25.8,
+    "major_equiv_per_unit": 0.04623655913978495
+  },
+  "usage": {
+    "input_tokens": 26422,
+    "output_tokens": 3682,
+    "cost_usd": 0.142504
+  }
+}

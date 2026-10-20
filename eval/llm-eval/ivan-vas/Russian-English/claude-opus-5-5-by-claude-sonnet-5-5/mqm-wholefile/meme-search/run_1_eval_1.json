@@ -1,0 +1,117 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "meme-search",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Тебя терзают смутные сомнения / Меня терзают смутные сомнения",
+      "translation_quote": "I am tormented by vague misgivings",
+      "justification": "Famous quoted catchphrase is rendered adequately, but the later 'Dear tsar, we're done for' / 'Dear autocrat' etc. aside, the more serious issue is that the second occurrence is paired with 'Shpak's lost a tape machine, the envoy's locket's not been seen' which drops the rhyme (магнитофон/медальон) that the joke relies on."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Где демоны? Бей демонов! Ложись!",
+      "translation_quote": "Where are the demons? Smite the demons! Get down!",
+      "justification": "Streltsy are rendered with biblical 'smite', inconsistent with the colloquial tone of the soldiers."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 11,
+    "minor_count": 11,
+    "total_points": 66,
+    "major_equiv": 13.2,
+    "major_equiv_per_unit": 0.015714285714285712
+  },
+  "usage": {
+    "input_tokens": 35684,
+    "output_tokens": 2969,
+    "cost_usd": 0.172422
+  }
+}

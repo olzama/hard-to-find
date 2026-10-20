@@ -1,0 +1,158 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "meme-search",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A bad person? - A radish.",
+      "justification": "The slang 'редиска' (a lousy person) is rendered literally and the pun on fenya jargon is lost; 'radish' makes no sense to English viewers, and the later joke (Fedya's dictionary) is undermined."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк... Я злой и страшный серый волк, я в поросятах знаю толк.",
+      "translation_quote": "I'm a big, bad, fearsome wolf, and piglets are my specialty.",
+      "justification": "The song and rhyme are lost; 'specialty' sounds odd and loses the rhyme and the playfulness of the nursery song."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "В поезде я с полки упал... Обзовись! - Век воли не видать!",
+      "translation_quote": "Swear to it! - May I never be free again!",
+      "justification": "'Век воли не видать' is a thieves' oath, repeatedly used. Here it is rendered as a plain oath, while later 'Лошадью ходи, век воли не видать!' becomes 'I swear!', so the recurring marker is inconsistent and loses the criminal flavor."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кушать подано! Садитесь жрать, пожалуйста.",
+      "translation_quote": "Dinner is served! Sit down and stuff your faces, please.",
+      "justification": "Fine, but the 'Кушать подано' / 'Нашел фраера' butler-like comic contrast is partly kept; main failures lie elsewhere."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology",
+      "source_quote": "Ходи лошадью, лошадью ходи, дурак!",
+      "translation_quote": "Move the horse! The horse, you fool!",
+      "justification": "In English chess the piece is a knight; 'horse' sounds odd, though partly tolerable as slang."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Hey, citizen! Don't go there. Come this way, or snow hit head— you be completely dead!",
+      "justification": "The pseudo-Central-Asian pidgin joke is preserved only half; the rhyme was added, shifting the effect."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "terminology"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Пасть порву! ... моргалы выколю",
+      "translation_quote": "I'll tear your mouth off! ... I'll gouge your eyes out",
+      "justification": "Fixed threats are conveyed, but 'Пасть порву' as 'tear your mouth off' is a calque; 'rip your jaw off' or similar would be more natural. Minor naturalness issue repeated throughout."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Сидячий?",
+      "translation_quote": "Was he sitting?",
+      "justification": "The joke 'Кто же его посадит?' pun on sit/imprison is rendered as 'Who'd lock him up?', which only partly works."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Лошадью ходи... Мат.",
+      "translation_quote": "Checkmate!",
+      "justification": "Fine."
+    }
+  ],
+  "summary": {
+    "major_count": 20,
+    "minor_count": 7,
+    "total_points": 107,
+    "major_equiv": 21.4,
+    "major_equiv_per_unit": 0.038351254480286735
+  },
+  "usage": {
+    "input_tokens": 25987,
+    "output_tokens": 3526,
+    "cost_usd": 0.139204
+  }
+}

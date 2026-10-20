@@ -1,0 +1,111 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list-analysis",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, в нашем деле гланое - этот самый реализм!",
+      "translation_quote": "the main thing is that there realism!",
+      "justification": "Malapropism/mispronunciation of Lyolik rendered with a vague dialect phrase; the 'boss's catchphrase' parody structure is weakened and inconsistent with other renderings."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole ticket pack and you'll take home... A smokestack!",
+      "justification": "The rhyme (пачку/водокачку) and the joke about a ridiculous prize is mistranslated: 'water tower' became 'smokestack' and the rhyme is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Распространите среди жильцов нашего ЖЭКа! - А если не будут брать - отключим газ!",
+      "translation_quote": "Distribute these among our housing office residents!",
+      "justification": "'Housing office residents' is incorrect; ЖЭК is the housing office, tenants are residents of its area. Also the bullying manager's humor is flattened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "I ain't the guilty one! He come here hisself!",
+      "justification": "Nonstandard English dialect is exaggerated and unmotivated; the source is simple colloquial Russian, and the register shift misrepresents the character."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 9,
+    "total_points": 59,
+    "major_equiv": 11.8,
+    "major_equiv_per_unit": 0.008257522743177047
+  },
+  "usage": {
+    "input_tokens": 36464,
+    "output_tokens": 2406,
+    "cost_usd": 0.169912
+  }
+}

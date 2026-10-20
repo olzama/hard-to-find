@@ -1,0 +1,120 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "list-analysis",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Меня терзают смутные сомнения",
+      "translation_quote": "I'm beset by dark suspicions.",
+      "justification": "Famous quoted line (Zhukov/Gogol-style mock-literary phrase) is rendered as 'dark suspicions', changing 'vague doubts' and losing the recognizable catchphrase; 'dark' alters meaning."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Пoвесили тебя на сoбственных вoрoтах третьегo дня пo приказу царя. Ой, спасибo! Пoвесили меня, пo твoему приказу.",
+      "translation_quote": "So you had me hanged on your orders.",
+      "justification": "Source is Miloslavsky's sarcastic aside to Bunsha ('thanks a lot, so I was hanged on YOUR orders'); the translation leaves unclear who is being addressed and loses the sarcasm."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Оставь меня, старушка, я в печали.",
+      "translation_quote": "Leave me, old woman. I am in sorrow.",
+      "justification": "Source is Bunsha's gloomy pose in the Tsar's register; fine, but 'Ты пo чтo бoярыню' etc. inconsistent archaic mixes reduce the effect."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 16,
+    "minor_count": 6,
+    "total_points": 86,
+    "major_equiv": 17.2,
+    "major_equiv_per_unit": 0.020476190476190474
+  },
+  "usage": {
+    "input_tokens": 35037,
+    "output_tokens": 2764,
+    "cost_usd": 0.167784
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это не актуально!",
+      "translation_quote": "That's not topical!",
+      "justification": "Soviet-era 'не актуально' is a dismissive, bureaucratic brush-off; 'topical' is odd and loses the comic deflection, though it is borderline."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a stack of tickets, and you'll get... A water jet!",
+      "justification": "Водокачка is a water pumping station/tower (a mock lottery prize); 'water jet' is a mistranslation, and the rhyme (пачку/водокачку) is lost, so the joke fails."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Шампанское по утрам пьют или аристократы, или дегенераты!",
+      "translation_quote": "Champagne in the morning is drunk either by aristocrats or by degenerates!",
+      "justification": "Acceptable; included for the source's famous rhythm, which is lost with the passive construction ('is drunk') — stiff, loses punch."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Нет, с ночёвкой не поеду, боюсь застудить.",
+      "translation_quote": "No, I won't stay overnight, I'm afraid it'll catch cold.",
+      "justification": "The object (the arm) is unclear; 'it'll catch cold' is ungrammatical-sounding in context."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "It ain't my fault! He come here all by hisself!",
+      "justification": "Heavy American dialect is an arbitrary register choice that does not match the Russian colloquial voice and is inconsistent with the character elsewhere."
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No, that I cain't go along with!",
+      "justification": "Southern US dialect is an odd choice for a Soviet character; similar to 'Both of yous' - inconsistent register."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Цигель, цигель, ай-люлю",
+      "translation_quote": "Tsigel, tsigel, ai-lyulyu",
+      "justification": "Pseudo-foreign passages are transliterated but mostly unmarked as comic gibberish; the 'Dyamn it' variants are inconsistent with later 'Damn it' forms."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 19,
+    "total_points": 69,
+    "major_equiv": 13.8,
+    "major_equiv_per_unit": 0.00965710286913926
+  },
+  "usage": {
+    "input_tokens": 36526,
+    "output_tokens": 3313,
+    "cost_usd": 0.17923
+  }
+}

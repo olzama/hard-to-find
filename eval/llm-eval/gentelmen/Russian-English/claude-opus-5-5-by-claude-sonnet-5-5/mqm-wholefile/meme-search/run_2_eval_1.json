@@ -1,0 +1,114 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "meme-search",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "- А как Вас зовут? - Людмила.",
+      "translation_quote": "No. The assistant professor came.",
+      "justification": "'Доцент' is the thief's nickname and the intended pun on his fake academic role; 'assistant professor' is inconsistent with 'Professor' used everywhere else for the same character."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "- Какой же это арматурный, это слесарный.",
+      "translation_quote": "- That's not the fittings one, that's the metalwork one.",
+      "justification": "Acceptable, but earlier 'арматурный склад' meant a fittings warehouse; the key sentence 'Куда плавать? В такую холодину?' fine. Main issue: 'Мат. Отдавайте пиджак... Ухи' loses the chess/ear-pulling humor: 'Ears, ears, ears!' is unclear (ушки = ears being pulled in the game's penalty)."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Нам не страшен серый волк... Я злой и страшный серый волк, я в поросятах знаю толк.",
+      "translation_quote": "Who's afraid of the big bad wolf, big bad wolf, big bad wolf... I'm the big bad wolf, it's true, I know just what with pigs to do.",
+      "justification": "Substitution of the Disney song is reasonable, but the second rhyme is clumsy and ungrammatical ('what with pigs to do'), weakening a comic moment."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Хмыренок! Деточка, а вам не кажется, что ваше место возле параши?",
+      "translation_quote": "Little Khmyr! Sweetie, don't you think your bunk's by the slop bucket?",
+      "justification": "'Параша' is the prison latrine bucket and a degrading term; 'slop bucket' is weaker and 'your bunk' adds meaning not in the source."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Устроили тут ромашка: Помню-не помню.",
+      "translation_quote": "Playing he-loves-me-not in here: remember, don't remember.",
+      "justification": "Awkward; the daisy-petal image is kept but reads stiffly and lacks a natural complaining tone."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 6,
+    "total_points": 71,
+    "major_equiv": 14.2,
+    "major_equiv_per_unit": 0.025448028673835124
+  },
+  "usage": {
+    "input_tokens": 26362,
+    "output_tokens": 2653,
+    "cost_usd": 0.131974
+  }
+}

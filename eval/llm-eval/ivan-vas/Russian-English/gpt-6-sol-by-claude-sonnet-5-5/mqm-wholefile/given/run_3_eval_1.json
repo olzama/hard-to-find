@@ -1,0 +1,126 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "given",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Меня терзают смутные сомнения.",
+      "translation_quote": "I'm troubled by vague suspicions.",
+      "justification": "The ironic, quoted literary register (a famous Chekhov/Stanislavsky-style line) is lost; the neutral phrase fails to convey the parodic high tone."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Оставь меня, старушка, я в печали.",
+      "translation_quote": "Leave me, old woman, I am in sorrow.",
+      "justification": "Stilted; the original is a famous quote ('Оставь меня, старушка, я в печали') and the parody of a literary register is not conveyed naturally."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Здравствуйте, царь! Очень приятно!",
+      "translation_quote": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.",
+      "justification": "Added 'I'm the Tsar' and awkward repetitions; the rapid comic exchange is clumsy."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Икра заморская, баклажанная!",
+      "translation_quote": "Overseas spread… eggplant!",
+      "justification": "Punchline is the Soviet 'imported' eggplant caviar; the rendering is awkward and the ellipses are stray additions."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "3 портсигара отечественных, куртка замшевая - три.",
+      "translation_quote": "three cigarette cases, domestic… a suede jacket… Three.",
+      "justification": "Stray ellipses and unnatural 'domestic'; stumbles over the comic counting."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    }
+  ],
+  "summary": {
+    "major_count": 11,
+    "minor_count": 11,
+    "total_points": 66,
+    "major_equiv": 13.2,
+    "major_equiv_per_unit": 0.015714285714285712
+  },
+  "usage": {
+    "input_tokens": 34916,
+    "output_tokens": 2609,
+    "cost_usd": 0.16575
+  }
+}

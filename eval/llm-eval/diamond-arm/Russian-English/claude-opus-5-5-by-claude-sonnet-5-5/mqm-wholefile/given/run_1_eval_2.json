@@ -1,0 +1,168 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "given",
+  "run": "1",
+  "eval_run": 2,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш любимый шеф, если человек идиот - то это надолго.",
+      "translation_quote": "As our beloved boss says: 'If a man is an idiot, it's for a long time!'",
+      "justification": "Literal rendering kills the punchline; the natural English echo is 'once an idiot, always an idiot' / 'being an idiot is a lifelong condition'. The recurring boss-aphorism gag is flattened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole ticket pack, win... a tractor rack!",
+      "justification": "The rhyming jingle is mistranslated: 'водокачку' is a water pump tower (an absurd prize); 'tractor rack' is invented and the comic absurdity of the lottery prize is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "за чужой счёт пьют даже трезвенники и язвенники",
+      "translation_quote": "even teetotalers and convalescers drink",
+      "justification": "'Язвенники' means people with stomach ulcers, not convalescents; the punchline (even ulcer sufferers drink free booze) is mistranslated."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "Drop dead! May I see you in a coffin, in white slippers! May you live... on nothing but... your salary!",
+      "justification": "The curse's comic non-standard speech ('у гробу, у белых тапках') is lost, and the hesitant ellipses in the last curse are inserted, weakening the comic escalation; register of a Soviet curse is flattened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No! I ain't doing no such thing!",
+      "justification": "Lyolik is imitating a rustic/plebeian cabbie voice for comic effect, but the rendering is a heavy American dialect ('ain't ... no such') that mismatches the Soviet setting."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, нет такого мужа, который, хоть на час бы не мечтал стать холостяком!",
+      "translation_quote": "there's no husband who hasn't dreamed, if only for an hour, of being a bachelor!",
+      "justification": "Acceptable; however, the preceding 'Следить за сигналом' etc. fine. (Low confidence.)"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "Twasn't my fault!",
+      "justification": "'Twasn't' is archaic/poetic register that does not fit Anna's modern voice."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 19,
+    "minor_count": 12,
+    "total_points": 107,
+    "major_equiv": 21.4,
+    "major_equiv_per_unit": 0.014975507347795661
+  },
+  "usage": {
+    "input_tokens": 36385,
+    "output_tokens": 4067,
+    "cost_usd": 0.0443123
+  }
+}

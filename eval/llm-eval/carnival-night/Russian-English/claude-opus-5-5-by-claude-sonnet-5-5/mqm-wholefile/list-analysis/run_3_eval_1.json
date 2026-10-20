@@ -1,0 +1,148 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "list-analysis",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "И посмотреть вооружённым глазом, как мы уже видим две звёздочки, три звёздочки.. Четыре звёздочки, лучше всего, конечно, пять звёздочек!",
+      "translation_quote": "And look with the fully clothed eye... The best, of course, is five-star!",
+      "justification": "'Вооружённым глазом' means 'with the armed (aided) eye'; 'fully clothed eye' is a mistranslation, and 'five-star' loses the cognac-star joke (five stars = brandy), which the lecturer's drunkenness depends on."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это нетипично!",
+      "translation_quote": "It's not typical!",
+      "justification": "Ogurtsov's bureaucratic catchphrase 'нетипично/типично' is rendered literally and repeatedly; in English 'typical' sounds odd, and 'that'll be typical' for Adelaida's line makes little sense."
+    },
+    {
+      "severity": "major",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Бабу Ягу со стороны брать не будем, воспитаем в своём коллективе!",
+      "translation_quote": "we'll raise one within our own collective!",
+      "justification": "Acceptable and funny."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 23,
+    "minor_count": 6,
+    "total_points": 121,
+    "major_equiv": 24.2,
+    "major_equiv_per_unit": 0.04306049822064057
+  },
+  "usage": {
+    "input_tokens": 33057,
+    "output_tokens": 3356,
+    "cost_usd": 0.165784
+  }
+}

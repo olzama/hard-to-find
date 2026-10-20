@@ -1,0 +1,206 @@
+{
+  "dataset_name": "pokrov-gate",
+  "method": "given",
+  "run": "1",
+  "eval_run": 2,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1721,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кулинар!",
+      "translation_quote": "Some cook you are!",
+      "justification": "The aunt is calling Savva with a mock-grand title, not insulting his cooking; the sarcastic addition misreads the line and alters the character relationship."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Высокие, высокие отношения.",
+      "translation_quote": "What an evolved... highly e-v-volved relationship!",
+      "justification": "Invented stammering wordplay not in the source; the original is a simple repeated phrase 'lofty relations'. Distorts the line and adds an unmotivated joke."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Резать к чертовой матери.",
+      "translation_quote": "Cut it the hell out",
+      "justification": "'Cut it the hell out' sounds like 'stop it'; the idea is 'cut the thing out, to hell with it', which is ambiguous in English."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Очень жаль, что вы не грассируете. ... Велюров. Шевелюров! Это звучней, к тому же менее мануфактурно.",
+      "translation_quote": "Velyurov. Shevelyurov! It's more sonorous, and sounds less like a fabric store.",
+      "justification": "The pun relies on 'велюр' (velour) and 'шевелюра' (head of hair); without explanation, English readers get neither the fabric nor the hair connection, so the joke is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Живут не для радости, а для совести.",
+      "translation_quote": "You don't live to be happy, you live to do your duty.",
+      "justification": "'Совесть' (conscience) is turned into 'duty'; this shifts the moral meaning. 'For conscience' would be closer."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 21,
+    "minor_count": 21,
+    "total_points": 126,
+    "major_equiv": 25.2,
+    "major_equiv_per_unit": 0.014642649622312608
+  },
+  "usage": {
+    "input_tokens": 62971,
+    "output_tokens": 5060,
+    "cost_usd": 0.0569047
+  }
+}

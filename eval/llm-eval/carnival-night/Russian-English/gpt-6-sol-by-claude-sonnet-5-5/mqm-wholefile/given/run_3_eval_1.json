@@ -1,0 +1,124 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "given",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Бабу Ягу со стороны брать не будем, воспитаем в своём коллективе!",
+      "translation_quote": "We won’t bring in a witch from outside — we’ll train one in-house.",
+      "justification": "Baba Yaga is replaced by generic 'witch', losing the cultural reference and inconsistent with earlier 'Baba Yaga'. The joke about raising a Baba Yaga from within the staff (implying a nasty colleague) is weakened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это нетипично!",
+      "translation_quote": "It's uncharacteristic!",
+      "justification": "Ogurtsov's Soviet bureaucratic catchphrase 'нетипично/типично' is rendered inconsistently ('uncharacteristic', 'more typical'), and the later 'That would be more typical' makes little sense, losing the running joke."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Есть ли жизнь на Марсе... две звёздочки, три звёздочки.. Четыре звёздочки, лучше всего, конечно, пять звёздочек!",
+      "translation_quote": "[The best cognac in USSR was known as 5*]",
+      "justification": "A translator's bracketed note inserted into the subtitle text; the lecturer's drunken cognac-star joke is explained clumsily rather than conveyed, and the note breaks the subtitle form."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 10,
+    "total_points": 75,
+    "major_equiv": 15.0,
+    "major_equiv_per_unit": 0.026690391459074734
+  },
+  "usage": {
+    "input_tokens": 32584,
+    "output_tokens": 2813,
+    "cost_usd": 0.158462
+  }
+}

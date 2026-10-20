@@ -1,0 +1,116 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list-analysis",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это не актуально!",
+      "translation_quote": "That's old hat!",
+      "justification": "'Не актуально' (not topical/relevant) is mistranslated as 'old hat', altering meaning and the Soviet-bureaucratic flavor."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Водокачку! ... Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Whoever buys tickets by the stack wins... A smokestack!",
+      "justification": "The rhyme (пачку/водокачку) is lost and 'smokestack' is an unmotivated substitution; the lottery slogan joke does not land."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "за чужой счёт пьют даже трезвенники и язвенники",
+      "translation_quote": "even teetotalers drink... and ulcer-totalers",
+      "justification": "The 'трезвенники и язвенники' joke is rendered with an awkward invented coinage 'ulcer-totalers' that is unnatural."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 14,
+    "minor_count": 7,
+    "total_points": 77,
+    "major_equiv": 15.4,
+    "major_equiv_per_unit": 0.010776766969909028
+  },
+  "usage": {
+    "input_tokens": 36516,
+    "output_tokens": 2703,
+    "cost_usd": 0.17309
+  }
+}

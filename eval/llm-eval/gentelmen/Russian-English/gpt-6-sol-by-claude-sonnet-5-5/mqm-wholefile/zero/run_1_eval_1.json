@@ -1,0 +1,114 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "zero",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк",
+      "translation_quote": "We're not afraid of the big bad wolf",
+      "justification": "Fine, but the following 'Я злой и страшный серый волк, я в поросятах знаю толк' is rendered with 'I know a tasty pig when I see one', losing the rhyme and song feel of the parody; the song-like quality is flattened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Хмыренок! Деточка, а вам не кажется, что ваше место возле параши?",
+      "translation_quote": "Weasel! Sonny, don't you think your place is by the slop bucket?",
+      "justification": "Хмырь is rendered as 'Weasel' but also appears as 'Squint' for Косой and 'Pockface' for Рябой; the nickname 'Хмырь' (a shady, sleazy type) is inconsistent, and 'Хмыренок' (his kid) later becomes 'that kid', losing the link."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кина не будет. Электричество кончилось.",
+      "translation_quote": "That's it! Show's over. The power's out.",
+      "justification": "A well-known catchphrase from a Soviet film; 'Show's over' is acceptable but the allusion is lost."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Девушка? - Чувиха.",
+      "translation_quote": "Young woman? - A broad.",
+      "justification": "'A broad' is dated American slang that does not fit the Soviet crook-slang contrast; the English-lesson joke ('Girl!') loses its point."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Бабушка, туда не ходи, сюда ходи. А то снег башка попадет!",
+      "translation_quote": "Granny, don't go that way. Go this way, or snow will hit your head!",
+      "justification": "The broken-Russian 'foreigner' voice parody is lost; the English is standard grammar so the comedic pidgin is absent."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 8,
+    "minor_count": 11,
+    "total_points": 51,
+    "major_equiv": 10.2,
+    "major_equiv_per_unit": 0.01827956989247312
+  },
+  "usage": {
+    "input_tokens": 26108,
+    "output_tokens": 2861,
+    "cost_usd": 0.133038
+  }
+}

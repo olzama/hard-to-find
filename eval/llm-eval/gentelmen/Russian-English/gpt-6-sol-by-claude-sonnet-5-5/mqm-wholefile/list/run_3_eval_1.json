@@ -1,0 +1,84 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "list",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Ну, а я знаю? Мужик какой-то. ... Сидячий? ... Сидит?",
+      "translation_quote": "Was he seated?",
+      "justification": "\"Was he seated?\" is too formal for this rough colloquial exchange, and it weakens the humour of the dim-witted dialogue."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Пасть порву",
+      "translation_quote": "I'll rip your mouth off",
+      "justification": "This is Docent's recurring catchphrase. \"Rip your mouth off\" is a stilted, literal rendering. A slangier equivalent (\"I'll tear your face off\", \"shut your trap\") would carry the thug voice better. The follow-up \"Пасть, пасть...\" (\"My mouth, my mouth...\") becomes weak."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Устроили тут ромашка: Помню-не помню.",
+      "translation_quote": "It's nothing but \"I remember, I don't remember.\"",
+      "justification": "The idiom \"устроили ромашку\" (like plucking a daisy's petals, 'loves me, loves me not') is flattened and its image lost."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 2,
+    "minor_count": 11,
+    "total_points": 21,
+    "major_equiv": 4.2,
+    "major_equiv_per_unit": 0.007526881720430108
+  },
+  "usage": {
+    "input_tokens": 26089,
+    "output_tokens": 7272,
+    "cost_usd": 0.177072
+  }
+}

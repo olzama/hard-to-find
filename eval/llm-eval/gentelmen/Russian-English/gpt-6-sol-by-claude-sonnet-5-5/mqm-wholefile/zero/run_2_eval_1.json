@@ -1,0 +1,165 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "zero",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A bad person? - A rat.",
+      "justification": "'Редиска' (nasty/bad guy, a mild slang term that is a running gag) is rendered as 'rat', which collides with 'rat' later used for 'сдавать/раскалываться' contexts and loses the comic euphemistic quality; the gag of the glossary lesson is also muddled because 'rat' and 'spill his guts' blur."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк... Я злой и страшный серый волк, я в поросятах знаю толк.",
+      "translation_quote": "I'm the wicked, fearsome big bad wolf. I know a thing or two about piglets.",
+      "justification": "Acceptable, but the culturally famous Three Little Pigs song reference is flattened; minor loss of rhyme/song feel."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кину не будет. Электричество кончилось.",
+      "translation_quote": "That's it! Show's over. The power's out.",
+      "justification": "The well-known Russian cinema-mechanic joke phrase 'Кина не будет' is rendered neutrally, losing the colloquial/comic flavor; acceptable but weak."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чего? - Пасть порву... В угол поставлю!",
+      "translation_quote": "I'll make you stand in the corner!",
+      "justification": "Fine; the kindergarten-teacher habit crossing into thief-talk is preserved."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Сколько я зарезал, сколько перерезал, сколько душ я загубил!",
+      "translation_quote": "How many have I stabbed and slaughtered? How many souls have I destroyed?",
+      "justification": "The line is a famous parody of a melodramatic prison song/Don Juan-style boast, delivered by a comic character (Troshkin as Nikola of Petersburg); the exaggerated rhythmic parody is flattened into plain prose."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Пасть порву... Ну, человек!",
+      "translation_quote": "Come on, man! Are you deaf?",
+      "justification": "Minor loss only."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Ну ты даешь!",
+      "translation_quote": "Well, look at you!",
+      "justification": "Slightly off; 'You're something else!' would fit."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Hey, citizen! Don't go that way. Go this way. Snow falls on head that way. You end up completely dead!",
+      "justification": "Good imitation of broken Russian, but 'Snow falls on head' dropped the 'will' flavor; fine."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Ходи лошадью",
+      "translation_quote": "Move your knight",
+      "justification": "Chess terminology fine; but 'Fancy a game of chess' for 'Может козла забьем?' mistranslates: 'козла забить' means playing dominoes."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "- Это не смешно, тетя.",
+      "translation_quote": "That's not funny, lady.",
+      "justification": "'Тетя' is fine."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 13,
+    "minor_count": 15,
+    "total_points": 80,
+    "major_equiv": 16.0,
+    "major_equiv_per_unit": 0.02867383512544803
+  },
+  "usage": {
+    "input_tokens": 26170,
+    "output_tokens": 3093,
+    "cost_usd": 0.135606
+  }
+}

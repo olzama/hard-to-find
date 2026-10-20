@@ -1,0 +1,122 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list-analysis",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, в нашем деле гланое - этот самый реализм!",
+      "translation_quote": "As our dear boss says, in our line of work, realism's the thing!",
+      "justification": "The boss's catchphrases (\"как говорит наш дорогой шеф\") are comic parodies of proverbs. Several are rendered literally or flattened, e.g. 'if a man's an idiot, it's a lifelong condition', and 'strike while the iron's hot, right at the cash register', which loses the pun on the original idiom. The humor is weakened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No! I ain't goin' along with that!",
+      "justification": "The speaker's mock-hick dialect works as a comic disguise as the 'taxi driver'. Here it is overdone with 'ain't', and elsewhere ('Jus' like we agreed', 'I didn't do nothin'') the dialect marking is inconsistent and drifts into a US/English-regional register that does not match the Soviet setting."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты исдох! Чтоб я видел тебя у гробу, у белых тапках! Чтоб ты жил на одну зарплату!",
+      "translation_quote": "Drop dead! I hope I see you in your coffin, wearing white slippers! May you live... on nothing but... your salary!",
+      "justification": "The curse is an Odessa-style comic rant with deliberately non-standard grammar ('у гробу, у белых тапках'). The translation is standard English and loses the dialectal comedic voice, and the final curse is clumsily broken up."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Цигель, цигель, ай-люлю",
+      "translation_quote": "Zigel, zigel, ai-lyu-lyu",
+      "justification": "The transliteration changes between 'zigel', 'tsigel' variants and is inconsistent with the Russian-based transcription used elsewhere in the pseudo-foreign passages."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a stack of tickets and you just might win a... Waterworks!",
+      "justification": "The rhyme (пачку/водокачку) is lost, so the comic sloganeering effect disappears."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 7,
+    "minor_count": 14,
+    "total_points": 49,
+    "major_equiv": 9.8,
+    "major_equiv_per_unit": 0.006857942617214836
+  },
+  "usage": {
+    "input_tokens": 35555,
+    "output_tokens": 2941,
+    "cost_usd": 0.171626
+  }
+}

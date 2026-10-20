@@ -1,0 +1,83 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "characters",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Не взял попутных - это не таксист!",
+      "translation_quote": "Won't pick up passengers — he's no cabbie!",
+      "justification": "Source means he didn't pick up hitchhikers/passers-by along the way; 'Stop, let's give them a lift!' is fine, but the follow-up loses logic."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Пока что - задаток. Мхяу-яу! Достаточно одной таблэтки...",
+      "translation_quote": "One tablyet is enough...",
+      "justification": "Eye-dialect spellings ('tablyet', 'clyent', 'toylet', 'feer tree') are unmotivated and distracting; the source mispronunciations are not consistently marked."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "It ain't my fault! He come here by hisself!",
+      "justification": "Overly strong substandard English for a character whose Russian is only colloquial."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку",
+      "translation_quote": "Whoever buys a stack of tickets wins...",
+      "justification": "Rhyme and slogan-like jingle structure lost."
+    }
+  ],
+  "summary": {
+    "major_count": 7,
+    "minor_count": 5,
+    "total_points": 40,
+    "major_equiv": 8.0,
+    "major_equiv_per_unit": 0.005598320503848845
+  },
+  "usage": {
+    "input_tokens": 36418,
+    "output_tokens": 1912,
+    "cost_usd": 0.164788
+  }
+}

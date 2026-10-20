@@ -1,0 +1,162 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты жил на одну зарплату!",
+      "translation_quote": "May you live... on nothing... but your salary!",
+      "justification": "The punchline curse (the worst fate: living on a salary alone, as a corrupt/black-market person) is reduced to awkward, over-punctuated phrasing; the humor and the preceding curse structure ('Чтоб я видел тебя у гробу, у белых тапках') are weakened, and the Yiddish-inflected speech is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Эти кретины уверяли, что он был без сознания... Значит, этот лопух ничего не знает.",
+      "translation_quote": "Comrade! AI-lyulyu would be lovely, but tsigel-tsigel! Time's running out! Those idiots swore he was unconscious...",
+      "justification": "'Товарищ, товарищ... время, товарищ!' is the speaker's line pressed to the foreigners, and the translation garbles the nonsense phrases, introducing 'AI-lyulyu' with odd capitalization and an unnatural sentence that does not match the source."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Облико морале… ферштейн?",
+      "translation_quote": "Morale impeccable! Verstehen?",
+      "justification": "Pseudo-foreign 'Облико морале' (moral character) is meant as the speaker's comic mixture; 'Morale impeccable' misrepresents it. Moreover 'Руссо туристо' is kept as 'Russo touristo!' but the point 'Soviet tourists behave morally' is blurred."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a stack of tickets, and you'll win... A water pump!",
+      "justification": "The rhyme (пачку/водокачку) that makes this a parody lottery slogan is lost."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No! I can't go along with that!",
+      "justification": "The deliberately uneducated, comic register ('пойтить') of the speaker is lost."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Вы говорите: поскользнулся, упал... закрытый перелом",
+      "translation_quote": "slipped, fell... closed fracture",
+      "justification": "Fine, but 'У тебя там не закрытый, а открытый перелом' keeps the pun; however 'открытый' as 'open fracture' misses that Nadya is hinting at the open secret/gold, which is acceptable. No issue."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Без сознания... Потерял сознание, очнулся - гипс",
+      "translation_quote": "Passed out, came to... A cast!",
+      "justification": "Fine overall; but 'Он согласился? - Согласился!' is okay. No issue."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Как говорит наш дорогой шеф, за чужой счёт пьют даже трезвенники и язвенники.",
+      "translation_quote": "even teetotalers drink when someone else is paying... and even ulcer sufferers!",
+      "justification": "The punchline structure is broken by the awkward ellipsis, weakening the Boss's aphorism."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Бойся тот, кто...",
+      "translation_quote": "I knew too much",
+      "justification": "Fine. No issue."
+    }
+  ],
+  "summary": {
+    "major_count": 23,
+    "minor_count": 5,
+    "total_points": 120,
+    "major_equiv": 24.0,
+    "major_equiv_per_unit": 0.016794961511546535
+  },
+  "usage": {
+    "input_tokens": 35238,
+    "output_tokens": 3757,
+    "cost_usd": 0.178518
+  }
+}

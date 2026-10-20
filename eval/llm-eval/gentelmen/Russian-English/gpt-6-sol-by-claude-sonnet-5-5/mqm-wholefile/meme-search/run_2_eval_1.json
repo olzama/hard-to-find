@@ -1,0 +1,175 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "meme-search",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A bad person? - A radish.",
+      "justification": "Slang 'редиска' (a rotten person) is rendered literally as 'radish', so the joke about thieves' slang vs. polite speech and later recurring gag is lost; English audience gets a nonsensical word with no hint of pejorative meaning."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Ты того... Чего \"того\"?",
+      "translation_quote": "You... well... you know... Know what?",
+      "justification": "The mocking echo of 'того' is lost; the comedic exchange and Troshkin's nervous attempt at thief talk is weakened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кушать подано! Садитесь жрать, пожалуйста.",
+      "translation_quote": "Dinner is served! Sit down and stuff your faces, please.",
+      "justification": "The comic contrast of butler-like 'Кушать подано' with crude 'жрать' is only partly kept; acceptable, but 'Dinner is served' later repeated for 'Кушать подано' loses the mock-servant humor."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Пасть порву... Пасть, пасть...",
+      "translation_quote": "I'll rip your mouth open",
+      "justification": "Idiomatic threat 'пасть порву' (animal jaw) rendered as 'mouth', losing the dehumanizing, coarse register; 'rip your jaws off/tear your face' would be more natural. Repeated throughout."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Snow fall on head over there— you be very dead!",
+      "justification": "Pidgin 'Asian' accent is kept, but the dash formatting breaks the line and 'ходи' pidgin humor is only partly conveyed; acceptable but awkward."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Сколько я зарезал, сколько перерезал, сколько душ я загубил!",
+      "translation_quote": "So many I've stabbed and slashed, so many souls I've damned!",
+      "justification": "This is a quote from a famous Russian song/film parody; the reference is not signalled and 'damned' shifts 'ruined/destroyed' meaning."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Пасть, пасть... Доцент, ты был когда-нибудь маленький?",
+      "translation_quote": "Mouth, mouth... - Docent, were you ever a little boy?",
+      "justification": "Mock repetition of 'пасть' is rendered flatly; minor."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Девушка? - Чувиха.",
+      "translation_quote": "A young woman? - A broad.",
+      "justification": "'Broad' is a US-1940s term, while 'чувиха' is Soviet 1970s slang; epoch mismatch."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 20,
+    "minor_count": 12,
+    "total_points": 112,
+    "major_equiv": 22.4,
+    "major_equiv_per_unit": 0.04014336917562724
+  },
+  "usage": {
+    "input_tokens": 26237,
+    "output_tokens": 3867,
+    "cost_usd": 0.14361400000000002
+  }
+}

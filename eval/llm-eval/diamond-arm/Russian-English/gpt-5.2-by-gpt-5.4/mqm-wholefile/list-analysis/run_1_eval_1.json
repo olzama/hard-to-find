@@ -1,0 +1,178 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list-analysis",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "gpt-5.4",
+  "translator": "gpt-5.2",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Руссо туристо… Облико морале… ферштейн?",
+      "translation_quote": "Russo tourist! Moral image! Verstehen?",
+      "justification": "\"Облико морале\" is a famous mock-Italian phrase meaning roughly 'moral character' or 'high moral standards.' \"Moral image\" is not idiomatic and blunts a well-known comedic line; the meaning and comic effect are both weakened."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты жил на одну зарплату!",
+      "translation_quote": "May you live on one salary!",
+      "justification": "This iconic curse means 'may you have to survive on your wages alone,' implying no illicit income or perks. The literal translation is understandable but misses the Soviet socioeconomic sting that makes the line funny and pointed."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Наши люди в булочную на такси не ездят!",
+      "translation_quote": "Our people don’t take taxis to the bakery!",
+      "justification": "Although literal, the line is an iconic idiom-like Soviet joke about modest respectability and not showing off. In English it risks sounding merely factual; the cultural punchline is not carried across. A more adaptive rendering was needed to preserve the humor."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "дитям - мороженое, его бабе - цветы",
+      "translation_quote": "ice cream for the kids, flowers for his wife",
+      "justification": "\"Бабе\" is coarse and dismissive, not neutral 'wife.' The source character's slightly vulgar criminal tone is softened, altering characterization and comic texture."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "It’s not my fault! He came on his own!",
+      "justification": "This famous melodramatic comic line is rendered too flatly. The Russian uses deliberately ungrammatical, theatrical speech ('I am not the guilty one'), which is part of the humor; the normal English phrasing loses that iconic stylistic effect."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Это не актуально! \"Остров Невезения\"!",
+      "translation_quote": "That’s not topical! “The Island of Bad Luck”!",
+      "justification": "\"Не актуально\" here means more like 'that's not the thing now / that's not suitable right now,' not literally 'not topical.' The literal choice is awkward and misses the comic context."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Потерял сознание, очнулся - гипс!",
+      "translation_quote": "Passed out, came to— cast!",
+      "justification": "The clipped meme-like rhythm of the Russian is iconic. 'Came to—cast!' is close, but missing the article sounds odd in English while keeping the joke only partially. A more idiomatic punchline was possible."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Как говорит наш дорогой шеф...",
+      "translation_quote": "As our dear boss says...",
+      "justification": "Repeated throughout, this is serviceable but lacks some of the oily, mock-reverential comic flavor of the original. The refrain could be more characterful in English."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "лёгким движением руки брюки превращаются... в элегантные шорты",
+      "translation_quote": "With a light flick of the wrist, the trousers turn into... elegant shorts!",
+      "justification": "Mostly accurate, but the comic set phrase strongly echoes a famous routine. 'With one easy movement...' would better capture its performative cadence."
+    }
+  ],
+  "summary": {
+    "major_count": 8,
+    "minor_count": 24,
+    "total_points": 64,
+    "major_equiv": 12.8,
+    "major_equiv_per_unit": 0.008957312806158153
+  },
+  "usage": {
+    "input_tokens": 24132,
+    "output_tokens": 2362,
+    "cost_usd": 0.09576000000000001
+  }
+}

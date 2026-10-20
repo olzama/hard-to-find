@@ -1,0 +1,101 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "zero",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A bad person? - Radish.",
+      "justification": "The recurring 'редиска' as a euphemism for a scoundrel is kept literally, but without any English humor; the joke about a mild insult working as slang is lost and makes the dialogue puzzling."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Кина не будет. Электричество кончилось.",
+      "translation_quote": "No movie today. The electricity's run out.",
+      "justification": "The famous catchphrase 'Кина не будет' (from White Sun of the Desert) is a cultural quote that is flattened."
+    }
+  ],
+  "summary": {
+    "major_count": 9,
+    "minor_count": 9,
+    "total_points": 54,
+    "major_equiv": 10.8,
+    "major_equiv_per_unit": 0.01935483870967742
+  },
+  "usage": {
+    "input_tokens": 26543,
+    "output_tokens": 2095,
+    "cost_usd": 0.127118
+  }
+}

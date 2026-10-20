@@ -1,0 +1,103 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "meme-search",
+  "run": "1",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy a whole stack of tickets and you could win... a pumping station!",
+      "justification": "The rhyme (пачку/водокачку) of the slogan is lost, so the comic couplet does not land."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Это - я, я, я! ... Цигель, цигель, ай-люлю",
+      "translation_quote": "Tsigel, tsigel",
+      "justification": "The foreign-language gibberish is transliterated inconsistently, with some pieces altered, and the Russian 'Бор! ... [Простите, погорячился...]' gags depend on the viewer hearing nonsense rendered the same way."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Поехали к шефу В таком виде... я не могу.",
+      "translation_quote": "Let's go to the boss. Not looking like this... I can't.",
+      "justification": "The drunken Gesha/Lyolik exchange lacks the humor of Lyolik's mocking repetition of 'ванна/кофэ/какава с чаем'; 'tea-yo' is an odd invention."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Облико морале",
+      "translation_quote": "morals impeccable",
+      "justification": "The 'Облико морале' line is a Soviet-era phrase ('moral character') and the English adds 'impeccable', which changes the tone."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 9,
+    "minor_count": 8,
+    "total_points": 53,
+    "major_equiv": 10.6,
+    "major_equiv_per_unit": 0.00741777466759972
+  },
+  "usage": {
+    "input_tokens": 35504,
+    "output_tokens": 2227,
+    "cost_usd": 0.16428199999999998
+  }
+}

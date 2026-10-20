@@ -1,0 +1,119 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "given",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Бабу Ягу со стороны брать не будем, воспитаем в своём коллективе!",
+      "translation_quote": "We won’t bring in a witch from outside — we’ll train one in-house.",
+      "justification": "Baba Yaga is replaced with the generic 'witch', losing the cultural reference. The bureaucratic humor of 'raising' one in the collective is also weakened. Inconsistent with 'Baba Yaga' used just before."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Снизу звёздочки кажутся маленькие-маленькие. Но стоит только нам взять телескоп... И посмотреть вооружённым глазом, как мы уже видим две звёздочки, три звёздочки.. Четыре звёздочки, лучше всего, конечно, пять звёздочек!",
+      "translation_quote": "[The best cognac in USSR was known as 5*]",
+      "justification": "The cognac-stars joke is explained by an inserted bracketed translator note, which is not subtitle-appropriate and breaks the viewing experience; the added text is not part of the dialogue. Also 'aided eye' is an awkward rendering of 'вооружённым глазом'."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Это нетипично!",
+      "translation_quote": "It's untypical!",
+      "justification": "Ogurtsov's bureaucratic catchphrase 'нетипично' is rendered with the non-idiomatic 'untypical'. Soviet-officialese flavor is only partly retained, and it is used inconsistently ('That would be more typical')."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Горько товарищи",
+      "translation_quote": "It's bitter, comrades",
+      "justification": "See the Gorko pun issue; the sentence also reads stiffly."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 12,
+    "minor_count": 9,
+    "total_points": 69,
+    "major_equiv": 13.8,
+    "major_equiv_per_unit": 0.024555160142348757
+  },
+  "usage": {
+    "input_tokens": 32537,
+    "output_tokens": 2694,
+    "cost_usd": 0.157084
+  }
+}

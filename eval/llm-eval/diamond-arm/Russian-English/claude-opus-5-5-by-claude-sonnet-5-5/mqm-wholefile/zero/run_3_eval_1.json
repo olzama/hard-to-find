@@ -1,0 +1,164 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "zero",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Поскользнулся, упал... Закрытый перелом... Потерял сознание, очнулся - гипс.",
+      "translation_quote": "Closed fracture... Lost consciousness, woke up - plaster cast.",
+      "justification": "Fine as a refrain, but the later pun 'не закрытый, а открытый перелом' is rendered literally and the joke about 'open' fracture (implying hidden contents) is not made clear; the humor weakens."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Лёгким движением руки брюки превращаются... в элегантные шорты!",
+      "translation_quote": "turn the jacket... into a windbreaker",
+      "justification": "'Куртка' rendered as 'windbreaker' is a questionable choice; 'jacket' contrasting with 'пиджак' (suit jacket) is better rendered as 'blazer... into a jacket'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Хорошо, что он не контрабандист, симпатичный мужик...",
+      "translation_quote": "Good thing he's not a smuggler, nice guy...",
+      "justification": "Acceptable; flagged for style: the register is fine. Low confidence."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Что случилось, почему шеф здесь? ... Но у Белой Скалы нет клёва... Клёв!... Клёв будет, это я беру на себя! Клевать будет так, что клиент позабудет обо всём на свете!",
+      "translation_quote": "They'll bite, I'll take care of that! They'll bite so well the client will forget everything in the world!",
+      "justification": "The double meaning of 'клёв' (fish biting and the client being hit) is lost partly; the switch from fish to client is not cleanly preserved."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Как говорит наш дорогой шеф, если человек идиот - то это надолго.",
+      "translation_quote": "As our beloved boss says, if a man is an idiot, it's for a long time.",
+      "justification": "The aphorism 'это надолго' is a deadpan quip meaning 'it's permanent'; English literal rendering is clumsy and loses the punch ('it's for life')."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Облико морале… ферштейн?",
+      "translation_quote": "Obliko morale... verstehen?",
+      "justification": "The fake-foreign gibberish is transliterated rather than adapted; minor."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Whoever takes a pack of tickets will get... A water tower!",
+      "justification": "The rhymed jingle (пачку/водокачку) is lost, and the joke of a ridiculous prize is flattened; 'water tower' isn't the same as a pumping station."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 21,
+    "minor_count": 9,
+    "total_points": 114,
+    "major_equiv": 22.8,
+    "major_equiv_per_unit": 0.01595521343596921
+  },
+  "usage": {
+    "input_tokens": 36328,
+    "output_tokens": 4128,
+    "cost_usd": 0.18658799999999998
+  }
+}

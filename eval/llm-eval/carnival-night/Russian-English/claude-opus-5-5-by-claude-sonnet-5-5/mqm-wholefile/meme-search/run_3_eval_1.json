@@ -1,0 +1,99 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "meme-search",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "expected": ""
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "И посмотреть вооружённым глазом",
+      "translation_quote": "And look, not with the naked eye but with the dressed one",
+      "justification": "'Dressed eye' is nonsensical in English; the Russian 'вооружённым глазом' (armed eye) is a standard phrase, so the fake-learned lecturer's blunder is garbled rather than conveyed."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 9,
+    "minor_count": 9,
+    "total_points": 54,
+    "major_equiv": 10.8,
+    "major_equiv_per_unit": 0.01921708185053381
+  },
+  "usage": {
+    "input_tokens": 32977,
+    "output_tokens": 2266,
+    "cost_usd": 0.15456399999999998
+  }
+}

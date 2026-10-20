@@ -1,0 +1,108 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "zero",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Пока что - задаток. Мхяу-яу! Достаточно одной таблэтки...",
+      "translation_quote": "Just an advance for now. Mhyow-yow! One tablette is enough...",
+      "justification": "Playful deliberate mispronunciations ('таблэтки', 'туалэт', 'нумер') are rendered with random archaic/French-looking spellings ('tablette', 'toilette', 'feer tree'), which reads as typos rather than the villains' comic pseudo-sophisticated speech."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Whoever buys a whole stack of tickets wins... A water tower!",
+      "justification": "The rhyming couplet (пачку/водокачку) is lost; 'water tower' also misrenders водокачка (water pump house), and the joke of a ridiculous prize is without rhyme."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Шампанское по утрам пьют или аристократы, или дегенераты!",
+      "translation_quote": "Champagne in the morning is drunk only by aristocrats or degenerates!",
+      "justification": "Acceptable meaning, but 'Пьянству - бой!' rendered as 'War on drunkenness!' misses the Soviet slogan flavor; minor cultural loss."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    }
+  ],
+  "summary": {
+    "major_count": 14,
+    "minor_count": 5,
+    "total_points": 75,
+    "major_equiv": 15.0,
+    "major_equiv_per_unit": 0.010496850944716585
+  },
+  "usage": {
+    "input_tokens": 36540,
+    "output_tokens": 2746,
+    "cost_usd": 0.173616
+  }
+}

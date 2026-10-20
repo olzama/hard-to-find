@@ -1,0 +1,207 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "list",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нет, на это я пойтить не могу!",
+      "translation_quote": "No, I ain't goin' along with that!",
+      "justification": "Lyolik is a thug posing as a policeman, not an uneducated rustic. The deliberately substandard 'пойтить' is mimicked by heavy dialect ('ain't goin'') that overshoots the character's register and clashes with his otherwise polished speech."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Не виноватая я! Он сам пришёл!",
+      "translation_quote": "I ain't the guilty one! He come here by himself!",
+      "justification": "The Russian is a simple colloquial protest. The invented non-standard English dialect makes the character sound like a different type of speaker and creates a comic effect absent from the original."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Whoever buys a stack of tickets wins... A smokestack!",
+      "justification": "The rhymed jingle (пачку/водокачку) is a joke on a prize that is a water tower. 'Smokestack' changes the referent and loses the absurd rhymed slogan; it does not rhyme in English."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "за чужой счёт пьют даже трезвенники и язвенники",
+      "translation_quote": "even ascetics drink... and diabetics",
+      "justification": "'Язвенники' means people with stomach ulcers, not diabetics. 'Ascetics' is also a poor fit for 'трезвенники' (teetotalers). This is a mistranslation that weakens the aphorism."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Чтоб ты жил на одну зарплату!",
+      "translation_quote": "May you live on just your salary!",
+      "justification": "Part of the humor is that this is the neighbor's comedic curse. The English is fine but the curse chain is less punchy than the original."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Шампанское по утрам пьют или аристократы, или дегенераты!",
+      "translation_quote": "Only two kinds drink champagne in the morning: aristocrats and degenerates!",
+      "justification": "This is a famous quote and the English is acceptable, but the order-of-words punch is weaker than the original rhythm."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Не взял попутных - это не таксист!",
+      "translation_quote": "Won't pick up passengers - he's no cabbie!",
+      "justification": "The line indicates he did not pick up passers-by who were along the route; 'passengers' is imprecise and the reasoning is lost."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Ну что Вы, время! Время - деньги!",
+      "translation_quote": "Come on, time! Time is money!",
+      "justification": "The line is literal and slightly clumsy."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 25,
+    "minor_count": 15,
+    "total_points": 140,
+    "major_equiv": 28.0,
+    "major_equiv_per_unit": 0.01959412176347096
+  },
+  "usage": {
+    "input_tokens": 36372,
+    "output_tokens": 5150,
+    "cost_usd": 0.196984
+  }
+}

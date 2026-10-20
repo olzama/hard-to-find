@@ -1,0 +1,109 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "characters",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк, серый волк, серый волк...",
+      "translation_quote": "Who's afraid of the big gray wolf, big gray wolf, big gray wolf...",
+      "justification": "Replaces the Russian children's song with a different well-known English song; this is a plausible domestication, but the following 'Я злой и страшный серый волк' rhyme is rewritten and the reference is approximated."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Пасть порву! Моргалы выколю!",
+      "translation_quote": "I'll rip your jaw off! / gouge your peepers out!",
+      "justification": "Catchphrase threat is rendered inconsistently ('jaw'/'jaws', 'peepers'), and 'Docent' speech loses the gangster idiom 'пасть' (maw/trap), weakening the recurring joke."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A bad person? - A radish.",
+      "justification": "The slang 'редиска' (a bad sort) is kept literally, so the running joke is opaque; later 'Take back the radish!' and 'Answer for the radish' lose sense in English."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Сколько я зарезал, сколько перерезал, сколько душ я загубил!",
+      "translation_quote": "How many have I slaughtered, how many have I butchered, how many souls have I destroyed!",
+      "justification": "This is a parody of a famous theatrical/song line; the comic pastiche register is only roughly conveyed."
+    },
+    {
+      "severity": "major",
+      "category": "style",
+      "source_quote": "Какой же это арматурный, это слесарный. Чего ты свистишь?",
+      "translation_quote": "Quit blowing smoke!",
+      "justification": "Plausible, but 'свистишь' (lying) fits the criminal slang; minor shift. Also 'Alibakan' character speech is inconsistent."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Нету. Были, а теперь нет.",
+      "translation_quote": "It's gone. It was here, now it's not.",
+      "justification": "Ali-Baba's pidgin and Sanych's lines are mixed up; speaker voices are blurred."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 9,
+    "minor_count": 8,
+    "total_points": 53,
+    "major_equiv": 10.6,
+    "major_equiv_per_unit": 0.01899641577060932
+  },
+  "usage": {
+    "input_tokens": 26476,
+    "output_tokens": 2102,
+    "cost_usd": 0.12692
+  }
+}

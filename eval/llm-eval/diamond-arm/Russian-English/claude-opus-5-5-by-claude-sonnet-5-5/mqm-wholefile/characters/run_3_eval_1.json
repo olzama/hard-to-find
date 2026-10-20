@@ -1,0 +1,104 @@
+{
+  "dataset_name": "diamond-arm",
+  "method": "characters",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 1429,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Если человек идиот - то это надолго.",
+      "translation_quote": "if a man's an idiot, it's for the long haul.",
+      "justification": "Reasonable, but the recurring 'как говорит наш дорогой шеф' aphorisms (e.g., 'куй железо, не отходя от кассы') are mangled: 'strike while the iron's hot, without leaving the till' loses the comic confusion of idioms."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Ну что Вы, время! Время - деньги!",
+      "translation_quote": "Come on, time's ticking! Time is money!",
+      "justification": "Minor mismatch; fine. However 'Мамочка!!!' and cries are fine. The real loss: 'Руки... уверх! Обои!...' rendered 'Both o' yous!' adds a dialect not in the source character voice."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Кто возьмёт билетов пачку, тот получит... Водокачку!",
+      "translation_quote": "Buy tickets by the pack and you'll win... A water tower!",
+      "justification": "The rhyme (пачку/водокачку) is lost, so the comic jingle fails in English."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "terminology"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 8,
+    "total_points": 58,
+    "major_equiv": 11.6,
+    "major_equiv_per_unit": 0.008117564730580826
+  },
+  "usage": {
+    "input_tokens": 36493,
+    "output_tokens": 2167,
+    "cost_usd": 0.167638
+  }
+}

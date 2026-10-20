@@ -1,0 +1,361 @@
+import argparse
+import random
+import time
+import openai
+import pysrt
+from google import genai
+from google.genai import types as gtypes
+from pathlib import Path
+from evaluate_mqm_parallel import RATES, WEB_SEARCH_COST_PER_CALL, load_openai_key, load_gemini_key
+from claude_cli import call_claude
+from lang_utils import normalize_lang
+
+
+# =========================
+# API WRAPPERS
+# =========================
+
+def call_gpt_translate(content, client, model_name, temp, retries=3, retry_delay=5,
+                       system_msg="Expert in subtitles translation."):
+    is_reasoning = 'reasoning_effort' in RATES[model_name]
+    for attempt in range(1, retries + 1):
+        try:
+            response = client.chat.completions.create(
+                model=model_name,
+                **({} if is_reasoning else {'temperature': temp, 'seed': random.choice([x for x in range(1, 10000) if x != 42])}),
+                **({'reasoning_effort': RATES[model_name]['reasoning_effort']} if is_reasoning else {}),
+                max_completion_tokens=RATES[model_name].get("max_completion_tokens"),
+                messages=[
+                    {"role": "system", "content": system_msg},
+                    {"role": "user", "content": content}
+                ]
+            )
+            raw_text = response.choices[0].message.content.strip()
+            usage = response.usage
+            in_tokens = usage.prompt_tokens
+            out_tokens = usage.completion_tokens
+            reasoning_tokens = getattr(getattr(usage, "completion_tokens_details", None), "reasoning_tokens", 0) or 0
+            cached_tokens = getattr(getattr(usage, "prompt_tokens_details", None), "cached_tokens", 0) or 0
+            non_cached_tokens = in_tokens - cached_tokens
+            cost = (non_cached_tokens * RATES[model_name]["input"]) + \
+                   (cached_tokens * RATES[model_name].get("cached_input", RATES[model_name]["input"])) + \
+                   (out_tokens * RATES[model_name]["output"])
+            return raw_text, None, in_tokens, out_tokens, cost, reasoning_tokens
+        except Exception as e:
+            if attempt == retries:
+                raise
+            print(f"  API error (attempt {attempt}/{retries}): {e}. Retrying in {retry_delay}s...")
+            time.sleep(retry_delay)
+
+
+def call_gemini_translate(content, client, model_name, temp):
+    response = client.models.generate_content(
+        model=model_name,
+        config=gtypes.GenerateContentConfig(
+            system_instruction="You are an expert in subtitles translation.",
+            temperature=temp,
+            seed=random.choice([x for x in range(1, 10000) if x != 42]),
+            thinking_config=gtypes.ThinkingConfig(include_thoughts=True)
+        ),
+        contents=content
+    )
+    reasoning = None
+    raw_text = ""
+    for part in response.candidates[0].content.parts:
+        if part.thought: reasoning = part.text
+        if part.text: raw_text += part.text
+
+    usage = response.usage_metadata
+    in_tokens = usage.prompt_token_count
+    out_tokens = usage.candidates_token_count + (usage.thoughts_token_count or 0)
+    cost = (in_tokens * RATES[model_name]["input"]) + (out_tokens * RATES[model_name]["output"])
+    return raw_text.strip(), reasoning, in_tokens, out_tokens, cost
+
+
+def call_gpt_web_search(prompt, client, model_name, retries=3, retry_delay=5):
+    """OpenAI Responses API with web_search_preview. Returns (text, in_tokens, out_tokens, total_cost)."""
+    for attempt in range(1, retries + 1):
+        try:
+            response = client.responses.create(
+                model=model_name,
+                tools=[{"type": "web_search_preview"}],
+                input=prompt
+            )
+            output_text = response.output_text
+            in_tokens = response.usage.input_tokens
+            out_tokens = response.usage.output_tokens
+            token_cost = (in_tokens * RATES[model_name]["input"]) + (out_tokens * RATES[model_name]["output"])
+            total_cost = token_cost + WEB_SEARCH_COST_PER_CALL
+            return output_text, in_tokens, out_tokens, total_cost
+        except Exception as e:
+            if attempt == retries:
+                raise
+            print(f"  Search API error (attempt {attempt}/{retries}): {e}. Retrying in {retry_delay}s...")
+            time.sleep(retry_delay)
+
+
+# =========================
+# HELPER: CHUNKING
+# =========================
+
+def get_chunks(text, max_chars=30000):
+    """Uses pysrt to split text into chunks without breaking subtitle blocks."""
+    subs = pysrt.from_string(text)
+    chunks = []
+    current_chunk_subs = []
+    current_length = 0
+
+    for sub in subs:
+        sub_len = len(str(sub))  # str(sub) returns the formatted SRT block (Index, Time, Text)
+
+        if current_length + sub_len > max_chars and current_chunk_subs:
+            # Join the collected SubRipItems with newlines to form valid SRT text
+            chunks.append("\n".join(str(s) for s in current_chunk_subs))
+            current_chunk_subs = []
+            current_length = 0
+
+        current_chunk_subs.append(sub)
+        current_length += sub_len
+
+    if current_chunk_subs:
+        chunks.append("\n".join(str(s) for s in current_chunk_subs))
+
+    return chunks
+
+
+# =========================
+# MEME-SEARCH PIPELINE
+# =========================
+
+def find_memes_and_analyze(text, client, search_model, analysis_model, output_dir,
+                            source_lang, target_lang, temp):
+    """
+    Stage 1: web-search agent identifies meme passages and gathers cultural context.
+    Stage 2: analysis agent (analysis_model) synthesizes results into a translation guide.
+    Saves intermediates to output_dir/meme-analysis/ and returns the analysis string.
+    """
+    meme_dir = Path(output_dir) / "meme-analysis"
+    meme_dir.mkdir(parents=True, exist_ok=True)
+
+    max_chars = RATES[search_model].get("max_chunk_chars", 30_000)
+    chunks = get_chunks(text, max_chars=max_chars)
+    print(f"Stage 1 (web search, {search_model}): {len(chunks)} chunk(s)...")
+
+    search_outputs = []
+    search_total_cost = 0.0
+    for idx, chunk in enumerate(chunks):
+        print(f"  Search chunk {idx + 1}/{len(chunks)}...")
+        search_prompt = (
+            f"You are analyzing subtitles from a {source_lang} film.\n"
+            f"Identify passages that have become memes (or similar culturally significant phrases). "
+            f"For each one, search the web for context: Is this a famous quote from the film? "
+            f"A popular internet meme? What is culturally or pragmatically important or funny about it? "
+            f"What should a translator into {target_lang} know?\n\n"
+            f"Subtitles:\n{chunk}"
+        )
+        if search_model.startswith("claude"):
+            # Subscription CLI with the WebSearch/WebFetch tools enabled (no API spend).
+            result, in_t, out_t, cost = call_claude(search_prompt, search_model, "Expert in film culture and translation research.",
+                                                    tools="WebSearch,WebFetch")
+        else:
+            result, in_t, out_t, cost = call_gpt_web_search(search_prompt, client, search_model)
+        search_outputs.append(f"=== CHUNK {idx + 1} ===\n{result}")
+        search_total_cost += cost
+        print(f"    {in_t} in / {out_t} out  ${cost:.4f} (incl. search call)")
+
+    combined_search = "\n\n".join(search_outputs)
+    (meme_dir / "search-results.txt").write_text(combined_search, encoding="utf-8")
+    print(f"Stage 1 done. Total cost: ${search_total_cost:.4f}")
+
+    print(f"Stage 2 (analysis, {analysis_model})...")
+    analysis_content = (
+        f"You are preparing a meme translation guide for a {source_lang} film, targeting {target_lang}.\n"
+        f"Below are web search findings about meme passages from the subtitles.\n"
+        f"For each meme passage, write a concise analysis: why it became a meme, "
+        f"what is culturally or pragmatically important or funny about it, and what a translator must do "
+        f"to achieve a similar effect in {target_lang} — whether that is a particular emotion, "
+        f"a cultural reference, or something else.\n\n"
+        f"Web search findings:\n{combined_search}"
+    )
+    if analysis_model.startswith("claude"):
+        raw_analysis, in_t, out_t, cost = call_claude(analysis_content, analysis_model,
+                                                      "Expert in cultural analysis and film translation.")
+    else:
+        raw_analysis, _, in_t, out_t, cost, _ = call_gpt_translate(
+            analysis_content, client, analysis_model, temp,
+            system_msg="Expert in cultural analysis and film translation."
+        )
+    (meme_dir / "meme-analysis.txt").write_text(raw_analysis, encoding="utf-8")
+    print(f"Stage 2 done. {in_t} in / {out_t} out  ${cost:.4f}")
+    return raw_analysis
+
+
+# =========================
+# CORE LOGIC
+# =========================
+
+def translate(text, client, translation_model, temp, output_dir, n_translations, source_lang, target_lang,
+              prompt="", summary=None, intermediate_translation=None, unit_list=None,
+              given_translation=None, start_num=None, meme_analysis=None):
+    output_dir = Path(output_dir)
+    prompts_dir = output_dir / "prompts"
+    translations_dir = output_dir / "translations"
+    reasoning_dir = output_dir / "reasoning"
+
+    for d in [prompts_dir, translations_dir, reasoning_dir]:
+        d.mkdir(parents=True, exist_ok=True)
+
+    # Build Prompt Header
+    full_prompt_base = (f"You will perform a film subtitles translation task from {source_lang} into {target_lang}.\n"
+                        f"{prompt}\n")
+    if intermediate_translation: full_prompt_base += f"\nUse this intermediate translation:\n{intermediate_translation}\n"
+    if unit_list: full_prompt_base += f"\nAnalyze these memes:\n{unit_list}\n"
+    if meme_analysis: full_prompt_base += f"\nSupplied meme analysis (consult when translating meme passages):\n{meme_analysis}\n"
+    if given_translation: full_prompt_base += f"\nUse approved translations:\n{given_translation}\n"
+    if summary: full_prompt_base += f"\nContext/Summary:\n{summary}\n"
+
+    # Chunk the input text
+    max_chars = RATES[translation_model].get("max_chunk_chars", 30_000)
+    chunks = get_chunks(text, max_chars=max_chars)
+    print(f"Total chunks to process: {len(chunks)}")
+
+    existing_trans_nums = [int(f.stem.split("-")[1]) for f in translations_dir.glob("translation-*")]
+    next_num = start_num if start_num is not None else (max(existing_trans_nums) + 1 if existing_trans_nums else 1)
+
+    for i in range(next_num, next_num + n_translations):
+        print(f"--- Starting Run {i}/{next_num + n_translations - 1} ---")
+        combined_translation = []
+        combined_reasoning = []
+        combined_raw = []
+        run_total_cost = 0
+
+        for idx, chunk_text in enumerate(chunks):
+            print(f"  Processing chunk {idx + 1}/{len(chunks)}...")
+
+            content = (f"{full_prompt_base}\n\n"
+                       f"Translate the following subtitles in full, even if it takes time, without stopping midway or asking for clarifications. Preserve time codes EXACTLY. "
+                       f"Return the translation ONLY. Text to translate in full:\n\n{chunk_text}")
+
+            reasoning_t = 0
+            if translation_model.startswith("gpt"):
+                raw_output, reasoning, in_t, out_t, cost, reasoning_t = call_gpt_translate(content, client, translation_model, temp)
+            elif translation_model.startswith("claude"):
+                # The CLI exposes no temperature setting, so Claude samples at its default.
+                raw_output, in_t, out_t, cost = call_claude(content, translation_model, "Expert in subtitles translation.")
+                reasoning = None
+            else:
+                raw_output, reasoning, in_t, out_t, cost = call_gemini_translate(content, client, translation_model,
+                                                                                 temp)
+
+            clean_output = raw_output.replace("```plaintext", "").replace("```", "").strip()
+            combined_translation.append(clean_output)
+            combined_raw.append(f"CHUNK {idx + 1} RAW:\n{raw_output}")
+            if reasoning:
+                combined_reasoning.append(f"CHUNK {idx + 1} REASONING:\n{reasoning}")
+
+            run_total_cost += cost
+            reasoning_note = f"  ({reasoning_t} reasoning)" if reasoning_t else ""
+            print(f"  Chunk tokens: {in_t} in / {out_t} out{reasoning_note}  Cost: ${cost:.4f}")
+
+        # Save Final Glued Artifacts
+        final_text = "\n\n".join(combined_translation)
+        (translations_dir / f"translation-{i}.txt").write_text(final_text, encoding="utf-8")
+        (prompts_dir / f"prompt-{i}.txt").write_text(f"{translation_model}\n{full_prompt_base}", encoding="utf-8")
+        (reasoning_dir / f"raw-{i}.txt").write_text("\n\n".join(combined_raw), encoding="utf-8")
+        if combined_reasoning:
+            (reasoning_dir / f"reasoning-{i}.txt").write_text("\n\n".join(combined_reasoning), encoding="utf-8")
+
+        print(f"Run {i} Finished. Total Cost: ${run_total_cost:.4f}")
+
+
+# =========================
+# MAIN ENTRY
+# =========================
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Translate subtitles using LLMs.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "Directory convention:\n"
+            "  input:  experiments/films/data/<film_name>/subs/\n"
+            "  output: experiments/films/output/translations/<film_name>/<trans_model>/<method>/"
+        ),
+    )
+    parser.add_argument("film_name", type=str, help="Film identifier (e.g. pokrov-gate)")
+    parser.add_argument("method", type=str, help="Translation method name (e.g. zero, summary)")
+    parser.add_argument("trans_model", type=str, help="Translation model (e.g. gpt-5.2)")
+    parser.add_argument("temp", type=float, help="Sampling temperature")
+    parser.add_argument("n_runs", type=int, help="Number of translation runs to produce")
+    parser.add_argument("source_lang", type=str, help="Source language (e.g. Russian)")
+    parser.add_argument("target_lang", type=str, help="Target language (e.g. Galician)")
+    parser.add_argument("--prompt", type=Path)
+    parser.add_argument("--summary", type=Path)
+    parser.add_argument("--intermediate_trans", type=Path)
+    parser.add_argument("--unit_list", type=Path)
+    parser.add_argument("--given_trans", type=Path)
+    parser.add_argument("--start-num", type=int, default=None,
+                        help="Start numbering output files from this number (overrides auto-detection)")
+    parser.add_argument("--lang-prompt", action="store_true",
+                        help="Append language-specific instructions from experiments/films/prompts/lang/<target_lang>.txt")
+    parser.add_argument("--search-model", type=str, default="gpt-5.2",
+                        help="Web-search model for meme-search method (e.g. gpt-5.2)")
+
+    args = parser.parse_args()
+    source_lang = normalize_lang(args.source_lang)
+    target_lang = normalize_lang(args.target_lang)
+    translation_model = args.trans_model.lower()
+
+    if translation_model not in RATES:
+        raise ValueError(f"Unsupported model '{translation_model}'. Known models: {list(RATES.keys())}")
+
+    input_path = Path("experiments/films/data") / args.film_name / "subs"
+    output_dir = Path("experiments/films/output/translations") / args.film_name / f"{source_lang}-{target_lang}" / translation_model / args.method
+
+    if input_path.is_dir():
+        text = "\n".join([f.read_text(encoding="utf-8") for f in sorted(input_path.iterdir()) if f.is_file()])
+    else:
+        text = input_path.read_text(encoding="utf-8")
+
+    if translation_model.startswith("gpt"):
+        client = openai.OpenAI(api_key=load_openai_key())
+    elif translation_model.startswith("claude"):
+        client = None  # called through the `claude -p` CLI
+    else:
+        client = genai.Client(api_key=load_gemini_key())
+
+    prompt_text = args.prompt.read_text(encoding="utf-8") if args.prompt else ""
+    if args.lang_prompt:
+        lang_file = Path("experiments/films/prompts/lang") / f"{target_lang.lower()}.txt"
+        prompt_text += "\n" + lang_file.read_text(encoding="utf-8")
+
+    meme_analysis = None
+    unit_list_text = args.unit_list.read_text(encoding="utf-8") if args.unit_list else None
+
+    if args.method.startswith("meme-search"):
+        if args.search_model not in RATES:
+            raise ValueError(f"Unknown search model '{args.search_model}'. Add it to RATES first.")
+        if not translation_model.startswith(("gpt", "claude")):
+            raise ValueError("meme-search methods require a GPT or Claude translation model.")
+        if translation_model.startswith("claude") != args.search_model.startswith("claude"):
+            raise ValueError("meme-search: search and translation model must both be Claude or both GPT.")
+        if args.unit_list:
+            print("Using pre-computed meme analysis from --unit_list (skipping search/analysis stages).")
+            meme_analysis = unit_list_text
+        else:
+            meme_analysis = find_memes_and_analyze(
+                text, client, args.search_model, translation_model,
+                output_dir, source_lang, target_lang, args.temp
+            )
+        unit_list_text = None  # meme_analysis replaces unit_list for this method
+
+    translate(
+        text, client, translation_model, args.temp, output_dir, args.n_runs,
+        source_lang, target_lang,
+        prompt_text,
+        args.summary.read_text(encoding="utf-8") if args.summary else None,
+        args.intermediate_trans.read_text(encoding="utf-8") if args.intermediate_trans else None,
+        unit_list_text,
+        args.given_trans.read_text(encoding="utf-8") if args.given_trans else None,
+        start_num=args.start_num,
+        meme_analysis=meme_analysis,
+    )

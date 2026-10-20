@@ -1,0 +1,101 @@
+{
+  "dataset_name": "carnival-night",
+  "method": "characters",
+  "run": "2",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 562,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Это нетипично!",
+      "translation_quote": "It's untypical!",
+      "justification": "Stiff literal rendering; 'That's not typical' or 'not the done thing' would sound more natural, though it echoes bureaucratic speech."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Горько товарищи",
+      "translation_quote": "It stings, comrades",
+      "justification": "Register and wedding-chant connotation lost."
+    }
+  ],
+  "summary": {
+    "major_count": 10,
+    "minor_count": 8,
+    "total_points": 58,
+    "major_equiv": 11.6,
+    "major_equiv_per_unit": 0.020640569395017794
+  },
+  "usage": {
+    "input_tokens": 32488,
+    "output_tokens": 2058,
+    "cost_usd": 0.150528
+  }
+}

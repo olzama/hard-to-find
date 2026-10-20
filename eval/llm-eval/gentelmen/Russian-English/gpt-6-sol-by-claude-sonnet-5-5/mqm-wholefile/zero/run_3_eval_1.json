@@ -1,0 +1,110 @@
+{
+  "dataset_name": "gentelmen",
+  "method": "zero",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "gpt-6-sol",
+  "n_subtitle_entries": 558,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Нам не страшен серый волк, серый волк, серый волк...",
+      "translation_quote": "We're not afraid of the big bad wolf, the big bad wolf, the big bad wolf...",
+      "justification": "The song is acceptable, but the follow-up \"Я злой и страшный серый волк, я в поросятах знаю толк\" is rendered \"I know just what to do with pigs\", losing the rhyme and the pun on 'знать толк' (relishing piglets as food)."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нехороший человек? - Редиска.",
+      "translation_quote": "A bad person? - A rat.",
+      "justification": "The humor of slang for 'bad person' being a harmless vegetable is lost with 'rat'; later 'нехороший человек' jokes lean on the radish."
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy",
+      "source_quote": "Нету. Были, а теперь нет.",
+      "translation_quote": "It's gone. It was here, now it's gone.",
+      "justification": "Missing the reply 'Есть дать червонец' and the sense of the money being absent; also 'червонец' as ten rubles is fine."
+    },
+    {
+      "severity": "minor",
+      "category": "fluency",
+      "source_quote": "Сидячий?",
+      "translation_quote": "Seated?",
+      "justification": "The joke 'Кто же его посадит?' (double meaning of 'посадить' as imprison) is lost in 'Who's going to put him in a seat?'."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "style",
+      "source_quote": "Эй, гражданина! Ты туда не ходи, ты сюда ходи, а то снег башка попадет - совсем мертвый будешь!",
+      "translation_quote": "Hey, citizen! Don't walk there. Walk over here, or snow fall on head— you be dead!",
+      "justification": "Pidgin imitation of Central Asian speech is rendered in somewhat stereotypical broken English, but the first sentence is inconsistent in register ('Don't walk there' is correct English)."
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 8,
+    "minor_count": 10,
+    "total_points": 50,
+    "major_equiv": 10.0,
+    "major_equiv_per_unit": 0.017921146953405017
+  },
+  "usage": {
+    "input_tokens": 26202,
+    "output_tokens": 2400,
+    "cost_usd": 0.128804
+  }
+}

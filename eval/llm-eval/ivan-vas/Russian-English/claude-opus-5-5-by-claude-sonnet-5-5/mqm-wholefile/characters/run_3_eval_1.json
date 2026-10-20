@@ -1,0 +1,130 @@
+{
+  "dataset_name": "ivan-vas",
+  "method": "characters",
+  "run": "3",
+  "eval_run": 1,
+  "evaluator": "claude-sonnet-5-5",
+  "translator": "claude-opus-5-5",
+  "n_subtitle_entries": 840,
+  "issues": [
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Тебя терзают смутные сомнения / Меня терзают смутные сомнения",
+      "translation_quote": "I'm tormented by vague suspicions",
+      "justification": "The Russian is a famous literary quotation (Bulgakov/Pushkin-era theatrical idiom) delivered with comic gravity; 'vague suspicions' is flat and loses the quoted high-register parody. The word 'suspicions' also differs from the traditional 'doubts'."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "source_quote": "Где демоны? Бей демонов! Ложись!",
+      "translation_quote": "Where are the demons? Smite the demons! Get down!",
+      "justification": "The scene's comic confusion between 'клади/ложи трубку' and 'ложись' wordplay (Ivan's 'Лоjи трубку' vs. correct 'положи') is not conveyed: 'Hang it up' and 'Put the phone down' lose the joke about the Tsar's archaic/incorrect verb form."
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy",
+      "translation_quote_note": ""
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "style"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "major",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "fluency"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "style"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    },
+    {
+      "severity": "minor",
+      "category": "accuracy"
+    }
+  ],
+  "summary": {
+    "major_count": 19,
+    "minor_count": 6,
+    "total_points": 101,
+    "major_equiv": 20.2,
+    "major_equiv_per_unit": 0.024047619047619047
+  },
+  "usage": {
+    "input_tokens": 36020,
+    "output_tokens": 3228,
+    "cost_usd": 0.176356
+  }
+}

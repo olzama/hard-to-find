@@ -1,0 +1,132 @@
+{
+  "dataset_name": "carnival-night",
+  "methods": [
+    {
+      "method": "given",
+      "num_translations": 5,
+      "eval_runs_per_translation": 10,
+      "mean_major_equiv_per_unit": 0.159,
+      "ci_95_half_width": 0.01584754239622031,
+      "translation_sd": 0.01807968473176455,
+      "pooled_eval_run_sd": 0.08567856398499342,
+      "avg_eval_noise": 0.027093940884505174,
+      "sensitivity": {
+        "target": 0.06,
+        "current_sensitivity": 0.033585997082117416,
+        "meets_delta_target": true,
+        "next_action": "increase_E",
+        "min_T_required_at_current_E": 2,
+        "min_E_required_at_current_T": 4
+      }
+    },
+    {
+      "method": "list-analysis",
+      "num_translations": 15,
+      "eval_runs_per_translation": 25,
+      "mean_major_equiv_per_unit": 0.26193333333333335,
+      "ci_95_half_width": 0.039888570214759236,
+      "translation_sd": 0.07882028987029986,
+      "pooled_eval_run_sd": 0.11475064029196233,
+      "avg_eval_noise": 0.022950128058392465,
+      "sensitivity": {
+        "target": 0.06,
+        "current_sensitivity": 0.05641095698138399,
+        "meets_delta_target": true,
+        "next_action": "increase_T",
+        "min_T_required_at_current_E": 14,
+        "min_E_required_at_current_T": 10
+      }
+    },
+    {
+      "method": "characters",
+      "num_translations": 11,
+      "eval_runs_per_translation": 15,
+      "mean_major_equiv_per_unit": 0.32636363636363636,
+      "ci_95_half_width": 0.03814852892253078,
+      "translation_sd": 0.06455324323472222,
+      "pooled_eval_run_sd": 0.09616323082293973,
+      "avg_eval_noise": 0.02482923943298302,
+      "sensitivity": {
+        "target": 0.06,
+        "current_sensitivity": 0.0539501669868253,
+        "meets_delta_target": true,
+        "next_action": "increase_T",
+        "min_T_required_at_current_E": 9,
+        "min_E_required_at_current_T": 6
+      }
+    },
+    {
+      "method": "zero",
+      "num_translations": 13,
+      "eval_runs_per_translation": 15,
+      "mean_major_equiv_per_unit": 0.3312820512820513,
+      "ci_95_half_width": 0.03923863973338312,
+      "translation_sd": 0.07218210588682218,
+      "pooled_eval_run_sd": 0.11053826801972917,
+      "avg_eval_noise": 0.028540858077268198,
+      "sensitivity": {
+        "target": 0.06,
+        "current_sensitivity": 0.055491816480022216,
+        "meets_delta_target": true,
+        "next_action": "increase_T",
+        "min_T_required_at_current_E": 12,
+        "min_E_required_at_current_T": 8
+      }
+    },
+    {
+      "method": "noise",
+      "num_translations": 20,
+      "eval_runs_per_translation": 25,
+      "mean_major_equiv_per_unit": 0.3313,
+      "ci_95_half_width": 0.03953284429033927,
+      "translation_sd": 0.09020217058889086,
+      "pooled_eval_run_sd": 0.1152687458400371,
+      "avg_eval_noise": 0.02305374916800742,
+      "sensitivity": {
+        "target": 0.06,
+        "current_sensitivity": 0.05590788455458157,
+        "meets_delta_target": true,
+        "next_action": "increase_T",
+        "min_T_required_at_current_E": 18,
+        "min_E_required_at_current_T": 8
+      }
+    },
+    {
+      "method": "narratives",
+      "num_translations": 10,
+      "eval_runs_per_translation": 15,
+      "mean_major_equiv_per_unit": 0.3395,
+      "ci_95_half_width": 0.027568679759896075,
+      "translation_sd": 0.04447950006380384,
+      "pooled_eval_run_sd": 0.08054293531732129,
+      "avg_eval_noise": 0.02079609647590977,
+      "sensitivity": {
+        "target": 0.06,
+        "current_sensitivity": 0.038988000813165676,
+        "meets_delta_target": true,
+        "next_action": "increase_T",
+        "min_T_required_at_current_E": 5,
+        "min_E_required_at_current_T": 3
+      }
+    },
+    {
+      "method": "list",
+      "num_translations": 12,
+      "eval_runs_per_translation": 15,
+      "mean_major_equiv_per_unit": 0.35625,
+      "ci_95_half_width": 0.029334276987805687,
+      "translation_sd": 0.05184536545528365,
+      "pooled_eval_run_sd": 0.10379916550616645,
+      "avg_eval_noise": 0.026800829290374,
+      "sensitivity": {
+        "target": 0.06,
+        "current_sensitivity": 0.041484932358563785,
+        "meets_delta_target": true,
+        "next_action": "increase_T",
+        "min_T_required_at_current_E": 6,
+        "min_E_required_at_current_T": 3
+      }
+    }
+  ],
+  "target": 0.06
+}
