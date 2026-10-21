@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as possession. The analysis explicitly warns these phrases indicate the items were lost (they are the objects each person no longer has). The candidate therefore reverses the intended meaning."
+          "justification": "The candidate renders У Шпака — магнитофон, у посла — медальон as possession ('Shpak has... the envoy has...'), whereas the Russian and the analysis make clear these items are missing from their owners (they were lost/stolen). This reverses the intended meaning and breaks the callback-joke about who has lost what."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should make clear Bunsha is introducing himself as the Tsar (comic self-introduction), not addressing someone called the Tsar. The candidate's phrasing ('Very pleased, tsar! ... Hello, tsar!') reads as direct address to a tsar rather than the absurd self-introduction required by the analysis, losing the core joke."
+          "justification": "The line should read as Bunsha introducing himself as the Tsar (mock self-introduction). The candidate reads like addressing or praising a Tsar ('Very pleased, tsar!'), which obscures the crucial gag that he is repeatedly announcing 'I am the Tsar.' This changes who is being referred to and undermines the comedic premise described in the analysis."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes that 'demons' must be the subject ('They've walled me in... the demons!') rather than being directly addressed. The candidate's 'Walled up, demons!' reads as if the Tsar is addressing demons, which misrepresents the original's meaning."
+          "justification": "The Russian indicates that 'demons' are the implied agents who walled him in (subject), not that he is addressing demons. The candidate's 'Walled up, demons!' reads as an address to demons, which reverses the grammatical role and weakens the intended comic misunderstanding of technology as sorcery."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That's what the life-giving cross does!') preserves meaning but uses colloquial, modern phrasing that weakens the archaic, exalted register of the original ('Behold the power of the life-giving cross!'). This slightly reduces the intended high-register, religious tone."
+          "justification": "The candidate's 'That's what the life-giving cross does!' conveys the literal meaning but loses some of the archaic, elevated register ('Behold the power...') that heightens the joke of a devout, historical voice crediting a miracle. The more modern phrasing slightly weakens the period tone."
         }
       ]
     },
@@ -134,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate 'Everyone dance!' conveys the imperative call to join the dance but is slightly awkward in English (would more naturally read 'Everyone, dance!' or 'Everybody dance!'). The meaning and energy remain intact, so the problem is stylistic/fluency rather than accuracy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -176,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns against rendering the cheap eggplant spread as 'caviar.' The candidate's line ('Overseas caviar... Eggplant!') implies the eggplant spread is a kind of 'caviar,' which misrepresents the satirical contrast and will confuse viewers about the intended food distinction."
+          "justification": "The candidate renders 'заморская икра... баклажанная' as 'Overseas caviar... Eggplant!', which effectively calls the eggplant spread 'caviar.' The analysis explicitly warns against translating the eggplant spread as caviar because that will confuse the joke (the humor depends on presenting cheap eggplant spread as an exotic 'overseas' item). This choice obscures the satirical contrast and misleads the viewer."
         }
       ]
     },
@@ -193,7 +186,14 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The original joke hinges on the incremental, inconsistent counting (he lists items and then hesitates/forgets while the count grows). The candidate presents 'three suede jackets' straightforwardly, removing the hesitational staging and the gag about the growing tally. This loses a key comedic detail and undermines the character's bragging inflation."
+        }
+      ]
     },
     {
       "id": 11,
@@ -213,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 2
+      "major": 5,
+      "minor": 1
     },
-    "total_points": 22,
+    "total_points": 26,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.3636363636363638,
+    "major_equiv_per_unit": 0.4727272727272728,
+    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

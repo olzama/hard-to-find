@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, go on, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and challenge of the line but tones down the theatrical, self-dramatising register highlighted in the analysis. The reference's heightened phrasing ('Pray, tell me... I'll wait!') conveys Velurov's stagey grandstanding more strongly than the straightforward 'Name one! No, go on, I'm waiting.'"
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -58,7 +51,14 @@
         }
       },
       "candidate": "Lofty... Lo-o-ofty relations.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the stuttering and sarcastic effect but uses the noun 'relations', which risks sounding slightly literal and stiff in English (the analysis cautions against literal noun-phrase structures). A more natural exclamatory phrasing ('relationship' or a different idiomatic turn) would better match the original's comic register."
+        }
+      ]
     },
     {
       "id": 4,
@@ -73,7 +73,14 @@
         "language_specific": {}
       },
       "candidate": "One lives not for joy, but for conscience.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning is preserved, but the phrasing 'One lives not for joy, but for conscience' reads as archaic/poetic. The character's blunt, soldierly plainness would be better served by a more colloquial, direct wording (e.g. 'You don't live for happiness, you live for duty')."
+        }
+      ]
     },
     {
       "id": 5,
@@ -108,7 +115,14 @@
         }
       },
       "candidate": "Some chef!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'Some chef!' conveys the insult but leans toward a literal, standalone noun construction that the analysis warns feels awkward in English. It works but slightly weakens the punchy domestic invective of the original."
+        }
+      ]
     },
     {
       "id": 7,
@@ -181,9 +195,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate literalises and rearranges the idiom in a way noted as problematic in the analysis. 'He is my cross! And mine to bear.' splits and alters the natural English fixed phrase ('a cross to bear') and reduces the force and idiomatic manipulative tone of the original line."
+          "justification": "The candidate keeps the sacrificial tone but literalizes the idiom by making the person the 'cross' ('He is my cross!'), which is slightly different from the fixed English idiom 'a cross to bear.' The manipulation and emphasis are preserved, but the phrasing is less idiomatically natural."
         }
       ]
     },
@@ -208,9 +222,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate translates 'угловатая' as 'angular,' which the analysis flags as overly literal and potentially confusing in English. While the candidate captures the staccato, self-mocking rhythm, the lexical choice weakens the naturalness of the self-description."
+          "justification": "The candidate translates 'угловатая' as 'angular', which the analysis flags as an overly literal and potentially confusing choice in English. While the general self-deprecating, mannered tone is present, the specific lexical choice weakens naturalness and clarity."
         }
       ]
     }
@@ -218,13 +232,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 5
     },
-    "total_points": 3,
+    "total_points": 5,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.45454545454545453,
+    "major_equiv_per_unit": 0.09090909090909091,
+    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

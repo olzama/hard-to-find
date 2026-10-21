@@ -39,9 +39,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate repeats the clause about working for medicine twice (‘You’ll be working all your life\nfor medicine all your life!’), creating an awkward redundancy that alters the compact, verdict-like ending the analysis says to preserve. The repetition weakens the original's terse cumulative threat and harms fluency."
+          "justification": "The candidate duplicates the phrase 'all your life' and inserts a line break, producing an awkward, redundant cadence that weakens the compact, verdict-like final clause recommended in the analysis. The translation should keep the single, punchy lifetime verdict."
         }
       ]
     },
@@ -133,14 +133,7 @@
         }
       },
       "candidate": "Move the horse, I’ll never see the outside if I’m wrong!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate renders the line as advice plus a self-referential clause ('Move the horse, I’ll never see the outside if I’m wrong!'), which reverses the original meaning and rhetorical force. The Russian is an authoritative prison-style oath warning (‘век воли не видать’)—a threat about loss of freedom—whereas the candidate makes the speaker claim personal consequence if mistaken, losing the prison-oath register and the comic collision between unschooled chess language and criminal solemnity described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -313,9 +306,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate adds an extra line ('What a moron.') that is not present in the source. This addition introduces redundant commentary and dilutes the tight feminine–masculine–feminine comic sequence the analysis requires, changing the punchline's direct-address effect."
+          "justification": "The candidate adds a second line ('What a moron.') after the direct feminine insult. This extra line alters the tight feminine–masculine–feminine structure that produces the joke and slightly dilutes the abruptness and direct address of the original feminine insult."
         }
       ]
     },
@@ -342,7 +335,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering 'параша' as 'punks' reduces the original's harsh prison-status insult that assigns someone to the absolute bottom of inmate hierarchy. 'Punks' is milder and more generic, losing some of the crude prison argot and the potency of contempt described in the analysis."
+          "justification": "Rendering 'параша' as 'punks' softens the prison-hierarchy severity and reduces the strong insult that assigns someone to the lowest place in the cell. The analysis recommends a term that conveys extreme prison-status degradation rather than a more general label like 'punks.'"
         }
       ]
     },
@@ -369,14 +362,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 3
     },
-    "total_points": 8,
+    "total_points": 3,
     "meaning_units": 18,
-    "penalty_per_unit": 0.4444444444444444,
-    "major_equiv_per_unit": 0.08888888888888888,
-    "interpretation": "0.44 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.16666666666666666,
+    "major_equiv_per_unit": 0.03333333333333333,
+    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

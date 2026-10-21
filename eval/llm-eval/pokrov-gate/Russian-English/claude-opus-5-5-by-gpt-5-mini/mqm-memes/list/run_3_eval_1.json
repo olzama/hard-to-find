@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one!\nNo, go on, I'm waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning and the performative, expectant tone, but it softens the grandiose, theatrical self-dramatising flavor of the original (the reference's 'Pray, tell me' / 'Go on, I'll wait!' register). Wording is more colloquial and direct."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +43,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing \"knock back a little glass\" is slightly awkward and non-idiomatic in conversational English; a more natural rendering would be \"knock back a quick one\" or \"have a little drink.\" Also the linebreak and lowercase start disrupt subtitle presentation."
+          "justification": "The phrase 'knock back a little glass' is understandable and matches the casual provocation, but the phrasing is slightly awkward/unnatural in English compared with common idioms like 'toss back a quick one' or 'knock back a shot'. Also the candidate's lowercasing and line break formatting make it read less polished for subtitles."
         }
       ]
     },
@@ -58,14 +65,7 @@
         }
       },
       "candidate": "Lofty... Lo-o-ofty relations.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the stuttering and emphasis but replaces the specific ironic register of \"evolved/highly evolved\" (mock intellectualism) with the more neutral adjective \"lofty,\" which weakens the original's sarcastic jab at pretended sophistication."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -83,9 +83,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"We don't live for joy, we live by conscience\" keeps the general sense but shifts idiom and register away from the terse, duty-focused fatalism of the original (\"you live to do your duty\"). The result is slightly less idiomatic and less emphatically military."
+          "justification": "Candidate keeps the contrast between personal happiness and moral duty but shifts wording to 'we live by conscience,' which slightly changes the blunt, duty-bound fatalism of the original ('you live to do your duty'). The nuance of obligation as practical, soldierly duty is weakened."
         }
       ]
     },
@@ -124,10 +124,10 @@
       "candidate": "Master chef!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line is supposed to be a scornful, ironic barb (\"Some cook you are!\"). Rendering it as \"Master chef!\" reads as praise or playful compliment rather than the intended cutting rebuke, reversing the tone and undermining the character's imperious sarcasm."
+          "justification": "The original comedic bite comes from using a neutral professional noun as a domestic insult ('Some cook you are!'). 'Master chef!' reads more like praise or a sarcastic modernism and loses some of the brusque, imperious scorn and register appropriate to the character."
         }
       ]
     },
@@ -169,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original is a brusque surgical imperative (order to operate immediately). \"Cut it out, to hell with it!\" reads as an idiomatic admonition to stop doing something, not a command to perform surgery. In addition, \"peritonitises\" is an awkward, incorrect plural form. Both changes distort the medical farce and blunt the intended shock."
+          "justification": "The candidate turns the surgical imperative into colloquial admonitions ('Cut it out, to hell with it!') and thus loses the crucial medical directive to perform an immediate operation. The plural 'peritonitises' is also awkward; overall the medical-farce contrast (brusque surgical order vs the patient's angst) is damaged."
         }
       ]
     },
@@ -209,9 +209,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Splitting the fixed English idiom into two lines (\"This is my cross! / And I'm the one to bear it.\") preserves meaning but reads slightly stilted compared with the more idiomatic \"This is my cross to bear!\" The manipulative, self-sacrificing tone remains but is a bit less natural."
+          "justification": "The candidate splits and slightly literalises the fixed English idiom ('This is my cross to bear') into 'This is my cross! And I'm the one to bear it.' While understandable, this weakens the idiomatic force and the manipulative absolutism of the original phrasing."
         }
       ]
     },
@@ -233,19 +233,26 @@
         }
       },
       "candidate": "Oh, I'm just so awkward,\nso all angles...\nSo full of contradictions, all of me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate conveys the self-mocking, fragmented rhythm but uses 'all angles,' which reads oddly in English and echoes the analysis warning against literal 'angular'. The phrasing is slightly awkward and less natural than options that convey 'sharp edges' or 'little sharp corners.'"
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 14,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

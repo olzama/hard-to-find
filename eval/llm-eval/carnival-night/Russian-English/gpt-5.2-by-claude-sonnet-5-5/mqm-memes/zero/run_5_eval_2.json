@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is a directive to\ncelebrate the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'There is a directive' keeps the bureaucratic frame well, but 'cheerfully' is slightly softer than 'merrily' and the line loses the 'we have our instructions' managerial voice; the official-vs-festive contrast is mostly preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "'Hire' is workplace-appropriate and works with 'raise one in our own collective', but 'raise' evokes child-rearing/animals rather than the staffing/training logic of 'train in-house'; 'collective' also keeps a Soviet flavor but is less natural in English. The workplace joke still comes through."
+          "justification": "\"Hire\" keeps the workplace logic, but \"raise one\" is more childrearing/fairy-tale than the staffing/training register ('воспитаем' as cultivating in-house). \"Collective\" retains Soviet flavor. The line still works, though the bureaucratic-educational tone is slightly weaker."
         }
       ]
     },
@@ -75,9 +68,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The key word 'коротенько' is rendered as a flat 'briefly' with no diminutive/faux-modest coziness. The lowercase fragment 'briefly, for about forty minutes' also reads as a flat statement of duration, and 'more, I think, is not necessary' is stiff. The self-satisfied bureaucratic understatement that makes 'forty minutes' land as the punchline is weakened."
+          "justification": "The faux-modest diminutive «коротенько» is rendered as a flat \"briefly\" placed with the duration in a single clause (\"briefly, for about forty minutes\"), and the line lacks the smug, patronizing tone. The reversal is weakened and the final phrase \"is not necessary\" is stiff, losing Ogurtsov's self-satisfied managerial voice."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The 'ready' = 'drunk' double meaning is not recreated. 'Ready long ago' stays on the literal readiness reading, and English 'ready' does not carry the intoxication connotation, so the main joke is lost. No compensating wording (e.g. 'he's been ready for quite a while') hints at drunkenness; the exchange also loses the cheerful tone of the answer."
+          "justification": "\"Ready long ago\" keeps only the literal sense; English \"ready\" does not carry the 'drunk' reading and nothing recreates the double meaning. The alcoholic subtext, the core of the joke, is lost."
         }
       ]
     },
@@ -129,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, stretched vocalization is kept ('People!.. Ah... A-oo!'), but 'People' is not split into syllables ('Peo-ple') and 'A-oo' is a weaker rendering of the wavering 'hello-o' call, so the drunken faltering is less vivid."
+          "justification": "\"A-oo!\" keeps the broken, wavering call and the hesitations, but \"People!..\" is fairly clean and the stretched, slurred vocalization (Peo-ple, hellooo) is weaker. The drunken physical comedy is partly preserved."
         }
       ]
     },
@@ -155,10 +148,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'Armed eye' is the literal calque the analysis explicitly warns against; it sounds surreal and does not echo 'unaided eye', so the malformed-idiom effect is lost. Also 'once we take' loses 'all we have to do', and the exclamatory oratorical pomp is flattened by the trailing comma."
+          "justification": "\"Armed eye\" is the literal calque the notes warn against: it sounds more surreal than the Russian and does not echo \"unaided eye\", so the mangled-idiom effect is weaker. It is still understandable and mildly funny, and \"But once we take a telescope\" loses the 'all we have to do' ease."
         }
       ]
     },
@@ -187,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline is broken: the sequence goes 'two, three... Four stars—best of all, of course, five stars', so 'four stars' is moved into the 'best of all' clause and the counting buildup is cut short and muddled. The step-by-step silly count followed by the sudden 'five stars' click into the cognac frame is weakened. No note on the cognac association is given, though the analysis suggests one may be needed."
+          "justification": "The progression is scrambled: \"Four stars—best of all, of course, five stars!\" makes four stars the best and then five, destroying the buildup and the sudden click into the cognac frame. The contrast between trivial counting and the punchline is blurred."
         }
       ]
     },
@@ -208,26 +201,19 @@
         }
       },
       "candidate": "Is there life on Mars, is there no\nlife on Mars—that is unknown to science.\nScience is not yet in the know.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Is there life on Mars, is there no life on Mars' is a clunky literal rendering of the colloquial 'есть ли... нет ли', less natural than 'Whether there is life on Mars or not'. The casual register of 'not yet in the know' is preserved well."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 4
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

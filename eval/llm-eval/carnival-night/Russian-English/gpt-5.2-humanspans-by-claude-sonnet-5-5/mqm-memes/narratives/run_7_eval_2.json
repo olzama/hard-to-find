@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Hire\" and \"raise\" keep the in-house workplace logic, but \"raise\" leans toward upbringing rather than the bureaucratic \"train/cultivate\" idea, and \"a Baba Yaga\" is left untranslated with no hint of the toxic-colleague type. The social reading is slightly weakened for non-Russian viewers."
+          "justification": "\"Baba Yaga\" is kept untranslated, so a non-Russian audience gets the fairy-tale figure but may miss the 'nasty woman already in our workplace' social type. \"Hire\" and \"raise\" keep the staffing/education logic, and \"collective\" keeps the Soviet workplace flavor, so the loss is slight."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Matches the reference structure with \"briefly\" before \"forty minutes\", but it lacks any faux-modest or cozy tone for the diminutive \"коротенько\". The wording \"isn't necessary\" is also slightly stiffer than the self-satisfied managerial tone."
+          "justification": "\"Briefly\" is kept before \"forty minutes\", so the reversal works. The faux-modest, cozy diminutive tone of «коротенько так» is not rendered, and the self-satisfied managerial voice is flatter than in the source."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders only the literal \"ready\" and gives no recreated double sense of readiness and drunkenness. The joke the analysis centers on (\"готов\" = drunk) is lost. The reference at least adds \"Oh, he's ready\" with an insinuating tone. The dialogue also lacks a dash on the first line."
+          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready... been ready for a long time\" works only as a literal administrative exchange, so the joke about the lecturer's intoxication is lost for the viewer."
         }
       ]
     },
@@ -117,14 +117,7 @@
         }
       },
       "candidate": "People!.. Ah... hellooo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line is almost identical to the reference, but \"People!..\" is a clean, unbroken word. The faltering, stretched \"Peo-ple!\" of the drunken vocalization is lost, so the physical comedy is slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -151,13 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against. It sounds surreal rather than echoing the English \"unaided eye\", so the mock-scientific idiom distortion does not land naturally in English."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"It's enough for us to take a telescope\" is a calque of the Russian \"стоит только\" and is less natural than \"all we have to do is\"."
+          "justification": "The analysis explicitly warns against the literal calque \"armed eye\". It reads as a strange surreal image rather than an echo of \"unaided eye\", so the mock-scientific malformed idiom is not recreated and the English audience cannot recognise the deformed expression."
         }
       ]
     },
@@ -183,16 +170,16 @@
       "candidate": "we already see two stars, three stars...\nFour stars—best of all, of course,\nfive stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The build-up is broken: the counting stops at three, and \"four stars\" is merged into the punchline (\"Four stars—best of all, of course, five stars!\"). This ruins the trivial 2-3-4 progression followed by the sudden click to \"five stars\". The opening \"we already see\" also omits \"as\", leaving it fragmentary."
+          "justification": "The counting builds up and \"five stars\" lands as the punchline. The cognac association is not conveyed, though the analysis says a note may be needed, so the shift into a different semantic domain is weaker for English viewers."
         },
         {
           "severity": "minor",
-          "category": "other",
+          "category": "fluency",
           "span": "",
-          "justification": "There is no note or cue explaining the five-star cognac association, which the analysis says may be needed for English viewers."
+          "justification": "The phrasing \"Four stars—best of all\" merges the last count into the punchline, which blunts the sequence of 'trivial counting then sudden click'."
         }
       ]
     },
@@ -218,21 +205,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content is accurate and the final \"not yet in the know\" is suitably colloquial. However, \"Is there life on Mars, is there no life on Mars\" is a stiff literal rendering of the Russian structure, and \"science does not know\" is more formal than the casual \"unknown to science\" flavor."
+          "justification": "\"Science does not know\" is more formal than the colloquial «это науке неизвестно». The final \"Science is not yet in the know\" keeps the casual, personified register well. The overall effect is preserved, with only slightly stiffer phrasing at the start."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 21,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 2.625,
-    "major_equiv_per_unit": 0.525,
-    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

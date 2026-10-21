@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate preserves the bureaucratic, top-down tone required by the analysis, but the phrasing 'to see in the New Year merrily' is awkward and stilted in English. A smoother idiom (e.g. 'to celebrate the New Year merrily' or 'to ring in the New Year merrily') would better match natural target-language usage while keeping the joke."
+          "justification": "The phrase “to see in the New Year merrily” is slightly awkward in English; a more natural phrasing would keep the bureaucratic register while using smoother syntax (e.g. “to celebrate the New Year merrily” or “to ring in the New Year merrily”). The candidate otherwise preserves the official/directive tone required by the analysis."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate captures the comic contrast between 'briefly' and 'forty minutes,' but the phrasing 'a little forty minutes' is ungrammatical/awkward in English and weakens the diminutive, faux-modest tone of 'коротенько.' Reordering or smoothing would preserve the comedic reversal more effectively."
+          "justification": "The candidate attempts to keep the comic reversal (claiming brevity then giving forty minutes) but the wording is clumsy—“a little forty minutes” is unnatural in English and the diminutive, faux-modest tone of «коротенько» is weakened. The timing/pacing that makes the punchline land could be improved."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double reading of 'готов' (official 'ready' vs. colloquial 'drunk/finished') is central to the joke. The candidate's use of 'primed' preserves a bureaucratic sense of readiness but does not carry the intoxication subtext, so the crucial ambiguous double entendre is lost."
+          "justification": "The Russian exchange relies on the double meaning of «готов» (ready vs. already drunk). The candidate’s use of “primed” retains the surface meaning of readiness but loses the alcoholic/drunken subtext that creates the joke, removing the crucial double reading described in the analysis."
         }
       ]
     },
@@ -119,10 +119,10 @@
       "candidate": "But all we have to do is take\na telescope...\nAnd look with the fully clothed\neye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate attempts a playful deforming of the idiom but 'fully clothed eye' reads as more surreal and literal than the intended mock-scientific echo of 'unaided eye' (the reference's 'aided eye'). This phrasing changes the register and slightly overplays the oddity, weakening the precise parody of pseudo-scientific diction described in the analysis."
+          "justification": "The comic effect depends on a mock‑scientific deformation echoing the English idiom “the unaided eye”; the reference’s solution (“aided eye”) preserves that near‑correct, slightly wrong feel. The candidate’s “fully clothed eye” renders the image bizarre and surreal rather than mock‑scientific or plausibly mistaken, losing the intended parody of learned speech."
         }
       ]
     },
@@ -164,14 +164,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 2,
+      "minor": 2
     },
-    "total_points": 8,
+    "total_points": 12,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5,
+    "major_equiv_per_unit": 0.3,
+    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

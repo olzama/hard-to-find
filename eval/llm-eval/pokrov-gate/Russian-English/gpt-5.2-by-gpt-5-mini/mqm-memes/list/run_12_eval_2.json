@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the noun \"relations\" and a straightforward intensifier (\"The highest... the very highest relations!\"), which reads as a more literal noun phrase and loses some of the sarcastic, performative stutter and ironic register the analysis highlights. A more idiomatic exclamation with the stuttering/evolved mocking tone would preserve the comic effect better."
+          "justification": "The candidate renders the line as a literal noun phrase ('relations'), which the analysis warns against. The original's comic effect comes from a stuttering, exaggerated exclamatory phrase that mocks pretentiousness; the candidate's wording reads more flatly and loses some of the sarcastic, performative bite."
         }
       ]
     },
@@ -70,10 +70,10 @@
       "candidate": "People don't live for joy— they live for conscience.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate \"People don't live for joy— they live for conscience.\" shifts the original pragmatic meaning (duty/doing one's duty) to a different idea (living for one's conscience). This changes the soldierly fatalism and moral-justification thrust described in the analysis and weakens the manipulative justification at the core of the line."
+          "justification": "‘People don't live for joy— they live for conscience’ is grammatical but slightly unnatural/awkward in English. The idiomatic force of the original (practical, duty-centered fatalism) is better conveyed by 'live to do your duty' or similar; 'live for conscience' feels literal and weakens the register."
         }
       ]
     },
@@ -105,7 +105,14 @@
         "language_specific": {}
       },
       "candidate": "Culinary genius!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source is an ironic, biting household insult equating the addressee with a (mocking) professional label; the candidate 'Culinary genius!' flips the sense into apparent praise, reversing the intended sarcastic reproach and losing the abrasive comic effect."
+        }
+      ]
     },
     {
       "id": 7,
@@ -122,10 +129,10 @@
       "candidate": "Naturally, Margarita Pavlovna.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis explicitly notes the comic effect comes from the German token as a character quirk. The candidate translates the German interjection into ordinary English (\"Naturally, Margarita Pavlovna.\"), removing that distinct linguistic marker and thus altering the characterization and comedic function."
+          "justification": "The analysis emphasizes the comedic effect of the German word as a character tic. Translating it to 'Naturally' removes the foreign-word quirk that marks the character; adding the wife's full name also alters the original's clipped exclamation."
         }
       ]
     },
@@ -147,7 +154,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate softens the brusque medical imperative by replacing the stronger expletive \"the hell\" with \"for heaven's sake.\" That reduces the abrupt, coarse contrast between emotional drama and surgical bluntness that the analysis emphasizes, weakening the farcical bite."
+          "justification": "The candidate softens the coarse, brusque medical imperative by rendering 'к чёртовой матери' as 'for heaven's sake' instead of the harsher 'the hell' or similar. This reduces the sharp, farcical contrast between existential angst and brutal surgical verdict."
         }
       ]
     },
@@ -169,7 +176,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate spells the name as \"Khabotov\" rather than the expected transliteration \"Khobotov/Khobotov,\" introducing a misspelling of the character's name. This is an accuracy issue that can confuse viewers and slightly undermines the repeated psychological formula."
+          "justification": "The character name is rendered as 'Khabotov' rather than the expected 'Khobotov' (or a consistent romanization). This is a small but meaningful inaccuracy in proper noun rendering and risks distracting or confusing viewers familiar with the name."
         }
       ]
     },
@@ -188,10 +195,10 @@
       "candidate": "This is my cross!\nAnd I will carry it.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate renders the line literally as \"This is my cross! And I will carry it.\", which breaks the idiomatic English phrase \"a cross to bear\" and omits the possessive isolation (\"mine alone\"). This loses the manipulative grandiosity and the idiomatic force of the original, reducing its rhetorical impact."
+          "justification": "The candidate's 'This is my cross! And I will carry it.' is more literal and prosaic than the idiomatic 'This is my cross to bear! And mine alone!' The translation loses the fixed English idiom and the emphatic possessive that heightens the manipulative self-sacrificial tone."
         }
       ]
     },
@@ -213,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses \"angular\" for «угловатая», which the analysis explicitly warns against as overly literal and potentially confusing in English. Also, \"misfit\" shifts the coquettish self-deprecation toward a stronger social-label tone; overall the phrasing weakens the playful, mannered self-mockery."
+          "justification": "The candidate uses 'angular' to render 'угловатая,' which the analysis specifically warns against as too literal and awkward in English. The line therefore sounds less natural and undermines the intended coquettish, self-mocking characterization."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 1,
+      "minor": 7
     },
-    "total_points": 19,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

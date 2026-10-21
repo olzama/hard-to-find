@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Name one!\" drops the mock-elevated \"Pray, tell me\" and the hesitant \"нет\" of the source. The analysis stresses high-flown self-dramatization, and the candidate's plainer wording weakens that theatrical pomposity."
+          "justification": "The candidate drops the mock-pompous address of the reference (\"Pray, tell me\"), so Velyurov's theatrical self-dramatization in the analysis is weaker. The rest of the line keeps the defiant, challenging tone."
         }
       ]
     },
@@ -41,9 +41,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "other",
+          "category": "fluency",
           "span": "",
-          "justification": "The line begins with a lowercase letter, unlike the other capitalized subtitle lines. This is a formatting inconsistency that reads as a typo on screen."
+          "justification": "The line starts with a lowercase letter, unlike the capitalized subtitles elsewhere in the set, and this weakens the casual-but-deliberate register of Kostik's deflating remark. The meaning (an offer to have a quick drink) is preserved."
         }
       ]
     },
@@ -70,7 +70,13 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Such lofty... lofty relations!\" uses the stilted noun-phrase structure the analysis warns against. The stretched sibilant of \"выс-с-сокие\" is also not rendered, so the drawn-out sarcastic delivery is lost."
+          "justification": "\"Such lofty... lofty relations!\" is still a noun-phrase exclamation, which the analysis flags as the unnatural structure. The reference's \"What an evolved...\" is a more natural sarcastic exclamation, and the candidate's version reads closer to a literal rendering of \"High relations!\"."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source's stretched sibilant (\"выс-с-сокие\") is an intentional performance feature and an element of the sarcastic voice. The candidate repeats \"lofty\" but drops the elongated delivery, which the reference preserves with \"e-v-volved\"."
         }
       ]
     },
@@ -90,9 +96,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Pleasure\" shifts the source's \"радость\" (joy) toward a hedonistic connotation. \"Do what's right\" also flattens \"для совести\" (for conscience) into a generic moral phrase, weakening the duty-bound fatalism the analysis highlights."
+          "justification": "\"We live to do what's right\" flattens the maxim. \"What's right\" lacks the blunt, soldier-like moral-duty tone of the source's \"совести\" (conscience) and the reference's \"do your duty\", which the analysis ties to Savva's fatalism. The meaning is still understandable."
         }
       ]
     },
@@ -131,10 +137,10 @@
       "candidate": "You chef!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"You chef!\" is the literal standalone-noun construction the analysis explicitly says does not sound natural in English. It is also ungrammatical-sounding, so the absurd domestic insult effect is undermined."
+          "justification": "\"You chef!\" is the kind of literal standalone noun the analysis warns against. It reads awkwardly in English and does not make the sarcastic domestic insult land as naturally as the reference's \"Some cook you are!\"."
         }
       ]
     },
@@ -171,14 +177,7 @@
         "language_specific": {}
       },
       "candidate": "Cut the damn thing out!\nDon't wait for peritonitis!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Damn\" is noticeably weaker than the source oath \"к чёртовой матери\" and the reference's \"the hell out\". The surgeon's blunt, emphatic outburst loses some of its force."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -218,7 +217,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"He's my cross to bear!\" makes the person Khobotov the referent of the source's neutral \"Это\" (this, the situation). It also drops the emphatic \"мне!\" of \"И нести его мне!\", so the self-pitying insistence is somewhat weakened."
+          "justification": "\"He's my cross to bear!\" introduces a person-referent (\"he\") that is not in the source, where \"Это мой крест\" is neutral. This shifts the complaint toward Khobotov, though the self-martyrdom effect is still conveyed. The idiom \"cross to bear\" is preserved, and \"And I alone must bear it\" is a reasonable rendering of \"И нести его мне!\"."
         }
       ]
     },
@@ -240,19 +239,32 @@
         }
       },
       "candidate": "Oh, I'm such an awkward thing...\nall elbows and corners...\nA bundle of contradictions,\nthat's me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds material not in the source: an opening \"Oh,\" and a closing \"that's me!\". These are creative additions that heighten the affected self-characterization, but they go beyond the source's own intensifiers (\"вся\", \"такая\"), which the reference keeps closer."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Oh, I'm such an awkward thing...\" is an unnatural phrasing; \"awkward thing\" reads oddly in English. The rest (\"all elbows and corners\" for угловатая, the verse breaks) works well."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 0,
+      "minor": 9
     },
-    "total_points": 11,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

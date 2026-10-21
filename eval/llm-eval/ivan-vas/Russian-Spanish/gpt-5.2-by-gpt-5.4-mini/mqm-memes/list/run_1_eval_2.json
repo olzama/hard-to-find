@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key nuance noted in the analysis: it states that Shpak and the ambassador currently have the items, rather than implying they lost them. This breaks the callback to the earlier theft joke."
+          "justification": "The candidate says Shpak and the ambassador still have the items, but the line means they have lost them. This breaks the callback joke and the intended sense of suspicion."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"vagas sospechas\" weakens the elevated, mock-heroic tone of \"смутные сомнения,\" which should sound more literary and theatrical."
+          "justification": "\"Vagas sospechas\" is a bit flatter and less mock-heroic than the elevated, theatrical tone of the original."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate does not clearly render Bunsha as introducing himself as the tsar; instead it reads like he is addressing the tsar, which contradicts the scene and the note."
+          "justification": "The greeting is no longer clearly self-introduction throughout; some lines read like he is addressing the tsar rather than repeatedly saying that he is the tsar, which weakens the joke described in the analysis."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Encantada\" is unnecessarily gender-marked and the wording feels less natural for the repeated self-introduction gag than a more neutral, bureaucratic greeting."
+          "justification": "\"Encantada\" is gender-marked in a way that can sound odd for Bunsha impersonating the Tsar, slightly distracting from the comic effect."
         }
       ]
     },
@@ -92,13 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Vieja\" is too blunt and colloquial for the Tsar's archaic, high-register dismissal; it weakens the period flavor and regal tone."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Apenado\" is weaker than the reference's sense of deep sorrow/affliction, so the emotional coloring is slightly diluted."
+          "justification": "\"Vieja\" and \"apenado\" sound somewhat more colloquial and less regal/archaic than the reference's elevated tone, reducing the historical contrast a little."
         }
       ]
     },
@@ -120,7 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the meaning to a plural \"nos han emparedado\" and then addresses the demons, while the original is a singular exclamation that the tsar has been walled in and that the demons are the subject, not the addressee."
+          "justification": "The candidate changes the meaning from singular to plural: \"nos han emparedado\" implies they have both been walled up, whereas the original is Ivan speaking about himself being trapped."
         }
       ]
     },
@@ -142,7 +136,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hace\" is possible, but it is less idiomatic and less elevated than \"obra\" for the quasi-biblical, miraculous tone of the line."
+          "justification": "\"Hace\" is understandable, but \"obra\" better preserves the biblical/archaic resonance of the Tsar's wonder at the miracle."
         }
       ]
     },
@@ -179,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"¡Qué bien he venido!\" distorts the sense: it implies self-congratulation about arriving well, while the original means he has entered at exactly the right time/place upon discovering the valuables. It also risks sounding like he has just come from elsewhere rather than stepped into the apartment."
+          "justification": "\"¡Qué bien he venido!\" can sound like he has already arrived successfully in a general sense, but it misses the specific self-satisfied reaction to stumbling into valuable goods and risks sounding like a simple arrival comment."
         }
       ]
     },
@@ -198,16 +192,10 @@
       "candidate": "Caviar negro, rojo...\n¡Sí! Caviar de ultramar...\n¡De berenjena!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate drops the crucial joke that the cheap eggplant spread is being presented as a rare overseas delicacy, and the segmented wording no longer clearly preserves the comic reveal. The reference's contrast between luxury caviar and absurd \"ultramar... de berenjena\" is weakened."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The punctuation and line breaks make the reveal feel choppy and slightly unnatural, reducing the punch of the punchline."
+          "justification": "The punctuation and line breaks are a bit clunky, and \"de ultramar\" is less natural than the smoother punchline structure in the reference, but the joke remains clear."
         }
       ]
     },
@@ -226,16 +214,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleras nacionales,\nchaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"3 cámaras\" is an imprecise shortening of \"tres kинокамеры\" and loses the specificity of film cameras. The exact item list matters for the joke."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The structure is awkward in Spanish: \"chaqueta de ante... tres\" is less smooth than a fuller enumerative rhythm, and the abrupt numeral at the end sounds truncated."
+          "justification": "The candidate omits the repeated counts in a way that weakens the escalating lie and the joke of the final forgotten increment; the progression of the list is less clear."
         }
       ]
     },
@@ -258,13 +240,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 8
+      "minor": 5
     },
-    "total_points": 33,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

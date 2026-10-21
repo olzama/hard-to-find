@@ -26,13 +26,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The inverted, rhymed phrasing ('Again I am tormented by vague misgivings') and the rhyme-driven 'not been seen' sound more poetic and stilted than the mock-heroic but direct 'Vague doubts haunt me once again'; it still keeps the elevated register, so the effect is only slightly altered."
+          "justification": "The mock-heroic register is partly kept ('Again I am tormented by vague misgivings'), but the rhyming/colloquial rendering of the second line ('tape machine', 'locket's not been seen') is somewhat awkward and weakens the pompous tone."
         },
         {
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Tape machine' is an unusual rendering of 'магнитофон' (tape recorder), and 'envoy' for 'посол' is acceptable but less standard than 'ambassador'. Both reduce precision slightly."
+          "justification": "'Tape machine' is an unnatural term for a tape recorder, and 'envoy' and 'locket' replace 'ambassador' and 'medallion' without need, slightly blurring the callback."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The bare 'Tsar.' tacked on after 'Pleased to meet you' does not clearly show that Bunsha is introducing himself as the Tsar; it can be read as addressing a Tsar, which the analysis explicitly says must be avoided. The reference uses 'I'm the Tsar' and 'Hello, the Tsar' to make this clear."
+          "justification": "The candidate says only 'Tsar.' in fragments, so it is unclear that Bunsha is introducing himself as the Tsar rather than addressing one. The analysis explicitly requires this to be clear."
         }
       ]
     },
@@ -109,9 +109,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'The fiends' correctly makes the demons the subject, but 'fiends' is slightly less tied to the religious/mystical 'demons' than the source word, weakening the superstitious flavor a little."
+          "justification": "'Walled me in, the fiends!' keeps the demons as the subject, but the first line drops the ellipsis/hesitation and the dramatic pause of the original; 'fiends' is slightly weaker than 'demons' but acceptable."
         }
       ]
     },
@@ -153,7 +153,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' is accurate and keeps the commanding tone, but it is a plain imperative that lacks the host-like, party-leader flavor the reference offers; the effect is acceptable though a bit flat."
+        }
+      ]
     },
     {
       "id": 8,
@@ -176,9 +183,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'Didn't I drop by at the right time' is a bit wordy and rhetorical-question-like, so it is less punchy than the casual, cheerful original. It correctly conveys that he has just arrived, so the meaning is preserved."
+          "justification": "'Didn't I drop by at the right time' correctly signals that he has just arrived, but the phrasing is a bit stilted and wordy for a casual cheerful burglar remark."
         }
       ]
     },
@@ -205,7 +212,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Overseas caviar... Aubergine!', which labels it caviar. The analysis explicitly warns against this because it confuses viewers, and the 'caviar' label blurs the joke that the cheap spread is presented as a rare delicacy."
+          "justification": "The candidate calls the eggplant spread 'Overseas caviar... Aubergine!', which labels it caviar. The analysis says this will confuse viewers and the joke depends on the cheap spread being passed off as an overseas delicacy. 'Caviar' also hides that eggplant caviar is a different, humble product."
         }
       ]
     },
@@ -232,13 +239,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The list structure reveals the count up front for every item ('jacket, suede: three' is written out in the same pattern), and the line breaks and format remove the comic effect where Shpak slips on the suede jacket and then corrects to 'Three'. The humor of the growing, belatedly incremented count is lost."
+          "justification": "The candidate puts the counts at the end of each item and writes 'jacket, suede: three', which keeps the list but loses the joke of Shpak forgetting to increase the count of the jackets (it should be a single jacket first, then 'three'). The fumbled count and the build-up are lost."
         },
         {
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Tape machines' is unnatural for tape recorders, and 'cine cameras' is slightly dated/British in contrast to the plain 'movie cameras'."
+          "justification": "'Tape machines' and 'cine cameras' are unnatural for the items; 'tape recorders' and 'movie cameras' would be more fitting."
         }
       ]
     },
@@ -257,24 +264,24 @@
       "candidate": "They'll cure you too!\nAnd they'll cure you too!\nAnd they'll cure me!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The first line 'They'll cure you too!' adds 'too' where the source begins with a plain 'И тебя вылечат', and the exclamation marks replace the calm, melodic resignation described in the analysis with an excited tone. The progression 'you… you too… me' is also flattened."
+          "justification": "The candidate adds exclamation marks and drops the first 'and' in the opening, which makes the delivery more emphatic and less like the calm, melodic resignation described in the analysis. The meaning is kept."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 3,
+      "minor": 7
     },
-    "total_points": 25,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

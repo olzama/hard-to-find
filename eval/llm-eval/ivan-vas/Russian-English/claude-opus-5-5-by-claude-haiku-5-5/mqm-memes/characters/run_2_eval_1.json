@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires the translation to make clear that Bunsha is introducing himself as the Tsar, not addressing one. All four lines use 'Tsar' as a vocative ('Hello, Tsar!', 'Very pleased, Tsar!') with no 'I'm' or equivalent, so the self-identification is lost and the lines read as greetings to the Tsar."
+          "justification": "The analysis requires the line to make clear that Bunsha is introducing himself as the Tsar. 'Hello, Tsar!' and 'Very pleased, Tsar!' read as Bunsha addressing a real tsar, and no 'I am' or 'I'm the Tsar' construction makes the self-introduction explicit, so the central joke is lost."
         }
       ]
     },
@@ -158,7 +158,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'удачно зашел' means 'came in at a lucky moment' (good timing/good luck). 'I picked a good place to drop in' shifts this to a deliberate choice of location, which slightly alters the sense of the line. The 'just entered' sense is preserved by 'drop in'."
+          "justification": "'Удачно' means luckily or at a good moment. 'I picked a good place to drop in' implies a deliberate choice of location, which slightly shifts the sense of chance. The cheerful reaction and the sense of having just entered are preserved, so the effect is only mildly weakened."
         }
       ]
     },
@@ -182,10 +182,10 @@
       "candidate": "Caviar, black, red...\nYes! And overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "The analysis explicitly says the eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'And overseas caviar...' applies the caviar label to the eggplant spread, contradicting that guidance and undermining the status-inversion joke."
+          "justification": "The analysis says the eggplant spread should not be called 'caviar' because it will confuse viewers. The candidate's 'overseas caviar... Eggplant!' uses 'caviar' for the spread before the reveal, which goes against that note. The final reveal still makes the status inversion clear, so the damage is limited."
         }
       ]
     },
@@ -207,7 +207,14 @@
         }
       },
       "candidate": "3 tape recorders,\n3 film cameras,\n3 domestic cigarette cases,\nsuede jackets — three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source's hesitations ('куртка… замшевая… Три') show the count being added as an afterthought, which is the comic point. The candidate turns these into a flat numbered list with digits, losing the stalling rhythm, though the final 'suede jackets — three' still carries the forgotten-count joke."
+        }
+      ]
     },
     {
       "id": 11,
@@ -227,27 +234,27 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's first line is 'И тебя вылечат' (And they'll cure you), with 'too' introduced only in the second line. The candidate adds 'too' to the first line and then repeats the idea with 'as well' in the second, which blurs the sequence of the three lines."
+          "justification": "The first source line 'И тебя вылечат' has no equivalent of 'too'. The candidate's 'They'll cure you too!' adds 'too', which belongs to the second line ('тоже'), so it slightly duplicates and shifts the content of the repetition."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis calls for 'melodic, calm resignation'. The candidate replaces the source's trailing ellipses with exclamation marks, making the delivery excited rather than calm and resigned."
+          "justification": "The analysis describes a melodic, calm resignation, which the source signals with ellipses. The candidate replaces these with exclamation marks on all three lines, pushing the tone toward agitation or hysteria and weakening the calm, fatalistic delivery."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 3
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 13,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

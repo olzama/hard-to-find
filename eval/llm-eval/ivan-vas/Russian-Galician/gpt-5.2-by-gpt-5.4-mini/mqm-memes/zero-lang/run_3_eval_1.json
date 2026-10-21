@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key relationship implied by the line: it says Shpak and the ambassador still have the items, while the joke depends on them having lost them."
+          "justification": "The candidate reverses the key meaning of the line: it says Shpak and the ambassador still have the items, whereas the joke depends on them having lost them. This breaks the callback and the logic described in the analysis."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line is less effective as a mock-heroic complaint because the punctuation and phrasing feel flatter than the elevated, theatrical tone of the original."
+          "justification": "The phrasing 'dúbidas vagas' is a bit flat and less mock-heroic than the elevated, theatrical tone of 'смутные сомнения,' though the main effect remains recognizable."
         }
       ]
     },
@@ -49,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the scene from Bunsha introducing himself as the Tsar to addressing someone as 'tsar', which breaks the required humor and the meaning noted in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Encantada' and 'bos días' sound like ordinary greeting formulas, but the repeated self-identifying royal awkwardness of the original is weakened."
+          "justification": "The candidate no longer clearly shows Bunsha introducing himself as the Tsar; it sounds like he is addressing a tsar rather than repeatedly saying 'I am the tsar,' which the analysis says is essential to the joke."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is understandable, but it softens the more elevated, sorrowful archaic tone of 'estou aflixido'."
+          "justification": "'Triste' is understandable, but it weakens the more elevated, melancholic register of the Tsar's 'aflixido', which better matches his regal, archaic voice."
         }
       ]
     },
@@ -114,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'demoños' is used as if he were addressing the demons, not saying that the demons have bricked him in. This conflicts with the analysis and changes the sentence structure and meaning."
+          "justification": "The second line is wrong in meaning and syntax: 'demoños' is not a natural Galician form here, and the line should make the demons the cause of the entombment rather than sound like an address to them."
         }
       ]
     },
@@ -136,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' is slightly less dignified and less ceremonial than the reference's more exclamatory, quasi-scriptural opening, though the meaning remains clear."
+          "justification": "'Mira' is a bit more colloquial than the reference's solemn, wonder-struck tone; it slightly weakens the quasi-biblical exclamation, though the core meaning is preserved."
         }
       ]
     },
@@ -173,7 +167,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben caín!' means 'how well I fell,' which is misleading and suggests physically falling rather than successfully arriving/coming across something, so it loses the joke's sense of a lucky discovery."
+          "justification": "'Que ben caín!' means 'How well I fell,' which is unrelated to 'I stumbled upon it / I came across a lucky find.' It misses the opportunistic, cheerful reaction central to the joke and is misleading in context."
         }
       ]
     },
@@ -195,7 +189,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate incorrectly calls eggplant spread 'caviar' again, which the analysis explicitly warns against and which would confuse the Soviet-food joke."
+          "justification": "The line omits 'red caviar' and, more importantly, renders 'caviar de ultramar' in a way that blurs the joke about absurdly rebranding cheap eggplant spread as a rare delicacy. The distinctive Soviet-specific punchline is weakened substantially."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The formatting is a bit abrupt, and 'Si!' is less idiomatic than the reference's more playful cadence, but the main issue is the loss of the full satirical contrast."
         }
       ]
     },
@@ -212,20 +212,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 cigarreiras nacionais,\ntres chaquetas de camurza.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate drops the key comic pattern of the line: the repeated escalation and the mistake with the final item. Listing 'tres chaquetas de camurza' without the 'three... three... three... three' buildup loses the joke's structure."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The compact list format is less verbosely boastful than the original, reducing the exaggerated police-report tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -245,21 +232,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Han curarte/han curarme' is less natural and less idiomatic than the reference's phrasing, so the resigned, melodic comic effect is slightly weakened."
+          "justification": "'Han curarte' is somewhat awkward and less natural than the reference's rhythmic, resigned phrasing. The meaning is intact, but the calm, melodically fatalistic tone is slightly weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 6
+      "major": 5,
+      "minor": 5
     },
-    "total_points": 36,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 3.272727272727273,
-    "major_equiv_per_unit": 0.6545454545454545,
-    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

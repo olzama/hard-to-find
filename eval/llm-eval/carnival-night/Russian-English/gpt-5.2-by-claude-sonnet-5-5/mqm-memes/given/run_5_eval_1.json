@@ -58,7 +58,14 @@
         }
       },
       "candidate": "Briefly, about forty minutes, I don’t think we need any more than that…",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate differs from the reference: it omits 'And' and replaces the em dash with a comma. The 'briefly' claim still comes before 'forty minutes', so the comic reversal and the faux-modest managerial tone are preserved. The comma flattens the pause before the punchline slightly."
+        }
+      ]
     },
     {
       "id": 4,
@@ -77,7 +84,14 @@
         }
       },
       "candidate": "Is the lecturer ready? — Oh, he’s ready. He’s been ready for quite a while.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate is identical to the reference in wording, but the dash that marks the speaker change is missing before 'Is the lecturer ready?'. The two speakers' lines run together and the exchange is harder to follow. The double reading of 'ready' (official readiness on the surface, drunkenness underneath) and the 'been ready for quite a while' wording are preserved."
+        }
+      ]
     },
     {
       "id": 5,
@@ -162,9 +176,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "other",
           "span": "",
-          "justification": "After the correct translation of the line, the candidate adds material that is not in the source: a stray subtitle index (399), a timecode (00:46:43,979 --> 00:46:46,197) and a fragment 'As-sa...'. This is an addition that would corrupt the subtitle file and show the viewer garbage text. The translation of the lecturer's casual, register-mismatched line itself is fine."
+          "justification": "The candidate contains stray subtitle-file material after the translated line: a segment number '399', a timecode '00:46:43,979 --> 00:46:46,197' and a fragment 'As-sa...'. This is a segmentation/formatting error that would show up on screen, adds untranslated or unrelated content, and corrupts the subtitle. The translation of the line itself is identical to the reference and keeps the casual register and the 'not up to speed' joke."
         }
       ]
     }
@@ -172,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 0
+      "minor": 2
     },
-    "total_points": 5,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.625,
-    "major_equiv_per_unit": 0.125,
-    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

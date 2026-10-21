@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the NB-specified meaning: it says Shpak and the ambassador still have the items, while the original means those items are missing from them."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Using 'En Shpak hai' / 'no embaixador hai' is less natural and weaker than a formulation of possession-loss, reducing the mock-heroic punch slightly."
+          "justification": "The candidate says the items are currently in Shpak's and the ambassador's possession ('hai'), but the line means they are missing/lost from those people. This breaks the joke and the callback described in the analysis."
         }
       ]
     },
@@ -46,10 +40,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The line should clearly read as Bunsha introducing himself as the Tsar, but 'Moito gusto, tsar!' can be read as addressing the Tsar rather than being the Tsar himself, which weakens the required joke."
+          "justification": "The self-introduction as tsar is preserved, but the repeated greeting sounds less like a mundane Soviet-style formal cliché and more like ordinary exclamations, slightly weakening the comic contrast described in the analysis."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is correct in meaning, but it is flatter and less elevated than the reference's more fitting melancholy tone ('aflixido'), which matters for Ivan's regal register."
+          "justification": "\"Estou triste\" is understandable, but it is flatter and less elevated than the reference's more archaic, regal tone, slightly reducing the mock-royal melancholy."
         }
       ]
     },
@@ -105,10 +99,10 @@
       "candidate": "Emparedáronme!\nEmparedáronme, demoños!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "'demoños' is understandable, but 'demos' is the more natural Galician equivalent here; the candidate sounds slightly less idiomatic."
+          "justification": "\"demoños\" changes the meaning of the final clause from \"the demons\" as the subject of the sentence to an address or exclamation, which conflicts with the note that they are not being addressed."
         }
       ]
     },
@@ -130,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira o que fai...' is close, but it sounds a bit less emphatic and archaic than the reference, slightly weakening the ecstatic miracle-claim effect."
+          "justification": "\"Mira\" is a bit more colloquial and less solemn than the reference, so the exclamation loses some of the mock-religious grandiosity, though the meaning remains intact."
         }
       ]
     },
@@ -150,9 +144,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'A bailar, todo o mundo!' conveys the general idea, but it loses the imperative force and exuberant collectivized command of 'Todos a bailar!'"
+          "justification": "The meaning is clear, but \"A bailar, todo o mundo!\" sounds more like a general invitation than a directive to everyone dancing in unison, slightly weakening the imperative, rallying energy of the original."
         }
       ]
     },
@@ -169,14 +163,7 @@
         "language_specific": {}
       },
       "candidate": "Mira ti que ben entrei!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Mira ti que ben entrei!' is understandable, but it sounds like a comment on entering well rather than the idiomatic, delighted realization that he has stumbled into a good place."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -196,13 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'Caviar de ultramar' and puts 'De berenxena!' on a separate line, obscuring the intended phrase 'overseas caviar... eggplant' and weakening the joke structure."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Compared with the reference, the wording is less fluid and less comic because the punchline is split off awkwardly."
+          "justification": "The candidate omits the crucial idea that the eggplant spread is presented as a special foreign delicacy; it only says \"caviar de ultramar,\" which obscures the joke and removes the satirical twist described in the analysis."
         }
       ]
     },
@@ -221,16 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaqueta de camurza: tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate drops key items from the list, including the three cigarette cases and the jacket count progression, so the escalating absurdity of Shpak's inventory is lost."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'pitilleiras' and the abrupt punctuation make the list less natural and less punchy than the reference subtitle."
+          "justification": "The list is understandable, but the compressed formatting and the shift to \"chaqueta de camurza: tres\" are somewhat awkward, and the count-joke lands less smoothly than in the reference."
         }
       ]
     },
@@ -247,26 +222,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti van curarte!\nE a ti tamén van curarte!\nE a min van curarme!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'van curarte' is understandable, but it omits the explicit object clitic structure that makes the reference clearly mean 'they will cure you / me,' slightly weakening clarity and rhythm."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 9
+      "major": 3,
+      "minor": 5
     },
-    "total_points": 29,
+    "total_points": 20,
     "meaning_units": 11,
-    "penalty_per_unit": 2.6363636363636362,
-    "major_equiv_per_unit": 0.5272727272727272,
-    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.8181818181818181,
+    "major_equiv_per_unit": 0.36363636363636365,
+    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

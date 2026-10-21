@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing a Tsar with polite phrases (’A pleasure, Tsar!’) rather than repeatedly introducing himself as ‘the Tsar’. The analysis requires that the line make clear he is presenting himself as the Tsar (a comic self-introduction), so this version changes the pragmatic meaning and undermines the joke."
+          "justification": "The candidate reads as if Bunsha is addressing someone called 'Tsar' (greeting them) rather than repeatedly introducing himself as the Tsar. The analysis explicitly requires that the line make clear he is presenting himself as the Tsar; this candidate loses that essential meaning and the gag about him impersonating the ruler."
         }
       ]
     },
@@ -95,10 +95,10 @@
       "candidate": "Walled in!\nThey've walled me in, the demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis specifies that ‘demons’ must be the subject (they walled me in), not a vocative addressee. The candidate’s phrasing (‘They've walled me in, the demons!’) reads as if the speaker is addressing the demons, which reverses the intended grammatical relation and weakens the original joke of perceiving a mechanical fault as an act by demonic agents."
+          "justification": "The original requires 'demons' to be the subject (They have walled me in). The English phrasing 'They've walled me in, the demons!' reads ambiguously and more like a vocative address to the demons, which slightly alters the intended meaning that demons are the agents who walled him in."
         }
       ]
     },
@@ -182,10 +182,10 @@
       "candidate": "Black caviar, red...\nYes! And overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns not to render eggplant spread as ‘caviar’. The candidate’s line (‘overseas caviar... Eggplant!’) groups eggplant with caviar, which risks confusing viewers and loses the satirical inversion (cheap eggplant spread being treated as a rare ‘overseas’ delicacy). This misrepresents the crucial joke about status inversion."
+          "justification": "The analysis warns against rendering the eggplant spread as 'caviar.' The candidate's line 'And overseas caviar... Eggplant!' risks implying that the eggplant item itself is a kind of caviar rather than presenting 'eggplant' as the humble spread juxtaposed with true caviar, which slightly weakens the satirical contrast."
         }
       ]
     },
@@ -207,14 +207,7 @@
         }
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 Soviet-made cigarette cases,\nsuede jackets—three.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original joke hinges on Shpak saying a singular item ('a suede jacket') and then immediately producing the number 'three', betraying his exaggeration. The candidate renders it as plural 'suede jackets—three', which smooths over that comic slip and weakens the humor, though the inventory and inflated count remain understandable."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -234,14 +227,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 1
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 16,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

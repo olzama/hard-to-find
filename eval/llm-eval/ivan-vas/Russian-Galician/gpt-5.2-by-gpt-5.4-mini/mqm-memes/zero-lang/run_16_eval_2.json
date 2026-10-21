@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate turns the list into a bare inventory and omits the key sense that Shpak and the ambassador no longer have these items. It also drops the clever parallel structure of the original, weakening the comic suspicion."
+          "justification": "The candidate omits the key idea that the items are missing/stolen and instead presents them as simply listed possessions. This loses the point of the line and breaks the callback described in the analysis."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The colon-based listing is flatter than the reference’s phrasing and weakens the mock-solemn, comic cadence."
         }
       ]
     },
@@ -40,10 +46,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line does preserve the self-introduction as tsar, but the added punctuation and phrasing make the repetitive greeting sound more exclamatory and less like the awkward, bureaucratic politeness described in the analysis."
+          "justification": "The candidate does not clearly preserve the crucial point that Bunsha is introducing himself as the Tsar rather than addressing one. The repeated greetings can be read as addressing a tsar, which contradicts the analysis."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou triste\" is understandable, but it is flatter and less elevated than \"estou aflixido,\" which better conveys the mock-archaic, regal melancholy of the original."
+          "justification": "\"Estou triste\" is understandable, but it is less elevated and less idiomatically solemn than the reference’s \"estou aflixido,\" slightly weakening the regal, archaic tone."
         }
       ]
     },
@@ -102,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The last word should mean that the demons are the agents of the entombing, not that he is addressing them. \"demoños\" after a comma makes it sound like an address, which contradicts the intended meaning."
+          "justification": "\"Demoños\" changes the intended meaning and address-like effect: the demons should be the subject causing the entrapment, not a form that sounds like he is addressing them. This conflicts with the note in the analysis."
         }
       ]
     },
@@ -119,14 +125,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The wording is accurate, but \"Mira\" sounds more colloquial than the more solemn, astonished register of the reference, slightly weakening the miraculous, archaic tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -161,7 +160,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Entrei con sorte\" means \"I entered with luck,\" which is misleading and does not convey the spontaneous satisfaction of having come upon a good opportunity. The analysis specifically warns that the line must not sound like he is leaving or otherwise misframed."
+          "justification": "\"Vaia, pois entrei con sorte!\" suggests 'I entered with luck' rather than the intended 'I hit the jackpot / came upon a good spot.' It also weakens the cheerful realization of having just found valuables."
         }
       ]
     },
@@ -183,7 +182,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"caviar de ultramar\" and then separately \"de berenxena,\" which obscures the joke that the supposed exotic delicacy is eggplant caviar. It also clashes with the guidance not to call the eggplant spread caviar in a way that confuses viewers."
+          "justification": "The candidate drops the crucial final idea that the 'overseas caviar' is eggplant, so the punchline about fake prestige and Soviet food shortages is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line is somewhat abrupt and segmental, which makes the punchline less smooth than it could be."
         }
       ]
     },
@@ -205,7 +210,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The famous counting joke is broken: the candidate drops the repeated \"three\" structure for several items and fails to preserve the exact incremental list, especially the final self-correction on the suede jacket. That destroys the humor built on the escalating inventory."
+          "justification": "The count-changing joke is not preserved: the final item is rendered as a bare noun phrase without the initial missing numeral, so the comic reveal that he forgets to increment the suede jacket count is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The phrasing \"chaqueta de camurza, tres\" is awkward and less natural than the reference’s flowing list."
         }
       ]
     },
@@ -222,26 +233,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti han curarte!\nE a ti tamén han curarte!\nE a min han curarme!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The meaning is preserved, but \"han curarte/han curarme\" sounds a bit less natural and less melodic than the reference's \"vante curar/vanme curar,\" slightly reducing the resigned, sing-song rhythm of the line."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 6,
       "minor": 4
     },
-    "total_points": 29,
+    "total_points": 34,
     "meaning_units": 11,
-    "penalty_per_unit": 2.6363636363636362,
-    "major_equiv_per_unit": 0.5272727272727272,
-    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.090909090909091,
+    "major_equiv_per_unit": 0.6181818181818182,
+    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate mistranslates the key factual point: it says Shpak and the ambassador still have the items, while the line means those items are missing/lost. This removes the theft implication in the joke."
+          "justification": "The line says Shpak and the ambassador are missing these items, not that they currently have them. This reverses the intended meaning and breaks the theft callback described in the analysis."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vagas sospechas' is slightly weaker than the mock-heroic, elevated tone of 'смутные сомнения', though it still conveys uncertainty."
+          "justification": "The phrasing is somewhat flat compared with the mock-heroic, theatrical tone of \"Меня опять терзают смутные сомнения\"."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the repeated self-introduction as 'the Tsar' and turns the line into a general greeting to a tsar, losing the intended comic confusion that he is impersonating the Tsar."
+          "justification": "The candidate omits the self-introduction pattern that is essential to the joke and instead reads as if he is addressing the tsar. The analysis explicitly requires that it be clear he is introducing himself as the tsar."
         },
         {
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The dialogue's repetitive, awkwardly polite cadence is central to the humor, but the candidate reshapes it into short exclamations that no longer sound like a drunken, formulaic introduction."
+          "justification": "The repetitive banal greeting structure is weakened; the line no longer feels like a clumsy, repetitive formal introduction, which is key to the comedic effect."
         }
       ]
     },
@@ -90,9 +90,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Estoy triste' weakens the more specific and elevated sense of 'afligido', slightly reducing the regal, archaic melancholy of the original."
+          "justification": "\"Estoy triste\" is understandable, but it softens the elevated, archaic-sounding melancholy of \"estoy afligido,\" which better matches Ivan's regal voice."
         }
       ]
     },
@@ -114,13 +114,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the meaning by making the speaker say 'we have been walled in' instead of 'I have been walled in,' altering the scene and the joke."
+          "justification": "The Russian is singular and implies the Tsar himself has been walled in; the candidate changes this to \"nos han emparedado,\" introducing an unjustified plural and altering the situation."
         },
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Nos han emparedado, demonios' makes the demons an address rather than the cause, which breaks the intended mystical, fearful tone described in the analysis."
+          "justification": "By making the demons the addressee in the second line, the translation breaks the meaning noted in the analysis: \"demons\" are the agents, not the ones being spoken to."
         }
       ]
     },
@@ -142,7 +142,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' is more colloquial and less exalted than the reference's declarative 'Esto es lo que obra...', so the line loses some of the Tsar's solemn, miraculous self-certainty."
+          "justification": "\"Mira\" sounds a bit colloquial and less solemn than the reference's exclamatory, quasi-religious tone. The meaning is intact, but the theatrical awe is slightly reduced."
         }
       ]
     },
@@ -159,14 +159,7 @@
         "language_specific": {}
       },
       "candidate": "¡A bailar, todos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'¡A bailar, todos!' preserves the meaning, but it sounds slightly less idiomatic and forceful than the more natural exclamation '¡Todos a bailar!'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -181,7 +174,14 @@
         "language_specific": {}
       },
       "candidate": "¡He entrado en el momento justo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate slightly changes the nuance from a cheerful \"I got here at a good time\" to the more explicit \"I entered at the right moment.\" The comic sense survives, but the line is less idiomatic and less casual."
+        }
+      ]
     },
     {
       "id": 9,
@@ -198,10 +198,10 @@
       "candidate": "Caviar negro, rojo...\n¡Sí! Caviar de ultramar...\n¡De berenjena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the crucial 'caviar de berenjena' wording and splits it across lines in a way that obscures the joke. This can confuse viewers instead of clearly presenting the cheap fake 'caviar' revealed at the end."
+          "justification": "The joke is preserved, but the wording is compressed and slightly less clear than the reference, especially in separating the mock-exotic \"de ultramar\" from the final reveal \"de berenjena.\""
         }
       ]
     },
@@ -223,13 +223,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate collapses the final gag about the missed count of the suede jacket into 'chaqueta de ante... tres', which no longer reproduces Shpak's incremental tally and weakens the joke about his self-serving exaggeration."
+          "justification": "The opening numeral reduction from \"three\" to \"3\" is acceptable, but the key joke is that the list grows and then ends with an omitted increment for the suede jacket. The candidate's structure obscures the incremental count and weakens the comic punch."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Using numeral-heavy shorthand makes the inventory list less natural and less comic in subtitle form than a fuller phrasing."
+          "justification": "The phrase \"chaqueta de ante... tres\" is awkward in Spanish and less natural than a list that clearly mirrors the escalating count."
         }
       ]
     },
@@ -246,26 +246,19 @@
         "language_specific": {}
       },
       "candidate": "¡Y a ti te curarán!\n¡Y a ti también te curarán!\n¡Y a mí me curarán!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamatory formatting adds emphasis not present in the original calm, resigned delivery, slightly reducing the melodic, deadpan tone of the line."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
+      "major": 6,
       "minor": 6
     },
-    "total_points": 41,
+    "total_points": 36,
     "meaning_units": 11,
-    "penalty_per_unit": 3.727272727272727,
-    "major_equiv_per_unit": 0.7454545454545454,
-    "interpretation": "3.73 MQM penalty points per meaning unit (≈ 0.75 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.272727272727273,
+    "major_equiv_per_unit": 0.6545454545454545,
+    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador currently have the items, but the line means those items are missing from them. This reverses the key joke and the callback to the theft suspicion."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Vagas sospechas\" is understandable, but it weakens the elevated, mock-heroic tone of \"смутные сомнения\" described in the analysis."
+          "justification": "The candidate reverses the key factual point from the analysis: it says Shpak and the ambassador still have the items, whereas the joke depends on them having lost them/disappeared. That breaks the callback to the theft suspicion."
         }
       ]
     },
@@ -49,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the repeated self-introduction structure and does not clearly preserve that Bunsha is introducing himself as the Tsar rather than addressing one. The source humor depends on that repetitive, self-identifying gag."
+          "justification": "The line should make it clear that Bunsha is introducing himself as the Tsar, but the candidate reads like he is simply addressing a zar. This blurs the comic premise described in the analysis."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Mucho gusto, zar\" sounds more conversational and less absurdly formal than the original repetitive polite formula, so the comic clash of registers is somewhat softened."
+          "justification": "The greeting choices are a bit more colloquial and less stiffly repetitive than the reference, slightly weakening the absurd bureaucratic formality that drives the joke."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estoy triste\" is more ordinary than the slightly archaic or elevated \"estoy afligido,\" so the regal, historical tone is weakened."
+          "justification": "\"Estoy triste\" is understandable, but it softens the elevated, slightly archaic melancholy of \"estoy afligido,\" which is part of the Tsar's regal voice."
         }
       ]
     },
@@ -109,7 +103,14 @@
         "language_specific": {}
       },
       "candidate": "¡Me han emparedado!\n¡Me han emparedado, demonios!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Adding the exclamatory punctuation changes the measured, muttered despair of the original a little, though the meaning and joke remain intact."
+        }
+      ]
     },
     {
       "id": 6,
@@ -129,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hace\" is less idiomatic and slightly less solemn than \"obra\" in this mock-biblical phrasing, so the religiously exalted tone is reduced a bit."
+          "justification": "\"Hace\" is acceptable, but \"obra\" is more elevated and idiomatic in this mock-religious register, so the line loses a bit of its solemn, archaic flavor."
         }
       ]
     },
@@ -146,7 +147,14 @@
         "language_specific": {}
       },
       "candidate": "¡Que baile todo el mundo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Que baile todo el mundo\" conveys the meaning, but it is a little less punchy and slogan-like than the compact imperative force of the original."
+        }
+      ]
     },
     {
       "id": 8,
@@ -161,14 +169,7 @@
         "language_specific": {}
       },
       "candidate": "¡Qué bien que pasé por aquí!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Qué bien que pasé por aquí\" is a natural exclamation, but it slightly weakens the idea of having found the place fortunately and can read more like casual passing by than a delighted discovery after entering the apartment."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -185,10 +186,10 @@
       "candidate": "Caviar negro, rojo...\n¡Sí! Caviar de ultramar...\n¡De berenjena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The line drops \"black and red caviar,\" which are part of the comic inventory contrast, so the buildup is incomplete. It also risks confusion by separating the final reveal too much from the earlier food list."
+          "justification": "The candidate drops the important contrast with the cheap vegetable spread as a supposed delicacy by compressing it into \"de berenjena\" without the overtly mock-grand setup of the reference. The joke is still recoverable, but slightly weaker."
         }
       ]
     },
@@ -208,15 +209,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate compresses the playful escalating list and loses the repeated buildup of each item. The joke still survives, but the rhythm of Shpak's exaggeration is weaker."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The shorthand list feels more clipped and less pompous than the source, reducing the comically self-important testimony."
+          "justification": "The list is understandable, but the formatting is somewhat clunky and less rhythmically natural than the original escalating enumeration."
         }
       ]
     },
@@ -238,14 +233,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 7
     },
-    "total_points": 22,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

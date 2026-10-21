@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I'm the fierce and frightening big bad wolf.\nI know just what to do with pigs.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate drops the rhyme and rhythm of the original boast ('страшный'/'толк'), and the idiom 'знаю толк' becomes a flatter 'I know just what to do with pigs'. The analysis describes the line as rhymed and rhythmic, so the mock-menacing swagger is weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -45,16 +38,16 @@
       "candidate": "knock his horns off,\nrip his mouth off, gouge his eyes out!\nYou'll spend your life paying for medicine,",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Knock his horns off' is the literal rendering the analysis explicitly says to avoid as 'not an idiomatic English threat'. The candidate uses it anyway, so the first clause reads as translation rather than as a threat formula."
+          "justification": "The literal 'knock his horns off' is the rendering the analysis flags as not an idiomatic English threat, so the first line reads as translated rather than as a natural threat formula."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts from second-person address ('I'll... you'll') to third person ('his horns', 'his mouth', 'his eyes'), losing the direct threat voice. The ending 'You'll spend your life paying for medicine' is close to the explanatory paraphrase the analysis warns against and drops the fronted, verdict-like lifetime clause."
+          "justification": "The person shifts inconsistently: 'his' in the first two lines describes the victim in the third person, while 'You'll' in the last line addresses him directly. The threat loses its direct, consistent address."
         }
       ]
     },
@@ -93,10 +86,10 @@
       "candidate": "That Vasily Alibabayevich...\nthat bad person...\ndropped a radiator on my foot, the bastard!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'That bad person' is close to the routine flattening the analysis warns against ('bad man'). It loses the euphemistic, moralizing restraint of 'нехороший человек' that sets up the collapse into 'падла'."
+          "justification": "'That bad person' flattens the euphemistic, awkwardly restrained moralizing of «нехороший человек» into a routine phrase, which is the exact flattening the analysis says to avoid. The joke's setup, the collapse from restrained euphemism into a rough insult, is weakened."
         }
       ]
     },
@@ -123,7 +116,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'That's adventure!' is missing the article and reads as unidiomatic English. 'That's an adventure!' would carry the ironic romanticization more naturally."
+          "justification": "'That's adventure!' lacks the article and exclamatory form that make the ironic romanticization sound natural; 'What an adventure!' would read more idiomatically while keeping the same irony."
         }
       ]
     },
@@ -140,7 +133,14 @@
         "language_specific": {}
       },
       "candidate": "That's it! No movie. The power's gone out.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'The power's gone out' suggests an outage, whereas the analysis describes electricity as simply used up like a supply. The nuance of the unschooled, supply-exhausted formulation is slightly shifted."
+        }
+      ]
     },
     {
       "id": 7,
@@ -165,19 +165,13 @@
           "severity": "major",
           "category": "terminology",
           "span": "",
-          "justification": "The candidate translates 'лошадью' as 'knight', the correct chess term. The analysis explicitly says to avoid this, because the joke depends on Fedya using an unschooled, nontechnical word for the piece."
+          "justification": "Translating «лошадью» as the correct chess term 'knight' is exactly what the analysis says to avoid. The joke depends on the speaker's unschooled, nontechnical word for the piece, which is lost."
         },
         {
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Get off my back!' is added dialogue with no counterpart in the source. It invents a second speech act that is not in the original line."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'I swear' is a generic oath and loses the prison-coded oath quality of 'век воли не видать'. The analysis asks for the phrase to be rendered as an oath with underworld solemnity."
+          "justification": "The line 'Get off my back!' has no counterpart in the one-line source. It is an addition that changes the content of the utterance."
         }
       ]
     },
@@ -204,13 +198,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline 'Who's going to put him in a seat?' makes the sitting reading literal and nonsensical. The source's 'Кто же его посадит?' means 'who would lock him up?', so the prison/confinement reinterpretation that the joke depends on is lost."
+          "justification": "The trigger 'Who's going to put him in a seat?' is spatial and nonsensical, and it blocks the prison/confinement reinterpretation of «посадит» that the joke depends on. The final punchline therefore does not land."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Of whom?' is an unnatural rendering of 'Чей памятник?' (whose monument?). It is stilted for a casual exchange among these speakers."
+          "justification": "'Of whom?' is a stiff rendering of «Чей памятник?» where 'Whose monument?' or 'Whose?' would read more naturally."
         }
       ]
     },
@@ -235,9 +229,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "'Picking' is the neutral verb the analysis explicitly says to avoid for the low slang 'тырить'. It weakens the petty-criminal register that the contrast with a serious operation depends on."
+          "justification": "'Picking' is the neutral verb the analysis says to avoid for the low slang «тырить». The petty-criminal register of the line is weakened, even though 'loose change' conveys the «мелочь» pun well."
         }
       ]
     },
@@ -259,7 +253,14 @@
         }
       },
       "candidate": "Yes, yes, OBKhSS.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The transliterated 'OBKhSS' does not reproduce the acoustic echo between 'Yes, yes' and the acronym's ending that the analysis identifies as the joke. The comic code-switch is therefore weaker, though the reference also loses the echo."
+        }
+      ]
     },
     {
       "id": 11,
@@ -282,9 +283,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Standard 'citizen' removes the marked, incorrect address form the analysis says contributes to the comic effect of Vasily's broken grammar."
+        },
+        {
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The intensifier 'совсем' ('completely') is omitted from 'совсем мертвый будешь', so 'you be dead!' loses the emphatic, blunt modifier that the analysis identifies as part of the humor."
+          "justification": "The source 'совсем' ('completely') is omitted, so the blunt, emphatic death warning is slightly weakened."
         }
       ]
     },
@@ -301,14 +308,7 @@
         "language_specific": {}
       },
       "candidate": "They're having dinner in prison now...\nPasta.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Pasta' is a modern, generic word that loses the cheap, institutional, slightly epoch-specific flavor of 'макароны' (macaroni). This weakens the bathos of the delayed punchline."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -333,7 +333,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everyone else ran, so I ran too' adds an explicit causal connective. The analysis warns against over-explaining the logic, since the meme depends on the childlike parallel 'Все побежали — и я побежал' and minimal causal reasoning."
+          "justification": "'Everyone else ran, so I ran too' adds the causal 'so' and 'too', over-explaining the logic. The analysis asks to keep the minimal, repeated parallel structure, which is partly what makes the answer childlike and funny."
         }
       ]
     },
@@ -360,7 +360,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'Dig in' is an ordinary, mildly informal idiom with no crudeness. The joke depends on inserting the vulgar verb 'жрать' into the polite frame, and that register clash is essentially lost. 'Stuff your faces' in the reference carries the needed vulgarity."
+          "justification": "'Dig in' is informal but not crude, so the register collision the analysis identifies as the whole joke, the vulgar verb «жрать» inside a polite invitation, is lost. The line becomes merely casual."
         }
       ]
     },
@@ -382,7 +382,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mouth' is neutral, so the animalizing, stylized register of 'пасть' ('trap', as in the reference) is lost. The line reads as an ordinary threat rather than the film's catchphrase-like formula."
+          "justification": "'Mouth' is neutral and loses the animalizing «пасть» / 'trap' effect that makes the catchphrase rougher and more stylized. 'Rip your mouth off' is also slightly unidiomatic."
         }
       ]
     },
@@ -407,9 +407,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'What an idiot' is the gender-neutral rendering the analysis explicitly says to avoid. It erases the feminine-masculine-feminine sequence, so Tanya's feminine insult to the apparent woman, which is the core of the joke, is lost."
+          "justification": "'What an idiot' is the gender-neutral rendering the analysis explicitly says to avoid. It erases the feminine address and the feminine-masculine-feminine structure that is the core of the joke, since Tanya's feminine insult to the apparent woman is lost."
         }
       ]
     },
@@ -436,7 +436,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'Slop bucket' is the literal sanitary object reading that the analysis explicitly says to avoid. It reduces 'параша' to a container rather than conveying the lowest, most degraded position in the inmate hierarchy."
+          "justification": "'Slop bucket' is the literal sanitary object rendering the analysis explicitly flags. It reduces «параша» to a toilet object rather than conveying the lowest position in the prison hierarchy, so the insult's meaning is lost."
         }
       ]
     },
@@ -463,7 +463,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Blinding me' loses the comically formal, bureaucratic wording of 'зрения лишают' that the analysis asks to preserve. The sudden shift to official-sounding panic is therefore flattened into a plain idiom."
+          "justification": "'The thugs are blinding me!' drops the comically formal, bureaucratic register of «зрения лишают» that the analysis asks to preserve. The reversal from tough prisoner to helpless complainant is still conveyed, but less memorably."
         }
       ]
     }

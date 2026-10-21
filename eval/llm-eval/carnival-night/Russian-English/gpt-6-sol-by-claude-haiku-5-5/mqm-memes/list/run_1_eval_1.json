@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't bring\nin a Baba Yaga from outside.\nWe'll train one from our own staff!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Our own staff\" is a workable equivalent, but it drops the collective/collectivist connotation the analysis ties to \"collective\" and \"cultivate\". The line still reads as a workplace joke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate switches to third person (\"He gives a nice, short address\"), which reframes Ogurtsov's own managerial remark as narration. \"Nice\" is a weak stand-in for the diminutive «коротенько» faux-modesty that the analysis says must carry the joke. The brevity claim does come before the forty-minute reversal, so the core structure survives."
+          "justification": "The source is Ogurtsov's own first-person speech, but the candidate recasts it as third-person narration ('He gives a nice, short address'). It also adds 'nice', which is not in the source. The diminutive faux-modesty of 'коротенько' is only partly carried by 'short', so the setup is weaker than the analysis asks for."
         }
       ]
     },
@@ -77,10 +70,10 @@
       "candidate": "Is the lecturer ready?\n- The lecturer's ready.\nHe's been ready for ages!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double sense of «готов» (ready / drunk) is not recreated, so the intoxication subtext the analysis calls the main joke is lost. The reference also omits it, so this is a shared limitation rather than a candidate-specific error. \"He's been ready for ages\" keeps the administrative exchange intact."
+          "justification": "The analysis identifies the double sense of 'готов' (ready / drunk) as the core joke and says it should be preserved or recreated. The candidate renders only 'ready' and 'ready for ages', so the intoxication subtext is lost and the joke does not land. The reference shares this gap, but the analysis still requires the double reading."
         }
       ]
     },
@@ -99,10 +92,10 @@
       "candidate": "- People! Hello... Anybody out there?",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis warns against normalizing this line into a clean \"People!\", and the candidate does exactly that: \"People!\" is unstretched and unbroken, with no vocal instability. \"Anybody out there?\" adds a new, fully formed question in place of the faltering «ау-у» call, so the drunken, faltering delivery that carries the physical comedy is lost."
+          "justification": "The candidate drops the stretched, broken vocalization ('Лю-ди! А… ау-у!') that the analysis calls the source of the drunken physical comedy. 'Anybody out there?' also adds a question that is not in the source, which shifts the moment from a faltering public address to a search for listeners."
         }
       ]
     },
@@ -127,9 +120,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque of «вооружённым глазом» that the language-specific note says does not work in English. The self-correction frame (\"I mean, the armed eye\") makes the slip read as deliberate and does recreate the mock-scientific upgrade of a familiar idiom, which partly offsets the calque. The result is still stranger than the analysis wants."
+          "justification": "The candidate handles the malformed idiom with a self-correction ('naked eye, I mean, the armed eye'). This keeps 'armed' visible, but the lecturer appears to correct a known phrase rather than mangle it outright, so the drunken distortion works a little differently from the source."
         }
       ]
     },
@@ -153,10 +146,10 @@
       "candidate": "and we see\ntwo little stars, three little stars...\n...four little stars. Five stars\nis best, of course!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac association is lost entirely. In English, \"five stars\" reads as a hotel or rating scale, so the sudden click into a different semantic world that the analysis calls essential does not happen. The reference's translator's note (5* as the best Soviet cognac) is also absent, and the line becomes merely odd rather than derailed. The cultural boundary is crossed without mitigation."
+          "justification": "The candidate omits the cognac reference that the analysis says needs a translator's note for English viewers, and the reference includes one. Without it, 'Five stars is best' does not clearly shift into the cognac frame. The candidate also drops 'уже' ('already'), which weakens the framing of the counting."
         }
       ]
     },
@@ -178,21 +171,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Is there no life on Mars?\" is stilted and unidiomatic. Natural English would be closer to \"Or not?\" or \"Or isn't there?\". The either-way structure of «Есть ли жизнь на Марсе, нет ли жизни» is therefore clumsy. \"Science hasn't been told yet\" does capture the casual \"not in the know\" register well."
+          "justification": "'Is there no life on Mars?' is an awkward rendering of 'нет ли жизни на Марсе'. A more natural form such as 'Or is there not?' would keep the lecture-style hedging. 'Science doesn't know' also drops the 'that is' connective, so the flow is slightly choppy, though 'Science hasn't been told yet' keeps the casual register well."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 5
     },
-    "total_points": 15,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

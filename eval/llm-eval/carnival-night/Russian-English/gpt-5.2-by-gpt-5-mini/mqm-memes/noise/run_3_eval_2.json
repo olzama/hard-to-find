@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the comic reversal (claiming 'briefly' then giving 'forty minutes'), but the word 'briefly' is a flat rendition of «коротенько». The diminutive, cozy, faux-modest nuance that sharpens the joke is weakened, making Ogurtsov's smug understatement less characterful."
+          "justification": "The candidate preserves the key comic reversal (claiming 'briefly' then giving 'forty minutes'), but it flattens the diminutive, faux-modest tone of «коротенько» by using a plain 'briefly'. The phrasing ('more, I think, isn’t necessary') is slightly awkward and weakens Ogurtsov’s smug, managerial voice."
         }
       ]
     },
@@ -89,7 +89,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word 'давно' untranslated at the end ('ready давно!'), which is an untranslated fragment that breaks comprehension for an English-only viewer. It also fails to preserve the ambiguous double reading (official 'ready' vs. 'already drunk') in a clear, idiomatic way."
+          "justification": "The candidate leaves the Russian word 'давно' untranslated, producing 'ready, ready давно!' which is an error. More importantly, the reply fails to preserve the crucial double reading of 'готов' (official 'ready' vs colloquial 'already smashed/drunk') — the repetition 'ready, ready' does not convey the subtext of intoxication that the original exchange relies on."
         }
       ]
     },
@@ -113,9 +113,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line keeps a fractured address but 'Hullo!' is a fairly normal, British greeting and the rendering smooths over the faltering, vocally unstable quality of the original ('Ah… ау-у!'). The drunken, collapsing attempt at oratory is less vivid than in the reference."
+          "justification": "The candidate normalizes the broken, faltering vocalization into 'People!.. Ah... Hullo!' which loses the staggered, collapsing syllable pattern ('Lyu-di! A… au-u!') that conveys the lecturer's drunken, theatrical inability to address the crowd. The effect is weakened though the basic meaning remains."
         }
       ]
     },
@@ -144,7 +144,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye', which the analysis warned against: in English it reads oddly and more surreal than the Russian mock‑scientific deformation. A less jarring solution (e.g. 'aided eye') would better preserve the intended mock‑scientific humor without over‑weirding the image."
+          "justification": "The candidate renders «вооружённым глазом» as 'an armed eye,' which is a too-literal calque that reads oddly and more surreal in English than the Russian original. The line should evoke a mock-scientific deformation (like 'aided/assisted eye') rather than sounding bizarrely literal; the chosen wording undermines the intended comic pseudo-academic tone."
         }
       ]
     },
@@ -187,26 +187,19 @@
         }
       },
       "candidate": "Whether there is life on Mars or there isn’t\nlife on Mars—science does not know.\nScience is not yet informed.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate accurately conveys the factual point and the personification of 'science,' but the phrasing is slightly clunky/repetitive ('Whether there is life on Mars or there isn’t life on Mars') and the final sentence ('Science is not yet informed') is a bit more formal and less colloquial than the analysis suggests, softening the comic register mismatch."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 9,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 1.125,
-    "major_equiv_per_unit": 0.225,
-    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

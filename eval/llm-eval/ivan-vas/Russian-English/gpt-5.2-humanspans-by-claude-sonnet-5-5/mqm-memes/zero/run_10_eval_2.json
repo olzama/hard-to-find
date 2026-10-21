@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly warns that 'У Шпака — У посла' must not be rendered as 'Shpak has... the ambassador has...'. The candidate does exactly this, reversing the meaning: the items were stolen and are missing, not possessed."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'I'm plagued again by vague doubts' keeps a literary tone, but it is slightly less theatrical than 'haunt me', so the mock-heroic register is only partly preserved."
+          "justification": "'Shpak has a tape recorder, the ambassador has a medallion' reverses the meaning: the items were stolen and they no longer have them. The analysis explicitly forbids this reading."
         }
       ]
     },
@@ -49,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that Bunsha introduce himself as the Tsar, not address a Tsar. The candidate reads 'tsar' as a form of address ('Very nice, tsar!'), which reverses the speaker's role and loses the joke."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Very nice' is a weaker rendering of 'очень приятно' than 'pleased to meet you', so the formal social cliché of a Soviet greeting is lost."
+          "justification": "'Very nice, tsar!' reads as Bunsha addressing a tsar, not introducing himself as the Tsar, which the analysis says must be clear. The self-introduction joke is lost."
         }
       ]
     },
@@ -104,10 +92,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' can read as addressing the demons, whereas the analysis requires the demons to be the subject. The reference's 'the demons!' and the pronoun 'They've' make this clearer. The ambiguity is mild but present."
+          "justification": "'Walled up, demons!' reads as addressing the demons (vocative), whereas the analysis requires demons to be the subject who did it. The agent is also left unclear."
         }
       ]
     },
@@ -129,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross does!' is colloquial and flat. It loses the Tsar's solemn, archaic conviction that 'Behold the power of...' conveys."
+          "justification": "The colloquial 'That's what the life-giving cross does!' lacks the Tsar's solemn, archaic triumphant tone of 'Behold the power of...', weakening the regal conviction."
         }
       ]
     },
@@ -151,7 +139,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everyone dance!' is a plain imperative that conveys the meaning. It lacks the host-like, party-leading flourish of the reference, but the sense of an uninhibited party is kept."
+          "justification": "'Everyone dance!' is ungrammatical and blunt. It conveys the command but loses the host-like, party-leader flourish of Bunsha's announcement."
         }
       ]
     },
@@ -168,14 +156,7 @@
         "language_specific": {}
       },
       "candidate": "What a lucky time to drop by!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'What a lucky time to drop by!' is acceptable in meaning, but the analysis warns against implying departure. 'Drop by' suggests a casual visit and the phrase loses the 'good call' sense of his choice of apartment. It also reads as a conventional remark and not as the burglar's cheerful reaction to his find."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -193,9 +174,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis says not to call eggplant spread 'caviar'. The candidate renders 'Imported caviar... Eggplant!', so the 'overseas eggplant caviar' is called caviar, which confuses viewers and misses the punchline of the cheap spread presented as a rare delicacy."
+          "justification": "'Imported caviar... Eggplant!' calls the eggplant spread caviar, which the analysis says will confuse viewers. It also loses the joke that the cheap spread is presented as a rare overseas delicacy."
         }
       ]
     },
@@ -217,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak slipping and saying only one suede jacket ('a suede jacket... Three'), then correcting himself. The candidate gives 'three suede jackets' straight away, removing the slip. The added 'is gone' also changes the sentence structure."
+          "justification": "The candidate gives 'three suede jackets', erasing the joke that Shpak forgets to increment the count of the jacket (one jacket, then 'Three'). The 'is gone:' fragment also adds a framing not in the source line."
         }
       ]
     },
@@ -234,26 +215,19 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Exclamation marks make the lines sound emphatic, whereas the analysis describes a melodic, calm resignation and the reference uses trailing ellipses. The tone of resigned, hysterical calm is weakened."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 6
+      "minor": 2
     },
-    "total_points": 31,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

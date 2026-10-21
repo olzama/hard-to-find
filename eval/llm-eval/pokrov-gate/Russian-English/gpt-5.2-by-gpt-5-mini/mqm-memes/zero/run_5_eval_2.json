@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning but tones down the theatrical, self-dramatic register signaled in the analysis (loses the emphatic \"Pray, tell me\" and pluralized challenge). This weakens the line's memetic, performative bravado."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "shall we\nknock back a little one?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrasing \"knock back a little one\" is colloquial but slightly awkward and the lowercase/linebreak presentation reduces polish. The candidate nonetheless preserves the casual, ironic intent."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,7 +51,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), missing the sarcastic exclamatory idiom and the stuttering theatrical delivery indicated in the analysis. This loses the refrain's comic function and rhythm and contradicts the note to avoid a literal noun-phrase."
+          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), which loses the mocking, exclamatory refrain and the stilted/sardonic delivery the analysis identifies. The original functions as a repeated sarcastic exclamation; the candidate reads flat and literal, contradicting the required comic effect."
         }
       ]
     },
@@ -84,10 +70,10 @@
       "candidate": "People don't live for joy, but for conscience.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "Using \"conscience\" (\"live for conscience\") is a literal rendering that reads awkwardly in English and shifts the idiomatic force of the original (duty/fatalism). It slightly weakens the soldierly, duty-focused maxim described in the analysis."
+          "justification": "The phrase 'for conscience' is non‑idiomatic in English and shifts the soldierly fatalism of the original. The analysis expects a natural idiom conveying duty/self‑sacrifice ('live to do your duty' or similar); the candidate's wording weakens and slightly distorts that key meaning and tone."
         }
       ]
     },
@@ -124,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering the exclamation as the bare noun \"Cook!\" mirrors the literal Russian but loses the mocking, scornful idiomatic bite (e.g., 'Some cook you are!') that creates the comic insult in the analysis."
+          "justification": "Rendering the outburst simply as 'Cook!' is an overly literal standalone noun and does not function naturally in English as the biting, ironic domestic insult described in the analysis. The comic, accusatory force is reduced compared with a more idiomatic retort ('Some cook you are!' or similar)."
         }
       ]
     },
@@ -159,9 +145,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The phrasing \"Cut it out to hell.\" is unidiomatic and the line break fragments the punch; the intended abrupt, coarse surgical verdict is conveyed but rendered awkwardly in English compared with the reference."
+          "justification": "The phrasing 'Cut it out to hell.' is awkward and unidiomatic in English and obscures the sharp surgical imperative of the original. The line is split awkwardly across segments, which also disrupts the brusque comic contrast with 'peritonitis.' A tighter idiomatic rendering would preserve the abrupt, brutal humor."
         }
       ]
     },
@@ -180,10 +166,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "terminology",
           "span": "",
-          "justification": "The candidate misspells/alterates the character's name as \"Khabotov\" instead of the expected transliteration (\"Khobotov/Khobotov\"), which is an accuracy error affecting a recurrent identifying formula used for psychological subordination."
+          "justification": "The surname is rendered as 'Khabotov' instead of the expected 'Khobotov' (transliteration inconsistency). This small change risks distracting viewers familiar with the canonical name and slightly undermines the reference's recognizability."
         }
       ]
     },
@@ -205,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate literalizes and splits the idiom into \"It's my cross! / And I am the one to carry it.\", losing the compact English idiom 'a cross to bear' and thereby softening the manipulative, hyperbolic tone highlighted in the analysis."
+          "justification": "The candidate splits and literalizes the idiom ('It's my cross! And I am the one to carry it.'), losing the natural English idiom 'a cross to bear' that carries the manipulative grandiosity in the analysis. The effect is weakened though the basic meaning remains."
         }
       ]
     },
@@ -227,7 +213,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses \"angular\" for «угловатая», which the analysis warns against as overly literal and odd in English. This choice reduces the line's naturalness and undermines the meme-like self-mocking register."
+          "justification": "The candidate uses 'angular'—a literal rendering of 'угловатая'—which the analysis warns against. In English 'angular' reads odd in this self‑characterization and undermines the playful, coquettish self‑mockery the line should convey; a less literal phrasing would better capture the intended tone."
         }
       ]
     }
@@ -235,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 7
+      "minor": 5
     },
-    "total_points": 17,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

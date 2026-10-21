@@ -26,7 +26,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's 'медальон' (medallion, a pendant) is rendered as 'a medal', which names a different object. The lost-item joke still works, but the noun is wrong."
+          "justification": "The analysis specifies 'медальон' (medallion, a piece of jewelry). The candidate renders it as 'a medal', which is a different object (an award). The joke survives because the list of lost items still works, but the object is less accurate."
         }
       ]
     },
@@ -133,7 +133,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source 'Танцуют все!' is a declarative description of everyone dancing. The candidate 'Everybody dance!' turns it into an imperative. In the context of a host leading the party this is an acceptable equivalent that keeps the uninhibited celebration, but the illocution shifts slightly."
+        }
+      ]
     },
     {
       "id": 8,
@@ -153,7 +160,14 @@
         }
       },
       "candidate": "Well, I picked the right place to drop in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Удачно' means 'luckily', which conveys the burglar's cheerful good fortune. 'Picked the right place' implies a deliberate choice rather than luck, so the nuance of chance is slightly lost. The sense of having just entered and the casual tone are preserved."
+        }
+      ]
     },
     {
       "id": 9,
@@ -178,7 +192,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Заморская икра' is rendered as 'A delicacy from overseas', which drops the word 'caviar' from the overseas line. The analysis stresses that the eggplant is presented as fake caviar, and that framing is weakened before the punchline. The eggplant reveal still lands."
+          "justification": "The source's 'Заморская икра' (overseas caviar) is the pivot of the bait-and-switch. The candidate's 'A delicacy from overseas...' drops the word 'caviar' from that line, so the expectation set up for caviar is weaker until 'Eggplant spread!' arrives. The eggplant item is correctly not called caviar."
         }
       ]
     },
@@ -221,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 4
     },
-    "total_points": 2,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

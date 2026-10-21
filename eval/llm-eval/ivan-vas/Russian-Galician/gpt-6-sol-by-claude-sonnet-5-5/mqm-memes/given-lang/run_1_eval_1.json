@@ -186,7 +186,14 @@
         }
       },
       "candidate": "tres magnetófonos,\ntres cámaras de cinema,\ntres cigarreiras nacionais,\nunha chaqueta de ante... tres.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The hesitation pauses around 'chaqueta… de ante…' are lost. These pauses show Shpak stalling over the jacket before he says 'tres', so the comic beat of the forgotten count is slightly weaker. The count mechanism itself ('unha' vs. 'tres') is preserved."
+        }
+      ]
     },
     {
       "id": 11,
@@ -203,24 +210,24 @@
       "candidate": "E a ti tamén te van curar…\n\ne a min vanme curar…",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first clause of the source ('И тебя вылечат…', 'E a ti vante curar…') is omitted. The three-part incantation-like repetition that gives Ulyana's calm, melodic resignation its comic rhythm is reduced to two parts. The remaining 'tamén' ('you too') now has no antecedent, which weakens coherence and the humor."
+          "justification": "The first clause of the three-part litany ('И тебя вылечат') is omitted, leaving two parts instead of three. This weakens the melodic, resigned repetition. The remaining 'tamén' also loses its anchor, since no earlier 'a ti' precedes it. The core meaning that everyone will be cured is still conveyed."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 0
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 5,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

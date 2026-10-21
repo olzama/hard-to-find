@@ -126,14 +126,7 @@
         }
       },
       "candidate": "Move the horse, I’ll never see the outside if I’m wrong!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the literal meaning and the nontechnical 'horse' term, but the rendering “I’ll never see the outside if I’m wrong!” softens the prison-oath force of «век воли не видать». The original carries a terse, coded-prison conviction ('you'll never see freedom/your life without freedom'); the English phrasing reads more conversational and loses some of the solemn, oath-like register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -328,7 +321,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys contempt but weakens the specific prison-hierarchy force of «параша». Rendering it as “with the punks?” turns a strong degrading assignment to the lowest cell status into a more general insult; the line would benefit from a sharper prison-status term to preserve the original's severity and register."
+          "justification": "The candidate uses “punks,” which is a milder, more general insult and lacks the specific prison-hierarchy weight of «параша». The original assigns the addressee to the absolute lowest status in the cell; “punks” does not fully convey that extreme prison argot contempt, weakening the intended register contrast between cultivated civility and brutal degradation."
         }
       ]
     },
@@ -356,13 +349,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 18,
-    "penalty_per_unit": 0.1111111111111111,
-    "major_equiv_per_unit": 0.02222222222222222,
-    "interpretation": "0.11 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.05555555555555555,
+    "major_equiv_per_unit": 0.01111111111111111,
+    "interpretation": "0.06 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

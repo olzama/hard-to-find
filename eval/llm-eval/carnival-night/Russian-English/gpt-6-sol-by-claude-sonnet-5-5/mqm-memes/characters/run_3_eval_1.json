@@ -34,9 +34,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Hire Baba Yaga\" treats her as a named fairy-tale character and leaves the workplace-type sense less clear than \"a witch.\" \"Develop one in-house\" keeps the staffing logic, but \"hire\" and the untranslated Baba Yaga make the line slightly more fairy-tale and less of a recognizable toxic coworker."
+          "justification": "\"Hire Baba Yaga\" and \"develop one in-house\" keep the workplace/staffing logic, but the untranslated \"Baba Yaga\" is less recognizable to English audiences as the nasty-woman-in-the-office type than a generic 'witch'. The social-type reading is weakened slightly, though the in-house joke still works."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the key word \"коротенько\" (briefly, in a cozy diminutive form) and its faux-modesty, so the contrast with \"forty minutes\" is weakened. It also adds \"And he gives a short address,\" which is not in the source line. The reversal of \"brief\" followed by \"forty minutes\" survives only weakly, and Ogurtsov's smug, patronizing tone is missing."
+          "justification": "The line is changed to 'he gives a short address', which adds a subject and drops the speaker's own faux-modest 'briefly' framing. The comic pacing depends on the claim of brevity coming immediately before 'forty minutes', and here 'short' sits in a descriptive clause rather than as Ogurtsov's smug self-assessment. It also loses the diminutive coziness of «коротенько» and the 'I think we don't need more' moderation is now phrased as a detached 'would be unnecessary'. The patronizing managerial tone and the comic reversal are significantly weakened."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders only the literal sense of \"ready\" and gives no hint of the \"drunk / done for\" double meaning. \"Has been for ages\" does not recreate the alcoholic subtext, so the joke described in the analysis is lost."
+          "justification": "The translation preserves only the surface meaning 'ready'. The drunkenness double meaning of «готов» is entirely absent, and no equivalent (e.g. 'he's ready, he's been well-prepared for ages', 'ready... totally') is recreated. The analysis names this loss as the key risk, so the joke disappears."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People! Ah... Yoo-hoo!\" keeps a broken, theatrical call, but \"People!\" is not stretched or syllabified like \"Лю-ди!\" or \"Peo-ple!\". The drunken wavering vocalization is therefore weaker, and \"Yoo-hoo\" sounds more playful than slurred."
+          "justification": "'People! Ah... Yoo-hoo!' keeps the faltering call and the wavering 'yoo-hoo' fairly well, but 'People!' is rendered clean and without the stretched, broken syllabification of «Лю-ди!». The drunken vocal instability is somewhat weakened."
         }
       ]
     },
@@ -124,14 +124,7 @@
         }
       },
       "candidate": "But we need only take a telescope...\nAnd look with the aided eye,",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate uses \"aided eye,\" which echoes \"unaided eye\" and preserves the mock-scientific flavor. However, it turns the line into two sentences, with \"We need only take a telescope...\" losing the exclamatory pomp and the \"But all we have to do\" rhythm, and the closing comma leaves the line hanging."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -151,14 +144,7 @@
         }
       },
       "candidate": "and already we see two stars,\nthree stars...\nFour stars... Five stars\nwould be best of all, of course!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The star progression is kept, but \"Five stars would be best of all\" uses a stiffer construction than the source's punchy \"Лучше всего, конечно, пять звёздочек!\", and the diminutive silliness of \"звёздочки\" is lost. The cognac association is not signaled, though the analysis says a translator's note may be needed. This leaves the shift into a different semantic world somewhat flat."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -173,26 +159,19 @@
         "language_specific": {}
       },
       "candidate": "Whether there is life on Mars\nor no life on Mars,\nscience does not know.\nScience hasn't got a clue yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line is accurate and \"Science hasn't got a clue yet\" is suitably casual. However, \"or no life on Mars\" is slightly awkward compared with \"or not,\" and \"science does not know\" is more formal than the flat colloquial \"unknown to science.\" The register contrast is preserved but slightly less smooth."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 5
+      "minor": 2
     },
-    "total_points": 15,
+    "total_points": 12,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5,
+    "major_equiv_per_unit": 0.3,
+    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

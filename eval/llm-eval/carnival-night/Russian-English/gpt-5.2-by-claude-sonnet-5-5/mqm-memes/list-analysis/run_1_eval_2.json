@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept as a fairy-tale name with no hint of the 'nasty woman in the workplace' type, so the social-type layer of the joke is weaker than in the reference's 'witch'. However, 'cultivate one in our own collective' preserves the bureaucratic workplace logic well."
+          "justification": "\"Cultivate one in our own collective\" keeps the deadpan managerial logic, and \"Baba Yaga\" keeps the fairy-tale figure. However, \"Baba Yaga\" is untranslated and may not evoke the nasty-woman-in-the-workplace type for English viewers, so the social reading is weaker. \"Collective\" is slightly foreign but fits the Soviet setting."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The faux-modest diminutive «коротенько» is rendered as a flat \"just briefly\", and the clause \"no more, I think, is necessary\" is stiff and awkward. The self-satisfied, managerial tone is weakened and the comic contrast with \"forty minutes\" loses force."
+          "justification": "The faux-modest, cozy diminutive effect of «коротенько» is lost. \"Just briefly\" is flat, and \"no more, I think, is necessary\" is stiff and formal rather than self-satisfied and patronizing. The contrast with \"forty minutes\" is therefore weakened, and the briefness claim does not land as a smug understatement."
         }
       ]
     },
@@ -93,10 +93,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer’s ready—been ready for quite a while!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is carried only by \"ready for quite a while\", with no added marker like the reference's \"Oh, he's ready\" to hint at intoxication. The subtext is weaker, though the phrasing still allows an ambiguous reading. The two speakers' lines also lack dashes to mark the dialogue."
+          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. The candidate says only \"ready\", so the alcoholic subtext disappears and the joke is lost. The reference has the same limitation but adds the knowing \"Oh, he's ready\", while the candidate is entirely neutral. The line also lacks any comic hint that the lecturer is drunk."
         }
       ]
     },
@@ -166,7 +166,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Little stars\" captures the childish, silly counting, but it makes the final \"five little stars\" sound like a nursery rhyme and obscures the cognac association. The click into the cognac frame is weaker than with \"five stars\", and no note is provided as the analysis suggests."
+          "justification": "The silly counting progression with \"little stars\" and the sudden shift to \"five stars\" are preserved. However, the cognac association is not clear to English viewers and there is no note or cue, so the click into the cognac frame is weaker. \"Little stars\" also makes the counting childish, which suits the analysis. The opening \"and\" is a slight loss of the sense of continuing a lecture."
         }
       ]
     },
@@ -187,19 +187,26 @@
         }
       },
       "candidate": "Whether there is life on Mars, whether there isn’t\nlife on Mars—science doesn’t know.\nScience just isn’t in the loop yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The colloquial register of \"isn't in the loop yet\" is good and keeps the personification of science. However, \"science doesn't know\" is plainer than the slightly stilted «науке неизвестно», and the rephrased \"whether there isn't life on Mars\" is slightly awkward. The effect is mostly preserved."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 2,
       "minor": 3
     },
-    "total_points": 8,
+    "total_points": 13,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.625,
+    "major_equiv_per_unit": 0.325,
+    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

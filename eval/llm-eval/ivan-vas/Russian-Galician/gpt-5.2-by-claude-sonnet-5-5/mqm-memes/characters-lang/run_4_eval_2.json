@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"O Shpak: un magnetófono. O embaixador: un medallón.\" only names the items and does not say they were stolen or lost. The NB requires that each lost his item, and the candidate loses the link to the thefts."
+          "justification": "The NB requires that Shpak and the ambassador each LOST their item. 'O Shpak: un magnetófono. O embaixador: un medallón.' just lists items with no sense of loss, so the key meaning of the callback is missing."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Vagas dúbidas\" is acceptable, but the sentence is less mock-heroic and archaic than the reference's inverted \"asáltanme escuras sospeitas\". The elevated theatrical register is somewhat weaker."
+          "justification": "'Vólvenme asaltar vagas dúbidas' is less elevated than the mock-heroic 'terzan', and 'vagas' is weaker than 'escuras/smutnye'. The theatrical register is only partly kept."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Moito gusto, tsar!\" reads as Bunsha addressing a tsar, not introducing himself as the Tsar. The NB explicitly requires that this ambiguity be avoided, and the reference does it with \"son o tsar\"."
+          "justification": "'Moito gusto, tsar!' reads as addressing a tsar, which the NB forbids. Bunsha must introduce himself as the Tsar (e.g. 'son o tsar'), so the central joke is lost."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou triste\" is plainer than \"aflixido\", so the regal, archaic melancholy is weakened. The meaning is preserved."
+          "justification": "'estou triste' is flat and modern. It loses the elevated, archaic register of 'я в печали' (e.g. 'aflixido'), weakening the contrast with the Soviet setting."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Emparedáronme, demos!\" reads as a vocative address to the demons. The NB requires the demons to be the subject, as in the reference's \"emparedáronme os demos\"."
+          "justification": "'Emparedáronme, demos!' reads as a vocative address to the demons. The NB requires the demons to be the subject of the sentence, not addressed."
         }
       ]
     },
@@ -125,14 +125,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Vivificadora\" and \"Mira o que fai\" are slightly less solemn than \"Velaquí o que obra a cruz vivificante\", so the pompous religious tone is slightly weakened. The meaning is intact."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -164,10 +157,10 @@
       "candidate": "Entrei con sorte!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "\"Entrei con sorte!\" is not misleading about timing, but it drops the idea of stumbling upon a good place full of goods. The cheerful, casual note about the apartment is lost and the line sounds like a generic remark."
+          "justification": "'Entrei con sorte!' correctly signals that he has just entered. It is flatter than the colloquial, cheerful tone of the original and the reference ('Pois si que dei cun bo sitio!'), and does not highlight the pleasure of finding a treasure trove."
         }
       ]
     },
@@ -187,9 +180,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Caviar de ultramar\" calls the eggplant spread caviar, which the NB explicitly forbids. The reference's \"manxar de ultramar\" avoids this, and the joke's inversion of status symbols is muddled."
+          "justification": "'Caviar de ultramar... De berenxena' calls the eggplant spread caviar, which the NB explicitly says to avoid. It also splits the joke so that 'caviar' is the overseas delicacy, which confuses the satirical inversion."
         }
       ]
     },
@@ -211,7 +204,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The \"unha\" before \"chaqueta\" is missing and the list is restructured as \"chaqueta de ante: tres\". The suede-jacket pause (\"… de ante… tres\") that betrays Shpak's forgetting to increment the count is weakened."
+          "justification": "The list keeps the pattern of threes and the delayed 'tres' for the jacket. However, 'cámaras' drops 'de cine', and the numerals '3' make the spoken-style list less natural."
         }
       ]
     },
@@ -233,21 +226,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Van curarte\" and \"van curarme\" with enclitic pronouns after \"van\" are unnatural in Galician. The reference uses \"vante curar\" or \"te van curar\"."
+          "justification": "'van curarte' / 'van curarme' is ungrammatical in Galician, which requires 'van curarte' to be written as 'vante curar' or 'van curarte' with proper clitic placement. Here it reads as Spanish-influenced. The rhythm of the melodic resignation is also flattened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 4,
       "minor": 5
     },
-    "total_points": 30,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

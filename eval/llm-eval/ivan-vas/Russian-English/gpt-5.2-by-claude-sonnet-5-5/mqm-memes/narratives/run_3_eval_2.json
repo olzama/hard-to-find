@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB states that 'У Шпака — магнитофон, у посла — медальон' means each lost the item. 'Shpak has a tape recorder, the envoy has a medallion' says they possess them, reversing the meaning and breaking the callback to the thefts."
+          "justification": "The NB explicitly warns against 'Shpak has... the envoy has...': the items are missing (stolen), not possessed. The candidate states possession, which reverses the meaning and destroys the connection to the thefts."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'plagued by vague suspicions' loses some of the mock-heroic, theatrical flavor of 'терзают смутные сомнения' (e.g. 'vague doubts haunt me'); 'suspicions' is also plainer than 'doubts'."
+          "justification": "'Plagued by vague suspicions' is reasonably elevated, but 'suspicions' shifts from 'doubts' and the mock-heroic theatrical tone is somewhat weaker than 'vague doubts haunt me'."
         }
       ]
     },
@@ -49,7 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'So nice, Tsar!' and 'Hello, Tsar!' read as addressing a Tsar, which is the misreading the analysis warns against, and the joke of him self-introducing is lost."
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Hello, Tsar!' reads as addressing a Tsar, which is the exact misreading the NB warns against, and the joke is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'So nice' is a clipped rendering of 'very pleased to meet you' and loses some of the stiff formal-greeting cliché."
         }
       ]
     },
@@ -86,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I'm grieving' is a modern, contracted phrasing that is less archaic and regal than 'I am in sorrow', slightly weakening the high-register contrast with the Soviet setting."
+          "justification": "'I'm grieving' is more modern and contracted than the archaic, high-register 'I am in sorrow', slightly weakening the regal, archaic contrast."
         }
       ]
     },
@@ -108,7 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' can be read as the Tsar addressing the demons, which the NB forbids. Demons must be the subject (e.g. 'the demons have walled me in'); the missing object 'me' also makes it ambiguous."
+          "justification": "'Walled up, demons!' reads as a vocative address to the demons, which the NB explicitly rules out. Demons must be the subject (the demons walled me in)."
         }
       ]
     },
@@ -130,7 +136,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'So that's what the life-giving cross can do!' is colloquial and conveys the sense, but lacks the solemn, declarative conviction of the Tsar's religious pronouncement (like 'Behold the power...'), slightly weakening the regal tone."
+          "justification": "'So that's what the life-giving cross can do!' is colloquial and lacks the Tsar's solemn, absolute conviction and archaic register of 'Behold the power...'."
         }
       ]
     },
@@ -147,7 +153,14 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' is accurate but flat; it lacks the host-like, party-leader flourish that conveys Bunsha's liberated, bossy enthusiasm."
+        }
+      ]
     },
     {
       "id": 8,
@@ -167,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'What perfect timing!' misrepresents the line: Miloslavsky has just entered and found a jackpot apartment, and the NB demands the translation not mislead about this. 'Timing' suggests arriving at an opportune moment rather than a lucky choice of apartment, and loses the 'good call' sense of having chosen well."
+          "justification": "'What perfect timing!' changes the meaning from a pleased remark on having picked a good place to burgle to a comment about timing, and loses the burglar's satisfaction at finding the goods. It does not clearly convey that he has just entered, though it is not misleading about leaving."
         }
       ]
     },
@@ -189,7 +202,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Imported caviar… Eggplant!' calls the eggplant item caviar, which the NB explicitly says to avoid. It also loses the joke's structure, since 'overseas' eggplant spread is the punchline and here it reads as imported caviar followed by a bare 'Eggplant!'."
+          "justification": "'Imported caviar…' calls the eggplant spread caviar, which the NB forbids. 'Eggplant!' then reads as an unrelated item, so the joke of the cheap spread presented as an overseas delicacy is lost."
         }
       ]
     },
@@ -211,13 +224,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the count for the suede jacket (a single jacket, then 'Three'). The candidate gives 'three suede jackets' from the start, eliminating the slip that betrays his exaggeration."
+          "justification": "The joke depends on Shpak forgetting to increment the suede jackets (one jacket, then 'Three'). The candidate gives 'three suede jackets' without the hesitation or the slip, so the comic betrayal of his exaggeration is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Mixing numerals '3' with the written 'three' is inconsistent."
+          "justification": "Mixing numerals ('3') with the word 'three' is inconsistent."
         }
       ]
     },
@@ -234,26 +247,19 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd they’ll cure you too!\nAnd they’ll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Exclamation marks make the delivery energetic, whereas the analysis describes a melodic, calm resignation; the reference's ellipses convey that tone better."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 35,
+    "total_points": 36,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.272727272727273,
+    "major_equiv_per_unit": 0.6545454545454545,
+    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

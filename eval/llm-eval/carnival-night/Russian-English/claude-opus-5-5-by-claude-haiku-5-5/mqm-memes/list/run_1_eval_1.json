@@ -49,9 +49,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The source ends in a trailing-off ellipsis ('не надо…'), which signals the speaker's vague, self-satisfied hedging. The candidate ends with a comma ('I'd say,'), which reads as an unfinished clause rather than a deliberate trail-off, so the closing hesitation is weakened."
+          "justification": "The line ends on a dangling comma after 'I'd say,' with no ellipsis or trailing clause. The source's trailing '…' is a hesitant trail-off that carries part of the self-satisfied, faux-modest tone, and the candidate drops it."
         }
       ]
     },
@@ -70,10 +70,10 @@
       "candidate": "Is the lecturer ready?\n- Oh, he's ready, well and truly ready!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's 'давно' (for a long time) and the colloquial double sense of 'готов' (ready / already drunk) are not suggested. 'Well and truly ready' adds emphasis but does not carry the intoxication undertone the analysis describes, so the joke is reduced to plain readiness."
+          "justification": "The candidate renders 'готов' only as 'ready', and 'well and truly ready' adds emphasis but no intoxication subtext. The double reading (official readiness on the surface, drunkenness underneath) that the analysis identifies as the core joke is lost. The 'давно' (for some time) element, which heightens the joke, is also omitted."
         }
       ]
     },
@@ -115,7 +115,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Un-naked eye' is a valid creative deformation of the idiom and avoids the literal 'armed eye' calque. However, the prefix swap reads more like a typo than a deliberate mock-scientific misuse, so the lecturer's 'upgrading' of the phrase is less clear than in the analysis."
+          "justification": "'un-naked eye' is a lexical deformation of the idiom, which keeps the malformed-idiom idea, but it reads as a silly, non-scientific error. The analysis asks for a familiar expression incorrectly upgraded into mock-scientific language, and the pseudo-scientific pomp that the reference's 'aided eye' (echoing 'unaided') preserves is weakened."
         }
       ]
     },
@@ -139,16 +139,10 @@
       "candidate": "and we already see two\nstars, three stars...\nFour stars... Best of all,\nof course, is five-star!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis says the punchline must click into the cognac domain, and the reference makes this explicit with a note on 5* cognac. The candidate's bare 'five-star' reads as a hotel or restaurant rating, so the sudden shift into a different semantic world, which the analysis calls essential to the joke, is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source uses the diminutive 'звёздочки' (little stars), which makes the counting sound trivial and childish as the analysis requires. The candidate's flat 'two stars, three stars' loses that silly, slightly ridiculous quality."
+          "justification": "'five-star' is a valid substitute for the cognac rating, but without a translator's note the drink association is not signalled. For an English audience it reads as generic quality or a hotel rating, so the sudden shift into the drinking domain, which the analysis identifies as the punchline, is weaker than in the reference."
         }
       ]
     },
@@ -165,26 +159,19 @@
         "language_specific": {}
       },
       "candidate": "Whether there's life on Mars, or there's no\nlife on Mars, science\ndoesn't know.\nScience hasn't been kept in the loop yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Whether there's life on Mars, or there's no life on Mars' is wordier and more clumsy than the source's compact 'нет ли' construction and the reference's 'or not'. The second clause sounds padded, though the meaning and the casual register of 'kept in the loop' are preserved well."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 5
+      "minor": 3
     },
-    "total_points": 10,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

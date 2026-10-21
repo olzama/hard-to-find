@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies current possession. The analysis explicitly notes these constructions mean those items were lost/are missing; the candidate reverses that meaning and thus contradicts the source nuance."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which makes these items possessions. The analysis explicitly notes these phrases indicate the items are missing/lost (they no longer have them). This reverses the meaning and undermines the joke about discovered losses."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original is Bunsha introducing himself as 'the Tsar' repeatedly; the candidate reads as if he is addressing a Tsar ('Very pleased, Tsar!'), which changes the pragmatic meaning and contradicts the analysis note that it must read as self-introduction."
+          "justification": "The candidate reads as if Bunsha is addressing someone called 'Tsar' ('Very pleased, Tsar!'), whereas the analysis stresses he is introducing himself as the Tsar (a repetitive, self-introducing drunk impersonation). This changes the pragmatic function of the lines and loses the comedic effect of him repeatedly announcing himself as the Tsar."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source uses demons as the grammatical subject ('They walled me in... demons [did this]'); the candidate's 'Walled up, you demons!' addresses the demons (vocative), changing the clause structure and the intended meaning described in the analysis."
+          "justification": "The original/analysis indicates 'demons' are the subject (He exclaims that 'they' walled him in — 'demons' did it). The candidate 'Walled up, you demons!' addresses demons directly, turning the demons into addressees. That reverses the sentence structure and the intended meaning from accusation/observation to direct vocative address."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross can do!' reduces the archaic, high-register tone ('Behold the power of the life-giving cross!') to a more colloquial phrasing, weakening the period/solemn register the analysis identifies as important."
+          "justification": "The candidate 'That’s what the life-giving cross can do!' preserves meaning but loses some of the archaic, exalted register ('Behold the power...') that produces part of the comedic contrast in the analysis. This is a stylistic weakening rather than a fatal error."
         }
       ]
     },
@@ -149,14 +149,7 @@
         "language_specific": {}
       },
       "candidate": "Well, this is a lucky visit!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate 'Well, this is a lucky visit!' is somewhat awkward and slightly changes nuance (’visit’ can imply a transient calling) compared with the cheeky, satisfied tone of the reference; it reads less idiomatic for the burglar’s triumphant discovery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -171,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar…\nAnd yes—imported caviar…\nEggplant!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate renders 'заморская икра… баклажанная' as 'imported caviar… Eggplant!' which effectively labels the eggplant spread as 'caviar.' The analysis warns that calling eggplant spread 'caviar' will confuse viewers; this translation thus misrepresents the satirical inversion and risks misleading the audience."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -196,9 +182,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humour of the line depends on Shpak inflating counts and hesitating/forgetting (the comedic reveal that the count grows). The candidate presents a flat list ending with 'three suede jackets,' removing the hesitative/double-counting element and thereby erasing the joke's mechanic and character cue."
+          "justification": "The humor depends on Shpak inflating the count as he speaks and momentarily failing to increment the suede jacket count. The candidate gives a flat list ending with 'three suede jackets,' which removes the incremental/forgetful gag and the comic reveal described in the analysis."
         }
       ]
     },
@@ -220,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 2
+      "major": 4,
+      "minor": 1
     },
-    "total_points": 27,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 2.4545454545454546,
-    "major_equiv_per_unit": 0.4909090909090909,
-    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

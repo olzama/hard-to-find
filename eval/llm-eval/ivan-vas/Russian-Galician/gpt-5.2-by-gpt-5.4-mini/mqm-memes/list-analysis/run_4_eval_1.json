@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Volven a asaltarme\nvagas dúbidas...\nShpak quedou sen magnetófono,\ne o embaixador, sen medallón.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The meaning is preserved, but the line break after \"asaltarme\" makes the rhythm a bit less smooth than the reference’s compact, theatrical delivery."
+        }
+      ]
     },
     {
       "id": 2,
@@ -33,10 +40,10 @@
       "candidate": "O tsar, moi encantado!\nO tsar, moi encantado, boas!\nMoi encantado, o tsar!\nBoas, o tsar! Encantado!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the interpersonal setup: it sounds like Bunsha is addressing the tsar repeatedly, but the source has him introducing himself as the tsar in a comic, formulaic greeting. This weakens the key joke noted in the analysis."
+          "justification": "The candidate mostly captures the self-introduction as the Tsar, but the first line can be read as addressing the Tsar rather than clearly saying \"I am the Tsar,\" which weakens the required clarity noted in the analysis."
         }
       ]
     },
@@ -53,14 +60,7 @@
         "language_specific": {}
       },
       "candidate": "Esixo que siga o banquete!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Que siga o banquete!' preserves the basic request, but it is slightly less forceful and less characterful than a direct demand to continue the banquet, softening Bunsha's imperious, drunken command."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is natural, but it loses the slightly archaic, regal melancholy of 'que estou aflixido,' which better matches Ivan's high-register voice in the analysis."
+          "justification": "\"Estou triste\" conveys the sense, but it is plainer and less elevated than the reference's slightly more literary \"estou aflixido,\" weakening the regal/melancholic tone."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The punctuation splits the line awkwardly, making the exclamation sound less natural than the reference. The meaning is intact, but the rhythm is weaker."
+          "justification": "The repeated punctuation and comma after \"emparedáronme\" make the line sound slightly awkward compared with the more natural, emphatic repetition in the reference."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' is a bit more colloquial/imperative than the more elevated 'Velaquí' in the reference, so the mock-religious amazement and archaic flavor are slightly weakened."
+          "justification": "\"Mira\" is understandable, but it is a bit less forceful and idiomatic than a more exclamatory rendering, so the sudden wonder and comic certainty are slightly softened."
         }
       ]
     },
@@ -161,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Mira que entrei ben!' can be read as 'I came in well' or 'I entered well,' which is not the same as Miloslavsky's cheerful realization that he has stumbled into a profitable situation. It blurs the joke about discovering valuables."
+          "justification": "\"Mira que entrei ben!\" can sound like he is judging that he entered well, not that he has stumbled upon a lucky find. It misses the core joke that he has just discovered a valuable haul and is pleased with the good timing of his arrival."
         }
       ]
     },
@@ -180,10 +180,10 @@
       "candidate": "Caviar negro, vermello...\nSi! Unha pasta de berenxena de ultramar...\nDe berenxena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'pasta de berenxena' and then repeats 'De berenxena!', which directly conflicts with the NB: the Soviet joke is that it is fake caviar, not literally a spread called caviar. The wording also weakens the punchline by making the final reveal less crisp."
+          "justification": "The candidate preserves the satire, but \"pasta de berenxena\" is a bit less specific and vivid than the reference's formulation, slightly weakening the punch of the final mock-elite reveal."
         }
       ]
     },
@@ -202,16 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 petacas nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Petacas' is not the right item for 'портсигара' (cigarette cases), so the inventory is slightly mistranslated even though the comic counting pattern remains."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The abbreviated list is readable, but the line break and clipped structure make the count less smooth than the reference."
+          "justification": "\"Petacas nacionais\" does not match the reference item \"cigarreiras\" and changes the object completely. This distorts the comic inventory of prestige goods, which depends on the specific list."
         }
       ]
     },
@@ -228,26 +222,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti si que te van curar!\nE a ti tamén te van curar!\nE a min tamén me van curar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "Adding 'si que' to the first line slightly changes the meaning by making it sound more emphatic and less like the calm, resigned promise of treatment in the source. The overall joke remains, but the nuance is altered."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 7
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 22,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

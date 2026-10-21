@@ -21,7 +21,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Vólvenme asaltar vagas dúbidas\" is understandable but less elevated and mock-heroic than the archaic, theatrical register of 'terzan obscuras sospeitas'; 'vagas' weakens the 'смутные' tone."
+          "justification": "\"Vagas dúbidas\" and \"Vólvenme asaltar\" keep a literary tone, but \"vagas\" is slightly less elevated than the mock-heroic \"escuras sospeitas\", and the periphrasis weakens the theatrical register a little."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Faltoulle\" correctly conveys loss/absence, as the NB requires. But \"un magnetófono\" and \"un medallón\" are indefinite, so the items no longer read as the specific ones from the earlier theft, which weakens the callback."
         }
       ]
     },
@@ -41,15 +47,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The line adds a fourth sentence ('Ola, eu son o tsar. Moito gusto!') not in the source, and the first sentence 'Ola, tsar, moito gusto' can be read as addressing a tsar. Later lines do make clear he introduces himself as the tsar."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The structure of the source's repeated permutations is not preserved exactly and 'Ola' loses the formal greeting flavor ('Boas noites' in the reference), though the mundane social cliché effect is kept."
+          "justification": "The self-introduction as the tsar is clear (\"Eu son o tsar\"). But \"Ola\" and \"moito gusto\" are neutral, and the rhythm of the shuffled repetition is more varied and adds an extra fourth line. The mundane Soviet formal greeting register is only partly kept."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vella' is blunt, and 'estou de loito' means 'I am in mourning', which shifts the meaning from 'in sorrow'. It loses the archaic, regal melancholy of the line."
+          "justification": "\"Vella\" is blunter than the archaic, affectionate-condescending \"старушка\" (reference \"velliña\"). \"Estou de loito\" means \"I am in mourning\", a narrower meaning than \"in sorrow\", and loses the regal, poetic register of the line."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Demoños' is a diminutive/colloquial form that softens the Tsar's dramatic tone; 'demos' would fit better. The demons are correctly the subject."
+          "justification": "\"Os demoños\" is a diminutive/euphemistic form that lessens the archaic gravity of \"демоны\". Demons are correctly the subject, though, and the meaning is preserved."
         }
       ]
     },
@@ -160,7 +160,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei aquí!' correctly conveys that he has just entered, but it lacks the idiomatic sense of luckily landing on a good spot and the cheerful discovery of rich pickings."
+          "justification": "\"Que ben entrei aquí!\" correctly shows he has just entered, but it lacks the colloquial, cheerful tone of \"удачно зашёл\" (\"what a lucky place to land in\") and is a bit stiff. The sense of lucky discovery is only implicit."
         }
       ]
     },
@@ -182,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Caviar de ultramar... De berenxena' calls the eggplant spread caviar, which the NB explicitly says to avoid because it confuses viewers. The joke's inversion with 'manxar de ultramar' is lost."
+          "justification": "The candidate calls the eggplant spread \"Caviar de ultramar... De berenxena\", which breaks the explicit NB against calling it caviar. This confuses the viewer and flattens the contrast between luxury and cheap canned spread. The reference uses \"manxar de ultramar\" to avoid this."
         }
       ]
     },
@@ -201,10 +201,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the jacket count, but the candidate drops 'unha' and 'de ante' phrasing and the pause structure; 'chaqueta de camurza... tres' does keep the late 'tres' but the 'three' list elements are fine. The main issue is that 'pitilleiras' means cigarette holders/cases in a narrower sense and 'cámaras' omits 'de cine' (film cameras)."
+          "justification": "\"Camurza\" is a real Galician word for suede, and the list structure and the count slip on the jacket are preserved. But \"cámaras\" drops \"de cine\", and the digits \"3\" instead of spelled-out numbers read less naturally in spoken dialogue."
         }
       ]
     },
@@ -226,21 +226,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The calm, melodic, resigned tone is partially lost: the exclamation marks make it sound emphatic rather than gently resigned, and the ellipses in the source are removed."
+          "justification": "The three-step structure is kept, but the shorter lines with exclamation marks lose the calm, melodic, resigned tone of the original. The ellipses and the gradual shift to \"me too\" are flattened into a more emphatic delivery."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 7
+      "major": 1,
+      "minor": 8
     },
-    "total_points": 17,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

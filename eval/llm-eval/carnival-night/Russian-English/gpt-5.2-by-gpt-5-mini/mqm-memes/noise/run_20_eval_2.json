@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the duration-contrast but flattens the diminutive, faux-modest flavor of «коротенько». The register reads a bit more neutral/plain, weakening the comic effect of a self-satisfied, tone-deaf managerial understatement."
+          "justification": "The candidate renders «коротенько» as plain “briefly,” losing the diminutive/feigned-modesty flavor that makes the contrast with “forty minutes” comic. The overall bureaucratic tone is present, but the cozy, patronizing understatement is weakened."
         }
       ]
     },
@@ -89,7 +89,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The double reading (ready vs. drunk) is retained, but the phrasing “ready long ago!” is slightly stilted and non-idiomatic in English compared with the colloquial punch of the original. This makes the line a bit awkward though the ambiguity survives."
+          "justification": "The reply repeats “lecturer” literally and uses the slightly awkward phrase “ready—ready long ago!” which is grammatical but stiff in English. The double entendre (ready/ready-drunk) is still possible, but the target phrasing feels a bit unnatural and could reduce the breezy backstage tone."
         }
       ]
     },
@@ -134,10 +134,10 @@
       "candidate": "But once we take a telescope...\nand look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which in English reads more surreal than the intended mock‑scientific deformation. That choice risks shifting the humor toward oddness rather than the sly pseudo‑academic misphrasing the original achieves."
+          "justification": "The candidate uses the literal calque “armed eye,” which the analysis specifically warns against: in English this reads as odd and surreal rather than a plausible mock‑scientific twist. That choice changes the intended comic effect (a near-recognizable but slightly mangled technical phrase) into a more bizarre image, losing the subtle parody of pseudo-scientific language."
         }
       ]
     },
@@ -185,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

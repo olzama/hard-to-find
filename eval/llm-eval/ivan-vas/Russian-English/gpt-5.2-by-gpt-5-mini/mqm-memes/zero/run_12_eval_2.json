@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which wrongly implies possession. The source (and the analysis NB) makes clear these items were lost/are missing; the line is a list of lost items, not statements of current possession, so the meaning is reversed."
+          "justification": "The candidate renders У Шпака — у посла as present possession (“Shpak has... the ambassador has...”), whereas the original/analysis notes these items are missing/lost (they've been stolen). This reverses the intended meaning and undermines the joke about victims of theft."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate treats the line as addressing a tsar ('Very nice, tsar!'), whereas the analysis specifies Bunsha is introducing himself as the Tsar (he keeps announcing himself). This changes the pragmatic function and ruins the intended comic effect of self-introduction."
+          "justification": "The candidate reads as if Bunsha is addressing a tsar politely rather than absurdly introducing himself as 'the Tsar' in a repetitive, self-introductory way. The analysis requires making it clear he is introducing himself (mock-formal, repetitive self-introduction), which this rendition fails to convey."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'I’m grieving' is idiomatic modern English and loses some of the archaic, high-register tone ('I am in sorrow') that contrasts the Tsar's regal language with the Soviet setting. Meaning is preserved, but the elevated register is weakened."
+          "justification": "The candidate uses a modern, natural phrasing (“I’m grieving”) rather than the high-register, slightly archaic tone of the original (“I am in sorrow/печеали”), softening the regal, literary voice the analysis highlights."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original and analysis emphasize that 'demons' are the subject (i.e., 'They've walled me in... the demons!'). The candidate 'Walled up, demons!' reads as addressing the demons (vocative), reversing the intended grammatical relation and undermining the humorous misinterpretation of the elevator malfunction."
+          "justification": "The line must read with demons as the subject who walled him in (They have walled me in, the demons). The candidate’s punctuation/wording reads like a vocative address to demons (“Walled up, demons!”), which misrepresents grammatical role and the intended meaning."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross can do!' conveys the idea but uses a colloquial, explanatory phrasing that softens the archaic, declarative religious register ('Behold the power of the life-giving cross!') that heightens the joke in an atheist context."
+          "justification": "The candidate’s colloquial phrasing (“That’s what the life-giving cross can do!”) keeps the meaning but reduces the elevated, quasi-liturgical register of the original line, slightly weakening the archaic/reverent flavor important for the joke."
         }
       ]
     },
@@ -171,7 +171,14 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate preserves the contrast between expensive caviar and cheap eggplant spread, but by listing “Imported caviar... Eggplant!” it risks implying the eggplant is caviar. The analysis warns against calling the eggplant spread 'caviar'; this rendering is borderline and could confuse viewers about whether 'eggplant' is literally labeled as caviar."
+        }
+      ]
     },
     {
       "id": 10,
@@ -186,14 +193,7 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The comic effect in the source comes from Shpak's inconsistent counting and the momentary slip (jacket... suede... Three). The candidate lists 'three suede jackets' directly, removing that incremental/fumbling gag and thus significantly damaging the humor and characterization described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -213,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 2
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 22,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

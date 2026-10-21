@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak has a tape recorder, the envoy has a medallion\" says they possess the items, whereas the source implies each lost them. The analysis NB explicitly forbids this reading, so the meaning is reversed."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "\"Envoy\" is less precise than \"ambassador\" for посол in this context, though acceptable."
+          "justification": "The candidate says \"Shpak has a tape recorder, the envoy has a medallion\". The NB states that these items are lost, not possessed. This reverses the meaning and breaks the callback to the thefts."
         }
       ]
     },
@@ -49,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Very pleased, Tsar!\" and \"Hello, Tsar\" read as addressing a Tsar, not introducing himself as the Tsar. The NB requires that he be clearly introducing himself, and the candidate never makes this clear, so the drunken self-introduction joke is lost."
+          "justification": "\"Very pleased, Tsar!\" and \"Hello, Tsar!\" read as Bunsha addressing someone else as Tsar. The NB requires that he introduces himself as the Tsar. The self-introduction, which drives the absurdity, is lost."
         }
       ]
     },
@@ -101,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Walled up, demons!\" reads as addressing the demons or is ambiguous, whereas the NB requires demons to be the subject (they walled me in). The missing object \"me\" and the lost subject role distort the meaning."
+          "justification": "\"Walled up, demons!\" reads as a vocative, as if the Tsar were addressing the demons. The NB requires the demons to be the subject, the ones who walled him in. The object \"me\" is also missing."
         }
       ]
     },
@@ -133,14 +127,7 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Everybody dance!\" is accurate but plain. It lacks the master-of-ceremonies flavor of the reference, though the chaotic party energy is still conveyed."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -155,14 +142,7 @@
         "language_specific": {}
       },
       "candidate": "Well, this was a lucky stop!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"This was a lucky stop\" suggests he is already leaving or has finished the visit, which the NB explicitly warns against, since he has just entered. \"Stop\" also loses the sense of a good choice of apartment."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -179,10 +159,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Foreign caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Foreign caviar... Eggplant!\" calls the eggplant spread caviar, which the NB forbids. It also drops \"заморская\" (overseas) as an exotic delicacy. The joke about inverted status symbols is confused because the eggplant is presented as a separate item rather than as the spread."
+          "justification": "\"Foreign caviar... Eggplant!\" drops the idea of an eggplant spread. The cheap Soviet canned product passed off as an overseas delicacy is therefore less clear, and the inversion of status symbols is weaker. The candidate does avoid calling the spread caviar outright."
         }
       ]
     },
@@ -204,13 +184,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's joke is that Shpak's count grows with each telling and he forgets to increment the number for the jacket. The candidate renders the jacket as \"three suede jackets\", which erases the slip, and the faltering rhythm of the listing is lost."
+          "justification": "The candidate writes \"three suede jackets\", so the key joke is lost. In the source Shpak forgets to increment the count, and the single jacket followed by \"Three\" betrays him. The candidate also adds an invented lament about \"backbreaking labor\" that is not in the source line."
         },
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate adds unsupported material (\"Everything I earned by backbreaking labor is gone\") that is not in the source. It also drops the hesitating \"domestic...\" aside after the cigarette cases."
+          "justification": "Numerals (\"3\") and words (\"three\") are mixed inconsistently within the list."
         }
       ]
     },
@@ -229,24 +209,24 @@
       "candidate": "And you’ll be cured too!\nAnd you’ll be cured as well!\nAnd I’ll be cured!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The \"and you'll be cured too... and I'll be cured\" rhythm survives, but the candidate drops the first \"И тебя вылечат\" and merges the lines. The passive \"you'll be cured\" also loses the implied agent (they'll cure you) that points to psychiatric wards, weakening the dark humor."
+          "justification": "The exclamation marks make the line sound emphatic. The analysis describes a calm, melodic resignation. Dropping the agent (\"they'll cure\") also weakens the implied threat of the psychiatric ward."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 8,
-      "minor": 2
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 42,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 3.8181818181818183,
-    "major_equiv_per_unit": 0.7636363636363637,
-    "interpretation": "3.82 MQM penalty points per meaning unit (≈ 0.76 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

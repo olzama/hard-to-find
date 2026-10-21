@@ -23,22 +23,10 @@
       "candidate": "Again I am tormented\nby vague misgivings...\nShpak's lost a tape machine,\nthe envoy's locket's not been seen.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The analysis says the items were lost by Shpak and the ambassador. The candidate renders this as full clauses ('Shpak's lost a tape machine', 'the envoy's locket's not been seen'), which is acceptable on meaning, but the rhymed, rephrased structure loses the elliptical, parallel 'Shpak's tape recorder, the ambassador's medallion' form of the callback."
-        },
-        {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The mock-heroic 'смутные сомнения' is rendered as 'tormented by vague misgivings', which keeps the elevated register. However, the second half ('not been seen', 'tape machine') is clumsy and breaks the tone."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Tape machine' is an unnatural term for a tape recorder, and 'locket' is a less accurate choice than 'medallion'."
+          "justification": "The rhymed, inverted phrasing ('the envoy's locket's not been seen') and the added 'Again I am tormented' keep the mock-heroic tone, but the lines are clunky and 'tape machine' is an odd rendering of 'tape recorder'. The meaning of loss is preserved correctly."
         }
       ]
     },
@@ -60,13 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that Bunsha introduces himself as the Tsar rather than addressing a Tsar. The candidate's bare 'Tsar!' is ambiguous and can read as addressing someone as Tsar, so the self-introduction joke is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The drunken, repetitive social-cliché effect is partly kept through repetition, but the exclamation marks make it read as shouting rather than stiff formal politeness."
+          "justification": "The note requires that Bunsha introduces himself as the Tsar, but 'Tsar!' as a bare exclamation reads as addressing someone as Tsar. This reverses the speaker/addressee relationship. The drunken, repetitive self-introduction joke is lost."
         }
       ]
     },
@@ -138,14 +120,7 @@
         }
       },
       "candidate": "Behold the power of the life-giving Cross!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Capitalising 'Cross' is a small deviation from the reference. It is acceptable, but it adds nothing and is slightly inconsistent in tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -190,7 +165,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Didn't I drop by at the right time' is wordy and somewhat stilted. It does correctly convey arrival rather than departure, but it is less punchy than the casual, cheerful reaction required."
+          "justification": "'Didn't I drop by at the right time' is understandable and implies he has just arrived, but it is wordier and more stilted than the casual, cheerful original and loses some punch."
         }
       ]
     },
@@ -217,7 +192,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'overseas caviar... Aubergine!', which presents the aubergine spread as caviar. The analysis warns this will confuse viewers, and the reference avoids it with 'spread'."
+          "justification": "The candidate calls the eggplant spread 'overseas caviar... Aubergine!', which the note explicitly says to avoid because it confuses viewers. The cheap-spread-as-rare-delicacy joke is blurred, since it reads as a variety of caviar."
         }
       ]
     },
@@ -244,7 +219,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate puts 'three' at the end of every item, including the jacket ('jacket, suede: three'). This removes the joke that Shpak forgets to increment the jacket count and the original rhythm in which the number comes first. The cigarette cases are also correctly marked 'domestic', but the sequence is otherwise restructured."
+          "justification": "The candidate gives the count 'three' for every item including the jacket, so the joke is lost. The original's humor depends on Shpak forgetting to increment the count of the suede jackets, and the candidate does not preserve that betrayal. Fronting the count also changes the rhythm of the list."
         }
       ]
     },
@@ -266,21 +241,21 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first 'they'll cure you' and the opening 'And', so the structure is slightly different. It also uses exclamation marks, which turn the calm, melodic resignation into excited speech and weaken the effect."
+          "justification": "The candidate changes the order of the lines and the first phrase to 'They'll cure you too!' and drops the 'And they'll cure you…' opening. The exclamation marks also weaken the calm, melodic resignation described in the analysis, though the overall meaning and the dark humor are preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 30,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

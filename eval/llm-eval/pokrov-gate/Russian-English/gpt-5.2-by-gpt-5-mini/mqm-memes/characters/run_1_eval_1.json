@@ -48,10 +48,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses a literal noun-phrase ('High... high relations.') which flattens the sarcastic exclamatory refrain and misses the playful, stuttering vocal delivery implied by the original repeated extended syllable. It sounds more like a neutral label than the ironic, breathy mockery required by the analysis."
+          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), which ignores the established performative, sarcastic exclamation that functions as a repeated refrain in the film. This literal structure loses the ironic, oral stuttering and dismissive mock-elevation described in the analysis, damaging the quote's comedic and character function."
         }
       ]
     },
@@ -71,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "Rendering 'совести' as 'conscience' shifts the nuance: the original conveys a duty/obligation sense ('live for duty'), while 'conscience' in English reads more inwardly moral and less idiomatically aligned with the speaker's soldierly, practical fatalism. The line is understandable but less idiomatic and less faithful to the character's voice."
+          "justification": "The meaning is preserved, but 'live for conscience' is slightly awkward and non‑idiomatic in English compared with the reference's natural idiom ('live to do your duty'). The line reads as somewhat stiff and reduces the pithy, soldier‑like bluntness in the analysis."
         }
       ]
     },
@@ -90,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "Note: I didn’t suggest it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the literal content but flattens the theatrical, hypocritical flourish of the line. 'Note:' is more prosaic than the performative 'For the record,' which better matches the character's charmingly evasive posture."
+        }
+      ]
     },
     {
       "id": 6,
@@ -107,10 +114,10 @@
       "candidate": "Culinary artist!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "‘Culinary artist!’ is an awkward, overly literal and pompous phrasing that doesn’t function as a punchy domestic insult in English. It loses the brusque comic bite of the source and the natural colloquial causticity expected in this line."
+          "justification": "Using 'Culinary artist!' produces an unnatural, overly literal exclamation in English and fails to deliver the sharp, idiomatic household insult the analysis requires. The line should read as a biting, colloquial rebuke ('Some cook you are!' or similar) rather than a literal professional label."
         }
       ]
     },
@@ -144,10 +151,10 @@
       "candidate": "Cut it out to hell with it.\nWithout waiting for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'Cut it out to hell with it.' is unidiomatic and clumsy in English; splitting the sentence across two subtitle lines ('Without waiting for peritonitis.') further reduces the original's brusque, fused surgical imperative. The meaning is recoverable but the line reads awkwardly and weakens the intended comic-shocking effect."
+          "justification": "The candidate's phrasing ('Cut it out to hell with it.') is unidiomatic and clumsy, breaking the brutal, concise surgical imperative that is key to the comic contrast in the scene. The second line split also diminishes the original's punchy sequence ('Cut it the hell out, don't wait for peritonitis!')."
         }
       ]
     },
@@ -181,10 +188,10 @@
       "candidate": "This is my cross!\nAnd I will bear it.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate literalizes and splits the English idiom ('This is my cross! And I will bear it.'), losing the compact idiomatic force of 'a cross to bear' that best conveys manipulative, self-important martyrdom. The meaning remains but the rhetorical punch is dulled."
+          "justification": "The candidate translates the line too literally ('This is my cross! And I will bear it.'), losing the idiomatic English fixed expression 'a cross to bear' and the manipulative, emphatic exclusivity of the original ('And mine alone!'). This weakens the manipulative theatricality essential to the character's line."
         }
       ]
     },
@@ -206,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using 'angular' is a too-literal rendering of 'угловатая' and reads oddly in English for this self-deprecating, coquettish line. It makes the self-description sound clinical rather than playfully awkward, weakening the comedic and characterful tone the analysis highlights."
+          "justification": "While the candidate keeps the self‑deprecating character, the use of 'angular' is a literal rendering of 'угловатая' and sounds odd in English here, which the analysis specifically warns against. The phrasing is somewhat clunky and reduces the playful, coquettish tone of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 6
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 6,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

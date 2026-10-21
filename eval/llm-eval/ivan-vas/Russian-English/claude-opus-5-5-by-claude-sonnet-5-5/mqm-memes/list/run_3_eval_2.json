@@ -21,7 +21,14 @@
         }
       },
       "candidate": "Once again I'm tormented\nby vague doubts...\nShpak lost a tape recorder,\nthe ambassador a medallion.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "Candidate captures the loss meaning ('lost') correctly, but the inverted line break 'Once again I'm tormented by vague doubts' is slightly less compact than the mock-heroic original; 'tormented' works though. 'Shpak lost a tape recorder' is plainer and explicit, slightly flattening the elliptical, rhythmic, rhyming-couplet feel of the original."
+        }
+      ]
     },
     {
       "id": 2,
@@ -41,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says only \"Pleased to meet you — Tsar!\", which reads as Bunsha addressing a Tsar. The analysis requires that he introduce himself as the Tsar. The \"Hello, I'm the Tsar\" self-introduction is lost, and with it the drunken, mundane-greeting joke."
+          "justification": "The candidate does not make clear that Bunsha is introducing himself as the Tsar. 'Pleased to meet you — Tsar!' and 'Hello — Tsar!' read as addressing someone as Tsar, which the analysis explicitly says must be avoided."
         }
       ]
     },
@@ -63,7 +70,14 @@
         }
       },
       "candidate": "I demand that the banquet\nbe continued!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'be continued' is a stiff passive that sounds slightly bureaucratic; acceptable given the mock-royal persona but less natural than 'continue'."
+        }
+      ]
     },
     {
       "id": 4,
@@ -133,7 +147,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' is accurate but lacks the host-like, ceremonious tone of the reference ('The floor is open to everyone'), which contrasts with the chaotic disco; the humor of decorum collapsing is weaker."
+        }
+      ]
     },
     {
       "id": 8,
@@ -153,7 +174,14 @@
         }
       },
       "candidate": "Well, didn't I drop by\nat just the right time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'didn't I drop by at just the right time' is natural and correctly signals he has just arrived, but is somewhat wordy and less punchy than the original's casual exclamation."
+        }
+      ]
     },
     {
       "id": 9,
@@ -176,9 +204,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the last item as \"Eggplant caviar!\" and also calls the previous one \"overseas caviar\". The notes say not to call eggplant spread 'caviar' because it confuses viewers. The contrast between luxury caviar and cheap spread is blurred, which weakens the satirical joke."
+          "justification": "The candidate calls the eggplant spread 'eggplant caviar' and presents it as 'overseas caviar', which the notes say must be avoided because it confuses viewers and blurs the joke that the cheap spread is passed off as a rare delicacy distinct from real caviar."
         }
       ]
     },
@@ -200,7 +228,14 @@
         }
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 cigarette cases, domestic,\nsuede jacket... three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'suede jacket... three' conveys the key joke of the forgotten increment, but the digits '3' instead of spelled-out numbers and dropping the article reduce the spoken rhythm slightly."
+        }
+      ]
     },
     {
       "id": 11,
@@ -221,13 +256,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 0
+      "minor": 5
     },
-    "total_points": 10,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

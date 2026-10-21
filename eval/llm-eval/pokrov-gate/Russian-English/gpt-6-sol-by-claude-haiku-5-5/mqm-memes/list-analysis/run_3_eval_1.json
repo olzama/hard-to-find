@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate drops the hesitant \"нет\" and the theatrical \"Pray, tell me\" tone of the reference, so Velyurov's mock-grand self-dramatization is somewhat flattened. \"Name one!\" is a reasonable reading of \"назови\" and does not change the meaning."
+          "justification": "\"Name one!\" is flatter and more casual than the reference's \"Pray, tell me, name them!!\", which carries the mock-grand, self-dramatizing theatrical tone the analysis describes. The candidate keeps the meaning but loses much of the pompous register."
         }
       ]
     },
@@ -41,9 +41,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "other",
+          "category": "fluency",
           "span": "",
-          "justification": "The line begins with a lowercase letter, unlike the other subtitle lines in the batch. This is a typographic inconsistency in the subtitle output. The wording itself (\"knock back a little shot\") carries the casual, diminutive tone of \"рюмашка\" well."
+          "justification": "The line starts with a lowercase letter, unlike the capitalized sentence-initial lines elsewhere in the set. \"A little shot\" also carries less of the casual companionable tone of \"a quick one\"."
         }
       ]
     },
@@ -67,10 +67,16 @@
       "candidate": "Such lofty... lofty relations!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Such lofty... lofty relations!\" is the literal noun-phrase structure the analysis explicitly warns against (\"High relations!\"). It does not sound like a natural English exclamation, and the ironic \"evolved\" register of the reference is lost. The stretched-vowel effect of \"выс-с-сокие\" is also not rendered; only the word is repeated."
+          "justification": "\"Such lofty... lofty relations!\" is the literal noun-phrase structure the language-specific note warns against. It does not sound like a natural English exclamation of mock-refined pretension."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The stretched-out syllables of \"выс-с-сокие\", which are the comic device of the line, are not reproduced. The reference's stretched \"e-v-volved\" carries this effect, and the candidate does not."
         }
       ]
     },
@@ -92,7 +98,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"We live to do what's right\" is more generic than the reference's \"live to do your duty\". It loses the soldierly fatalism and the duty register that the analysis attributes to Savva, though the moral core and the \"not for happiness\" contrast are preserved."
+          "justification": "\"We live to do what's right\" weakens the moral-duty and conscience framing. \"Right\" is more casual than \"duty\" or \"conscience\", so the soldierly moral absolutism the analysis highlights is less pronounced."
         }
       ]
     },
@@ -132,9 +138,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"You chef!\" is the bare standalone noun the analysis specifically flags as unnatural in English. It does not give the sarcastic \"Some cook you are!\" exclamation that the comic effect depends on, so Margarita Pavlovna's domineering mockery is weakened."
+          "justification": "\"You chef!\" is the literal standalone-noun construction the language-specific note says sounds unnatural in English. It does not read as the sarcastic domestic insult the analysis describes, so the absurd-insult joke fails to land."
         }
       ]
     },
@@ -176,7 +182,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Cut the damn thing out!\" is a milder intensifier than the crude hyperbole of \"к чёртовой матери\", which the reference renders as \"the hell\". The surgeon's abruptness is slightly softened, though the meaning and the contrast with \"don't wait for peritonitis\" are intact."
+          "justification": "\"Damn\" is milder than the emphatic \"к чёртовой матери\" and the reference's \"the hell out\". The urgent, explosive tone of the surgeon's order is somewhat weakened."
         }
       ]
     },
@@ -218,7 +224,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"He's my cross to bear!\" makes the referent explicit as Khobotov. The source \"Это мой крест\" is ambiguous, and the reference keeps it as \"This is my cross\". This shifts the focus slightly from the self-sacrifice being performed to the man himself, although the idiom \"cross to bear\" is handled well and the second line carries \"И нести его мне\" accurately."
+          "justification": "\"He's my cross to bear!\" changes the referent of the source's neutral \"Это мой крест\" (\"This is my cross\") into a person. This shifts the hyperbolic self-sacrifice framing toward a different object without support in the source."
         }
       ]
     },
@@ -245,21 +251,21 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"that's me!\" and the opening \"Oh,\" are additions not present in the source. They are stylistically plausible and fit the self-characterizing mannerism, but they go beyond the source text. The rest, including \"all elbows and corners\" as a non-literal rendering of \"угловатая\" and the repeated \"such\"/\"all\" for the stuttering self-description, is an effective creative equivalent."
+          "justification": "The candidate adds \"Oh,\" and a closing \"that's me!\" that are not in the source. These additions shape the tone and ending, although the core mannered self-description (\"all elbows and corners\", \"a bundle of contradictions\") is preserved well."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 6
+      "major": 1,
+      "minor": 8
     },
-    "total_points": 16,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

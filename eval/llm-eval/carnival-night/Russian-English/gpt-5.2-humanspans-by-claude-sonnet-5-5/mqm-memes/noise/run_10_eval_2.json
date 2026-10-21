@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic, but leaving \"Baba Yaga\" untranslated and using \"collective\" make the workplace-type reading (a nasty woman already in the office) less accessible to English viewers. \"Raise\" also leans slightly toward the fairy-tale or parental frame rather than in-house training."
+          "justification": "\"Raise one in our own collective\" keeps the workplace logic and the Baba Yaga type, but \"raise\" sounds more like parenting than the staff-training idea, and \"hire\" is slightly off. The bureaucratic personnel-management tone is a little weaker than in the reference."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Briefly\" is kept before \"forty minutes\", so the reversal works. However, the cozy, faux-modest diminutive of «коротенько» is not conveyed. The added \"more, I think, isn't necessary\" is stiff and breaks up the rhythm, weakening the smug, managerial tone."
+          "justification": "\"Briefly\" comes before \"forty minutes\", so the reversal works. The faux-modest, self-satisfied tone of \"коротенько\" is rendered flatly, and the trailing \"more, I think, isn't necessary\" is stiff. This weakens the patronizing understatement a little."
         }
       ]
     },
@@ -91,14 +91,7 @@
         }
       },
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—has been ready a long time!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate uses only \"ready\" and \"has been ready a long time\". Nothing signals the \"drunk/done for\" subtext, so the central double meaning (official readiness vs. intoxication) is lost, which the analysis flags as the key risk. The reference's \"Oh, he's ready. He's been ready for quite a while\" at least adds a knowing tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -122,7 +115,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The stretched, faltering vocalization («Лю-ди!», «ау-у») is normalized to a clean \"People!.. Ah...\". The \"hellooo\" call is omitted, and the drunken, vocally unstable physical comedy the analysis says must be preserved is largely gone."
+          "justification": "\"People!.. Ah...\" is nearly a clean \"People!\" and loses the stretched, wavering vocalization (\"Lю-ди!\", \"ау-у\"). The drunken physical comedy of a failed oratorical opening is largely gone. The closing \"ау-у\" call to the crowd is omitted."
         }
       ]
     },
@@ -151,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the English note says to avoid. It sounds surreal rather than like a mangled \"unaided eye\", so the mock-scientific deformation of a familiar idiom is not recreated. The \"But once we take a telescope\" phrasing also loses the \"all we have to do\" pomp."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It does not echo the English \"unaided eye\", so the recognizable idiom being deformed is not evoked. The mock-scientific malapropism is replaced by a surreal phrase."
         }
       ]
     },
@@ -180,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is garbled: \"Four stars—best of all, of course, five stars!\" makes four stars \"best of all\" before five, which muddles the buildup. The counting sequence is no longer a clean trivial progression leading to a sudden \"five stars\" click, so the punchline is weakened. The opening \"we already see\" is also fragmentary, and there is no cue to the cognac association."
+          "justification": "The punchline is broken. \"Four stars—best of all, of course, five stars\" reads as if four stars were best, which muddles the counting build-up and the sudden click to \"five stars\". The cognac association is not signaled, but the reference does not need to signal it. The derailment joke is weakened."
         }
       ]
     },
@@ -206,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content is accurate and the register is plain. But \"Science is not yet up to date\" is an unnatural rendering of «не в курсе дела». It loses the personifying sense of science not having been briefed, which is the colloquial punch of the line."
+          "justification": "\"Science is not yet up to date\" is slightly off from \"not in the loop\" and less colloquial than the reference's \"isn't up to speed\". \"Science does not know\" is flatter and more formal than the casual register. The joke mostly survives but with less conversational punch."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 3,
       "minor": 3
     },
-    "total_points": 23,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 2.875,
-    "major_equiv_per_unit": 0.575,
-    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

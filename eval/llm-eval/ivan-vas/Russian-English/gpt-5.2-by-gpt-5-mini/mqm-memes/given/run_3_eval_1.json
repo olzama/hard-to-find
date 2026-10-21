@@ -151,7 +151,14 @@
         "language_specific": {}
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic...\na suede jacket... Three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate preserves the list and the joke about the escalating count, but the first word is lowercased ('three') and the line breaks/fragmentation are a bit awkward for subtitle presentation. This slightly affects readability and register but does not harm meaning or comedic effect."
+        }
+      ]
     },
     {
       "id": 11,
@@ -171,7 +178,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate replaces the original trailing ellipsis cadence with an exclamation on the first line (\"And they’ll cure you!\"), which makes the delivery more abrupt and emphatic. The reference’s repeated ellipses convey a calm, resigned, melodic list; the candidate’s punctuation shifts the tone away from the gentle, resigned quality described in the analysis."
+          "justification": "The reference uses ellipses to convey a calm, resigned, almost melodic repetition; the candidate's first line uses a full exclamation ('And they’ll cure you!') which makes the delivery more abrupt and less resigned. The meaning is intact, but the tonal nuance (melodic resignation) is weakened."
         }
       ]
     }
@@ -179,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 1,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

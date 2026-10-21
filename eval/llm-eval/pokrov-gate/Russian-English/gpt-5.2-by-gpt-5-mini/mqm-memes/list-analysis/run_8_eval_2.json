@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No—I'm waiting!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the basic meaning and the rhetorical device of pausing for effect, but it tones down the heightened, theatrical self-dramatization the analysis highlights (\"Pray, tell me... I'll wait!\"). The phrasing is more colloquial and loses a touch of the original's mock-grandiose register."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "Arkady Varlamovich—how about a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate inserts the addressee's full name (\"Arkady Varlamovich\"), which does not appear in the source. This unnecessary addition alters the line's brevity and spontaneous provocation function, though the offer to drink and the informal tone are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a fairly literal noun phrase (\"Such... such refined relations!\"), which loses the stuttering, sardonic exclamatory rhythm of the original refrain (the comic 'e-v-volved' effect). This weakens the iconic, repeating mock-intellectual tone described in the analysis."
+          "justification": "The candidate keeps the stuttering/repetition but renders the line as a somewhat literal noun phrase (\"refined relations\"). This is slightly less idiomatic and less biting than the reference's exclamatory, sarcastic phrasing that avoids a flat noun phrase; it softens the ironic jab at the trio's pretensions."
         }
       ]
     },
@@ -77,10 +77,10 @@
       "candidate": "You don't live for joy—you live for conscience.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"You don't live for conscience\" is a slightly awkward and semantically shifted phrasing compared with the intended soldierly fatalism of 'you live to do your duty.' The candidate's choice shifts emphasis from duty/obligation to a moral 'conscience,' which reduces the original's blunt practical logic."
+          "justification": "The candidate translates \"совести\" as \"conscience,\" yielding \"You don't live for conscience,\" which changes the original soldierly fatalism and sense of dutiful obligation conveyed by the reference (\"you live to do your duty\"). The target phrasing is awkward and shifts the pragmatic meaning away from duty/obligation to an abstract moral faculty, undermining the line's ironic justification for denying personal happiness."
         }
       ]
     },
@@ -127,14 +127,7 @@
         "language_specific": {}
       },
       "candidate": "Natürlich, Margarita Pavlovna.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate preserves the German interjection (as recommended) but appends the addressee's name (\"Margarita Pavlovna\"), which is not present in the source line. This addition alters the terse comic tic of the original single-word response."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -149,7 +142,14 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, for God's sake—\ndon't wait for peritonitis!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate uses \"Cut it out, for God's sake,\" which in English generally means \"stop that behavior,\" whereas the Russian line is a brusque surgical exhortation (imperative to perform a cutting operation immediately). This shifts the register from a blunt medical/hyperbolic command to a mild admonition, losing the abrupt surgical farce and the original's grimly comic urgency."
+        }
+      ]
     },
     {
       "id": 9,
@@ -164,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that’s petty!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate transliterates the name as \"Khabotov\" rather than the expected \"Khobotov,\" introducing a spelling/inconsistency in the character name. Otherwise the meaning and demeaning tone are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -191,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the grammatical subject and meaning: \"He's my cross to bear\" implies a person is the burden, whereas the source is a manipulative self-presentation ('This is my burden/cross and I am the one who must carry it'). This reversal fundamentally alters the manipulative boast and its dramatic effect."
+          "justification": "The candidate renders the line as \"He's my cross to bear,\" which assigns the burden to the other person rather than to the speaker. The original meaning (manipulative self-sacrifice: the speaker claims the burden is hers to carry) is reversed, changing the manipulative rhetorical effect central to the analysis."
         }
       ]
     },
@@ -213,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 3,
+      "minor": 2
     },
-    "total_points": 10,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

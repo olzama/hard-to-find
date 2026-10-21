@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Comrades, we have a directive\nto celebrate New Year's cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Directive\" keeps the top-down bureaucratic register and the contrast with festive content, but \"cheerfully\" and the line break are slightly less dryly official than \"merrily\" with \"instructions\". The effect is largely preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\na Baba Yaga from outside.\nWe'll cultivate one within our own team!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Hire\" and \"cultivate\" keep the workplace/staffing logic, but \"a Baba Yaga\" is left untranslated and may not evoke the nasty-colleague type for English viewers as well as \"witch\" does. The exclamation mark also adds more enthusiasm than the deadpan managerial tone."
+        }
+      ]
     },
     {
       "id": 3,
@@ -58,7 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"And he gives\", which turns the line into a description of a lecture and loses Ogurtsov's own voice. \"Brief address\" is a formal term that lacks the faux-modest, cozy force of «коротенько», so the contrast with \"forty minutes\" is weakened. The briefness-then-duration order is kept, but the smug diminutive understatement is lost."
+          "justification": "The \"коротенько\" setup is reduced to \"a brief address\" and the sentence is restructured. The faux-modest diminutive tone is lost, and \"And he gives\" adds a subject that is not in the source. The claim of briefness no longer precedes the \"forty minutes\" in a way that creates the comic reversal."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"He's ready. He's been ready for ages!\" keeps only the surface meaning. Nothing hints at the \"drunk/done for\" subtext of «готов», and the analysis says the double sense must be preserved or recreated. The reference's \"Oh, he's ready\" at least gives a knowing tone, which is missing here."
+          "justification": "\"Ready\" is rendered only literally, with no double sense of \"drunk\". \"Ready for ages\" does not recreate the ambiguity, so the central joke of the exchange is lost."
         }
       ]
     },
@@ -100,9 +100,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"People!... Ah... Yoo-hoo!\" keeps the faltering, wavering address and the collapse into a call. But \"People!\" is not stretched or broken as in the source (Лю-ди), so the drunken vocal instability is partly lost. \"Yoo-hoo\" is a reasonable equivalent of «ау-у»."
+          "justification": "\"People!... Ah... Yoo-hoo!\" keeps the faltering structure. However, the syllable-stretched, broken vocalization of \"Лю-ди!\" is flattened to a clean \"People!\", which weakens the drunken vocal instability. \"Yoo-hoo\" is a bit cheerier than the wandering \"ау-у\"."
         }
       ]
     },
@@ -129,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the language-specific note warns against. It is more surreal than the Russian and does not echo \"unaided eye\", so the sense of a familiar idiom being wrongly upgraded is lost. Also \"just take a telescope\" drops the \"all we have to do\" colloquial turn."
+          "justification": "\"Armed eye\" is the literal calque that the analysis warns against. It does not echo any familiar English idiom such as \"unaided eye\", so the malformed-idiom, mock-scientific joke is lost and the phrase sounds merely strange."
         }
       ]
     },
@@ -156,7 +156,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The trivial, silly star counting is well preserved with \"little stars\", and the final \"five little stars\" works as the punchline. However, \"little\" weakens the link to cognac \"five stars\", so the click into a different semantic world is softer. There is also no cultural note, which the language-specific NB says may be needed."
+          "justification": "The counting build-up is kept and sounds suitably silly. However, there is no cognac cue, such as the \"5*\" note or \"stars\" wording, to signal the shift to the cognac domain, so the punchline may not click for English viewers. \"As we can already see\" is replaced by a plain \"you can see\", and the dash and \"best of all\" sound slightly more coherent than the drunken derailment."
         }
       ]
     },
@@ -175,24 +175,24 @@
       "candidate": "Is there life on Mars?\nIs there no life on Mars?\nScience does not know.\nScience hasn't got the news yet.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Is there life on Mars? Is there no life on Mars?\" is a stiff, literal rendering of the parallel structure. \"Science hasn't got the news yet\" is colloquial and captures the personified science. But \"Science does not know\" is flat and formal, so the casual register of «это науке неизвестно» is only partly conveyed. The line comes across as a more awkward and less natural comic delivery than intended."
+          "justification": "The content and casual register are preserved, and \"hasn't got the news yet\" is an acceptable colloquial equivalent of \"не в курсе дела\". The doubled question \"Is there no life on Mars?\" is slightly stiffer than the offhand \"есть ли... нет ли\" rhythm, and the final line is a bit less natural than \"isn't up to speed\"."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 23,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 2.875,
-    "major_equiv_per_unit": 0.575,
-    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

@@ -36,7 +36,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Tsar—very pleased. Hello, Tsar.\" reads as Bunsha addressing someone else as Tsar. The analysis requires that he introduces himself as the Tsar. Nothing like \"I'm the Tsar\" or \"The Tsar\" with a clear self-introduction appears, so the comic point of the impersonation is lost."
+          "justification": "The NB requires that Bunsha clearly introduces himself as the Tsar. Lines like \"Hello, Tsar!\" and \"Tsar—very pleased\" read as addressing a tsar, which is the misreading the NB warns against. The self-introduction frame (\"I'm the Tsar\") is missing, so the joke of the drunken impostor introducing himself is lost."
         }
       ]
     },
@@ -73,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"In mourning\" implies bereavement, whereas \"в печали\" means being in sorrow or sadness. The contraction \"I'm\" also makes the Tsar's archaic, regal register slightly less elevated."
+          "justification": "\"In mourning\" implies bereavement or a death, while \"в печали\" means being in sorrow or sadness. The archaic, regal melancholy of the line is only partly preserved."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "candidate": "Bricked in!\nBricked in, the demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Bricked in, the demons!\" without \"me\" can be read as the demons being walled in, or as an address to the demons. The analysis requires the demons to be the subject, the ones who walled him in. The meaning is ambiguous or inverted."
+          "justification": "The passive \"Bricked in, the demons!\" leaves out the agent, so \"the demons\" can read as a vocative or an aside rather than clearly as the subject who did it. The NB requires the demons to be the subject, as in \"They've walled me in... the demons!\""
         }
       ]
     },
@@ -162,7 +162,7 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "Putting \"caviar\" in scare quotes for the overseas item, instead of calling it a spread, goes against the note not to call eggplant spread caviar. The punchline \"Eggplant spread!\" limits the confusion, but the wording is still muddled."
+          "justification": "The scare-quoted \"caviar\" for the overseas item edges toward calling the eggplant spread caviar, which the NB warns against. It is somewhat clarified by \"Eggplant spread!\", but it can still confuse viewers and weakens the deadpan inversion of the status items."
         }
       ]
     },
@@ -179,7 +179,14 @@
         "language_specific": {}
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestic cigarette cases,\nsuede jacket—three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The hesitation in \"куртка… замшевая… Три\" is flattened into \"suede jacket—three\". The delayed correction that gives away Shpak's inflated count is therefore less noticeable than with the reference's pauses, and the comic beat is weaker."
+        }
+      ]
     },
     {
       "id": 11,
@@ -194,26 +201,19 @@
         "language_specific": {}
       },
       "candidate": "And you’ll be cured!\nAnd you will be cured too!\nAnd I will be cured too!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the lines cheerfully emphatic. The analysis describes calm, melodic resignation, and the repeated \"too\" and \"will\" lose some of that trailing, resigned rhythm."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 3
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 13,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

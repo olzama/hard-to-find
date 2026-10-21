@@ -18,10 +18,10 @@
       "candidate": "Volven atormentarme\nvagas sospeitas...\nShpak, un magnetófono;\no embaixador, un medallón.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the crucial meaning of possession/loss: it reads as a list of things Shpak and the ambassador have, not that Shpak’s tape recorder and the ambassador’s medallion are missing. This breaks the joke’s setup and the callback noted in the analysis."
+          "justification": "The candidate drops the explicit 'de novo' callback effect and the lost-item framing, so the line is a bit less precise about the earlier theft joke, though the core meaning remains clear."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The line no longer clearly works as Bunsha introducing himself as the Tsar. It reads more like greeting someone called 'tsar' and loses the intended comic confusion highlighted in the analysis."
+          "justification": "The line preserves the self-introduction and repetition, but 'Moito gusto'/'ola' feels slightly less like a stiff mundane formal greeting than the reference, weakening the period-social-cliché flavor a bit."
         }
       ]
     },
@@ -60,14 +60,7 @@
         "language_specific": {}
       },
       "candidate": "Exixo que continúe o banquete!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The wording is understandable and faithful, but slightly less idiomatic than the reference; 'Exixo que continúe o banquete' sounds a bit stiffer and more literal than a natural subtitle line."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -87,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning is preserved, but 'estou triste' is flatter and less regal/archaic than the reference’s 'que estou aflixido', weakening the Tsar’s elevated comic tone."
+          "justification": "'Estou triste' conveys the sense, but it is flatter and less elevated than the more literary 'que estou aflixido,' so the regal-melancholy tone is slightly weakened."
         }
       ]
     },
@@ -104,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The duplication is understandable and keeps the joke, but the punctuation and repeated exclamation make the line a bit less smooth than the reference."
+        }
+      ]
     },
     {
       "id": 6,
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Velaí' is acceptable, but it is slightly less weighty and ceremonial than the reference’s 'Velaquí', so the mock-biblical, solemn tone is a bit weakened."
+          "justification": "'Velaí' is acceptable, but it is slightly more colloquial than the reference's more solemn 'Velaquí,' so the exclamatory, quasi-biblical tone is a little weaker."
         }
       ]
     },
@@ -161,13 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the sense to something like 'I came in well/at a good moment' and can even suggest a passive or completed state, whereas the source means 'I happened to come in at the right time' upon entering. This loses Miloslavsky’s cheerful reaction to discovering the goods."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The phrasing is awkward and less idiomatic than the reference, making the line sound unnatural as a subtitle."
+          "justification": "'Ben metida foi esta visita!' implies he has come in well or that the visit is well inserted, which is not the same as happily stumbling into a profitable apartment. It obscures the 'I happened to come across this place' joke and sounds semantically off."
         }
       ]
     },
@@ -189,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "Calling the eggplant item 'caviar' contradicts the analysis, which explicitly says it should not be translated as caviar because that confuses viewers. The final punchline is therefore weakened and potentially misleading."
+          "justification": "By omitting 'baklazhannaya'/'de berenxena' from the final line, the translation loses the punchline that the supposed overseas delicacy is just eggplant spread. That destroys the satirical food-shortage joke."
         }
       ]
     },
@@ -208,16 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits key items from the list, most notably the third collection of film cameras and the suede jacket is not fully preserved in the same counting pattern. This damages the escalating comic exaggeration central to the scene."
-        },
-        {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "Using bare numerals and compressed line breaks makes the delivery less playful and less like the escalating police inventory comedy in the original."
+          "justification": "The item list is readable, but the formatting is slightly awkward, especially the final 'chaqueta de camurza... tres,' which feels less natural than a continuous counted list."
         }
       ]
     },
@@ -239,14 +227,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 30,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

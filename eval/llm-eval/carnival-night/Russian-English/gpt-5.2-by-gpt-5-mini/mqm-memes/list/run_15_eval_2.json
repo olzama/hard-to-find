@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto welcome the New Year joyfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the bureaucratic register but uses slightly awkward phrasing (“there is an instruction to welcome”) and the verb \"welcome\" softens the bluntness of \"celebrate\". The diminutive, managerial dryness of the original is present but weakened by the phrasing, making the line less natural and a bit less punchy than the analysis advises."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -70,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the contrast between a claim of brevity and the absurd forty-minute duration, but translates «коротенько» as plain \"just briefly,\" losing some of the diminutive, self-satisfied tone that makes the understatement funnier. Also the lowercase/colloquial start slightly reduces the formal, managerial voice."
+          "justification": "The diminutive, mildly self-deprecating tone of «коротенько» is weakened by the plain \"just briefly.\" The comic contrast between faux-modesty and the long duration (forty minutes) still comes through, but the cozy, patronizing flavor is slightly blunted."
         }
       ]
     },
@@ -134,10 +127,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate literalizes the Russian calque as “armed eye.” As noted in the analysis, that English phrasing reads oddly and more surreal than the original’s mock‑scientific deformity; a solution like “aided eye” would better recreate the slightly off scholarly register. The current choice weakens the intended comic effect."
+          "justification": "The candidate's literal calque \"armed eye\" produces a more surreal, odd image in English than the Russian mock‑scientific deformation. It loses the intended mildly warped, pseudo‑technical feel (better rendered as e.g. \"aided eye\"), so the subtle parody of scientific diction is damaged."
         }
       ]
     },
@@ -185,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

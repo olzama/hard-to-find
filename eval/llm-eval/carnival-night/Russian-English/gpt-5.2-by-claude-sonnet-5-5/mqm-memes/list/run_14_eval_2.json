@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" fits the staffing logic, and \"raise one in our own collective\" keeps the workplace/social angle. However, \"raise\" is more parental than the cultivating/training sense of \"воспитаем\", and \"collective\" is a slightly foreign, less natural choice than \"in-house\". The workplace framing is weakened a little."
+          "justification": "\"Hire\" fits the workplace logic, but \"raise one\" leans toward child-rearing rather than staff training; it still keeps the in-house collective joke and the Baba Yaga social type, so the effect is only slightly weakened."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Just briefly\" is flat and loses the faux-modest, cozy diminutive force of «коротенько». The \"forty minutes\" punchline still lands in the right order, but the patronizing, self-satisfied tone is weaker."
+          "justification": "\"Just briefly\" is flatter than the faux-modest diminutive \"коротенько\". The briefness claim does come before \"forty minutes\", so the reversal works, but the cozy, patronizing tone is weaker. The lowercase fragment also reads a little abruptly."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready\" is repeated literally, so the alcoholic subtext is lost, and \"been ready a long time\" only works as the surface meaning. The joke the analysis calls the key effect is missing."
+          "justification": "The double meaning of \"готов\" (ready / drunk) is lost. \"Ready\" has no English drunk connotation, and nothing in the line recreates the alcoholic subtext. The exchange reads as a plain confirmation of readiness, so the joke disappears."
         }
       ]
     },
@@ -117,7 +117,14 @@
         }
       },
       "candidate": "People!.. Ah... Hellooo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"People!.. Ah... Hellooo!\" keeps the broken, wavering address and the stretched \"Hellooo\", but \"People!\" is not stretched or split. The drunken vocal instability of \"Лю-ди!\" is therefore a bit weaker."
+        }
+      ]
     },
     {
       "id": 6,
@@ -144,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It does not echo the English \"unaided eye\", so the recognizable idiom being mangled into mock-scientific language is lost. The phrase reads as surreal rather than as a slightly wrong upgrade of a familiar expression."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It does not evoke the English idiom \"unaided eye\", so the sense of a familiar expression wrongly \"upgraded\" into mock-scientific language is lost. It sounds surreal rather than pseudo-learned."
         }
       ]
     },
@@ -173,7 +180,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting is restructured: \"Four little stars—best of all, of course, five little stars!\" merges four and five into one statement. The trivial counting buildup of two, three, four followed by a sudden jump to the \"best\" five stars is blunted, so the click into the cognac frame is weaker. There is also no note or cue for the cognac association, which the analysis says may be needed."
+          "justification": "The progression is broken: \"Four little stars—best of all, of course, five little stars!\" folds four into the punchline instead of building a clean one-two-three-four sequence before \"five\". The click into the cognac frame is weakened. There is no cue for the cognac association, which the analysis says will not be obvious to most viewers."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Little stars\" sounds childish, which suits the silly counting, but it makes the cognac reading (\"five stars\") less recognizable than plain \"stars\" would."
         }
       ]
     },
@@ -199,7 +212,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Whether there is no life on Mars\" is a stiff, literal calque of «нет ли жизни». \"In the know\" does capture the casual register of «не в курсе дела», but the first lines are more awkward than the colloquial tone requires."
+          "justification": "\"Whether there is no life on Mars\" is an awkward literal rendering of the colloquial \"нет ли жизни\", and it sounds stilted. \"Science is not yet in the know\" keeps the casual register well, and the content stays valid."
         }
       ]
     }
@@ -207,13 +220,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 3
+      "minor": 5
     },
-    "total_points": 18,
+    "total_points": 20,
     "meaning_units": 8,
-    "penalty_per_unit": 2.25,
-    "major_equiv_per_unit": 0.45,
-    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5,
+    "major_equiv_per_unit": 0.5,
+    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

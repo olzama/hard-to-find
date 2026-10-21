@@ -39,14 +39,7 @@
         }
       },
       "candidate": "We won’t hire Baba Yaga\nfrom outside,\nwe’ll raise one in our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the workplace-bureaucratic humor and double meaning (not bringing someone from outside, cultivating one in-house) and keeps the line funny. However, the choice of 'hire' introduces a slightly more modern/HR-flavored register than the original's blunt collective-staffing phrasing; 'raise one' and 'in our own collective' are good, but 'hire' slightly weakens the Soviet managerial tone described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -70,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the timing information but loses some of the diminutive, faux-modest flavor of «коротенько» that sets up the comic reversal. Beginning with a plain 'briefly' is flatter than the original's mock-cozy understatement, so the punchline effect of 'forty minutes' is somewhat weakened."
+          "justification": "The candidate loses the diminutive, faux-modest tone of «коротенько» that makes the ‘forty minutes’ punchline funny. The plain ‘briefly’ reads flatter and the phrasing is slightly awkward, weakening the comedic contrast between modesty and the obviously long duration."
         }
       ]
     },
@@ -94,9 +87,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The exchange retains the repetition that hints at the double reading, but 'ready long ago' is slightly awkward and non-idiomatic in English. That phrasing reduces the smooth ambiguity between 'ready' (prepared) and the colloquial possibility of 'ready' meaning drunk; a more natural repeated emphasis would better preserve the comic double entendre."
+          "justification": "The exchange preserves the literal meaning but weakens the Russian double entendre where «готов» can imply intoxication. In English, repeating ‘ready’ (‘ready long ago’) is less likely to carry the subtext of ‘already drunk,’ so the drink-related ambiguity is diminished."
         }
       ]
     },
@@ -141,10 +134,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate literalizes «вооружённым глазом» as 'armed eye.' As the analysis notes, 'armed eye' reads as oddly surreal in English and risks altering the intended mock‑scientific, slightly wrong flavor. A phrasing like 'aided eye' would better mirror the original's distorted-but-recognizable idiom; the current choice is understandable but stylistically off."
+          "justification": "The candidate renders «вооружённым глазом» as ‘armed eye,’ a calque that the analysis explicitly warns against. In English this reads oddly and surreal rather than a mock‑scientific, slightly wrong idiom. The chosen phrasing loses the subtle parody of scientific language and becomes jarringly strange instead of humorously damaged."
         }
       ]
     },
@@ -192,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 4
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 4,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.5,
-    "major_equiv_per_unit": 0.1,
-    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

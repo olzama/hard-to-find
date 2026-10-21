@@ -36,7 +36,14 @@
         "language_specific": {}
       },
       "candidate": "A pleasure. I'm the Tsar!\nA pleasure. Hello, I'm the Tsar!\nThe Tsar. A pleasure!\nHello, I'm the Tsar! A pleasure!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source's greeting structure (\"Здравствуйте\" in the first and third clauses) is partly lost. \"Hello\" appears only in lines 2 and 4, and the first line opens with \"A pleasure\" instead of the greeting. The repeated clichés still convey the stiff, over-polite introduction, so the effect is only slightly weakened."
+        }
+      ]
     },
     {
       "id": 3,
@@ -86,14 +93,7 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nThe demons have walled me in!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The first line 'They've walled me in!' introduces an unspecified 'they' that suggests human agents. The source names the demons only after the repetition, and the analysis asks that demons read as the subject from the start. The second line corrects this, but the reader hears the wrong subject first, and the reference places 'the demons' last as the subject."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -153,7 +153,14 @@
         }
       },
       "candidate": "Well, I picked the right place to visit!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Удачно зашел\" stresses fortunate timing (he dropped in at a lucky moment). \"I picked the right place to visit\" recasts this as a deliberate choice of location. The pleased, opportunistic tone is preserved, but the luck element is slightly shifted."
+        }
+      ]
     },
     {
       "id": 9,
@@ -178,7 +185,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Заморская икра' is rendered as 'An exotic delicacy', which drops the 'overseas/imported' notion. The analysis relies on the inverted status symbol, and the reference keeps 'overseas' to carry it. The candidate does correctly avoid calling the eggplant spread 'caviar', as the note requires."
+          "justification": "\"Заморская\" (imported from overseas) is rendered as \"an exotic delicacy\". The rarity and inflated status come through, but the specific joke about prized imported goods is lost. \"Imported\" or \"from overseas\" would keep the Soviet-status point more precisely."
         }
       ]
     },
@@ -203,9 +210,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The source leaves the final 'Три' bare, so the bare count word lands as the self-correction. The candidate adds the noun 'jackets' to the final line, which over-explains the forgotten-count joke that the reference keeps implicit with 'Three.'"
+          "justification": "The source ends on the bare word \"Три\", a terse self-correction that gives the joke its timing. The candidate spells out \"three jackets\", which explains the punchline and weakens the comic beat, though the underlying forgotten-count joke still works."
         }
       ]
     },
@@ -228,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 4
     },
-    "total_points": 3,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

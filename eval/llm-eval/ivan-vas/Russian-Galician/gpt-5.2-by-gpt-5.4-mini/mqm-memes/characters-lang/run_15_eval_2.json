@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key meaning in the note: it says Shpak and the ambassador still have the items, while the source means these objects are missing from them/lost by them."
+          "justification": "The candidate reverses the key point in the analysis: it says Shpak and the ambassador still have the items, whereas the line means they are missing/lost. This destroys the joke’s setup."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line is understandable and keeps the self-introduction, but the added interjection 'ola' makes the greeting a bit less like the repetitive, mundane formal greeting pattern described in the analysis."
+          "justification": "The candidate conveys the self-introduction and repetition, but the phrasing is a bit more conversational and less plainly mock-formal than the reference, slightly weakening the deadpan bureaucratic absurdity."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Que estou de pena' conveys melancholy, but it is slightly less elevated and idiomatic than the reference's 'aflixido', so the archaic/regal tone is a bit weakened."
+          "justification": "\"Estou de pena\" is understandable, but it is less idiomatic and less elevated than a formulation like \"estou aflixido,\" so the archaic-regal melancholy is slightly weakened."
         }
       ]
     },
@@ -97,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The second line 'Emparedáronme, demos!' is slightly less natural than the reference's more direct formulation, but the meaning and the misunderstanding of the demons remain clear."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira o que fai a cruz vivificadora!' preserves the religious exclamation, but 'mira' is a bit more colloquial than the reference's more solemn 'velaquí', slightly reducing the mock-archaic tone."
+          "justification": "\"Mira\" sounds somewhat less natural and slightly less solemn than the reference’s more elevated \"Velaquí,\" so the marveling, mock-biblical tone is mildly reduced."
         }
       ]
     },
@@ -141,7 +134,14 @@
         "language_specific": {}
       },
       "candidate": "A bailar todo o mundo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the command to dance, but \"A bailar todo o mundo\" is a bit more generic and less punchy than the direct imperative \"Todos a bailar!\", slightly softening the abrupt rallying energy."
+        }
+      ]
     },
     {
       "id": 8,
@@ -161,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Vaia ben que entrei!' is ambiguous and can read as 'it was good that I went in,' but it does not clearly convey the cheerful, self-satisfied reaction to having just entered that the source requires."
+          "justification": "The candidate means \"it's good that I came in,\" which is misleading in the wrong direction: the analysis stresses that he has just entered and is reacting to what he found, not commenting on leaving or merely on entering in a neutral way. It weakens the exultant 'lucky find' sense of the original joke."
         }
       ]
     },
@@ -183,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate wrongly repeats 'caviar' for the eggplant spread, which the analysis explicitly warns against because it confuses the joke; the source contrasts real caviar with a cheap eggplant spread."
+          "justification": "The candidate omits the crucial punchline equivalent of \"eggplant\" by splitting it into a separate line after \"caviar from overseas,\" which makes the joke less clear and breaks the satirical reveal. It also risks suggesting eggplant itself is caviar, which the analysis warns against."
         }
       ]
     },
@@ -202,10 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 cigarreiras nacionais,\nchaqueta de ante, tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the repeated count pattern and changes the structure of the list, so the escalating joke about inventory inflation is badly weakened. It also omits the initial 'three' before the suede jacket until the end, which is the point of the gag."
+          "justification": "The count of the final item is not preserved as clearly as in the source/reference: the line should build toward the repeated \"three,\" but the candidate leaves the last element unquantified until the end, making the comic escalation slightly less precise."
         }
       ]
     },
@@ -225,23 +225,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "'Hanme curar' is understandable, but the repeated future-form phrasing sounds less natural and less melodic than the reference's smoother rhythm, which is important for the character's resigned tone."
+          "justification": "\"Han curar\" is understandable, but the repeated future-perfect phrasing is a bit rougher and less melodically resigned than the reference, slightly dulling the soothing, half-mad tone of the character."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 3,
+      "minor": 6
     },
-    "total_points": 25,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

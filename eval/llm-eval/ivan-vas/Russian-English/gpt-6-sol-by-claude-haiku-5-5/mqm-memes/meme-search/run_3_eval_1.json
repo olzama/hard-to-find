@@ -23,16 +23,16 @@
       "candidate": "I'm beginning to have\na nagging suspicion again...\nShpak's tape recorder,\nthe ambassador's medal...",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis locates the humor in the mock-heroic register of 'терзают смутные сомнения'. 'I'm beginning to have a nagging suspicion again' is conversational and flattens that theatrical tone, so the joke loses its source of comedy. 'Haunt' or a similarly elevated verb would preserve it."
+          "justification": "The mock-heroic register of 'терзают смутные сомнения' is lost. 'A nagging suspicion' is plainer and more colloquial than the high-brow theatrical tone the analysis identifies as the source of the joke."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "'Медальон' is a medallion, a locket-type pendant, as the analysis states. 'Medal' names a different object (an award), which misrepresents what the ambassador lost."
+          "justification": "'Медальон' (medallion) is rendered as 'medal', which is a different object. The loss of the ambassador's item is preserved, but the lexical choice is imprecise."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly requires that the translation make clear Bunsha is introducing himself as the Tsar, not addressing one. 'Hello, Tsar!' and 'Tsar, a pleasure!' read as greetings directed at a Tsar, and no line states 'I am the Tsar', so the required meaning is lost."
+          "justification": "The analysis states that the translation must make clear Bunsha is introducing himself as the Tsar, not greeting one. 'Hello, Tsar!' reads as addressing a Tsar, which reverses the intended meaning. The reference's 'Hello, I'm the Tsar' shows the required clarification, and the candidate omits it."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'В печали' expresses melancholy or sorrow, which the analysis describes as 'genuine, regal melancholy'. 'I am in mourning' implies bereavement, a narrower meaning that shifts the emotional register away from the Tsar's general gloom."
+          "justification": "'Печаль' means sorrow or melancholy, the regal tone the analysis highlights. 'In mourning' implies bereavement, which adds a specific cause that is not in the source and shifts the emotional register."
         }
       ]
     },
@@ -198,13 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns that eggplant spread must not be presented as caviar, since this confuses viewers. The candidate drops 'spread' and sets 'Exotic caviar...' directly before 'Eggplant!', so the reveal reads as eggplant being caviar. The reference's 'Overseas spread... eggplant!' avoids this."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Заморская' denotes imported or overseas goods, the Soviet status marker the joke pokes at. 'Exotic' conveys rarity but loses the specific import connotation the satire depends on."
+          "justification": "The analysis explicitly warns against calling the eggplant spread 'caviar'. 'Exotic caviar... Eggplant!' presents the eggplant spread as the caviar-like delicacy, which is the confusion the note forbids. The candidate also renders 'заморская' as 'exotic' and drops the 'spread' identity that the reference keeps."
         }
       ]
     },
@@ -231,7 +225,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis says the joke works because Shpak forgets to increment the suede jacket count at first, and that the stumble is what makes it funny. The source's 'куртка… замшевая… Три' builds that hesitation. The candidate presents a clean four-line list with no pause or self-correction, so the comic mechanism is lost."
+          "justification": "The analysis identifies the key joke as Shpak forgetting to increment the count for the suede jacket, which betrays his exaggeration. The candidate lists every item as 'three', so the single jacket and the 'Три' count mismatch are lost. The punchline does not work."
         }
       ]
     },
@@ -253,21 +247,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes Ulyana's 'melodic, calm resignation'. The source's ellipses give that tone, but the candidate's exclamation marks make each line agitated and shrill, which contradicts the calm register described in the analysis."
+          "justification": "The analysis describes calm, melodic resignation. The candidate's exclamation marks and dropped ellipses make the delivery sound emphatic and urgent, which shifts the tone away from the source's measured cadence."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 3,
       "minor": 4
     },
-    "total_points": 24,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Train one in our own staff\" is awkward English. The \"in-house\" and \"collective\" workplace logic comes through only weakly, so the managerial deadpan is less crisp than it could be."
+          "justification": "\"Hire\" shifts the verb toward recruitment and loses the sense of cultivating the type in-house. \"Train one in our own staff\" is also slightly unidiomatic (\"in-house\" or \"from our own staff\" would be more natural). The workplace logic and the Baba Yaga social-type joke still come through."
         }
       ]
     },
@@ -68,9 +68,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"More, I think, isn't necessary\" is stilted and slightly archaic, and it does not sound like Ogurtsov's smug, casual managerial voice. The \"briefly\" before \"forty minutes\" order is kept, but the faux-modest, cozy tone of \"коротенько\" is not conveyed."
+          "justification": "\"Briefly\" is kept and precedes the duration, so the comic reversal works. The line is flat, though. It lacks the faux-modest, self-satisfied managerial tone of «коротенько», and the semicolon phrasing \"more, I think, isn't necessary\" sounds stiff and weakens the smug understatement."
         }
       ]
     },
@@ -93,10 +93,10 @@
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—ready long ago!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Ready long ago!\" is unidiomatic, and the exclamation mark makes it less dry and offhand. The surface administrative reading is kept, but the hint of \"ready\" meaning drunk is weaker than a natural \"He's been ready for a while\"."
+          "justification": "The candidate keeps only the literal \"ready\" and gives no hint of the \"done for / drunk\" subtext of «готов». \"Ready long ago!\" is a stilted rendering of «давно готов» and does not recreate the double reading. The administrative-vs-intoxicated joke is lost."
         }
       ]
     },
@@ -119,10 +119,10 @@
       "candidate": "People!.. Ah... Hel-lo!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"People!\" is delivered cleanly, without the stretched, faltering shape of \"Лю-ди\". Only \"Hel-lo\" is broken up, so the drunken vocal collapse is partly lost."
+          "justification": "The candidate normalizes the drunken, broken vocalization. \"People!..\" is nearly clean, and \"Hel-lo!\" is a tidy, almost cheerful greeting instead of a wavering «ау-у» cry. The stretched, slurred quality that carries the physical comedy is largely lost."
         }
       ]
     },
@@ -151,7 +151,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis says to avoid. It sounds surreal rather than like a slightly wrong version of \"unaided eye\", so the mangled-idiom, mock-scientific joke does not register in English."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. In English it sounds surreal and does not echo \"unaided/naked eye\", so the familiar-idiom-damaged-by-mock-science effect does not register for the viewer."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The lecturer's single rhetorical build-up is split across two lines with ellipsis and dash, which loses the pompous exclamatory rhythm."
         }
       ]
     },
@@ -178,9 +184,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The silly counting build-up works, but the punchline \"five little stars\" has no cognac association in English. The diminutive \"little\" makes it read as a childish rhyme, and the semicolon in \"Four little stars; best of all\" muddles the pause that sets up the sudden derailment."
+          "justification": "The progression of silly counting and the \"five little stars\" punchline are preserved. However, nothing signals the cognac association, which the analysis says may need a note. English viewers may not get the shift into a different semantic domain, so the derailment is weaker."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The \"little stars\" repetition with \"best of all, of course\" is slightly stiff, and the line break placement breaks the rhythm of the buildup."
         }
       ]
     },
@@ -201,19 +213,26 @@
         }
       },
       "candidate": "Is there life on Mars, is there no life on Mars—\nscience does not know.\nScience is not yet in the know.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is a clumsy literal rendering of the colloquial doubled structure. \"Science does not know\" is a bit more formal than the flat «это науке неизвестно», though \"Science is not yet in the know\" preserves the casual personification well. The register mismatch largely survives."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 3,
+      "minor": 6
     },
-    "total_points": 10,
+    "total_points": 21,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.625,
+    "major_equiv_per_unit": 0.525,
+    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

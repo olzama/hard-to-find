@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as 'Shpak has... the ambassador has...', which implies they currently possess those items. The analysis explicitly notes these phrases mean the items are missing / were lost (they no longer have them). This reverses the original meaning."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which changes the syntax and meaning: the original (and analysis NB) indicate these items have been taken/lost (they are the objects of an action), not that the characters currently possess them."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The opening line in the candidate ('I'm having vague doubts again...') is more prosaic and loses some of the mock-heroic, elevated theatrical register ('Vague doubts haunt me once again...') that contributes to the comedic contrast described in the analysis."
         }
       ]
     },
@@ -43,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original line is Bunsha introducing himself as 'the Tsar' (repeatedly), not addressing a Tsar. The candidate's phrasing ('Very nice, Tsar! ... Hello, Tsar!') reads as if Bunsha is speaking to a Tsar rather than repeatedly introducing himself, which contradicts the analysis note and the comedic effect of self-introduction."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's lines use colloquial exclamations and a greeting-focused order that reduces the awkward, repetitive Soviet-formal self-introduction rhythm described in the analysis."
+          "justification": "The candidate reads as if Bunsha is addressing someone as 'Tsar' ('Very nice, Tsar!'), whereas the analysis (NB) requires that it be clear he is introducing himself as the Tsar. The target lines therefore fail to convey the crucial comic premise that he is proclaiming himself the Tsar rather than speaking to one."
         }
       ]
     },
@@ -81,14 +81,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old lady, I'm in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses 'old lady' and the contraction 'I'm,' which lower the archaic, high-register tone ('old woman' / 'I am in sorrow') that the analysis says is part of the humor. This weakens the period voice slightly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -108,7 +101,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes that 'demons' must be the subject (they walled me in), not the addressee. The candidate's 'Walled up, demons!' reads like a vocative address to the demons, which misrepresents who is acting and undermines the intended meaning."
+          "justification": "The original means 'They've walled me in... (they) walled me in, the demons' with 'demons' as the subject. The candidate's 'Walled up, demons!' reads as if addressing demons (vocative) and thus reverses the grammatical role, losing the intended meaning that unseen agents have entombed him."
         }
       ]
     },
@@ -130,7 +123,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'That's what the life-giving cross can do!' is more colloquial and less solemn than the reference's archaic, exalted phrasing ('Behold the power of the life-giving cross!'), slightly reducing the high-register religious tone the analysis highlights."
+          "justification": "The candidate ('That's what the life-giving cross can do!') preserves the meaning but adopts a more colloquial, less solemn phrasing than the high, archaic register ('Behold the power of the life-giving cross!') that heightens the comic clash between Tsarist religiosity and modern technology."
         }
       ]
     },
@@ -177,7 +170,14 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate presents 'Imported caviar... Eggplant!' which ambiguously separates 'eggplant' from the explicit label 'caviar.' The analysis warns against calling eggplant spread 'caviar' (it would confuse viewers), and the candidate's phrasing risks either implying eggplant is simply another item or leaving the intended ironic contrast (cheap eggplant spread treated as exotic) under-specified."
+        }
+      ]
     },
     {
       "id": 10,
@@ -194,10 +194,10 @@
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The original joke depends on Shpak's verbal hesitation and the comedic miscount (the count grows with every telling). The candidate lists 'three suede jackets' plainly, which loses the incremental, self-contradicting comic beat described in the analysis."
+          "justification": "The candidate renders the list as an even sequence ending with 'three suede jackets,' smoothing over the speaker's hesitation and the comic mistake (forgetting to increment the count of jackets) that the analysis highlights as central to the joke. This removes the specific comedic reveal that makes the line funny."
         }
       ]
     },
@@ -219,14 +219,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 19,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

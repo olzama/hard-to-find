@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador currently have the items, but the line means the opposite: these things are missing/lost from them."
+          "justification": "The candidate turns the possessions into present-tense ownership ('Shpak ten', 'o embaixador') instead of the intended sense that these items have disappeared from them. This breaks the joke and the callback to the theft."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, boas tardes, tsar!\nTsar, moito gusto!\nBoas tardes, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate turns the line into greetings to the tsar rather than Bunsha repeatedly introducing himself as the tsar, which removes the core joke and the required clarity of who is speaking as whom."
+          "justification": "The line preserves the repeated self-introduction, but 'Boas tardes' is a weaker fit than the greeting in the source/reference and slightly blunts the comic mismatch of formal Soviet politeness."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'estou triste' is understandable, but it weakens the more elevated, archaic melancholy of 'estou aflixido', slightly reducing the regal tone."
+          "justification": "'Estou triste' conveys the meaning, but it is flatter and less elevated than 'estou aflixido', weakening the mock-archaic regal tone."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The repetition is acceptable, but the comma after the second 'Emparedáronme' makes the phrasing slightly clunkier than the reference's flowing exclamation."
+          "justification": "The split punctuation is slightly awkward, though the meaning and comic effect remain intact."
         }
       ]
     },
@@ -137,9 +137,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'A bailar todo o mundo!' shifts the imperative into a description of everyone dancing, whereas the source is a direct command to make everybody dance."
+          "justification": "'A bailar todo o mundo!' is understandable, but it is less punchy and less slogan-like than the source's imperative call for everyone to dance, so the crowd-leading energy is slightly weakened."
         }
       ]
     },
@@ -161,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'A que bo momento entrei!' suggests he has just arrived at a good moment, but the source is an immediate self-satisfied remark about having stumbled into a profitable place; the emphasis on entering is misleading."
+          "justification": "'A que bo momento entrei!' suggests he is commenting on the moment he entered, but the source means he has just had lucky timing by coming in and discovering the valuables. The celebratory anti-hero reaction is weakened and the wording can read as too neutral."
         }
       ]
     },
@@ -183,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'caviar de ultramar' and then 'de berenxena' separately, which obscures the intended phrase 'overseas eggplant spread' and risks making the joke incoherent. It also omits the explicit food-name structure that carries the satire."
+          "justification": "The candidate drops 'caviar black, red' into separate lines but fails to make clear that 'de berenxena' is not caviar itself; the structure becomes ambiguous and loses the satirical setup of a fake luxury 'overseas caviar' from eggplant. This blurs the joke noted in the analysis."
         }
       ]
     },
@@ -202,16 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaquetas de camurza: tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate changes several items: 'portсigaras' becomes 'pitilleiras' and the list loses the exact escalating pattern and the important comic detail of the final count being forgotten until the end."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The punctuation and line breaks make the list feel more schematic than the original running complaint, slightly weakening the comic delivery."
+          "justification": "The compressed list is understandable, but the formatting and omission of repeated counting in the middle make the line less natural and slightly less effective as a comic inventory."
         }
       ]
     },
@@ -228,26 +222,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te curarán!\nE a min curaranme!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits the third clause 'e a min me curarán', so the self-referential punchline is incomplete and the shared resigned humor is weakened."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 4
+      "major": 3,
+      "minor": 5
     },
-    "total_points": 34,
+    "total_points": 20,
     "meaning_units": 11,
-    "penalty_per_unit": 3.090909090909091,
-    "major_equiv_per_unit": 0.6181818181818182,
-    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.8181818181818181,
+    "major_equiv_per_unit": 0.36363636363636365,
+    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

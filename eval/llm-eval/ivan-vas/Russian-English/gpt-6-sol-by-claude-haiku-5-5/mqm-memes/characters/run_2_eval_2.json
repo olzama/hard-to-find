@@ -24,15 +24,15 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Медальон' (medallion, a pendant) is rendered as 'medal' (an award). The callback to the earlier theft scene depends on the same stolen object, so changing it to a different kind of item misstates what was taken."
+          "justification": "The analysis locates the humor in the mock-heroic register of 'терзают смутные сомнения'. The candidate's 'I'm beginning to have those nagging doubts again' is flat and colloquial, so the elevated, theatrical tone that drives the joke is lost."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "'I'm beginning to have those nagging doubts again' is colloquial and loses the mock-heroic register the analysis identifies. 'Terzают смутные сомнения' ('tormented by vague doubts') carries the theatrical, tragic-opera tone that 'haunt me' preserves better."
+          "justification": "'Медальон' (a pendant or locket) is rendered as 'medal' (an award). This changes the object, though the 'ambassador loses an item' point still comes across."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate addresses the Tsar ('Your Majesty') in every greeting, so Bunsha greets the Tsar. The analysis and its note state that he is introducing himself as the Tsar, not addressing one, and the candidate contradicts this. The self-introduction ('I'm the Tsar') is lost, and 'So nice to meet you!' is added."
+          "justification": "The analysis states that the translation must make clear Bunsha is introducing himself as the Tsar, not addressing one. The candidate repeatedly uses 'Your Majesty' as the object of the greeting, so it reads as Bunsha greeting a monarch. This reverses the intended meaning and loses the joke."
         }
       ]
     },
@@ -91,14 +91,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman.\nI am sorrowful.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'I am sorrowful' is a plainer, more modern state description than 'I am in sorrow', which keeps the archaic, high-register melancholy the analysis asks for. The regal tone is slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -113,7 +106,14 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nThe demons have walled me in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The source is a single, broken, stammering exclamation ('замуровали… замуровали, демоны'). The candidate splits it into two sentences that restate the same event, so the second line is redundant and the stammer is lost. The demons are correctly the subject, as the analysis requires."
+        }
+      ]
     },
     {
       "id": 6,
@@ -153,14 +153,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' turns the source's declarative announcement ('Everyone is dancing!') into a flat imperative. The reference's formal, ceremonial 'The floor is open to everyone' better captures the mock-authoritative tone of a ruler opening the floor, though the candidate still conveys the chaotic party."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -180,14 +173,7 @@
         }
       },
       "candidate": "Well, this is my lucky day!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Well, this is my lucky day!' shifts the meaning from timing ('I dropped in at a good moment', the pun on 'зашел') to general good luck. The analysis's point about the entry and the cheerful reaction to his own crime is preserved, but the visit-timing sense is lost."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -207,14 +193,7 @@
         }
       },
       "candidate": "Black caviar, red caviar...\nAnd yes! Caviar from overseas...\nEggplant spread!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate's setup line 'Caviar from overseas...' calls the eggplant spread 'caviar' before the reveal. The analysis explicitly says translations must not call eggplant spread 'caviar' because it will confuse viewers, and the candidate contradicts this. The reference avoids the problem with 'Overseas spread'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -239,7 +218,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's joke depends on Shpak forgetting to count the suede jacket: 'куртка… замшевая… Три' stumbles, then restarts the count. The candidate states 'three suede jackets' as a clean list item, removing the stumble and the slip that the analysis identifies as the funniest element, so the humor is lost."
+          "justification": "The analysis says the joke depends on Shpak forgetting to increment the suede jacket count, which betrays him. The source has one jacket ('куртка… замшевая… Три'). The candidate says 'three suede jackets' from the start, which removes the slip and the final 'Three' beat that make the joke work."
         }
       ]
     },
@@ -261,21 +240,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks in 'And they'll cure you!' and the following lines turn the source's calm, melodic, trailing resignation (ellipses) into agitated exclamation. This contradicts the 'calm resignation' described in the analysis, although the words themselves are accurate."
+          "justification": "The source ends each line on a trailing ellipsis, which conveys calm, melodic resignation. The candidate uses exclamation marks, which make the delivery emphatic and alter the tone the analysis describes."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 25,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't recruit\na Baba Yaga from outside,\nwe'll raise one in our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Recruit\" and \"raise\" fit the staffing logic reasonably, but \"raise\" suggests bringing up a child, and the bureaucratic training/in-house tone of the reference (\"train one in-house\") is slightly weaker. \"Collective\" retains the Soviet flavor, and the workplace logic and Baba Yaga as a toxic type are mostly kept."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -55,10 +48,10 @@
       "candidate": "briefly, for about forty minutes,\nno more, I don't think we need more,",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The key word \"коротенько\" is rendered as plain \"briefly\", and the line then says \"for about forty minutes, no more\", dropping the faux-modest diminutive and the smug understatement. The result also loses the comic reversal: \"briefly\" comes first, but the added \"no more, I don't think we need more\" is redundant and flat, so the punchline is weakened."
+          "justification": "The 'faux-modesty' of «коротенько» is not rendered: 'briefly, for about forty minutes' is flat, and the added 'for' makes it a plain statement of duration. The 'no more' repetition plus 'I don't think we need more' is slightly redundant, so the self-satisfied, patronizing tone is weaker, though the brief-then-forty-minutes reversal is preserved."
         }
       ]
     },
@@ -75,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nOh, he's ready, all right. Been ready for ages!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate says \"ready, all right\" and \"been ready for ages\", which hints at the double meaning, similar to the reference. But it does not recreate the drunk subtext any more than the reference does, and \"for ages\" is slightly more exaggerated than \"давно\". The administrative setup is kept, so the issue is small."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -102,7 +88,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... Yoo-hoo!\" keeps the broken, theatrical call. But \"People!\" is not stretched or broken like \"Peo-ple!\", so the vocal instability is somewhat lessened. The added \"Anybody?\" is an extra that is not in the source, though it fits the pitiful tone."
+          "justification": "The broken, stretched vocalization of «Лю-ди!» is lost: 'People!' is clean and unsyllabified, which the analysis warns against. 'Yoo-hoo!' does give a wavering call, and 'Anybody?' adds a pitiful note, but the drunken vocal collapse is only partly conveyed."
         }
       ]
     },
@@ -129,7 +115,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis says to avoid. It does not echo the English \"unaided eye\", so the audience does not recognize a mangled familiar idiom. It sounds merely strange rather than mock-scientific."
+          "justification": "'Armed eye' is the literal calque the analysis says to avoid. In English it does not echo 'unaided/naked eye', so the audience does not recognize a mangled familiar idiom. It reads as merely strange or surreal rather than as mock-scientific pomp, and the joke is largely lost."
         }
       ]
     },
@@ -156,7 +142,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting is rendered as \"two-star, three-star... Four-star\", which suggests the cognac rating from the start. This removes the build-up of silly, empty stargazing and the sudden semantic shift at \"five-star\". The punchline is still understandable, but the derailment is weaker. There is also no note on the cognac association."
+          "justification": "The progression and the five-star punchline are kept, and the cognac association is as opaque as in the source (the analysis notes a note may be needed). However, 'two-star, three-star... Four-star' as adjectives with no noun loses the childish counting of 'little stars', and the 'two-star, three-star... Four-star' phrasing breaks the rhythm of the buildup. The cognac click is therefore a bit weaker, and no explanatory note is provided."
         }
       ]
     },
@@ -178,21 +164,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Not yet in the loop\" captures the casual register and the personification of science well. However, \"there isn't life on Mars\" is slightly awkward, and \"in the loop\" is a bit more modern or jargon-like than \"not up to speed\". The effect is largely preserved."
+          "justification": "'Not yet in the loop' keeps the colloquial, personified-science register well. 'Whether there's life on Mars or there isn't life on Mars' is slightly clunky compared with the natural 'or not', which makes the opening a bit more stilted than the casual tone requires."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

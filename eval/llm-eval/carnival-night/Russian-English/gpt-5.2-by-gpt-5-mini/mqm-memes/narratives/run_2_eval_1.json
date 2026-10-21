@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses plain “briefly” where the Russian diminutive («коротенько») implies a faux-modest, almost cozy understatement. That diminutive flavor is important for the comic reversal when followed by “forty minutes.” The translation preserves the contrast but flattens the tiny, patronizing tone slightly."
+          "justification": "The candidate preserves the bureaucratic understatement and the comic reversal, but it loses the diminutive, slightly cozy tone of «коротенько» (the faux-modest 'just a little' feel). That diminutive shading helps make 'forty minutes' land as an absurdly long 'brief' and is slightly weakened here."
         }
       ]
     },
@@ -127,10 +127,10 @@
       "candidate": "But all we have to do is take\na telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as “armed eye,” which the notes explicitly warn against: in English this literal calque becomes oddly surreal rather than a mock-scientific twist on “the unaided/ naked eye.” The chosen phrasing therefore fails to recreate the intended familiar-but-mangled idiom and the lecturer’s pseudo-scientific tone."
+          "justification": "The candidate renders «вооружённым глазом» as 'armed eye,' a literal calque that reads oddly and more surreal in English than the Russian original. The intended effect is a mock‑scientific distortion echoing 'the unaided eye'; a phrasing like 'the aided eye' would better reproduce the comic near‑miss. The current choice risks distracting from the intended parody."
         }
       ]
     },
@@ -154,14 +154,7 @@
         }
       },
       "candidate": "and we already see two stars,\nthree stars...\nFour stars—best of all,\nof course, five stars!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The progression in the candidate is slightly muddled: “Four stars—best of all, of course, five stars!” reads awkwardly and interrupts the clear comic pivot from trivial counting to the cognac-related punchline. The meaning is recoverable, but the cadence and surprise are weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -185,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 2
     },
-    "total_points": 7,
+    "total_points": 2,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.25,
+    "major_equiv_per_unit": 0.05,
+    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

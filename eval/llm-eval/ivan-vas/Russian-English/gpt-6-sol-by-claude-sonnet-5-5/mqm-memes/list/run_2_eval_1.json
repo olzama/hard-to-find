@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"I'm having those vague suspicions again\" is flat and conversational. It loses the mock-heroic, theatrical register of \"терзают смутные сомнения\" (as in \"Vague doubts haunt me\"), which is the core of the joke. \"Those\" also sounds odd, as if referring to something already mentioned."
+          "justification": "The mock-heroic register of 'терзают смутные сомнения' is lost: 'I'm having those vague suspicions again' is flat and colloquial, with no theatrical or literary tone, so the comic contrast is gone."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"медальон\" is rendered as \"medal\", which changes the object. The ambassador lost a medallion, not a decoration."
+          "justification": "'Medal' is not 'medallion'; the object is slightly changed. The elliptical 'Shpak's tape recorder. The ambassador's medal.' does preserve the sense of lost items."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"A pleasure, Tsar!\" and \"Hello, Tsar!\" read as Bunsha addressing a Tsar. The analysis requires that he introduce himself as the Tsar. The central joke, in which the drunken impostor introduces himself in clichéd greeting formulas, is lost."
+          "justification": "'Tsar' without an introductory frame reads as Bunsha addressing a Tsar, which is exactly what the note forbids. It should be clear that he is introducing himself as the Tsar."
         }
       ]
     },
@@ -166,7 +166,14 @@
         }
       },
       "candidate": "Talk about perfect timing!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Talk about perfect timing' is acceptable in spirit for arriving at the right moment, but it loses the 'I picked a good place to enter' sense and the pleasure of discovering the loot. It does not mislead about leaving, though, so the loss is limited."
+        }
+      ]
     },
     {
       "id": 9,
@@ -191,13 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Exotic caviar... Eggplant!\" makes the last item read as a caviar, which the notes explicitly warn against because it confuses viewers. The satire only works if the cheap eggplant spread is clearly distinct from the black and red caviar."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"заморская\" (overseas) becomes \"exotic\", which weakens the 'from overseas' status-symbol irony."
+          "justification": "The candidate calls the eggplant spread 'caviar' ('Exotic caviar... Eggplant!'), which the note says will confuse viewers. The satirical inversion of status symbols is blurred, and the 'overseas' idea becomes the vaguer 'exotic'."
         }
       ]
     },
@@ -224,7 +225,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"three suede jackets\". In the source, Shpak forgets to increment the count at first and says only one jacket, then adds \"Три\". That slip is what betrays him, and the candidate removes it, so the joke is lost."
+          "justification": "The joke depends on Shpak forgetting to raise the suede jacket count (the jacket is singular before 'Three'). The candidate gives 'three suede jackets', erasing that slip, and it also drops the 'domestic…' hesitation structure."
         }
       ]
     },
@@ -246,21 +247,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Get treatment\" is blander than \"вылечат\" (cure). The exclamation marks make the lines sound emphatic instead of the calm, melodic resignation the analysis describes."
+          "justification": "'You'll get treatment' is flatter than 'they'll cure you' and drops the calm, melodic resignation. The exclamation marks make it sound upbeat or emphatic instead of resigned."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 5,
+      "minor": 2
     },
-    "total_points": 23,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

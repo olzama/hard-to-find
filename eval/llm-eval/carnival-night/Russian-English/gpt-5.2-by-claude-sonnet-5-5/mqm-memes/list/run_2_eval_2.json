@@ -44,13 +44,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word «коллектив» is left untranslated in the English subtitle, a Cyrillic fragment that English viewers cannot read and that breaks the line."
+          "justification": "The Russian word \"коллектив\" is left untranslated inside the English subtitle, so the English-speaking viewer cannot read the workplace/'collective' point that the joke depends on."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Keeping Baba Yaga as a fairy-tale name without any workplace-type cue leans toward the fantastical, which the analysis warns against. 'Raise her' also sounds less like staffing and training logic than 'train one in-house'."
+          "justification": "\"Raise her\" keeps the fairy-tale figure but is a less natural fit for the staffing/training logic than \"train/cultivate\"; the Baba Yaga-as-colleague meaning is only weakly conveyed."
         }
       ]
     },
@@ -76,13 +76,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Just briefly' is flat and loses the cozy, faux-modest diminutive force of «коротенько». The punchline still lands because the briefness claim precedes 'forty minutes'."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line break after 'no more, I think' and the trailing 'that should be enough' are slightly choppy, and the smug managerial tone is weaker than in the source."
+          "justification": "\"Just briefly\" is a flat rendering of the diminutive «коротенько» and loses the cozy faux-modesty. The brevity claim does precede \"forty minutes\", so the reversal still works, but it is weakened. The added \"that should be enough\" overstates Ogurtsov's smugness slightly."
         }
       ]
     },
@@ -108,13 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / already drunk) is not recreated. 'Ready' is rendered in a purely literal sense, so the alcoholic subtext described in the analysis is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "The speaker dash markers for the two-person exchange are missing, so it is unclear that two people are speaking."
+          "justification": "Only the literal \"ready\" is rendered, with nothing that hints at \"done for/drunk\". The double meaning that makes the exchange funny is lost, which the analysis names as the main translation risk. Wording like \"been ready for a long time\" is only faintly suggestive."
         }
       ]
     },
@@ -140,13 +128,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Heeelp!' replaces the 'hello' call «ау-у» with a different word. This changes the meaning into a cry for help, which is not in the source."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'People!' is rendered cleanly without the stretched, broken syllables of «Лю-ди», so part of the faltering drunken vocalization is lost."
+          "justification": "\"Ау-у\" (a call to get someone's attention) becomes \"heeelp!\", which changes the meaning: the lecturer now appears to be calling for help rather than hailing the crowd. The stretched, faltering vocal quality is kept, but the sense of addressing an audience is damaged."
         }
       ]
     },
@@ -173,9 +155,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Armed eye' is a literal calque that the analysis explicitly says to avoid. It sounds surreal and does not echo the familiar English 'unaided eye' idiom to give a mock-scientific slip."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It sounds more surreal than the Russian and does not echo the familiar English \"unaided/naked eye\", so the idiom-deformation joke does not land naturally for English viewers."
         }
       ]
     },
@@ -202,15 +184,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Little stars' is a childish rendering of «звёздочки», but it keeps the trivial counting. It makes the cognac association (5*) less recognizable, and there is no note or cue to help viewers who do not know it."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line breaks and the sentence start with lowercase 'and' make the pacing choppy, so the sudden shift to 'five stars' is less crisp."
+          "justification": "The star-counting progression is kept and \"five little stars\" still shifts to the cognac frame, but there is no cultural note or cue that makes the five-star cognac association accessible. Many English viewers will miss the punchline, as the analysis flags. The \"best of all\" wording is slightly stiff."
         }
       ]
     },
@@ -234,15 +210,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Whether there is no life on Mars' is a stiff literal rendering of «нет ли жизни», where 'or not' would be more natural."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Is not yet aware of the matter' is a little more formal than the casual «не в курсе дела». The personified, 'not up to speed' colloquial punch is weaker."
+          "justification": "\"Whether there is no life on Mars\" is a clumsy literal rendering of the symmetrical Russian clause and sounds awkward. \"Not yet aware of the matter\" is slightly more formal than the colloquial \"не в курсе дела\" (up to speed), so some of the register mismatch is lost, though the personification of science and the factual content are preserved."
         }
       ]
     }
@@ -250,13 +220,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 9
+      "minor": 4
     },
-    "total_points": 29,
+    "total_points": 24,
     "meaning_units": 8,
-    "penalty_per_unit": 3.625,
-    "major_equiv_per_unit": 0.725,
-    "interpretation": "3.62 MQM penalty points per meaning unit (≈ 0.72 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

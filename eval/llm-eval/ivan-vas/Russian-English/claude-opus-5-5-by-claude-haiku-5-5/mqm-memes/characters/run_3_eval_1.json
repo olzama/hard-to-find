@@ -41,7 +41,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that the lines read as Bunsha introducing himself as the Tsar, not addressing one. The candidate's vocatives (\"A pleasure, Tsar!\", \"Tsar, a pleasure!\", \"Hello, Tsar!\") read as greetings to a Tsar, which contradicts that requirement. The reference's \"I'm the Tsar\" makes the self-introduction explicit."
+          "justification": "The analysis requires that the lines read as Bunsha introducing himself as the Tsar, not addressing one. 'A pleasure, Tsar!', 'Tsar, a pleasure!' and 'Hello, Tsar! A pleasure!' read as greetings to a tsar, and the self-identification is missing. The reference's 'I'm the Tsar' makes it clear."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'A pleasure, hello, Tsar!' is an awkward stacked phrasing that reads less naturally than the source's clipped repetitions."
         }
       ]
     },
@@ -176,9 +182,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly warns against calling the eggplant spread 'caviar' because it will confuse viewers. The candidate's \"And overseas caviar...\" applies the caviar label to the eggplant spread, which is the error the note forbids. The reference avoids this with \"Overseas spread\"."
+          "justification": "The translator note states that eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'And overseas caviar...' followed by 'Eggplant!' labels the cheap spread as caviar, which contradicts that explicit guidance and blurs the status-inversion joke. The reference avoids this with 'Overseas spread'."
         }
       ]
     },
@@ -205,7 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis locates the humor in Shpak initially forgetting to increment the count for the suede jacket, then correcting to 'Three'. The candidate states \"suede jackets—three\" with the plural from the start, so the singular slip and the counting beat are lost. The reference keeps 'a suede jacket… Three.'"
+          "justification": "The joke depends on the singular 'куртка' followed by 'Три': Shpak forgets to increment the jacket count and then corrects it. The candidate's plural 'suede jackets—three' removes that miscount beat, so the mechanism the analysis identifies as the punchline is lost. The reference keeps 'a suede jacket… Three.'"
         }
       ]
     },
@@ -225,9 +231,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The exclamation marks replace the source's trailing ellipses, shifting the calm, melodic resignation described in the analysis toward agitation or hysteria."
+        },
+        {
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source sequence is 'you will be cured… you too will be cured… I will be cured'. The candidate moves 'too' onto the first line and adds 'as well' on the second, so 'you' is repeated with redundant wording. This weakens the calm, incantatory parallelism of the original, though the meaning is preserved."
+          "justification": "The first line 'They'll cure you too!' adds 'too' to the opening where the source has only 'И тебя вылечат'; 'тоже' appears only in the second clause. The repeated 'as well' also adds redundancy not present in the source."
         }
       ]
     }
@@ -235,13 +247,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 1
+      "minor": 3
     },
-    "total_points": 16,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

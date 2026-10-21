@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as possession ('Shpak's got... the envoy's got...'), whereas the analysis/NB makes clear these items are no longer in their possession (they were lost/stolen). This reverses the intended meaning and undermines the joke about who is missing what."
+          "justification": "The candidate 'Shpak's got a tape recorder, the envoy's got a medallion.' reads as present possession (they have these items). The source/analysis specify these people have lost the items (the phrasing means the items were taken/were missing). This reverses the factual relation and contradicts the analysis note."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should read as Bunsha introducing himself as 'the Tsar' (he is claiming the identity), not addressing someone else as the Tsar. The candidate's phrasing ('Very nice, Tsar! ... Hello, Tsar!') reads as if Bunsha is addressing a Tsar, which contradicts the analysis and loses the gag about him repeatedly introducing himself as the Tsar."
+          "justification": "The line must make clear Bunsha is introducing himself as the Tsar, not addressing a Tsar. The candidate ('Very nice, Tsar! ... Hello, Tsar!') reads as someone addressing the Tsar rather than repeatedly introducing himself as 'the Tsar', so it fails the key comic premise from the analysis."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original indicates the demons are the agents who have walled him in ('They've walled me in... the demons'). The candidate's 'Bricked up, demons!' reads like an address to demons rather than attributing the action to them, creating a subject/agent ambiguity that contradicts the analysis note."
+          "justification": "The Russian construction makes 'demons' the subject who have walled him in (not a vocative). The candidate 'Bricked up, demons!' reads as if he is directly addressing demons, changing the syntactic role and weakening the intended meaning that he has been trapped by them."
         }
       ]
     },
@@ -159,10 +159,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's line ('Imported caviar... Eggplant!') implies eggplant is a type of caviar, whereas the analysis warns explicitly not to call the eggplant spread 'caviar'. The original joke contrasts real (black/red) caviar with cheap 'eggplant spread' presented as if exotic; the candidate collapses that distinction and thus confuses the satire."
+          "justification": "The source joke hinges on naming cheap eggplant spread in the register of exotic 'overseas' goods without literally calling it 'caviar.' The candidate's phrasing ('Imported caviar... Eggplant!') risks implying eggplant is simply another caviar rather than the comedic contrast between real caviar and the humble eggplant spread, which could confuse the punchline."
         }
       ]
     },
@@ -179,14 +179,7 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 film cameras,\n3 domestic cigarette cases,\nsuede jackets—three.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The comedic effect in the source depends on Shpak's slip—hesitating and failing to increment the count for the suede jacket—revealing his exaggeration. The candidate renders this cleanly as 'suede jackets—three,' removing the hesitation/contradiction and thus eliminating the key joke about his lying/exaggeration."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -206,14 +199,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 0
+      "major": 3,
+      "minor": 1
     },
-    "total_points": 25,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

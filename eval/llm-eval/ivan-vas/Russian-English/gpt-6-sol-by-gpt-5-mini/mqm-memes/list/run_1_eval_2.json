@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing a Tsar (vocative), e.g. 'Hello, Tsar' and 'A pleasure, Tsar', whereas the analysis requires it to be clear he is introducing himself as the Tsar (i.e. claiming the identity). This changes the comedic premise (impersonation) and contradicts the analysis note."
+          "justification": "The candidate renders the lines as addresses to the Tsar ('A pleasure, Tsar! Hello, Tsar!') rather than Bunsha absurdly introducing himself as the Tsar. The analysis requires that it be clear he is introducing himself (the joke is that a low-level bureaucrat repeatedly proclaims himself 'the Tsar'), which the candidate fails to convey."
         }
       ]
     },
@@ -93,14 +93,7 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nWalled me in, the demons!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The line must present 'demons' as the agents who walled him in (subject). The candidate's second line ('Walled me in, the demons!') reads like direct address to the demons rather than stating they did it, which reverses the intended meaning and undermines the joke about a technological malfunction being perceived as sorcery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -180,7 +173,14 @@
         }
       },
       "candidate": "Black caviar, red caviar...\nOh, yes! Caviar from overseas...\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "By rendering the line as 'Caviar from overseas... Eggplant!' the candidate risks implying that the eggplant is itself a caviar, which the analysis warns against. The humour hinges on the contrast between actual caviar and the cheap 'eggplant spread' presented as a rare overseas delicacy; the candidate's phrasing may confuse that relationship."
+        }
+      ]
     },
     {
       "id": 10,
@@ -200,7 +200,14 @@
         }
       },
       "candidate": "Three tape recorders,\nthree movie cameras,\nthree Soviet-made cigarette cases,\nand three suede jackets.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate turns the list into a straightforward inventory ('and three suede jackets'), removing the comic beat where Shpak hesitates/forgets and thus betrays himself by later repeating the total. That incremental forgetting is essential to the joke; flattening it loses the humor and the character-revealing moment."
+        }
+      ]
     },
     {
       "id": 11,
@@ -221,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 0
+      "minor": 1
     },
-    "total_points": 10,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

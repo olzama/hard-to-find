@@ -121,7 +121,14 @@
         "language_specific": {}
       },
       "candidate": "Pois si que dei cun bo sitio!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The phrase means he has just stumbled upon a good place/loot, but \"dei cun bo sitio\" can sound like he found or ran into a place in a neutral way and does not clearly preserve the triumphant, opportunistic sense of discovering something valuable."
+        }
+      ]
     },
     {
       "id": 9,
@@ -136,7 +143,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello… Si! Manxar de ultramar… de berenxena!\nDe berenxena!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The line repeats the final word \"de berenxena\" on a new subtitle line, which is unnecessary and slightly distorts the punchy delivery of the original. The core meaning is preserved, but the emphatic rhythm is weakened."
+        }
+      ]
     },
     {
       "id": 10,
@@ -171,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 0
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 0,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 0.0,
-    "major_equiv_per_unit": 0.0,
-    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -21,7 +21,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Me atormentan vagas dudas\" keeps the mock-heroic register reasonably well, but \"vagas\" is slightly less natural than \"oscuras/vagas\" in the formulaic phrase and the line break splits the phrase awkwardly. The loss meaning is rendered correctly (\"le faltó\"), though \"magnetófono\" is a less usual form than \"magnetofón\"."
+          "justification": "\"vagas dudas\" and \"me atormentan\" are acceptable, but the mock-heroic tone is somewhat weaker than \"oscuras sospechas\"; the line breaks fragment the pompous phrase."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"le faltó\" conveys that the item is missing, which respects the NB. The tense (preterite) and the loss of the parallel construction are slightly less precise but the meaning is preserved."
         }
       ]
     },
@@ -41,9 +47,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "Correctly makes clear he is introducing himself as the Tsar. However, it adds a fourth line (\"Soy el zar, encantado\") not in the source, and the greeting \"Hola\" is flatter than the formal Soviet cliché, weakening the stiff-ritual effect."
+          "justification": "\"Hola\" is less formally polite than \"Buenas noches\" and weakens the stiff social ritual. The extra fourth line \"Soy el zar, encantado\" is an addition not in the source, though it is a repetition. The self-introduction as the Tsar is clear."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Anciana\" and \"apenado\" are neutral and lose the archaic/affectionate-condescending flavor of \"старушка\" and \"в печали\"; \"viejecita\" and \"afligido\" better convey the regal, high-register tone and the contrast with the modern setting."
+          "justification": "\"anciana\" and \"apenado\" are neutral and lose the archaic, affectionate-condescending regal register of \"viejecita\" and \"afligido\" that creates the contrast with the Soviet setting."
         }
       ]
     },
@@ -117,7 +123,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"¡Mira lo que hace...!\" is colloquial and sounds like addressing someone, weakening the Tsar's solemn, archaic conviction conveyed by \"Вот что ... делает\"."
+          "justification": "\"¡Mira lo que hace...!\" is colloquial and addresses someone, weakening the Tsar's solemn, archaic conviction in the miracle. The meaning is otherwise preserved."
         }
       ]
     },
@@ -154,7 +160,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"He entrado en el momento justo\" changes the meaning: the source says he happened to walk into a lucky place (the apartment full of goods), not that he arrived at the right moment. The sense of luck at finding the place and the 'deficit goods' context is lost, though it does correctly imply he has just entered."
+          "justification": "\"He entrado en el momento justo\" changes the meaning to being in the right moment/time, losing the sense of having luckily picked the right place (the apartment full of goods). The cheerful burglar's remark on his lucky find is lost."
         }
       ]
     },
@@ -176,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Paté de berenjena\" avoids calling eggplant 'caviar', which is good, but \"huevas\" for black and red caviar is a poor choice (not the recognised luxury term) and the joke's parallel between 'caviar' and 'caviar de berenjena' is lost. \"Заморская\" is rendered by \"de ultramar\", but the 'delicacy' framing is dropped, so the satirical inversion is weakened."
+          "justification": "\"huevas\" is a poor equivalent of caviar and loses the luxury status symbol. \"paté de berenjena\" correctly avoids calling the spread caviar, but the dropped parallel \"заморская икра\" and the shortage/status-inversion joke are weakened since the delicacy is no longer presented as a rare overseas luxury."
         }
       ]
     },
@@ -196,9 +202,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The list is mostly correct, but \"cámaras\" drops \"de cine\" (kinocamera), and \"3\" in digits instead of \"tres\" reduces the spoken comic escalation. The key joke of the forgotten jacket count is preserved."
+          "justification": "Numerals \"3\" instead of written-out numbers flatten the spoken, rhythmic list. \"cámaras\" omits \"de cine\", a minor loss of precision. The key joke of the forgotten jacket count is preserved."
         }
       ]
     },
@@ -220,7 +226,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks make the lines sound emphatic, whereas the analysis stresses her melodic, calm resignation; the tone is somewhat too agitated."
+          "justification": "Exclamation marks make the delivery sound emphatic, while the analysis calls for a calm, melodic resignation; the tone of hysterical-but-calm acceptance is partly lost."
         }
       ]
     }
@@ -228,13 +234,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 16,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

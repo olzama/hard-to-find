@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink—name one! No, I’m waiting!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and humour but tones down the bombastic, self-dramatising theatricality signalled in the analysis. The clipped, conversational phrasing ('name one! No, I’m waiting!') is less grandiloquent than the reference's lofty, performative voice."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -71,9 +64,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate shifts the nuance from civic/military duty ('you live to do your duty') to a more inward moral phrasing ('you live for your conscience'), which slightly alters the original fatalistic, duty-focused tone of the maxim."
+          "justification": "The candidate preserves the basic contrast between pleasure and duty, but the phrasing \"live for your conscience\" is slightly unnatural in English and softens the soldierly, duty-driven fatalism the analysis highlights. A more idiomatic rendering would keep the blunt moral/duty tone (e.g. \"you don't live to be happy—you live to do your duty\")."
         }
       ]
     },
@@ -105,7 +98,14 @@
         "language_specific": {}
       },
       "candidate": "You hopeless cook!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate maintains the insulting punch, but shifts from the sly ironic rebuke of the reference (\"Some cook you are!\") to a more direct, blunt insult (\"You hopeless cook!\"). This is acceptable but slightly changes the register and comedic shading."
+        }
+      ]
     },
     {
       "id": 7,
@@ -135,7 +135,14 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, for God's sake—don't wait for peritonitis!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the urgent medical brusqueness, but \"Cut it out, for God's sake\" is marginally less coarse and blunt than the reference's stronger phrasing. The comic-shock surgical terseness is slightly softened."
+        }
+      ]
     },
     {
       "id": 9,
@@ -170,7 +177,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the grammatical subject to 'He' ('He's my cross to bear'), which implies the person (Khobotov) is the cross, rather than preserving the idiom that expresses the speaker's self-assigned burden. This reverses the intended manipulative meaning and undermines the original theatrical claim of self-sacrifice."
+          "justification": "The candidate changes the target of the metaphor: by rendering the line as \"He's my cross to bear!\" it makes the person into the cross, whereas the source/analysis dialectically presents the burden as the speaker's cross to bear (manipulative self-sacrifice). This shift alters the manipulative trope and weakens the intended idiomatic English effect."
         }
       ]
     },
@@ -190,9 +197,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate's 'all elbows' is a creative attempt to avoid the literal 'angular', but it reads slightly awkward and colloquial compared with the playful, self-mocking register in the analysis. The phrasing 'so all elbows...' is jarring and less elegant than the reference's rhythm."
+          "justification": "The candidate captures the self-mocking, fragmented register and avoids the literal \"angular\" trap, but the phrase \"so all elbows...\" is slightly awkward in English. It conveys the idea, yet reads less natural than alternatives like \"all sharp edges\" or \"all elbows and angles\"."
         }
       ]
     }
@@ -200,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 3
+      "minor": 4
     },
-    "total_points": 8,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

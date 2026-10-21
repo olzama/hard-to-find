@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate mistranslates the key possession/absence relation: it says Shpak and the ambassador have the items, while the scene means those items are missing from them. This destroys the callback joke described in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The opening line is less idiomatic and less mock-heroic than the reference, weakening Bunsha’s theatrical, high-register complaint."
+          "justification": "The candidate changes the key relational meaning: it says the magnetophone is still with Shpak and the medalion with the ambassador, whereas the line means both have lost those items. This breaks the comic theft callback."
         }
       ]
     },
@@ -49,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the situation from Bunsha introducing himself as the Tsar to someone addressing the Tsar. This directly contradicts the analysis and removes the joke."
-        },
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The phrasing does not preserve the repetitive, mundane formal-greeting rhythm; it sounds like a normal salutation rather than Bunsha’s absurd self-introduction."
+          "justification": "It no longer clearly reads as Bunsha repeatedly introducing himself as the tsar; it sounds like he is being addressed as tsar. That contradicts the required joke and the note in the analysis."
         }
       ]
     },
@@ -92,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou de pena\" is understandable, but it is less natural and less elevated than the reference’s \"estou aflixido,\" slightly weakening the Tsar’s archaic, melancholy tone."
+          "justification": "\"Estou de pena\" is understandable, but it is less idiomatic and less elevated than the reference's melancholic phrasing, slightly weakening the mock-royal tone."
         }
       ]
     },
@@ -111,10 +99,10 @@
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate preserves the meaning, but splitting the line into two short sentences makes the lament a bit less fluid and less forceful than the compact, bewildered outburst in the reference."
+          "justification": "The second line, \"Emparedáronme, demos!\", can be read as if he is addressing the demons rather than saying the demons did it. The analysis explicitly warns against this ambiguity."
         }
       ]
     },
@@ -136,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Mira\" is slightly more direct than the reference’s more solemn \"Velaquí,\" so the line loses a bit of the Tsar’s amazed, quasi-liturgical register."
+          "justification": "\"Mira\" is a bit more conversational than the reference's exclamatory formulation, so the line loses some of the theatrical awe of the original."
         }
       ]
     },
@@ -153,14 +141,7 @@
         "language_specific": {}
       },
       "candidate": "Que baile todo o mundo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is accurate, but \"Que baile todo o mundo!\" sounds a bit less like an imperative rallying cry than the concise, energetic \"Todos a bailar!\"."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -180,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Que ben cheguei!\" implies he arrived well, but the source means he has stumbled into a fortunate situation. It loses the burglar’s cheerful reaction to finding valuables and also omits the sense of accidentally entering the right place."
+          "justification": "\"Que ben cheguei!\" suggests he is commenting on arriving well, but the source is the triumphant reaction of having stumbled into a profitable target. It misses the comic self-satisfaction and the sense of discovering a good haul."
         }
       ]
     },
@@ -202,13 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate introduces \"caviar de ultramar,\" but the joke depends on the ridiculous reveal of \"eggplant caviar\". Omitting the eggplant destroys the satirical punch and the food-shortage reference."
-        },
-        {
-          "severity": "major",
-          "category": "terminology",
-          "span": "",
-          "justification": "Using \"caviar\" for the eggplant spread conflicts with the analysis, which explicitly warns that the item should not be called caviar because it confuses the viewer."
+          "justification": "The candidate omits the crucial joke about \"eggplant\" entirely and repeats \"caviar\" instead. This removes the satirical punchline that the analysis identifies as essential."
         }
       ]
     },
@@ -228,9 +203,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The abbreviated item names and very compact formatting are understandable, but they sound less like Shpak’s boastful, escalating inventory and more like a bare list, slightly weakening the comic buildup."
+          "justification": "The list is compressed and slightly awkwardly formatted, which weakens the escalating comic buildup. The meaning is preserved, but the rhythm is less effective than the source/reference."
         }
       ]
     },
@@ -252,14 +227,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 6
+      "major": 5,
+      "minor": 3
     },
-    "total_points": 36,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 3.272727272727273,
-    "major_equiv_per_unit": 0.6545454545454545,
-    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

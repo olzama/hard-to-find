@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"A short speech\" states the briefness claim flatly and drops the diminutive, faux-modest tone of \"коротенько\" that the analysis identifies as the setup for the \"forty minutes\" punchline. The line opens as a lowercase fragment with no clear lead-in, which weakens the patronizing understatement."
+          "justification": "\"A short speech\" states the briefness claim plainly. It lacks the faux-modest, diminutive \"коротенько так\" tone the analysis describes, so the contrast with \"forty minutes\" lands a little less sharply."
         }
       ]
     },
@@ -88,7 +88,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hello?\" works as an equivalent of the call «ау», and the ellipsis conveys hesitation. However, the question form and the unstressed \"People!\" lose the stretched, faltering vocal quality the analysis describes as central to the drunken entrance; the reference's \"Peo-ple! Ah… hellooo!\" carries this shape."
+          "justification": "\"Hello?\" is a clean, complete hail, and the stretched, wavering \"Ah… ay-oo!\" is lost. The analysis asks that the line stay vocally unstable as a failed formal opening. The leading dash also reads oddly for a single speaker."
         }
       ]
     },
@@ -115,7 +115,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the malformed-idiom joke entirely. The source's «вооружённым глазом» (a corrupted «невооружённым глазом», 'with the naked eye') is rendered as a plain \"look through it,\" so the audience no longer hears the familiar expression being wrongly 'upgraded' into mock-scientific language. The analysis identifies this as the core comic mechanism, and the reference preserves it with \"aided eye\" (echoing \"unaided eye\")."
+          "justification": "The malformed idiom at the heart of the joke (невооружённым → вооружённым, the \"armed\" eye) has no counterpart. \"And look through it\" is an ordinary sentence, so the mock-scientific corruption of a familiar expression disappears. The analysis says this must be preserved or recreated, and nothing in the candidate does that job."
         }
       ]
     },
@@ -139,10 +139,10 @@
       "candidate": "we see\ntwo little stars, three little stars...\nFour little stars. Of course,\nfive stars would be best!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line opens lowercase as a fragment (\"we see\") and drops the \"already\" that marks the lecturer's faux-authoritative claim. \"Five stars would be best\" softens the source's direct \"пять звёздочек — лучше всего\" into a conditional, which slightly weakens the confident, deadpan final click into the cognac sense."
+          "justification": "The punchline depends on the cognac star-rating association, which is the cultural boundary the analysis flags. \"Five stars would be best\" reads as astronomy-adjacent nonsense for English viewers, so the sudden shift to a different semantic world is lost. The reference supplies a note for this and the candidate does not. The counting (\"little stars\") is otherwise well rendered."
         }
       ]
     },
@@ -164,14 +164,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 2,
+      "minor": 2
     },
-    "total_points": 8,
+    "total_points": 12,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5,
+    "major_equiv_per_unit": 0.3,
+    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

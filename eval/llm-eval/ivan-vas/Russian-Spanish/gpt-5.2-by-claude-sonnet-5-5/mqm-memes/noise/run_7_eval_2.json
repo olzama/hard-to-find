@@ -19,9 +19,15 @@
       "issues": [
         {
           "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "'vagas dudas' loses the mock-heroic, theatrical register of 'terminzan smutnye somneniya' (no 'oscuras sospechas' or equivalent elevated tone); it sounds plain."
+        },
+        {
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The colon-list \"Shpak: magnetófono. El embajador: medallón.\" does not convey that each man lost his item, which the NB requires. It reads as a bare label or inventory, so the callback to the thefts is lost."
+          "justification": "'Shpak: magnetófono. El embajador: medallón.' only lists items and does not convey that each lost them (the NB). The callback to the thefts is lost and the telegraphic form reads as ambiguous."
         }
       ]
     },
@@ -43,7 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"¡Mucho gusto, zar!\" and \"¡Hola, zar!\" read as Bunsha addressing a Tsar. The NB requires that he introduces himself as the Tsar (\"soy el zar\"), so the impersonation joke is lost."
+          "justification": "'Mucho gusto, zar' reads as Bunsha addressing a tsar, not introducing himself as the Tsar, which the NB explicitly says must be clear."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Lacks the mundane formal greeting cliché ('buenas noches, encantado') in the repetitive pattern; 'hola' is too casual for the stiff social ritual."
         }
       ]
     },
@@ -80,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Anciana\" and the plain \"estoy triste\" flatten the archaic, regal melancholy. The reference's \"viejecita\" and \"afligido\" keep the high register that contrasts with the Soviet setting."
+          "justification": "'anciana' and 'estoy triste' are flatter than the archaic, regal 'viejecita... afligido'; the high-register melancholy is weakened."
         }
       ]
     },
@@ -102,7 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"¡Han tapiado, demonios!\" puts \"demonios\" as a vocative, so the Tsar addresses the demons. The NB requires the demons to be the subject. The first clause also has no object, so it is unclear what was walled in."
+          "justification": "'¡Han tapiado, demonios!' makes demons a vocative, as if he were addressing them, which the NB forbids; demons must be the subject. The missing object/pronoun also makes it awkward."
         }
       ]
     },
@@ -154,7 +166,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"En el momento justo\" shifts the meaning to good timing. The source says he lucked into the right place (an apartment full of valuables). It does not mislead about leaving, but the lucky-find sense is weakened."
+          "justification": "'He entrado en el momento justo' keeps the sense of having just entered and a lucky outcome, with no misleading departure. But it shifts the fortune from the place to the timing, and the cheerful tone is slightly weaker."
         }
       ]
     },
@@ -176,7 +188,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Caviar de ultramar... de berenjena\" calls the eggplant spread caviar, which the NB forbids because it confuses viewers. The overseas-delicacy inversion is also muddied."
+          "justification": "'Caviar de ultramar... de berenjena' calls the eggplant spread 'caviar', which the NB explicitly says to avoid because it confuses viewers and flattens the inversion joke."
         }
       ]
     },
@@ -198,7 +210,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Cámaras\" omits \"de cine\", and the numerals are not spelled out. The jacket is written as \"chaqueta de ante: tres\" with no \"una\" and no hesitation, so the moment where Shpak forgets to inflate the count is weakened."
+          "justification": "'chaqueta de ante: tres' loses the hesitation pauses ('una chaqueta… de ante… tres') and the missing count for the jacket, which is what betrays Shpak. 'cámaras' drops 'de cine'."
         }
       ]
     },
@@ -220,21 +232,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks make the lines sound emphatic. The analysis describes a melodic, calm resignation, and the reference's ellipses keep that trailing, resigned tone."
+          "justification": "Exclamation marks make it sound emphatic rather than the calm, melodic, resigned tone of the wife; the wording is otherwise equivalent."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 4
+      "major": 5,
+      "minor": 5
     },
-    "total_points": 24,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the key meaning of the remark: it says Shpak and the ambassador still have the items, while the source and reference mean the items have been stolen or are missing."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line is serviceable but loses some of the mock-heroic, theatrical flavor of the original phrasing described in the analysis."
+          "justification": "The candidate reverses the key factual relation: it says Shpak and the ambassador still have the items, whereas the joke depends on the items being missing/lost from them."
         }
       ]
     },
@@ -49,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate makes Bunsha address the tsar directly instead of introducing himself as the tsar, which breaks the intended joke noted in the analysis."
+          "justification": "The line no longer clearly has Bunsha introducing himself as the tsar in a repetitive, awkward way; the wording reads more like a normal address to the tsar, weakening the comic misunderstanding described in the analysis."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou triste\" is understandable, but it weakens the more elevated, slightly archaic feeling of \"estou aflixido,\" which better matches Ivan's regal melancholy."
+          "justification": "\"Estou triste\" is understandable, but it is less elevated and less archaic than the reference's \"estou aflixido,\" slightly weakening the regal, mock-archaic tone."
         }
       ]
     },
@@ -150,10 +144,10 @@
       "candidate": "Vaia, que ben entrei!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Vaia\"/\"que ben entrei\" is a bit less idiomatic than the reference's lucky-discovery sense, though the core meaning of having entered a good place is preserved."
+          "justification": "\"Vaia, que ben entrei!\" suggests he entered well, but it misses the idiomatic sense of cheerful satisfaction at having stumbled upon the right place, which is central to the joke."
         }
       ]
     },
@@ -175,13 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the crucial final clue that the 'overseas caviar' is eggplant, which removes the joke and the satirical food-shortage reference."
-        },
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "By rendering 'caviar de ultramar' without specifying eggplant spread, it risks misleading viewers into thinking it is literal caviar, contrary to the analysis."
+          "justification": "The candidate drops the crucial final specification \"de berenxena,\" so the punchline about the absurdly cheap eggplant spread is incomplete and less intelligible."
         }
       ]
     },
@@ -203,13 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the growing-count joke and does not preserve the broken enumeration of the suede jacket; the punchline depends on the count increasing unevenly and this version loses that effect."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Pitilleiras\" and the compressed list sound less natural and less punchy than the original tallying rhythm."
+          "justification": "The count is flattened to \"3\" for every item, losing the joke that the numbers keep growing with each retelling and that the suede jacket count is initially forgotten."
         }
       ]
     },
@@ -228,30 +210,24 @@
       "candidate": "E a ti tamén te curarán!\nE a ti tamén te curarán!\nE a min tamén me curarán!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate repeats the same addressee formula and changes the meaning from 'you too will be cured' to 'you will also be cured,' losing the intended inclusive, resigned progression across the line."
-        },
-        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "It is flatter and more repetitive than the reference, which better conveys Ulyana Andreyevna's calm, melodic resignation."
+          "justification": "The repetition is acceptable, but \"tamén\" added to the final line slightly changes the cadence and makes the resigned refrain less close to the original melodic pattern."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 5,
+      "minor": 2
     },
-    "total_points": 35,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

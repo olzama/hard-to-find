@@ -58,7 +58,14 @@
         }
       },
       "candidate": "briefly—just\nabout forty minutes,\nmore than that, I think, is unnecessary",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate keeps the key reversal (a supposedly 'brief' talk followed by 'forty minutes') but flattens the diminutive, faux-modest tone of «коротенько». The phrasing is serviceable but a bit more neutral and less mock-cozy than the Russian, slightly weakening the comic understatement."
+        }
+      ]
     },
     {
       "id": 4,
@@ -123,7 +130,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye.” The analysis warns that a direct calque sounds too strange/surreal in English and loses the intended mock‑scientific, slightly off-kilter resonance. The original comedic effect comes from a near-familiar idiom warped into pseudo-technical language; an English solution like “aided eye” would better echo “the unaided eye” and preserve the intended humorous near-miss. “Armed eye” reads as more jarring and less recognizably parodic."
+          "justification": "The candidate uses the literal calque 'armed eye.' The analysis warned that this reads too surreal in English and can lose the mock‑scientific, slightly-wrong-but-recognisable echo of 'unaided/naked eye.' The result is more oddly literal than the intended humorous deformation."
         }
       ]
     },
@@ -172,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 1,
+    "total_points": 2,
     "meaning_units": 8,
-    "penalty_per_unit": 0.125,
-    "major_equiv_per_unit": 0.025,
-    "interpretation": "0.12 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.25,
+    "major_equiv_per_unit": 0.05,
+    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -36,7 +36,14 @@
         }
       },
       "candidate": "No, no, I'm not a coward,\nbut I'm afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is a close literal rendering but loses the light, bouncing comic rhythm of the original 'Trus / Boyus' rhyme described in the analysis. The extra 'No, no' hesitation slightly changes the pacing and makes the line read more prosaically than the playful, endearing admission in the analysis."
+        }
+      ]
     },
     {
       "id": 3,
@@ -131,14 +138,7 @@
         }
       },
       "candidate": "As our dear boss says,\non someone else's tab even teetotalers drink\nand ulcer sufferers too.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original has a rhythmic, rhyming pairing (trezvenniki / yazvenniki) that gives the line a proverbial, balanced punch. The candidate conveys the meaning but loses that rhythmic parallelism and the witty tightness, making the line flatter stylistically."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -168,14 +168,7 @@
         "language_specific": {}
       },
       "candidate": "One tablette is enough...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The source's comic effect relies on a stilted, specific mispronunciation of 'tablet'. Rendering it as 'tablette' introduces an odd French-looking form that reads awkwardly in English and weakens the intended humorous mispronunciation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -210,7 +203,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source line is a drawn-out, melodic sigh (elongated 'Semyo-o-on Semyonych') conveying weary exasperation. The candidate's shorter 'Semyon Semyonovich...' loses some of that musical, stretched-out quality and the accompanying tired tone."
+          "justification": "The reference conveys a melodic, elongated sigh ('Semyo-o-on') that functions as a weary, musical facepalm. The candidate reduces this to a plain name, losing some of the drawn-out, exasperated musicality and expressive pacing."
         }
       ]
     },
@@ -352,7 +345,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's humor depends on Gena's affected pronunciation (especially of 'coffee') as a marker of pretentiousness. The candidate drops that marked pronunciation and thus weakens the character's comic pretension; additionally 'baath' contains a typo ('baath') which reduces fluency."
+          "justification": "The analysis highlights Gena's affected pronunciation ('kof-e') as a comic marker of pretension. The candidate spells 'baath' (odd orthography) and renders 'coffee' normally, losing the targeted mispronunciation and thus weakening the intended aristocratic affectation."
         }
       ]
     },
@@ -390,13 +383,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 4,
+    "total_points": 3,
     "meaning_units": 23,
-    "penalty_per_unit": 0.17391304347826086,
-    "major_equiv_per_unit": 0.034782608695652174,
-    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.13043478260869565,
+    "major_equiv_per_unit": 0.02608695652173913,
+    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

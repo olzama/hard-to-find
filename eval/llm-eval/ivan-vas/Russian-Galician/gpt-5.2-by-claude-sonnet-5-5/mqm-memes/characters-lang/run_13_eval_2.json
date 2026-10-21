@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB stresses that Shpak and the ambassador have lost their items. The candidate says 'En Shpak, un magnetófono, no embaixador, un medallón', which reads as if they have or are connected to these items, and the sense of loss is gone."
+          "justification": "Violates the NB: 'En Shpak, un magnetófono, no embaixador, un medallón' says Shpak and the ambassador have the items, whereas the point is that each has lost theirs. The meaning is reversed."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Dúbidas vagas' is plainer than the mock-heroic 'terzan/asáltanme escuras sospeitas'. The theatrical, tragic-opera register is weakened, and the line break layout is somewhat choppy."
+          "justification": "'Volven asaltarme dúbidas vagas' is mock-elevated, but it is plainer than the reference's 'escuras sospeitas' and the inverted 'asáltanme', so the theatrical tone is weaker."
         }
       ]
     },
@@ -44,7 +44,20 @@
         "language_specific": {}
       },
       "candidate": "Moito gusto, tsar!\nMoito gusto, boas tardes, tsar!\nTsar, moito gusto!\nBoas tardes, tsar! Moito gusto!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Violates the NB: 'Moito gusto, tsar!' reads as Bunsha addressing a tsar, not introducing himself as the tsar. The reference's 'son o tsar' is missing, so the drunken self-introduction joke is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The mundane 'Boas tardes' greeting is kept, but the cadence of the three repeated lines is changed and no longer builds the same absurd ritual."
+        }
+      ]
     },
     {
       "id": 3,
@@ -74,7 +87,14 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, que estou triste.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Triste' is flat and colloquial next to the high-register, archaic 'aflixido' that gives the Tsar's regal melancholy, so the contrast with the Soviet setting is weakened."
+        }
+      ]
     },
     {
       "id": 5,
@@ -89,7 +109,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demoños!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Violates the NB: 'Emparedáronme, demoños!' reads as the Tsar addressing the demons (vocative) instead of naming them as the subject who walled him in. 'Demoños' also adds a diminutive, comic register that does not suit the Tsar's earnest tone."
+        }
+      ]
     },
     {
       "id": 6,
@@ -104,7 +131,14 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificante!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Mira o que fai a cruz vivificante!' is colloquial. It lacks the solemn, triumphant register of 'Velaquí o que obra', which gives the Tsar's conviction of a miracle its comic force."
+        }
+      ]
     },
     {
       "id": 7,
@@ -134,7 +168,14 @@
         "language_specific": {}
       },
       "candidate": "Mire que entrei ben!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Mire que entrei ben!' is odd and unidiomatic, and it can be read as a reflection on a completed entry. It does not clearly convey the cheerful 'I've struck lucky with this place' on discovering the goods. The reference's 'dei cun bo sitio' does that."
+        }
+      ]
     },
     {
       "id": 9,
@@ -149,7 +190,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nE si! Caviar de ultramar...\nDe berenxena!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Violates the NB: 'Caviar de ultramar... De berenxena' calls the eggplant spread caviar, which the NB forbids. It also confuses it with the luxury caviar and flattens the status-inversion satire."
+        }
+      ]
     },
     {
       "id": 10,
@@ -164,7 +212,14 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 cigarreiros nacionais,\ntres chaquetas de ante.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Tres chaquetas de ante' loses the hesitation ('unha chaqueta… de ante… tres') in which Shpak forgets to increment the suede jacket count, so the joke is gone. It also mixes digits and words and gives 'cigarreiros' instead of 'cigarreiras'."
+        }
+      ]
     },
     {
       "id": 11,
@@ -179,19 +234,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te curarán!\nE a ti tamén te curarán!\nE a min curaranme!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The first line wrongly adds 'tamén', so the progression 'you… you too… me' is lost and the escalation is weaker. The calm, melodic resignation is otherwise preserved."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 6,
+      "minor": 5
     },
-    "total_points": 6,
+    "total_points": 35,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.1818181818181817,
+    "major_equiv_per_unit": 0.6363636363636364,
+    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

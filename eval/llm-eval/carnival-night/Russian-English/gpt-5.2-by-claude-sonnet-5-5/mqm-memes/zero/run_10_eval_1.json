@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"We have a directive\" keeps the bureaucratic form and the festive content, so the core joke survives. \"Welcome the New Year cheerfully\" is slightly less deadpan than \"celebrate merrily\" and sounds a little more literary than the dry official register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The workplace logic is preserved with \"train one within our collective\", and \"collective\" evokes the Soviet setting. However, keeping \"Baba Yaga\" untranslated leans toward the fairy-tale figure and loses the generic \"witch\" as a recognizable nasty-woman type. The exclamation mark also adds more punch than the deadpan managerial tone."
+          "justification": "\"Baba Yaga\" keeps the fairy-tale figure but loses some of the workplace/social-type reading for English viewers, who may not link her to a nasty colleague. \"Train one within our collective\" keeps the in-house staffing logic and the Soviet flavor, so the damage is small."
         }
       ]
     },
@@ -77,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The diminutive faux-modest \"коротенько\" is rendered as a flat \"briefly\" with no sense of cozy understatement, and the line starts lowercase without the \"And\" link. The key contrast between the modest claim and \"forty minutes\" is weakened. \"No more, I think\" is acceptable, but the self-satisfied, patronizing tone is lost."
+          "justification": "The faux-modest, cozy diminutive \"коротенько\" is rendered as a flat \"briefly\". The line also drops the patronizing, self-satisfied tone and the \"I don't think we need more\" framing. With \"no more, I think\" as a bare tag, the contrast with \"forty minutes\" is weakened and the comic reversal is largely lost."
         }
       ]
     },
@@ -100,10 +93,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—ready long ago!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready long ago\" translates only the literal sense and has no cue for the \"готов = drunk\" double meaning. Without some recreation of the intoxication subtext, the joke disappears. The phrase \"ready long ago!\" is also somewhat awkward English."
+          "justification": "\"Ready long ago\" keeps the administrative surface and hints at \"for a while\", but nothing signals the \"drunk\" subtext of \"готов\". The double meaning is only weakly recreated, since the odd phrasing and the exclamation mark are the only cues. \"Ready long ago!\" is also somewhat awkward English."
         }
       ]
     },
@@ -129,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, faltering shape is partly preserved with \"People!.. Ah... A-oo!\". However, \"People\" is not stretched or syllabified to show the drunken wobble (\"Peo-ple!\"), and \"A-oo\" is a less natural rendering of the calling \"ау-у\" (\"hellooo\") than an English equivalent would be."
+          "justification": "The candidate keeps the broken, faltering shape (\"People!.. Ah... A-oo!\"), but \"People!\" is not stretched into syllables as in \"Peo-ple!\". The drunken vocal instability is therefore somewhat weaker. The leading dash is acceptable."
         }
       ]
     },
@@ -158,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the notes explicitly warn against. It sounds surreal rather than like a mangled version of the familiar \"unaided/naked eye\", so the mock-scientific idiom distortion does not land. The line also loses the exclamatory pomp, with the second sentence ending on a comma."
+          "justification": "\"Armed eye\" is the literal calque the English-specific note warns against. It does not echo \"unaided eye\", so English viewers do not hear a familiar idiom being wrongly upgraded. It sounds surreal rather than mock-scientific, and the intended joke is mostly lost."
         }
       ]
     },
@@ -187,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is garbled. \"Four stars—best of all, of course, five stars!\" makes four stars part of the evaluation rather than a step in the build-up, which breaks the trivial one-two-three-four sequence that leads to the sudden \"five stars\" cognac click. The punchline is blurred and the structure of the joke is damaged."
+          "justification": "The counting progression is broken: \"Four stars—best of all, of course, five stars!\" makes four stars the 'best' and then contradicts it with five, so the build-up to the sudden cognac punchline blurs. \"Best of all\" is attached to the wrong item. The reference's clean \"two, three, four... five is best\" shift into a different semantic world is lost. No note or cue signals the cognac association."
         }
       ]
     },
@@ -213,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content and the casual register are largely preserved. However, \"Science is not yet up to date\" is a less idiomatic rendering of \"не в курсе дела\", which should mean not having been briefed. It loses the personified, colloquial \"isn't up to speed\" and sounds slightly off."
+          "justification": "The first sentence is acceptable. \"Science is not yet up to date\" is a weaker, slightly off idiom compared with the casual \"isn't up to speed on the matter\". It loses the personified, conversational \"не в курсе дела\" feel, so the register comedy is only partly preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 3,
       "minor": 4
     },
-    "total_points": 24,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

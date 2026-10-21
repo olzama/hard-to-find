@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'Shpak has a tape recorder, the ambassador has a medallion', which contradicts the NB. The items were stolen, so Shpak and the ambassador no longer have them. The meaning is reversed."
+          "justification": "'Shpak has a tape recorder, the ambassador has a medallion' states possession, which reverses the meaning. The source implies each of them has lost the item, and the NB explicitly forbids this reading. It also breaks the link to the theft that Bunsha is making."
         }
       ]
     },
@@ -43,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha addressing a Tsar ('Hello, Tsar!'), not introducing himself as the Tsar, which the NB explicitly requires. The joke of the drunken impersonator introducing himself is lost."
+          "justification": "'Very nice, Tsar!' reads as Bunsha addressing a Tsar, not introducing himself as the Tsar, which the NB says must be clear. 'Hello, Tsar' is the same problem. The self-introduction, and with it the absurdity of the drunken impersonation, is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a weaker rendering of 'очень приятно' (pleased to meet you). It loses the formal social-greeting cliché that the analysis says is being mocked."
+          "justification": "'Very nice' is a weaker, less formulaic rendering of 'очень приятно' than 'very pleased to meet you'. This reduces the stiff social-ritual cliché."
         }
       ]
     },
@@ -81,7 +81,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m in sorrow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The contraction 'I'm' makes the register slightly less archaic and elevated than the analysis calls for, though the meaning and tone are mostly preserved."
+        }
+      ]
     },
     {
       "id": 5,
@@ -101,13 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Bricked up, demons!' reads as the Tsar addressing the demons (vocative). The NB requires the demons to be the subject, i.e. the demons did this to him."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Bricked up' is a modern, flat idiom. It lacks the archaic, mystical feel of 'walled in'."
+          "justification": "'Bricked up, demons!' reads as the Tsar addressing the demons, or as a bare vocative. The NB requires the demons to be the subject, as in 'The demons have walled me in'. The agent of the sorcery is lost."
         }
       ]
     },
@@ -124,14 +125,7 @@
         "language_specific": {}
       },
       "candidate": "See what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'See what the life-giving cross can do!' is a bit plainer and more colloquial than the Tsar's solemn, archaic tone ('Behold the power...'). The meaning and the religious-miracle joke are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -166,7 +160,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'a lucky visit' is slightly stiff and loses the casual, cheerful tone. It also reads a little like a reflection on the visit as a whole, but it is not misleading about him having just arrived."
+          "justification": "'A lucky visit' is slightly awkward, and 'visit' could be read as an ending. It does not clearly mean he has just entered and is pleased with the choice. It is not misleading enough to be major, but it is less natural than a 'good call' type phrase."
         }
       ]
     },
@@ -188,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'caviar' ('Imported caviar... Eggplant!'), which the NB prohibits. It also drops the 'overseas' and spread distinction, so the joke of cheap eggplant spread presented as a rare delicacy is muddled."
+          "justification": "'Imported caviar... Eggplant!' calls the spread 'caviar', which the NB forbids because it confuses viewers. It also loses the 'eggplant spread' as the cheap item presented as a rare overseas delicacy, so the satirical inversion of status symbols is weakened."
         }
       ]
     },
@@ -210,7 +204,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'three suede jackets', so the slip is lost. In the source Shpak mentions only one suede jacket before catching himself and saying 'Три'. This is the key to the joke. The reference preserves it with 'a suede jacket... Three.'"
+          "justification": "The candidate gives 'three suede jackets', which removes the joke. Shpak forgets to increment the count at the jacket (a single jacket), then catches himself with 'Three'. The count-escalation gag and the betrayal of his lying are lost."
         }
       ]
     },
@@ -227,26 +221,19 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd they’ll cure you too!\nAnd they’ll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the delivery energetic. The analysis describes a melodic, calm resignation, as in the source's trailing ellipses, so the tone is slightly off."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 5
+      "minor": 3
     },
-    "total_points": 30,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

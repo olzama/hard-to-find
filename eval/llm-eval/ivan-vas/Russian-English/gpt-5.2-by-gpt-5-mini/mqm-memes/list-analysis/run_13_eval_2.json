@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as 'Shpak has... the envoy has...', which implies present possession. The source (and analysis NB) indicate these items were lost/are missing; the Russian construction expresses that each of them lost the corresponding item. This reverses the intended meaning and undermines the joke's context."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies current possession. The analysis explicitly notes these people do not have the items anymore (they lost them); the original line means they were dispossessed of those items. This reverses the intended meaning and undermines the comedic implication of theft/connection."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The repetition in the source is Bunsha introducing himself as the Tsar (self-identification), not addressing an actual Tsar. The candidate's phrasing ('Very pleased—hello, Tsar!') reads as if he is addressing someone called 'Tsar' rather than introducing himself, losing the crucial gag described in the analysis about him repeatedly declaring himself the Tsar."
+          "justification": "The line must make clear Bunsha is introducing himself as 'the Tsar' (i.e., 'I am the Tsar'), not addressing someone called the Tsar. The candidate's phrasing ('hello, Tsar') reads as addressing a Tsar rather than the self-introduction required by the scene, which contradicts the analysis and the gag about him pretending to be the Tsar."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'I am sad' flattens the original's higher-register, archaic tone ('I am in sorrow'). The regal, mock-archaic voice of the Tsar is weakened, reducing the intended contrast with the modern setting."
+          "justification": "The candidate's 'Leave me alone, old woman, I am sad.' flattens the archaic, high-register tone ('я в печали' / 'I am in sorrow') into modern colloquial English ('I am sad' / 'Leave me alone'), weakening the regal, antiquated voice the analysis says is important."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB notes that 'demons' must be the subject (they walled him in), not the addressee. The candidate's 'Walled up, demons!' can be read as addressing the demons rather than stating that demons walled him in, which reverses the intended meaning and undermines the comedic misunderstanding of technology as sorcery."
+          "justification": "The original has the demons as the subject ('They've walled me in... walled me in, the demons' — i.e., the demons did it). The candidate 'Walled up, demons!' reads like an address to the demons rather than blaming them, reversing the grammatical relation and the intended meaning."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross does!' conveys the meaning but uses a colloquial modern phrasing that softens the original's high-register, archaic religious diction ('Behold the power of the life-giving cross!'), slightly reducing the historical/ritual tone."
+          "justification": "The candidate 'That’s what the life-giving cross does!' conveys the basic idea but uses a colloquial construction ('does') that reduces the lofty, liturgical register ('Behold the power of the life-giving cross') important to the joke about religious gravitas in a secular context."
         }
       ]
     },
@@ -176,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly warns not to render the inexpensive eggplant spread as 'caviar.' The candidate's 'Overseas caviar... Eggplant!' implies the eggplant is caviar, which confuses the satire (contrast between luxurious caviar and cheap eggplant spread) and misrepresents the source joke."
+          "justification": "The analysis warns against calling eggplant spread 'caviar.' The candidate's line 'Overseas caviar... Eggplant!' either labels the eggplant spread as 'caviar' or creates a confusing juxtaposition that obscures the satirical inversion (cheap eggplant spread presented as an exotic delicacy). This distorts the intended joke about Soviet scarcity and status."
         }
       ]
     },
@@ -198,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The humor depends on Shpak failing to update the count (he lists items then hesitates with 'suede jacket... Three'), which reveals the lie. The candidate presents '3 suede jackets' cleanly, removing the incremental stumble and thereby eliminating the joke that hinges on the miscount."
+          "justification": "The humor hinges on Shpak's bungled counting (he initially omits incrementing for the suede jacket). The candidate simply lists '3 suede jackets' with no trace of the incremental, self-contradicting recounting. That removes the specific comic beat described in the analysis and therefore significantly harms the gag."
         }
       ]
     },
@@ -215,19 +215,26 @@
         "language_specific": {}
       },
       "candidate": "And you’ll be cured too!\nAnd you’ll be cured as well!\nAnd I’ll be cured!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the meaning but slightly alters the calm, melodic resignation (the phrasing 'you'll be cured too' / 'you'll be cured as well') making the repetition feel more prosaic and less sing-song. This weakens the original's resigned, rhythmic tone."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 27,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 2.4545454545454546,
-    "major_equiv_per_unit": 0.4909090909090909,
-    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

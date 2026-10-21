@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as present possession. The analysis explicitly warns these phrases mean the items were lost/are missing (they do not have them anymore). This reverses the grammatical relation and therefore the meaning of the joke."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the ambassador has...', implying current possession. The analysis explicitly notes these phrases mean the items are missing from those people (they lost them / the items were taken). This reverses the intended meaning and breaks the joke about suspicion of theft."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original line is Bunsha introducing himself as the Tsar (not addressing a Tsar). The candidate's lines ('Very pleased, Tsar! ... Hello, Tsar!') read as vocative—addressing a tsar—so they fail to convey that he is repeatedly introducing himself as 'the Tsar,' which is central to the comedic effect described in the analysis."
+          "justification": "The candidate reads as addressing a Tsar ('Very pleased, Tsar!') rather than making Bunsha introduce himself as the Tsar. The analysis requires making clear he is presenting himself as the Tsar (not speaking to one); this candidate therefore changes the communicative target and loses the core comic premise."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes that 'demons' must be the subject (they walled him in), not the addressee. The candidate's second line, 'Walled up, demons!' is ambiguous or reads as addressing the demons (vocative/imperative), which changes the syntactic relation and undermines the intended meaning that he has been walled in by demons."
+          "justification": "The original has demons as the subject ('they walled me in... the demons'), not an addressee. The candidate's 'Walled up, demons!' reads like addressing demons, which flips the grammatical role and undermines the intended meaning that some (demonic) force has trapped him."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That’s what the life-giving cross can do!') loses some of the archaic, exalted register of 'Behold the power of the life-giving cross!'—it sounds more colloquial and less rhetorically grand, slightly weakening the historical/religious register that produces the comic contrast."
+          "justification": "The candidate preserves the meaning but shifts register to a more colloquial, jocular phrasing ('That’s what the life-giving cross can do!') rather than the elevated, archaic tone the analysis highlights. This slightly weakens the contrast between regal conviction and modern technology."
         }
       ]
     },
@@ -164,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Foreign caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The analysis warns against calling eggplant spread 'caviar.' The candidate's lines ('Foreign caviar... Eggplant!') risk implying 'eggplant' is another kind of caviar or conflating the cheap eggplant spread with caviar; this could confuse the intended satirical contrast between luxury caviar and humble eggplant spread."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -191,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak inflating his list and then failing to increment the count (the suede jacket is mentioned hesitantly before the final 'Three'). The candidate lists 'three suede jackets' straightforwardly, removing the hesitancy and the escalating-count gag and thereby destroying the comedic effect described in the analysis."
+          "justification": "The humor of the original depends on Shpak hesitating and then the running count expanding (the speaker's self-contradiction). The candidate straightaway lists 'three suede jackets,' losing the stutter/repair and the joke about inflating the list. That removes the key comic mechanism."
         }
       ]
     },
@@ -214,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 22,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

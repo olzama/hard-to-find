@@ -23,10 +23,16 @@
       "candidate": "Volven asaltarme\nvagas sospeitas...\nA Shpak desapareceulle un magnetófono;\nao embaixador, unha medalla.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the opening phrase to 'Volven asaltarme', which shifts the mock-heroic 'I am again tormented by vague doubts' into a more mundane 'they attack me again' sense and weakens the comedic register. It also mistranslates the second object as 'unha medalla' instead of the reference's medallion, altering the specific stolen item."
+          "justification": "The first clause shifts the mock-heroic wording from the original ‘tormenting doubts’ to a more neutral ‘vagas sospeitas’, which weakens the theatrical, elevated comic tone, though the core meaning remains intact."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "‘Unha medalla’ is slightly less precise than the expected medallion/medallón, so the object is weakened a bit, though the theft callback still works."
         }
       ]
     },
@@ -48,7 +54,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should clearly sound like Bunsha repeatedly introducing himself as the tsar, but 'Un pracer, tsar!' and 'Bo día, tsar!' make it look like he is addressing a tsar rather than speaking as one. This loses the key comic ambiguity described in the analysis."
+          "justification": "The translation no longer clearly shows that Bunsha is introducing himself as the tsar. By using short exclamations like ‘Bo día, tsar!’ and placing ‘tsar’ as address, it risks reading as if he is greeting a tsar rather than impersonating one, which contradicts the key joke."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "‘Bo día’ is a poor match for the formal greeting and slightly disrupts the repetitive, bureaucratic politeness that drives the humor."
         }
       ]
     },
@@ -70,7 +82,14 @@
         }
       },
       "candidate": "Esixo que siga o banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "‘Que siga o banquete’ is a natural paraphrase, but it softens the authoritarian, ceremonious force of ‘I demand’ somewhat, reducing the comic pomp of the line."
+        }
+      ]
     },
     {
       "id": 4,
@@ -85,14 +104,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, que estou triste.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Estou triste' is understandable, but it is flatter and less elevated than the more idiomatic 'estou aflixido', so it कमजोरens the Tsar's regal, archaic melancholy noted in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -107,14 +119,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The repetition is effective, but the punctuation and line break make the second clause read a bit awkwardly in Galician. The core meaning is preserved, though the phrasing is less smooth than the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -136,10 +141,10 @@
       "candidate": "Velaí o poder da cruz vivificadora!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'Velaí', which the analysis explicitly says to avoid, because it weakens the intended Galician phrasing and clashes with the desired subtitle style. It also changes 'obra' into the more explanatory 'poder da', slightly diluting the punch of the Tsar's triumphant exclamation."
+          "justification": "‘Velaí’ is used despite the analysis explicitly recommending avoiding it, so the phrasing is a bit less suitable stylistically, even though the meaning is preserved."
         }
       ]
     },
@@ -183,10 +188,10 @@
       "candidate": "Que ben me veu pasar por aquí!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Que ben me veu pasar por aquí!' conveys the idea, but it is less natural and less idiomatic than the reference's casual, pleased realization. The comic self-satisfaction is still present, just weaker."
+          "justification": "‘Que ben me veu pasar por aquí’ suggests a chance passage rather than the intended ‘I’m glad I came in here / I hit the jackpot’ reaction to discovering valuables. It weakens the self-satisfied discovery joke and can even imply a different action."
         }
       ]
     },
@@ -213,7 +218,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate explicitly says 'Caviar de terras afastadas', which introduces 'caviar' for the eggplant spread, contradicting the analysis warning not to call eggplant spread caviar. That removes the Soviet joke about cheap 'overseas' delicacy and risks confusing viewers."
+          "justification": "‘Caviar de terras afastadas’ fails to convey the specific comic inversion of ‘overseas eggplant caviar’ and removes the pointed Soviet reference. The joke about cheap eggplant spread masquerading as a luxury import is significantly weakened."
         }
       ]
     },
@@ -235,20 +240,7 @@
         }
       },
       "candidate": "tres magnetófonos, tres cámaras,\ntres cigarreiras do país,\nunha chaqueta de ante... Tres!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits one of the three camera items from the list, so the exaggerated inventory is no longer complete. Since the humor depends on the piling-up of specific possessions, this is a substantive loss of meaning."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'cigarreiras do país' is acceptable, but slightly less specific and less idiomatic than the reference's 'cigarreiras nacionais', so the list sounds a bit weaker and less sharp."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -266,23 +258,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'han curarte' is understandable, but it sounds less natural and less conversational than the reference's 'vante curar'. The calm, melodic resignation remains, but the phrasing is slightly clunkier."
+          "justification": "The repeated future-periphrastic construction ‘han curarte’ is understandable but awkward and less idiomatic than the more natural modal phrasing expected in the dialogue, slightly weakening the line’s melodic flow."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 3,
+      "minor": 6
     },
-    "total_points": 30,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-6-sol"

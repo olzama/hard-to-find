@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the key comic reversal (claim of briefness followed by 'forty minutes') and the bureaucratic tone, but it loses the diminutive, faux-modest nuance of «коротенько» ('short-ish', cosy understatement). The phrasing is also a bit flat/awkward ('briefly, about forty minutes—more, I think, isn't necessary') compared with the slyly self-satisfied register the analysis asks to preserve."
+          "justification": "The candidate preserves the necessary word order (claim of brevity before the forty-minute duration) so the comic reversal still works, but it loses the diminutive, faux-modest tone of «коротенько». Translating it simply as “briefly” is flatter and weakens the cozy, patronizing understatement that makes the line especially funny."
         }
       ]
     },
@@ -84,7 +84,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—has been ready a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The double reading in Russian hinges on «готов» meaning both 'ready' and colloquially 'smashed/drunk.' The candidate renders both occurrences as plain “ready,” which preserves only the administrative sense and loses the alcoholic subtext entirely. That collapse of the ambiguity removes the key joke."
+        }
+      ]
     },
     {
       "id": 5,
@@ -130,7 +137,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as 'the armed eye,' a literal calque that in English reads oddly and too surreal, losing the intended mock‑scientific, slightly off idiom. The analysis recommends a solution echoing 'unaided eye' (e.g. 'aided eye') to retain the near‑familiar, humorously damaged scientific register; 'armed eye' changes the comedic effect and may confuse viewers."
+          "justification": "The line depends on a near-idiomatic, mock‑scientific deformation of a familiar phrase. The analysis warns that a literal calque like “armed eye” is problematic in English because it reads as oddly surreal rather than recognisably warped. The candidate’s “armed eye” therefore fails to reproduce the intended effect; it breaks the subtle parody of pseudo‑science instead of rendering a slightly off idiom (e.g. “aided eye”)."
         }
       ]
     },
@@ -178,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 2,
       "minor": 1
     },
-    "total_points": 6,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 0.75,
-    "major_equiv_per_unit": 0.15,
-    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

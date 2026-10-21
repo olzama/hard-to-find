@@ -26,13 +26,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Beset by dark suspicions\" keeps a elevated register, but \"dark\" does not convey \"смутные\" (vague) and the original's quotation-like theatrical phrasing is only partly preserved."
+          "justification": "\"Beset by dark suspicions\" is somewhat elevated, but \"dark\" shifts \"смутные\" (vague) toward something more sinister, and the mock-heroic, operatic tone is only partly kept."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate spells out \"Shpak lost his tape recorder. The ambassador, his medal.\" It correctly conveys loss, but \"medal\" is a less accurate rendering of \"медальон\" (medallion), and the explicit statements turn the terse parallel into flatter prose."
+          "justification": "\"The ambassador, his medal\" is a clipped elliptical fragment, and \"medal\" is not quite \"medallion\"; the parallelism of the original rhyming couplet is weakened."
         }
       ]
     },
@@ -49,14 +49,7 @@
         "language_specific": {}
       },
       "candidate": "A pleasure. I'm the Tsar!\nSo pleased to meet you. The Tsar!\nThe Tsar. A pleasure!\nHello! The Tsar. Delighted!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate makes clear that he introduces himself as the Tsar, but the source's repetitive formulaic greeting is varied with added exclamations (\"Delighted!\"), slightly weakening the stiff, mundane cliché effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -151,7 +144,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Everybody dance!\" is accurate and lively, but it is a plain command that lacks the host-like, party-leader tone of the reference's \"The floor is open to everyone!\" and the mock-authority of the character."
+          "justification": "\"Everybody dance!\" is accurate and punchy, but it loses the mock-formal, host-like register of the reference (\"The floor is open to everyone\"), which underlines Bunsha's absurd assumption of a master-of-ceremonies role."
         }
       ]
     },
@@ -173,14 +166,7 @@
         }
       },
       "candidate": "Well, I picked the right place\nto drop in!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"To drop in\" correctly implies he has just arrived, but \"I picked the right place\" is somewhat more deliberate than the casual, lucky \"удачно зашел\" and loses the offhand cheerfulness."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -225,7 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"one suede jacket... Three.\" whereas the source/reference has the jacket (замшевая) with the count only slipping to \"Три\" at the end; the joke relies on Shpak first forgetting to increment the jacket count. Here \"one\" is an explicit addition that turns the slip into a stated number, and \"domestically made\" also misplaces the stress of the original's afterthought \"отечественных\"."
+          "justification": "The candidate says \"one suede jacket\", which makes the final \"Three\" a correction of the number. The joke depends on Shpak forgetting to increment the jacket count (the source has no number before \"куртка\"), and the candidate inserts an explicit \"one\" that changes the mechanism of the gag."
         }
       ]
     },
@@ -242,26 +228,19 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you...\nand they'll cure you too...\nand they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The final \"and they'll cure me!\" with an exclamation mark changes the calm, melodic resignation into a more emphatic tone, slightly weakening the intended effect."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 3
     },
-    "total_points": 11,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

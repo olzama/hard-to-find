@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador currently have the items, which misses the key meaning that they have lost them. This breaks the joke’s setup and contradicts the note in the analysis."
+          "justification": "The candidate uses present-tense possession ('Shpak ten...') instead of the intended lost-item sense. The joke depends on the idea that the items are missing from their owners, not that they still have them."
         }
       ]
     },
@@ -43,7 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should clearly read as Bunsha repeatedly introducing himself as the tsar. The candidate drops the self-introduction and instead sounds like he is addressing the tsar, which changes the scene’s humor and meaning."
+          "justification": "The line must clearly show Bunsha repeatedly introducing himself as the tsar, but the candidate compresses and rearranges it into exclamations that weaken that self-introduction pattern and make the speaker addressee ambiguity less clear."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The wording is lively, but it loses some of the stiff, repetitive formal-greeting banality that creates the comic effect in the reference."
         }
       ]
     },
@@ -60,14 +66,7 @@
         "language_specific": {}
       },
       "candidate": "Esixo que continúe o banquete!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The meaning is correct, but the wording is a bit less forceful and theatrical than the source/reference. 'Esixo que continúe o banquete' is slightly flatter than the punchy original demand."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -87,7 +86,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Estou de loito' shifts the meaning from being emotionally sad/afflicted ('aflixido') to being in mourning, which is stronger and less precise than the source."
+          "justification": "'Estou de loito' changes the nuance of 'I am in sorrow' into mourning/bereavement. The meaning is close, but the melancholy is a bit different and less exact."
         }
       ]
     },
@@ -109,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Amuralláronme' changes the action too much and loses the sense that he is trapped/entombed by demons. The second line also sounds like he is addressing demons, which the analysis explicitly warns against."
+          "justification": "'Amuralláronme' means 'they walled me up' only if read as a passive/causative, but the spelling and syntax here are too compressed and the first exclamation drops the key demon-causal framing. The source is a frightened complaint that the demons have entombed him."
         }
       ]
     },
@@ -126,14 +125,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The meaning is preserved, but 'Mira' is a bit more colloquial and less elevated than the reference’s 'Velaquí', slightly weakening the mock-solemn biblical tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -168,7 +160,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei!' means 'How well I entered', which loses the clear opportunistic sense of 'I landed in a good spot'. It also blurs the idea that he has just arrived and is reacting to the find."
+          "justification": "The candidate means 'I entered well,' which can sound like a neutral statement of having come in successfully, but it misses the carefree 'I really hit the jackpot / what a lucky move' feeling of the original comic reaction."
         }
       ]
     },
@@ -190,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "Calling it 'caviar exótico' removes the satirical identification of the cheap eggplant spread and replaces it with a vague, misleading description. This weakens the Soviet-food-shortage joke and obscures the specific punchline."
+          "justification": "'Caviar exótico' is too generic and does not preserve the specific joke about 'overseas eggplant caviar' as a ridiculous, cheap substitute. The analysis explicitly warns against flattening this into a vague exotic delicacy."
         }
       ]
     },
@@ -207,14 +199,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de ante... tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The abbreviated list is understandable, but it is less natural and less comic than the original cumulative enumeration. The wording also compresses 'kurtka… zamševaia… Tri' into a slightly awkward fragment."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -234,7 +219,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the repeated line about the other person being cured and also loses Ulyana’s resigned self-reference and the full escalating rhythm. This materially weakens the shared, calming absurdity of the original."
+          "justification": "The candidate omits the key third clause ('e me they will cure'), which is central to the joke: she extends the same psychiatric 'cure' to herself as well. Losing that self-inclusion weakens the full comic resignation."
         }
       ]
     }
@@ -242,13 +227,13 @@
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 4
+      "minor": 2
     },
-    "total_points": 34,
+    "total_points": 32,
     "meaning_units": 11,
-    "penalty_per_unit": 3.090909090909091,
-    "major_equiv_per_unit": 0.6181818181818182,
-    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.909090909090909,
+    "major_equiv_per_unit": 0.5818181818181818,
+    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

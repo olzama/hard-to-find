@@ -189,9 +189,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The pause after 'chaqueta' is dropped (source: 'куртка… замшевая… Три'), so 'unha chaqueta de ante... tres' runs together. This weakens the hesitation that shows Shpak forgetting to raise the jacket count, which the analysis says makes the joke funny."
+          "justification": "The hesitant pause between 'chaqueta' and 'de ante' is lost, so the stumbling rhythm that leads to Shpak forgetting to raise the jacket count is slightly weaker. The key effect survives, since 'unha chaqueta' stays singular and the late 'tres' still betrays the exaggeration."
         }
       ]
     },
@@ -210,24 +210,24 @@
       "candidate": "E a ti tamén te van curar…\n\ne a min vanme curar…",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first clause of the litany ('И тебя вылечат' / 'E a ti vante curar') is omitted. Only two of the three parallel statements remain, and 'tamén' now has nothing to refer back to. This damages the calm, melodic, escalating resignation described in the analysis."
+          "justification": "The first clause 'E a ti vante curar…' is omitted, so the three-step litany (you, you too, me) is reduced to two. The 'tamén' in the opening clause then has nothing to refer back to, which weakens the calm, melodic resignation in the analysis. The meaning of 'they will cure us all' still comes through."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

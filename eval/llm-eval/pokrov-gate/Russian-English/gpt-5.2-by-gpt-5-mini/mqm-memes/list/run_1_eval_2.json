@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using the noun 'relations' (\"Lofty... lo-o-ofty relations!\") keeps a literal noun-phrase structure that the analysis warned against; it reads less natural and idiomatic in English than the suggested exclamatory phrasing (e.g. 'relationship'), slightly weakening the established sarcastic refrain."
+          "justification": "The candidate preserves the repeated-stutter effect and sarcastic tone, but the choice of the noun 'relations' is slightly more formal and less idiomatic than the reference's exclamatory phrasing ('highly e-v-volved relationship'), making the line a touch less natural and punchy in this register."
         }
       ]
     },
@@ -70,10 +70,10 @@
       "candidate": "People don't live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Rendering 'совести' as 'conscience' ('People don't live for joy—they live for conscience') shifts the idiomatic meaning and weakens the soldierly/duty-driven fatalism in the original. The line in English should convey duty/obligation rather than a moral conscience to preserve the character's pragmatic, militaristic tone."
+          "justification": "The candidate keeps the general idea but renders 'совесть' as 'conscience,' which in English shifts the pragmatic force from the social/duty sense (as in 'duty'/'obligation') toward a more internal moral sense, softening the soldierly, duty-focused fatalism highlighted in the analysis."
         }
       ]
     },
@@ -90,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "Note: I didn't suggest it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning is preserved, but the brisk 'Note: I didn't suggest it.' loses some of the performative, mock-exculpatory flourish of the reference ('For the record: I am not the one who suggested it!'), making the line less characterful."
+        }
+      ]
     },
     {
       "id": 6,
@@ -110,7 +117,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' turns the sarcastic insult into apparent praise. The original is a biting, absurd domestic reproach ('Some cook you are!'); the candidate reverses the intended ironic/derisive meaning and loses the comedic effect."
+          "justification": "The candidate turns an ironic reproach into praise: 'Culinary genius!' reads as complimentary, while the source is a biting, contemptuous exclamation ('Some cook you are!'). This reverses the intended comic-insulting effect and damages the character's authoritative ridiculing tone."
         }
       ]
     },
@@ -130,9 +137,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis flags the German word as a deliberate character tic; translating 'Натюрлих!' to 'Naturally, Margarita Pavlovna.' removes that linguistic quirk and even adds the name, erasing the original comic marker of the character's habitual foreign interjection and submissive register."
+          "justification": "The source's German interjection ('Natürlich!') is a character-specific linguistic quirk; the candidate translates it to English ('Naturally') and appends the character's name, eliminating the original foreign-language cue that signals the character trait and thus losing a key comedic and characterising element."
         }
       ]
     },
@@ -152,9 +159,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate preserves the medical-farce meaning but softens the bluntness slightly ('Cut it out, for God's sake—no waiting for peritonitis!') compared with the harsher idiom in the reference. This is acceptable but a stylistic softening of register."
+          "justification": "The candidate conveys the brusque surgical imperative and urgency, but 'Cut it out, for God's sake' is slightly less brusque and more colloquial than the reference's harsher 'Cut it the hell out.' The added religious marker mildly shifts tone."
         }
       ]
     },
@@ -188,10 +195,10 @@
       "candidate": "It's my cross!\nAnd I have to bear it.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "Splitting and literalizing the idiom ('It's my cross! And I have to bear it.') breaks the English fixed expression 'a cross to bear' and removes the emphatic possessive force ('mine alone') that conveys manipulative self-sacrifice. This weakens the original's manipulative, grandiose tone."
+          "justification": "The candidate conveys the sacrificial claim but splits and literalises the idiom ('It's my cross! / And I have to bear it.'), which reduces the impact of the English fixed expression 'a cross to bear' and slightly weakens the manipulative grandiosity called for by the analysis."
         }
       ]
     },
@@ -213,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' ('so angular...') despite the analysis warning that a literal translation of 'угловатая' sounds unnatural. While the overall self-deprecating register is present, the word choice reads awkwardly in English and slightly undermines the idiomatic mock-modesty of the original."
+          "justification": "While the candidate captures the self-deprecating, mannered tone, it uses 'angular'—a literal rendering of 'угловатая' that the analysis explicitly warned against as awkward in English. The phrasing is therefore somewhat clumsy and less idiomatic than necessary."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 23,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

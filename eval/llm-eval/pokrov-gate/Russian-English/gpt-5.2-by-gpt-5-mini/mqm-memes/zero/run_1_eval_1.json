@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning and the teasing challenge, but it loses some of the elevated, theatrical self-dramatization (\"Pray, tell me\" / drawn-out impatience) that the analysis highlights. The phrasing is more prosaic and less performative."
+        }
+      ]
     },
     {
       "id": 2,
@@ -48,10 +55,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'High... high relations.' renders the line as a literal noun phrase and loses the sarcastic exclamatory refrein and stilted delivery signalled in the analysis. This weakens the comic, ironic bite of the original repeated motif."
+          "justification": "The candidate renders the line as a literal noun phrase (\"High... high relations.\"), which the analysis explicitly warns against. This loses the sarcastic exclamatory idiom and the comic stuttering/playful elongation of the original refrain that marks the film's mock-intellectual tone."
         }
       ]
     },
@@ -71,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "Using 'conscience' instead of the more idiomatic 'duty' (or similar) changes the register and slightly shifts the meaning: the soldierly, pragmatic sense of 'doing one's duty' is rendered as a more abstract moral quality, making the line sound less idiomatic and less aligned with the character's blunt pragmatism."
+          "justification": "The candidate conveys the core idea but uses slightly stilted phrasing (\"live for conscience\") compared with the natural idiomatic English of the reference (\"live to do your duty\" / \"not to be happy\"). The line reads a bit awkwardly in English."
         }
       ]
     },
@@ -107,10 +114,10 @@
       "candidate": "You cook!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'You cook!' is a literal and awkward rendering that doesn't function naturally in English as the biting domestic insult intended. It loses the caustic, idiomatic flavor of the reference ('Some cook you are!')."
+          "justification": "The candidate \"You cook!\" is a literal, neutral statement and fails to deliver the biting, sarcastic insult of the original. The reference's idiomatic mockery (\"Some cook you are!\" / \"Some cook!\" as a dismissive retort) is lost, changing the line from a sharp domestic rebuke to an odd, literal comment."
         }
       ]
     },
@@ -147,7 +154,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'Cut it out to hell with it.' is unidiomatic and awkward in English, combining two conflicting idioms. The split into two lines further reduces the original's brusque, punchy medical-humor effect ('Cut it the hell out, don't wait for peritonitis!')."
+          "justification": "The candidate attempts a literal rendering but is awkwardly phrased (\"Cut it out to hell with it\") and split unnaturally across lines. The violent, punchy surgical imperative and its brusque comic contrast with inward suffering are weakened by the clumsy wording."
         }
       ]
     },
@@ -184,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering the line as 'It’s my cross! And I will bear it.' splits the idiom and softens the emphatic, manipulative claim present in the reference ('This is my cross to bear! And mine alone!'). The idiomatic force and theatrical selfishness are diminished."
+          "justification": "The candidate preserves the basic meaning but renders the idiom less naturally by splitting it into two short sentences (\"It's my cross! And I will bear it.\"). This reduces the force and idiomatic resonance of the established English expression \"a cross to bear\" that the analysis recommends."
         }
       ]
     },
@@ -206,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая', which the analysis specifically warns against. This literal choice reads oddly in English and undermines the intended coquettish, self-mocking characterization; a less literal, more idiomatic rendering would better capture the tone."
+          "justification": "The candidate uses \"angular\" for «угловатая», which the analysis cautions against as overly literal and odd in English. While the self-deprecating effect is present, the specific lexical choice sounds awkward and weakens the intended colloquial, coquettish tone."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 6
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 6,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

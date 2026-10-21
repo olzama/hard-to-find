@@ -39,7 +39,14 @@
         }
       },
       "candidate": "We won’t hire Baba Yaga\nfrom outside—we’ll bring one up in our own team!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the joke (not importing a Baba Yaga but cultivating one in-house) and the bureaucratic staffing metaphor, but 'team' and 'hire' slightly soften the Soviet 'collective' register that helps the line land culturally. The effect is weakened a little though the meaning remains intact."
+        }
+      ]
     },
     {
       "id": 3,
@@ -63,7 +70,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate preserves the comic reversal ('briefly — about forty minutes') but adds the clause '—he gives his talk,' which is not in the source and creates an awkward, extraneous ending. This addition changes the rhythm and slightly weakens the punchline's understated, self-satisfied delivery."
+          "justification": "The candidate keeps the comic reversal (ʼbrieflyʼ followed by ʻforty minutesʼ) but inserts and reorders phrases ('more than that, I think, isn’t necessary—he gives his talk'), which makes the line clumsy and blunts the tight, smug understatement of the original. The added clause also alters the ironic pacing of the punchline."
         }
       ]
     },
@@ -84,7 +91,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—been ready a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate renders both lines literally with 'ready,' preserving the surface meaning, but it loses much of the Russian ambiguity where 'готов' can mean 'drunk/finished.' The drunken subtext is weaker in English here, so the double reading that makes the exchange humorous is diminished."
+        }
+      ]
     },
     {
       "id": 5,
@@ -130,7 +144,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as 'armed eye,' a literal calque the analysis warns against. In English this reads oddly and surreal rather than mock‑scientific. A solution like 'aided eye' would better preserve the intended slightly off‑kilter pseudo‑technical tone."
+          "justification": "The candidate keeps the mock‑scientific tone but uses the calque 'armed eye,' which the analysis warns against: in English this reads oddly and more surreal than the intended slightly mangled pseudo‑technical phrasing. A less literal solution would better preserve the mock‑academic but believable slip."
         }
       ]
     },
@@ -179,13 +193,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 4
     },
-    "total_points": 2,
+    "total_points": 4,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5,
+    "major_equiv_per_unit": 0.1,
+    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

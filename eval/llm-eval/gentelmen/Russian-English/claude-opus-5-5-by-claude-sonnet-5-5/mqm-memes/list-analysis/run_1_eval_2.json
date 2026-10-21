@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I'm the big bad wolf, so grim and gruff,\nand piglets? Oh, I know my stuff!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate adds a rhymed couplet ('grim and gruff' / 'know my stuff') that mirrors the Russian rhyme and keeps the mock menace, but 'grim and gruff' is an addition, and 'know my stuff' loses the piglet-specific expertise slightly. The tone is slightly less playful than the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -48,13 +41,19 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate switches to third person ('his horns', 'his jaws') while then addressing 'You', which makes the threat incoherent. It also keeps the literal 'horns' that the analysis warns against, and drops the opening 'knock your block off' idiom flavor. 'Jaws' for 'пасть' is weaker than 'trap'."
+          "justification": "The threat is redirected to a third person ('his horns', 'his jaws') instead of addressing the listener ('your'), which breaks the direct-threat structure and the final 'You'll spend...' clause, which then shifts to second person."
         },
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The ending is the explanatory paraphrase the analysis explicitly says to avoid ('spend your whole life working to pay for your meds'). It also ends with a comma, so the verdict-like finality is lost."
+          "justification": "The ending is the explanatory paraphrase 'spend your whole life working to pay for your meds', which the analysis says to avoid. It loses the compact verdict-like Russian ending with the finite verb landing last, and the trailing comma leaves it unfinished."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Rip his jaws' and 'knock his horns off' keep the literal animal imagery: 'knock horns off' is the non-idiomatic threat the analysis warns against."
         }
       ]
     },
@@ -76,7 +75,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Sent to rest' softens 'загубил' (damned/destroyed), which weakens the dark criminal self-dramatization. The sing-song repetition is otherwise preserved with 'knifed' and 'sliced'."
+          "justification": "'Sent to rest' softens 'загубил' (damned/destroyed) into a euphemism, weakening the darkly criminal self-incrimination, although the sing-song repetition and aria effect are kept."
         }
       ]
     },
@@ -103,7 +102,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Not-nice person' is a childish rendering of the restrained, moralizing 'нехороший человек', so it is less formal or euphemistic than the original. 'Rat bastard' fits the rough register of 'падла'."
+          "justification": "'Not-nice person' is a childish rather than moralizing/euphemistic rendering of 'нехороший человек' and loses some of the awkward restraint. 'Rat bastard' is a rough insult and acceptable for 'падла'."
         }
       ]
     },
@@ -130,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Romance!' is the rendering the analysis explicitly warns against, since it reads as love/relationship rather than ironic romanticization of a criminal lifestyle. 'Drink' is acceptable, but the closing word loses the point."
+          "justification": "'Romance!' is exactly the bare rendering the analysis warns against, since it reads primarily as love or romantic relationship and not as the ironic romanticization of a criminal lifestyle, so the punchline is lost."
         }
       ]
     },
@@ -147,14 +146,7 @@
         "language_specific": {}
       },
       "candidate": "That's it! No more picture show. Electricity's all used up.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Picture show' is a reasonable dated, folksy rendering of the nonstandard 'кина', and 'all used up' conveys the household-supply logic. The unschooled quality is slightly milder than in the original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -176,10 +168,10 @@
       "candidate": "Move the horse, may I never walk free!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "'May I never walk free' is a flat oath that loses the prison-coded 'век воли не видать' and drops the outside/never-see-freedom idiom. It is also stiff and archaic, which misses the underworld solemnity. 'Horse' is correctly kept as the unschooled word."
+          "justification": "'May I never walk free' is a fairly flat oath that loses the prison-coded solemnity of 'век воли не видать' (never see the outside), though 'horse' is correctly kept."
         }
       ]
     },
@@ -206,7 +198,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The root-play 'сидит/посадит' is rendered as 'Sitting down?' / 'Is he seated?' and then 'put him inside', so the setup points to a seated posture. 'Inside' is then not prepared as a prison reading, and the pun doesn't land: 'put him inside' simply does not connect to sitting. The reference's compensating ambiguity ('Was he inside?') is missing, so the joke is effectively lost."
+          "justification": "The pun is lost. 'Sitting down?' / 'Is he seated?' sets up a seated monument, but 'put him inside' does not link to it. English has no 'seated' to 'put inside' root-play, and the candidate does not build a compensating ambiguity, such as 'inside' in the setup question. The punchline stays only semi-comprehensible."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "Dialogue formatting is cramped and inconsistent, with some turns merged on one line, which hampers readability of the exchange."
         }
       ]
     },
@@ -228,14 +226,7 @@
         }
       },
       "candidate": "This ain't pinching pocket change!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Pinching pocket change' keeps the low-register slang verb and the petty-theft contrast. The sentence is slightly less complete, since the 'serious operation' contrast is only implied."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -280,7 +271,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Citizen' is standard spelling, which loses the comic effect of the ungrammatical 'гражданина' (the reference uses 'citizin'). The rest of the broken grammar and the well-meant warning tone are well preserved."
+          "justification": "Only 'citizen' is spelled normally, which loses the comic mispronunciation/wrong form of 'гражданина'. 'You come here' and the 'or' clause smooth the original 'don't go there, go here' structure slightly, but the broken grammar and caring tone are preserved."
         }
       ]
     },
@@ -302,7 +293,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'In prison now is dinner' is awkward, and the ungrammatical word order is not clearly motivated. The delayed 'macaroni' punchline is kept."
+          "justification": "'And in prison now is dinner' is awkward word order, and the final period instead of an exclamation point softens the wistful punchline 'macaroni!'. The delayed macaroni is retained."
         }
       ]
     },
@@ -364,7 +355,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Jaws' is less idiomatic than 'trap' as a stock criminal threat. It keeps the animalizing sense but sounds less like a catchphrase."
+          "justification": "'Jaws' is a more neutral body-part term than the animalizing, slangy 'пасть' (trap, maw), so the line loses some of its rough catchphrase quality."
         }
       ]
     },
@@ -389,9 +380,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Silly cow' is exactly the mild or mismatched feminine insult that the analysis says to avoid, and it distorts the harsher tone of 'дура'. The 'Then you're' framing also turns the line into commentary and adds a causal link not in the original."
+          "justification": "'Silly cow' is the mild or semantically mismatched feminine insult the analysis says to avoid, and it does not convey the contempt of 'дура'. Because the word is contemptuous 'dumb broad'-type, the tone is distorted. 'Then you're' also turns the line into a logical inference, weakening the instinctive direct address."
         }
       ]
     },
@@ -418,7 +409,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Slop bucket' reduces 'параша' to a sanitary object, which the analysis explicitly says to avoid. It loses the prison-hierarchy meaning of assigning the addressee to the most degraded status. The polite frame is kept."
+          "justification": "'By the slop bucket' is the literal sanitary rendering the analysis says to avoid. It reduces 'параша' to an object and loses the prison-hierarchy insult, which the 'punks' equivalent conveys."
         }
       ]
     },
@@ -445,21 +436,27 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Hooligans' is a marked British-sounding choice the analysis says to avoid. 'Depriving me of sight' keeps the bureaucratic formality but drops the possessive, so it is a little stiff."
+          "justification": "'Hooligans' is a marked British-sounding term that the analysis says to avoid in favor of contemporary natural language such as 'thugs'."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Depriving me of sight' drops the possessive and is slightly unnatural, although it does keep the formal, bureaucratic tone."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
-      "minor": 9
+      "major": 5,
+      "minor": 11
     },
-    "total_points": 44,
+    "total_points": 36,
     "meaning_units": 18,
-    "penalty_per_unit": 2.4444444444444446,
-    "major_equiv_per_unit": 0.48888888888888893,
-    "interpretation": "2.44 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

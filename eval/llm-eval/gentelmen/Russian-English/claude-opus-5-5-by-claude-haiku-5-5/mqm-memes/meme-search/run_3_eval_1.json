@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "'piglets I know well enough' is awkward and loses the idiomatic boast of 'know a piglet or two'. 'scary' adds an explicit adjective that is not in the source, though it supports the mock-menace reading."
+          "justification": "The rhymed boast is preserved, but 'scary' is redundant with 'big bad' and 'well enough' dilutes the swagger of 'know a thing or two', weakening the mock-menacing bravado the analysis describes."
         }
       ]
     },
@@ -45,22 +45,22 @@
       "candidate": "knock his horns off, rip his jaw off,\ngouge his peepers out! You'll spend your whole life\nworking to pay for medicine,",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'knock his horns off' is the literal rendering the analysis explicitly says to avoid. It is not an idiomatic English threat and weakens the threat formula at its most excessive point."
+          "justification": "'knock his horns off' is the literal rendering of 'рога поотшибаю' that the analysis explicitly says is not an idiomatic English threat."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The threat switches from third-person 'his' (knock his horns off, rip his jaw off, gouge his peepers out) to second-person 'You'll', so the addressee of the threat is inconsistent."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'You'll spend your whole life working to pay for medicine' is the explanatory paraphrase the analysis warns against. It loses the compact, verdict-like ending that fronts the lifetime scale."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The pronoun shifts from third-person 'his' in the threat clauses to second-person 'You'll' in the verdict, and the line ends on a trailing comma, leaving the sentence unfinished."
+          "justification": "'You'll spend your whole life working to pay for medicine' is the explanatory paraphrase the analysis warns against; it loses the compact, verdict-like fronting of the lifetime scale."
         }
       ]
     },
@@ -102,13 +102,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'this... bad person...' flattens the oddly restrained, euphemistic moral label 'нехороший человек' toward a routine English insult, which the analysis explicitly cautions against."
+          "justification": "'this... bad person' flattens 'нехороший человек' into a plain English description and loses the restrained, euphemistic, moralizing quality the analysis says must be kept."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'the rat' is a milder, more neutral insult than 'падла', which the analysis places in a rough, contemptuous register. It weakens the final collapse into prison-register abuse."
+          "justification": "'the rat' is a weaker, more generic insult than the rough, contemptuous prison register of 'падла'; it sits closer to the neutral-to-mild end the analysis warns against."
         }
       ]
     },
@@ -135,7 +135,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The bare 'Romance!' is the exact risk the analysis flags, since it can be read as a love reference rather than ironic romanticization of a criminal life."
+          "justification": "Bare 'Romance!' is the exact risk the analysis flags: in this context it can be read as a love/relationship word rather than ironic romanticization of the criminal lifestyle."
         }
       ]
     },
@@ -152,14 +152,7 @@
         "language_specific": {}
       },
       "candidate": "That's it! No pictures tonight! 'Lectricity's run out.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'tonight' is an addition not present in the source. Also, 'pictures' is a standard word, so the nonstandard unschooled marker of 'кина' is replaced, only partly compensated by the 'Lectricity' spelling."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -179,14 +172,7 @@
         }
       },
       "candidate": "Move the horse, may I never see freedom!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'may I never see freedom' is an oath, but 'freedom' reads as abstract liberty rather than prison-coded speech. It also drops the conditional guarantee ('if I'm wrong') that ties the oath to the chess advice."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -209,9 +195,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "terminology",
           "span": "",
-          "justification": "'A monument to who?' is ungrammatical for the intended 'whose monument?', a small but noticeable awkwardness in an otherwise well-built dialogue."
+          "justification": "The line sets up 'monument' ('A monument maybe?', 'A monument to who?', 'There was a monument') and then ends with 'He's a statue!', breaking the echo and the consistency of the final punchline. 'Statue' does the same job, but the inconsistency weakens the closing line."
         }
       ]
     },
@@ -233,7 +219,14 @@
         }
       },
       "candidate": "This isn't like lifting small change from pockets!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'from pockets' with no article is slightly awkward phrasing; 'out of pockets' or 'from people's pockets' would read more naturally."
+        }
+      ]
     },
     {
       "id": 10,
@@ -278,7 +271,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The standard 'citizen' is used for the marked, grammatically wrong 'гражданина', which the analysis says loses part of the comic effect. The broken grammar elsewhere is preserved well."
+          "justification": "'citizen' is the standard form, so the wrong case of 'гражданина' is not marked; the analysis notes that a fully standard 'citizen' loses part of the comic effect. The rest of Vasily's broken grammar is kept."
         }
       ]
     },
@@ -295,14 +288,7 @@
         "language_specific": {}
       },
       "candidate": "And in prison it's dinner time now... macaroni.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The period after 'macaroni.' flattens the exclamation of the delayed punchline, weakening its wistful emphasis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -327,7 +313,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The added causal connective 'so' over-explains the logic, which the analysis warns against. It slightly weakens the minimal, childlike reasoning, though the repeated verb structure is kept."
+          "justification": "The added causal connector 'so' ('Everyone ran, so I ran') makes the logic explicit, which the analysis warns against; the source has only the parallel 'все побежали — и я побежал' with minimal causal reasoning."
         }
       ]
     },
@@ -349,7 +335,14 @@
         }
       },
       "candidate": "Dinner is served. Sit down and stuff your faces, please.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Sit down' is a blunt imperative that makes the invitation more brusque than the grammatically polite 'Садитесь … пожалуйста' frame, which the analysis says should stay polite. 'Please be seated' would keep the refined hospitality the vulgar 'stuff your faces' clashes with."
+        }
+      ]
     },
     {
       "id": 15,
@@ -369,7 +362,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'jaw' is neutral and loses the animalizing 'пасть' that gives the catchphrase its rougher, stylized register and its role as a defining threat."
+          "justification": "'jaw' is more neutral than 'trap', the stylized slang term that carries the animalizing rough register of 'пасть' and works as the film's catchphrase."
         }
       ]
     },
@@ -394,9 +387,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Well, you're an idiot' is gender-neutral and erases the feminine insult that the joke's structure depends on. The analysis explicitly warns against this gender-neutral rendering."
+          "justification": "'Well, you're an idiot' is gender-neutral, the exact rendering the analysis says to avoid. The feminine insult 'дура' is lost, which breaks the feminine-masculine-feminine structure that is the source of the joke: Tanya's direct address to an apparent woman."
         }
       ]
     },
@@ -421,9 +414,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'slop bucket' is the literal sanitary object the analysis explicitly says to avoid. It reduces the prison-hierarchy insult to a physical object and loses the sense of assigning the addressee to the lowest status."
+          "justification": "'your bunk's by the slop bucket' is the literal sanitary object reading of 'параша' that the analysis explicitly says to avoid. It drops the prison-hierarchy meaning of assigning the addressee to the lowest, most degraded status, which is the essence of the insult."
         }
       ]
     },
@@ -450,27 +443,27 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'Hooligans' is a term the analysis explicitly says to avoid, and 'are blinding people' drops the formal, bureaucratic wording of 'зрения лишают' that drives the comic collapse into helpless complaint."
+          "justification": "'Hooligans are blinding people!' loses the comically formal, bureaucratic register of 'зрения лишают' and the self-centred panic of 'me'. Changing it to a generic 'people' removes the sudden helpless-complaint effect the analysis identifies as the joke."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "'blinding people' shifts the victim from the speaker to people in general, weakening the self-focused panic of the original."
+          "justification": "'Hooligans' is the British-marked, dated term the analysis specifically says to avoid in favour of contemporary, natural attacker terms."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 3,
       "minor": 14
     },
-    "total_points": 34,
+    "total_points": 29,
     "meaning_units": 18,
-    "penalty_per_unit": 1.8888888888888888,
-    "major_equiv_per_unit": 0.37777777777777777,
-    "interpretation": "1.89 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6111111111111112,
+    "major_equiv_per_unit": 0.32222222222222224,
+    "interpretation": "1.61 MQM penalty points per meaning unit (≈ 0.32 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

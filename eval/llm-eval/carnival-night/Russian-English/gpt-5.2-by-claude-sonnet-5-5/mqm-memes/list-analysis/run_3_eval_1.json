@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one in our own collective\" keeps the workplace logic, but \"raise\" leans toward child-rearing/fairy-tale and \"collective\" is a Sovietism that is less immediately workplace-like than \"train one in-house\". \"Hiring a Baba Yaga\" is also a bit more folkloric than the generic \"witch\", slightly weakening the human-type reading."
+          "justification": "\"Baba Yaga\" is kept as a fairy-tale name; English viewers may not read her as the nasty workplace type, so the social angle (a malicious woman already present in the collective) is weaker than with a generic \"witch\". \"Raise... in our own collective\" does keep the staffing/upbringing logic and the Soviet flavor, so the damage is small."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"just briefly\" is flat and loses the cozy, faux-modest diminutive force of «коротенько». The \"say, about forty minutes\" works for the reversal, but the patronizing, self-satisfied tone is weaker than intended."
+          "justification": "\"just briefly—say, about forty minutes\" keeps the order (briefness claim first, then duration) and the smug understatement. However, \"say\" and the formal \"isn't necessary\" lose the cozy, faux-modest diminutive feel of «коротенько»; the line sounds slightly more clinical than patronizing."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready\" is rendered only in its literal sense and the drunk subtext of «готов» is not recreated. The \"been ready a while now\" gives a faint hint, but the double reading (official readiness vs. already smashed) is essentially lost, and the question/answer rhythm is not preserved with the reference's emphatic \"Oh, he's ready\"."
+          "justification": "The \"ready = drunk\" double meaning is not recreated. \"Been ready a while now!\" is only a plain affirmative with an exclamation, and nothing in the wording or tone points to intoxication. The key joke of the item is lost, and the line reads as an ordinary backstage exchange."
         }
       ]
     },
@@ -117,14 +117,7 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... a-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The broken vocalization \"Peo-ple!.. Ah... a-oo!\" preserves the faltering shape, but \"a-oo\" is a less natural English rendering of the calling \"ау-у\" than \"hellooo\", so the stretched, wavering call-to-a-crowd effect is slightly weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -146,14 +139,7 @@
         }
       },
       "candidate": "But all we have to do is take a telescope...\nAnd look with the aided eye—",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate changes the exclamatory \"take a telescope! And look...\" to ellipsis and a dash, which softens the pompous oratorical build-up. The key \"aided eye\" solution is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -180,7 +166,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting is broken up by a line break so that \"Four little stars—best of all, of course, five little stars\" blurs the buildup, and the 'little' diminutives make the punchline read less like a sudden jump into the cognac frame. The cognac association is not signaled, though the analysis only suggests a note. The \"now we see\" also loses the lecturer's \"As we can already see\" pseudo-scientific tone."
+          "justification": "The cognac pun on five stars is kept, with the trivial counting sequence leading to the punchline. The \"little stars\" rendering keeps the childish tone. However, \"Four little stars—best of all, of course,\" places the punchline directly after four with a dash and merges it into the sequence. This weakens the sudden click into a different semantic world a little. The cultural cognac association is not made explicit, though the analysis allows for a translator's note."
         }
       ]
     },
@@ -201,19 +187,26 @@
         }
       },
       "candidate": "Whether there is life on Mars, whether there isn’t life on Mars—\nscience doesn’t know.\nScience hasn’t been briefed on the matter yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Science hasn't been briefed on the matter yet\" captures the personification of science as someone not yet informed and keeps the casual register. \"Briefed\" is slightly more official/jargon-like than the colloquial «не в курсе дела» (\"not up to speed\"), so the conversational looseness is somewhat reduced."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 10,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

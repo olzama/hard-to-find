@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Keeping 'Baba Yaga' untranslated leans toward the fairy-tale frame; the workplace/social type (malicious woman) is less accessible to an English audience than with 'witch'. 'Collective' does keep the Soviet workplace logic, so the damage is slight."
+          "justification": "\"Collective\" is a Sovietism that keeps the workplace logic, but \"hiring\" and \"train one within our collective\" is slightly less natural than an in-house workplace phrasing. The deadpan staffing joke still lands, so the effect is only slightly weakened."
         }
       ]
     },
@@ -65,14 +65,7 @@
         }
       },
       "candidate": "And briefly—about\nforty minutes, I think\nno more is needed—",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'And briefly' is flat and lacks the cozy, faux-modest diminutive quality of «коротенько». The briefness claim does precede 'forty minutes', but the patronizing understatement is weakened. 'I think no more is needed' is slightly stiff."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -96,7 +89,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Ready' is used throughout, and nothing signals the colloquial 'done for / drunk' reading. The double sense is not recreated, and 'ready long ago' is a plain, somewhat awkward rendering, so the alcoholic joke is largely lost."
+          "justification": "The double sense of \"готов\" (ready / drunk) is not recreated. \"Ready long ago!\" only conveys administrative readiness, with no hint of intoxication, so the core joke is lost. The exclamatory tone also differs from the brisk, dry backstage rhythm."
         }
       ]
     },
@@ -120,9 +113,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'People!.. Ah... Ah-oo!' keeps the broken vocalization, but 'Ah-oo' is less of a wavering call-out than 'hellooo'. 'People' is not stretched like 'Peo-ple', so the drunken instability is somewhat reduced."
+          "justification": "The broken, wavering delivery is mostly kept (\"People!.. Ah... Ah-oo!\"), but the first word is not stretched into syllables (\"Peo-ple\"), so the drunken vocal instability is weaker. \"Ah-oo\" is also a less recognizable call than \"hellooo\"."
         }
       ]
     },
@@ -151,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Armed eye' is the literal calque the analysis says to avoid. It sounds surreal rather than like a mangled 'unaided eye', so the mock-scientific idiom distortion is lost. The line also ends in a comma, which breaks the exclamatory pomp."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. In English it does not evoke the familiar \"unaided eye\", so the malformed-idiom, mock-scientific joke is lost and it sounds merely strange. The line also ends with a comma, which weakens the exclamatory pomp."
         }
       ]
     },
@@ -180,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'And look with the armed eye' from the previous segment, which is acceptable in consecutive segments. However, the line is garbled: 'Four little stars—best of all, of course, five little stars' merges four and five, so the counting progression and the sudden pivot to 'five stars' are muddied. The cognac association is not conveyed (no note), and 'little stars' makes it sound childish rather than cognac-like."
+          "justification": "The 'five stars' punchline is muddled. \"Four little stars—best of all, of course, five little stars!\" blurs the progression, since the dash makes \"four little stars\" read as part of the praise. The click into the cognac frame is therefore weakened, and nothing signals the cognac association. The line also repeats \"the armed eye\" from the previous segment, which is acceptable as consecutive repetition, but the carried-over calque has the same problem as in item 6."
         }
       ]
     },
@@ -206,7 +199,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Is there life on Mars, is there no life on Mars' is a clumsy literal rendering of the parallel structure. 'In the know' keeps the colloquial register well, but the line break and phrasing are awkward."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is a stiff calque of the Russian structure. \"Science is not yet in the know\" keeps the casual register well, but the opening is slightly less natural than it could be."
         }
       ]
     }
@@ -214,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 19,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 2.375,
-    "major_equiv_per_unit": 0.475,
-    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

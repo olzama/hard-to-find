@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "in his place it should be me.\nGet drunk—you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The first line ('in his place it should be me.') is unidiomatic and weakens Gorbunkov's dramatic, heroic register described in the analysis. The reference's sacrificial, theatrical tone is reduced by the flattened word order and lack of emphasis."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a literal, neutral rendering and preserves the meaning, but it loses the light, bouncing comic effect of the Russian Trus/Boyus rhyme noted in the analysis. That rhythmic playfulness is important to make the admission feel endearing rather than merely factual."
+          "justification": "Meaning is preserved, but the candidate lacks the light, bouncing comic rhythm of the original ('Trus/Boyus') that makes the admission endearing rather than flatly literal."
         }
       ]
     },
@@ -73,7 +80,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line 'Moral appearance... verstehen?' is a literal, slightly awkward rendering of the playfully foreign mash-up in the original. The candidate preserves meaning but weakens the performative, pseudo-sophisticated comic flair Gena is projecting."
+          "justification": "Overall idea is preserved, but phrases like 'Moral appearance...' are literal and slightly awkward in English. The line 'Russo tourist...' drops the playful Italianate ending of the original loanword mix, softening the comic pretension a bit."
         }
       ]
     },
@@ -135,7 +142,14 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\neven teetotalers drink at someone else’s expense—\nand people with ulcers, too.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning but loses some of the original's rhythmic pairing (trezvenniki/yazvenniki). The translation is natural but a bit less proverb-like and punchy than the reference requires."
+        }
+      ]
     },
     {
       "id": 9,
@@ -170,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The translation conveys the meaning but loses Lyolik’s humorous mispronunciation of 'tablet' that makes the line characterful and memorable. Rendering it neutrally removes a small but notable comic marker."
+          "justification": "The candidate conveys the basic meaning but omits the comic effect of Lyolik's mispronunciation and emphatic delivery of 'tablet' that makes the line memorable."
         }
       ]
     },
@@ -202,14 +216,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original stretches and sings the name for a melodic sigh ('Semyo-o-on Semyonych!'). The candidate reduces it to a plain name, losing the elongated, weary musicality that signals exasperation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -287,9 +294,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate communicates the denial but 'He came himself!' is slightly non-idiomatic in English and lacks the more natural 'He came here on his own!' rhythm of the reference, which better mirrors the original's panicked register."
+          "justification": "The candidate preserves the denial but omits the reflexive English phrasing ('he came here on his own'), making the line slightly less specific and dramatic in the context of a seductress's panicked protest."
         }
       ]
     },
@@ -354,9 +361,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate contains a typographic error ('baath') and loses the affected pronunciations (e.g., 'kof-e') that mark Gena's pretentious, disordered persona. This reduces the comedic character detail described in the analysis."
+          "justification": "Spelling ('baath') and punctuation are awkward, and the candidate fails to convey Gena's affected pronunciation of 'coffee' (a performative marker of pseudo-sophistication), reducing the character-specific comic effect."
         }
       ]
     },
@@ -393,7 +400,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the meaning plainly but removes the folksy, intentionally incorrect verb form that gives the original its rustic, stubborn comic color. The standardized phrasing thus softens the characterful emphasis."
+          "justification": "The candidate is natural English but removes the rustic, nonstandard verb form that adds humorous stubbornness in the original; this loses a small but characteristic comic nuance."
         }
       ]
     }
@@ -401,13 +408,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 8
     },
-    "total_points": 7,
+    "total_points": 8,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.34782608695652173,
+    "major_equiv_per_unit": 0.06956521739130435,
+    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

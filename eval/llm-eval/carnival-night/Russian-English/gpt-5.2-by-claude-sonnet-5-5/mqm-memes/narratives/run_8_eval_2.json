@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Baba Yaga\" left untranslated keeps the fairy-tale flavor and does not signal the human type of nasty woman in a workplace, which the analysis says is the core of the joke. However, \"hire\" and \"raise within our own collective\" preserve the staffing/social logic, so the damage is limited."
+          "justification": "\"Hire a Baba Yaga\" and \"raise one\" keep the workplace logic, but leaving 'Baba Yaga' untranslated gives English viewers no sense of the nasty, toxic-woman type. 'Raise' is also more childrearing than staff training, which weakens the managerial 'cultivate in-house' tone."
         }
       ]
     },
@@ -67,16 +67,10 @@
       "candidate": "briefly—about\nforty minutes, I think\nmore isn't necessary",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The key word \"коротенько\" is rendered as plain \"briefly\" with no faux-modest or cozy diminutive feel, and \"I think more isn't necessary\" is flat. The comic reversal between self-satisfied moderation and \"forty minutes\" is weakened, which the analysis flags as the main risk."
-        },
-        {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The lowercase fragment \"briefly—about forty minutes, I think more isn't necessary\" is somewhat stilted compared with natural spoken English (\"I don't think we need more\")."
+          "justification": "The brevity claim comes before the duration, as the analysis requires. But \"more isn't necessary\" is stiff and loses the self-satisfied, faux-modest managerial tone (the cozy diminutive feel of «коротенько»), so the punchline lands less well."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready\" is translated only literally, with no hint of the \"drunk/done for\" subtext. \"Been ready a long time!\" has a slight wink, but the double meaning that makes the joke is not recreated, so the humor is largely lost."
+          "justification": "The candidate translates only the literal 'ready'. Nothing in the wording recreates the 'done for / drunk' double meaning that carries the joke, so the humor is lost."
         }
       ]
     },
@@ -125,10 +119,10 @@
       "candidate": "People!.. Ah... Hel-lo!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The drunken, broken vocalization is mostly normalized: \"People!\" is clean, and \"Hel-lo!\" has only a mild stretch, which loses the wavering \"ау-у\" call. The dissolving, slurred attempt at oratory is weakened, as the analysis warns."
+          "justification": "\"People!.. Ah... Hel-lo!\" keeps some broken, stretched shape in 'Hel-lo', but 'People!' is a clean, undivided cry. The wavering, drunken vocalization is weaker than the reference's 'Peo-ple!' and 'hellooo'."
         }
       ]
     },
@@ -157,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly says to avoid. Without an echo of \"unaided eye\", it reads as surreal rather than a mangled mock-scientific idiom, so the joke does not land in English."
+          "justification": "\"Armed eye\" is exactly the literal calque the analysis warns against. It sounds surreal and does not echo the English 'unaided eye', so the mock-scientific malformed idiom is not recreated and the joke does not work in English."
         }
       ]
     },
@@ -186,13 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The silly counting progression and the \"five little stars\" punchline are preserved, but nothing signals the cognac association (no note or cue), so the sudden shift into the drink domain may be missed by English viewers. The analysis says a translator's note may be needed."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Little stars\" sounds childish and gives a nursery-rhyme feel, which fits the trivial counting, but the diminutive makes the cognac-star click weaker than plain \"stars\"."
+          "justification": "The silly counting progression and the final 'five little stars' are preserved, and the diminutive suits the childish counting. But the cognac association is not signaled at all and 'little stars' makes the shift into the drinking frame less recognizable to English viewers."
         }
       ]
     },
@@ -218,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science does not know\" is somewhat more formal than the flat, casual \"это науке неизвестно\", though \"Science is not yet in the know\" retains the colloquial personification well. The register mismatch is mostly preserved."
+          "justification": "The meaning is correct and the colloquial 'in the know' keeps the register mismatch. But \"science does not know\" is slightly flatter and more formal than the casual 'unknown to science', and the personification of science is a bit weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 2,
       "minor": 5
     },
-    "total_points": 25,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 3.125,
-    "major_equiv_per_unit": 0.625,
-    "interpretation": "3.12 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

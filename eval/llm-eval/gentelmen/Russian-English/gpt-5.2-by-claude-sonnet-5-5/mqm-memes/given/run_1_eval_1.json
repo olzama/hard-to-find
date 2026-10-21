@@ -39,9 +39,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate duplicates the phrase: \"You'll be working all your life for medicine all your life!\" This adds a redundant \"all your life\" inside a single segment. It breaks the compact, verdict-like ending the analysis describes and reads as a clumsy error."
+          "justification": "The final sentence is garbled: 'You'll be working all your life\\nfor medicine all your life!' repeats 'all your life' twice, which breaks the compact, verdict-like ending the analysis requires and makes the threat sound like a glitch rather than an absurd economic sentence."
         }
       ]
     },
@@ -305,10 +305,10 @@
       "candidate": "Miss, what’s your name? — Tanya. — I’m Feodor. — You dumb broad!\nWhat a moron.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"What a moron.\", which is absent from the source. It is a gender-neutral commentary-style insult that dilutes the feminine–masculine–feminine punchline. The direct feminine address \"You dumb broad!\" is kept, so the structure survives but is weakened."
+          "justification": "The candidate adds a gender-neutral line, 'What a moron.', after the feminine insult 'You dumb broad!'. The added sentence is not in the source. It dilutes the feminine-masculine-feminine direct-address structure and turns the punchline into extra commentary."
         }
       ]
     },
@@ -355,14 +355,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 2,
+      "minor": 0
     },
-    "total_points": 6,
+    "total_points": 10,
     "meaning_units": 18,
-    "penalty_per_unit": 0.3333333333333333,
-    "major_equiv_per_unit": 0.06666666666666667,
-    "interpretation": "0.33 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5555555555555556,
+    "major_equiv_per_unit": 0.11111111111111112,
+    "interpretation": "0.56 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

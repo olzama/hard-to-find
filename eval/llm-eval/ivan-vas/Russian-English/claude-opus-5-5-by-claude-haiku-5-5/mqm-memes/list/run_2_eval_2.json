@@ -21,14 +21,7 @@
         }
       },
       "candidate": "Once again I'm plagued\nby vague suspicions...\nShpak loses a tape recorder,\nthe ambassador loses his order.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source names a medallion (медальон) as the ambassador's stolen item, but the candidate renders it as 'order', a decoration or honor. This changes the object that was lost, which the analysis identifies as the core of the joke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -48,13 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that Bunsha be clearly introducing himself as the Tsar, not addressing a Tsar. The candidate's 'Hello, tsar!' and 'Very pleased, hello, tsar!' read as vocatives addressed to a tsar, so the self-introduction is ambiguous and contradicts the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate reorders the greeting ('Very pleased, hello, tsar!') and loses the original sequence of the repeated short phrases, which weakens the rhythm of the ritualized speech."
+          "justification": "The analysis notes require making clear that Bunsha is introducing himself as the Tsar, not addressing one. \"Hello, tsar!\" and \"Tsar, very pleased!\" read as vocatives directed at a tsar, so the self-introduction is lost. The reference (\"Hello, I'm the Tsar\") resolves this."
         }
       ]
     },
@@ -166,7 +153,14 @@
         }
       },
       "candidate": "Looks like I dropped by at just the right time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Looks like I dropped by at just the right time!\" is wordier than the source's brisk, self-congratulatory exclamation. It loses the punchy cheerfulness of the reference \"Now, this was a good call!\" that the analysis describes as the burglar's casual reaction to his own crime. The meaning of entering (not leaving) is preserved."
+        }
+      ]
     },
     {
       "id": 9,
@@ -189,9 +183,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "The analysis explicitly warns that eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate says 'Caviar from overseas...' and 'Eggplant caviar!', which labels the cheap spread as caviar and undermines the intended inversion of status symbols."
+          "justification": "The analysis explicitly states that translations should not call the eggplant spread 'caviar' because it will confuse viewers. The candidate renders \"баклажанная\" as \"Eggplant caviar!\", directly contrary to that guidance. The reference avoids this with \"Overseas spread… eggplant!\""
         }
       ]
     },
@@ -218,7 +212,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses numerals ('3') for the list items but spells out 'three' for the final count. The inconsistency weakens the counting gag, where the final spelled-out 'three' is meant to be the payoff of the recount."
+          "justification": "The list mixes numerals (\"3 tape recorders\") with a lowercase spelled-out \"three\" at the end. The reference keeps a consistent spelled-out rhythm with a capitalized \"Three.\" as a punchline beat. The count-error joke still works, but the inconsistent formatting weakens the comic timing."
         }
       ]
     },
@@ -240,14 +234,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 2
     },
-    "total_points": 17,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

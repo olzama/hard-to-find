@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The policeman's retort in the candidate ('Get drunk—you will be!') preserves the mocking idea but inverts a more natural English idiom ('Get drunk enough, and you will be'). The phrasing is slightly awkward and weakens the deadpan cop humor/timing described in the analysis."
+          "justification": "The policeman's retort is syntactically awkward in English: 'Get drunk—you will be!' reads stilted. The reference's 'Get drunk enough, and you will be!' preserves the cop's deadpan mockery more naturally. The candidate keeps the joke but could be smoother."
         }
       ]
     },
@@ -38,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the meaning but loses the light, bouncing comic effect of the original rhythmic 'Trus/Boyus' pair. The line reads sincere rather than gently self-mocking, weakening the intended endearing paradox."
+        }
+      ]
     },
     {
       "id": 3,
@@ -68,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nunfortunately nothing will come of it!\nRusso tourist...\nMoral appearance... versteh'n?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate softens some of the playful, foreign-sounding loanword rhythm (e.g., 'Russo tourist' vs. the more comic 'Russo Turisto', and 'Moral appearance' is literalized). This reduces a little of the original's mock-sophisticated international patter that the analysis highlights."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -135,7 +135,14 @@
         "language_specific": {}
       },
       "candidate": "As our dear Boss says,\neven teetotalers drink at someone else’s expense—\nand ulcer sufferers too.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the proverb's meaning but flattens the original's rhythmic pairing (trezvenniki/yazvenniki). 'Ulcer sufferers' is a faithful choice, but the line loses some of the playful, balanced cadence emphasized in the analysis."
+        }
+      ]
     },
     {
       "id": 9,
@@ -170,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's comic effect depends on a marked mispronunciation of 'tablet' (funny pronunciation). The candidate ('One tablet is enough...') conveys the meaning but loses that pronunciation-based humor."
+          "justification": "The comic effect in the original relies on Lyolik's distinctive mispronunciation of 'tablet.' The candidate's neutral 'One tablet is enough...' conveys meaning but omits that audible character trait, reducing the line's humor and characterisation."
         }
       ]
     },
@@ -277,7 +284,14 @@
         "language_specific": {}
       },
       "candidate": "It’s not my fault! He came himself!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the denial but loses the particular register slip noted in the analysis (the slightly provincial/melodramatic form). 'He came himself' is grammatical but flattens the comic revealing of the character's mask."
+        }
+      ]
     },
     {
       "id": 18,
@@ -337,14 +351,7 @@
         "language_specific": {}
       },
       "candidate": "In this state...\nI can’t.\nI must... first...\ntake a ba-ath,\nhave a cup of coffee...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The analysis emphasizes Gena's affected pronunciation of 'coffee' as a marker of pretension ('kof-e'). The candidate shows an odd stutter on 'bath' but renders 'coffee' normally, losing the specific pronunciation-based comic cue."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 22,
@@ -377,9 +384,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The source's intentionally nonstandard/folksy verb form contributes comedic stubbornness. The candidate ('No, I can’t go along with that!') conveys the refusal but neutralizes the rustic, comical flavor by using a standard phrasing."
+          "justification": "The candidate communicates the refusal but eliminates the intentionally incorrect, folksy verb form ('пойти' rendered humorously in the source). That specific rural-sounding linguistic quirk is part of the joke and is lost, reducing the line's comic coloration."
         }
       ]
     }
@@ -387,13 +394,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 5,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

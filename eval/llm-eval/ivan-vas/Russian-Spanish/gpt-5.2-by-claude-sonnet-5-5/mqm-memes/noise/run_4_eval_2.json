@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says the items have disappeared (each lost his item). 'Shpak tiene un magnetófono, y el embajador un medallón' says they possess them, which is the exact mistranslation the analysis warns against, and it breaks the callback to the theft."
+          "justification": "The NB says the items are missing (lost). 'Shpak tiene un magnetófono, y el embajador un medallón' says they possess them, reversing the meaning and destroying the suspicion about theft."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vagas dudas' is acceptable, but 'oscuras sospechas' better keeps the suspicion/theft link and the mock-heroic register. The effect is slightly weaker."
+          "justification": "'Vagas dudas' is a plain rendering and loses some of the mock-heroic, theatrical flavor of 'oscuras sospechas' / 'смутные сомнения'."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'¡Mucho gusto, zar!' reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. The NB explicitly requires making clear he is the Tsar."
+          "justification": "'¡Mucho gusto, zar!' reads as addressing a tsar, not introducing himself as the Tsar, which the NB says must be clear. The self-introduction is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The added fourth line and the lack of the formal-greeting cliché ('buenas noches') reduce the mundane Soviet-formality clash."
+          "justification": "The candidate adds an extra fourth line and uses informal 'hola', which weakens the stiff, repetitive formal greeting cliché."
         }
       ]
     },
@@ -92,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vieja' is blunt and 'estoy triste' is plain. The archaic, regal melancholy of 'старушка' and 'в печали' is lost (cf. 'viejecita', 'afligido')."
+          "justification": "'Vieja' and 'estoy triste' are flat and colloquial. They lose the archaic, high-register regal melancholy ('viejecita', 'afligido') that contrasts with the Soviet setting."
         }
       ]
     },
@@ -114,13 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'¡Nos han tapiado, demonios!' reads 'demonios' as a vocative or exclamation, as if addressing the demons, which the NB forbids. Demons must be the subject."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Nos' (plural) replaces the Tsar's singular experience."
+          "justification": "'Nos han tapiado, demonios' is ambiguous and reads as addressing the demons ('demonios' as vocative or exclamation), which the NB forbids. The demons must be the subject, as in 'me han emparedado los demonios'."
         }
       ]
     },
@@ -142,7 +136,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira lo que hace' is colloquial and loses the solemn, pious tone of the Tsar's conviction, though the meaning is kept."
+          "justification": "'¡Mira lo que hace...!' is colloquial and addressed to a listener, which slightly weakens the Tsar's solemn, archaic conviction."
         }
       ]
     },
@@ -159,14 +153,7 @@
         "language_specific": {}
       },
       "candidate": "¡Que baile todo el mundo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'¡Que baile todo el mundo!' is more detached and less like a commanding, party-leading shout than 'Todos a bailar'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -183,10 +170,10 @@
       "candidate": "¡Qué bien que he entrado!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Qué bien que he entrado' correctly conveys that he has just entered, but it loses the sense of a lucky pick ('зашёл удачно'), which links to finding the valuables."
+          "justification": "'¡Qué bien que he entrado!' keeps the sense of having entered, which is acceptable for the NB. But it is a generic remark of relief and loses the lucky-find sense of stumbling on a jackpot of goods ('удачно зашел'), so the cheerful burglar's discovery is weakened."
         }
       ]
     },
@@ -206,9 +193,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "'Caviar de ultramar… de berenjena' calls the eggplant spread 'caviar', which the NB explicitly forbids. It also removes the 'delicacy from overseas' inversion of the status symbols."
+          "justification": "The NB forbids calling eggplant spread 'caviar'. The candidate uses 'Caviar de ultramar... De berenjena', which confuses the viewer and drops the 'manjar' substitution used in the reference."
         }
       ]
     },
@@ -230,7 +217,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Chaquetas de ante: tres' makes the jackets plural and gives the count straight away. The joke depends on a singular jacket whose count Shpak forgets to increment at first. The humor is lost."
+          "justification": "The joke depends on a singular jacket where Shpak forgets to raise the count. 'Chaquetas de ante: tres' makes the jackets plural, removing the slip that betrays him."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "Digits '3' in the subtitle list are less natural than spelled-out 'tres' for a spoken line."
         }
       ]
     },
@@ -247,26 +240,19 @@
         "language_specific": {}
       },
       "candidate": "¡Y a ti te curarán!\n¡Y a ti también te curarán!\n¡Y a mí me curarán!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks turn the calm, melodic resignation into an excited tone. The trailing ellipses of the original are lost."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 8
+      "major": 6,
+      "minor": 5
     },
-    "total_points": 33,
+    "total_points": 35,
     "meaning_units": 11,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.1818181818181817,
+    "major_equiv_per_unit": 0.6363636363636364,
+    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning and basic comic challenge, but it lacks the slightly pompous, self-dramatising theatrical register of the reference (\"Pray, tell me... I'll wait!\"). The shorter, more prosaic phrasing reduces the campy, performative tone described in the analysis."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "how about\nwe knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate preserves the casual, provocative tone and function but starts with a lowercase \"how about\" and splits the short phrase across a line break in a way that reads awkwardly for subtitle style. Otherwise the idiom \"knock back a little shot\" is a natural equivalent of the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -55,10 +55,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase \"High... high relations.\" which flattens the original's sarcastic exclamatory refrain and loses the theatrical stuttering/ironic elongation that makes the quote memorable. It also risks sounding like a neutral description rather than a biting refrain."
+          "justification": "The candidate renders the line as a literal noun phrase (\"High... high relations.\"), which the analysis explicitly warns against. That choice loses the natural exclamatory/ironical phrasing and the stuttering, sarcastic verbal refrain that makes the original humorous and character-defining."
         }
       ]
     },
@@ -77,10 +77,10 @@
       "candidate": "People don’t live for joy—\nthey live for conscience.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "\"They live for conscience\" is an odd, less idiomatic rendering and shifts the original soldierly fatalism of duty/obligation ('you live to do your duty') into a more abstract moral concept. The phrasing is unnatural in English and weakens the pragmatic meaning and tone described in the analysis."
+          "justification": "Meaning is preserved but the wording \"they live for conscience\" is non‑idiomatic in English and weakens the blunt, soldierly fatalism of the original. A more natural phrasing would convey duty/obligation rather than literal 'conscience.'"
         }
       ]
     },
@@ -114,10 +114,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"Culinary genius!\" reads as faint praise or even genuine compliment in English, whereas the original functions as a sharp, scathing household rebuke using an absurd professional noun. The candidate therefore softens the intended biting, imperious tone."
+          "justification": "The candidate's \"Culinary genius!\" reads as ironically praising someone's cooking rather than delivering the sharp, imperious insult intended in the original. It fails to reproduce the abrupt, accusatory domestic put‑down that the analysis identifies."
         }
       ]
     },
@@ -154,7 +154,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase \"Cut it out to hell.\" is unidiomatic in English and disrupts the blunt, urgent surgical imperative of the original. The second line conveys the medical threat, but the first line's awkward word order weakens the forceful comedic shock."
+          "justification": "The candidate keeps the blunt surgical imperative and the peritonitis reference, but \"Cut it out to hell\" is unidiomatic and awkward in English. The phrasing slightly disrupts the harsh comic contrast that the original delivers."
         }
       ]
     },
@@ -191,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering as \"It’s my cross! And I will bear it.\" preserves the basic meaning but breaks the idiom and reduces the manipulative grandiosity of the original phrasing (\"a cross to bear\") that the analysis identifies as key. The line reads more literal and less theatrically self-sacrificing."
+          "justification": "The candidate is understandable but translates the fixed English idiom awkwardly by splitting it into two literal sentences (\"It’s my cross! And I will bear it.\"). This weakens the idiomatic manipulative register of the original line ('a cross to bear')."
         }
       ]
     },
@@ -210,24 +210,24 @@
       "candidate": "Ah, I’m such a mess,\nso angular...\nSo full of contradictions!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate captures the self-mocking tone but uses \"angular,\" which the analysis specifically warns against as a literal and odd choice in English. The opening \"such a mess\" also shifts register slightly from the coquettish awkwardness of the original, making the characterization a bit less precise."
+          "justification": "The candidate renders \"угловатая\" as \"angular,\" which the analysis expressly warns against because it reads as a literal, odd description in English. Additionally, opening with \"I’m such a mess\" shifts the self‑portrait from coquettish awkwardness to a different meaning (disorder), changing the comedic characterisation that made the original a meme."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 11,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

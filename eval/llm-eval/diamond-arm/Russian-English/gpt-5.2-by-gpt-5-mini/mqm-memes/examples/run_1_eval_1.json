@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a faithful, literal rendering but loses the original's light, bouncing comedic rhythm (the Russian Trus/Boyus rhyme). The line reads straightforwardly rather than with the playful, self-mocking tic the analysis asks for."
+          "justification": "The candidate is a correct literal rendering but loses the light, bouncing comic effect of the Russian 'Trus/Boyus' rhyme. The line reads more flatly and earnest, weakening the intended playful self-contradiction."
         }
       ]
     },
@@ -68,7 +68,14 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nunfortunately it’s not going to happen!\nRusso touristo…\nObliko morale… fershteyn?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Adding 'You know,' softens Gena's performative faux-sophistication and slightly undermines the brash, list-like international jargon effect. The rest preserves the comic mixture of loanwords."
+        }
+      ]
     },
     {
       "id": 5,
@@ -113,14 +120,7 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kids,\nflowers for his woman.\nDon’t mix it up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses 'his woman,' which softens Lyolik's coarse, uneducated register compared with the rougher 'broad' in the reference. This weakens the character's blunt, streetwise voice described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -170,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's comic effect depends on a marked mispronunciation of 'tablet' (playful phonetic coloring). The candidate 'One pill is enough...' removes that distinctive mispronunciation, losing a layer of Lyolik's characterful speech."
+          "justification": "The candidate conveys the meaning but drops the humorous mispronunciation/phonetic emphasis on 'tablet' that gives the original its comic character, making the line less distinctive."
         }
       ]
     },
@@ -207,7 +207,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source conveys a melodic, elongated sigh ('Semyo-o-on Semyonych!'). The candidate's curt 'Semyon Semyonovich...' loses that extended, weary musicality that signals exasperation in the analysis."
+          "justification": "The candidate conveys the address but loses the elongated, melodic sigh ('Semyo-o-on') that signals weary exasperation; the line reads flatter and less expressive."
         }
       ]
     },
@@ -224,14 +224,7 @@
         "language_specific": {}
       },
       "candidate": "And may you live\non one\nsalary!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Meaning is preserved, but the theatrical cadence and sting of the original curse ('May you live... on one... salary!') is somewhat flattened by the candidate's tighter phrasing."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 14,
@@ -354,9 +347,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate attempts a rendition but introduces a misspelling/odd doubling ('baath') and drops Gena's affected pronunciation of 'coffee' that signals his pretentiousness. This reduces the comic detail of his affected, pseudo-aristocratic speech."
+          "justification": "The candidate includes a typo ('baath') and fails to reproduce Gena's affected pronunciation of 'coffee' noted in the analysis, which is part of the character's pretentious comedic mannerism."
         }
       ]
     },
@@ -393,7 +386,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's intentionally nonstandard verb form contributes a folksy, stubborn tone. The candidate's neutral 'No, I can’t go for that!' loses that rustic, comic morphological colouring and so weakens the original voice."
+          "justification": "The candidate is natural English but loses the intentionally nonstandard, folksy verb form of the Russian refusal, which contributes comic stubbornness and rural flavor."
         }
       ]
     }
@@ -401,13 +394,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 6
     },
-    "total_points": 7,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'I'm having those vague suspicions' drops the verb 'терзают' (torments/haunts). The analysis identifies the mock-heroic register of this phrase as the source of the humor, and the candidate's flat wording removes it. The reference's 'haunt me' keeps the effect."
+          "justification": "The analysis locates the humor in the mock-heroic register of 'терзают смутные сомнения'. 'I'm having those vague suspicions again' is mundane and drops the tragic-opera tone that the joke depends on."
         },
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'medal' translates 'медаль', but the source says 'медальон' (medallion). The candidate names the wrong object for the ambassador's stolen item."
+          "justification": "'Medal' is a different object from the source's 'медальон' (a pendant or locket). Its meaning is not the same, though the viewer will still read it as a valuable item the ambassador has lost."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The vocatives 'A pleasure, Tsar!', 'Hello, Tsar!' and 'Tsar, a pleasure!' read as Bunsha addressing a Tsar. The analysis explicitly requires making clear that he introduces himself as the Tsar, and the candidate never does this (the reference uses 'I'm the Tsar' and 'Hello, the Tsar')."
+          "justification": "The analysis requires it to be clear that Bunsha introduces himself as the Tsar, not that he addresses one. 'Hello, Tsar!' and 'A pleasure, Tsar!' read as greeting a Tsar, and the self-introduction in the reference ('I'm the Tsar') is missing."
         }
       ]
     },
@@ -188,10 +188,10 @@
       "candidate": "Black caviar, red caviar...\nAh, yes! Exotic caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "The analysis says the eggplant spread must not be called 'caviar' because it will confuse viewers. 'Exotic caviar...' applies the caviar label to the eggplant spread before the reveal, contradicting that note. 'Exotic' also loses the 'заморская' (imported from overseas) sense of foreign prestige that the reference preserves with 'Overseas spread'."
+          "justification": "The analysis warns against calling the eggplant spread 'caviar' because it confuses viewers. 'Exotic caviar' applies the caviar label to the eggplant spread, though the status inversion still lands with the 'Eggplant!' punchline."
         }
       ]
     },
@@ -218,13 +218,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's joke is that Shpak forgets to count the suede jacket at first ('куртка… замшевая… Три'), and the analysis says this lapse is what makes the joke funny. The candidate lists 'three suede jackets' in the same count, so the forgetting and the late catch-up are lost."
+          "justification": "The analysis says the joke works because Shpak forgets to count the suede jacket at first and then corrects himself. The candidate lists all four items up front and inflates the jacket to 'three suede jackets', so the slip and the trailing 'Три' correction are lost, along with the source's single jacket."
         },
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "'film cameras' is an ambiguous rendering of 'кинокамеры' (movie cameras). 'Film camera' can also mean an analogue still camera, which weakens the precision of the list."
+          "justification": "'Soviet-made' adds a specification not in the source. 'Отечественных' is closer to 'domestic', and the addition slightly shifts the emphasis of the item."
         }
       ]
     },
@@ -243,30 +243,30 @@
       "candidate": "You'll get treatment!\nAnd you'll get treatment, too!\nAnd I'll get treatment!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks make the lines exclamatory. The analysis calls for melodic, calm resignation, and the source's ellipses and cadence are not carried over, so the tone is less calm than the source."
+          "justification": "The analysis describes the wife's melodic, calm resignation as the core of the item. The candidate's exclamation marks turn that calm, sing-song resignation into agitated exclamation, which undercuts the intended tone."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "'You'll get treatment' shifts the agent and sense of 'вылечат' (they will cure you). The reference's 'they'll cure you' keeps the impersonal, fatalistic cadence the analysis describes."
+          "justification": "'Get treatment' is a weaker and more ambiguous rendering of 'вылечат' ('will cure'). The source's idea of being cured of madness is less clearly conveyed."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 3
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 28,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 2.5454545454545454,
-    "major_equiv_per_unit": 0.509090909090909,
-    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

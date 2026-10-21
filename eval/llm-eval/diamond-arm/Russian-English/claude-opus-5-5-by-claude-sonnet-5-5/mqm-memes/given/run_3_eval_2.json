@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I should have been in his place!\nGet drunk enough, and you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The opening address \"Guys,\" is omitted. It is part of Gorbunkov's melodramatic address to his comrades, and dropping it slightly weakens the contrast with the policeman's deadpan reply."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -73,7 +66,14 @@
         "language_specific": {}
       },
       "candidate": "Lady, signora, frau, miss...\nunfortunately, nothing's going to happen.\nRusso Turisto!\nObliko Morale! Verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Verstehen?' is a standard German form, whereas the reference's 'Verstehen?' is the same; the candidate keeps the mashup but 'Obliko Morale' and 'Russo Turisto' are kept intact, so the effect is preserved. Only the line breaks are altered, which does not harm the effect."
+        }
+      ]
     },
     {
       "id": 5,
@@ -140,10 +140,16 @@
       "candidate": "As our dear boss says,\nOn someone else's dime, even teetotalers\nand convalescers drink!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis calls for the balanced, proverbial rhythm of trezvenniki/yazvenniki, with some creative solution in English. The candidate has no rhyme or parallel sound pattern, so the 'law of nature' effect is flat. The mid-sentence capital 'On' after the comma is also slightly awkward."
+          "justification": "The analysis requires a creative solution to restore the balanced rhythm of 'trezvenniki/yazvenniki'; the candidate is a plain literal rendering with no rhythm or wordplay, so the proverbial 'law of nature' feel is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Convalescers' is imprecise for 'язвенники' (ulcer sufferers), and the candidate loses the medical-conviction contrast; the candidate also adds 'dear boss says' framing in a clumsy way with inconsistent capitalization."
         }
       ]
     },
@@ -160,7 +166,14 @@
         "language_specific": {}
       },
       "candidate": "In the morning, champagne is drunk\nonly by aristocrats and degenerates.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The analysis describes a rhyming social law (аристократы/дегенераты) delivered with gravelly authority. The candidate is a flat literal rendering with no rhyme or rhythmic compensation, so the memorable aphoristic effect is lost."
+        }
+      ]
     },
     {
       "id": 10,
@@ -375,14 +388,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 2,
       "minor": 2
     },
-    "total_points": 2,
+    "total_points": 12,
     "meaning_units": 23,
-    "penalty_per_unit": 0.08695652173913043,
-    "major_equiv_per_unit": 0.017391304347826087,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5217391304347826,
+    "major_equiv_per_unit": 0.10434782608695652,
+    "interpretation": "0.52 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

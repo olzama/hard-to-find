@@ -38,10 +38,10 @@
       "candidate": "Pleased to meet you. Tsar!\nPleased to meet you, hello. Tsar!\nTsar. Pleased to meet you!\nHello. Tsar! Pleased to meet you!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The bare 'Tsar!' at the end of each self-introduction can be read as a vocative addressing a Tsar, not as Bunsha announcing himself as the Tsar. The analysis requires the line to make clear he is introducing himself, and the reference does this explicitly with 'I'm the Tsar'."
+          "justification": "The analysis asks that the viewer clearly understand Bunsha is introducing himself as the Tsar, not addressing one. The candidate's bare 'Tsar!' after 'Pleased to meet you' is ambiguous and can read as a form of address. The first line also drops the source's 'Hello' (здравствуйте)."
         }
       ]
     },
@@ -93,7 +93,14 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nWalled me in, the fiends!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Walled in!' is elliptical and lacks a subject, so on its own it reads more like a bare adjective than the Tsar's distressed exclamation. The meaning is recoverable from the next line, but the phrasing is less natural than the reference's 'They've walled me in...'."
+        }
+      ]
     },
     {
       "id": 6,
@@ -178,7 +185,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "Calling the eggplant spread 'Overseas caviar' presents it as caviar. The analysis explicitly warns that the translation must not call eggplant spread caviar because it will confuse viewers. The reference keeps it as a 'spread'."
+          "justification": "The analysis explicitly warns that eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate sets up the reveal with 'Overseas caviar...' and then 'Aubergine!', which labels the cheap spread as caviar. This undermines the status-inversion joke, which depends on the viewer seeing an inexpensive spread presented as a rare imported delicacy. The reference avoids this with 'Overseas spread... eggplant!'."
         }
       ]
     },
@@ -205,19 +212,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The numbered ledger format with semicolons replaces the spoken, escalating recital of the source. The humor depends on the oral rhythm and the late 'Три' after the suede jacket, and the list form flattens this."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Film cameras' can be read as analogue film cameras rather than the cinema cameras of 'кинокамеры'. 'Movie cameras', as in the reference, is the unambiguous choice."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Cigarette cases, domestic, 3' is awkward because the adjective 'domestic' is stranded between two commas, so the phrase reads less naturally than the source."
+          "justification": "The source is spoken and built on hesitation: the count is interrupted by '…', and the forgotten suede-jacket increment is revealed by the bare 'Три' at the end. The candidate turns this into a tidy ledger with colons and semicolons, which removes the stammering performance and makes the omission less visibly comic. The counts themselves are preserved."
         }
       ]
     },
@@ -236,30 +231,30 @@
       "candidate": "They'll cure you too!\nAnd they'll cure you as well!\nAnd they'll cure me!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks replace the source's trailing ellipses and push the delivery toward agitation. The analysis identifies the character's melodic, calm resignation as the basis of the joke, and this shift contradicts that tone."
+          "justification": "The source has a calm, melodic, resigned tone marked by trailing ellipses. The candidate replaces these with exclamation marks on every line, which pushes the delivery toward agitation or hysteria and loses the gentle resignation the analysis describes."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Too' appears in the first line, although the source's first clause (И тебя вылечат) has no 'тоже'. The source's second clause carries the 'too' idea, so it is misplaced, and the opening 'And' is dropped."
+          "justification": "The source's first line is 'И тебя вылечат' with no 'too'. The candidate adds 'too' to that line, which implies someone else has already been cured. The 'too' belongs to the second line (тоже), and the candidate's 'as well' already renders it, so the first line is slightly over-specified."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 19,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

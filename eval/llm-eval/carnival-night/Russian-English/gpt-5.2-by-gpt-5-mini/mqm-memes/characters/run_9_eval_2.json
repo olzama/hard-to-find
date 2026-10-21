@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive\nto greet the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the bureaucratic register but replaces “celebrate” with “greet,” which slightly shifts the festive nuance. The original contrast between administrative tone and festive content remains, but the verb choice weakens the overtly celebratory sense a little."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -70,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the comic reversal (claiming brevity, then naming ~40 minutes) and the required pacing, but translates «коротенько» as the plain “briefly” rather than a diminutive/faux-modest variant. That slightly reduces the petty, self-satisfied tone of Ogurtsov's understatement."
+          "justification": "The candidate preserves the comic reversal (claim of brevity followed by 'forty minutes') and the managerial tone, but it drops the diminutive, puckish quality of «коротенько» (a faux-modest, cozy 'brief') that heightens the understatement. The extra phrasing 'no more, I think there's no need—' is slightly redundant and weakens the tight, self-satisfied cadence of the original."
         }
       ]
     },
@@ -134,10 +127,10 @@
       "candidate": "But we only need to take\na telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as “armed eye,” a literal calque that reads as odd and more surreal in English, losing the intended mock‑scientific echo of the idiom. The analysis recommends a solution like “aided eye” to preserve the near‑idiomatic, slightly off scholarly feel; “armed eye” overplays the strangeness and therefore harms the comedic effect."
+          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis warns against because it reads as oddly surreal in English. That choice risks turning the line into strange wordplay rather than the intended mock‑scientific near‑idiom. A solution like 'aided eye' would better preserve the slightly off scholarly tone."
         }
       ]
     },
@@ -185,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 2
     },
-    "total_points": 7,
+    "total_points": 2,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.25,
+    "major_equiv_per_unit": 0.05,
+    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

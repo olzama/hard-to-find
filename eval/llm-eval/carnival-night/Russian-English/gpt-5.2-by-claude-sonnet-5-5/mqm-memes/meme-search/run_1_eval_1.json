@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is a directive to celebrate\nthe New Year in a cheerful manner.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is a directive\" keeps the bureaucratic top-down framing, but \"in a cheerful manner\" is a stiff, wordy rendering of \"merrily\". It slightly weakens the dry comic clash, though the official register is kept."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -46,7 +39,14 @@
         }
       },
       "candidate": "We won’t take Baba Yaga\nfrom outside—we’ll train her up in-house!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Baba Yaga\" keeps the fairy-tale figure but, unlike \"witch,\" is not obviously a generic nasty-woman type for an English audience, so the workplace/social-type reading is weaker. The in-house training logic is preserved, so the effect is only partly reduced."
+        }
+      ]
     },
     {
       "id": 3,
@@ -67,10 +67,16 @@
       "candidate": "briefly—just\nabout forty minutes,\nmore than that, I think, is unnecessary",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The diminutive faux-modesty of «коротенько» is rendered as plain \"briefly\", and \"just about forty minutes\" misplaces the 'just' so it reads as approximation rather than self-satisfied understatement. The contrast between the brevity claim and the forty-minute punchline is weakened."
+        },
+        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"briefly—just about forty minutes\" keeps the briefness claim before the duration, but \"more than that, I think, is unnecessary\" is stiff and loses the self-satisfied, faux-modest managerial tone. \"just about\" works as a mild softener, yet the cozy diminutive effect of «коротенько» is only weakly conveyed."
+          "justification": "\"is unnecessary\" is stiff and formal rather than the smug, casual managerial tone of «я думаю, не надо»."
         }
       ]
     },
@@ -96,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready\" is rendered flatly, so the alcoholic subtext is lost. \"Been ready a long time!\" gives only a faint hint, and nothing signals that the lecturer is drunk. The reference's \"Oh, he's ready\" at least adds a knowing tone."
+          "justification": "\"Ready\" is rendered literally, with nothing to evoke the 'drunk/done for' subtext. The double meaning that makes the exchange funny is lost, and only the administrative reading remains."
         }
       ]
     },
@@ -122,7 +128,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... H-hello!\" keeps a faltering quality, with the stutter in \"H-hello\". However, \"People!\" is not stretched or broken (cf. \"Peo-ple!\"), and \"H-hello\" loses the drawn-out, wavering \"ау-у\" call. The drunken vocal instability is only partly conveyed."
+          "justification": "The broken, stretched vocalization of «Лю-ди! А… ау-у!» is only partly kept: \"People!\" is clean and unstretched, so the drunken faltering is weaker. \"H-hello!\" stutters rather than trailing off in a wavering call."
         }
       ]
     },
@@ -151,7 +157,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly says to avoid. It sounds surreal rather than like a malformed version of the familiar English \"unaided eye\", so the mock-scientific idiom distortion is lost. The reference solution, \"aided eye\", echoes \"unaided eye\"; the candidate offers no equivalent echo."
+          "justification": "The literal calque \"armed eye\" is exactly what the analysis says to avoid. It sounds surreal and does not echo the English \"unaided eye\", so the malformed-idiom, mock-scientific effect is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"But we need only take a telescope...\" drops the emphatic structure of «стоит только нам взять», making the pompous build-up weaker."
         }
       ]
     },
@@ -177,16 +189,16 @@
       "candidate": "and we can already see two little stars,\nthree little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac-star punchline does not click into a different semantic world. \"Five little stars\" with the diminutive repeated throughout keeps everything in the childish astronomy frame, and nothing signals the cognac association (the reference adds a note). The \"best of all\" is also tucked into the same line as \"four little stars\", which blurs the buildup-then-snap structure."
+          "justification": "The silly counting build-up and the final \"five little stars\" are preserved, but nothing signals the cognac association, which English viewers will not get without a note. The punchline shift into another semantic world therefore lands less clearly."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Four little stars—best of all, of course, five little stars!\" runs the counting sequence into the punchline, weakening the beat. The opening \"and we can already see\" is also awkward."
+          "justification": "\"Four little stars—best of all\" merges the count with the punchline, blurring the sudden click on the fifth star."
         }
       ]
     },
@@ -212,7 +224,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" mirrors the colloquial Russian parallelism well, and \"Science isn't in the know yet\" keeps the casual register. However, \"science does not know\" is a bit more formal and flat than «это науке неизвестно», so the register contrast is slightly less pronounced than in the reference."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" keeps the colloquial structure, but \"science does not know\" is flatter and slightly more formal than «это науке неизвестно». \"Isn't in the know yet\" preserves the casual personified-science register well, so the loss is small."
         }
       ]
     }
@@ -220,13 +232,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 5
+      "minor": 7
     },
-    "total_points": 20,
+    "total_points": 22,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.75,
+    "major_equiv_per_unit": 0.55,
+    "interpretation": "2.75 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

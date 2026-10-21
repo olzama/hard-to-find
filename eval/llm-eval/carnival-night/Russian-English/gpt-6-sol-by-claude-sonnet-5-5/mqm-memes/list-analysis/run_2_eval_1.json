@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Comrades, we have a directive\nto celebrate the New Year merrily.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Directive\" keeps the bureaucratic register and the clash with festive content, but it is slightly less colloquially Soviet than \"we have our instructions\". The line break is acceptable. The effect is largely preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "We won't recruit\nBaba Yaga from outside.\nWe'll cultivate one\nwithin our own collective!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Recruit\" and \"cultivate\" keep the staffing/workplace logic and the 'collective' wording is good, but \"Baba Yaga\" left untranslated and unexplained loses the social-type reading (nasty woman already in the office) for English viewers; the line reads more folkloric than workplace-toxic."
+        }
+      ]
     },
     {
       "id": 3,
@@ -58,7 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key word «коротенько» (\"briefly\") is omitted. The faux-modesty that sets up the \"forty minutes\" reversal is lost, and the analysis says the briefness claim must come first. \"Forty minutes or so. No longer than that\" lacks the comic contrast, so the joke is largely gone."
+          "justification": "The word 'коротенько' (briefly, faux-modest) is omitted entirely. The subtitle starts with 'forty minutes', so the briefness-then-duration comic reversal and Ogurtsov's smug self-restraint are lost; the line becomes a flat statement of duration."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Primed\" can suggest both being ready and being drunk/loaded (\"primed with drink\"), so it creates a double sense. The intoxication reading is weak and much less recognizable than the Russian «готов». \"Has been for ages\" keeps the \"for a while\" intensification."
+          "justification": "\"Primed\" can suggest both 'prepared' and, loosely, 'loaded', so it attempts the double sense, but the drunk reading is quite faint for most viewers (it is not a common word for intoxication). The joke is recreated only weakly, though the administrative surface and 'for ages' emphasis are kept."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, stretched \"Peo-ple! Ah... Yoo-hoo!\" preserves the faltering vocal shape. \"Yoo-hoo\" is cheerier and less drunkenly wavering than \"hellooo\" or «ау-у», and it loses a little of the pitiful tone. The dash for dialogue is unmotivated here."
+          "justification": "\"Yoo-hoo!\" preserves the broken, stretched vocalization and the 'Peo-ple!' split, but it sounds cheerful and playful rather than faltering and wavering, slightly weakening the pitiful drunken collapse."
         }
       ]
     },
@@ -126,10 +126,10 @@
       "candidate": "But once we take a telescope...\nAnd look with the armed eye...",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It does not evoke the familiar English idiom \"unaided eye\", so the malformed-idiom joke is lost. It sounds surreal rather than like mock-scientific upgrading."
+          "justification": "\"Armed eye\" is the literal calque the notes warn about; it sounds stranger and more surreal in English, since there is no 'unarmed eye' idiom to echo, so the mock-scientific deformation of a familiar phrase is not recreated. The sense of near-proper phrase gone wrong is only partly conveyed."
         }
       ]
     },
@@ -154,9 +154,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The \"little stars\" counting sounds appropriately trivial and the five-star payoff is kept. The cognac association is not signaled, but the analysis allows for a translator's note. \"But the best, of course, is five stars\" is split awkwardly across lines. Overall the effect is mostly preserved."
+          "justification": "The 'little stars' counting progression is trivial and silly as intended, and the 'five stars' punchline is kept. However, the cognac association is not made accessible to English viewers (the analysis notes a translator's note may be needed), so the shift into a different semantic world may not land."
         }
       ]
     },
@@ -178,21 +178,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The colloquial register is kept, and \"Science hasn't been told yet\" personifies science as not yet briefed, which is a good equivalent of «не в курсе дела». The rhetorical question form \"or isn't there life on Mars?\" is slightly more rhetorical than the original. The effect is preserved with minimal loss."
+          "justification": "The casual register and personification of science ('hasn't been told yet') work well and keep the comic flatness. \"Science doesn't know\" is slightly plainer than 'unknown to science', and the 'is there / isn't there' doublet is a bit stiff, but the effect is largely preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 15,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

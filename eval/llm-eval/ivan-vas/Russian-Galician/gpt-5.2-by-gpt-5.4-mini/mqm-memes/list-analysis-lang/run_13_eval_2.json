@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the meaning and the mock-heroic tone, but 'Vólvenme asaltar' is a bit less elegant than the reference’s more literary phrasing."
+          "justification": "The candidate preserves the meaning, but 'Vólvenme asaltar escuras dúbidas' is a bit less idiomatic and less mock-heroic than the approved phrasing, slightly weakening the theatrical comic register."
         }
       ]
     },
@@ -38,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "Ola, eu son o tsar, moito gusto.\nO tsar, moito gusto, o tsar.\nMoito gusto, ola, eu son o tsar.\nO tsar, moito gusto!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line preserves the repetitive, drunken self-introduction, but 'Ola' is slightly more colloquial and less close to the formal greeting effect described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -78,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Estou de loito' shifts the nuance from being sad/melancholy to literal mourning, which weakens the original regal lament without fully changing the scene."
+          "justification": "'Estou de loito' is understandable, but it shifts the tone from the reference's royal melancholy to a more ordinary phrase, making the line slightly less elevated and less characterful."
         }
       ]
     },
@@ -102,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes 'me' to 'us' ('Emparedáronnos'), which alters the meaning of the line; Ivan is speaking about himself, and the plural is not justified."
+          "justification": "The candidate changes the subject from 'me' to 'us' ('Emparedáronnos'), which breaks the meaning: Ivan is describing his own entrapment, not a shared one."
         }
       ]
     },
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning is clear, but 'Mira' is a less elevated choice than the reference's more solemn, archaic-sounding phrasing, slightly weakening the mock-epic religious tone."
+          "justification": "'Mira' is a slightly more colloquial choice than the reference's more elevated exclamation, so the line loses a bit of the Tsar's grandiose, quasi-biblical tone."
         }
       ]
     },
@@ -161,7 +154,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Mira que entrei con bo pé!' suggests entering with a good omen or good luck, but it does not convey the key idea that he has just stumbled upon the apartment by chance and is pleased with the discovery."
+          "justification": "'Mira que entrei con bo pé' suggests 'I came in on the right foot' rather than 'I just happened to come in / I struck gold by coming here,' so it misses the sense of lucky discovery and the light, self-satisfied criminal boast."
         }
       ]
     },
@@ -180,10 +173,10 @@
       "candidate": "Caviar negro, vermello...\nSi! Unha pasta exótica...\nde berenxena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Unha pasta exótica' is too vague and omits the crucial joke that this is a counterfeit, cheap substitute presented as a delicacy; it also lacks the food-specific punch of the original setup."
+          "justification": "'Unha pasta exótica' is understandable, but it is less precise than the reference's explicit 'caviar/roe' setup, slightly weakening the joke built on the food-status contrast."
         }
       ]
     },
@@ -202,10 +195,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 cigarreiros nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The count is not preserved correctly: the source lists three tape recorders, three film cameras, three cigarette cases, and then the suede jacket before ending on an unfinished 'three'. The candidate drops the repeated 'three' pattern for the jacket and makes the inventory less precise."
+          "justification": "The abbreviated list with isolated numerals is understandable, but it reads less naturally and less rhythmically than the reference, reducing the comic accumulation of items."
         }
       ]
     },
@@ -222,19 +215,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti curarante!\nE a ti tamén te curarán!\nE a min curaranme!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate keeps the meaning, but the repeated future-passive phrasing ('curarante / curarán / curaranme') sounds a bit stiffer and less melodically resigned than the reference, slightly weakening the comic cadence."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 4
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 24,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

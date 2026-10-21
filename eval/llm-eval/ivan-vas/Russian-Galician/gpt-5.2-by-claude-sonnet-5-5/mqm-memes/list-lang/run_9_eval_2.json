@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB explicitly forbids rendering the line as 'Shpak has... the ambassador has...'. The candidate says Shpak ten un magnetófono and the embaixador un medallón, which reverses the meaning: the items are missing/lost, not possessed."
+          "justification": "The NB is violated: 'Shpak ten un magnetófono, e o embaixador, un medallón' says they currently have the items, whereas the source means each lost his item. The meaning is reversed."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'vagas dúbidas' and the 'A min vólvenme asaltar' wording is less mock-heroic and theatrical than the high-brow 'terzar/asaltar escuras sospeitas' register; 'vólvenme asaltar' also sounds somewhat awkward."
+          "justification": "'Vagas dúbidas' with 'a min vólvenme asaltar' is somewhat less elevated and less clearly mock-heroic than 'asáltanme escuras sospeitas'. The callback sense of 'опять' is carried only by 'vólvenme', and the line break structure is choppy."
         }
       ]
     },
@@ -49,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Moito gusto, tsar!' reads as addressing a tsar, with no 'son o tsar', so the meaning is reversed/ambiguous."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The greeting clichés ('Здравствуйте') are rendered as an informal 'ola', and the formal Soviet social-ritual flavour is weakened; the structure also adds an extra repetition line."
+          "justification": "The NB requires the line to show Bunsha introducing himself as the Tsar. 'Moito gusto, tsar!' and 'Ola, tsar!' read as addressing a Tsar, so the self-introduction and the joke of the drunk impostor are lost."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'triste' is plain and modern; it loses the elevated, archaic regal register of 'я в печали' (reference 'aflixido'), weakening the contrast with the mundane setting."
+          "justification": "'Triste' is plain and colloquial, so it loses the high-register, archaic regal melancholy that 'aflixido' gives ('я в печали'). The contrast with the mundane Soviet setting is weakened."
         }
       ]
     },
@@ -114,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedáronme, demos!' reads as a vocative addressing the demons, which the NB explicitly forbids; demos must be the subject of the sentence ('emparedáronme os demos')."
+          "justification": "'Emparedáronme, demos!' reads as a vocative, with the Tsar addressing the demons. The NB requires demons to be the subject of the sentence, as in the reference."
         }
       ]
     },
@@ -163,10 +157,10 @@
       "candidate": "Vaia, entrei ben!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Vaia, entrei ben!' is ambiguous but reads as past-tense evaluation, which may suggest he is leaving; also it loses the sense of luckily stumbling upon a good place (the reference 'dei cun bo sitio'). The NB warns against a misleading rendering, and 'entrei ben' is rather vague and awkward (it reads as 'I entered well')."
+          "justification": "'Vaia, entrei ben!' is ambiguous and could suggest a successful entrance rather than finding a lucky spot. It does not convey the sense of landing in a good place full of valuables, though it does not wrongly imply leaving."
         }
       ]
     },
@@ -188,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says eggplant spread must not be called 'caviar'. The candidate renders 'Caviar de ultramar... De berenxena!', so the eggplant spread is called caviar, losing the distinction and confusing the joke."
+          "justification": "The NB says not to call eggplant spread 'caviar'. The candidate says 'Caviar de ultramar... De berenxena!', which calls it caviar and loses the cheap-versus-luxury inversion and the clarity of the joke."
         }
       ]
     },
@@ -207,16 +201,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 cigarreiras nacionais,\ncazadora de camurça... tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the jacket count and then correcting to 'tres'. The candidate drops the article/count for the jacket ('cazadora de camurça... tres') in a way that is similar, but it also omits 'cine' and writes digits '3', which is unnatural in spoken dialogue. The key humor is largely preserved, so only the fluency is weakened."
+          "justification": "'Cazadora de camurça' is given without the number before it and keeps 'tres' only at the end, which works. But it renders 'jacket' as a casual bomber-style 'cazadora', and the hesitation pauses of the original ('куртка… замшевая…') are only partly kept."
         },
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "Numerals '3' instead of spelled-out 'tres' and 'cámaras' without 'de cine' are less natural and less precise for spoken subtitles."
+          "justification": "Digits ('3') in the subtitles flatten the spoken, boastful repetition of 'tres'."
         }
       ]
     },
@@ -233,26 +227,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti hanche curar!\nE a ti tamén hanche curar!\nE a min hanme curar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'hanche curar' is a less natural/regional form than 'vante curar', and the opening line lacks the ellipses of hesitant, melodic resignation; the exclamation marks make the tone more emphatic than calm."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 4,
       "minor": 5
     },
-    "total_points": 35,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

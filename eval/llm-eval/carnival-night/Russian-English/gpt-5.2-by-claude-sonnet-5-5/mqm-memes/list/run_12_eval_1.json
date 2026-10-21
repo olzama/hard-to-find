@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept as a fairy-tale name without any cue to the nasty-woman-in-the-workplace type, so English viewers may read it only as folklore. \"Raise one within our own collective\" keeps the in-house logic, but \"collective\" sounds more Soviet than workplace-natural, and \"raise\" is slightly less bureaucratic than \"train\"."
+          "justification": "\"Baba Yaga\" is left untranslated and unexplained, so English viewers get only the fairy-tale reading and may miss the social type of the nasty woman already in the workplace. The workplace logic is kept by \"raise one within our own collective\", which also works as a deadpan staffing joke, so the damage is limited."
         }
       ]
     },
@@ -67,16 +67,16 @@
       "candidate": "briefly—about forty minutes,\nmore, I think, isn’t necessary—",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The diminutive faux-modesty of «коротенько» is rendered with a plain \"briefly\", so the cozy, patronizing tone is weaker. The order (briefly before forty minutes) is preserved, so the punchline still works."
+          "justification": "The key word «коротенько» is rendered as plain \"briefly\", with no faux-modesty or cozy diminutive feel. The contrast with \"forty minutes\" is weakened, as the analysis warns."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"more, I think, isn't necessary\" is a slightly stiff, literal phrasing compared with a natural \"I don't think we need more than that\"."
+          "justification": "\"more, I think, isn't necessary\" is stiff and awkward English. The lowercase fragment also begins abruptly."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is lost. \"Ready... been ready for ages\" gives only the literal administrative reading, with no hint of intoxication, so the joke disappears. The analysis warns explicitly against translating only as \"ready\"."
+          "justification": "\"Ready\" is used throughout, with no hint of \"drunk\" or \"done for\". The double meaning that makes the joke is lost, so English viewers see only a plain confirmation of readiness. \"Been ready for ages\" does not add any intoxication subtext."
         }
       ]
     },
@@ -128,7 +128,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... Hellooo!\" keeps the broken, wavering shape only partly. \"People\" is not stretched as in «Лю-ди», so the drunken vocal instability is weaker, though \"Hellooo\" and the ellipses carry some of it."
+          "justification": "The broken, wavering shape of the call is only partly kept. \"People!..\" is a clean word, unlike the stretched \"Peo-ple!\" of the reference, so the drunken vocal instability is weaker. \"Ah... Hellooo!\" does keep some of it."
         }
       ]
     },
@@ -157,13 +157,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the English-specific note says to avoid. It sounds surreal rather than like a mock-scientific distortion of \"unaided eye\", so the echo of the familiar idiom is lost."
+          "justification": "\"Armed eye\" is the literal calque the analysis says to avoid. It sounds surreal and does not evoke the English \"unaided eye\", so the mock-scientific idiom distortion is lost."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"it's only for us to take a telescope\" is awkward and unidiomatic English compared with \"all we have to do is take a telescope\"."
+          "justification": "\"it's only for us to take a telescope\" is awkward and unidiomatic English."
         }
       ]
     },
@@ -189,16 +189,16 @@
       "candidate": "and we already see two little stars,\nthree little stars...\nFour little stars—and best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac association of \"five stars\" is not conveyed or signaled, although the analysis notes it may need a note. The \"little stars\" counting is silly and trivial, as intended, but the sudden click into the cognac frame is weak for English viewers."
+          "justification": "\"Five little stars\" with no cognac cue or note leaves the pivot into the cognac frame opaque. The \"click into a different semantic world\" is lost, and the line seems merely odd."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Four little stars—and best of all, of course, five little stars!\" drops the dramatic pause present in the source's build-up and flattens the sequence into a single run-on."
+          "justification": "\"Four little stars—and best of all, of course, five little stars\" breaks the counting build-up. The counting rhythm is slightly muddied by the dash and by the line breaks."
         }
       ]
     },
@@ -224,21 +224,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet in the know\" keeps the casual, personifying register well, but \"in the know\" is slightly less natural than \"up to speed\". The first sentence is otherwise very close to the reference, so the effect is mostly preserved."
+          "justification": "\"Science is not yet in the know\" keeps the colloquial personification, but \"in the know\" is slightly less natural than \"up to speed\". The phrase \"or there is no life on Mars\" is a bit stiff, so the casual feel is a little weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 8
+      "major": 4,
+      "minor": 6
     },
-    "total_points": 18,
+    "total_points": 26,
     "meaning_units": 8,
-    "penalty_per_unit": 2.25,
-    "major_equiv_per_unit": 0.45,
-    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.25,
+    "major_equiv_per_unit": 0.65,
+    "interpretation": "3.25 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

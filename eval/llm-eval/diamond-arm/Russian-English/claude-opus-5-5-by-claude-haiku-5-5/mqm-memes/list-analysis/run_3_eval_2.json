@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The opening address 'Ребята' ('Guys') is dropped, so the line loses its addressed-to-a-group framing. The 'будешь' pun ('Drink enough and it will be!') is preserved."
+          "justification": "The punchline 'Drink enough and it will be!' leaves 'it' without a clear referent, so the viewer may not read it as 'you will be carried away'. The reference's 'you will be' makes the intended outcome explicit."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The literal 'I'm not a coward, but I'm afraid...' with a trailing ellipsis lacks the bouncy, lighthearted rhythm the analysis describes and reads closer to pathetic than endearing. The added 'No, no,' is the only comic gesture, and it sounds defensive rather than charming."
+          "justification": "The rendering is literal and has no rhythmic or comic effect. 'I'm afraid' is flatter than the reference's inflated 'overpowered by fear', and the bouncy cadence the analysis describes is not reproduced."
         }
       ]
     },
@@ -85,7 +85,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Леди' ('Lady') is omitted, so the run of forms of address (lady, signora, frau, miss) loses its first member and the mock-international list is shorter than in the source."
+          "justification": "The list of forms of address is shortened: 'Леди' (Lady) is dropped, leaving three of the four, and 'You see,' is added. The loanword mashup is slightly weakened, though the joke still works."
         }
       ]
     },
@@ -157,7 +157,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'ulcer-totalers' is a coinage whose meaning (stomach-ulcer patients who abstain) is opaque to an English viewer. The attempted wordplay on 'teetotalers' does not land clearly, and the parallel rhythm of the original is weakened."
+          "justification": "The 'ulcer-totalers' coinage echoes 'teetotalers' and so is a valid creative solution, but its meaning is opaque. The sentence also breaks into a fragment after the ellipsis, so the proverbial punch lands less cleanly than in the reference."
         }
       ]
     },
@@ -224,7 +224,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The elongated 'Семё-он' is not stretched, and the colloquial patronymic 'Семёныч' becomes the formal 'Semyonovich'. The affectionate, exasperated sigh the analysis describes is weakened, though the ellipsis carries some of the effect."
+          "justification": "The candidate drops the elongated, melodic 'Semyo-o-on' and replaces the colloquial shortened patronymic 'Semyonych' with the full formal 'Semyonovich'. This weakens the affectionate, weary facepalm of the original."
         }
       ]
     },
@@ -261,7 +261,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The trailing ellipsis in 'ai-lyu-lyu...' replaces the source's close and weakens the frantic, command-like urgency the analysis identifies as the line's function."
+          "justification": "The trailing ellipsis and missing exclamation mark make the chant read as trailing off rather than the frantic urgency the analysis describes for 'zigel' as a command for speed."
         }
       ]
     },
@@ -278,14 +278,7 @@
         "language_specific": {}
       },
       "candidate": "slipped, fell...\nclosed fracture...\nblacked out, came to -\ncast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'came to -' is elliptical and less immediately clear than 'woke up in a cast'. The telegraphic rhythm is kept, but the final beat reads awkwardly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -300,14 +293,7 @@
         "language_specific": {}
       },
       "candidate": "With one light movement of the hand\nthe trousers turn into...\nturn into, the trousers...\nelegant shorts!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source repeats 'the trousers transform' three times, with the inverted third phrase. The candidate gives only two variants before the punchline ('the trousers turn into...' and 'turn into, the trousers...'), which weakens the desperate-repetition effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 17,
@@ -397,20 +383,7 @@
         "language_specific": {}
       },
       "candidate": "Do you have the same one, but\nwith mother-of-pearl buttons?\nI'm afraid not...\nNo, huh... we'll keep looking...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Do you have...' drops the subjunctive politeness of 'You wouldn't have...'. The polite-but-ridiculous stalling tone the analysis describes is weakened, since the request now sounds blunt."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'No, huh...' is an odd rendering of 'Нет?' and loses the deflated, questioning intonation of the original reaction."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 23,
@@ -431,13 +404,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 10
+      "minor": 6
     },
-    "total_points": 10,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.43478260869565216,
-    "major_equiv_per_unit": 0.08695652173913043,
-    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

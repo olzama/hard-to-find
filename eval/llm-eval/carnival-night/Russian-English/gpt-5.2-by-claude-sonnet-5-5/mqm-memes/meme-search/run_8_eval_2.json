@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hiring\" and \"within our collective\" keep the workplace logic, but \"collective\" is slightly stiff in English and \"train\" is replaced by an implicit sense; the in-house cultivation joke is intact, though the punchy 'in-house' idiom is lost. Overall effect preserved with minor loss of natural workplace idiom."
+          "justification": "\"Baba Yaga\" keeps the fairy-tale figure, but English-language viewers may not read her as a nasty workplace type, so the social dimension is weaker. \"Train one within our collective\" does keep the deadpan staffing logic."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"Briefly\" is placed flatly and \"more, I think, is unnecessary\" is stiff and formal; the faux-modest, cozy diminutive tone of «коротенько» is lost, and the self-satisfied managerial understatement that makes \"forty minutes\" land as a punchline is weakened. The phrasing sounds like a literal rendering rather than a patronizing 'just a short little talk'."
+          "justification": "The faux-modest, cozy diminutive effect of «коротенько» is lost. Plain \"briefly\" and the stiff \"is unnecessary\" make the line formal and flat, so the smug understatement against \"forty minutes\" does not land as a punchline."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate translates \"ready\" literally, with no cue for the colloquial 'drunk/done for' reading. The double meaning that the analysis names as the core of the joke is lost; \"been ready a long time!\" with an exclamation mark hints slightly at it but does not recreate the intoxication subtext."
+          "justification": "The \"ready\" = drunk double meaning is lost. \"Ready\" in English only conveys the administrative sense, and \"been ready a long time\" has no hint of intoxication, so the central joke disappears."
         }
       ]
     },
@@ -120,9 +120,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line is normalized into a clean \"People!.. Ah... Hello!\" The stretched, broken vocalization (Лю-ди! ау-у!) that carries the drunken physical comedy is lost; \"Hello!\" is plain and does not sound wavering or slurred, which the analysis specifically warns against."
+          "justification": "The stretched, broken, wavering vocalization (\"Лю-ди! А… ау-у!\") is normalized into a clean \"People!.. Ah... Hello!\". The drunken physical comedy and the faltering oratory are lost."
         }
       ]
     },
@@ -151,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the English-specific note explicitly says to avoid. It does not echo \"unaided eye\", so the mangled-idiom joke (mock-scientific distortion of a familiar expression) does not register for English viewers and reads as merely strange."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line ends with a comma and breaks off, while the source has an exclamatory trailing \"!..\" that conveys the lecturer's pompous flourish."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It does not evoke the familiar \"unaided eye\" and sounds more surreal than the mock-scientific malformed idiom of the original."
         }
       ]
     },
@@ -183,16 +177,10 @@
       "candidate": "we already see two little stars,\nthree little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The counting progression is garbled: \"Four little stars—best of all, of course, five little stars!\" makes four stars 'best of all' before correcting to five, breaking the build-up. In the source the escalation of two, three, four stars is trivial and then 'five stars' is the sudden click. The punchline is muddled and the cognac association is not conveyed in any way (e.g. via a note)."
-        },
-        {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Little stars\" sounds childish in a way that partly matches the diminutive, but it is repeated every time and makes the line slightly cutesy rather than a drunken derailment into cognac logic."
+          "justification": "The diminutive \"little stars\" captures the childish counting, but \"Four little stars—best of all\" garbles the buildup: the dash makes four the best, which blurs the sudden click to \"five stars\" as the best cognac. The cognac association is also lost without a note."
         }
       ]
     },
@@ -213,19 +201,26 @@
         }
       },
       "candidate": "Whether there’s life on Mars or not,\nscience does not know.\nScience isn’t up to speed yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Science does not know\" is flatter and more formal than the conversational \"unknown to science\". The closing \"isn't up to speed yet\" keeps the colloquial personification of science, so the register mismatch mostly survives."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 4,
       "minor": 3
     },
-    "total_points": 28,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 3.5,
-    "major_equiv_per_unit": 0.7,
-    "interpretation": "3.50 MQM penalty points per meaning unit (≈ 0.70 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

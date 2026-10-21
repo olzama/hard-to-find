@@ -46,7 +46,14 @@
         "language_specific": {}
       },
       "candidate": "just a short one,\nforty minutes or so - no more is needed, I think",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The diminutive «коротенько» and its faux-modest, patronizing tone are flattened to \"a short one.\" The \"just\" carries some of the faux-modesty, so the contrast with \"forty minutes\" is only slightly weakened."
+        }
+      ]
     },
     {
       "id": 4,
@@ -66,7 +73,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"The lecturer's ready, long ready!\" uses \"long ready\", which is non-idiomatic English and reads as a calque of the Russian \"давно готов\". The double sense of \"ready\" survives, but the phrasing is awkward. \"Been ready for a while\" would read more naturally and keep the same ambiguity."
+          "justification": "\"The lecturer's ready, long ready!\" is unidiomatic English. The double sense of \"ready\" (official readiness vs. intoxication) survives, but the second clause reads as a calque and weakens the brisk administrative rhythm of the exchange."
         }
       ]
     },
@@ -83,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "- People!.. Ah.. Yoo-hoo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"People!..\" is not stretched or broken, so the vocal instability the analysis calls for is weakened. \"Yoo-hoo\" is a cheerful, chirpy call, which pulls away from the faltering, drunken attempt at public address. A broken or stretched rendering of the opening word would be closer to the intended effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -113,9 +113,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"look not with the naked eye but the dressed one\" is elliptical. \"The dressed one\" only signals the malapropised idiom if the reader supplies \"eye\", so the mock-idiom effect is harder to parse on first hearing. The malapropism itself (naked to dressed) is a reasonable creative equivalent of the armed/unaided substitution, so the issue is clarity rather than meaning."
+          "justification": "\"The dressed one\" turns the idiom into a playful pun, so the lecturer sounds ridiculous, but \"dressed\" does not carry the mock-scientific 'upgrade' sense of «вооружённым» (armed). The line loses the sense of pseudo-scholarly pomp that the analysis identifies as central."
         }
       ]
     },
@@ -139,10 +139,10 @@
       "candidate": "and already we see two\nstars, three stars..\nFour stars, but best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline depends on \"five stars\" being recognised as the Soviet cognac grading, which the analysis identifies as the sudden shift into a different semantic world. The candidate gives no translator's note or other cue, so \"five stars\" reads as a rating or a generic superlative to most viewers. The cultural link is lost and the joke no longer lands. The reference bracketed note shows this boundary was anticipated, and the language-specific note recommended one."
+          "justification": "The cognac cultural association (five-star = best cognac in the USSR) has no cue in the candidate, unlike the reference, which includes a bracketed note. A general audience will not feel the sudden click into the cognac domain that the analysis calls the punchline."
         }
       ]
     },
@@ -159,19 +159,26 @@
         "language_specific": {}
       },
       "candidate": "Is there life on Mars, is there no\nlife on Mars, science does\nnot know.\nScience hasn't been briefed yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Is there no life on Mars\" is stilted English, and the candidate reads as a literal echo of the Russian structure. Natural phrasing such as \"whether there is life on Mars or not\" would sound more like casual speech."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 0,
+      "minor": 5
     },
-    "total_points": 8,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

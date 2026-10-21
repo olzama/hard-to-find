@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires that Shpak and the ambassador LOST their items. 'Shpak: magnetófono. O embaixador: medallón.' is a bare list with no verb, so it does not convey loss and could be read as possession, which the analysis explicitly rules out. The callback logic (items missing, thus suspicion) is lost."
+          "justification": "'Shpak: magnetófono. O embaixador: medallón.' is a bare list that does not convey that each lost the item; it reads as possession or mere labelling, which the NB explicitly warns against. The missing-item meaning is lost."
         },
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'Volven atormentarme vagas sospeitas' keeps a fairly elevated register, but the telegraphic second half breaks the mock-heroic, theatrical flow of the sentence."
+          "justification": "'Volven atormentarme vagas sospeitas' is somewhat elevated, but the clipped, telegraphic second half loses the mock-heroic, theatrical flow of the bureaucrat's speech and the rhyming callback effect."
         }
       ]
     },
@@ -49,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Moito gusto, tsar!' reads as addressing a tsar, which is exactly the misreading the analysis warns against; the reference uses 'son o tsar' to fix this."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The humor of the stiff, repetitive Soviet formal greeting is partially kept through repetition, but the drunken self-introduction effect is weakened."
+          "justification": "'Moito gusto, tsar!' reads as Bunsha addressing a tsar (vocative), not introducing himself as the Tsar. The NB says this must be clear, and nothing like 'son o tsar' is present."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is plain and modern; it loses the high-register, archaic melancholy of 'я в печали' (reference 'aflixido'), weakening the contrast with the Soviet setting."
+          "justification": "'estou triste' is plain and modern; it loses the archaic, high-register regal melancholy (e.g. 'aflixido') that contrasts with the Soviet setting."
         }
       ]
     },
@@ -114,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedáronme, demoños!' places the demons in a vocative, as if he were addressing them, which the NB explicitly forbids. Demons must be the subject of the sentence."
+          "justification": "'Emparedáronme, demoños!' with a comma makes demons a vocative, as if he were addressing them. The NB requires demons to be the subject of the sentence."
         }
       ]
     },
@@ -163,10 +157,10 @@
       "candidate": "Que ben entrei!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei!' correctly signals that he has just entered, so it is not misleading about leaving. However, it loses the sense of luck/finding a good place ('удачно зашёл') and sounds slightly less idiomatic and cheerful than the reference."
+          "justification": "'Que ben entrei!' is awkward and does not convey the satisfied 'what a lucky place I walked into' sense. It can be read as having already got in or done something well, and loses the casual cheerful tone of finding a jackpot."
         }
       ]
     },
@@ -186,9 +180,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The NB says not to call eggplant spread 'caviar'. The candidate says 'Caviar de ultramar... de berenxena', calling the eggplant spread caviar, which confuses viewers, and loses the 'overseas delicacy' framing."
+          "justification": "'Caviar de ultramar... de berenxena' calls the eggplant spread caviar, which the NB explicitly says to avoid because it confuses viewers and weakens the inversion of status symbols."
         }
       ]
     },
@@ -210,13 +204,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke relies on the count growing and on the suede jacket not being incremented (a single jacket, with a hesitant 'tres' at the end). The candidate makes it 'tres chaquetas' with no hesitation, removing the betrayal/punchline."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Numerals '3' instead of spelled-out numbers lose the spoken, hesitating rhythm; 'pitilleiras' is acceptable but 'camurza' is a less standard choice than 'ante'."
+          "justification": "The joke depends on Shpak forgetting to raise the jacket count: the jacket should be singular and the 'tres' should come only after a pause. The candidate makes 'tres chaquetas' and drops the delayed 'Tres', so the humor is lost."
         }
       ]
     },
@@ -238,27 +226,21 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first 'И тебя вылечат' and merges the sequence, losing the melodic, repeated, calmly resigned incantation described in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the tone more emphatic than the calm, resigned delivery of the original."
+          "justification": "The first clause ('E a ti vante curar') and the repetitive, lulling three-part structure are compressed to two parts, weakening the melodic, resigned incantation, though the meaning of everyone being cured is kept."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 7
+      "major": 7,
+      "minor": 2
     },
-    "total_points": 32,
+    "total_points": 37,
     "meaning_units": 11,
-    "penalty_per_unit": 2.909090909090909,
-    "major_equiv_per_unit": 0.5818181818181818,
-    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.3636363636363638,
+    "major_equiv_per_unit": 0.6727272727272727,
+    "interpretation": "3.36 MQM penalty points per meaning unit (≈ 0.67 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

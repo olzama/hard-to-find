@@ -46,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "Such lofty... lo-lo-lofty feelings!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the stuttering and sarcastic tone, but uses \"feelings\" instead of the more precise \"relationship(s)\" implied by the original. This slightly shifts the target of the sarcasm from the social/relational absurdity to internal emotions, weakening the original's bite."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -70,10 +63,10 @@
       "candidate": "You don't live for happiness—you live for conscience.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate renders the second clause as \"you live for conscience,\" which shifts the meaning from the original sense of duty/obligation (the social/moral duty used to justify oppression) to an inward moral sense. This contradicts the analysis that highlights the phrase's exposure of duty-based, authoritarian logic."
+          "justification": "«You don't live for conscience» is slightly unidiomatic in English and shifts register. The intended soldierly fatalism ('you live to do your duty') is better rendered with duty/responsibility; 'conscience' makes the line sound abstract and weakens the blunt pragmatic tone described in the analysis."
         }
       ]
     },
@@ -105,14 +98,7 @@
         "language_specific": {}
       },
       "candidate": "You little kitchen tyrant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps a sharp, mocking insult but replaces the terse, punchy original with a more elaborate phrase \"You little kitchen tyrant!\", which alters register and introduces a different comedic flavor. The effect remains comical but is slightly stronger/aggressive than the reference's concise reproach."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -159,10 +145,10 @@
       "candidate": "Kholotov, that's petty!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "terminology",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate spells the name as \"Kholotov\" instead of the reference's \"Khobotov\", producing an inconsistent transliteration of the character's name. This is a small but noticeable terminology inconsistency that can confuse continuity."
+          "justification": "The candidate transliterates the name as 'Kholotov' instead of the correct 'Khobotov' (or an established English variant). This is a factual/name error that undermines recognition of the recurring character cue that the line depends on."
         }
       ]
     },
@@ -184,7 +170,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the target of the idiom to a person (\"He's my cross to bear\"), which materially alters the meaning and undermines the manipulative self-victimization intended in the original. The line should keep the idiomatic sense of 'a burden I must carry,' not label the person himself as the cross."
+          "justification": "The candidate changes the syntactic subject to 'He's my cross to bear', which reverses the meaning: the original asserts that the speaker herself bears the cross (her supposed burden). Changing it to 'He' alters the manipulative self-sacrificing claim that is central to the line's dramatic effect."
         }
       ]
     },
@@ -201,26 +187,19 @@
         "language_specific": {}
       },
       "candidate": "Oh, I’m such an awkward mess,\nso all elbows and knees...\nSo full of contradictions!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's phrase \"all elbows and knees\" literalizes \"угловатая,\" which the analysis warned against. While it conveys awkwardness, the literal bodily image is slightly awkward in English and weakens the original's deft, coquettish self-deprecation."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 4
+      "minor": 1
     },
-    "total_points": 14,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

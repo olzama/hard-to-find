@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nYou’ll be if you drink!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the basic joke but flattens the register clash. The policeman's bored, mocking tone is slightly weakened by the stiffer phrasing 'You’ll be if you drink!' compared with a more colloquial retort that undercuts Gorbunkov's melodrama."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's bouncing rhyme (trus/boius) gives the line a light, comic rhythm. The candidate is accurate but somewhat flat and literal, losing that playful, endearing bounce."
+          "justification": "Meaning is correct, but the candidate loses the light, bouncing comic rhythm of the original rhyme ('trus/boyus'). The line reads a bit flat and literal rather than endearing and playful."
         }
       ]
     },
@@ -71,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "Adds an unnecessary 'You know,' which weakens the abrupt performative listing in the original. Also renders some loanwords slightly altered ('Oblico' vs expected 'Obliko', 'versteyn' spelling), which is acceptable as phonetic rendering but slightly awkward."
+          "justification": "The candidate conveys the multilingual gag but introduces awkward wording ('You know,'), alters spelling of the mock-foreign phrases (Oblico vs Obliko) and uses 'versteyn' which reads clumsy. Overall the performative, pompous pseudo-sophistication is slightly weakened."
         }
       ]
     },
@@ -120,7 +127,14 @@
         "language_specific": {}
       },
       "candidate": "the children get ice cream,\nhis wife gets flowers.\nDon’t mix them up!\nKutuzov!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the instruction but neutralizes Lyolik's coarse register by using 'his wife' instead of the rougher 'babe' ('его бабе'), losing some of the character's uneducated, mocking voice."
+        }
+      ]
     },
     {
       "id": 8,
@@ -140,7 +154,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The Russian line relies on rhythmic parallelism (trezvenniki/yazvenniki). The candidate conveys the meaning but loses the balanced, proverbial rhythm, making it less punchy."
+          "justification": "The candidate conveys the content but loses the original's rhythmic pairing (trezvenniki/yazvenniki). The line ordering and phrasing ('and ulcer sufferers') reads prosaic and undercuts the pithy, proverb-like punch."
         }
       ]
     },
@@ -177,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis flags a humorous mispronunciation of 'tablet' as an important character touch. The candidate is accurate but neutral, losing that comedic phonetic marker."
+          "justification": "Accurate in meaning but misses the comic effect of Lyolik's mispronunciation of 'tablet' that makes the line memorable. The straightforward 'One tablet is enough...' is too neutral."
         }
       ]
     },
@@ -214,7 +228,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's elongated, melodic sigh is a character cue. The candidate is natural and accurate but loses the drawn-out, weary musicality of the original phrasing."
+          "justification": "The candidate is accurate but loses the melodic, elongated sigh and musicality of the original elongated patronymic, rendering the weary exasperation less vivid."
         }
       ]
     },
@@ -321,14 +335,7 @@
         "language_specific": {}
       },
       "candidate": "And if they won’t take them — cut off the gas!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate conveys the threat but uses a clipped imperative ('cut off the gas!') instead of the full conditional/escalatory phrasing ('we'll shut off the gas!'), which slightly reduces the petty-authoritarian tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 20,
@@ -343,7 +350,14 @@
         "language_specific": {}
       },
       "candidate": "Well, if you’re ever with us in Kolyma...\nNo, better you come to us!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds 'with us' ('if you’re ever with us in Kolyma'), which slightly shifts the original polite invitation into something more inclusive/ambiguous. The joke still works, but the phrasing is somewhat off compared with the intended threat/invitation contrast."
+        }
+      ]
     },
     {
       "id": 21,
@@ -363,7 +377,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original includes affected pronunciations (especially of 'coffee') that signal Gena's pretentiousness; the candidate is accurate but neutral, losing that comic vocal affectation."
+          "justification": "Content is preserved, but the candidate omits Gena's affected pronunciation of 'coffee' and the slightly pompous cadence that signals his pretentiousness; the line reads too ordinary."
         }
       ]
     },
@@ -400,7 +414,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's nonstandard/folksy verb form is a comic, characterizing cue. The candidate renders a polite, standard refusal, losing the rustic/blunt flavour that makes the line humorous."
+          "justification": "The candidate correctly renders the refusal but loses the rustic, grammatically marked flavor of the original ('пойти' misformed) that adds comic stubbornness. The line becomes more standard and less characterful."
         }
       ]
     }
@@ -408,13 +422,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 8
+      "minor": 10
     },
-    "total_points": 8,
+    "total_points": 10,
     "meaning_units": 23,
-    "penalty_per_unit": 0.34782608695652173,
-    "major_equiv_per_unit": 0.06956521739130435,
-    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.43478260869565216,
+    "major_equiv_per_unit": 0.08695652173913043,
+    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

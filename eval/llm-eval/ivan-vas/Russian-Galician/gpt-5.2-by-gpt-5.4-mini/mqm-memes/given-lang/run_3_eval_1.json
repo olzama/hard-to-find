@@ -121,7 +121,14 @@
         "language_specific": {}
       },
       "candidate": "Pois si que dei cun bo sitio!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The phrase means he has just come into the apartment and found it unexpectedly well-supplied; the candidate's wording can be read as 'I found a good place,' which weakens the immediate reaction and risks sounding like he is simply commenting on location rather than on his lucky entry into a loot-filled apartment."
+        }
+      ]
     },
     {
       "id": 9,
@@ -141,7 +148,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The extra repeated line \"De berenxena!\" makes the subtitle unnecessarily clunky and slightly disrupts the rhythm, though the joke remains understandable."
+          "justification": "The line is natural enough, but the duplicated final \"De berenxena!\" is redundant here and makes the subtitle clunkier than necessary. It does not destroy the joke, but it slightly hurts pacing and readability."
         }
       ]
     },
@@ -178,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 1
     },
-    "total_points": 1,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

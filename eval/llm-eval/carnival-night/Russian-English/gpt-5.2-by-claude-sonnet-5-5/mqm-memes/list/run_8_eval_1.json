@@ -39,7 +39,14 @@
         }
       },
       "candidate": "We won’t hire Baba Yaga from outside—\nwe’ll bring one up in our own collective!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "\"Hire Baba Yaga\" keeps the staffing logic, and \"bring one up in our own collective\" keeps the in-house cultivation. But \"Baba Yaga\" is left untranslated with no cue to the nasty-woman workplace type, so the social reading is less accessible to an English audience than the reference's \"witch\". \"Bring up\" and \"collective\" are slightly odd but acceptable."
+        }
+      ]
     },
     {
       "id": 3,
@@ -58,7 +65,14 @@
         }
       },
       "candidate": "just briefly—about forty minutes,\nmore, I think, isn’t necessary—",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The order is right (briefly, then forty minutes), but \"just briefly\" is flat and loses the faux-modest, cozy diminutive tone of «коротенько». The punchline is preserved, but the patronizing, self-satisfied managerial voice is weaker. The \"more, I think, isn't necessary\" phrasing is stilted."
+        }
+      ]
     },
     {
       "id": 4,
@@ -77,7 +91,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—has been ready for a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The translation keeps only the literal \"ready\" reading. Nothing in the wording or tone recreates the \"ready = drunk/done for\" double sense, e.g. \"he's been ready for quite a while\" with a knowing tone. The reference keeps some of the implication, but this candidate adds nothing beyond the surface meaning, so the main joke is lost."
+        }
+      ]
     },
     {
       "id": 5,
@@ -121,9 +142,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis says to avoid. It sounds more surreal than the Russian and does not echo the familiar English \"unaided eye\", so the mock-scientific deformation of a recognizable idiom is lost."
+          "justification": "The analysis explicitly warns against the literal calque \"armed eye\", which sounds more surreal than the Russian and does not evoke the idiom \"unaided eye\". The candidate uses exactly this calque, so an English audience misses the mangled-idiom, mock-scientific effect."
         }
       ]
     },
@@ -147,7 +168,14 @@
         }
       },
       "candidate": "we already see\ntwo little stars, three little stars...\nFour little stars; best of all, of course,\nfive little stars!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The counting build-up is kept as trivial and silly, and the \"five\" punchline lands. But \"little stars\" is more childish than the original, and without a note or the cognac association, English viewers will not recognize the shift into the cognac frame. The sentence order is also slightly awkward: \"Four little stars; best of all...\" breaks the progression."
+        }
+      ]
     },
     {
       "id": 8,
@@ -166,19 +194,26 @@
         }
       },
       "candidate": "Whether there is life on Mars or there is no life on Mars—\nscience does not know.\nScience is not yet in the know.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The content and casual register are largely preserved, especially \"Science is not yet in the know\". But \"Whether there is life on Mars or there is no life on Mars\" is clunky, and \"science does not know\" is flatter than the reference's \"unknown to science\", slightly weakening the contrast between the scientific topic and its colloquial phrasing."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 0
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 5,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 0.625,
-    "major_equiv_per_unit": 0.125,
-    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

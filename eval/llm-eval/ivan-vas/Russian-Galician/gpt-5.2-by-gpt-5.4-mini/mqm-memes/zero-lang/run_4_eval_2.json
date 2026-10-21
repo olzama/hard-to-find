@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate mistranslates the key relational meaning: in context Bunsha says these people no longer have the items, but \"Shpak ten... / o embaixador...\" means they currently possess them. That reverses the point of the joke and contradicts the analysis note."
+          "justification": "The candidate reverses the key meaning of the line: it says Shpak still has the tape recorder and the ambassador still has the medallion, whereas the original means these items have been taken/lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line breaks and phrasing are serviceable, but the mock-heroic opening is a bit less theatrical than the reference, slightly weakening Bunsha’s pompous comic register."
+          "justification": "The mock-heroic phrasing is preserved, but the phrasing is a bit less polished than the reference and the line breaks make the sentence feel slightly clunky."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate makes Bunsha address the tsar ('Encantada, tsar!') instead of introducing himself as the tsar, which the analysis says must be clear. This changes the scene’s humor and meaning."
+          "justification": "The candidate makes Bunsha address someone as \"tsar\" rather than clearly introducing himself as the Tsar, which the analysis flags as essential to the joke."
         },
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The repeated formula is preserved, but the colloquial 'bo día' shifts the greeting away from the more neutral social-politeness feel of the original banqueting exchange."
+          "justification": "The greeting formula is altered enough that it loses the comic effect of a drunken self-introduction with repetitive, banal social clichés."
         }
       ]
     },
@@ -92,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' conveys the sense, but it is flatter and less elevated than 'que estou aflixido', so the Tsar’s archaic, mock-regal melancholy is slightly weakened."
+          "justification": "\"Estou triste\" is accurate, but it sounds more plain and modern than the more elevated, theatrical \"estou aflixido,\" slightly weakening the regal tone."
         }
       ]
     },
@@ -109,7 +109,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The split line ending with an exclamation mark creates a slightly awkward rhythm, though the meaning and joke remain clear."
+        }
+      ]
     },
     {
       "id": 6,
@@ -129,7 +136,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Isto é o que fai...' is understandable, but it sounds less idiomatic and slightly less emphatic than a more natural exclamation, so the wonder-struck miracle tone is somewhat weakened."
+          "justification": "\"Isto é o que fai...\" is understandable, but it sounds less natural and less forceful than the reference's exclamatory, demonstrative tone."
         }
       ]
     },
@@ -166,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Bo momento para pasar!' suggests a good time to go through or pass by, which is misleading and does not convey Miloslavsky’s cheerful realization that he has landed in a profitable opportunity after entering."
+          "justification": "\"Bo momento para pasar!\" implies a good moment to go by/pass through, but the original means he has come in at just the right moment and is pleased about it."
         }
       ]
     },
@@ -188,7 +195,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the crucial joke that the 'overseas caviar' is eggplant-based. By omitting 'de berenxena', it loses the satirical punch and the contrast described in the analysis."
+          "justification": "The candidate drops the explicit mention of eggplant and instead says only \"caviar de ultramar,\" losing the punchline that the cheap eggplant spread is being framed as exotic."
         }
       ]
     },
@@ -210,13 +217,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The count is broken: the source and reference enumerate three of each item, but the candidate only gives one 'chaqueta de camurza' and leaves the final 'tres' unattached. This distorts Shpak’s exaggerated inventory joke."
+          "justification": "The count is mishandled: the source lists three tape recorders, three film cameras, three cigarette cases, and then a suede jacket, with the final \"three\" attached to that jacket. The candidate turns the jacket into plural \"chaquetas\" and leaves the joke structure broken."
         },
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The compressed list with abrupt line breaks is readable, but 'chaquetas de camurza, tres' is awkward and not well integrated syntactically."
+          "justification": "Using numerals and a more itemized layout weakens the comic rhythm of the boastful inventory list."
         }
       ]
     },
@@ -238,21 +245,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the final 'e a min vanme curar' and repeats the first clause twice. That breaks the structure of Ulyana’s resigned escalation and loses part of the joke."
+          "justification": "The first two lines are collapsed into the same wording, so the progression of \"you too... and you too... and me too...\" is lost. The cumulative, resigned cadence of the joke is therefore weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 7,
       "minor": 5
     },
-    "total_points": 35,
+    "total_points": 40,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.6363636363636362,
+    "major_equiv_per_unit": 0.7272727272727273,
+    "interpretation": "3.64 MQM penalty points per meaning unit (≈ 0.73 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

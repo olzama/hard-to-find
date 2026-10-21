@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "No, I'm not a coward,\nbut I'm overpowered by fear...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the meaning but loses the light, bouncing comic rhythm of the original Russian 'Trus/Bojus' pair. The phrasing is slightly more formal/deliberate ('overpowered by fear') and therefore weakens the small, endearing comic effect described in the analysis."
+        }
+      ]
     },
     {
       "id": 3,
@@ -61,7 +68,14 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nunfortunately nothing's going to work!\nRusso turista…\nObliko morale… verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning and the multilingual gag are preserved, but the candidate adds a conversational 'You know,' and changes 'Russo Turisto' to 'Russo turista' (minor variant). These small shifts slightly alter Gena's performative faux-sophistication but do not break the joke."
+        }
+      ]
     },
     {
       "id": 5,
@@ -124,9 +138,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate omits the verb 'drink' (or equivalent) at the end of the line, turning a punchy proverb into a fragment. This weakens the rhythmic, proverbial effect the analysis requires and reduces comedic impact."
+          "justification": "The candidate conveys the proverb's meaning but drops the rhythmic, rhyming pair (trezvenniki/yazvenniki) the analysis highlights. The loss of that balanced cadence makes the line less proverb-like and less memorable."
         }
       ]
     },
@@ -193,7 +207,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's elongated, melodic sigh is flattened to a plain name. The candidate loses the drawn-out, weary musicality that conveys the speaker's exasperated tone."
+          "justification": "The candidate conveys the address but loses the drawn-out melodic sigh and playful elongation ('Semyo-o-on'), which is an important expressive cue in the analysis. The result is more neutral and less theatrically weary."
         }
       ]
     },
@@ -320,7 +334,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate inserts an extra welcoming line from the guest ('If you're ever in Kolyma - you're very welcome!') that is not present in the source. This addition slightly alters the exchange's pacing and the immediate comic misunderstanding that motivates Gena's reflexive refusal."
+          "justification": "The candidate introduces an extra emphatic line ('If you're ever in Kolyma - you're very welcome!') that is not present in the source. While it keeps the general idea, the added line slightly softens the original terse exchange and changes the rhythm of the joke."
         }
       ]
     },
@@ -342,7 +356,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a neutral 'coffee' rather than the affected pronunciation highlighted in the analysis. This removes a small but characterful marker of Gena's pretentiousness and reduces the comic effect."
+          "justification": "The candidate translates the content but omits the affected pronunciation/playful mispronunciation of 'coffee' ('kof-e') that signals Gena's pretentious affect. Losing that vocal tic reduces a comic marker of his affected sophistication."
         }
       ]
     },
@@ -364,7 +378,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate's 'No, yes... we'll keep looking...' is awkward and ambiguous compared with the source's clear rhetorical exchange. The hesitation phrasing reduces clarity and naturalness of the shopping-stall stall tactic."
+          "justification": "The candidate includes an awkward hesitation ('No, yes...') that doesn't match the clear bargaining/deflection pattern in the source. The meaning is still understandable, but the added filler makes the line less natural and slightly confusing."
         }
       ]
     },
@@ -387,13 +401,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 7
     },
-    "total_points": 5,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

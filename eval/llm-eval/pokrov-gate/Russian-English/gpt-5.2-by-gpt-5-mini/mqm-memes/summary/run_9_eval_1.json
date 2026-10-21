@@ -48,10 +48,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'High... high relations.' renders the line as a literal noun phrase and loses the sarcastic, exclamatory refrain and stuttering mock-elevation signalled in the analysis. This contradicts the required comedic tone and rhythmic delivery of the original memorable catchphrase."
+          "justification": "The candidate 'High... high relations.' uses a literal noun-phrase construction that reads awkwardly in English and loses the natural exclamatory, sarcastic refrain recommended in the analysis. It fails to deliver the idiomatic punch of the reference but preserves the basic meaning."
         }
       ]
     },
@@ -70,10 +70,10 @@
       "candidate": "People don't live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "‘People don't live for joy—they live for conscience.’ is a literal rendering that sounds less idiomatic and shifts nuance from the idiomatic English sense of duty/obligation (as in the reference) to an inward moral sense ('conscience'), softening the soldierly fatalism highlighted in the analysis."
+          "justification": "Rendering 'совести' as 'conscience' changes the idiomatic, soldierly sense of duty expressed in the analysis. The reference's 'live to do your duty' conveys fatalistic, moral obligation; 'live for conscience' sounds abstract and alters the intended pragmatic/judgmental tone."
         }
       ]
     },
@@ -105,7 +105,14 @@
         "language_specific": {}
       },
       "candidate": "Culinary genius!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'Culinary genius!' is more playful and positive-sounding than the biting, imperious retort in the analysis. It loses some of the original's sharp, domestic-invective tone even though it can function sarcastically."
+        }
+      ]
     },
     {
       "id": 7,
@@ -137,10 +144,10 @@
       "candidate": "Cut it out to hell.\nWithout waiting for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'Cut it out to hell. / Without waiting for peritonitis.' is awkward and unidiomatic in English, breaking the punchy, brusque medical-satire imperative of the original. The line order and preposition usage reduce the force and fluency of the directive."
+          "justification": "The phrasing 'Cut it out to hell.' is unidiomatic and disrupts the abrupt, forceful medical-humour impact of the original. The line should be a brusque surgical injunction; the candidate's word order and choice make it clumsy and weaken the comic shock."
         }
       ]
     },
@@ -162,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The character name is mistransliterated as 'Khibotov' instead of an expected 'Khobotov'/'Hobotov'. Misrendering the repeated name undermines the recognizable refrain and risks confusing the character identity; the rest of the line is otherwise adequate."
+          "justification": "The candidate misspells/transliterates the character name as 'Khibotov' instead of the expected 'Khobotov' (or an accepted target-language spelling). Altering the name undermines character recognition and the repeated formulaic put-down identified in the analysis."
         }
       ]
     },
@@ -184,7 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'He's my cross! And I will bear it.' changes the grammatical object and emphasis: the original idiom expresses 'this burden is mine to bear' (a fixed idiom). Rendering it as 'He's my cross' suggests the person is the cross, altering the manipulative self-sacrificing rhetoric and weakening the intended idiomatic impact described in the analysis."
+          "justification": "The candidate 'He's my cross!' shifts the meaning from an abstract, self-imposed burden ('This is my cross to bear') to labelling a person as 'my cross,' which distorts the manipulative martyrdom the analysis describes. The line therefore misrepresents the character's rhetorical strategy."
         }
       ]
     },
@@ -206,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' as a translation of 'угловатая', which the analysis specifically warns against as overly literal and odd in English. While the rest captures the self-mocking rhythm, 'angular' sounds awkward and reduces the naturalness of the characterization."
+          "justification": "Using 'angular' follows the discouraged literal rendering of 'угловатая' and sounds awkward in English for a self-deprecating feminine characterization. The rest preserves tone, but 'angular' weakens the natural idiomatic phrasing recommended in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 4,
       "minor": 3
     },
-    "total_points": 18,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

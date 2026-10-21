@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept as a fairy-tale name with no gloss, so the workplace/social type (nasty woman already in the collective) is less accessible to an English viewer than a generic 'witch'. \"Hire\" and \"raise\" preserve the staffing logic, but 'raise' is more parental than the 'train in-house' sense."
+          "justification": "\"Raise one\" and \"hire\" keep the workplace logic, but \"hire\" is slightly off against \"raise\" and \"collective\" is a bit foreign-sounding. The raising/cultivating joke still works, though it is somewhat less natural than 'train one in-house'."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "briefly—about\nforty minutes; more, I think,\nisn’t necessary",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The faux-modest, cozy tone of «коротенько» is lost: lowercase \"briefly\" with a flat \"isn't necessary\" sounds dry and neutral. It lacks the smug, patronizing understatement that makes \"forty minutes\" land as the punchline. The ending is also stiff, not colloquial."
+          "justification": "\"Briefly\" is placed before the duration as needed, but there is no faux-modest or patronizing tone (the diminutive 'коротенько'). The phrase \"isn't necessary\" is stiff, so the smug managerial tone is weaker, though the punchline still lands."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double sense of «готов» (ready / drunk) is not recreated. \"Ready... been ready a long time\" is only the literal reading, so the joke about the lecturer being drunk is lost. The dialogue also lacks dash or speaker marks, so the exchange is unclear."
+          "justification": "The \"ready\" = \"drunk\" double meaning is not conveyed. \"Ready\" is translated literally with no recreated ambiguity or hint of intoxication, so the joke at the heart of the item is lost for an English audience."
         }
       ]
     },
@@ -117,7 +117,14 @@
         }
       },
       "candidate": "- People!.. Ah... A-oo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"People!.. Ah... A-oo!\" keeps the broken call, but the clean \"People!\" does not stretch or waver like the original 'Лю-ди!'. The drunken vocal instability is only partly preserved, and \"A-oo\" is a less natural hailing sound than 'hellooo'."
+        }
+      ]
     },
     {
       "id": 6,
@@ -144,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the language notes say to avoid. It sounds surreal and does not echo the English idiom \"unaided eye\", so the mock-scientific malformed-idiom effect is lost. The original has a rising ending (\"!..\"), while the candidate ends in a comma."
+          "justification": "\"Armed eye\" is a literal calque that the analysis explicitly warns against. It lacks the echo of \"unaided eye\" and sounds surreal rather than like a mangled, mock-scientific idiom, so the humor of the deformed phrase is lost."
         }
       ]
     },
@@ -173,7 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting is rendered as silly and trivial, and the \"five stars\" punchline is preserved. However, the candidate has no cognac cue or note, so the click into a different semantic world is weaker for English viewers. \"Little stars\" is a bit repetitive and the rhythm is slightly broken."
+          "justification": "The \"stars\" progression and the five-star punchline are kept, so the cognac derailment is preserved for those who know it. However, \"little stars\" sounds nursery-like and nothing helps English viewers understand the cognac association, which the analysis notes may need a note. The final shift is thus weaker."
         }
       ]
     },
@@ -199,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Is there no life on Mars\" and \"science does not know\" are a bit stiff and formal. \"Not yet in the know\" keeps the colloquial register, but the first sentence is more formal than the reference, so the register mismatch is slightly weaker."
+          "justification": "Content and colloquial register are largely preserved, and \"not yet in the know\" is casual. \"Science does not know\" is a bit flatter than 'unknown to science', and the 'is there... is there no life' phrasing is slightly awkward, so the comic effect is a little weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 3
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 18,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 2.25,
-    "major_equiv_per_unit": 0.45,
-    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"just a short one\" keeps the faux-modesty, but the diminutive coziness of «коротенько» and the adverbial \"briefly\" set-up are lost, so the self-satisfied understatement is slightly flatter than the analysis describes."
+          "justification": "\"Just a short one\" carries the faux-modesty only partly. The diminutive, cozy tone of «коротенько» is flattened into something more casual than patronizing, which weakens the set-up before \"forty minutes or so\"."
         }
       ]
     },
@@ -68,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nThe lecturer's ready, long since ready!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate renders «готов» only as \"ready\", so the colloquial drunk reading the analysis identifies as the joke is absent. The reference also omits it, so the loss is limited, but the double sense the analysis asks for is not recreated."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -95,7 +88,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Peo-ple!..\" is broken only by an ellipsis, not stretched within the word as in the reference, and the chirpy \"Yoo-hoo!\" is less wavering than the analysis's faltering cry. The drunken vocal instability is weakened, though the line still reads as a failed public address."
+          "justification": "\"People!\" is not stretched or broken the way the analysis asks, so the first word lands as a clean address rather than a faltering attempt. \"Yoo-hoo\" is also brighter and more cheerful than the wandering, drunken «ау», which reduces the sense of a failed formal opening."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The leading hyphen has no counterpart in the source and reads as a formatting artifact rather than part of the lecturer's utterance."
         }
       ]
     },
@@ -120,9 +119,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"not with the naked eye, but with the dressed eye\" is a clever mock-idiom and keeps the malformed-expression joke, but it adds an explicit negated contrast absent from the source. The line also ends on a comma rather than the source's trailing \"!..\", losing the closing break."
+          "justification": "\"Dressed eye\" keeps the structure of a corrupted idiom set against \"naked eye\", but \"dressed\" reads as arbitrary silliness rather than a mock-scientific 'upgrade' of the standard phrase. The lecturer's pseudo-learned pomp is weakened."
         }
       ]
     },
@@ -146,10 +145,10 @@
       "candidate": "and we already see\ntwo stars, three stars...\nFour stars, but best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline depends on the cognac association of \"five stars\", which the analysis says must produce a sudden click into a different semantic world. The candidate gives no translator's note or other signal, so \"five stars\" reads as astronomy or ratings, the click is lost, and the line becomes merely odd. The reference's bracketed note shows this could be handled."
+          "justification": "The cognac cultural cue (five-star cognac) is not signaled, unlike the reference's bracketed note, which the analysis flags as likely needed. Without it, \"five stars\" reads as a generic rating joke, and the sudden semantic shift into the cognac domain that drives the punchline is lost for most viewers."
         }
       ]
     },
@@ -171,21 +170,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" is stilted; \"whether or not\" phrasing would be more natural and closer to the source's rhythm. The rest of the line, including \"hasn't been briefed yet\" for «не в курсе дела», works well."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is a stiff, unidiomatic rendering of «нет ли жизни». English would more naturally say \"whether there is life on Mars or not\", which would also make the casual, looser register of the second sentence stand out more."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 0,
+      "minor": 6
     },
-    "total_points": 10,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

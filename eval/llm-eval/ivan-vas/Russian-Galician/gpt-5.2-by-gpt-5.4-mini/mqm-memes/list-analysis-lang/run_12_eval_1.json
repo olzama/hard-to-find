@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Vólvenme asaltar\nvagas dúbidas...\nShpak quedou sen magnetófono,\no embaixador, sen medallón.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line is understandable and preserves the mock-solemn tone, but the line break and phrasing are slightly less smooth than the reference."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "Ola, eu son o tsar, moito gusto.\nO tsar, moito gusto, eu son o tsar.\nEu son o tsar, moito gusto.\nOla, eu son o tsar. Moito gusto.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line is understandable and keeps the self-introduction, but the wording is less repetitive and less ceremonially awkward than the original comic rhythm, so it slightly weakens the drunken, formulaic gag."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -53,14 +53,7 @@
         "language_specific": {}
       },
       "candidate": "Esixo que continúe o banquete!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The meaning is preserved, but 'que continúe o banquete' is slightly less forceful and less idiomatic than a direct demand to continue the banquet, softening Bunsha's imperious tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -77,16 +70,10 @@
       "candidate": "Déixame, vella, estou de loito.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Estou de loito' changes the meaning: the original says he is sad/melancholy, not that he is in mourning. The emotional tone is therefore altered."
-        },
-        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vella' sounds blunter and less archaic/playful than the reference's 'velliña', which better fits the Tsar's old-fashioned, mock-regal dismissiveness."
+          "justification": "\"Estou de loito\" shifts the nuance from being melancholic/grieving to literal mourning, which slightly weakens the elegant, archaic-sounding lament in the source."
         }
       ]
     },
@@ -105,10 +92,10 @@
       "candidate": "Emparedaronme...\nEmparedaronme os demoños!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'Emparedaronme' changes the scene from 'they have walled me up' to a completed action without the lamentative echo of the original, and 'os demoños' is misspelled/unnatural here. The repeated cry is also weakened by the altered form."
+          "justification": "\"Os demoños\" is a slightly awkward/unnatural form here; the line still conveys that the demons are the subject, but the wording sounds less natural than the reference."
         }
       ]
     },
@@ -130,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning is close, but 'Isto é o que fai...' sounds more prosaic than the more elevated, exclamatory formulation expected for this mock-religious punchline."
+          "justification": "\"Isto é o que fai\" is comprehensible, but it is more prosaic and less emphatic than the exclamatory, miracle-like force of the source."
         }
       ]
     },
@@ -152,7 +139,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'A bailar todo o mundo!' is clear, but it shifts the imperative nuance of 'Todos a bailar!' into a more neutral expression, slightly weakening the rallying, chaotic command."
+          "justification": "\"A bailar todo o mundo!\" preserves the meaning, but it sounds like a general invitation rather than a commanding, triumphant rallying cry that better matches the scene."
         }
       ]
     },
@@ -174,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Mira que entrei con sorte!' implies he entered with luck, but the joke is that he has just come in and happily found a good place; the phrasing is too vague and does not clearly convey the celebratory realization about the entry."
+          "justification": "\"Mira que entrei con sorte!\" suggests he has entered successfully, but the joke is about his cheerful reaction to finding a rich haul, not merely luck on entering; it blurs the discovery and the sense of discovering a valuable stash."
         }
       ]
     },
@@ -196,13 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Crema de berenxena' is directly at odds with the analysis, which warns not to call the dish caviar. This removes the specific joke about pretending a cheap eggplant spread is an exotic delicacy."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Delicadeza de ultramar' is less idiomatic and less pointed than the reference's teasing presentation of the item as an overseas specialty, so the satirical rhythm is somewhat weakened."
+          "justification": "The candidate changes \"eggplant caviar\" into \"crema de berenxena,\" which loses the specific satirical contrast with caviar and also risks obscuring the joke about a cheap Soviet spread presented as a delicacy from abroad."
         }
       ]
     },
@@ -221,16 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 cigarreiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The count is mishandled: the original lists 'three' across all items and ends by jokingly repeating the missing count for the suede jacket, while the candidate drops the 'three' before the jacket and then appends it awkwardly at the end. This distorts the joke and the item list."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The punctuation and line breaks make the final 'tres' feel detached and slightly clumsy, reducing the comic buildup of the inventory."
+          "justification": "The candidate compresses the list and omits the final \"três\" from the jacket phrase, weakening the punchline about Shpak repeatedly inflating the count. The joke is still mostly there, but the tally effect is less clear."
         }
       ]
     },
@@ -247,32 +222,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti van curarte!\nE a ti tamén van curarte!\nE a min van curarme!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Van curarte' changes the original passive, reassuring prediction ('they will cure you') into a more direct and odd 'they are going to cure you' construction, which weakens the self-comforting refrain and the shared sense that everyone has gone mad."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is more abrupt than the reference and loses some of the melodic, resigned cadence that gives the line its comic calmness."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 8
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 38,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 3.4545454545454546,
-    "major_equiv_per_unit": 0.6909090909090909,
-    "interpretation": "3.45 MQM penalty points per meaning unit (≈ 0.69 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

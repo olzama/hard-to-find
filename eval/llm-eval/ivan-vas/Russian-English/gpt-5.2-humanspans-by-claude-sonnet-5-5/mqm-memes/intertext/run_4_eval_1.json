@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns explicitly that 'У Шпака — У посла' must not be rendered as 'Shpak has... the envoy has...', since the items were lost/stolen. The candidate does exactly this, reversing the meaning (possession instead of loss) and obscuring the link to the theft."
+          "justification": "'Shpak has a tape recorder, the envoy has a medallion' states possession, which the NB explicitly forbids: the items were lost/stolen from them. The suspicion-linking-thefts meaning is reversed."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires making clear that Bunsha introduces himself as the Tsar, not addresses a Tsar. The candidate's 'So nice, Tsar!' / 'Hello, Tsar!' reads as direct address to a Tsar, which is the exact misreading the NB warns against."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The repetitive, formulaic greeting rhythm is partly kept, but without the self-introduction frame the comic absurdity of drunkenly repeating 'I'm the Tsar' is lost."
+          "justification": "'Hello, Tsar!' reads as addressing a Tsar, not introducing himself as the Tsar, which the NB says must be clear. The self-introduction joke is lost."
         }
       ]
     },
@@ -99,9 +93,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' can be read as addressing the demons, whereas the NB requires demons to read as the subject (the demons did it). Also the clipped 'Walled up!' lacks the subject-like construction such as 'the demons!' appended as an afterthought, making the meaning slightly ambiguous."
+          "justification": "'Walled up, demons!' can read as addressing the demons (vocative), whereas the NB requires demons as the subject. No 'they've' or 'the demons' phrasing makes the agency clear, though the meaning is somewhat recoverable."
         }
       ]
     },
@@ -123,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross can do!' is accurate but colloquial, losing some of the Tsar's solemn, archaic religious register present in the reference ('Behold the power of...')."
+          "justification": "'That's what the life-giving cross can do!' is colloquial and loses some of the Tsar's solemn, archaic conviction that makes his misattributed miracle funny."
         }
       ]
     },
@@ -160,7 +154,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Good timing' shifts the meaning toward the moment of arrival and loses the sense of having chosen a lucrative apartment to enter, though it does not suggest leaving, so the NB is respected."
+          "justification": "'Good timing' fits his having just arrived and is not misleading about leaving, but it shifts the point away from the lucky find of a well-stocked apartment toward timing; the deficit-goods resonance is weakened."
         }
       ]
     },
@@ -180,15 +174,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Overseas caviar', which the NB explicitly forbids as it confuses viewers. The joke relies on the cheap eggplant spread being presented as a rare 'overseas' delicacy; 'Eggplant!' alone after 'caviar' blurs this."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'And!' is an awkward rendering of 'Да!' and breaks the natural flow of the line."
+          "justification": "Calls the eggplant spread 'Overseas caviar... Eggplant!', which the NB warns against. It also loses the 'overseas' vs. cheap-canned-spread inversion, and 'And!' replaces 'Да!' awkwardly."
         }
       ]
     },
@@ -210,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a large invented passage ('Everything I earned by backbreaking labor—it's all gone') that is not in the source. More importantly, it states 'three suede jackets', losing the joke where Shpak initially forgets to increment the count for the jacket (single 'a suede jacket... Three.')."
+          "justification": "The suede jacket count is rendered 'three suede jackets' like the others, destroying the joke where he forgets to increment it and betrays himself. The added 'Everything I earned by backbreaking labor' is also invented material and drops the final 'Three' beat."
         }
       ]
     },
@@ -229,24 +217,24 @@
       "candidate": "And they’ll cure you too!\nAnd you’ll be cured too!\nAnd I’ll be cured too!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate changes the structure and meaning: the source has 'they'll cure you... you too... and me', while the candidate shifts to passive 'you'll be cured', repeats 'too' in all three lines, and the first line loses the 'and you too' progression. The calm, melodic resignation is weakened by the clumsy repetition."
+          "justification": "'And you'll be cured too!' is a clumsy, redundant rewording that loses the first-line 'they'll cure you' passive-agent sense of psychiatric treatment and the calm, melodic resignation; the repeated 'too' flattens the rhythm."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 30,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

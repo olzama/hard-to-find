@@ -48,10 +48,16 @@
       "candidate": "He gives a nice, short address—\nforty minutes or so.\nI don't think we need more.",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate shifts the speaker perspective to a third-person narrator ('He gives...'), whereas the original is Ogurtsov speaking in the first person. This change removes the immediate bureaucratic voice and personal smugness that make the comic understatement work."
+        },
+        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate shifts perspective into a third-person narration (“He gives a nice, short address—”), which removes Ogurtsov’s self-satisfied first‑person voice and undercuts the faux‑modest, bureaucratic tone that makes the original line comic. The numeric punchline (“forty minutes”) still appears, but the speakerly attitude is weakened."
+          "justification": "The diminutive, faux-modest tone of «коротенько» is weakened by 'nice, short address' — it reads more neutral and less patronizing than the original, reducing the punch of the 'forty minutes' reversal."
         }
       ]
     },
@@ -86,9 +92,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate normalizes the broken, faltering vocalization into a relatively smooth line (“Hello... Anybody out there?”). That loses the fragile, theatrical stammer of the original drunken entrance—the stretched, collapsing syllables that carry much of the physical/comedic effect."
+          "justification": "The candidate normalizes the opening into a conventional greeting ('People! Hello... Anybody out there?'), losing the broken, faltering vocalization that conveys the lecturer's drunken, theatrical collapse. The line should remain vocally unstable to preserve the comic effect."
         }
       ]
     },
@@ -110,14 +116,7 @@
         }
       },
       "candidate": "But all we have to do\nis take a telescope...\n...and look with the naked eye—\nI mean, the armed eye",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the mock‑scientific self‑correction, but uses the literal phrase “armed eye,” which the analysis warned can sound oddly surreal in English. The line still functions as a drunkish lexical deformation, but the chosen wording risks sounding stranger than the Russian intended; a milder echo (e.g. “aided eye”) would better match the original comic register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -157,14 +156,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

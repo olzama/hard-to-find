@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has... the envoy has...', which implies current possession. The analysis and NB make clear the line means those items are missing from them (they lost/were robbed of them). This reverses the meaning and undermines the comedic implication of discovered theft."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which reads as possession. The source/analysis note specifies these items are no longer possessed (they've been lost/removed); the line should convey that they were 'walled off/lost/removed' or otherwise missing. This reverses the intended meaning and undermines the joke about items having gone missing."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original line is Bunsha introducing himself as the Tsar (a comedic self-introduction). The candidate reads like addressing a Tsar ('Very nice, Tsar!'), not introducing himself as the Tsar, losing the gag about him impersonating/claiming to be the Tsar and thus undermining the scene's humor described in the analysis."
+          "justification": "The candidate addresses a Tsar ('Very nice, Tsar!'), whereas the original and analysis make clear Bunsha is introducing himself as the Tsar. The line should read as a self-introduction in the absurd repetitive register (e.g., 'I am the Tsar, very pleased'), not as greeting or addressing an actual Tsar. This changes the comedic premise of Bunsha impersonating the ruler."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Walled up! Walled up, demons!' reads as a vocative address to demons and omits that he is being walled in by them (subject). The analysis NB specifies that 'demons' must be the subject (they walled him in), not the addressee; the candidate thus reverses the grammatical relation and the intended meaning."
+          "justification": "The candidate's punctuation and wording ('Walled up, demons!') can be read as directly addressing demons (vocative), while the analysis explicitly states 'demons' are the subject — he declares they have walled him in. The meaning is mostly preserved, but the phrasing introduces ambiguity about whether he's accusing or calling to the demons."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross can do!' preserves the meaning but uses a more colloquial construction and loses some of the elevated, archaic register of the reference ('Behold the power of the life-giving cross!'), slightly weakening the regal/solemn tone important to the joke."
+          "justification": "The candidate ('That’s what the life-giving cross can do!') conveys the meaning but loses some of the high-register, archaic, reverent tone of the reference ('Behold the power of the life-giving cross!'). The more colloquial construction weakens the lofty, quasi-religious style that fuels the joke."
         }
       ]
     },
@@ -166,10 +166,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate presents the line as 'Overseas caviar... Eggplant!' which treats 'eggplant' as if it were a type of caviar. The analysis explicitly warns against rendering the Soviet 'баклажанная' spread as 'caviar' since that will confuse viewers; the comedic contrast between real caviar and cheap eggplant spread is lost/misrepresented."
+          "justification": "The candidate's lines ('Overseas caviar... Eggplant!') risk implying that the eggplant item is itself caviar. The analysis warns against calling the eggplant spread 'caviar'; the translation should make clear it is a cheap eggplant spread presented as a faux 'overseas delicacy.' The meaning is mostly conveyed but with a risk of confusion."
         }
       ]
     },
@@ -189,9 +189,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The original gag depends on the speaker listing items and then stumbling over the count (singular suede jacket followed by 'Three'). The candidate lists 'three suede jackets' outright, removing the comedic hesitation/undercount slip that the analysis highlights, thus eliminating the intended joke."
+          "justification": "The humor in the original comes from Shpak's hesitation and the miscounting (singular 'куртка... замшевая...' followed by 'Три'), which reveals his attempt to inflate the inventory. The candidate renders this as a straightforward list ('three suede jackets') and removes the self-contradiction/hesitation that creates the joke, substantially undermining the comedic effect."
         }
       ]
     },
@@ -213,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 1
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 26,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.3636363636363638,
-    "major_equiv_per_unit": 0.4727272727272728,
-    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

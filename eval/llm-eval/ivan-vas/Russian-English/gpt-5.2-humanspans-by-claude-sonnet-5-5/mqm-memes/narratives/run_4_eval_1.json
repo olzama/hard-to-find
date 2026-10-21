@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says 'У Шпака... у посла...' must not be rendered as 'Shpak has... the ambassador has...' because the items are gone. The candidate says exactly that, reversing the meaning (possession instead of loss)."
+          "justification": "The analysis explicitly warns that 'У Шпака — магнитофон, у посла — медальон' means the items were lost. 'Shpak has a tape recorder, the ambassador has a medallion' says they possess them, reversing the meaning and breaking the callback to the thefts."
         }
       ]
     },
@@ -43,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Hello, Tsar!' reads as addressing a Tsar, which reverses the speaker/addressee relationship and loses the joke."
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Very nice, Tsar!' and 'Hello, Tsar!' read as addressing a Tsar, so the meaning is distorted and the joke of the drunk impersonator introducing himself is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a stilted rendering of 'очень приятно' (pleased to meet you), weakening the repetitive formal greeting cliché."
+          "justification": "'Very nice' is a weaker rendering of the stiff formulaic 'very pleased to meet you', so the mock-formal social ritual is less sharp."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I'm grieving' and 'Leave me alone' are plainer and more modern than the high-register, archaic tone ('Leave me... I am in sorrow'); the regal melancholy contrast is somewhat weakened."
+          "justification": "'Leave me alone' and 'I'm grieving' are more modern and colloquial than the archaic, high-register tone of the original ('Leave me, old woman, I am in sorrow'), which weakens the regal contrast with the Soviet setting. 'Grieving' also suggests mourning a death rather than sorrow."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Walled up, by demons!' makes demons the agent, which is acceptable, but the comma-set-off phrase is slightly awkward and loses the exclamatory afterthought of 'the demons!'. Meaning is preserved."
+          "justification": "'Walled up, by demons!' makes demons the agent, which is correct, but the dropped pronoun and the added 'by' make it less natural and lose the exclamatory 'the demons!' punch. The subject reading is preserved, so the problem is small."
         }
       ]
     },
@@ -125,14 +125,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and lacks the Tsar's solemn, triumphant, archaic tone ('Behold the power...'), slightly weakening the register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -152,7 +145,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate but flat; it does not convey Bunsha's host-like, commanding party-leader tone as in the reference."
+          "justification": "'Everybody dance!' is accurate in meaning and conveys the command to dance, but it is plainer than the reference and loses a little of the host-like, MC register of Bunsha's party leadership."
         }
       ]
     },
@@ -169,14 +162,7 @@
         "language_specific": {}
       },
       "candidate": "What a lucky time to drop by!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'What a lucky time to drop by!' is acceptable in meaning, but the NB warns against misleading the viewer about timing. 'Drop by' with 'a lucky time' is fine; however it loses the sense of a successful choice of apartment ('good call') and is more casual, weakening the burglar's cheerful self-congratulation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -196,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Foreign caviar... Eggplant!' calls the eggplant spread 'caviar' by continuation, which the NB forbids, and it loses the 'and yes! overseas spread... eggplant' punchline, since the eggplant item is no longer clearly a spread."
+          "justification": "The candidate renders 'заморская икра… баклажанная' as 'Foreign caviar... Eggplant!', which calls the spread caviar, against the NB. The 'overseas' delicacy is a cheap eggplant spread, and the joke of the inverted status symbols is lost; 'Eggplant!' is left as an unexplained fragment."
         }
       ]
     },
@@ -218,7 +204,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'three suede jackets', losing the joke that Shpak forgets to increment the count for the jacket (one suede jacket, then 'Three'). It also adds 'Everything I earned through backbreaking labor, all is gone', which is not in the source."
+          "justification": "The joke relies on Shpak forgetting to increment the count for the suede jacket, then correcting himself ('a suede jacket... Three.'). The candidate makes it 'three suede jackets' straight away and loses this betrayal of the exaggeration."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds the lines 'Everything I earned through backbreaking labor, all is gone', which is not in the source segment, and 'domestic' is attached differently from the original."
         }
       ]
     },
@@ -240,21 +232,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Switching to passive 'you'll be cured' and adding exclamation marks loses the melodic, calm resignation of the repeated 'they'll cure you... they'll cure me' and the sense of the unnamed doctors/psychiatric system."
+          "justification": "The shifts to 'you'll be cured too' and the exclamation marks turn the calm, melodic, resigned repetition into a more assertive series of statements. The parallel structure of the original is weakened, though the meaning and absurd effect are largely kept."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 4,
       "minor": 6
     },
-    "total_points": 31,
+    "total_points": 26,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.3636363636363638,
+    "major_equiv_per_unit": 0.4727272727272728,
+    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

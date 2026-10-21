@@ -36,7 +36,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Team' replaces 'collective' (коллектив), which loses the Soviet workplace register the analysis identifies as the source of the joke. The added exclamation mark also makes the dry administrative statement more enthusiastic than the source's flat tone."
+          "justification": "\"Within our own team\" replaces \"collective\" (\"коллектив\"). The Soviet workplace flavour the analysis highlights is weakened, though the managerial logic survives."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The exclamation mark in \"cultivate one within our own team!\" is not in the source, which is deadpan. The added emphasis slightly changes Ogurtsov's tone from dry seriousness to enthusiasm."
         }
       ]
     },
@@ -56,15 +62,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Brief' flattens the diminutive, faux-modest 'коротенько'. The analysis says the line needs a sense of patronizing modesty so that 'forty minutes' lands as the punchline, and 'brief address' is more formal and less cozy."
+          "justification": "\"And he gives a brief address—\" adds a third-person narrative framing that is not in the source. The line is Ogurtsov's own first-person speech (\"я думаю\"), so the opening shifts who is speaking."
         },
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "'And he gives a brief address—' adds third-person narration that is not in the source. The source is Ogurtsov's own speech, and the candidate's framing makes the opening feel like a stage direction rather than his voice."
+          "justification": "\"A brief address\" does not carry the diminutive, faux-modest \"коротенько\" that the analysis says is needed for the patronizing understatement before \"forty minutes\" to land."
         }
       ]
     },
@@ -81,7 +87,14 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nHe's ready. He's been ready\nfor ages!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Both lines read only as \"ready\", so the drunk double sense of \"готов\" (\"done for\", \"smashed\") is not recreated. The analysis calls this the core joke. The reference shares this limitation, so the loss is minor."
+        }
+      ]
     },
     {
       "id": 5,
@@ -99,9 +112,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The leading dash in \"- People!...\" has no counterpart in the source and reads as a stray formatting artifact."
+        },
+        {
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Yoo-hoo' is a bright, sociable call, while 'ау' here is a faltering, slurred shout. 'People!' also drops the stretched, broken shape of 'Лю-ди', which the analysis says carries part of the joke. The leading dash is an unexplained formatting addition."
+          "justification": "\"People!\" is not stretched or broken, so the faltering, unstable opening that the analysis calls the key to the drunken entrance is only partly kept. \"Yoo-hoo!\" does capture the 'ау-у' call."
         }
       ]
     },
@@ -126,9 +145,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'Armed eye' is the literal calque the analysis explicitly warns against. It reads as surreal rather than as a mock-scientific mangling of 'unaided eye', so the lecturer's pseudo-scientific pomp is weakened. The trailing comma also loses the exclamatory, overblown cadence of 'вооружённым глазом!..'."
+          "justification": "\"Armed eye\" is the literal calque that the language-specific note says does not work in English and sounds more surreal than the Russian. The mangled-idiom mechanism survives, but the phrase is less natural than the \"unaided\"-echo solution."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line ends with a comma (\"look with an armed eye,\") where the source trails off with \"!..\", so the dramatic cut-off in the lecturer's delivery is lost."
         }
       ]
     },
@@ -155,13 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Five little stars!' keeps the diminutive on the punchline, so the final item stays inside the astronomy/children's-counting frame. The sudden shift to the cognac rating system, which the analysis says is the core of the joke, is lost, and the line becomes merely odd rather than hilariously derailed."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Лучше всего, конечно' is rendered as 'best of all', dropping 'конечно' (of course). This removes the lecturer's self-assured, pompous qualifier that the analysis links to the mock-authoritative tone."
+          "justification": "The punchline depends on \"five stars\" being the best cognac rating in the USSR, the cultural point the analysis says makes the sudden click into a different semantic world work. The candidate gives no clue to this association (no note, no cue), so \"five little stars\" reads as an odd astronomy-style sequence and the derailment does not land for the target audience. The reference provides this through a translator's note, which the analysis recommends."
         }
       ]
     },
@@ -183,7 +202,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Is there no life on Mars?' is unidiomatic English. The Russian 'есть ли... нет ли' whether-or-not construction is rebuilt as two awkwardly parallel questions, which slightly weakens the casual, uncertain phrasing the analysis emphasizes."
+          "justification": "\"Is there no life on Mars?\" is an unidiomatic rendering of \"нет ли жизни\". The reference's \"Whether there is life on Mars or not\" is more natural and keeps the casual, lecture-like phrasing the analysis describes."
         }
       ]
     }
@@ -191,13 +210,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 7
+      "minor": 10
     },
-    "total_points": 12,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 1.5,
-    "major_equiv_per_unit": 0.3,
-    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

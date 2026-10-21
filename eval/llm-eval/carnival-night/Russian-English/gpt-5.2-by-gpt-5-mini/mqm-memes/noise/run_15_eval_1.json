@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses plain \"briefly\" which lacks the diminutive, faux-modest tone of «коротенько». That weakened register reduces the comic contrast with the excessive \"about forty minutes,\" making the ironic understatement slightly less effective."
+          "justification": "The candidate preserves the core comic reversal (calling forty minutes 'briefly'), but it loses some of the diminutive, faux-modest flavor of «коротенько так» that makes Ogurtsov sound patronizingly restrained. The line works, but slightly weakens the character's smug, cozy understatement."
         }
       ]
     },
@@ -84,7 +84,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—been ready a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate keeps the surface 'ready' reading but does not clearly recreate the double entendre where 'ready' also suggests 'smashed/drunk.' In English 'ready' is less likely to be heard as 'drunk,' so the alcoholic subtext is weakened even though the administrative exchange remains."
+        }
+      ]
     },
     {
       "id": 5,
@@ -128,9 +135,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as \"armed eye,\" a literal calque that reads oddly and more surreal in English than intended. The analysis suggests a solution like \"aided eye\" to preserve the mock-scientific, slightly warped idiom without creating unintended strangeness."
+          "justification": "The candidate uses the calque 'armed eye,' which the analysis warns against: in English this reads as oddly surreal rather than mock‑scientific. That choice makes the line stranger and reduces the effect of a near‑correct idiom turned pompous; a phrase like 'aided eye' would better preserve the intended comic pseudo‑scientific register."
         }
       ]
     },
@@ -179,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 2,
+    "total_points": 3,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.375,
+    "major_equiv_per_unit": 0.075,
+    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

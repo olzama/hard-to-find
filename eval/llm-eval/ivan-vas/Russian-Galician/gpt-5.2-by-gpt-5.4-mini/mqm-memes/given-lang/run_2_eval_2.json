@@ -141,7 +141,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The extra repeated final line \"De berenxena!\" is unnecessary and makes the subtitle slightly clumsier, though the meaning and comic effect remain clear."
+          "justification": "The repeated final line is understandable and preserves the joke, but the standalone repetition without a pause or punctuation feels slightly clunky in subtitle form."
         }
       ]
     },
@@ -158,7 +158,14 @@
         "language_specific": {}
       },
       "candidate": "tres magnetófonos, tres cámaras de cine, tres cigarreiras nacionais, unha chaqueta… de ante… tres.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the list and the comic trailing-off effect, but starting with a lowercase 'tres' is a slightly awkward presentation for a subtitle line."
+        }
+      ]
     },
     {
       "id": 11,
@@ -179,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 1,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

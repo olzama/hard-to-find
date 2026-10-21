@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "Ola, eu son o tsar, moito gusto.\nO tsar, moito gusto, eu son o tsar.\nEu son o tsar, moito gusto.\nOla, eu son o tsar. Moito gusto.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The repeated greeting is understandable, but the phrasing is slightly less natural and less neatly comedic than the reference, so the mock-formal cadence is weakened a bit."
+        }
+      ]
     },
     {
       "id": 3,
@@ -46,7 +53,14 @@
         "language_specific": {}
       },
       "candidate": "Esixo que continúe o banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Que continúe\" is understandable, but it sounds slightly flatter than the more idiomatic imperative force of demanding the banquet's continuation; the comic imperiousness is a bit reduced."
+        }
+      ]
     },
     {
       "id": 4,
@@ -64,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "‘Estou de loito’ changes the meaning of the original ‘I am in sorrow/grief’ into formal mourning, which is a bit less precise, though it still conveys melancholy."
+          "justification": "\"Estou de loito\" shifts the meaning toward bereavement rather than melancholy/sadness, so the Tsar's regal, mournful tone is slightly altered."
         }
       ]
     },
@@ -86,9 +100,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "‘Os demoños’ is an odd/nonstandard form in this context; the line is understandable, but the wording sounds less natural than the reference."
+          "justification": "\"demoños\" should be singular/plural agreement with the source's address to multiple demons, but the main effect is preserved. The line still reads as the Tsar blaming supernatural forces, though the wording is a bit awkward."
         }
       ]
     },
@@ -110,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Isto é o que fai...’ is slightly less elevated and emphatic than the reference’s more solemn exclamation, weakening the mock-religious triumph in the line."
+          "justification": "\"Isto é o que fai\" is understandable, but it sounds less exclamatory and less idiomatic than a triumphant discovery line, slightly weakening the comic astonishment."
         }
       ]
     },
@@ -130,9 +144,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "‘A bailar todo o mundo!’ means ‘everyone dance’ but loses the imperative force and collective rallying sound of ‘Todos a bailar!’."
+          "justification": "The meaning is intact, but \"A bailar todo o mundo\" is a more generalized rallying call than the punchy imperative \"Todos a bailar!\", so the explosive dance-command energy is slightly softer."
         }
       ]
     },
@@ -154,7 +168,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "‘Mira que entrei con sorte!’ can sound like he is commenting on entering successfully, but it weakens the intended sense of having stumbled into a fortunate discovery; the playful, self-satisfied reaction to finding valuables is not as clear."
+          "justification": "\"Mira que entrei con sorte!\" can sound like \"I came in luckily\" and does not clearly convey the intended reaction of having found a fortunate haul upon entering. It weakens the triumphant, opportunistic discovery at the core of the joke."
         }
       ]
     },
@@ -176,7 +190,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders ‘баклажанная’ as ‘Crema de berenxena’, which conflicts with the required anti-literal joke: it must not be presented as caviar or even as a straightforward cream, and the punchline about the absurd ‘overseas’ delicacy is blurred."
+          "justification": "The reference pun hinges on \"baklazhannaya\" being a cheap imitation spread; replacing it with \"crema de berenxena\" loses the satirical contrast and the specific joke about Soviet eggplant spread. It also drifts from the idea of a mock-delicacy and can confuse the audience."
         }
       ]
     },
@@ -195,16 +209,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 cigarreiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The count is broken: the candidate starts with numerals but ends with ‘chaqueta de camurza... tres,’ which no longer reproduces the escalating list and misses the joke that the final item count is still being repeated."
-        },
-        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using bare numerals and dropping the more comic, breathless enumerating rhythm makes the boast sound flatter and less performative than in the original."
+          "justification": "The list preserves the joke, but breaking the line and leading with numerals makes it feel a bit less like the escalating, breathless brag in the original. The comic rhythm is slightly less vivid."
         }
       ]
     },
@@ -226,21 +234,21 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "‘Van curarte/curarme’ is understandable, but the original’s repeated future/passive-like reassurance is slightly weakened; the candidate sounds more like an instruction than the resigned, fatalistic prediction in the source."
+          "justification": "\"Vante curar\"/\"van curarte\" omits the future passive-like sense of \"te van a curar\" and sounds a bit less precise, though the resigned, all-encompassing joke remains clear."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 2,
+      "minor": 8
     },
-    "total_points": 21,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "I'm no coward... but I'm overpowered by fear!\nNo, I'm no coward... but I'm overpowered by fear!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The second repetition adds an unsourced \"No,\" at the start. The Russian has no such word, and it breaks the exact 'I'm no coward... but...' paradox that the analysis describes."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -223,7 +216,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate prepends the gibberish phrase \"Lunda hanamarun,\", which has no counterpart in the source line \"Цигель-цигель, цигель, ай-лю-лю\". This is an addition, and it dilutes the sharp 'zigel' rhythmic catchphrase described in the analysis."
+          "justification": "The candidate prepends 'Lunda hanamarun,', which is not in the source line. The 'Zigel-zigel, zigel, ai-lyu-lyu' gibberish still conveys the urgent, rhythmic catchphrase, but the added nonsense phrase alters the original wording."
         }
       ]
     },
@@ -245,7 +238,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "After the full alibi, the candidate repeats it in clipped forms (\"Slipped...\", \"Closed fracture...\", \"Cast!\"). These omit \"Fell\", \"Passed out\" and \"Woke up in\". This is not an exact repetition of the rehearsed script, so the mechanical, mantra-like staccato repetition is weakened."
+          "justification": "After the full first line, the later segments are cut down to 'Slipped...', 'Closed fracture...', 'Cast!'. These drop elements of the source alibi (Fell, Passed out, Woke up). The staccato, mantra-like rhythm survives, but the telegraphic sequence the analysis describes is incomplete."
         }
       ]
     },
@@ -373,13 +366,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 2,
     "meaning_units": 23,
-    "penalty_per_unit": 0.13043478260869565,
-    "major_equiv_per_unit": 0.02608695652173913,
-    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.08695652173913043,
+    "major_equiv_per_unit": 0.017391304347826087,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

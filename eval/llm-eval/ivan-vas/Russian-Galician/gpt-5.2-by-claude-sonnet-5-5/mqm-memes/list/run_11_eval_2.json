@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak 'has' a tape recorder and the ambassador 'has' a medallion. The analysis NB says the items are lost, so the meaning is reversed and the point of the callback to the thefts is gone."
+          "justification": "The candidate says Shpak 'ten' a magnetófono and the ambassador 'ten' a medallón, i.e. they still possess the items. The analysis stresses that each of them lost the item, so the meaning is reversed and the suspicion/callback logic is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Volven a martirizarme vagas dúbidas' keeps a somewhat elevated tone, but the line breaks and the lack of an 'asáltanme escuras sospeitas'-style archaic enclisis weaken the mock-heroic theatrical effect a little."
+          "justification": "'Volven a martirizarme vagas dúbidas' keeps a fairly elevated register, but 'martirizar' and 'vagas' are less idiomatically theatrical than 'asáltanme escuras sospeitas'. The mock-heroic effect is slightly weakened."
         }
       ]
     },
@@ -44,7 +44,20 @@
         "language_specific": {}
       },
       "candidate": "Encantada, tsar!\nEncantada, ola, tsar!\nTsar, encantada!\nOla, tsar! Encantada!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Encantada, tsar!' reads as Bunsha greeting a Tsar, not introducing himself as the Tsar, which the analysis says must be clear. The feminine 'encantada' also does not fit a male speaker."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate drops the formal greeting clichés ('Boas noites') and the mundane Soviet-social-ritual mockery. It only uses 'Ola', which is too casual."
+        }
+      ]
     },
     {
       "id": 3,
@@ -74,7 +87,14 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, que estou de loito.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Estou de loito' means 'I am in mourning', a narrower meaning than 'in sorrow/afflicted'. It slightly shifts the sense and loses some of the high-register regal melancholy of 'aflixido'."
+        }
+      ]
     },
     {
       "id": 5,
@@ -89,7 +109,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Emparedáronme, demos!' uses the vocative, so the Tsar addresses the demons. The analysis requires the demons to be the subject of the sentence ('the demons walled me in')."
+        }
+      ]
     },
     {
       "id": 6,
@@ -134,7 +161,14 @@
         "language_specific": {}
       },
       "candidate": "Mira ti que ben pasei por aquí!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Que ben pasei por aquí!' means roughly 'how well I passed by here', which suggests he is passing through or leaving. The analysis says he has just entered and the translation must not mislead in this way. The 'lucky find' meaning is lost."
+        }
+      ]
     },
     {
       "id": 9,
@@ -149,7 +183,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nSi! Caviar de ultramar...\nDe berenxena!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Caviar de ultramar... De berenxena!' calls the eggplant spread 'caviar', which the analysis says will confuse viewers. The inversion joke between the real caviar and the 'overseas delicacy' is blurred."
+        }
+      ]
     },
     {
       "id": 10,
@@ -164,7 +205,14 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 cigarreiras nacionais,\nchaqueta de camurza... tres.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "Digits ('3') in place of written numbers are less natural in running subtitle speech. The pause in 'chaqueta de camurza... tres' also loses the hesitation over the jacket ('unha chaqueta… de ante… tres'), though the joke of the forgotten count still works."
+        }
+      ]
     },
     {
       "id": 11,
@@ -184,14 +232,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 5,
+      "minor": 4
     },
-    "total_points": 6,
+    "total_points": 29,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.6363636363636362,
+    "major_equiv_per_unit": 0.5272727272727272,
+    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

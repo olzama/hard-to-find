@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds an initial 'No,' and appends a redundant second line, 'but I'm afraid...', that is not in the source. The reference already renders the whole statement as one line. The extra literal line repeats the idea in flat wording, which clutters the subtitle and weakens the compact, bouncing paradox described in the analysis."
+          "justification": "The candidate adds a redundant second line, 'but I'm afraid...', and an extra 'No,'. Neither is in the source. The line repeats the idea in plain literal wording, which weakens the bouncy, rhyming effect of the first line."
         }
       ]
     },
@@ -220,10 +220,10 @@
       "candidate": "Lunda hanamarun, Zigel-zigel, zigel, ai-lyu-lyu!\nLyuche paron, ai-lyu-lyu, ai-lyu-lyu...",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds two lines of invented gibberish ('Lunda hanamarun', 'Lyuche paron, ai-lyu-lyu, ai-lyu-lyu...') that are not in the source or reference. The source is only 'Цигель-цигель, цигель, ай-лю-лю'. This is unsupported addition. It also dilutes the short, rhythmic catchphrase of frantic rushing described in the analysis."
+          "justification": "The candidate adds two lines of extra gibberish ('Lunda hanamarun...', 'Lyuche paron, ai-lyu-lyu...') that are not in the source segment. The core 'Zigel-zigel, zigel, ai-lyu-lyu' catchphrase is kept, but the added material clutters the segment."
         }
       ]
     },
@@ -365,14 +365,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 2,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.08695652173913043,
+    "major_equiv_per_unit": 0.017391304347826087,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

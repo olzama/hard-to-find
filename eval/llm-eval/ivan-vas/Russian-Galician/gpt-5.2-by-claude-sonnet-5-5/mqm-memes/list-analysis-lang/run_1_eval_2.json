@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"escuras dúbidas\" and \"Volven asaltarme\" keep a reasonably elevated register, but the reference's inverted, archaic \"asáltanme escuras sospeitas\" is more mock-heroic. The candidate is slightly flatter and \"dúbidas\" is weaker than \"sospeitas\" for the theatrical, suspicious tone."
+          "justification": "The enclitic form \"falta-lle\" uses a hyphen, which is Portuguese-style and not standard Galician (\"fáltalle\"). The meaning of loss and the mock-heroic tone of \"escuras dúbidas\" are preserved."
         }
       ]
     },
@@ -43,19 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders \"Здравствуйте, царь\" as \"Ola, tsar\", which reads as greeting a tsar, the exact ambiguity the NB forbids. Bunsha is introducing himself as the Tsar, and there is no \"son o tsar\" or equivalent."
+          "justification": "\"Ola, tsar, moito gusto\" reads as Bunsha addressing a tsar, not introducing himself as the Tsar. This violates the analysis note that he must be understood as presenting himself as the Tsar."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds extra lines (\"Tsar, moito gusto. Ola, tsar. Moito gusto!\") that are not in the source, which makes the repetition longer than the original."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Ola\" is a casual greeting that loses the formal Soviet politeness of \"Здравствуйте\", which the reference conveys with \"Boas noites\"."
+          "justification": "The candidate adds extra repetitions (\"Tsar, moito gusto. Ola, tsar. Moito gusto!\") that are not in the source."
         }
       ]
     },
@@ -89,10 +83,10 @@
       "candidate": "Déixame, velliña, que estou de loito.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Я в печали\" means he is sad or melancholy, not in mourning. \"Estou de loito\" narrows it to bereavement, which changes the meaning and loses the regal melancholy described in the analysis."
+          "justification": "\"Estou de loito\" means being in mourning, which narrows and shifts the Tsar's general sorrow (\"в печали\"). The archaic regal melancholy is weakened."
         }
       ]
     },
@@ -114,7 +108,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"os demoños\" is a diminutive that makes the demons cute or mild, which weakens the Tsar's genuine terror. The subject reading is preserved, as the demons are named after the verb in a way that does not address them, so the NB is respected."
+          "justification": "The diminutive \"demoños\" softens the Tsar's genuine terror and makes the line sound cutesy. The demons do work as the subject of the sentence."
         }
       ]
     },
@@ -161,14 +155,7 @@
         "language_specific": {}
       },
       "candidate": "Mira que entrei con bo pé!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Entrei con bo pé\" is a Galician idiom for starting something with good luck, so it correctly implies he has just entered. However, it focuses on luck rather than on the discovery of a rich apartment, so the cheerful reaction to the goods is less direct than in the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -186,9 +173,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate translates \"заморская икра\" as \"Caviar de ultramar\" and then \"De berenxena\", so the eggplant spread is called caviar. The NB explicitly forbids this because it confuses viewers, and the reference uses \"Manxar de ultramar\" to avoid it."
+          "justification": "The candidate calls the eggplant spread \"Caviar de ultramar\" and then adds \"De berenxena\". This violates the note not to call eggplant spread caviar and confuses viewers. It also loses the contrast with the real caviar."
         }
       ]
     },
@@ -207,16 +194,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 cigarreiras nacionais,\ncazadora de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives \"cazadora de camurza... tres\" without an article or quantity. The joke depends on Shpak forgetting to increment the count for the jacket, and the candidate keeps this structure. However, \"camurza\" is a mistranslation of suede: \"camurça\" is Portuguese, and Galician uses \"ante\", so the item is rendered with a non-Galician term."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Using numerals \"3\" rather than writing out \"tres\" is inconsistent with the final spelled-out \"tres\" and reads less naturally in speech."
+          "justification": "\"Cámaras\" omits \"de cine\" (кинокамеры), and the numerals \"3\" are used where spelled-out numbers fit better in the spoken list."
         }
       ]
     },
@@ -233,26 +214,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti vanche curar!\nE a ti tamén vanche curar!\nE a min vanme curar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the delivery emphatic, which works against the calm, melodic resignation described in the analysis. The \"…\" pauses in the source are lost."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 7
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 27,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 2.4545454545454546,
-    "major_equiv_per_unit": 0.4909090909090909,
-    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

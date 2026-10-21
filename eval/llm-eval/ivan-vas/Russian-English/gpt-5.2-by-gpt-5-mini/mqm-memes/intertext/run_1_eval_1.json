@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the ambassador — a medallion,' which reads as possession. The analysis explicitly warns these phrases mean the items are missing / were lost by those people, not that they currently possess them. This reverses the intended meaning and undermines the joke about stolen/misplaced goods."
+          "justification": "The candidate uses 'Shpak has a tape recorder, the ambassador — a medallion,' which reads as present possession. The analysis explicitly notes these phrases mean the items have been lost (they were taken/walled away), not that the characters currently possess them. This reverses the intended meaning and undermines the callback joke about missing goods."
         }
       ]
     },
@@ -41,9 +41,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The source and analysis make clear Bunsha is absurdly introducing himself as 'the Tsar' in repetitive, flat Soviet greeting clichés. The candidate reads as if he is addressing a tsar ('Very nice, tsar!') rather than introducing himself, and it substitutes 'very nice/so nice' for the repetitive 'very pleased,' losing the comic effect of self-introduction and the mocking of stilted formal greeting rituals."
+          "justification": "The candidate addresses the Tsar ('Very nice, tsar!'), whereas the analysis requires making it clear Bunsha is introducing himself as the Tsar. The candidate reads as if speaking to a tsar rather than impersonating/announcing himself, which contradicts the comedic premise."
         }
       ]
     },
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is an accurate translation but uses a modern contraction ('I’m in sorrow') which slightly weakens the archaic, high-register tone ('I am in sorrow') that the analysis highlights for comedic contrast."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -102,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes 'demons' should be the subject (he is saying they have walled him in), not being addressed. The candidate's 'Walled up, demons!' reads as a direct address to demons, changing the syntactic role and the intended meaning and thus undermining the gag."
+          "justification": "The line 'Walled up, demons!' in the candidate reads as a vocative address to demons rather than stating that demons are the agents who walled him in. The analysis specifies that 'demons' must be the subject (they walled him in), so the candidate alters the grammatical role and changes the intended meaning."
         }
       ]
     },
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Meaning is preserved, but the candidate's colloquial phrasing ('Now that’s what... can do!') softens the archaic, exalted register ('Behold the power of the life-giving cross!') that creates the comic clash in the analysis."
+          "justification": "The candidate renders the line in a colloquial, jokey register ('Now that’s what the life-giving cross can do!') rather than the high, archaic, solemn tone the analysis says is crucial to the Tsar's regal conviction. The meaning is preserved but the historic/ornate register is weakened."
         }
       ]
     },
@@ -176,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The original contrast hinges on naming inexpensive eggplant spread separately from 'caviar' so viewers understand the satire. The candidate's 'Imported caviar… Eggplant!' risks collapsing the contrast or implying eggplant is a kind of caviar ('Imported caviar... eggplant'), which muddies the joke. It should more clearly mark eggplant as a cheap spread."
+          "justification": "The candidate's line 'Imported caviar… Eggplant!' risks implying that the eggplant is a kind of caviar or otherwise conflates the cheap eggplant spread with caviar. The analysis warns against calling eggplant spread 'caviar' (it should be shown as a cheap contrast), so the phrasing may cause mild confusion about the intended satirical inversion."
         }
       ]
     },
@@ -195,10 +188,10 @@
       "candidate": "3 tape recorders,\n3 film cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The humor in the original comes from the escalating count and the speaker's slip (first listing 'a suede jacket... Three'). The candidate lists 'three suede jackets' outright, removing the incremental slip that produces the joke and thus destroys the comedic effect."
+          "justification": "The candidate lists the items without reproducing the comic hesitancy/forgetfulness that makes the original line funny (the speaker's failure to immediately increment the count). The meaning is accurate, but the delivery flattens the incremental comedic build-up."
         }
       ]
     },
@@ -215,26 +208,19 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you too!\nAnd you’ll be cured too!\nAnd I’ll be cured!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the overall meaning but alters the rhythmic, melodic repetition and shifts the phrasing ('they'll cure you too' vs 'you'll be cured too'), which slightly changes the passive resignation and sing-song quality described in the analysis."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 4
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

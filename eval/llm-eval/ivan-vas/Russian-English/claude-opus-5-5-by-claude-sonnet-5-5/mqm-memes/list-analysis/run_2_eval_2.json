@@ -21,7 +21,14 @@
         }
       },
       "candidate": "Once again I am beset\nby vague misgivings...\nShpak lost a tape recorder,\nthe ambassador lost a medallion.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Once again I am beset by vague misgivings\" keeps the mock-elevated theatrical register and the lost-item meaning is correct (\"lost\"), but \"misgivings\" is slightly less operatic than \"haunt/torment\" and the line breaks are choppy. The 'terzayut' sense of being tormented is softened."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +43,14 @@
         "language_specific": {}
       },
       "candidate": "Pleased to meet you, I'm the Tsar!\nPleased to meet you, hello, I'm the Tsar!\nTsar here, pleased to meet you!\nHello, I'm the Tsar! Pleased to meet you!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Correctly makes clear he introduces himself as the Tsar. However, the original's mundane, repetitive Soviet formula (clipped 'Tsar, very pleased, Tsar') is partly preserved, but the added exclamation marks make it energetic rather than the stiff, rote politeness of the source."
+        }
+      ]
     },
     {
       "id": 3,
@@ -71,7 +85,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, for I am in sorrow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Adding \"for\" makes the line slightly more archaic, which fits the register, but it deviates from the terse, dismissive original; effect is essentially preserved."
+        }
+      ]
     },
     {
       "id": 5,
@@ -146,7 +167,14 @@
         }
       },
       "candidate": "Well, I sure picked the right place to drop in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Drop in\" correctly signals arrival rather than departure, but the phrasing is longer and more explanatory than the casual, cheerful original and slightly dilutes its punch."
+        }
+      ]
     },
     {
       "id": 9,
@@ -166,7 +194,14 @@
         }
       },
       "candidate": "Caviar, black, red...\nYes! And an overseas delicacy...\nEggplant spread!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "Eggplant is rendered as \"spread\", avoiding the confusing 'caviar' label. However, the punchline structure is slightly weakened: \"an overseas delicacy\" is a bit of an extra gloss and the 'Да!' build-up is less crisp."
+        }
+      ]
     },
     {
       "id": 10,
@@ -191,7 +226,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate uses digits ('3 tape recorders', '3 movie cameras') for the repeated count, while subtitle convention spells out small numbers. Digits also make the final 'three' look inconsistent. The joke itself is preserved, since the suede jacket stays singular before 'three'."
+          "justification": "Using numerals \"3\" in subtitles is a bit less natural than spelled-out numbers, and \"3 domestic cigarette cases\" loses the separate afterthought 'domestic' placement. The comic failure to increment the jacket count is preserved."
         }
       ]
     },
@@ -208,26 +243,19 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The analysis describes Ulyana's melodic, calm resignation. The three exclamation marks make her sound emphatic or agitated, and the trailing ellipses of the source and reference are lost. The meaning is intact, but the resigned, dreamy tone is weakened."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 6
     },
-    "total_points": 2,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

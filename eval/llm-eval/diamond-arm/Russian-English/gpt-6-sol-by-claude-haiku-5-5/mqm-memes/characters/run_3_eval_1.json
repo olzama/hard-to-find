@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the address 'Guys' (Ребята), shifts 'должен был быть' (should have been) to the present 'should be', and omits 'enough' from 'Напьёшься', which weakens the drunk-tank punchline's conditional logic."
+          "justification": "The address 'Guys' is dropped, and 'should have been' becomes 'should be', which loses the sense that Gorbunkov was supposed to be the one carried away. 'Get drunk and you will be' also omits 'enough', so the 'drink until you're carried off' logic is slightly weaker."
         }
       ]
     },
@@ -43,7 +43,14 @@
         }
       },
       "candidate": "No, I'm not a coward,\nbut I'm afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is essentially literal and flat. It lacks the bouncy, lighthearted rhythm the analysis identifies as making the admission endearing rather than pathetic."
+        }
+      ]
     },
     {
       "id": 3,
@@ -76,15 +83,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Облико морале' is rendered as the plain English 'Moral character', which drops the pseudo-foreign loanword mashup the analysis identifies as the joke. The other foreign-language fragments ('Russo tourist', 'verstehen') keep the effect partly intact."
+          "justification": "'Lady' is replaced by 'Look', so the opening address is lost. 'Look' is an added interjection rather than a translation of the first item in the list."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The opening address 'Lady' is omitted and replaced with 'Look', which adds a word not in the source and removes one item from the four-address list."
+          "justification": "'Облико морале' is rendered as plain English 'Moral character', which removes the pseudo-foreign loanword mashup. The analysis identifies that mashup as the performance of worldliness, so this part of the comic effect is weakened."
         }
       ]
     },
@@ -106,7 +113,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Всё пропало, всё пропало!' is weakened to 'it's all gone wrong', losing the reduplicated abstract panic ('everything's lost') that sets up the comic drop to the specific cast detail. The lone 'Everything!' only partly compensates."
+          "justification": "'It's all gone wrong!' is milder than 'everything's lost!', so the abstract panic that the analysis describes as the starting point of the escalation is weakened. The repeated 'everything' beat only partly compensates."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "'Клиент' (client) is rendered as 'he', which loses the business/smuggling vocabulary that frames the diamond deal as a commercial transaction."
         }
       ]
     },
@@ -143,7 +156,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The analysis makes Lyolik's non-standard, uneducated speech central, but the candidate standardizes it: 'его бабе' (his broad) becomes the neutral 'his wife', and 'Смотры, нэ пэрэпутай' becomes standard 'Don't mix them up!'. The character voice is largely lost."
+          "justification": "Lyolik's non-standard, uneducated speech is normalized away ('Дитям', 'бабе', 'Смотры, нэ пэрэпутай' become standard 'for the children', 'his wife', 'Don't mix them up'). The analysis names this characteristic speech style as the mechanism of the micro-management joke, so the character voice is significantly harmed."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Его бабе' is an informal word for a woman, often a girlfriend or partner, and 'wife' narrows and changes the relationship."
         }
       ]
     },
@@ -165,7 +184,14 @@
         }
       },
       "candidate": "As our dear Boss says,\nwhen someone else is paying,\neven teetotalers drink,\nulcers and all.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Ulcers and all' is an idiom meaning 'including the bad parts', so the parallel with teetotalers ('even ulcer sufferers drink') is not clearly conveyed. The line reads as slightly ambiguous."
+        }
+      ]
     },
     {
       "id": 9,
@@ -198,9 +224,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis identifies Lyolik's mispronunciation of 'tablet' as the source of the humor. The candidate ('One tablet is all it takes...') uses standard pronunciation, so the comic effect and the character's illiteracy marker disappear."
+          "justification": "The comic device, Lyolik's specific mispronunciation of 'tablet', is entirely absent. 'One tablet is all it takes' is correct in meaning but not funny, and the analysis identifies the mispronunciation as the thing that makes the line memorable."
         }
       ]
     },
@@ -237,7 +263,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The colloquial 'Семёныч' is rendered as the formal 'Semyonovich', shifting register. The elongated 'Семё-он' sigh that the analysis describes as a facepalm is lost; the ellipsis only partly suggests it."
+          "justification": "The melodic, elongated sigh of 'Semё-on' is not reproduced, and the colloquial short patronymic 'Semyonych' is replaced by the full, more formal 'Semyonovich', which shifts the weary-familiar facepalm tone."
         }
       ]
     },
@@ -257,9 +283,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The three-line break splits 'your / salary' awkwardly, and the source's pauses ('на одну... зарплату') that create the curse's theatrical weight are removed. 'May you have to live' also adds an obligation nuance absent from 'Чтоб ты жил'."
+          "justification": "The theatrical pauses of the original curse ('...на одну... зарплату!') are lost, and 'May you have to live / on your / salary alone' is wordier and less weighty than the death-sentence delivery the analysis describes."
         }
       ]
     },
@@ -281,7 +307,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation mark of the reference is replaced by trailing ellipses, which deflate the frantic urgency the analysis describes as the point of the chant."
+          "justification": "The ending is trailing ('ai-lyulyu...') rather than exclamatory, which weakens the sharp urgency of the command and the frantic-rushing effect the analysis describes."
         }
       ]
     },
@@ -298,7 +324,14 @@
         "language_specific": {}
       },
       "candidate": "\"I slipped, I fell...\na simple fracture...\nI passed out, came to—\nplaster cast!\"",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The telegraphic, staccato rhythm of the alibi is weakened by ellipses and the longer phrasing ('I slipped, I fell...', 'came to—'), so the rehearsed-mantra effect is less pronounced than in the source."
+        }
+      ]
     },
     {
       "id": 16,
@@ -313,7 +346,14 @@
         "language_specific": {}
       },
       "candidate": "With a flick of the wrist,\nthe trousers become...\nthe trousers become...\nthe trousers become...\nelegant shorts!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Light' from 'Лёгким движением руки' is dropped, so the contrast between the promise of light elegance and the ruined result is weaker than in the source and the analysis."
+        }
+      ]
     },
     {
       "id": 17,
@@ -333,7 +373,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The analysis says the comedy depends on the seductress's slip into the provincial 'vinovataya' form. The candidate ('It's not my fault!') is neutral in register, so the sophisticated-to-provincial reveal is lost and the line carries none of the character's register shift."
+          "justification": "The comedy depends on the morphological slip 'виноватая' (the uneducated full-adjective form) that reveals a provincial register under the sophisticated facade. 'It's not my fault!' is standard English with no marker of that register, so the character voice and the analysis's core effect are lost."
         }
       ]
     },
@@ -353,9 +393,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'тот получит' is a definite promise, but 'you might win' softens it to a possibility, weakening the bitter anti-climax. The candidate also loses the rhythmic quality the analysis describes."
+          "justification": "The rhyming, rhythmic slogan of the original ('пачку / водокачку') is replaced by plain prose ('Buy a stack of lottery tickets and you might win...'), so the rhythmic anti-climax the analysis describes is weakened, though the 'water pump' punchline does the same job."
         }
       ]
     },
@@ -387,14 +427,7 @@
         "language_specific": {}
       },
       "candidate": "Well, if you're ever in Kolyma...\nI'd rather you came here!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source's reflexive rejection 'Нет, уж лучше' (No, better) is reduced to 'I'd rather you came here!', dropping the 'No' the analysis highlights as Gena's reflexive reaction to the perceived threat."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 21,
@@ -414,7 +447,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The analysis identifies Gena's affected pronunciation of 'кофэ' as the marker of his pretentious delusions. The candidate's standard 'coffee' removes this marker, so the characterization of the pretension is lost."
+          "justification": "Gena's affected pronunciation of 'кофэ' as 'coff-ey' is the marker of pretentious sophistication the analysis identifies. 'Coffee' is pronounced standardly, so the character's affectation and the comic contrast with his disarray are lost."
         }
       ]
     },
@@ -451,7 +484,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The analysis identifies the deliberately incorrect folksy verb 'пойтить' as the source of the rural, stubborn emphasis. The candidate ('No. I can't agree to that!') is standard and neutral, so the folksy register that the analysis treats as the comic core is absent."
+          "justification": "The analysis identifies the deliberately incorrect, folksy verb form 'пойтить' as the source of the rural, stubborn, slightly comical refusal. 'No. I can't agree to that!' is standard, neutral English with no folksy marker, so the character register and comic effect are lost."
         }
       ]
     }
@@ -459,13 +492,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 9
+      "minor": 14
     },
-    "total_points": 34,
+    "total_points": 39,
     "meaning_units": 23,
-    "penalty_per_unit": 1.4782608695652173,
-    "major_equiv_per_unit": 0.29565217391304344,
-    "interpretation": "1.48 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6956521739130435,
+    "major_equiv_per_unit": 0.3391304347826087,
+    "interpretation": "1.70 MQM penalty points per meaning unit (≈ 0.34 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

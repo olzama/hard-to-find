@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto greet the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'There is an instruction to greet the New Year cheerfully' keeps the directive framing and the 'Comrades' address, so the bureaucratic-vs-festive clash survives. 'Greet' and 'cheerfully' are slightly stiffer and less idiomatic than 'celebrate merrily', and the 'we have our instructions' sense of being bound by orders is a little weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "'Hire' vs 'raise/within our own collective' keeps the staffing logic, but 'raise' sounds more like child-rearing or animal husbandry than workplace training. 'Collective' keeps the Soviet flavor. Leaving 'Baba Yaga' untranslated and unglossed makes the 'nasty woman in the workplace' type less accessible to a non-Russian audience."
+          "justification": "\"Hire a Baba Yaga\" and \"raise one\" keep the workplace/collective logic, but untranslated \"Baba Yaga\" leaves the toxic-woman-in-the-office association less accessible to English viewers than a generic 'witch'. \"Raise\" also sounds more parental than the in-house training/staffing sense."
         }
       ]
     },
@@ -77,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Briefly' comes before 'forty minutes', so the comic reversal is preserved. 'No more, I think' drops the faux-modest 'I don't think we need any more than that' and ends on a dash, so the smug managerial tone and the punchline land a bit more weakly."
+          "justification": "\"Briefly\" is kept before the duration, so the reversal works, but \"no more, I think\" lacks the faux-modest, cozy diminutive quality of «коротенько»; it is a bit drier. The trailing dash also leaves the line open-ended."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Ready... been ready for a long time' keeps the surface meaning and the 'ready = drunk' double reading is implied by 'been ready for a long time!'. However, it is no more explicit than the reference's 'Oh, he's ready', and the exclamation mark makes it less dry. The drunk subtext is available but faint."
+          "justification": "\"Ready\" with \"been ready for a long time!\" preserves the ambiguity that implies drunkenness, as in the reference. The exclamation mark makes it slightly more explicit/jokey than the dry backstage tone, but the double meaning survives."
         }
       ]
     },
@@ -129,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'People!.. Ah... ah-oo!' keeps the broken, faltering shape, but 'People!' is not stretched or syllabified as in the reference ('Peo-ple!'), and 'ah-oo' is less clearly a call to a crowd than 'hellooo'. The vocal instability is partly preserved but less pronounced."
+          "justification": "\"People!.. Ah... ah-oo!\" keeps the broken, wavering address, but \"People!\" is not stretched like \"Peo-ple!\" and \"ah-oo\" is less recognizable as a call. The drunken vocal instability is weaker."
         }
       ]
     },
@@ -158,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Armed eye' is the literal calque the analysis explicitly says to avoid. It sounds surreal rather than like a mangled 'unaided eye' and does not evoke the familiar English idiom, so the mock-scientific deformation of a recognizable expression is lost. 'One need only' is also a more formal register than the original, though that fits the pomp."
+          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against. It sounds surreal and does not echo the English idiom \"unaided/naked eye\", so the mangled-idiom, mock-scientific effect is lost. \"One need only\" also makes the register more formal than the drunken-lecturer tone."
         }
       ]
     },
@@ -187,7 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Little stars' preserves the silly, childish counting, and the 'five little stars' punchline is intact. However, 'little' in the final item blurs the shift into the cognac frame: the five-star brandy association is not signaled, and the reference's translator note is missing. 'Four little stars—best of all' also merges the buildup and the punchline into one line, weakening the pause before the click into the new frame."
+          "justification": "The counting progression and \"five little stars\" punchline are preserved, but \"little stars\" sounds nursery-like and the cognac association is not signaled for English viewers. The punchline's click into a different domain is weaker, since the line also puts \"four little stars\" and the punchline on the same line, blurring the build-up."
         }
       ]
     },
@@ -213,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Is there life on Mars, is there no life on Mars' mirrors the colloquial repetition, and 'Science is not yet in the know' keeps the casual, personified register. 'In the know' is slightly more idiomatic than 'up to speed on the matter' but works, so the effect is largely preserved, though 'is there no life' is a little stiff in English."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" mirrors the source's colloquial structure, and \"not yet in the know\" keeps the casual personification of science. The stiff, literal \"is there no life\" is slightly awkward in English."
         }
       ]
     }
@@ -221,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 7
+      "minor": 6
     },
-    "total_points": 12,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 1.5,
-    "major_equiv_per_unit": 0.3,
-    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

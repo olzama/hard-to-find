@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as present possession. The analysis explicitly warns these items are no longer possessed (they were lost); the Russian construction indicates they were deprived of those items. The candidate thus reverses the intended meaning about loss."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as possession. The source (and analysis note) indicates these items are no longer possessed (they've been lost/stolen/were taken). This reverses the intended meaning and undermines the comedic callback about missing items."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line must make clear Bunsha is absurdly introducing himself as the Tsar (not addressing a Tsar). The candidate's phrasing ('Very pleased, Tsar!') reads like addressing someone called 'Tsar' rather than repeatedly introducing himself as 'the Tsar,' which contradicts the analysis and loses the core gag about him self-identifying as the monarch."
+          "justification": "The line should make clear Bunsha is introducing himself as 'the Tsar' (a comedic self-introduction), not addressing an existing Tsar. The candidate's phrasing ('Very pleased, Tsar! ... Hello, Tsar!') reads as vocative greetings directed at a Tsar, which changes the gag's target and loses the intended clash of eras (introducing himself as the Tsar)."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes that 'демоны' is the subject (he says they walled him in — the demons did it), not a vocative. The candidate's second line ('Walled up, demons!') reads as if addressing demons, reversing subject/agent and changing the intended meaning."
+          "justification": "The original presents 'демоны' as the subject (they have walled him in). The candidate's second line ('Walled up, demons!') can be read as addressing demons (vocative), which slightly alters the intended meaning and the image of inexplicable forces having acted upon him."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "See what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'See what the life-giving cross can do!' conveys the idea but uses a more colloquial, conversational phrasing ('can do') that softens the archaic, high-register, quasi-religious tone the analysis highlights. This reduces the period register slightly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -169,7 +162,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns against presenting the eggplant spread as 'caviar.' The candidate's sequence ('Imported caviar... Eggplant!') risks implying eggplant is a form of imported caviar, which may confuse the viewer about the satirical inversion between luxury caviar and cheap eggplant spread."
+          "justification": "The humour depends on contrasting genuine luxury caviar with cheap 'eggplant caviar' as a Soviet canned spread; translations must not present eggplant spread as actual caviar. The candidate's sequence ('Imported caviar... Eggplant!') risks implying eggplant is being called imported caviar, which blurs the intended satirical inversion."
         }
       ]
     },
@@ -191,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The humor depends on Shpak's hesitation and the incremental counting gag (the delayed 'three'). The candidate lists items plainly ('3... three suede jackets') without preserving the comic hesitation/ellipses rhythm, weakening the comedic timing."
+          "justification": "The joke hinges on Shpak's incremental counting and the comedic slip (hesitation before adding the suede jacket). Rendering the list as a straightforward enumeration ('three suede jackets') removes the performative hesitation and weakens the comic effect."
         }
       ]
     },
@@ -208,26 +201,19 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original has a melodic, resigned repetition. The candidate uses exclamatory punctuation and a slightly more assertive tone ('And they'll cure you!'), which makes the lines sound less calm and resigned and therefore alters the intended delivery and mood."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 19,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won’t bring in a witch from outside —\nwe’ll train one in-house.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate replaces the culturally specific name \"Baba Yaga\" with the generic \"a witch.\" The original line relies on the folkloric name to evoke a recognizable Soviet workplace type as well as the fairy-tale figure; using only \"witch\" loses some of that cultural specificity and the double-layered humour (fairy-tale villainess + familiar nasty co-worker)."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -128,7 +121,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds an explanatory bracketed note about 5-star cognac within the subtitle. While factually correct, this parenthetical explanation is an extratextual addition that disrupts the line's comic timing and stage delivery; cultural exposition like this is better handled outside the subtitle line (if needed at all)."
+          "justification": "The candidate adds an inline explanatory note ('[The best cognac in USSR was known as 5*]') that is not present in the source or reference. While the cultural note can be useful, inserting it directly into the subtitle changes the on-screen line and disrupts the comic timing and delivery of the derailed lecture; a subtler solution (e.g., a separate subtitle or localization choice) would better preserve the line's effect."
         }
       ]
     },
@@ -151,13 +144,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.125,
+    "major_equiv_per_unit": 0.025,
+    "interpretation": "0.12 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

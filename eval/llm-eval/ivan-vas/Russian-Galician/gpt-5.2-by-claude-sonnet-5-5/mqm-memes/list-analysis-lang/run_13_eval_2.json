@@ -18,16 +18,16 @@
       "candidate": "Vólvenme asaltar\nescuras dúbidas...\nShpak perdeu un magnetófono,\no embaixador, un medallón.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Vólvenme asaltar escuras dúbidas\" keeps the mock-heroic tone reasonably, but \"dúbidas\" is plainer than \"sospeitas\" and the word order is less archaic than the reference's inverted \"asáltanme\"."
+          "justification": "The translation 'Shpak perdeu un magnetófono, o embaixador, un medallón' correctly conveys the loss (per the NB), but it turns 'У Шпака — магнитофон' (a specific, known item) into an indefinite 'un magnetófono'. This is a small shift, so it is not the main problem; the main problem is the mock-heroic opening."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"un magnetófono\" and \"un medallón\" introduce indefinite articles, whereas the source refers to specific, known items (the ones stolen earlier). The callback to the earlier scene is slightly weakened."
+          "justification": "'Vólvenme asaltar escuras dúbidas' is less elevated and theatrical than the reference's 'asáltanme escuras sospeitas'. 'Dúbidas' is plainer than the archaic-literary 'смутные сомнения', so the mock-heroic register is somewhat weakened, though still recognisable."
         }
       ]
     },
@@ -44,7 +44,14 @@
         "language_specific": {}
       },
       "candidate": "Ola, eu son o tsar, moito gusto.\nO tsar, moito gusto, o tsar.\nMoito gusto, ola, eu son o tsar.\nO tsar, moito gusto!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Ola' is a neutral, modern greeting. It works for the mundane Soviet-cliché register, but it lacks the formal flavour of 'Boas noites'. The added fourth line 'O tsar, moito gusto!' is an extra repetition not in the source."
+        }
+      ]
     },
     {
       "id": 3,
@@ -74,7 +81,14 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, estou de loito.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Estou de loito' (I am in mourning) narrows 'в печали' (in sorrow) to bereavement. The archaic, regal melancholy is slightly lost, and the phrase is a bit more mundane than 'aflixido'."
+        }
+      ]
     },
     {
       "id": 5,
@@ -89,7 +103,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronnos...\nEmparedáronnos os demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Emparedáronnos' (they walled us in) changes the object from 'me' to 'us'. The Tsar is alone in the elevator, so the plural is wrong. The demons do remain the subject, which satisfies the NB, but the meaning is distorted."
+        }
+      ]
     },
     {
       "id": 6,
@@ -104,7 +125,14 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Mira o que fai a cruz vivificadora' keeps the meaning and the religious joke. However, 'Mira' is more colloquial than the Tsar's solemn register, and 'vivificadora' is a less liturgical set phrase than 'vivificante'."
+        }
+      ]
     },
     {
       "id": 7,
@@ -134,7 +162,14 @@
         "language_specific": {}
       },
       "candidate": "Mira que entrei con bo pé!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Mira que entrei con bo pé' ('Look, I entered on the right foot') is an idiom that preserves the sense of just having entered, but 'Mira que' is awkward and reads more like an exclamation of surprise or a reproach ('Mira que...' as in 'for goodness' sake'). The cheerful, pleased reaction on discovering the flat full of valuables is weakened and the phrasing is potentially misleading."
+        }
+      ]
     },
     {
       "id": 9,
@@ -149,7 +184,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nSi! Unha pasta exótica...\nde berenxena!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Unha pasta exótica' drops the 'overseas' (заморская) idea and the ironic reversal of calling an eggplant spread a rare delicacy. It does avoid calling the spread 'caviar', as the NB asks, but the mock-luxury punchline is much weaker than 'Manxar de ultramar'."
+        }
+      ]
     },
     {
       "id": 10,
@@ -164,7 +206,14 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 cigarreiros nacionais,\nchaqueta de camurza... tres.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The joke depends on the count growing, with Shpak forgetting to increment the suede jacket at first. The candidate writes 'chaqueta de camurza... tres' and drops the jacket's own quantity marker, so the build-up is lost. 'Cigarreiros' is also the wrong form: it means cigarette makers or sellers, not cigarette cases ('cigarreiras')."
+        }
+      ]
     },
     {
       "id": 11,
@@ -179,19 +228,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti curarante!\nE a ti tamén te curarán!\nE a min curaranme!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate uses exclamation marks and the synthetic future ('curarante', 'curaranme'). This loses the melodic, calm, resigned tone of the reference's repeated periphrastic 'vante curar'. The hysterical resignation is replaced by a more emphatic delivery."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 5,
+      "minor": 5
     },
-    "total_points": 2,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

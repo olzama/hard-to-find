@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak has a tape recorder, the ambassador has a medallion\" says they still possess the items. The analysis notes that each of them has lost the item, so the meaning is reversed. The mock-heroic opening \"plagued by vague doubts\" is fine."
+          "justification": "'Shpak has a tape recorder, the ambassador has a medallion' reverses the meaning: the Russian implies they no longer have these items because they were stolen. The analysis NB explicitly forbids rendering it as 'has'."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Plagued by vague doubts' keeps an elevated register, but is slightly less theatrical than 'haunt/torment', so the mock-heroic effect is a little weaker."
         }
       ]
     },
@@ -43,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"A pleasure, Tsar!\" reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. This contradicts the analysis NB. The self-introduction (\"Hello, I'm the Tsar\") is missing."
+          "justification": "'A pleasure, Tsar!' reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. The NB requires making clear he is introducing himself, so the core joke is lost."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Old girl\" is casual and colloquial, and \"despair\" is stronger than sorrow. Both weaken the archaic, regal register of the Tsar's dismissal and the contrast with the Soviet setting."
+          "justification": "'Old girl' is colloquial and casual, and 'despair' is stronger than 'sorrow'. Both weaken the high-register, archaic regal tone that contrasts with the Soviet apartment setting."
         }
       ]
     },
@@ -102,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"They've walled me in, demons!\" reads as a vocative, as if he were addressing the demons. The analysis NB requires the demons to be the subject, as in \"Walled me in, the demons!\"."
+          "justification": "'They've walled me in, demons!' reads as a vocative, with the Tsar addressing the demons. The NB requires demons to be the subject, as in 'the demons have walled me in'."
         }
       ]
     },
@@ -124,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"That's what the life-giving cross does!\" is conversational and loses the solemn, archaic, proclamatory tone of the Tsar's conviction (\"Behold the power...\"). The meaning is preserved."
+          "justification": "'That's what the life-giving cross does!' is accurate but colloquial. It loses the solemn, declamatory 'Behold' tone of the Tsar's absolute conviction."
         }
       ]
     },
@@ -156,7 +162,14 @@
         "language_specific": {}
       },
       "candidate": "Wow. Great timing.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Great timing' does not convey that he has just entered by good luck, and the unclear wording could be read as a leaving remark or a comment on timing. It loses the sense of a lucky choice of apartment (the NB warns against misleading about entering vs. leaving) and the cheerful burglar's satisfaction at the discovery."
+        }
+      ]
     },
     {
       "id": 9,
@@ -176,7 +189,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Exotic caviar... Eggplant!\" calls the eggplant spread caviar, which the NB forbids and which confuses viewers. The \"overseas\" (заморская) sense is weakened to \"exotic\", and the eggplant spread reads as a bare vegetable. The satirical inversion is blurred."
+          "justification": "'Exotic caviar... Eggplant!' calls the eggplant spread caviar, which the NB forbids because it confuses viewers. It also drops 'overseas' (заморская) and the inversion of status symbols that makes the joke work."
         }
       ]
     },
@@ -198,7 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives \"three suede jackets\", which removes the joke that Shpak says only one suede jacket and then catches himself with \"Three\". The candidate also drops the ellipses and the pause that betray him."
+          "justification": "The candidate renders the last item as 'three suede jackets!', which removes the joke that Shpak forgets to increment the count at first: the source has the jacket in the singular, then 'Three'. The key comic effect is lost."
         }
       ]
     },
@@ -215,26 +228,19 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the lines emphatic and urgent. The analysis describes a calm, melodic resignation, which the reference's ellipses convey."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 6,
       "minor": 3
     },
-    "total_points": 28,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 2.5454545454545454,
-    "major_equiv_per_unit": 0.509090909090909,
-    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

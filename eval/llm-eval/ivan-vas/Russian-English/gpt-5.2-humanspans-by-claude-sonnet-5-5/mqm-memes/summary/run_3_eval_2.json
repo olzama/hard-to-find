@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak has a tape recorder, the envoy has a medallion\" reverses the meaning. The analysis' NB states they no longer have these items, since each lost the corresponding item. The candidate says they possess them, which breaks the callback logic to the theft suspicion."
+          "justification": "\"Shpak has a tape recorder, the envoy has a medallion\" reverses the meaning. The NB says the items are gone (each person lost theirs), but the candidate says they possess them, so the link to the thefts is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"I'm plagued by vague doubts again\" keeps a reasonably elevated tone, but \"envoy\" for the ambassador shifts the term slightly. The mock-heroic effect is preserved adequately."
+          "justification": "\"Plagued by vague doubts\" keeps a fairly elevated register, so the mock-heroic tone is mostly preserved. \"Envoy\" instead of \"ambassador\" is slightly off but acceptable."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha addressing a Tsar (\"Hello, Tsar\"), not introducing himself as the Tsar. The NB explicitly requires that it be clear he is introducing himself as the Tsar."
+          "justification": "The candidate never makes it clear that Bunsha is introducing himself as the Tsar. \"Hello, Tsar\" reads as addressing a Tsar, which the NB explicitly forbids, and the joke of the drunken self-introduction is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Very nice\" is a weak rendering of the formal \"очень приятно\" (pleased to meet you), losing the stiff social-ritual register of the greeting."
+          "justification": "\"Very nice\" is a weaker rendering of the stiff formal \"very pleased to meet you\" cliché, so the mockery of social ritual is diminished."
         }
       ]
     },
@@ -87,14 +87,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The contraction \"I'm\" slightly weakens the high-register, archaic regal tone compared with \"I am in sorrow\", though the meaning is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -114,7 +107,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Walled up, demons!\" reads as direct address to the demons. The NB requires demons to be the subject (the demons walled him in), not the addressee, so the meaning is distorted."
+          "justification": "\"Walled up, demons!\" reads as addressing the demons (vocative). The NB requires demons to be the subject of the sentence, i.e. the demons walled him in."
         }
       ]
     },
@@ -136,7 +129,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"That's what the life-giving cross can do!\" is conversational and loses the solemn, proclamatory religious tone of the Tsar's conviction, though the meaning is conveyed."
+          "justification": "\"That's what the life-giving cross can do!\" is a colloquial, flat rendering. It loses some of the Tsar's solemn, archaic conviction, though the meaning and religious joke are kept."
         }
       ]
     },
@@ -173,7 +166,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"What a lucky stop!\" is ambiguous and can suggest a stop on the way somewhere or a departure, as if he were leaving. The NB warns against this misleading reading, since he has just entered and found the goods."
+          "justification": "\"What a lucky stop!\" is misleading because it suggests a passing visit or a stop on the way, not the burglar having just entered and found the apartment full of goods. The NB warns against this. The cheerful, burglar-specific reaction is also weakened."
         }
       ]
     },
@@ -195,7 +188,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Imported caviar… Eggplant!\" calls the eggplant spread caviar, which the NB explicitly forbids. It also loses the 'overseas' (заморская) flavor and the punchline contrast that the spread is eggplant, not real caviar."
+          "justification": "\"Imported caviar… Eggplant!\" drops the point that the eggplant is the 'overseas' item, and the candidate treats \"imported caviar\" as a separate item. The inversion of status symbols is muddled, and it effectively calls the eggplant spread caviar, which the NB says will confuse viewers."
         }
       ]
     },
@@ -217,13 +210,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives \"three suede jackets\" without the mistake. The humor depends on Shpak forgetting to increment the jacket count (one jacket, then \"Three\"). Here the joke is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The added \"Everything I earned through backbreaking labor, is gone\" is not in the source, and the inconsistent mix of digits and words is awkward."
+          "justification": "Shpak's inflated list is replaced by a complaint about \"everything I earned through backbreaking labor\", which is an addition. The count is written as \"three suede jackets\" in line with the rest, so the joke where he slips on the jackets (the pause and the '...' before 'Three') is lost."
         }
       ]
     },
@@ -246,13 +233,13 @@
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 5
+      "minor": 3
     },
-    "total_points": 35,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

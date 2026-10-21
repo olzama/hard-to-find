@@ -106,14 +106,7 @@
         }
       },
       "candidate": "Velaquí o que obra a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "The analysis explicitly says to avoid the word 'velaí'. The candidate uses 'Velaquí', which is identical to the reference, so it is acceptable and no real issue exists beyond the reference itself."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -173,14 +166,7 @@
         }
       },
       "candidate": "Caviar negro, vermello… Si! Manxar de ultramar…\nde berenxena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line break placed before 'de berenxena' splits the punchline from 'Manxar de ultramar', slightly weakening the comic reveal timing, though the wording is identical to the reference and avoids calling eggplant spread 'caviar'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -200,14 +186,7 @@
         }
       },
       "candidate": "tres magnetófonos, tres cámaras de cine,\nTres magnetófonos, tres cámaras de cine, tres cigarreiras nacionais, unha chaqueta… de ante… tres.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate is garbled: it begins with a lowercase 'tres magnetófonos, tres cámaras de cine,' and then repeats the whole list 'Tres magnetófonos, tres cámaras de cine, ...'. This duplicates items within the line break, confusing the list and the escalating-count joke built on the forgotten suede jacket."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -224,24 +203,24 @@
       "candidate": "E a ti tamén te van curar…\ne a min vanme curar…\n",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first clause 'E a ti vante curar…' is omitted. The candidate begins with 'E a ti tamén te van curar…', so the three-part rhythmic progression (you, you too, me) that creates her calm, melodic resignation is lost."
+          "justification": "The first clause of the triple, 'E a ti vante curar…', is omitted. This weakens the melodic, resigned three-part repetition described in the analysis, and 'tamén' ('also') now has nothing before it to refer to. The core meaning, that everyone including her will be cured, is still conveyed."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 2
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 12,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

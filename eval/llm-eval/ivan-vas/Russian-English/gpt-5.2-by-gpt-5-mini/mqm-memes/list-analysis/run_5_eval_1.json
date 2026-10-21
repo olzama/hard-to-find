@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I'm plagued by vague doubts again...\nShpak's missing a tape recorder,\nthe envoy's missing a medallion.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate phrasing 'Shpak's missing a tape recorder, the envoy's missing a medallion' is ambiguous and reads as if those people simply lack those items (they don't possess them), whereas the analysis/nb requires that it be understood these items have been lost/taken from them. This reverses the intended meaning about the items being missing from them."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads like Bunsha is addressing a tsar ('Very nice, Tsar!') rather than comically introducing himself as the Tsar. The analysis explicitly requires that it be clear he is presenting himself as the Tsar (introducing himself), so this changes the comic premise and intent."
+          "justification": "The candidate reads like a series of greetings addressed to a Tsar (e.g., 'Very nice, Tsar!'), whereas the analysis requires that Bunsha be clearly introducing himself as the Tsar (mock self-identification). This changes the comic effect: it removes the absurdity of Bunsha repeatedly presenting himself as the monarch and instead makes it sound like he is politely addressing a sovereign, which contradicts the intended joke."
         }
       ]
     },
@@ -60,7 +53,14 @@
         "language_specific": {}
       },
       "candidate": "I demand the banquet continue!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The phrase 'I demand the banquet continue!' is understandable but slightly unidiomatic in English; a more natural rendering would be 'I demand that the banquet continue' or 'I demand the banquet continue on.' This is a small fluency issue, not a loss of meaning or tone."
+        }
+      ]
     },
     {
       "id": 4,
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original/analysis indicates the demons are the subject who walled him in ('They've walled me in...'), not addressees. The candidate 'Walled up, demons!' reads as if the Tsar is addressing the demons directly, reversing the grammatical relation and undermining the intended comic misunderstanding of technology as a demonic action."
+          "justification": "The line 'Walled up, demons!' reads as if the Tsar is addressing the demons, but the analysis/NB specifies that 'demons' are the subject (i.e., 'They walled me in, the demons'). The candidate thus misrepresents who is performing the action, changing the meaning and weakening the comedic misunderstanding of technology as sorcery."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross does!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'That's what the life-giving cross does!' conveys the meaning but loses some of the elevated, archaic register ('Behold the power of the life-giving cross!') that the analysis highlights. The line becomes more colloquial and slightly weakens the period/royal tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -139,7 +132,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate 'Everyone dance!' communicates the invitation but is less natural in idiomatic English than alternatives ('Everyone, dance!' or 'Everybody dance!') and slightly flattens the celebratory announcement tone described in the analysis."
+          "justification": "The line 'Everyone dance!' is understandable and keeps the imperative energy, but it is slightly awkward English. 'Everybody, dance!' or 'Everyone dance now!' would be more natural. The issue is stylistic/fluency rather than a loss of the comedic effect."
         }
       ]
     },
@@ -176,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate presents 'Overseas caviar... Eggplant!' which implies eggplant is a type of caviar. The analysis/nb warns explicitly not to render the eggplant spread as 'caviar'—it should be clear that 'eggplant' is a cheap spread being humorously elevated. This mistranslation confuses the key satirical contrast."
+          "justification": "The candidate presents 'Overseas caviar... Eggplant!' which implies that the eggplant item is itself being called 'caviar' (continuing the list of caviars). The analysis explicitly warns against calling the eggplant spread 'caviar'—the joke depends on eggplant spread being a humble, non-caviar item presented as a pseudo-delicacy. The candidate blurs that inversion and thus undermines the satirical contrast."
         }
       ]
     },
@@ -198,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source joke depends on Shpak's stuttering/counting (he forgets to increment the count when mentioning the suede jacket). The candidate presents a smooth list ending with 'three suede jackets,' which loses the comedic stumble/betrayal in the original. Also the mix of numerals ('3' then 'three') is a slight stylistic inconsistency."
+          "justification": "The candidate uses numerals and then 'three suede jackets' without the small hesitation/pacing of the original ('куртка… замшевая… Три'), which is part of the joke (forgetting to update the count). The meaning is preserved, but the comic timing and self-betrayal are slightly weakened."
         }
       ]
     },
@@ -220,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 3,
       "minor": 3
     },
-    "total_points": 23,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

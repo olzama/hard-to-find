@@ -118,10 +118,10 @@
       "candidate": "As we can already see, two stars, three stars, four stars… But of course five stars is best!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The star progression and the 'five stars is best' punchline are kept, but the candidate omits the explanatory note that five stars refers to the best Soviet cognac. Without it, most English viewers will not see the shift from astronomy to drinking, so the derailment joke lands more weakly."
+          "justification": "The candidate keeps the star counting but omits the explanatory note that five stars is the best Soviet cognac. Without it, English viewers will not make the sudden shift from astronomy to drinking. The punchline then reads as merely odd, which is the loss the analysis warns about."
         }
       ]
     },
@@ -143,14 +143,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 1
+      "major": 1,
+      "minor": 0
     },
-    "total_points": 1,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 0.125,
-    "major_equiv_per_unit": 0.025,
-    "interpretation": "0.12 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

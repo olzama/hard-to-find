@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which changes the meaning: the original (and analysis note) indicate these items have been lost/are missing (they no longer have them), not that they possess them. This reverses the factual relation and contradicts the analysis guidance."
+          "justification": "The candidate uses 'Shpak has... the envoy has...', which implies possession. The analysis explicitly warns that the original means they have lost those items (they were deprived of them). This reverses the factual relation and undermines the gag about missing goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should make clear Bunsha is introducing himself as the Tsar ('I am the Tsar'), not addressing or greeting a Tsar. The candidate ('So nice, Tsar! ... Hello, Tsar!') reads as second-person address to a Tsar, losing the crucial self-introduction joke described in the analysis."
+          "justification": "The line should make clear Bunsha is introducing himself as 'the Tsar' (a comedic self-introduction), not addressing a real tsar. The candidate reads as vocative/exclamatory greetings to a tsar ('So nice, Tsar!'), losing the crucial comic premise that he is repeatedly presenting himself as the Tsar."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference uses a high-register, archaic-sounding phrasing ('I am in sorrow') to match the Tsar's regal tone. The candidate's 'I am sad' is flatter and contemporary, losing some of the archaic/regal register that the analysis highlights."
+          "justification": "The candidate 'I am sad' is grammatical and accurate but flattens the elevated, archaic register ('I am in sorrow') that creates the mock-heroic contrast in the analysis. This slightly weakens the intended regal tone."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis specifies that 'demons' are the subject (he is saying they have walled him in), not being addressed. The candidate 'Walled up, demons!' reads as if the Tsar is vocatively addressing demons, which reverses the syntactic role and misrepresents the original meaning."
+          "justification": "The original means 'They have walled me in' with 'demons' as the subject (not being addressed). The candidate 'Walled up, demons!' reads as addressing demons (vocative) and/or is ambiguous about who performed the action, changing the grammatical subject and the comedic misunderstanding of technology as demonic action."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original/ reference has an elevated, liturgical exclamation ('Behold the power of the life-giving cross!'). The candidate ('That’s what the life-giving cross does!') conveys the basic idea but in a colloquial, prosaic register, weakening the archaic/reverent tone emphasized in the analysis."
+          "justification": "The candidate conveys the basic meaning but uses a colloquial phrasing ('That’s what the life-giving cross does!') that softens the archaic, solemn register of the original line, reducing some of the juxtaposed religious grandiosity in the gag."
         }
       ]
     },
@@ -176,7 +176,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The humorous contrast rests on presenting 'баклажанная' as an eggplant spread presented as if it were a rare imported delicacy. The candidate's line ('Imported caviar... Eggplant!') risks implying eggplant is being called caviar (or that eggplant itself is an imported caviar), which could confuse viewers; it loses the clearer distinction the analysis/reference preserves."
+          "justification": "The candidate preserves the juxtaposition between luxurious caviar and eggplant spread, but rendering the middle line as 'Imported caviar... Eggplant!' risks implying the eggplant is literally a type of caviar. The reference avoided calling the eggplant spread 'caviar' to prevent confusion; this candidate is slightly more ambiguous."
         }
       ]
     },
@@ -195,10 +195,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on the escalating list and the speaker's hesitance/forgetfulness (the count changing as he recalls items). The candidate’s flat list ('3 ... 3 ... three suede jackets') removes the staccato hesitation and the revealing comedic slip, weakening the intended humorous effect. (Also minor inconsistency in numeric presentation.)"
+          "justification": "The joke hinges on Shpak's escalating list and his slip over the count (he realizes/forgets and the final 'Three' punctuates the lie). The candidate lists 'three suede jackets' outright, removing the incremental/fumbling comic effect and thus losing the central humour mechanism of the line."
         }
       ]
     },
@@ -220,14 +220,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 19,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

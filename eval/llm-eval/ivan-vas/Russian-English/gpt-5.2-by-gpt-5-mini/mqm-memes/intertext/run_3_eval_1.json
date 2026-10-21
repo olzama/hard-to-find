@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian construction У Шпака — у посла in this context means those items were taken from them (they are missing), not that they currently possess them. The candidate phrase 'Shpak has a tape recorder, the envoy has a medallion' reverses that meaning and therefore contradicts the analysis note and the joke's implication."
+          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as possession (“Shpak has... the envoy has...”), whereas the source (and analysis note) means those items are missing from them / were taken (they lost them). This reverses the intended meaning and undermines the callback joke about theft."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis stresses that Bunsha is introducing himself as the Tsar (not addressing a tsar). The candidate's lines ('Very nice, Tsar!' / 'hello, Tsar!') read as greetings addressed to a Tsar rather than self-introductions, losing the core comic premise that he repeatedly declares himself to be the Tsar."
+          "justification": "The candidate reads like Bunsha addressing someone as 'Tsar' (greeting the Tsar), whereas the line is him repeatedly introducing himself as 'the Tsar.' The analysis explicitly requires making clear he is presenting himself as the Tsar; the candidate obscures that, changing the comedic effect."
         }
       ]
     },
@@ -75,7 +75,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m in sorrow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning is preserved, but the contraction \"I’m\" reduces the high-register, archaic tone the analysis highlights. The original lofty register is slightly weakened."
+        }
+      ]
     },
     {
       "id": 5,
@@ -92,10 +99,10 @@
       "candidate": "Bricked up!\nBricked up, demons!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'Bricked up!' is a terse, colloquial rendering of 'They've walled me in,' but the follow-up 'Bricked up, demons!' is ambiguous: it can be read as addressing the demons (vocative) rather than stating that demons are the agents who walled him in, which the analysis explicitly requires. The phrasing also feels less natural and slightly awkward."
+          "justification": "The candidate’s second line ('Bricked up, demons!') reads as if addressing demons rather than stating that demons are the ones who walled him in. The analysis notes demons must be the subject (they walled him in); this candidate misrepresents who is doing the action and thus changes the line's meaning and comic misunderstanding."
         }
       ]
     },
@@ -117,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That’s what the life-giving cross can do!') preserves the meaning but shifts register toward a more conversational, exclamatory English. This slightly weakens the elevated, archaic tone present in the reference ('Behold the power of the life-giving cross!')."
+          "justification": "The candidate preserves the basic meaning but uses colloquial phrasing ('That’s what... can do!') which softens the archaic, reverent register of the original ('Behold the power of the life-giving cross!'). This slightly reduces the historical/religious gravitas important to the joke."
         }
       ]
     },
@@ -169,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns against calling the eggplant spread 'caviar' (it must not confuse viewers). The candidate's line 'Overseas caviar… Eggplant!' risks implying the eggplant spread is actually 'caviar' from overseas, which undermines the intended satirical inversion between luxury caviar and humble 'eggplant caviar.' This creates confusion and loses the joke's target."
+          "justification": "The candidate renders the phrase so that 'eggplant' appears as an 'overseas caviar' (i.e., calls the eggplant spread 'caviar'), but the analysis warns explicitly not to call eggplant spread 'caviar'—the humor depends on eggplant being a humble non-caviar item presented as exotic. This translation mischaracterizes the joke and will confuse viewers."
         }
       ]
     },
@@ -191,7 +198,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The comedic effect depends on the incremental, slip-up counting (he lists items and then forgets to increment the count for the suede jacket). The candidate consolidates into 'three suede jackets,' removing the hesitating/performance element and thus neutralizing the joke about his inflated, inconsistent tally."
+          "justification": "The comedic effect hinges on Shpak’s slip in counting (the list inflates and he forgets to update the count). The candidate presents a neat, consistent list ('three suede jackets') and even mixes numerals and words, removing the self-betraying pause/hesitation that makes the joke work. This substantially weakens the intended humor."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate inconsistently uses numerals ('3') and words ('three'), which is a small fluency/formatting issue in subtitles."
         }
       ]
     },
@@ -213,14 +226,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 2
+      "major": 5,
+      "minor": 3
     },
-    "total_points": 22,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

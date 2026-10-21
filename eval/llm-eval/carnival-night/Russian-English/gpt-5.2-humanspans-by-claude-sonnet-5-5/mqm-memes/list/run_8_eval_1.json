@@ -20,7 +20,14 @@
         }
       },
       "candidate": "Comrades, we have a directive\nto welcome the New Year with fun.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"We have a directive\" keeps the bureaucratic, top-down framing and the contrast with festive content. But \"welcome the New Year with fun\" is slightly clumsy and less idiomatic than \"celebrate merrily\", so the dry official-yet-festive juxtaposition is a bit weaker."
+        }
+      ]
     },
     {
       "id": 2,
@@ -42,9 +49,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "\"Hire\" suits the workplace logic, but \"bring one up\" suggests raising a child, which weakens the staffing/training framing. \"Collective\" is a Sovietism that works, but \"hire ... bring up\" is a slightly mismatched pair compared to the bring in/train in-house parallel."
+          "justification": "\"Hire Baba Yaga from outside\" and \"bring one up in our own collective\" keep the staffing/upbringing logic and the Soviet \"collective\" flavor. But \"Baba Yaga\" is left untranslated with no cue to the nasty-woman workplace type for English viewers, so the social second layer is less accessible."
         }
       ]
     },
@@ -65,14 +72,7 @@
         }
       },
       "candidate": "And just briefly—about\nforty minutes; more than that, I think,\nisn’t necessary—",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Just briefly\" conveys the faux-modesty and puts the briefness claim before the duration, but it lacks the cozy diminutive flavor of «коротенько». The trailing \"isn't necessary\" is also a bit stiff compared to the casual \"I don't think we need any more than that\"."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation renders \"готов\" only as \"ready\" with no hint of the \"drunk/done for\" subtext. The analysis says the alcoholic double sense is the whole joke, so the line is flattened into plain administrative confirmation. The reference partially keeps it through the knowing \"Oh, he's ready. He's been ready for quite a while.\" The candidate lacks any such cue."
+          "justification": "Rendered literally as \"ready\", with no recreation of the colloquial \"done for / drunk\" reading of «готов». The double meaning that makes the exchange funny is lost, so the line is only a flat administrative confirmation."
         }
       ]
     },
@@ -144,7 +144,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the language-specific note warns against: it sounds stranger and more surreal than the Russian and does not echo \"the unaided eye\". The mock-scientific idiom deformation is only partly recovered. \"It's enough for us to take\" is also slightly awkward."
+          "justification": "\"Armed eye\" is the literal calque the language-specific note says to avoid. It sounds stranger and more surreal than the Russian and lacks the echo of \"unaided eye\". It still conveys a malformed learned phrase, so the joke is partly preserved."
         }
       ]
     },
@@ -170,16 +170,10 @@
       "candidate": "we already see\ntwo little stars, three little stars...\nFour little stars; best of all, of course,\nfive little stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac association is lost: \"five little stars\" is rendered with the diminutive \"little\" in every item, which makes it sound like children's counting. This doesn't evoke the five-star cognac frame. The \"click into a different domain\" at the punchline is not signaled, and no note is provided as the analysis suggests. The \"little stars\" repetition does capture the silly counting, but the punchline falls flat."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line breaks and punctuation (\"two little stars, three little stars... / Four little stars; best of all\") are awkward, and the semicolon breaks the drunken rhythm of the build-up."
+          "justification": "The silly counting buildup and the sudden \"five little stars\" are kept, and the cognac shift is plausible. But \"little stars\" repeated at the punchline softens the click into the cognac frame, and the 5-star cognac association is not signalled for English viewers. The sequence order is also somewhat muddled by the line break."
         }
       ]
     },
@@ -200,26 +194,19 @@
         }
       },
       "candidate": "Whether there is life on Mars,\nwhether there isn’t life on Mars—\nscience does not know.\nScience is not yet in the know.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Science is not yet in the know\" keeps the colloquial personification well. However, \"science does not know\" is somewhat more neutral/formal than the flat «это науке неизвестно», and \"whether there isn't life on Mars\" is a stiff calque of the casual doubled structure."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

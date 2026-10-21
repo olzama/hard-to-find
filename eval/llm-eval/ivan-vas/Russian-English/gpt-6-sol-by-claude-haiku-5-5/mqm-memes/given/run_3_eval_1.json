@@ -186,7 +186,14 @@
         }
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic… a suede jacket… Three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate begins with lowercase 'three' although the source opens with a capitalized 'Три' and the reference capitalizes 'Three'. Splitting the list across lines is acceptable, but the lowercase start reads as a formatting error at the head of the segment."
+        }
+      ]
     },
     {
       "id": 11,
@@ -206,13 +213,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source has three clauses: 'И тебя вылечат…' (and they'll cure you…), 'и тебя тоже вылечат…' (and they'll cure you too…), 'и меня вылечат…' (and they'll cure me…). The candidate omits the first clause and adds a new line, 'They'll cure me too!', which is not in the source. The result is a content addition and omission that changes the structure of the line."
+          "justification": "The candidate adds a fourth line, 'They'll cure me too!', which has no counterpart in the source. The source ends on the trailing 'и меня вылечат…' with no 'too' and no exclamation. The added exclamatory closing line turns the calm, melodic resignation described in the analysis into an agitated exclamation, which changes the artistic effect."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The source ends on a trailing ellipsis, which carries the calm, melodic resignation the analysis describes. The candidate ends with an exclamation mark, which turns the resignation into exclamatory emphasis and weakens the intended tone."
+          "justification": "The candidate omits the opening line 'And they'll cure you…' from the source's three-part repetition, so the incantatory rhythm starts mid-pattern. The remaining 'you too' line still conveys the content, so the loss is limited."
         }
       ]
     }
@@ -220,13 +227,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

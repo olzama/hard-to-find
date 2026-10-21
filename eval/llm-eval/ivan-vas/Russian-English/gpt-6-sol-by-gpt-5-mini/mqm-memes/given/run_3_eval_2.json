@@ -203,24 +203,24 @@
       "candidate": "and they’ll cure you too…\nand they’ll cure me…\nThey'll cure me too!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the sequence and subjects of the repeated lines and introduces an extra 'They'll cure me too!' while omitting the initial 'And they'll cure you…' from the reference. The source lists two 'you' lines followed by 'me'; the candidate instead has one 'you' line and duplicates 'me', which alters who is being referred to and disrupts the original rhythmic resignation and meaning."
+          "justification": "The candidate alters the sequence and repetition of lines compared with the original: the source repeats addressing two 'you' lines before 'me', creating a resigned, circular rhythm. The candidate omits one 'you' line and duplicates 'me', changing the pronoun distribution and breaking the original's melodic, resigned progression, which weakens the intended effect."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 0
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 5,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

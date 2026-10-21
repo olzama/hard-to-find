@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key state implied by the line: Shpak and the ambassador are said to have the items, not to be missing them, so the callback to the earlier theft is lost. The possessive wording also weakens the intended joke about lost objects."
+          "justification": "The candidate reverses the ownership pattern from the source: it says Shpak and the ambassador still have the objects, rather than that each has lost one. This breaks the setup of the callback joke."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The phrasing is slightly less natural and less pointed than the reference; the final punch lands more flatly without the sense of items having gone missing."
         }
       ]
     },
@@ -43,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should clearly show Bunsha repeatedly introducing himself as the tsar, but the candidate often sounds like he is addressing the tsar instead. This contradicts the analysis and blurs the comic misunderstanding."
+          "justification": "The line no longer clearly reads as Bunsha introducing himself as the Tsar; the repeated greeting sounds like he is addressing a tsar rather than saying 'I am the tsar,' which the analysis says must be clear."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using only short exclamations with 'tsar' makes the line less like a repetitive, awkward formal self-introduction and more like a direct address, reducing the mundane Soviet-politeness humor."
+          "justification": "Using 'boas tardes' instead of a neutral formal greeting weakens the odd, repetitive bureaucratic politeness that drives the humor."
         }
       ]
     },
@@ -86,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is understandable, but it is flatter and less elevated than the reference's 'que estou aflixido,' which better matches the mock-regal, archaic tone of the Tsar."
+          "justification": "'Estou triste' is understandable, but it is flatter and less archaic/royal than 'estou aflixido,' which better fits the Tsar's elevated register and comic contrast."
         }
       ]
     },
@@ -108,7 +114,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The duplicated first line is acceptable, but the second line with a comma before 'demos' is slightly awkward compared with the more natural rhythmic exclamation expected here."
+          "justification": "The line is split awkwardly into two lines, which slightly disrupts the terse, plaintive rhythm of the original lament."
         }
       ]
     },
@@ -157,10 +163,10 @@
       "candidate": "Vaia, pasei no momento xusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "'Vaia, pasei no momento xusto!' suggests the speaker has 'passed by' or arrived incidentally, but the source is a triumphant remark upon just having entered and finding a lucky opportunity. The nuance of successful entry and opportunistic crime is weakened and potentially misleading."
+          "justification": "'Pasei no momento xusto' conveys the idea, but it sounds less like a jaunty criminal's self-satisfied aside than the reference; the upbeat, lucky-entrance vibe is slightly weakened."
         }
       ]
     },
@@ -182,13 +188,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the crucial punchline 'баклажанная'/'de berenxena' in the same ironic structure and separates it in a way that makes it read like a broken fragment. The comic reversal about eggplant spread as 'overseas caviar' is therefore weakened."
-        },
-        {
-          "severity": "major",
-          "category": "terminology",
-          "span": "",
-          "justification": "Rendering 'баклажанная' as 'caviar de ultramar' and then separately 'de berenxena' is contextually inappropriate. The analysis explicitly warns not to call the eggplant spread 'caviar,' since that confuses the intended joke."
+          "justification": "The candidate omits the key joke that the eggplant spread is 'баклажанная' and instead leaves only 'de berenxena' after 'caviar de ultramar,' which makes the satirical food-shortage punchline incomplete and potentially confusing."
         }
       ]
     },
@@ -210,13 +210,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Peiteiras nacionais' is incorrect for 'портсигара' and changes the listed stolen items into something else entirely. This breaks the specific comic enumeration that depends on the exact objects."
+          "justification": "'peiteiras nacionais' does not correspond to 'cigarreiras nacionais' (cigarette cases), so a specific item in the comic list is mistranslated. The prop list is part of the joke and should be accurate."
         },
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The final count joke is damaged because the candidate does not preserve the growing tally of 'three' in a coherent way and leaves the suede jacket singular and uncounted until the end. The remembered slip in the jacket count is the point of the gag."
+          "justification": "The abrupt line breaks and truncated structure make the inventory less fluid than the source and weaken the escalating count gag."
         }
       ]
     },
@@ -233,19 +233,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti han curarte!\nE a ti tamén han curarte!\nE a min han curarme!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Han curarte' is less idiomatic and more stilted than the reference's pronominal future/periphrastic phrasing. It still works, but the calm, resigned tone is slightly less natural."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
-      "minor": 3
+      "major": 4,
+      "minor": 7
     },
-    "total_points": 38,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 3.4545454545454546,
-    "major_equiv_per_unit": 0.6909090909090909,
-    "interpretation": "3.45 MQM penalty points per meaning unit (≈ 0.69 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

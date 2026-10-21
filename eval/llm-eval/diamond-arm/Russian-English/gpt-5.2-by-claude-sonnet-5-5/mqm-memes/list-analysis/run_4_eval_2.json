@@ -18,10 +18,16 @@
       "candidate": "that should’ve been... me.\nDrink enough—will be.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The policeman's retort 'Drink enough—will be' is a truncated, ungrammatical fragment that reads awkwardly and weakens the deadpan cop quip. The address 'Guys' is also dropped, which reduces the theatrical declaration."
+          "justification": "The candidate drops the cop's mocking logic. 'Drink enough—will be' is ungrammatical and unclear, so the joke (drink enough and you'll be carried off) does not land. The 'guys' address and the heroic 'I!' declaration are also weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Gorbunkov's heavy, melodramatic spy-thriller tone is flattened into a plain statement ('that should've been... me')."
         }
       ]
     },
@@ -41,9 +47,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The translation is flat and literal ('I'm no coward, but I'm scared...'). It has no bounce, rhyme, or playful phrasing to replace the trus/boyus effect, so the lighthearted, endearing comic effect is lost, which the analysis says to avoid."
+          "justification": "The candidate is a plain literal rendering with no rhythm, rhyme, or bounce. The analysis explicitly warns against literal translation with no comic effect, and the lighthearted, endearing paradox is lost."
         }
       ]
     },
@@ -77,10 +83,16 @@
       "candidate": "Listen, signora, frau, miss—\nunfortunately, it’s not going to happen!\nRusso tourist...\nMoral face... versteh’n?",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Obliko morale' is rendered as 'Moral face', which is nonsense in English. The pseudo-international jargon is partly lost, and 'Russo tourist' loses the pseudo-Italian flavor of 'Russo turisto'."
+        },
+        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The macaronic mashup is partly flattened. 'Russo tourist' is plain English instead of a pseudo-foreign form, and 'Lady' becomes 'Listen', so the parade of international address terms is weaker. 'Moral face' is a reasonable, though less foreign-sounding, rendering of 'Obliko morale'."
+          "justification": "Opening with 'Listen' instead of 'Lady' loses the first item in the list of international forms of address."
         }
       ]
     },
@@ -112,7 +124,14 @@
         "language_specific": {}
       },
       "candidate": "As our beloved boss says,\nif a man’s an idiot—\nit’s for the long haul.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'For the long haul' is idiomatic but softens the diagnostic, chronic-condition finality of 'for a long time'. It is acceptable but slightly less blunt."
+        }
+      ]
     },
     {
       "id": 7,
@@ -129,10 +148,10 @@
       "candidate": "ice cream for the kids,\nflowers for his missus.\nDon’t mix it up, got it?\nKutuzov!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Lyolik's non-standard, uneducated speech is not reproduced. The line is standard English apart from 'missus', so his characteristic voice is weakened. The Kutuzov joke is preserved."
+          "justification": "Lyolik's non-standard, uneducated speech ('нэ пэрэпутай') is not reproduced. The candidate uses neutral standard English, so the characteristic voice described in the analysis is lost, and 'Kutuzov' is left without any sarcastic setup."
         }
       ]
     },
@@ -154,7 +173,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The line is rendered in a plain, unbalanced way ('teetotalers drink—and ulcer sufferers too'). It has no rhythm or parallelism to echo the matching trezvenniki/yazvenniki suffixes, and the analysis explicitly requires some creative solution."
+          "justification": "The rhythmic parallelism of 'трезвенники/язвенники' is lost. 'Ulcer sufferers too' is a flat, unbalanced addition, which is exactly the 'no rhythm' outcome the notes say to avoid."
         }
       ]
     },
@@ -171,7 +190,14 @@
         "language_specific": {}
       },
       "candidate": "Champagne in the morning is drunk\neither by aristocrats—or degenerates!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The rhyming 'law' feel (аристократы/дегенераты) is not recreated, though the 'aristocrats—or degenerates' contrast works and the meaning is preserved."
+        }
+      ]
     },
     {
       "id": 10,
@@ -191,7 +217,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The mispronunciation is the joke, and 'tab-let' is just a normal hyphenated spelling. Lyolik's distinctive stress or pronunciation is lost, so the line is no longer funny or memorable."
+          "justification": "The key joke is Lyolik's mispronunciation of 'tablet'. 'Tab-let' with a hyphen gives no marked mispronunciation, so the memorable quirk is lost."
         }
       ]
     },
@@ -228,7 +254,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The elongated, sighing delivery of 'Семё-он' is not reflected, so the 'gentle facepalm' melodic weariness is reduced to a neutral address."
+          "justification": "The elongated, melodic sigh ('Семё-он') is replaced by a plain, ellipsis-ended full name, losing the 'gentle facepalm' weary-patience effect."
         }
       ]
     },
@@ -290,7 +316,14 @@
         "language_specific": {}
       },
       "candidate": "With a flick of the wrist,\nthe trousers turn into...\nthe trousers turn into...\nturn into, the trousers...\nelegant shorts!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The last repetition 'turn into, the trousers...' only loosely mirrors the inverted Russian word order, and the 'into... elegant shorts' dramatic pause is slightly weakened."
+        }
+      ]
     },
     {
       "id": 17,
@@ -310,7 +343,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The line is standard, correct English ('It's not my fault'), so the substandard, provincial slip that the comedy depends on is lost. The mask-slipping effect described in the analysis is missing."
+          "justification": "The candidate is in neutral standard English. The panicked slip into uneducated, provincial register ('Не виноватая я') is lost, which was the core of the comedy."
         }
       ]
     },
@@ -332,7 +365,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The rhyming slogan and the sarcastic retort are lost. The candidate gives a plain sentence ending in 'A water pump!', with no rhyme or rhythm, so the rhythmic anti-climax and the mockery of the lottery slogan do not work."
+          "justification": "The rhyming couplet (пачку/водокачку) and the rhythmic anti-climax are lost. The candidate gives only a literal translation, and the sarcastic retort is not marked."
         }
       ]
     },
@@ -364,7 +397,14 @@
         "language_specific": {}
       },
       "candidate": "Well, if you’re ever up in Kolyma...\nNo thanks—better you come to us!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The Kolyma joke depends on the cultural association with labor camps, which is not conveyed to a target audience unfamiliar with it. This is the same as the reference, so the issue is small. 'No thanks' also makes Gena's rejection more abrupt, though it is acceptable."
+        }
+      ]
     },
     {
       "id": 21,
@@ -397,9 +437,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "'No, huh... we'll keep looking' is an awkward rendering of the stalling reply. It loses the questioning 'Нет?' and sounds unnatural."
+          "justification": "Gorbunkov's stammer ('пелра… с перламутровыми') is lost. 'No, huh...' slightly changes the tone of the stalling, though the stalling tactic is preserved."
         }
       ]
     },
@@ -421,21 +461,21 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The deliberately incorrect, folksy 'пойтить' is rendered in neutral standard English ('I can't go along with that'). The rural, stubborn, slightly comic register the analysis requires is missing."
+          "justification": "The intentionally incorrect, folksy form 'пойтить' is rendered in standard English. The rural-sounding emphasis and the comic linguistic error are lost."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 9,
+      "minor": 8
     },
-    "total_points": 35,
+    "total_points": 53,
     "meaning_units": 23,
-    "penalty_per_unit": 1.5217391304347827,
-    "major_equiv_per_unit": 0.30434782608695654,
-    "interpretation": "1.52 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.3043478260869565,
+    "major_equiv_per_unit": 0.4608695652173913,
+    "interpretation": "2.30 MQM penalty points per meaning unit (≈ 0.46 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

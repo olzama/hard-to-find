@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB explicitly forbids 'Shpak has... the ambassador has...'. The Russian 'У Шпака — магнитофон, у посла — медальон' means each lost their item, but the candidate states they currently possess the items, reversing the meaning."
+          "justification": "\"Shpak has a tape recorder, the ambassador has a medallion\" reverses the meaning. The Russian implies each lost his item (it was stolen), as the analysis NB stresses. The candidate says they still possess them."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I'm tormented by vague doubts again' keeps the elevated tone reasonably well, but 'haunt me' in the reference better captures the mock-theatrical register; the plain phrasing is slightly weaker."
+          "justification": "\"I'm tormented by vague doubts again\" keeps the mock-heroic register reasonably well but is less archaic and theatrical than \"haunt me\"; the effect is slightly weaker."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Very pleased, Tsar!' and 'Hello, Tsar' read as addressing a Tsar, which is the exact misreading the NB warns against, and the joke of self-introduction is lost."
+          "justification": "\"Very pleased, Tsar!\" reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. The analysis NB requires the self-introduction to be clear, so the central joke of the impersonation is lost."
         }
       ]
     },
@@ -101,7 +101,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, you demons!' turns the demons into addressees, contradicting the NB that demons must be the subject and that he is not addressing them. The meaning is changed."
+          "justification": "\"You demons!\" turns the demons into addressees, but the NB says they must be the subject (\"the demons did it\"). The Tsar is not talking to them, so the meaning is distorted."
         }
       ]
     },
@@ -123,7 +123,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the solemn, archaic exclamatory register ('Behold the power...') that carries the Tsar's absolute conviction, though the meaning is preserved."
+          "justification": "\"That's what the life-giving cross can do!\" conveys the meaning and the Tsar's conviction. The colloquial tone lacks the solemn, archaic pronouncement of \"Behold the power...\", which slightly weakens the regal register."
         }
       ]
     },
@@ -157,10 +157,10 @@
       "candidate": "Well, this is a lucky visit!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Well, this is a lucky visit!' is ambiguous but implies a completed visit, which risks misleading the viewer into thinking he is leaving. The NB says he has just entered. It also loses the casual tone of the idiom 'good call'."
+          "justification": "\"Lucky visit\" suggests a retrospective view of the whole visit, but he has just arrived. It is slightly misleading, though \"this is\" keeps it in the present and avoids the leaving-sense the NB warns about. The cheerful anti-hero tone is preserved."
         }
       ]
     },
@@ -182,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'заморская икра' as 'imported caviar' and puts 'Eggplant!' on its own line. This calls the spread caviar, which the NB forbids, and the eggplant spread is not identified as a distinct item, so the joke about the cheap spread posing as an overseas delicacy is lost."
+          "justification": "The candidate calls the eggplant spread \"caviar\" (\"imported caviar... Eggplant!\"), which the NB explicitly forbids because it confuses viewers. It also loses the contrast between the cheap Soviet spread and the luxury caviar."
         }
       ]
     },
@@ -204,7 +204,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives 'three suede jackets', which destroys the joke: Shpak forgets to increment the count for the jacket, and that slip betrays him. It also adds material not in the source ('Everything I earned by backbreaking labor, all is lost'), which makes this a mistranslation with additions."
+          "justification": "The candidate says \"three suede jackets\", which removes the joke where Shpak forgets to increment the count for the jacket (a single suede jacket, then \"Three\" after a pause). The comic beat of the growing exaggeration is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds \"Everything I earned by backbreaking labor, all is lost\", which is not in the source segment."
         }
       ]
     },
@@ -221,19 +227,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd they’ll cure you too!\nAnd they’ll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The exclamation marks make the lines sound emphatic. The wife's melodic, calm, resigned tone, with trailing ellipses, is lost, which slightly weakens the effect."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 2
+      "major": 5,
+      "minor": 5
     },
-    "total_points": 32,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 2.909090909090909,
-    "major_equiv_per_unit": 0.5818181818181818,
-    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

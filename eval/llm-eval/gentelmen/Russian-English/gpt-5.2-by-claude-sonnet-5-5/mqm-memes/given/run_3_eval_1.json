@@ -41,7 +41,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate drops the subject \"I'll\" and begins with a bare, lowercase \"knock your block off\". The threat still reads and the idioms are kept, but the opening is less complete and less forceful than a full threat sentence."
+          "justification": "The opening \"I'll\" is dropped, so the threat starts as a bare imperative fragment (\"knock your block off\"). This weakens the first threat in the accumulation, although the rest of the formula and the final verdict-like clause survive."
         }
       ]
     },
@@ -138,7 +138,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"Move the horse! - Buzz off!\" before the correct rendering. The source has no such content. \"Buzz off!\" is invented dialogue that clashes with Fedya's earnest chess advice, and the line is repeated without need. The unschooled \"horse\" and the prison oath are preserved, but the extra material distorts the segment."
+          "justification": "The candidate adds an unrelated interjection, \"Move the horse! - Buzz off!\", that has no source counterpart. It also puts a dismissive exchange before the oath and adds a second \"Move the horse\", which dilutes the single forceful instruction followed by the prison oath that carries the comic effect."
         }
       ]
     },
@@ -312,10 +312,10 @@
       "candidate": "Miss, what’s your name? — Tanya. — I’m Feodor. — You dumb broad!\nExcuse me.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"Excuse me.\", which has no basis in the source. It softens Tanya's blunt insult and dilutes the feminine–masculine–feminine punchline. The core structure (Miss / Feodor / dumb broad) is preserved."
+          "justification": "The candidate adds \"Excuse me.\", which is absent from the source. It undercuts the blunt feminine insult \"You dumb broad!\" that ends the feminine-masculine-feminine sequence, so the punchline no longer lands as direct address."
         }
       ]
     },
@@ -362,14 +362,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 11,
     "meaning_units": 18,
-    "penalty_per_unit": 0.3888888888888889,
-    "major_equiv_per_unit": 0.07777777777777778,
-    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6111111111111112,
+    "major_equiv_per_unit": 0.12222222222222223,
+    "interpretation": "0.61 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

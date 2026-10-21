@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate adds a stray 'No,' at the start and appends a second line 'but I'm afraid...' that restates the idea in the flat literal form the analysis warns against. This dilutes the single punchy paradox of the reference. The core line itself is preserved."
+          "justification": "The first line matches the reference apart from an added 'No,'. The repeated fragment 'but I'm afraid...' is a plain literal rendering with none of the bouncing, paradoxical effect of 'overpowered by fear'. It is also inconsistent with the first line's wording, which weakens the lighthearted tone slightly."
         }
       ]
     },
@@ -68,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Lady, signora, frau, miss... unfortunately, nothing's going to happen. Russo Turisto! Obliko Morale! Verstehen?\nRusso Turisto...\nObliko Morale... Verstehen?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is followed by extra fragments ('Russo Turisto...', 'Obliko Morale... Verstehen?') that repeat part of the line. These look like a split of the subtitle rather than consecutive repetition of the full line, which adds clutter. The mashup of loanwords and the comic effect are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -240,14 +233,7 @@
         "language_specific": {}
       },
       "candidate": "Slipped. Fell. Closed fracture. Passed out. Woke up in a cast.\nSlipped...\nClosed fracture...\ncast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "After the full telegraphic alibi, the candidate adds fragments ('Slipped...', 'Closed fracture...', 'cast!') that repeat parts of it. This clutters the staccato rhythm of the mantra. The main line matches the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -373,13 +359,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 1,
     "meaning_units": 23,
-    "penalty_per_unit": 0.13043478260869565,
-    "major_equiv_per_unit": 0.02608695652173913,
-    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.043478260869565216,
+    "major_equiv_per_unit": 0.008695652173913044,
+    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

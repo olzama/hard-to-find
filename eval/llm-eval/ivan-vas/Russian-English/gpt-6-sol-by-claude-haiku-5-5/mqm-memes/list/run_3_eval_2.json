@@ -24,9 +24,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Медальон' (a pendant locket) is rendered as 'medal', which names a different object, an award or decoration. The callback depends on the viewer recognizing the same stolen item, so the wrong noun weakens the link to the earlier scene. 'Medallion' would match the reference."
+          "justification": "\"Nagging suspicions\" is more colloquial than the source's high-register \"терзают смутные сомнения\". The mock-heroic, tragic-opera tone the analysis identifies as the source of the humor is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "\"Medal\" is used for the source's \"медальон\" (medallion). The analysis refers to a medallion, so the object is slightly misnamed."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly requires that the translation make clear Bunsha is introducing himself as the Tsar, not addressing one. 'Very pleased, Tsar!' and 'Tsar, very pleased!' read as addressing a Tsar, and the candidate never includes a self-introducing marker such as 'I'm the Tsar' that the reference uses. The key comic premise is therefore obscured."
+          "justification": "The analysis requires the line to make clear that Bunsha is introducing himself as the Tsar, not addressing one. \"Hello, Tsar!\" and \"Very pleased, Tsar!\" read as greetings directed to a Tsar, so the self-introduction is lost and the candidate contradicts the essence of the analysis."
         }
       ]
     },
@@ -85,7 +91,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman.\nI am in sorrow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Leave me be\" is more colloquial than the archaic, high-register dismissal in the source (\"Оставь меня\"). The Tsar's regal register is slightly weakened."
+        }
+      ]
     },
     {
       "id": 5,
@@ -205,7 +218,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis identifies the forgotten increment on the suede jacket as the source of the humor. The source has 'куртка… замшевая… Три', a slip and self-correction. The candidate states 'three suede jackets' cleanly, removing the hesitation and correction, so the comic beat the analysis highlights is lost. It also changes the singular 'куртка' to a plural count without the stumble that motivates it."
+          "justification": "The source's joke depends on the suede jacket count betraying Shpak: he says a single \"куртка… замшевая\" and then slips into \"Три\". The candidate lists \"three suede jackets\" outright, erasing the hesitation and the slip that the analysis says makes the joke funny."
         }
       ]
     },
@@ -227,7 +240,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's ellipses signal the calm, melodic resignation the analysis describes. The candidate replaces them with exclamation marks on every line, which makes the delivery emphatic and excited rather than resigned, a mild mismatch with the described tone."
+          "justification": "The source's ellipses give a melodic, calm resignation. The candidate's exclamation marks make the lines sound agitated or shouted, which changes the tone the analysis describes."
         }
       ]
     }
@@ -235,13 +248,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 2
+      "minor": 4
     },
-    "total_points": 12,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't recruit\nBaba Yaga from outside.\nWe'll cultivate one\nin our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation mark on the final line adds enthusiasm that the deadpan source (\"в своём коллективе\" with a dash, no exclamation) does not have. It slightly shifts the bureaucratic seriousness toward cheerfulness."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Recasting the speech as third person (\"He gives a brief address\") replaces Ogurtsov's direct, self-satisfied recommendation with narration, which weakens his managerial voice. The \"or so\" also loosens the source's \"about forty, no more than that\" framing. The briefness claim does precede the duration, so the core reversal survives."
+          "justification": "\"He gives a brief address\" drops the faux-modest, patronizing tone that the analysis identifies as the setup for the reversal. \"Brief\" is flatter than the diminutive «коротенько», so the contrast with \"forty minutes\" lands less sharply."
         }
       ]
     },
@@ -75,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nReady? He's been ready for ages!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source answer is a plain affirmative (\"Готов лектор, давно готов\"), but the candidate turns it into a questioning echo (\"Ready?\") followed by an exclamation. This adds incredulity and energy that the dry, administrative confirmation lacks. The double sense of \"ready\" as \"drunk\" is also not signalled, though the reference does not signal it either."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -100,9 +86,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The stretched, faltering shape of \"Лю-ди!\" and the hesitant \"А…\" are lost. \"People!\" is delivered as a clean word and \"Hello?\" is a question, so the broken vocal instability the analysis asks for is only partly carried by \"Yoo-hoo!\"."
+          "justification": "\"People!\" is delivered cleanly, without the stretched, faltering shape the analysis calls for. \"Yoo-hoo!\" is a brighter, more cheerful call than the wavering «ау-у», which weakens the drunken, unstable voice. The added \"Hello?\" partly restores the hesitation. The leading stray dash is also unexplained."
         }
       ]
     },
@@ -126,16 +112,10 @@
       "candidate": "But once we take a telescope...\nand look with the armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "terminology",
-          "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the language-specific note explicitly lists under things to avoid, and the note recommends \"aided eye\" (echoing \"unaided\") instead. The lexical choice contradicts the analysis guidance and reads as more surreal than the Russian mock-scientific mangling of \"невооружённым глазом\", weakening the malformed-idiom joke."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"But once we take a telescope\" drops the pompous \"all we have to do is\" framing of \"стоит только\", so the lecturer's inflated, pseudo-scholarly opening sounds plainer."
+          "justification": "\"Armed eye\" is the literal calque that the language-specific note says to avoid, because it sounds stranger and more surreal in English than the Russian. The malformed-idiom mechanism is still conveyed, so the joke survives, but the phrasing is less natural than the recommended \"aided eye\" solution."
         }
       ]
     },
@@ -160,15 +140,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Though five stars, of course, would be best!\" softens the source's confident \"Лучше всего, конечно, пять\" into a hedged subjunctive. This weakens the sudden, assured click into the cognac frame that the analysis describes as the punchline."
+          "justification": "The candidate has no cue for the cognac rating system. The reference carries a note that the analysis says may be needed, so without it \"five stars\" reads as a generic rating, and the sudden click into the cognac domain is weaker for English viewers."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The cognac allusion (five-star cognac) is not clarified anywhere in the candidate, though the language-specific note flags that the association will not be obvious to most viewers. The reference supplies a bracketed explanation, so the punchline's cultural frame is less accessible here."
+          "justification": "\"Though\" sets up a concessive contrast that the source does not contain. The source is a plain emphatic statement that the five-star item is best, so the connective muddles the abrupt shift at the punchline. The lowercase opening fragment is also awkward for a subtitle line."
         }
       ]
     },
@@ -190,14 +170,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 7
+      "major": 0,
+      "minor": 5
     },
-    "total_points": 12,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 1.5,
-    "major_equiv_per_unit": 0.3,
-    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

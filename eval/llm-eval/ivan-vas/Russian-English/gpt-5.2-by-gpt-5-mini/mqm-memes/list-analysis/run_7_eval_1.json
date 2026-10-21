@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which reads as present possession. The analysis explicitly warns these phrases indicate the items have been lost (they do not have them anymore). This reverses the intended meaning and undermines the joke about missing items."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as present possession. The analysis and NB make clear the line means those items are now with (or lost by) those people — i.e., they are the subjects of having been robbed/are the ones missing the items. Present-tense possession reverses the intended meaning and undermines the joke about discovered ownership/loss."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "So pleased, tsar!\nSo pleased, hello, tsar!\nTsar, so pleased!\nHello, tsar! So pleased!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The line must make clear Bunsha is introducing himself as the Tsar, not addressing a Tsar. The candidate ('So pleased, tsar! ... Hello, tsar!') reads as someone addressing a tsar rather than comically claiming to be the Tsar, which contradicts the analysis and the comedic premise."
+          "justification": "The candidate reads like someone repeatedly addressing a tsar ('So pleased, tsar!'), rather than absurdly introducing himself as 'the Tsar' in a stiff, redundant Soviet greeting. The self-introduction aspect (he is claiming to be the Tsar) is blurred, weakening the specific comedic clash described in the analysis."
         }
       ]
     },
@@ -78,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The source печали conveys sorrow or melancholy; the candidate's 'I'm in mourning' implies bereavement/grief for a death, which is a stronger and more specific meaning than intended, slightly altering tone."
+          "justification": "The candidate's 'I’m in mourning' modernizes and narrows the sense of 'в печали' (sorrow/melancholy) to bereavement, changing nuance and slightly shifting the archaic, regal tone the analysis highlights. 'Leave me be, old woman' preserves the register, but the emotional coloring is altered."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB specifies that 'demons' should function as the subject (i.e., 'They walled me in') rather than being addressed. The candidate's 'Walled up, demons!' reads as a vocative address to demons, reversing the syntactic role and changing the intended meaning and comedic effect."
+          "justification": "The NB specifies that 'демоны' must be the subject (i.e., 'They've walled me in... the demons have'), not an address. The candidate 'Walled up, demons!' reads as calling out to demons, which reverses the syntax/meaning and removes the comic effect of a mechanical problem being attributed to demonic agency."
         }
       ]
     },
@@ -164,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The analysis warns against calling eggplant spread 'caviar' because that would confuse viewers. The candidate's 'Imported caviar... Eggplant!' risks presenting eggplant as a kind of caviar rather than the cheap 'eggplant spread' contrast intended, distorting the satirical inversion."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -186,7 +179,14 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The humour of the original hinges on the incremental list and the speaker's momentary lapse/hesitation when adding the suede jacket to the count. The candidate flattens this by giving a straightforward list ending with 'three suede jackets,' losing the small comedic beat of forgetting/recounting."
+        }
+      ]
     },
     {
       "id": 11,
@@ -206,21 +206,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The second line's word order ('And you too, they’ll cure!') is awkward and disrupts the calm, melodic repetition described in the analysis. Meaning is preserved but the phrasing is less natural."
+          "justification": "The candidate preserves the meaning but the middle line 'And you too, they’ll cure!' is an awkward inversion in English that disrupts the measured, melodic resignation described in the analysis. It reads less natural and diminishes the rhythmic calm of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 2
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 22,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

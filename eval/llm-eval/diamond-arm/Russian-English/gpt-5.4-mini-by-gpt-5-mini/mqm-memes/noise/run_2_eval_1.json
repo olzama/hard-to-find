@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk - you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The policeman's retort 'Get drunk - you will be!' is grammatically awkward and slightly stilted in English. The reference's 'Get drunk enough, and you will be!' better conveys the mock-casual inevitability of the joke."
+        }
+      ]
     },
     {
       "id": 2,
@@ -66,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate mixes language choices in a way that weakens the original multilingual gag: using 'señora' (Spanish) instead of the expected Italian 'signora' reduces the deliberate patchwork of European forms Gena uses to sound worldly. The transliterations of the mock-foreign phrases are close but slightly altered, which softens the original performative showiness."
+          "justification": "The candidate preserves the multilingual gag but weakens the comic registry slightly (e.g., 'Russ tourist' vs the playful 'Russo Turisto' and 'Oblico' spelling). The line reads less like a performative, pseudo-sophisticated montage of loanwords."
         }
       ]
     },
@@ -103,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The terse line 'then it lasts' is grammatically OK but flattens the aphoristic punch and the sense of chronicity ('for a long time') in the original, making the delivery less epigrammatic and authoritative."
+          "justification": "The candidate 'then it lasts' flattens the punchy, proverbial finality of the original ('it's for a long time'). The diagnostic, bleak humor is preserved but rendered less idiomatic and forceful."
         }
       ]
     },
@@ -140,7 +147,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate translates 'язвенники' literally as 'ulcer sufferers,' which is accurate but loses the original rhythmic pairing (trezvenniki/yazvenniki). The balanced, proverbial cadence called for in the analysis is weakened."
+          "justification": "The candidate keeps the meaning but loses some of the rhythmic, paired-word balance (trezvenniki/yazvenniki) that gives the original its proverb-like cadence. The humour survives but is slightly less punchy."
         }
       ]
     },
@@ -174,10 +181,10 @@
       "candidate": "One tablet is enough...",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The comedic effect in the source depends on a marked pronunciation of 'tablet.' The plain 'One tablet is enough...' conveys the meaning but drops the pronunciation-based humor highlighted in the analysis."
+          "justification": "The analysis highlights Lyolik's comical mispronunciation of 'tablet' as a key character trait and source of humor. The candidate's neutral 'One tablet is enough...' removes that phonetic joke and thus significantly weakens the character's voice and the comic effect."
         }
       ]
     },
@@ -214,7 +221,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original stretches and sings the name for a weary, melodic sigh. 'Semyon Semyonovich...' preserves the address but loses some of the drawn-out, musical quality that conveys exasperation."
+          "justification": "The candidate 'Semyon Semyonovich...' conveys the address but loses the elongated, melodic sigh ('Semyo-o-on Semyonych!') that signals weary, drawn-out exasperation. The tone is reduced."
         }
       ]
     },
@@ -261,14 +268,7 @@
         "language_specific": {}
       },
       "candidate": "slipped, fell...\nclosed fracture...\nlost consciousness, came to -\ncast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line preserves the telegraphic content but the phrasing 'came to - cast!' is abrupt and slightly awkward in English; a smoother sequence would better match the original staccato rhythm while remaining natural."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -303,7 +303,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'He came himself!' is understandable but less natural and loses the clearer 'came here on his own' sense from the reference; it slightly reduces the immediacy of her defensive denial."
+          "justification": "The candidate 'He came himself!' is understandable but slightly non-idiomatic and omits the clearer locative sense of 'he came here on his own,' which weakens the immediacy of her exculpatory protest."
         }
       ]
     },
@@ -370,7 +370,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is literal and clear but omits Gena's affected pronunciation of 'coffee' and the small pretentiousness in his phrasing, which are important for character and comic effect in the analysis."
+          "justification": "The candidate accurately conveys the requests (bath and coffee) but loses Gena's affected pronunciation ('coff-ey') that signals his pretentious, aristocratic pose. That small phonetic detail contributes to the comic characterization."
         }
       ]
     },
@@ -407,21 +407,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's rustic, non-standard verb form contributes comedic, stubborn rural flavor. 'No, I can’t go that far!' conveys refusal but removes the folksy linguistic feature that adds humor and character."
+          "justification": "The original's nonstandard folk form contributes comedic stubbornness. The candidate 'I can’t go that far!' communicates refusal but neutralizes the folksy, linguistically marked flavor that adds humor and character."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 9
+      "major": 1,
+      "minor": 8
     },
-    "total_points": 9,
+    "total_points": 13,
     "meaning_units": 23,
-    "penalty_per_unit": 0.391304347826087,
-    "major_equiv_per_unit": 0.0782608695652174,
-    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5652173913043478,
+    "major_equiv_per_unit": 0.11304347826086955,
+    "interpretation": "0.57 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

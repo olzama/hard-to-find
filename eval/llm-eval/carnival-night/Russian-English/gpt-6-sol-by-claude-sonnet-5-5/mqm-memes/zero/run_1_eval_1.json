@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Comrades, we've been instructed\nto celebrate the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"We've been instructed\" keeps the top-down directive sense, but it is less stiffly bureaucratic than \"we have our instructions\" and \"cheerfully\" is slightly lighter than \"merrily\". The clash between official form and festive content is slightly softened, though the joke largely survives."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -41,9 +34,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Cultivate one in our own team\" keeps the workplace logic and the in-house breeding joke. However, \"a Baba Yaga\" is left as an untranslated folkloric name, which tilts toward the fairy-tale and may not evoke the nasty-woman social type for English viewers. \"Team\" is also less Soviet-collective flavored than the source."
+          "justification": "\"Baba Yaga\" is left untranslated and unexplained, so the social type (a nasty, malicious woman) is less accessible to an English audience; the workplace logic still comes through via \"cultivate one in our own team\", so the damage is limited."
         }
       ]
     },
@@ -63,9 +56,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The diminutive faux-modesty of «коротенько» is rendered as a plain \"very briefly\", and the line is lowercase and lacks the self-satisfied, patronizing tone. The contrast with \"forty minutes\" is kept in order, but the comic cozy understatement is weakened, and the \"I think\" hedging is flattened."
+          "justification": "The faux-modest diminutive «коротенько» is rendered as a flat \"very briefly\" and the line is condensed to a bare statement. The patronizing, self-satisfied tone is mostly lost, and the comic reversal with \"forty minutes\" is weakened. The ending \"I don't think we need more\" is also truncated."
         }
       ]
     },
@@ -87,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready... ready for ages\" is only the surface reading, so the central alcoholic joke is lost. \"Is he ready?\" also drops \"the lecturer\" and the administrative setup."
+          "justification": "The double meaning of «готов» (ready / already drunk) is not recreated. \"Ready... been ready for ages\" is only the surface administrative sense, so the central drunkenness joke is lost. \"Ready for ages\" gives no hint of intoxication."
         }
       ]
     },
@@ -109,7 +102,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The broken, stretched vocalization (\"Лю-ди! А… ау-у!\") is normalized into a clean \"People! Hello? Hello!\". The drunken, faltering oratory and slurred sound pattern described in the analysis are lost, and the added question mark and repetition make it a plain call-out."
+          "justification": "The lecturer's broken, stretched drunken cry (\"Лю-ди! А… ау-у!\") is normalized into a clean \"People! Hello? Hello!\". The vocal instability and slurred, faltering physical comedy described in the analysis disappear."
         }
       ]
     },
@@ -136,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key joke, the malformed idiom «вооружённым глазом», is omitted entirely: \"look through it\" has no mock-scientific pseudo-idiom (like \"aided eye\"). The lecturer's pompous collapse into nonsense disappears, and the \"all we have to do is\" structure is also lost."
+          "justification": "The key joke, the mangled idiom «вооружённым глазом», is omitted entirely. \"And look through it\" is plain and has no mock-scientific distortion, and the line is cut off. The analysis says this is the central comic phrase."
         }
       ]
     },
@@ -163,7 +156,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The star progression and the \"five stars is best\" punchline are preserved, and the cognac click is as available as in the reference. However, \"our eyes can see\" is a slightly odd opening and \"Four stars—and five stars\" breaks the trivial counting rhythm slightly, softening the sudden shift. No note on the cognac association is provided."
+          "justification": "The star-counting progression and the \"five stars is best\" punchline are kept, but there is no cognac cue or note, so the sudden semantic shift is not accessible to an English audience. \"Four stars—and five stars\" also slightly blurs the trivial counting rhythm. The beginning \"our eyes can see\" adds a bit of lecture pseudo-logic that is acceptable."
         }
       ]
     },
@@ -185,7 +178,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science hasn't found out yet\" is conversational and keeps the accuracy, but it loses the personified \"not in the loop / not up to speed\" quality of «не в курсе дела», so the register mismatch is a bit weaker."
+          "justification": "\"Science hasn't found out yet\" is casual and keeps the content, but it loses the personified \"not up to speed\" quality of «не в курсе дела». The register mismatch is a bit weaker than in the original, though the factual correctness and colloquial tone remain."
         }
       ]
     }
@@ -193,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

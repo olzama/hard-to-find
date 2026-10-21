@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate begins with a lowercase 's' ('shall'), which is a minor formatting inconsistency. Otherwise the wording matches the reference and keeps the light, ironic register of Kostik's offer."
+          "justification": "The candidate is lowercase 'shall' with no initial capital, a trivial formatting difference from the reference; the wording and the register-lowering effect are preserved."
         }
       ]
     },
@@ -118,7 +118,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate correctly keeps the German 'Natürlich', preserving Savva's linguistic quirk. However, it adds 'Margarita Pavlovna', which is not in the source. This addition weakens the curt, automatic, reflexive quality of the military-style reply and slightly alters the rhythm."
+          "justification": "The German 'Natürlich' is correctly kept untranslated, preserving the character's linguistic quirk, but the added 'Margarita Pavlovna' is not in the source. It does reinforce the idea of automatic obedience to his wife, but it makes the line longer and less crisp than the original one-word exclamation."
         }
       ]
     },
@@ -182,24 +182,24 @@
       "candidate": "I am so utterly awkward... just all sharp edges... so entirely contradictory!\nWhat is it, Margo?",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a line, 'What is it, Margo?', that is not in the source. This adds an invented speaker interjection and a nickname that do not exist in the original. The rendering of the self-description itself matches the reference and is fine, but the extra line is unwarranted content."
+          "justification": "The candidate adds the extra line 'What is it, Margo?', which is absent from the source segment. The translation of the quoted self-description itself is identical to the reference and fully preserves the meme, but the addition is extraneous material."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 0,
+      "minor": 3
     },
-    "total_points": 7,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

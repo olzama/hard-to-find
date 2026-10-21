@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders «коротенько» as plain “briefly,” losing the diminutive, faux-modest nuance that makes the contrast with “forty minutes” funny. The comic understatement is still present, but somewhat weakened by the flatter wording."
+          "justification": "The candidate conveys the literal contrast between 'briefly' and 'forty minutes', but it loses the diminutive, falsely modest tone of «коротенько» that makes Ogurtsov’s smug, patronizing understatement comic. The phrasing is neutral and lacks the faux-cozy, managerial voice that heightens the absurdity."
         }
       ]
     },
@@ -84,7 +84,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—been ready a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "In Russian the word «готов» carries an ambiguous double reading (ready in the administrative sense vs. already smashed/drunk). English 'ready' lacks the drunk subtext, so the candidate preserves only the surface administrative meaning and loses the intended double entendre that makes the exchange funny."
+        }
+      ]
     },
     {
       "id": 5,
@@ -127,10 +134,10 @@
       "candidate": "But we need only take a telescope...\nand look with an armed eye—",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which English readers find oddly surreal rather than recognizably mock‑scientific. This loses the subtle parody of the original idiom (a distorted alternative to “the unaided/naked eye”) and thus significantly weakens the intended comic effect."
+          "justification": "The candidate uses the literal calque 'armed eye', which reads oddly and more surreal in English than the Russian deformation. That choice risks losing the mock‑scientific, almost-plausible misexpression; a solution echoing 'unaided/aided eye' better preserves the comic pseudo‑scientific effect."
         }
       ]
     },
@@ -179,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.75,
-    "major_equiv_per_unit": 0.15,
-    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

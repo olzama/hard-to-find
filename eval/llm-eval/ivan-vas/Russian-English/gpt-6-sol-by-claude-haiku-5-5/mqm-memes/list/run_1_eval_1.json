@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that the lines read as Bunsha introducing himself as the Tsar, not addressing a Tsar. Lines such as 'A pleasure, Tsar!', 'Hello, Tsar!' and 'Tsar, a pleasure!' read as greetings directed at a Tsar, which inverts the intended meaning. The reference resolves this with 'Hello, I'm the Tsar' and 'Hello, the Tsar'."
+          "justification": "'Hello, Tsar!' and 'Tsar, a pleasure!' read as Bunsha addressing a real Tsar, which is the exact ambiguity the analysis warns against. The analysis requires that he is introducing himself as the Tsar. The reference resolves this with 'Hello, I'm the Tsar'; the candidate does not."
         }
       ]
     },
@@ -93,7 +93,14 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nWalled me in, the demons!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source's stuttering ellipses ('Замуровали… замуровали') convey the Tsar's panicked, trembling delivery. The candidate replaces them with exclamation marks, which makes the line more emphatic and weakens the hesitant effect that the reference keeps with ellipses."
+        }
+      ]
     },
     {
       "id": 6,
@@ -176,9 +183,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says the eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'Caviar from overseas...' followed by 'Eggplant!' attaches the word 'caviar' to the eggplant spread. The reference avoids this with 'Overseas spread... eggplant!'."
+          "justification": "The analysis explicitly says the eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's line 'Caviar from overseas...' calls the overseas item caviar, and the bait-and-switch then reveals 'Eggplant!'. The reference avoids this by using 'Overseas spread'. The candidate therefore contradicts a stated translation constraint and blurs the status-inversion joke."
         }
       ]
     },
@@ -205,7 +212,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis states that the joke depends on Shpak forgetting to increment the suede jacket count before correcting himself. The source's 'куртка… замшевая… Три' (jacket... suede... Three) reproduces that slip. The candidate flattens it into a clean list ending 'and three suede jackets', removing the self-correction and the comedic mechanism the analysis identifies as the source of the humor."
+          "justification": "The source has one jacket ('куртка… замшевая…') followed by a hesitant 'Три'. The comedy depends on Shpak forgetting to increment the count, which is revealed by the final 'Three.' The candidate renders a clean list ending in 'three suede jackets', which adds a count the source does not state and erases the stumble and self-correction the analysis identifies as the joke."
         }
       ]
     },
@@ -227,7 +234,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes Ulyana's delivery as melodic, calm resignation. The candidate's exclamation marks ('And they'll cure you!', 'They'll cure you too!', 'And they'll cure me!') turn the lines into emphatic, agitated speech, weakening the calm, resigned tone that the reference preserves with ellipses."
+          "justification": "The analysis describes Ulyana's melodic, calm resignation, and the source uses ellipses to carry it. The candidate's exclamation marks make the lines sound excited or emphatic, which shifts the tone away from the calm, resigned delivery the analysis describes."
         }
       ]
     }
@@ -235,13 +242,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 16,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

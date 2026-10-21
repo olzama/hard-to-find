@@ -19,15 +19,15 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate reduces the lines to 'Shpak: magnetófono. O embaixador: medallón.' This drops the idea that each man has lost his item, which the analysis NB requires. The bare list is also cryptic and does not make the connection to the thefts clear."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vólvenme asaltar vagas dúbidas' keeps some of the elevated tone. The telegraphic list that follows breaks the mock-heroic, theatrical register of the whole line."
+          "justification": "The mock-heroic register of 'терзают смутные сомнения' is flattened: 'Vólvenme asaltar vagas dúbidas' is plain and loses the theatrical, high-flown tone ('asáltanme escuras sospeitas') that drives the joke."
+        },
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Shpak: magnetófono. O embaixador: medallón.' is a bare list that does not convey that each lost the item (the NB). The suspicion connecting the two thefts is not expressed, so the callback's logic is lost."
         }
       ]
     },
@@ -44,14 +44,7 @@
         "language_specific": {}
       },
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Moito gusto, tsar!' reads as Bunsha addressing a tsar, not introducing himself as the Tsar. The analysis NB explicitly requires the self-introduction reading, as in the reference 'son o tsar'. This loses the drunken impersonation joke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -81,14 +74,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, que estou triste.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'triste' is plainer and more modern than the archaic, regal 'aflixido' (source 'в печали'). It weakens the high-register melancholy the analysis stresses."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -103,14 +89,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Emparedáronme, demos!' puts a comma before 'demos', so it reads as a vocative where he addresses the demons. The analysis NB says the demons must be the subject of the sentence and are not being addressed."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -155,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Que ben que pasei por aquí!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Que ben que pasei por aquí!' conveys dropping by, but the past 'pasei' sounds like passing through. It loses the delighted sense of having landed in a lucrative place (the reference 'dei cun bo sitio'), which weakens the burglar's gleeful reaction."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -177,14 +149,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nSi! Caviar de ultramar...\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Caviar de ultramar... De berenxena' calls the eggplant spread caviar. The analysis NB forbids this because it confuses viewers and blurs the joke about the cheap spread being presented as a rare overseas delicacy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -199,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de camurza: tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The hesitation after the jacket ('куртка… замшевая… Три'), where Shpak forgets to increment the count, is flattened into 'chaqueta de camurza: tres'. The comic slip is weaker, and 'camurza' (chamois) is less apt than 'ante' for a suede jacket."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -221,26 +179,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te curarán!\nE a ti tamén te curarán!\nE a min tamén me curarán!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The first two lines are identical ('E a ti tamén te curarán'). This loses the gradual build-up of the source ('и тебя… и тебя тоже… и меня'). The formal future 'curarán' also lacks the colloquial, melodic resignation of 'vante curar / vanme curar'."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 2,
+      "minor": 0
     },
-    "total_points": 25,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

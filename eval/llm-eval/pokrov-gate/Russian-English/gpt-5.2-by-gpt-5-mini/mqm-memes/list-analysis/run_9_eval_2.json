@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No—I'm waiting!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and the teasing challenge, but it loses some of the high-flown, self-dramatising theatrical tone implied in the analysis (the original's faux-pompous, ceremonial cadence is slightly flattened by the casual 'Name one! No—I'm waiting!')."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -56,9 +49,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate renders 'отношения' as 'feelings', shifting the target from the ironic comment on the 'relationship' dynamic to a more general emotional register. This softens the specific sarcastic bite of the recurring refrain about the trio's 'relationship.'"
+          "justification": "The candidate 'Such... such lofty feelings!' conveys sarcasm but softens the original's bite and the repeated, slightly stilted register of the refrain. Using 'feelings' reduces the sharp social-commentary sense of 'relationships/relations' in the source."
         }
       ]
     },
@@ -78,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The phrasing 'only for their conscience' is slightly awkward and less idiomatic than alternatives like 'you live to do your duty.' The nuance shifts from duty/fatalism to a more abstract moralizing 'conscience,' which weakens the soldierly bluntness described in the analysis."
+          "justification": "The phrasing 'only for their conscience' is slightly awkward and less idiomatic than the reference's 'you live to do your duty.' It weakens the blunt, fatalistic register that characterizes Savva's line."
         }
       ]
     },
@@ -114,10 +107,10 @@
       "candidate": "You helpless oaf!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The original comic device is using a neutral professional term as a scathing household rebuke ('Some cook you are!'). 'You helpless oaf!' is an effective insult but abandons the specific ironic profession-as-invective, losing a layer of the original's wit and character-specific tone."
+          "justification": "The source's comic effect relies on absurdly using a neutral profession ('Culinary!') as a sharp household rebuke. Replacing it with the generic insult 'You helpless oaf!' removes that specific incongruous device and changes the character of the put-down, losing the original's humourous mechanism."
         }
       ]
     },
@@ -149,14 +142,7 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, for God's sake—right now.\nNo waiting for peritonitis.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the medical-farce contrast but tones down the brusque brutality of the original imperative ('Cut it the hell out') to a milder plea ('Cut it out, for God's sake—right now'), which slightly reduces the stark, comic surgical verdict highlighted in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -171,7 +157,14 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that's petty!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate uses the spelling 'Khabotov' instead of a more direct transliteration 'Khobotov' (or equivalent used elsewhere). This alters the name's conventional form and may confuse recognition of the repeated formulaic rebuke."
+        }
+      ]
     },
     {
       "id": 10,
@@ -191,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'burden to bear' and makes the object explicit ('He’s my burden to bear'), which keeps the manipulative self-sacrifice but alters idiom and emphasis slightly from the stronger fixed English idiom 'a cross to bear.' The effect is preserved though a bit less idiomatically sharp."
+          "justification": "Rendering the idiom as 'He’s my burden to bear' is understandable but less idiomatic and slightly clumsy compared with the fixed English idiom 'a cross to bear.' The second line 'And I’ll carry him' risks a more literal reading (physically carrying) and softens the manipulative theatricality of the original."
         }
       ]
     },
@@ -213,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 6
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 6,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Vólvenme asaltar\nvagas dúbidas...\nA Shpak desapareceulle o magnetófono,\ne ao embaixador, o medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The opening phrase is slightly less mock-heroic and idiomatic than the reference; 'vagas dúbidas' is fine, but the rhythm and elevated theatrical feel are a bit weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -40,10 +33,10 @@
       "candidate": "Ola, tsar, moito gusto. Tsar, moito gusto, tsar.\nMoito gusto, ola, tsar.\nTsar, moito gusto.\nOla, tsar. Moito gusto!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line preserves the self-introduction and repetition, but 'Ola' is more colloquial than the reference's more formal greeting, slightly weakening the awkward ceremonial-politesse humor."
+          "justification": "The line says he is introducing himself as the tsar, but the candidate starts with \"Ola\" and then addresses \"tsar\" like a title rather than clearly saying \"I am the tsar\". This weakens the central joke identified in the analysis."
         }
       ]
     },
@@ -60,7 +53,14 @@
         "language_specific": {}
       },
       "candidate": "Esixo que continúe o banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is correct, but \"que continúe o banquete\" is a bit less forceful and idiomatic than a direct demand in the mock-royal tone of the original."
+        }
+      ]
     },
     {
       "id": 4,
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, estou de loito.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Estou de loito' changes the nuance from being 'afflicted/sad' to literal mourning, which slightly shifts the Tsar's solemn, archaic tone, though the core meaning remains close."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -102,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'os demoños' is ungrammatical/incorrect here and obscures the intended meaning that the demons are the ones who entombed him. The reference makes the demons the subject, not the addressee."
+          "justification": "\"Emparedáronme, os demoños!\" is ungrammatical and suggests the demons are being addressed rather than causing the entrapment. The second line should preserve the complaint that demons trapped him."
         }
       ]
     },
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' is a bit more colloquial and less elevated than the reference's exclamatory 'Velaquí', so the triumphant quasi-biblical tone is slightly weakened."
+          "justification": "\"Mira o que fai\" is understandable, but it sounds more colloquial and less exalted than the Russian exclamation, which has a more ceremonious, triumphant ring."
         }
       ]
     },
@@ -146,7 +139,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'A bailar todo o mundo!' conveys the idea, but it sounds like 'everybody dance' rather than the more direct imperative 'everyone dance,' slightly softening Bunsha's command."
+          "justification": "The imperative/plural call to dance is preserved, but \"A bailar todo o mundo!\" shifts the sense toward \"everyone dance\" rather than the more direct command \"all dance,\" slightly weakening the rallying shout."
         }
       ]
     },
@@ -168,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Mira que entrei con sorte!' implies entering with luck, but the joke is that he has just walked into a fortunate situation. The wording can be read as the wrong perspective and is less idiomatic for the comic reaction."
+          "justification": "\"Mira que entrei con sorte!\" changes the meaning: he is reacting to having found a good opportunity or lucky situation, not commenting on entering with luck. The joke about discovering the apartment's valuables is weakened."
         }
       ]
     },
@@ -187,10 +180,10 @@
       "candidate": "Ovas negras, vermellas...\nSi! Ovas de ultramar...\nDe berenxena!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Ovas de berenxena' is understandable, but the shift from 'caviar' to 'ovas' slightly weakens the satirical contrast with the luxurious foods and the punchline about cheap eggplant spread."
+          "justification": "\"Ovas\" is not the right rendering for caviar here and misses the specific contrast between luxurious caviar and the cheap \"eggplant caviar\" spoof. The line loses the satirical food-shortage joke and becomes less clear."
         }
       ]
     },
@@ -212,7 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'petacas nacionais' mistranslates 'портсигара' (cigarette cases) as flasks, changing the listed stolen items and breaking the comic specificity of the inventory."
+          "justification": "\"Petacas nacionais\" does not correspond to \"portсigars\" (cigarette cases), so the inventory is mistranslated. The comic list of stolen prestige items is therefore altered in a significant way."
         }
       ]
     },
@@ -229,19 +222,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti han curarte!\nE a ti tamén han curarte!\nE a min han curarme!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is preserved, but \"han curarte\" sounds more mechanical and less colloquial than the approved phrasing. It slightly reduces the calm, melodic resignation of the original."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 5,
+      "minor": 4
     },
-    "total_points": 21,
+    "total_points": 29,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.6363636363636362,
+    "major_equiv_per_unit": 0.5272727272727272,
+    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

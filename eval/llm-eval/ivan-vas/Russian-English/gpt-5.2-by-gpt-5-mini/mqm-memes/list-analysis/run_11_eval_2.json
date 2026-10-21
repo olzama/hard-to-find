@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies possession. The analysis explicitly notes these items are lost (they are the objects of theft), so the candidate reverses the intended meaning and contradicts the comedic callback."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion.' The analysis explicitly notes these clauses do NOT mean possession (they no longer have the items; the wording implies those items have been taken). The candidate therefore reverses the meaning and misrepresents the joke's implication about lost goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original and analysis make clear Bunsha is impersonating and introducing himself as 'the Tsar' (not addressing a Tsar). The candidate's lines ('Very nice, Tsar! ... hello, Tsar!') read as addressing someone called the Tsar rather than awkwardly introducing himself, losing the core gag about self-introduction and era-clash."
+          "justification": "The original line is Bunsha introducing himself as the Tsar (a comic self-introduction). The candidate's phrasing ('Very nice, Tsar! ... Hello, Tsar!') reads as if he is addressing someone else called 'Tsar' rather than presenting himself as the Tsar, contrary to the analysis note that the translation must make the self-introduction clear."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line 'замуровали… замуровали, демоны' uses 'demons' as the subject who walled him in. The candidate 'They walled me in, demons!' turns 'demons' into a vocative (addressing them), which reverses the syntactic role and undermines the intended comic misinterpretation of a mechanical malfunction as malevolent action by demons."
+          "justification": "The analysis specifies that 'demons' are the subject (he is saying they walled him in—the demons did it). The candidate 'They walled me in! ... They walled me in, demons!' reads as if he is addressing or exclaiming to the demons (vocative), which flips the intended grammatical role and weakens the comedic effect of accusing supernatural agents of causing a mechanical failure."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'That’s what the life-giving cross can do!' is more colloquial and loses some of the high-register, archaic reverence ('Behold the power of the life-giving cross!') that the analysis highlights. The meaning remains, but the elevated, quasi-biblical tone is weakened."
+          "justification": "The candidate ('That’s what the life-giving cross can do!') keeps the meaning but loses some of the archaic, declarative register of the reference ('Behold the power of the life-giving cross!'). This slightly weakens the historic/solemn tone that underpins the joke."
         }
       ]
     },
@@ -164,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source's joke hinges on treating cheap 'eggplant caviar' as a small prized item without literally calling it 'caviar.' The candidate's 'Imported caviar... Eggplant!' risks leaving viewers unsure whether 'eggplant' is being presented as a distinct item or as 'eggplant caviar.' This slightly blurs the intended satirical inversion."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -207,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 17,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

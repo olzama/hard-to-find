@@ -26,13 +26,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'A nagging suspicion' and 'I'm beginning to have' are mundane and colloquial. The analysis identifies the mock-heroic register of 'терзают смутные сомнения' as the source of the humor, and the candidate loses that tragic-theatrical tone."
+          "justification": "The analysis locates the humor in the mock-heroic register of 'терзают смутные сомнения'. 'I'm beginning to have a nagging suspicion' is plainer and loses the tragic-opera inflation of the original, though the bureaucratic tone survives."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "'Медальон' is a locket or medallion, not a medal. The candidate changes the stolen object to a different kind of item, which the analysis and reference do not support."
+          "justification": "'Medal' names a different object from 'медальон' (a pendant or locket). The reference's 'medallion' keeps the item the same, so this is a lexical substitution that changes the object."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly requires that the translation make clear Bunsha is introducing himself as the Tsar, not addressing a Tsar. 'Hello, Tsar!' and 'Tsar, a pleasure!' read as greetings to a ruler, which contradicts the analysis and loses the joke about his self-introduction."
+          "justification": "The analysis says the translation must make clear that Bunsha is introducing himself as the Tsar, not addressing one. 'Hello, Tsar!' reads as a greeting addressed to a Tsar, which is the exact ambiguity the note forbids. The reference's 'I'm the Tsar' resolves it."
         }
       ]
     },
@@ -96,7 +96,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Я в печали' expresses melancholy or sorrow. 'I am in mourning' implies bereavement, a more specific state that the source does not state. The analysis asks for genuine regal melancholy."
+          "justification": "'In mourning' (траур) narrows 'я в печали' to bereavement, implying a specific loss. The analysis describes genuine regal melancholy, which 'in sorrow' or 'in melancholy' conveys more closely."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Leave me be' is a colloquial construction. It weakens the high-register, archaic dismissal the analysis says is central to the Tsar's voice."
         }
       ]
     },
@@ -153,14 +159,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source is a declarative description ('They are all dancing!'). The candidate turns it into a command ('Everybody dance!'). This is a modest shift in speech act, though it keeps the energy of the party and the uninhibited tone the analysis describes."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -202,16 +201,10 @@
       "candidate": "Black caviar, red caviar...\nAnd yes! Exotic caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The analysis explicitly says eggplant spread must not be called caviar because it will confuse viewers. The candidate says 'Exotic caviar...' and then reveals 'Eggplant!', which keeps the caviar label on the spread and contradicts the analysis."
-        },
-        {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Заморская' means imported from overseas, which is the satirical point about foreign status goods. 'Exotic' shifts the meaning toward unfamiliarity rather than foreign origin."
+          "justification": "The analysis says not to call the eggplant spread 'caviar' because it will confuse viewers. 'Exotic caviar...' applies the caviar label to the spread before the 'Eggplant!' reveal. The source's own wording supports this, and the reveal still lands, but the note is not followed."
         }
       ]
     },
@@ -238,7 +231,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis says the joke depends on Shpak forgetting to increment the suede jacket count at first, which betrays him. The candidate removes the hesitation and the trailing 'Три' and states 'three suede jackets' outright, so the comic structure of the list is lost."
+          "justification": "The analysis identifies the joke as Shpak forgetting to increment the suede jacket count at first, then correcting it. The candidate gives 'three suede jackets' in the same list as the others, so the hesitation and the self-betrayal that carry the joke are lost."
         }
       ]
     },
@@ -260,21 +253,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes Ulyana's melodic, calm resignation. The source's ellipses and the reference's measured tone are replaced with exclamation marks, which make the lines more agitated and weaken the calm, resigned delivery."
+          "justification": "The analysis describes calm, melodic resignation. The three exclamation marks make each line emphatic and agitated, which shifts Ulyana's tone away from quiet acceptance."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 6
     },
-    "total_points": 21,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

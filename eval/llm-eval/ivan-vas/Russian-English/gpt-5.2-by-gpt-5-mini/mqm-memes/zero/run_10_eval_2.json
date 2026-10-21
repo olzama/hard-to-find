@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as possession. The analysis explicitly warns these items are no longer possessed (they have been lost/stolen). This flips the intended meaning and undermines the callback to theft."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' implying current possession. The original (and the analysis note) indicates these items were lost/are missing; the Russian construction is accusative/they've been deprived of them. This reverses the meaning and undermines the joke about stolen/misplaced items."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original line is Bunsha introducing himself as the Tsar (repeating 'I am the Tsar' in a banal, self-introducing way). The candidate reads as if he is addressing a tsar ('Very nice, tsar!'), not proclaiming himself to be the Tsar. This changes the core gag described in the analysis and loses the self-introduction joke."
+          "justification": "The line must convey that Bunsha is introducing himself as the Tsar (comic self-introduction), not addressing a tsar. The candidate reads like addressing/complimenting a tsar ('Very nice, tsar!'), losing the crucial gag that he repeatedly insists 'I'm the Tsar.' This contradicts the analysis and the comedic effect."
         }
       ]
     },
@@ -75,7 +75,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I'm in sorrow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the meaning but uses the modern contraction \"I'm\" and a plain phrasing ('I'm in sorrow'), which slightly weakens the high-register, archaic tone the analysis highlights for the Tsar."
+        }
+      ]
     },
     {
       "id": 5,
@@ -95,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes that 'демоны' is the subject (i.e., 'they walled me in, demons' as actors), not an addressee. The candidate 'Walled up, demons!' reads as a vocative address to demons, reversing the intended grammatical role and weakening the joke about perceiving a mechanical failure as an act by demons."
+          "justification": "The analysis emphasises that 'demons' are the subject (they've walled me in) and not being addressed. The candidate's 'Walled up, demons!' reads like a vocative address to demons, reversing the syntactic relation and losing the intended meaning that unseen agents (demons) have entombed him."
         }
       ]
     },
@@ -117,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That's what the life-giving cross does!') conveys the meaning but flattens the lofty, archaic register ('Behold the power of the life-giving cross!') that contributes to the Tsar's grandiose, anachronistic tone. This weakens the high-register religious flourish."
+          "justification": "The candidate conveys the idea but does so in a colloquial, prosaic way ('That's what the life-giving cross does!') that softens the elevated, declarative religious register of the source line ('Behold the power of the life-giving cross!')."
         }
       ]
     },
@@ -134,7 +141,14 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate 'Everyone dance!' is understandable but slightly non-idiomatic in English; a more natural rendering would be 'Everybody dance!' or 'Everyone, dance!' The urgency and invitation are preserved, but the phrasing is awkward."
+        }
+      ]
     },
     {
       "id": 8,
@@ -149,7 +163,14 @@
         "language_specific": {}
       },
       "candidate": "What a lucky time to drop by!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate captures the gist ('I arrived at a lucky moment') but opts for a colloquial idiom ('What a lucky time to drop by!') that is a bit stilted in context. It doesn't clearly keep the breezy, opportunistic tone of the original line but is not misleading."
+        }
+      ]
     },
     {
       "id": 9,
@@ -164,7 +185,14 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate's 'Imported caviar... Eggplant!' risks implying 'eggplant' is another kind of caviar or an imported delicacy, which blurs the source's satirical inversion (eggplant spread being cheap/common, not real caviar). The comedic contrast is present but weakened by slight ambiguity."
+        }
+      ]
     },
     {
       "id": 10,
@@ -182,9 +210,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humor depends on Shpak miscounting as he lists items (the comic beat where he hesitates and then says 'Three'). The candidate renders the line as 'three suede jackets' without the pause/misdirection, removing the incremental-count gag and thus significantly damaging the intended comedic effect."
+          "justification": "The original gag depends on Shpak's bumbling recounting and the momentary failure to update the count (he trails off, then remembers/counts again). The candidate lists 'three suede jackets' smoothly and consistently, which removes the comic hesitation/forgetfulness that makes the line funny; the key humorous effect is therefore lost."
         }
       ]
     },
@@ -207,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 1
+      "minor": 5
     },
-    "total_points": 21,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

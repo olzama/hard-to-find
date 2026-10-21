@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak has a tape recorder, the ambassador has a medallion\" reverses the meaning. The NB says the items were stolen and are no longer in their possession. The candidate states possession, which also breaks the logic of the suspicion about the theft."
+          "justification": "'Shpak has a tape recorder, the ambassador has a medallion' reverses the meaning. The Russian implies the items were stolen and each man no longer has his. The analysis explicitly warns against 'has'. The theft-connection logic of the callback is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Plagued by vague doubts' keeps the elevated mock-heroic register reasonably well, but the choppy line breaks slightly weaken the theatrical effect."
         }
       ]
     },
@@ -43,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Hello, Tsar\" reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. The NB requires that it be clear he is the Tsar, so this loses the drunken self-introduction joke."
+          "justification": "'Hello, Tsar' reads as addressing a Tsar rather than introducing himself as the Tsar, which the analysis explicitly says must be clear. The self-introduction is lost, and with it the absurdity of the drunken Bunsha."
         }
       ]
     },
@@ -75,7 +81,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman—I’m in sorrow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Leave me be' and the contraction 'I'm' make the tone more modern and colloquial than the high-register archaic language described. The regal, archaic contrast with the Soviet setting is slightly weakened."
+        }
+      ]
     },
     {
       "id": 5,
@@ -95,7 +108,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Devils\" works as the subject in apposition, but \"bricked\" is slightly colloquial and modern for the Tsar's archaic register. The tone is slightly weakened but the meaning is preserved."
+          "justification": "'Bricked me in' is colloquial and modern, and 'devils' is slightly different from 'demons'. The structure keeps the demons as the subject, so the meaning is preserved. The archaic, mystical feel is a little weaker."
         }
       ]
     },
@@ -117,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"That's what the life-giving cross can do!\" is plain and contracted. It loses some of the Tsar's solemn, archaic conviction of the reference (\"Behold the power...\"), though the meaning is intact."
+          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the Tsar's solemn, exalted conviction, since 'Behold the power of...' carries more of the archaic pronouncement. The meaning and religious reference are kept."
         }
       ]
     },
@@ -154,7 +167,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"What perfect timing!\" mistranslates the line and drops the sense of a good choice of apartment to enter. It loses the burglar's pleased reaction to the goods he found, and the analysis ties the line to discovering the apartment full of deficit goods."
+          "justification": "'What perfect timing!' misses the point that he has just entered and is pleased at his lucky choice of apartment. The analysis notes the translation must not mislead. 'Timing' suggests arrival at a fortunate moment rather than choosing a profitable place, so the joke about finding deficit goods is lost."
         }
       ]
     },
@@ -176,7 +189,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Imported caviar... Eggplant!\" calls the eggplant spread caviar, which the NB explicitly forbids because it confuses viewers. It also loses the joke that the spread is a cheap Soviet product presented as an overseas delicacy."
+          "justification": "'Imported caviar' followed by 'Eggplant!' loses the joke of 'overseas eggplant spread' as a cheap item presented as a rare delicacy. The candidate calls the item 'caviar' in the sequence, which the analysis warns will confuse viewers. The punchline reads as a non sequitur."
         }
       ]
     },
@@ -196,9 +209,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The line breaks fall differently, with \"domestic\" attached to the cigarette cases, and the hesitation after \"domestic\" and \"suede jacket\" is lost. The joke where Shpak forgets to increment the jacket count is mostly preserved by \"a suede jacket—three\". Numerals instead of spelled-out words are a minor stylistic choice."
+          "justification": "Using numerals '3' for spoken numbers is less natural than words and slightly weakens the comic rhythm of the repeated 'three'. The structure that betrays Shpak, with the jacket count lagging, is kept."
         }
       ]
     },
@@ -215,26 +228,19 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nThey’ll cure you too!\nAnd they’ll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Exclamation marks replace the ellipses of the reference. This weakens the calm, melodic, resigned tone that the analysis describes, and reads as more emphatic or hysterical."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 4
+      "minor": 5
     },
-    "total_points": 24,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

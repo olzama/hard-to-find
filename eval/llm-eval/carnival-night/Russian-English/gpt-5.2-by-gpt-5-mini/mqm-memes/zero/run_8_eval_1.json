@@ -61,9 +61,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate renders «коротенько» simply as “briefly,” losing the diminutive, faux-modest flavor that creates the comic contrast with “about forty minutes.” The phrasing “more, I think, is not necessary” is also awkward and flattens the smug managerial tone and the punchline timing described in the analysis."
+          "justification": "The candidate preserves the comic reversal (faux-modest 'briefly' followed by 'about forty minutes') but the second clause ('more, I think, is not necessary') reads awkwardly and slightly stiff in English. A smoother phrasing would better reproduce the speaker's smug, managerial voice while keeping natural cadence."
         }
       ]
     },
@@ -127,10 +127,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the calque “armed eye,” which the analysis warns against: in English this reads oddly and more surreal than mock‑scientific. The target should recreate a near‑idiomatic distorted scientific phrase (e.g. “aided eye”) so the line sounds like a plausible, tipsy pseudo‑academic claim rather than an offputting literal translation."
+          "justification": "The translation uses the literal calque 'armed eye,' which the analysis warns against because it becomes oddly surreal in English and loses the intended mock‑scientific, slightly plausible deformation of a familiar idiom. This choice changes the target‑language effect and undermines the subtle comedic register the original produces."
         }
       ]
     },
@@ -173,26 +173,19 @@
         }
       },
       "candidate": "Is there life on Mars, is there no\nlife on Mars—science does not know.\nScience is not yet up to date.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the factual content but renders the final phrase as “Science is not yet up to date,” which has a slightly different, less colloquial tone than the original’s conversational irony. The analysis asks for a casual, chatty phrasing (e.g. “isn’t up to speed”), whereas the candidate’s wording reads a bit stiffer and less naturally jocular."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

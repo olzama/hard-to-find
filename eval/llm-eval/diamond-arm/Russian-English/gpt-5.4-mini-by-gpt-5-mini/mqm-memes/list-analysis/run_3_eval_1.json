@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the literal meaning but lacks the light, comic bounce produced by the original rhyme ('trus/boyus') and the reference. The line reads as a straightforward admission rather than the endearing, rhythmic paradox the analysis asks to retain."
+          "justification": "The candidate preserves meaning but loses the light, bouncing comic rhythm (the Trus/Boyus rhyme effect) that makes the original admission feel endearing rather than flat."
         }
       ]
     },
@@ -68,7 +68,14 @@
         "language_specific": {}
       },
       "candidate": "You know, señora, frau, miss,\nunfortunately it won’t work!\nRusso turisto…\nOblico morale… versteyn?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The international-jargon gag is preserved, but there are small surface errors/awkward spellings ('Oblico' vs. expected 'Obliko', 'versteyn' vs. 'verstehen') and a slightly odd opening 'You know,' that slightly weakens the faux-sophisticated patter."
+        }
+      ]
     },
     {
       "id": 5,
@@ -133,7 +140,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the meaning but drops the rhythmic pairing (trezvenniki/yazvenniki) that gives the original its proverbial cadence. The result is more prosaic and loses some of the comic punch and balance emphasized in the analysis."
+          "justification": "Meaning is intact, but the candidate loses the rhythmic pairing (trezvenniki/yazvenniki) that gives the line its proverbial, balanced punch; the line reads more prosaic than the rhythmic original."
         }
       ]
     },
@@ -170,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Meaning is preserved, but the candidate omits the playful mispronunciation emphasis noted in the analysis (the comic effect of the accented pronunciation of 'tablet'), making the line less characterful."
+          "justification": "The line conveys the content but omits the comic effect of Lyolik's mispronounced, emphatic delivery of 'tablet' which is an audible character tic in the original."
         }
       ]
     },
@@ -202,7 +209,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the address but loses the elongated, melodic sigh in the original ('Semyo-o-on'), which is an important prosodic cue of weary exasperation."
+        }
+      ]
     },
     {
       "id": 13,
@@ -222,7 +236,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the curse's sense but simplifies the staggered, theatrical delivery and the punchy rhythm of the original. The trimmed cadence reduces some of the theatrical weight that makes the line humorous."
+          "justification": "The curse is translated literally and correctly, but the theatrical cadence and drawn-out delivery that make the line comedic are flattened in the candidate."
         }
       ]
     },
@@ -334,7 +348,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the idiom slightly to 'if you’re ever with us in Kolyma,' which reads as a different phrasing and can imply accompaniment rather than a simple geographic invitation. The comedic misunderstanding (Kolyma as a threat) still works, but the wording is a small shift from the conventional invitation form."
+          "justification": "Candidate inserts 'with us' ('if you’re ever with us in Kolyma'), which slightly alters the original's simple locational invitation ('if you're ever in Kolyma') and therefore changes the nuance of Gena's reflexive, fear-based rejection."
         }
       ]
     },
@@ -356,7 +370,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content and priorities are preserved, but the candidate removes the affected pronunciation of 'coffee' ('kof-e') that signals Gena's pretentiousness. Losing this speech marker reduces the character-specific humor described in the analysis."
+          "justification": "The translation preserves meaning but drops Gena's affected pronunciation of 'coffee' ('kof-e') that marks his pretentious, disordered persona; losing this reduces a characterizing comic detail."
         }
       ]
     },
@@ -393,7 +407,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the refusal in standard, polite English. This removes the comic, folksy nonstandard verb form (the deliberate incorrectness) that the analysis highlights as adding rustic stubbornness and humor."
+          "justification": "The candidate communicates the refusal but removes the deliberately ungrammatical, folksy verb form ('пойти' mistransformed in the original) that adds comedic stubbornness and regional color."
         }
       ]
     }
@@ -401,13 +415,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 9
     },
-    "total_points": 7,
+    "total_points": 9,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.391304347826087,
+    "major_equiv_per_unit": 0.0782608695652174,
+    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

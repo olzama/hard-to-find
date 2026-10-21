@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and the teasing challenge, but it loses some of the theatrical, self-dramatizing flourish implied in the analysis (\"Pray, tell me... I'll wait!\"). The shorter, more prosaic phrasing is less grandiose than the cultural-meme register described."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase ('Lofty... lofty relations.'), which the analysis warns against. It lacks the sarcastic exclamatory phrasing and stuttered, performative delivery that mark the refrain in the film."
+          "justification": "The candidate's literal phrase \"Lofty... lofty relations.\" uses a noun-phrase construction the analysis explicitly warned against; it flattens the sarcastic, exclamatory refrain and sounds more like a static label than the mocking, stuttered commentary of the original."
         }
       ]
     },
@@ -78,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate renders 'совести' as 'conscience' rather than conveying the idiomatic idea of duty/obligation central to the soldierly fatalism in the analysis. This shifts the pragmatic nuance (duty vs. inner moral feeling) and makes the maxim sound less idiomatic in English."
+          "justification": "\"People don’t live for joy—they live for conscience.\" preserves the sense but uses \"for conscience,\" which is unnatural in English idiom and slightly weakens the blunt, duty-focused register of the reference."
         }
       ]
     },
@@ -114,10 +107,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('Culinary genius!') turns an ironic, cutting household insult into what reads like genuine praise and uses an unnatural register for the context. The analysis requires a sharp, sarcastic retort using a neutral professional term as an expletive; the candidate loses the intended comic bite and voice."
+          "justification": "\"Culinary genius!\" risks reading as backhanded praise rather than the sharp, dismissive domestic insult of the original. It loses some of the caustic bite achieved by a sarcastic rebuke like \"Some cook you are!\""
         }
       ]
     },
@@ -151,10 +144,10 @@
       "candidate": "Cut it out, damn it.\nNo waiting for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits the line and softens the register ('Cut it out, damn it.') compared with the brusque, medically blunt imperative of the reference. The overall meaning is preserved but the brutal comic shock of the original is slightly reduced."
+          "justification": "The candidate renders \"Резать... не дожидаясь перитонитов\" as \"Cut it out, damn it. No waiting for peritonitis.\" In English \"cut it out\" means \"stop that,\" which reverses the crucial medical/surgical injunction to operate immediately; this distorts the line's comic-medical impact."
         }
       ]
     },
@@ -176,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate misspells/transliterates the character name as 'Khabotov' instead of the established 'Khobotov' used in the reference. This alters a proper name and breaks character consistency, which is a significant accuracy issue."
+          "justification": "The candidate spells the character's name as \"Khabotov,\" which misrepresents the Russian name (Хоботов) and therefore undermines character identification. The rest of the line is fine, but the incorrect name is a substantive accuracy error."
         }
       ]
     },
@@ -198,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate translates the idiom too literally ('This is my cross! And I’m the one to bear it.') rather than using the idiomatic English construction ('a cross to bear'). This reduces idiomatic fluency and slightly weakens the manipulative grandiosity the analysis highlights."
+          "justification": "\"This is my cross! And I’m the one to bear it.\" is understandable but opts for a literal split of the idiom rather than the natural English fixed expression (\"a cross to bear\"), slightly weakening the manipulative grandiosity the analysis highlights."
         }
       ]
     },
@@ -220,7 +213,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая', which the analysis explicitly warns against as a literal and awkward rendering. While the general sense is present, the phrasing sounds unnatural and loses the mocking, coquettish self-deprecation of the original."
+          "justification": "The candidate uses \"angular,\" which the analysis warned against as a literal and awkward rendering of «угловатая.» The line thus sounds more literal and less idiomatic than the reference's suggested phrasing."
         }
       ]
     }
@@ -228,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 16,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

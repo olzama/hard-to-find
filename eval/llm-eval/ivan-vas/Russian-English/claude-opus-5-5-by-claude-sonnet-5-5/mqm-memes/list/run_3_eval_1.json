@@ -26,13 +26,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line break splits 'tormented / by vague doubts' and the phrasing 'Once again I'm tormented by vague doubts' is a plain rendering that weakens the mock-heroic, theatrical register of 'терзают смутные сомнения' (the reference's 'Vague doubts haunt me' is more elevated)."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Shpak lost a tape recorder, the ambassador a medallion' correctly conveys loss, but it adds the explicit verb 'lost' and loses the terse, elliptical parallel of the source that makes it a callback list."
+          "justification": "The line break splits 'tormented / by vague doubts' and the phrasing 'Once again I'm tormented by vague doubts' is plainer than the mock-heroic 'Vague doubts haunt me'; the high theatrical register is somewhat weakened, though still readable."
         }
       ]
     },
@@ -49,14 +43,7 @@
         "language_specific": {}
       },
       "candidate": "Pleased to meet you — Tsar!\nCharmed, hello — Tsar!\nTsar — pleased to meet you!\nHello — Tsar! Charmed!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate never makes clear that Bunsha is introducing himself as the Tsar; 'Pleased to meet you — Tsar!' and 'Hello — Tsar!' read as addressing someone as Tsar, which the analysis explicitly says must be avoided."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -76,14 +63,7 @@
         }
       },
       "candidate": "I demand that the banquet\nbe continued!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'be continued' is slightly stiff and the line break after 'banquet' is awkward; 'continue' as in the reference reads more naturally for the imperious demand."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -173,14 +153,7 @@
         }
       },
       "candidate": "Well, didn't I drop by\nat just the right time!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'didn't I drop by at just the right time' is acceptable for having just arrived, but it is a rhetorical question that does not clearly convey the satisfaction of a good decision and slightly shifts to a timing comment; it avoids implying departure, so the main risk is only tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -200,14 +173,7 @@
         }
       },
       "candidate": "Caviar, black, red...\nYes! And overseas caviar...\nEggplant caviar!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate calls the eggplant spread 'caviar' ('overseas caviar... Eggplant caviar'), which the analysis explicitly says must be avoided because it confuses viewers and obscures the joke of cheap spread presented as a rare overseas delicacy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -227,14 +193,7 @@
         }
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 cigarette cases, domestic,\nsuede jacket... three.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'suede jacket... three' drops the article/count contrast slightly, but the key joke (the jacket count lagging then 'three') is preserved. Digits '3' instead of 'Three' are a minor stylistic choice in spoken subtitles."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -254,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 19,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

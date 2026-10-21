@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction to\nwelcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the bureaucratic directive feel, but the phrasing “welcome the New Year cheerfully” is slightly softer and more colloquial than the reference’s more managerial “celebrate the New Year merrily.” This weakens the hard-edged bureaucratic/official tone the analysis says should be foregrounded."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -70,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the ironic duration contrast, but the single-word “briefly” lacks the diminutive, faux-modest flavor of «коротенько» that helps set up the comic reversal. The line is effective but slightly loses the patronizing, cozy understatement described in the analysis."
+          "justification": "The candidate preserves the comic reversal (claiming brevity, then giving 'forty minutes') but flattens the diminutive, faux-modest tone of «коротенько». 'And then briefly' is slightly more neutral and less mock-cozy than the original, which weakens the petty-managerial voice a little."
         }
       ]
     },
@@ -134,10 +127,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which the analysis warns can sound stranger and more surreal in English than the Russian. This choice risks losing the mock‑scientific, slightly off-kilter register; a wording echoing “unaided/aided eye” would better preserve the intended comic deformation of scientific phrasing."
+          "justification": "The translation uses the literal calque 'armed eye', which the analysis warns against: in English this reads oddly and surreal rather than mock‑scientific. The original's comic effect comes from a near‑idiomatic, slightly wrong scientific phrasing (the suggested 'aided eye'/'unaided eye' echo). 'Armed eye' loses that subtle parody and becomes a jarring literalism, harming the intended humor."
         }
       ]
     },
@@ -161,7 +154,14 @@
         }
       },
       "candidate": "we already see two stars, three stars...\nFour stars—best of all, of course,\nfive stars!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The counting and punchline are preserved, including the cognac reference to five stars, but the phrasing/punctuation is slightly awkward ('Four stars—best of all, of course, five stars!') which disrupts the smooth build-to-punch rhythm and makes the final snap into the cognac frame a bit clumsy."
+        }
+      ]
     },
     {
       "id": 8,
@@ -185,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

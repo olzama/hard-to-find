@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador still have the items, but the line means they no longer have them; Bunsha is inferring theft/loss, not possession."
+          "justification": "The candidate reverses the key temporal implication from the analysis: it says Shpak and the ambassador currently have the objects, whereas the line means they previously had them and they are now missing."
         }
       ]
     },
@@ -43,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the speaker/addressee relation and makes it sound like he is greeting the tsar repeatedly, whereas the joke is that Bunsha keeps introducing himself as the tsar."
+          "justification": "The line no longer clearly reads as Bunsha introducing himself as the Tsar; instead it sounds like he is being addressed as 'tsar' or talking to one. This breaks the specified comedic setup."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The wording is less natural and less clearly comic than the reference; the repetitive self-introduction effect is weakened."
+          "justification": "The phrasing is somewhat scrambled and less naturally comic than the repetitive, formulaic greeting pattern in the reference."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "‘Que estou de loito’ changes the meaning slightly; the source expresses melancholy/sadness, not literal mourning."
+          "justification": "'Estou de loito' changes the sense of 'I am in sorrow/melancholy' into literal mourning, which is slightly off from the source's mood."
         }
       ]
     },
@@ -123,7 +123,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Mira’ is slightly less idiomatic and less elevated than the reference’s more natural exclamatory phrasing, though the meaning is preserved."
+          "justification": "'Mira' is slightly less idiomatic than a more exclamatory equivalent, so the triumphant wonder of the Tsar's outburst is a bit weakened."
         }
       ]
     },
@@ -160,7 +160,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "‘Mira ti que ben entrei!’ can imply ‘I came in well’ or even ‘I entered by chance,’ but it does not clearly convey the intended ‘I hit the jackpot / this is a lucky find’ reaction to discovering the valuables."
+          "justification": "'Mira ti que ben entrei!' means 'look how well I got in,' which suggests successful entry but misses the celebratory discovery of having stumbled into a treasure-filled apartment."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The line is less playful and more self-referential than the original's casual, pleased reaction to finding valuables."
         }
       ]
     },
@@ -182,13 +188,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats ‘caviar’ for the final item, which the analysis explicitly warns against; it obscures the joke that this is cheap eggplant spread, not real caviar."
+          "justification": "The candidate drops the crucial joke that the eggplant spread is a cheap faux-'caviar' and instead simply says 'caviar de ultramar,' losing the satirical contrast."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The segmentation and capitalization are awkward, making the punchline less smooth than it should be."
+          "justification": "The segmented punctuation makes the final punchline less smooth and less forceful than the reference."
         }
       ]
     },
@@ -210,13 +216,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the repeated ‘three’ pattern for the final item and omits ‘unha chaqueta… de ante… tres’ as a complete comic progression, weakening the counting joke and the mistaken omission that is central to the line."
+          "justification": "The candidate omits one full category from the boastful list: 'três cassetes/cigarreiras' is reduced to a single 'pitilleiras,' so the escalating exaggeration and the exact comic inventory are weakened."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The list format is telegraphic and uneven, which makes the delivery less natural as a subtitle line."
+          "justification": "The compressed formatting and abbreviated list make the line read less naturally than the reference."
         }
       ]
     },
@@ -235,30 +241,30 @@
       "candidate": "E a vostede tamén o van curar!\nE a min tamén me van curar!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the third clause about the speaker herself (‘and I’ll be cured too’), losing the full comic escalation of shared madness and making the line incomplete."
+          "justification": "The candidate changes the polite, broad 'you' to 'vostede' only once and omits the symmetrical 'you too' rhythm of the original, slightly weakening the shared, calming refrain."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using the formal ‘vostede’ shifts the intimacy/register away from the familiar collective complaint in the scene."
+          "justification": "The line sounds more blunt and less melodically resigned than the source, which relies on a soft, almost singsong fatalism."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 6
+      "major": 5,
+      "minor": 8
     },
-    "total_points": 36,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 3.272727272727273,
-    "major_equiv_per_unit": 0.6545454545454545,
-    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The opening address \"Guys,\" (Ребята) is omitted. Gorbunkov's grandiose declaration to his companions loses its addressed, theatrical quality. The policeman's retort still lands, so the damage is small."
+          "justification": "The opening address 'Ребята' (Guys) is omitted, which weakens Gorbunkov's dramatic, theatrical announcement to his companions. The candidate also gives no marker that the second line is a different speaker (the policeman), so the register clash may be less clear."
         }
       ]
     },
@@ -140,16 +140,16 @@
       "candidate": "As our dear boss says,\nOn someone else's dime, even teetotalers\nand convalescers drink!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis stresses the balanced, proverbial rhythm of trezvenniki/yazvenniki. The English has no parallel suffixes, rhyme or rhythm and reads as a plain statement, so the 'law of nature' feel is weak."
+          "justification": "The analysis calls for a balanced, rhythmic, proverbial feel (trezvenniki/yazvenniki) and asks for a creative solution. The candidate is flat prose with no rhythm, parallelism or sound play, so the 'law of nature' effect is lost."
         },
         {
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "\"Convalescers\" is not the same as язвенники (ulcer sufferers). People recovering from illness is a different idea, so the medical-conviction contrast is blurred."
+          "justification": "'Convalescers' misrenders 'язвенники' (people with ulcers, who must avoid alcohol). It suggests people recovering from illness, which is less precise and less funny."
         }
       ]
     },
@@ -259,9 +259,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "Quotation marks around each fragment, plus the added ellipsis and exclamation (\"In a cast!\"), change the flat, mechanical, telegraphic alibi into something more dramatic and punchy. The deadpan repeated-script effect is weakened."
+          "justification": "Each fragment is wrapped in separate quotation marks, which suggests different quoted speakers or a dialogue exchange. This weakens the single deadpan, telegraphic recitation of one rehearsed alibi."
         }
       ]
     },
@@ -338,14 +338,7 @@
         "language_specific": {}
       },
       "candidate": "Well, if you're ever in Kolyma...\nNo, better you visit us!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The dashes marking the change of speaker are dropped. The two lines of the exchange between the guest and Gena run together as if one person said both, which makes it harder to see that Gena is rejecting the invitation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 21,
@@ -395,14 +388,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 5
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 5,
+    "total_points": 8,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.34782608695652173,
+    "major_equiv_per_unit": 0.06956521739130435,
+    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

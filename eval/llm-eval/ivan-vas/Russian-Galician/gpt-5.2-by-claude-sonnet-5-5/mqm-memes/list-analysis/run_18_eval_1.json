@@ -16,7 +16,20 @@
         "language_specific": {}
       },
       "candidate": "Asáltanme outra vez\nvagas dúbidas...\nA Shpak faltoulle o magnetófono,\nao embaixador, o medallón.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'vagas dúbidas' is a flatter, more neutral rendering than the mock-heroic, theatrical 'terzan/escuras sospeitas'; the lofty operatic register is weakened, though 'Asáltanme' retains some elevation."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'faltoulle' (was lacking to him) is ambiguous and could be read as a simple lack. It broadly conveys loss, but is less clear than 'desapareceulle' that each lost the item."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,7 +44,14 @@
         "language_specific": {}
       },
       "candidate": "Ola, son o tsar, moito gusto. Son o tsar, moito gusto, o tsar. Moito gusto, ola, son o tsar.\nO tsar, moito gusto!\nOla, son o tsar! Moito gusto!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds extra lines ('O tsar, moito gusto! / Ola, son o tsar! Moito gusto!') that are not in the source, padding the repetition beyond the original."
+        }
+      ]
     },
     {
       "id": 3,
@@ -63,10 +83,10 @@
       "candidate": "Déixame, velliña, que estou de loito.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"de loito\" means being in mourning for a death, whereas the source \"в печали\" means being in sorrow or melancholy. This shifts the meaning slightly and weakens the Tsar's regal, archaic melancholy."
+          "justification": "'estou de loito' means 'I am in mourning', which changes 'в печали' (in sorrow/melancholy) into bereavement. This alters the meaning, and loses the regal, archaic melancholy described in the analysis."
         }
       ]
     },
@@ -83,7 +103,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, os demoños!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'demoños' is a diminutive/euphemistic form ('little devils') that weakens the Tsar's solemn terror, and the comma-set 'os demoños' in an exclamation can read as addressing the demons, though it is still reasonably the subject. The tone is somewhat comic rather than archaic."
+        }
+      ]
     },
     {
       "id": 6,
@@ -98,7 +125,14 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificante!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Mira o que fai' is colloquial and loses the archaic, solemn register of 'Вот что... делает'; 'Velaquí o que obra' is more fitting for the Tsar's voice."
+        }
+      ]
     },
     {
       "id": 7,
@@ -130,10 +164,10 @@
       "candidate": "Mira que entrei ben!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Mira que entrei ben!\" is slightly awkward and loses the sense of lucky timing in \"удачно зашел\", so the cheerful burglar's glee at his luck is weaker. It does correctly present him as just having entered."
+          "justification": "'Mira que entrei ben!' is unclear and reads as 'Look how well I entered', losing the idea of having struck lucky by choosing this apartment. It lacks the cheerful reaction of finding a goldmine, and its odd phrasing is not natural idiomatic Galician."
         }
       ]
     },
@@ -153,9 +187,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Caviar de ultramar... De berenxena\" calls the eggplant spread caviar, which the analysis NB explicitly warns against because it confuses viewers. The reference avoids this with \"manxar de ultramar\", which keeps the joke's inversion of status symbols clear."
+          "justification": "The candidate calls the eggplant spread 'Caviar de ultramar... De berenxena', which makes the eggplant dish 'caviar'. This violates the NB and risks confusing the audience; the joke relies on the cheap spread being passed off as an overseas delicacy."
         }
       ]
     },
@@ -177,7 +211,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"cámaras\" drops \"de cine\" (кинокамеры), and \"unha\" before the jacket is omitted. \"Camurza\" (chamois) is also less precise than \"ante\" for suede. The comic repetition of the count is preserved, though."
+          "justification": "'cámaras' drops 'de cine' (cine cameras), a small loss of precision; 'camurza' is also less standard than 'ante' for suede jacket. The count structure, with jacket followed by a late 'tres', is preserved."
         }
       ]
     },
@@ -199,21 +233,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks make the lines emphatic, while the analysis stresses Ulyana's calm, melodic resignation. The source's trailing ellipses and the gentle, hypnotic rhythm are lost."
+          "justification": "Exclamation marks make the delivery loud and emphatic, whereas the analysis stresses a melodic, calm resignation. The omitted ellipses also weaken the trailing, resigned tone."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 4
+      "major": 3,
+      "minor": 7
     },
-    "total_points": 9,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

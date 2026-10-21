@@ -153,10 +153,10 @@
       "candidate": "All, all that I earned\nby backbreaking labor,\nis gone: three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic...\na suede jacket... Three.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a whole opening clause ('All, all that I earned by backbreaking labor, is gone') that is absent from the source and reference. This is an unwarranted addition that changes the content of the line and adds a pathos-laden complaint not in the original. The core list, including the suede jacket slip that betrays Shpak, is preserved, but the added material alters the line."
+          "justification": "The candidate adds the lines 'All, all that I earned by backbreaking labor, is gone:', which are not in this source segment. The list of three items, with the suede jacket left uncounted, is rendered correctly, so the joke is intact, but the extra text is an addition."
         }
       ]
     },
@@ -178,21 +178,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation mark after the first 'And they'll cure you!' breaks the calm, melodic, resigned tone described in the analysis, since the line should be uniformly soft and trailing, as in the following ellipses."
+          "justification": "The exclamation mark after the first 'And they'll cure you!' breaks the calm, melodic resignation described in the analysis, which the reference carries with trailing ellipses. The meaning and the repeated structure are kept."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

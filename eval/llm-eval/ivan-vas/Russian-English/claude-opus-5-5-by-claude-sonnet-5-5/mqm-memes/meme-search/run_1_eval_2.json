@@ -24,9 +24,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The 'terzayut smutnye somneniya' register is only partly kept: 'Again I am tormented by vague misgivings' is suitably elevated, but the rhymed, folksy 'envoy's locket's not been seen' and 'tape machine' make the callback less like the clipped, accusatory list in the source and weaken the mock-heroic effect."
+        },
+        {
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "The mock-heroic opening ('tormented by vague misgivings') works, and 'lost' / 'not been seen' correctly conveys that the items are gone. But 'tape machine' is an unnatural rendering of 'tape recorder', and 'locket' is not 'medallion'. The wordy, colloquial 'not been seen' also softens the terse parallel structure of the original."
+          "justification": "'Tape machine' is an unnatural rendering of 'магнитофон' (tape recorder); 'locket' for 'медальон' is also slightly off. The lost-item meaning is correctly preserved, though."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The bare 'Tsar.' after 'Pleased to meet you' is ambiguous and can read as addressing a Tsar. The analysis note says the translation must make clear that Bunsha is introducing himself as the Tsar. The reference does this with 'I'm the Tsar' and 'Hello, the Tsar', and the candidate does not."
+          "justification": "The analysis requires it to be clear that Bunsha introduces himself as the Tsar. 'Tsar.' alone, after 'Pleased to meet you', reads as a bare label or as addressing a Tsar, so the self-introduction joke is not clear. The 'Hello, I'm the Tsar' framing is missing."
         }
       ]
     },
@@ -100,7 +106,14 @@
         "language_specific": {}
       },
       "candidate": "Walled me in!\nWalled me in, the fiends!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Fiends' keeps the demons as the subject and the sense of a mystical trap, but it is slightly less archaic and explicit than 'demons' and loses the direct 'demons' reference; the sentence structure and effect are otherwise preserved."
+        }
+      ]
     },
     {
       "id": 6,
@@ -140,7 +153,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' is a plain imperative and conveys the command, but it lacks the party-host, take-charge flavor of the reference, and so carries less of the comic sense of a repressed official taking over the event."
+        }
+      ]
     },
     {
       "id": 8,
@@ -160,7 +180,14 @@
         }
       },
       "candidate": "Well, didn't I drop by at the right time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Didn't I drop by at the right time' correctly shows he has just arrived, but it is wordy and rhetorical, and less casual and cheerful than the short original exclamation."
+        }
+      ]
     },
     {
       "id": 9,
@@ -185,7 +212,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Overseas caviar... Aubergine!', which the analysis note explicitly forbids because it confuses viewers. The joke depends on telling real black and red caviar apart from cheap eggplant spread, and the candidate blurs that distinction."
+          "justification": "The translation calls the eggplant spread 'Overseas caviar', which the notes explicitly forbid because it confuses viewers. 'Aubergine!' then comes across as a puzzling punchline instead of the cheap 'eggplant caviar' being presented as an exotic delicacy, so the status-inversion joke is lost."
         }
       ]
     },
@@ -209,10 +236,16 @@
       "candidate": "tape machines, 3;\ncine cameras, 3;\ncigarette cases, domestic, 3;\njacket, suede: three.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Tape machines' is an unnatural term for tape recorders. Putting the count after each item ('3;', 'three') turns the spoken, escalating inventory into a written list, which weakens the rhythm of the 'three... three' gag. The suede jacket and final 'three' are preserved, so the joke still mostly works."
+          "justification": "The list is restructured so that every item, including the jacket, gets the count 'three' in the same format. The joke that Shpak forgets to increment the jacket count and ends up with the correct count only at the end is lost, since 'jacket, suede: three' turns it into a consistent, deliberate pattern."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "'Tape machines' and 'cine cameras' are unnatural for 'магнитофоны' and 'кинокамеры' in English (tape recorders, movie cameras)."
         }
       ]
     },
@@ -231,24 +264,24 @@
       "candidate": "They'll cure you too!\nAnd they'll cure you too!\nAnd they'll cure me!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The three exclamation marks and the missing opening 'And' make the delivery sound emphatic. The analysis describes melodic, calm resignation. The meaning is intact, but the tone is less calm and trailing than in the original."
+          "justification": "The first line 'They'll cure you too!' adds 'too' at the start, so it implies someone has already been cured and changes the progression of the original ('И тебя вылечат… и тебя тоже вылечат… и меня вылечат'). The reference's calm, melodic resignation is replaced by repeated exclamation marks, which also turns the quiet, resigned tone into an emphatic one."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 3
+      "major": 4,
+      "minor": 6
     },
-    "total_points": 13,
+    "total_points": 26,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.3636363636363638,
+    "major_equiv_per_unit": 0.4727272727272728,
+    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

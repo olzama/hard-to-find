@@ -34,9 +34,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "\"hire\" fits the staffing logic, but \"Baba Yaga\" is left untranslated and keeps the line in fairy-tale territory. The analysis wants the 'toxic woman in the workplace' sense, which an English audience may not get without the reference's 'witch' framing. The workplace logic is still preserved, so the damage is limited."
+          "justification": "\"Hire\" is a fine workplace verb, but it loses the 'bring in vs. cultivate' contrast slightly less sharply than 'train'; still, the workplace logic and Baba Yaga type are preserved, so only a slight weakening. The kept Russian name 'Baba Yaga' may not evoke the nasty-woman social type for English viewers without context."
         }
       ]
     },
@@ -58,7 +58,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Briefly\" comes before \"forty minutes\", so the comic reversal is kept. The candidate then says \"we need any longer\" instead of \"any more than that\", which is slightly less natural. The smug, managerial tone is somewhat flatter, but the joke still works."
+          "justification": "\"Briefly\" is rendered flatly without any faux-modest or cozy diminutive feel of «коротенько», so the contrast with 'forty minutes' is weaker. The pacing (briefness before duration) is preserved."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"We need any longer\" slightly shifts the meaning from 'more than forty minutes' to duration, but the sense is retained."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives only the literal 'ready' reading, with no hint of the 'drunk' double meaning that the analysis calls the core of the joke. The reference preserves the ambiguity through its emphatic \"Oh, he's ready. He's been ready for quite a while\", but the candidate's \"He's ready! He's been ready for ages!\" is too plain for the ambiguity to be heard. The punchline is lost."
+          "justification": "The candidate keeps only the literal 'ready' / 'ready for ages' reading and does not recreate the 'ready = drunk' double meaning; the exclamation marks hint at it slightly, but the alcoholic joke is essentially lost. It also omits the dash-separated exchange, so it is unclear that two speakers are talking."
         }
       ]
     },
@@ -100,9 +106,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate normalizes the drunken entrance into a clean \"People! Hello?\". It drops the stretched, broken vocalization (\"Peo-ple! Ah… hellooo!\") that the analysis says carries the physical comedy, and it loses the faltering, wavering quality that is the point of the line."
+          "justification": "The line is normalized into a clean 'People! Hello?' with no stretched, broken vocalization (Peo-ple, Ah…, hellooo). The drunken, faltering oratory and physical comedy described in the analysis disappear."
         }
       ]
     },
@@ -129,7 +135,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"with the naked eye\" and then \"duly equipped\", which makes the phrase nearly logical and loses the malformed-idiom joke. The analysis says the humor depends on the idiom being almost right but wrong, as in \"aided eye\". The candidate also spreads the phrase over two clauses, so the mock-scientific deformation is diluted. The comic effect is largely gone."
+          "justification": "\"Look with the naked eye duly equipped\" is contradictory in a mundane way rather than a recognizable mangled idiom: it keeps 'naked eye' but the 'equipped' addition is a separate clause, so the pseudo-scientific wording sounds more like a clumsy paraphrase than the 'unaided eye' type distortion. The mock-scientific malformation is only partly conveyed, though the contradiction (telescope + naked eye) does give some absurdity."
         }
       ]
     },
@@ -154,9 +160,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The star progression and the \"five stars\" punchline are kept, and the cognac association is carried by the same reading as in the reference. The \"Four stars.\" break slightly interrupts the trivial counting rhythm, and there is no note on the cognac reference. The effect is weaker, but the line still works."
+          "justification": "The counting is preserved and the 'five stars' punchline lands, but the cognac association is not signalled for English viewers (no note), and the line omits 'As we can already see' lecture framing, so the derailment is slightly less clear."
         }
       ]
     },
@@ -178,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science has not yet been informed\" keeps the personification of science. However, \"informed\" is a little more formal than the colloquial \"isn't up to speed\" or «не в курсе дела». The casual register that carries the comic effect is slightly weakened, but the joke survives."
+          "justification": "\"Science has not yet been informed\" keeps the personified, casual feel well, but \"Is there no life on Mars?\" is a bit stiff and less colloquial than «нет ли жизни». The register is slightly more formal than the reference's 'isn't up to speed'."
         }
       ]
     }
@@ -186,13 +192,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 4
+      "minor": 5
     },
-    "total_points": 19,
+    "total_points": 20,
     "meaning_units": 8,
-    "penalty_per_unit": 2.375,
-    "major_equiv_per_unit": 0.475,
-    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5,
+    "major_equiv_per_unit": 0.5,
+    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

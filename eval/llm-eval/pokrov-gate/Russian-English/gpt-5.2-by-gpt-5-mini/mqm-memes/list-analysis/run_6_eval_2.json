@@ -46,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "Oh, such... such *civilized* relations!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the sarcastic exclamation but replaces the clipped/stuttering prosodic joke of the original ('Выс-с-сокие' — drawn-out, stammered word) with a simple emphatic adjective ('civilized'). This slightly alters the original's rhythmical gag and refrain-like quality."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -73,7 +66,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "‘You don’t live for joy—you live for conscience’ is understandable but unidiomatic in English and shifts the force from the communal/duty-driven fatalism ('duty'/'to be happy') described in the analysis to a more inward moralizing 'conscience.' The phrasing weakens the soldierly, duty-centered tone."
+          "justification": "The candidate renders совесть as \"conscience,\" which shifts the nuance from the idiomatic idea of duty/obligation ('live to do your duty') to a more inner-moral sense. The line is also slightly less idiomatic in English than the reference, weakening the soldierly, fatalistic tone described in the analysis."
         }
       ]
     },
@@ -110,7 +103,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source uses an absurd domestic insult derived from a neutral profession ('Кулинар!') — the approved translation keeps that sense ('Some cook you are!'). The candidate 'You menace!' changes the meaning completely and loses the comedic effect based on turning a profession into a loud household rebuke."
+          "justification": "The source is a sarcastic exclamation using a professional term as a scathing insult (roughly 'Some cook you are!'). The candidate \"You menace!\" does not convey that meaning, tone, or the absurd-professional-as-insult device and thus fails to capture the line's comic effect and intent."
         }
       ]
     },
@@ -162,7 +155,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The surname is transliterated differently ('Khabotov' vs. expected 'Khobotov'). This is a small but noticeable accuracy/consistency issue for a repeated character name."
+          "justification": "The candidate uses the name spelling \"Khabotov\" instead of the expected transliteration \"Khobotov.\" This alters the proper name slightly (typo/inconsistency) though the rest of the line preserves the intended dismissive tone."
         }
       ]
     },
@@ -184,7 +177,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as 'He’s my cross to bear!', which personifies the burden as a person and changes the original manipulative idiom. The source and reference present a self-designated burden ('This is my cross to bear' / 'This is my cross! And mine alone!'), whereas the candidate misassigns grammatical subject and alters the manipulative theatricality crucial to the line."
+          "justification": "The candidate changes the grammatical subject to \"He’s my cross to bear,\" introducing a person as the cross, whereas the source and reference present the speaker's own suffering as the cross to bear. This reverses the intended manipulative self-sacrificing stance and distorts the line's psychological and rhetorical effect."
         }
       ]
     },
@@ -207,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 13,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

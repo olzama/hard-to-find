@@ -18,16 +18,10 @@
       "candidate": "that should have been me.\nGet drunk enough, and it will be!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate drops the initial vocative ('Guys'), which reduces Gorbunkov's theatrical, spy-thriller register and makes the line less dramatic compared with the analysis' clash of registers."
-        },
-        {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The policeman's retort in the candidate uses 'it will be' instead of addressing the person ('you will be'), which weakens the mocking cop-humour that treats 'being carried away' as an inevitable personal fate."
+          "justification": "The second line 'Get drunk enough, and it will be!' is ambiguous: the pronoun 'it' has no clear referent in English and fails to mirror the policeman's mocking meaning ('you will be [carried off]'). This loses the joke's punch and makes the reply confusing."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is a literal rendering ('but I'm afraid') and loses the light, bouncing comic effect created by the original rhyme and the analysed gentle, endearing admission of vulnerability."
+          "justification": "The candidate is a literal rendering ('I'm no coward... but I'm afraid.') that preserves meaning but loses the light, bouncing comic effect created by the Russian rhyme/contrast noted in the analysis, making it less playful."
         }
       ]
     },
@@ -91,7 +85,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Starting with 'Look' and using 'Moral character-o' slightly shifts Gena's pompous performative tone; the candidate still conveys the multilingual gag but softens the original theatrical pseudo-sophistication."
+          "justification": "The playful mock-foreign phrasing 'Obliko Morale' is rendered as 'Moral character-o,' which communicates the idea but flattens the multilingual, performative pseudo-Italian/loanword joke and weakens the comic sophistication Gena tries to project."
         }
       ]
     },
@@ -138,14 +132,7 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kids,\nflowers for his wife.\nDon't mix them up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Using 'wife' instead of the rougher slang ('babe'/'broad') tones down Lyolik's unrefined register and reduces the comic bite of his brusque, non-standard speech."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -170,7 +157,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves meaning but loses the original's rhythmic echo (trezvenniki/yazvenniki). The line becomes flatter and misses the balanced, proverbial cadence the analysis highlights."
+          "justification": "The candidate keeps the meaning (teetotalers vs. ulcer sufferers) but loses the original's rhythmic parallelism (trezvenniki/yazvenniki). The proverb-like balanced cadence is less effective in translation."
         }
       ]
     },
@@ -232,7 +219,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is correct but loses the elongated, weary sigh ('Semyo-o-on Semyonych!') that conveys melodic resignation; the flat 'Semyon Semyonovich!' is accurate but slightly less expressive."
+        }
+      ]
     },
     {
       "id": 13,
@@ -307,14 +301,7 @@
         "language_specific": {}
       },
       "candidate": "I'm innocent! He came here himself!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate renders the line in standard English ('I'm innocent! He came here himself!'), losing the analysed provincial/folk slip that exposes the character's faux-sophistication in a panicked moment."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 18,
@@ -409,21 +396,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys refusal clearly but replaces the intentionally nonstandard rural verb form with a neutral phrasing, losing the folksy comedic flavor noted in the analysis."
+          "justification": "The source's intentionally nonstandard folk phrasing (comic, stubborn dialect) is neutralized by the candidate's standard 'I can't go along with that,' losing the rural/colloquial flavor that adds humor."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 8
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 8,
+    "total_points": 10,
     "meaning_units": 23,
-    "penalty_per_unit": 0.34782608695652173,
-    "major_equiv_per_unit": 0.06956521739130435,
-    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.43478260869565216,
+    "major_equiv_per_unit": 0.08695652173913043,
+    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

@@ -58,7 +58,14 @@
         }
       },
       "candidate": "just briefly—say,\nabout forty minutes; more, I think,\nisn’t necessary...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the basic contrast between 'brief' and 'forty minutes,' but 'just briefly' is a flatter, less diminutive phrasing than the Russian «коротенько», which carries a coy, belittling tone that makes the forty-minute length more absurd. This slightly weakens the faux-modest, patronizing voice of Ogurtsov."
+        }
+      ]
     },
     {
       "id": 4,
@@ -79,10 +86,10 @@
       "candidate": "Is the lecturer ready?\n- The lecturer’s ready—been ready a while now!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps the surface exchange but weakens the Russian double meaning of «готов» (ready vs. already drunk). In English, 'ready' ordinarily lacks the alcoholic subtext, so the ironic ambiguity is less clear than in the original; the comic double reading is only faintly preserved."
+          "justification": "The Russian line relies on the double reading of «готов» ('ready' vs. 'smashed/drunk'). The candidate only preserves the literal 'ready' reading; it fails to recreate the alcoholic subtext (or a clear double meaning), so the crucial secondary joke about the lecturer already being drunk is largely lost."
         }
       ]
     },
@@ -171,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 1
     },
-    "total_points": 1,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.125,
-    "major_equiv_per_unit": 0.025,
-    "interpretation": "0.12 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

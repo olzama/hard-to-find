@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning and humour but tones down the theatrical self-dramatisation of the original ('Pray, tell me, name them!! Go on, I'll wait!'). 'Name one! No, I'm waiting!' is more colloquial and loses some of the exaggerated, showy register that makes the line a comic act of self-presentation."
+        }
+      ]
     },
     {
       "id": 2,
@@ -48,10 +55,10 @@
       "candidate": "Lofty... lofty relations.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Lofty... lofty relations.' renders the line as a literal noun phrase and loses the sarcastic exclamatory rhythm and comic stuttering indicated in the analysis. The result flattens the famous refrain and weakens the intended contrast between claimed 'intelligentsia' and oppressive control."
+          "justification": "The candidate 'Lofty... lofty relations.' uses a literal noun phrase that reads awkwardly in English and misses the sarcastic, stretched exclamatory delivery of the original refrain (which relies on an ironic, performative interjection rather than a flat literal noun). This weakens the catchphrase effect."
         }
       ]
     },
@@ -70,10 +77,10 @@
       "candidate": "People don't live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "Using 'conscience' ('live for conscience') shifts the nuance away from the more idiomatic 'duty' or 'to do your duty' that conveys the soldierly fatalism described in the analysis. The line is understandable but less natural and slightly changes the pragmatic meaning."
+          "justification": "Rendering 'совести' as 'conscience' ('People don't live for joy—they live for conscience.') produces an unnatural and semantically shifted English line. The reference's 'live to do your duty' conveys the soldierly fatalism and moral-duty justification that is central to the character; the candidate fails to deliver that idiomatic sense and the pragmatic meaning is weakened."
         }
       ]
     },
@@ -110,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' changes the target idiom from a brusque ironic rebuke ('Some cook you are!') to a different sarcastic register. It works as an insult but shifts tone and domestic imperiousness into a more playful compliment-like sarcasm, weakening the original caustic bite."
+          "justification": "The candidate 'Culinary genius!' reads like enthusiastic praise rather than the sharp, scolding, absurd domestic insult intended by the original. Even if intended sarcastically, the lexical choice and register differ from the biting, idiomatic rebuke ('Some cook you are!'), reducing the line's comic sting."
         }
       ]
     },
@@ -162,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The character name is mistransliterated as 'Khabotov' instead of the expected 'Khobotov' (adds an extra vowel sound). This is an accuracy issue with proper name rendering, even though the rest of the line preserves the intended tone."
+          "justification": "The candidate spells the name as 'Khabotov' instead of the expected transliteration 'Khobotov' (or 'Khobotov' as in the reference). This is a minor but noticeable inconsistency in the character's name that may distract viewers familiar with the canonical form."
         }
       ]
     },
@@ -184,7 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits the idiom ('This is my cross! / And it's mine to bear.') rather than using the idiomatic English fixed expression 'a cross to bear.' The analysis warns that a literal split ('This is my cross!') undermines the fixed idiom and the manipulative rhetorical force; the candidate therefore fails to convey the compact, manipulative idiomatic phrasing."
+          "justification": "Splitting the fixed idiom into 'This is my cross! / And it's mine to bear.' breaks the established English idiom 'a cross to bear' and alters the idiomatic force of the line. The reference preserves the manipulative grandiosity; the candidate's literal split undermines the idiomatic expression and weakens the intended rhetorical effect."
         }
       ]
     },
@@ -206,7 +213,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'awkward thing' and the literal 'angular,' which the analysis specifically warns against ('угловатая' should not be translated literally as 'angular'). These choices make the line sound odd and less idiomatic, weakening the mock-coy, self-deprecating register of the original."
+          "justification": "Phrases like 'such an awkward thing' and the literal 'angular' make the line sound clumsy and overly literal in English. The original thrives on a coquettish, self-deprecating rhythm and idiomatic phrasing; the candidate's choices reduce naturalness and comedic register."
         }
       ]
     }
@@ -214,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 4
+      "minor": 5
     },
-    "total_points": 14,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

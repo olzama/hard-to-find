@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as possessive ('Shpak's tape recorder, the ambassador's medal'), implying they currently have those items. The analysis explicitly notes these phrases mean the items have been lost/are missing (they are the objects of theft). This reverses the intended meaning and undermines the comedic callback about disappeared goods."
+          "justification": "The Russian construction means those items have been taken/lost (each of them is missing the item). The candidate’s phrasing 'Shpak's tape recorder, the ambassador's medal' reads as simple possession, which reverses the intended meaning and loses the implication that these items are now gone."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference's mock-heroic register ('Vague doubts haunt me...') is more theatrical than the candidate's 'I'm beginning to have a nagging suspicion again,' which weakens the heightened, comic-tragic tone described in the analysis."
+          "justification": "The original uses a mock-heroic, elevated phrase ('терзают смутные сомнения'). The candidate's 'I'm beginning to have a nagging suspicion again...' is conversational and flattens the ironic high-register theatrical tone that creates much of the humor."
         }
       ]
     },
@@ -51,10 +51,10 @@
       "candidate": "A pleasure! Hello, Tsar!\nTsar, a pleasure!\nHello, Tsar! A pleasure!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate ('Hello, Tsar! ... A pleasure!') reads like addressing the Tsar rather than the performative self-introduction the analysis requires (Bunsha introducing himself as 'the Tsar'). This makes the line ambiguous and reduces the intended comedic effect of repetitively introducing himself as the ruler."
+          "justification": "The line should make clear Bunsha is introducing himself as the Tsar (i.e., claiming to be the Tsar), not addressing someone else as 'Tsar.' The candidate's ordering ('Hello, Tsar!') reads as addressing a sovereign rather than introducing himself, which contradicts the analysis and the comic effect."
         }
       ]
     },
@@ -91,7 +91,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman;\nI am in mourning.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'Leave me be, old woman; I am in mourning.' shifts the nuance from 'I am in sorrow' to the more formal/ceremonial 'in mourning,' which slightly alters the archaic melancholy and register of the original without breaking meaning."
+        }
+      ]
     },
     {
       "id": 5,
@@ -191,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as 'Exotic caviar... Eggplant!', which presents the eggplant spread as a kind of 'caviar' (an 'exotic caviar'). The analysis warns that eggplant spread must not be called 'caviar' because the joke depends on treating a cheap eggplant spread as a humble item contrasted with real caviar. Calling it 'caviar' confuses and undermines the satirical inversion."
+          "justification": "The joke hinges on treating 'баклажанная' as 'eggplant' spread contrasted with genuine caviar; translations must not present eggplant as a type of caviar. The candidate's 'Exotic caviar... Eggplant!' implies eggplant is being called 'caviar,' which confuses the satirical inversion and violates the analysis note."
         }
       ]
     },
@@ -218,7 +225,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The humour hinges on Shpak's stuttering count and the comic reveal/hesitation about the suede jacket ('...a suede jacket... Three'). The candidate lists 'three suede jackets' straightaway, removing the hesitation and the shifting tally that make the line funny, thereby changing the joke's mechanics and weakening the comedic effect."
+          "justification": "The humor depends on Shpak's stuttering recounting and the comedic miscount (he increases the count as he speaks). The candidate renders a flat list ('three ... three ... three suede jackets'), removing the hesitation and the revealing slip that produces the joke, thereby losing the comic effect."
         }
       ]
     },
@@ -240,21 +247,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference uses a resigned, melodic repetition ('And they’ll cure you… and they’ll cure you too… and they’ll cure me…'). The candidate turns the lines into exclamatory sentences, which increases urgency and hysteria and slightly alters the intended calm, resigned tone."
+          "justification": "The original’s melodic, resigned repetition is calmer and almost lullaby-like. The candidate uses exclamatory lines ('They'll cure you!'), which makes the delivery more frantic and less resigned, softening the intended ironic, subdued tone."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 4,
       "minor": 3
     },
-    "total_points": 18,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

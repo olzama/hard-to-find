@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Hire Baba Yaga\" keeps the staffing logic, but \"Baba Yaga\" is left untranslated and may not evoke the nasty-woman workplace type for English viewers as \"witch\" does. \"Raise one\" is also less training/cultivation-like than \"train in-house\", though \"within our own collective\" keeps the Soviet workplace flavor."
+          "justification": "\"Hire Baba Yaga\" keeps the fairy-tale name, which leans toward the fantastical the analysis warns against, though \"hire\" and \"raise one within our own collective\" keep the workplace logic. \"Collective\" is a Sovietism that suits the setting. The social type of the nasty woman is only implied, not made clear to an English audience."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Briefly\" is flat and lacks the faux-modest, cozy diminutive tone of \"коротенько\", so the contrast with \"forty minutes\" is weaker. The ending \"isn't necessary\" is stiffer than the casual \"I don't think we need any more\". The order (briefly before duration) is preserved."
+          "justification": "\"Briefly\" is kept before \"forty minutes\", so the order of the reversal is preserved. The cozy, faux-modest, self-satisfied tone of \"коротенько\" is flat. \"More, I think, isn't necessary\" is stiff and loses the smug managerial tone of the original."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double sense of \"готов\" (ready / drunk) is not recreated. \"Ready a long time ago\" is also an awkward phrasing, so the intoxication subtext is lost and only the literal readiness remains."
+          "justification": "The double meaning of \"готов\" (ready / drunk) is not recreated. \"Ready a long time ago!\" is a plain statement of readiness with no hint of intoxication, so the central joke is lost. The reference's \"he's been ready for quite a while\" keeps at least a knowing tone."
         }
       ]
     },
@@ -122,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, stretched vocalization is only partly kept. \"People!\" is a clean, unbroken word, unlike the faltering \"Peo-ple!\", so the drunken physical comedy is weakened. The \"Ah... Helloo!\" ending retains some instability."
+          "justification": "The broken, stretched vocalization of the original (\"Лю-ди!\") is only partly kept. \"People!..\" is clean and has no drawn-out syllables. Only the ellipses and \"Helloo\" suggest wavering, so the drunken physical comedy is weaker."
         }
       ]
     },
@@ -151,7 +151,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The literal \"armed eye\" is exactly the calque the analysis warns against. It does not echo \"unaided eye\", so the recognizable idiom being wrongly \"upgraded\" is lost and the line sounds merely surreal."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis says to avoid. It does not echo the familiar English idiom \"unaided eye\", so the sense of a familiar idiom being wrongly upgraded is lost and the phrase just sounds odd and surreal."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line ends with a comma, and the exclamatory pomp of the original (\"Но стоит только нам взять телескоп!\") is flattened by the ellipsis and the split into two lines."
         }
       ]
     },
@@ -177,10 +183,10 @@
       "candidate": "and we already see two stars,\nthree stars...\nFour stars—best of all, of course,\nfive stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline is kept, but \"Four stars—best of all, of course, five stars!\" merges four stars into the superlative, which blurs the trivial counting buildup and the sudden click to five stars. The cognac association is also not signaled, though the analysis says a note may be needed."
+          "justification": "The progression is changed. In \"Four stars—best of all, of course, five stars!\" the lecturer calls four stars the best, which muddles the buildup. The punchline \"five stars is best\" is blurred, and the sudden click into the cognac frame is weakened. The line also has no note on the cognac association."
         }
       ]
     },
@@ -206,21 +212,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning and casual tone are largely kept, and \"in the know\" captures the colloquial register. \"Science does not know\" is slightly more formal than \"unknown to science\", and the repeated \"life on Mars\" phrasing is a bit clunky."
+          "justification": "The meaning is correct and the casual register is mostly kept. \"Science is not yet in the know\" works well. \"Science does not know\" is slightly flatter and more formal than \"unknown to science\" and the conversational tone. The \"there isn't life on Mars\" phrasing is a little clumsy."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 5
     },
-    "total_points": 15,
+    "total_points": 20,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5,
+    "major_equiv_per_unit": 0.5,
+    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

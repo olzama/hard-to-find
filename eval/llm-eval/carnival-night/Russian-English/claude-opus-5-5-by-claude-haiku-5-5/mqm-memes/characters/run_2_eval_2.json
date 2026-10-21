@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't bring\nBaba Yaga in from outside,\nwe'll raise one in our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The closing exclamation mark adds emphasis the source does not have. Ogurtsov's dry, managerial delivery is flatter, so the final line sounds more excited than the analysis describes."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,19 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Briefly' is flat and does not carry the faux-modest, diminutive quality of «коротенько» that the analysis says is needed. The contrast with 'forty minutes' is still present, so the effect is weakened rather than lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'No more, I don't think we need more' repeats the same idea twice in a clumsy way. The source's single hedged clause ('больше, я думаю, не надо') is rendered as a redundant pair."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line ends on a trailing comma rather than the ellipsis in the source. This weakens the trailing-off cadence of the lecturer's unfinished thought."
+          "justification": "The candidate ends on a trailing comma (\"we need more,\") where the source trails off with an ellipsis (\"не надо…\"). The hesitant, self-satisfied fade that closes Ogurtsov's line is lost."
         }
       ]
     },
@@ -90,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The exclamation mark on 'he's been ready for ages!' adds enthusiasm that the flat, administrative 'давно готов' does not have. This slightly shifts the tone of the offscreen reply toward cheerfulness."
+          "justification": "The intoxication subtext of \"готов\" (\"done for / drunk\") is not recreated. \"Ready\" and \"he's been ready for ages\" keep only the administrative reading, so the double sense the analysis asks for is weakened. The reference has the same limitation, so this is a shared gap rather than a candidate-specific error."
         }
       ]
     },
@@ -114,7 +95,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'People!.. Ah... Yoo-hoo!' is cleaner and more cheerful than the broken, stretched vocalization the analysis asks for. 'Peo-ple' lacks the faltering split, so the sense of the lecturer losing control of his speech is weaker. The leading dash is also an unexplained addition."
+          "justification": "The stretched, broken vocalization of \"Лю-ди!\" is not rendered: \"People!\" has no stretch, and \"Yoo-hoo!\" is a more cheerful call than the faltering \"ау\". The leading dash is also an unexplained formatting artifact for a single speaker."
         }
       ]
     },
@@ -139,9 +120,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The line ends on a comma instead of the source's '!..'. The trailing stop removes the sense of a grand pronouncement dissolving, which the analysis treats as part of the comic effect."
+          "justification": "The final line ends on a bare comma (\"...with the aided eye,\") where the source ends on a trailing \"!..\" climax. The dramatic close of the sentence is lost, although the \"aided eye\" solution itself correctly matches the reference."
         }
       ]
     },
@@ -165,16 +146,10 @@
       "candidate": "and we already see two\nstars, three stars...\nFour stars, and best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate has no cultural note for the cognac association. The punchline depends on 'five stars' suddenly clicking into the cognac grading system, and without a note most English viewers will read it as an ordinary number. The shift from astronomy to drunken derailment is lost, and the reference's bracketed note and the analysis's language-specific guidance both point to this need."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line opens with a lowercase 'and' that has no clear connection to the preceding line. The source's 'Как мы уже видим' ('As we can already see') is dropped, which makes the opening feel unmotivated."
+          "justification": "The cognac association behind \"пять звёздочек\" is not signalled. The reference adds a bracketed note explaining that five-star was the USSR's best cognac, and the candidate has no equivalent. Without it, the sudden shift into the cognac domain, which the analysis identifies as the punchline, is only partly accessible to the target audience."
         }
       ]
     },
@@ -196,21 +171,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Whether there's life on Mars or there's no life on Mars' is clunkier than the natural 'or not' form in the reference. The repeated 'there's' makes the opening sound overly mechanical, though the meaning is preserved."
+          "justification": "\"Whether there's life on Mars or there's no life on Mars\" is grammatical but clunky. The repeated \"there's no\" is heavier than the reference's concise \"or not\", and it weakens the subtitle's rhythm."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 9
+      "major": 0,
+      "minor": 6
     },
-    "total_points": 14,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

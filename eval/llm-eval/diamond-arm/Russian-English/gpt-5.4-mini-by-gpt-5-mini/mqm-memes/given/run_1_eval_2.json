@@ -61,7 +61,14 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nunfortunately nothing's going to happen!\nRusso Turisto...\nObliko Morale... verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate adds 'You know,' and drops the initial generic salutation 'Lady,' which slightly alters Gena's projecting-of-worldliness register. The overall playful multilingual mash-up is preserved, but the change weakens the original performative opening."
+        }
+      ]
     },
     {
       "id": 5,
@@ -126,7 +133,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The Russian line relies on rhythmic, rhyming pairings (trezvenniki / yazvenniki) to produce a proverbial cadence. The candidate’s phrasing ('teetotalers and convalescers') conveys the meaning but loses the original balanced, punchy rhythm that contributes to the comedic, proverbial effect."
+          "justification": "The candidate conveys the meaning but loses the rhythmic pairing (trezvenniki/yazvenniki) that gives the original its proverbial, punchy balance. The line still works but lacks the verbal symmetry called for in the analysis."
         }
       ]
     },
@@ -193,7 +200,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source line is a melodic, drawn-out sigh ('Semyo-o-on Semyonych!') that communicates weary, elongated exasperation. The candidate reduces this to a short, neutral 'Semyon Semyonovich...' and so loses the sing-song, elongated delivery that defines the line's comic/affective quality."
+          "justification": "The candidate is a straightforward rendering but loses the drawn-out, melodic sigh of the original elongated name, softening the weary, musical quality described in the analysis."
         }
       ]
     },
@@ -315,7 +322,14 @@
         "language_specific": {}
       },
       "candidate": "Well, if you're ever in Kolyma...\nIf you're ever in Kolyma - you're warmly invited!\nNo, better you visit us!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds an extra cheerful line ('If you're ever in Kolyma - you're warmly invited!') that undermines the core joke: Gena's reflexive reading of a benign invitation as a threat. The added friendly rejoinder changes the dynamic and weakens the punchline based on Kolyma's association with camps."
+        }
+      ]
     },
     {
       "id": 21,
@@ -335,7 +349,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis flags Gena's affected pronunciation ('kof-e') as an important character marker. The candidate renders 'coffee' in a neutral, standard form and thus loses that comic marker of pretension and disrupted register."
+          "justification": "The candidate conveys the actions but drops the marked affected pronunciation of 'coffee' (the comic 'kof-e'/'coff-ey' trait). This loses a small but important characterizing detail that signals Gena's pretentiousness."
         }
       ]
     },
@@ -357,7 +371,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate’s final line ('No, yes... we'll keep looking...') introduces an awkward hesitation ('No, yes') that is unclear and less natural than the concise, decisive reaction in the reference. This weakens the stalling/polite rejection dynamic present in the original exchange."
+          "justification": "The candidate introduces an awkward 'No, yes...' sequence that reads as hesitating and unclear. The intended stalling tactic is present, but the phrasing is clumsy and disrupts the conversational flow."
         }
       ]
     },
@@ -379,14 +393,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 4
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 4,
+    "total_points": 10,
     "meaning_units": 23,
-    "penalty_per_unit": 0.17391304347826086,
-    "major_equiv_per_unit": 0.034782608695652174,
-    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.43478260869565216,
+    "major_equiv_per_unit": 0.08695652173913043,
+    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

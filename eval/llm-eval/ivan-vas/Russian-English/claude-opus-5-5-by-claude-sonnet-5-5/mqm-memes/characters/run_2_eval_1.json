@@ -26,7 +26,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The mock-heroic register is mostly preserved ('tormented by vague doubts'), but the inverted syntax 'Again I'm tormented' reads slightly stiffer and 'missing' is a bit plainer than the reference. The 'ambassador a medallion' ellipsis is a little clipped. The meaning of loss is correctly conveyed."
+          "justification": "The mock-heroic 'terzayut smutnye somneniya' register is carried reasonably by 'tormented by vague doubts', but the inverted, line-broken phrasing ('Again I'm tormented') is slightly less natural and the elevated tone is weaker than the reference."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Shpak's missing a tape recorder, the ambassador a medallion' correctly conveys loss rather than possession, but the elliptical second clause is slightly stiff and the terse list-like callback rhythm is lost."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha addressing a Tsar ('Very pleased, Tsar!', 'Hello, Tsar!') rather than introducing himself as the Tsar. The analysis explicitly requires making clear he is introducing himself as the Tsar, so the humor of the impersonation is lost."
+          "justification": "The analysis explicitly requires that Bunsha introduce himself as the Tsar, not address a Tsar. 'Very pleased, Tsar!' and 'Hello, Tsar!' read as addressing someone else as Tsar, which reverses the speaker/addressee relationship and loses the joke of him introducing himself."
         }
       ]
     },
@@ -145,7 +151,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate but plain; it lacks the mock-host, festive tone of the reference ('The floor is open to everyone!') that conveys Bunsha playing master of ceremonies at the chaotic party."
+          "justification": "'Everybody dance!' is accurate and natural, but it is a plain imperative and lacks the host-like, mock-grand 'floor is open to everyone' tone of Bunsha taking charge of the party."
         }
       ]
     },
@@ -172,7 +178,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Drop in' correctly conveys that he has just arrived and is not misleading about leaving. However, 'picked a good place to drop in' is slightly wordy and less natural than a simple exclamation of luck, though the meaning and cheerful tone are preserved."
+          "justification": "'Well, I picked a good place to drop in!' correctly signals he has just arrived, but it is somewhat wordy and loses the punchy, casual, cheerful quality of the original exclamation."
         }
       ]
     },
@@ -197,9 +203,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'caviar' ('overseas caviar... Eggplant!'), which the analysis explicitly says to avoid because it confuses viewers. It also loses the 'and yes!' structure, and the joke relies on the cheap spread being presented as a rare overseas delicacy."
+          "justification": "The translation calls the eggplant spread 'overseas caviar', which the analysis warns against because it confuses viewers. The point that eggplant 'caviar' is a cheap Soviet spread presented as a rare delicacy is lost, and the punchline 'Eggplant!' now reads as a confusing kind of caviar."
         }
       ]
     },
@@ -226,7 +232,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the count for the suede jacket (singular), which betrays him. The candidate pluralizes 'suede jackets — three', removing the slip and the humor entirely."
+          "justification": "The joke depends on Shpak forgetting to increment the count for the suede jacket, betraying that it is a single item. 'suede jackets — three' makes the jacket also three, which removes the slip and the humor."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'domestic' is attached to the cigarette cases, which is acceptable, but the sequence of the list and the pause before the final 'Three' are altered."
         }
       ]
     },
@@ -246,9 +258,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The translation drops the melodic, trailing, resigned tone of the ellipses and turns the lines into exclamations ('They'll cure you too!'). This makes the delivery more emphatic and less calmly resigned than the original."
+        },
+        {
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the opening 'And they'll cure you' and reorders the sequence so the first line begins with 'too', which breaks the calm, melodic accumulation of the original. Exclamation marks also add a hysterical tone where the analysis describes calm resignation."
+          "justification": "The first line begins with 'too', as though something has already been said about someone else being cured, which changes the rhythm of the progression 'you... you too... me'."
         }
       ]
     }
@@ -256,13 +274,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 4
+      "minor": 7
     },
-    "total_points": 19,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

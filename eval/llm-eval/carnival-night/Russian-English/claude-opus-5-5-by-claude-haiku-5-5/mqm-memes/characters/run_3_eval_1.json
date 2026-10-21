@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "We won't bring in\na Baba Yaga from outside,\nwe'll raise one within our own collective!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source ends on a dry dash with no emphasis, but the candidate adds an exclamation mark. That gives the managerial, deadpan delivery described in the analysis a more energetic tone than the original."
+        }
+      ]
     },
     {
       "id": 3,
@@ -64,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "other",
+          "category": "accuracy",
           "span": "",
-          "justification": "The source marks the two speakers with dialogue dashes (\"— Лектор готов? — Готов лектор...\"), and the reference keeps them. The candidate drops both dashes, so the exchange reads as one speaker's monologue and the change of speaker is less clear."
+          "justification": "The analysis's central double sense, where 'готов' also means drunk, is not recreated. The English 'ready' keeps only the administrative reading, and the added exclamation mark makes the reply sound cheerful rather than knowingly evasive. The approved reference shares this limitation, so the loss is judged minor."
         }
       ]
     },
@@ -88,13 +95,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis stresses a faltering, stretched vocal cry (\"Люди!\" as a broken wavering sound). The candidate's \"People!..\" is a clean, intact word, so the stretched, broken delivery is only partly carried by the ellipses."
-        },
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "The candidate starts with a leading dash, which conventionally marks a new speaker or dialogue exchange. The source is a single uninterrupted line with no dash, so the mark is extraneous."
+          "justification": "The analysis and reference stress a stretched, faltering vocal shape ('Peo-ple'). The candidate's 'People!..' is not stretched, so the vocal instability is carried only by the ellipses and 'Hello-o!', which is weaker than the reference."
         }
       ]
     },
@@ -116,14 +117,7 @@
         }
       },
       "candidate": "But we need only take\na telescope...\nAnd look with the aided\neye",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source has two exclamation marks (\"взять телескоп! ...посмотреть ...глазом!..\") that carry the lecturer's mock-grand delivery. The candidate uses ellipses and a period-free finish, which weakens the pompous, exclamatory emphasis the analysis describes."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -145,10 +139,10 @@
       "candidate": "and we already see two\nstars, three stars...\nFour stars, but best of all,\nof course, is five stars!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "other",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The reference adds a translator's note explaining the 5-star cognac reference, which the analysis says viewers may not recognize. The candidate omits it, so the final 'five stars' punchline may land as a plain astronomy-style count for viewers without that context."
+          "justification": "The punchline depends on 'five stars' belonging to the cognac rating system rather than astronomy, which is the sudden semantic shift the analysis calls essential. The candidate gives no cue for this cultural referent, and the reference's bracketed note (the best cognac in the USSR was 5*) is omitted. For an English-speaking audience the line becomes merely odd rather than derailed, so the cultural boundary is not crossed."
         }
       ]
     },
@@ -170,14 +164,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 5
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 5,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 0.625,
-    "major_equiv_per_unit": 0.125,
-    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

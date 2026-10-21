@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Perdeu\" conveys the loss, but the phrasing is less mock-heroic and less elegant than the reference, slightly weakening Bunsha’s grandiose, theatrical tone."
+          "justification": "The candidate captures the meaning and mock-heroic tone, but the line break makes the delivery feel slightly less smooth than the reference’s more natural cadence."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Moito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the key repetition pattern and, more importantly, it is not clear enough that Bunsha is introducing himself as the tsar rather than addressing one; this blurs the comic misunderstanding noted in the analysis."
+          "justification": "The candidate preserves the repetitive self-introduction and politeness, but the opening 'Moito gusto' slightly weakens the clear sense that he is saying 'I am the tsar' in the first utterance, which is important for the joke."
         }
       ]
     },
@@ -60,7 +60,14 @@
         "language_specific": {}
       },
       "candidate": "Eu esixo que continúe o banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is correct, but 'Eu esixo que continúe o banquete!' sounds a bit more ordinary and less punchy than the concise, slogan-like force of the original."
+        }
+      ]
     },
     {
       "id": 4,
@@ -80,7 +87,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou triste\" is understandable, but it loses some of the elevated, archaic melancholy of \"que estou aflixido,\" making the royal voice feel more modern and flat."
+          "justification": "The translation keeps the sense, but 'estou triste' is flatter and less aristocratic than the more elevated 'estou aflixido,' which matters for the Tsar’s regal voice."
         }
       ]
     },
@@ -99,10 +106,10 @@
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The first line ends with an exclamation and the second line becomes a vocative \"demos,\" which makes it sound like he is addressing demons rather than stating that demons have walled him in."
+          "justification": "The split into two lines makes the repetition slightly awkward, though the meaning and comic effect remain clear."
         }
       ]
     },
@@ -124,7 +131,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Mira\" is a bit more colloquial than the reference’s grander deictic phrasing, so the miraculous, archaic tone is slightly weakened."
+          "justification": "The candidate conveys the exclamatory surprise, but 'Mira o que fai' is a bit less idiomatic and less forceful than a more emphatic deictic phrasing, slightly weakening the miraculous revelation."
         }
       ]
     },
@@ -141,7 +148,14 @@
         "language_specific": {}
       },
       "candidate": "A bailar todos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is preserved, but 'A bailar todos!' is a touch more conventional and less like a command shouted over a chaotic dance than the reference."
+        }
+      ]
     },
     {
       "id": 8,
@@ -156,14 +170,7 @@
         "language_specific": {}
       },
       "candidate": "Vaia, que ben entrei!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Vaia, que ben entrei!\" means \"Wow, I entered well,\" but the source means he has just had a lucky/finds-himself-well-positioned entry. The wording can also suggest he is leaving or simply commenting on the manner of entry, which misses the comic implication of having stumbled into a good haul."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -183,7 +190,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats \"caviar\" for the eggplant spread, directly contradicting the analysis and risking confusion; the joke depends on identifying it as a cheap eggplant-based spread, not another kind of caviar."
+          "justification": "The candidate repeats 'caviar de ultramar' for the final joke, which obscures the key contrast with the cheap eggplant spread and can mislead the viewer into thinking the last item is also caviar. The analysis explicitly warns against calling the eggplant spread 'caviar'."
         }
       ]
     },
@@ -205,7 +212,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The final structure is wrong: the source lists \"three\" with the suitcase/jacket as part of the escalating count, but the candidate leaves \"chaqueta de camurza, tres\" oddly detached and omits the clear enumeration pattern, weakening the gag about his inflated inventory."
+          "justification": "The candidate drops important items from the list, changing 'three film cameras' into just 'cámaras' and omitting the final repetition structure that makes the boast/comic escalation work. It also fails to reproduce the running count properly for the jacket, which is central to the joke."
         }
       ]
     },
@@ -227,21 +234,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the repeated \"and you too\" structure and the line about \"and me,\" which are central to the comic effect and to her resigned inclusion of everyone in the same absurd fate."
+          "justification": "The candidate omits one of the repeated 'you will be cured' lines and changes the comic progression from a three-part shared resignation to a shorter two-part statement, weakening the rhythm and the joke's cumulative effect."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 3
+      "major": 3,
+      "minor": 7
     },
-    "total_points": 33,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

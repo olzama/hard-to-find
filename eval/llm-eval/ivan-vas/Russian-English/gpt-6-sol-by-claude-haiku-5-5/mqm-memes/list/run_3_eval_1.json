@@ -24,9 +24,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"медальон\" (locket/medallion) is rendered as \"the ambassador's medal\", which names a different object. The reference's \"medallion\" is correct, and the stolen item should be identified precisely."
+          "justification": "\"Nagging suspicions\" and \"I'm plagued again\" are more colloquial than the source's high-register \"терзают смутные сомнения\". The mock-heroic tone the analysis identifies as the source of the humor is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "\"Medal\" renders медальон (medallion, a pendant). An award is a different object, and the candidate departs from the object the analysis and reference specify."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that the line make clear Bunsha is introducing himself as the Tsar, not addressing one. \"Hello, Tsar!\" and \"Very pleased, Tsar!\" read as vocatives addressing a Tsar, and no line states the self-introduction the way the reference's \"Hello, I'm the Tsar\" does."
+          "justification": "The analysis explicitly requires that it be clear Bunsha is introducing himself as the Tsar rather than addressing one. \"Very pleased, Tsar!\" and \"Hello, Tsar!\" read as greetings to a tsar, so the self-introduction framing that the reference makes explicit (\"I'm the Tsar\") is lost."
         }
       ]
     },
@@ -183,9 +189,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly warns that eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's line \"Caviar from overseas...\" applies the caviar label to the eggplant item before the reveal, contradicting that guidance. The reference avoids this with \"Overseas spread\"."
+          "justification": "The analysis warns that eggplant spread must not be called caviar because it will confuse viewers. \"Caviar from overseas...\" labels the spread as caviar before the reveal, which blurs the punchline. The reference avoids this with \"Overseas spread\"."
         }
       ]
     },
@@ -212,13 +218,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's joke is that Shpak first counts one suede jacket and then corrects to three (\"куртка… замшевая… Три\"), which the analysis identifies as the source of the humor. The candidate simply lists \"three suede jackets\" and loses this self-correcting count mechanic."
+          "justification": "The joke relies on the self-correction: the suede jacket is listed as one item, then \"Три\" revises the count to show he has forgotten to increment it. The candidate lists \"three suede jackets\", which erases the forgotten-count gag and changes the number of jackets."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Lines beginning with lowercase \"three\" and \"three\" in the first position are inconsistent with the sentence-case convention of the other subtitles and slightly awkward on screen."
+          "justification": "The lowercase start and the absence of the source's ellipses flatten the hesitant, stuttering rhythm of the list, which is part of how the count's failure is staged."
         }
       ]
     },
@@ -240,7 +246,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's ellipses signal calm, melodic resignation as described in the analysis. The candidate's exclamation marks push the delivery toward agitation, weakening the calm tone."
+          "justification": "The source's trailing ellipses carry the calm, melodic resignation the analysis describes. The candidate's exclamation marks make the lines sound excited or hysterical, shifting the tone away from that resignation."
         }
       ]
     }
@@ -248,13 +254,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 3
+      "minor": 4
     },
-    "total_points": 18,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

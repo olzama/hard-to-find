@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says the items are missing (each lost one). 'Shpak: magnetófono, el embajador: medallón' is a bare list that does not convey disappearance or loss; it reads as possession or mere labeling, so the logic of the suspicion is lost."
+          "justification": "\"Shpak: magnetófono, el embajador: medallón\" reads as a bare list and does not convey that each of them lost the item, which the NB requires. The theft connection is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vagas sospechas' is weaker than the mock-heroic 'oscuras sospechas' that echoes 'смутные сомнения'. The line breaks and telegraphic phrasing also flatten the pompous theatrical register."
+          "justification": "\"vagas sospechas\" is flatter than the mock-heroic \"oscuras sospechas\", and the terse list drops the theatrical register."
         }
       ]
     },
@@ -49,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires that Bunsha introduces himself as the Tsar. 'Mucho gusto, zar' / 'Hola, zar' reads as addressing someone as 'Tsar', which is the mistake the NB warns against."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate adds a fourth line not in the source. The mundane formal greeting clichés are mostly kept, but the drunken self-introduction effect is lost."
+          "justification": "\"Mucho gusto, zar\" and \"Hola, zar\" read as addressing a tsar, not introducing himself as the tsar. The NB explicitly warns against this."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estoy triste' is plain and modern. It loses the elevated, archaic register of 'я в печали' that the analysis stresses; 'afligido' preserves it better."
+          "justification": "\"estoy triste\" is plain and modern. It lacks the archaic, regal register of \"afligido\" that drives the contrast with the Soviet setting."
         }
       ]
     },
@@ -114,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'¡Emparedados, demonios!' reads as the Tsar addressing the demons and uses 'emparedados' as a participle with no agent, which violates the NB that the demons are the subject. In Spanish 'emparedados' also suggests 'sandwiches', which muddles the meaning."
+          "justification": "\"¡Emparedados, demonios!\" reads as an address or curse to the demons. The NB requires demons to be the subject. \"Emparedados\" also suggests sandwiches in Spanish and leaves out the agent."
         }
       ]
     },
@@ -146,7 +140,14 @@
         "language_specific": {}
       },
       "candidate": "¡Que baile todo el mundo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"¡Que baile todo el mundo!\" is correct but sounds less like a commanding party-leader exclamation than \"¡Todos a bailar!\"."
+        }
+      ]
     },
     {
       "id": 8,
@@ -163,10 +164,10 @@
       "candidate": "¡Qué bien que he venido!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'¡Qué bien que he venido!' is a reflection on having come, but it is close to a departure-like comment ('glad I came') and loses the 'I've landed in a lucky spot' sense of discovering the apartment on entering. The NB warns against a misleading, leaving-like reading, and the line also loses the casual quip."
+          "justification": "\"¡Qué bien que he venido!\" conveys the cheerful reaction to arriving and not leaving. It loses the sense of having picked the right place (the lucky find of a loaded apartment), so it is a bit weaker."
         }
       ]
     },
@@ -188,7 +189,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'caviar de ultramar... de berenjena', calling eggplant spread 'caviar', which the NB explicitly forbids because it will confuse viewers. This also dulls the inversion of the overseas delicacy."
+          "justification": "\"caviar de ultramar... de berenjena\" calls the eggplant spread caviar, which the NB prohibits. The satirical inversion between caviar and a supposed overseas delicacy is muddled."
         }
       ]
     },
@@ -210,13 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to count the jacket: 'куртка' is singular and he then says 'tres'. The candidate uses plural 'chaquetas de ante... tres', which removes the slip and the humor."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Digits for 'tres' and the omission of 'de cine' make the list slightly less natural and drop the specific 'cámaras de cine' detail."
+          "justification": "\"chaquetas de ante... tres\" pluralizes the jacket. The joke depends on Shpak forgetting to raise the jacket count (a single jacket, then \"tres\"), so the point is lost. \"Cámaras\" also drops \"de cine\", a minor omission."
         }
       ]
     },
@@ -238,21 +233,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks make the delivery emphatic, while the analysis describes calm, melodic resignation. The meaning is otherwise fully preserved."
+          "justification": "The exclamation marks make the lines emphatic. The analysis calls for calm, melodic resignation, so the tone is slightly off."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 5,
       "minor": 5
     },
-    "total_points": 35,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

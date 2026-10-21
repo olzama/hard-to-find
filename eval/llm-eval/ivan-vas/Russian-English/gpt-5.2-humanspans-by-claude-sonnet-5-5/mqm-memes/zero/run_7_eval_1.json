@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak has a tape recorder, the envoy has a medallion\" says the men possess the items. The analysis's NB says the Russian means each of them lost the item, so the sense of theft is reversed."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "\"Envoy\" is a weaker and less natural rendering of \"посол\" than \"ambassador\" in this context."
+          "justification": "\"Shpak has a tape recorder, the envoy has a medallion\" says the men possess the items. The source means they have lost them, and the analysis explicitly warns against this reading. The callback to the thefts is lost."
         }
       ]
     },
@@ -49,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Very pleased, Tsar!\" and \"Hello, Tsar!\" read as Bunsha addressing a Tsar. The NB requires that he introduce himself as the Tsar, as in \"Hello, I'm the Tsar\". The drunken self-introduction joke is lost."
+          "justification": "\"Very pleased, Tsar!\" reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. The analysis requires the self-introduction to be clear. The joke of the drunk impostor repeating \"I'm the Tsar\" is lost."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The contraction \"I'm\" is more colloquial than \"I am\" and slightly weakens the archaic, regal register the analysis describes."
+          "justification": "The contraction \"I'm\" slightly weakens the archaic, high-register melancholy of the Tsar's line. The meaning is otherwise preserved."
         }
       ]
     },
@@ -108,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Walled up, demons!\" reads as a vocative, so the Tsar seems to be addressing the demons. The NB requires the demons to be the subject, as in \"the demons walled me in\". The first line also drops the pronoun, so it is unclear who was walled in."
+          "justification": "\"Walled up, demons!\" reads as a vocative, with the Tsar addressing the demons. The analysis requires the demons to be the subject, the ones who walled him in. The missing object (\"me\") makes the ambiguity worse."
         }
       ]
     },
@@ -130,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"That's what the life-giving cross does!\" is accurate but colloquial. It loses the elevated, solemn tone of the Tsar's conviction, which \"Behold the power of...\" would carry."
+          "justification": "\"That's what the life-giving cross does!\" is colloquial. It loses the solemn, archaic exclamation (\"Behold...\"), so the Tsar's pious conviction sounds less regal."
         }
       ]
     },
@@ -167,7 +161,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"What a lucky stop!\" is a little awkward and could suggest a stop on the way somewhere, rather than a cheerful remark on having just walked in. It is not misleading enough to be major."
+          "justification": "\"Lucky stop\" is slightly awkward and less idiomatic for \"I picked a good place to come into\". It does not mislead about him leaving, but the casual, cheerful tone of the burglar is weakened."
         }
       ]
     },
@@ -189,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Imported caviar... Eggplant!\" lumps the eggplant spread in with caviar. The NB says not to call it caviar. The comic structure of \"overseas spread... eggplant\" as a pretentious delicacy is lost, and \"overseas\" becomes the flat \"imported\"."
+          "justification": "\"Imported caviar... Eggplant!\" effectively calls the eggplant spread caviar. The analysis warns that this confuses viewers. It also drops the contrast between the lavish caviar heaps and the cheap spread presented as an overseas delicacy."
         }
       ]
     },
@@ -211,13 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"three suede jackets\" outright. The joke depends on Shpak first naming one suede jacket, with a hesitant pause, and then correcting to \"Three\", which betrays the exaggeration. The reveal is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The numerals are inconsistent (\"3\" and then \"three\"), and \"is gone:\" is an addition."
+          "justification": "\"Three suede jackets\" removes the joke. Shpak should list one suede jacket and then slip into saying \"Three\", betraying the exaggeration. The candidate gets the count right from the start, so the humor is lost."
         }
       ]
     },
@@ -234,26 +222,19 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me too!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the lines emphatic and agitated, where the analysis describes a calm, melodic resignation. The added \"too\" in the last clause also slightly alters the rhythm of the repeated pattern."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 6
+      "minor": 3
     },
-    "total_points": 31,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

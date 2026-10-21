@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate flattens Velyurov's theatrical, high-flown self-dramatization. The reference's 'Pray, tell me, name them!!' is reduced to a plain 'Name me one!', and the plural 'who doesn't drink' becomes a singular challenge, so the mock-grand pose is weakened. The meaning and the 'Go on, I'm waiting' beat are preserved."
+          "justification": "The candidate is plain and brisk. It drops the mock-elevated, theatrical self-dramatization of the source (reference 'Pray, tell me, name them!!'), so Velyurov's stagey voice is weakened, though the challenge 'Go on, I'm waiting!' still works."
         }
       ]
     },
@@ -38,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "shall we\nknock back a little vodka?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Little vodka' adds a specific drink not in the source ('рюмашка' is just a shot). The register is otherwise appropriate: colloquial 'knock back' fits the homely camaraderie. The lowercase 'shall' is a minor formatting slip."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,14 +58,7 @@
         }
       },
       "candidate": "Such lofty... lo-o-ofty relations!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses a natural exclamatory phrase, which is good, and keeps the drawn-out sarcastic stretch. It loses the pun-like 'evolved' sense and the sneer in the hissing 'выс-с-сокие'. 'Lofty' also reads less sarcastically about the 'intelligent' pretensions."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -87,14 +73,7 @@
         "language_specific": {}
       },
       "candidate": "We don't live for pleasure.\nWe do what's right.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'We do what's right' loses the 'conscience/duty' notion of 'для совести' and the stark contrast with happiness. The reference's 'to do your duty' carries the soldierly fatalism and the moral-duty framing. 'Pleasure' for 'радость' is acceptable. 'What's right' makes it a generic moral statement rather than the grim duty-bound maxim the analysis stresses."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -129,14 +108,7 @@
         }
       },
       "candidate": "What a chef!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'What a chef!' is natural and avoids the bare-noun literalism, but it reads as possible praise. It lacks the clearly sarcastic 'Some cook you are!' sense of a verdict, so the harsh, reproachful tone is weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -186,14 +158,7 @@
         "language_specific": {}
       },
       "candidate": "Khobotov, how petty!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'How petty!' turns the verdict into an exclamation of remark. It is a little less of a flat, dismissive assertion, which slightly weakens the authoritative put-down. The meaning is intact."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -213,14 +178,7 @@
         }
       },
       "candidate": "He's my cross to bear!\nAnd I alone must carry it.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate says 'He's my cross to bear' where the source says 'Это мой крест' ('this is my cross', i.e. the situation or burden). It makes Khobotov himself the cross, which is a shift in meaning, and it is slightly more insulting than the source. The idiom is kept intact, but 'And I alone must carry it' is acceptable and slightly formal. The self-martyrdom effect is mostly preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -240,26 +198,19 @@
         }
       },
       "candidate": "Oh, I'm such an awkward creature,\nall elbows and angles...\nI'm just one big bundle\nof contradictions!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds 'Oh' and 'creature', and restructures into 'one big bundle of contradictions'. It loses the repeated 'вся' pattern of mannered speech. 'All elbows and angles' handles 'угловатая' naturally and idiomatically, which is a good solution."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 6
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 16,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

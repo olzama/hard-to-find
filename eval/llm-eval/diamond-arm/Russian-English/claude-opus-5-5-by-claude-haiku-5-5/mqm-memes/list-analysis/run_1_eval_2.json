@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The opening address 'Ребята' (guys), which the reference renders as 'Guys', is omitted, so Gorbunkov's appeal to the room is lost. The rest of the line keeps the reversal of 'я' and the 'you'll get carried away' punchline."
+          "justification": "The address 'Ребята' (Guys) is dropped, so the opening line loses Gorbunkov's appeal to the others in the room. The sacrificial declaration and the policeman's reply are otherwise preserved."
         }
       ]
     },
@@ -45,10 +45,10 @@
       "candidate": "I'm not a coward,\nbut I'm scared...",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis stresses the bouncing rhythm that makes the admission light and endearing rather than pathetic. The candidate is literal and flat ('I'm not a coward, but I'm scared...'), so the lighthearted bounce is lost and the line reads closer to plain pathos. The meaning is preserved."
+          "justification": "The candidate is a flat literal rendering ('I'm not a coward, but I'm scared...') with no rhythmic bounce and no lighthearted, endearing effect. The analysis names the rhythmic 'bouncing' admission as central, and the language note explicitly flags literal translations without comic effect as failing. 'Scared' also weakens the dignified 'little man' tone."
         }
       ]
     },
@@ -85,7 +85,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The opening 'Леди' (Lady) is dropped, so the list of forms of address starts at 'signora'. 'You know,' is added at the start without a source counterpart. Neither change harms the joke, which relies on the mix of loanwords and the 'Руссо туристо' / 'Ферштейн' lines, all of which are kept."
+          "justification": "The opening 'Леди' (Lady) is omitted and 'You know,' is added in its place. The list of forms of address is otherwise intact, and the Russo turisto / Obliko morale mangling is preserved."
         }
       ]
     },
@@ -154,10 +154,16 @@
       "candidate": "As our dear boss says,\non someone else's dime even the abstemious drink\nand the ulcerous!",
       "issues": [
         {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate has no rhythm and no creative solution for the trezvenniki/yazvenniki parallel. The language note states that at least some creative solution must be present, and the analysis describes the balanced proverbial 'law of nature' feel as the point of the line. That feel is lost."
+        },
+        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Ulcerous' is an unnatural way to refer to people with ulcers and reads awkwardly against 'abstemious'. The -ous echo does create the balanced rhythm the analysis asks for, but the word choice weakens the line's naturalness."
+          "justification": "'and the ulcerous!' is an unnatural, clinical-sounding phrasing that reads awkwardly in English and weakens the punchline. 'the abstemious' is similarly stilted for a street-level gangster voice."
         }
       ]
     },
@@ -224,7 +230,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis centers on the melodic, elongated sigh of 'Семё-он'. The candidate 'Semyon Semyonovich...' drops the stretched vowel and the exclamation, so the weary facepalm is conveyed only by the trailing ellipsis."
+          "justification": "The stretched, melodic sigh of 'Семё-он' is not rendered. The ellipsis hints at weariness, but the plain 'Semyon Semyonovich...' loses the elongated facepalm effect the analysis describes."
         }
       ]
     },
@@ -261,7 +267,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes 'Цигель-цигель' as a sharp command for speed and the line as frantic rushing. The trailing ellipsis after 'ai-lyu-lyu' makes the ending fade out rather than rush, which softens the urgency."
+          "justification": "The trailing ellipsis replaces the urgent, exclamatory close, which dampens the frantic-rushing effect the analysis describes. The gibberish and the three 'zigel' repetitions are otherwise faithful."
         }
       ]
     },
@@ -323,14 +329,7 @@
         "language_specific": {}
       },
       "candidate": "Buy a stack of tickets and you'll win...\nA water tower!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source rhymes 'пачку' with 'Водокачку', and the analysis calls the anti-climax 'rhythmic'. The candidate keeps the water-tower punchline but drops the rhyme and rhythm, so the rhythmic deflation the analysis describes is weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 19,
@@ -393,9 +392,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "'No, huh...' is an awkward rendering of the saleswoman's 'Нет? Будем искать…'. The interjection 'huh' does not match the flat, resigned question in the source, and a line such as 'No? Well, we'll keep looking...' would read more naturally."
+          "justification": "'А у вас нет такого же' is a negative question ('Don't you have the same one?'), which sets up the stalling tactic. The candidate's neutral 'Do you have the same' drops the negation and slightly weakens the customer's expectation of a refusal."
         }
       ]
     },
@@ -417,14 +416,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 8
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 8,
+    "total_points": 16,
     "meaning_units": 23,
-    "penalty_per_unit": 0.34782608695652173,
-    "major_equiv_per_unit": 0.06956521739130435,
-    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6956521739130435,
+    "major_equiv_per_unit": 0.1391304347826087,
+    "interpretation": "0.70 MQM penalty points per meaning unit (≈ 0.14 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

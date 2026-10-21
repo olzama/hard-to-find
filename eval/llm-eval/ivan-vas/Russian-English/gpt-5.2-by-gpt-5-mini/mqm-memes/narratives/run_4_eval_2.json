@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which indicates current possession. The analysis and NB make clear the original means these items are missing/were taken (they lost them). This reverses the meaning and removes the comedic implication of theft/loss."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies current possession. The source (and the analysis note) indicate these items are missing / were lost (they 'have been walled off' / taken), so the candidate reverses the meaning and undermines the joke about discovered thefts."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source is Bunsha repeatedly introducing himself as the Tsar (mock self-introduction). The candidate reads like addressing a Tsar ('Very nice, Tsar!'), which changes the communicative direction and undermines the gag described in the analysis (that he is introducing himself clumsily). This contradicts the analysis guidance."
+          "justification": "The line must make clear Bunsha is introducing himself as the Tsar (a comic self-introduction), not addressing an actual Tsar. The candidate's phrasing ('Very nice, Tsar! ... Hello, Tsar!') reads as someone addressing a Tsar rather than repeatedly introducing himself, thus missing the central absurdity described in the analysis."
         }
       ]
     },
@@ -75,7 +75,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me alone, old woman, I’m grieving.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'Leave me alone, old woman, I’m grieving.' slightly modernizes and softens the archaic, high-register tone ('I am in sorrow') of the original Tsar line. The meaning is preserved, but the elevated, regal register that creates the contrast in the analysis is weakened."
+        }
+      ]
     },
     {
       "id": 5,
@@ -110,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross can do!' conveys the basic meaning but shifts register to a more colloquial, explanatory tone. The analysis emphasizes an elevated, archaic proclamation; the candidate slightly weakens that mock-archaic, ceremonious effect."
+          "justification": "The candidate 'That’s what the life-giving cross can do!' preserves meaning but uses a more colloquial phrasing ('can do') that reduces the lofty, archaic register of the reference ('Behold the power of the life-giving cross!'), slightly softening the comic contrast."
         }
       ]
     },
@@ -177,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The humour of the original hinges on Shpak's inconsistent counting—the sudden realization/contradiction when the suede jacket is mentioned. The candidate lists 'three suede jackets,' which removes the incremental/fumbling gag and changes the intended comedic effect (it no longer betrays him by failing to increment)."
+          "justification": "The candidate lists 'three suede jackets' plainly, eliminating the original joke element where Shpak hesitates/forgets the increment (the count grows and the slip-up is comic). By making the count straightforward, the candidate removes the scene's crucial comic detail and changes the intended effect."
         }
       ]
     },
@@ -200,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 16,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

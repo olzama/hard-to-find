@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't\nhire a Baba Yaga from outside.\nWe'll raise one in our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source line ends in a dash with no exclamation mark. The candidate's final '!' adds an enthusiastic emphasis that works against the deadpan, managerial delivery the analysis asks for."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,13 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Briefly' and the diminutive 'коротенько' are not carried over. 'a short talk' gives a flat claim, so the faux-modest, patronizing setup that the analysis calls for is weakened before the forty-minute reversal."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source's trailing ellipsis ('не надо…') signals the speaker's self-satisfied trailing-off. The candidate ends with a period, which makes the closing line sound more finished and firm than the source."
+          "justification": "'a short talk' drops the faux-modest hedge of 'коротенько так' (the diminutive and filler that the analysis says should set up the 'forty minutes' punchline). The source's trailing hesitation is also replaced by a flat 'I think.'"
         }
       ]
     },
@@ -84,15 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The exclamation mark in 'He's been ready for ages!' makes the offscreen answer sound cheerful. The source reply is dry and administrative, and the analysis depends on that dryness to keep the drunken subtext underneath."
-        },
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "The source marks the change of speaker with dashes ('— Лектор готов? — Готов…'), but the candidate drops them, so the two-speaker exchange is less clearly marked as dialogue."
+          "justification": "The source marks the speaker change with a dialogue dash, but the candidate runs the question and answer together with no speaker marker, so the reply can read as one speaker continuing rather than an exchange with the organizer."
         }
       ]
     },
@@ -114,7 +95,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate normalizes the opening 'Лю-ди!' into a clean 'People!' without the stretched, faltering shape. The analysis names exactly this normalization as the risk to avoid. The hesitant 'Hey...' and the 'yoo-hoo' call partly restore the unstable quality, which limits the damage."
+          "justification": "The analysis stresses the stretched, faltering shape of 'Peo-ple!', but the candidate opens with a clean 'People!'. 'Hey... yoo-hoo!' partly restores the wavering call, so the physical unsteadiness is weakened rather than lost."
         }
       ]
     },
@@ -138,16 +119,10 @@
       "candidate": "But just take a telescope...\nand look with the armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses 'the armed eye', the literal calque that the analysis explicitly lists under things to avoid because it 'sounds stranger and more surreal than the Russian'. The reference's 'aided eye' solution, which echoes 'unaided eye', is the intended approach and is not used here."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line ends with a comma after 'look with the armed eye,', which implies continuation. The source trails off with '!..', so the candidate loses the exclamatory, trailing-off close of the lecturer's pompous phrase."
+          "justification": "'armed eye' is the literal calque that the language-specific note warns against, because it sounds stranger and more surreal than the Russian. It reads as an odd object rather than a misremembered idiom. The line also ends on a trailing comma with no completing clause, which leaves the drunken trail-off less clearly shaped than the source's '!..'."
         }
       ]
     },
@@ -172,15 +147,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'five little stars is best' applies the diminutive to the cognac grade. The analysis says the final 'five stars' must snap into a different semantic world, but the 'little' undercuts the recognizable five-star grading term and so weakens the cognac click."
-        },
-        {
-          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Как мы уже видим' ('as we can already see') becomes 'you'll see', which shifts the present-tense, already-visible framing into a future-tense address to the audience. The meaning is close, but the lecturer's sense of observing the stars is altered."
+          "justification": "The cognac association that makes the final 'five stars' a sudden click into another semantic world is not signaled anywhere in the candidate. The language-specific note says this will not be obvious to most viewers, and the reference addresses it with a bracketed note the candidate lacks, so the punchline lands as merely odd for English audiences."
         }
       ]
     },
@@ -197,26 +166,19 @@
         "language_specific": {}
       },
       "candidate": "Is there life on Mars,\nor is there no life on Mars?\nScience doesn't know.\nScience isn't up to speed on that yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Is there life on Mars, or is there no life on Mars?' turns the source's 'whether or not' statement into a clumsy double question. The phrasing is awkward and less natural than a 'whether there is life on Mars or not' construction, though the content and the casual final lines are preserved."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 10
+      "major": 0,
+      "minor": 5
     },
-    "total_points": 15,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

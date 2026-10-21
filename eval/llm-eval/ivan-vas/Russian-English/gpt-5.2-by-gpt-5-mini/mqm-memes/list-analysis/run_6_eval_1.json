@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies possession. The analysis explicitly warns this phrasing is wrong: the original means those items are missing/lost (they were walled off/stolen), not that the characters currently possess them. This reverses the intended meaning and undermines the joke about discovered losses."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as possession. The analysis explicitly warns these items are no longer possessed (they were lost/stolen); the original means 'they've been deprived of them' or 'they've been taken.' This reverses the sentence's subject/tense and changes the joke's implication."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate's register ('I'm again plagued by vague misgivings...') is serviceable but slightly more prosaic than the mock-heroic theatrical style noted in the analysis; a more elevated phrasing would better capture Bunsha's comic grandiosity."
         }
       ]
     },
@@ -43,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line must make clear Bunsha is introducing himself as 'the Tsar' (not addressing a tsar). The candidate 'So pleased, hello, Tsar!' reads as addressing a Tsar rather than self-introduction and loses the repetitive, self-introducing absurdity described in the analysis. That changes the comedic premise and the intended mock-formal register."
+          "justification": "The source has Bunsha introducing himself as the Tsar (NB: must read as 'I am the Tsar'), while the candidate ('So pleased, hello, Tsar! / Tsar, so pleased!') reads like addressing a Tsar rather than proclaiming 'I am the Tsar.' That changes the gag: the repetitive, self-introducing absurdity is lost or made ambiguous."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Leave me alone, old woman, I'm grieving.' uses more colloquial modern phrasing ('leave me alone', 'I'm grieving') and loses some of the high-register, archaic tone of the original ('Оставь меня, старушка, я в печали'), weakening the regal/period voice central to the joke."
+          "justification": "The candidate 'Leave me alone, old woman, I'm grieving.' conveys the meaning but uses more modern, conversational phrasing ('leave me alone', 'I'm grieving') and thus softens the archaic, high-register tone the analysis highlights."
         }
       ]
     },
@@ -102,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original presents 'demons' as the subject who have walled him in ('They've walled me in... the demons'), not as an addressee. The candidate 'Walled up, demons!' reads like an address to demons and the short exclamation 'Walled up!' omits the original sense that he is trapped by others. This reverses grammatical roles and alters the intended meaning and comedic effect."
+          "justification": "The candidate's 'Walled up! / Walled up, demons!' is grammatically awkward and ambiguous about agency. The analysis stresses that 'demons' are the subject (they walled him in), not being addressed. The candidate risks reading as a vocative ('you demons'), which reverses the intended meaning and undermines the joke about technical misunderstanding interpreted as demonic action."
         }
       ]
     },
@@ -124,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That's what the life-giving cross can do!' keeps the idea but shifts to a conversational register ('can do') and loses some of the archaic, emphatic 'Behold the power...' phrasing that heightens the historical/religious tone in the original."
+          "justification": "Meaning is preserved, but 'That's what the life-giving cross can do!' uses contemporary, colloquial phrasing ('can do') and reduces the elevated, religious/archaic register ('Behold the power of the life-giving cross') that gives the line its comic contrast."
         }
       ]
     },
@@ -156,14 +162,7 @@
         "language_specific": {}
       },
       "candidate": "Well, this is perfect timing!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'Well, this is perfect timing!' conveys the general meaning but softens the breezy, opportunistic tone of the burglar's line ('Это я удачно зашел!'). The phrasing is more neutral and less wryly casual than the reference, slightly weakening the character's likable anti-hero persona."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -195,10 +194,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humor in the original depends on the hesitation and the growing count (he forgets to increment the suede jacket). The candidate lists '3 ... three suede jackets' flatly, losing the incremental, self-contradictory gag and thereby weakening the comedic timing."
+          "justification": "The humour in the source depends on Shpak's puffed-up enumeration and his visible slip about the suede jacket count (the number grows with each telling). The candidate lists '3 ... three suede jackets' straightforwardly without any sign of the comedic recounting or the momentary forgetfulness that produces the joke, thus losing the key comic mechanism."
         }
       ]
     },
@@ -220,14 +219,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 19,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key meaning from items being missing/lost to Shpak and the ambassador still having them. The source and analysis require a theft/loss implication, not possession."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "‘Vagas sospechas’ is understandable, but it weakens the mock-heroic, elevated tone of ‘смутные сомнения,’ which is central to the comic effect."
+          "justification": "The candidate misses the key point from the analysis and note: it says Shpak and the ambassador still have the items, rather than that they have lost them. The joke depends on the implied theft, so this reverses the meaning."
         }
       ]
     },
@@ -46,16 +40,10 @@
       "candidate": "Encantada, zar, mucho gusto.\nZar, mucho gusto, zar. Mucho gusto, hola, zar.\nZar, mucho gusto.\nHola, zar. Mucho gusto.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The line is Bunsha introducing himself as the Tsar, but the candidate repeatedly addresses ‘zar’ as if speaking to someone else. This contradicts the required meaning and the note."
-        },
-        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Encantada’ is inconsistent with the speaker and the situation, and the overall phrasing sounds less like the awkward, repetitive formal greeting described in the analysis."
+          "justification": "The candidate preserves the repetitive self-introduction, but 'Encantada' is gender-marked and sounds odd for Bunsha, which slightly weakens the intended comic mismatch between royal persona and mundane greeting."
         }
       ]
     },
@@ -92,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Vieja’ is flatter and harsher than the slightly archaic, theatrical ‘старушка/viejecita,’ so it loses some of the regal, old-world tone."
+          "justification": "'Vieja' is harsher and less mock-archaic than the reference's 'viejecita', so it slightly reduces the regal, old-fashioned tone of Ivan's speech."
         }
       ]
     },
@@ -114,13 +102,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the statement to plural and first-person plural ('nos han emparedado'), which is not what the source says. The Tsar is speaking about himself, and the demons are the ones being addressed only in the second line of the reference."
+          "justification": "The line changes the subject from 'me han emparedado' to 'nos han emparedado', introducing a plural meaning that is not in the original and blurs the joke."
         },
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The key comic structure is lost: the source says ‘they have bricked me in... demons,’ treating demons as the subject. The candidate makes the demons the addressees, which directly contradicts the note."
+          "justification": "The second line addresses 'demonios' directly, whereas the analysis notes that the demons must be understood as the agents of the action, not as someone being spoken to."
         }
       ]
     },
@@ -137,14 +125,7 @@
         "language_specific": {}
       },
       "candidate": "¡Esto es lo que hace la cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "‘Hace’ is slightly weaker and less idiomatic than the elevated, almost liturgical ‘obra’/‘works,’ reducing the solemn, miracle-like register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -179,7 +160,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "‘¡Qué bien he venido!’ means ‘I came well / I’ve come well,’ which suggests arrival rather than discovering a lucky opportunity. It misses the celebratory reaction to having landed in the right place."
+          "justification": "'¡Qué bien he venido!' means 'I came here well,' which does not convey the intended idea that he has lucked into the place. It loses the idiomatic, self-satisfied reaction to discovering valuables."
         }
       ]
     },
@@ -201,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the crucial comic contrast with ‘eggplant’ and turns the punchline into a generic ‘caviar de ultramar.’ The satire about labeling a cheap spread as a prestigious delicacy is lost."
+          "justification": "The candidate drops the reference to 'eggplant' on the first mention and splits the punchline into a vague 'caviar from overseas' plus a separate 'from eggplant,' which weakens the satirical contrast and makes the line less clear."
         }
       ]
     },
@@ -223,7 +204,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing is somewhat clipped and list-like, but the meaning is mostly preserved. However, ‘3 magnetófonos’ and the shortened list lose some of the comic piling-up and precision of the original."
+          "justification": "The compressed numbered style is understandable, but 'chaqueta de ante... tres' is awkward in Spanish and does not read as smoothly as the reference list."
         }
       ]
     },
@@ -245,14 +226,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 35,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats the reference line, then appends a transliterated Russian line ('U Shpaka - magnitofon, u posla - medallón.'). This is untranslated source material and a mixed-language addition that a Spanish viewer cannot parse. Its literal 'U Shpaka... u posla...' structure also loses the NB point that the items are missing, not possessed. The addition clutters the mock-heroic callback."
+          "justification": "The candidate contains the reference Spanish but appends untranslated transliterated Russian ('U Shpaka - magnitofon, u posla - medallón'). This is an unneeded addition of untranslated material, and its 'U X - Y' form reads as 'X has Y', which the analysis NB rules out (they have lost the items). It clutters the subtitle and undermines the correct meaning."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "After the correct Spanish rendering, the candidate adds the untranslated Russian lines 'Царь, очень приятно! Здравствуйте, царь! Очень приятно!'. Untranslated Cyrillic text in Spanish subtitles is unusable for the audience. It also reintroduces the ambiguous 'Здравствуйте, царь', which can read as addressing a Tsar, against the NB."
+          "justification": "The candidate adds untranslated Russian source text (Царь, очень приятно! Здравствуйте, царь!) after the Spanish. This is untranslated material that clutters the subtitle. The Russian phrasing also reads as addressing a tsar, which contradicts the NB that he introduces himself as the Tsar."
         }
       ]
     },
@@ -150,7 +150,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, rojo… ¡Sí!¡Manjar de ultramar… de berenjena!\n¡De berenjena!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate repeats the reference and then adds an extra '¡De berenjena!' line. This is an unneeded addition that duplicates the punchline and weakens the delivery, though the meaning and the avoidance of 'caviar' for the eggplant spread are preserved."
+        }
+      ]
     },
     {
       "id": 10,
@@ -185,7 +192,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate appends untranslated Russian lines ('И тебя тoже вылечат! И меня вылечат!'), one of which also contains a Latin 'o' inside the Cyrillic word. Source-language text left in Spanish subtitles is an untranslated addition that breaks readability and the calm, melodic resignation of the Spanish line."
+          "justification": "The candidate adds untranslated Russian lines (И тебя тоже вылечат! И меня вылечат!) after the Spanish. This is untranslated and redundant material that clutters the subtitle and breaks the melodic resignation of the Spanish line."
         }
       ]
     }
@@ -193,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 0
+      "minor": 1
     },
-    "total_points": 15,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

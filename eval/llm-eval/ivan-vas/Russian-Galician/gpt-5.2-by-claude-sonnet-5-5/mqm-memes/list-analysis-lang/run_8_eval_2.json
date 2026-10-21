@@ -33,16 +33,10 @@
       "candidate": "Ola, tsar, encantado.\nEncantado, tsar. Ola.\nEu son o tsar, encantado.\nOla, eu son o tsar. Encantado.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first two lines, \"Ola, tsar, encantado\" and \"Encantado, tsar. Ola.\", read as Bunsha addressing a tsar with a vocative. The analysis's NB requires that he clearly introduces himself as the Tsar. Only the later lines (\"Eu son o tsar\") make this clear, so the opening is misleading."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate reorders the repetitive formula and uses the casual \"Ola\". This weakens the stiff, formal Soviet greeting cliché the analysis describes, though the repetition and drunken absurdity are partly kept."
+          "justification": "The first two lines, 'Ola, tsar, encantado' and 'Encantado, tsar. Ola.', read as Bunsha greeting a tsar rather than introducing himself as the tsar. This is the ambiguity the note warns against. The later lines with 'Eu son o tsar' clarify it, but the opening is misleading."
         }
       ]
     },
@@ -77,15 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Estou de loito\" means \"I am in mourning\", which is narrower than the source's \"в печали\" (in sorrow). It changes the nuance of the Tsar's melancholy."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The blunt \"vella\" loses the archaic, regal tone of \"старушка\". The reference's \"velliña\" and \"aflixido\" keep the contrast between lofty speech and the modern setting, and the candidate's plain wording weakens it."
+          "justification": "'Estou de loito' means being in mourning, which narrows the Tsar's general melancholy ('в печали'). 'Vella' is also blunter than the archaic-affectionate 'старушка', so the regal, archaic register is weakened."
         }
       ]
     },
@@ -147,7 +135,14 @@
         "language_specific": {}
       },
       "candidate": "Mira que entrei ben!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Mira que entrei ben!' is awkward in Galician and loses the sense of a lucky arrival at the right moment. It does not mislead about leaving, but it is less natural and less cheerful than the intended 'lucky find' reaction."
+        }
+      ]
     },
     {
       "id": 9,
@@ -165,9 +160,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the final item as \"Caviar de ultramar... De berenxena\", so the eggplant spread is still called caviar. The NB says not to do this because it confuses viewers. The contrast between real caviar and the cheap spread presented as an overseas delicacy is blurred."
+          "justification": "The candidate says 'Caviar de ultramar... De berenxena!', so the eggplant spread is called caviar. The note says not to do this because it confuses viewers. It also blurs the contrast between real caviar and the cheap spread presented as an overseas delicacy."
         }
       ]
     },
@@ -204,14 +199,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 3
     },
-    "total_points": 13,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

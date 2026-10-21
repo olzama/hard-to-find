@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies possession. The analysis explicitly notes these phrases mean they lost those items (they are the victims), not that they possess them; the candidate therefore reverses the intended meaning."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which reads as ongoing possession. The analysis explicitly notes these phrases mean they lost those items (they are now missing), not that they possess them. This reverses the intended meaning and undermines the joke's circumstantial accusation."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source is Bunsha introducing himself as 'the Tsar' (he's impersonating the Tsar). The candidate reads like addresses to a Tsar ('Very nice, Tsar! ... Hello, Tsar!'), which loses the crucial comic premise that he is repeatedly introducing himself as the Tsar rather than addressing one."
+          "justification": "The original line is Bunsha introducing himself as 'the Tsar' (a comic self-introduction). The candidate reads like addressing someone else ('Very nice, Tsar! ... Hello, Tsar!'), which changes the pragmatic meaning and loses the gag of Bunsha pretentiously declaring himself the Tsar. This contradicts the analysis requirement that the line make clear he is introducing himself."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes 'demons' must be the subject (he's saying 'they [the demons] walled me in'), not an addressee. The candidate's punctuation and word order ('They walled me in, demons!') reads like addressing demons, which contradicts the intended reading and changes meaning."
+          "justification": "The analysis stresses that 'demons' are the subject (the agents who walled him in), not being addressed vocatively. The candidate's punctuation and ordering ('They walled me in, demons!') reads as if Ivan is calling out to demons, which flips the intended syntactic/semantic relation and weakens the comedic misunderstanding of technology as malevolent agents."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a more colloquial phrasing ('That’s what the life-giving cross can do!') rather than the elevated, archaic register of the reference ('Behold the power of the life-giving cross!'), softening the mock-ceremonial tone associated with the Tsar's archaic speech."
+          "justification": "The candidate conveys the meaning but shifts register from the lofty, archaic 'Behold the power of the life-giving cross!' to a more colloquial 'That’s what the life-giving cross can do!' This reduces the high-register, quasi-liturgical tone that heightens the joke about religious certainty triggering a mechanical event."
         }
       ]
     },
@@ -164,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source sarcastically presents 'eggplant' as the supposedly 'overseas caviar' (a faux-elegant label). The candidate's 'Imported caviar... Eggplant!' risks confusing viewers by dropping the ironic cue that 'eggplant' is a cheap spread being presented as if it were caviar; the ironic inversion is weaker and potentially misleading."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -207,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 17,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

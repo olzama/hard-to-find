@@ -141,7 +141,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a second line, 'De berenxena!', that is not in the source. This repetition within one segment is an addition that dilutes the punchline of the 'eggplant caviar' joke. It does correctly avoid calling the spread 'caviar', so the meaning stays intact."
+          "justification": "The candidate adds a second 'De berenxena!' that is not in the source. The core joke is preserved: 'eggplant' is not called caviar, and the 'overseas delicacy' framing is kept. But the extra repetition inside the same segment blunts the deadpan punchline and adds material the source lacks."
         }
       ]
     },
@@ -158,14 +158,7 @@
         "language_specific": {}
       },
       "candidate": "tres magnetófonos, tres cámaras de cine, tres cigarreiras nacionais, unha chaqueta… de ante… tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The subtitle begins with lowercase 'tres' where the sentence start (and the source 'Три') calls for a capital 'Tres'. This is a small mechanical flaw. The list, the 'unha chaqueta… de ante… tres' payoff and the count joke are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -186,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

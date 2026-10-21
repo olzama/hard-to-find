@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Hire\" fits the staffing logic, but \"cultivate\" is a bit more botanical and less like the bureaucratic training/upbringing (\"воспитаем\") idea. Leaving \"Baba Yaga\" untranslated without a gloss also leaves the fairy-tale figure less tied to the workplace 'nasty woman' type, though the collective/staffing frame is kept."
+          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic and \"cultivate one in our own collective\" keeps the in-house joke. But \"Baba Yaga\" is left untranslated with no cue for the toxic-woman workplace type, so a non-Russian viewer may read only the fairy-tale figure. This weakens the second level of the joke."
         }
       ]
     },
@@ -70,13 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive, faux-modest 'коротенько' is rendered with a plain \"just briefly\", so the cozy patronizing understatement is weakened. The order (briefness before duration) is preserved, so the punchline still lands."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"more is necessary\" is stiff and slightly less natural than 'any more than that'; it loses the casual self-satisfied managerial tone."
+          "justification": "\"Just briefly\" keeps the claim of brevity before the duration, so the reversal works. But the faux-modest, cozy, patronizing tone of the diminutive «коротенько» is flattened into a plain adverb, and the self-satisfied managerial voice is weaker. \"More is necessary\" is also stiffer than the casual \"I don't think we need more.\""
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation renders 'готов' only as \"ready\" and does not recreate the 'drunk/done for' double meaning. The reference adds \"Oh, he's ready\" and \"quite a while\" to hint at it; here the alcoholic subtext largely disappears, which the analysis flags as the main risk."
+          "justification": "The candidate renders only the literal \"ready\" and adds nothing to evoke \"ready\" = drunk. The analysis warns that translating only \"ready\" loses the alcoholic joke. \"Been ready for a while!\" gives no hint of intoxication, so the double reading is lost and the joke does not work in English."
         }
       ]
     },
@@ -123,14 +117,7 @@
         }
       },
       "candidate": "Peo-ple!.. Ah… a-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"a-oo\" is a weaker rendering of the call 'ау-у' than \"hellooo\"; it conveys less of the stretched, wavering, slurred calling-out. The broken \"Peo-ple!.. Ah…\" structure is kept, so the drunken oratory attempt mostly survives."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -155,9 +142,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "\"it's enough for us to take a telescope\" shifts the sense slightly from 'all we have to do', and the sentence is split into ellipsis and dash, losing the exclamatory pomp. The key \"aided eye\" solution is kept, so the mock-scientific idiom distortion works."
+          "justification": "\"Aided eye\" echoes \"unaided eye\", as the analysis recommends, so the mangled idiom is preserved. But \"it's enough for us to take a telescope\" is a calque of «стоит только нам взять» and sounds stilted. It also drops the exclamatory, pompous delivery, and the trailing ellipsis and dash weaken the oratorical build-up."
         }
       ]
     },
@@ -186,13 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is garbled: \"Four little stars—best of all, of course, five little stars\" makes four stars part of the 'best' phrasing, which breaks the clear one-two-three-four buildup before the five-star punchline. The cognac association is not signaled in any way, so the sudden shift into a different semantic world is weakened, and the line reads as merely odd."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"little stars\" sounds childish, which suits the trivial counting, but the reference's neutral \"stars\" aligns more closely with the cognac-label reading, so the 'five stars' click is less recognizable."
+          "justification": "The candidate puts \"four little stars\" and \"best of all, five little stars\" in the same breath. The counting sequence is broken: the ellipsis falls after three, and four is fused with the punchline. The progression two-three-four then a sudden click to five loses its rhythm, so the click into the cognac frame is blunted. The cognac association is not signaled, though the analysis notes a translator's note may be needed. The diminutive \"little stars\" does capture the silly, childish counting."
         }
       ]
     },
@@ -218,7 +199,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"science does not know\" is a bit more formal and flat than 'это науке неизвестно' and loses the colloquial 'Есть ли... нет ли' looseness. The final \"isn't in the loop yet\" keeps the casual personification of science well, so most of the register mismatch survives."
+          "justification": "\"Isn't in the loop yet\" is a good colloquial equivalent of «не в курсе дела» and personifies science. But \"science does not know\" is stiffer and more formal than the casual «это науке неизвестно», which slightly narrows the register contrast."
         }
       ]
     }
@@ -226,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 7
+      "minor": 4
     },
-    "total_points": 17,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 2.125,
-    "major_equiv_per_unit": 0.425,
-    "interpretation": "2.12 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -41,13 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The vocatives 'Pleased to meet you, Tsar!' and 'Hello, Tsar!' make Bunsha address a Tsar. The analysis and its note require that he introduces himself as the Tsar, so the candidate contradicts the intended meaning of the source and of the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Pleased to meet you, hello, Tsar!' is clumsy and stacks two greetings awkwardly, which weakens the rhythmic repetition of the source."
+          "justification": "The analysis specifies that Bunsha introduces himself as the Tsar, not that he addresses a Tsar. The candidate's 'Pleased to meet you, Tsar!' and 'Tsar, pleased to meet you!' read as greetings to someone named or called Tsar, and no line states 'I'm the Tsar' or equivalent self-identification. This contradicts the essence of the item."
         }
       ]
     },
@@ -104,7 +98,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The first line ends with an exclamation mark instead of the hesitation ellipsis in the source, which loses the stammering, panicked rhythm of the Tsar's first reaction."
+          "justification": "The source has an ellipsis after 'Замуровали…', marking the Tsar's halting, panicked delivery. The candidate replaces it with a flat exclamation 'They've walled me in!', which weakens the breathless effect, though the content is preserved."
         }
       ]
     },
@@ -188,16 +182,10 @@
       "candidate": "Caviar, black, red...\nYes! And overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
-          "category": "terminology",
-          "span": "",
-          "justification": "The candidate calls the eggplant spread 'overseas caviar' before revealing it as 'Eggplant!'. The analysis note explicitly says the translation must not call eggplant spread 'caviar', as it will confuse viewers. The reference avoids this with 'spread'."
-        },
-        {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Caviar, black, red...' is an awkward reordering of the source's 'Black caviar, red caviar', and the list reads less naturally."
+          "justification": "The analysis explicitly warns that eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'overseas caviar...' followed by 'Eggplant!' does use 'caviar' for the eggplant spread, though the reveal at the end keeps the status-inversion joke working, so the problem is limited."
         }
       ]
     },
@@ -224,7 +212,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate mixes digits ('3') with spelled-out words ('three' at the end), which weakens the cadence of the counting joke that the analysis highlights as the core humor."
+          "justification": "The candidate uses numerals ('3 tape recorders', '3 movie cameras') where the spoken, rhythmic list in the source and reference is spelled out. This makes the list feel more like a written tally than Shpak's inflated spoken boasting, though the counting joke still lands."
         }
       ]
     },
@@ -244,23 +232,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The initial conjunction 'И' ('And') is omitted from the first line, so the candidate starts more abruptly than the source and the reference, slightly weakening the melodic, calm cadence described in the analysis."
+          "justification": "The source opens with 'И тебя вылечат…', where the conjunction 'И' links the line to the preceding thought. The candidate drops this and starts with 'They'll cure you...', slightly weakening the melodic, continuous rhythm of the repeated lines."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

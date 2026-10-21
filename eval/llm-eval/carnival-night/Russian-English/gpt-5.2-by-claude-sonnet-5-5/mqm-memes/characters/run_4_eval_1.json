@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Hire\" Baba Yaga and \"raise one in our own staff\" keeps the workplace logic, but \"raise\" is slightly more child-rearing than training/cultivating, and \"in our own staff\" is a bit awkward. The core joke about home-grown nastiness within the collective still works."
+          "justification": "\"Hire Baba Yaga\" keeps the workplace/staffing logic, but \"Baba Yaga\" is left untranslated with no cue for English viewers that she is a nasty woman type. The social-type reading (a malicious woman already present in the collective) is therefore weaker than with \"witch\". \"Raise one in our own staff\" is slightly awkward compared with \"train one in-house\"."
         }
       ]
     },
@@ -67,16 +67,10 @@
       "candidate": "briefly—about\nforty minutes, no more,\nI think that’s enough",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"No more, I think that's enough\" keeps the 'briefly' before 'forty minutes' order, but the faux-modest, cozy diminutive tone of «коротенько» is flattened and the self-satisfied managerial voice is weaker. The punchline still lands."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Lowercase \"briefly\" with no conjunction reads like a fragment, and \"no more, I think that's enough\" is a clunky restructuring of the original hedge."
+          "justification": "The faux-modest diminutive \"коротенько\" is rendered as a flat \"briefly\", and the line ends with \"no more, I think that's enough\". This turns the smug understatement into a plain statement, and \"forty minutes\" no longer lands as the punchline. The required sequence of claimed briefness followed by a long duration is weakened."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The \"ready\" = \"drunk\" double sense is not recreated. The candidate gives only the literal administrative reading, and \"been ready a long time\" carries no hint of intoxication, so the joke is lost, as the analysis warns. The reference's \"Oh, he's ready\" at least adds a knowing tone."
+          "justification": "The candidate translates \"ready\" literally and leaves nothing to suggest \"готов\" as \"drunk\". The double reading, administrative readiness on the surface and intoxication underneath, is lost, and that was the core of the joke. The reference recreates it with \"Oh, he's ready. He's been ready for quite a while.\""
         }
       ]
     },
@@ -126,9 +120,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"People!.. Ah... Ah-oo!\" keeps the broken, faltering shape, but it doesn't stretch the syllables (Peo-ple) as the source «Лю-ди» does, and \"Ah-oo\" is less of a calling \"hellooo\". The drunken oratory collapse is somewhat weakened."
+          "justification": "The broken, wavering vocalization is partly kept with \"Ah... Ah-oo!\", but the first word is a clean \"People!..\" and is not stretched like the Russian \"Лю-ди!\". The drunken instability is weaker than in the reference \"Peo-ple!\". The leading dash is also unnecessary."
         }
       ]
     },
@@ -157,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis says to avoid. It lacks the echo of the familiar \"unaided eye\" idiom, so English viewers get a stranger, more surreal phrase rather than a mock-scientific malformed idiom, and the joke is weakened."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis says to avoid. In English it sounds more surreal than the Russian and does not echo \"the unaided eye\". The mangled-idiom effect of mock-scientific language is therefore lost. The \"one only has to\" phrasing is also stiffer than the reference."
         }
       ]
     },
@@ -186,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is garbled: \"Four stars—best of all, of course, five stars!\" makes four stars the best before the correction, which breaks the buildup of two, three, four, then the sudden \"five is best\" click. The ellipsis placement also loses the rhythm of the counting. The five-star cognac punchline is partly muddled."
+          "justification": "The punchline structure is broken. The counting is \"two stars, three stars... Four stars—best of all, of course, five stars!\", so the line calls four stars the best. This muddles the counting build-up and the sudden click into the cognac frame at \"five stars\"."
         }
       ]
     },
@@ -212,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet in the know\" keeps the colloquial personification and the register mismatch well. However, \"science does not know\" is slightly more formal and flatter than \"unknown to science\", and the clunky \"is there no life\" repetition loses some of the casual looseness."
+          "justification": "The meaning and the casual register of \"Science is not yet in the know\" are preserved well. \"Is there life on Mars, is there no life on Mars\" is a bit clumsy and stiff in English, and \"science does not know\" is somewhat more formal than the colloquial Russian. The effect is only slightly weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 20,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

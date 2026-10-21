@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Candidate preserves meaning and meme function but reduces the high-flown, performative self-dramatization of the reference. \"Name one! No, I'm waiting.\" is flatter and less theatrical than the original \"Pray, tell me, name them!!\""
+        }
+      ]
     },
     {
       "id": 2,
@@ -48,10 +55,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Candidate renders the line as a literal noun phrase ('High... high relations.'), which the analysis explicitly warns against. This phrasing loses the natural exclamatory, sarcastic punch and the repeated refrained delivery that makes the original comic effect."
+          "justification": "Candidate renders the line as a literal noun phrase (\"High... high relations.\"), which the analysis specifically warns against. This loses the natural exclamatory, sarcastic refrain and fails to capture the rhythmic, ironic effect of the original."
         }
       ]
     },
@@ -71,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "Using 'conscience' instead of a concept closer to 'duty' or 'duty-bound' shifts the pragmatic nuance. The soldierly fatalism and moral- duty justification described in the analysis is weakened by 'conscience,' which reads more introspective than the original's civic/moral duty tone."
+          "justification": "Candidate keeps the basic opposition (joy vs. moral obligation) but uses \"conscience,\" which reads slightly odd in English compared with the idiomatic target of duty/obligation in the reference. The phrase is understandable but less idiomatic/smooth."
         }
       ]
     },
@@ -90,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "Note: I didn't suggest it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Note: I didn't suggest it.\" is grammatical and conveys the idea, but \"For the record: I am not the one who suggested it!\" has a punchier, more idiomatic register that better matches the character's charmingly deflective tone; the candidate is a bit flat."
+        }
+      ]
     },
     {
       "id": 6,
@@ -107,10 +121,10 @@
       "candidate": "Culinarian!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Rendering the exclamation as the literal noun 'Culinarian!' produces an unnatural, stilted English idiom. The analysis warns that literal professional nouns sound odd in English here; the candidate fails to capture the punchy, domestic insult register of the original."
+          "justification": "The analysis warns against literal professional nouns. \"Culinarian!\" sounds unnatural and archly literal in English and fails to reproduce the punchy, scolding, domestic insult the original delivers."
         }
       ]
     },
@@ -144,10 +158,10 @@
       "candidate": "Cut it out to hell with it—\nbefore peritonitis.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase 'Cut it out to hell with it—' is awkward and clumsy in English. It attempts to mirror the abrupt vulgarity of the original but results in a non-idiomatic construction that reduces the sharp surgical-imperative comic effect."
+          "justification": "Phrase \"Cut it out to hell with it—\" is awkward and unidiomatic in English, breaking the sharp, brutal imperative of the original. The candidate muddles the force and immediacy of the surgical command and reads as grammatically clumsy."
         }
       ]
     },
@@ -184,7 +198,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Splitting the idiom into 'This is my cross! And I will carry it.' loses the natural English fixed expression 'a cross to bear' and softens the manipulative, self-sacrificing theatricality the analysis highlights. The line reads more literal and less rhetorically loaded than the reference."
+          "justification": "Candidate is literal (\"This is my cross! And I will carry it.\") and therefore splits an English idiom. It conveys self-sacrifice but loses the idiomatic compactness and slightly manipulative register of \"This is my cross to bear! And mine alone!\""
         }
       ]
     },
@@ -206,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' as a direct rendering of 'угловатая,' which the analysis warns against because it sounds literal and odd in English. This choice weakens the playful, coquettish self-deprecation and results in a less idiomatic, slightly awkward phrase."
+          "justification": "Candidate uses \"angular,\" which the analysis warns against as overly literal and awkward in English. The line remains understandable and somewhat comic, but the choice weakens the natural, idiomatic characterization the original achieves."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 6
+      "major": 3,
+      "minor": 5
     },
-    "total_points": 6,
+    "total_points": 20,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.8181818181818181,
+    "major_equiv_per_unit": 0.36363636363636365,
+    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

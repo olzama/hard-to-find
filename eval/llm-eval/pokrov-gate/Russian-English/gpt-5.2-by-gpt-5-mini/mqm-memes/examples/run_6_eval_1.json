@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), losing the sarcastic, exclamatory refrain and the clipped stuttering effect that functions as a repeating ironic motif in the film. This weakens the intended comic voice."
+          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), which the analysis explicitly cautions against. This phrasing sounds unnatural and loses the idiomatic, exclamatory sarcastic refrain and stuttering rhythm that make the original comic effect."
         }
       ]
     },
@@ -68,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "People don't live for joy—they live for conscience.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate uses 'conscience' ('live for conscience'), which is a literal rendering that reads awkwardly in English and shifts the idiomatic force of the original (better expressed as 'duty' or 'to do your duty'). The meaning is preserved but the phrasing is unnatural and less idiomatic."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -110,7 +103,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' is a positive-sounding phrase that relies on sarcasm but changes the punch and abruptness of the original biting household insult. It doesn't capture the terse, scolding imperativeness implied in the analysis."
+          "justification": "‘Culinary genius!’ works as a sarcastic put-down, but it shifts the register slightly from the brusque, home‑y invective of the original ('Some cook you are!'). The playful, almost complimentary sarcastic phrasing is a small stylistic divergence from the harsher domestic insult."
         }
       ]
     },
@@ -144,10 +137,10 @@
       "candidate": "Cut it out to hell.\nDon't wait for peritonitis.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'Cut it out to hell.' is ungrammatical and obscures the original's abrupt, coarse surgical verdict ('Cut it the hell out'). The candidate splits the sentence awkwardly and loses the sharp, comic medical imperative central to the line's effect."
+          "justification": "The phrase 'Cut it out to hell.' is unidiomatic in English and weakens the abrupt surgical imperative. The original's coarse imperative ('Cut it the hell out') packs more force; the candidate's word order and preposition choice make the line awkward and less punchy."
         }
       ]
     },
@@ -167,9 +160,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "The candidate renders the name as 'Khabotov' instead of the more accurate 'Khobotov' transliteration used in the reference. This introduces an inconsistent spelling of the character's name."
+          "justification": "The character name is rendered as 'Khabotov' rather than the expected 'Khobotov' (or consistent transliteration). This is a small but noticeable inconsistency in proper-name spelling."
         }
       ]
     },
@@ -191,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "By splitting and translating literally ('This is my cross! / And it's mine to bear.'), the candidate fails to render the English idiom idiomatically as a single unit ('This is my cross to bear'), reducing the rhetorical force of the manipulative hyperbole."
+          "justification": "Splitting the idiom into 'This is my cross!' then 'And it's mine to bear.' makes the line slightly less idiomatic than the recommended 'This is my cross to bear!' The effect is still understandable, but the phrasing weakens the fixed English idiom used for manipulative self‑sacrifice."
         }
       ]
     },
@@ -213,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate includes 'angular' which is a literal translation of 'угловатая' and, as noted in the analysis, sounds awkward and overly literal in English. This choice weakens the playful, self-mocking tone of the original line."
+          "justification": "Using 'angular' reproduces the literal Russian adjective and risks sounding overly literal or odd in English, which the analysis warns against. A more idiomatic rendering (e.g., 'all sharp edges') would better match the intended self-mocking, coquettish tone."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 6
     },
-    "total_points": 11,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

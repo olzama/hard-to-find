@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk—you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate omits the opening address ('Guys') that helps set Gorbunkov's dramatic register and slightly flattens the contrast between his grandiose claim and the policeman's mocking aside. The policeman's line also reads more awkwardly ('Get drunk—you will be!') than the reference's idiomatic retort ('Get drunk enough, and you will be!'), weakening the deadpan cop humor."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -73,7 +66,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders 'Obliko morale' as 'Moral appearance,' which is a more literal and less idiomatic rendering of the faux-sophisticated phrase; this slightly reduces the playful mock-Worldliness of Gena's multilingual performance. The line also adds 'You see,' which softens the original's blatant performative listing."
+          "justification": "The candidate literalizes 'Moral appearance' and uses plain English for the faux-exotic phrase 'Obliko morale', which reduces the playful, pseudo-international jargon mashup that generates much of the joke's comic effect. Also it omits the initial 'Lady' address, slightly weakening the original register juggling."
         }
       ]
     },
@@ -135,7 +128,14 @@
         "language_specific": {}
       },
       "candidate": "As our dear Boss says,\neven teetotalers drink at someone else’s expense—\nand people with ulcers too.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning but flattens the original rhythmic pairing (trezvenniki/yazvenniki). The balanced, proverb-like cadence is weakened, losing some of the comic proverb quality demanded by the analysis."
+        }
+      ]
     },
     {
       "id": 9,
@@ -170,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original comedy relies on a characteristic mispronunciation of 'tablet' to make the line memorable. The candidate's neutral 'One pill is enough...' loses that specific vocal tics and therefore some of Lyolik's characterful bite."
+          "justification": "The candidate conveys meaning but drops the humorous mispronunciation of 'tablet' that is a memorable character marker in the source; the line therefore loses a small but significant part of Lyolik's voice."
         }
       ]
     },
@@ -202,14 +202,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source is a melodic, elongated sigh ('Semyo-o-on Semyonych!') conveying weary exasperation. The candidate's curt 'Semyon Semyonovich...' loses the drawn-out musicality and the comedic weary tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -274,7 +267,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word 'лёгкое' untranslated ('With a лёгкое flick of the wrist'), which is a direct source-language intrusion and disrupts comprehension and fluency. This is a clear mistranslation/untranslated material in an otherwise English subtitle line."
+          "justification": "The candidate left the Russian word 'лёгкое' (legkoe) untranslated and inserted it into an otherwise English line ('With a лёгкое flick of the wrist'), which is an obvious error that breaks fluency and distracts from the intended repeated telegraphed phrase. This mix of scripts/words undermines the staged, repetitive comedic delivery."
         }
       ]
     },
@@ -356,7 +349,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis highlights Gena's affected pronunciation of 'coffee' and slightly grandiose diction. The candidate uses 'baath' (a nonstandard spelling) and a normal 'coffee,' which fails to capture the intended affected pronunciation and aristocratic pretension; the phrasing also feels less polished than the reference's playful mispronunciation."
+          "justification": "The candidate loses Gena's affected pronunciation marker (the comic, elitist mispronunciation of 'bath' and 'coffee') and contains a typo ('baath'), which reduces the character's pretentious voice and slightly harms fluency."
         }
       ]
     },
@@ -393,7 +386,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's rustic, intentionally incorrect verb form gives the refusal a folksy, humorous edge. The candidate's standard 'No, I can’t do that!' conveys the meaning but loses the comic linguistic colouring that the analysis identifies as important."
+          "justification": "The candidate renders the refusal idiomatically but drops the source's deliberately nonstandard/folk verb form that provides comic color and stubborn rural flavor; the line becomes plainer and loses that rustic emphasis."
         }
       ]
     }
@@ -401,13 +394,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 11,
+    "total_points": 10,
     "meaning_units": 23,
-    "penalty_per_unit": 0.4782608695652174,
-    "major_equiv_per_unit": 0.09565217391304348,
-    "interpretation": "0.48 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.43478260869565216,
+    "major_equiv_per_unit": 0.08695652173913043,
+    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

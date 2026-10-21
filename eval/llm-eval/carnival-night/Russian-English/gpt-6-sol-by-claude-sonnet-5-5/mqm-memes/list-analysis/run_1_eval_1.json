@@ -34,9 +34,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic and \"cultivate ... in our own collective\" keeps the bureaucratic tone, but retaining the untranslated \"Baba Yaga\" leans toward the fairy-tale figure for a non-Russian viewer. The 'nasty woman in every workplace' social type is less accessible than with 'witch'."
+          "justification": "Keeping 'Baba Yaga' untranslated makes the line lean toward the fairy-tale reading. An English-speaking viewer is less likely to hear the second layer, the nasty, troublemaking woman already present in the workplace. The staffing logic ('hire', 'cultivate', 'our own collective') does keep the bureaucratic framing."
         }
       ]
     },
@@ -53,20 +53,7 @@
         "language_specific": {}
       },
       "candidate": "a nice little talk,\nsay, forty minutes. I don't think\nit needs to be any longer.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The word 'briefly' (коротенько) is the setup of the joke, and the analysis says the briefness claim must come before the duration. \"A nice little talk\" conveys faux-modesty but loses the explicit claim of brevity, and \"say, forty minutes\" is delivered casually, so the comic reversal is weaker. The line also starts in lowercase mid-sentence with no brevity marker."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"it needs to be any longer\" is slightly less natural and less smug than the original's \"больше, я думаю, не надо\" and is reordered, weakening the managerial self-satisfaction."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -81,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nReady? He's been well and truly ready\nfor ages!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate gives only the literal 'ready' reading. \"Well and truly ready\" hints at drunkenness slightly, but the double sense (official readiness vs. already drunk) is not clearly recreated, and the answer sounds like an emphatic echo rather than a cheerful confirmation of intoxication. The analysis warns that the alcoholic joke may disappear."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -103,14 +83,7 @@
         "language_specific": {}
       },
       "candidate": "- Peo-ple! Ah... Yoo-hoo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Yoo-hoo!\" is a cheerful, light call that replaces the faltering, wavering 'ау-у' with a more playful, sober-sounding greeting, slightly weakening the drunken, collapsing vocalization. The broken 'Peo-ple!' and the 'Ah...' are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -135,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It does not echo the English idiom \"unaided eye\", so the mock-scientific deformation of a familiar expression is not recognizable to English viewers and reads as surreal rather than as damaged learned speech."
+          "justification": "'Armed eye' is the literal calque the analysis warns against. In English it does not echo any familiar idiom such as 'unaided' or 'naked eye', so the audience does not hear a recognizable expression being wrongly 'upgraded'. The mock-scientific malapropism is lost and replaced by a vaguely surreal phrase."
         }
       ]
     },
@@ -157,20 +130,7 @@
         }
       },
       "candidate": "and we can see two little stars,\nthree little stars...\nFour little stars... Best of all,\nof course, is five-star!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate keeps the trivial counting and the five-star punchline, but \"five-star\" with no noun is unclear, and the cognac association is not cued. The shift into a different semantic world is weaker, though the notes say a translator's note may be needed."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The opening \"and we can see\" and the ellipsis placement are slightly less natural than the original's \"as we can already see\" with its build-up; \"Four little stars...\" begins a new sentence, which interrupts the counting rhythm."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -190,14 +150,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 20,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

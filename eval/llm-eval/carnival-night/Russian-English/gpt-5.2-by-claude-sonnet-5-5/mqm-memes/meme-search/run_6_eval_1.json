@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive\nto welcome the New Year with cheer.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Directive\" keeps the bureaucratic register and the clash with festive content, but \"welcome the New Year with cheer\" is slightly softer and less dryly official than \"celebrate merrily\". The effect is mostly preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -46,7 +39,14 @@
         }
       },
       "candidate": "We won't bring in a Baba Yaga\nfrom outside—\nwe'll cultivate one within our own collective!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Baba Yaga\" and \"cultivate\" keep the structure and workplace logic, but the untranslated folkloric name leans fairy-tale and may not evoke the nasty-woman-in-the-office type for English viewers, weakening the second level of the joke."
+        }
+      ]
     },
     {
       "id": 3,
@@ -67,16 +67,16 @@
       "candidate": "briefly—about\nforty minutes, more, I think,\nis not necessary",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"More, I think, is not necessary\" is a stiff, awkward calque of the Russian. \"Briefly\" is placed first, which is correct, but the lowercase fragment and clumsy phrasing weaken the smug, faux-modest tone."
+          "justification": "The faux-modest diminutive \"коротенько\" is rendered as a flat \"briefly\" and the line ends in stiff \"more, I think, is not necessary\", so the patronizing, self-satisfied cozy tone that makes \"forty minutes\" a punchline is lost."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The diminutive, cozy faux-modesty of «коротенько» is not rendered at all; plain \"briefly\" makes the contrast with \"forty minutes\" somewhat flatter."
+          "justification": "\"more, I think, is not necessary\" is a stilted, literal word order that sounds unnatural in English."
         }
       ]
     },
@@ -102,13 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word \"давно\" is left untranslated inside the English subtitle (\"ready давно!\"), which English-speaking viewers cannot understand."
-        },
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The double meaning of \"готов\" (ready / drunk) is not recreated. The line has no hint of intoxication, so the core joke is lost."
+          "justification": "The Russian word \"давно\" is left untranslated in the English subtitle, so English viewers cannot read it. The \"ready = drunk\" double meaning is not recreated, since \"ready\" in English carries no intoxication sense, and the joke is lost."
         }
       ]
     },
@@ -134,7 +128,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, stretched vocalization (\"Лю-ди!\", \"ау-у\") is partly lost: \"People!\" is a clean, unbroken word, though \"Ah... Helloo!\" retains some wavering. The drunken faltering effect is weakened."
+          "justification": "The broken, stretched vocalization of \"Лю-ди! А… ау-у!\" is partly lost: \"People!\" is normalized rather than split as \"Peo-ple!\", though \"Ah... Helloo!\" keeps some of the wavering call."
         }
       ]
     },
@@ -163,7 +157,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly says to avoid. It does not echo \"unaided eye\", so English viewers do not recognize a mangled idiom and the mock-scientific malapropism is lost."
+          "justification": "\"Armed eye\" is the literal calque the analysis says to avoid. It sounds stranger than the Russian and does not echo the English \"unaided eye\", so the mock-scientific deformation of a familiar idiom does not register for English viewers."
         }
       ]
     },
@@ -192,13 +186,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting sequence is broken: \"Four stars—best of all, of course, five little stars!\" makes four stars part of the superlative, so the buildup (two, three, four…) then punchline structure is garbled. The sudden click to five stars is blurred."
+          "justification": "The counting progression is garbled: \"Four stars—best of all, of course, five little stars!\" makes four stars the best and then five, which breaks the build-up. The final \"five stars\" no longer clicks as the sudden shift into the cognac frame."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Five little stars\" sounds childish and does not evoke the cognac association. No note is given, so the shift into a different semantic world is weaker."
+          "justification": "\"five little stars\" is odd in English, and there is no hint of the cognac association."
         }
       ]
     },
@@ -224,7 +218,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The colloquial, humorous register is mostly preserved with \"isn't up to speed yet\". The first half, \"science doesn't know\", is somewhat flatter than \"unknown to science\" and the \"Whether... or not\" framing loses a little of the loose, rambling quality, but the effect remains."
+          "justification": "The meaning is correct and the colloquial \"isn't up to speed yet\" keeps the key register gag. The first sentence \"science doesn't know\" is a little flatter and less mock-formal than the original, but the effect largely survives."
         }
       ]
     }
@@ -232,13 +226,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 26,
+    "total_points": 25,
     "meaning_units": 8,
-    "penalty_per_unit": 3.25,
-    "major_equiv_per_unit": 0.65,
-    "interpretation": "3.25 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.125,
+    "major_equiv_per_unit": 0.625,
+    "interpretation": "3.12 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

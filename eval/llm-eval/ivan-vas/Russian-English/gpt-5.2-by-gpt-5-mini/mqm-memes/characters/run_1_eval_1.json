@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which changes the meaning: the Russian indicates those items are missing (they were taken/lost), not that the people currently possess them. This contradicts the NB in the analysis and reverses the intended implication."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies current possession. The original (and the analysis note) indicate these items have been lost/are the objects of theft — the phrasing means 'they've been robbed of' them. This reverses the predicate and undermines the joke about stolen goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line is meant to show Bunsha introducing himself as 'the Tsar' in a repetitive, self-presentational Soviet cliché. The candidate ('Very nice, Tsar! ... Hello, Tsar—very nice!') reads as addressing someone called 'Tsar' rather than introducing himself as the Tsar, losing the key comic premise noted in the analysis."
+          "justification": "The source line is Bunsha repeatedly introducing himself as 'the Tsar.' The candidate's lines ('Very nice, Tsar! ... hello, Tsar') read as if he is addressing someone called 'Tsar' rather than introducing himself. This fails the analysis requirement that it be clear he is introducing himself as the Tsar, changing the comedic effect."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "candidate": "Bricked up!\nBricked up, demons!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original has the demons as the implied agents who 'walled him in' (subject), not as addressee. The candidate's punctuation ('Bricked up, demons!') can be read as addressing the demons, which reverses that subtle syntactic/semantic relationship and weakens the intended confusion between technology and sorcery."
+          "justification": "The original means 'They've walled me in... Walled me in, the demons' — i.e., the demons are the SUBJECT who walled him in. The candidate 'Bricked up, demons!' reads as if the speaker is addressing demons, which inverts the grammatical relation and weakens the intended comic misunderstanding of technology as demonic agency."
         }
       ]
     },
@@ -142,7 +142,14 @@
         "language_specific": {}
       },
       "candidate": "Well, this is a lucky visit!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'Well, this is a lucky visit!' preserves the meaning (he's pleased with his discovery on entering) but loses some of the casual, idiomatic tone of the reference ('Now, this was a good call!'). The phrasing is slightly more formal/awkward and less in-character for a cheery burglar."
+        }
+      ]
     },
     {
       "id": 9,
@@ -162,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns against presenting eggplant spread as 'caviar' to avoid confusing viewers. The candidate's phrasing ('Imported caviar... Eggplant!') risks implying eggplant is a type of caviar rather than contrasting elite caviar with the humble eggplant spread, which slightly muddies the satirical inversion."
+          "justification": "The candidate's lines 'Imported caviar... Eggplant!' risk implying that the eggplant spread is being called 'caviar' (or that both are types of caviar), which the analysis warns against. The comic inversion relies on presenting 'eggplant caviar' as a cheap spread distinct from true caviar; the phrasing here is slightly ambiguous and may confuse that contrast."
         }
       ]
     },
@@ -182,9 +189,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak's fumbling count — he lists items and only later (after a hesitancy) reaches the number 'Three', revealing his exaggeration. The candidate straightaway lists 'three suede jackets' (plural, counted) and removes the hesitancy/contradiction, erasing the comic beat that the analysis highlights."
+          "justification": "The candidate lists 'three suede jackets' outright. In the source the count and the speaker's hesitancy (naming a jacket then later saying 'Three') create the joke that he inflates items as he lists them; the candidate's flat enumeration removes the comedic reveal and the incremental lie, undermining the gag."
         }
       ]
     },
@@ -206,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 4,
       "minor": 2
     },
-    "total_points": 17,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

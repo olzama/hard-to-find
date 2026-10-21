@@ -24,15 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The 'tormented by vague misgivings' opening keeps a mock-heroic tone, but the line breaks and the rhyming couplet ('lost a tape machine... not been seen') push it toward doggerel and away from the clipped parallel structure of the source."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Tape machine' is an unnatural rendering of 'tape recorder' (магнитофон), and 'locket' is slightly off for 'medallion' (медальон)."
+          "justification": "The 'lost' meaning is conveyed correctly and the opening keeps the mock-heroic tone. However, 'tape machine' is an unnatural rendering of 'tape recorder', and 'the envoy's locket's not been seen' is clumsy. This weakens the terse, parallel punch of the original."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Tsar!' reads as a bare exclamation or as addressing someone as Tsar, not as Bunsha introducing himself as the Tsar. The analysis explicitly requires making clear he is introducing himself, and the candidate omits any 'I'm the Tsar' framing."
+          "justification": "The analysis requires that Bunsha clearly introduces himself as the Tsar. 'Pleased to meet you. Tsar!' reads as if he is addressing a Tsar. The self-introduction, which is the basis of the joke, is lost. The repeated stiff greeting formulas survive, but the key point does not."
         }
       ]
     },
@@ -106,14 +100,7 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nWalled me in, the fiends!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The first fragment 'Walled in!' drops the 'me' and is slightly less clear than the reference. 'The fiends' correctly remains the subject and not an addressee, and the archaic tone is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -153,14 +140,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is accurate and punchy, but it loses the host-like, mock-gracious tone of the reference ('The floor is open to everyone'). The imperative is still fine for the chaotic dance-party effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -180,14 +160,7 @@
         }
       },
       "candidate": "Well, didn't I drop by at the right time!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Didn't I drop by at the right time' is a bit wordy and idiomatic, but it correctly conveys that he has just arrived, not that he is leaving. The cheerful tone is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -212,7 +185,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Overseas caviar... Aubergine!' calls the eggplant spread 'caviar', which the analysis explicitly forbids because it confuses viewers. The structure also drops the contrast of 'overseas spread' with eggplant, so the punchline is muddled."
+          "justification": "The candidate calls the eggplant spread 'Overseas caviar... Aubergine!', which the notes explicitly forbid because it confuses viewers. The inversion of status symbols (cheap eggplant spread presented as a rare delicacy) is blurred, because the line reads as one more kind of caviar."
         }
       ]
     },
@@ -236,10 +209,10 @@
       "candidate": "tape recorders, 3;\nfilm cameras, 3;\ncigarette cases, domestic, 3;\njacket, suede: three.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The list puts the number after each item and gives 'three' for the jacket in the same pattern as the others. This destroys the joke where Shpak initially forgets to increment the jacket count (the reference has the final 'Three' trailing). The format is also telegraphic and loses Shpak's spoken voice."
+          "justification": "The inventory-style format ('tape recorders, 3; … jacket, suede: three') reads as a stiff list rather than Shpak's boastful, hesitating speech. It loses the pauses and the delayed final 'Three' that make the singular suede jacket's inflated count funny. The items and numbers are correct, so the joke still partly works."
         }
       ]
     },
@@ -261,21 +234,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate drops the ellipses and uses exclamation marks, which turns the calm, melodic resignation described in the analysis into a more excited delivery. 'You too' and 'as well' do keep the meaning."
+          "justification": "The exclamation marks and the dropped initial 'And' make the delivery emphatic and agitated. The analysis calls for calm, melodic resignation. The meaning and the incremental pattern are preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 21,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should have been in his place!\nGet drunk enough, and you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate omits the vocative 'Guys' (Ребята), which slightly reduces the public, performative tone of Gorbunkov's dramatic proclamation. The contrast between his melodramatic register and the policeman's deadpan reply is therefore a bit weakened."
+        }
+      ]
     },
     {
       "id": 2,
@@ -66,14 +73,7 @@
         "language_specific": {}
       },
       "candidate": "Lady, signora, frau, miss...\nunfortunately, nothing's going to happen.\nRusso Turisto!\nObliko Morale! Verstehen?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate spells the comic loanword as \"Obliko Morale\" while the reference has \"Obliko Morale.\" This orthographic switch (k/l transposition) makes the phrase less recognizably the intended mock-foreign formula and slightly weakens the established comic effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -138,14 +138,7 @@
         }
       },
       "candidate": "As our dear boss says,\non someone else's dime,\neven teetotalers and convalescers drink!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is a literal rendering that preserves meaning but loses the original's tight rhythmic pairing (trezvenniki / yazvenniki). The proverb-like, balanced cadence that gives the line its punch is not recreated, making the line less witty and memorable than the analysis recommends."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -376,13 +369,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 23,
-    "penalty_per_unit": 0.08695652173913043,
-    "major_equiv_per_unit": 0.017391304347826087,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.043478260869565216,
+    "major_equiv_per_unit": 0.008695652173913044,
+    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

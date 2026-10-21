@@ -21,7 +21,14 @@
         }
       },
       "candidate": "I'm plagued once more\nby vague suspicions...\nShpak's missing a tape recorder;\nthe ambassador, a medal.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate's phrase 'Shpak's missing a tape recorder' is ambiguous: it can be read as 'Shpak lacks a tape recorder' rather than the intended meaning that his tape recorder is missing/stolen. The analysis explicitly warns against translations that imply current possession. The rest of the line preserves the mock‑heroic tone, so the problem is a slight accuracy/clarity issue rather than a major mistranslation."
+        }
+      ]
     },
     {
       "id": 2,
@@ -207,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 0
+      "minor": 1
     },
-    "total_points": 0,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.0,
-    "major_equiv_per_unit": 0.0,
-    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

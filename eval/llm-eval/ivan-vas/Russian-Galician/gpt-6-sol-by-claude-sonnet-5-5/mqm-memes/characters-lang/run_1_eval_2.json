@@ -26,19 +26,19 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The present tense 'perde' says Shpak loses the item. It does not convey that the items are already gone, which the analysis requires: each man lost his item. The reference's 'desapareceulle' makes this clear."
+          "justification": "The present tense 'perde' reads as a habitual or ongoing loss. The nb requires that each of them has lost the item, so a completed loss is needed (e.g. 'perdeu' or 'desapareceulle')."
         },
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Medalla' (a medal) replaces 'medallón' (medallion), which changes the object stolen from the ambassador."
+          "justification": "'Medalla' (medal) replaces 'medallón' (medallion). The plot object changes, which weakens the callback to the earlier scene."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Volven asaltarme as dúbidas' drops the 'смутные' (vague, dark) qualifier. The mock-heroic theatrical tone is weaker, and the callback to the earlier suspicion is less clear."
+          "justification": "'Volven asaltarme as dúbidas' is a plain rendering. It loses the 'смутные' (dark, vague) nuance and some of the mock-heroic theatrical register."
         }
       ]
     },
@@ -60,7 +60,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first line, 'bo día, o tsar!', lacks 'son'. It could be read as addressing a tsar rather than introducing himself as the Tsar, which the analysis says must be clear. Only the third line has 'son o tsar'."
+          "justification": "'Un pracer, bo día, o tsar!' and 'O tsar, encantado!' can be read as addressing a tsar rather than introducing himself as one. Only the third line, with 'son o tsar', is clear."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Triste' and 'vella' flatten the Tsar's high, archaic register. The reference's 'aflixido' and the diminutive 'velliña' keep the regal melancholy and the condescension."
+          "justification": "'Vella' is blunt and lacks the affectionate diminutive of 'старушка' ('velliña'). 'Triste' is also plainer than the elevated, archaic melancholy of 'в печали' ('aflixido'), which weakens the regal register."
         }
       ]
     },
@@ -121,10 +121,16 @@
       "candidate": "Emparedáronnos!\nEmparedáronnos, os demos!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedáronnos' (they walled up us) changes the singular 'me' of the Tsar's complaint to a plural. This slightly shifts the meaning, though the demons still read as the subject."
+          "justification": "'Emparedáronnos' (us) changes the person. The Tsar says he alone is walled in ('me'), so the plural is a mistranslation."
+        },
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Emparedáronnos, os demos!' sets 'os demos' off with a comma after the verb. It reads as a vocative, with the Tsar addressing the demons, which the nb explicitly forbids. The demons must be the subject."
         }
       ]
     },
@@ -149,9 +155,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The archaic epithet 'животворящий' (vivificante) is dropped and replaced by 'Santa Cruz'. This weakens the Tsar's solemn religious diction."
+          "justification": "'Santa Cruz' drops the liturgical epithet 'животворящий' (life-giving). This weakens the archaic religious register and the Tsar's conviction that the cross caused the miracle. It does avoid 'velaí'."
         }
       ]
     },
@@ -218,7 +224,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "Calling the eggplant spread 'caviar do estranxeiro... De berenxena' labels it caviar, which the note explicitly forbids because it confuses viewers. 'Заморская' (overseas) also now reads as describing caviar generally, not as the rare delicacy. The satirical inversion of black and red caviar against cheap eggplant spread is blurred."
+          "justification": "'E tamén caviar do estranxeiro... De berenxena!' calls the eggplant spread 'caviar', which the nb forbids because it confuses viewers. The inversion joke of cheap spread presented as a rare delicacy is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The emphatic 'Да!' is omitted. 'Do estranxeiro' also weakens the 'заморская' (from overseas) delicacy tone."
         }
       ]
     },
@@ -245,13 +257,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The jacket is rendered as 'tres chaquetas'. The joke depends on Shpak first forgetting to raise the jacket from one, so the count exposes his exaggeration. That slip and the final 'tres' beat are lost."
+          "justification": "The candidate says 'tres chaquetas de ante', so the count is consistent. The joke is that Shpak says one suede jacket and then slips in 'three', betraying his exaggeration. That joke is lost."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Cámaras' omits 'de cine' (кинокамеры), so the item is less specific."
+          "justification": "'Cámaras' omits 'de cine' (cinema cameras), a small loss of specificity in the list of status items."
         }
       ]
     },
@@ -273,21 +285,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks make the lines sound agitated. The analysis describes a melodic, calm resignation, which the reference's ellipses preserve."
+          "justification": "The exclamation marks make the delivery emphatic and the ellipses are lost. This undercuts the melodic, calm resignation the analysis describes."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 4,
       "minor": 9
     },
-    "total_points": 19,
+    "total_points": 29,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.6363636363636362,
+    "major_equiv_per_unit": 0.5272727272727272,
+    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

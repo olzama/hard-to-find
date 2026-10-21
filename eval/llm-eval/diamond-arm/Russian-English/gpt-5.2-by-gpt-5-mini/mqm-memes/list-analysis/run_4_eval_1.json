@@ -18,10 +18,10 @@
       "candidate": "that should’ve been... me.\nDrink enough—will be.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The second line 'Drink enough—will be.' omits the subject/agent and reads ungrammatical and unclear in English; it fails to deliver the policeman's mocking, inevitability-joke ('Get drunk enough, and you will be carried away') that undercuts Gorbunkov's dramatics."
+          "justification": "The policeman's retort 'Drink enough—will be.' is grammatically awkward and elliptical in English. It loses the punchy, mocking cop-humor cadence of the reference ('Get drunk enough, and you will be!'), making the joke less clear and less natural."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'I’m no coward, but I’m scared...' is accurate but too plain — it loses the light, bouncing comic rhythm (Trus/Boyus rhyme) the analysis asks to preserve, making the line less endearing and comic."
+          "justification": "The candidate 'I’m no coward, but I’m scared...' preserves the meaning but drops the playful bounce/rhythmic charm of the original 'Trus/Boyus' rhyme. The line reads as a straightforward admission rather than the lighthearted, endearing paradox the analysis asks for."
         }
       ]
     },
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Listen, signora, frau, miss—\nunfortunately, it’s not going to happen!\nRusso tourist...\nMoral face... versteh’n?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Overall fine, but 'Russo tourist...' and 'Moral face... versteh’n?' flatten some of the playful mock-internationalism: the candidate drops the Italianate 'turisto' and renders 'Obligo Morale' awkwardly as 'Moral face,' slightly weakening the faux-sophisticated patter."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -97,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "Boss, we’re finished! We’re finished!!!\nThey’re taking off the cast—the mark is leaving!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "Using 'the mark is leaving' instead of 'the client is leaving' shifts register and nuance — 'mark' sounds more criminal/target-focused than the neutral 'client' in the reference, which slightly changes the tone of Gena's panic."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -119,7 +105,14 @@
         "language_specific": {}
       },
       "candidate": "As our beloved boss says,\nif a man’s an idiot—\nit’s for the long haul.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'it’s for the long haul' communicates the meaning but softens the curt, aphoristic sting of the original 'это надолго.' The phrasing is slightly more colloquial and less pithy than the bite expected from Lyolik's pronouncement."
+        }
+      ]
     },
     {
       "id": 7,
@@ -214,7 +207,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference's elongated melodic sigh ('Semyo-o-on Semyonych!') conveys weary, drawn-out exasperation; 'Semyon Semyonovich...' is correct but loses the extended, musical reproach."
+          "justification": "The source is a melodic, elongated sigh ('Semyo-o-on Semyonych!'). The candidate 'Semyon Semyonovich...' conveys the address but loses the stretched, musical exasperation that gives the line its weary, comical tone."
         }
       ]
     },
@@ -386,21 +379,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'No! I can’t go along with that!' conveys refusal accurately but loses the intentionally non-standard, folksy verb form that adds comic, stubborn rural character in the original; this flattens the humorous register."
+          "justification": "The original's intentionally nonstandard folk phrasing ('на это я пойтить не могу') adds comic, stubborn rural color. The candidate 'I can’t go along with that!' preserves the refusal but standardizes the language, losing the rustic, humorous register that the analysis highlights."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 5
     },
-    "total_points": 10,
+    "total_points": 5,
     "meaning_units": 23,
-    "penalty_per_unit": 0.43478260869565216,
-    "major_equiv_per_unit": 0.08695652173913043,
-    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.21739130434782608,
+    "major_equiv_per_unit": 0.043478260869565216,
+    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

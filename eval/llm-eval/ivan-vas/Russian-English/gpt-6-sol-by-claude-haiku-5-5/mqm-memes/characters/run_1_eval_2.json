@@ -26,13 +26,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'медальон' (medallion) is rendered as 'a medal', which names a different object. The loss meaning survives, but the callback refers to a specific item, and the ANALYSIS and reference both specify a medallion."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Suspicion' is a slight shift from 'сомнения' (doubts), and the source's 'смутные' is only partly carried. This is a small loss of the mock-heroic register."
+          "justification": "'Medallion' (медальон, a locket or pendant) is rendered as 'medal', which is a different object (an award). The substitution does not do the same job for the audience, and the analysis's point about the ambassador losing a personal object is weakened. 'Suspicion' in the singular also narrows the plural 'сомнения' (doubts)."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The ANALYSIS states the translation must make clear Bunsha is introducing himself as the Tsar, not addressing one. Lines such as 'Hello, Tsar!' and 'Tsar, a pleasure!' read as greetings to a Tsar, which contradicts that requirement and inverts the speaker's identity."
+          "justification": "The analysis states the translation must make clear that Bunsha introduces himself as the Tsar and is not addressing one. The candidate repeatedly uses 'Hello, Tsar!' and 'A pleasure, Tsar!', which reads as greeting a Tsar. The self-introduction, the core of the gag, is lost."
         }
       ]
     },
@@ -96,7 +90,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Leave me be' and 'I am grieving' are more colloquial than the archaic, high-register 'Leave me, old woman, I am in sorrow'. The ANALYSIS calls for high-register, regal melancholy, and 'grieving' is more modern in tone."
+          "justification": "'Leave me be' is more colloquial than the source, and 'I am grieving' swaps the regal, archaic melancholy of 'я в печали' for a modern, personal grief. The high-register tone the analysis describes is weakened."
         }
       ]
     },
@@ -113,7 +107,14 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nThe demons have walled me in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The first line 'They've walled me in!' opens with a pronoun that has no antecedent until the second line names the demons. The source's halting repetition ('замуровали... замуровали') is replaced by a flat restatement, which weakens the Tsar's agitation."
+        }
+      ]
     },
     {
       "id": 6,
@@ -173,7 +174,14 @@
         }
       },
       "candidate": "What perfect timing!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source stresses that Miloslavsky himself came in ('я зашел'), a self-referential, self-congratulatory remark. 'What perfect timing!' shifts the focus to luck of timing and drops the self-reference. The cheerful reaction of the burglar survives, so the effect is only slightly weakened."
+        }
+      ]
     },
     {
       "id": 9,
@@ -195,10 +203,10 @@
       "candidate": "Black caviar, red caviar...\nAnd yes! Caviar from overseas...\nEggplant!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Eggplant!' alone does not identify the item as a spread, so the viewer may not understand what the overseas 'caviar' is revealed to be. The reference 'Overseas spread… eggplant!' keeps this identification. The candidate correctly avoids calling the eggplant item caviar, but the reveal is less clear."
+          "justification": "The analysis explicitly warns that eggplant spread must not be called 'caviar'. The candidate's 'Caviar from overseas... Eggplant!' leaves the overseas item as 'caviar', so the reveal that the cheap spread is passed off as a rare delicacy is confused. This removes the joke's inversion of status symbols."
         }
       ]
     },
@@ -225,7 +233,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's joke depends on Shpak saying 'куртка… замшевая…' (one suede jacket), then forgetting to update the count and saying 'Три'. The ANALYSIS identifies this forgotten increment as what makes the joke funny. The candidate states 'three suede jackets' outright, which removes the hesitation and the self-betrayal, so the joke no longer works."
+          "justification": "The analysis identifies the comedic device as Shpak forgetting to count the suede jacket, betrayed by the stumbling 'куртка… замшевая… Три'. The candidate lists 'three suede jackets' as a clean item without the hesitation or late correction, so the self-betrayal that the analysis calls the funniest element is lost."
         }
       ]
     },
@@ -247,27 +255,27 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's calm, melodic resignation is conveyed through trailing ellipses. The candidate replaces these with exclamation marks on every line, which shifts the delivery toward agitation and away from the calm resignation described in the ANALYSIS."
+          "justification": "The source's calm, melodic resignation is conveyed with exclamation marks on every line, which makes the delivery agitated rather than serene. The ellipses and measured rhythm of the source are not carried over."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'They'll cure me too!' adds 'too', which is absent from the source 'и меня вылечат'. The addition slightly alters the parallel structure of the repeated lines."
+          "justification": "The third line 'They'll cure me too!' adds 'too', which is not in the source ('и меня вылечат' has no 'тоже'). It also drops the opening 'And' that links the three lines into one continuous, resigned monologue."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 6
     },
-    "total_points": 16,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

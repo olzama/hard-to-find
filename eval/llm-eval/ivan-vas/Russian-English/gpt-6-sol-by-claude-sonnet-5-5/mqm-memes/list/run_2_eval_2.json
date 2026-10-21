@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The mock-heroic, theatrical phrase 'терзают смутные сомнения' (vague doubts haunt me) is flattened into the casual 'I'm having those vague suspicions again'. The high-register comic effect described in the analysis is lost."
+          "justification": "The mock-heroic, theatrical register of 'terzayut smutnye somneniya' (haunt me, vague doubts) is flattened to the plain, everyday 'I'm having those vague suspicions again'. The high-flown tone that drives the joke is lost."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Medal' is not 'medallion'. The ambassador's item is a medallion, so the rendering is imprecise. The lost-item sense is preserved by the noun phrases."
+          "justification": "'Medal' replaces 'medallion', which slightly changes the item. The loss meaning is preserved by the noun phrases without 'has', so this is a small imprecision."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'A pleasure, Tsar!' reads as Bunsha addressing a Tsar, which is exactly what the note forbids. He is introducing himself as the Tsar. The humor of the self-introduction is lost."
+          "justification": "'A pleasure, Tsar!' and 'Hello, Tsar!' read as Bunsha addressing someone else as Tsar. The analysis requires that he introduces himself as the Tsar, so the core of the joke is reversed."
         }
       ]
     },
@@ -151,7 +151,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate in meaning, but it lacks the host-like, ceremonial flavor of 'The floor is open to everyone'. This slightly weakens the comic gap between the stiff official and the wild party."
+          "justification": "'Everybody dance!' conveys the meaning but is a plain command. It misses the party-host flavor of the reference ('The floor is open to everyone'), though the chaotic dance-party effect is still conveyed."
         }
       ]
     },
@@ -178,7 +178,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Talk about perfect timing!' is acceptable in sense, but it drops the idea of a good choice of place to enter ('зашел'). It is not misleading about leaving, though, and it keeps the cheerful tone. The loss of the 'dropping in' nuance is minor."
+          "justification": "'Talk about perfect timing!' is misleading: it suggests the character's arrival was fortunate in terms of timing (e.g. leaving or escaping), not that he picked a good apartment to enter. The 'good choice of place' sense is lost, which the note specifically warns against."
         }
       ]
     },
@@ -205,7 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Exotic caviar... Eggplant!' calls the eggplant spread 'caviar', which the note explicitly forbids because it confuses viewers. 'Exotic' also loses the 'overseas' (заморская) sense that drives the joke."
+          "justification": "The translation calls the eggplant spread 'caviar' ('Exotic caviar... Eggplant!'), which the note says will confuse viewers. It also loses the 'overseas' idea (rendered as 'exotic') and the satirical inversion of luxury and cheap goods."
         }
       ]
     },
@@ -232,7 +232,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline is lost: the suede jacket is given as 'three suede jackets', so the original comic slip, where Shpak forgets to raise the jacket count, is erased. The list also mangles the structure of the original."
+          "justification": "The joke depends on the jacket count: Shpak forgets to increment it at first, which betrays him. The candidate says 'three suede jackets', so the slip is removed and the humor is lost. The 'domestic' pause is also moved onto the cigarette cases without the hesitation."
         }
       ]
     },
@@ -251,24 +251,24 @@
       "candidate": "You'll get treatment!\nAnd you'll get treatment, too!\nAnd I'll get treatment!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "'You'll get treatment' loses the sense of 'вылечат' (they'll cure you), and so the resigned reference to psychiatric wards. The exclamations also replace the calm, melodic resignation of the delivery with a more emphatic tone."
+          "justification": "'You'll get treatment!' is more matter-of-fact and the exclamation marks make it brisk. The melodic, calm, resigned tone of the original is weakened, and the sense of being cured (of madness) is less clear."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 2
+      "major": 5,
+      "minor": 3
     },
-    "total_points": 32,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 2.909090909090909,
-    "major_equiv_per_unit": 0.5818181818181818,
-    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

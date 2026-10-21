@@ -36,7 +36,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "After the correct rendering of the source, the candidate adds two lines that are not in the source: 'Tsar, encantado!' and 'Boas noites, tsar! Encantado!'. These read as someone addressing a tsar, which contradicts the analysis NB that Bunsha must be introducing himself as the Tsar. They also blur the 'son o tsar' joke."
+          "justification": "After the reference-equivalent line, the candidate adds 'Tsar, encantado!' and 'Boas noites, tsar! Encantado!'. These are not mere repetitions. 'Boas noites, tsar!' reads as addressing a tsar rather than introducing himself as the Tsar, which contradicts the NB and muddies the joke."
         }
       ]
     },
@@ -143,14 +143,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello… Si! Manxar de ultramar… de berenxena!\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate appends an extra 'De berenxena!' that has no counterpart in the source. The main line correctly keeps 'berenxena' without calling it caviar. The added echo slightly dilutes the deadpan reveal of the cheap eggplant spread as an 'overseas' delicacy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -186,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 1
+      "minor": 0
     },
-    "total_points": 6,
+    "total_points": 5,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.45454545454545453,
+    "major_equiv_per_unit": 0.09090909090909091,
+    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

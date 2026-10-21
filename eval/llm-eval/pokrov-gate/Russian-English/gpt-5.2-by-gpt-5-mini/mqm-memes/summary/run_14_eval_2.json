@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and comic function but tones down the bombastic, theatrical self-dramatization highlighted in the analysis. Phrases like \"Name one! No, I’m waiting.\" are more prosaic than the heightened, performative register of the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about we knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate keeps the informal invitational tone but the phrasing \"knock back a little shot\" is slightly clunkier than idiomatic alternatives (e.g. \"toss back a quick one\"). Register and function are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -62,10 +48,10 @@
       "candidate": "Lofty... lofty relations.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a literal noun phrase \"Lofty... lofty relations,\" which the analysis explicitly flags as to avoid. This loses the sarcastic exclamatory idiom and the stuttering, performative rhythm (e.g. the broken-up \"e-v-volved\") that makes the refrain recognizably comic and characterful."
+          "justification": "Using the literal noun 'relations' produces an unnatural, flat English phrasing and weakens the sarcastic, exclamatory refrain. The analysis warns against literal noun-phrase renderings; the candidate loses some of the ironic punch and theatrical rhythm of the original."
         }
       ]
     },
@@ -87,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the general idea but renders \"совести\" as \"conscience,\" producing an awkward English idiom (\"live for conscience\") that weakens the soldierly fatalism and the clear moral-duty framing present in the reference."
+          "justification": "The phrasing 'live for conscience' is grammatically odd and colder than the reference's idiomatic 'live to do your duty.' This slightly alters register and reduces the blunt, soldierly fatalism the original expresses."
         }
       ]
     },
@@ -124,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"A culinary genius!\" could be read as literal praise rather than the sharp, mocking household insult intended by the source and reference. The candidate risks losing some of the biting, ironic tone of the original exclamation."
+          "justification": "‘A culinary genius!’ reads as ironic praise rather than the sharp, contemptuous insult implied by the original. The target's brusque, domestic put-down loses some of its bite and imperious register in this formulation."
         }
       ]
     },
@@ -173,10 +159,10 @@
       "candidate": "Khabotnov, that's petty!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The character name is mistransliterated as \"Khabotnov\" (extra 'n'), diverging from the expected \"Khobotov.\" The rest of the line preserves the intended dismissive tone."
+          "justification": "The candidate misspells the character's name as 'Khabotnov' instead of the expected 'Khobotov' (or a consistent transliteration). Misrendering a repeated name used as a psychological control device significantly undermines character recognition and accuracy."
         }
       ]
     },
@@ -198,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the meaning by rendering the object as a person: \"He’s my cross to bear!\" instead of indicating that the speaker bears the burden (\"This is my cross to bear\" / \"I will bear it\"). This reverses the intended manipulative self-sacrificing claim and misrepresents the relationship dynamic."
+          "justification": "The candidate changes the grammatical subject to 'He’s my cross to bear,' which alters the original manipulative meaning (the speaker framing the burden as their own). This reverses the rhetorical effect: the source uses a fixed idiom presenting the speaker's self-sacrifice, which the candidate misassigns to a third person."
         }
       ]
     },
@@ -220,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's phrase \"all angles\" is a near-literal rendering of \"угловатая\" and echoes the warned-against literalism (e.g. \"angular\"). While intelligible and close in meaning, it feels slightly awkward and less idiomatically natural than the reference's suggested phrasing."
+          "justification": "Rendering 'угловатая' as 'all angles' is a literal transfer that reads oddly in English and was specifically warned against in the analysis. The line remains understandable and playful but loses some of the idiomatic charm and natural self-mocking register of the reference."
         }
       ]
     }
@@ -228,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 16,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

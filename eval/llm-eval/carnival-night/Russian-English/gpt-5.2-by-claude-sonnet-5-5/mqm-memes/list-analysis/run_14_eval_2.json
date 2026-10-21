@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" left untranslated and \"cultivate\" is a fairly literal rendering. The workplace/social-type reading is preserved by \"in our own collective\", but the casual staffing logic of \"train one in-house\" is somewhat weaker and the Soviet term 'collective' may be less transparent to English viewers."
+          "justification": "\"Recruit\" and \"cultivate\" keep the staffing/educational logic, but \"Baba Yaga\" left untranslated and \"cultivate\" is a bit more horticultural than a workplace-training verb, slightly weakening the workplace-type reading for English viewers who may not know the figure. The exclamation mark also adds a more emphatic tone than Ogurtsov's dry delivery."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"nice and brief\" captures the faux-modesty and puts briefness before the duration, but loses the diminutive, cozy 'коротенько' flavor and the patronizing managerial tone. \"more, I think, isn't necessary\" is also a little stiff."
+          "justification": "\"Nice and brief\" conveys the faux-modesty, but loses the cozy diminutive feel of «коротенько». The semicolon and \"more, I think, isn't necessary\" is stilted and weakens the smug managerial tone, though the brief-then-forty-minutes order is preserved."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of 'готов' (ready / already drunk) is not recreated. \"The lecturer's ready—been ready a long time!\" only conveys official readiness. The exclamation hints slightly at subtext, but the drunkenness joke is largely lost, which the analysis names as the key risk."
+          "justification": "The candidate renders only the literal 'ready' and has no device to evoke the 'drunk/done for' subtext. \"Been ready a long time!\" with an exclamation mark is a plain statement of readiness, so the double reading central to the joke is lost. The reference achieves it through the knowing \"Oh, he's ready. He's been ready for quite a while.\""
         }
       ]
     },
@@ -144,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It does not echo the English idiom \"unaided eye\", so the mangled-idiom, mock-scientific effect is lost and the phrase sounds merely surreal."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid: it sounds more surreal than the Russian and does not echo the familiar English \"unaided eye\", so the mangled-idiom, mock-scientific effect is lost."
         }
       ]
     },
@@ -170,10 +170,10 @@
       "candidate": "and now we can see\ntwo little stars, three little stars...\nFour little stars—and best of all, of course,\nfive little stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is kept and the trivial, childish tone is rendered well by \"little stars\". However, \"Four little stars—and best of all\" merges the buildup with the punchline, and there is no note or cue for the cognac association, so the sudden click into another semantic world is weakened for English viewers."
+          "justification": "The five-star punchline is lost. The candidate reorders the sequence so the count is broken up (\"two, three... Four little stars—and best of all, five\"), and \"little stars\" reads as childish or astronomical, with no cue that \"five stars\" belongs to cognac. With no note or other hint, the sudden shift into a different semantic world does not land for English viewers."
         }
       ]
     },
@@ -194,19 +194,26 @@
         }
       },
       "candidate": "Whether there is life on Mars or there isn’t\nlife on Mars—science doesn’t know.\nScience hasn’t been briefed on that yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Science hasn't been briefed on that yet\" is a good colloquial equivalent of «не в курсе дела» and keeps the personified-science register. The first sentence is slightly clumsy (\"or there isn't life on Mars—science doesn't know\"), though, and is a little less deadpan than the original."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 3
     },
-    "total_points": 13,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 1.625,
-    "major_equiv_per_unit": 0.325,
-    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

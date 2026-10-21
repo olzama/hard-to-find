@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\na Baba Yaga from outside,\nwe'll raise one within our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation mark at the end adds emotional emphasis that the source does not have. The source is a dry, matter-of-fact statement, and the analysis asks for Ogurtsov's managerial seriousness, which the exclamation weakens."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,13 +51,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase 'a little forty minutes or so' is stilted and ungrammatical in English. The faux-modest 'a little' does capture the diminutive 'коротенько', but the construction is awkward enough to slow the reversal the analysis wants to land on 'forty minutes'."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source ends with a trailing ellipsis that signals self-satisfied trailing off. The candidate ends on a plain full stop-less 'enough', so this unfinished, complacent tone is lost."
+          "justification": "\"a little forty minutes\" is an awkward construction. The faux-modest diminutive does echo «коротенько», and the duration still lands after the briefness claim, but the phrasing reads as a slip rather than deliberate patter. \"Just briefly\" is also flatter than the patronizing tone the analysis asks for."
         }
       ]
     },
@@ -83,10 +70,10 @@
       "candidate": "Is the lecturer primed?\nPrimed and ready, been primed for ages!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The intoxication subtext, which is the core of the joke, rests on 'primed'. In standard usage 'primed' means prepared, so the drunk reading is obscure and the viewer will most likely hear only 'ready'. The analysis says the double sense of official readiness and intoxication should be preserved, and this candidate does not clearly carry it."
+          "justification": "The intoxication sense of «готов» is only faintly conveyed. \"Primed\" primarily reads as \"prepared\", and its drunk connotation (pre-drinking) is not established enough for most audiences, so the double reading the analysis treats as central is weakened. The administrative setup survives, but the comic subtext is less secure than in the reference."
         }
       ]
     },
@@ -125,16 +112,10 @@
       "candidate": "But all we have to do is take\na telescope...\nAnd look with the fully clothed\neye,",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Fully clothed eye' is a surreal non-idiom that reads as random nonsense rather than a mangled, mock-scientific upgrade of a familiar phrase. The analysis asks that the lecturer sound as if he is becoming more precise and scholarly. 'Fully' adds no sense, and the phrase does not echo the 'unaided eye' idiom that the reference uses to create that effect."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line ends with a trailing comma ('eye,') after a sentence that has been completed, which is a punctuation error and leaves the line hanging, unlike the source's trailing '!..'."
+          "justification": "\"Fully clothed eye\" works as a mangled inversion of \"naked eye\" and keeps the malformed-idiom joke, but \"fully\" and the outright absurdity push past the mock-scientific upgrade the analysis describes. The lecturer should sound as though he is becoming more precise, and this reads as nonsense rather than pseudo-scholarship, which the analysis warns against overdoing."
         }
       ]
     },
@@ -161,7 +142,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline depends on the cognac five-star rating, but the candidate gives no cultural signal for it, so 'five-star' most likely reads as a hotel or general rating. The reference includes a note for this reason. Without it, the sudden shift into a different semantic domain that the analysis describes is weaker for most viewers."
+          "justification": "The cognac association is not signposted. In English, \"five-star\" most readily evokes hotel or product ratings, so the shift into the cognac domain, which the analysis identifies as the punchline, is not reliably made for most viewers. The reference addresses this with a translator's note, and the candidate has no equivalent."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"is five-star!\" is an elliptical construction that dangles the adjective without a noun. It reads less naturally than the reference's \"five stars is best\" and weakens the clean click to the final item."
         }
       ]
     },
@@ -183,14 +170,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 0,
       "minor": 5
     },
-    "total_points": 15,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

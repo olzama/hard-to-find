@@ -186,14 +186,7 @@
         }
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic… a suede jacket… Three.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate reproduces the list but uses sentence-case/line-case inconsistently (starts with lowercase 'three') and changes punctuation/line breaks. These are small fluency/style issues that slightly weaken the register and the punchy rhythm of the original enumerated gag, but they do not alter meaning."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -210,24 +203,24 @@
       "candidate": "and they’ll cure you too…\nand they’ll cure me…\nThey'll cure me too!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The original repeats a pattern ('And they'll cure you... and they'll cure you too... and they'll cure me...') emphasizing the escalating, resigned melody. The candidate drops the initial 'And they’ll cure you…', shifts the order, and duplicates 'They'll cure me' at the end, changing who is being referred to and breaking the original stanza's rhythm and intended comic resignation. This materially alters the line's meaning and effect."
+          "justification": "The candidate rearranges and duplicates lines compared with the source/reference. The original sequence names two other people first ('And they'll cure you… and they'll cure you too…') then herself ('and they'll cure me…'). The candidate omits the initial 'And they'll cure you…', repeats 'they'll cure me' and thus alters the original pattern and melodic resignation, weakening the intended comic resignation and parallelism."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 1
     },
-    "total_points": 6,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

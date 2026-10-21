@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink?\nName one person! I'm waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning and the invitation to name nondrinkers, but it significantly tones down the bombastic, self-dramatizing theatricality of the reference (loses the heightened, mocking performative flourish)."
+        }
+      ]
     },
     {
       "id": 2,
@@ -56,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses the comic, sardonic stuttering and exaggeration present in the reference (\"highly e-v-volved\") that signals ironic, drawn-out emphasis. Rendering it as plain \"Such elevated... elevated relations.\" turns the line into a more literal exclamation and weakens the repeated, performative refrain highlighted in the analysis."
+          "justification": "The candidate conveys the idea but uses a literal noun-phrase ('elevated relations') without the playful stutter/phonetic hesitation of the reference, reducing the snarky, sing-song mocking rhythm that is a trademark of the line."
         }
       ]
     },
@@ -75,10 +82,10 @@
       "candidate": "You don't live for pleasure.\nYou do what's right.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate softens the original soldierly fatalism and sense of duty. \"You do what's right\" reads as a general moral statement rather than the resigned maxim about living for duty rather than happiness conveyed in the analysis and reference, reducing the aphoristic bluntness of the character."
+          "justification": "The candidate softens and alters the maxim: 'You do what's right' lacks the fatalistic, duty-bound register of 'you live to do your duty' and thus loses the soldierly pragmatism and moral absolutism that are central to the character's voice and the line's function."
         }
       ]
     },
@@ -120,7 +127,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate \"Culinary Institute!\" introduces an odd institutional noun and loses the biting domestic insult conveyed by the original. The analysis cautions against literal or unnatural standalone nouns; this choice changes register and comedic effect, making the line sound bizarre rather than the sharp, scornful household rebuke intended."
+          "justification": "Rendering the outburst as 'Culinary Institute!' is awkward and changes the comic mechanism: the original works by insulting a person with a short profession-like epithet; the candidate names an institution, which is unnatural in English here and undermines the sharp, domestic scolding tone."
         }
       ]
     },
@@ -192,7 +199,14 @@
         }
       },
       "candidate": "He's my cross to bear!\nAnd I must bear it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate turns an idiomatic expression about a burden into a statement that labels the person ('He's my cross to bear'), shifting focus from the speaker's claimed sacrificial burden to an objectifying description of Khobotov himself — this changes the meaning and weakens the manipulative moral posture the line is supposed to convey."
+        }
+      ]
     },
     {
       "id": 11,
@@ -212,19 +226,26 @@
         }
       },
       "candidate": "Oh, I'm so awkward,\nall sharp corners...\nA bundle of contradictions!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate communicates the self-deprecating, flustered tone but translates 'угловатая' as 'sharp corners,' which reads as a slightly awkward literalism in English. The line remains effective but is less idiomatic and elegant than preferable."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 7,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

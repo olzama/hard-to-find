@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Shpak has a tape recorder, the envoy has a medallion' states possession, which the NB explicitly forbids: the Russian means each of them lost the item. The callback to the theft is lost and the meaning is reversed."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'I'm plagued by vague doubts again' keeps the mock-heroic register reasonably well, though 'haunt' is slightly more theatrical. Minor weakening only."
+          "justification": "The NB explicitly forbids rendering 'У Шпака... у посла...' as possession. 'Shpak has a tape recorder, the envoy has a medallion' states they possess the items, reversing the meaning (they were stolen/lost). The callback logic is lost."
         }
       ]
     },
@@ -49,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Hello, Tsar!' reads as Bunsha addressing a Tsar rather than introducing himself as the Tsar, which the NB says the translation must make clear. The core joke of self-introduction while impersonating the Tsar is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Very nice' is a weak rendering of 'очень приятно' (pleased to meet you). It loses the formal social-cliché register that is being mocked."
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Hello, Tsar!' reads as addressing a Tsar, which reverses the situation and loses the drunken self-introduction joke."
         }
       ]
     },
@@ -104,10 +92,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'Walled up, demons!' can be read as the Tsar addressing the demons (vocative), while the NB requires demons to be the subject of the sentence. It also drops the sense that he himself has been walled in."
+          "justification": "'Walled up, demons!' is ambiguous and could read as addressing the demons (vocative). The NB requires demons to be the subject; a structure like 'Walled me in, the demons!' would be clearer. The archaic feel is preserved."
         }
       ]
     },
@@ -124,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "So that’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'So that's what the life-giving cross can do!' conveys the Tsar's conviction that the cross caused the miracle. It is more casual and less solemn than the archaic, declarative register of the original, but the meaning is intact."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -146,7 +127,14 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' is accurate and keeps the commanding tone, but it is plain and loses some of the host-like, ceremonious flavor of the reference. The uninhibited party effect is preserved."
+        }
+      ]
     },
     {
       "id": 8,
@@ -163,10 +151,10 @@
       "candidate": "Well, this was a lucky visit!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'This was a lucky visit' with 'was' suggests the visit is over, which the NB explicitly warns against, since he has only just entered. It also loses the cheerful, colloquial tone of 'удачно зашел'."
+          "justification": "'Lucky visit' is not misleading about timing, since he has just arrived. However it loses the idiomatic 'I dropped in at the right moment' flavor and the cheerful anti-hero tone is slightly flattened."
         }
       ]
     },
@@ -188,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Imported caviar… Eggplant!' calls the eggplant spread caviar, which the NB forbids because it confuses viewers. The 'overseas' flavor and the inversion of status symbols are also flattened."
+          "justification": "'Imported caviar... Eggplant!' lacks 'spread' and risks reading as eggplant caviar, which the NB warns against. The 'overseas' (заморская) flavor and the joke of a cheap spread posing as a rare delicacy are weakened."
         }
       ]
     },
@@ -210,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "Shpak's escalating count is lost. The candidate gives 'three suede jackets', erasing the slip where he forgets to increment the jacket count, which the analysis calls the key joke. It also adds material absent from the source ('Everything I earned by backbreaking labor — all is lost')."
+          "justification": "The joke depends on Shpak forgetting to increment the count for the suede jacket, so he says 'a suede jacket... Three.' The candidate states 'three suede jackets' outright, removing the slip that betrays him. It also adds an invented complaint ('everything I earned by backbreaking labor') not in the source."
         }
       ]
     },
@@ -230,23 +218,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The added 'too' and the restructured middle line ('And you too—they'll cure you!') change the rhythm of the calm, melodic enumeration. The meaning and resigned tone are preserved."
+          "justification": "The added 'too' and exclamation marks, and the reshaped 'you too—they'll cure you', replace the calm, melodic resignation with a more emphatic delivery and alter the rhythm of the 'you / you too / me' sequence."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 4,
       "minor": 4
     },
-    "total_points": 34,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 3.090909090909091,
-    "major_equiv_per_unit": 0.6181818181818182,
-    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "that should be me in his place.\nGet drunk—you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The policeman's retort 'Get drunk—you will be!' is grammatically awkward and slightly stilted in English. The joke (mocking the dramatic statement by treating being carried away as the inevitable result of drunkenness) is preserved, but the phrasing interferes with natural comedic timing."
+        }
+      ]
     },
     {
       "id": 2,
@@ -66,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate neutralizes the deliberately jokey mash-up of foreignisms (e.g., 'Russo Turisto', 'Obliko Morale') by rendering them as plain English ('Russo tourist', 'A moral face'), which weakens Gena's performed pseudo-sophistication and the comic international jargon described in the analysis."
+          "justification": "The line 'A moral face...' is a literal, somewhat awkward rendering of 'Облико морале' and loses some of the playful faux-sophisticate performance. The international mashup effect is conveyed, but the phrasing weakens the comic pretension slightly."
         }
       ]
     },
@@ -118,7 +125,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Replacing the coarser register 'broad'/'babе' with 'his woman' softens Lyolik's rough, mocking voice; the line loses a bit of the unrefined comedic bite important to the character."
+          "justification": "Using 'his woman' instead of a coarser term softens Lyolik's rough, uneducated register. The instruction and the 'Kutuzov!' jab work, but the voice is slightly tamed compared with the original's more vulgar tone."
         }
       ]
     },
@@ -167,10 +174,10 @@
       "candidate": "One pill is enough...",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The original's humorous pronunciation of 'таблетки' is an important character tic; 'One pill is enough...' conveys the meaning but omits the marked mispronunciation that gives the line comedic personality."
+          "justification": "The original's comedic effect relies on Lyolik's distinctive mispronunciation of 'tablet' as a memorable, characterizing trait. Rendering it as the neutral 'One pill is enough...' removes that key vocal joke and flattens the character's voice, significantly weakening the intended effect."
         }
       ]
     },
@@ -202,7 +209,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source is a drawn-out, melodic sigh ('Semyo-o-on Semyonych!'). The candidate 'Semyon Semyonovich...' is correct but loses the elongated, weary musicality that conveys exasperation."
+        }
+      ]
     },
     {
       "id": 13,
@@ -340,9 +354,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The analysis stresses Gena's affected pronunciation ('kof-e') as a comedic marker of pretension. The candidate preserves the requests but fails to convey the marked, pompous mispronunciation; the odd spelling 'baath' is a typographic artifact rather than a clear, purposeful stylistic rendering."
+          "justification": "The candidate contains a typo ('baath') and renders Gena's affected pronunciation and snobbish elocution (a key comic marker) as ordinary 'bath' and 'coffee.' This loses a layer of his pretentious voice and contains a small orthographic error."
         }
       ]
     },
@@ -377,23 +391,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The source's intentionally nonstandard, folk verb form contributes comic stubbornness. 'No, I can’t do that!' communicates refusal but loses the rustic, emphatic flavor (and subtle humor) of the original malformed construction."
+          "justification": "The original's intentionally nonstandard verb form ('пойтить') gives the refusal a folksy, emphatic flavor. 'No, I can’t do that!' communicates the refusal but loses the rustic, comic linguistic error that characterizes the line."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 5
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 5,
+    "total_points": 11,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.4782608695652174,
+    "major_equiv_per_unit": 0.09565217391304348,
+    "interpretation": "0.48 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

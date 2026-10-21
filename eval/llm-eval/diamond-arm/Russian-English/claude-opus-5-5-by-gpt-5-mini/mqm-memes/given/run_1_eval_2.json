@@ -66,7 +66,14 @@
         "language_specific": {}
       },
       "candidate": "Lady, signora, frau, miss... unfortunately, nothing's going to happen.\nRusso Turisto!\nObliko Morale! Verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate renders the memorable gag phrase as 'Obliko Morale' instead of the established 'Obliko Morale' (as in the reference). This letter swap slightly distorts the recognizable mock-foreign catchphrase that Gena uses to perform faux-sophistication; the effect is largely preserved but the conventional form is inaccurate."
+        }
+      ]
     },
     {
       "id": 5,
@@ -136,7 +143,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a literal rendering that preserves meaning but loses the original's rhythmic, suffix-based balance (trezvenniki / yazvenniki). The analysis calls for a creative solution to echo that rhythmical, proverbial effect; the straight translation 'teetotalers and convalescers' sounds more prosaic and diminishes the punchy, aphoristic quality of Lyolik's line."
+          "justification": "The candidate conveys the meaning but loses the rhythmic balance of the original pair (trezvenniki / yazvenniki). The line reads flatly in English; a more playful or balanced pairing would better capture Lyolik's proverb-like cadence and comedic weight."
         }
       ]
     },
@@ -369,13 +376,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 1,
+    "total_points": 2,
     "meaning_units": 23,
-    "penalty_per_unit": 0.043478260869565216,
-    "major_equiv_per_unit": 0.008695652173913044,
-    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.08695652173913043,
+    "major_equiv_per_unit": 0.017391304347826087,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

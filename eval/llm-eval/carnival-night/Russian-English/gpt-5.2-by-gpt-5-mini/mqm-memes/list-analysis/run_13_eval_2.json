@@ -61,9 +61,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate preserves the comedic structure (diminutive claim of brevity followed by the absurd duration) but the phrasing 'briefly, just a short little bit' is slightly clumsy and redundant in English. This weakens the smooth faux-modest register a little, though the key contrast with 'forty minutes' remains intact."
+          "justification": "The candidate preserves the comic reversal (claiming 'briefly' then giving 'forty minutes'), but the phrasing 'just a short little bit' is somewhat clumsy and reduces the neat, faux-modest bureaucratic voice of the original diminutive «коротенько». The rhythm is also a bit disjointed compared with the tighter comic timing recommended in the analysis."
         }
       ]
     },
@@ -103,7 +103,14 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... a-wooo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The broken vocalization intent is preserved, but 'a-wooo' introduces a howling quality not present in the original faltering 'ау-у'. It still conveys instability, but the added 'w' sound shifts the effect toward a howl rather than a slurred attempt to address the crowd."
+        }
+      ]
     },
     {
       "id": 6,
@@ -127,10 +134,10 @@
       "candidate": "But all we have to do is take a telescope...\nAnd look with an armed eye—",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye.' As noted in the analysis, this phrasing reads as oddly surreal in English and can distract from the intended mock-scientific near-miss. A less literal solution (e.g. 'aided eye') would better preserve the mildly wrong, pseudo‑scientific tone without sounding bizarre."
+          "justification": "The translation uses the literal 'armed eye,' which the analysis explicitly warns against: in English this reads as oddly surreal rather than the intended mock‑scientific misphrase. The recommended approach (e.g. 'aided eye') preserves the comedic deformation of a familiar idiom; 'armed eye' overplays the literalness and loses the subtle parody of pseudo-scientific diction."
         }
       ]
     },
@@ -178,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 2
     },
-    "total_points": 2,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

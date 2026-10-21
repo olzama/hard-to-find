@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Hire Baba Yaga\" keeps the workplace logic, and \"raise one within our collective\" keeps the in-house idea. But \"raise\" is closer to child-rearing than to cultivating or training staff, and \"collective\" is a bit foreign. The staffing/training-joke flavor is slightly weaker than the reference's \"train one in-house\"."
+          "justification": "\"Hire Baba Yaga\" is workable for the staffing logic, but \"hire\" is slightly off compared to \"bring in\", and the untranslated \"Baba Yaga\" is less immediately legible to English viewers as the nasty-woman type. The \"raise one within our collective\" part preserves the workplace/educational logic well."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Briefly\" is rendered flatly, with no faux-modest or cozy diminutive feel. The contrast with \"forty minutes\" still lands because the order is preserved. \"No more is necessary\" is stiffer and more formal than Ogurtsov's self-satisfied, casual tone."
+          "justification": "The faux-modest, cozy flavor of «коротенько» is kept only by plain \"briefly\", and \"no more is necessary\" is stiffer and more formal than Ogurtsov's casual, self-satisfied \"я думаю, не надо\". The order (briefly, then forty minutes) is preserved, so the punchline still works."
         }
       ]
     },
@@ -93,10 +93,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—ready long ago!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of \"готов\" (ready vs. drunk) is lost. \"Ready long ago!\" is not idiomatic English and carries no hint of intoxication. The exclamation mark and wording make the line sound awkward rather than ambiguous, so the central joke does not come through."
+          "justification": "\"Ready long ago!\" keeps the surface meaning and some sense of long duration, but English \"ready\" has no strong drunk connotation, so the double meaning is only faintly suggested. The exclamation also lacks the dry backstage tone, though \"ready—ready long ago\" hints at the sense that something is off."
         }
       ]
     },
@@ -117,7 +117,14 @@
         }
       },
       "candidate": "- People!.. Ah... Ah-oo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"People!.. Ah... Ah-oo!\" keeps the faltering shape, but \"People!\" is not stretched or broken as in the source's «Лю-ди!», so some of the drunken vocal instability is lost. The final \"Ah-oo\" works as a wavering call."
+        }
+      ]
     },
     {
       "id": 6,
@@ -141,10 +148,10 @@
       "candidate": "But once we take a telescope...\nand look with an armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis says to avoid. It does not echo \"unaided eye\", so the recognizable idiom being mangled is lost, and the result sounds surreal rather than mock-scientific. The first clause is also changed from \"all we have to do is\" to \"once we take\", which loses the lecturer's pompous flourish."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against; it sounds odder than the Russian and does not echo the English \"unaided eye\", so the near-idiom feel is weaker. It is still recognizable as a mangled phrase and keeps the comic oddness, and the telescope context helps."
         }
       ]
     },
@@ -173,7 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression and the \"five little stars\" punchline are preserved. But the cognac association is not signaled, which the analysis says may need a note. \"Little stars\" also gives a childish tone, which suits the silly counting but weakens the sudden click into the cognac domain."
+          "justification": "\"Little stars\" keeps the childish counting, but the cognac association of \"five stars\" is not signaled and \"five little stars\" weakens the sudden click into the cognac frame; \"little\" makes it sound more like a nursery rhyme. The reference's note was a translator's aid, so the loss is modest."
         }
       ]
     },
@@ -199,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet up to date\" is a slightly odd rendering of \"не в курсе дела\". It loses the personified, colloquial feel of science not having been briefed, and \"up to date\" reads as a bit stiff. The first part is fine, and the factual content and casual register are mostly kept."
+          "justification": "\"Science is not yet up to date\" is less colloquial than the idea of science \"not in the loop / up to speed\", so the personified, casual register is somewhat weakened. \"Science does not know\" is also flatter and more formal than «науке неизвестно», but the content and the dual reading survive."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 0,
+      "minor": 7
     },
-    "total_points": 14,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

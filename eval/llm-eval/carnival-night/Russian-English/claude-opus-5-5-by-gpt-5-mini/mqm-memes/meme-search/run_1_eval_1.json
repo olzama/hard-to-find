@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate preserves the bureaucratic tone with 'directive,' but the phrasing 'to see\nin the New Year cheerfully' is awkward and stilted in English. It interrupts rhythm and slightly weakens the intended dry, administrative-sounding formulation of mandated merriment."
+          "justification": "The phrasing is clumsy and disrupts rhythm: 'a directive to see\nin the New Year cheerfully' splits the idiom 'see in the New Year' awkwardly and reads unnatural in English. The bureaucratic tone is present (directive, comrades) but the line would be smoother and more idiomatically comic with a more natural rendering ('directive to ring in the New Year cheerfully')."
         }
       ]
     },
@@ -53,7 +53,14 @@
         "language_specific": {}
       },
       "candidate": "just a short one,\nforty minutes or so - no more is needed, I think",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the structural contrast (claim of brevity followed by 'forty minutes'), but 'just a short one' lacks the diminutive, faintly self-satisfied tone of «коротенько» that makes the line especially comic. Also punctuation/capitalization and rhythm reduce the faux-modest bureaucratic voice slightly."
+        }
+      ]
     },
     {
       "id": 4,
@@ -71,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The double meaning (official 'ready' vs. drunk) is retained, but 'long ready' is slightly unnatural in colloquial English compared with phrasing like 'has been ready for quite a while.' The comic ambiguity remains, though the target line is a bit awkward."
+          "justification": "The surface sense of readiness is preserved, but the candidate doesn't clearly recreate the double reading (ready in the administrative sense vs. 'ready' = drunk). In English 'ready, long ready' is odd and fails to strongly suggest the alcoholic subtext that the Russian ambiguity provides."
         }
       ]
     },
@@ -90,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "- People!.. Ah.. Yoo-hoo!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The original's faltering, slurred cry ('Лю-ди! А… ау-у!') conveys a pitiful, wavering drunken attempt to address the crowd. Rendering it as 'People!.. Ah.. Yoo-hoo!' turns the sound into a cheerful attention-getter ('yoo-hoo'), losing the vocal instability and pathetic comedy that are central to the line's effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -119,10 +119,10 @@
       "candidate": "But we only need to take\na telescope...\nAnd look not with the naked eye\nbut the dressed one,",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The humor depends on a mock‑scientific deformation of a familiar idiom (the speaker inventing an 'armed' eye). The candidate's 'look not with the naked eye but the dressed one' produces an awkward literalism ('dressed one') that neither echoes the English idiom nor conveys the intended pseudo‑scientific, slightly wrong register. The comic effect of the mangled idiom is lost or weakened."
+          "justification": "The candidate attempts a playful opposite to 'naked eye' with 'dressed one,' but this wording is awkward and leans toward surrealism rather than the mock‑scientific, slightly off idiom required. A phrase like 'the aided eye' better preserves the intended faux‑scientific deformation without sounding too strange."
         }
       ]
     },
@@ -164,14 +164,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 2
+      "major": 0,
+      "minor": 4
     },
-    "total_points": 12,
+    "total_points": 4,
     "meaning_units": 8,
-    "penalty_per_unit": 1.5,
-    "major_equiv_per_unit": 0.3,
-    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5,
+    "major_equiv_per_unit": 0.1,
+    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

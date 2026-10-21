@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning: the source implies they LOST these items. The analysis explicitly forbids the 'has' rendering, so the stolen-items callback is lost."
+          "justification": "The source implies Shpak and the ambassador have lost these items (the callback to the thefts). 'Shpak has a tape recorder, the envoy has a medallion' states possession, which is the reversal the NB warns against, and it breaks the connection between the thefts that drives the joke."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I'm again plagued by vague doubts' is somewhat stiff and 'again' placement is awkward; it keeps a mock-elevated tone only partially compared with 'Vague doubts haunt me once again'."
+          "justification": "'I'm again plagued by vague doubts' keeps the mock-heroic register reasonably well, but the awkward word order 'I'm again plagued' is less natural than 'Vague doubts haunt me once again'."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as addressing a Tsar ('Hello, Tsar!') rather than Bunsha introducing himself as the Tsar, which the analysis says must be clear. The joke of the self-introduction is lost."
+          "justification": "The candidate reads as Bunsha addressing a Tsar ('Hello, Tsar!'), not introducing himself as the Tsar. The NB explicitly requires that it be clear he is the Tsar, so the self-introduction joke is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a weak rendering of 'очень приятно' (pleased to meet you), losing the formal social-cliché greeting feel."
+          "justification": "'Very nice' is a weak rendering of the stiff formal 'очень приятно' (pleased to meet you), so the mundane Soviet formal greeting cliché is less evident."
         }
       ]
     },
@@ -104,10 +104,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'Walled up, demons!' reads as a vocative, addressing the demons, which the analysis explicitly says is wrong; demons must be the subject (they did it)."
+          "justification": "'Walled up, demons!' can be read as a vocative address to the demons, which the NB rules out. The reading as the subject is not made clear, though the elliptical form partly preserves the original ambiguity."
         }
       ]
     },
@@ -129,7 +129,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross does!' is colloquial and loses the solemn, archaic exclamatory tone ('Behold the power...') of the Tsar's pious conviction."
+          "justification": "'That's what the life-giving cross does!' is colloquial and loses the archaic, solemn register of the Tsar's pious exclamation (cf. 'Behold the power of...'), weakening the contrast with the mechanical elevator."
         }
       ]
     },
@@ -146,7 +146,14 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' is accurate but a plain imperative. It lacks the host-like, master-of-ceremonies flavor of the reference, so the pompous party-leader tone is weaker."
+        }
+      ]
     },
     {
       "id": 8,
@@ -166,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'I picked a good time to drop by' preserves the sense that he has just arrived, so it is not misleading about leaving. However, it shifts the meaning to timing rather than the lucky find of valuable goods, weakening the 'good call' reaction to the loot."
+          "justification": "'I picked a good time to drop by' is acceptable in meaning, but it loses the sense of satisfied discovery of a lucrative target: he has just found a jackpot apartment, and the phrasing implies a timing coincidence rather than a lucky choice of place. It does not mislead into suggesting he is leaving, though, so the main problem is the weakened meaning of 'удачно зашёл' as a good place to enter."
         }
       ]
     },
@@ -188,7 +195,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls eggplant spread 'caviar' ('Overseas caviar... Eggplant!'), which the analysis explicitly says will confuse viewers, and it breaks the punchline structure where 'eggplant' is the reveal of the cheap item."
+          "justification": "The candidate calls the eggplant spread 'Overseas caviar', which the NB prohibits. The satirical inversion (cheap spread presented as a rare overseas delicacy) is muddled, and the final 'Eggplant!' reads as a separate item rather than the punchline."
         }
       ]
     },
@@ -210,13 +217,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate writes 'three suede jackets', which loses the joke: Shpak forgets to increment the jacket count at first (a single jacket, then 'Three'). The comic betrayal is eliminated."
+          "justification": "The joke depends on Shpak forgetting to increment the suede jacket ('a suede jacket... Three.'), which betrays his exaggeration. The candidate gives 'three suede jackets' straight away, so the comic slip and the delayed 'Three' are lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Mixing numerals '3' with the word 'three' is inconsistent and awkward."
+          "justification": "Using the numeral '3' in some lines and 'three' in another is inconsistent and flattens the spoken rhythm."
         }
       ]
     },
@@ -233,19 +240,26 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me too!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The exclamation marks and the added 'too' in the last line make the delivery more emphatic than Ulyana's calm, melodic resignation, and they slightly reduce the dark, trance-like humor."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 4
+      "major": 5,
+      "minor": 7
     },
-    "total_points": 34,
+    "total_points": 32,
     "meaning_units": 11,
-    "penalty_per_unit": 3.090909090909091,
-    "major_equiv_per_unit": 0.6181818181818182,
-    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.909090909090909,
+    "major_equiv_per_unit": 0.5818181818181818,
+    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

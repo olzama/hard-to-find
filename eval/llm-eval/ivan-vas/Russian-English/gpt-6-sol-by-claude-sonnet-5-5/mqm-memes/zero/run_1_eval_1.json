@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"I'm beginning to have another nagging suspicion\" is plain, everyday English. It loses the mock-heroic, operatic register of \"терзают смутные сомнения\" (\"Vague doubts haunt me\"), which is the core of the joke. It also drops the callback feel of \"опять\" in a weaker form."
+          "justification": "The mock-heroic, theatrical register of 'Меня опять терзают смутные сомнения' is lost. 'I'm beginning to have another nagging suspicion' is a plain everyday phrase with no high-flown, operatic tone, so the comic contrast of a bumbling bureaucrat speaking in tragic-literary language disappears."
         },
         {
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "\"Medal\" is not \"medallion\". The ambassador's stolen item is a medallion."
+          "justification": "'Medal' for 'медальон' (medallion) is imprecise: a medallion is a pendant/ornament and a medal is an award, which changes the object."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"A pleasure, tsar!\" reads as Bunsha addressing a tsar. The analysis requires him to introduce himself as the Tsar (\"Hello, I'm the Tsar\"). This loses the drunken self-introduction joke."
+          "justification": "The candidate does not make clear that Bunsha is introducing himself as the Tsar. 'A pleasure, tsar!' reads as addressing someone else as tsar, which the analysis explicitly says must be avoided, so the joke of the drunken impostor self-introduction is lost."
         }
       ]
     },
@@ -93,16 +93,16 @@
       "candidate": "Leave me, old woman.\nI'm in mourning.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"In mourning\" implies bereavement, whereas \"в печали\" means being in sorrow or sadness. This slightly shifts the meaning."
+          "justification": "'Я в печали' (I am in sorrow) is rendered as 'I'm in mourning', which implies someone has died. This changes the meaning and distorts the Tsar's melancholy."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The plain, modern phrasing \"I'm in mourning\" and the split into two short sentences weaken the archaic, regal register of the Tsar's line."
+          "justification": "'I'm in mourning' in plain contemporary English loses the archaic, high-register flavor of 'я в печали' that creates the contrast with the Soviet setting."
         }
       ]
     },
@@ -121,10 +121,10 @@
       "candidate": "They've walled us in!\nThe demons have walled us in!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Walled us in\" changes the singular \"me\" (Tsar alone) to \"us\". The demons remain the subject, so the key nuance is preserved, but the pronoun is inaccurate."
+          "justification": "The Tsar says 'walled in' about himself, but the candidate uses 'us', which changes the meaning. The demons are correctly the subject, but the first-person singular is altered."
         }
       ]
     },
@@ -186,7 +186,14 @@
         }
       },
       "candidate": "What a lucky time to drop by!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'What a lucky time to drop by' is acceptable in meaning, but 'drop by' reads as a social visit and the line could suggest he is leaving, which is misleading compared with the analysis' requirement that he has just entered. The sense of a pleased burglar discovering loot is also weakened."
+        }
+      ]
     },
     {
       "id": 9,
@@ -211,7 +218,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Imported caviar... Eggplant spread!\" calls the overseas item \"caviar\" and then names it eggplant spread, which confuses the viewer. It also loses the satirical structure of the \"overseas eggplant caviar\" delicacy joke. \"Overseas\" and the punchline are not cleanly delivered."
+          "justification": "The candidate calls the eggplant spread 'Imported caviar', which makes the 'caviar' label apply to the eggplant item, and the sentence structure 'Imported caviar... Eggplant spread!' is confusing. It also loses the 'overseas' (заморская) wording that signals the exotic claim for a cheap spread. The analysis says the eggplant spread should not be called caviar to avoid confusion."
         }
       ]
     },
@@ -238,7 +245,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source has the jacket listed on its own (\"куртка… замшевая… Три\"), with the count coming late as the telltale slip. The candidate gives \"three suede jackets\" in a smooth list. This removes the forgotten-increment joke the analysis says makes the line funny."
+          "justification": "The candidate omits the key joke: in the source, Shpak says 'a suede jacket' and then 'Three', where the failure to increment the count of the jacket betrays his exaggeration. The candidate says 'three suede jackets' straight away, which erases the slip."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "'Film cameras' is a less natural rendering of 'кинокамеры' than 'movie cameras', and 'locally made' loses the 'domestic' status nuance."
         }
       ]
     },
@@ -258,23 +271,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The order is changed so that \"too\" attaches to the first clause (\"They'll cure you too!\"), which breaks the build-up of \"you… you too… me\". The exclamation marks also push the tone toward shouting rather than calm, melodic resignation."
+          "justification": "The order is changed so that it starts with 'They'll cure you too', which loses the cumulative structure 'and you... and you too... and me' and the melodic resignation. The exclamation marks also make the delivery more emphatic than the calm, resigned tone described."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 7,
+      "minor": 4
     },
-    "total_points": 25,
+    "total_points": 39,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.5454545454545454,
+    "major_equiv_per_unit": 0.7090909090909091,
+    "interpretation": "3.55 MQM penalty points per meaning unit (≈ 0.71 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

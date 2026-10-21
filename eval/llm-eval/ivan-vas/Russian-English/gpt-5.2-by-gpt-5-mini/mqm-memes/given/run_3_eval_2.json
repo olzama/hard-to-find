@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.\nThe Tsar, very pleased. Hello, the Tsar. Very pleased!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and the crucial self-introduction ('I’m the Tsar') required by the analysis, but it adds extra repetitions not present in the source and slightly alters the rhythmic, stumbling mantra quality of Bunsha’s drunken introductions. This changes the comic pacing and makes the delivery feel more cluttered."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -178,7 +171,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate makes the first line an exclamation ('And they’ll cure you!') whereas the reference uses ellipses to convey a calm, resigned, melodic repetition. This punctuation shift makes the line sound more abrupt and worried, slightly weakening the resigned, sing-song tone described in the analysis."
+          "justification": "The candidate replaces the trailing ellipsis on the first line with an exclamation point, which slightly shifts Ulyana Andreyevna's resigned, melodic tone toward a more emphatic/urgent delivery. The overall meaning and repetition are preserved, but the nuanced calm resignation described in the analysis is weakened."
         }
       ]
     }
@@ -186,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

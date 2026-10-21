@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Volven asaltarme\ndúbidas vagas...\nA Shpak desapareceulle o magnetófono,\ne ao embaixador, o medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line break in the middle of the sentence is slightly awkward for subtitle flow, but the meaning and mock-heroic tone are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Ola, tsar, moito gusto. Ola, tsar,\nmoito gusto, tsar. Moito gusto, ola, tsar.\nTsar, moito gusto. Ola, tsar.\nMoito gusto, ola, tsar!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate no longer clearly shows Bunsha repeatedly introducing himself as the Tsar; the opening 'Ola, tsar' reads like he is addressing a tsar rather than identifying himself, which contradicts the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -60,7 +46,14 @@
         "language_specific": {}
       },
       "candidate": "Esixo que continúe o banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The added \"que\" makes the line slightly more explanatory and less punchy than the terse imperative in the reference, but the meaning and comic force remain intact."
+        }
+      ]
     },
     {
       "id": 4,
@@ -78,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Estou de loito' changes the sense of the original melancholy to literal mourning, which weakens the intended royal sadness, though the overall meaning remains close."
+          "justification": "\"Estou de loito\" shifts the tone from melancholy/sadness to formal mourning, which weakens the specific regal, wistful mood of the original, though it still broadly conveys that he is sad."
         }
       ]
     },
@@ -99,10 +92,10 @@
       "candidate": "Emparedaronme...\nEmparedaronme: foron os demoños!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedaronme' changes the voice and grammar of the line and omits the key idea that he is trapped by 'demons' as the subject; 'foron os demoños' is also unnatural and less clear than the reference."
+          "justification": "\"Foron os demoños\" suggests a completed action and sounds a bit less like the tsar’s immediate, frightened realization than the reference; however, the core joke and meaning are preserved."
         }
       ]
     },
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' sounds a bit more ordinary and less elevated than the reference's slightly more resonant exclamation, softening the mock-regal tone only slightly."
+          "justification": "\"Mira\" is slightly less elevated and less exclamatory than the reference’s more ceremonial \"Velaquí,\" so the mock-solemn miracle tone is a bit weakened."
         }
       ]
     },
@@ -144,9 +137,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The meaning is preserved, but 'A bailar, todo o mundo!' is less of a direct command to the whole group than 'Todos a bailar!', making the crowd-leading energy a bit weaker."
+          "justification": "\"A bailar, todo o mundo!\" is natural, but it shifts the emphasis from the direct command \"Everyone dance!\" to a more generalized invitation, slightly blunting the authoritarian, rallying energy."
         }
       ]
     },
@@ -168,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Mira ti que ben entrei!' suggests a neutral or self-congratulatory entry, but it does not clearly convey the specific sense of 'I found a good place to land' after just entering and spotting valuables."
+          "justification": "\"Mira ti que ben entrei!\" sounds like he is commenting on having entered well, and the wording is less clearly the delighted reaction of someone who has just found a great haul; it also risks sounding like the entrance itself, not the lucky discovery, is the point."
         }
       ]
     },
@@ -187,10 +180,10 @@
       "candidate": "Caviar negro, vermello...\nSi! Unha pasta de berenxena de ultramar...\nde berenxena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'de berenxena' and uses 'pasta' in a way that muddies the punchline; the neat escalation to 'eggplant caviar' as a mock delicacy is lost."
+          "justification": "\"Unha pasta de berenxena de ultramar\" conveys the idea of an exotic eggplant spread, but the reference to the specific comic label \"caviar\" is weakened, which slightly reduces the satirical punch."
         }
       ]
     },
@@ -212,7 +205,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The number changes from 'three' to a bare '3' throughout, and 'chaqueta de camurza... tres' fails to reproduce the accumulating list and the comic mistake with the jacket count clearly enough."
+          "justification": "The count logic is broken: the final \"tres\" is detached from \"chaqueta de camurza\" and reads as an orphaned numeral rather than the joke about the suede jacket count being belatedly corrected. This damages the humor of the escalating list."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The formatting and punctuation make the line feel chopped and unnatural, which hurts the comic timing even though the individual items are recognizable."
         }
       ]
     },
@@ -234,21 +233,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Han curarte' is understandable, but it sounds a bit less natural and less melodic than the reference's smoother future-periphrastic wording, slightly weakening the resigned comic rhythm."
+          "justification": "\"Han curarte\" is understandable, but it sounds more like a colloquial future-periphrastic construction than the calmly resigned, almost sing-song repetition in the reference, so the line is slightly less idiomatic and lyrical."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 2,
+      "minor": 8
     },
-    "total_points": 30,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

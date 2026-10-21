@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Ola, tsar, moito gusto. Tsar, moito gusto, tsar.\nMoito gusto, ola, tsar.\nTsar, moito gusto.\nOla, tsar. Moito gusto!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate captures the repetitive self-introduction, but 'Ola' is an overly casual greeting and slightly weakens the formal, stiff politeness that makes the joke funny."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -71,9 +64,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Estou de loito' shifts the meaning from being sad/melancholy to being in mourning, which is not the same nuance as the original 'я в печали'."
+          "justification": "“Estou de loito” preserves the sorrow, but it shifts the line toward ordinary mourning language rather than the more aristocratic, old-fashioned tone of the original."
         }
       ]
     },
@@ -110,7 +103,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' is more colloquial and less elevated than the reference's more solemn 'Velaquí', so the mock-archaic, quasi-biblical tone is slightly weakened."
+          "justification": "“Mira” is a bit more colloquial than the reference’s elevated exclamation, so the line feels slightly less solemn and biblical, though the meaning remains intact."
         }
       ]
     },
@@ -130,9 +123,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'A bailar todo o mundo!' conveys everyone dancing, but it is a less direct and less imperative rendering of the command 'Todos a bailar!', so the leader-like shout is slightly softened."
+          "justification": "The candidate changes the imperative into a more neutral-sounding phrase (“A bailar todo o mundo!”), which slightly weakens the punchy command-like force of the original."
         }
       ]
     },
@@ -154,7 +147,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei aquí!' means 'I came in here well,' which is not the intended idiomatic meaning of pleasantly/fortunately finding a good place. It loses the smug, lucky reaction after entering the apartment and sounds semantically awkward."
+          "justification": "“Que ben entrei aquí!” means he has entered well or successfully; it loses the key sense of surprise and good luck at stumbling into a valuable place, and it can even sound like a comment on the act of entering rather than discovering the apartment’s contents."
         }
       ]
     },
@@ -171,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nSi! Unha pasta de berenxena de ultramar...\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Unha pasta de berenxena' is understandable, but it is a bit less sharp and witty than the reference's concise phrasing, slightly dulling the punch of the culinary/status contrast."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -198,13 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The count of the first items is changed from 'three' to a bare numeral '3', and the list omits the possessive/exaggerated rhythm of the original; more importantly, 'cigarreiros' is not the standard equivalent of 'портсигара' and weakens the specific item inventory joke."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line is less natural and less comic in delivery than the reference because the numbering and segmentation are awkwardly formatted, reducing the escalating, self-incriminating rhythm of Shpak's boastful tally."
+          "justification": "The count of the final item is mistracked: the source’s joke is that he says the jacket list and then belatedly adds “three,” but the candidate drops the initial wording and makes the final “tres” look detached from the item, weakening the comic counting gag."
         }
       ]
     },
@@ -224,9 +204,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate changes the meaning from 'they will cure you' to the much more direct 'they will cure you/you'll be cured' without the same resigned, future-oriented conversational tone, slightly flattening the joke's calm fatalism."
+          "justification": "Using future tense (“curarán”) instead of the more immediate, matter-of-fact phrasing makes the line slightly less resigned and more declarative, reducing the calm, deadpan comic effect."
         }
       ]
     }
@@ -234,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 7
+      "minor": 4
     },
-    "total_points": 17,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -21,14 +21,7 @@
         }
       },
       "candidate": "Once again, I am beset\nby dark suspicions...\nShpak lost his tape recorder.\nThe ambassador, his medal.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Medal' translates 'медальон' (a pendant locket) as an award or decoration. The reference's 'medallion' is the correct object, and the candidate's word could mislead viewers about what the ambassador lost. The mock-heroic register ('beset by dark suspicions') and the correct possession logic ('lost his tape recorder', 'his medal') are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -96,9 +89,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "'Sealed in' is less precise than 'замуровали' (walled up, bricked in). The elevator context makes 'sealed' understandable and the demons correctly read as the grammatical subject, so the joke still works, but the literal image of the Tsar being walled in is weakened compared with the reference's 'walled me in'."
+          "justification": "\"Sealed in\" is weaker than \"замуровали\" (walled up). The walling-up image carries a medieval, historical connotation that suits the Tsar's voice, and the candidate loses it."
         }
       ]
     },
@@ -160,14 +153,7 @@
         }
       },
       "candidate": "Well, I picked the right place\nto drop in!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Удачно зашел' is an exclamation about fortunate timing (a lucky moment to walk in). 'I picked the right place' shifts the emphasis to a deliberate choice of location, which makes the burglar's quip slightly less accurate and a bit awkward. The entering action and the non-leaving sense from the notes are correctly kept with 'drop in'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -190,9 +176,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Заморская икра' is rendered as 'An exotic delicacy from overseas', which loosens the 'overseas caviar' setup that the eggplant reveal depends on. 'Да!' is also softened to 'Ah!', losing some of the source's triumphant enthusiasm. The eggplant reveal still lands, and correctly avoids calling the spread 'caviar'."
+          "justification": "\"Ah!\" does not carry the triumphant affirmation of the source \"Да!\", which marks Miloslavsky's pleased discovery of the 'overseas' delicacy before the reveal."
         }
       ]
     },
@@ -214,14 +200,7 @@
         }
       },
       "candidate": "Three tape recorders,\nthree movie cameras,\nthree domestically made cigarette cases,\none suede jacket... Three.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Three domestically made cigarette cases' is clumsier than the natural 'domestic' used in the reference, which is a phrasing issue rather than a meaning issue. The line-by-line count build-up and the forgotten-then-corrected suede jacket ('one suede jacket... Three.') are well preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -241,7 +220,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's final line trails off ('и меня вылечат…'), which fits the calm, melodic resignation described in the analysis. The candidate ends with an exclamation mark ('they'll cure me!'), which turns the resignation into an exclamation and shifts the register away from the intended calm tone. The reference keeps the ellipsis."
+          "justification": "The exclamation mark on the final line replaces the source's trailing ellipsis. This shifts the calm, melodic resignation described in the analysis toward excitement."
         }
       ]
     }
@@ -249,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 3
     },
-    "total_points": 6,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

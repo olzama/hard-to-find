@@ -146,14 +146,7 @@
         }
       },
       "candidate": "- Was there a square?\n- There was.\nMaybe a monument?\n- There was a monument.\n- Whose monument?\n- How should I know? Some guy.\n- With a beard? - No!\n- With sideburns?\n- I don’t remember. He had a jacket!\n- Was he inside?\n- Who?\n- That guy of yours!\n- What a hick! Listen to you!\nWho’d put him inside? He’s a monument!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "Speaker-turn marking is inconsistent. \"Maybe a monument?\" lacks the leading dash that marks the other turns, and \"- With a beard? - No!\" runs two turns together on one line. The wording matches the reference, but the turn boundaries are less clear to the viewer than in the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -303,14 +296,7 @@
         }
       },
       "candidate": "- Miss, what’s your name? - Tanya.\n- I’m Feodor.\nYou dumb broad!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "Speaker-turn marking is inconsistent. \"You dumb broad!\" lacks the leading dash used for the other turns, so the shift from Fedya back to Tanya's insult is less clearly marked than in the reference. The wording matches the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 17,
@@ -356,13 +342,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 0
     },
-    "total_points": 2,
+    "total_points": 0,
     "meaning_units": 18,
-    "penalty_per_unit": 0.1111111111111111,
-    "major_equiv_per_unit": 0.02222222222222222,
-    "interpretation": "0.11 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.0,
+    "major_equiv_per_unit": 0.0,
+    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

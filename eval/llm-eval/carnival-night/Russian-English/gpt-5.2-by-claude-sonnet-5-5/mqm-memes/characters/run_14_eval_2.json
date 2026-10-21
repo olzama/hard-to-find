@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Keeping 'Baba Yaga' untranslated makes the line more fairy-tale-like and less recognizable as the workplace 'nasty woman' type for English viewers; 'hire' and 'team' are workable staffing terms, but the social-type reading is weaker than in the reference."
+          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic, and \"train one in our own team\" keeps the in-house cultivation. However, \"Baba Yaga\" is left untranslated with no hint of the nasty-woman social type, so non-Russian viewers may read it only as a fairy-tale figure. The workplace-type reading is weaker than in the reference, which uses \"witch\"."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "And briefly—about\nforty minutes, no more,\nI think that's enough",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest, cozy diminutive tone of 'коротенько' is rendered flatly as 'briefly', and the closing 'no more, I think that's enough' sounds more categorical than the original's tentative 'I don't think we need more'. The punchline still lands because 'briefly' precedes 'forty minutes'."
+          "justification": "The briefness claim is kept before the duration, but the faux-modest, patronizing diminutive of «коротенько» is not conveyed. \"No more, I think that's enough\" sounds like a firm limit rather than smug understatement, and \"about forty minutes\" does not land as a punchline against a cozy \"briefly\". The comic reversal is flattened."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Ready long ago' keeps the administrative surface reading and hints at the drunk subtext, but the 'drunk' double sense is not clearly recreated. It is slightly weaker than the reference's 'been ready for quite a while', which has a more colloquial ironic ring."
+          "justification": "\"Ready long ago\" keeps the surface administrative reading and the \"for a while\" emphasis, so the drunk subtext can be inferred. However, there is no extra cue to make the intoxication reading clearer than in the reference. The phrase \"ready long ago!\" is slightly stilted and less colloquial than \"he's been ready for quite a while\"."
         }
       ]
     },
@@ -122,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, drunken vocalization is mostly preserved, but 'Ah-oo' is less clearly a call to a crowd than 'hellooo', and the stretched 'Peo-ple' faltering is lost to a clean 'People!'."
+          "justification": "\"People!.. Ah... Ah-oo!\" keeps the broken, wavering address, but the first word is not stretched (\"Peo-ple\"), so the vocal instability is weaker. \"Ah-oo\" also reads as a call less clearly than \"hellooo\"."
         }
       ]
     },
@@ -151,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye', which the analysis explicitly warns against. It does not echo the English 'unaided eye', so the malformed-idiom joke (a familiar expression wrongly 'upgraded') is lost and the phrase reads as merely odd."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis says to avoid. English has no familiar idiom it distorts, so it sounds surreal rather than like a mangled \"unaided eye\", and the mock-scientific malapropism is lost."
         }
       ]
     },
@@ -180,13 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline's cultural click to five-star cognac is weakened. 'Five little stars' applied to the diminutive in every step, including the last, removes the sudden shift into a different semantic world, and there is no note or cue pointing to cognac. The reference's plain 'five stars' with an explanatory note does this better."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The 'we already see' opening is a fragment of 'as we can already see', and the sequence is broken by the line break and dash, making the counting rhythm less smooth."
+          "justification": "The counting build-up is trivial and silly, which works. But \"five little stars\" has no cue linking it to five-star cognac, and the reference adds a note for this. English viewers will not see the click into the drinking frame, so the derailment punchline is lost. The repeated \"little stars\" also makes the line childlike."
         }
       ]
     },
@@ -212,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Science does not know' is a bit more formal and flat than the casual register of the original, and 'is there no life on Mars' is slightly awkward. The closing 'not yet up to date on the matter' does preserve the personified, colloquial 'science' joke."
+          "justification": "The content and casual register are kept, with \"not yet up to date on the matter\" retaining the personified, conversational science. However, \"Is there life on Mars, is there no life on Mars\" is a stiff calque of the Russian structure, and \"up to date\" is slightly less idiomatic than \"up to speed\"."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 6
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 16,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

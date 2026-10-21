@@ -46,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "Oh, such... such *civilized* relations!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate replaces the original's grotesque, stammering emphasis (выс-с-сокие) with a calm adjective \"civilized.\" This reduces the sarcastic, repetitive refraining and the comic emphasis of the line, weakening the iconic vocal tic described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -71,9 +64,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"You don’t live for joy—you live for conscience\" is grammatical but odd in English and shifts the pragmatic force: the reference stresses duty/fatalism ('live to do your duty' / 'not to be happy'). \"Live for conscience\" sounds abstract and less idiomatic, softening the soldierly bluntness noted in the analysis."
+          "justification": "You don’t live for conscience is grammatically and idiomatically awkward in English and loses the natural, blunt register of the reference (duty/obligation). The candidate preserves the general opposition between joy and moral imperative but weakens the phrasing and the soldierly fatalism expressed in the analysis."
         }
       ]
     },
@@ -110,7 +103,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source uses a tart ironic professional insult (literally 'Cook!') turned into a domestic put-down. The candidate \"You menace!\" changes both meaning and register and fails to convey the comic effect of the original—it is not equivalent and contradicts the analysis guidance."
+          "justification": "The original comic effect comes from using a neutral professional noun as a biting domestic insult ('Some cook you are!'). 'You menace!' does not correspond to the source word or its sarcastic function and changes the meaning and tone completely."
         }
       ]
     },
@@ -162,7 +155,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The surname is rendered as \"Khabotov\" instead of the expected \"Khobotov,\" introducing a spelling/phonetic error in a repeated character name. Otherwise the line's force is preserved."
+          "justification": "The surname is slightly misspelled: the expected transliteration is 'Khobotov' (or consistent 'Khovotov' variants). 'Khabotov' introduces an extra vowel, a small but unnecessary inaccuracy in a repeated, character-identifying line."
         }
       ]
     },
@@ -179,7 +172,14 @@
         "language_specific": {}
       },
       "candidate": "He’s my cross to bear!\nAnd I’ll carry it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate changes the referent and emphasis: 'He’s my cross to bear!' turns the statement into labeling a person as the cross, while the filmic line is an idiomatic self-presentation ('This is my cross to bear') used manipulatively to claim burden/authority. The second clause 'And I’ll carry it.' also loses the forceful exclusivity of the original ('And mine alone!'). These changes alter the manipulative dramatic effect described in the analysis."
+        }
+      ]
     },
     {
       "id": 11,
@@ -199,14 +199,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 2,
+      "minor": 2
     },
-    "total_points": 8,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

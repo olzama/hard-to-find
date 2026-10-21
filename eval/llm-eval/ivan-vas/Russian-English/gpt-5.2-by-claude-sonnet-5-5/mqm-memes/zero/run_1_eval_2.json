@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Shpak has a tape recorder, the envoy has a medallion' states possession, which contradicts the NB: the items have been lost/stolen, so the meaning is reversed."
+          "justification": "The NB says the items are lost, not possessed. 'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning: the candidate says they have the items, when each has lost them."
         },
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "'Envoy' for 'посол' is less precise than 'ambassador' and slightly shifts the term."
+          "justification": "'Plagued by vague doubts' keeps a somewhat elevated register, but the sentence is broken across lines and the mock-heroic theatrical tone is weaker than in the original."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Very nice, Tsar!' reads as addressing a Tsar, not introducing himself as the Tsar, which the NB says must be clear. The self-introduction is lost."
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Hello, Tsar!' reads as addressing a Tsar, so the self-introduction is lost and the joke's point is missed."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a weak rendering of 'очень приятно' and loses the stiff formal greeting cliché ('pleased to meet you')."
+          "justification": "'Very nice' is a weak rendering of the formal 'очень приятно' (pleased to meet you), so the stiff Soviet social ritual is less evident."
         }
       ]
     },
@@ -104,10 +104,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'Walled up, demons!' can read as addressing the demons (vocative). The NB requires demons to read as the subject, e.g., 'the demons walled me in'."
+          "justification": "'Walled up, demons!' can be read as addressing the demons, which the NB warns against. The reference uses 'the demons' as subject. The ambiguity is mild, and 'Walled up' is also less natural than 'walled in' for being trapped."
         }
       ]
     },
@@ -129,7 +129,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the archaic, solemn tone of the Tsar's pronouncement of a miracle."
+          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the Tsar's solemn, archaic conviction; 'Behold the power of...' is more elevated."
         }
       ]
     },
@@ -151,7 +151,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate and fits the party, though it is plainer than the reference's host-like invitation tone. The effect is slightly weaker but the meaning is preserved."
+          "justification": "'Everybody dance!' conveys the meaning and the command, but loses the host-like, MC register of 'The floor is open to everyone!' and the bureaucrat-turned-party-leader flavor."
         }
       ]
     },
@@ -173,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'What perfect timing!' shifts the meaning to timing and loses the sense of a lucky choice of apartment. It is also not clearly cheerful about finding the loot."
+          "justification": "'What perfect timing!' shifts the meaning from the burglar's satisfaction at choosing a good apartment to a remark about when he arrived, so the cheerful reaction to finding valuables is lost. The phrasing is also misleading about the situation."
         }
       ]
     },
@@ -195,7 +195,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Overseas caviar... Eggplant!' calls eggplant spread 'caviar', which the NB forbids as confusing. It also breaks the joke's structure, as the eggplant reveal is detached."
+          "justification": "'Overseas caviar... Eggplant!' calls the eggplant spread caviar, which the NB says confuses viewers. It also breaks the joke's build-up, because the punchline 'eggplant' is separated from what it describes and the cheap-spread-as-delicacy irony is muddled."
         }
       ]
     },
@@ -217,13 +217,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on the suede jacket count not being incremented at first, with the 'Three' coming as a delayed correction. The candidate states 'three suede jackets' outright and loses this comic beat."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Mixing the numeral '3' with the word 'three' is inconsistent."
+          "justification": "The joke depends on Shpak forgetting to increment the suede jackets and slipping on the count. The candidate writes 'three suede jackets', so it gives no sign of the slip and the humor is lost. The mix of '3' and 'three' is also inconsistent."
         }
       ]
     },
@@ -245,21 +239,21 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The repeated 'And they'll cure you too!' loses the progression in the source (first 'you', then 'you too', then 'me'). The calm, melodic resignation is replaced by exclamations."
+          "justification": "Adding 'too' to every line ('And they'll cure me too!') and dropping the escalating pattern ('you... you too... me') weakens the calm, melodic resignation and the build to the speaker including herself."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 5,
       "minor": 6
     },
-    "total_points": 36,
+    "total_points": 31,
     "meaning_units": 11,
-    "penalty_per_unit": 3.272727272727273,
-    "major_equiv_per_unit": 0.6545454545454545,
-    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.8181818181818183,
+    "major_equiv_per_unit": 0.5636363636363637,
+    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

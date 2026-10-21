@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key meaning of the note: it says Shpak and the ambassador still have the items, whereas the line means the items are missing from them. This removes the theft implication and breaks the joke."
+          "justification": "The candidate says Shpak and the ambassador currently have the objects, but the context requires that they no longer have them; the loss/theft implication is essential to the line's meaning and the callback."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"dúbidas vagas\" is understandable, but it softens the mock-heroic, theatrical tone of \"смутные сомнения\" compared with the more elevated reference."
+          "justification": "The phrasing is workable, but it loses some of the mock-heroic, theatrical cadence of the original opening."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should clearly sound like Bunsha is introducing himself as the tsar; \"Moito gusto, tsar!\" can read more like he is addressing a tsar than identifying himself, weakening the intended comic confusion."
+          "justification": "The candidate preserves the self-introduction as the tsar and the repeated polite formula, but it changes the structure enough that the intended comic pattern is a bit less clear and the 'I am the tsar' self-identification is slightly less explicit in one line."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"estou de pena\" is slightly flatter and less idiomatic than the reference's mournful, elevated phrasing, so the Tsar's regal melancholy comes through less strongly."
+          "justification": "'Estou de pena' is understandable, but it sounds less natural and less elevated than a formulation matching the Tsar's dignified, archaic melancholy."
         }
       ]
     },
@@ -108,13 +108,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Emparedáronnos\" means \"they walled us in,\" but the source is singular: the Tsar says he has been walled in. The plural also changes the situation and blurs the joke."
+          "justification": "The candidate changes the meaning from 'I am walled in' to 'we are walled in,' which breaks the character's isolated panic and alters the joke."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"demoños\" is a weaker, more modern-sounding spelling than the darker, more literary feel expected here, so the supernatural panic is slightly less vivid."
+          "justification": "'demoños' is a less fitting register here than a more natural equivalent for 'demons,' making the line slightly less idiomatic."
         }
       ]
     },
@@ -146,7 +146,14 @@
         "language_specific": {}
       },
       "candidate": "A bailar todo o mundo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The meaning is close, but 'A bailar todo o mundo!' slightly shifts the imperative force and loses the concise rallying cry feel of 'everyone dance!'."
+        }
+      ]
     },
     {
       "id": 8,
@@ -166,13 +173,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Entrei no momento xusto!\" changes the perspective and suggests a neutral, factual arrival, but the source is the burglar's pleased remark that he has stumbled into a good opportunity. The mischievous, opportunistic nuance is lost."
+          "justification": "The candidate means 'I came at the right moment,' but the original is about having entered a profitable/lucky place after seeing valuable goods; it loses the smug, opportunistic reaction to the discovery."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a bit less playful and colloquial than the reference, which weakens Miloslavsky's cheerful anti-hero voice."
+          "justification": "The line is flatter and less characterful than the cheerful, self-satisfied tone of the original."
         }
       ]
     },
@@ -194,7 +201,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats \"caviar\" for the eggplant spread, which the analysis explicitly warns against. This confuses the joke and removes the contrast with a cheap Soviet substitute.\""
+          "justification": "The candidate omits 'black and red caviar' as separate items and weakens the satirical contrast that drives the joke; the inventory of luxury foods is part of the punchline."
         }
       ]
     },
@@ -213,16 +220,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaqueta de camurza: tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"pitilleiras\" does not match the source's \"портсигара\" (cigarette cases), so an important item in the comic inventory is mistranslated."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The formatting and punctuation are awkward, especially \"chaqueta de camurza: tres,\" which makes the final punchline less smooth and less funny."
+          "justification": "Using digits instead of the repeated word form weakens the comic buildup and the rhythm of the enumerating exaggeration, though the core list is preserved."
         }
       ]
     },
@@ -239,32 +240,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti van curarte!\nE a ti tamén te van curar!\nE a min van curarme!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate changes the structure from passive future \"they will cure you\" to active \"van curarte,\" which shifts the meaning and weakens the resigned, collective fatalism of the line."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The phrasing is less melodically repetitive than the reference, so the calm, almost sing-song resignation is slightly reduced."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 4,
       "minor": 7
     },
-    "total_points": 37,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 3.3636363636363638,
-    "major_equiv_per_unit": 0.6727272727272727,
-    "interpretation": "3.36 MQM penalty points per meaning unit (≈ 0.67 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

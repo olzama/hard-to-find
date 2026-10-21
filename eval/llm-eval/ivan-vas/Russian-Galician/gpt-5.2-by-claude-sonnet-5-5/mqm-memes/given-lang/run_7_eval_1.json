@@ -153,10 +153,10 @@
       "candidate": "Tres magnetófonos, tres cámaras de cine, tres cigarreiras nacionais, unha chaqueta… de ante… tres.\ntres cigarreiras nacionais,\nunha chaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "After the full list, the candidate adds a redundant second partial repetition ('tres cigarreiras nacionais, unha chaqueta de ante... tres.'). It is not a consecutive repetition of the whole line, and it muddles the escalating count and the suede-jacket timing the analysis highlights, though the core list and joke remain intact."
+          "justification": "The candidate contains the reference line but then adds a redundant, partial repetition ('tres cigarreiras nacionais, unha chaqueta de ante... tres.') that is not in the source and is not a repetition in consecutive segments. It duplicates items in the list, making it seem as if Shpak is listing further items and disrupting the joke about the count growing and the jacket count being forgotten."
         }
       ]
     },
@@ -178,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 1
+      "major": 1,
+      "minor": 0
     },
-    "total_points": 1,
+    "total_points": 5,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.45454545454545453,
+    "major_equiv_per_unit": 0.09090909090909091,
+    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

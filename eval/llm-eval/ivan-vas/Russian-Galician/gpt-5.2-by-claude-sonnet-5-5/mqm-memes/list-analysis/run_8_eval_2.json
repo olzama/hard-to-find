@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Volven asaltarme\nvagas dúbidas...\nA Shpak faltoulle o magnetófono,\nao embaixador o medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Volven asaltarme vagas dúbidas\" is plain and loses the mock-heroic, theatrical register of 'терзают смутные сомнения'; the reference's archaic inverted syntax ('asáltanme escuras sospeitas') carries the elevated tone better. 'De novo/опять' is rendered as 'Volven', which is acceptable."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Ola, moi encantado: eu, o tsar.\nEncantadísimo: eu, o tsar. Ola.\nEu, o tsar, encantadísimo!\nOla: eu, o tsar. Encantadísimo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate makes clear he introduces himself as the tsar, which satisfies the NB. However, the greeting 'Ola' is flat and does not evoke the stiff, formulaic Soviet-style politeness. 'Encantadísimo' adds a slightly different tone. The segment also has an extra line compared to the source, but this is acceptable."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -80,7 +66,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Estou de loito' means 'I am in mourning', which is narrower than 'в печали' (sorrowful/aggrieved). It shifts the meaning toward bereavement and loses the elevated, regal melancholy of the reference ('aflixido')."
+          "justification": "'Estou de loito' means 'I am in mourning', which narrows the Tsar's general sorrow ('в печали') to bereavement. It also loses the archaic, lofty register that the analysis says contrasts with the Soviet setting."
         }
       ]
     },
@@ -145,9 +131,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'Que ben entrei aquí!' correctly conveys that he has just entered and avoids the misleading 'leaving' reading. It loses some of the colloquial, cheerful 'lucked into a good place' flavor of the reference, and sounds slightly less idiomatic."
+          "justification": "'Que ben entrei aquí!' is unnatural and literal ('how well I entered here'). It correctly shows he has just arrived, but it loses the sense of luck at striking it rich, as in 'dei cun bo sitio'."
         }
       ]
     },
@@ -169,7 +155,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'de berinxena' but leaves 'Unha pasta de berinxena de ultramar... de berinxena!' with 'pasta' replacing the 'caviar' element, so the punchline structure ('заморская икра... баклажанная') is broken: the redundant, garbled repetition undermines the joke's reveal. It does avoid calling the spread 'caviar', which satisfies the NB, but the lost 'Manxar de ultramar' delicacy framing and the clumsy doubling weaken the joke."
+          "justification": "The candidate names 'pasta de berinxena' first and then repeats 'de berinxena!', so the reveal is spoiled. The joke depends on a caviar-like build-up ('заморская икра') that ends in the cheap eggplant punchline. Here the surprise is lost and the delicacy-from-overseas inversion is weakened. It does avoid calling the spread caviar."
         }
       ]
     },
@@ -186,20 +172,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate drops the 'unha' before 'chaqueta' and writes 'chaqueta de camurza... tres', which is acceptable on its own, but the joke depends on the singular jacket then 'tres'; this is preserved. However, the use of digits '3' for the repeated 'tres' loses the comic verbal rhythm, and the hesitation after 'куртка…замшевая…' is flattened. The incremental inflation is partially lost."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Pitilleiras' is a valid word for cigarette cases, but the numerals reduce the spoken, exaggerating feel of the list."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -219,21 +192,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's rendering is accurate, but the repeated 'van curarte' with exclamation marks makes it sound more emphatic than the melodic, calm resignation described in the analysis. The trailing '…' hesitations of the reference are lost."
+          "justification": "The exclamation marks make the lines emphatic and loud. The analysis describes a melodic, calm resignation, and the repeated 'van curarte' pattern lacks that soothing, singsong feel."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 6
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 16,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

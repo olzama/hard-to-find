@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses possessive phrasing ('Shpak has... the envoy has...'), which contradicts the NB in the analysis: the Russian means these people have lost those items (they are missing), not that they currently possess them. This reverses the intended meaning and undermines the comedic callback."
+          "justification": "The candidate line 'Shpak has a tape recorder, the envoy has a medallion' renders the Russian as current possession. The original (and analysis NB) implies these items have been lost/are missing (they 'were walled away' / taken), not that the characters possess them now. This reverses the factual situation and undermines the joke about recovered/misplaced items."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing a Tsar ('So nice, Tsar!'), whereas the analysis requires that it be clear he is introducing himself as the Tsar (a drunken self-introduction). The translation thus changes the pragmatic meaning and damages the gag about him pretending to be the Tsar."
+          "justification": "The Russian line is Bunsha introducing himself as the Tsar (repeatedly: 'I am the Tsar, very pleased'), a comic self-introduction. The candidate ('So nice, Tsar! ... Hello, Tsar!') reads as addressing someone called 'Tsar' rather than Bunsha proclaiming himself the Tsar, losing the key comic premise described in the analysis."
         }
       ]
     },
@@ -60,7 +60,14 @@
         "language_specific": {}
       },
       "candidate": "I demand the banquet continue!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate 'I demand the banquet continue!' is understandable and preserves the force, but is slightly awkward/elliptical in English subtitle style. 'I demand that the banquet continue' would better match idiomatic syntax and the mock-authoritative tone."
+        }
+      ]
     },
     {
       "id": 4,
@@ -80,7 +87,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'I am sad' flattens the high-register, archaic tone ('I am in sorrow') called for in the analysis. The meaning is preserved but the elevated, regal diction is weakened."
+          "justification": "The candidate 'I am sad' conveys the meaning but flattens the high-register, archaic melancholy of the original ('I am in sorrow'). The line loses some of the elevated, regal tone that creates the comic contrast with the modern setting."
         }
       ]
     },
@@ -102,7 +109,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line 'Walled up, demons!' reads as a vocative (addressing the demons) rather than making the demons the subject who walled him in, contrary to the NB. That flips the syntactic role and changes the dramatic/comedic intent. The first exclamation 'Walled up!' is also ambiguous and doesn't clearly convey 'They've walled me in...'."
+          "justification": "The original means 'They've walled me in... Walled me in, the demons' (demons as the implied agents). The candidate 'Walled up, demons!' reads as a vocative address to demons or is otherwise ambiguous, failing to make clear that the speaker believes demons have walled him in. This shifts the grammatical subject/force and obscures the intended misunderstanding of technology as sorcery."
         }
       ]
     },
@@ -124,7 +131,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘That’s what the life-giving cross does!’ keeps the meaning but uses a colloquial, explanatory phrasing instead of the elevated, archaic proclamation ('Behold the power of the life-giving cross!'). The register and solemnity are reduced."
+          "justification": "The candidate 'That’s what the life-giving cross does!' preserves the literal meaning but reduces the lofty, archaic register ('Behold the power of the life-giving cross!'). The line is more colloquial and loses some of the grandiose, mystical tone that heightens the joke in an atheist/skeptical context."
         }
       ]
     },
@@ -191,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak's slip between singular and the final count (listing a single 'suede jacket... Three' to reveal his inconsistency). The candidate renders it as 'three suede jackets,' removing that performative inconsistency and thus erasing the comedic effect."
+          "justification": "The comic effect in the original depends on Shpak inflating counts and momentarily forgetting to increment the suede jacket count (a suede jacket is mentioned separately, then the total 'Three'). The candidate lists 'three suede jackets' outright, removing that self-betraying hesitation and the escalation gag, so it loses the key humorous detail."
         }
       ]
     },
@@ -214,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 22,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

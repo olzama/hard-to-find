@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Bring up\" keeps the workplace/upbringing logic and the in-house joke, but \"bring in\" and \"bring up\" is slightly wordplay-heavy and \"collective\" sounds more Soviet than a plain workplace term. \"Baba Yaga\" without any hint of the nasty-woman type is left to the viewer's knowledge; the social-type reading is not reinforced."
+          "justification": "\"Bring up\" works as a parallel to \"bring in\" and keeps the in-house cultivation logic. However, \"Baba Yaga\" is left untranslated without any gloss, so the toxic-woman-in-the-workplace type may be less recognizable to a non-Russian audience than the reference's generic \"witch\". The workplace logic is preserved through \"within our own collective\"."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "briefly—about forty minutes,\nno more, I think—",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The faux-modest cozy diminutive «коротенько» is rendered as a flat \"briefly\", and the added \"no more, I think\" shifts order so the comic reversal is weakened. There is no sense of patronizing \"just a little talk\"; the contrast with forty minutes is blunted."
+          "justification": "The order is preserved (briefly before forty minutes), but the diminutive, faux-modest \"коротенько\" is rendered flatly as \"briefly\", and the lowercase opening with dashes lacks the self-satisfied managerial tone. The contrast is somewhat weaker, though the punchline still lands. This is equivalent to the reference's level of rendering."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «готов» only as \"ready\" with no cue for the \"drunk/done for\" double meaning. \"Been ready a long time!\" with an exclamation hints slightly, but the alcoholic subtext, the core of the joke, is largely lost, as the analysis warns."
+          "justification": "The double meaning of \"готов\" (ready / drunk) is not recreated. \"Ready\" is used literally, and nothing signals the intoxication subtext. \"Been ready a long time!\" with an exclamation hints at it only faintly, so the main joke is essentially lost for the viewer. The reference has the same literal basis, but its \"Oh, he's ready\" and emphatic \"quite a while\" carry a knowing tone that the candidate lacks."
         }
       ]
     },
@@ -122,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... Hoo-hoo!\" keeps the broken, wavering cry, but loses the stretched syllabification of «Лю-ди» and \"Hoo-hoo\" sounds more like an owl or laughter than the calling \"ау-у\" (hello/halloo), weakening the attempt to address a crowd."
+          "justification": "The broken, stretched vocalization is only partly kept: \"People!..\" is a clean word rather than a stretched \"Peo-ple!\", so the faltering drunken quality of the first word is lost. \"Hoo-hoo!\" is a reasonable analogue for \"ау-у\" as a call, though it reads more like laughter or an owl than a call to an audience."
         }
       ]
     },
@@ -151,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the English notes explicitly say to avoid because it sounds surreal and does not echo \"unaided eye\". The familiar-idiom-deformed effect is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"It's enough for us to take a telescope\" is a calque of «стоит только нам взять» and sounds unidiomatic; the emphatic \"all we have to do\" is lost."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It does not echo the familiar English idiom \"unaided/naked eye\", so the audience does not hear a familiar expression being mangled. It sounds surreal rather than like mock-scientific pomp, and the idiom-deformation joke is lost."
         }
       ]
     },
@@ -186,7 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The order is scrambled (\"two, three... Four little stars—and best of all\"), which breaks the steady counting build-up before the punchline. \"Little stars\" captures the childish diminutive well, but no cue (note) signals the cognac association, which the analysis says may need one."
+          "justification": "The silly counting sequence and the \"five little stars\" punchline are kept, but nothing signals the cognac association (no note or cue), which the analysis says the viewer is unlikely to get unaided. The order is also slightly altered with the lines broken so that \"Four little stars\" sits after the ellipsis, weakening the buildup, though the final click is still intact."
         }
       ]
     },
@@ -212,21 +206,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Or there isn't life on Mars\" is a stilted calque of «нет ли жизни», and \"is not yet in the know\" is slightly awkward compared with the natural colloquial \"isn't up to speed\". The casual register is preserved, though the delivery is a bit clumsy."
+          "justification": "\"Or there isn't life on Mars\" is a slightly awkward literal rendering of the Russian \"нет ли\" structure, and it is somewhat clunkier than the reference's \"or not\". The register (casual \"in the know\") and the correct-but-colloquial effect are preserved well."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 5
     },
-    "total_points": 20,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as possession ('Shpak has... the envoy has...'), which contradicts the NB: the original means those items are missing from them (they were deprived/lost). This reverses the intended meaning and undermines the joke about stolen/lost goods."
+          "justification": "The candidate 'Shpak has a tape recorder, the envoy has a medallion' renders У Шпака — У посла as possession. The analysis explicitly notes these phrases mean the items are missing/lost (they were taken), not that the people currently possess them. This reverses the intended meaning and undermines the joke about theft/connection."
         }
       ]
     },
@@ -43,7 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing a tsar ('So nice, Tsar!'), whereas the analysis and NB require that he is awkwardly introducing himself as the Tsar. This changes the pragmatic role of the line and loses the core comic premise (the bumbling self-introduction)."
+          "justification": "The candidate reads as if Bunsha is addressing a tsar ('So nice, Tsar!'), whereas the original and analysis make clear he is awkwardly introducing himself as 'the Tsar.' This changes the comedic premise (self-introduction vs. address) and contradicts the NB guidance."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The phrasing 'So nice' is colloquial and loses the feel of the repetitive, overly polite Soviet greeting ritual the analysis emphasizes. The line becomes more casual and less mock-formal."
         }
       ]
     },
@@ -95,7 +101,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original has demons as the grammatical subject (They walled me in). The candidate's 'Walled up, demons!' reads as a vocative address to demons, flipping subject/object relations and losing the intended perception that 'demons' caused the entrapment."
+          "justification": "The candidate 'Walled up, demons!' is ambiguous and reads like a vocative address to demons rather than stating that demons are the agents who walled him in. The analysis/NB stresses demons must be the subject (they walled him in). The candidate therefore risks reversing agent/recipient and losing the intended meaning."
         }
       ]
     },
@@ -117,7 +123,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'That’s what the life-giving cross can do!' is more colloquial and less ceremonially archaic than the reference ('Behold the power...'). It preserves meaning but slightly weakens the elevated, solemn register that amplifies the joke."
+          "justification": "The candidate 'That’s what the life-giving cross can do!' conveys the meaning but uses a conversational, modern phrasing ('can do') that weakens the archaic, solemn register of the original 'Behold the power of the life-giving cross,' slightly reducing the historical/religious tone highlighted in the analysis."
         }
       ]
     },
@@ -166,10 +172,10 @@
       "candidate": "Black caviar, red caviar…\nAnd! Overseas caviar…\nEggplant!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's line groups 'Overseas caviar... Eggplant!' which risks implying that the eggplant spread is itself described as 'caviar.' The analysis warns against calling eggplant spread 'caviar'; the candidate creates potential confusion even if the cadence approximates the original."
+          "justification": "The candidate presents 'Overseas caviar… Eggplant!' which implies the eggplant spread is a kind of caviar. The analysis explicitly warns against calling eggplant spread 'caviar'—the joke depends on contrasting true black/red caviar with cheap 'eggplant caviar' as a joke, not literally renaming it. This phrasing is misleading and distorts the satirical inversion."
         }
       ]
     },
@@ -186,14 +192,7 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The comic effect in the original hinges on the speaker's hesitation/forgetfulness when counting (the belated increment). The candidate presents a flat list ('3... three suede jackets') without capturing the same falter/performative self-contradiction, softening the joke's timing and character reveal."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -213,14 +212,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 3
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 18,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

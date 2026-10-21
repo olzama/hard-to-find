@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive\nto welcome the New Year with fun.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrase \"to welcome the New Year with fun\" is slightly awkward English and less natural than the reference's \"to celebrate the New Year merrily.\" The bureaucratic/directed tone is preserved by \"directive,\" but the target phrase weakens the festive register contrast a little."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -68,9 +61,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds 'he gives his talk' which is not present in the source and slightly shifts the focus from the ironic understatement about duration to the act of lecturing, introducing an unnecessary element."
+        },
+        {
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the faux-modest \"briefly… about forty minutes\" contrast, but the added tail \"—he gives his talk\" is unnecessary and disrupts the tight comic pacing and Ogurtsov's self-satisfied managerial voice."
+          "justification": "The phrasing is somewhat clumsy and disrupts the original's brisk comic reversal: the diminutive, faux-modest 'коротенько' is rendered passably by 'just briefly,' but the line's rhythm and punch (brief claim then absurd 'forty minutes') are weakened by the extra clauses and awkward sequencing."
         }
       ]
     },
@@ -91,14 +90,7 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—ready long ago!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Ready long ago\" is slightly stilted compared with more idiomatic renderings (e.g. \"he's been ready for quite a while\"). The ambiguity between administrative \"ready\" and the drunk reading is nevertheless preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -141,10 +133,10 @@
       "candidate": "But it’s enough for us to take a telescope...\nAnd look with an armed eye—",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The literal calque \"armed eye\" is awkward in English and risks shifting the joke toward surreal oddness rather than the intended mock‑scientific deformation. The analysis recommends a solution like \"aided eye\" to retain the slightly wrong, pseudo‑scientific feel without overdoing the strangeness."
+          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis explicitly warns against: in English this reads as oddly surreal rather than the intended mock‑scientific, slightly off phrase. The chosen wording undermines the intended near‑recognizable idiom deformation and makes the joke feel stranger and less recognizably parodic."
         }
       ]
     },
@@ -192,14 +184,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 4
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 4,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.5,
-    "major_equiv_per_unit": 0.1,
-    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

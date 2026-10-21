@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak 'tiene' a tape recorder and the ambassador 'tiene' a medallion. The analysis (NB) says this is wrong: each of them has lost the item. The core of the callback, which is a theft connection, is lost."
+          "justification": "The NB explicitly warns against 'Shpak has... the ambassador has...'. The candidate says Shpak tiene un magnetófono and el embajador un medallón, which reverses the meaning: the items are missing/stolen, not possessed. The callback to the thefts is lost."
+        },
+        {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "'vagas sospechas' is flatter than the mock-heroic 'terribly tormenting vague doubts'. 'me asaltan' keeps some elevated tone, but the theatrical, tragic-opera register is weakened."
         }
       ]
     },
@@ -43,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'¡Mucho gusto, zar!' and 'Hola, zar!' read as Bunsha addressing a Tsar. The NB requires that he introduce himself as the Tsar ('soy el zar'). The central joke of the self-introduction is lost."
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Mucho gusto, zar!' and '¡Hola, zar!' read as addressing a Tsar, which is the exact misreading the NB warns against. The self-introduction joke is lost."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate adds a fourth line ('¡Hola, zar! ¡Mucho gusto!') that is not in the source. The three-part repetition is broken."
+          "justification": "The candidate keeps the repetitive formulaic politeness, but the shuffled greeting pattern is reordered and adds an extra line, and the drunken self-importance is lost without 'soy'."
         }
       ]
     },
@@ -86,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estoy triste' is plain and colloquial. It weakens the elevated, archaic register of 'я в печали' that the analysis says carries the humor. The reference's 'afflicted' wording keeps that register."
+          "justification": "'estoy triste' is plain and modern. It loses the archaic, high-register regal melancholy of 'en печали' (reference 'afligido'), so the contrast with the Soviet setting is weaker."
         }
       ]
     },
@@ -108,7 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'¡Nos han tapiado, demonios!' makes 'demonios' a vocative or curse, as if the Tsar were addressing the demons. The NB requires the demons to be the subject (the demons have walled us in)."
+          "justification": "The candidate uses 'Nos han tapiado' (first person plural) and ends with 'demonios' as a vocative, which reads as addressing the demons. The NB requires demons to be the subject, and the Tsar is speaking about himself, not the group. The syntactic point is violated."
         }
       ]
     },
@@ -130,7 +136,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'¡Mira lo que hace...!' is a casual imperative that addresses someone. This lowers the solemn, pious tone of the Tsar's declaration. The 'cruz vivificadora' wording is acceptable."
+          "justification": "'¡Mira lo que hace...!' is colloquial and addresses a listener, and 'vivificadora' is a less liturgical epithet than 'vivificante'. The solemn religious conviction of the Tsar is somewhat weakened."
         }
       ]
     },
@@ -150,9 +156,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'¡Que bailen todos!' is a third-person command that excludes the speaker. Bunsha is leading and joining the dance, so the inclusive, imperative feel of 'Танцуют все!' (as in 'Todos a bailar') is weakened."
+          "justification": "'¡Que bailen todos!' is a third-person jussive that sounds like permission and distances Bunsha from the dance. The imperative energy of leading the party, 'Todos a bailar', is weaker."
         }
       ]
     },
@@ -169,7 +175,14 @@
         "language_specific": {}
       },
       "candidate": "¡He entrado con suerte!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'He entrado con suerte' is understandable and correctly conveys that he has just entered, but it is stiffer than the casual, cheerful idiomatic reaction. The lighthearted anti-hero tone is a bit weaker."
+        }
+      ]
     },
     {
       "id": 9,
@@ -187,9 +200,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Caviar de ultramar... de berenjena'. The NB says not to call it caviar, because that confuses viewers. The joke depends on the 'delicacy' being a cheap common spread, which the reference renders as 'manjar de ultramar... de berenjena'."
+          "justification": "The NB says not to call eggplant spread 'caviar'. The candidate says 'Caviar de ultramar... de berenjena', which does exactly that. The joke contrast between real caviar and the cheap 'overseas delicacy' is lost and confusing."
         }
       ]
     },
@@ -208,10 +221,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleras nacionales,\nchaqueta de ante: tres.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Cámaras' omits 'de cine'. 'Chaqueta de ante: tres' replaces the hesitant, trailing 'una chaqueta… de ante… tres' with a smooth colon. This weakens the comic effect of Shpak forgetting to increment the jacket count."
+          "justification": "The joke depends on Shpak forgetting to increment the suede jacket count ('una chaqueta... de ante... tres'). The candidate says 'chaqueta de ante: tres', which makes the jacket count three from the start with no slip, so the betrayal is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "Digits '3' and the dropped 'cine' in 'cámaras' are less natural, and the list loses the spoken rhythm of the original."
         }
       ]
     },
@@ -233,27 +252,27 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word 'тоже' is left untranslated in the Spanish line ('¡Y a ti тоже te curarán!'), which is a visible error in the subtitle. The first clause 'Y a ti te curarán' is also dropped in favor of a repeated 'también' line, so the cumulative sequence is changed."
+          "justification": "The candidate repeats 'Y a ti también te curarán' and leaves an untranslated Russian word ('тоже') in the second line. The sequence is distorted: the original goes 'и тебя... и тебя тоже... и меня', and the build-up is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks make every line emphatic. The analysis describes calm, melodic resignation, and the reference uses ellipses to express that tone."
+          "justification": "The exclamation marks make the delivery shouted rather than the melodic, calm resignation described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 6
+      "major": 7,
+      "minor": 7
     },
-    "total_points": 31,
+    "total_points": 42,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.8181818181818183,
+    "major_equiv_per_unit": 0.7636363636363637,
+    "interpretation": "3.82 MQM penalty points per meaning unit (≈ 0.76 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

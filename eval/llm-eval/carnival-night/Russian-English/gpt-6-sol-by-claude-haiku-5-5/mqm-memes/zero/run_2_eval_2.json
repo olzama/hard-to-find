@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't\nbring in an outside Baba Yaga.\nWe'll train one from our own staff!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Baba Yaga\" alone keeps the fairy-tale reference but makes the generic human type the analysis describes (a toxic, troublemaking woman) less obvious than the reference's \"witch\". \"An outside Baba Yaga\" is also slightly awkward English."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"A nice short speech\" conveys the faux-modest \"коротенько\" well, but the closing \"I don't think it needs to be longer\" is flatter than the source's restrained \"больше, я думаю, не надо\" and the reference's \"we don't need any more than that\", which weakens the managerial tone the analysis describes."
+          "justification": "The source trails off with an ellipsis (\"не надо…\"), signaling self-satisfied hesitation. The candidate closes with a flat full stop, which loses some of that dismissive trailing tone. The reference keeps the ellipsis."
         }
       ]
     },
@@ -95,7 +88,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!\" is the clean, normalized opening the analysis warns against. \"Hey... hello!\" adds some faltering, but the stretched, broken shape of \"Лю-ди! А… ау-у!\" (\"Peo-ple! Ah… hellooo!\") is not reproduced, so the vocal instability and drunken physical comedy are only partly kept."
+          "justification": "The analysis asks that the line stay vocally unstable, a faltering cry that dissolves. The candidate normalizes the opening to a clean \"People!\" with no stretching or broken sound. The \"Hey... hello!\" part keeps some hesitation, so the drunken physical comedy is weakened but not lost."
         }
       ]
     },
@@ -120,9 +113,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The key comic device, the mangled idiom «невооружённым глазом» → «вооружённым глазом», is replaced by a plain paraphrase, \"with the aid of optics\". The audience no longer hears a familiar expression being wrongly upgraded into pseudo-scientific language, which the analysis identifies as the core of the joke. The reference's \"aided eye\", which echoes \"unaided eye\", is the kind of creative solution the analysis calls for. \"But if we\" also drops the \"just/only\" nuance of «стоит только»."
+          "justification": "The analysis identifies the joke as the mangled idiom «вооружённым глазом» (a corruption of «невооружённым глазом», \"with the naked eye\"), which the lecturer 'upgrades' into mock-scientific language. The candidate's \"with the aid of optics\" is a plain paraphrase that removes any idiom echo, so the lexical deformation and the mock-scientific effect disappear. The reference's \"aided eye\" recreates the effect by echoing \"unaided eye\". Also, \"Но стоит только\" (\"all it takes is\") is rendered as a bare \"But if we\", losing the sense of effortless ease."
         }
       ]
     },
@@ -146,10 +139,10 @@
       "candidate": "we can see two little stars,\nthree little stars...\nFour little stars. Five little\nstars would be best, of course!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac reference behind \"five stars\" (the Soviet 5-star brand) is not signposted, and the candidate has no translator's note, unlike the reference. The sudden shift into a different semantic world that the analysis calls for is weaker for English viewers, who may read \"five little stars\" only as a rating or as nonsense."
+          "justification": "The analysis requires the final item to snap into a different semantic world (the cognac star-rating system) so that the line is not merely odd. The candidate uses \"little stars\" throughout, so the final \"Five little stars\" continues the childish frame instead of marking a sudden shift. It also includes no cultural cue or translator's note for the cognac association, which the reference provides. The punchline therefore lands as nonsense rather than as a derailment into the wrong domain."
         }
       ]
     },
@@ -169,23 +162,29 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The analysis locates the comic force in casual, colloquial phrasing of a valid scientific uncertainty. «Наука ещё пока не в курсе дела» is rendered as the neutral \"Science hasn't found out yet\", which loses the loose, 'not in the loop' register. The translation is accurate but less comically off-register than the source."
+        },
+        {
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Is there no life on Mars?\" is a stilted calque of the colloquial «нет ли жизни». The natural \"whether or not\" construction, which mirrors the reference's \"Whether there is life on Mars or not\", would read more smoothly, and the casual register of the valid uncertainty is only partly conveyed."
+          "justification": "\"Is there no life on Mars?\" is a stiff, slightly awkward rendering of «нет ли жизни на Марсе». A more natural option such as \"Or is there no life on Mars?\" or the reference's \"Whether there is life on Mars or not\" reads more smoothly."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 10,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

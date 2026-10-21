@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Vólvenme asaltar\nvagos receos...\nA Shpak, quitáronlle o magnetófono;\nao embaixador, o medallón.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The wording is natural and preserves the mock-heroic tone, but the opening line is slightly less elevated and idiomatic than the reference, so the comic register is a bit weaker."
+        }
+      ]
     },
     {
       "id": 2,
@@ -66,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is understandable, but it weakens the elevated, archaic regal melancholy of the source and reference, which sounds more solemn and literary."
+          "justification": "The meaning is intact, but 'estou triste' is flatter and less regal/archaic than the reference’s more poetic, aristocratic melancholy."
         }
       ]
     },
@@ -86,9 +93,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "'os demoños' is a misspelling/unnatural form in Galician; it should be a standard plural form, though the meaning is still clear."
+          "justification": "'demoños' slightly distorts the important point that he thinks demons trapped him; the standard form would be closer to 'demos', though the joke remains understandable."
         }
       ]
     },
@@ -110,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' is a bit more ordinary and less archaic/elevated than the reference's solemn exclamation, slightly weakening the mock-miraculous tone."
+          "justification": "The line is accurate, but 'Mira' is a bit more casual than the reference’s more emphatic, reverential exclamation, so the mock-miracle tone is slightly softened."
         }
       ]
     },
@@ -130,9 +137,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The source means 'Everyone dance!' as a command to all present; 'A bailar todo o mundo!' is close, but it reads more like 'everyone is dancing' than an imperative, slightly softening the command."
+          "justification": "The meaning is preserved, but 'A bailar todo o mundo!' sounds like an invitation rather than an imperative command from Bunsha, so the forceful, chaotic rallying cry is slightly weakened."
         }
       ]
     },
@@ -151,10 +158,10 @@
       "candidate": "Que ben entrei aquí!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei aquí!' means 'How well I entered here!' and sounds like he is commenting after coming in, but the context requires a colloquial reaction equivalent to 'I really hit the jackpot' without suggesting he has left or is merely describing entry."
+          "justification": "The joy of discovering a good situation is preserved, but 'Que ben entrei aquí!' can sound like he has entered well in a physical sense, whereas the joke specifically is that he has just come upon a profitable haul."
         }
       ]
     },
@@ -173,10 +180,10 @@
       "candidate": "Caviar negro, vermello...\nSi! Ovas de ultramar...\nde berenxena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Ovas de ultramar' is misleading because it omits the crucial joke that the 'overseas delicacy' is eggplant spread; the line must make that mundane fake-caviar item explicit, not generic roe."
+          "justification": "'Ovas de ultramar' loses the specific satirical point of the reference, where the cheap eggplant spread is presented as a ridiculous faux-delicacy; 'caviar' is avoided, but the joke about the invented luxury item is somewhat weakened."
         }
       ]
     },
@@ -196,15 +203,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The list is incomplete and reorganized: 'three suitcases' is reduced to '3 pitilleiras' and the structure no longer preserves the escalating, repetitive counting joke as clearly as the source."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The abrupt line breaks and omission of articles make the inventory sound clipped and less natural than the punchy, cumulative counting in the original."
+          "justification": "The list and escalating repetition are preserved, but starting with numerals and omitting the repeated 'three' in the same rhythmic way makes the comic inflation less performative and less natural as subtitle dialogue."
         }
       ]
     },
@@ -221,19 +222,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te van curar!\nE a ti tamén che van curar!\nE a min tamén me van curar!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is clear, but adding 'tamén' to the first line makes the repetition less elegant and slightly less melodic than the reference, reducing the resigned, incantatory rhythm."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 6
+      "major": 0,
+      "minor": 9
     },
-    "total_points": 16,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

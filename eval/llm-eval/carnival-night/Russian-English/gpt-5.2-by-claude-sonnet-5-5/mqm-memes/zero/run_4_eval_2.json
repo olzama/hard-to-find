@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept as a fairy-tale name and \"raise\" is used instead of a workplace-training verb like \"train\". The staffing/bureaucratic logic is slightly weaker, though \"within our own collective\" keeps the Soviet workplace flavor and the joke largely works."
+          "justification": "\"Baba Yaga\" is kept untranslated and \"take\" is weaker than the staffing-like \"bring in\". Without \"witch\", English viewers may miss the malicious-woman-in-the-workplace type. \"Raise one within our own collective\" keeps the workplace logic and the humor, though \"collective\" is a bit Soviet-literal."
         }
       ]
     },
@@ -67,16 +67,10 @@
       "candidate": "briefly—about forty minutes,\nno more, I think,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest, patronizing diminutive feel of «коротенько» is carried only by plain \"briefly\", so the contrast with \"forty minutes\" is slightly flatter. The order (briefly before duration) is preserved, so the joke still lands."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line ends with a trailing comma and lowercase start, and \"no more, I think,\" reads as slightly clipped. It is acceptable as a subtitle fragment but a little less natural."
+          "justification": "The faux-modesty of «коротенько» is the setup for the joke, and \"briefly\" is rendered flatly with no diminutive or cozy tone. The \"no more, I think\" phrasing does keep the smug self-restraint, but the contrast between \"briefly\" and \"forty minutes\" is weakened. The line starts in lowercase and ends with a comma, so it reads as a fragment."
         }
       ]
     },
@@ -99,10 +93,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer's ready—ready long ago!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready long ago\" is somewhat unidiomatic and lacks the colloquial \"he's been ready for a while\" tone. The drunk double sense of «готов» is only weakly recreated in English, since \"ready\" alone does not strongly suggest intoxication, though the reference has the same limitation."
+          "justification": "The \"ready\" = \"drunk\" double meaning is lost. \"Ready long ago\" has no intoxication subtext in English, so the line is just a plain statement of readiness and the joke disappears. The reference's \"ready for quite a while\" is also flat, but it at least implies something off by its emphatic delivery."
         }
       ]
     },
@@ -125,10 +119,10 @@
       "candidate": "- People!.. Ah... Hel-lo!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The drunken, broken vocalization is lost. \"People!.. Ah... Hel-lo!\" splits \"Hel-lo\" but drops the stretched \"Peo-ple\" and the wavering \"ау-у\" call, so the line reads as a nearly clean address. The analysis stresses that normalizing to a clean \"People!\" loses the physical comedy."
+          "justification": "The broken, stretched vocalization is only partly kept. \"People!..\" is clean and the hyphenation in \"Hel-lo\" is the only sign of slurring. The faltering, wavering cry of «ау-у» is reduced, so the drunken physical comedy is weaker than in the reference. The added dash is a dialogue marker that does not belong in a single-speaker line."
         }
       ]
     },
@@ -157,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly warns against. In English it sounds surreal rather than a mangled version of \"unaided eye\", so the mock-scientific idiom distortion is lost. The sentence is also cut off at \"eye,\" and loses the exclamatory rhythm."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It sounds surreal and does not echo the familiar English \"unaided eye\", so the mock-scientific deformation of a recognizable idiom is lost. The line is also split awkwardly across subtitle lines."
         }
       ]
     },
@@ -183,10 +177,10 @@
       "candidate": "we already see two\nstars, three stars...\nFour stars—and best of all, of course,\nfive stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is garbled: \"two stars, three stars...\" then \"Four stars—and best of all, of course, five stars!\" breaks the trivial build-up into a separate subtitle and makes four stars part of the punchline setup. The sudden click into the cognac frame is weakened, and the slightly ridiculous rhythm of the original is lost."
+          "justification": "The counting progression is slightly disrupted. \"Four stars\" is separated from the buildup by a line break, which weakens the rhythm of two-three-four before the \"five stars\" click. The cognac association is not conveyed, but the analysis notes this is a translator's-note issue, and the reference does not convey it either apart from the note."
         }
       ]
     },
@@ -210,9 +204,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Science is not yet in the know\" keeps the colloquial register well, but \"is there no life on Mars\" is a literal and slightly awkward rendering of «нет ли жизни». \"Science does not know\" is also a bit more formal than «науке неизвестно», so the casual-versus-scientific mismatch is slightly reduced."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is a stiff calque of the Russian structure. \"Science is not yet in the know\" keeps the casual register well, but the phrase \"science does not know\" is slightly flatter than «неизвестно», and the sentence rhythm is a little awkward."
         }
       ]
     }
@@ -220,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

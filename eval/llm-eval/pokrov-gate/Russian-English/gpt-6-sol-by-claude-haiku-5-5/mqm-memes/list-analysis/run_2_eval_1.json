@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate drops the pompous, self-dramatizing address ('Pray, tell me') that the analysis identifies as the core of Velyurov's voice. 'Name one!' is plainer and weakens the theatrical grandeur the reference keeps."
+          "justification": "The candidate drops the elevated, self-dramatizing theatrical tone that the analysis emphasizes. 'Name one!' and 'No, go on. I'm waiting!' are plainer than the reference's 'Pray, tell me, name them!!' and 'Go on, I'll wait!'."
         }
       ]
     },
@@ -43,7 +43,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'How about a little drink?' is blander than 'по рюмашке' and loses the colloquial drinking idiom of the reference ('toss back a quick one'). The cozy, companionable shift in register that the analysis describes is weakened."
+          "justification": "'How about a little drink?' is blander than the colloquial 'toss back a quick one' in the reference, so the casual, ironic camaraderie that deflates Velyurov's monologue is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line starts with a lowercase letter, which is inconsistent with standard capitalization for an exclamation or question opening a line of dialogue."
         }
       ]
     },
@@ -68,15 +74,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The stretched sibilant of 'выс-с-сокие', the audible hissing emphasis that carries the sarcasm, is not reproduced. 'Lofty, lofty' repeats the word rather than the sound."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Relations' reads more archaic and more ambiguous than 'relationship', and it is less natural for the ironic, modern-sounding exclamation the reference captures."
+          "justification": "'Such lofty, lofty relations!' is close to the literal noun-phrase structure the analysis warns against. The stretched, drawn-out pronunciation of 'vys-s-sokie' is also lost, and that stretching is part of the sarcastic effect."
         }
       ]
     },
@@ -96,9 +96,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The source is a generic maxim ('живут', people live), but the candidate turns it into a first-person 'We'. The conscience framing of 'для совести' is rendered as 'what's right', which loses the moral-duty idea the analysis treats as central to the couple's self-justification."
+          "justification": "'To do what's right' weakens the moral-duty and conscience framing that the analysis highlights as the core of the maxim. The reference's 'to do your duty' carries that sense more directly."
         }
       ]
     },
@@ -138,9 +138,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Chef!' is the standalone professional noun that the analysis explicitly flags as unnatural in English. It reads as neutral address rather than the loud domestic insult, so the comic effect of a professional term used as a reproach is lost."
+          "justification": "'Chef!' is the literal standalone noun the analysis identifies as unnatural. Read in English, it sounds like a neutral address to a cook, so the mocking verdict and the absurd use of a professional term as a domestic insult are lost. This is the central joke of the line."
         }
       ]
     },
@@ -217,7 +217,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'He's my cross to bear!' makes the burden a person, which shifts the referent from the situation named in 'Это мой крест'. 'And I shall bear it!' also drops the exclusivity of 'И нести его мне' (it falls to me alone), so the martyred solitude the analysis highlights is weakened."
+          "justification": "'He's my cross to bear!' names Khobotov explicitly, while the source uses the neutral 'Это' (this). The referent is contextually plausible, but it is a specification not present in the source."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'And I shall bear it!' drops the exclusivity of 'And mine alone!' in the reference. That emphasis on sole martyrdom is part of the manipulative self-sacrifice the analysis describes."
         }
       ]
     },
@@ -239,19 +245,26 @@
         }
       },
       "candidate": "Oh, I'm such a bundle of awkwardness...\nall sharp edges...\nSo full of contradictions!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The interjection 'Oh,' is added and is not in the source. It is consistent with the coquettish affectation the analysis describes, but it is still an addition to the text."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 8
     },
-    "total_points": 11,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

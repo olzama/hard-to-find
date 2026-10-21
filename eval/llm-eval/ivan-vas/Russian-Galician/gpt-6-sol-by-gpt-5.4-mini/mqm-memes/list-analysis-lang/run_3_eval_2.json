@@ -23,16 +23,10 @@
       "candidate": "Volven atormentarme\nvagas sospeitas...\nA Shpak desapareceulle un magnetófono;\nao embaixador, unha medalla.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate says 'un magnetófono' and 'unha medalla,' which loses the specific lost items and weakens the callback to the earlier theft; the line should convey that Shpak and the ambassador no longer have those possessions."
-        },
-        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vagas sospeitas' is a bit flatter than the mock-heroic 'smutnye somneniya,' so the elevated, theatrical comic tone is somewhat weakened."
+          "justification": "The line captures the mock-solemn tone, but the phrasing is a bit less polished than the reference and the added line break slightly dulls the compact comic rhythm."
         }
       ]
     },
@@ -54,13 +48,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should clearly sound like Bunsha introducing himself as the tsar while greeting others; 'O tsar, moito gusto!' and the punctuation make parts of the sequence ambiguous and reduce the repeated self-identification effect."
+          "justification": "The candidate weakens the key comedic ambiguity: it no longer clearly sounds like Bunsha introducing himself as the Tsar in a repetitive, formal way, and the structure is less faithful to the self-introduction pattern needed for the joke."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Moito gusto. Eu son o tsar!' is understandable, but it sounds more modern and less comically awkward than the reference's repetitive, ceremonious banality."
+          "justification": "The repeated greetings feel more natural but less absurdly bureaucratic than the reference, so the comic stiffness of the original is slightly reduced."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vella' is a bit harsher and less affectionate/archaic than 'velliña,' so the Tsar's regal but slightly patronizing tone is softened."
+          "justification": "Using 'vella' instead of the more diminutive, slightly patronizing 'velliña' softens the archaic, comic-slightly-formal tone of the Tsar's speech."
         }
       ]
     },
@@ -144,7 +138,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Iso é obra da cruz vivificadora!' is acceptable, but it is less natural and less emphatic than the exclamatory revelatory tone of the reference."
+          "justification": "'Iso é' is understandable, but it is a slightly flatter opening than the more exclamatory, folkloric feel of the reference, so the punchline is a bit less vivid."
         }
       ]
     },
@@ -189,9 +183,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Vaia sorte tiven ao entrar!' preserves the meaning, but it is less spontaneous and less jaunty than the reference's self-satisfied realization that he has landed in the right place."
+          "justification": "'Vaia sorte tiven ao entrar!' preserves the positive reaction, but 'ao entrar' can sound more like a neutral description than the celebratory 'I hit the jackpot' sense of discovering the loot inside."
         }
       ]
     },
@@ -213,20 +207,7 @@
         }
       },
       "candidate": "Caviar negro, vermello...\nAh, si! Unha exquisitez de ultramar...\nPaté de berenxena!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Paté de berenxena' blunts the joke and shifts away from the specific comic contrast: the line should explicitly present eggplant spread as a fake 'overseas' delicacy, not merely as a pâté."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Ah, si!' is less idiomatic and less punchy than the original's abrupt, delighted exclamation, slightly weakening the comic buildup."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -248,16 +229,10 @@
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres cigarreiras de fabricación nacional,\nunha chaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits the final repeated 'three' pattern for the suede jacket/coat, which is the punchline showing Shpak's overblown accounting and his slip in the count."
-        },
-        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'De fabricación nacional' is a legitimate paraphrase, but it is a bit heavier and less snappy than 'nacionais,' reducing the brisk inventory-list rhythm."
+          "justification": "'Cigarreiras de fabricación nacional' is accurate but more verbose and less idiomatic than the reference, slightly weakening the snappy comic inventory rhythm."
         }
       ]
     },
@@ -279,14 +254,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 7
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 27,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 2.4545454545454546,
-    "major_equiv_per_unit": 0.4909090909090909,
-    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-6-sol"

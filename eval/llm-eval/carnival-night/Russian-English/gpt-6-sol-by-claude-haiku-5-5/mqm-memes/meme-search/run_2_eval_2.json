@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Briefly\" is delivered flatly, without the faux-modest softening (\"just a little\", \"a short talk\") that the analysis calls for. The contrast with \"about forty minutes\" is therefore weaker than in the source, where the diminutive «коротенько» sets up the reversal."
+          "justification": "The trailing ellipsis in «...больше, я думаю, не надо…» signals a hesitant, drifting delivery. The candidate ends on a flat full stop, which weakens the faux-modest, trailing-off tone the analysis describes."
         }
       ]
     },
@@ -68,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nHe's ready! He's been ready for ages!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate only renders «готов» as \"ready\" and repeats it. The colloquial \"drunk / done for\" subtext, which the analysis identifies as the core joke, is lost completely, so the exchange reads as a plain confirmation and is no longer funny."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -92,10 +85,10 @@
       "candidate": "- People! Hello?",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis says the faltering, stretched vocalization (\"Peo-ple! Ah… hellooo!\") carries the drunken physical comedy and must not be normalized. The candidate \"People! Hello?\" is a clean, sequenced call with no broken or wavering quality, so the lecturer's loss of control over speech does not come across."
+          "justification": "The candidate drops the stretched, faltering vocalization ('Peo-ple', 'Ah…', 'hellooo') that the analysis identifies as the core of the drunken comedy. 'People! Hello?' reads as a fairly composed call, so the collapse of the formal address into broken, wandering sound is weakened."
         }
       ]
     },
@@ -120,9 +113,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate uses the correct idiom \"naked eye\" instead of a mangled one, so the lecturer's error is less visible. \"Duly equipped\" does recreate the armed/unarmed contradiction and the mock-scientific pomp, which is an acceptable creative solution, but the audience hears less of the idiom being wrongly \"upgraded\" than the analysis asks for."
+          "justification": "'look with the naked eye duly equipped,' is grammatically dangling, and the mangled-idiom effect is not clearly signposted. 'Naked eye' is the correct idiom, and 'duly equipped' only faintly echoes the 'armed' upgrade, so the lecturer's wrong-but-scholarly escalation is harder to parse than in the reference."
         }
       ]
     },
@@ -146,10 +139,10 @@
       "candidate": "we see two stars,\nthree stars...\nFour stars. Best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Five stars\" is rendered without any indication that it refers to cognac, so for most viewers the sudden shift into a different semantic world is lost and the line reads as merely odd. The reference includes a note for this, and the analysis flags that the association may need one."
+          "justification": "The punchline depends on a sudden shift into the cognac star system (5* cognac). The candidate has no translator's note, as the reference does, so for most viewers the final 'five stars' reads as merely odd rather than as a culturally legible click. The cultural point the analysis asks to preserve is lost."
         }
       ]
     },
@@ -168,30 +161,30 @@
       "candidate": "Is there life on Mars?\nIs there no life on Mars?\nThat is unknown to science.\nScience has not yet been informed.",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The analysis locates the comic force in the lecturer's casual, loose register (\"Наука ещё пока не в курсе дела\"). The candidate's \"Science has not yet been informed\" is stiff and formal, so the casual-versus-scientific register mismatch that drives the joke is lost."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Is there no life on Mars?\" is an awkward, unidiomatic way to render «нет ли жизни». The natural form would be \"whether or not there's life on Mars\" or a similar construction, which would also keep the casual flow."
+          "justification": "'Is there no life on Mars?' is an unidiomatic calque of 'нет ли жизни'. The natural English is the 'or not' construction used in the reference, so the question pair reads stiffly."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'has not yet been informed' is more stilted and passive than the casual 'isn't up to speed' the analysis calls for. It weakens the colloquial register that the joke depends on, pushing the line toward formal scientific speech."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 19,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 2.375,
-    "major_equiv_per_unit": 0.475,
-    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Who doesn't drink? Name one!\nNo, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and the comic challenge of the line, but it loses some of Velurov's histrionic, mock-grandiose flavor (the rhetorical 'Pray, tell me' / elongated punctuation of the reference). The terse \"Name one! No, I'm waiting.\" is natural but a touch flatter than the theatrical original described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "shall we have a little drink?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the casual invitation to drink but uses a slightly more neutral phrasing ('have a little drink') that softens Kostik's sly, provocative, colloquial tone. Also the lowercase 'shall' is a small fluency/typographic inconsistency."
+        }
+      ]
     },
     {
       "id": 3,
@@ -63,13 +63,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate injects a large block of unrelated dialogue after the target line, effectively changing the segment and adding extraneous content that does not correspond to the source/ref excerpt. This alters the subtitle segment's scope and disrupts the refrained, repeated comedic motif described in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The rendered phrase \"Such elevated... elevated relations.\" uses the literal noun \"relations,\" which is stilted in English for this exclamatory refrain and weakens the sarcastic, idiomatic punch the analysis highlights."
+          "justification": "The candidate does not render the quoted repeated sarcastic line at all; instead it inserts a long, unrelated block of dialogue and narration. This completely loses the original's refrained punchline ('Высокие… выс-с-сокие отношения!') and the comic, stammering emphasis that makes the line a meme."
         }
       ]
     },
@@ -88,10 +82,10 @@
       "candidate": "We live by conscience, not for pleasure.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate shifts the emphasis from the moral-duty fatalism of the original ('you live to do your duty' / soldierly pragmatism) to a more abstract formulation ('We live by conscience, not for pleasure'), losing the pragmatic, coercive justification (duty over happiness) that the analysis identifies as central to the character."
+          "justification": "The candidate conveys a similar idea but shifts phrasing to 'We live by conscience, not for pleasure,' which is less idiomatic and less fatalistic than the original maxim. It softens Savva's blunt, duty-driven pragmatism and therefore weakens the original's register a little."
         }
       ]
     },
@@ -108,14 +102,7 @@
         "language_specific": {}
       },
       "candidate": "Mind you, that was your suggestion.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate reverses the responsibility implied in the original: instead of disclaiming that he suggested it, the line accuses the other person of having suggested it ('that was your suggestion'), which contradicts the source intent and the character's self-exculpatory posture described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -140,7 +127,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's literal noun 'The cook!' lacks the biting, ironic accusation of the reference ('Some cook you are!') and therefore reduces the original's comic, scolding force. It reads as a neutral label rather than an incredulous barb."
+          "justification": "Rendering the line as the bare noun 'The cook!' reproduces the literal standalone noun flagged in the analysis and sounds unnatural in English for the intended scolding/exclamatory effect. It loses the idiomatic sarcastic bite of 'Some cook you are!'"
         }
       ]
     },
@@ -214,10 +201,10 @@
       "candidate": "He's my cross to bear!\nI'll bear him.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate attempts the idiom but renders it slightly oddly ('He's my cross to bear! I'll bear him.'), the second sentence risks a literal reading ('I'll bear him') and weakens the manipulative, self-sacrificial rhetorical flourish of the original fixed idiom ('a cross to bear' / 'and mine alone') emphasized in the analysis."
+          "justification": "The candidate's 'He's my cross to bear! I'll bear him.' turns the idiom into a literal-sounding statement about carrying a person, altering the idiomatic meaning and manipulative tone. It also drops the emphatic, self-sacrificial phrasing ('This is my cross to bear! And mine alone!') that conveys Margharita Pavlovna's moral grandstanding."
         }
       ]
     },
@@ -244,14 +231,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 19,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB explicitly forbids rendering 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has... the envoy has...'. The items are lost/stolen, so the candidate reverses the meaning by implying they possess them and loses the callback to the thefts."
+          "justification": "\"Shpak has a tape recorder, the envoy has a medallion\" reverses the meaning: the source implies each lost the item (it was stolen). The analysis explicitly forbids rendering it as possession."
         },
         {
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Envoy' replaces 'ambassador' (посол); an envoy is a lower-ranking diplomat, so this is a small inaccuracy."
+          "justification": "\"Envoy\" is less precise than \"ambassador\" for посол, and slightly changes the register."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires that Bunsha introduces himself as the Tsar. 'Hello, Tsar!' reads as addressing a Tsar, so the self-introduction joke is lost and the meaning is inverted."
+          "justification": "\"Hello, Tsar!\" reads as addressing a Tsar, not introducing himself as the Tsar. The analysis's NB requires making clear that Bunsha is the Tsar, so the self-introduction is lost."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I'm sorrowful' with the contraction and 'Leave me be' is less archaic and elevated than the high-register 'I am in sorrow', slightly weakening the regal melancholy."
+          "justification": "\"Leave me be\" and \"I'm sorrowful\" are looser and more contemporary-sounding than the high-register, archaic tone of the original (\"I am in sorrow\"), weakening the regal melancholy."
         }
       ]
     },
@@ -105,10 +105,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' can be read as addressing the demons, whereas the NB says demons must be the subject. The missing pronoun/article ('They've walled me in, the demons') leaves the agency ambiguous."
+          "justification": "\"Walled up, demons!\" reads as addressing the demons (vocative), which the NB forbids. Demons must be the subject (\"the demons walled me in\")."
         }
       ]
     },
@@ -125,14 +125,7 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the solemn, archaic proclamation of the Tsar's conviction ('Behold the power of...')."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -147,14 +140,7 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is a plain imperative. It is accurate, but it misses the master-of-ceremonies, party-host flavor of the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -174,7 +160,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'I picked the right moment to drop by' is about timing, which changes the meaning. The NB warns against implying he is leaving, and the line also loses the sense that he lucked into the right apartment full of goods."
+          "justification": "\"I picked the right moment to drop by\" works, and it keeps the sense that he has just arrived, so it is not misleading about leaving. The weaker point is that it shifts the focus to timing instead of the lucky find, but the cheerful anti-hero tone is retained."
         }
       ]
     },
@@ -196,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says not to call eggplant spread 'caviar'. The candidate says 'Imported caviar... Eggplant!', which presents it as caviar, and it loses the 'overseas' flavor. This confuses the satirical inversion of status symbols."
+          "justification": "\"Imported caviar... Eggplant!\" drops the key contrast that the eggplant item is also called caviar/spread. It also loses the \"overseas\" (заморская) flavor, and the punchline no longer clearly presents a cheap spread as a rare delicacy."
         }
       ]
     },
@@ -218,13 +204,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'A suede jacket—three of them' loses the joke, in which Shpak forgets to increment the jacket count and then catches himself with a late 'Three'. The candidate makes the suede jacket count consistent from the start, so the slip is lost."
+          "justification": "\"A suede jacket—three of them\" removes the comic forgetfulness: Shpak says \"suede jacket\" without a count, hesitates, then adds \"three.\" The candidate states the count in the list instead of letting his slip betray the exaggeration."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Numerals '3' instead of spelled-out 'three' flatten the spoken, rhythmic repetition of the list."
+          "justification": "Digits (\"3\") instead of spelled-out numbers flatten the spoken, comic rhythm of the repeated \"three.\""
         }
       ]
     },
@@ -246,21 +232,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks replace the ellipses of the reference, which turns the calm, melodic resignation of Ulyana into an excited tone."
+          "justification": "Exclamation marks make the delivery excited, while the analysis describes calm, melodic resignation. The wording is otherwise accurate."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 7
+      "major": 6,
+      "minor": 4
     },
-    "total_points": 32,
+    "total_points": 34,
     "meaning_units": 11,
-    "penalty_per_unit": 2.909090909090909,
-    "major_equiv_per_unit": 0.5818181818181818,
-    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.090909090909091,
+    "major_equiv_per_unit": 0.6181818181818182,
+    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

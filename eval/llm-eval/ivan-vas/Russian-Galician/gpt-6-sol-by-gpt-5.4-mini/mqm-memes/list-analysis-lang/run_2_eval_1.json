@@ -26,13 +26,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the sense that each person has lost the item and instead lists the objects as if they are still simply associated with them. This weakens the callback to the theft joke and misses the key meaning noted in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Volven atormentarme\" is understandable, but it sounds less mock-heroic and less theatrical than the elevated phrasing of the reference, so the comic register is slightly weakened."
+          "justification": "The candidate misreads the key construction: it sounds like the objects belong to Shpak and the ambassador, rather than indicating that each has lost his item. This breaks the joke’s setup and the callback to the earlier theft."
         }
       ]
     },
@@ -54,13 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The reference humor depends on Bunsha repeatedly introducing himself as the Tsar, but the candidate is less clear and reorganizes the line so the self-introduction becomes muddled. It risks reading more like random exclamations than the intended repetitive greeting sequence."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The wording is more exclamatory and segmented than the source/reference, which slightly blunts the absurdly polite, repetitive social-greeting rhythm described in the analysis."
+          "justification": "The candidate no longer clearly shows Bunsha repeatedly introducing himself as the Tsar while using banal polite greetings. It becomes more like exclamatory self-identification, weakening the comic confusion and the banquet banter."
         }
       ]
     },
@@ -112,14 +100,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nOs demos emparedáronme!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is split into two fragments, which is readable, but the punctuation and repetition are less smooth than the reference and slightly reduce the impact of the exasperated complaint."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -139,14 +120,7 @@
         }
       },
       "candidate": "Isto é obra da cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Isto é obra da cruz vivificadora!\" is accurate, but it sounds somewhat plain and less ceremonious than the more elevated biblical-sounding phrasing of the reference, so the archaic-religious flavor is slightly softened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -188,10 +162,10 @@
       "candidate": "Que ben fixen en entrar!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "\"Que ben fixen en entrar!\" means roughly \"I was right to come in,\" but it loses the carefree, triumphant sense of having happened upon a good place by chance. The line should convey that he has just stumbled into an unexpectedly profitable situation."
+          "justification": "The wording is understandable, but 'Que ben fixen en entrar!' is a bit less idiomatic and less casually delighted than the reference, slightly weakening the light, triumphant burglary-afterglow tone."
         }
       ]
     },
@@ -215,10 +189,10 @@
       "candidate": "Caviar negro, vermello...\nAh, si! Unha exquisitez de ultramar...\nPaté de berenxena!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Unha exquisitez de ultramar\" is close, but \"exquisite delicacy\" is a bit less playful and less idiomatic than the reference, which slightly weakens the comic contrast between luxury and the humble eggplant spread."
+          "justification": "The line 'Paté de berenxena' introduces a misleading food term that the analysis explicitly warns against. The joke depends on presenting a cheap eggplant spread as a mock-delicacy, not on calling it a pâté/caviar equivalent."
         }
       ]
     },
@@ -243,9 +217,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "\"tres cazadora de ante\" is ungrammatical/unnatural in Galician; it should use a form agreeing with the noun. This does not block understanding, but it makes the listing slightly rougher than it should be."
+          "justification": "'Cazadora de ante' is a different garment choice from the reference's jacket/chaqueta, which slightly changes the inventory item and weakens the exact comic escalation, though the overall joke still works."
         }
       ]
     },
@@ -265,9 +239,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The meaning is correct, but \"van curarte\" / \"van curarme\" is less natural and less melodic than the reference's clitic-doubled future forms. The calm resigned rhythm is preserved only partially."
+          "justification": "The candidate is understandable, but 'vante curar' / 'van curarte' is less natural and less melodically resigned than the reference’s repeated periphrastic future. The calm, ritualistic cadence is slightly weakened."
         }
       ]
     }
@@ -275,13 +249,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 7
+      "minor": 3
     },
-    "total_points": 22,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-6-sol"

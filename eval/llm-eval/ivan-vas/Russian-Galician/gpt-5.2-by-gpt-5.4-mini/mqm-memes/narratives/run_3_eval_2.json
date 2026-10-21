@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the key relationship expressed in the source: it should indicate that Shpak and the ambassador have lost their items, not merely label the items after their names. This weakens the punchline and the callback structure."
+          "justification": "The line is too fragmentary: it drops the completed comic structure that Shpak and the ambassador have lost their items, which is the point of Bunsha’s deduction. The cutoff after the labels weakens the joke and obscures the meaning."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The wording no longer clearly shows Bunsha introducing himself as the Tsar. Several lines sound like he is addressing the Tsar rather than speaking in the Tsar's persona, which contradicts the analysis and blurs the joke."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The phrasing is somewhat less natural and less close to the repetitive, bureaucratic politeness of the original; the comic social-cliché effect is weakened."
+          "justification": "The candidate omits the key repetitive structure that makes Bunsha sound awkwardly formal and drunk, and it no longer clearly conveys that he is introducing himself as the tsar rather than addressing one. The comic effect of the repeated self-introduction is significantly weakened."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is understandable, but it is flatter and less elevated than 'que estou aflixido,' reducing the archaic, mock-regal tone of the line."
+          "justification": "\"Estou triste\" is understandable, but it is flatter and less regal than the reference’s more elevated, archaic-sounding melancholy. The tone loses some of Ivan’s mock-royal voice."
         }
       ]
     },
@@ -103,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate drops one repetition of the key complaint. While repetition is not automatically wrong, here the doubled cry contributes to the panic and rhythm of the joke, so compressing it slightly weakens the effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -130,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' is more colloquial than the reference's more exclamatory, solemn tone. The line remains clear, but the miracle-astonishment register is slightly weakened."
+          "justification": "\"Mira\" is a bit more colloquial than the reference’s more solemn, exclamatory phrasing, so the mock-biblical/religious tone is slightly weakened, though the meaning remains clear."
         }
       ]
     },
@@ -147,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Que baile todo o mundo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Que baile todo o mundo!' conveys the meaning, but it is a bit less punchy and performative than the imperative 'Todos a bailar!', so the celebratory command loses some energy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -174,7 +154,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben pasei por aquí!' sounds like he is reminiscing or saying he had a good time passing by, which is misleading. The source expresses a delighted realization that he stumbled into a lucky find, not a simple successful passing."
+          "justification": "The candidate sounds like he is saying he came through here well, not that he has just made a lucky arrival. It also risks implying a completed past action rather than the immediate, pleased reaction to entering the apartment."
         }
       ]
     },
@@ -196,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'caviar' for the eggplant spread, directly violating the note that it should not be called caviar. This obscures the joke about a cheap Soviet food being treated as an exotic delicacy."
+          "justification": "The joke depends on the final item being \"eggplant spread\" presented as an exotic import, but the candidate says only \"caviar from overseas\" and then separately \"from eggplant,\" which breaks the punchline and the Soviet-food-shortage satire."
         }
       ]
     },
@@ -215,10 +195,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaquetas de camurza: tres.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The list is compressed and altered: 'cámaras' is less specific than 'cámaras de cine,' and the final structure is less precise than the source's escalating tally. The joke is still understandable, but the inventory effect is weaker."
+          "justification": "The candidate changes the structure and loses the deliberate count escalation/comedic self-incrimination. In particular, the final list item is no longer the specific \"suede jacket\" mistake that makes the joke work."
         }
       ]
     },
@@ -240,21 +220,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the line about the speaker herself being cured, which is central to the joke: all three people are being grouped into the same absurd psychiatric solution. Omitting it significantly weakens the comic resignation."
+          "justification": "The candidate omits one of the repeated addressees and the central shared-resignation structure of the line. The original comic rhythm—everyone being \"cured\"—is therefore significantly reduced."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 6
+      "major": 6,
+      "minor": 2
     },
-    "total_points": 31,
+    "total_points": 32,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.909090909090909,
+    "major_equiv_per_unit": 0.5818181818181818,
+    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

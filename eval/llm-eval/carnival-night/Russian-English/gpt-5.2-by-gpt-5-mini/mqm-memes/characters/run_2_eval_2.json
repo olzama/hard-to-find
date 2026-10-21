@@ -58,14 +58,7 @@
         }
       },
       "candidate": "briefly—about\nforty minutes, I think\nno more is needed",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the crucial contrast between 'briefly' and 'forty minutes,' so the joke remains. However, the Russian diminutive «коротенько» carries a faux-modest, patronizing cozy tone that is slightly stronger than the plain 'briefly' used here. This weakens the small, self-satisfied voice of Ogurtsov a little."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -89,7 +82,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word 'давно' untranslated, producing 'ready—ready давно!', which is a mix of languages and thus incorrect. More importantly, it fails to recreate the bilingual ambiguity between 'ready' (administrative) and the colloquial sense of 'ready' = drunk. The current wording neither delivers the double reading nor is fully rendered into target language."
+          "justification": "The candidate leaves the Russian word 'давно' untranslated ('ready—ready давно!'), which breaks comprehension for a target audience and disrupts the intended double reading. The humor depends on the phrase being understood as 'ready for quite a while' (implying already drunk); leaving a Russian word in the line fails to convey that meaning."
         }
       ]
     },
@@ -137,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate literalizes «вооружённым глазом» as 'armed eye,' which the analysis warns against: in English this reads oddly and surreal rather than mock‑scientific. The line keeps the mock‑scientific intent, but the chosen phrasing risks sounding stranger than the original playful deformation; a less literal solution (e.g. 'aided eye') would better match the intended comic register."
+          "justification": "The candidate uses the literal calque 'armed eye', which the analysis warns sounds too odd or surreal in English and thus weakens the mock-scientific, slightly-off register. A less literal solution (e.g., 'aided eye' or similar) would better preserve the intended comic effect."
         }
       ]
     },
@@ -186,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

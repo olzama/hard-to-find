@@ -24,9 +24,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "'медальон' (a locket or pendant) is rendered as 'a medal', which is an award. The loss still reads, but the object the ambassador lost is misidentified."
+          "justification": "The source 'медальон' is a medallion, a piece of jewelry. The candidate's 'a medal' names a decoration, which is a different object. The analysis asks that the item's loss be conveyed, and the candidate does convey it, but the object is misnamed."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'A vague suspicion' (singular) drops the plural of 'смутные сомнения' and weakens the mock-heroic 'doubts' register that the analysis identifies as the source of the humor. 'Shpak loses' in the present tense can also be read as ongoing action rather than a completed loss, which the analysis specifies."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that the viewer understand Bunsha is introducing himself as the Tsar, not addressing one. The candidate has no self-identifying marker, so 'A pleasure, Tsar!' and 'Hello, Tsar!' read as greetings to a Tsar, which contradicts the analysis. The reference's 'I'm the Tsar' makes this explicit."
+          "justification": "The analysis states the line must make clear that Bunsha is introducing himself as the Tsar, not addressing one. The candidate's 'A pleasure, Tsar!' and 'Hello, Tsar!' read as greetings to a Tsar, which reverses the speaker-referent relationship the note warns against. The reference's 'Hello, I'm the Tsar' prevents this reading; the candidate does not."
         }
       ]
     },
@@ -90,7 +96,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'I'm in mourning' narrows 'я в печали' (sorrow, melancholy) to bereavement. The analysis stresses the Tsar's 'genuine, regal melancholy', which this rendering shifts toward grief."
+          "justification": "'в печали' means 'in sorrow' or 'in grief', which fits the Tsar's regal melancholy. 'I'm in mourning' narrows this to bereavement (траур), a shift in meaning, though the overall sense of sadness survives."
         }
       ]
     },
@@ -107,7 +113,14 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nThe demons have walled me in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source's broken, halting repetition 'Замуровали… замуровали, демоны' is replaced by two smooth exclamatory lines, losing the hesitant, stunned rhythm of the Tsar's speech. The demons are correctly rendered as the grammatical subject, as the analysis requires."
+        }
+      ]
     },
     {
       "id": 6,
@@ -212,7 +225,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis identifies the forgotten count of the suede jacket ('куртка… замшевая… Три') as the element that makes the joke work. The candidate lists all four items as a flat series with 'three' applied to each, so the pause and the 'betrayal' are lost and the joke no longer lands."
+          "justification": "The analysis says the joke is that Shpak first forgets to increment the count of suede jackets and is betrayed by that lapse. The candidate lists 'three suede jackets' from the start, removing the self-correcting structure and the bare 'Три' ending that carry the punchline. The essence of the item is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source has a single suede jacket ('куртка… замшевая'). The candidate's 'three suede jackets' adds a count that is not in the source, and 'Soviet-made' adds a specific detail where the source has only 'отечественных' on the cigarette cases."
         }
       ]
     },
@@ -234,7 +253,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'fix' is colloquial and ambiguous (it can mean repair, as with a machine), which weakens the calm, melodic medical register of 'вылечат'. 'Cure' would match the psychiatric context. The trailing ellipses that carry the resigned cadence are also dropped."
+          "justification": "'Fix' is brisker and more mechanical than 'вылечат' (cure). The exclamation marks replace the trailing ellipses, flattening the calm, melodic resignation the analysis identifies as the source of the humor."
         }
       ]
     }
@@ -242,13 +261,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 3
+      "minor": 6
     },
-    "total_points": 13,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

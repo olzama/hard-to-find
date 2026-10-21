@@ -58,14 +58,7 @@
         }
       },
       "candidate": "And briefly, for about\nforty minutes—more, I think,\nisn’t necessary—",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The word 'briefly' is kept, but the phrase 'for about forty minutes' is followed by the aside 'more, I think, isn't necessary', which turns the understatement into a muddled claim that more than forty minutes is unnecessary. The reference's 'I don't think we need any more than that' conveys self-satisfied moderation more clearly. The faux-modest tone survives, but the punchline is slightly less crisp."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -103,14 +96,7 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... Hoo-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The broken, stretched 'Peo-ple!.. Ah...' keeps the faltering drunken address. The final 'Hoo-oo!' is a less natural call to an audience than 'hellooo' and reads more like an owl hoot or a generic vocalization, so the 'ау-у' calling effect is slightly weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -156,22 +142,10 @@
       "candidate": "we already see two little stars,\nthree little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The counting progression is garbled. 'Four little stars—best of all, of course, five little stars!' makes four stars part of the build-up and then adds an oddly phrased 'best of all', so the sequence two, three, four, then 'five is best' loses its clean structure. The rhythm that makes the 'five stars' click into the cognac frame is weakened, and the line reads less like a derailment into drink."
-        },
-        {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac association is not made visible in any way (no note or cue), so most English viewers will see only a silly counting joke. The analysis flags that a translator's note may be needed, and the candidate offers none."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Little stars' sounds childish, which fits the silly counting, but it makes the final 'five little stars' a less recognizable cognac reference than 'five stars' would be."
+          "justification": "The silly counting build-up and the sudden 'five little stars' punchline are kept. But nothing signals the cognac association (the reference adds a note about 5-star cognac), so most English viewers will not feel the click into a different semantic world. The joke survives only as odd, childish counting. 'Little stars' is also a slightly literal diminutive."
         }
       ]
     },
@@ -192,26 +166,19 @@
         }
       },
       "candidate": "Is there life on Mars, is there not\nlife on Mars—science does not know.\nScience is not yet in the know.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Is there life on Mars, is there not life on Mars' preserves the colloquial looseness, and 'Science is not yet in the know' keeps the personified casual register. The split across lines and the dash make the first clause slightly choppy, and 'does not know' is a bit flatter than 'unknown to science', which reduces the original's rhythm slightly."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 10,
+    "total_points": 1,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.125,
+    "major_equiv_per_unit": 0.025,
+    "interpretation": "0.12 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

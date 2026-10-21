@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate's punctuation, capitalization and cadence reduce the contrast of registers: Gorbunkov's line lacks the theatrical punch (lowercase, missing exclamation) and the policeman's retort is slightly more prosaic ('Keep drinking and it will be!') than the wry, teasing cop humor in the analysis. Meaning is preserved, but dramatic rhythm and tone are weakened."
+          "justification": "The policeman's sarcastic deadpan retort in the analysis is more naturally rendered as an immediate, colloquial quip. 'Keep drinking and it will be!' is slightly awkward and less idiomatic than the reference's punchy 'Get drunk enough, and you will be!', weakening the cop-humor tone."
         }
       ]
     },
@@ -43,7 +43,14 @@
         }
       },
       "candidate": "I'm no coward,\nbut I am afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is a correct literal rendering but loses the original's bouncing rhyme/playful rhythm (Trus/Boyus) that makes the admission lighthearted. The line reads flatly and thus loses some of its comic, endearing quality."
+        }
+      ]
     },
     {
       "id": 3,
@@ -78,7 +85,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate simplifies the playful mash-up of faux-foreign phrases (drops 'Lady' and renders 'Obliko morale' as 'Morality'), which slightly reduces the comic effect of Gena's performed cosmopolitanism. The meaning remains but the colorful, theatrical loanword play is toned down."
+          "justification": "The candidate conveys the meaning but flattens the jokey pseudo-foreignism: 'Morality... verstehen?' is less playful than the reference's 'Obliko Morale!' which deliberately mixes languages to lampoon faux-sophistication."
         }
       ]
     },
@@ -125,7 +132,14 @@
         "language_specific": {}
       },
       "candidate": "Ice cream for the kids,\nflowers for his wife.\nDon't get them mixed up!\nKutuzov!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate neutralizes some of Lyolik's rough speech by using 'wife' instead of a cruder term; the instruction/imperative tone is preserved but the register is slightly softened compared with the original's coarse character voice."
+        }
+      ]
     },
     {
       "id": 8,
@@ -150,7 +164,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate translates literally ('ulcer patients') but loses the original's rhythmic pairing (trezvenniki/yazvenniki) that gives the line its proverb-like punch. The cynical meaning is intact, but the balanced comic rhythm called for in the analysis is absent."
+          "justification": "Meaning is preserved, but the original's rhythmic wordplay (trezvenniki / yazvenniki) is lost. The candidate is literal and lacks the snappy, proverb-like cadence the analysis says is important."
         }
       ]
     },
@@ -187,7 +201,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's humorous pronunciation/mispronunciation of 'tablet' is an important character marker. The candidate's neutral 'One tablet is enough...' loses that vocal tic and thus a bit of Lyolik's comic voice, though the sense remains clear."
+          "justification": "The candidate conveys the content but omits the comic effect of Lyolik's mispronunciation of 'tablet' which the analysis highlights as a memorable character trait."
         }
       ]
     },
@@ -219,14 +233,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source is a melodic, drawn-out sigh; the candidate is a plain patronymic address without the elongated, weary cadence. The meaning is preserved but the musical, exasperated effect described in the analysis is reduced."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -366,7 +373,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis highlights Gena's affected pronunciation ('kof-e') as a comic marker of pretension. The candidate renders a neutral 'have a cup of coffee' and omits the phonetic joke and slightly pompous pacing, weakening the character's affected aristocratic pretension while keeping the literal meaning."
+          "justification": "The candidate preserves meaning but neutralizes Gena's affected pronunciation and aristocratic affectation (the playful 'kof-e' and idiosyncratic speech), which the analysis identifies as an important comedic marker."
         }
       ]
     },
@@ -403,7 +410,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's intentionally incorrect, folksy verb form contributes comic stubbornness. The candidate's standard 'I can't agree to that!' preserves the refusal but removes the rustic, emphatic flavor that the analysis flags as significant."
+          "justification": "The candidate correctly renders the refusal but loses the intentionally uneducated/folksy verb form that adds a layer of comic stubbornness in the source; the line reads more standard and less characterful."
         }
       ]
     }
@@ -411,13 +418,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 8
     },
-    "total_points": 7,
+    "total_points": 8,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.34782608695652173,
+    "major_equiv_per_unit": 0.06956521739130435,
+    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

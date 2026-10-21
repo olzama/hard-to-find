@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and conversational challenge but tones down the actor's theatrical self-dramatization (the original's grand, performative flourish). The shorter, more prosaic phrasing loses some of the cultural-meme pomp described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -63,7 +56,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys sarcasm but renders the line as a more conventional adjective+noun phrase. It fails to replicate the distinctive stuttering, rhythmic comic effect and sounds slightly awkward in register; the analysis warns against literal noun-phrase renderings, and the line loses some of the original refrain's character."
+          "justification": "The source's comic effect relies on the prolonged stutter (Выс-с-сокие). The candidate preserves sarcasm but omits the stutter/fragmented delivery that is a key rhythmic joke, slightly weakening the original's performative effect."
         }
       ]
     },
@@ -85,7 +78,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is a fairly literal rendering but uses 'conscience' where the idiomatic English 'duty' (or a phrasing like 'to do your duty') better captures the soldierly, moral-duty nuance in the analysis. 'For conscience' is unnatural and weakens the intended fatalistic tone."
+          "justification": "The candidate literalizes 'совести' as 'conscience', which is understandable but shifts the pragmatic force: the reference's 'do your duty' better conveys the soldierly, duty-focused fatalism central to the line."
         }
       ]
     },
@@ -124,10 +117,10 @@
       "candidate": "Master chef!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original functions as a sharp, ironic household insult using a neutral professional noun as a barb. 'Master chef!' reads as a compliment or an exclamatory title in English and thus reverses the intended scornful, imperious bite described in the analysis. This changes the character's tone and pragmatic effect."
+          "justification": "‘Master chef!’ reads as a modern/complimentary exclamation and loses some of the ironic, biting household-insult quality of the original and the reference ('Some cook you are!'). The punch is slightly softened."
         }
       ]
     },
@@ -169,7 +162,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'Cut it out, damn it,' which reads like a colloquial admonition rather than the brusque surgical imperative in the source. Additionally, 'peritonitises' is an incorrect and awkward pluralization of 'peritonitis.' Together these distort the medical bluntness and comic shock-value central to the line."
+          "justification": "The candidate renders the surgical imperative 'Резать' as the colloquial 'Cut it out, damn it', changing a literal medical instruction into an admonition to stop an action. In addition, 'peritonitises' is an incorrect pluralization of 'peritonitis' and is unidiomatic, creating confusion."
         }
       ]
     },
@@ -208,10 +201,10 @@
       "candidate": "He's my cross!\nAnd mine to bear.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate literalizes the metaphor as 'He's my cross,' splitting the fixed English idiom and producing an unnatural, misleading phrasing. The analysis stresses that the English idiom should be preserved ('a cross to bear'); the candidate disrupts that idiom and weakens the manipulative self-victimizing effect."
+          "justification": "Splitting the idiom into 'He's my cross! / And mine to bear.' makes the English feel awkward and reduces the impact of the fixed expression 'a cross to bear' that the reference preserves; the manipulative grandiosity is slightly weakened."
         }
       ]
     },
@@ -238,21 +231,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate largely conveys the self-deprecating manner but translates 'угловатая' as 'angular,' which the analysis flags as overly literal and potentially odd in English. The phrasing is slightly stilted and would benefit from a more idiomatic rendering."
+          "justification": "The candidate uses 'angular' as a literal rendering of «угловатая», which the analysis warns against because it sounds odd in English. This choice makes the self-description less natural and a bit awkward stylistically."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 19,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

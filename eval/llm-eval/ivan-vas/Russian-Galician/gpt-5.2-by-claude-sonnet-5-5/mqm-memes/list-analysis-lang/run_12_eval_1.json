@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vólvenme asaltar vagas dúbidas' is a decent mock-heroic rendering, but 'vagas' is plainer than the archaic/literary 'escuras sospeitas' and the line breaks lose some theatrical weight; also 'opять' is conveyed only by 'Vólvenme' without the dramatic inversion."
+          "justification": "\"Vólvenme asaltar vagas dúbidas\" keeps a literary register, but \"vagas\" is plainer than the mock-heroic \"escuras sospeitas\" and the inverted word order of the reference, so the pompous theatrical tone is slightly weaker. The loss meaning (\"quedou sen\") is correct."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate correctly makes clear he introduces himself as the tsar, but 'Ola' is more casual than the formal greeting. It also adds a fourth line, partly changing the rhythm of the original, which has three repetitions."
+          "justification": "Correctly presents him as introducing himself as the tsar. \"Ola\" and \"moito gusto\" give the mundane formal-greeting cliché, but the fourth line adds extra repetition and the drunken, stiff-ritual absurdity is a bit less sharp than the reference's formal \"Boas noites\"."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou de loito' means 'I am in mourning', which shifts the meaning from 'I am in sorrow'. 'Vella' is also blunter than the archaic, affectionate 'velliña', weakening the high-register regal tone."
+          "justification": "\"Estou de loito\" (I am in mourning) shifts the meaning from sadness/affliction to bereavement, and \"vella\" is blunter than the archaic \"velliña\", weakening the regal, archaic tone of the dismissal."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Demoños' is a diminutive/colloquial form that softens the Tsar's dread and lowers the register. The demons remain the subject, as required, but the comic effect is slightly changed."
+          "justification": "Demons are correctly the subject. \"Demoños\" is a diminutive that softens the Tsar's genuine terror and changes the register, and the ellipsis is placed differently. Overall effect is preserved."
         }
       ]
     },
@@ -119,7 +119,14 @@
         "language_specific": {}
       },
       "candidate": "Isto é o que fai a cruz vivificadora!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Isto é o que fai a cruz vivificadora\" is accurate, but it loses the exclamatory, archaic, solemn flavour of \"Velaquí o que obra\"; the Tsar's pious conviction sounds more colloquial."
+        }
+      ]
     },
     {
       "id": 7,
@@ -149,7 +156,14 @@
         "language_specific": {}
       },
       "candidate": "Mira que entrei con sorte!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Conveys that he has just entered and is lucky, which is the key point. \"Mira que entrei con sorte\" is slightly awkward and less idiomatic and cheerful than the reference's colloquial reaction about finding a good place."
+        }
+      ]
     },
     {
       "id": 9,
@@ -169,7 +183,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Crema de berenxena' avoids calling the spread caviar, as the NB requires, but it removes the pun of 'заморская икра… баклажанная' and the parallel with the caviar series. 'Delicadeza' is acceptable for the overseas delicacy."
+          "justification": "\"Crema de berenxena\" avoids calling the spread caviar, as required. However \"Delicadeza de ultramar\" is acceptable but loses the \"manxar\" feel of an overseas delicacy; the satirical inversion is still preserved."
         }
       ]
     },
@@ -188,10 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 cigarreiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the indefinite article and the hesitation before 'suede' ('unha chaqueta… de ante…'), and 'camurza' means chamois, not suede. The key joke, that the count of jackets is forgotten and then corrected with 'tres', is preserved."
+          "justification": "The candidate drops the \"unha\" and, more importantly, omits the structure of the joke: the jacket is mentioned without the pause pattern and the numerals \"3\" lose the spoken rhythm. The jacket line \"chaqueta de camurza... tres\" still shows the late count, but the hesitation (\"chaqueta… de ante…\") is flattened, weakening the betrayal of his lie."
         }
       ]
     },
@@ -213,21 +227,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate changes the rhythm of the calm, melodic resignation by using exclamation marks and the stiff 'van curarte' construction, making it more emphatic than serene. The meaning is preserved."
+          "justification": "The meaning is right, but \"van curarte\" with exclamation marks makes the delivery emphatic instead of the calm, melodic resignation the analysis describes."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 7
+      "major": 1,
+      "minor": 8
     },
-    "total_points": 7,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

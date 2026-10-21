@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies possession. The analysis explicitly warns these items are no longer in their possession (they were lost/taken). This reverses the intended meaning and undermines the joke about missing items."
+          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies current possession. The analysis explicitly warns this phrasing is wrong: the Russian means those items are missing from them (they've been deprived/robbed), not that they own them. This reverses the intended meaning and undermines the joke about lost goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source is Bunsha introducing himself as the Tsar (repeatedly), but the candidate's phrasing ('hello, Tsar!') reads as addressing a Tsar rather than declaring 'I am the Tsar.' The analysis stresses the humor depends on him introducing himself as the Tsar; this candidate misrepresents that key point."
+          "justification": "The original gag is that Bunsha is repeatedly INTRODUCING himself as 'the Tsar' (absurdly claiming that identity). The candidate reads as if he is addressing someone called 'Tsar' ('Hello, Tsar!'), which flips the pragmatic role and loses the core absurdity noted in the analysis (self-introduction as Tsar rather than addressing a tsar)."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses more modern, colloquial phrasing ('Leave me alone, old woman, I’m grieving') which softens the high-register, archaic tone noted in the analysis. The meaning is preserved but the regal/archaic voice is weakened."
+          "justification": "The candidate 'Leave me alone, old woman, I’m grieving.' conveys the basic sense but loses the elevated, archaic register ('я в печали') that gives the line its mock-regal tone. The more prosaic 'Leave me alone' and 'I’m grieving' weaken the historical/poetic flavor described in the analysis."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'Walled up, demons!' reads as addressing the demons (vocative), whereas the source and analysis require 'demons' to be the subject who walled him in ('They've walled me in... the demons'). This flips the grammatical relation and changes the intended meaning."
+          "justification": "The analysis stresses that 'demons' are the grammatical subject (they walled him in), not the addressee. The candidate 'Walled up! / Walled up, demons!' reads as if he is either addressing demons or exclaiming 'Walled up' without the agent, creating ambiguity and potentially making 'demons' the addressee. This misrepresents the original's sense that an external force (the demons) has walled him in."
         }
       ]
     },
@@ -119,14 +119,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line 'That’s what the life-giving cross can do!' keeps the meaning but loses some of the elevated, archaic register ('Behold the power of the life-giving cross!') that contributes to the comic contrast described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -176,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'Imported caviar… Eggplant!' risks implying 'eggplant' is actually a form of caviar rather than the cheap eggplant spread being contrasted with true caviar. The analysis warns against translating the eggplant spread as 'caviar' to avoid confusion; this phrasing is potentially ambiguous."
+          "justification": "The analysis warns not to render the cheap eggplant spread as 'caviar.' The candidate's 'Imported caviar… Eggplant!' risks implying 'eggplant' is another caviar variety or otherwise confuses the intended contrast between luxurious (black/red) caviar and humble eggplant spread. The essential satirical inversion is thus weakened or made ambiguous."
         }
       ]
     },
@@ -195,10 +188,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The original joke hinges on Shpak's slip when counting (initially singular suede jacket, then correcting to three). The candidate lists 'three suede jackets' outright, losing that self-betraying hesitation that creates the humor."
+          "justification": "The joke depends on Shpak inflating counts and stumbling over the tally (a suede jacket is mentioned hesitantly, then 'Three' is asserted). The candidate lists 'three suede jackets' outright, removing the comic failure to increment the count and thereby erasing the specific humorous effect described in the analysis."
         }
       ]
     },
@@ -215,26 +208,19 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you too!\nAnd you’ll be cured too!\nAnd I’ll be cured too!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate shifts subjects between lines ('And they’ll cure you too!' / 'And you’ll be cured too!' / 'And I’ll be cured too!'), altering agency and the calm, resigned parallelism of the original. The meaning remains but the melodic, repetitive structure and agency from the reference are weakened."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 20,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -41,13 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Very nice, Tsar!\" reads as Bunsha addressing someone else as Tsar. The analysis says he must be introducing himself as the Tsar, and the reference does this with \"Hello, I'm the Tsar\" and \"The Tsar, very pleased.\""
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Very nice\" is a stilted rendering of the stock Soviet greeting \"очень приятно\" (pleased to meet you). It weakens the mundane, overly polite social cliché that creates the humor."
+          "justification": "\"Very nice, Tsar!\" reads as Bunsha addressing someone else as Tsar. The analysis requires him to introduce himself as the Tsar, as in the reference's \"Hello, I'm the Tsar\". The core joke of the drunken self-introduction is lost."
         }
       ]
     },
@@ -182,9 +176,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"Eggplant caviar\". The analysis explicitly warns against this because it confuses viewers, and the reference uses \"spread\" instead. The contrast between real caviar and the cheap canned substitute is blurred, and \"And overseas caviar...\" also lets the joke fall flat."
+          "justification": "The candidate calls the eggplant spread \"eggplant caviar\" and \"overseas caviar\", which the analysis explicitly warns against because it confuses viewers. The inversion of status symbols (a cheap spread presented as a rare overseas delicacy) is muddled, since \"caviar\" now covers all three items."
         }
       ]
     },
@@ -211,7 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source has singular \"куртка замшевая\" followed by \"Три\", so Shpak forgets to increment the jacket count and then corrects himself, which is the key joke. The candidate pluralizes to \"suede jackets — three\", so the slip disappears and the joke is lost."
+          "justification": "The candidate pluralizes the jackets (\"suede jackets — three\") and so loses the joke. In the source Shpak first mentions a single jacket and then corrects himself to three, which betrays the inflated claim. Here no slip occurs, so the humor is gone."
         }
       ]
     },
@@ -233,7 +227,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks and the added \"too\" and \"as well\" make the lines sound emphatic. The calm, melodic resignation described in the analysis is weakened, and the incremental list structure (\"and you... and you too... and me\") is less smooth."
+          "justification": "The exclamation marks and the sentence-initial \"They'll cure you too!\" make the delivery sound emphatic. The analysis describes a melodic, calm resignation, and the opening \"And they'll cure you\" is missing, so the incantatory build of the three clauses is weaker."
         }
       ]
     }
@@ -241,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 17,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

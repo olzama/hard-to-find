@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB states the items are lost, not possessed. 'Shpak has a tape recorder, the ambassador has a medallion' says the opposite, so the link between the thefts is lost and the callback fails."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'I'm tormented by vague doubts again' keeps the mock-heroic register reasonably well, but it is slightly less archaic and theatrical than 'haunt me once again'."
+          "justification": "\"Shpak has a tape recorder, the ambassador has a medallion\" reverses the meaning. The Russian \"У Шпака — магнитофон, у посла — медальон\" refers to items that were stolen, so each man no longer has his. The analysis' NB explicitly warns against the \"has\" rendering, and this version reads as if they still possess the items."
         }
       ]
     },
@@ -49,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires that Bunsha introduces himself as the Tsar. 'Hello, Tsar!' reads as addressing a Tsar, which reverses the speaker/addressee relationship and loses the joke of his self-introduction."
+          "justification": "\"Very nice, Tsar—hello, Tsar!\" reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. The NB requires the self-introduction to be clear, and the key joke of the drunken impostor is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a weak rendering of 'очень приятно' (pleased to meet you). It loses the formal social-cliché flavor of the greeting ritual."
+          "justification": "\"Very nice\" is an unnatural rendering of the stock greeting \"очень приятно\" (\"pleased to meet you\"). It weakens the stiff, formulaic social-ritual feel the analysis describes."
         }
       ]
     },
@@ -87,14 +81,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman—I’m in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Leave me be' and the contraction 'I'm' make the register slightly more colloquial than the high-register, archaic regal tone in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -109,14 +96,7 @@
         "language_specific": {}
       },
       "candidate": "They bricked me in!\nThey bricked me in, the devils!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Devils' is a slightly different term from 'demons', though it still reads as the subject of the sentence. 'Bricked me in' is a modern, colloquial idiom that weakens the archaic feel."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -131,14 +111,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and lacks the solemn, triumphant conviction of 'Behold the power...'. The meaning is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -168,14 +141,7 @@
         "language_specific": {}
       },
       "candidate": "Just my luck—I walked in at the perfect time!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'I walked in at the perfect time' is an acceptable reading of the entering moment. However, 'Just my luck' mostly suggests bad luck in English, which contradicts the cheerful, pleased tone of the anti-hero finding the goods."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -195,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB warns against calling eggplant spread caviar. The candidate drops 'eggplant caviar' as a spread, and 'Exotic caviar... Eggplant!' omits 'overseas' and leaves the eggplant item confusing. The cheap-versus-luxury inversion is lost."
+          "justification": "The candidate calls the eggplant spread \"Exotic caviar,\" which the NB explicitly forbids because it confuses viewers. It also drops the \"overseas\" (заморская) notion, and the \"Eggplant!\" punchline no longer inverts a clear status contrast between real caviar and cheap canned spread."
         }
       ]
     },
@@ -214,16 +180,10 @@
       "candidate": "Everything, everything I earned\nthrough backbreaking labor—\neverything’s gone: three tape recorders,\nthree movie cameras,\nthree domestically made cigarette cases,\na suede jacket—three!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds a line not in the source ('Everything I earned through backbreaking labor—everything's gone'). This alters the passage and changes the focus."
-        },
-        {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'a suede jacket—three!' works, but the joke where Shpak forgets to increment the count of jackets is less clear, and the 'domestic' qualifier is placed differently."
+          "justification": "The candidate adds \"Everything, everything I earned through backbreaking labor—everything's gone,\" which is not in the source line. This dilutes the focus on the escalating list. The key joke, where the jacket count is only corrected afterwards (\"a suede jacket—three!\"), is preserved."
         }
       ]
     },
@@ -245,14 +205,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 6
+      "major": 3,
+      "minor": 2
     },
-    "total_points": 31,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

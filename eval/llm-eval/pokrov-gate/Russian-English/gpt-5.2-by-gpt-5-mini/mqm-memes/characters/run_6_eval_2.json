@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning but flattens the theatrical, self-dramatising register the analysis highlights (\"Pray, tell me... I'll wait!\"). \"Name one! No, I’m waiting.\" is more colloquial and less pompous, which slightly weakens the character's staged grandiosity."
+        }
+      ]
     },
     {
       "id": 2,
@@ -51,7 +58,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), losing the idiomatic, exclamatory, sarcastic refrain and the playful stuttering effect called for in the analysis. This weakens the repeating comedic motif and contrasts with the recommended natural exclamatory phrasing."
+          "justification": "The candidate uses a literal noun phrase (\"High... high relations.\"), which the analysis explicitly cautions against. This phrasing loses the idiomatic, sarcastic exclamatory refrain of the original and thus damages the recurring comic effect and tone."
         }
       ]
     },
@@ -70,10 +77,10 @@
       "candidate": "People don't live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'conscience' ('live for conscience'), which shifts the original sense of dutiful, soldierly obligation ('do your duty') to a more internal moral faculty and results in an awkward, non-idiomatic phrase that undermines the original fatalistic, duty-driven tone."
+          "justification": "\"People don't live for joy—they live for conscience.\" preserves the general idea but shifts the idiomatic force. \"Live for conscience\" is slightly awkward in English and less naturally conveys the moral/duty sense (\"live to do your duty\") emphasized in the analysis."
         }
       ]
     },
@@ -90,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "Note: I didn’t suggest it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Note: I didn’t suggest it.\" communicates the disavowal but the spoken-tag \"Note:\" feels slightly odd and less idiomatic for a quick spoken excuse. The effect (charming hypocrisy) is mostly preserved but the register is a bit stilted."
+        }
+      ]
     },
     {
       "id": 6,
@@ -107,10 +121,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The reference uses a scathing, idiomatic retort ('Some cook you are!'). The candidate's 'Culinary genius!' can read as ironic, but it shifts register and the punch — turning a blunt household insult into a more elaborate, arguably positive-sounding phrase — which weakens the intended sharp, domestic scorn."
+          "justification": "The reference uses a sarcastic insult formed from a profession (\"Some cook you are!\")—a sharp domestic rebuke. \"Culinary genius!\" changes the tone to a (possibly sincere or ironic) compliment and uses a register that doesn't match the bite and immediacy of the original domestic put-down, undermining the comedic effect."
         }
       ]
     },
@@ -147,7 +161,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate's phrasing ('Cut it out to hell. / Without waiting for peritonitis.') has unnatural word order and choppy segmentation compared with the brisk, punchy imperative of the reference. The placement of 'to hell' is awkward and reduces the abrupt, forceful surgical verdict that produces the comic shock."
+          "justification": "The candidate attempts to keep the blunt, surgical humour but produces awkward wording (\"Cut it out to hell.\" and the clipped second line). The phrasing is unidiomatic in English and disrupts the rapid, brutal punch of the original line."
         }
       ]
     },
@@ -181,10 +195,10 @@
       "candidate": "This is my cross!\nAnd it's mine to bear.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits the English idiom by presenting 'This is my cross!' followed by 'And it's mine to bear.' The analysis warned against splitting the idiom; the candidate is understandable but less idiomatic and reduces the force of the fixed expression 'a cross to bear' used to convey manipulative self-sacrifice."
+          "justification": "The candidate splits the fixed English idiom and renders it as \"This is my cross! / And it's mine to bear.\" The analysis warns against literal splitting; this weakens the idiomatic manipulative flourish (\"a cross to bear\") and reduces the line's effectiveness as manipulative self-sacrifice."
         }
       ]
     },
@@ -206,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' as a translation of 'угловатая', but the analysis specifically warns that a literal 'angular' sounds odd in English. This choice makes the self-characterization feel awkward and literal where a more idiomatic phrasing ('all sharp edges', 'awkward') would better capture the intended coquettish, self-mocking tone."
+          "justification": "The candidate uses \"angular\" as a translation of «угловатая», which the analysis explicitly flags as misleadingly literal. While the general self-mocking sense remains, \"angular\" feels odd in this introspective, coquettish register and slightly undermines the naturalness of the line."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 3,
+      "minor": 5
     },
-    "total_points": 14,
+    "total_points": 20,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.8181818181818181,
+    "major_equiv_per_unit": 0.36363636363636365,
+    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

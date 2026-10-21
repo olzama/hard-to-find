@@ -21,7 +21,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The opening address 'Ребята,' (guys) is omitted. The reference renders it as 'Guys,' and its absence removes the group-directed framing of Gorbunkov's declaration."
+          "justification": "The opening address 'Ребята' (Guys) is omitted. The reference renders it as 'Guys,', and its absence weakens Gorbunkov's addressing of the group."
+        },
+        {
+          "severity": "minor",
+          "category": "other",
+          "span": "",
+          "justification": "The dialogue dash marking the speaker change is dropped and replaced by a line break. The exchange between Gorbunkov and the policeman is less clearly signposted than in the reference."
         }
       ]
     },
@@ -348,7 +354,14 @@
         "language_specific": {}
       },
       "candidate": "You wouldn't have the same one, but\nwith mother-of-pearl buttons?\nUnfortunately, no.\nNo? Must keep looking then!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "other",
+          "span": "",
+          "justification": "The dialogue dashes marking the shopper's and saleswoman's turns are removed. Without them, 'Unfortunately, no.' and 'No? Must keep looking then!' are harder to attribute to the right speaker than in the reference."
+        }
+      ]
     },
     {
       "id": 23,
@@ -369,13 +382,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 3
     },
-    "total_points": 1,
+    "total_points": 3,
     "meaning_units": 23,
-    "penalty_per_unit": 0.043478260869565216,
-    "major_equiv_per_unit": 0.008695652173913044,
-    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.13043478260869565,
+    "major_equiv_per_unit": 0.02608695652173913,
+    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

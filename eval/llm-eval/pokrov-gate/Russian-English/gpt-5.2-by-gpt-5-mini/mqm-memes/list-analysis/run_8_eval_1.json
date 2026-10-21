@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No—I'm waiting!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and the teasing challenge, but it flattens the slightly grandiose, self-dramatising theatricality signalled in the analysis (the reference's 'Pray, tell me... I'll wait!' registers a mock‑solemnity). 'Name one! No—I'm waiting!' is more colloquial and brisk."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate inserts the addressee's full name ('Arkady Varlamovich'), which is not in the source and changes the interactional nuance: the original is a casual, ironic group prompt. Naming someone directly shifts register and the playful, collective provocation described in the analysis."
+          "justification": "The candidate inserts a proper name (\"Arkady Varlamovich\") that is not present in the source, shifting the immediacy and scope of the line from a general provocation to a direct address. This addition changes interpersonal dynamics and slightly alters the original's function as a casual, group-level provocation."
         }
       ]
     },
@@ -65,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the repetitive stutter and sarcasm but uses 'refined relations', which risks sounding slightly more literal and less idiomatically exclamatory than the reference's playful emphasis ('highly e-v-volved relationship'). The choice weakens the comic bite and the register suggested by the analysis."
+          "justification": "The candidate keeps the stuttering but uses \"refined relations,\" which softens the sarcastic bite and intellectual mockery of the original repeated refrain. It works but is less caustic and less rhythmically playful than the example in the analysis."
         }
       ]
     },
@@ -84,10 +77,10 @@
       "candidate": "You don't live for joy—you live for conscience.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'you live for conscience' shifts the nuance from the original soldierly fatalism / duty ('live to do your duty') to an inward moral sense. This softens and alters the pragmatic, duty‑bound tone highlighted in the analysis."
+          "justification": "The candidate translates the phrase as living \"for conscience,\" which shifts the meaning from the social/moral duty implied in the original (and reference) to an internal moral feeling. The original conveys a duty-oriented, fatalistic logic ('live to do your duty'); the candidate loses that pragmatic, duty-driven sense."
         }
       ]
     },
@@ -119,7 +112,14 @@
         "language_specific": {}
       },
       "candidate": "You hopeless cook!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"You hopeless cook!\" is understandable and conveys contempt, but the adjective–noun pairing sounds slightly awkward in idiomatic English compared with the more natural exclamatory retort exemplified in the analysis (e.g., \"Some cook you are!\")."
+        }
+      ]
     },
     {
       "id": 7,
@@ -154,7 +154,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the abrupt surgical verdict and contrast, but replaces the harsher 'the hell' with 'for God's sake', which slightly tones down the coarse, brusque edge that powers the medical farce in the analysis."
+          "justification": "The candidate softens the brusque surgical command (\"Cut it the hell out\") to \"Cut it out, for God's sake,\" which preserves the intent but reduces the abrupt, medically blunt comedic shock that the analysis highlights."
         }
       ]
     },
@@ -171,14 +171,7 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that’s petty!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate misspells/transliterates the character name as 'Khabotov' instead of 'Khobotov' (source 'Хоботов'). Misrendering a recurring character name undermines accuracy and can confuse viewer recognition and the repeated psychological-suppression device noted in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -198,7 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the meaning: 'He's my cross to bear' implies the person is the burden, whereas the source and analysis present the speaker claiming the burden for herself ('This is my cross to bear' / 'a cross to bear'). This reverses the manipulative boast and undermines the character's rhetorical self-sacrifice."
+          "justification": "The candidate changes the grammatical subject from the speaker's burden to a person ('He's my cross to bear'), which reverses the manipulative rhetorical point: the original expresses the speaker's self-sacrificial claim, not that another person is the burden. This alteration undermines the line's manipulative theatricality."
         }
       ]
     },
@@ -215,26 +208,19 @@
         "language_specific": {}
       },
       "candidate": "Ah, I’m such a misfit...\nso awkward, you know...\nSo full of contradictions!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate captures the self‑deprecating, coquettish tone but uses 'misfit' and 'so awkward, you know', which are more colloquial and shift register slightly from the playful, mannered self-portrait in the analysis. The line loses some of the original's pointed, stylised phrasing ('all sharp edges')."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 16,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

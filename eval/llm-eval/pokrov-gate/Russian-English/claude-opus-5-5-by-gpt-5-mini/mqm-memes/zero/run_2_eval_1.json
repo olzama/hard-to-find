@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and challenge to name non-drinkers, but it loses some of Velyurov's grandly theatrical self-dramatizing tone present in the analysis and reference (\"Pray, tell me... Go on, I'll wait!\"). The shorter, more prosaic phrasing reduces the comic pompousness that is a key character trait."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The sense and register (casual invitation to drink) are preserved, but the phrase \"we knock back a little glass?\" is slightly awkward and unidiomatic in English—\"knock back a quick one\" or \"knock back a shot\" would be more natural. The lowercase and line break are formatting choices but do not affect meaning."
+          "justification": "The phrase \"a little glass\" is slightly awkward and non-idiomatic in English for this context; a more natural colloquial rendering would be \"a quick one\" or \"a little drink.\" The candidate otherwise preserves register and the casual, ironic provocation."
         }
       ]
     },
@@ -70,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate communicates the literal idea but flattens the comic effect: it lacks the stuttering/ironic parody of pretentiousness and reads as a somewhat stilted literal noun phrase rather than the sarcastic, halting exclamation indicated in the analysis and reference."
+          "justification": "The candidate uses a literal noun phrase and repeats \"Lofty... Lofty relations,\" which flattens the sarcastic, stuttering refrain in the analysis (the comic stammer and the ironic exclamatory phrasing are weakened). It preserves meaning but loses the characteristic delivery and playful hesitation."
         }
       ]
     },
@@ -92,7 +85,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Meaning is retained, but the phrase \"for conscience\" is awkward and non-idiomatic in English. It weakens the intended soldierly sense of duty/fatalism (better conveyed by \"for duty\" or \"to do your duty\")."
+          "justification": "\"People don't live for joy, but for conscience\" communicates the idea, but the phrase \"for conscience\" is non-idiomatic in English. A more natural phrasing would be \"you don't live to be happy; you live to do your duty\" to match the bluntness and idiomatic force of the original."
         }
       ]
     },
@@ -131,10 +124,10 @@
       "candidate": "Kulinar!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "Rendering the exclamation as \"Kulinar!\" preserves the form of the original word but produces an unnatural, foreign-sounding interjection in English and loses the punchy, sarcastic domestic insult (\"Some cook you are!\") that the analysis highlights."
+          "justification": "Rendering the exclamation as the transliterated \"Kulinar!\" fails for English viewers: it neither functions as a natural mocking insult nor conveys the comic use of a professional noun as an invective. This loses the intended effect and will confuse the target audience."
         }
       ]
     },
@@ -211,7 +204,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits the English idiom awkwardly (\"This is my cross! / And mine to bear.\"), which undermines the fixed idiom's force. The intended manipulative, hyperbolic \"a cross to bear\" construction is better kept intact to preserve the theatrical, self-sacrificing tone."
+          "justification": "The candidate splits and literalizes the idiom into \"This is my cross! / And mine to bear,\" which reads awkwardly and weakens the established English fixed phrase \"a cross to bear.\" The manipulative, grandiose tone is preserved but the idiom is mishandled."
         }
       ]
     },
@@ -238,21 +231,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate mostly conveys the self-deprecating cadence, but using \"angular\" is a literal carryover of «угловатая» and sounds odd in English here. It makes the line feel too literal and slightly unnatural compared with a more idiomatic rendering (e.g. \"all awkward\"/\"all elbows\")."
+          "justification": "Using \"angular\" as a direct translation of «угловатая» is literal and sounds odd in English in this self-deprecating context; it risks confusing the audience. A more idiomatic choice (e.g., \"all awkward angles\" or simply \"so awkward\") would better capture the playful, coquettish awkwardness described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 7
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 7,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

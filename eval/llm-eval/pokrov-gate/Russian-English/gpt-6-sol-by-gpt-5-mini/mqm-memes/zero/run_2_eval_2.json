@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "why don't we have a little drink?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the meaning but is slightly less playful and idiomatic than the reference. The lowercase start and the phrasing 'have a little drink' lack the jaunty, colloquial provocation of 'Shall we toss back a quick one?', which slightly weakens Kostik's trickster, teasing tone."
+        }
+      ]
     },
     {
       "id": 3,
@@ -56,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's wording ('Such elevated... Such elevated relations.') is stilted and literal, losing the sarcastic, drawn-out, phonetic stutter ('e-v-volved') of the reference that functions as a running refrain and comic device. It reads as a flat noun phrase rather than the ironic exclamation described in the analysis."
+          "justification": "The candidate keeps the elevated register but uses the literal noun phrase 'relations' and a straightforward repetition rather than the comic stutter/elongation or a more natural exclamatory English phrasing. This makes the line sound a bit awkward and less characterful than the reference's performative stammer."
         }
       ]
     },
@@ -73,7 +80,14 @@
         "language_specific": {}
       },
       "candidate": "We don't live for pleasure,\nbut to do what's right.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate softens the original soldierly fatalism. 'We don't live for pleasure, but to do what's right' replaces the blunt moral-duty formulation with a milder, more generic sentiment ('what's right'), losing the resigned, duty-first tone ('you live to do your duty') that is central to Savva's character and the line's ironic exposure of the couple's moralizing cruelty."
+        }
+      ]
     },
     {
       "id": 5,
@@ -90,10 +104,10 @@
       "candidate": "Remember, it was your idea, not mine.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate changes the pragmatic thrust: instead of deflecting responsibility ('I didn't suggest it') while implying temptation, it directly accuses the other party ('it was your idea, not mine'), which alters the character's evasive, self-justifying tone described in the analysis."
+          "justification": "Meaning is preserved (shifting blame), but the candidate's phrasing 'Remember, it was your idea, not mine' changes the register and removes the performative, high-flown distancing of the original ('For the record: I am not the one who suggested it!'), making the line sound more colloquial and less theatrically self-exculpatory."
         }
       ]
     },
@@ -120,7 +134,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "A single-word literal noun ('Chef!') echoes the Russian but reads unnaturally in English for this comic invective. The reference's idiomatic reproach ('Some cook you are!') better captures the sarcastic, imperious tone; 'Chef!' feels blunt and loses some of the intended domestic mockery."
+          "justification": "The single-word 'Chef!' is a literal standalone noun and echoes the analysis warning: it sounds unnatural and flat in English compared with an idiomatic insult ('Some cook you are!') that delivers the comic, imperious bite. The candidate therefore weakens the intended comic-imperative effect."
         }
       ]
     },
@@ -197,7 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate makes the person (He) into the 'cross' ('He's my cross to bear'), which literalizes and personifies the idiom in a way that shifts the manipulative martyrdom to possessiveness of an individual rather than the speaker's claimed burden. It also weakens the idiomatic English structure noted in the analysis ('a cross to bear') and omits the emphatic exclusivity of the original ('and mine')."
+          "justification": "The candidate changes the target of the metaphor: 'He's my cross to bear' implies Khobotov himself is the burden, whereas the original idiom ('This is my cross to bear') presents the situation/role as the burden. This shifts the manipulative tone and misrepresents Margarita Pavlovna's rhetorical self-victimization and moral grandstanding."
         }
       ]
     },
@@ -225,13 +239,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 2
+      "minor": 4
     },
-    "total_points": 12,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

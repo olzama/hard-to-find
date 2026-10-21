@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Name one!\" and \"I'm waiting\" drop the mock-pompous theatrical register of the source and the reference's \"Pray, tell me\" and \"Go on\". The self-dramatizing tone the analysis describes is weakened, though the meaning and the core joke survive."
+          "justification": "The candidate drops the mock-elevated theatrical self-dramatization of the reference (\"Pray, tell me, name them!!\"). \"Name one!\" is terse and flattens the histrionic pose the analysis describes."
         }
       ]
     },
@@ -38,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "how about we\nknock back a little one?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"knock back a little one\" is less idiomatic than the reference's \"toss back a quick one\". \"A little one\" reads oddly in English and loses the casual camaraderie the analysis highlights."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -85,7 +78,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"They live for conscience\" is an awkward, near-literal rendering that does not read naturally in English. It also loses the soldierly duty-based fatalism the analysis identifies, which the reference captures with \"live to do your duty\"."
+          "justification": "\"They live for conscience\" is an unidiomatic rendering of совесть in this maxim and reads awkwardly in English, although the moral-duty justification still comes through."
         }
       ]
     },
@@ -147,7 +140,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The vocative \"Margarita Pavlovna\" is added and does not appear in the source segment, which is only \"Натюрлих!\". The German word is correctly kept, but the addition alters the segment's content."
+          "justification": "The candidate adds the vocative \"Margarita Pavlovna\", which is absent from the source line. It is a plausible addressee, but it is an addition not present in the original."
         }
       ]
     },
@@ -169,7 +162,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Cut the damn thing out\" is milder than the source's \"к чёртовой матери\" and the reference's \"the hell out\". The vulgar intensity of the surgical outburst that the analysis calls the peak of the medical farce is partly lost."
+          "justification": "\"Damn\" is weaker than the idiom к чёртовой матери (rendered \"the hell\" in the reference), so the expletive force of the surgical outburst is softened."
         }
       ]
     },
@@ -186,7 +179,14 @@
         "language_specific": {}
       },
       "candidate": "Khobotov, that's petty!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The contraction \"that's\" loosens Margarita Pavlovna's formal, authoritative register. The reference's \"That is petty!\" better matches the domineering tone the analysis describes."
+        }
+      ]
     },
     {
       "id": 10,
@@ -208,10 +208,16 @@
       "candidate": "This is my cross!\nAnd I must bear it.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate splits the fixed idiom \"a cross to bear\" into \"This is my cross!\" / \"And I must bear it.\" The analysis explicitly identifies this literal splitting of the idiom as the flaw to avoid, so the candidate contradicts the analysis."
+          "justification": "The idiom \"a cross to bear\" is split across two sentences (\"This is my cross!\" / \"And I must bear it.\"), the fragmentation the language-specific note warns against. The second line partly recovers the idiom."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"And I must bear it\" conveys obligation but not the exclusivity of the source's \"И нести его мне\" (the reference's \"And mine alone!\"), which weakens the point that she alone carries the burden."
         }
       ]
     },
@@ -238,21 +244,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"so angular, all of me\" keeps the literal \"angular\" for «угловатая», which the analysis flags as overly literal and confusing in English. The reference's \"all sharp edges\" conveys the intended image more naturally."
+          "justification": "The candidate uses \"angular\", the literal rendering of угловатая that the language-specific note says sounds overly literal and confusing in English. \"Sharp edges\", as in the reference, would be more natural."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 0,
+      "minor": 8
     },
-    "total_points": 11,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

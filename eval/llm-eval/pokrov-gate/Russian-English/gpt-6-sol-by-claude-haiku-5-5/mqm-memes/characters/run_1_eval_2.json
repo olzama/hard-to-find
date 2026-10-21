@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate drops the mock-elevated theatrical pomp of the reference ('Pray, tell me'), so the self-dramatizing tone the analysis describes is flatter. The core challenge and the sense of the line are preserved."
+          "justification": "\"Name one person!\" is plainer than the reference's grandiloquent \"Pray, tell me, name them!!\", so the mock-dramatic self-presentation the analysis describes is weakened somewhat."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'have a little drink' is a neutral, bland rendering of the colloquial 'рюмашка' and loses the quick, casual comradely register that the analysis says sharply deflates Velyurov's pathos. The line also starts in lowercase, which is inconsistent with the subtitle convention used elsewhere."
+          "justification": "\"shall we have a little drink?\" loses the colloquial, slightly jaunty tone of \"хлопнуть по рюмашке\" and the quick, ironic deflation the analysis highlights. The line also starts in lowercase, which reads as an error."
         }
       ]
     },
@@ -68,9 +68,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"elevated relations\" is the literal noun-phrase construction the language-specific note warns against. It sounds stilted rather than like a natural exclamation."
+        },
+        {
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The stretched delivery of 'выс-с-сокие' is not captured, and the flat period after 'elevated relations.' weakens the exclamatory sarcasm. The repetition of 'elevated' is a reasonable creative equivalent of the refrain, so the issue is limited to the lost stretch and punctuation."
+          "justification": "The stretched, stuttering delivery of \"выс-с-сокие\" is not carried over. The repetition of \"elevated\" only partly replaces the comic stammer that the analysis presents as part of the sarcasm."
         }
       ]
     },
@@ -92,7 +98,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'pleasure' is a less precise rendering of 'радость' (joy, happiness), shifting toward hedonism. 'what's right' weakens the moral concept of 'совесть' (conscience) and drops the parallel 'live for X / live for Y' structure of the aphorism."
+          "justification": "\"live for pleasure\" shifts \"радость\" (joy, happiness) toward hedonistic pleasure, which weakens the soldierly, duty-bound fatalism the analysis describes. \"You do what's right\" is a reasonable rendering of \"для совести\"."
         }
       ]
     },
@@ -134,7 +140,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Culinary Institute' names a school and does not render 'Кулинар' (a cook or culinary expert). The intended joke, calling her a cook as a household insult, is lost, and the exclamation becomes a non-sequitur that contradicts the analysis of the absurd use of a neutral professional term as an insult."
+          "justification": "The source is a bare professional term used as a loud domestic insult. \"Culinary Institute!\" names an institution and does not work as an insult on its own, so the target audience is unlikely to read it as the dismissive verdict \"Some cook you are!\". The mock-authoritative sarcasm the analysis describes is lost, and the substitute does not do the same job."
         }
       ]
     },
@@ -161,7 +167,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The vocative 'Margarita Pavlovna' is added and is not in the source. It is plausible in context, but it is an addition beyond the one-word exclamation, which the reference does not include."
+          "justification": "\"Margarita Pavlovna\" is an addition: the source \"Натюрлих!\" has no vocative. The added name is plausible for Savva addressing his wife, but it changes the line's content."
         }
       ]
     },
@@ -216,9 +222,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'He's' replaces the source 'Это' (this) with a specified person, which is an interpretive shift not present in the source. 'And I must bear it' flattens 'И нести его мне!' and drops the emphatic self-pity and the 'alone' intensity of the reference. The triple exclamation is reduced to one."
+          "justification": "\"And I must bear it.\" is flatter than \"And mine alone!\". The emphatic, self-pitying intensity of the source's \"И нести его мне!\" is diluted. The shift from \"This\" to \"He's\" is an acceptable reading of \"крест\" as the person, and the idiom \"cross to bear\" is preserved."
         }
       ]
     },
@@ -240,19 +246,26 @@
         }
       },
       "candidate": "Oh, I'm so awkward,\nall sharp corners...\nA bundle of contradictions!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The affected, repetitive \"вся такая\" tic that defines the speaker's mannerism is not reproduced, and the added \"Oh,\" changes the opening. \"A bundle of contradictions!\" is a witty equivalent for \"такая противоречивая вся\", but the drawn-out self-description loses some of its characterization."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 8
     },
-    "total_points": 11,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

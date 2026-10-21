@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Asáltanme outra vez\nvagas dúbidas...\nA Shpak faltoulle o magnetófono,\nao embaixador, o medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The inverted 'Asáltanme' keeps the mock-heroic tone, but 'vagas dúbidas' is flatter than 'escuras sospeitas'. 'Faltoulle' is also slightly ambiguous between 'lacks' and 'lost', and it is weaker than 'desapareceulle' at conveying the loss."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -73,7 +66,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'De loito' means 'in mourning', whereas 'в печали' means 'in sorrow/sadness'. This shifts the meaning slightly and loses the archaic, melancholic register."
+          "justification": "\"Estar de loito\" means being in mourning for a death. The source \"в печали\" means general sorrow or melancholy, so the candidate narrows the meaning and slightly weakens the Tsar's regal, archaic melancholy."
         }
       ]
     },
@@ -95,7 +88,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Demoños' is a diminutive, which softens the Tsar's genuine terror. The comma before 'os demoños' also lets it read as addressing the demons, although it can still be taken as the subject."
+          "justification": "The diminutive \"demoños\" makes the demons cute or mild. This undercuts the Tsar's genuine terror and the solemn tone of the line. Demons do remain the subject of the sentence."
         }
       ]
     },
@@ -147,7 +140,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Mira que entrei ben!' is unidiomatic and loses the sense of luck in having stumbled on a good place. It still correctly conveys that he has just entered."
+          "justification": "\"Mira que entrei ben\" is awkward and not very idiomatic. It loses the sense of a lucky find (\"удачно\") and the cheerful tone, though it does correctly show that he has just entered."
         }
       ]
     },
@@ -169,7 +162,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Caviar de ultramar... De berenxena' calls the eggplant spread 'caviar', which the analysis explicitly forbids because it confuses viewers. The reference's 'manxar de ultramar' avoids this."
+          "justification": "The candidate calls the eggplant spread \"Caviar de ultramar\", which is exactly what the analysis warns against. It confuses the viewer and blurs the contrast between real caviar and the cheap spread presented as an overseas delicacy."
         }
       ]
     },
@@ -186,20 +179,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 cigarreiras nacionais,\nchaqueta de camurza... tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Cámaras' omits 'de cine' (кинокамеры), so the cameras become generic, and 'unha' is dropped before the jacket. The joke of the jacket count lagging behind is preserved."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The numerals '3' replace spelled-out 'tres', which reads less naturally in spoken dialogue. The line breaks also fragment the list."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -219,7 +199,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks and the clipped 'van curarte' make the lines sound emphatic. The Russian is a calm, melodic, resigned incantation, which the reference's ellipses and 'vante curar' preserve better."
+          "justification": "The exclamation marks make the lines sound emphatic or alarmed. The analysis describes a melodic, calm resignation, which is what makes the line darkly comic, so the tone is flattened."
         }
       ]
     }
@@ -227,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 7
+      "minor": 4
     },
-    "total_points": 12,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

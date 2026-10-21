@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses plain \"briefly\" for «коротенько». The Russian diminutive carries a faux-modest, cozy tone that heightens the comic contrast with \"forty minutes.\" Rendering it simply as \"briefly\" loses a little of that patronizing, diminutive flavor, weakening the intended Ogurtsov voice slightly."
+          "justification": "The candidate preserves the basic joke structure (claim of 'brief' followed by 'forty minutes') but loses the diminutive, faux-modest tone of «коротенько». The phrasing is a bit flat and slightly awkward in rhythm, weakening the speaker’s smug, managerially tone-deaf voice that makes the contrast comic."
         }
       ]
     },
@@ -89,7 +89,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The word \"давно\" is left untranslated in the candidate (\"ready давно\"), producing untranslated material and breaking the line for target-language viewers. This also prevents the double reading (official \"ready\" vs. colloquial \"long drunk\") from being conveyed properly."
+          "justification": "The candidate leaves the Russian word 'давно' untranslated, producing a mixed-language line. More importantly, it fails to preserve the crucial double reading of 'готов' (officially 'ready' vs. colloquially 'already drunk'). As written it reads only as a literal confirmation of readiness and loses the intoxication subtext that creates the joke."
         }
       ]
     },
@@ -113,9 +113,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate \"People!.. Ah... Hullo!\" normalizes the broken, wavering vocalization of the original into a relatively ordinary greeting. The slurred, collapsing sound that communicates drunken physical comedy is softened here (\"Hullo\" reads as a conventional word rather than faltering vocal noise)."
+          "justification": "The candidate keeps a broken vocalization but 'Hullo!' is too neat and not sufficiently faltering/slurred. The line needs a more unstable, collapsing sound to convey the lecturer’s drunkenly failing attempt at a formal address."
         }
       ]
     },
@@ -141,10 +141,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye,\" which the analysis specifically warned against: in English it sounds surreal rather than mock-scientific. That choice shifts the comic effect away from an almost-plausible idiom deformation toward an oddly literal image, weakening the intended parody of pseudo-scientific language."
+          "justification": "The literal calque 'armed eye' reproduces the Russian wording but, as noted in the analysis, this English phrasing reads as odd and surreal rather than a plausible mock-scientific deformation. It loses the intended near-recognition of a familiar idiom (the unaided/aided eye) and thus weakens the comedic parody of scientific rhetoric."
         }
       ]
     },
@@ -192,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 2,
+      "minor": 2
     },
-    "total_points": 8,
+    "total_points": 12,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5,
+    "major_equiv_per_unit": 0.3,
+    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "Moito gusto, eu son o tsar, encantado.\nO tsar, encantado, eu son o tsar.\nEu son o tsar, moito gusto.\nEncantado, eu son o tsar, moi encantado!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The line preserves the self-introduction and repetition, but the phrasing is somewhat less natural and less comic than the reference’s plain, awkwardly polite greeting pattern; it reads more like standard speech than a drunken, repetitive formal introduction."
+        }
+      ]
     },
     {
       "id": 3,
@@ -49,9 +56,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The meaning is correct, but the phrasing is a bit less idiomatic and punchy than the reference; the imperative sounds slightly heavier and less comic in this repeated celebratory outburst."
+          "justification": "The meaning is clear, but the wording is a bit more explicit and less idiomatic than the reference, slightly weakening the punchy imperiousness of Bunsha’s demand."
         }
       ]
     },
@@ -71,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "‘Estou de loito’ changes the nuance of ‘я в печали’: it suggests bereavement/lamentation rather than the Tsar’s elevated, dramatic melancholy described in the analysis."
+          "justification": "\"Estou de loito\" shifts the mood from melancholic sorrow to literal mourning, which slightly softens the Tsar’s archaic, gloomy self-pity described in the analysis."
         }
       ]
     },
@@ -95,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "‘demoños’ is a mistranslation of ‘demons’ and weakens the key supernatural accusation; the line should identify the demons as the agents, not alter the wording into an incorrect form."
+          "justification": "\"Demoños\" is an incorrect/awkward rendering of \"demons\" in this context and damages the line’s clarity and force; the sentence should clearly present the demons as the agents of the entrapment."
         }
       ]
     },
@@ -117,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Mira’ is more colloquial and less elevated than the reference’s ‘Velaquí’, slightly weakening the mock-archaic, miraculous tone of the Tsar’s exclamation."
+          "justification": "The translation conveys the miracle, but \"Mira\" is less elevated and less emphatic than the reference’s exclamatory wording, slightly reducing the Tsar’s awe-struck register."
         }
       ]
     },
@@ -149,7 +156,14 @@
         "language_specific": {}
       },
       "candidate": "Que ben entrei aquí!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is preserved, but \"Que ben entrei aquí!\" sounds more like a neutral statement of having entered well than the pleased, opportunistic reaction of the burglar discovering a jackpot."
+        }
+      ]
     },
     {
       "id": 9,
@@ -169,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "By translating ‘икра’ as ‘caviar’ in the final line, the candidate contradicts the analysis’s instruction not to call the eggplant spread caviar; this blurs the joke and can mislead viewers."
+          "justification": "The key joke is weakened because \"caviar de ultramar\" omits the crucial absurd identification of the cheap eggplant spread as a specific bogus delicacy; the final payoff about eggplant is left incomplete and less intelligible."
         }
       ]
     },
@@ -188,16 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits the repetition structure of the joke and reduces ‘cameras’ to a generic term, losing the comic escalation and the specific status-item inventory that drives the scene."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line is fragmented awkwardly, and ‘3’ written as a numeral throughout is less natural in subtitle style than a smoothly formatted list."
+          "justification": "The compressed list is understandable, but the layout and punctuation make the final gag slightly less smooth than the reference, and \"3\" in place of words reduces the subtitle’s natural readability."
         }
       ]
     },
@@ -219,21 +227,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Han curarte’ sounds more mechanical and less melodically resigned than the reference, slightly weakening Ulyana Andreyevna’s calm, almost sing-song acceptance of the absurd situation."
+          "justification": "\"Han curarte\" is understandable, but it sounds a bit harsher and more forced than the reference’s gentle, resigned future-tense phrasing, slightly weakening the calm, melodically fatalistic tone."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 2,
+      "minor": 7
     },
-    "total_points": 20,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the basic meaning and playful challenge, but it loses the heightened, self-dramatic theatricality of the original (the slightly archaic 'Pray, tell me' and the emphatic plural 'them' that function as a boastful, performative gesture). The shorter phrasing is flatter and less characterful."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about we knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate conveys the casual, ironic invitation correctly, but the lowercase initial letter is a typographical/fluency issue and the phrasing 'a little shot' is slightly wordy compared with the snappier idiom 'quick one.' Overall effect preserved, but small fluency infelicities remain."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -62,10 +48,10 @@
       "candidate": "Such... such lofty relations.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line functions as a recurring sarcastic refrain with a stuttering, exaggerated delivery ('Выс-с-сокие' / 'e-v-volved') that mocks self-important pretension. The candidate ('Such... such lofty relations.') drops the marked stutter and the ironic 'evolved' lexical cue, substantially weakening the comedic tone and rhythmic identity of the formulaic refrain."
+          "justification": "The candidate preserves the basic meaning but loses the performative/sarcastic cadence of the original refrain (the stuttered elongation and biting irony). 'Such... such lofty relations.' is a bit more flat and literal than the playful, emphatic mocking in the analysis."
         }
       ]
     },
@@ -87,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps the general opposition (joy vs. moral obligation) but renders 'совесть' as 'conscience' in a way that sounds awkward in English ('live for conscience') and loses the idiomatic bluntness ('you live to do your duty') that conveys the soldierly fatalism. Slight loss of idiomatic force."
+          "justification": "The phrase 'live for conscience' is a literal rendering that shifts nuance away from the idiomatic sense of dutiful, fatalistic obligation ('live to do your duty') emphasized in the analysis, making the sentiment sound more abstract and less character-specific."
         }
       ]
     },
@@ -121,10 +107,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The original is a sharp ironic rebuke using a neutral profession as a biting domestic insult ('Some cook you are!'). The candidate's 'Culinary genius!' reads as either genuine praise or a milder, less idiomatic sarcasm and loses the abrupt, commanding insult tone, weakening the comic bite."
+          "justification": "The original line is an ironic, biting home-grown insult using a profession as a sarcastic rebuke ('Some cook you are!'). The candidate 'Culinary genius!' reads as praise rather than a scathing dismissal and also uses a register ('culinary') that the analysis specifically warns against, so it reverses the intended effect."
         }
       ]
     },
@@ -161,7 +147,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits the line into two softer sentences and replaces the blunt 'Cut it the hell out' with the milder 'Cut it out, for hell's sake,' which reduces the abrupt surgical/medical farce contrast that gives the original its shock value. Meaning retained but impact softened."
+          "justification": "The candidate conveys the meaning but softens and fragments the original's brusque, medically comic imperative. Splitting into two lines and using 'Cut it out, for hell's sake' reduces the surgical bluntness that produces the farcical contrast in the source."
         }
       ]
     },
@@ -198,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The reference expresses a fixed idiom of self-sacrifice ('This is my cross to bear' / 'mine alone'). The candidate shifts the grammatical subject to 'He' ('He's my cross to bear'), which reverses the agent of suffering and changes the manipulative meaning: instead of claiming personal martyrdom, it labels the other person as the burden. This is a substantive accuracy/meaning error."
+          "justification": "The candidate changes the referent by rendering the burden as 'He' ('He's my cross to bear'), which alters the original manipulative rhetoric that frames the situation itself as the speaker's cross. This shifts the intended psychological manipulation and weakens the idiomatic 'a cross to bear' construction warned about in the analysis."
         }
       ]
     },
@@ -220,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая', which the analysis explicitly warns against as overly literal and awkward in English. While the general self-mocking portrait remains, the lexical choice is clumsy and reduces the naturalness of the humorous self-characterization."
+          "justification": "The candidate uses 'angular' as a translation of 'угловатая', which the analysis explicitly cautions against as overly literal and odd in English. While the line remains understandable and comedic, the lexical choice sounds awkward and diminishes the natural, idiomatic characterization."
         }
       ]
     }
@@ -228,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 16,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

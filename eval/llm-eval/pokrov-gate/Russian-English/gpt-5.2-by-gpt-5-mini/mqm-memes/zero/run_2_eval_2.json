@@ -48,10 +48,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a flat noun phrase ('High... high relations.'), losing the sarcastic exclamatory refrain and the comic stuttering/elongation ('выс‑с‑сокие') that mark the original's mocking tone and rhythmic identity."
+          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), losing the sarcastic exclamatory delivery and comic stuttering of the original. The analysis warns against literal noun-phrases; the candidate fails to reproduce the ironic refrain and rhythmic/phonetic play that make the quote a memorable, mocking tag."
         }
       ]
     },
@@ -71,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The phrase 'for conscience' is unidiomatic in English and weakens the original's idiomatic contrast (living 'for duty' vs. 'for joy'). This makes the line sound awkward and less natural than the reference."
+          "justification": "Meaning is preserved, but the phrasing 'People don’t live for joy, but for conscience' is slightly stilted and uses 'conscience' in an English collocation that feels odd and less idiomatic than the reference ('live to do your duty'). This weakens the soldierly bluntness and natural register."
         }
       ]
     },
@@ -107,10 +107,10 @@
       "candidate": "Culinarian!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Using 'Culinarian!' reproduces the literal professional noun the analysis warned against; it sounds unnatural and loses the intended punchy domestic insult that the reference ('Some cook you are!') provides."
+          "justification": "The candidate 'Culinarian!' uses an unnatural, literal professional noun that the analysis explicitly warns against. In English this sounds odd and fails to reproduce the sharp, domestic insultal tone of the original; it breaks the intended comic effect."
         }
       ]
     },
@@ -144,10 +144,10 @@
       "candidate": "Cut it out to hell with it.\nWithout waiting for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'Cut it out to hell with it.' is awkward and redundant in English; the line is disfluent and does not deliver the sharp, brusque surgical verdict of the original as cleanly as the reference."
+          "justification": "The candidate 'Cut it out to hell with it.' is awkward and unidiomatic in English and disrupts the original's brusque surgical imperative. The split into two lines further dilutes the abrupt, coarse punch ('Cut it the hell out, don't wait for peritonitis!'), so the comic-medical shock is lost."
         }
       ]
     },
@@ -184,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Splitting the idiom into 'It's my cross! And I will bear it.' dilutes the fixed English idiom 'a cross to bear' and lessens the manipulative, hyperbolic theatricality present in the reference."
+          "justification": "The candidate preserves the literal elements but splits and slightly weakens the idiom. 'It’s my cross! And I will bear it.' is less idiomatically compact than 'This is my cross to bear! And mine alone!', losing some of the manipulative grandiosity and the isolating 'mine alone' emphasis."
         }
       ]
     },
@@ -204,23 +204,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "Rendering 'угловатая' as 'angular' follows the literal translation the analysis warned against; in English 'angular' reads oddly here and weakens the natural, self-mocking character voice the line requires."
+          "justification": "The candidate uses 'angular' directly ('so angular'), which the analysis advises against as overly literal and awkward in English. The result risks sounding odd rather than capturing the coquettish, self-mocking register of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 6
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 6,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

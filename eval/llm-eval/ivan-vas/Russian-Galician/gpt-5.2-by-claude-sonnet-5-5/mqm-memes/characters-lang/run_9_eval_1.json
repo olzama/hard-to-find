@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak 'ten un magnetófono' and the ambassador 'un medallón', i.e. they possess the items. The NB says each of them lost their item, so the meaning is reversed."
+          "justification": "The NB says the items are missing, not possessed. 'Shpak ten un magnetófono, o embaixador un medallón' says they have the items, which reverses the meaning and breaks the callback to the theft suspicion."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Volven asaltarme dúbidas confusas' is reasonably elevated, but it is less archaic and mock-heroic than the reference's inverted 'asáltanme escuras sospeitas'. The theatrical effect is weakened, and 'confusas' does not render 'смутные' well."
+          "justification": "'Volven asaltarme dúbidas confusas' is neutral. It lacks the mock-heroic, archaic theatrical tone of 'asáltanme escuras sospeitas'."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Moito gusto, boas tardes, tsar!' reads as Bunsha addressing a tsar, not introducing himself as the Tsar. The NB requires the self-introduction to be clear, as in the reference 'son o tsar'."
+          "justification": "'Boas tardes, tsar!' reads as addressing the Tsar. The NB requires making clear that Bunsha is introducing himself as the Tsar, as the reference does with 'son o tsar'. The joke of the drunk impostor introducing himself is lost."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is plain and modern. It loses the high-register, archaic tone of 'я в печали' that the analysis stresses; the reference's 'aflixido' is more regal."
+          "justification": "'Estou triste' is plain and modern. It loses the elevated, archaic register of 'estou aflixido' that creates contrast with the Soviet setting."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedáronme, demos!' puts 'demos' in the vocative, so the Tsar addresses the demons. The NB says the demons must be the subject of the sentence and are not being addressed."
+          "justification": "'Emparedáronme, demos!' puts 'demos' as a vocative, so he addresses the demons. The NB requires the demons to be the subject. The comma and exclamation make it a direct address."
         }
       ]
     },
@@ -160,7 +160,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben que entrei!' keeps the sense of entering, so it is not misleading about leaving. However, it omits the point that he has hit upon a lucrative place full of goods, which is the joke about finding a jackpot. It reads as a bland remark."
+          "justification": "'Que ben que entrei!' reads as a comment on having got in, but loses the sense of having struck lucky on arrival. It also loses the cheerful 'what a lucky find' reaction to the full apartment and is weaker than the reference's 'dei cun bo sitio'."
         }
       ]
     },
@@ -182,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Caviar de ultramar... De berenxena' calls the eggplant spread caviar. The NB warns against this because it will confuse viewers; the reference uses 'manxar' (delicacy) for the overseas item."
+          "justification": "'Caviar de ultramar... De berenxena' calls the eggplant spread caviar, which the NB forbids because it confuses viewers. The reference uses 'manxar de ultramar' to avoid this."
         }
       ]
     },
@@ -204,13 +204,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate pluralizes the jackets ('chaquetas de camurza: tres'), which removes the singular 'куртка' that makes Shpak's slip in the count funny. The analysis says the joke relies on this singular jacket and the count growing."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Digits '3' are used instead of spelled-out 'tres', which is less natural for a spoken line in subtitles."
+          "justification": "'Chaquetas de camurza: tres' pluralizes the jacket, so the joke is lost. Shpak should say one jacket and then forget to increment the count before 'tres'. Using plural 'chaquetas' removes this slip."
         }
       ]
     },
@@ -232,7 +226,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Han curarte' and 'han curarme' are archaic or awkward in Galician and less natural than the reference 'vante curar' / 'vanme curar'. This slightly weakens the calm, melodic resignation."
+          "justification": "'Han curarte / han curarme' is a stiff, formal future construction. It is less natural and less melodic than the reference's 'vante curar / vanme curar', which weakens the calm, singsong resignation."
         }
       ]
     }
@@ -240,13 +234,13 @@
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 34,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 3.090909090909091,
-    "major_equiv_per_unit": 0.6181818181818182,
-    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

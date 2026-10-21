@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Keeping 'Baba Yaga' leans toward the fairy-tale frame, which the analysis says to avoid, and 'raise' is softer than the in-house 'train'. The workplace-type reading, a nasty woman cultivated inside the collective, is weaker for an English viewer, though 'within our own team' keeps some of the office logic."
+          "justification": "Keeping 'Baba Yaga' untranslated for an English audience weakens the recognizable-human-type (nasty woman in the workplace) reading; 'witch' would carry the social-type connotation more readily. However, 'raise one within our own team' preserves the workplace/educational logic well."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "briefly—about\nforty minutes. More, I think,\nis unnecessary...",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The diminutive, faux-modest 'коротенько' is rendered as a flat 'briefly', so the smug 'just a short little talk' tone is weaker. The briefly-then-forty-minutes order is kept, so the reversal still works, but the line loses some of Ogurtsov's cozy self-satisfaction."
+          "justification": "The diminutive, faux-modest 'коротенько' is rendered as a flat 'briefly', and 'unnecessary' sounds stiffer than the casual 'I don't think we need more'. The cozy, self-satisfied understatement that makes 'forty minutes' land as a punchline is largely lost."
         }
       ]
     },
@@ -91,7 +91,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—been ready a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Ready' is translated only in its literal sense, and the colloquial 'done for / drunk' second meaning of «готов» is not recreated. The double reading, which is the whole joke, disappears, and 'been ready a long time' has no intoxication subtext."
+        }
+      ]
     },
     {
       "id": 5,
@@ -135,15 +142,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Armed eye' is the literal calque the analysis says to avoid. It sounds surreal and does not echo the English idiom 'unaided eye', so the mock-scientific malformed idiom is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'It's enough for us to take a telescope' is a stiff calque of 'стоит только нам взять', where 'all we have to do is' would sound more natural."
+          "justification": "The candidate translates «вооружённым глазом» as 'armed eye', which is exactly the calque the analysis warns against. It sounds surreal rather than like a mangled 'unaided eye' idiom, so the mock-scientific malformed-idiom effect is lost. Also, 'it's enough for us to take' is slightly awkward and loses the 'all we have to do' casual pomp."
         }
       ]
     },
@@ -172,7 +173,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Little stars' gives the childish counting tone, but it makes the final 'five little stars' sound like a nursery rhyme rather than a five-star cognac. The cultural cue is weaker, and the note the analysis suggests for English viewers is absent."
+          "justification": "The cognac association for 'five stars' is not conveyed in any way, such as a note, so the click into a different semantic world will not be obvious to most English viewers. The analysis flags that a translator's note may be needed. The counting progression with 'little stars' keeps the silly, childish tone well."
         }
       ]
     },
@@ -198,21 +199,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Whether there is no life on Mars' is a stilted calque of 'нет ли жизни на Марсе' and reads awkwardly in English. The colloquial register of 'not yet up to speed' is well preserved."
+          "justification": "'Whether there is no life on Mars' is an awkward, unnatural English rendering of the colloquial 'нет ли жизни'. The register of the second sentence ('up to speed') is correctly casual and the joke is preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 10,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

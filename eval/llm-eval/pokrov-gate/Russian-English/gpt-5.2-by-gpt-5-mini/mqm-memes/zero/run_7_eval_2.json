@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning but reduces the theatrical, self-dramatizing register of the line. The shift from a broad rhetorical challenge ('name them!!' / plural) to the narrower 'Name one!' lessens the bombastic, crowd-addressing effect described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "shall we\nknock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate conveys the informal invitation well, but the lowercase initial word and the line break make it slightly awkward on screen. 'Knock back a little shot?' is idiomatic but a touch colloquial compared with the crisp, ironic provocation in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,7 +51,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'High... high relations.' renders the phrase as a literal noun phrase and loses the sarcastic exclamatory refrain and stuttering vocal pattern that give the line its comic bite. This contradicts the analysis instruction to avoid literal noun-phrase rendering and to preserve the repeated, sarcastic refrain."
+          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), which the analysis explicitly warns against. This phrasing sounds stilted and fails to reproduce the mocking, sarcastic exclamatory refrain that makes the original memorable and comedic."
         }
       ]
     },
@@ -84,10 +70,10 @@
       "candidate": "People don't live for joy, but for conscience.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'People don't live for joy, but for conscience.' is a literal rendering that preserves general meaning but sounds slightly stilted and less idiomatic than the reference. 'Conscience' here is a weaker, less natural rendering of the soldierly 'duty' / 'to do your duty' nuance emphasized in the analysis."
+          "justification": "The candidate's wording ('People don't live for joy, but for conscience.') is a literal rendering that shifts the pragmatic meaning. It loses the idiomatic, soldierly fatalism and the sense of duty/obligation central to the original ('live to do your duty'), weakening the character's practical, moralistic tone described in the analysis."
         }
       ]
     },
@@ -104,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "Note: I didn't suggest it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate ('Note: I didn't suggest it.') is understandable but less idiomatic and theatrically disarming than the reference ('For the record: I am not the one who suggested it!'). It slightly weakens the charming, performative shirking-of-responsibility noted in the analysis."
+        }
+      ]
     },
     {
       "id": 6,
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Culinary maniac!' departs from the reference's mocking, ironic domestic insult. It introduces 'maniac,' which alters tone and register and sounds less like the punchy, absurd household rebuke intended by the analysis."
+          "justification": "The candidate ('Culinary maniac!') alters the original's sharp domestic insult into an odd compound that sounds unnatural and shifts the register. It fails to replicate the terse, home‑spun invective ('Some cook you are!') that produces the comic bite in the analysis."
         }
       ]
     },
@@ -161,7 +154,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate keeps the general meaning but is clumsy and unidiomatic: 'Cut it out to hell with it.' is awkward English and the split into two lines weakens the abrupt, forceful medical-humour imperative present in the analysis and reference."
+          "justification": "The candidate ('Cut it out to hell with it. / Before peritonitis sets in.') conveys the basic idea but is clumsy and awkward in English. The first sentence's word order and redundancy reduce the brusque, mordant punch of the medical farce described in the analysis."
         }
       ]
     },
@@ -180,10 +173,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate misspells the character's name ('Khabotov' vs. expected 'Khobotov'), which is an accuracy/terminology error that can confuse identification and undermines the repeated psychological-dismissal effect tied to the name in the analysis."
+          "justification": "The character name is transliterated as 'Khabotov' instead of the expected 'Khobotov.' While the sentence meaning is preserved, the name misspelling is a terminological inaccuracy that can disrupt recognition of the repeated bullying formula highlighted in the analysis."
         }
       ]
     },
@@ -203,9 +196,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate's literal 'This is my cross! And I must bear it.' breaks the English idiom and loses the fixed phrasing ('a cross to bear') and the emphatic possessive ('mine alone') that make the line a manipulative, hyperbolic claim of martyrdom in the analysis. This materially weakens the intended manipulative effect."
+          "justification": "The candidate ('This is my cross! And I must bear it.') translates the fixed idiom too literally and breaks the English idiomatic expression ('a cross to bear'). This reduces the manipulative, grandiose self-sacrificial tone central to the line's dramatic and comic effect as described in the analysis, and omits the emphatic exclusivity of the reference ('And mine alone!')."
         }
       ]
     },
@@ -227,7 +220,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая,' which the analysis explicitly warns against; while the line preserves self-mockery and contradiction, 'angular' reads as an overly literal and slightly awkward choice in English, reducing the natural idiomatic self-deprecation."
+          "justification": "The candidate uses 'angular' as a translation of «угловатая,» which the analysis specifically warns against. This literal lexical choice sounds awkward and literal in English, weakening the playful, coquettish self-deprecation that makes the line a successful meme."
         }
       ]
     }
@@ -235,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 21,
+    "total_points": 20,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.8181818181818181,
+    "major_equiv_per_unit": 0.36363636363636365,
+    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

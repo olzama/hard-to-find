@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which conveys current possession. The analysis explicitly notes these items are no longer possessed (they were lost/removed). This reverses the intended meaning and undermines the callback joke about missing items."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the ambassador has...', implying current possession. The analysis explicitly warns these phrases mean the items are missing from them (they were lost/removed). This reverses the intended meaning and undermines the joke about recovered/lost goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line must make clear Bunsha is introducing himself as 'the Tsar' (self-identification), not addressing an actual Tsar. The candidate ('Very pleased, Tsar!') reads as addressing a Tsar rather than announcing 'I am the Tsar,' which contradicts the analysis and the comedic premise."
+          "justification": "The line must convey that Bunsha is introducing himself as the Tsar (I am the Tsar), not addressing someone called the Tsar. The candidate reads as vocative/address ('Very pleased, Tsar!'), which changes the comedic premise described in the analysis and loses the impersonation gag."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "candidate": "They’ve walled me in!\nWalled me in, demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The original intends 'demons' as the subject (they have walled me in). The candidate's punctuation/word order ('Walled me in, demons!') reads as if the speaker is addressing the demons (vocative). This flips who is acting and conflicts with the analysis note that 'demons' must be the subject."
+          "justification": "The original requires 'demons' to be the subject who walled him in (they walled me in). The candidate's 'Walled me in, demons!' reads as a vocative address to the demons, which shifts the syntactic role and slightly alters the intended image of the Tsar blaming 'the demons' as agents."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That’s what the life-giving cross can do!') renders the line in colloquial modern English and loses some of the archaic, exalted register ('Behold the power of the life-giving cross') that the analysis stresses for the comic contrast."
+          "justification": "The candidate renders the high-register exclamation in a more colloquial tone ('That’s what the life-giving cross can do!'), which preserves meaning but weakens the archaic, solemn register that contributes to the comic contrast described in the analysis."
         }
       ]
     },
@@ -139,7 +139,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate ('Everyone dance!') is slightly awkward and non-idiomatic in English. A more natural, energetic rendering (e.g., 'Everybody dance!' or 'Everyone, dance!') would better capture the punchy imperative of the original and the party mood."
+          "justification": "The imperative 'Everyone dance!' is understandable and preserves the intent, but is slightly less idiomatic/natural than alternatives like 'Everybody dance!' or 'Everyone, dance!' The line is serviceable but a bit awkward."
         }
       ]
     },
@@ -173,10 +173,10 @@
       "candidate": "Black caviar, red caviar...\nAnd yes—foreign caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source joke contrasts expensive black/red caviar with a cheap 'eggplant' spread; translations must avoid calling the eggplant spread 'caviar.' The candidate's sequence ('foreign caviar... Eggplant!') still implies the eggplant is a kind of caviar (or at least conflates the items), which risks losing the satirical inversion described in the analysis."
+          "justification": "The candidate's sequence 'foreign caviar... Eggplant!' risks implying the eggplant is itself a type of caviar. The analysis warns against calling the eggplant spread 'caviar' because that specific inversion is the joke; the candidate's phrasing could confuse that distinction slightly."
         }
       ]
     },
@@ -198,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The humor hinges on Shpak's slipping count—the speaker lists items and then the trailing 'Three' reveals his inconsistent counting. The candidate makes 'three suede jackets' explicit, removing the intended slip and changing the joke's structure and timing."
+          "justification": "The candidate lists 'three suede jackets' outright, removing the comic hesitation/false accounting in the original where the speaker first mentions 'jacket... suede...' and then 'Three'—the forgetful recounting is the joke. Making the suede jackets plainly 'three' destroys that comedic mechanism and the character-revealing slip."
         }
       ]
     },
@@ -220,14 +220,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 2
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 27,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 2.4545454545454546,
-    "major_equiv_per_unit": 0.4909090909090909,
-    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

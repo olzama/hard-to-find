@@ -23,16 +23,10 @@
       "candidate": "Volven atormentarme\nunhas vagas sospeitas...\nA Shpak, o magnetófono;\nao embaixador, o medallón.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Volven atormentarme unhas vagas sospeitas' keeps the sense of recurring doubts, but loses the mock-heroic, theatrical flavour of 'asáltanme escuras sospeitas'; 'vagas' is flatter than 'смутные'. The comedic high-register effect is weakened."
-        },
-        {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'A Shpak, o magnetófono; ao embaixador, o medallón' is elliptical and does not explicitly state that the items are lost or missing, which the analysis stresses. It can be read as possession, and the loss-sense is only implied by context."
+          "justification": "\"A Shpak, o magnetófono; ao embaixador, o medallón\" reads as a bare list of what they have. It does not say each of them lost the item, which the analysis explicitly requires (the reference has \"desapareceulle\"). The callback to the thefts is therefore not clear."
         }
       ]
     },
@@ -49,14 +43,7 @@
         "language_specific": {}
       },
       "candidate": "Encantado! Eu son o tsar!\nMoito gusto, son o tsar!\nO tsar, encantado!\nOla, son o tsar! Moito gusto!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate clearly presents him as introducing himself as the tsar, which is correct. However, it uses exclamation marks and varies the structure ('Ola', 'Moito gusto'), so it loses the mechanical, repetitive permutation of the same phrases. The deadpan Soviet formal greeting cliché is less sharp."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -96,7 +83,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Triste' flattens the high-register, regal melancholy of 'в печали' (reference 'aflixido'), weakening the contrast with the mundane setting. 'Vella' is also blunter than the affectionate-archaic 'старушка' (reference 'velliña')."
+          "justification": "\"Triste\" and the blunt \"vella\" flatten the Tsar's high-register, regal melancholy. The reference's \"aflixido\" and the affectionate-condescending \"velliña\" keep the archaic tone and the gap between him and the wife better."
         }
       ]
     },
@@ -135,16 +122,16 @@
       "candidate": "Velaí o poder da cruz que dá vida!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "The candidate uses 'velaí', which the language-specific note explicitly says to avoid."
+          "justification": "The candidate uses \"velaí\", which the language-specific note says to avoid."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'O poder da cruz que dá vida' paraphrases 'cruz vivificante' and loses the liturgical, archaic register of the epithet."
+          "justification": "\"O poder da cruz que dá vida\" is a plain paraphrase. It loses the liturgical, archaic ring of \"cruz vivificante\" and the Tsar's solemn conviction."
         }
       ]
     },
@@ -186,14 +173,7 @@
         }
       },
       "candidate": "Si que tiven sorte ao entrar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Tiven sorte ao entrar' conveys that he just entered, so it is not misleading. However, it is more explanatory and less casually cheerful than the colloquial original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -213,14 +193,7 @@
         }
       },
       "candidate": "Caviar negro, vermello...\nAh, si! Un manxar de terras afastadas...\nCrema de berenxena!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Crema de berenxena' is rendered as a plain eggplant spread, which avoids calling it caviar, but it drops the structure of the joke: the eggplant caviar is presented as an overseas delicacy ('manxar de ultramar... de berenxena'). Placing it after the delicacy line as a separate phrase weakens the deflating punchline, and 'terras afastadas' is vaguer than 'ultramar/заморская'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -240,14 +213,7 @@
         }
       },
       "candidate": "tres magnetófonos,\ntres cámaras de cinema,\ntres cigarreiras de fabricación nacional,\nunha chaqueta de camurza... tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The suede jacket is stated as 'unha chaqueta de camurza... tres', which preserves the forgotten-count gag. 'Camurza' (chamois) is a less accurate term for suede (reference 'ante'), and 'cinema' is slightly less natural than 'cine'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -267,21 +233,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Van curarte' and 'vanme curar' are inconsistent in form, and the exclamation marks give an agitated tone instead of the calm, melodic resignation described in the analysis. The enclitic 'van curarte' is also less natural than 'vante curar' in Galician."
+          "justification": "\"Van curarte\" (twice) is the wrong pronoun placement in Galician. The pronoun should be proclitic (\"te van curar\") or attached to a simple verb form (\"vante curar\"). It is also inconsistent with the correct \"vanme curar\" in the last line."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 8
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 18,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

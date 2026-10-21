@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'briefly' but loses the diminutive, faux-modest flavor of «коротенько» that makes the forty-minute estimate comically excessive. The small, patronizing tone that sets up the joke is weaker here."
+          "justification": "The candidate preserves the structural reversal (claim of brevity before the forty-minute duration) but loses some of the diminutive, self-satisfied tone of «коротенько» (a cozy, faux-modest flavor). The phrasing is more neutral and slightly flatter, weakening the petty-bureaucratic comic voice that makes the line land."
         }
       ]
     },
@@ -84,7 +84,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—been ready for a while!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The surface exchange is preserved, but the double entendre in Russian (готов = 'ready' / colloquially 'smashed, drunk') is not strongly signalled in English. The reply reads straightforwardly as backstage readiness; the alcoholic subtext is therefore weakened."
+        }
+      ]
     },
     {
       "id": 5,
@@ -103,14 +110,7 @@
         }
       },
       "candidate": "People!.. Ah... hello!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate preserves the faltering address, but 'hello' reads as a normal greeting rather than a wavering, theatrical sound. The original’s broken, vocally unstable shape ('Ah… ау-у!') is slightly flattened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -134,10 +134,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as 'armed eye,' a literal calque flagged in the analysis as awkward and more surreal than intended. This choice risks losing the intended mock‑scientific, slightly off idiom; a solution like 'aided eye' would better preserve the subtle parody."
+          "justification": "The candidate renders the coined idiom as “armed eye,” which the analysis explicitly warns against: in English this reads more surreal/strange than the Russian playful pseudo‑scientific deformation. The recommended approach was to echo the familiar contrast with 'the unaided eye' (e.g. 'aided eye') to preserve the mock‑scientific, mildly wrong effect. 'Armed eye' distorts the intended comic register and becomes odd rather than recognizably mangled scientific jargon."
         }
       ]
     },
@@ -180,19 +180,26 @@
         }
       },
       "candidate": "Whether there is life on Mars, whether there isn’t\nlife on Mars—that is unknown to science.\nScience is not yet up to date.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate keeps the factual correctness and the casual register, but the final phrase 'Science is not yet up to date' is slightly awkward in English and reads a bit clumsy compared with the speaker's colloquial, offhand tone. A looser idiom ('not up to speed' / 'not yet up to speed') would better match the original's conversational flavor."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 3
     },
-    "total_points": 3,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

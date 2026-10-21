@@ -63,7 +63,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the opening 'коротенько' / 'And briefly'. The joke depends on the faux-modest claim of brevity coming before 'forty minutes', which is the comic reversal. Without it, the line is just a statement of duration and the punchline is lost."
+          "justification": "The word «коротенько» (\"briefly\") is omitted. The analysis says the joke is the faux-modest claim of briefness followed by the \"forty minutes\" punchline, and that the claim must come first. Without it there is no comic reversal, and the line reads as a plain statement of duration. The patronizing, self-satisfied managerial tone is also lost."
         }
       ]
     },
@@ -149,16 +149,16 @@
       "candidate": "we already see two little stars,\nthree little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The counting is rendered as 'little stars', which keeps the silly, childish buildup. But 'Four little stars—best of all' merges four into the punchline, so the pause and the sudden snap to 'five stars' are weakened. The structure is also less clean than the original progression."
+          "justification": "The candidate keeps the star counting but gives no cue (such as a note or a cognac reference) that \"five stars\" belongs to the cognac domain. English viewers will not get the sudden shift from astronomy to drink, which the analysis says is the punchline and the point of the derailment. The line is left merely odd."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "Nothing signals the cognac association with five stars, for example a translator's note. English viewers are unlikely to catch the shift into a different semantic domain, so the derailment is weaker. 'Little stars' also makes the line sound more like a nursery rhyme than a cognac reference."
+          "justification": "The build-up is muddled. \"Four little stars—best of all, of course, five little stars!\" merges the fourth star into the punchline and drops the \"As we can already see\" lecture framing. The trivial counting sequence is therefore less clean, and the pivot to \"five\" is weaker."
         }
       ]
     },
@@ -184,14 +184,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

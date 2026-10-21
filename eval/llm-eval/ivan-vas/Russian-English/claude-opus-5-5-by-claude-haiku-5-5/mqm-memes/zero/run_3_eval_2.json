@@ -41,7 +41,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that the translation make clear Bunsha is introducing himself as the Tsar, not addressing a Tsar. The candidate's lowercase vocative 'tsar' in 'A pleasure, tsar!' and 'Hello, tsar!' reads as greeting a ruler, which inverts the intended meaning. The reference's 'I'm the Tsar' and 'Hello, the Tsar' frame avoid this."
+          "justification": "The analysis notes that the translation must make clear Bunsha is introducing himself as the Tsar, not addressing one. 'A pleasure, tsar!' and 'Tsar, a pleasure!' read as greetings to a tsar, and no line says 'I'm the Tsar'. The self-introduction, which is the core of the joke, is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'A pleasure, hello, tsar!' is stilted and unnatural in English, and the four lines do not build the clipped, repetitive social-ritual rhythm the analysis describes."
         }
       ]
     },
@@ -118,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's the power of the life-giving cross!' is more colloquial than the solemn, ritual register of the source ('Вот что... делает') and the reference's 'Behold'. It slightly weakens the Tsar's grandiose, sincere conviction."
+          "justification": "'That's the power of...' is more colloquial than the source's 'Вот что... делает!' and the reference's 'Behold'. It weakens the archaic, triumphant register of the Tsar's conviction that the cross caused the elevator to open."
         }
       ]
     },
@@ -185,7 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly states that the eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'Overseas caviar...' and 'Eggplant caviar!' do exactly that, mislabeling the cheap Soviet spread as caviar and breaking the intended status-inversion joke."
+          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's final line, 'Eggplant caviar!', does exactly that. The intended joke, a cheap spread presented as a rare overseas delicacy, is undermined because the viewer is not told that the item is a spread."
         }
       ]
     },
@@ -210,9 +216,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The source's singular 'куртка' (one jacket) is rendered as plural 'suede jackets', which implies multiple jackets from the start. The reference's singular 'a suede jacket' keeps the count-forgetting gag more precisely. The missing count is still signalled by the omitted number, so the joke survives."
+          "justification": "Writing the counts as numerals ('3 tape recorders') and dropping the source's hesitations ('…') flattens the spoken rhythm. The pause before the forgotten suede-jacket count, which the analysis identifies as the source of the humor, is weakened."
         }
       ]
     },
@@ -232,9 +238,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source's first line, 'и тебя вылечат', has no 'too'. The candidate adds 'too' to the first line and 'as well' to the second, which introduces an emphasis the original does not have."
+        },
+        {
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's trailing ellipses and calm, melodic cadence ('И тебя вылечат… и меня вылечат…') become exclamation marks in the candidate. This makes the resignation sound agitated and shrill, which weakens the calm tone the analysis describes. The restructuring into 'too'/'as well' also drops the plain first 'you'."
+          "justification": "Changing the source's trailing ellipses to exclamation marks turns the 'calm, melodic resignation' described in the analysis into an excited, exclaimed tone, which weakens the subversion of the viewer's expectations."
         }
       ]
     }
@@ -242,13 +254,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 3
+      "minor": 5
     },
-    "total_points": 13,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

@@ -201,19 +201,26 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you...\nand they'll cure you too...\nand they'll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate's final line ends with an exclamation mark and reads more emphatic ('and they'll cure me!'), which pushes the delivery toward hysteria. The analysis specifies a melodic, calm resignation; a gentler punctuation/intonation (ellipsis or flat delivery) would better preserve the intended tone."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 0
+      "minor": 1
     },
-    "total_points": 0,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.0,
-    "major_equiv_per_unit": 0.0,
-    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

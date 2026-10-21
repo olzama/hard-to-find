@@ -38,10 +38,10 @@
       "candidate": "knock your horns off, rip your mouth open,\ngouge your eyes out! You'll spend your whole life\nworking for medicine",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal phrase “knock your horns off,” which the analysis warns is non-idiomatic in English and should be avoided. It also expands the final clause into a full explanatory sentence (“You'll spend your whole life working for medicine”), losing the compact, verdict-like cadence of the original threat formula."
+          "justification": "The candidate uses the literal phrase “knock your horns off,” which the analysis explicitly warns against as non-idiomatic and misleading in English. The final clause is rendered as an explanatory sentence (“You'll spend your whole life working for medicine”), losing the compact, verdict-like punch of the Russian line."
         }
       ]
     },
@@ -58,7 +58,14 @@
         "language_specific": {}
       },
       "candidate": "How many I've stabbed, how many I've slit,\nhow many souls I've ruined!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the sing-song repetition and dark humor, but 'ruined' is a slightly weaker, less stylized choice than the harsher, mythic tone of 'damned' in the reference."
+        }
+      ]
     },
     {
       "id": 4,
@@ -83,7 +90,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «нехороший человек» as “bad person” flattens the odd, euphemistic moralizing register the analysis highlights. The candidate therefore weakens the comic effect of the restrained phrase preceding the collapse into rough prison-register speech."
+          "justification": "Rendering «нехороший человек» as “bad person” flattens the odd, euphemistic moralizing quality the analysis highlights. The final insult 'the bastard' captures «падла»'s roughness, but the intermediate register shift is weakened."
         }
       ]
     },
@@ -110,13 +117,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses past-tense verbs (“Stole, drank—back to prison”), whereas the original formulaic Russian uses present/clipped forms to sound proverb-like; the past tense makes the line read more like narration and loses the compact life-cycle formula."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The final exclamation “Romance!” risks being read primarily as love/romantic relationship rather than the ironic romanticization of a criminal lifestyle that the analysis requires; it therefore weakens the intended irony."
+          "justification": "The candidate uses past-tense clipped fragments ('Stole, drank—back to prison'), which the analysis warns can sound like broken narration rather than the compact life-cycle proverb. The ironic 'Romance!' also risks the same ambiguity noted in the guidance."
         }
       ]
     },
@@ -155,10 +156,10 @@
       "candidate": "Knight move, may I never see freedom again!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the technical chess term “Knight” instead of the unschooled «лошадью», losing the joke’s comic effect of nontechnical language. The oath translation (“may I never see freedom again”) is also a bit formal/awkward compared with the prison-coded bluntness of «век воли не видать»."
+          "justification": "The candidate replaces the unschooled term «лошадью» with the correct chess term 'Knight,' removing the joke that depends on the speaker's nontechnical vocabulary. This change undermines the comic collision between naïve chess language and prison oath."
         }
       ]
     },
@@ -180,7 +181,14 @@
         }
       },
       "candidate": "- Was there a pond?\n- No. There were puddles.\nMaybe a monument?\n- There was a monument.\n- Whose monument?\n- How should I know? Some guy.\n- With a beard? - No!\n- With sideburns?\n- I don't remember. In a jacket!\n- Sitting? - What?\n- He's sitting? - Who?\n- That guy of yours!\n- What a hick! You're something else!\nWho would sit him down? He's a monument!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The crucial Russian root-play between 'сидит' and 'посадит' (sitting/imprisoning) doesn’t carry over; the candidate’s 'Who would sit him down? He's a monument!' fails to recreate the prison/confinement reinterpretation and so loses the core pun and punchline."
+        }
+      ]
     },
     {
       "id": 9,
@@ -245,7 +253,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using standard “citizen” removes the mildly ungrammatical, comic address («гражданина») that contributes to Vasily’s non-native voice. The doubled “dead dead!” is an attempt to preserve bluntness but reads awkwardly; a more clearly nonstandard but grammatical rendering would better reflect the original broken phrasing."
+          "justification": "The candidate smooths the nonstandard address to 'citizen' and regularizes the grammar, which reduces the comic effect of Vasily's broken beginner-English phrasing. The doubled 'dead dead' attempts to echo the original bluntness but reads awkwardly."
         }
       ]
     },
@@ -339,10 +347,10 @@
       "candidate": "- Miss, what's your name? - Tanya.\n- And mine's Fedya.\nWhat an idiot.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate’s “What an idiot” is gender-neutral and not a direct feminine insult, which erases the feminine–masculine–feminine comic sequence (Tanya perceives a woman, hears a masculine name, then addresses the apparent woman with a feminine insult) that the analysis requires."
+          "justification": "The candidate renders the final line as the gender-neutral 'What an idiot,' which erases the required feminine–masculine–feminine sequence (apparent woman → masculine name → feminine insult). This loses the disguise-based joke and the direct address that the analysis demands."
         }
       ]
     },
@@ -369,7 +377,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «параша» as “toilet” reduces a strong prison-status slur to a literal sanitary image; the original assigns the addressee to the lowest rank of inmate hierarchy, so a functional prison-status equivalent in English would better preserve the line’s force and contempt delivered with faux civility."
+          "justification": "Rendering «параша» as 'the toilet' reduces a strong prison-status insult to a literal sanitary image. The line needs a functional prison-status slang to preserve the hierarchical contempt delivered with mock civility."
         }
       ]
     },
@@ -394,23 +402,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "The candidate uses “hooligans,” a dated/regionally marked term the analysis warns against, and “taking my eyesight,” which is a literal phrasing that does not preserve the slightly formal, bureaucratic ring of «зрения лишают». Both choices reduce the comic contrast between official-sounding wording and panic."
+          "justification": "The candidate's use of 'hooligans' is a dated term that the analysis warns against; a more contemporary, natural term would better match the intended comic-bureaucratic tone while preserving the formal-sounding 'taking my eyesight' phrasing."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 9
+      "major": 4,
+      "minor": 6
     },
-    "total_points": 9,
+    "total_points": 26,
     "meaning_units": 18,
-    "penalty_per_unit": 0.5,
-    "major_equiv_per_unit": 0.1,
-    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4444444444444444,
+    "major_equiv_per_unit": 0.28888888888888886,
+    "interpretation": "1.44 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have an instruction\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps the bureaucratic 'Comrades' framing, but 'welcome the New Year cheerfully' softens the festive/bureaucratic clash slightly compared with the reference's more pointed 'celebrate... merrily.' The subtle ironic tension between top-down directive and festivity is marginally weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the double joke (Baba Yaga as folkloric witch and as an in-house social type) but uses 'team' and 'raise one,' which lean toward a more modern, informal register. This reduces the specifically Soviet/collective workplace flavor ('collective' / 'in-house') emphasized in the analysis."
+          "justification": "The candidate preserves the joke and double reading (Baba Yaga as a social type and a fairy-tale figure) but uses 'team' instead of a more Soviet-flavored collective term. This slightly weakens the bureaucratic/collective register that the analysis identifies as important."
         }
       ]
     },
@@ -77,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the comedic ordering (claim of brevity before 'forty minutes'), but the diminutive, faux-modest tone of «коротенько» is flattened by the plain 'briefly.' The sly, self-satisfied managerial voice that makes the 'forty minutes' punchline land is somewhat weakened."
+          "justification": "The candidate keeps the comic reversal (claim of briefness followed by 'forty minutes'), but translates the diminutive 'коротенько' as a neutral 'briefly,' losing some of the faux-modest, cozy tone that makes the understatement punchier."
         }
       ]
     },
@@ -98,14 +91,7 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—been ready for a long time!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The double reading in the original—'готов' meaning both 'ready' (administrative) and colloquially 'smashed/drunk'—is central. The candidate renders both lines with 'ready' only, without any additional cue to suggest the alcoholic subtext. That ambiguity is not recovered in English here, so an important layer of the joke is lost."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -148,10 +134,10 @@
       "candidate": "But one need only take\na telescope...\nand look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate literalizes the Russian phrasing with 'armed eye,' but as noted in the analysis a calque like 'armed eye' reads odd and more surreal in English. This choice alters the intended mock-scientific, slightly off-kilter register; a phrase echoing 'unaided/aided eye' would better preserve the comic effect."
+          "justification": "The candidate's 'armed eye' is a literal calque that reads oddly and surreal in English. The analysis warned that 'armed eye' doesn't work; the intended effect is a mock-scientific, slightly off phrase (e.g., 'aided eye') that echoes 'unaided eye.' The calque loses the subtle parody and becomes distracting rather than jocular."
         }
       ]
     },
@@ -199,7 +185,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The factual content is preserved, but the candidate's final sentence 'Science is not yet aware of the matter' shifts the register toward a stilted formalism. That reduces the original's comic effect, which arises from a casual, conversational phrasing treating 'science' as if it simply hasn't been briefed."
+          "justification": "The candidate conveys the factual point but shifts the register toward a more formal phrasing ('Science is not yet aware of the matter'), losing the casual, conversational tone ('science isn't up to speed / hasn't been briefed') that provides much of the humor."
         }
       ]
     }
@@ -207,13 +193,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 5
+      "minor": 3
     },
-    "total_points": 10,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about we\nknock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Lowercased beginning and the line break make the subtitle read less natural on screen; the idiom and ironic, casual provocation are preserved but punctuation/capitalization could be improved for smoother delivery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.') which loses the sarcastic, stuttering exclamatory effect (the repeated, elongated, self-mocking delivery) highlighted in the analysis. This diminishes the line's comedic rhythm and character voice."
+          "justification": "The candidate 'High... high relations.' renders the line as a literal noun phrase and loses the sarcastic, exclamatory refrain quality highlighted in the analysis. It sounds awkward and fails to reproduce the idiomatic, mock-elevated punch of the original recurring tag."
         }
       ]
     },
@@ -75,7 +68,14 @@
         "language_specific": {}
       },
       "candidate": "People don’t live for joy—they live for conscience.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate uses 'conscience' ('live for conscience') which is a more literal rendering and lacks the idiomatic English force of 'live to do your duty'—it softens the soldierly, moral-duty tone central to the line's meaning."
+        }
+      ]
     },
     {
       "id": 5,
@@ -95,7 +95,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Notice, I didn't suggest it.' conveys the meaning but weakens the performative distancing of the original ('For the record: I am not the one who suggested it!'), losing some of the quaint, mock-official tone that marks the character's charming hypocrisy."
+          "justification": "'Notice, I didn't suggest it.' is grammatically acceptable but slightly stilted and less idiomatic than the performative distancing of 'For the record' or 'I'm not the one who suggested it,' weakening the character's theatrical dodging of responsibility."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "Culinary genius!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Culinary genius!' can read as sarcastic praise, but it shifts register away from the sharp, domestic insult ('Some cook you are!') and sounds more flamboyant than the terse, cutting original; the comedic bite is slightly softened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -151,10 +144,10 @@
       "candidate": "Cut it out, to hell with it.\nNo waiting for peritonitis.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate's 'Cut it out, to hell with it.' turns a blunt surgical imperative into an idiomatic admonition ('cut it out'), losing the darkly comic medical command to perform an operation immediately. This changes the meaning and undermines the medical-farce contrast emphasized in the analysis."
+          "justification": "The candidate splits and softens the command ('Cut it out, to hell with it. / No waiting for peritonitis.'). 'Cut it out' is milder than the brusque imperative in the reference, slightly reducing the abrupt, farcical surgical tone of the original."
         }
       ]
     },
@@ -191,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering the line as 'This is my cross! And I will carry it.' breaks the English fixed idiom ('a cross to bear') and reads more literal and prosaic, which lessens the manipulative melodrama the analysis flags; the core meaning remains but the idiomatic force is weakened."
+          "justification": "The candidate omits the idiomatic English 'a cross to bear' and the isolating 'mine alone,' replacing them with a literal 'This is my cross! And I will carry it.' This preserves basic meaning but loses the concise idiom and the sharper manipulative emphasis."
         }
       ]
     },
@@ -213,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая', which the analysis warns against as overly literal and potentially confusing in English. While the self-deprecatory tone and rhythm are mostly preserved, the lexical choice undermines the intended colloquial, coquettish characterization."
+          "justification": "The candidate renders 'угловатая' as 'angular,' which the analysis specifically warns against as overly literal and odd in English here. The translation therefore sounds unnatural and weakens the self-parodic, coquettish tone."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 5
     },
-    "total_points": 15,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

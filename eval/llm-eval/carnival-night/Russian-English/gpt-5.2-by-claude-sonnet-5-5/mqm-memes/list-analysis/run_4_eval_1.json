@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Hire\" fits the staffing logic, but \"cultivate\" is a more botanical/fairy-tale verb than the educational \"train/raise\", and \"Baba Yaga\" left untranslated keeps the folkloric frame rather than the recognizable toxic-woman type. The workplace logic is still mostly preserved."
+          "justification": "\"Baba Yaga\" is kept as a name with no gloss, so the human-type reading (a nasty woman already in every workplace) is less accessible to English viewers than \"witch\". \"Hire\" and \"cultivate ... in our own collective\" do keep the workplace/staffing logic, so the effect is only slightly weakened."
         }
       ]
     },
@@ -70,13 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Just briefly\" is flat and loses the diminutive, cozy faux-modesty of «коротенько»; the contrast with \"forty minutes\" is weaker. The order (brevity claim before duration) is preserved."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"I don't think more is necessary\" is slightly stiff compared to the natural \"any more than that\"."
+          "justification": "\"Just briefly\" is a plain statement and lacks the cozy, faux-modest diminutive flavor of «коротенько». The briefness claim does precede \"forty minutes\", so the punchline still works, but the patronizing, self-satisfied managerial tone is weaker."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / already drunk) is not recreated; the translation gives only the administrative \"ready\", so the alcoholic subtext joke is lost."
+          "justification": "The candidate renders \"готов\" only as \"ready\" and adds nothing to evoke \"drunk/done for\". The analysis warns that this loses the alcoholic joke, and no equivalent double meaning is recreated, so the exchange is only an administrative status report."
         }
       ]
     },
@@ -123,14 +117,7 @@
         }
       },
       "candidate": "Peo-ple!.. Ah… a-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"a-oo\" is a less recognizable rendering of the calling \"ау-у\" than \"hellooo\"; the broken, wavering vocalization is preserved but the final call is less clear as an attempt to hail a crowd."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -152,14 +139,7 @@
         }
       },
       "candidate": "But it’s enough for us to take a telescope…\nAnd look with the aided eye—",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"It's enough for us to take a telescope\" is a slightly literal rendering of «стоит только нам взять»; it is less natural than \"all we have to do is\". The key \"aided eye\" solution is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -186,13 +166,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac punchline is weakened: \"best of all, of course, five little stars\" is merged into the \"four little stars\" line and loses the pause and sudden click into the cognac frame, and the diminutive \"little stars\" on the final item further obscures the \"5*\" association. No note or cue is given, so most viewers will see only a odd astronomy line."
+          "justification": "The punchline is lost. The candidate merges \"four little stars\" into the \"best of all\" clause, so the counting build-up is broken and \"five little stars\" does not click into the cognac frame. Nothing cues the cognac association, such as a note or the \"5-star\" wording, so it reads as merely odd."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The added \"and now\" shifts the opening away from the \"As we can already see\" lecture-like phrasing."
+          "justification": "\"Little stars\" sounds childish, which suits the silly counting. Adding \"and now\" and dropping \"as we can already see\" slightly weakens the pseudo-lecture register."
         }
       ]
     },
@@ -218,7 +198,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science does not know\" is more formal than the flat, colloquial «это науке неизвестно», slightly reducing the register mismatch. \"Isn't in the loop yet\" does capture the casual, personified \"not up to speed\" joke well."
+          "justification": "\"Science isn't in the loop yet\" keeps the casual register well. \"Science does not know\" is slightly stiffer and more formal than the flat colloquial \"unknown to science\", so the register contrast is marginally less pronounced."
         }
       ]
     }
@@ -226,13 +206,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 7
+      "minor": 4
     },
-    "total_points": 17,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 2.125,
-    "major_equiv_per_unit": 0.425,
-    "interpretation": "2.12 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

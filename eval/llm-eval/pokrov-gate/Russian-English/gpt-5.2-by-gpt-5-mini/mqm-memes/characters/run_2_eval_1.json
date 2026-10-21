@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the basic meaning and the teasing challenge, but it loses some of the mock-Grandiose, theatrical self-dramatization of the original ('Pray, tell me' / double exclamation, 'I'll wait!'). The phrasing is more prosaic and less characterful than the analysis indicates."
+          "justification": "The candidate preserves the meaning and comic boastfulness, but it loses some of the elevated, self‑dramatising theatrical flourish of the original (\"Pray, tell me... I'll wait!\"). The more colloquial \"Name one! No, I'm waiting.\" is effective but slightly less grandiloquent than the analysis expects."
         }
       ]
     },
@@ -38,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "how about we\nknock back a little one?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate communicates the casual proposal and ironic deflation well, but the phrasing ('knock back a little one') is slightly awkward and less idiomatic than the reference's 'toss back a quick one.' The lowercase start and line break are formatting choices but not problems."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,7 +58,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.') which the analysis explicitly warns against. This loses the natural exclamatory, sarcastic refrain and sounds stilted rather than the biting repeated mockery required by the original."
+          "justification": "The candidate renders the line as a literal noun phrase (\"High... high relations.\"), which the analysis explicitly warns against. It fails to reproduce the sarcastic exclamatory refrain and the mocking, repeatable idiomatic quality that makes the line a memorable comic motif."
         }
       ]
     },
@@ -84,10 +77,10 @@
       "candidate": "People don't live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "By translating 'совести' as 'conscience' the candidate shifts the pragmatic meaning away from the soldierly notion of duty/obligation ('live to do your duty') emphasized in the analysis. This weakens the fatalistic, duty-driven tone central to the line's function."
+          "justification": "The candidate keeps the general meaning but uses the phrasing \"live for conscience,\" which is slightly awkward and less idiomatic in English than the reference's naturalisation (\"You don't live to be happy, you live to do your duty\"). The soldierly fatalism is present but weakened by the phrasing."
         }
       ]
     },
@@ -109,7 +102,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the deflecting intent, but the terser 'Note:' is less idiomatic and less theatrically evasive than the reference's 'For the record' and slightly diminishes the character's charming, performative shirking of responsibility."
+          "justification": "The candidate conveys the intended disavowal but reduces the theatrical, self‑protective flourish to a curt \"Note:\", making the line less colourful and less of the charmingly hypocritical dodge described in the analysis."
         }
       ]
     },
@@ -126,7 +119,14 @@
         "language_specific": {}
       },
       "candidate": "Culinary genius!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Culinary genius!\" captures a sarcastic reaction but shifts register toward an ironic compliment rather than the punchy, contemptuous exclamation expected. The analysis warns against literal professional nouns; this rendering changes the bite and rhythm of the original retort."
+        }
+      ]
     },
     {
       "id": 7,
@@ -158,10 +158,10 @@
       "candidate": "Cut it out to hell with it.\nBefore peritonitis sets in.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate's first clause ('Cut it out to hell with it.') is unidiomatic in English and the awkward syntax disrupts the abrupt, forceful surgical imperative central to the line. The second line conveys the medical warning but overall the phrasing fails to match the crude, punchy contrast required by the analysis."
+          "justification": "The meaning (urgent surgical imperative followed by warning about peritonitis) is preserved, but the phrasing \"Cut it out to hell with it.\" is awkward and non‑idiomatic in English; it damages the brusque, clinical bluntness of the original line."
         }
       ]
     },
@@ -198,7 +198,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate retains the sentiment but renders the idiom more literally ('This is my cross! And I will bear it.') rather than using the fixed English idiom ('a cross to bear') and loses some of the emphatic, manipulative exclusivity ('mine alone') noted in the analysis."
+          "justification": "The candidate conveys the possessive suffering idea but splits and literalises the idiom (\"This is my cross! And I will bear it.\"), which the analysis warns against. The fixed English idiom \"a cross to bear\" with the emphatic alone is stronger and more idiomatic for the manipulative theatricality described."
         }
       ]
     },
@@ -220,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' to render «угловатая», which the analysis warns against as overly literal and potentially awkward in English. While the self-mocking tone remains, this lexical choice weakens the naturalness and flirts with literalness the guidance advised avoiding."
+          "justification": "The candidate mostly captures the self‑deprecating, mannered tone, but uses the literal adjective \"angular,\" which the analysis advises against because it reads oddly in English. This choice makes the line less natural and weakens the original comic self‑characterisation."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 1,
+      "minor": 7
     },
-    "total_points": 20,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -23,16 +23,16 @@
       "candidate": "Once again I'm tormented\nby vague suspicions...\nShpak - a tape recorder,\nthe ambassador - a medallion.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Tormented by vague suspicions\" keeps the mock-heroic tone fairly well, but \"suspicions\" is slightly less theatrical than \"vague doubts\" and loses the set-phrase echo of the literary original."
+          "justification": "\"Shpak - a tape recorder, the ambassador - a medallion\" is a bare list of nouns. It does not make clear that these items were lost (stolen), which the analysis says is essential. The dash could be read as possession or association, and the callback logic is unclear."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The dash structure \"Shpak - a tape recorder, the ambassador - a medallion\" does not clearly convey that each lost the item; it reads as a bare list and is ambiguous, though it does avoid the incorrect \"has\" reading."
+          "justification": "\"Tormented by vague suspicions\" keeps some elevated register, but \"suspicions\" is flatter than \"doubts haunt me\", and the mock-heroic, operatic tone is weaker. The line breaks are also awkward."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha addressing a Tsar (\"Pleased to meet you, Tsar!\"), not introducing himself as the Tsar. The analysis' note explicitly requires making clear he is introducing himself, so the core joke is lost."
+          "justification": "The candidate reads as Bunsha addressing a Tsar (\"Pleased to meet you, Tsar!\"), not introducing himself as the Tsar. The analysis explicitly requires that the self-introduction be clear. This loses the central joke of the drunken impersonation."
         }
       ]
     },
@@ -151,7 +151,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Everybody dance!\" is accurate but plain; it loses the host-like, mock-ceremonial tone of the reference (\"The floor is open to everyone!\") that adds to the comedic collapse of decorum."
+          "justification": "\"Everybody dance!\" is accurate and conveys the command, but it is plainer than the reference. It loses a little of the mock-formal, host-like register of Bunsha leading the party."
         }
       ]
     },
@@ -198,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"caviar\" (\"overseas caviar... Eggplant!\"), which the note explicitly says to avoid because it confuses viewers; the inverted-status joke between real caviar and cheap eggplant spread is blurred."
+          "justification": "The candidate calls the eggplant spread \"caviar\" (\"overseas caviar... Eggplant!\"), which the analysis explicitly says to avoid because it confuses viewers. The contrast between luxury caviar and the cheap spread presented as an overseas delicacy is muddled."
         }
       ]
     },
@@ -225,7 +225,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate attaches \"domestic\" to \"cigarette cases\" within the list and drops the hesitating, afterthought rhythm of the source/reference. The payoff (the jacket's count lagging, then \"three\") is preserved."
+          "justification": "\"3 domestic cigarette cases\" drops the pause and afterthought structure of \"cigarette cases, domestic...\", but the key joke is kept: the jacket count lags with \"a suede jacket... three\"."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Numerals (\"3\") instead of spelled-out numbers make the spoken, hesitant list read less naturally."
         }
       ]
     },
@@ -247,14 +253,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 4
     },
-    "total_points": 14,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

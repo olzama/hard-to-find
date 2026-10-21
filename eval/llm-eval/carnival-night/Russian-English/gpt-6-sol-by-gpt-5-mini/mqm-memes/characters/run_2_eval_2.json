@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\na Baba Yaga from outside.\nWe'll cultivate one within our own team!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the joke and workplace logic, but the choice of 'team' (and 'hire') softens the Soviet/collective register the analysis says should be kept. 'Collective' has a specific period/social resonance that 'team' lacks, so the line reads slightly less era-specific."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -55,10 +48,10 @@
       "candidate": "And he gives a brief address—\nforty minutes, I don't think\nwe need any more than that.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate shifts perspective to third person ('And he gives a brief address'), altering the speaker's voice and diluting Ogurtsov's self-satisfied, managerial first-person delivery. This change undermines the comic effect built on Ogurtsov's smug, tone-deaf moderation and thus contradicts the analysis guidance."
+          "justification": "The candidate introduces a third-person framing (“And he gives a brief address”) that the Russian line does not have; this shifts voice away from Ogurtsov’s self-satisfied first-person managerial delivery. The diminutive, faux-modest feel of «коротенько» is only partly preserved by “brief,” and the extra wording weakens the tight, tone-deaf punch of the original sequencing."
         }
       ]
     },
@@ -93,9 +86,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate keeps a broken vocalization but replaces the wavering 'Ah… ау-у!' with 'Yoo-hoo!', which reads as a jaunty, attention-getting call rather than the faltering, pitiful theatrical failure described in the analysis. This slightly reduces the sense of drunken loss of control in the opening."
+          "justification": "The candidate preserves a broken call to the audience, but “Yoo-hoo!” reads as a jaunty attention-getter rather than the faltering, slurred vocal collapse implied by the Russian. The delicate balance of pitiful theatricality vs. drunken failure is slightly softened."
         }
       ]
     },
@@ -119,10 +112,10 @@
       "candidate": "But just take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the key idiom as 'armed eye.' The analysis warns that a literal calque like 'armed eye' tends to sound oddly surreal in English; it loses the mock‑scientific subtly that 'aided/unaided eye' solution preserves. The result is a more jarring, less recognizably parodic phrase."
+          "justification": "The literal rendering “armed eye” reproduces the Russian wording but creates an odd, more surreal image in English that loses the intended mock-scientific echo of the idiom (“unaided/aided eye”). The translation therefore fails to preserve the subtle comedic deformation of a familiar phrase and makes the joke stranger rather than recognizably pseudo-academic."
         }
       ]
     },
@@ -165,13 +158,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 8,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

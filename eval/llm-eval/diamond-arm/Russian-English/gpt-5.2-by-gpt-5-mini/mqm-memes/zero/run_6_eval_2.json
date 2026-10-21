@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk—you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source includes the vocative 'Ребята' (Guys) which sets a slightly informal group address and helps establish Gorbunkov's exasperated tone. The candidate omits this opening vocative, weakening that social framing though the rest of the line preserves the meaning and the policeman's deadpan reply."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -68,14 +61,7 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nunfortunately nothing will come of it!\nRusso tourist...\nMoral character... versteh'n?",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The reference and analysis rely on a playful mishmash of foreign-sounding set phrases (Russo Turisto, Obliko Morale, Verstehen) to convey Gena's mock-sophistication. The candidate replaces 'Lady' with 'You know,' turns 'Russo Turisto' into plain 'Russo tourist' and renders 'Obliko Morale' as 'Moral character,' losing the multilingual, pseudo-continental jargon and rhythmic comic effect. This substantially weakens the intended comic performance and register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -135,14 +121,7 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\neven teetotalers drink at someone else's expense\nand ulcer sufferers too.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The Russian original uses matched rhythmic suffixes (trezvenniki / yazvenniki) to create a balanced, proverbial line. The candidate preserves meaning but flattens the rhythm and balance by changing word order and length, reducing the proverb-like punch the analysis emphasizes."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -175,9 +154,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The humor depends on a marked pronunciation/mistranslation of 'tablet' (an accented, comical form). The candidate leaves the Russian word 'таблетка' in Cyrillic within the English line, which is inconsistent for an English subtitle and fails to convey the intended comic mispronunciation in the target language."
+          "justification": "The candidate preserves the joke that one pill suffices but renders the key comedic mispronunciation by inserting the Russian word in Cyrillic ('таблетка') inside an English subtitle. Mixing scripts is a presentation/fluency problem for target-audience readability and breaks immersion; a phonetic Latin-script rendering (e.g., 'tabletka' or 'tab-LET-ka') would better convey the comic mispronunciation."
         }
       ]
     },
@@ -229,7 +208,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's punchline is the curse 'May you live... on one... salary'—implying the misery of living only on a state salary. The candidate truncates the line to 'May you live on just one' and omits 'salary,' removing the crucial target of the insult and therefore destroying the intended comedic and socio-economic sting."
+          "justification": "The candidate truncates the punchline by stopping at 'on just one' and omits the crucial word 'salary.' The whole gag hinges on the curse of being forced to live solely on a salary; without 'salary' the line becomes incomplete and loses its cultural and comedic meaning."
         }
       ]
     },
@@ -356,7 +335,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis highlights Gena's affected pronunciation of 'coffee' as an index of his pretentiousness ('kof-e'). The candidate uses 'baath' (misspelled) and a normal 'coffee' instead of a marked, playful rendering that would convey the same affected pronunciation and social pretense, so the subtitled voice loses a bit of that comic character nuance."
+          "justification": "The candidate fails to reproduce Gena's affected, slightly snobbish pronunciation of 'coffee' (the source's comic marker) and instead uses plain 'coffee.' That flattens the character's pretentious tone. Additionally, 'baath' contains a typographic/orthographic error, which harms fluency."
         }
       ]
     },
@@ -391,23 +370,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The source uses an intentionally nonstandard, folksy verb form to heighten stubborn, rural-sounding emphasis. The candidate's 'No, I can't go along with that!' conveys refusal but neutralizes the rustic, emphatic coloration present in the original, weakening the character's voiced attitude."
+          "justification": "The candidate conveys the refusal but loses the intentionally nonstandard, folksy verbal form that gives the line comic, rural emphasis. The rustic, erroneous verb form is an important stylistic element in the source and its absence weakens the character's voice."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 15,
+    "total_points": 8,
     "meaning_units": 23,
-    "penalty_per_unit": 0.6521739130434783,
-    "major_equiv_per_unit": 0.13043478260869565,
-    "interpretation": "0.65 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.34782608695652173,
+    "major_equiv_per_unit": 0.06956521739130435,
+    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Volven atormentarme\nescuras dúbidas...\nA Shpak faltoulle o magnetófono,\ne ao embaixador, o medallón.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The line break structure and 'Volven atormentarme escuras dúbidas' is a decent mock-elevated rendering, but 'dúbidas' is less archaic/theatrical than the 'smutné sospeitas' feel, and the 'Volven atormentarme' is slightly less natural; the register is only partly preserved."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ola, tsar, moito gusto\" reads as Bunsha greeting a tsar (vocative), which is exactly what the NB forbids. He is introducing himself as the Tsar. The reference solves this with \"son o tsar\" and \"O tsar, encantado\". The joke of the drunken impersonation is lost."
+          "justification": "The candidate reads 'Ola, tsar' as a greeting addressed to a tsar, which is exactly what the NB warns against. Bunsha is introducing himself as the Tsar, and nothing in the candidate (such as 'son o tsar') makes this clear."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds extra material ('Tsar, moito gusto! Ola, tsar! Moito gusto!') not in the source, though in the context of subtitle repetition this is a minor issue."
         }
       ]
     },
@@ -71,9 +84,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Estou de loito\" means \"I am in mourning\", which narrows and shifts \"в печали\" (in sorrow/grief). It also loses the archaic, lofty tone of the Tsar's line. The reference's \"aflixido\" keeps the general sorrow and the elevated register."
+          "justification": "'Estou de loito' means 'I am in mourning', which shifts the meaning from the Tsar's sorrow ('в печали') to bereavement, and loses the elevated, archaic register of the original."
         }
       ]
     },
@@ -105,7 +118,14 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificante!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Mira o que fai' is more colloquial than the reference's 'Velaquí o que obra', weakening the Tsar's solemn, archaic register, though the meaning and the conviction in the cross's power are kept."
+        }
+      ]
     },
     {
       "id": 7,
@@ -137,10 +157,10 @@
       "candidate": "Que ben entrei!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Que ben entrei!\" is a stiff, literal rendering. It loses the idiomatic sense of luck and of stumbling onto a good spot (\"удачно зашёл\"). It does not mislead about him just arriving, but it is less natural and less gleeful than the reference."
+          "justification": "'Que ben entrei!' is ambiguous and reads as a comment on how he got in, and it loses the point that he has stumbled upon a lucky find, a well-stocked apartment. The cheerful pleasure at the discovery of goods (the 'deficit' joke) is not conveyed."
         }
       ]
     },
@@ -159,10 +179,16 @@
       "candidate": "Caviar negro, vermello...\nSi! Caviar de fóra...\nPaté de berenxena!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Caviar de fóra\" is flat and loses the pretentious, exotic \"заморская\" (overseas delicacy) that sets up the satirical reveal. \"Paté de berenxena\" does avoid calling the eggplant spread caviar, but the mock-grand tone of the inversion is weaker."
+          "justification": "The candidate says 'Caviar de fóra' for the overseas caviar, which is not parallel with the original's 'заморская икра' and, combined with the earlier 'Caviar negro, vermello', makes the third item's relation to caviar unclear. The joke that the 'overseas' item is actually just eggplant caviar is lost, since 'Paté de berenxena' no longer reads as a pseudo-caviar, so the punchline is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Caviar de fóra' is an unnatural way to render 'заморская' ('from overseas') and loses the exotic, grandiose tone."
         }
       ]
     },
@@ -181,10 +207,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 piteiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "terminology",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Piteiras\" means cigarette holders, not cigarette cases (портсигар). \"Cámaras\" drops \"de cine\" (kinokamera), which makes the item less specific. \"Camurza\" is a looser equivalent of suede (\"замшевая\"). The count joke, where he forgets to increment the jacket, is preserved."
+          "justification": "'Piteiras' means cigarette holders, not cigarette cases ('портсигары'), so the item is mistranslated."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Camurza' is chamois rather than suede ('замша'), and the article 'unha' is dropped, which weakens the joke about the forgotten count; digits instead of words are also a minor stylistic deviation."
         }
       ]
     },
@@ -201,19 +233,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti hanche curar!\nE a ti tamén hanche curar!\nE a min hanme curar!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The exclamation marks make the delivery more emphatic, while the analysis calls for a melodic, calm resignation; the calm, singsong effect is somewhat lost."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 4
+      "major": 4,
+      "minor": 7
     },
-    "total_points": 9,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

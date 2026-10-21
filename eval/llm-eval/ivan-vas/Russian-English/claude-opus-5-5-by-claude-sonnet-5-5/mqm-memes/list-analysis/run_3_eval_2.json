@@ -26,13 +26,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Shpak loses a tape recorder, the ambassador loses a medallion' turns the elliptical list into a present-tense habitual statement about losing things. It does not convey that the items are already gone, and it changes the nominal structure of the source."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Tormented by vague misgivings' keeps a fairly elevated register, but 'misgivings' is slightly more modern and mundane than the mock-operatic 'vague doubts haunt me'. The mock-heroic effect is somewhat weakened."
+          "justification": "The analysis notes that the items were lost, which the candidate renders with 'loses'. But the present-tense 'loses' presents it as a habitual or ongoing event rather than a completed theft, which is slightly misleading; more importantly the candidate drops the elliptical, list-like callback structure. The key meaning (each lost an item) is preserved, so the main weakness is the mock-heroic register: 'tormented by vague misgivings' is serviceable but lacks the theatrical, operatic ring and reads as a plain description."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate clearly presents him as introducing himself as the Tsar, which is correct. It adds extra 'hello' and 'I'm the Tsar' repetitions and exclamation marks, which makes the greeting more emphatic than the stiff, mundane cliché the analysis describes. The comic escalation of the formulaic greeting is somewhat altered."
+          "justification": "The candidate clearly presents Bunsha as introducing himself as the Tsar, which is the key requirement. However, it adds exclamation marks and 'hello' placement that make it more energetic than the stiff, mundane, repetitive social-cliché effect; the drunken, rote formality is slightly diminished."
         }
       ]
     },
@@ -106,7 +100,14 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nThe demons have walled me in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is correct and the demons are clearly the subject. The reference's halting, trailing-off delivery and the repetition ('Walled me in... Walled me in, the demons!') is only partially kept, so the rhythm of the Tsar's bewildered muttering is slightly flatter."
+        }
+      ]
     },
     {
       "id": 6,
@@ -146,14 +147,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is accurate and conveys the command, but it is flatter than the reference. It loses the host-like, mock-courtly flavor of 'The floor is open to everyone', which fits the clash between a Soviet functionary and the royal feast."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -178,7 +172,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'A lucky place to drop in' changes the meaning from 'I came in at a good moment/made a good call' to a comment on the place. It also sounds awkward. It is not misleading about entering versus leaving, but it loses the pleased, self-congratulatory tone of the burglar's remark."
+          "justification": "'Now this is a lucky place to drop in!' is awkward and shifts the meaning from a cheerful remark on his own good choice ('I came in at a good moment/place') to a comment on the place. It also loses the casual, self-satisfied burglar tone, making it clumsy rather than a likable anti-hero's quip. It does avoid the leaving misreading, but the phrasing is unnatural."
         }
       ]
     },
@@ -222,10 +216,10 @@
       "candidate": "3 tape recorders,\n3 film cameras,\n3 domestic cigarette cases,\na suede jacket... three.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate puts 'domestic' before 'cigarette cases', which is acceptable, but it drops the comic structure in which the count is forgotten for the jacket: 'a suede jacket... three' reads as if he is correcting himself. The reference's 'a suede jacket… Three.' works the same way, so the main problem is that the word 'three' is turned into the numeral '3' for the first items. This slightly weakens the spoken, comic rhythm and the final reveal."
+          "justification": "The candidate uses numerals ('3') instead of spelled-out numbers and drops the 'domestic' placement as a separate afterthought, but it keeps the crucial joke that the count of suede jackets is forgotten and only corrected with 'three'. Minor loss of the hesitant, listing delivery."
         }
       ]
     },
@@ -245,23 +239,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate starts with 'They'll cure you too!', omitting the first plain 'And they'll cure you' of the source. The sequence loses one step of the repetitive litany. The exclamation marks also add emphasis that undermines the calm, melodic resignation described in the analysis."
+          "justification": "The candidate keeps the meaning but turns the calm, melodic, resigned murmur of the original into exclamations ('!'), which undercuts the soothing, eerily calm resignation that the analysis identifies as the source of the humor. It also omits the first 'and' that opens the list."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 4
     },
-    "total_points": 19,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

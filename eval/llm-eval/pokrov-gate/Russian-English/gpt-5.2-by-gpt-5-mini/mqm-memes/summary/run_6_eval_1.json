@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the basic meaning but flattens the original's high-flown, self-dramatic theatricality. The short, prosaic 'Name one! No, I'm waiting.' lacks the grandiose, performative cadence of the approved translation and the line's status as a comic self-presentation."
+          "justification": "The candidate preserves the meaning and the provocative challenge, but it tones down the heightened theatrical self-dramatization present in the analysis. The reference's lofty, mocking self-presentation ('Pray, tell me... I'll wait!') is slightly more grandiose than the candidate's more prosaic 'Name one! No, I’m waiting.'"
         }
       ]
     },
@@ -55,10 +55,10 @@
       "candidate": "Such... such lofty relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the stuttering repetition but uses the literal phrase 'lofty relations,' which reads as a noun-phrase and weakens the sarcastic, natural exclamatory rhythm recommended in the analysis. A more idiomatic exclamation (as in the reference) would better capture the comic effect."
+          "justification": "The line functions as a sarcastic, repeated refrain and should read as an exclamatory, slightly stammering appraisal (e.g., 'What an evolved...'). The candidate's 'Such... such lofty relations.' uses a literal noun-phrase ('relations') that reads awkwardly and loses the natural idiomatic exclamation and ironic register called for in the analysis."
         }
       ]
     },
@@ -77,10 +77,10 @@
       "candidate": "People don't live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate translates 'совести' literally as 'conscience,' resulting in the unusual phrasing 'live for conscience.' This is slightly awkward and reduces the soldierly, duty-focused fatalism of the original; a phrasing like 'live for duty' or 'live to do your duty' would be closer in tone and idiom."
+          "justification": "The candidate 'People don't live for joy—they live for conscience.' is both slightly unidiomatic in English ('live for conscience') and shifts the pragmatic meaning from the soldierly, duty-centered fatalism in the analysis to a vague moral notion of 'conscience.' This weakens the specific sense of duty/obligation that the original conveys."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "Culinary genius!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'Culinary genius!' shifts register and tone. The original is a sharp, dismissive domestic insult using a profession as a rebuke; 'Culinary genius' reads as overt praise (even if sarcastic) and loses the blunt, imperious bite of the Russian exclamation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -151,10 +144,10 @@
       "candidate": "Cut it out, for hell's sake.\nBefore we get peritonitis.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate preserves meaning but softens and splits the biting, abrupt medical-humour punch of the original. 'Cut it out, for hell's sake. Before we get peritonitis.' is less brusque and integrated than the single, forceful imperative in the reference, reducing the comic clash between sentiment and surgical bluntness."
+          "justification": "The original is a brusque surgical imperative with dark comedic bluntness ('резать к чёртовой матери' — 'cut it the hell out' / 'operate now, don't wait for peritonitis'). The candidate's 'Cut it out, for hell's sake. Before we get peritonitis.' reads as a milder admonition ('stop that') rather than the violent, clinical surgical verdict that creates the film's farcical shock value, so the core comic contrast is lost."
         }
       ]
     },
@@ -191,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the pronoun as 'He' ('He's my cross to bear'), changing the original deontic/self-sacrificial construction into a claim that a person is the speaker's cross. This reverses the intended meaning—an idiomatic burden the speaker must carry—and therefore significantly harms the line's manipulative, self-victimizing effect."
+          "justification": "The candidate changes the grammatical subject/object: 'He's my cross to bear' implies a person is the burden, whereas the original idiom ('This is my cross to bear') presents the situation as the burden. This shift alters the manipulative, sacrificial tone described in the analysis and risks introducing an unintended meaning."
         }
       ]
     },
@@ -213,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая,' which the analysis explicitly warns against as too literal. While the overall self-mocking tone is preserved, 'angular' sounds odd in this English self-description and weakens the idiomatic, coquettish register of the original."
+          "justification": "The candidate uses 'angular' to render 'угловатая,' which the analysis specifically warns against because a literal 'angular' sounds odd in English. While the overall self-mocking register and pause-driven rhythm are preserved, the single-word choice weakens the natural colloquial characterization and may confuse English listeners."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 11,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\na Baba Yaga from outside;\nwe'll train one in-house!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Baba Yaga' is a specific folkloric name that pulls the line toward the fairy-tale reading the analysis warns against. The reference's generic 'witch' better preserves the recognizable workplace type. 'Hire' does support the staffing logic well."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -56,15 +49,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'And he delivers a brief address' adds a third-person narrative frame that is not in the source. It turns Ogurtsov's direct, self-satisfied statement into a description of the lecturer, which weakens the speaker's voice. The brief-then-forty-minutes reversal itself survives."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive faux-modesty of 'коротенько' is lost. 'A brief address' states the briefness flatly rather than in the patronizing 'just a little short talk' tone the analysis asks for."
+          "justification": "«Brief» is flatter than the diminutive «коротенько», so the patronizing faux-modesty the analysis asks for is weakened. The candidate also adds the subject \"he\" (\"And he delivers a brief address\"), which the source does not contain, though the timing reversal (briefness claim before the duration) is preserved."
         }
       ]
     },
@@ -98,10 +85,10 @@
       "candidate": "- People!... Hello?",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The stretched, faltering vocalization is reduced. 'Peo-ple' becomes 'People!...' and the wavering 'Ah…' is dropped. 'Hello?' is a clean, tentative question rather than the broken, wandering 'ау-у' call the analysis describes."
+          "justification": "The analysis treats the stretched, broken vocalization as central to the joke, and the reference keeps it with \"Peo-ple!\" and \"hellooo!\". The candidate's \"People!... Hello?\" reads as a near-normal greeting with a tentative question mark. The faltering, wavering quality and the physical comedy of a drunk losing control of speech are largely lost."
         }
       ]
     },
@@ -128,7 +115,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis identifies the malformed idiom 'вооружённым глазом' (a mock-upgraded 'with the naked eye') as the core comic device. The candidate replaces it with the generic 'with the aid of an instrument', so the drunken pseudo-scientific distortion of a familiar expression is lost. The analysis explicitly warns that rendering the line plainly makes the malformed idiom disappear."
+          "justification": "The key comic element is the malformed idiom («вооружённым глазом» for «невооружённым глазом»). The candidate's \"look with the aid of an instrument\" is a plain paraphrase with no distorted or mock-upgraded idiom, so the lecturer's pseudo-scientific derailment disappears. The analysis explicitly warns against this plain rendering."
         }
       ]
     },
@@ -152,16 +139,16 @@
       "candidate": "we can see two stars, three stars...\nFour stars. Best of all, of course,\nis five stars",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Best of all, of course, is five stars' is awkward. The phrase lacks a noun or article and reads as a grammatical fragment, which weakens the final punchline's delivery."
+          "justification": "The punchline depends on the sudden shift to the cognac star-rating system, which the reference signals with the bracketed note about 5*. The candidate gives no cue at all, so for most viewers \"five stars\" reads as merely odd rather than as a click into a different semantic world, which the analysis identifies as essential."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The opening 'As we can already see' is shortened to 'we can see', dropping 'already', which carries part of the lecturer's pompous framing. The analysis also recommends a translator's note for the cognac association, and the candidate provides none, so the final 'five stars' may not register as a cognac reference for most viewers."
+          "justification": "The candidate opens with a lowercase sentence fragment (\"we can see two stars, three stars...\"), dropping the reference's \"As we can already see\" lead-in. This makes the opening less natural and less clearly framed as the lecturer's speech."
         }
       ]
     },
@@ -181,29 +168,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'or no life on Mars' is an unnatural, literal rendering of 'нет ли жизни'. The idiomatic 'or not' used in the reference reads more smoothly."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Science hasn't found out yet' is more neutral than the source's casual 'не в курсе дела' ('not in the know / not up to speed'). The analysis stresses that the comic force lies in the colloquial, under-briefed phrasing of a valid scientific uncertainty, and that quality is weakened here."
+          "justification": "The analysis locates the comedy in the casual, out-of-the-loop register of «Наука ещё пока не в курсе дела». \"Science hasn't found out yet\" is more neutral and ordinary than the reference's \"Science still isn't up to speed\", so the register mismatch that makes the line funny is weaker. The first sentence is accurate and matches the formal-sounding original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 8
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 13,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 1.625,
-    "major_equiv_per_unit": 0.325,
-    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

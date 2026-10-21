@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Volven asaltarme\nvagas dúbidas...\nA Shpak faltoulle un magnetófono,\nao embaixador faltoulle un medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "“Volven asaltarme vagas dúbidas” is understandable, but it is less idiomatic and slightly less punchy than the reference’s mock-heroic phrasing, which weakens the theatrical comic tone a bit."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the self-introduction formula and makes the line sound like a greeting to the tsar rather than Bunsha repeatedly saying “I am the tsar,” which is central to the joke described in the analysis."
+          "justification": "The candidate drops the self-introduction structure and reads like a greeting to the tsar rather than Bunsha repeatedly introducing himself as the tsar, which is essential to the joke."
         }
       ]
     },
@@ -60,7 +53,14 @@
         "language_specific": {}
       },
       "candidate": "Exixo que continúe o banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is preserved, but the phrasing is a bit less forceful and iconic than the reference, so the demand for the banquet to continue sounds slightly flatter."
+        }
+      ]
     },
     {
       "id": 4,
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "“Estou de loito” is semantically close to being in sorrow, but it shifts the elevated melancholy of the original into a more literal mourning register and loses some of the regal, archaic tone."
+          "justification": "\"Estou de loito\" shifts the mood from melancholy to literal mourning, weakening the regal, plaintive tone of \"я в печали\"."
         }
       ]
     },
@@ -112,7 +112,14 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Mira\" is understandable, but it is a bit less expressive than a more exclamatory, awe-filled rendering, slightly softening the wonder at the miracle."
+        }
+      ]
     },
     {
       "id": 7,
@@ -132,7 +139,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "“A bailar todo o mundo!” is natural, but it is less directly the imperative “Everyone dance!” and slightly weakens the rallying, commanding tone of Bunsha’s exclamation."
+          "justification": "The idea is correct, but \"A bailar todo o mundo\" is less punchy and less chant-like than the direct imperative in the reference, so the rallying effect is slightly weakened."
         }
       ]
     },
@@ -154,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "“Vaia se entrei ben!” means something like “Glad I came in!” but the phrasing can also suggest “if I entered well,” which is misleading and does not clearly preserve the cheerful discovery of having stumbled upon a treasure-filled apartment."
+          "justification": "\"Vaia se entrei ben\" suggests he is evaluating whether he entered well/appropriately, not the triumphant realization that he has stumbled into a perfect haul after just entering."
         }
       ]
     },
@@ -171,7 +178,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nSi! Ovas de ultramar...\nDe berinxela!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Ovas de ultramar\" is too generic and loses the specific joke of 'eggplant' as the absurdly humble Soviet substitute; the punchline depends on that concrete contrast."
+        }
+      ]
     },
     {
       "id": 10,
@@ -189,9 +203,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "Using numerals and shortening the list makes the line less vivid and less like Shpak’s increasingly anxious, self-important enumeration, though the meaning is still mostly preserved."
+          "justification": "The abbreviated counting and line breaks are serviceable, but the list is somewhat clipped and less natural in flow than the reference, slightly reducing the comic buildup."
         }
       ]
     },
@@ -213,21 +227,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the final self-directed line “e me van curar,” which is important because Ulyana includes herself in the resigned comic diagnosis of madness."
+          "justification": "The candidate omits the repeated structure that includes \"e a ti tamén\" and \"e a min\", so it no longer conveys that she is calmly including herself and both others in the same absurd 'treatment' joke."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 4,
+      "minor": 5
     },
-    "total_points": 19,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

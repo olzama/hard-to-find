@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source opens with the vocative 'Ребята' ('Guys'), which the candidate omits. The rest of the line is preserved, so the loss is small."
+          "justification": "The vocative 'Ребята' (guys), which addresses the group and sets up Gorbunkov's dramatic declaration, is omitted. The candidate otherwise preserves the sacrificial declaration and the policeman's deadpan 'cop humor' punchline."
         }
       ]
     },
@@ -73,7 +73,14 @@
         "language_specific": {}
       },
       "candidate": "Lady, signora, frau, miss...\nunfortunately, nothing's going to happen.\nRusso Turisto!\nObliko Morale! Verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The Italian phrase is misspelled as 'Russo Turisto'. The correct form is 'Russo Turisto', as in the reference. The error is minor but visible in a line meant to showcase Gena's pseudo-worldly vocabulary."
+        }
+      ]
     },
     {
       "id": 5,
@@ -143,7 +150,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'On' is capitalized after the comma within one sentence ('As our dear boss says,\\nOn someone else's dime...'), which reads as a grammatical error. A lowercase 'on' would keep the clause intact while preserving the line break."
+          "justification": "After the comma in 'As our dear boss says,' the candidate capitalizes 'On someone else's dime' mid-sentence. This is a punctuation and capitalization slip that makes the line read as two sentences and weakens the proverbial flow."
         }
       ]
     },
@@ -376,13 +383,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 2,
+    "total_points": 3,
     "meaning_units": 23,
-    "penalty_per_unit": 0.08695652173913043,
-    "major_equiv_per_unit": 0.017391304347826087,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.13043478260869565,
+    "major_equiv_per_unit": 0.02608695652173913,
+    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

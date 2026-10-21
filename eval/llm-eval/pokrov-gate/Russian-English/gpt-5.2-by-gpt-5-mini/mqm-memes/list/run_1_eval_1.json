@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the repetition and sarcasm but uses the plural noun \"relations,\" which reads slightly more formal and less natural in conversational exclamation than the reference's singular \"relationship.\" This weakens the idiomatic punch of the refrain."
+          "justification": "The candidate preserves the stuttering and ironic register, but uses the noun 'relations' where a natural exclamatory phrase like 'relationship' or a different idiomatic turn would better match the film's sarcastic register. The choice is slightly more literal and less idiomatic than the analysis suggests."
         }
       ]
     },
@@ -71,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"People don't live for joy—they live for conscience\" is understandable but awkward in English: \"live for conscience\" is not an idiomatic rendering of the soldierly fatalism expressed in the analysis (cf. \"you live to do your duty\"). The phrasing slightly undermines the blunt, pragmatic register."
+          "justification": "Using 'conscience' shifts the nuance from the practical, duty-oriented soldierly logic ('duty'/'to do your duty') to a more inward moral sense; this weakens the original's emphasis on duty/fatalism that motivates the characters' denial of personal happiness."
         }
       ]
     },
@@ -90,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "Note: I didn't suggest it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the basic meaning but flattens the theatrical, mock-defensive flourish of the original ('For the record' / more performative phrasing). 'Note:' reads more prosaic and less characterful."
+        }
+      ]
     },
     {
       "id": 6,
@@ -110,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Culinary genius!\" reads as an ironic praise rather than the sharp, contemptuous household insult in the original. It loses some of the biting, absurd-as-insult effect of using a neutral profession as a domestic epithet."
+          "justification": "The candidate turns the biting ironic rebuke into a faux-praise ('Culinary genius!'), which still works as sarcasm but shifts tone toward ironic compliment rather than the short, sharp domestic insult the analysis highlights; also the phrasing 'culinary' is slightly more formal than the intended brusque exclamation."
         }
       ]
     },
@@ -130,9 +137,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The German interjection is a specific character tic that signals Savva's idiolect and submissive comic persona. Translating \"Натюрлих!\" as \"Naturally, Margarita Pavlovna.\" removes that distinctive foreign-word quirk and thus alters an important character marker and comic effect."
+          "justification": "The original's use of the German interjection is a deliberate character quirk; translating it as 'Naturally' destroys that linguistic joke and the character-marking function. Adding the name further domesticates the line and removes the foreign-language cue the analysis says is essential."
         }
       ]
     },
@@ -149,7 +156,14 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, for God's sake—no waiting for peritonitis!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source is a brusque surgical/hyperbolic imperative ('резать' = 'cut (surgically)') that creates a comic-medical shock; rendering it as 'Cut it out' turns it into a colloquial 'stop that' and loses the medical/hyperbolic force about peritonitis, which undermines the intended farcical effect."
+        }
+      ]
     },
     {
       "id": 9,
@@ -184,7 +198,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits and literalizes the idiom into \"It's my cross! / And I have to bear it,\" which reduces the force of the fixed English idiom \"a cross to bear.\" This weakens the manipulative rhetorical flourish the line is meant to convey."
+          "justification": "The candidate splits the idiom and renders it more literally ('It's my cross! And I have to bear it.'), which weakens the fixed English idiom 'a cross to bear' and the heightened, manipulative self-sacrificial tone the analysis flags."
         }
       ]
     },
@@ -206,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the literal word \"angular\" for «угловатая», which the analysis warns against. In English \"angular\" here reads oddly and literal-mindedly, making the self-characterization less idiomatic and slightly confusing compared with a more natural phrasing."
+          "justification": "The candidate captures the self-mocking register but translates 'угловатая' as 'angular,' which the analysis warns against because it reads as an overly literal, awkward lexical choice in English; this reduces the naturalness and comic effect of the line."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 10,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

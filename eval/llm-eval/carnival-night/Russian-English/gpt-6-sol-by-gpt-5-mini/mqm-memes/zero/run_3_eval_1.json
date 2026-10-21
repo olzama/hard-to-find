@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the basic contradiction (claiming briefness then giving forty minutes) but flattens the tiny, diminutive tone of «коротенько» by using the neutral phrase \"a short speech.\" The comic faux-modesty is slightly weakened compared with a more diminutive or self-satisfied phrasing."
+          "justification": "The candidate preserves the structural reversal (claim of brevity followed by 'about forty minutes'), but the translation 'a short speech' lacks the diminutive, slightly self-effacing tone of «коротенько» that makes the contrast feel mock-modest and patronizing. This weakens the comic posture a little though the punchline remains intact."
         }
       ]
     },
@@ -85,10 +85,10 @@
       "candidate": "- People!... Hello?",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate normalizes the lecturer's faltering vocalization into a simple \"People!... Hello?\", losing the broken, wavering, half-slurred shape that communicates his drunken, collapsing attempt to address the crowd. The line therefore loses some physical/comic texture."
+          "justification": "The candidate normalizes the broken, wavering vocalization into a simple 'People!... Hello?', removing the faltering, stretched sounds that convey the lecturer's drunken collapse of register. That vocal instability is essential to the comic effect; losing it substantially harms the line's humor and character."
         }
       ]
     },
@@ -115,7 +115,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the mock-idiomatic deformation that is central to the joke (the twisted play on \"the unaided/naked eye\" becoming an \"armed/aided eye\"). By reducing the line to \"And look through it,\" the mock-scientific misphrasing and its comic effect disappear, removing the intended ridicule of pseudo-technical language."
+          "justification": "The candidate reduces the mock-scientific deformation to a plain 'look through it,' losing the malformed-idiom effect of «вооружённым глазом» (an almost-recognizable-but-wrong scientific phrase). The original's comic effect depends on that deliberate lexical distortion; the simplification removes the joke."
         }
       ]
     },
@@ -157,14 +157,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

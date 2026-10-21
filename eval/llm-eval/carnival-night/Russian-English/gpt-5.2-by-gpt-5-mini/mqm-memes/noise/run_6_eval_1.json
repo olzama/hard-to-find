@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the bureaucratic framing but uses slightly stilted phrasing (“there is an instruction to welcome”) and “welcome the New Year cheerfully” rather than the more punchy, slightly ironic “celebrate the New Year merrily.” The dry, top-down managerial bite is present but marginally weakened by the wording."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -46,14 +39,7 @@
         }
       },
       "candidate": "We won’t take\nBaba Yaga from outside,\nwe’ll raise one within our own team!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate captures the double joke (Baba Yaga as folkloric witch and as an in-house toxic type) and the bureaucratic staffing tone, but the choice “team” softens the Soviet-specific sense of “коллектив.” The humour and intent remain intact, though the register is slightly less period-specific."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -77,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the comedic reversal (claim of brevity followed by 'forty minutes'), but renders «коротенько» flatly as “briefly” and ends with the slightly formal “is not necessary,” which reduces the faux-modest, smug managerial voice that makes the line funnier."
+          "justification": "The candidate preserves the joke structure (claim of briefness followed by a forty-minute duration) but translates «коротенько» as plain “briefly,” losing the diminutive, faux-modest tone that heightens the comic mismatch. The line is therefore slightly weaker in capturing Ogurtsov’s self-satisfied managerial voice."
         }
       ]
     },
@@ -103,7 +89,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word “давно” untranslated in the second clause (“ready—ready давно!”). This is outright untranslated material, and it also prevents the line from delivering the intended bilingual ambiguity and the double reading (administrative 'ready' vs. drunk/‘already done for’), so the comic effect is damaged."
+          "justification": "The candidate leaves the Russian word 'давно' untranslated ('ready давно!'), which is a clear omission. In addition, the reply fails to recreate the intended double reading of 'готов' (officially 'ready' vs. colloquially 'smashed/drunk'). As written it reads as a broken mix of languages rather than preserving the bilingual ambiguity that produces the joke."
         }
       ]
     },
@@ -151,7 +137,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which the analysis warns against: in English this reads more surreal than the intended mock-scientific slight deformation. It loses the subtle parody of a near-familiar idiom; a solution like “aided eye” better preserves the effect."
+          "justification": "The candidate renders «вооружённым глазом» as the literal calque 'armed eye.' As noted in the analysis, that English phrasing reads oddly and more surreal than the Russian intended. It weakens the mock-scientific, slightly wrong-but-recognizable idiom the lecturer mangles; a solution echoing 'the unaided/aided eye' would better preserve the comedic effect."
         }
       ]
     },
@@ -200,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 4
+      "minor": 2
     },
-    "total_points": 9,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 1.125,
-    "major_equiv_per_unit": 0.225,
-    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

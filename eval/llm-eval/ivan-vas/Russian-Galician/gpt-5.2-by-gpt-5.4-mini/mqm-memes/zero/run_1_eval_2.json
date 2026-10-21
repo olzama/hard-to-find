@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador still have the items ('ten'), but the line means the items are missing from them; this reverses the joke and breaks the callback described in the analysis."
+          "justification": "The candidate reverses the key meaning: it says Shpak and the ambassador still have the items, while the line means the items have disappeared from them."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The mock-solemn, slightly literary cadence of the original is weakened by the very plain phrasing, so the comedic register lands less strongly."
         }
       ]
     },
@@ -40,10 +46,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The line should clearly present Bunsha as introducing himself as the Tsar, but 'Moito gusto, tsar!' can read like he is addressing the Tsar rather than impersonating him. This misses the key comedic ambiguity noted in the analysis."
+          "justification": "The line is understandable and preserves the self-introduction, but 'Moito gusto' and the reshuffled repetitions sound less like the awkward, repetitive social cliché described in the analysis."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' conveys the meaning, but it loses the slightly archaic, high-register melancholy of 'estou aflixido', weakening the regal tone of Ivan's speech."
+          "justification": "'Estou triste' is semantically correct, but it is flatter and less archaic than 'que estou aflixido', so the regal, slightly old-fashioned tone is softened."
         }
       ]
     },
@@ -100,9 +106,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The original repeats the complaint that he has been walled in, but the candidate changes the second line into a direct address to 'demos,' which makes the syntax less clear and slightly distorts the panic."
+          "justification": "The split into two lines is acceptable, but the phrasing is less forceful and less idiomatic than the original exasperated cry, slightly weakening the comic panic."
         }
       ]
     },
@@ -124,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Velaí' is slightly less elevated and formulaic than 'Velaquí', so the exclamatory, quasi-biblical tone is somewhat weakened."
+          "justification": "'Velaí' is a bit less elevated than the reference's 'Velaquí', so the mock-biblical, triumphant tone is slightly reduced, though the meaning is intact."
         }
       ]
     },
@@ -146,7 +152,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'A bailar todo o mundo!' conveys a crowd instruction, but it is less direct and forceful than the imperative 'Todos a bailar!', slightly softening the rallying cry."
+          "justification": "The meaning is close, but 'A bailar todo o mundo!' shifts the imperative from 'everyone dance' to a more descriptive 'everybody is dancing,' so the command force is somewhat weakened."
         }
       ]
     },
@@ -168,7 +174,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei!' means 'How well I entered,' which is not the same as 'I hit the jackpot / found a good place.' It loses the triumphant, opportunistic reaction to finding the loot-filled apartment."
+          "justification": "The candidate loses the sense of arriving at a fortunate place and instead simply says 'I entered well,' which is unnatural and does not convey the character's cheerful realization upon finding valuables."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The colloquial, lightly triumphant tone of the original is not well captured by this flat phrasing."
         }
       ]
     },
@@ -187,10 +199,16 @@
       "candidate": "Caviar negro, vermello...\nSi! Caviar de ultramar...\nDe berenxena!",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate drops the crucial joke by omitting the explicit 'eggplant' element from the final line, so the satire about pretending a cheap spread is a rare delicacy is lost."
+        },
+        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line is understandable, but breaking 'Caviar de ultramar... / De berenxena!' into two short fragments makes the punchline feel a bit clunkier than the reference's smoother build-up."
+          "justification": "The capitalization and line break make the ending slightly awkward, though this is secondary to the missing joke element."
         }
       ]
     },
@@ -209,10 +227,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "terminology",
           "span": "",
-          "justification": "'pitilleiras' is not the same as 'portсigары' (cigarette cases), so an important item in Shpak's exaggerated inventory is mistranslated. The sequence also omits the final counted item logic of the joke."
+          "justification": "'Pitilleiras' is a less standard or less fitting choice for the intended 'cigarreiras', making the item list sound less precise, though the overall joke remains clear."
         }
       ]
     },
@@ -229,26 +247,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te van curar!\nE a ti tamén te van curar!\nE a min tamén me van curar!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The repeated 'tamén' adds 'also' to the first two clauses, which is not in the source and changes the rhythm of the joke. More importantly, the calm, resigned progression is weakened by the less precise repetition pattern."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 3,
+      "minor": 9
     },
-    "total_points": 30,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

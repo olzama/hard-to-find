@@ -41,13 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis says the translation must make clear Bunsha is introducing himself as the Tsar, not addressing one. 'A pleasure, Tsar!' and 'Tsar, a pleasure!' read as greetings to a Tsar, so the self-introduction is lost, which contradicts the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'A pleasure, hello, Tsar!' is an awkward stacking of two greeting formulas and reads less naturally than the stiff but fluent Soviet-style cliché the source implies."
+          "justification": "The analysis requires that it be clear Bunsha is introducing himself as the Tsar, not addressing one. The candidate's 'A pleasure, Tsar!' and 'Hello, Tsar! A pleasure!' read as greetings to a Tsar, and nothing in the lines marks the self-identification the reference makes explicit with 'I'm the Tsar'. This loses the central comic effect."
         }
       ]
     },
@@ -139,7 +133,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source 'Танцуют все!' is a declarative exclamation announcing that everyone is dancing. The candidate's imperative 'Everybody dance!' changes the mood to a command. The chaotic party effect and Bunsha's commanding host persona still come through, so the shift is small."
+        }
+      ]
     },
     {
       "id": 8,
@@ -181,10 +182,10 @@
       "candidate": "Black caviar, red...\nYes! And overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. 'Yes! And overseas caviar...' applies the caviar label to the eggplant spread, which contradicts the analysis and undermines the joke about inverted status symbols."
+          "justification": "The analysis explicitly says the translation should not call the eggplant spread 'caviar'. The candidate's 'overseas caviar' does exactly that. The inversion of prestige still lands through 'Eggplant!', so the impact is limited to departing from the stated guidance rather than breaking the joke."
         }
       ]
     },
@@ -208,10 +209,16 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 Soviet-made cigarette cases,\nsuede jackets—three.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The punchline depends on the singular 'куртка' being corrected to 'Три' after Shpak forgets to increment the count, which the analysis identifies as the funny element. 'suede jackets—three' uses the plural from the start, so the count mismatch that betrays Shpak is lost and the joke no longer works."
+          "justification": "The source has a hesitation and a forgotten count ('куртка… замшевая… Три'). The candidate collapses this into one line, 'suede jackets—three', which removes the pause and the lapse in counting that the analysis identifies as the funny beat."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The list mixes numerals ('3 tape recorders', '3 movie cameras') with the spelled-out 'three' at the end, which is inconsistent within a single list and slightly awkward on screen."
         }
       ]
     },
@@ -231,29 +238,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source's first line is 'И тебя вылечат' with no 'too'. The candidate's opening 'They'll cure you too!' adds 'too', implying a second person was already mentioned, which shifts the sequence of the three lines."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's ellipses and melodic, calm resignation are replaced by three exclamation marks, which make the delivery sound excited or agitated rather than the calm, subdued tone the analysis describes."
+          "justification": "The analysis describes a melodic, calm resignation. The candidate ends all three lines with exclamation marks, which pushes the delivery toward agitation and drops the ellipses that give the source its slow, weary cadence. The content is accurate, but the tone is somewhat weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 3
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 18,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" and \"develop\" keep the workplace logic, but \"Baba Yaga\" without an article/\"a\" reads as a fairy-tale character rather than a recognizable human type, and \"develop\" is a bit less bureaucratic/'in-house' than the reference's 'train one in-house'. The social-type reading is somewhat weaker."
+          "justification": "\"Develop one from within\" keeps the workplace/staffing logic, but \"hire\" and \"develop\" are less pointedly bureaucratic-educational than \"train in-house\". Still, the collective/social-type angle is weakened a little by the neutral phrasing."
         }
       ]
     },
@@ -58,13 +58,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key word «коротенько» is rendered as \"a short speech\" and placed as a flat noun phrase; the faux-modest, cozy diminutive is lost, and the 'brief' claim no longer functions as a self-satisfied setup before \"forty minutes\". The comic reversal is weakened."
+          "justification": "The faux-modest «коротенько» is rendered as \"a short speech\", which flatly states the claim and loses the cozy diminutive tone. The line also drops the pacing from the analysis: the briefness claim should set up the \"forty minutes\" reversal, but here \"short speech\" is only a noun phrase and the line begins mid-sentence. The self-satisfied managerial tone is weak."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "\"I don't think it needs to be longer\" is acceptable but slightly shifts the sense from 'we don't need more than that' and loses the smug managerial tone."
+          "justification": "\"I don't think it needs to be longer\" is slightly stiff and loses the casual trailing-off feel of «больше, я думаю, не надо…»."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"He's ready. Has been for ages!\" keeps only the literal sense, with at most a faint hint from the delivery, so the central alcoholic joke is mostly lost."
+          "justification": "\"He's ready. Has been for ages!\" keeps only the surface administrative meaning. Nothing hints that the lecturer is drunk (e.g. a tone or phrasing that suggests \"ready\" = done for/smashed), so the double reading that is the core of the joke is lost."
         }
       ]
     },
@@ -106,9 +106,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The drunken, stretched, faltering vocalization («Лю-ди! А… ау-у!») is normalized into a clean \"People!... Hello?\". The broken syllabic shape and the hooting call are lost, so the physical comedy of failing oratory disappears."
+          "justification": "The drunken, faltering, stretched vocalization is lost. \"People!... Hello?\" is almost a clean address, with no broken syllables like \"Peo-ple\" or the wavering \"hellooo\". The physical comedy of slurred speech collapsing is gone, which the analysis flags as the main risk."
         }
       ]
     },
@@ -135,7 +135,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key phrase «вооружённым глазом» is omitted entirely: \"And look through it,\" leaves no malformed mock-scientific idiom. The joke of the damaged phrase is lost, and the sentence is left incomplete."
+          "justification": "The malformed idiom «вооружённым глазом» is omitted entirely. \"And look through it,\" is plain and has no mock-scientific distortion such as \"aided eye\". The central joke of the item is lost, and the line is also cut off and incomplete."
         }
       ]
     },
@@ -162,7 +162,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The silly counting build-up is preserved and the five-stars punchline works, but the order is slightly muddled (\"Four little stars.\" separated, \"little\" dropped for the final item) and there is no note or cue for the cognac association, so the shift into a different domain is less likely to click for English viewers. \"Would be best\" is also a bit more hedged than the exclamatory original."
+          "justification": "The silly counting is preserved with \"little stars\", and the shift to \"five stars\" works. However, \"Of course, five stars would be best!\" is somewhat flattened. The cognac association is not signalled, though the analysis notes that a note may be needed, so this is only a minor weakness."
         }
       ]
     },
@@ -179,19 +179,26 @@
         "language_specific": {}
       },
       "candidate": "Is there life on Mars or isn't\nthere? Science doesn't know.\nScience hasn't been told yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Science hasn't been told yet\" keeps the personified, casual \"science\" and the correct content. It is slightly less idiomatic than \"isn't up to speed\" and loses the \"in the know\" colloquial flavor of «не в курсе дела», but the register mismatch survives."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 3
+      "minor": 4
     },
-    "total_points": 23,
+    "total_points": 24,
     "meaning_units": 8,
-    "penalty_per_unit": 2.875,
-    "major_equiv_per_unit": 0.575,
-    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

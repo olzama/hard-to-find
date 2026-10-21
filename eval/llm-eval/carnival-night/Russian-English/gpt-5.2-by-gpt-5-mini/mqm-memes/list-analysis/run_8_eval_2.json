@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'just briefly' which flattens the diminutive, almost smug register of «коротенько». The comic contrast between a faux-modest 'just a little' and the absurdly long 'forty minutes' is slightly weakened; Ogurtsov's self-satisfied managerial tone is less clearly present."
+          "justification": "The candidate 'just briefly' flattens the diminutive, slightly patronizing nuance of «коротенько» that sets up the comic contrast with 'forty minutes.' The overall bureaucratic, self-satisfied tone is present, but the cozy faux-modesty is weakened, reducing the punch of the reversal."
         }
       ]
     },
@@ -84,7 +84,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\n- The lecturer's ready—been ready for ages!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The Russian relies on the double meaning of «готов» (ready / already smashed/drunk). The candidate renders both lines only with 'ready', losing the intoxication subtext entirely; the joke of administrative coordination vs. the lecturer being already drunk is therefore largely lost."
+        }
+      ]
     },
     {
       "id": 5,
@@ -127,10 +134,10 @@
       "candidate": "But all we have to do is take a telescope...\nAnd look with an armed eye",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as 'armed eye', a literal calque that reads as oddly surreal in English and risks losing the mock‑scientific, slightly off idiom intended. A less literal solution (e.g. 'aided eye') would better preserve the intended humorous register."
+          "justification": "The analysis warns that a literal calque like 'armed eye' doesn't work in English (it becomes oddly surreal). The candidate uses 'armed eye', which misfires: it doesn't reproduce the intended mock‑scientific near-miss in an idiomatic way and thus damages the comic effect of a nearly familiar idiom turned absurd."
         }
       ]
     },
@@ -178,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

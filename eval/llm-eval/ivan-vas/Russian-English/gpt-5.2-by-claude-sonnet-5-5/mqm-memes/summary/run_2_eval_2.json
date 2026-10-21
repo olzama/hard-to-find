@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Shpak has a tape recorder, the ambassador has a medallion' says the men possess the items. The source (and NB) means each of them lost the item. This reverses the meaning and destroys the callback to the thefts."
+          "justification": "\"Shpak has a tape recorder, the ambassador has a medallion\" reverses the meaning. The NB states that Shpak and the ambassador no longer have these items because they were stolen, so the candidate misses the point of the callback (a suspicion linking the two thefts)."
         }
       ]
     },
@@ -38,20 +38,7 @@
         "language_specific": {}
       },
       "candidate": "Very nice, Tsar!\nVery nice—hello, Tsar!\nTsar, very nice!\nHello, Tsar—very nice!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Hello, Tsar' reads as addressing a Tsar, not introducing himself as the Tsar, which the NB says must be clear. The self-introduction, which is the core of the joke, is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Very nice' is a flat rendering of 'очень приятно' and loses the stiff formulaic politeness of the Soviet greeting."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -98,10 +85,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' reads as addressing the demons (vocative), which the NB forbids. The demons must be the subject: 'the demons have walled me in'."
+          "justification": "\"Walled up, demons!\" can be read as addressing the demons, whereas the NB requires the demons to be the subject (\"the demons walled me in\"). The omission of \"me\" and the lack of a clear subject role weaken the meaning, though the archaic exclamatory tone is preserved."
         }
       ]
     },
@@ -123,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and loses some of the Tsar's solemn, archaic, triumphant register ('Behold the power...')."
+          "justification": "\"That's what the life-giving cross can do!\" keeps the meaning but is colloquial and flat. It loses the Tsar's solemn, archaic, triumphant register (\"Behold the power...\"), which weakens the contrast with the modern elevator."
         }
       ]
     },
@@ -140,14 +127,7 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is accurate but plain. It conveys the command but little of Bunsha's host-like, grandiose party-leader tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -167,7 +147,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'This was a lucky visit' with the past tense implies he is leaving or has finished, which the NB says is misleading. He has only just entered. 'Visit' also loses the burglar's casual wit."
+          "justification": "\"This was a lucky visit\" is in the past tense and implies the visit is over, which the NB warns against, since he has only just entered. It also loses the cheerful, casual burglar's tone of a spontaneous remark about his own good choice."
         }
       ]
     },
@@ -189,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Imported caviar... Eggplant!' turns the eggplant spread into 'caviar' and removes the 'overseas' phrasing. The NB warns this confuses viewers. The ironic status inversion of the 'overseas eggplant caviar' is lost."
+          "justification": "\"Imported caviar... Eggplant!\" removes the 'overseas' spread joke. It is unclear what the eggplant item is, and \"imported caviar\" followed by eggplant makes the eggplant look like a caviar, which the NB says confuses viewers. The satirical inversion of status items is blurred."
         }
       ]
     },
@@ -211,13 +191,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'three suede jackets' where the source has a single jacket, with the count lagging until the final 'Три'. This removes the slip that betrays Shpak's exaggeration, which the analysis calls the funniest part."
+          "justification": "The candidate writes \"three suede jackets\", which erases the joke: Shpak should slip and say a single jacket before catching himself with \"Three\". The comic betrayal of his inflated count is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Mixing digits ('3') and the word 'three' is inconsistent, and the spoken rhythm of the list is lost."
+          "justification": "Mixing numerals (\"3\") and the word \"three\" in the same list is inconsistent."
         }
       ]
     },
@@ -239,21 +219,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks and the insertion 'And you too—they'll cure you!' give an emphatic tone. The calm, melodic, resigned repetition of the source is weakened."
+          "justification": "The candidate has an exclamatory, choppy rhythm and the line \"And you too—they'll cure you!\" is restated awkwardly. It loses the calm, melodic, resigned tone that gives the lines their dark humor."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 35,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

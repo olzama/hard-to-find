@@ -41,7 +41,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a correct literal rendering ('I'm not a coward, but I am scared...') but it doesn't recreate the light, bouncing rhyme/rhythm (Trus/Bo-yus) noted in the analysis that makes the line endearing and mildly comic. The translation is accurate but loses some of the original's comic rhythmic effect."
+          "justification": "The candidate is a literal, neutral rendering. It preserves the meaning but loses the light, bouncing rhythmic effect of the original Trus/Bojus rhyme that makes the line feel endearing rather than merely factual."
         }
       ]
     },
@@ -118,14 +118,7 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kids,\nflowers for his wife.\nDon't mix them up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate softens the original's coarse, colloquial insult ('его бабе' → 'his broad') to the neutral 'his wife,' which reduces the unrefined, mocking register characteristic of Lyolik's speech."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -180,7 +173,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('One pill will be enough...') is accurate but omits the comic phonetic marker of Lyolik's speech (the original's deliberate mispronunciation of 'tablet'), which is an important characterizing flourish in the analysis."
+          "justification": "The candidate communicates the meaning, but it omits the comic effect coming from Lyolik's characteristic mispronunciation of 'tablet' (a phonetic tick that makes the line memorable and menacing)."
         }
       ]
     },
@@ -212,7 +205,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the address but loses the stretched, melodic sigh present in the original (the elongated vocalisation that signals weary exasperation)."
+        }
+      ]
     },
     {
       "id": 13,
@@ -257,14 +257,7 @@
         "language_specific": {}
       },
       "candidate": "slipped, fell...\nsimple fracture...\nBlacked out, woke up—\nin a cast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate renders 'закрытый перелом' as 'simple fracture.' 'Closed fracture' (a fracture without an open wound) is the more accurate medical term; 'simple' can imply different clinical nuance and thus slightly alters the factual description in the telegraphic alibi."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -354,14 +347,7 @@
         "language_specific": {}
       },
       "candidate": "Looking like this...\nI can't.\nI must... first...\ntake a ba-ath,\nhave a cup of coffee...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the staggered, fussy priorities but does not reproduce Gena's affected pronunciation of 'coffee' ('kof-e') that signals his pretentiousness. The attempted elongation of 'bath' is present, but the specific phonetic affectation for 'coffee' is lost, softening the comic character detail."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 22,
@@ -396,7 +382,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the refusal clearly ('No, I can't go along with that!') but removes the intentionally incorrect folk form of the verb in the source (the comic incorrect 'пойти́ть' variant). That linguistic error in the original adds rustic humor and stubbornness which the candidate does not reflect."
+          "justification": "The candidate preserves the refusal's meaning but loses the intentionally nonstandard, folksy verb form that adds rustic stubbornness and comic emphasis to the line."
         }
       ]
     }
@@ -404,13 +390,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 6,
+    "total_points": 4,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.17391304347826086,
+    "major_equiv_per_unit": 0.034782608695652174,
+    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

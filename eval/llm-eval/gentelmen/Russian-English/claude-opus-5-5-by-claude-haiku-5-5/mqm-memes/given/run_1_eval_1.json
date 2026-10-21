@@ -131,7 +131,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds an extra exchange, \"Move the horse! - Get lost!\", that does not exist in the source, which is a single utterance. The invented \"Get lost!\" reply changes the content and dialogue structure of the item, and the first line duplicates the advice before the actual oath."
+          "justification": "The candidate adds a dialogue exchange that does not exist in the source: a preceding line \"Move the horse! - Get lost!\" is invented, and \"Get lost!\" has no counterpart in the Russian. The source is a single oath-bearing utterance, so the addition changes the content of the segment."
         }
       ]
     },
@@ -153,14 +153,7 @@
         }
       },
       "candidate": "- Was there a square?\n- There was.\nMaybe a monument?\n- There was a monument.\n- Whose monument?\n- How should I know? Some guy.\n- With a beard? - No!\n- With sideburns?\n- I don’t remember. He had a jacket!\n- Was he inside?\n- Who?\n- That guy of yours!\n- What a hick! Listen to you!\nWho’d put him inside? He’s a monument!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "The speaker-turn markers are inconsistent: some turns use a leading dash (\"- Was there a square?\"), while \"Maybe a monument?\", \"With sideburns?\", \"Was he inside?\" and \"Who'd put him inside?\" have none, and \"- With a beard? - No!\" shares one line. The reference marks every turn uniformly, so the exchange is harder to follow. The translated content itself matches the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -313,9 +306,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "other",
+          "category": "accuracy",
           "span": "",
-          "justification": "The final turn \"You dumb broad!\" lacks the leading dash used for the other speaker turns in the same exchange, which is inconsistent with the rest of the dialogue markup. The wording itself matches the reference."
+          "justification": "The source marks \"— Ну и дура.\" as a new speaker turn with a dash, but the candidate drops the dash before \"You dumb broad!\". Written as a continuation of Fedya's \"I'm Feodor.\", the insult appears to come from Fedya rather than Tanya, which blurs the direct address the analysis depends on."
         }
       ]
     },
@@ -363,13 +356,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 6,
     "meaning_units": 18,
-    "penalty_per_unit": 0.3888888888888889,
-    "major_equiv_per_unit": 0.07777777777777778,
-    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.3333333333333333,
+    "major_equiv_per_unit": 0.06666666666666667,
+    "interpretation": "0.33 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

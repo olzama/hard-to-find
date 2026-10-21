@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive to\nwelcome the New Year in a cheerful manner.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"We have a directive\" keeps the bureaucratic register, but \"in a cheerful manner\" is stiffer than the reference's \"merrily\". The clash between official form and festive content is kept, though slightly over-formalized and less dryly funny."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,7 +44,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"a Baba Yaga\" is untranslated and unglossed, and the article is slightly awkward. \"Cultivate\" keeps the managerial logic, but a non-Russian viewer may read it as folkloric and miss the 'nasty woman in the workplace' angle that the reference's \"witch\" and \"train in-house\" convey."
+          "justification": "\"Baba Yaga\" is left untranslated with no gloss, so English viewers may only get the fairy-tale reading and miss the nasty-woman-in-the-workplace type. \"Cultivate\" and \"collective\" preserve the bureaucratic logic well."
         }
       ]
     },
@@ -74,10 +67,10 @@
       "candidate": "just briefly—about forty minutes,\nno more, I think, is necessary...",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The faux-modest \"коротенько\" is rendered as a flat \"just briefly\" with no diminutive or patronizing coziness. \"No more, I think, is necessary\" is stiff and loses the self-satisfied managerial tone, so the contrast with \"forty minutes\" is weakened. The briefness-before-duration order is kept, but the punchline lands less strongly."
+          "justification": "\"just briefly\" is flat and loses the faux-modest, cozy diminutive tone of «коротенько». \"No more, I think, is necessary\" is stiff, so the smug managerial self-satisfaction is weaker, though the briefness claim still precedes \"forty minutes\" and the reversal works."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation keeps only the literal 'ready' reading. The reference lets \"he's ready\" be heard as 'drunk' with a knowing tone, but this candidate has no such hint (e.g., no \"Oh\"), and it loses the double meaning that the analysis says is the core of the joke. It also loses the line's drunk subtext."
+          "justification": "\"Ready\" is rendered only in its literal sense, with no recreation of the 'drunk/done for' subtext. The key double meaning is lost, and the exchange reads as a plain readiness check."
         }
       ]
     },
@@ -170,10 +163,10 @@
       "candidate": "and we can already see two little stars,\nthree little stars...\nFour little stars... Best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Little stars\" renders the diminutive and the silly counting well, but \"five little stars\" weakens the recognizable cognac '5-star' association, which the reference keeps with \"five stars\" and a note. English viewers are less likely to make the click into the cognac domain, so the punchline is weaker."
+          "justification": "The punchline depends on \"five stars\" clicking into the cognac frame. \"Five little stars\" with the diminutive keeps the childish counting but is not recognizable as cognac to English viewers, and there is no note or other cue. The derailment is lost and the line becomes merely odd."
         }
       ]
     },
@@ -200,13 +193,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 13,
+    "total_points": 12,
     "meaning_units": 8,
-    "penalty_per_unit": 1.625,
-    "major_equiv_per_unit": 0.325,
-    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5,
+    "major_equiv_per_unit": 0.3,
+    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

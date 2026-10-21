@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"Nagging suspicion\" is a mundane, colloquial phrase and loses the mock-heroic, theatrical register of \"терзают смутные сомнения\" (e.g., \"vague doubts haunt me\"), which is the core of the humor."
+          "justification": "\"A nagging suspicion\" is a plain, everyday phrase. It loses the mock-heroic, theatrical register of \"терзают смутные сомнения\" (\"vague doubts haunt/torment me\"), which is the core of the humor. \"Beginning to have\" also weakens the callback quality and the sense of tormenting doubts."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Medal\" replaces \"medallion\" (медальон), a small mistranslation of the stolen item."
+          "justification": "\"Medal\" replaces \"medallion\" (медальон). It is a different object and changes the item the ambassador lost, although the possessive structure correctly conveys that the items are missing."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Hello, Tsar!\" reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. The analysis explicitly requires making clear he is introducing himself, so the joke's meaning is reversed."
+          "justification": "\"Hello, Tsar!\" reads as Bunsha addressing a Tsar rather than introducing himself as the Tsar, which the analysis explicitly says must be clear. The meaning is reversed, so the drunken self-introduction joke is lost."
         }
       ]
     },
@@ -93,10 +93,10 @@
       "candidate": "Leave me be, old woman;\nI am in mourning.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"I am in mourning\" mistranslates \"в печали\" (in sorrow/sadness). Mourning implies a death and changes the meaning of the Tsar's melancholy."
+          "justification": "\"I am in mourning\" narrows \"в печали\" (in sorrow) to bereavement, which implies a death. The Tsar's general melancholy is not necessarily mourning. The archaic, regal register is otherwise preserved."
         }
       ]
     },
@@ -158,7 +158,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Everybody dance!\" is an acceptable literal rendering but is a plain command that lacks the host-like, party-leader tone of the reference's \"The floor is open to everyone!\"."
+          "justification": "\"Everybody dance!\" is accurate and punchy but loses nothing major. It reads as a plain imperative, which slightly flattens the host-like, commanding tone of Bunsha's party leadership compared with the reference's 'floor is open' phrasing. The effect largely survives."
         }
       ]
     },
@@ -180,14 +180,7 @@
         }
       },
       "candidate": "I picked the right time\nto drop in!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"I picked the right time to drop in\" is acceptable on arrival, but \"drop in\" with \"picked the right time\" shifts meaning to timing rather than a lucky choice of place, losing the burglar's delight at hitting a jackpot apartment. It also fails to convey the casual criminal-as-visitor sense."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -212,7 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"caviar\" (\"Exotic caviar... Eggplant!\"), which the analysis explicitly says to avoid because it confuses viewers and obscures the contrast between expensive caviar and cheap eggplant spread. \"Exotic\" also loses \"заморская\" (overseas)."
+          "justification": "\"Exotic caviar... Eggplant!\" calls the eggplant spread \"caviar\", which the analysis says must be avoided because it confuses viewers. The line also loses \"overseas\" (заморская), which carries the joke about a cheap spread presented as a foreign delicacy, so the satirical inversion of status symbols is weakened."
         }
       ]
     },
@@ -239,7 +232,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"three suede jackets,\" which removes the joke: Shpak forgets to increment the jacket count (a single suede jacket, then \"Three\" as a late correction). The humor of the slip is lost."
+          "justification": "The candidate gives \"three suede jackets\", but the joke is that Shpak forgets to increment the count and says only one suede jacket before catching himself with \"Three\". The inconsistency that betrays him is lost. \"Soviet-made\" is also moved to modify the cigarette cases in a way that loses the hesitant list rhythm."
         }
       ]
     },
@@ -256,26 +249,19 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Exclamation marks make the delivery emphatic, while the source/analysis describes a calm, melodic, resigned tone (trailing ellipses)."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 4,
       "minor": 3
     },
-    "total_points": 33,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as possession. The source (and NB) means these items are missing from them (they lost/were deprived of them). This reverses the grammatical/semantic relation and contradicts the analysis guidance."
+          "justification": "Candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies possession. The source and analysis make clear these phrases mean those items are missing from them (they lost them). This reverses the intended meaning and destroys the comedic implication."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate ('Very nice, Tsar! ... Hello, Tsar—very nice!') reads as Bunsha addressing a tsar, whereas the analysis requires that he is introducing himself as the Tsar (the humor comes from him repeatedly presenting himself as the monarch). This changes the pragmatic meaning and undermines the joke."
+          "justification": "The candidate reads as if Bunsha is addressing the Tsar ('Very nice, Tsar!'), whereas the analysis requires it to be clear he is repeatedly introducing himself as the Tsar (a drunken self-introduction). The impersonation/self-identification element is lost, which undermines the joke."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Walled up, demons!' reads as a direct address to demons (vocative). The NB and analysis indicate 'demons' must be the subject causing the action ('They walled me in... demons'), so the candidate misrepresents the grammatical role and meaning."
+          "justification": "The line must show demons as the grammatical subject who have walled him in ('They've walled me in... the demons'). The candidate's 'Walled up, demons!' reads as a vocative address to the demons (as if speaking to them), which flips the intended meaning and reduces the comedic misinterpretation of modern technology as sorcery."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That’s what the life-giving cross can do!') conveys the basic idea but loses the elevated, archaic, almost liturgical register of 'Behold the power of the life-giving cross!', softening the mock-religious grandeur important to the comedic effect."
+          "justification": "The candidate is more colloquial ('That’s what the life-giving cross can do!') than the high-register, archaic tone of the reference ('Behold the power...'). It preserves meaning but softens the elevated, quasi-religious register that contributes to the joke."
         }
       ]
     },
@@ -152,9 +152,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate 'What a lucky stop!' is colloquial and upbeat, but 'stop' can imply a brief visit or departure. The NB stresses he has just entered and is not leaving; the candidate's phrasing slightly risks implying the wrong directional/contextual nuance."
+          "justification": "‘What a lucky stop!’ captures the casual delight but uses an odd collocation in English for this context. A more natural idiom (e.g., 'What a lucky find!' or 'Lucky me!') would better convey Miloslavsky's tone on entering."
         }
       ]
     },
@@ -171,14 +171,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red…\nYes! Imported caviar…\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate sequence ('Imported caviar… Eggplant!') skirts the intended inversion (luxury caviars vs. cheap 'eggplant caviar'). It doesn't call eggplant spread 'caviar,' which is good, but the ellipses/linebreaks make the relationship ambiguous and slightly weakens the satirical contrast emphasized in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -193,14 +186,7 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 film cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate lists 'three suede jackets' plainly. The source's comic effect depends on the speaker's hesitation/forgetfulness ('замшевая… Три') as he fails to increment the count; the candidate smooths out that hesitation and so reduces the joke's comedic timing."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -221,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 4
+      "minor": 2
     },
-    "total_points": 19,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

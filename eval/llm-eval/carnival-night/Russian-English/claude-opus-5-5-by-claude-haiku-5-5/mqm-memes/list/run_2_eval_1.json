@@ -49,15 +49,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The source ends with a trailing ellipsis (…) that signals the speaker trailing off into self-satisfied hesitation. The candidate ends with a comma after \"more,\", which leaves the sentence unfinished and drops the trailing-off effect."
+          "justification": "\"Briefly\" is flat and does not carry the faux-modest, diminutive tone of «коротенько» that the analysis says is needed so that \"forty minutes\" lands as the punchline."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line opens with a lowercase \"briefly\" and then restates the idea twice (\"no more\" and \"I don't think we need more\"). The repetition is clumsy and weakens the crisp reversal between \"briefly\" and \"forty minutes\" that the analysis calls the punchline."
+          "justification": "The line starts in lowercase, ends on a trailing comma instead of a closing ellipsis, and repeats the idea of \"no more\" / \"need more\" in a clumsy way."
         }
       ]
     },
@@ -74,14 +74,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nOh, he's ready, all right. Been ready for ages!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The analysis identifies the double sense of «готов» (official readiness on the surface, intoxication underneath) as the core joke. The candidate keeps only the literal \"ready\" reading and does not signal the drunken subtext, so the comic ambiguity is lost. The reference also loses it, so this is a limited weakness, not a major break."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -101,13 +94,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Anybody?\" is an addition with no counterpart in the source line «Лю-ди! А… ау-у!». It adds content the source does not contain."
+          "justification": "\"Anybody?\" is an addition not present in the source, which is only \"Лю-ди! А… ау-у!\"."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!\" is delivered as a clean word without the stretched, broken vocalization («Лю-ди!») that the analysis says carries the drunken physical comedy. The stutter is only partly suggested by the ellipses."
+          "justification": "\"People!\" is not stretched or broken in the way \"Peo-ple!\" is, so the faltering, vocally unstable opening the analysis emphasizes is weaker."
         }
       ]
     },
@@ -131,16 +124,16 @@
       "candidate": "But all we have to do is take\na telescope...\nAnd look with the armed\neye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "fluency",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "\"armed eye\" is the literal calque that the analysis explicitly lists under things to avoid, because it reads as stranger and more surreal in English than the Russian. The malformed-idiom joke depends on the audience recognizing a familiar phrase, and \"armed eye\" does not clearly evoke \"unaided eye\"/\"naked eye\" as the reference does."
+          "justification": "\"Armed eye\" is the literal calque the language-specific note explicitly warns against, since it sounds stranger and more surreal in English than the Russian. The joke survives, but less elegantly than with an idiom-echoing solution such as \"aided eye\"."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The source has an exclamation mark after «телескоп!» and ends the line with «глазом!..», which carries the lecturer's rising pomp. The candidate replaces the first exclamation with an ellipsis and ends on a comma, which flattens the emphatic delivery."
+          "justification": "The line ends on a trailing comma rather than the closing ellipsis/exclamation of the source, which leaves the speech unfinished in an awkward way."
         }
       ]
     },
@@ -164,10 +157,16 @@
       "candidate": "and already we see two-star,\nthree-star...\nFour-star, and best of all,\nof course, five-star!",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The cognac cultural association (five-star cognac, the best Soviet brandy) that the analysis identifies as the point of the sudden semantic click is not made accessible. There is no translator's note, and \"five-star\" reads mainly as a hotel or generic rating, so the derailment into a different domain is lost for most viewers and the joke is reduced to a generic superlative."
+        },
+        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"two-star\" and \"three-star\" are used as bare adjectives with no noun, which reads as ungrammatical in English. The reference's \"two stars, three stars\" is the natural construction for the counting progression. The candidate's phrasing makes the counting sound less like the lecturer's trivial, meandering enumeration."
+          "justification": "The opening \"and already we see\" is an awkward connective with no clear antecedent. The source's framing \"as we can already see\" is lost, so the lecture-like counting sounds less natural as a spoken opening."
         }
       ]
     },

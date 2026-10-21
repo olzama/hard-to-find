@@ -61,14 +61,7 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nunfortunately, nothing's going to happen!\nRusso Turisto…\nObliko morale… Verstehen?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate adds 'You know,' at the start, which introduces a colloquial filler not present in the reference or analysis. That small insertion slightly weakens Gena's performed mock-sophisticated register and the clipped, parade-like listing of forms of address intended in the original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -130,10 +123,10 @@
       "candidate": "As our dear boss says,\non someone else's dime, even teetotalers\nand convalescers.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the verb ('drink') that carries the punchline: the original asserts that even teetotalers and convalescers will drink on someone else's dime. The candidate only lists the groups without stating they will drink, removing the aphoristic claim and losing the intended meaning and comic effect. It also loses the rhythmic pairing emphasized in the analysis."
+          "justification": "The candidate omits the final verb ('drink' / equivalent) that completes the proverb and provides the rhythmic punch (trezvenniki y yazvenniki drink). As a result the line reads like an unfinished clause and loses some of the comedic, proverbial force and cadence required by the analysis."
         }
       ]
     },
@@ -200,7 +193,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference's elongated, melodic sigh ('Semyo-o-on Semyonych!') conveys a specific weary musicality. The candidate's 'Semyon Semyonovich...' flattens that elongation and the performative exasperation, reducing the comedic, melodic effect described in the analysis."
+          "justification": "The original's elongated, melodic sigh ('Semyo-o-on Semyonych!') conveys weary musicality. The candidate 'Semyon Semyonovich...' preserves meaning but loses the drawn-out, musical quality that functions as a weary facepalm."
         }
       ]
     },
@@ -324,10 +317,10 @@
       "candidate": "Well, if you ever come to us in Kolyma...\nIf you ever come to us in Kolyma - you're welcome!\nNo, better you visit us!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate inserts an extra, warmer line ('If you ever come to us in Kolyma - you're welcome!') that softens the original's cultural joke about Kolyma as a threat. This addition changes the exchange's rhythm and slightly undermines Gena's reflexive interpretation of the invitation as a threat of imprisonment."
+          "justification": "The candidate inserts an extra welcoming line ('If you ever come to us in Kolyma - you're welcome!') before Gena's fearful refusal. This addition undermines the joke: Gena's response should be an immediate polite refusal born of fear of Kolyma (the prison connotation). Including an acceptance line changes the exchange's meaning and weakens the cultural punchline."
         }
       ]
     },
@@ -349,7 +342,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a plain 'coffee' instead of rendering Gena's affected pronunciation ('coff-ey' / 'kof-e') highlighted in the analysis. That loses a characterizing speech trait that signals his pretentiousness and comedic insecurity."
+          "justification": "The candidate conveys the requests (bath and coffee) but uses a plain 'coffee' rather than the affected pronunciation ('coff-ey') noted in the analysis. That pronunciation is a character marker of Gena's pretentiousness; losing it slightly reduces the comic characterization."
         }
       ]
     },
@@ -369,9 +362,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate adds hesitant filler ('No, yes...') and changes the final line to 'we'll keep looking...', which weakens the polite-but-determined stalling tactic of the original. The altered phrasing makes the seller sound less purposeful and dilutes the socio-cultural nuance of lingering in a shop as a rejection device."
+          "justification": "The candidate ends with 'No, yes... we'll keep looking...', which is awkward and internally contradictory compared with the storekeeper's clear 'Unfortunately, no.' This creates a hesitating, unclear exchange that weakens the intended shop-lingering tactic and reads less natural."
         }
       ]
     },
@@ -394,13 +387,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 10,
+    "total_points": 9,
     "meaning_units": 23,
-    "penalty_per_unit": 0.43478260869565216,
-    "major_equiv_per_unit": 0.08695652173913043,
-    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.391304347826087,
+    "major_equiv_per_unit": 0.0782608695652174,
+    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

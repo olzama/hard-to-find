@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Keeping the name 'Baba Yaga' points English viewers to the fairy-tale villainess. The second layer, the nasty, troublemaking woman type already present in workplaces, is harder to catch than with a more neutral word like 'witch'. The workplace logic ('hire', 'collective', 'bring up') does survive."
+          "justification": "\"Hire Baba Yaga\" keeps the staffing logic and \"bring one up in our own collective\" keeps the in-house cultivation idea. However, leaving the name \"Baba Yaga\" untranslated makes it read as a fairy-tale figure for many English viewers, and the social type of the nasty woman already in the workplace is less accessible than with \"witch\". \"Collective\" retains a Soviet flavour but is slightly stiff."
         }
       ]
     },
@@ -65,7 +65,14 @@
         }
       },
       "candidate": "just briefly—about forty minutes,\nmore, I think, isn’t necessary—",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The structure briefly → forty minutes is preserved, but \"just briefly\" is flat and lacks the faux-modest, cozy diminutive quality of «коротенько». The punchline still lands, but the smug, patronizing tone is weaker. The lowercase start and the dash ending are also slightly awkward."
+        }
+      ]
     },
     {
       "id": 4,
@@ -84,7 +91,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—has been ready for a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate gives only the literal 'ready' reading. The English 'ready' does not carry the 'drunk' subtext, and nothing recreates the double meaning (e.g. an added 'oh, he's ready' tone or 'been ready for ages'). The alcoholic joke the analysis identifies as the core is lost."
+        }
+      ]
     },
     {
       "id": 5,
@@ -130,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Armed eye' is the literal calque the analysis says to avoid. English speakers will not hear it as a distortion of 'unaided eye' or 'naked eye', so the mangled-idiom, mock-scientific joke is lost and the phrase just sounds strange and surreal."
+          "justification": "\"Armed eye\" is the literal calque that the English-specific note says to avoid. It does not evoke the familiar English \"unaided eye\", so the malformed-idiom joke is lost and the phrase reads as surreal rather than mock-scientific. Both the quirk and the pseudo-scholarly feel are weakened."
         }
       ]
     },
@@ -159,7 +173,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The silly counting progression and the 'five little stars' punchline are kept. But nothing signals the cognac association, such as a note or a hint that he is drunk, so most English viewers will not register the sudden shift from astronomy to brandy. The analysis flags this need."
+          "justification": "The counting progression and the 'five stars' punchline are preserved. But \"little stars\" repeated in the punchline, together with the missing cognac cue (no note or '5*' hint), means English viewers are unlikely to get the shift into the cognac frame. The line is therefore weaker as a derailment. The structure (four little stars; best of all...) also breaks the build-up slightly."
         }
       ]
     },
@@ -180,19 +194,26 @@
         }
       },
       "candidate": "Whether there is life on Mars or there is no life on Mars—\nscience does not know.\nScience is not yet in the know.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The content and the casual register of \"Science is not yet in the know\" are preserved. \"Or there is no life on Mars\" is a stiffly literal repetition and \"science does not know\" is slightly more formal than the colloquial «это науке неизвестно». The comic register is retained but a little less natural."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 7,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

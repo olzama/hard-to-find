@@ -131,7 +131,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a first line, \"Move the horse! - Get lost!\", that does not exist in the single-sentence source. This invents dialogue and a second speaker, and it changes the content and structure of the joke. The second line, \"Move the horse, I'll never see the outside if I'm wrong!\", matches the reference, but the added material is an unsupported addition."
+          "justification": "The candidate adds an invented exchange, \"Move the horse! - Get lost!\", that has no counterpart in the source, which is a single line. The added dialogue changes the content of the segment and introduces a line the speaker never says."
         }
       ]
     },
@@ -158,7 +158,7 @@
           "severity": "minor",
           "category": "other",
           "span": "",
-          "justification": "The speaker-turn dash is omitted before \"Maybe a monument?\", which is a new turn by the same questioner. The other turns are marked with dashes, so the dialogue formatting is inconsistent. The sense remains clear."
+          "justification": "Dialogue formatting is inconsistent: the speaker-turn dash is present on most lines but missing before \"Maybe a monument?\", so the turn change is less clear than in the reference."
         }
       ]
     },
@@ -315,7 +315,7 @@
           "severity": "minor",
           "category": "other",
           "span": "",
-          "justification": "The reply \"You dumb broad!\" is Tanya's turn, but it appears on a new line without a speaker dash, unlike the preceding turns. The turn structure is slightly less clear than in the reference, though the meaning is preserved."
+          "justification": "The speaker-turn dash is missing before \"You dumb broad!\", although the other turns are marked with dashes. The line is still understandable, but the turn boundary is less clear than in the reference."
         }
       ]
     },

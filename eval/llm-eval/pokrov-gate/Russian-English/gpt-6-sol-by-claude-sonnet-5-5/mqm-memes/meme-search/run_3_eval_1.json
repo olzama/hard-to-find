@@ -21,7 +21,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate flattens Velyurov's theatrical, self-dramatizing delivery. It lacks the mock-elevated 'Pray, tell me' and the emphatic 'I'll wait' tone, so the comic pomposity of the meme is weakened, though the core challenge 'Name one! Go on, I'm waiting' is preserved."
+          "justification": "The candidate is flat and clipped. It loses the high-flown, self-dramatizing theatrical tone of Velyurov's defiant challenge (no 'Pray, tell me'), so the comic self-presentation is weaker, though the challenge and 'I'm waiting' are preserved."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Name one' drops the plural/insistent 'назови, нет, я жду' build-up (the self-correcting repeated demand), slightly weakening the rhetorical escalation."
         }
       ]
     },
@@ -43,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds 'Arkady Varlamovich', an address not in the source, which changes the line into a formal address to a specific person. This undermines Kostik's casual, ironic comradely register that deflates Velyurov's pathos."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'How about a little drink?' loses the playful, rhetorical 'А не хлопнуть ли нам' quality (toss back a quick one) and sounds blander."
+          "justification": "The candidate adds an address ('Arkady Varlamovich') that is not in the source, and drops the playful 'не хлопнуть ли' suggestion of a quick toss-back. 'A little drink' is bland, so the ironic, convivial register that deflates Velyurov's pathos is lost."
         }
       ]
     },
@@ -76,7 +76,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses the sarcastic hissing/drawn-out emphasis ('выс-с-сокие') and the exclamatory force, ending with a flat period. 'Such lofty... lofty relations' reads as neutral and misses the sarcastic, recurring refrain character; the repetition of 'lofty' replaces the sarcastic stretch rather than reproducing it."
+          "justification": "The candidate uses a literal noun-phrase ('Such lofty... lofty relations') that the analysis warns against. The repetition replaces the sarcastic hissing 'выс-с-сокие' and the sneering exclamatory delivery, so the sarcasm and meme-like punch are lost. The flat full stop adds to this."
         }
       ]
     },
@@ -98,7 +98,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Live by our conscience' is literal but loses the soldierly, duty-oriented fatalism of 'do your duty', and the pointed absurdity of framing the confinement as moral duty is weaker. Changing the general maxim to 'we' also shifts the maxim's impersonal bluntness, though meaning is broadly preserved."
+          "justification": "'Live by our conscience' is a literal rendering of 'для совести'. It is understandable, but it loses the 'duty' sense and the blunt soldierly maxim feel that exposes the absurdity of moral duty replacing happiness; 'for pleasure' is also slightly off from 'for joy'."
         }
       ]
     },
@@ -138,9 +138,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Chef!' is a neutral standalone noun, which the analysis explicitly flags as unnatural for this context. It does not carry the sarcastic, accusatory sting of 'Some cook you are!' and reads as praise or a call to a cook rather than a domestic insult."
+          "justification": "'Chef!' is a literal standalone noun, which the analysis flags as unnatural in English here. It does not work as a scornful domestic insult and loses the sarcastic 'Some cook you are!' sense."
         }
       ]
     },
@@ -162,14 +162,7 @@
         }
       },
       "candidate": "Natürlich.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The German word is kept, which preserves the character quirk. The final period instead of an exclamation mark makes it less automatic and eager, a slight weakening of the comic obedient tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -184,7 +177,14 @@
         "language_specific": {}
       },
       "candidate": "Cut the damn thing out.\nBefore peritonitis sets in.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Splitting into two sentences and using 'Cut the damn thing out' is natural and keeps the crude surgical verdict, but 'sets in' is slightly more clinical and the abrupt 'don't wait' imperative is weakened."
+        }
+      ]
     },
     {
       "id": 9,
@@ -221,10 +221,10 @@
       "candidate": "He's my cross to bear!\nAnd I'll bear it.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes 'Это мой крест' (this) to 'He's my cross to bear', making Khobotov himself the cross. This shifts the meaning, and in the original the line is hyperbolic self-sacrifice said before Lyudochka. 'And I'll bear it' also loses the possessive 'mine alone' emphasis, weakening the manipulative martyrdom."
+          "justification": "The idiom 'cross to bear' is correctly kept, but changing 'This' to 'He's' shifts the referent to Khobotov, and 'And I'll bear it' loses the 'mine alone' martyrdom emphasis."
         }
       ]
     },
@@ -251,21 +251,21 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits 'угловатая' (sharp edges) and replaces it with 'misfit', changing the self-characterization. The affected, coy list of three traits is reduced, though the mannered tone and 'bundle of contradictions' work naturally."
+          "justification": "'Misfit' is added and 'угловатая' is dropped, so one of the three self-descriptions is replaced. The affected, coquettish fluency still comes across through 'such a bundle of contradictions', so the effect is only slightly weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 3,
+      "minor": 6
     },
-    "total_points": 25,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

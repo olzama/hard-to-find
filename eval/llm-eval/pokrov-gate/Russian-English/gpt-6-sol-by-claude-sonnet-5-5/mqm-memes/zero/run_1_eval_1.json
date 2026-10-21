@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The grandiloquent, theatrical self-dramatization is lost. 'Name one!' and 'No, I'm waiting.' are flat and curt, with no mock-elevated 'Pray, tell me' and no sense of the actor's posturing. 'No, I'm waiting' also misrenders the demanding 'Go on, I'll wait!'. The meme-like defiant tone is weakened."
+          "justification": "The theatrical, high-flown self-dramatization of Velyurov is flattened into a plain, clipped challenge. 'Name one!' and 'No, I'm waiting' lose the grandiloquent pleading and the mock-triumphant 'Go on, I'll wait!' that make the line a meme of comic self-defense."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Name one' narrows the demand from naming people (a defiant 'name them') and the abrupt 'No, I'm waiting' reads oddly, as it does not clearly convey the challenge to produce names."
         }
       ]
     },
@@ -43,7 +49,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'How about a little drink?' is serviceable but loses the playful, slightly archaic and ironic 'А не хлопнуть ли...' flavor and the colloquial 'toss back a quick one' of the reference. The lowercase start is also a minor formatting slip."
+          "justification": "'How about a little drink?' is a serviceable suggestion, but it loses the playful, mock-formal 'А не хлопнуть ли...' construction and the colloquial 'рюмашка' flavor of a trickster deflating the pathos. It is also lowercase and plainer than 'toss back a quick one'."
         }
       ]
     },
@@ -67,10 +73,10 @@
       "candidate": "Such elevated... elevated relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The sarcastic, drawn-out 'выс-с-сокие' hissing is not rendered, and the closing period flattens the exclamatory sarcastic refrain. 'Such elevated relations' keeps the meaning but is a weaker, less biting version of the iconic line."
+          "justification": "The line is rendered as a flat noun phrase ('Such elevated... elevated relations.') with no sarcastic hissing or stretched sound (the 'выс-с-сокие' effect). It also drops the exclamatory, biting tone, so the sarcasm and refrain quality are weakened. 'Elevated relations' is also somewhat literal, the pattern the note warns about."
         }
       ]
     },
@@ -90,9 +96,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'For conscience's sake' is literal and slightly stilted. It misses the blunt, soldierly 'do your duty' directness. It also turns the maxim into 'we', which reduces its general, aphoristic pronouncement."
+          "justification": "'Conscience's sake' keeps the meaning of 'для совести', but it is archaic and slightly stilted. It loses the blunt, soldierly, duty-based maxim feel of the generic 'you live to do your duty', and the shift to 'We' makes it less of a universal pronouncement."
         }
       ]
     },
@@ -134,7 +140,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The bare noun 'Cook!' is the literal standalone-noun rendering the analysis flags as unnatural in English. It loses the sarcastic insult force of 'Some cook you are!'."
+          "justification": "The bare 'Cook!' is exactly the literal standalone-noun rendering the note flags as unnatural in English. It lacks the scornful, idiomatic sting of 'Some cook you are!', so the commanding, accusatory tone and comic effect of using a neutral professional term as an insult are lost."
         }
       ]
     },
@@ -211,7 +217,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The meaning is changed: 'He's my cross to bear' makes Khobotov the cross, whereas the source says 'This is my cross', i.e. the situation or burden. The idiom is split into 'cross to bear! I must carry it', which is redundant and weakens the 'mine alone' martyr hyperbole."
+          "justification": "The meaning is distorted: the cross is Margarita Pavlovna's own burden, but 'He's my cross to bear' makes Khobotov the cross and renders 'нести его мне' as 'I must carry it', which splits and muddles the idiom. The line loses the self-pitying martyrdom ('mine alone') and the dramatic exaggeration for Lyudochka's benefit."
         }
       ]
     },
@@ -238,21 +244,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The affected, drawn-out mannered speech is mostly flattened: the repeated 'вся такая' pattern is lost, and 'ungainly' replaces the 'angular/sharp edges' idea. 'So full of contradictions' is acceptable, but the parodic coquettish rhythm is weaker."
+          "justification": "The meaning is conveyed and 'angular' is avoided, but the three-part affected self-portrait loses the repeated 'вся такая' mannered, coquettish rhythm. 'Ungainly' and the added 'Oh' and 'person' make it sound more neutral and less like a playful, affected speech pattern."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 4,
       "minor": 4
     },
-    "total_points": 19,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

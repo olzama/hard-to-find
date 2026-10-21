@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as possession. The analysis explicitly notes these items are no longer possessed (they were lost/stolen/were with them before) — the Russian construction indicates the items were with those people (and are now missing), not that they currently have them. This reverses the intended meaning and undermines the callback to the theft."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which reads as possession. The source (and NB) indicate these people no longer have the items (they've been robbed/are missing), so the candidate reverses the intended meaning and loses the humourous accusatory listing of who has what missing item."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should make clear Bunsha is introducing himself as 'the Tsar' (absurd self-identification). The candidate reads like someone addressing a Tsar ('Very nice, Tsar! ... Hello, Tsar!'), losing the crucial gag that he keeps presenting himself as the Tsar. That change undermines the era-clash and impersonation humor described in the analysis."
+          "justification": "The original line is Bunsha repeatedly introducing himself as 'the Tsar.' The candidate reads as someone addressing a Tsar ('Very nice, Tsar!'), not self-introduction. This contradicts the analysis note and the core joke (the absurd, repetitive self-introduction), so the line's pragmatic function is altered."
         }
       ]
     },
@@ -90,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "Walled up!\nWalled up, demons!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "NB specifies that 'demons' are the subject (they walled him in), not an addressee. The candidate's 'Walled up, demons!' reads as though the Tsar is addressing demons, which reverses the syntactic/semantic role and undermines the intended comedic misunderstanding of technology as demonic action."
+        }
+      ]
     },
     {
       "id": 6,
@@ -110,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference uses an elevated, archaic exclamation ('Behold the power of the life-giving cross!'). The candidate's 'So that's what the life-giving cross can do!' conveys the meaning but in a more colloquial, modern register, which slightly weakens the Tsar's high-register, reverent tone."
+          "justification": "The candidate preserves the meaning but uses a colloquial phrasing ('So that's what the life-giving cross can do!') that softens the archaic, high-register tone central to the joke (the Tsar's solemn, quasi-biblical conviction). This is a stylistic weakening rather than a loss of meaning."
         }
       ]
     },
@@ -159,10 +166,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns against calling eggplant spread 'caviar' because the joke hinges on contrasting real caviar with cheap 'eggplant caviar' as a Soviet irony. The candidate's 'Imported caviar... Eggplant!' reads as if the eggplant is being presented as imported caviar, which will confuse viewers and collapses the satirical inversion. This misrepresents the intended food/status joke."
+          "justification": "The candidate's 'Imported caviar... Eggplant!' keeps the contrast but omits signalling that the eggplant item is the cheap 'eggplant spread' (a Soviet canned product). Without the explicit 'spread' or similar tag, viewers may not get the intended inversion that makes the eggplant a low-status analogue to caviar."
         }
       ]
     },
@@ -182,9 +189,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humor depends on Shpak's fumbling recounting and the comic timing where he forgets to increment the count (he trails off: 'jacket... suede... Three'). The candidate's straightforward list 'three suede jackets' removes that comic slip and the escalating exaggeration, significantly damaging the joke and character trait shown in the analysis."
+          "justification": "The humor hinges on Shpak initially saying 'куртка… замшевая…' (a suede jacket...) then belatedly concluding with 'Три'—the hesitation and self-betrayal. The candidate lists 'three suede jackets' directly, removing the incremental, self-contradicting reveal and thus destroys the comedic mechanism."
         }
       ]
     },
@@ -201,14 +208,7 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me too!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and rhythm but adds a final 'too' ('And they'll cure me too!') which slightly alters the original's melodic, resigned repetition and the final placement of 'me'. This is a small rhythmic/register change that mildly affects the original's tone."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {

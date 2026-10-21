@@ -191,19 +191,26 @@
         }
       },
       "candidate": "Oh, I am so utterly awkward...\njust all sharp edges...\nso entirely contradictory!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate renders «угловатая» as \"just all sharp edges,\" which is a literal image that reads awkwardly in English and weakens the coquettish, self-mocking tone. A more idiomatic phrasing would preserve the playful insecurity without the stilted literalness."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 0
+      "minor": 1
     },
-    "total_points": 0,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.0,
-    "major_equiv_per_unit": 0.0,
-    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

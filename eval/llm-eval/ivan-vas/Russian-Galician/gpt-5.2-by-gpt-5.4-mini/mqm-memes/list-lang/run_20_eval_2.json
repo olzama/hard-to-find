@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador currently have the items ('ten'), which contradicts the required meaning that these items have disappeared from them. This breaks the setup of Bunsha’s suspicion."
+          "justification": "The candidate reverses the key point in the NB: it says Shpak and the ambassador still have the items, whereas the joke depends on them having lost them. This damages the callback and the meaning of the line."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The line is supposed to show Bunsha repeatedly introducing himself as the tsar, but the candidate’s first segment ('Moito gusto, tsar!') can read as addressing the tsar rather than saying 'I am the tsar'. This weakens the intended comic confusion and misses the NB guidance."
+          "justification": "The greeting is understandable and preserves the repetitive self-introduction, but 'Moito gusto' sounds somewhat less mundane and bureaucratically Soviet than the analysis suggests, slightly weakening the comedic clash of registers."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is understandable, but it is less elevated and less archaic than 'estou aflixido', slightly weakening Ivan’s regal, mock-classical tone."
+          "justification": "'Estou triste' conveys the basic meaning, but it is less elevated and archaic than 'estou aflixido', so the mock-regal melancholy is slightly weakened."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Mira o que fai...' is a bit more colloquial than the reference's exclamatory 'Velaquí o que obra...'; it slightly softens the mock-biblical, ceremonial tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -151,10 +144,10 @@
       "candidate": "Mira ti que ben entrei!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Mira ti que ben entrei!' can sound like 'look how well I came in,' which is acceptable but less natural and less clearly a jubilant reaction to having just entered than the reference's immediate, triumphant discovery."
+          "justification": "'Mira ti que ben entrei!' can sound like he is commenting after having gone in, which risks suggesting a completed or past action rather than the immediate cheerful realization upon entering. The analysis specifically warns against misleading exit/entry interpretation."
         }
       ]
     },
@@ -176,13 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'Заморская икра' as 'Caviar de ultramar' but omits the crucial clarification that it is 'de berenxena' in the same phrase structure, making the punchline incomplete and harder to understand."
-        },
-        {
-          "severity": "major",
-          "category": "terminology",
-          "span": "",
-          "justification": "Using 'Caviar de berenxena' violates the analysis note not to call the eggplant spread 'caviar'; this risks confusing viewers about the joke’s Soviet-food context."
+          "justification": "The candidate omits the essential joke structure by not clearly rendering 'баклажанная' as eggplant-based spread; 'Caviar de ultramar... De berenxena!' is incomplete and can read as if the eggplant item itself is still caviar, which the analysis says to avoid."
         }
       ]
     },
@@ -201,16 +188,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits the three suede jackets and the growing-count joke is distorted: the list no longer preserves the exact comic escalation, and the final 'tres' lacks the same rhythmic buildup as the source/reference."
-        },
-        {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'Pitilleiras' is a less fitting choice than the reference's more idiomatic item for the period and social register, slightly weakening the list of prestige goods."
+          "justification": "The count and list are preserved, but the compact numeric formatting ('3 magnetófonos') is a bit less natural in subtitle style than a fully verbal list, slightly reducing the rhythm of the comic enumeration."
         }
       ]
     },
@@ -227,26 +208,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti han curarte!\nE a ti tamén han curarte!\nE a min han curarme!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Han curarte' is grammatical, but it sounds more imperative and less resigned/lullaby-like than the reference's calm 'vante curar', slightly reducing the line’s hysterical, soothing fatalism."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 30,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

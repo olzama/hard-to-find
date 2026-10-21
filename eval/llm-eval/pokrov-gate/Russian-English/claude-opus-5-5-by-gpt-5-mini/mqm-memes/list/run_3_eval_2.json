@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase \"knock back a little glass\" is understandable but slightly awkward and non-idiomatic in English; \"knock back a quick one\" or \"have a little drink\" would read more naturally. The lowercase start is a formatting quirk but does not affect meaning."
+          "justification": "The phrasing \"knock back a little glass\" is slightly awkward and non-idiomatic in English; a more natural colloquial phrasing would be \"knock back a quick one\" or \"have a little shot.\" The casual, jokey function is preserved, but the wording is a bit clumsy."
         }
       ]
     },
@@ -58,7 +58,14 @@
         }
       },
       "candidate": "Lofty... Lo-o-ofty relations.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Using \"relations\" reproduces a literal noun-phrase construction the analysis warned against; it reads less like a natural sarcastic exclamation in English. The stretched \"Lo-o-ofty\" tries to mimic the original's stutter, but the noun choice weakens the idiomatic, mocking register of the line."
+        }
+      ]
     },
     {
       "id": 4,
@@ -78,7 +85,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the fatalistic sentiment but shifts nuance: \"we live by conscience\" sounds more like being guided by conscience than the colder, duty-focused register of \"you live to do your duty.\" The line is slightly less aligned with the soldierly, pragmatic voice described in the analysis."
+          "justification": "\"We don't live for joy, we live by conscience\" preserves the maxim's meaning but the phrasing is a bit stiff and slightly off-idiom (\"live by conscience\" is less natural than \"live to do your duty\"/\"live for duty\"). The soldierly bluntness is retained but the target-language register is marginally weakened."
         }
       ]
     },
@@ -115,14 +122,7 @@
         }
       },
       "candidate": "Master chef!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Master chef!\" is idiomatic English but carries a more jocular or complimentary modern tone than the caustic, dismissive bite of the original exclamation. It softens the intended imperious, mocking rebuke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -162,7 +162,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the brusque surgical imperative as conversational phrases (\"Cut it out, to hell with it!\"), losing the abrupt medical/operative order that creates the comic shock in context. Additionally, \"peritonitises\" is an unnatural and incorrect pluralization, producing awkwardness and inaccuracy in medical terminology."
+          "justification": "The candidate's first clause \"Cut it out, to hell with it!\" reads as an injunction to stop an action (\"cut it out\") rather than the surgical imperative to operate immediately in a coarse register. Additionally the plural \"peritonitises\" is nonstandard and awkward. These changes distort the original medical farce and blunt the abrupt, clinical order that creates the comedic shock."
         }
       ]
     },
@@ -199,7 +199,14 @@
         }
       },
       "candidate": "This is my cross!\nAnd I'm the one to bear it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"This is my cross! And I'm the one to bear it.\" conveys the meaning but splits and literalizes the English idiom rather than using the natural fixed phrase \"a cross to bear.\" The manipulative, hyperbolic tone remains, but the idiomatic phrasing is slightly clumsy."
+        }
+      ]
     },
     {
       "id": 11,
@@ -225,13 +232,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 3
+      "minor": 4
     },
-    "total_points": 8,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

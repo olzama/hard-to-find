@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "De novo asáltanme escuras sospeitas… A Shpak desapareceulle o magnetófono; ao embaixador, o medallón.\nU Shpak desapareceulle o magnetófono; ao embaixador, o medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The duplicated second line makes the subtitle feel cluttered and redundant rather than a clean one-line joke; the meaning is preserved, but the presentation is less elegant."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -130,10 +123,10 @@
       "candidate": "Pois si que dei cun bo sitio!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The phrase is misleading: the analysis notes he has just entered and is reacting to finding the apartment, but 'dei cun bo sitio' can sound like he has 'ended up in a good place' in a way that weakens the immediate, cheerful discovery. It does not cleanly convey the comic satisfaction of spotting the valuables upon entering."
+          "justification": "The line is understandable, but 'dei cun bo sitio' is a bit more generic than the reference’s delighted reaction to having stumbled into the right place, so the comic self-satisfaction is slightly softened."
         }
       ]
     },
@@ -152,10 +145,10 @@
       "candidate": "Caviar negro, vermello… Si! Manxar de ultramar… de berenxena!\nDe berenxena!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'De berenxena!' repeats the line and adds an odd, isolated fragment that is not present in the source. The joke depends on the final reveal of eggplant spread as a mock-foreign delicacy, and the extra repetition disrupts the punchline."
+          "justification": "The duplicated final line 'De berenxena!' is awkward and unnecessarily broken across lines. It does not distort the joke, but it makes the subtitle less smooth and readable."
         }
       ]
     },
@@ -177,7 +170,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate breaks the line into fragments that distort the joke structure and omit the escalating list effect. The final 'tres' is detached from the jacket mention, weakening the punchline about Shpak forgetting to adjust the count."
+          "justification": "The candidate repeats and fragments the list in a way that muddles the joke about Shpak’s escalating inventory. The final 'tres' count is no longer delivered cleanly, so the comic effect of the forgotten jacket count is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The extra line breaks and repeated fragments make the subtitle look clumsy and less natural as a subtitle, even though the basic items are recognizable."
         }
       ]
     },
@@ -194,26 +193,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti vante curar… e a ti tamén te van curar… e a min vanme curar…\nE a ti tamén te van curar…\nE a min vanme curar…",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate repeats lines in a way that distorts the original rhythm and escalation. The source is a single sequence of three different 'they will cure you/me' statements; duplicating parts of it changes the comic cadence and muddles the shared-resignation effect."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 1
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 21,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

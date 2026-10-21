@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto greet the New Year merrily.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is an instruction to greet the New Year merrily\" keeps the directive/bureaucratic register and the clash with festive content. \"Greet\" is slightly less natural than \"celebrate\", and \"there is an instruction\" is a bit stiffer than \"we have our instructions\", but the joke is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Hire a Baba Yaga\" and \"cultivate one within our own collective\" keep the staffing/workplace logic. However, leaving \"Baba Yaga\" untranslated without any hint of the 'nasty woman' type makes the social-type reading less accessible to English viewers."
+          "justification": "\"Baba Yaga\" kept as a foreign name leans on the fairy-tale figure and the social type (nasty woman in the workplace) is less accessible to an English audience; \"hire\" and \"cultivate\" do preserve the workplace/staffing logic, so the effect is weakened only slightly."
         }
       ]
     },
@@ -77,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key faux-modesty contrast is weakened: \"just briefly\" is flat and loses the cozy diminutive \"коротенько\". The candidate also turns \"I think we don't need more\" into \"I think that's enough\", which shifts the meaning from restraint to sufficiency and blunts the smug understatement the punchline depends on."
+          "justification": "The faux-modest diminutive sense of «коротенько» is rendered as plain \"just briefly\", and \"I think that's enough\" shifts the meaning from \"no more than needed\" to a flat verdict. The self-satisfied understatement that makes \"forty minutes\" a punchline is weakened, though the briefness-before-duration order is kept."
         }
       ]
     },
@@ -101,9 +94,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The scare quotes around \"ready\" and the \"been ready for a while\" phrasing hint at the drunk reading, preserving the double meaning. However, the quotes are somewhat heavy-handed and make the implication explicit instead of letting the ambiguity work."
+          "justification": "The scare quotes around \"ready\" and the exclamation mark signal the drunk subtext explicitly rather than letting the double reading emerge, and \"been ready for a while\" is slightly clipped. The ambiguity is still recreated, so the damage is small. The dialogue dash is also missing on the first line."
         }
       ]
     },
@@ -124,14 +117,7 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... A-woo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The stretched, faltering shape (\"Peo-ple!.. Ah... A-woo!\") preserves the drunken vocal instability. \"A-woo\" reads more like a howl than the \"ау-у\" calling-out cry, which is slightly off."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -155,10 +141,10 @@
       "candidate": "But it’s enough for us to take a telescope...\nAnd look with an “armed” eye...",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the language-specific note explicitly says does not work in English (too surreal). It misses the echo of \"unaided eye\" that conveys a mangled, mock-scientific idiom, so the joke of a familiar phrase being wrongly upgraded is lost. The scare quotes do not fix this."
+          "justification": "The literal \"armed eye\" is the calque the analysis warns about: it sounds stranger and more surreal in English than the Russian and does not echo the familiar \"unaided eye\" idiom. The scare quotes partly flag the oddity, and the mock-scientific malformed idiom is still recognizable."
         }
       ]
     },
@@ -184,10 +170,10 @@
       "candidate": "and now we see two little stars, three little stars...\nFour little stars—best of all, of course, five little stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is broken: \"two little stars, three little stars... Four little stars—best of all, of course, five little stars!\" Four is merged into the punchline, losing the buildup of 2-3-4 followed by a sudden snap to five. The lecture-absurdity-to-cognac shift is weakened, and \"little stars\" sounds childish without the cognac cue. No note or cue about the 5-star cognac is provided."
+          "justification": "The counting progression is kept and the \"five little stars\" punchline works. However, \"little stars\" for each item and the rearranged line break (\"Four little stars—best of all...\") make the cognac association less clear, and the text lacks the \"5*\" cue or a note, so the shift into the cognac frame is less likely to land for English viewers."
         }
       ]
     },
@@ -208,26 +194,19 @@
         }
       },
       "candidate": "Whether there is life on Mars, whether there isn’t\nlife on Mars—science doesn’t know.\nScience hasn’t been briefed on the matter yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps the colloquial register and the personified science (\"hasn't been briefed on the matter yet\"), which is a good equivalent of \"не в курсе дела\". \"Science doesn't know\" is a bit flatter than \"unknown to science\", but the comic effect largely survives."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

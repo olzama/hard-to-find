@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate states that Shpak and the ambassador still have the objects, but the line means they are missing them; this reverses the joke's factual point and breaks the callback."
+          "justification": "The candidate reverses the key factual meaning of the joke: it says Shpak and the ambassador still have the items, whereas the line means they have been robbed of them."
         }
       ]
     },
@@ -40,16 +40,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line is understandable, but the opening does not clearly preserve that Bunsha is introducing himself as the tsar rather than addressing someone as 'tsar', which weakens the intended comic confusion."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The punctuation and phrasing are a bit flatter and less repetitive than the source, slightly reducing the awkward, drunken insistence of the original."
+          "justification": "The wording no longer clearly shows that Bunsha is introducing himself as the tsar; the repeated formulas sound like he is simply addressing a tsar, which breaks the intended comic effect."
         }
       ]
     },
@@ -81,7 +75,14 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, estou de pena.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Estou de pena\" is understandable, but it is less elegant and less archaically regal than the reference's \"que estou aflixido,\" slightly weakening the mock-royal tone."
+        }
+      ]
     },
     {
       "id": 5,
@@ -131,7 +132,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'A bailar todo o mundo!' is natural, but it loses the blunt, commanding theatrical snap of the imperative in the source."
+          "justification": "The candidate is natural, but \"A bailar todo o mundo\" is a bit less punchy and imperative than the reference's direct command to everyone to dance."
         }
       ]
     },
@@ -153,7 +154,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Vaia ben que entrei!' can imply 'good that I came in' but sounds more stative and less like the excited discovery of having just arrived; it weakens the immediate, cheerful reaction to entering the apartment."
+          "justification": "\"Vaia ben que entrei\" can imply a neutral or satisfied arrival, but it does not clearly convey the self-satisfied sense of having landed in the right place after entering the apartment, which is the punchline."
         }
       ]
     },
@@ -175,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'caviar' for the eggplant item, which the analysis explicitly says should be avoided because it confuses the joke about cheap eggplant spread being treated as a rare delicacy."
+          "justification": "By omitting the 'eggplant' component from the main line and separating it awkwardly, the candidate weakens the specific joke about 'overseas caviar' being eggplant spread, making the reference less clear."
         }
       ]
     },
@@ -195,15 +196,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The inventory is compressed and altered: '3 cámaras' and '3 pitilleiras' are less specific than the source's film cameras and domestic cigarette cases, so some of the prestige-item satire is weakened."
-        },
-        {
-          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The list format is somewhat abrupt, and 'chaqueta de camurza: tres' is less smooth than the escalating enumeration in the source."
+          "justification": "The clipped formatting and noun phrase style are understandable, but the line is less smooth and less comic than a spoken enumeration; it reads more like notes than a boastful complaint."
         }
       ]
     },
@@ -225,27 +220,21 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the important distinction that the speaker is resignedly saying everyone will be 'cured' in a psychiatric sense; 'curarán' is acceptable, but the repetition of the exact same form for all three lines slightly flattens the escalating self-inclusion and comic calm."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The tone is a bit more generic and less melodic than the source, which reduces the calm, eerie resignation of the original line."
+          "justification": "The repetition is preserved, but the candidate drops the nuance of 'you will be cured too' versus the more resigned, melodic original; it sounds more like a blunt statement of treatment than the comic shared-delusion effect."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 7
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 22,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

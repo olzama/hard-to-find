@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies current possession. The analysis explicitly notes these phrases mean they lost those items (they've been deprived), not that they possess them. This reverses the meaning and undermines the callback joke about items going missing."
+          "justification": "The candidate translates 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies possession. The analysis explicitly notes these items are missing (they lost/were deprived of them). Rendering them as possessions reverses the intended meaning and undermines the joke about stolen/lost goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line must make clear Bunsha is introducing himself as the Tsar (a comic self-identification), not addressing someone called the Tsar. The candidate reads like repeated addresses to a person ('Very pleased, Tsar! ... Hello, Tsar!'), which misrepresents the original comic premise and the analysis guidance."
+          "justification": "The original and analysis make clear Bunsha is introducing himself as 'the Tsar' (a comic self-introduction), not addressing a tsar. The candidate lines ('Very pleased, Tsar! ... Hello, Tsar!') read like salutations addressed to a Tsar rather than self-introductions, so they fail to preserve the crucial comic premise described in the analysis."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Leave me alone, old woman, I’m grieving.' softens and modernizes the high-register, archaic tone of the original ('Leave me, old woman, I am in sorrow'). The meaning is preserved, but the regal/poetic flavor emphasized in the analysis is reduced."
+          "justification": "The candidate 'Leave me alone, old woman, I’m grieving.' modernizes and softens the archaic, high-register tone ('Leave me, old woman, I am in sorrow') that helps underline the 16th-century regal voice. The meaning is preserved, but the elevated/antique register is weakened."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The original makes 'demons' the subject who walled him in ('They've walled me in... walled me in, the demons'). The candidate's punctuation ('Walled up, demons!') creates ambiguity and can read as addressing demons rather than accusing them as the agents, slightly altering the intended meaning."
+          "justification": "The analysis stresses that 'demons' are the subject who have walled him in (i.e., 'They've walled me in... the demons!'). The candidate's 'Walled up! / Walled up, demons!' is ambiguous and can be read as addressing demons rather than blaming them as the perpetrators; the agentive nuance is therefore weakened."
         }
       ]
     },
@@ -119,14 +119,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross can do!' conveys the basic idea but loses the elevated, archaic, declarative register ('Behold the power of the life-giving cross!') that the analysis highlights as part of the joke (regal religious conviction in a modern setting)."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -141,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate 'Everyone dance!' communicates the imperative party mood but is slightly awkward in English rhythm. A more natural rendering ('Everyone, dance!' or 'Everybody dance!') would better capture the rousing, chaotic command in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -183,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate presents 'Exotic caviar... Eggplant!' which risks implying eggplant spread is being labeled as 'caviar.' The analysis warns explicitly not to call eggplant spread 'caviar' because that will confuse viewers; the comic inversion depends on eggplant spread being distinct and clearly cheap/common, not another kind of caviar."
+          "justification": "The analysis warns strongly not to call the eggplant spread 'caviar' because the joke is that cheap 'eggplant caviar' is being treated as an exotic delicacy. The candidate's 'Exotic caviar... Eggplant!' still labels the eggplant as a form of caviar, which will confuse the audience and destroys the satirical inversion that makes the line funny."
         }
       ]
     },
@@ -202,10 +188,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The humor depends on Shpak's self-contradictory incrementing/counting (he lists items and then the number grows). The candidate presents a straightforward list ending with 'three suede jackets,' which removes the gag of the hesitant recounting and the comedic reveal. This significantly weakens the intended comic effect."
+          "justification": "The humour depends on Shpak's hesitating self-contradiction (listing items and then failing to increment the count when mentioning the suede jacket). The candidate presents the list flatly ('three suede jackets'), which preserves the factual content but flattens the comic timing and the revealing slip that makes the original line funny."
         }
       ]
     },
@@ -227,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 4
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

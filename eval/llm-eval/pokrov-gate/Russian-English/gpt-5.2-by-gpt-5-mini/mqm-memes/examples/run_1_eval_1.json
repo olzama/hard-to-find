@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and the teasing element, but it tones down the high-flown, self-dramatic theatricality signalled in the analysis (\"Pray, tell me\" → \"Name one! No, I'm waiting\" is more prosaic and less grandiloquent)."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate translates literally and loses the comic stutter/rhetorical hesitation and sarcastic bite of the reference (which uses a stretched stutter \"e-v-volved\"). The repetition \"Elevated... elevated relations\" is flatter and less characterful than the intended refrain."
+          "justification": "The candidate preserves the sarcastic summary but loses the playful stutter and theatrical emphasis that make the line a memorable refrain ('highly e-v-volved'). Repeating 'Elevated... elevated relations.' reads flatter and less characterful."
         }
       ]
     },
@@ -77,10 +70,10 @@
       "candidate": "People don’t live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"People don’t live for joy—they live for conscience\" is a literal phrasing that reads awkwardly in English and misses the idiomatic soldierly fatalism of the reference (\"You don't live to be happy, you live to do your duty\"). The candidate is understandable but less natural and less idiomatic."
+          "justification": "The candidate renders 'совести' as 'conscience', shifting the sense from the social/militaristic idea of duty ('you live to do your duty') to a more introspective moral sense. This changes the speaker's practical, fatalistic register central to the line's meaning."
         }
       ]
     },
@@ -97,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "Just note—I didn't suggest it.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Just note—I didn't suggest it.\" conveys the intended meaning but is less idiomatic and less performatively defensive than the reference's \"For the record: I am not the one who suggested it!\", slightly weakening the character's classic disclaiming flourish."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -119,7 +105,14 @@
         "language_specific": {}
       },
       "candidate": "Culinary genius!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The original functions as a sharp ironic rebuke using a neutral professional noun as an insult. 'Culinary genius!' risks reading as either bland praise or an undercutting sarcasm, which lessens the abrupt, bossy bite of the original exclamation."
+        }
+      ]
     },
     {
       "id": 7,
@@ -149,7 +142,14 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, damn it.\nNo waiting for peritonitis.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the medical-farce contrast but softens the bluntness of the imperative ('Cut it out, damn it' vs. 'Cut it the hell out') and splits the sentence, reducing the single brutal punch of the original line."
+        }
+      ]
     },
     {
       "id": 9,
@@ -164,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that's petty!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate misspells/transliterates the character's name as \"Khabotov\" instead of the correct/expected form (\"Khobotov\"), introducing an incorrect proper name. The rest of the line is fine, but the name error is a significant inaccuracy for character identity."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -191,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits and literalizes the idiom (\"This is my cross! / And I'm the one to bear it.\"), which weakens the fixed English idiom \"a cross to bear\" and slightly reduces the manipulative grandiosity of the original phrasing."
+          "justification": "The candidate splits the English idiom ('a cross to bear') into a literal 'This is my cross!' plus explanation, which the analysis explicitly warns against. The phrasing is understandable but weakens the idiomatic manipulative tone."
         }
       ]
     },
@@ -213,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses \"angular,\" which the analysis warned against as a too-literal rendering of «угловатая». This makes the self-description sound odd and less idiomatically natural in English; the rest captures the fragmented, self-deprecating rhythm but the lexical choice is awkward."
+          "justification": "Using 'angular' is a literal carryover of 'угловатая', which the analysis advises against because it reads oddly in English. The line therefore sounds more literal and less idiomatically playful than the reference."
         }
       ]
     }
@@ -221,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 11,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

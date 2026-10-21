@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses the diminutive, faux-modest tone of «коротенько» that sets up the comic reversal; rendering it simply as “briefly” flattens the jaunty, patronizing voice. The phrasing (“more, I think, is not necessary”) is also awkward and disrupts the snappy rhythm that helps the punchline land."
+          "justification": "The candidate loses the diminutive, faux-modest flavor of «коротенько» that makes the forty-minute estimate comic. The phrasing is also slightly awkward and stilted in English, weakening the smug, tone-deaf managerial voice that should precede the punchline."
         }
       ]
     },
@@ -89,7 +89,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word “давно” untranslated (“ready—ready давно!”), which is a clear error. It also fails to preserve the intended English double reading (official ‘ready’ vs. colloquial ‘already drunk’) — the line as written is nonsensical in English and does not recreate the bilingual ambiguity and backstage/drunken subtext described in the analysis."
+          "justification": "The candidate leaves the Russian word 'давно' untranslated ('ready—ready давно!'), which is an outright error in the target text. It also fails to present a clear English double reading (official 'ready' vs. colloquial 'drunk'), so the crucial bilingual ambiguity that creates the joke is lost."
         }
       ]
     },
@@ -134,10 +134,10 @@
       "candidate": "But one only has to take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which the analysis warns against because it sounds overly surreal in English. This choice alters the comic effect; a solution echoing ‘unaided/aided eye’ would better reproduce the mock‑scientific, slightly wrong feel of the original."
+          "justification": "The candidate renders «вооружённым глазом» as 'armed eye,' a literal calque that the analysis explicitly warns against. In English this reads oddly and surreal rather than mock‑scientific; it breaks the intended effect of a near‑proper idiom distorted by drunken pseudo‑science."
         }
       ]
     },
@@ -161,14 +161,7 @@
         }
       },
       "candidate": "and we already see two stars,\nthree stars...\nFour stars—best of all,\nof course, five little stars!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the counting and the five‑star punchline but disturbs the comic timing and domain‑shift by inserting “best of all” before the explicit mention of five stars and by adding ‘little’ to the final stars. These choices slightly weaken the sudden click from silly counting to the cognac reference and reduce the punch’s clarity."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -192,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 8,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

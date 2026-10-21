@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Lowercase initial letter and the phrasing \"a little one\" sound slightly awkward and colloquial compared with the brisk, ironic register suggested in the analysis. A more idiomatic subtitle would use capitalization and a tighter phrase (e.g., \"Shall we knock back a quick one?\")."
+          "justification": "The phrasing \"a little one\" is slightly colloquial/awkward in this context; \"a quick one\" or \"one\" would read more naturally in idiomatic English, though the candidate preserves the casual, ironic lowering of register."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys elevated sentiment but softens the original's sarcastic, staccato refrain. The repeated, deliberately broken pronunciation that produces comic irony in the source (and is preserved in the reference) is less pronounced in \"Such... such elevated feelings!\", weakening the characteristic mocking tone."
+          "justification": "The candidate keeps the stuttering exclamation but shifts from 'relationship' to 'feelings', which softens the original sarcastic social-relationship critique. The line still works comically but is a bit less pointed than the reference."
         }
       ]
     },
@@ -78,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "Using \"conscience\" shifts the emphasis from the practical notion of duty/obligation in the analysis to a more inward moral sense. The line still reads sensibly, but it alters the original's blunt, duty-focused fatalism."
+          "justification": "\"Live for conscience\" is an awkward collocation in English; the intended soldierly fatalism is clear, but phrasing like \"you live to do your duty\" would be more idiomatic and effective."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "You hopeless cook!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"You hopeless cook!\" is natural English but turns the original sharp exclamatory tag into a slightly more straightforward insult. The source's comic use of a neutral professional term as a biting domestic verdict is preserved, though the rhythmic bite is marginally softened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -149,7 +142,14 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, damn it—no waiting for peritonitis!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate communicates the imperative medical bluntness, but \"Cut it out, damn it\" is slightly milder and more colloquial than the harsher, surgical tone of the reference (\"Cut it the hell out\"). The essential contrast with the character's anguish remains."
+        }
+      ]
     },
     {
       "id": 9,
@@ -179,14 +179,7 @@
         "language_specific": {}
       },
       "candidate": "It’s my cross to bear!!!\nAnd I’ll be the one to carry it.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The idiom \"my cross to bear\" is used correctly, but the second line renders the idiomatic idea literally (\"I'll be the one to carry it\"), which slightly reduces the punchy, exclusive self-sacrificial claim of the reference (\"And mine alone!\"). The manipulative theatricality remains but is a bit weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -207,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 5,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

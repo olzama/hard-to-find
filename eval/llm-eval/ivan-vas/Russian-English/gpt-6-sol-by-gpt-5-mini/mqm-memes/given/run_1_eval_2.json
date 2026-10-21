@@ -186,7 +186,14 @@
         }
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic… a suede jacket… Three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate renders the line in all lower-case at the start ('three tape recorders...'), which is a small typographic/formatting deviation from the reference sentence case and makes the subtitle look less polished. The meaning, comedic timing, and list structure are preserved."
+        }
+      ]
     },
     {
       "id": 11,
@@ -203,24 +210,24 @@
       "candidate": "and they’ll cure you too…\nand they’ll cure me…\n",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first repetition present in the source and reference ('And they’ll cure you…'), reducing the rhythmic, melodic repetition that conveys Ulyana Andreyevna's resigned, sing-song enumeration. This is an omission that slightly weakens the intended comic and tonal effect."
+          "justification": "The candidate omits the first clause ('And they’ll cure you…') from the triplet in the source/reference. This removes one repetition that is central to the melodic, resigned rhythm of the line and weakens the characterization and comedic effect described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 1
     },
-    "total_points": 1,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

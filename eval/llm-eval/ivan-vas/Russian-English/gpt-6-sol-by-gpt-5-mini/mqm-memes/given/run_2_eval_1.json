@@ -126,14 +126,7 @@
         }
       },
       "candidate": "The floor is open to everyone!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original line is an abrupt imperative ('Everyone dance!') that conveys chaotic, commanding energy. 'The floor is open to everyone!' preserves inclusivity but softens the blunt, raucous tone of the command, slightly weakening the comic collapse of decorum."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -195,10 +188,10 @@
       "candidate": "Three tape recorders,\nthree movie cameras,\nThree tape recorders, three movie cameras, three cigarette cases, domestic… a suede jacket… Three.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate duplicates and reorders items, repeating the initial phrases and creating redundancy not present in the source. This disrupts the intended comic beat in which the speaker hesitates and then forgets to increment the count (the joke depends on the incremental list). The candidate's repetition and misordering distort the list and the joke's mechanism."
+          "justification": "The candidate repeats the opening phrase ('Three tape recorders, three movie cameras') before continuing with the fuller list. This unintended duplication disrupts the comic pacing and the incremental counting gag (the joke depends on the speaker losing track as he adds items), making the delivery awkward though the items themselves are present."
         }
       ]
     },
@@ -220,21 +213,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source lists cures addressed to two other people then to the speaker ('And they'll cure you… and they'll cure you too… and they'll cure me'). The candidate alters the sequence and subjects, omitting the initial direct address and ending with duplicated references to curing 'me', which changes who is being referred to and breaks the original rhythmic, inclusive resignation."
+          "justification": "The candidate alters the sequence and subjects of the repeated lines and introduces an extra 'They'll cure me too!' while omitting the initial 'And they'll cure you...' This distorts who is being referred to and breaks the original calming, rolling resignation produced by the parallel structure of the three lines, changing the meaning and undermining the intended comic effect."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 1
     },
-    "total_points": 11,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

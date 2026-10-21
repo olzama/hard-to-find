@@ -51,7 +51,14 @@
         }
       },
       "candidate": "Such lofty, lofty relations!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate uses the literal noun 'relations', which the analysis warns against as sounding unnatural in English. The repeated 'lofty, lofty' keeps the mock-grandiose tone, but the phrasing weakens the idiomatic, exclamatory comic effect of the original refrain."
+        }
+      ]
     },
     {
       "id": 4,
@@ -71,7 +78,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the general meaning but softens the blunt, duty-bound tone of Savva's original maxim. 'We live to do what's right' is less idiomatic and less militaristic than 'you live to do your duty,' slightly weakening the soldierly fatalism highlighted in the analysis."
+          "justification": "Meaning is preserved, but 'We live to do what's right' softens the blunt, fatalistic register of the original soldierly maxim ('do your duty'). This slightly reduces the terse moral bluntness that characterizes Savva."
         }
       ]
     },
@@ -113,7 +120,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering the biting domestic taunt as the single word 'Chef!' becomes a literal standalone noun and loses the sarcastic dismissive force of the reference. The original comic effect comes from using a neutral professional term as an insult; 'Chef!' reads oddly and flattens the intended imperious scorn."
+          "justification": "Rendering the interjection as the standalone 'Chef!' is a too-literal, non-idiomatic choice in English and loses the biting ironic insultal force of the original. The line sounds unnatural as an exclamation compared with a more idiomatic reproach ('Some cook you are!')."
         }
       ]
     },
@@ -190,7 +197,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the idiomatic structure and the focus of the line by making the person ('He') into the 'cross' to bear. The original and reference present the situation as 'my cross to bear' (an idiom about burden/responsibility); saying 'He's my cross to bear' misrepresents the idiom and shifts/blurs the manipulative self-sacrificial tone central to the character's rhetorical control."
+          "justification": "The candidate turns the abstract burden ('This is my cross') into a person ('He's my cross to bear'), which changes the meaning and undermines the manipulative self-sacrificing rhetoric. The original idiomical structure and emphatic ownership ('and mine alone' / 'and not you') are also weakened by the altered phrasing."
         }
       ]
     },
@@ -218,13 +225,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 7,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

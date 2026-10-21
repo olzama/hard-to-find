@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and the teasing demand for names, but it loses some of the heightened, theatrical self-dramatization indicated in the analysis (the more grandiose 'Pray, tell me... I'll wait!' tone). The phrasing is flatter and more conversational."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about\nwe knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate conveys the casual, ironic invitation successfully, but the linebreak and lowercase start make the subtitle read awkwardly. 'Knock back a little shot' is idiomatic, yet the presentation and rhythm are slightly less smooth than the reference's concise colloquial tag."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the stuttering hesitation but uses 'relations' (a literal noun phrase), which the analysis specifically warns against because it loses the natural exclamatory sarcasm. The result is slightly stiffer and less idiomatic than the recommended rendering."
+          "justification": "The candidate conveys the basic meaning but loses the comic delivery present in the analysis and reference: the repeated stutter/elongation and breathy mock-eloquence that make the line a catchy refrain. \"Such... such elevated relations.\" reads more literal and flat than the stammering, self-mocking original."
         }
       ]
     },
@@ -87,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is a literal rendering but shifts the moral emphasis from the social/military notion of 'duty' to a more individual 'conscience.' This changes the original's pragmatic, duty-bound fatalism described in the analysis."
+          "justification": "Phrase is translated literally but sounds odd in English: \"live for conscience\" doesn't carry the same soldierly, duty-bound fatalism as the reference's \"live to do your duty.\" The target-idiom and register are weakened."
         }
       ]
     },
@@ -122,9 +108,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The source is a scornful, punchy household insult ('Some cook you are!'). The candidate 'Culinary genius!' reads as praise rather than a biting rebuke and thereby reverses the sarcastic intent and the character's imperious tone marked in the analysis."
+          "justification": "The candidate shifts the line from a biting, ironic insult to a (half-)complimentary phrase. \"Culinary genius!\" does not reproduce the original's sarcastic castigating force (\"Some cook you are!\"), changing the character's authoritative, scolding tone and comic effect."
         }
       ]
     },
@@ -158,10 +144,10 @@
       "candidate": "Cut it out to hell with it.\nWithout waiting for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate communicates the violent urgency but is unidiomatic and awkward ('Cut it out to hell with it.' / split into two lines). The phrasing disrupts the sharp, brusque punch of the original surgical command and reads clumsy in English."
+          "justification": "The candidate's phrasing is unidiomatic and obscures the intended blunt surgical imperative that creates the medical-farce contrast. \"Cut it out to hell with it.\" is awkward and changes the force of the command; splitting into two lines further dilutes the immediacy of the threat to wait for peritonitis."
         }
       ]
     },
@@ -183,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate alters the character's name from 'Khobotov' to 'Khokhotov,' changing a proper name and thus incorrectly representing the character. This is a substantive accuracy error that undermines fidelity to the source."
+          "justification": "The candidate changes the character's name spelling/pronunciation (Khobotov → Khokhotov), which is a substantive inaccuracy. The repeated formulaic address is an important character device and must preserve the correct name and cadence."
         }
       ]
     },
@@ -202,10 +188,10 @@
       "candidate": "It's my cross!\nAnd I will bear it.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate renders the idiom literally and splits it ('It's my cross! And I will bear it.'), losing the natural English fixed expression 'a cross to bear' and the concentrated manipulative force of the original. This weakens the rhetorical, performative self-victimization described in the analysis."
+          "justification": "The candidate is understandable but too literal and split, losing the idiomatic English phrasing and emphatic possessive force of the reference (\"This is my cross to bear! And mine alone!\"). The result is less idiomatic and less forcefully manipulative."
         }
       ]
     },
@@ -227,7 +213,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate repeats 'awkward' and then uses 'angular'—but the analysis warns against a literal translation of 'угловатая' as 'angular.' The literal choice risks sounding odd or overly literal in English and undermines the sly, coquettish self-mockery of the original."
+          "justification": "The candidate uses \"angular,\" which the analysis warns against as a literal and awkward rendering in English. While the overall self-deprecating tone is maintained, the lexical choice feels stilted and reduces the naturalness of the meme-like self-characterisation."
         }
       ]
     }
@@ -235,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 21,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

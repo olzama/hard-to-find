@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate begins with a lowercase 's' ('shall we toss back a quick one?'), which is a minor mechanical flaw. The wording and the shift to casual, ironic camaraderie are otherwise equivalent to the reference."
+          "justification": "The candidate is lowercase 'shall' with no initial capital, a trivial formatting difference from the reference; wording and ironic deflating register are preserved."
         }
       ]
     },
@@ -118,7 +118,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps the German 'Natürlich', which preserves the character's linguistic quirk. It adds 'Margarita Pavlovna', which is absent from the source. This makes the line less of an automatic, clipped reflex, though it does still show Savva's deference to his wife."
+          "justification": "The German 'Natürlich' is correctly kept, preserving the character's linguistic quirk, but the added 'Margarita Pavlovna' is not in the source. It does partly reinforce Savva's obedience to his wife, yet it adds material and makes the punchy one-word reply less clipped."
         }
       ]
     },
@@ -182,24 +182,24 @@
       "candidate": "I am so utterly awkward... just all sharp edges... so entirely contradictory!\nWhat is it, Margo?",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds the line 'What is it, Margo?', which has no counterpart in the source. This is an unwarranted addition that introduces a new speaker or interaction and a nickname not in the original. It also dilutes the self-characterizing monologue that the analysis identifies as the meme-worthy core."
+          "justification": "The candidate adds 'What is it, Margo?', which is not in the source segment. It is extraneous material that does not belong to this line, although the translation of the quoted self-description itself matches the reference and avoids the literal 'angular'."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 0,
+      "minor": 3
     },
-    "total_points": 7,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

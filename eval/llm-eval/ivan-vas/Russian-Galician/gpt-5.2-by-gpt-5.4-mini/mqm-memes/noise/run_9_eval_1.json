@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate states that Shpak and the ambassador still have the items, but the intended meaning is that these items are missing from them. This reverses the joke’s premise."
+          "justification": "The candidate reverses the required meaning: it says Shpak and the ambassador still have the items, but the line means those items are missing from them."
         }
       ]
     },
@@ -41,15 +41,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The line should clearly read as Bunsha introducing himself as the tsar; here the opening \"Moito gusto, tsar!\" can sound like he is addressing the tsar rather than saying \"I am the tsar.\""
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The sequence is less faithful to the repetitive, awkward formal greeting pattern that creates the comedic effect, making the rhythm slightly off."
+          "justification": "The greeting is understandable and keeps the comic repetition, but it sounds more like a casual exclamation than the self-introducing, awkwardly polite formula described in the analysis."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou triste\" is understandable, but it weakens the more elevated, mock-archaic melancholy of \"estou aflixido,\" reducing the regal tone a bit."
+          "justification": "\"Triste\" conveys the basic meaning, but it loses some of the elevated, old-fashioned melancholy of \"estou aflixido,\" which is part of the joke."
         }
       ]
     },
@@ -103,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate drops the key idea that the tsar is exclaiming about being walled in by demons; the first line becomes an incomplete statement and the second line sounds like addressing the demons instead of naming them as the cause."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -160,7 +147,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Mira que entrei a tempo!\" means he entered in time, which does not fit the context of a burglar discovering a good haul and does not preserve the celebratory sense of having come across something fortunate."
+          "justification": "\"Mira que entrei a tempo!\" suggests he entered just in time, but the original is a triumphant \"I sure came in at the right moment,\" and the analysis stresses that he has just entered, not that timing is merely careful or neutral."
         }
       ]
     },
@@ -182,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the crucial contrast with \"eggplant caviar\" and uses \"caviar de ultramar,\" which loses the satirical punch about rebranding a cheap Soviet spread as an exotic delicacy."
+          "justification": "The line drops \"red caviar\" entirely and also risks treating eggplant spread as literal caviar, weakening the satirical food-shortage joke described in the analysis."
         }
       ]
     },
@@ -204,13 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The final item count is wrong: the source says three suede jackets, but the candidate turns it into three coats and drops the stalled count joke where the jacket remains unincremented at first."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "\"Pitilleiras\" is not the expected item here; the source and reference refer to cigarette cases, so this choice is contextually off."
+          "justification": "The candidate omits the closing \"three\" that is essential to the joke, so the escalating mistake in the inventory count is lost."
         }
       ]
     },
@@ -230,23 +211,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate makes all the first two clauses identical, losing the distinctive progression from \"you too\" to \"you as well\" and weakening the original rhythmic resignation."
+          "justification": "The repeated \"E a ti tamén te curarán!\" is understandable, but the phrasing is slightly stiffer and less melodic than the reference, weakening the resigned comic rhythm."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 30,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and the teasing challenge, but it loses some of the heightened, theatrical self-dramatisation signalled in the analysis (\"Pray, tell me... I'll wait!\"). \"Name one! No, I’m waiting.\" is more prosaic and less performative."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about we knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate captures the informal, conciliatory tone but the phrasing \"knock back a little shot\" is slightly awkward and wordy for idiomatic subtitle English compared with the snappy colloquial reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -60,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "The very... very highest of relations!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line communicates sarcasm, but the phrasing \"The very... very highest of relations!\" is somewhat clumsy and slightly more literal/pleonastic than the playful, stuttering mock-elevation the analysis recommends."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -87,7 +66,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Candidate conveys the pragmatic sentiment but uses \"conscience,\" which reads as more abstract and less idiomatically soldierly than the reference's 'duty.' The result is slightly less aligned with the hardened, duty-driven register described in the analysis."
+          "justification": "The phrasing \"live for conscience\" is awkward in English and loses the blunt, quasi-military sense of duty/fatalism in the analysis (\"live to do your duty\"). The line reads less idiomatically and weakens the original soldierly register."
         }
       ]
     },
@@ -124,7 +103,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference's biting domestic insult is ironic. \"Culinary genius!\" reads as either an ambiguous compliment or weak sarcasm and therefore softens the original's sharp, mocking rebuke."
+          "justification": "\"Culinary genius!\" reads like ironic praise rather than the sharp, punchy home-grown insult the analysis describes. It changes register and reduces the caustic, imperious sting of the original exclamation."
         }
       ]
     },
@@ -144,9 +123,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The original intentionally uses the German form as a character quirk. Translating it to plain English (\"Naturally.\") removes that specific linguistic tic and thus erases an important comedic/character marker highlighted in the analysis."
+          "justification": "Rendering the German interjection as \"Naturally.\" removes the foreign-language tic that marks the character and functions as a comedic sign. This loses a key character trait noted in the analysis and weakens the intended cultural/linguistic joke."
         }
       ]
     },
@@ -168,7 +147,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the medical-farce contrast but softens the brusque surgical imperative (\"Cut it out, for God's sake\" vs. the harsher \"Cut it the hell out\"). The split into two lines is acceptable but the emotional punch is somewhat reduced."
+          "justification": "The candidate softens the original's crude, surgical brusqueness (\"резать к чёртовой матери\") by using \"Cut it out, for God's sake,\" which reduces the shock value and the comedic contrast between melodrama and blunt medical verdict."
         }
       ]
     },
@@ -185,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that's petty!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "The character name is transliterated as \"Khabotov,\" which differs from the established form (\"Khobotov\"). This is a terminology/consistency issue that affects character recognition."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -212,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate fragments the idiom into two lines (\"This is my cross! / And it's mine to bear.\"), which reads more literal and slightly awkward compared with the fixed idiomic English \"a cross to bear.\" This weakens the rhetorical force called for in the analysis."
+          "justification": "The candidate splits the English idiom by starting with \"This is my cross!\" which the analysis warns against; the result is a less natural rendering of the fixed phrase \"a cross to bear,\" slightly weakening the manipulative theatricality of the original."
         }
       ]
     },
@@ -234,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using \"angular\" is a literal rendering of «угловатая» that the analysis specifically warns against—it sounds awkward and overly literal in English, reducing the natural, coquettish self-deprecation the line should convey."
+          "justification": "Using \"angular\" directly echoes the Russian adjective but was flagged as potentially misleading; in English it reads literal and may confuse, making the self-mockery less idiomatic than the reference's proposed phrasing."
         }
       ]
     }
@@ -242,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 9
+      "minor": 5
     },
-    "total_points": 14,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

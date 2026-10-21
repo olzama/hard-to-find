@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate keeps the basic meaning and comic timing but reduces the theatrical self-dramatization of the original line. The reference's heightened, grandiose register (\"Pray, tell me... I'll wait!\") is softened by the more prosaic \"Name one! No, I'm waiting.\" This weakens the character's flamboyant pose, though the joke still works."
+        }
+      ]
     },
     {
       "id": 2,
@@ -51,7 +58,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a literal noun-phrase ('High... high relations.') and loses the sarcastic exclamatory, stuttering delivery that functions as a recurring refrén in the original. This flattens the ironic tone and comedic effect described in the analysis."
+          "justification": "The candidate renders the line as a literal noun phrase (\"High... high relations.\"), which the analysis explicitly warns against. This loses the sarcastic, exclamatory, stuttering rhetorical effect that makes the refrain a comic ironic comment on pretended 'evolved' relationships. The phrasing reads flat and unnatural in English and fails to capture the original's tone."
         }
       ]
     },
@@ -73,7 +80,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The wording 'People don't live for joy, but for conscience' is understandable but slightly unidiomatic in English ('for conscience' sounds awkward) and softens the blunt, duty-focused fatalism of the original and reference."
+          "justification": "Meaning is preserved, but the phrasing \"People don't live for joy, but for conscience\" is slightly stilted and unidiomatic in English. The reference's natural idiomatic rendering (duty/obligation) better conveys the resigned, moralistic tone of the speaker."
         }
       ]
     },
@@ -110,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The single-word 'Cook!' is a literal, unnatural exclamation in English and fails to reproduce the sarcastic, scolding punch of the original. The analysis warns against literal standalone nouns; something like 'Some cook you are!' would better preserve the effect."
+          "justification": "The single-word candidate \"Cook!\" is a literal noun and lacks the scathing, exclamatory domestic insult conveyed by the reference's colloquial phrasing (\"Some cook you are!\"). The candidate sounds unnatural in English and weakens the original's comic bite."
         }
       ]
     },
@@ -147,7 +154,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The split phrasing ('Cut it out to hell. / Without waiting for peritonitis.') is awkward and disrupts the abrupt, brusque surgical verdict in the original. The order and idiomatic force of the injunction are weakened."
+          "justification": "The candidate preserves the blunt, surgical imperative but uses awkward English phrasing (\"Cut it out to hell. / Without waiting for peritonitis.\"). The word order and idiomality are clumsy; a tighter, more idiomatic rendering would better mirror the line's abrupt comic violence."
         }
       ]
     },
@@ -166,10 +173,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate spells the name as 'Khabotov' rather than a closer transliteration like 'Khobotov' or 'Khabotov' from the reference. This misrendering of a repeated character name undermines recognition of the refrain and character voice."
+          "justification": "The candidate alters the name's transliteration to \"Khabotov\" (reference uses \"Khobotov\"). This creates a small but noticeable inaccuracy in a repeated character cue; otherwise the dismissive tone is preserved."
         }
       ]
     },
@@ -191,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's first line 'He's my cross!' wrongly turns the abstract 'my cross' into a person ('he'), reversing the intended metaphor and meaning. This contradicts the manipulative self-sacrificial idiom in the analysis and reference."
+          "justification": "The candidate changes the sense: it reads as if a person is being called \"my cross\" (\"He's my cross!\"), whereas the original idiom signals a burdensome duty borne by the speaker (\"This is my cross to bear\"). This shifts the manipulative rhetorical move and undermines the line's intended meaning and emotional manipulation."
         }
       ]
     },
@@ -213,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' directly, which the analysis explicitly warns against as too literal. While the overall self-deprecating sense is preserved, 'angular' reads awkwardly in English and weakens the idiomatic, coquettish self-portrait of the original."
+          "justification": "The candidate's use of \"angular\" is a literal calque of \"угловатая\" and is specifically flagged in the analysis as undesirable. While the overall self-mocking effect remains, the wording sounds awkward and less idiomatic in English; a more natural phrasing would better capture the coquettish, affected self-description."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 19,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

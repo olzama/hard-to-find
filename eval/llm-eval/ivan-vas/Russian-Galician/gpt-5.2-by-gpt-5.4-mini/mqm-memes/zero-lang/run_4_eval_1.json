@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate states that Shpak and the ambassador still have the items, but the context requires that they have lost them; this reverses the intended meaning of the theft callback."
+          "justification": "The candidate reverses the key sense of the line: the reference says the items are no longer with Shpak/the ambassador, while the candidate says they still have them. This destroys the theft callback central to the joke."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The split line breaks the mock-heroic flow a bit, though this is secondary to the meaning error."
         }
       ]
     },
@@ -43,7 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "It changes the speaker’s self-introduction into an address to the Tsar/queen-like figure: \"Encantada, tsar\" sounds like greeting someone else, not repeatedly saying \"I am the Tsar.\" This misses the key joke described in the analysis."
+          "justification": "The line should clearly show Bunsha repeatedly introducing himself as the tsar; the candidate makes it sound like he is addressing the tsar instead, which contradicts the analysis and changes the joke."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The greeting formula is more direct and less mundanely bureaucratic than the source’s repetitive social-politeness routine, so the comic register is somewhat weakened."
         }
       ]
     },
@@ -80,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou triste\" is understandable, but it is flatter and less elevated than the more formal, mock-regal melancholy conveyed by the reference and analysis."
+          "justification": "\"Estou triste\" is understandable, but it is less elevated and less archaic than the reference’s \"estou aflixido,\" weakening the regal, old-fashioned tone."
         }
       ]
     },
@@ -97,7 +109,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The duplicated punctuation and line break make the utterance slightly awkward, though the meaning is preserved."
+        }
+      ]
     },
     {
       "id": 6,
@@ -114,10 +133,10 @@
       "candidate": "Isto é o que fai a cruz vivificadora!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The source means \"Look what the life-giving cross does!\" / \"This is what the cross does,\" but the candidate shifts it to a general statement \"Isto é o que fai...\" which loses the demonstrative exclamation and weakens the miracle-like reaction."
+          "justification": "\"Isto é o que fai\" sounds slightly more colloquial than the reference’s more elevated \"Velaquí o que obra,\" so the miracle-like solemnity is a bit reduced."
         }
       ]
     },
@@ -154,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Bo momento para pasar!\" implies a good time to go through/pass by, which is misleading and sounds like he is arriving/leaving in a generic way. It does not clearly express the delighted realization that he has stumbled into a valuable haul."
+          "justification": "The candidate means \"Good time to pass by\" / \"nice moment to stop in,\" which misses the boastful \"I came here at exactly the right time\" sense and weakens the delighted criminal realization in the joke."
         }
       ]
     },
@@ -176,7 +195,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line loses the crucial joke about \"eggplant caviar\": the candidate drops the reference to eggplant entirely and therefore misses the punchline about fake/cheap Soviet delicacy."
+          "justification": "The candidate omits the crucial punchline that the \"overseas caviar\" is actually eggplant spread. Without that final identification, the satirical reversal of Soviet scarcity is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The capitalization and line break are a little rough, but the main problem is the missing punchline."
         }
       ]
     },
@@ -198,7 +223,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The list is corrupted: the quantities and items do not match the source, and the final \"trousers/jacket... three\" joke about the count being added belatedly is lost. This seriously damages the comedic escalation of his reported losses."
+          "justification": "The count progression is broken: the source builds toward \"three\" across the list and then lands on the final forgotten item, but the candidate starts with numerals and leaves the count structure inconsistent, losing the escalating comic exaggeration."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Pitilleiras\" and the phrasing of \"chaquetas de camurza, tres\" feel slightly awkward, though still intelligible."
         }
       ]
     },
@@ -217,10 +248,10 @@
       "candidate": "E a ti tamén te van curar!\nE a ti tamén te van curar!\nE a min vanme curar!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate preserves the meaning, but repeating exactly the same line twice is a bit less natural and less rhythmically expressive than the reference’s varied repetition."
+          "justification": "The repetition is supposed to address three different people: \"you,\" \"you too,\" and \"me.\" The candidate repeats the first clause twice, so the structure and comic escalation are wrong."
         }
       ]
     }
@@ -228,13 +259,13 @@
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 2
+      "minor": 7
     },
-    "total_points": 32,
+    "total_points": 37,
     "meaning_units": 11,
-    "penalty_per_unit": 2.909090909090909,
-    "major_equiv_per_unit": 0.5818181818181818,
-    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.3636363636363638,
+    "major_equiv_per_unit": 0.6727272727272727,
+    "interpretation": "3.36 MQM penalty points per meaning unit (≈ 0.67 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

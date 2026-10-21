@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The telegraphic 'Shpak, magnetófono. O embaixador, medallón.' never says the items are missing. The analysis NB requires that each man lost his item, and the candidate leaves this unclear. It also drops the link to the suspicion, so the callback is lost."
+          "justification": "The NB requires that Shpak and the ambassador each LOST their item. 'Shpak, magnetófono. O embaixador, medallón.' is a bare list that does not express loss and could read as possession, so the callback logic is lost."
         },
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "style",
           "span": "",
-          "justification": "'Outra vez me asaltan' puts the clitic before the verb, which is Spanish-like and not natural Galician. It also weakens the mock-heroic register ('vagas dúbidas' for 'escuras sospeitas')."
+          "justification": "The mock-heroic, theatrical register is weakened. 'vagas dúbidas' is much flatter than the archaic inversion of the reference, and the telegraphic fragments remove the pompous voice of the bureaucrat."
         }
       ]
     },
@@ -44,14 +44,7 @@
         "language_specific": {}
       },
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Moito gusto, tsar!' reads as Bunsha addressing a tsar. The analysis NB requires that he introduce himself as the Tsar. The candidate has no 'son o tsar' or equivalent."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -81,14 +74,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, estou triste.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Triste' is plainer than 'aflixido' and loses some of the high-register, regal melancholy the analysis describes."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -103,14 +89,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Emparedáronme, demos!' makes 'demos' a vocative, as if the Tsar were addressing the demons. The analysis NB says the demons must be the subject of the sentence."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -155,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Que ben pasei por aquí!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Que ben pasei por aquí!' means roughly 'I had a good time passing through here', which suggests he is leaving or has finished. The analysis NB warns against exactly this. It also loses the sense of luckily finding a good place or loot."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -177,14 +149,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nSi! Caviar de ultramar...\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "terminology",
-          "span": "",
-          "justification": "The candidate calls the eggplant spread 'caviar de ultramar... de berenxena', which the analysis NB says to avoid because it confuses viewers. The contrast between luxury caviar and the cheap 'overseas' spread is blurred."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -199,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\ncazadora de camurça, tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Cámaras' omits 'de cine', so the specific status item is lost. The digits '3' replace the spoken 'tres', and the jacket count is made explicit with a trailing 'tres' rather than the hesitant ellipsis rhythm. The joke still works."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -221,32 +179,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén han curarte!\nE a min han curarme!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The first clause ('e a ti vante curar') is dropped, so the three-step list that builds the resigned, melodic tone is shortened."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Han curarte' and 'han curarme' are Spanish-like futures with a clitic and sound stiffer than the natural Galician 'vante curar' and 'vanme curar'."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 2,
+      "minor": 0
     },
-    "total_points": 30,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

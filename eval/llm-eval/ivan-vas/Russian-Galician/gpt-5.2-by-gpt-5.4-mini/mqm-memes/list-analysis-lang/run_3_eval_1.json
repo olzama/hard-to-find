@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The repeated greeting is rendered clearly, but the line sounds a bit less naturally comic and less breathless than the reference; the parade of self-introductions is slightly weakened by the phrasing and punctuation."
+          "justification": "The repeated self-introduction works, but the phrasing is a bit flatter and less overtly colloquial than the reference’s mock-formal, Soviet-style greeting rhythm."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning is correct, but 'que continúe o banquete' is a little more ordinary and less forceful than the imperative, mock-royal insistence of the original."
+          "justification": "The meaning is clear, but 'que continúe o banquete' sounds slightly less forceful and less characterful than a direct demand for the banquet’s continuation."
         }
       ]
     },
@@ -78,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Estou de loito' conveys sadness, but it loses some of the specific regal, archaic melancholy of 'estou aflixido', making the line slightly less characterful."
+          "justification": "'Estou de loito' shifts the sense toward mourning rather than the Tsar’s gloomy, melodramatic 'I am in melancholy,' so it slightly changes the mood and wording of the line."
         }
       ]
     },
@@ -99,10 +99,10 @@
       "candidate": "Emparedáronme!\nEmparedáronme, os demoños!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'os demoños' is ungrammatical and obscures the subject; the line should clearly mean that the demons trapped him, not that he is addressing them."
+          "justification": "The second line is awkwardly punctuated and phrased ('os demoños'), which weakens the force of the exclamation, though the meaning remains understandable."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira o que fai' is understandable, but it is a bit flatter and less exclamatory than the more astonished, triumphant tone of the original."
+          "justification": "'Mira o que fai' is understandable, but it is less elevated and less emphatically miracle-like than the reference’s more solemn 'Velaquí o que obra...',"
         }
       ]
     },
@@ -146,7 +146,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'A bailar todo o mundo!' preserves the sense, but it shifts the command slightly toward 'everyone dances' rather than the more idiomatic 'everyone, dance!'."
+          "justification": "The imperative changes direction slightly: 'A bailar todo o mundo!' sounds like 'everyone, dance,' but it is less sharp and chant-like than the direct rallying cry 'Everyone dance!'. "
         }
       ]
     },
@@ -166,9 +166,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line conveys luck on entry, but 'Mira que entrei con sorte!' is slightly less playful and idiomatic than the reference's breezier, triumphant reaction."
+          "justification": "'Mira que entrei con sorte!' suggests 'I came in lucky' but is a bit more ambiguous than the reference’s clear sense that he has stumbled upon a good opportunity/place after entering."
         }
       ]
     },
@@ -185,14 +185,7 @@
         "language_specific": {}
       },
       "candidate": "Ovas negras, vermellas...\nSi! Ovas de ultramar...\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Ovas de ultramar' omits the crucial joke that the final item is eggplant spread; without that explicit reference, the punchline about a fake 'overseas caviar' is lost."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -212,13 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'petacas nacionais' mistranslates 'портсигара' as cigarette cases; 'petaca' means a flask or hip flask, so the item list is wrong."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The abrupt line breaks are acceptable for subtitles, but the list reads a bit clumsily compared with the smoother accumulation in the reference."
+          "justification": "'Petacas nacionais' mistranslates 'портсигара' (cigarette cases) as flasks, which breaks the specific comic inventory of status items. This substantially harms the joke and the item list."
         }
       ]
     },
@@ -240,21 +227,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Han curarte' is understandable, but it sounds more like a spoken threat/plan than the calm, resigned 'vante curar' in the reference, slightly weakening the deadpan comic effect."
+          "justification": "The future/passive construction 'han curarte' is grammatical, but it is less idiomatic and less melodically resigned than the reference’s more natural, soothing 'te van curar / vanme curar' phrasing."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 1,
       "minor": 8
     },
-    "total_points": 23,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Raise one\" is a good equivalent of \"воспитаем\", but \"hire\" fits the workplace logic and \"collective\" keeps the Soviet flavor. The only weakness is that \"Baba Yaga\" is left untranslated, which makes the line a bit more folkloric and less immediately recognizable as a workplace type for English viewers."
+          "justification": "\"Hire a Baba Yaga\" keeps the workplace logic, but the untranslated \"Baba Yaga\" may not convey the 'nasty woman' social type to an English audience, and \"collective\" is a slightly foreign choice. The in-house cultivation joke still works, so the weakness is small."
         }
       ]
     },
@@ -70,7 +70,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest diminutive «коротенько» is rendered as a lowercase \"briefly\" with no sense of cozy understatement. Moreover, \"no more, I think that's enough\" shifts the rhythm: the punchline \"forty minutes\" is followed by extra reassurance and the \"briefly\" setup is not strongly contrasted. Overall the comic reversal is weakened."
+          "justification": "\"Briefly—about forty minutes\" keeps the order of briefness claim then duration, but \"no more, I think that's enough\" adds a flat, assertive tone. The faux-modest, self-satisfied understatement of \"коротенько\" and \"я думаю, не надо\" is lost. The line reads as a plain statement and the comic reversal is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The lowercase start and the closing \"I think that's enough\" change the meaning slightly (\"I think we don't need more\") and make the ending less natural."
         }
       ]
     },
@@ -96,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready\" is rendered literally, and \"been ready a long time\" carries no hint of intoxication, so the central joke disappears and only the administrative surface reading remains."
+          "justification": "The candidate gives only the literal 'ready' sense. Nothing hints at 'ready = drunk', so the double meaning that makes the exchange memorable is lost. \"Been ready a long time!\" has a slight wink, but it does not recreate the intoxication subtext."
         }
       ]
     },
@@ -117,7 +123,14 @@
         }
       },
       "candidate": "- People!.. Ah... A-oo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The broken, wavering shape is partly kept (\"People!.. Ah... A-oo!\"), but \"People\" is not stretched or fragmented as in \"Лю-ди\", and \"A-oo\" is a less recognizable call than \"hellooo\". The drunken vocal instability is somewhat weaker."
+        }
+      ]
     },
     {
       "id": 6,
@@ -144,7 +157,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly warns against. It does not echo the English idiom \"unaided eye\", so the mock-scientific malformed idiom is not recognizable and the joke is lost. The sentence also ends on a comma, and \"once we take\" loses the pompous \"all we have to do\" feel."
+          "justification": "\"Armed eye\" is a literal calque, which the analysis explicitly warns against. It does not echo the English \"unaided eye\", so the audience does not hear a familiar idiom wrongly upgraded. The mock-scientific malapropism is lost and the phrase sounds merely surreal."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Once we take\" loses the \"all we have to do\" confidence, and the line ends with a comma and no exclamation, which weakens the lecturer's pompous delivery."
         }
       ]
     },
@@ -173,7 +192,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline is mangled: \"Four little stars—best of all\" merges the fourth star into the punchline, so the progression (two, three, four... then five is best) is broken. The click to \"five stars\" as a cognac reference is weakened. Also \"little stars\" sounds childish rather than evoking the five-star cognac label, and there is no cue for the cognac association."
+          "justification": "The counting progression is mangled. The candidate says \"Four little stars—best of all, of course, five little stars!\", so the build-up and the snap to the final item are blurred. It also drops the cognac association entirely, with no note or hint, so the shift into a different semantic world (cognac stars) is not set up for English viewers. The humor of the derailment is much reduced."
         }
       ]
     },
@@ -199,7 +218,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content is accurate, but \"Science is not yet aware of the matter\" is more formal and stiff than the colloquial \"не в курсе дела\" (\"isn't up to speed\"). The personification of science as someone not briefed is weakened, and the casual register mismatch is less funny."
+          "justification": "The content and casual tone are kept, and \"Science is not yet aware of the matter\" is a little stiff and formal compared with the colloquial \"isn't up to speed\" or \"not in the loop\". The first sentence, \"is there no life on Mars\", is a slightly awkward calque. The register mismatch is partly preserved but less funny."
         }
       ]
     }
@@ -207,13 +226,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 2
+      "minor": 5
     },
-    "total_points": 22,
+    "total_points": 25,
     "meaning_units": 8,
-    "penalty_per_unit": 2.75,
-    "major_equiv_per_unit": 0.55,
-    "interpretation": "2.75 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.125,
+    "major_equiv_per_unit": 0.625,
+    "interpretation": "3.12 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

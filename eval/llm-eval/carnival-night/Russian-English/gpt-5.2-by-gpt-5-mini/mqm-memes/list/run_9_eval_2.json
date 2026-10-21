@@ -58,14 +58,7 @@
         }
       },
       "candidate": "And just briefly—about\nforty minutes, I think\nno more is needed",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the comic reversal (claiming brevity, then stating forty minutes) and the bureaucratic tone, but the diminutive, puckish flavor of «коротенько» is slightly attenuated by the neutral phrasing “just briefly.” The cozy, patronizing nuance could be a bit stronger to match the original's comic voice."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -128,9 +121,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which the analysis warned against: in English this reads as oddly surreal rather than the mock‑scientific near‑natural phrasing intended. A solution like “aided eye” would better preserve the humorous, pseudo‑technical feel without sounding bizarre."
+          "justification": "The candidate uses the literal calque “armed eye.” The analysis warns that a direct calque like “armed eye” reads stranger and more surreal in English and risks losing the mock‑scientific, slightly off idiom of the original. A phrasing that echoes the familiar English contrast (e.g. “aided eye” vs. “unaided eye”) better preserves the intended comic effect."
         }
       ]
     },
@@ -179,13 +172,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.125,
+    "major_equiv_per_unit": 0.025,
+    "interpretation": "0.12 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

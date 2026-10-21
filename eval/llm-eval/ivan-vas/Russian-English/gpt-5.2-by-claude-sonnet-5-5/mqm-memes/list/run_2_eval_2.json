@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak has a tape recorder, the ambassador has a medallion\" reverses the meaning. The Russian implies the items are gone (stolen), so each person lost the item. The candidate states they possess them, which the analysis explicitly forbids."
+          "justification": "The analysis' NB says 'У Шпака... у посла...' means the items were lost, not possessed. 'Shpak has a tape recorder, the ambassador has a medallion' reverses the meaning and breaks the link to the theft."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'I'm tormented by vague doubts again' keeps the elevated register reasonably well, but the line breaks and plain 'has' wording weaken the mock-heroic callback effect."
         }
       ]
     },
@@ -43,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Hello, Tsar!\" and \"Tsar, very nice\" read as addressing a Tsar, not introducing himself as the Tsar. The analysis requires that Bunsha clearly introduces himself as the Tsar."
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Hello, Tsar!' reads as addressing a Tsar, which is the exact misreading the NB warns against."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Very nice\" is a weaker rendering of the stock formal politeness \"very pleased to meet you\", so the mock-formal Soviet greeting cliché is diluted."
+          "justification": "'Very nice' is a weaker rendering of 'очень приятно' (pleased to meet you), so the stiff social formula of the greeting ritual is lost."
         }
       ]
     },
@@ -81,14 +87,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman—I’m in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Leave me be\" and the contraction \"I'm\" make the Tsar's speech more modern and colloquial than the high-register, archaic tone of the original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -108,7 +107,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Devils\" is a slight shift from \"demons\", and \"bricked me in\" is somewhat colloquial. Demons remain the subject, so the meaning is preserved, but the archaic, mystical flavor is slightly weakened."
+          "justification": "'Bricked me in' is a modern colloquial phrasing and loses the archaic feel of 'замуровали'. 'Devils' instead of 'demons' also slightly weakens the mystical-trap tone. Demons correctly remain the subject."
         }
       ]
     },
@@ -130,7 +129,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"That's what the life-giving cross can do!\" is flat and colloquial. It lacks the solemn, triumphant tone of the Tsar's declaration of faith (\"Behold the power...\")."
+          "justification": "'That's what the life-giving cross can do!' is colloquial and flat. It lacks the solemn, triumphant register of the Tsar's pious exclamation ('Behold the power...')."
         }
       ]
     },
@@ -147,14 +146,7 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Everybody dance!\" is literal and carries the meaning of a party command, but it lacks the host-like, ceremonial flavor of an inclusive invitation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -171,10 +163,10 @@
       "candidate": "Just my luck—I walked in at the perfect time!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Just my luck—I walked in at the perfect time!\" adds the idea of perfect timing and is wordier than the original. It keeps the cheerful tone and correctly implies he has just entered, so the deviation is small."
+          "justification": "The NB says he has just entered and the translation must not suggest otherwise. 'Walked in at the perfect time' is acceptable for entering, but 'Just my luck' adds a notion of timing and chance that is absent. The original celebrates choosing a good place, so the meaning shifts from a good call to coincidence."
         }
       ]
     },
@@ -196,7 +188,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders \"заморская икра... баклажанная\" as \"Exotic caviar... Eggplant!\", calling the eggplant spread caviar. This is exactly what the analysis forbids, and it loses the \"overseas\" element and the joke's inversion of status symbols."
+          "justification": "The NB forbids calling eggplant spread 'caviar'. The candidate renders 'Exotic caviar... Eggplant!' so the eggplant item is presented as caviar, and the joke of the cheap spread posing as an overseas delicacy is garbled and confusing."
         }
       ]
     },
@@ -215,10 +207,10 @@
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestically made cigarette cases,\na suede jacket—three!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The structure \"a suede jacket—three!\" is reasonably close to the original, with the forgotten count revealed at the end. However, \"domestically made\" is a bit clunky, and the lowercase start is odd. The comic effect of the hesitation before \"Three\" is slightly weakened."
+          "justification": "The joke depends on Shpak first forgetting to increment the jacket count and then hastily adding 'Three'. The candidate states 'a suede jacket—three!' as a single smooth item, losing the hesitation and the self-betrayal."
         }
       ]
     },
@@ -235,19 +227,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nThey’ll cure you too!\nAnd they’ll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Exclamation marks make the delivery energetic. The analysis describes a calm, melodic, resigned tone, so the exclamations somewhat undermine the quiet hysterical resignation."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 7
+      "major": 5,
+      "minor": 5
     },
-    "total_points": 22,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

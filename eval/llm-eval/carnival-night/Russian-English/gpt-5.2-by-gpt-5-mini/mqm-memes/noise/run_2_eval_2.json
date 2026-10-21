@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the bureaucratic understatement and the comic reversal (claiming ‘briefly’ then giving ‘forty minutes’), but it flattens the diminutive, cozy shade of «коротенько». The slightly patronizing, offhand diminutive that heightens Ogurtsov’s tone-deaf self-satisfaction is a bit weakened."
+          "justification": "The candidate preserves the structural joke (claim of brevity followed by 'forty minutes') and the ironic understatement, but it renders «коротенько» simply as 'briefly' without the diminutive, slightly cozy/condescending shade implied by the Russian. This softens Ogurtsov’s faux-modest tone a little, making the contrast mildly weaker."
         }
       ]
     },
@@ -84,7 +84,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—been ready for a while!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The crucial double reading of готов (official 'ready' vs. colloquial 'smashed/drunk') is not preserved: English 'ready' lacks the common intoxication sense, so the comic ambiguity (administrative check vs. cheerful confirmation that the lecturer is already drunk) is largely lost."
+        }
+      ]
     },
     {
       "id": 5,
@@ -128,9 +135,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate’s literal calque “armed eye” is too odd and surreal in English and loses the softly mock‑scientific effect of the original. The analysis recommends a solution like “aided eye” to echo ‘the unaided eye’ and keep the near‑correct, pseudo‑academic feel; “armed eye” instead makes the speaker sound bizarre rather than pompous and tipsy, which significantly harms the intended comic register."
+          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis warns against because it reads as bizarre or surreal in English. The intended effect is a mock‑scientific, slightly off idiom (e.g., 'aided eye' echoing 'unaided eye'); 'armed eye' pushes into oddity and loses the subtle parody of scientific phrasing."
         }
       ]
     },
@@ -178,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 2,
       "minor": 1
     },
-    "total_points": 6,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 0.75,
-    "major_equiv_per_unit": 0.15,
-    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

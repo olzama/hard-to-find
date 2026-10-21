@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Groom\" is a good workplace-cultivation verb, but \"a Baba Yaga\" keeps the fairy-tale name untranslated and \"our own collective\" is slightly stiff. The workplace/social-type reading is mostly preserved, so the effect is only slightly weakened."
+          "justification": "\"Groom\" and \"recruit\" keep the staffing/workplace logic and the Baba Yaga reference, but \"within our own collective\" is slightly stiff, and \"groom\" carries a faint unwanted connotation. The Baba Yaga-as-toxic-colleague type is not obvious to an English audience, though the deadpan bureaucratic framing still works."
         }
       ]
     },
@@ -55,16 +55,10 @@
       "candidate": "short little talk, forty minutes\nor so, no more than that is needed, I think,",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The key word «коротенько» is rendered as \"short little talk\", which shifts the brevity claim into a noun phrase, and \"talk\" is an addition not in the source (the source has no noun). The faux-modest adverbial claim of briefness that sets up the \"forty minutes\" punchline is weakened, so the reversal lands less sharply."
-        },
-        {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The fragment starts lowercase with no subject or framing and ends in a comma. \"No more than that is needed, I think\" is clunky word order, which hurts the smug managerial delivery."
+          "justification": "\"Short little talk\" preserves the faux-modest diminutive before \"forty minutes,\" so the punchline order is kept. But the sentence starts abruptly with no framing, which weakens the self-satisfied managerial tone, and the word order of \"no more than that is needed, I think\" is slightly awkward."
         }
       ]
     },
@@ -84,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Well oiled\" makes the drunkenness explicit and keeps the double reading with \"all set\"/\"set\", which is a good creative solution. However, the added \"all right\" and the explicit gloss slightly flatten the ambiguity compared with the original, where the drunk meaning is only implied."
+          "justification": "\"All set\" / \"set\" gives the administrative surface reading and \"well oiled\" recreates the drunk subtext, so the double sense is preserved. However, \"well oiled\" is stated outright, which makes the joke less ambiguous than the Russian, and the explicit gloss slightly flattens the dry backstage rhythm."
         }
       ]
     },
@@ -125,10 +119,10 @@
       "candidate": "But all we have to do is take\na telescope...\nAnd look with the un-naked\neye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Un-naked eye\" echoes \"naked eye\" and keeps the idiom-deformation joke, which is a valid creative solution. However, it is a bit more overtly silly than the mock-scientific \"aided eye\", and the lecturer sounds less like he is trying to be more precise and scholarly. The line also ends on a comma, leaving the sentence trailing."
+          "justification": "\"The un-naked eye\" is a mangled version of \"naked eye\" and gets at the malformed-idiom idea. But it sounds more like a silly joke about nudity than a mock-scientific upgrade, so the pseudo-scholarly pomp described in the analysis is lost. \"Un-naked\" is closer to the surreal oddness the notes warn against than to the \"unaided eye\" echo."
         }
       ]
     },
@@ -155,13 +149,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Five-star\" without a noun leaves the cognac association unsupported, though the analysis notes that a translator's note may be needed. The \"click\" into a different semantic world is weakened for viewers who do not know the Soviet cognac system."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The punctuation (\"..\" then \"...\") is inconsistent and the \"Four little stars\" break across lines is awkward, slightly disrupting the childish counting rhythm."
+          "justification": "The silly counting build-up and the sudden switch to \"five-star\" are preserved. However, \"five-star\" alone does not clearly point to cognac for English viewers and no note is given. The jump into a different semantic domain therefore lands less clearly than in the source."
         }
       ]
     },
@@ -183,7 +171,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Whether there's life on Mars or there's no life on Mars\" is a clumsy, wordy rendering of the parallel structure, and the line breaks are awkward. The colloquial \"out of the loop\" keeps the register mismatch and the personification of science well, so the damage is limited."
+          "justification": "\"Out of the loop\" keeps the casual register and the personification of science. But \"or there's no life on Mars\" is a rather literal, clumsy rendering of the Russian doubling, and it slightly weakens the flow."
         }
       ]
     }
@@ -191,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 7
+      "minor": 5
     },
-    "total_points": 12,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 1.5,
-    "major_equiv_per_unit": 0.3,
-    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

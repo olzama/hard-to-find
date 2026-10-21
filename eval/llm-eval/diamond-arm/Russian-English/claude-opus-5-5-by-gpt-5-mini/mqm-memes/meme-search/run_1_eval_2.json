@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate omits the vocative 'Guys' that opens the original exchange, which slightly reduces the informal group-address tone of Gorbunkov's complaint. The policeman's line 'Get drunk and it will be!' also loses the implied inevitability of 'Get drunk enough, and you will be!' making the mock-cop humor a bit flatter."
+          "justification": "The policeman's line 'Get drunk and it will be!' is slightly awkward and loses the 'get drunk enough' inevitability implied in the reference. Tone and humor are preserved, but the phrasing is terse and less natural."
         }
       ]
     },
@@ -43,7 +43,14 @@
         }
       },
       "candidate": "I'm no coward,\nbut I'm scared...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning is preserved, but the candidate is a literal, flat rendering. It loses the light, bouncy rhyming/rhythmic effect (Trus/Bo(y)us) that makes the line endearing in the analysis."
+        }
+      ]
     },
     {
       "id": 3,
@@ -120,10 +127,10 @@
       "candidate": "ice cream for the kiddies,\nflowers for his missus.\nDon't mix it up,\nNelson!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate replaces the Russian historical jab 'Kutuzov' with 'Nelson'. That keeps the intent of mocking by invoking a famous commander, but it shifts the cultural reference away from a specifically Russian sarcastic allusion (Kutuzov) and thus weakens the original's domestic historical bite."
+          "justification": "The candidate substitutes 'Nelson' for 'Kutuzov.' The original name evokes a specifically Russian historical sarcasm (comparing the bungling to Kutuzov); using Nelson changes the cultural reference and undermines the intended mock-historical jab."
         }
       ]
     },
@@ -150,7 +157,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the meaning but loses the original's balanced rhythmic wordplay (trezvenniki/yazvenniki). The phrasing 'have a fine time' is more neutral and less proverbial, so the punchy, rhythmic aphorism from the analysis is softened."
+          "justification": "The candidate keeps the meaning but loses the original's tight rhythmic balance (trezvenniki/yazvenniki). 'Ulcer case' is awkward and the line lacks the pithy proverb-like cadence demanded by the analysis."
         }
       ]
     },
@@ -182,14 +189,7 @@
         "language_specific": {}
       },
       "candidate": "Just vun tablet...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original comic effect depends on a specific mispronunciation of 'tablet' (the Russian pronunciation quirk). The candidate conveys an accent via 'vun' but does not reproduce the humorous, idiosyncratic mispronunciation of the noun itself, slightly reducing the characterful comic detail."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -219,14 +219,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The source is a melodic, elongated sigh ('Semyo-o-on Semyonych!'). The candidate 'Semyon Semyonovich...' communicates the address but loses the stretched, musical quality that signals weary exasperation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -246,7 +239,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate expresses the curse in a plain exhortative form ('You should live on one salary!') rather than the theatrical, wish-like curse ('May you live... on nothing but... your salary!') that carries the sardonic weight in the analysis."
+          "justification": "The candidate conveys the meaning but flattens the theatrical curse rhythm and weight; it reads more like a simple statement than the heavy, doom-laden curse described in the analysis."
         }
       ]
     },
@@ -278,14 +271,7 @@
         "language_specific": {}
       },
       "candidate": "slipped, fell...\nclosed fracture...\nblacked out, came to -\ncast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The staccato telegraphic rhythm is mostly preserved, but the line 'came to -' is an awkward punctuation/phrasing choice that slightly disrupts the intended clipped, list-like delivery of the alibi."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -365,7 +351,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The reference relies on the culturally loaded toponym 'Kolyma' (synonymous with labor camps) to trigger Gena's fearful misinterpretation; the candidate replaces it with the generic 'Siberia', which removes the specific prison/camp connotation and thus overturns the joke's central cultural punchline."
+          "justification": "The candidate replaces 'Kolyma' (a loaded reference to Gulag labor camps) with the generic 'Siberia,' removing the dark, prison-related connotation that makes Gena interpret the invitation as a threat."
         }
       ]
     },
@@ -387,7 +373,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis highlights Gena's affected pronunciation of 'coffee' ('kof-e') as a marker of pretension. The candidate preserves the awkward priorities but renders 'coffee' normally; the comic marker of affected speech is therefore dulled."
+          "justification": "The candidate preserves the content but weakens the affected, pretentious pronunciation ('kof-e') that marks Gena's attempted sophistication; the attempt at a marked pronunciation is present but less consistent/clear."
         }
       ]
     },
@@ -424,14 +410,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 8
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 13,
+    "total_points": 15,
     "meaning_units": 23,
-    "penalty_per_unit": 0.5652173913043478,
-    "major_equiv_per_unit": 0.11304347826086955,
-    "interpretation": "0.57 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6521739130434783,
+    "major_equiv_per_unit": 0.13043478260869565,
+    "interpretation": "0.65 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

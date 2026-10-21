@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Volven atormentarme\nvagos dubidos...\nA Shpak faltoulle un magnetófono,\nao embaixador, un medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Volven atormentarme\" is understandable, but it is less idiomatic and less polished than the reference-style phrasing, slightly weakening the mock-heroic cadence."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,20 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Ola, tsar, encantado.\nTsar, encantado, tsar.\nEncantado, ola, tsar.\nTsar, encantado.\nOla, tsar. Encantado!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The line should clearly sound like Bunsha introducing himself as the Tsar, but \"Ola, tsar\" reads more like addressing someone as \"tsar\" rather than saying \"I am the tsar,\" which obscures the joke and the required distinction."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The repetition is preserved, but the sequence is somewhat clunkier and less natural than the reference, reducing the comedic rhythm."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -83,10 +63,10 @@
       "candidate": "Déixame, velliña, que estou de loito.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Estou de loito\" changes the meaning: the source says he is \"in sorrow/sadness,\" not that he is in mourning, which is a different emotional state and weakens the character’s melancholy tone."
+          "justification": "‘Estou de loito’ is understandable, but it shifts the nuance from being melancholic/sad to explicit mourning, which is slightly less precise than the source’s more general sadness."
         }
       ]
     },
@@ -123,7 +103,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Mira\" is slightly less elevated and less emphatic than the reference's more solemn exclamatory tone, so the miraculous self-assurance is a bit weaker."
+          "justification": "‘Mira’ is a bit more colloquial and less elevated than the reference/source, so it weakens the mock-biblical, astonished tone slightly."
         }
       ]
     },
@@ -145,7 +125,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"A bailar todo o mundo!\" is understandable, but it shifts the imperative from \"everyone dance\" to \"everybody is dancing,\" so the command to the group is less direct."
+          "justification": "‘A bailar todo o mundo!’ changes the imperative ‘everyone dance’ into a looser statement about the whole world, which slightly blunts Bunsha’s commanding, rallying tone."
         }
       ]
     },
@@ -167,7 +147,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Mira que entrei ben!\" means \"look how well I came in/entered,\" but the source means he has found a good place or lucked into a good situation; this misses the joke about discovering valuables after entering."
+          "justification": "‘Mira que entrei ben!’ can read as ‘look how well I came in,’ which is ambiguous and weakens the key joke that he has just happened to find the right place at a lucky moment; it also risks suggesting entrance quality rather than a successful accidental arrival."
         }
       ]
     },
@@ -189,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The final punchline is mistranslated: \"Pasta de berenxena\" is not the absurd fake-elite \"caviar\" of the original, so the satirical contrast and the joke about Soviet terminology are lost."
+          "justification": "The candidate omits the crucial ‘bakłażanovaya’/eggplant item as a distinct ironic foodstuff and instead generalizes it to ‘pasta de berenxena,’ which loses the specific satirical punch and the contrast with luxury caviar."
         }
       ]
     },
@@ -208,16 +188,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The list is not rendered faithfully: \"3 pitilleiras\" is not the same as \"three cigarette cases,\" and omitting the suede jacket's initial partial count obscures the running-gag structure of the line."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The compressed list and line breaks make the enumeration feel less natural and less comic than the rhythmic buildup in the original."
+          "justification": "The abbreviation and line breaks are readable, but the syntax is a little clipped and less natural than the list-like buildup in the source; ‘3’ repeated at the start also makes the delivery slightly stiffer."
         }
       ]
     },
@@ -236,24 +210,24 @@
       "candidate": "E a ti van curarte...\nE a ti tamén van curarte...\nE a min van curarme...",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"van curarte\" changes the meaning from \"they will cure you\" to \"they are going to cure you / cure you yourself,\" losing the repeated passive-certainty and the shared, resigned joke about psychiatric treatment."
+          "justification": "‘Van curarte’ is less exact than ‘te van curar’/‘vante curar’ because it can sound reflexive or less direct, slightly weakening the simple, resigned repetition of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 2,
       "minor": 5
     },
-    "total_points": 35,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -24,15 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Beset by vague suspicions\" keeps a somewhat elevated tone but is less close to the mock-heroic, operatic 'haunt me' of the original; \"suspicions\" is also less poetic than \"doubts\"."
-        },
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Decoration\" mistranslates \"медальон\" (medallion) and loses the specific object that connects to the earlier scene; the viewer can no longer link the callback."
+          "justification": "\"Decoration\" is vaguer than \"medallion\" and shifts the object slightly. The mock-heroic register (\"beset by vague suspicions\") and the sense that the items are lost are preserved."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "Bunsha introduces himself as the Tsar, but \"A pleasure, tsar!\" and \"Hello, tsar!\" read as addressing a tsar. The analysis explicitly requires making clear he is introducing himself, so the joke is lost."
+          "justification": "\"A pleasure, tsar!\" and \"Hello, tsar!\" read as Bunsha addressing a tsar, not introducing himself as the Tsar. The analysis explicitly requires the self-introduction, so the joke's basis is lost."
         }
       ]
     },
@@ -111,13 +105,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"They've walled it up\" mistranslates the object: the Tsar says he has been walled in (\"замуровали\" with implied \"me\"), not that something was walled up. The meaning of being trapped in the elevator is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The demons are correctly the subject, but the second line's structure loses the exclamatory afterthought \"the demons!\" of the original rhythm."
+          "justification": "\"Walled it up\" replaces the object \"me\" with \"it\". The Tsar's sense of being trapped by demons is lost, and the line is confusing. The demons are correctly the subject."
         }
       ]
     },
@@ -179,14 +167,7 @@
         }
       },
       "candidate": "What a lucky time to drop by!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"What a lucky time to drop by!\" is acceptable in the sense that he has just arrived, but \"drop by\" implies a social visit and loses the burglar's ironic self-satisfaction at his good call; this weakens the anti-hero humor."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -211,7 +192,7 @@
           "severity": "major",
           "category": "terminology",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"Eggplant caviar\" and \"Caviar from overseas\", which the analysis explicitly warns against as confusing; the joke about the inversion of status symbols (cheap spread presented as a rare delicacy) is blurred."
+          "justification": "The candidate calls the eggplant spread \"caviar\" twice (\"Caviar from overseas\", \"Eggplant caviar\"). The notes say not to call it caviar because this confuses viewers. The joke contrasting luxury caviar with the cheap spread presented as a rare delicacy is weakened."
         }
       ]
     },
@@ -238,13 +219,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"three suede jackets\", removing the humor that Shpak forgets to increment the count for the jacket (a single jacket, then \"Three\" as a late correction). The key joke of the item is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Domestic\" is rendered as \"Soviet-made\" and attached to the cigarette cases, which is acceptable, but the reference's hesitant structure is flattened into a clean list."
+          "justification": "The candidate says \"three suede jackets\", which loses the joke that Shpak forgets to increment the jacket count and gives himself away. The word \"Three\" at the end is also missing, so the punchline is flattened."
         }
       ]
     },
@@ -266,14 +241,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 3
+      "major": 4,
+      "minor": 1
     },
-    "total_points": 33,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

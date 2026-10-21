@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"There's a directive\" keeps the top-down bureaucratic framing, but \"see in the New Year cheerfully\" is a slightly idiomatic, warmer phrase and \"cheerfully\" is a bit lighter than the dry managerial tone; the contrast is mostly preserved, with only a slight loss of officialese."
+          "justification": "\"There's a directive\" preserves the bureaucratic top-down framing and the comic contrast with festive content. But \"see in the New Year cheerfully\" is a slightly more idiomatic, warm phrase, and the line break is awkward, so the dry official register is a bit softened."
         }
       ]
     },
@@ -38,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "We won't bring in\na Baba Yaga from outside,\nwe'll raise one within our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Raise one within our own collective\" keeps the workplace logic and the \"collective\" Soviet flavor. However, \"a Baba Yaga\" leaves the untranslated folkloric name, which may read as more fairy-tale than the social-type reading, and \"raise\" is slightly more parental than the in-house training/cultivation sense."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -62,10 +55,10 @@
       "candidate": "briefly, say, for about\nforty minutes, no more, I think,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Briefly, say, for about forty minutes\" keeps briefness before duration, but \"say\" and the \"no more, I think\" phrasing lose some of the cozy faux-modesty of «коротенько». The punchline still lands."
+          "justification": "The key word «коротенько» is rendered as a bare \"briefly, say, for about forty minutes\". The faux-modest, cozy diminutive is flattened, and \"say\" adds a vague hedge. The segment also ends on \"I think,\" with a comma, which leaves it dangling. The contrast between claimed brevity and the forty-minute punchline is weakened, which the analysis names as the main translation risk."
         }
       ]
     },
@@ -87,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double sense of «готов» (ready / drunk) is not recreated. \"Ready\" alone carries only the administrative surface meaning, and nothing hints at intoxication, so the core joke described in the analysis is lost."
+          "justification": "The candidate renders only the literal \"ready\" and \"been ready a long time\". Nothing hints at the 'drunk' subtext of «готов», so the central double meaning is lost. The exclamation mark does not compensate, and the line reads as plain backstage coordination."
         }
       ]
     },
@@ -109,7 +102,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"People!.. Ah.. Yoo-hoo!\" keeps the broken, theatrical call, but the stretched, faltering vocalization (\"Peo-ple\") is lost, and \"Yoo-hoo\" reads more cheerful than drunkenly wavering. The leading dash is also unneeded."
+          "justification": "\"People!.. Ah.. Yoo-hoo!\" keeps the broken, faltering call and a wavering ending, which works. But the stretched syllabic shape (Лю-ди, ау-у) is only partly kept, because \"People\" is not elongated and \"Yoo-hoo\" is more jaunty than drunken. Also, the leading dash is unneeded."
         }
       ]
     },
@@ -136,7 +129,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It does not echo the English \"unaided eye\", so the sense of a familiar idiom being mangled is lost and the phrase reads as strange rather than mock-scientific."
+          "justification": "\"The armed eye\" is the literal calque that the English notes say does not work. It lacks the echo of \"unaided eye\", so the viewer does not hear a mangled familiar idiom. It reads as surreal rather than as mock-scientific drunken distortion, and the joke is largely lost."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line breaks split \"armed\" from \"eye\" and the final sentence has no closing punctuation, so the pompous exclamatory delivery is weaker."
         }
       ]
     },
@@ -163,7 +162,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is restructured: \"Four stars, best of all, of course, five stars!\" makes four stars the best before five, muddling the counting build-up and weakening the sudden click to the cognac frame. The reference keeps four stars as a step and then \"But of course five stars is best\". The cognac association is also not signaled."
+          "justification": "The progression is garbled: \"Four stars, best of all, of course, five stars!\" makes four stars seem the best before five is named. The counting buildup (two, three, four... then five) is disrupted and the sudden click to the cognac frame is blurred. The joke's rhythm is damaged."
         }
       ]
     },
@@ -185,21 +184,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science isn't yet in the know\" keeps the colloquial personification well. However, \"Whether there is life on Mars, or there isn't life on Mars, science does not know\" is somewhat stiff and the second clause is a little awkward, slightly flattening the casual register of «это науке неизвестно»."
+          "justification": "The content is correct and \"isn't yet in the know\" captures the colloquial register for science. But the first part, \"Whether there is life on Mars, or there isn't life on Mars\", is clunky. And \"science does not know\" is slightly more formal than the flat, casual «науке неизвестно». The register contrast is mostly kept but somewhat less smooth."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 24,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

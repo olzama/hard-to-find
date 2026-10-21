@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"We have a directive\" keeps the bureaucratic framing and the contrast with festive content. \"Welcome the New Year cheerfully\" is slightly less dry and official than \"celebrate merrily\", and \"directive\" is a bit stronger than \"instructions\", but the joke is preserved. Only a slight loss of the deadpan managerial tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -46,7 +39,14 @@
         }
       },
       "candidate": "We won’t bring Baba Yaga in from outside,\nwe’ll train one within our collective!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Baba Yaga\" keeps the fairy-tale figure, but English-speaking viewers may not recognize the toxic-woman workplace type the analysis stresses. \"Within our collective\" does keep the Soviet workplace logic and the \"train one\" idea, so the effect is only slightly weakened."
+        }
+      ]
     },
     {
       "id": 3,
@@ -70,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key word «коротенько» is rendered as plain \"briefly\" and loses the faux-modest, cozy diminutive tone (\"just a little short talk\"). The line also drops \"так\" and the smug managerial self-satisfaction, and \"no more, I think\" is flat. The contrast with \"forty minutes\" is weakened, so the comic reversal described in the analysis is largely lost."
+          "justification": "The faux-modest diminutive \"коротенько\" is rendered as a flat \"briefly\", so the contrast with \"forty minutes\" is weaker. The segment also lacks the smug, managerial tone the analysis asks for, and \"no more, I think\" does not carry the patronizing understatement."
         }
       ]
     },
@@ -93,10 +93,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—ready long ago!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready long ago!\" keeps the surface administrative reading and hints at the drunk subtext through the odd emphasis, but the double sense of «готов» (drunk) is only faintly recreated. The exclamation mark also makes it more emphatic than the brisk, dry original. The joke survives but is weaker."
+          "justification": "The double meaning of \"готов\" (ready/drunk) is not recreated. \"Ready long ago!\" is a plain literal rendering with no hint of intoxication, so the English viewer misses the central joke. The administrative setup is preserved, but the drunken subtext is lost."
         }
       ]
     },
@@ -117,14 +117,7 @@
         }
       },
       "candidate": "- People!.. Ah... A-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"People!.. Ah... A-oo!\" keeps the broken, faltering address, but the stretched syllabic form (\"Peo-ple!\") that conveys the drunken vocal instability is lost. \"A-oo\" is also a less recognizable call to an audience than \"hellooo\", so the physical comedy is somewhat diminished."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -151,7 +144,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"The armed eye\" is the literal calque the analysis explicitly warns against. It sounds more surreal than the Russian and does not echo the familiar English idiom \"unaided eye\", so the sense of a familiar expression being wrongly \"upgraded\" into mock-scientific language is lost."
+          "justification": "\"Armed eye\" is the literal calque the English note says to avoid. It does not echo \"unaided eye\", so English viewers do not hear a familiar idiom being mangled into mock-scientific speech. It reads as surreal rather than pseudo-scholarly, and the malformed-idiom joke is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line ends with a comma, which breaks the exclamatory rhetorical flow of the original \"И посмотреть вооружённым глазом!..\"."
         }
       ]
     },
@@ -180,7 +179,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is garbled. \"Four stars—best of all, of course, five stars!\" makes four stars part of the buildup and misplaces the break, so the silly one-two-three-four sequence leading to the sudden \"five stars\" punchline is damaged. The cognac association is also not signalled (no note), which the analysis says may be needed, so the shift into a different semantic world is weakened."
+          "justification": "The progression is garbled. \"Four stars—best of all, of course, five stars!\" blurs the buildup and the punchline: four stars is now \"best of all\" and five stars comes as an afterthought. The trivial counting sequence leading to a sudden click into the cognac frame is weakened, and the original's \"two, three, four... best is five\" structure is damaged."
         }
       ]
     },
@@ -204,23 +203,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The content is accurate and the casual register is mostly preserved. However, \"Science is not yet up to date\" is slightly off as an idiom (\"up to speed\" is the natural colloquial equivalent of «не в курсе дела») and loses the personified \"not briefed\" feel, so the conversational punch is somewhat weaker."
+          "justification": "\"Life on Mars is unknown to science\" drops the \"is there/isn't there\" balance, so \"unknown\" now seems to apply to life itself rather than to its existence. \"Not yet up to date\" is also a slightly off idiom (\"up to speed\" or \"in the loop\" would be more colloquial), though the casual register is mostly kept."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 19,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 2.375,
-    "major_equiv_per_unit": 0.475,
-    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

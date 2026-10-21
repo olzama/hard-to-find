@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'In our own team' is less Soviet-flavored than the reference's 'in-house' and the analysis's 'collective'. The workplace-collective register that makes the Baba Yaga joke a social satire is weakened, though the cultivate/bring-in logic survives."
+          "justification": "\"Team\" is a generic workplace word. The analysis stresses the Soviet 'collective' (kollektiv) register that makes the line feel like institutional staffing, and that flavor is weakened."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very briefly' is emphatic rather than the faux-modest, patronizing tone the analysis asks for (the diminutive 'коротенько'). The contrast with 'forty minutes or so' still lands, and the briefness claim still precedes the duration."
+          "justification": "\"Very briefly\" is an emphatic claim rather than the faux-modest, diminutive 'коротенько' that the analysis calls for, so the patronizing understatement before 'forty minutes' is weaker. The trailing ellipsis that signals Ogurtsov trailing off is also dropped."
         }
       ]
     },
@@ -75,7 +75,14 @@
         "language_specific": {}
       },
       "candidate": "Is he ready?\n- Ready. He's been ready for ages!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The analysis's central joke is the double sense of 'готов' (ready / drunk). The candidate renders only the administrative 'ready' reading. 'He's been ready for ages!' gives no sign of intoxication, so the comic subtext the analysis identifies is lost."
+        }
+      ]
     },
     {
       "id": 5,
@@ -95,7 +102,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The clean opener 'People!' is the normalization the analysis warns against. The stretched, broken, slurred vocalization ('Ah... ay-oo') is replaced by 'Hello? Hello!', so the faltering collapse is conveyed but less physically unstable than the source."
+          "justification": "The stretched, broken vocalization of 'Лю-ди! А… ау-у!' is flattened into 'People! Hello? Hello!'. The elongation and trailing pause that the analysis describes as carrying the drunken physical comedy are not conveyed, though the hesitant repetition gives some sense of collapse."
         }
       ]
     },
@@ -122,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The central comic device, the malformed idiom 'вооружённым глазом' (mock-scientific 'armed eye' for 'naked eye'), is entirely dropped. 'And look through it' is plain and non-funny, and the lecturer's pseudo-scientific pomp is lost, contradicting the analysis's core requirement to preserve a familiar expression being incorrectly upgraded."
+          "justification": "The key comic phrase, the mangled idiom 'вооружённым глазом' (a distortion of 'невооружённым глазом'), is omitted entirely. 'And look through it' is a plain rendering, so the mock-scientific malformed idiom that the analysis identifies as the joke is gone."
         }
       ]
     },
@@ -147,9 +154,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Our eyes / can see two stars' is stilted, and the split 'Four stars—and five stars / is best' disrupts the escalating counting rhythm. The 'already' that frames the drunken lecture's pseudo-explanation is also lost. The star-count progression and the final sudden shift still work."
+          "justification": "The punchline's shift into the cognac star system is not signaled. 'Five stars is best' reads as a rating for English viewers, and the candidate has no translator's note, although the analysis flags that the cultural association is not obvious and may need one."
         }
       ]
     },
@@ -171,21 +178,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Science hasn't found out yet' flattens the colloquial idiom 'не в курсе дела' (in the know / up to speed). The personified, casual register mismatch that the analysis identifies as the key comic effect is weakened, though the factual content is preserved."
+          "justification": "'Не в курсе дела' ('not in the loop / not up to speed') is a colloquial register that the analysis identifies as the source of the comic mismatch. 'Science hasn't found out yet' is more neutral, so the casual-speech-for-science effect is weakened, though the content is accurate."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 2,
       "minor": 5
     },
-    "total_points": 10,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

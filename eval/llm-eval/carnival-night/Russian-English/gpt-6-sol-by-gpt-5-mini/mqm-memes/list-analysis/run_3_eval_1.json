@@ -51,7 +51,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the utterance in the third person (“He gives a nice little talk”), whereas the source is first-person/plural or director-style instruction delivered by Ogurtsov about the event. This shifts the speaker perspective and removes Ogurtsov's self-satisfied managerial voice. It also weakens the comic effect of the diminutive «коротенько» because the phrasing no longer presents the speaker's faux-modest claim directly before the absurd duration."
+          "justification": "The candidate shifts from Ogurtsov's first-person, self-satisfied voice to a third-person narrator ('He gives a nice little talk—'), which removes the speaker's faux-modest managerial tone that is essential to the joke. The diminutive 'коротенько' and the comic reversal produced by asserting 'briefly' before giving an obviously long duration ('forty minutes') are weakened by this change of perspective and by softening with 'nice'. This significantly damages the intended comedic effect."
         }
       ]
     },
@@ -73,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the literal meaning but adds emphatic phrasing (“well and truly ready”) that reduces the original ambiguity between formal ‘ready’ and the drunken subtext. The double reading (official readiness vs. being drunk) is weakened by the added certitude."
+          "justification": "The candidate preserves the surface 'ready' meaning but renders the reply as enthusiastic ('well and truly ready for ages'), which downplays the drunk/ambiguous subtext slightly. The double reading (official readiness vs. already smashed) is still possible but less strongly signaled than in the reference/analysis."
         }
       ]
     },
@@ -90,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "- Peo-ple!... Ah... yoo-hoo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps a broken opening but replaces the wavering, slurred cry with a colloquial call (“yoo-hoo”), which leans more playful than the original's pitiable, speech-faltering drunkenness. The fragile, collapsing vocal shape is therefore somewhat reduced."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -122,7 +115,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which the analysis explicitly warns against: in English this reads as oddly surreal rather than the intended mock‑scientific malapropism. The translation therefore fails to reproduce the subtler effect of a near-recognizable idiom turned ludicrous; it changes the line's comic quality into something stranger and less recognizably corrupting of scientific register."
+          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis explicitly warns against: in English this reads as bizarre or surreal rather than a near-familiar, mock-scientific deformation. The intended effect—a recognisably mangled idiom that echoes 'the unaided eye'—is lost, because 'armed eye' doesn't preserve the same mildly wrong, pseudo-scientific feel in the target language."
         }
       ]
     },
@@ -165,13 +158,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 12,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 1.5,
-    "major_equiv_per_unit": 0.3,
-    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

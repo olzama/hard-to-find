@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The greeting 'Здравствуйте' (hello/good evening) is omitted in every line. The stock formal-greeting cliché that the analysis stresses is reduced to 'Moito gusto'. The self-introduction as the tsar is clear, and the repetition is kept, but the mundane ritual is weaker."
+          "justification": "The greeting 'Здравствуйте' is dropped, and the exclamation marks make the lines emphatic. The reference keeps the formal greeting, which carries the stiff Soviet politeness the analysis describes. The self-introduction as the tsar is clear, and 'moito gusto' keeps the mundane cliché."
         }
       ]
     },
@@ -73,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'В печали' means sorrowful or melancholy. 'Estou de loito' specifically means 'I am in mourning', which narrows the meaning. It also loses some of the archaic, regal register of the reference 'aflixido'."
+          "justification": "'Estou de loito' means 'I am in mourning', which is narrower than 'в печали' (sad, aggrieved). It also loses the lofty archaic melancholy of the Tsar's line."
         }
       ]
     },
@@ -90,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedaron, os demoños!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Demoños' is a softened, mildly comic or euphemistic form that weakens the Tsar's earnest terror, for which 'demos' fits better. Demons are correctly the subject, so the main meaning holds."
+        }
+      ]
     },
     {
       "id": 6,
@@ -135,14 +142,7 @@
         "language_specific": {}
       },
       "candidate": "Mira ti que ben entrei!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Mira ti que ben entrei' only says he entered well. It loses the sense of luckily stumbling on a good place, which is the joy of finding the full apartment. It does correctly avoid implying that he is leaving."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -177,13 +177,7 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Cigarreiros' is the wrong word for cigarette cases (the correct term is 'cigarreiras'). It reads as a person or a different object."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The numerals '3' replace the spelled-out 'tres', which weakens the spoken rhythm of Shpak's inflated list. The final 'tres' after the pause is still preserved."
+          "justification": "'Cigarreiros' is the wrong word for cigarette cases; the correct term is 'cigarreiras', as in the reference. The jacket's missed increment, which carries the joke, is preserved."
         }
       ]
     },
@@ -200,32 +194,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti vante curar!\nE a ti tamén vante curar!\nE a min vanme curar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'E a ti tamén vante curar' is ungrammatical, because the adverb 'tamén' requires proclisis ('tamén te van curar')."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks and the loss of the ellipses turn Ulyana's calm, melodic resignation into a more emphatic, shouted delivery."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 4
     },
-    "total_points": 7,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

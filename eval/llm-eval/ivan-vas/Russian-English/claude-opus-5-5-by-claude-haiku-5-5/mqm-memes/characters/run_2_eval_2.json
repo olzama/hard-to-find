@@ -41,13 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis states that Bunsha is introducing himself as the Tsar, not addressing one. The candidate's 'Very pleased, Tsar!' and 'Tsar, very pleased!' read as greetings directed at a Tsar, which inverts the intended self-introduction. The reference makes this explicit with 'I'm the Tsar'."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Very pleased, hello, Tsar!' is awkward word order for a spoken greeting and reads less naturally than the source's clipped social cliché."
+          "justification": "The analysis requires that the viewer understands Bunsha is introducing himself as the Tsar, not addressing one. The candidate's 'Very pleased, Tsar!' and 'Hello, Tsar!' read as greetings directed at a Tsar, and no line states that he is the Tsar. The reference's 'Hello, I'm the Tsar' makes this explicit, and the candidate loses it."
         }
       ]
     },
@@ -164,7 +158,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'удачно' conveys fortunate timing (a lucky moment to drop by), while 'picked a good place' shifts the emphasis to choosing a location. The joke still lands, but the nuance is slightly off."
+          "justification": "The source 'удачно зашел' means he happened to drop in at a fortunate moment. The candidate's 'I picked a good place' turns luck into a deliberate choice of location. The 'drop in' idiom and the sense of having just entered are preserved, so the shift is small."
         }
       ]
     },
@@ -188,10 +182,16 @@
       "candidate": "Caviar, black, red...\nYes! And overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
-          "category": "terminology",
+          "severity": "minor",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says the eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'overseas caviar' applies the caviar label to the eggplant item, contrary to that instruction. The reference avoids this with 'Overseas spread'."
+          "justification": "The language-specific note warns that eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'overseas caviar' applies the caviar label to the eggplant item before the 'Eggplant!' reveal, which goes against that guidance. The source also uses 'икра' here, and the reveal still lands, so the problem is minor."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The opening 'Caviar, black, red...' is an awkward, telegraphic rendering of 'Икра чёрная, красная'. It reads less naturally than a standard 'Black caviar, red caviar' construction."
         }
       ]
     },
@@ -218,7 +218,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's hesitant pauses ('куртка… замшевая… Три') are reduced to a dash-separated list, losing the stammering rhythm that conveys Shpak forgetting to count the jacket. Numerals ('3') also replace the spoken number words, which weakens the oral register."
+          "justification": "The candidate mixes numerals ('3 tape recorders', '3 film cameras', '3 domestic cigarette cases') with the spelled-out 'three' at the end. The reference uses words throughout, so the count rhythm that drives the joke is slightly weaker."
         }
       ]
     },
@@ -240,27 +240,27 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first clause 'They'll cure you too!' adds 'too' where the source's opening 'И тебя вылечат' has no such adverb, and the second clause adds 'as well'. This alters the progression of the source's list of cures."
+          "justification": "The source's first clause 'и тебя вылечат' has no 'тоже', but the candidate's opening 'They'll cure you too!' adds 'too', which the source does not contain in that position."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks throughout turn the calm, melodic resignation described in the analysis into an excited delivery. The source's trailing ellipses carry that resignation, and the candidate drops them."
+          "justification": "The analysis describes calm, melodic resignation. The candidate ends every line with an exclamation mark, which turns the resigned, sing-song delivery into an excited or shouted tone that the source does not carry."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 15,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

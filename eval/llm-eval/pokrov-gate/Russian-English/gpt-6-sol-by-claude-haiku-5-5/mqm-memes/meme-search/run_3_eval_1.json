@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Name one!' drops the mock-elevated theatrical register of the reference's 'Pray, tell me, name them!!', which the analysis identifies as Velyurov's high-flown self-dramatization. The candidate reads as more brisk and conversational."
+          "justification": "The candidate drops the opening 'And' and the mock-elevated 'Pray, tell me', and narrows 'назови' to 'Name one!'. This softens the theatrical self-dramatization that the analysis describes."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a vocative, 'Arkady Varlamovich,', that does not appear in the source line. It invents a form of address and a name the source does not supply, though the rest of the line's meaning is preserved."
+          "justification": "The candidate adds the name and patronymic 'Arkady Varlamovich', which has no counterpart in the source. It turns a casual invitation into a formal address, which works against the easy camaraderie the analysis describes."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "Such lofty... lofty relations.",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate uses the literal noun-phrase structure ('Such lofty... lofty relations.') that the analysis explicitly warns against. It drops the exclamatory sarcasm of the refrain and the stretched-sibilant effect of 'выс-с-сокие', which the reference renders as 'e-v-volved'."
+          "justification": "The candidate keeps the stuttered repetition, but 'Such lofty... lofty relations.' uses the literal noun-phrase structure that the language note warns against. It loses the natural exclamatory phrasing and the exclamation mark."
         }
       ]
     },
@@ -102,14 +102,7 @@
         "language_specific": {}
       },
       "candidate": "Mind you, it wasn't my idea!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Mind you' is more conversational than the formal, self-presenting 'Заметьте' and the reference's 'For the record:'. The disclaimer-like register that the analysis associates with Velyurov's self-exculpation is slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -132,9 +125,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Chef!' is the standalone professional noun the analysis explicitly flags as unnatural. In English it reads as a neutral call or address rather than the sarcastic domestic insult ('Some cook you are!') that creates the comic effect."
+          "justification": "'Chef!' is the literal standalone noun that the language note flags as unnatural. In English it reads as a neutral form of address rather than the sarcastic domestic insult the analysis describes, so the ironic punchline does not land."
         }
       ]
     },
@@ -161,7 +154,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The German word is correctly kept untranslated, but the full stop in 'Natürlich.' flattens the exclamatory energy of the source's '!' and the reference's 'Natürlich!', weakening the eager, automatic assent the analysis describes."
+          "justification": "The full stop replaces the exclamation mark of 'Натюрлих!', which flattens the eager, automatic compliance that the analysis describes."
         }
       ]
     },
@@ -183,7 +176,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Cut the damn thing out.' softens the intensity of 'к чёртовой матери' ('to hell with it'), which the reference captures as 'the hell out'. The urgency of the surgeon's outburst is somewhat reduced."
+          "justification": "'Before peritonitis sets in' turns the urgent imperative 'don't wait for peritonitis' into a conditional timing clause, weakening the surgeon's blunt urgency."
         }
       ]
     },
@@ -225,13 +218,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source 'Это мой крест' does not name a referent. The candidate's 'He's my cross to bear!' inserts a male referent. The reading is plausible given Khobotov, but it is an explicit specification the source does not make."
+          "justification": "The source uses the neutral 'Это' (this/it). 'He's my cross' introduces a male referent that is not in the source, narrowing the ambiguous burden to a specific person."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's emphatic 'И нести его мне!' stresses that the burden falls on her alone, which the reference renders as 'And mine alone!'. 'And I'll bear it' loses that exclusivity and part of the martyred emphasis the analysis highlights."
+          "justification": "'And I'll bear it' drops the emphasis on 'мне' (me) in 'И нести его мне!', so the exclusive self-sacrifice that the analysis highlights is weakened."
         }
       ]
     },
@@ -253,26 +246,19 @@
         }
       },
       "candidate": "Oh, I'm such a misfit,\nso awkward...\nSuch a bundle of contradictions!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'угловатая' conveys a specific angular or unfinished image, rendered in the reference as 'all sharp edges'. The candidate loses that image, rendering it as a second 'awkward' next to 'misfit', so one of the three self-descriptions is blurred."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 8
+      "major": 1,
+      "minor": 7
     },
-    "total_points": 18,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept as a fairy-tale name without any cue to the workplace type of a nasty woman, so the social logic is less accessible to English viewers than the reference's 'witch'. \"Raise\" and \"collective\" do keep the staffing/educational flavor, so the damage is limited."
+          "justification": "\"Baba Yaga\" is left untranslated and unexplained, so the 'nasty woman in the workplace' social type is less accessible to a general English audience; the 'collective/raise one' workplace logic is preserved though."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "briefly, about\nforty minutes—more, I think,\nisn't necessary",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Briefly\" is flat and lacks the faux-modest, cozy diminutive tone of «коротенько». The 'briefly' then 'forty minutes' order is kept, so the punchline still lands, but the smug understatement is weaker. \"Isn't necessary\" is also slightly stiff compared to 'I don't think we need any more'."
+          "justification": "The key word «коротенько» (faux-modest 'briefly/just a short one') is rendered as a flat lowercase 'briefly' with no sense of cozy, patronizing understatement, and the line drops the 'so/just a little' tone. 'Isn't necessary' is also stiff. The contrast with 'forty minutes' is weakened, though the order (briefly before duration) is kept."
         }
       ]
     },
@@ -96,7 +96,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word «давно» is left untranslated in the English subtitle (\"ready давно\"), which is unreadable for an English audience. The 'been ready for quite a while' escalation is lost. The \"ready\" = drunk double meaning is not recreated, so the joke is missing."
+          "justification": "The double meaning of «готов» (ready / drunk) is lost: the candidate repeats 'ready' and leaves the Russian word 'давно' untranslated, so the English viewer gets neither the drunk joke nor an understandable 'ready for a long time'."
+        },
+        {
+          "severity": "major",
+          "category": "fluency",
+          "span": "",
+          "justification": "Leaving 'давно' in Cyrillic inside an English subtitle is an untranslated-material error that breaks readability."
         }
       ]
     },
@@ -122,7 +128,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The stretched, broken delivery of «Лю-ди!» is only partly kept: \"People!..\" is not syllabically broken like 'Peo-ple!'. \"A-oo!\" is a plausible wavering cry but is less clearly a call to the audience than 'hellooo'. The drunken instability is somewhat weaker."
+          "justification": "The vocal instability is only partly conveyed: 'People!' is a clean word, unlike the stretched 'Лю-ди', so the faltering, slurred opening is weaker, though the 'Ah... A-oo!' retains some broken, wavering quality."
         }
       ]
     },
@@ -149,9 +155,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis says to avoid. It sounds surreal rather than echoing 'unaided eye', so the mock-scientific mangling of a familiar idiom is lost in English. The final comma also leaves the exclamatory, pompous delivery incomplete."
+          "justification": "'Armed eye' is the literal calque the analysis warns against; it does not echo 'unaided eye' and sounds merely strange rather than like a mangled mock-scientific idiom, so the joke does not land in English."
         }
       ]
     },
@@ -180,7 +186,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline structure is broken: the progression 'two, three, four... five is best' is rearranged so that \"four little stars—best of all, of course, five little stars\" blurs the counting buildup and the sudden click to cognac. No cognac cue is given, and the English viewer may not get the shift of domain, so the derailment is weakened."
+          "justification": "The progression is broken: 'Four little stars—best of all, of course, five little stars' makes four stars part of the best-of-all sentence, losing the clean build-up 'two, three, four…' followed by the sudden 'five is best' click into the cognac frame. The cognac association is also not signalled, so the derailment punchline is weakened."
         }
       ]
     },
@@ -204,23 +210,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" is a stiff calque of the Russian structure. \"Science is not yet in the know\" keeps the colloquial register, but the phrase is slightly awkward compared to 'isn't up to speed'."
+          "justification": "'Science is not yet in the know' keeps the casual register well, but the first sentence ('is there no life on Mars') is slightly awkward and 'does not know' is a bit more formal than the flat colloquial 'unknown to science'; the comic register contrast is slightly reduced."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 5,
+      "minor": 3
     },
-    "total_points": 19,
+    "total_points": 28,
     "meaning_units": 8,
-    "penalty_per_unit": 2.375,
-    "major_equiv_per_unit": 0.475,
-    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.5,
+    "major_equiv_per_unit": 0.7,
+    "interpretation": "3.50 MQM penalty points per meaning unit (≈ 0.70 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

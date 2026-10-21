@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" fits the staffing logic, but \"Baba Yaga\" left untranslated and unexplained leans on the fairy-tale figure rather than the recognizable nasty-woman type, so the workplace-type reading is weaker for English viewers. \"Raise one\" also sounds more like child-rearing than workplace cultivation, though \"team\" keeps the social logic."
+          "justification": "\"Baba Yaga\" keeps the fairy-tale figure but loses the workplace/social-type reading for an English audience, who will not recognize the nasty-woman archetype. \"Hire\" and \"team\" keep the staffing logic, but \"raise\" is a bit more fairy-tale/parental than the managerial \"train in-house\"."
         }
       ]
     },
@@ -67,16 +67,10 @@
       "candidate": "briefly—about forty minutes,\nno more, I think, is necessary—",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The faux-modest, cozy diminutive effect of \"коротенько\" is lost: \"briefly\" is rendered flatly, and the stiff inversion \"no more, I think, is necessary\" sounds awkward rather than self-satisfied. The contrast with \"forty minutes\" is weakened, which the analysis flags as the main translation risk."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrasing \"no more, I think, is necessary—\" is stilted and unnatural in spoken English compared with a simple \"I don't think we need more.\""
+          "justification": "The faux-modest \"briefly\" comes before \"forty minutes\", so the comic reversal is preserved. However, \"no more, I think, is necessary\" is stiff and slightly awkward, and the cozy diminutive tone of «коротенько» is not conveyed."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders only the literal \"ready\" and does not recreate the double sense of \"готов\" as drunk. \"Been ready a long time\" does not carry the innuendo of intoxication, so the core joke disappears, as the analysis warns."
+          "justification": "The translation renders only the literal \"ready\" and \"been ready a long time\". The reference's \"Oh, he's ready\" tone hints at the double meaning, but the candidate offers no way to recreate the \"ready = drunk\" subtext, so the main joke of the exchange is lost."
         }
       ]
     },
@@ -128,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The drunken broken vocalization is only partly preserved. \"People!..\" is delivered as a clean word without the stretched, wavering syllables of \"Лю-ди!\", and \"A-oo\" is a weaker echo of \"ау-у\", so the physical comedy of failing oratory is reduced."
+          "justification": "The candidate keeps the faltering, unstable shape (\"Ah... A-oo!\"), but the opening \"People!\" is a clean word rather than a stretched, broken cry like \"Peo-ple!\". The drunken physical comedy is weaker, and \"A-oo\" is less recognizable as a call to a crowd than \"hellooo\"."
         }
       ]
     },
@@ -157,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the language-specific note says to avoid. It sounds more surreal than the Russian and does not echo the familiar English idiom \"unaided eye\", so the sense of a familiar expression being mock-scientifically upgraded is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"But we only have to take a telescope...\" is slightly awkward, and the punctuation (ellipsis and comma) weakens the pompous rhetorical build and exclamatory rhythm of the original."
+          "justification": "\"Armed eye\" is the literal calque that the English note explicitly warns against. It sounds surreal and does not echo \"unaided eye\", so the malformed-idiom joke (a familiar expression wrongly upgraded into mock-scientific language) is lost. The candidate also leaves out \"all we have to do\", though \"we only have to\" covers it."
         }
       ]
     },
@@ -192,13 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is changed: the lecturer counts \"two stars, three stars...\" and then \"Four stars—best of all, of course, five stars!\". This breaks the trivial, silly 2-3-4 buildup so that the fifth star no longer lands as a sudden click into the cognac frame. \"Four stars—best of all\" also blurs the punchline by suggesting four is best before five."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line breaks fragment the sequence, and there is no cue such as a note to help English viewers recognize the five-star cognac association."
+          "justification": "The progression is garbled. It drops the \"five stars\" punchline's setup by placing \"four stars\" and \"best of all, of course, five stars\" in a single run, so the counting no longer builds trivially to a sudden click into the cognac frame. The candidate also gives no cue (note or otherwise) for the cognac association, so the derailment is much less legible."
         }
       ]
     },
@@ -222,23 +204,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" is a fairly good rendition of the colloquial doubling. However, \"Science is not yet up to speed\" drops the \"on the matter\" and the casual, personified \"не в курсе дела\" nuance slightly, making the final punch a bit flatter."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is a literal and slightly awkward rendering of the colloquial «есть ли... нет ли». The register of \"up to speed\" is retained and the joke works, but the opening is less natural than \"Whether there is life on Mars or not\"."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 6
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 26,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 3.25,
-    "major_equiv_per_unit": 0.65,
-    "interpretation": "3.25 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

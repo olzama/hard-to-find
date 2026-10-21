@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the semantic contrast between 'brief' and 'forty minutes' but renders «коротенько» as plain 'just briefly.' The diminutive, mildly patronizing cozy tone of «коротенько» (which helps make the forty-minute length comically excessive) is weakened by the flatter 'just briefly,' slightly reducing the faux-modest managerial voice that is key to the joke."
+          "justification": "The candidate preserves the core joke (calling a 40-minute address “brief”) but renders «коротенько» as plain “just briefly,” losing some of the diminutive, faux-modest flavor that heightens the comic contrast. The understatement is still present, but slightly weakened."
         }
       ]
     },
@@ -103,7 +103,14 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... A-woo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The stretched, faltering address is preserved with syllable breaks, but the vocalisation “A-woo” is an odd choice in English (suggesting a howl) and reads less naturally than a slurred attempted greeting like “Ah… helloo.” The drunken, theatrical collapse is present but the second vocalization is slightly awkward."
+        }
+      ]
     },
     {
       "id": 6,
@@ -128,9 +135,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate keeps the malformed idiom by using “armed” eye in quotes. However, the analysis warns a literal calque 'armed eye' reads stranger in English than in Russian; the preferred English solution ('aided eye' or similar) preserves the mock-scientific feel without sounding overly surreal. Using 'armed' risks sounding oddly literal rather than humorously pseudo-technical."
+          "justification": "The candidate keeps the malformed-idiom joke by using “armed” eye and puts it in quotes, but a literal calque (“armed eye”) reads more surreal in English than the Russian does. A more idiomatic English solution (e.g. “aided/armed” eye without startling literalness) would better mirror the mock-scientific tone while staying natural."
         }
       ]
     },
@@ -179,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 2,
+    "total_points": 3,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.375,
+    "major_equiv_per_unit": 0.075,
+    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

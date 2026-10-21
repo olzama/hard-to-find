@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic, but the untranslated \"Baba Yaga\" is less accessible to English viewers than a generic \"witch\", and \"collective\" is reasonable Soviet flavor. The workplace/social-type reading is only partly conveyed, and \"raise one\" is slightly more fairy-tale/parenting than \"train one in-house\"."
+          "justification": "\"Baba Yaga\" keeps the fairy-tale figure and \"hire\"/\"raise\"/\"collective\" keep the workplace logic, but \"raise\" and the untranslated Baba Yaga lean slightly toward folklore. English viewers may not recognize the toxic-colleague type, so the social layer is weaker than in the reference."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The comic 'faux-modesty' of «коротенько» is lost: \"briefly\" is flat and lacks the cozy, patronizing diminutive tone. Also, \"more, I think, isn't necessary\" is stiff and awkward, which weakens the smug managerial tone so that \"forty minutes\" lands less as a punchline."
+          "justification": "The faux-modest \"briefly\" is kept, but the line loses the cozy diminutive tone of «коротенько так». It also drops the \"and\" opener and rephrases the ending as \"more isn't necessary\", which is stiffer and less self-satisfied. This weakens the smug managerial tone that makes the forty-minute punchline land."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation renders only the surface meaning \"ready\" and loses the \"drunk / done for\" double sense that is the whole joke. Nothing in the wording (e.g., \"he's been ready a long time\") recreates the intoxication subtext, and the exclamation mark does not compensate."
+          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready—has been ready a long time\" is purely literal, so the drunk subtext is lost. The question and answer also run together without dialogue dashes."
         }
       ]
     },
@@ -119,10 +119,10 @@
       "candidate": "- People!.. Ah... Hel-lo!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"People!.. Ah... Hel-lo!\" keeps some broken rhythm, but \"People\" is not stretched or broken (the reference uses \"Peo-ple\"), so the drunken vocal instability is weaker. \"Hel-lo\" is acceptable for «ау-у» but less wavering/calling than \"hellooo\"."
+          "justification": "The drunken, broken vocalization is mostly lost. \"People!.. Ah... Hel-lo!\" has only a mild stretch on \"Hel-lo\", and \"People\" is rendered cleanly, so the faltering, wavering oratorical collapse described in the analysis is largely normalized."
         }
       ]
     },
@@ -151,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis specifically says to avoid; it does not echo the English \"unaided eye\", so the recognizable distorted idiom is lost and the phrase sounds merely strange rather than mock-scientific. The line also ends with a comma, dropping the trailing exclamatory pomp."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It does not echo the English \"unaided eye\", so the mock-scientific distortion of a familiar idiom does not register for English viewers. It also ends in a comma, which breaks the exclamatory rhythm."
         }
       ]
     },
@@ -180,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The buildup is garbled: \"Four stars—best of all, of course, five stars!\" places four stars inside the punchline sequence and makes the sentence sound like \"four stars—best of all\" before correcting itself with five. The clean trivial counting progression followed by a sudden click to \"five stars\" is damaged, weakening the derailment. No cultural cue for the cognac association is present either, though the analysis notes this may need a note."
+          "justification": "The counting progression is broken. \"Four stars—best of all, of course, five stars!\" folds the fourth star into the punchline, so the trivial one-two-three-four buildup is lost and the sudden click to five stars is blurred. There is also no cue for the cognac association."
         }
       ]
     },
@@ -206,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet up to date\" is a calque-like mistranslation of «не в курсе дела»; the idiom means \"not in the loop / up to speed\", and \"up to date\" loses the personified, casual quality. \"Is there no life on Mars\" and \"does not know\" are also stiffer than the casual register intended."
+          "justification": "The meaning is preserved and the casual register largely holds. \"Is there no life on Mars\" is slightly awkward, and \"not yet up to date\" is a bit less idiomatic than \"up to speed\", so the colloquial personification of science is slightly weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 5,
+      "minor": 2
     },
-    "total_points": 23,
+    "total_points": 27,
     "meaning_units": 8,
-    "penalty_per_unit": 2.875,
-    "major_equiv_per_unit": 0.575,
-    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.375,
+    "major_equiv_per_unit": 0.675,
+    "interpretation": "3.38 MQM penalty points per meaning unit (≈ 0.68 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

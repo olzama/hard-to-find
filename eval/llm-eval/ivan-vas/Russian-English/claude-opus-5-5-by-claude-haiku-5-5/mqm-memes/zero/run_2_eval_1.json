@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that the lines read as self-introduction (\"I am the Tsar\"), not as addresses to a tsar. \"Very pleased, tsar!\", \"Hello, tsar! Very pleased!\" and \"Very pleased, hello, tsar!\" read as greetings directed at a tsar, so the speaker's identity is misrepresented."
+          "justification": "The analysis requires that the viewer read Bunsha as introducing himself as the Tsar, not addressing a Tsar. The candidate's repeated 'tsar!' lines, with no self-identifying 'I'm the Tsar', read as vocatives ('Hello, tsar!'), which reverses the intended reading. The reference resolves this with 'Hello, I'm the Tsar'."
         }
       ]
     },
@@ -98,7 +98,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source has no object (\"Замуровали\"), and the reference renders it as \"walled me in\". The candidate's \"walled us in\" adds a plural that implies other people are trapped, which the source does not state."
+          "justification": "The source has no object pronoun ('Замуровали' alone). The candidate's 'walled us in' adds a first-person plural that implies a group trapped together, while the reference and the analysis present the Tsar as the one walled in. The addition is small but not supported by the source line."
         }
       ]
     },
@@ -125,7 +125,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"That's the power of the life-giving cross!\" drops the grandiose, archaic declamatory register of \"Вот что ... делает!\" (reference: \"Behold the power...\"). The Tsar's absolute, theatrical conviction is flattened into a casual remark."
+          "justification": "'That's the power of...' is flatter than the source's 'Вот что ... делает!' and loses the grandiose, archaic declaratory register the analysis describes (the Tsar's absolute conviction in his miracle). 'Behold' in the reference carries that register."
         }
       ]
     },
@@ -189,10 +189,10 @@
       "candidate": "Black caviar, red...\nYes! And overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
-          "category": "terminology",
+          "severity": "minor",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's \"And overseas caviar... Eggplant!\" applies the word 'caviar' to the eggplant spread, which is the exact confusion the note warns against. The reference avoids this with 'overseas spread'."
+          "justification": "The analysis explicitly says the eggplant spread must not be called 'caviar' because viewers will be confused. The candidate's 'overseas caviar...' applies the caviar label to it before the 'Eggplant!' reveal, contrary to that note. The punchline still lands at 'Eggplant!', so the problem is limited, though it departs from the reference's 'overseas spread'."
         }
       ]
     },
@@ -216,10 +216,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nsuede jackets, three.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The joke depends on Shpak saying the singular \"куртка\" (one jacket) and then the count jumping to \"Три\", showing he forgot to increment it. The candidate's \"suede jackets, three.\" pluralises the item from the start, so the forgotten-count beat that the analysis identifies as the source of the humour is lost."
+          "justification": "The source's gag depends on the hesitation: 'куртка… замшевая… Три', where Shpak pauses and then realizes he forgot to count the jackets. The candidate renders this as a flat comma-separated list with no pause, so the forgotten-count beat that the analysis identifies as the funny part is weakened."
         }
       ]
     },
@@ -241,27 +241,27 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first line \"They'll cure you too!\" adds \"too\", which is not in the source \"И тебя вылечат\". It implies a prior reference that the source does not contain. The reference keeps \"And they'll cure you\"."
+          "justification": "The source distinguishes 'И тебя вылечат' (no 'тоже') from 'и тебя тоже вылечат'. The candidate adds 'too' to the first line, so the first two lines become nearly identical and lose the source's contrast."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's ellipses and melodic, calm resignation are replaced by exclamation marks on every line. This shifts the delivery toward agitated or hysterical, contrary to the analysis's description of calm resignation."
+          "justification": "The source's ellipses and calm, melodic cadence support the 'calm resignation' described in the analysis. The candidate's exclamation marks make the delivery excited rather than resigned, shifting the tone toward hysteria."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 19,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

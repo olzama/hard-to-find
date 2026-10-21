@@ -21,7 +21,14 @@
         }
       },
       "candidate": "Once again I'm tormented\nby vague doubts...\nShpak's — a tape recorder,\nthe ambassador's — a medallion.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The dash construction in the candidate ('Shpak's — a tape recorder, the ambassador's — a medallion') is ambiguous and reads more like simple possession than the original Russian syntactic ellipsis, which in context indicates those items have been taken/lost. This weakens the intended meaning noted in the analysis that the lines report missing items rather than stating ownership."
+        }
+      ]
     },
     {
       "id": 2,
@@ -41,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing a tsar ('Very nice, Tsar!') rather than absurdly introducing himself as the Tsar. The analysis requires that the line make clear he is introducing himself (the joke is that he keeps saying he is the Tsar); the candidate misrepresents the intended self-introduction and thus alters the comic premise."
+          "justification": "The candidate reads as if Bunsha is addressing a Tsar ('Very nice, Tsar! ... Hello, Tsar!') rather than repeatedly introducing himself as the Tsar (i.e., 'I am the Tsar'), which is central to the gag and the era-clash described in the analysis. This changes the pragmatic meaning and undermines the joke."
         }
       ]
     },
@@ -175,10 +182,10 @@
       "candidate": "Black caviar, red caviar...\nYes! And overseas caviar...\nEggplant caviar!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the cheap Soviet product as 'Eggplant caviar,' which repeats the Russian wording but runs counter to the analysis note warning not to present the eggplant spread as literal 'caviar.' This risks confusing viewers unfamiliar with the cultural joke and weakens the intended satirical contrast."
+          "justification": "The candidate labels the cheap Soviet eggplant spread as 'eggplant caviar.' The analysis explicitly warns against calling the eggplant spread 'caviar' because the joke depends on the contrast between genuine (black/red) caviar and the humble eggplant spread presented as a faux delicacy. Calling it 'caviar' collapses that satirical inversion and misrepresents the humor."
         }
       ]
     },
@@ -202,10 +209,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nsuede jackets — three.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The humour hinges on Shpak's slip-up about the counting (he hesitates over the suede jacket then ends with 'Three'). The candidate flattens this by presenting 'suede jackets — three' as a straightforward item, removing the self-contradiction and the comic effect of the original line."
+          "justification": "The candidate renders the suede jacket line as 'suede jackets — three,' which smooths out the hesitation/retcon present in the original (where the speaker forgets to increment the count). That small change removes a subtle comic beat that exposes Shpak's inflation of losses."
         }
       ]
     },
@@ -228,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 11,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

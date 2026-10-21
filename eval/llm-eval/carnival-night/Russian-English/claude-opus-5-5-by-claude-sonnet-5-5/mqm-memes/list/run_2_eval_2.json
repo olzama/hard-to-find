@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one in our own collective\" is understandable and keeps the workplace logic, but \"raise\" sounds more like child-rearing or livestock than the managerial 'train/cultivate' staffing language, and \"collective\" is slightly foreign-sounding. The deadpan HR tone is slightly weakened, though the double reading (fairy-tale villainess and the toxic workplace type) is still present."
+          "justification": "\"Raise one\" plus the fairy-tale name \"Baba Yaga\" leans toward the fantastical and may be opaque to English viewers, whereas the workplace/social-type reading (a nasty woman already in the office) is less evident. The \"in our own collective\" phrasing does keep the Soviet workplace logic and the 'cultivate in-house' joke, so the damage is slight."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key faux-modesty word 'коротенько' is rendered as plain 'briefly', and the structure \"for about forty minutes, no more\" blurs the order of the joke. The reversal of 'briefly' followed by 'forty minutes' is muddied by 'for about forty minutes', and there is no patronizing or cozy tone. The final 'I don't think we need more' is awkwardly repeated ('no more... need more'), which flattens Ogurtsov's smug, self-satisfied managerial voice and weakens the punchline."
+          "justification": "The joke depends on the faux-modest \"briefly\" being followed by \"forty minutes\". Here the order is blurred: \"briefly, for about forty minutes\" merges the two into one phrase, and the comic reversal is weakened. The cozy, patronizing diminutive tone of «коротенько» is also not conveyed."
         }
       ]
     },
@@ -75,7 +75,14 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nOh, he's ready, all right. Been ready for ages!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The double meaning of «готов» (ready / drunk) is lost. \"Ready, all right. Been ready for ages!\" has only the literal sense, with no hint of intoxication in the wording, so the alcoholic subtext that makes the exchange memorable disappears. The reference has the same limitation, but the candidate adds no extra hint either."
+        }
+      ]
     },
     {
       "id": 5,
@@ -95,7 +102,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The broken, faltering vocalization is mostly preserved ('People!.. Ah... Yoo-hoo!'), but the added 'Anybody?' is not in the source. It turns the drunken oratory into a coherent, sober-sounding question and slightly weakens the collapsing-speech effect."
+          "justification": "The broken, stretched vocalization of the original («Лю-ди!») is lost: \"People!..\" is not syllabically broken. \"Yoo-hoo! Anybody?\" is an acceptable equivalent of «ау-у», but the added \"Anybody?\" is an extra not in the source and makes the cry more lucid than the faltering original."
         }
       ]
     },
@@ -122,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye', which the analysis explicitly says to avoid because it sounds stranger and more surreal than the Russian. It loses the echo of the familiar English idiom 'unaided eye', so the mock-scientific deformation of a recognizable expression is not recreated and the joke is lost."
+          "justification": "\"Armed eye\" is the literal calque the notes explicitly warn against. It sounds more surreal than the Russian and does not echo the familiar English idiom \"unaided/naked eye\", so the mock-scientific malformed-idiom effect is lost."
         }
       ]
     },
@@ -147,9 +154,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "'two-star, three-star... Four-star' is understandable and keeps the counting build-up and the five-star cognac punchline. However, the adjectival 'two-star' form loses the childish 'little stars' counting and reads less like silly pseudo-astronomy. The cognac association is not explained, though the analysis allows a translator's note for this."
+          "justification": "\"Two-star, three-star... Four-star\" is a recognizable cognac/hotel rating frame and the five-star punchline is retained, but it loses the childish, silly counting of «две звёздочки, три звёздочки» that sounds like empty astronomy, so the sudden shift into a different semantic world is slightly less sharp. The lack of any note on the cognac association is also not compensated."
         }
       ]
     },
@@ -166,26 +173,19 @@
         "language_specific": {}
       },
       "candidate": "Whether there's life on Mars or\nthere isn't life on Mars, that's\nunknown to science.\nScience is not yet in the loop.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The content and casual register are largely retained, and 'not yet in the loop' is a good colloquial equivalent of 'не в курсе дела'. However, 'or there isn't life on Mars' is a little stiff and awkwardly literal, and the first sentence is slightly less natural than the reference's 'or not'. This slightly dulls the loose conversational feel."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 14,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

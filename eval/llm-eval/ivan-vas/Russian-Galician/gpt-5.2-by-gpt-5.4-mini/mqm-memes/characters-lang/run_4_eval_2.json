@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line preserves the meaning and comic register, but the colon-separated phrasing is a bit less natural and less elegant than the reference’s sentence flow."
+          "justification": "The punctuation and line breaks are a bit clunky, but the joke and the mock-heroic tone are preserved, and the meaning that each person lost the item is clear."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is understandable, but it weakens the required self-introduction pattern slightly; 'Moito gusto, tsar' can read more like addressing the Tsar than repeatedly saying 'I am the Tsar, pleased to meet you,' which the analysis says should remain clear."
+          "justification": "The candidate removes the self-introduction pattern and turns the line into a generic greeting, weakening the key joke that he keeps saying he is the Tsar while greeting others."
         }
       ]
     },
@@ -60,7 +60,14 @@
         "language_specific": {}
       },
       "candidate": "Eu esixo que continúe o banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The wording is natural enough and preserves the demand to continue the banquet, though it is slightly less forceful and idiomatic than the reference."
+        }
+      ]
     },
     {
       "id": 4,
@@ -80,7 +87,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' conveys the sense, but it is flatter and less aristocratic than the more elevated 'estou aflixido,' reducing the mock-regal tone."
+          "justification": "\"Estou triste\" conveys the basic meaning, but it loses the slightly archaic, mock-regal melancholy of \"estou aflixido\" that is central to the character voice."
         }
       ]
     },
@@ -97,7 +104,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The repeated line is acceptable, but the punctuation makes it feel slightly awkward; the meaning that he has been walled in remains clear."
+        }
+      ]
     },
     {
       "id": 6,
@@ -117,7 +131,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira o que fai...' is slightly less forceful and archaic-sounding than the reference, so the religious exclamation is a bit weaker stylistically."
+          "justification": "\"Mira\" is a bit less elevated than the reference's more solemn deictic phrasing, so the mock-biblical exclamation feels slightly less grand."
         }
       ]
     },
@@ -137,9 +151,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'A bailar todo o mundo!' changes the imperative meaning slightly; the source means 'everyone dance' / 'all dance,' not simply 'let the whole world dance,' though the general effect remains close."
+          "justification": "The meaning is correct, but \"A bailar todo o mundo\" is a bit less punchy and chant-like than the reference's concise imperative."
         }
       ]
     },
@@ -161,7 +175,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Entrei con sorte!' omits the key sense of an accidental lucky find and can also sound like a simple statement about entering well, losing the humorous self-satisfied reaction to discovering valuables."
+          "justification": "\"Entrei con sorte\" suggests he has already entered and emphasizes the act of entering, but the source is an exclamation of pleased surprise upon finding the good place, not a statement about coming in."
         }
       ]
     },
@@ -183,7 +197,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops 'manxar de ultramar' and instead says 'caviar de ultramar,' which conflicts with the analysis warning not to call the eggplant spread caviar; this blurs the joke and misrepresents the item."
+          "justification": "The candidate drops the crucial contradiction of \"eggplant caviar\" and replaces it with the generic \"caviar de ultramar,\" losing the satirical joke about Soviet substitute food."
         }
       ]
     },
@@ -202,16 +216,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de ante: tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The count sequence is broken: the final 'three' is attached only to the jacket line, but the source builds a running inventory and the joke depends on the escalating list, including the trailing 'three' after the full list."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The compressed telegraphic formatting is readable, but it sounds somewhat more list-like and less comic than the original exasperated inventory."
+          "justification": "The list is understandable, but the compressed formatting and \"cámaras\" for film cameras slightly weaken the rhythm and specificity of the boastful inventory."
         }
       ]
     },
@@ -230,24 +238,24 @@
       "candidate": "E a ti van curarte!\nE a ti tamén van curarte!\nE a min van curarme!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'van curarte' is understandable, but it is less natural than the reference’s 'te van curar' and slightly obscures the repeated resigned prediction structure."
+          "justification": "The candidate changes \"you will be cured\" into \"they will cure you,\" which weakens the resigned, fatalistic rhythm and the repeated passive/impersonal threat in the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 4,
       "minor": 7
     },
-    "total_points": 22,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

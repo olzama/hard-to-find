@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Vague doubts haunt me once again...\nShpak's tape recorder, the ambassador's medallion.\nShpak's tape recorder,\nthe ambassador's medallion.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate adds a redundant repetition of 'Shpak's tape recorder, the ambassador's medallion' split across lines, which is not in the source and reads as a duplicated subtitle, though the core mock-heroic phrasing and the 'lost items' sense are preserved."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.\nThe Tsar, very pleased. Hello, the Tsar. Very pleased!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds an extra repeated sequence ('The Tsar, very pleased. Hello, the Tsar. Very pleased!') that goes beyond the reference. It still clearly presents Bunsha introducing himself as the Tsar and keeps the repetitive social-cliché humor."
+        }
+      ]
     },
     {
       "id": 3,
@@ -136,7 +150,14 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar... and yes! Overseas spread... eggplant!\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds an extra 'Eggplant!' line not in the source. It keeps 'spread' rather than calling it caviar, so the joke survives, but the addition slightly alters the delivery."
+        }
+      ]
     },
     {
       "id": 10,
@@ -151,7 +172,14 @@
         "language_specific": {}
       },
       "candidate": "Everything I earned\nby backbreaking labor—\neverything is gone: three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic...\na suede jacket... Three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds a whole clause ('Everything I earned by backbreaking labor—everything is gone:') absent from the source. This changes the character's speech and distracts from the list, whose joke is the growing counts and the forgotten third suede jacket."
+        }
+      ]
     },
     {
       "id": 11,
@@ -171,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes a melodic, calm resignation. Replacing the trailing ellipses with exclamation marks on the first two clauses makes the delivery more emphatic and insistent, which weakens the soothing, resigned tone. The wording itself is accurate."
+          "justification": "Exclamation marks replace the reference's trailing ellipses, so the calm, melodic, resigned tone of Ulyana's lines is partly lost and the delivery reads as more emphatic."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 1
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 1,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

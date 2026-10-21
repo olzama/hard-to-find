@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate omits the addressing vocative ('Guys') from the reference, which reduces the conversational immediacy of Gorbunkov's line. The policeman's retort ('Get drunk—then it will be!') is awkward and slightly ambiguous compared with the reference's clear punchline ('Get drunk enough, and you will be!'), weakening the mock-cop humor."
+          "justification": "The policeman's retort, 'Get drunk—then it will be!', is grammatically awkward and slightly unclear in English. The intended punchline is that if he gets drunk enough he'll end up 'being carried'—a causal, inevitable result. A smoother phrasing (e.g. 'Get drunk enough and you will') would better preserve the natural, laconic mockery of the cop."
         }
       ]
     },
@@ -38,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the literal meaning but loses the light, bouncing comic rhythm implied by the Russian rhyme (Trus/Bojus). The line reads as a straightforward admission rather than the endearing, slightly comic paradox described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -80,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the multilingual gag but flattens Obliko morale into the awkward phrase 'Moral image,' which weakens the faux-sophisticated, mashup effect Gena is performing. Also drops the initial simple 'Lady' that helps sell the list's theatrical cadence."
+          "justification": "Rendering 'Облико морале' as 'Moral image...' is literal and a bit clumsy in English—loses the slightly ironic, pseudo-foreign flourish of the original phrase. A more idiomatic rendering (e.g. 'moral guise' or keeping the loanword unrepaired) would better match Gena's mock-sophisticated patter."
         }
       ]
     },
@@ -177,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate communicates the meaning but loses the comic effect of Lyolik's characteristic mispronunciation of 'tablet'—a small phonetic detail that the analysis flags as an important humorous marker."
+          "justification": "The original comic effect relies on a mispronounced/marked word for 'tablet' (a phonetic trait that makes the line memorable). 'One pill is enough...' conveys the meaning but loses that distinctive pronunciation quirk, weakening Lyolik's characterful delivery."
         }
       ]
     },
@@ -209,14 +202,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate conveys the name accurately but drops the elongated, melodic sigh ('Semyo-o-on') that carries the weary, musical resignation described in the analysis, resulting in a flatter delivery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -386,7 +372,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate standardizes the phrasing and loses the intentionally nonstandard, folksy verb form that adds comic stubbornness to the refusal. The rustic, slightly incorrect flavor called for in the analysis is diminished."
+          "justification": "The source's deliberate nonstandard verb form carries a folksy, stubborn comic flavor. 'No, I can’t go along with that!' communicates refusal but loses the rustic, intentionally incorrect phrasing that adds humor and character."
         }
       ]
     }
@@ -394,13 +380,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 6,
+    "total_points": 4,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.17391304347826086,
+    "major_equiv_per_unit": 0.034782608695652174,
+    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

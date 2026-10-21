@@ -20,7 +20,14 @@
         }
       },
       "candidate": "Comrades, there is an instruction to\nwelcome the New Year cheerfully.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"There is an instruction to welcome the New Year cheerfully\" keeps the directive structure and the contrast between bureaucratic form and festive content. \"Welcome\" and \"cheerfully\" are slightly softer and less officialese than \"celebrate merrily\", and \"there is an instruction\" is a bit less idiomatic than \"we have our instructions\", so the managerial register is slightly weaker."
+        }
+      ]
     },
     {
       "id": 2,
@@ -44,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one\" and the untranslated \"Baba Yaga\" lean toward the fairy-tale and childrearing frame. The reference's \"train one in-house\" keeps the workplace/staffing logic that the analysis says carries the joke. \"Hire\" and \"our own collective\" partly restore the office feel, so the damage is small."
+          "justification": "\"Raise one within our own collective\" keeps the workplace/social logic and the \"collective\" flavor. \"Hire\" is fine for the staffing frame, but \"raise\" suggests bringing up a child more than training or cultivating an employee. \"A Baba Yaga\" is left untranslated, with no gloss, so the nasty-woman type may be less recognizable to English viewers than with \"witch\"."
         }
       ]
     },
@@ -67,10 +74,10 @@
       "candidate": "And briefly, for about\nforty minutes—more, I think,\nisn’t necessary",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The \"briefly\" claim does come before the duration, which is correct. However, \"And briefly, for about forty minutes\" loses the cozy faux-modesty of «коротенько так». The result sounds flatter and less self-satisfied, so the comic reversal is weaker."
+          "justification": "The key word «коротенько» is rendered as plain \"briefly\", with no faux-modesty or cozy diminutive. The structure \"briefly, for about forty minutes—more, I think, isn't necessary\" does put the briefness claim before the duration, but the reversal is weaker. The sentence also begins with \"And\" and gives no sense of Ogurtsov's smug, patronizing tone, which the analysis flags as the translation risk."
         }
       ]
     },
@@ -91,7 +98,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—been ready for a while!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The \"ready\" = \"drunk\" double meaning is lost. \"The lecturer is ready—been ready for a while!\" only conveys administrative readiness, with no hint of intoxication. The exclamation mark adds some cheerful insinuation, but the analysis says translating only as \"ready\" loses the alcoholic joke."
+        }
+      ]
     },
     {
       "id": 5,
@@ -113,9 +127,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate writes a clean \"People!\" instead of the stretched, broken \"Peo-ple!\", so some of the drunken vocal instability is lost. \"A-oo\" does read as a wavering call, but it is less clearly a halloo-type cry than \"hellooo\"."
+          "justification": "The broken, wavering shape is mostly preserved with \"People!.. Ah... A-oo!\", but the drawn-out \"Lю-ди\" is not stretched into syllables. \"A-oo\" is a weak rendering of the calling \"ау-у\" and is less clearly a halloo than the reference's \"hellooo\", so the vocal instability is a little less evident."
         }
       ]
     },
@@ -142,9 +156,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis says to avoid. In English it sounds surreal rather than like a mangled \"unaided eye\", so the familiar idiom being wrongly \"upgraded\" into mock-scientific language is not recognizable. The comic mechanism is lost."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis says to avoid. It sounds more surreal than the Russian and does not echo the English \"unaided eye\", so the sense of a familiar idiom being mock-scientifically \"upgraded\" is not recreated. The line also ends with a comma, leaving it trailing and missing the \"!..\" of the pompous delivery."
         }
       ]
     },
@@ -173,13 +187,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline structure is broken. \"Four little stars—best of all, of course, five little stars!\" makes four stars the best, which muddles the one-two-three-four buildup. The final \"five stars\" no longer snaps into the cognac frame as the sudden click the analysis requires."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Little stars\" stresses the childish counting, which suits the empty buildup. But it moves further from the \"five stars\" cognac label that English viewers might recognize. No note or other cue is given for the cognac association."
+          "justification": "The counting is garbled: \"Four little stars—best of all, of course, five little stars!\" runs four into the punchline, so the lecture-like progression (two, three, four, then five as best) breaks. The pause and the sudden \"click\" into the cognac frame are weakened. The candidate also gives no cognac cue or note, so the shift into a different semantic world is likely to go unnoticed by English viewers."
         }
       ]
     },
@@ -200,19 +208,26 @@
         }
       },
       "candidate": "Is there life on Mars, is there no\nlife on Mars—science does not know.\nScience is not yet in the know.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The casual register is mostly kept, and \"Science is not yet in the know\" captures the personification of science as someone not briefed. \"Is there no life on Mars\" is a little stiff, and \"science does not know\" is more formal than «науке неизвестно», so the conversational looseness is slightly flattened."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 4,
       "minor": 4
     },
-    "total_points": 14,
+    "total_points": 24,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -21,7 +21,20 @@
         }
       },
       "candidate": "Once more, vague suspicions\ntorment my soul...\nShpak lost a tape recorder,\nthe ambassador a medallion.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Vague suspicions torment my soul\" keeps the mock-heroic register, but the added \"my soul\" and the line breaks make it slightly more florid than the original."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Shpak lost a tape recorder, the ambassador a medallion\" correctly conveys loss rather than possession, but it turns the terse, ominous parallel list into explicit narration, which weakens the sense of Bunsha piecing together a pattern."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +49,14 @@
         "language_specific": {}
       },
       "candidate": "A pleasure. I'm the Tsar!\nA pleasure. Hello, I'm the Tsar!\nThe Tsar. A pleasure!\nHello, I'm the Tsar! A pleasure!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Self-introduction as the Tsar is clear, but the repeated \"I'm the Tsar!\" with exclamation marks loses the drunken, mechanical, stiff-politeness cliché feel; the sentences read as boastful rather than as rote social formulas."
+        }
+      ]
     },
     {
       "id": 3,
@@ -71,7 +91,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman.\nI am in sorrow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line break splits a single sentence into two, slightly weakening the regal, flowing delivery, but the archaic register and meaning are preserved."
+        }
+      ]
     },
     {
       "id": 5,
@@ -146,7 +173,14 @@
         }
       },
       "candidate": "Well, I picked the right place to visit!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"I picked the right place to visit\" correctly conveys that he has just arrived and is not leaving, but it is a little wordy and loses the punchy, cheerful tone of a casual remark about his lucky entrance."
+        }
+      ]
     },
     {
       "id": 9,
@@ -171,7 +205,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's 'заморская' (overseas) is rendered as 'exotic delicacy'. This loses the 'from overseas' idea behind the joke, in which a cheap spread is presented as a rare foreign delicacy. Eggplant is correctly called 'spread' rather than 'caviar', and the overall effect is preserved."
+          "justification": "\"An exotic delicacy\" avoids calling eggplant spread caviar, which is good, but it drops the \"overseas\" (заморская) element that underpins the joke about foreign status symbols, and it adds an \"Ah\" not in the source."
         }
       ]
     },
@@ -193,7 +227,14 @@
         }
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestically made cigarette cases,\na suede jacket... three jackets.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The list and the delayed count increment for the jacket (\"a suede jacket... three jackets\") preserve the joke, but the lowercase start and spelling out \"three jackets\" makes the slip explicit, slightly diminishing the subtlety of the single \"Three\" punchline."
+        }
+      ]
     },
     {
       "id": 11,
@@ -208,19 +249,26 @@
         "language_specific": {}
       },
       "candidate": "They'll treat you...\nand they'll treat you, too...\nand they'll treat me...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Treat\" is less idiomatic than \"cure\" in this psychiatric-resignation context; the meaning of being treated for madness is mostly kept, but the sense of being 'cured' of insanity with its ironic calm is slightly weakened."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 8
     },
-    "total_points": 1,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

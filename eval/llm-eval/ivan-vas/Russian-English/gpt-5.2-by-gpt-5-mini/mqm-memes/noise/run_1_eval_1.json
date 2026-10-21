@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as simple possession. The analysis explicitly notes these phrases mean the items are missing/lost (they were taken), not that the people currently possess them. This reverses the intended meaning and undermines the joke about stolen goods."
+          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as 'Shpak has a tape recorder, the ambassador has a medallion,' which changes the grammatical/semantic relation: the Russian means these items have been taken from them (they were lost/removed), not that they currently possess them. This reverses the intended meaning and contradicts the analysis note."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source and analysis make clear Bunsha is introducing himself as 'the Tsar' (a ludicrous self-introduction). The candidate's lines ('Very pleased, Tsar! ... Hello, Tsar!') read as if he is addressing a Tsar rather than presenting himself as the Tsar, losing the crucial spoof of a man repeatedly announcing his own royal identity."
+          "justification": "The Russian line is Bunsha introducing himself as the Tsar (a repetitive, self-introduction). The candidate reads like addressing an actual tsar ('Very pleased, Tsar!'), which changes the pragmatic meaning and loses the comedic effect described in the analysis (the absurdity of Bunsha repeatedly introducing himself as the Tsar)."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original intends 'demons' as the subject who walled him in (an accusation). The candidate's 'Walled up, demons!' is slightly ambiguous and can be read as addressing or labelling the demons rather than clearly accusing them of the action, weakening the original's accusatory subject reading."
+          "justification": "The analysis/NOTE specifies that 'demons' are the subject (he is saying 'they walled me in, (the) demons'), not being addressed. The candidate's 'Walled up, demons!' reads as a vocative address to demons, which flips the intended syntactic/semantic relation and weakens the joke about mistaking a mechanical failure for demon action."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source uses an elevated, archaic exclamation ('Behold the power of the life-giving cross!'). The candidate's 'That's what the life-giving cross can do!' shifts to a more colloquial, explanatory tone and reduces the archaic, high-register flavor that contributes to the comedic contrast."
+          "justification": "The candidate ('That's what the life-giving cross can do!') conveys the basic meaning but shifts register toward a casual, modern phrasing ('can do') rather than the elevated, archaic tone of the reference. This slightly weakens the mock-religious, solemn flavor that produces the comic contrast."
         }
       ]
     },
@@ -149,14 +149,7 @@
         "language_specific": {}
       },
       "candidate": "Now that was a lucky stop!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'Now that was a lucky stop!' conveys the general meaning of discovering valuable goods, but 'stop' and 'lucky stop' are slightly more informal and less idiomatic for the casual, upbeat self-satisfaction in the reference ('good call'). The change is stylistic rather than meaning-damaging."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -171,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The line plays on contrast between expensive caviar and humble 'eggplant caviar' (a Soviet canned spread). The candidate's 'Imported caviar... Eggplant!' risks implying the eggplant is an imported caviar (or otherwise conflating the items) rather than signalling that the eggplant spread is a humble, mock-‘caviar’ item. This can confuse the satirical inversion."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -213,14 +199,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 3,
+      "minor": 1
     },
-    "total_points": 14,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

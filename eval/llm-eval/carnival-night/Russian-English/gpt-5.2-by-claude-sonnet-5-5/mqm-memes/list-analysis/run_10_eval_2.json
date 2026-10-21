@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept untranslated and \"cultivate\" is slightly odd, so the human-type/workplace reading (a nasty woman already in the office) is less accessible than with \"witch\" and \"train in-house\". The bureaucratic staffing logic still comes through, so the damage is limited."
+          "justification": "\"Cultivate\" keeps the workplace/educational logic, but \"a Baba Yaga\" is left untranslated and fairy-tale-flavored, so the 'nasty woman in the office' type is less evident to English viewers. The 'collective' wording does keep the Soviet-workplace feel."
         }
       ]
     },
@@ -68,9 +68,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"just a little short one\" conveys faux-modesty, but it is slightly clumsy and omits the cozy diminutive tone of «коротенько». The \"more, I think, isn't necessary\" clause is stilted. The briefness-before-duration order is preserved, so the punchline still lands."
+          "justification": "\"Just a little short one\" is a clumsy rendering of the faux-modest «коротенько». The briefness-before-duration order is kept, but the patronizing diminutive coziness is weaker and the phrasing is a bit awkward. \"More, I think, isn't necessary\" is stilted."
         }
       ]
     },
@@ -91,14 +91,7 @@
         }
       },
       "candidate": "Is the lecturer ready?\n- The lecturer's ready—been \"ready\" a long time!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The scare quotes around \"ready\" preserve the double meaning, but they make the innuendo explicit rather than leaving it ambiguous, which slightly weakens the deadpan. The first line has no dash while the second does, a minor dialogue formatting inconsistency."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -144,7 +137,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It does not echo \"unaided eye\", so English viewers do not recognize a mangled idiom. The result is surreal rather than mock-scientific, and the joke is lost."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It sounds surreal rather than like a slightly wrong mock-scientific variant of a known idiom, and it does not evoke \"unaided eye\". The malformed-idiom joke is lost for English audiences."
         }
       ]
     },
@@ -170,10 +163,10 @@
       "candidate": "and now we see two little stars,\nthree little stars...\nFour little stars—and best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline's link to five-star cognac is not recreated. \"Five little stars\" has no alcohol connotation for English viewers, and there is no note. The \"little stars\" counting does sound silly, but the derailment into the drinking domain is lost, so the line is merely odd. The \"and now we see\" opening and the slightly muddled sequence also weaken the buildup."
+          "justification": "The silly counting build-up is preserved, and \"five little stars\" keeps the final click. However, nothing signals the cognac association (no note or cue), so the shift to a different semantic domain may not register for English viewers. Opening with \"and now we see\" also makes the lecture slightly more purposeful than the original."
         }
       ]
     },
@@ -199,21 +192,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"hasn't been briefed on the matter yet\" is a clever colloquial equivalent of «не в курсе дела» and keeps the casual register. It is slightly more corporate or military than the everyday tone of the original. The first sentence is fine, and the overall effect is largely preserved."
+          "justification": "\"Hasn't been briefed on the matter yet\" captures the personified, casual 'not in the loop' register well. Rendering \"это науке неизвестно\" as \"that is unknown to science\" is somewhat formal. The register contrast is still preserved, so the loss is slight."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 4
     },
-    "total_points": 14,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

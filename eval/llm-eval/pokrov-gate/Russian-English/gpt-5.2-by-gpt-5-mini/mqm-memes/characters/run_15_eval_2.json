@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the noun phrase \"relations,\" which the analysis explicitly warns against as too literal and not a natural exclamatory phrase in English. Although the doubled \"lofty, lofty\" echoes the stuttering emphasis, the wording weakens the idiomatic exclamatory tone of the original refrain."
+          "justification": "The line uses the noun phrase \"lofty... relations,\" which the analysis warns against as an unnatural, literal structure in English. The original's exclamatory, sarcastic refrain and stuttering rhythm are only partially preserved; the phrasing feels stilted and loses some comic bite."
         }
       ]
     },
@@ -73,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Rendering «совести» as \"conscience\" and phrasing \"live for conscience\" is awkward and non-idiomatic in English compared with the reference's idiom about duty. The candidate preserves the literal sense but loses the natural, fatalistic register of the original."
+          "justification": "The candidate shifts from the idiomatic idea of duty/obligation (\"You don't live to be happy, you live to do your duty\") to a slightly different formulation using \"conscience,\" which is less idiomatic and weakens the original's blunt, fatalistic tone."
         }
       ]
     },
@@ -110,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The single-word \"A cook!\" is a literal and flat rendering; it fails to capture the sarcastic, dismissive bite of the reference (\"Some cook you are!\") and the intended household insultal tone."
+          "justification": "Rendering the exclamation simply as \"A cook!\" reproduces the literal noun and sounds unnatural in English. The analysis advises against such literal standalone nouns because they lose the sharp, colloquial insult effect."
         }
       ]
     },
@@ -142,7 +142,14 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, to hell with it.\nBefore peritonitis sets in.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The split into two lines and insertion of \"to hell with it\" makes the command less punchy and slightly alters the abrupt surgical verdict. The essential warning about not waiting for peritonitis is preserved, but the phrasing is a bit awkward compared with the brisk, harsh original."
+        }
+      ]
     },
     {
       "id": 9,
@@ -162,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The surname is rendered as \"Khabotov,\" which deviates from the expected transliteration (\"Khobotov\"). This is a small accuracy/consistency issue with a character name."
+          "justification": "The surname is transliterated as \"Khabotov\" instead of the expected \"Khobotov.\" This is a small but noticeable inconsistency in character naming that deviates from the reference form."
         }
       ]
     },
@@ -184,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits the idiom and begins with the literal exclamation \"This is my cross!\" which the analysis warns against; while the second line recovers the idiomatic idea, the phrasing slightly weakens the fixed English idiom and the manipulative grandiosity of the original."
+          "justification": "The candidate begins with the literal \"This is my cross!\" then adds \"And it's mine to bear,\" effectively splitting the English idiom and reducing the force of the established idiomatic expression \"a cross to bear.\" The manipulative, grandiose tone is present but slightly weakened by the literal first line."
         }
       ]
     },
@@ -206,7 +213,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses \"angular\" to render «угловатая», which the analysis warns is an overly literal and awkward choice in English. This weakens the idiomatic, coquettish self-deprecation the original conveys."
+          "justification": "The candidate uses \"angular\" for «угловатая», which the analysis explicitly warns against as too literal and potentially confusing. The line thus loses some of the idiomatic, coquettish self-mockery of the original."
         }
       ]
     }
@@ -214,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

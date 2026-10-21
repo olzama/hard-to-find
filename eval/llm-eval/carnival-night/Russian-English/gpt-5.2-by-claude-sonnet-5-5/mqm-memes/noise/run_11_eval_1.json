@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" fits the staffing logic, but \"raise one\" is a bit more nurturing/childrearing than the reference's workplace-training \"train in-house\"; the 'cultivating within the collective' bureaucratic flavor is slightly softened, and \"collective\" is a Sovietism that is fine but less idiomatic."
+          "justification": "\"Hire\" fits the staffing logic, but \"raise one in our own collective\" leans toward child-rearing and sounds slightly fairy-tale. The bureaucratic \"train in-house\" tone is weakened, though the workplace/social joke still comes through."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key word «коротенько» is rendered as plain \"briefly\" with no faux-modesty, and the rendering is cut to a bare fragment; the line is also reworded as \"for about forty minutes—more, I think, isn't necessary,\" which weakens the briefness-then-duration reversal and the smug understatement. Without the sense of 'just a short little talk' the punchline lands flatter."
+          "justification": "The key word «коротенько» is rendered as a lowercase \"briefly\" with no faux-modesty or patronizing diminutive feel. The sentence also begins mid-thought, so the setup of brevity is flat and the \"forty minutes\" reversal loses force. The analysis flags this flat rendering as the main risk."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated at all. \"Ready... been ready for a while!\" only conveys the administrative surface; the alcoholic subtext, which is the whole joke, is lost. The reference adds \"Oh, he's ready\" with emphatic intonation to hint at it; the candidate does not."
+          "justification": "Only the literal \"ready\" is kept, with nothing that evokes \"drunk/done for\". The translation has no intonation or wording that hints at intoxication, so the double meaning, which is the whole joke, is lost. The analysis explicitly warns about this."
         }
       ]
     },
@@ -122,7 +122,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The drunken, stretched, broken vocalization (\"Лю-ди! А… ау-у!\") is normalized into a clean \"People!.. Ah... hello!\". The syllable-splitting and the drawn-out call (\"Peo-ple\", \"hellooo\") are lost, so the physical comedy of faltering oratory disappears."
+          "justification": "The line is normalized into a clean \"People!.. Ah... hello!\". It lacks the stretched, broken vocalization (\"Peo-ple\", \"hellooo\") that carries the drunken physical comedy. The analysis warns against precisely this normalization."
         }
       ]
     },
@@ -151,7 +151,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against; it does not echo the familiar English idiom \"unaided eye,\" so the malformed-idiom effect is lost and it just sounds surreal. Also the first sentence is softened to \"once we take\" with ellipsis, losing the emphatic \"all we have to do\" pomp."
+          "justification": "\"Armed eye\" is the literal calque the English notes say to avoid. It does not echo \"unaided eye\", so the viewer does not recognize a mangled idiom and the mock-scientific malapropism is lost. It reads as merely odd or surreal."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"But once we take a telescope... And look\" is somewhat awkward and loses the emphatic \"all we have to do is\" pomp. The final comma leaves the sentence hanging, with the exclamatory ending missing."
         }
       ]
     },
@@ -177,10 +183,10 @@
       "candidate": "we already see two stars, three stars...\nFour stars—best of all, of course,\nfive stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting sequence is rearranged so that \"four stars—best of all, of course, five stars\" blurs the build-up: the trivial 'two, three, four' counting and the sudden click to 'five stars' are less distinct. The reference's \"As we can already see\" lecture-like framing is also reduced, and no cue connects five stars to cognac (the analysis suggests a note may be needed)."
+          "justification": "The counting progression is broken: \"Four stars—best of all, of course, five stars\" merges four stars into the punchline, so the buildup \"two, three, four…\" no longer trails off before the sudden shift to \"five stars\". The click into the cognac frame is weakened, and the cognac association is not signalled, though the reference adds a note for it."
         }
       ]
     },
@@ -206,21 +212,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet up to date\" is a slightly off idiom (one is 'up to date' on something, but the colloquial 'not in the loop / up to speed on the matter' feel is weaker), so the casual-person-like treatment of science is a little muddier than in the reference. The first sentence is also a more literal, stiff repetition (\"whether there is..., whether there isn't\")."
+          "justification": "\"Science is not yet up to date\" is slightly off compared with the idiomatic \"not in the loop / up to speed\". It loses some of the personified, casual \"hasn't been briefed\" flavor. The rest of the register and content are preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 5,
       "minor": 3
     },
-    "total_points": 23,
+    "total_points": 28,
     "meaning_units": 8,
-    "penalty_per_unit": 2.875,
-    "major_equiv_per_unit": 0.575,
-    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.5,
+    "major_equiv_per_unit": 0.7,
+    "interpretation": "3.50 MQM penalty points per meaning unit (≈ 0.70 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

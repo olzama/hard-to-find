@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"I'm beginning to have a nagging suspicion\" is plain, everyday English. It loses the mock-heroic, operatic register of \"терзают смутные сомнения\" (e.g. \"vague doubts haunt/torment me\"), and the analysis identifies that register as the source of the humor."
+          "justification": "\"A nagging suspicion\" / \"I'm beginning to have\" loses the mock-heroic, theatrical register of \"терзают смутные сомнения\" (\"vague doubts haunt me\"). The phrase sounds mundane, so the high-brow comedic effect is largely lost."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Medal\" is not \"medallion\" (медальон). It is a different object."
+          "justification": "\"Medal\" is not \"medallion\"; it changes the object. The possessive structure correctly conveys that the items were lost."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"A pleasure, Tsar! Hello, Tsar!\" reads as Bunsha addressing someone else as Tsar. The note requires that he introduce himself as the Tsar. This reverses the speaker and addressee and loses the joke of the drunk impostor repeating his own title."
+          "justification": "\"A pleasure, Tsar! Hello, Tsar!\" reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. The analysis explicitly requires making clear he is introducing himself."
         }
       ]
     },
@@ -93,10 +93,10 @@
       "candidate": "Leave me be, old woman;\nI am in mourning.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"In mourning\" implies bereavement, whereas \"в печали\" means \"in sorrow\" or sadness. This slightly shifts the meaning, though the archaic, regal register is preserved."
+          "justification": "\"I am in mourning\" changes \"в печали\" (in sorrow/sadness) to bereavement, implying someone died. This distorts the Tsar's melancholy, although the archaic register is kept."
         }
       ]
     },
@@ -173,7 +173,14 @@
         }
       },
       "candidate": "I picked the right time to drop in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Picked the right time to drop in\" correctly implies he has just arrived, but adds a notion of timing that is absent from the source. It still works as a cheerful remark and is slightly less natural than the reference."
+        }
+      ]
     },
     {
       "id": 9,
@@ -196,9 +203,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"Eggplant caviar,\" which the note explicitly forbids because it confuses viewers. It also renders \"заморская\" as \"exotic\" rather than \"overseas,\" so the contrast between the expensive caviars and the cheap Soviet spread passed off as a foreign delicacy is lost."
+          "justification": "The candidate calls the eggplant spread \"caviar,\" which the note explicitly forbids because it confuses viewers. It also renders \"заморская\" as \"exotic,\" losing the \"overseas\" idea, so the joke about the cheap spread posing as a rare delicacy is weakened."
         }
       ]
     },
@@ -225,7 +232,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives \"three suede jackets,\" but the joke depends on Shpak forgetting to increment the jacket count (\"a suede jacket… Three\"). Making the count consistent removes the slip that betrays him. The hesitant list rhythm with \"domestic…\" is also lost."
+          "justification": "The candidate says \"three suede jackets,\" which removes the joke where Shpak forgets to increment the number for the jacket (a single jacket, then \"Three\"). The comedic effect is lost."
         }
       ]
     },
@@ -242,26 +249,19 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the lines emphatic and cheerful. The source has a calm, melodic, resigned delivery with trailing ellipses, so the tone is slightly off."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 5,
+      "minor": 2
     },
-    "total_points": 23,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

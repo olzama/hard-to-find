@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis states the translation must make clear that Bunsha is introducing himself as the Tsar, not addressing one. The candidate's vocative 'Tsar' ('A pleasure, Tsar!', 'Hello, Tsar!') reads as greeting a Tsar, so the self-introduction is lost and the meaning contradicts the analysis."
+          "justification": "The analysis requires the translation to make clear that Bunsha is introducing himself as the Tsar, not greeting one. 'A pleasure, Tsar!' and 'Hello, Tsar! A pleasure!' read as addressing a Tsar, and nothing in the candidate marks the self-introduction. This contradicts the essence of the item."
         }
       ]
     },
@@ -153,14 +153,7 @@
         }
       },
       "candidate": "Well, I picked the right time to drop by!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'удачно зашел' conveys that he dropped in by good luck. 'I picked the right time' implies deliberate choice, which weakens the lucky-chance nuance. The entering-not-leaving sense is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -185,13 +178,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'Eggplant caviar!' and 'overseas caviar' contradict this guidance and blur the joke's contrast between the expensive caviar and the cheap spread."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Aye!' is an archaic, nautical-sounding interjection that does not match the source's plain 'Да!' and the feast's register. 'Yes!' or 'Ah!' would sound more natural."
+          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate does this twice: 'overseas caviar' implies imported caviar, and 'Eggplant caviar!' sets up a false equivalence. The joke depends on the cheap spread being presented as a rare overseas delicacy, and the candidate blurs that contrast."
         }
       ]
     },
@@ -216,9 +203,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The source's pauses ('куртка… замшевая… Три') drive the joke, where Shpak stumbles and realises he forgot to count the suede jacket. The candidate compresses this into 'suede jacket - three.' on one line and uses digits, losing the hesitation that makes the forgotten count land."
+          "justification": "The candidate attaches 'three' directly to 'suede jacket' with a dash, so the reveal is less clear than the reference's ellipsis-and-'Three' structure. The analysis stresses that the forgotten count is what betrays Shpak, and the separation that carries this beat is weakened."
         }
       ]
     },
@@ -240,7 +227,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes Ulyana's melodic, calm resignation. The candidate ends every line with exclamation marks, which sound urgent or alarmed and drop the trailing ellipses that signal resignation. The words are correct, but the tone shifts."
+          "justification": "The candidate drops the ellipses and adds exclamation marks, turning the calm, melodic resignation described in the analysis into an exclamatory tone. The source's trailing pauses carry the resignation, and the candidate loses that effect."
         }
       ]
     }
@@ -248,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 4
+      "minor": 2
     },
-    "total_points": 14,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

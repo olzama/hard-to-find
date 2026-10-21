@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the key meaning that the items have gone missing and turns the line into a bare inventory. It also drops the mock-heroic buildup of the original, weakening the comedic effect."
+          "justification": "The candidate turns the key possessive clue into labels (“Shpak: magnetófono. El embajador: medallón.”) instead of conveying that these items are missing from each person, which is essential to the joke and the suspicion being drawn."
         }
       ]
     },
@@ -40,16 +40,10 @@
       "candidate": "¡Mucho gusto, zar!\n¡Mucho gusto, hola, zar!\n¡Zar, mucho gusto!\n¡Hola, zar! ¡Mucho gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The translation fails to make clear that Bunsha is introducing himself as the Tsar; it sounds like he is addressing a tsar. This contradicts the analysis and blurs the joke."
-        },
-        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using repeated generic greetings like 'hola' and 'mucho gusto' is a bit less rhythmic and less absurdly bureaucratic than the original's repetitive formal register."
+          "justification": "The line preserves the self-introduction and repetition, but “¡Mucho gusto!” sounds more conversational and less like the deliberately stiff, mundane formal greeting described in the analysis, so the mock-ceremonial absurdity is slightly weakened."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vieja' is harsher and more colloquial than the reference's 'viejecita,' so it loses some of the archaic, mock-regal tone of Ivan's line."
+          "justification": "The meaning is intact, but “vieja” is harsher and more colloquial than the slightly archaic, dismissive “viejecita,” so the regal register and period flavor are somewhat reduced."
         }
       ]
     },
@@ -105,10 +99,10 @@
       "candidate": "¡Me emparedaron!\n¡Me emparedaron, demonios!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The second line is punctuated and phrased as if 'demonios' were a separate exclamation, which slightly obscures that he means the demons are the agents of the emparedamiento."
+          "justification": "The second line makes “demonios” an address rather than the cause/agent of the misunderstanding. The analysis explicitly says the demons must read as the subject, so this changes the construction and weakens the joke."
         }
       ]
     },
@@ -130,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Hace' is acceptable, but 'obra' better preserves the elevated, quasi-biblical register of the original and the Tsar's solemn amazement."
+          "justification": "“Hace” is understandable, but it is a little more generic and less elevated than the reference’s “obra,” which better matches the mock-biblical, ceremonial tone of the line."
         }
       ]
     },
@@ -167,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'¡Qué bien he entrado!' suggests only that he entered well, but it does not convey the idiomatic meaning that he happened to arrive at a very fortunate moment. It also risks sounding like a comment on the act of entering rather than on the lucky timing."
+          "justification": "“¡Qué bien he entrado!” suggests the act of entering went well, which can sound like he is commenting on leaving or on the motion itself, rather than cheerfully realizing he has landed in the right apartment full of valuables. The spatial/goal-oriented joke is lost."
         }
       ]
     },
@@ -189,13 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops 'rojo' from the list and misstructures the punchline, so the inventory of caviar varieties is incomplete and less clear."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'¡Y!' is an odd interjection here and weakens the comic buildup; the line sounds less playful and less idiomatic than the reference."
+          "justification": "The candidate breaks up the punchline and uses “Y!” in a way that obscures the intended contrast between luxury caviar and the absurdly rebranded eggplant spread. The joke’s rhythm and the reveal are significantly damaged."
         }
       ]
     },
@@ -215,9 +203,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "Replacing the explicit enumeration with a compact list and 'chaqueta de ante: tres' reduces the comic rhythm of Shpak's overblown tally. It is understandable, but less natural as a frantic police report."
+          "justification": "The list is mostly faithful, but “chaqueta de ante: tres” is awkwardly phrased and less natural than the enumerative buildup in the reference. It still works, but the cadence is clumsier."
         }
       ]
     },
@@ -239,7 +227,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first repeated clause ('y a ti te curarán'), losing part of the rhythmic progression and the sense that she is calmly including everyone in the same fate."
+          "justification": "The candidate omits the first clause (“y a ti te curarán”), so the progression through all three people is incomplete. That repetition is part of the comic escalation and shared resignation, and losing it weakens the line significantly."
         }
       ]
     }
@@ -247,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 31,
+    "total_points": 29,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.6363636363636362,
+    "major_equiv_per_unit": 0.5272727272727272,
+    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

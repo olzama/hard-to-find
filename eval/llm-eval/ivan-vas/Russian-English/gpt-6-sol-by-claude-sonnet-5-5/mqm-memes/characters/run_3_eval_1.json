@@ -24,15 +24,15 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The mock-heroic phrase 'терзают смутные сомнения' is rendered as plain 'I'm plagued by a vague suspicion'. It is less theatrical/archaic, and 'suspicion' loses the 'doubts' sense, so the comic high-register effect is weakened."
+          "justification": "'Shpak loses a tape recorder' / 'the ambassador a medal' presents the loss as an event, but the key point is that the items are now missing; 'loses' is present-tense and ambiguous, and 'medal' replaces 'medallion'. More importantly, 'vague suspicion' drops the mock-heroic theatrical register of 'терзают смутные сомнения' (the 'plagued by' is acceptable but 'suspicion' flattens the 'doubts' phrase)."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Shpak loses a tape recorder, the ambassador a medal' uses the present tense as a habitual or ongoing event instead of past loss. 'Medal' also mistranslates 'medallion'. The meaning that each lost the item is partly kept, but imprecisely."
+          "justification": "The elevated, operatic tone is weakened: 'I'm plagued by a vague suspicion' is plainer than 'Vague doubts haunt me', and the telegraphic parallel structure is less clear."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Hello, Tsar!' and 'A pleasure, Tsar!' read as addressing a Tsar, which the analysis explicitly forbids. Bunsha is introducing himself as the Tsar, so the drunken self-introduction joke is lost."
+          "justification": "'Hello, Tsar!' reads as Bunsha addressing a Tsar rather than introducing himself as the Tsar, which the analysis says must be clear. The self-introduction joke is lost."
         }
       ]
     },
@@ -96,7 +96,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'I'm in mourning' mistranslates 'в печали' (in sorrow/sadness). It implies bereavement, which changes the meaning, and it loses the archaic regal melancholy."
+          "justification": "'I'm in mourning' mistranslates 'в печали' (in sorrow/sadness); it implies bereavement, which changes the meaning."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The plain wording loses some of the archaic, regal register of the original."
         }
       ]
     },
@@ -153,14 +159,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is accurate and natural, but it is a plain imperative. It lacks the host-like, mock-grand tone of the reference's 'floor is open to everyone'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -182,10 +181,10 @@
       "candidate": "Talk about perfect timing!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Talk about perfect timing!' shifts the meaning from a good choice of place to good timing. It is not misleading about leaving, but it loses the 'dropping in at the right apartment' sense."
+          "justification": "'Talk about perfect timing' is not misleading about leaving, but it shifts the meaning from 'I chose a good place to enter' to luck in timing, losing the burglar's pleased reaction to finding a well-stocked apartment."
         }
       ]
     },
@@ -212,7 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'imported caviar... Eggplant spread!' calls the eggplant item caviar ('imported caviar'), which the notes forbid because it confuses viewers. It also loses the 'overseas' flavor and the punchline structure of 'eggplant' as the unexpected final reveal."
+          "justification": "'imported caviar... Eggplant spread' calls the item 'caviar' in the second line, which is the confusion the analysis warns about, and the punchline structure of 'overseas eggplant caviar' is muddled, so the inversion of status symbols is weakened."
         }
       ]
     },
@@ -239,7 +238,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives 'three suede jackets', omitting the key joke that Shpak forgets to increment the jacket count (a single suede jacket, then 'Three'). The comedic betrayal is lost."
+          "justification": "The candidate says 'three suede jackets', losing the joke that Shpak forgets to increment the count of the jacket (a single jacket first, then 'Three'). The comic betrayal is removed."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Soviet-made' for 'отечественных' is acceptable but 'domestic' with the pause is lost."
         }
       ]
     },
@@ -261,21 +266,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Fix' is colloquial and loses the 'cure' meaning tied to psychiatric treatment. The exclamation marks also undermine the calm, melodic resignation described in the analysis."
+          "justification": "'They'll fix you!' with exclamation marks loses the melodic, calm resignation of the original; the tone becomes excited instead of eerily calm. 'Fix' also loses the psychiatric connotation of 'cure'."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 6,
       "minor": 4
     },
-    "total_points": 29,
+    "total_points": 34,
     "meaning_units": 11,
-    "penalty_per_unit": 2.6363636363636362,
-    "major_equiv_per_unit": 0.5272727272727272,
-    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.090909090909091,
+    "major_equiv_per_unit": 0.6181818181818182,
+    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Otra vez me asaltan\nvagas dudas...\nA Shpak le falta un magnetófono,\nal embajador, un medallón.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Le falta' is acceptable for the lost items per the NB, but 'vagas dudas' for 'смутные сомнения' loses the mock-heroic theatrical register slightly; more importantly 'falta un magnetófono' is a mild rendering. The main weakness is the register: 'vagas dudas' is flat compared with the reference's 'oscuras sospechas', weakening the high-flown opera-like tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Clearly presents him introducing himself as the Tsar, which satisfies the NB. However, 'Hola' is a fine equivalent of the mundane greeting, but the candidate drops the variation of the third sentence pattern and shuffles repetitions, slightly weakening the rhythm of the rotating cliché formulas."
+          "justification": "'Hola' is casual and loses the stiff, formal social-cliché feel of the greeting (the reference uses 'Buenas noches'). The candidate also adds a fourth repetition, which blurs the three-part pattern of the source. The key point is preserved: he introduces himself as the Tsar."
         }
       ]
     },
@@ -75,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Déjame, viejecita, que estoy apenado.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Apenado' is a bit less archaic/regal than 'afligido'; the high-register melancholy is slightly weakened, though still acceptable."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -117,7 +103,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'¡Mira lo que hace...!' is more colloquial and addresses a listener, losing the Tsar's solemn, pious tone of 'Esto es lo que obra la cruz vivificante'."
+          "justification": "'¡Mira lo que hace...!' is a colloquial, attention-grabbing phrase that weakens the Tsar's solemn, archaic register. It also suggests he is addressing someone, rather than voicing his conviction that faith worked the miracle."
         }
       ]
     },
@@ -151,10 +137,10 @@
       "candidate": "¡Qué bien he entrado!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'¡Qué bien he entrado!' reads as praising the manner of entering rather than the luck of having chosen this apartment. It loses the 'lucky find' meaning (acertar de sitio) tied to discovering the valuable goods."
+          "justification": "'¡Qué bien he entrado!' is an unnatural Spanish phrasing. It conveys that he has just entered, but it lacks the idiomatic cheerful feel of having picked the right place."
         }
       ]
     },
@@ -171,14 +157,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, rojo...\n¡Sí! Delicadeza de ultramar...\n¡Crema de berenjena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Crema de berenjena' avoids calling it caviar, respecting the NB, but loses the punchline's parallel with 'икра' and the ironic 'baklazhannaya' echo. The joke still works through the contrast with 'delicadeza de ultramar'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -193,14 +172,7 @@
         "language_specific": {}
       },
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres pitilleras nacionales,\nchaqueta de ante... tres.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits the article 'una' and, more importantly, the joke relies on the jacket count being forgotten at first; 'chaqueta de ante... tres' removes the 'una' singular, so the slip (a single jacket then 'tres') is not clearly conveyed, weakening the punchline."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -220,21 +192,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks and line breaks turn her calm, melodic resignation into an emphatic, shouted delivery, losing the soft trailing ellipses that convey the resigned tone."
+          "justification": "The exclamation marks make the lines sound emphatic and agitated. The analysis describes a calm, melodic resignation, which the ellipses in the reference convey."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 0,
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.\nThe Tsar, very pleased.\nHello, the Tsar! Very pleased!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "After reproducing the full rendering, the candidate adds two extra lines ('The Tsar, very pleased. / Hello, the Tsar! Very pleased!'). The source has only four short utterances, so this is surplus repetition that was not in the original. The key point that he introduces himself as the Tsar is still clear."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -143,14 +136,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar... and yes! Overseas spread... eggplant!\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds a stray extra line 'Eggplant!' that is not in the source. This slightly disrupts the deadpan list rhythm and the punchline. The 'spread' vs. 'caviar' distinction is handled correctly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -185,7 +171,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate replaces the trailing ellipses with exclamation marks on the first two clauses. This makes Ulyana's delivery emphatic rather than the calm, melodic, resigned tone described in the analysis. The meaning is preserved, and the final ellipsis partly restores the effect."
+          "justification": "The wording matches the reference, but the exclamation marks on the first two clauses make the delivery emphatic. The analysis calls for a melodic, calm, resigned tone, which the reference's trailing ellipses convey better. The effect is slightly weakened."
         }
       ]
     }
@@ -193,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

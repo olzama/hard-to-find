@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive to\nwelcome the New Year in a cheerful manner.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Directive\" keeps the bureaucratic register well, but \"welcome the New Year in a cheerful manner\" is slightly stilted. It is still officious, so the joke survives; the wording is just a bit heavier than the dry, deadpan original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"A Baba Yaga\" keeps the fairy-tale name untranslated and so leans more fantastical than the analysis wants. It also drops the sense of a nasty woman type that English viewers would recognize as a workplace figure. \"Cultivate ... in our own collective\" does keep the pseudo-managerial logic, which mitigates the problem."
+          "justification": "\"a Baba Yaga\" and \"cultivate\" keep the fairy-tale figure untranslated. The workplace/social type is only partly conveyed to an English audience, though \"our own collective\" and the managerial verb preserve the staffing logic."
         }
       ]
     },
@@ -74,10 +67,10 @@
       "candidate": "And then, just briefly—about forty minutes,\nno more, I think,",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The diminutive \"коротенько\" is rendered as plain \"just briefly\", with no sense of faux-modesty or cozy patronizing. The added \"And then\" and the trailing comma make the line a fragment that continues beyond the segment. The briefness-then-forty-minutes reversal is kept in order, but the comic contrast is weaker than the analysis requires."
+          "justification": "\"just briefly\" is flat and lacks the cozy, faux-modest diminutive of \"коротенько\". The opening \"And then\" is also unneeded. The briefness-before-duration order is kept, so the punchline still lands, but with less patronizing self-satisfaction."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready long ago\" keeps the administrative surface meaning but gives no hint of the \"done for / drunk\" subtext. English \"ready\" has no such double reading here, and nothing recreates it, so the central joke is lost. The reference compensates with tone (\"Oh, he's ready. He's been ready for quite a while\"), which the candidate does not do. \"Ready long ago\" is also somewhat unnatural."
+          "justification": "\"Ready long ago\" keeps only the administrative sense. Nothing in the English suggests \"готов\" as drunk/done for, so the double reading and the alcohol joke are lost, and the analysis treats that ambiguity as the whole point."
         }
       ]
     },
@@ -151,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the language-specific note explicitly says to avoid. It sounds surreal and does not echo the English idiom \"unaided eye\", so the recognizable malformed idiom effect is lost. The first sentence is also split with ellipses, which weakens the pompous flow."
+          "justification": "\"Armed eye\" is the literal calque the notes warn against. It does not echo the familiar English idiom \"unaided/naked eye\", so the recognizable idiom being mangled is lost. It reads as strange or surreal rather than mock-scientific."
         }
       ]
     },
@@ -180,7 +173,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression and the \"five little stars\" punchline are preserved, and \"little stars\" gives the silly, childish tone. The cognac association is not signaled in any way (the reference adds a note), so English viewers may not get the click into a different domain. This is partly a note-level issue."
+          "justification": "The counting build-up and the \"five little stars\" punchline are kept, so the derailment works. Nothing signals the cognac association for English viewers, though the analysis suggests a note may be needed. \"Little stars\" also leans childlike, which fits the silly counting but weakens the click into the cognac frame."
         }
       ]
     },
@@ -204,23 +197,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Is there life on Mars, is there not life on Mars\" is a good rendering of the original structure. \"Science does not know\" is somewhat more formal than the flat, casual \"unknown to science\". \"Not yet in the know\" captures the colloquial register well, but the awkward line break between \"not\" and \"life\" slightly disrupts the rhythm."
+          "justification": "\"Science is not yet in the know\" keeps the colloquial personification and the register mismatch well. \"Is there life on Mars, is there not life on Mars\" is slightly stiff and the line break is awkward, but the effect survives."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 4
     },
-    "total_points": 19,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 2.375,
-    "major_equiv_per_unit": 0.475,
-    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

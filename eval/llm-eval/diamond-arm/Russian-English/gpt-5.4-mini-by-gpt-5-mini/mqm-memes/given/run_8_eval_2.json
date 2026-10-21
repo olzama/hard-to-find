@@ -64,9 +64,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate omits the opening 'Lady' (or equivalent), starting at 'signora'. This slightly reduces the comic parade of international forms that Gena uses to project worldliness."
+          "justification": "The candidate omits the initial direct address 'Lady' and starts with 'signora, frau, miss,' which slightly alters the original rhythm and the performative escalation of Gena invoking multiple honorifics. This is a small stylistic weakening of the original's comedic buildup."
         }
       ]
     },
@@ -113,14 +113,7 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the young'uns,\nflowers for his broad.\nSee you don't mix 'em up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Changing 'Look now, don't mix 'em up!' to 'See you don't mix 'em up!' alters the imperative rhythm and register of Lyolik's brusque micro-management, making it slightly less direct in tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -135,14 +128,7 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\non someone else's dime, even teetotalers\nand convalescers.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning but loses the balanced rhythmic pairing (trezvenniki/yazvenniki) highlighted in the analysis; the line reads flatter and the proverb-like cadence is weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -207,7 +193,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's elongated, melodic sigh ('Semyo-o-on') functions as a weary drawl; rendering it as plain 'Semyon Semyonovich...' loses that musical prolongation and the weary character nuance."
+          "justification": "The reference preserves an elongated, melodic sigh ('Semyo-o-on Semyonych!') that conveys weary, drawn-out exasperation. The candidate 'Semyon Semyonovich...' is faithful in content but loses some of the original's stretched, musical cadence and emotional colouring."
         }
       ]
     },
@@ -331,10 +317,10 @@
       "candidate": "Well, if you're ever in Kolyma...\nIf you're ever in Kolyma - you're most welcome!\nNo, better you visit us!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "An extra line ('If you're ever in Kolyma - you're most welcome!') appears in the candidate, creating redundancy and slightly changing the turn-taking and comic timing of the original two-line exchange."
+          "justification": "The candidate inserts an extra reassuring line ('If you're ever in Kolyma - you're most welcome!') that does not exist in the source. That addition changes the interaction: the guest's straightforward offer is turned into a warmer, explicit invitation before Gena's fearful refusal, which weakens the original joke based on Gena misunderstanding Kolyma as a threat."
         }
       ]
     },
@@ -356,7 +342,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate removes Gena's affected pronunciation and aristocratic affect ('coff-ey' / 'kof-e') present in the analysis; rendering the line as plain 'Drink a cup of coffee...' loses that character-marking pronunciation which is part of the joke."
+          "justification": "The candidate renders the lines plainly and loses Gena's affected pronunciation and pretentious delivery (the quirky 'kof-e' and aristocratic tone). This reduces a small but important part of his comic characterisation."
         }
       ]
     },
@@ -378,7 +364,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate introduces 'No, yes... we'll keep looking...' which is hesitating and unclear compared with the concise original exchange. This creates a small fluency/turn-taking issue and muddles the polite stall tactic."
+          "justification": "The candidate introduces hesitancy ('No, yes...') not present in the original and slightly muddles the polite shop exchange. The added filler weakens the crisp transactional rhythm of the original dialogue."
         }
       ]
     },
@@ -400,14 +386,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 7
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 7,
+    "total_points": 9,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.391304347826087,
+    "major_equiv_per_unit": 0.0782608695652174,
+    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

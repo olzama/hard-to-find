@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Boas, é un pracer: son o tsar, encantado.\nO tsar, encantado: boas.\nO tsar, encantado.\nBoas, son o tsar, encantado!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate slightly weakens the comic repetition and the self-introduction pattern; the reference’s tight, breathless looping of \"son o tsar\" is more clearly rendered as a drunken, mechanical refrain."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -53,7 +46,14 @@
         "language_specific": {}
       },
       "candidate": "Esixo que continúe o banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is preserved, but the phrasing is slightly less forceful and less idiomatic than the reference; it softens Bunsha's overblown demand a bit."
+        }
+      ]
     },
     {
       "id": 4,
@@ -73,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou triste\" is understandable, but it is flatter and less regal than \"estou aflixido,\" which better preserves the Tsar’s high-register, archaic melancholy described in the analysis."
+          "justification": "The candidate conveys the sense, but 'estou triste' is plainer and less regal/archaic than 'que estou aflixido', weakening the mock-royal tone noted in the analysis."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"demoños\" is an incorrect form here and disrupts the line; the original means \"demons\" as the subject of the sentence, not a malformed vocative or singular form."
+          "justification": "The second line is ungrammatical/pluralized incorrectly: 'os demoños' should be a singular subject matching the exclamation, so the sentence reads awkwardly and weakens the punchline."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Mira\" is a bit more colloquial and less solemn than the reference’s exclamatory \"Velaquí,\" slightly reducing the mock-religious, archaic tone."
+          "justification": "'Mira' is understandable, but it is a bit more conversational and less elevated than the reference's biblical-sounding 'Velaquí', slightly weakening the miracle exclamation."
         }
       ]
     },
@@ -139,7 +139,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the imperative force of the line. \"Todos a bailar!\" is a direct command to start dancing, while \"A bailar, todo o mundo!\" reads more like a general invitation and is less punchy."
+          "justification": "The candidate reverses the syntactic focus slightly: 'A bailar, todo o mundo!' sounds like an invitation, while the source is an imperative announcing that everyone must dance. The effect is close but less punchy."
         }
       ]
     },
@@ -158,10 +158,10 @@
       "candidate": "Vaia, que ben entrei!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Vaia, que ben entrei!\" suggests a successful entry, but the line’s joke is that he has just stumbled into a profitable find. The sense of discovering something unexpectedly good is weakened."
+          "justification": "'Vaia, que ben entrei!' can be read as simply 'I entered well' and does not clearly preserve the carefree, self-congratulatory 'I landed in a good place' sense. It also weakens the implied discovery of a fortunate target."
         }
       ]
     },
@@ -180,10 +180,10 @@
       "candidate": "Caviar negro, vermello...\nSi! Caviar de fóra...\nPaté de berenxena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Caviar de fóra\" wrongly keeps the food as a kind of caviar, which the analysis explicitly says should be avoided because it confuses the joke. The humorous contrast should be with an eggplant spread/paté, not another caviar type."
+          "justification": "'Caviar de fóra' is understandable, but it loses the specific mock-exotic 'overseas' joke and sounds more generic than the reference's 'manxar de ultramar'."
         }
       ]
     },
@@ -205,7 +205,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The abbreviated list is understandable, but the line is slightly clumsy in punctuation and phrasing, especially \"3 magnetófonos, 3 cámaras\" without fuller equivalence to the original escalating inventory."
+          "justification": "The abbreviated list is clear, but the line breaks and ellipsis-heavy formatting make it less fluent and less comic than the more rhythmic enumerative buildup in the reference."
         }
       ]
     },
@@ -222,19 +222,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti van curarte!\nE a ti tamén van curarte!\nE a min van curarme!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is correct, but 'van curarte' is more direct and less resigned/melodic than the reference's repeated 'vanme/vante curar' structure, which slightly weakens the comic calm of the line."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 16,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

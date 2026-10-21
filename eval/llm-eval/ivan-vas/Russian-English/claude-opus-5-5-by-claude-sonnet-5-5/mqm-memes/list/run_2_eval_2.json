@@ -26,7 +26,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source item is a medallion (медальон). 'Order' changes it to a decoration or award, apparently chosen for the rhyme with 'recorder'. The rhyme is a good creative solution, and the 'loses' framing correctly conveys that the items are gone, but the object is mistranslated."
+          "justification": "The candidate correctly conveys that the items were lost (\"loses\"), but the present tense suggests a repeated or ongoing action rather than a completed loss, and it wrongly renders the ambassador's medallion as \"order\", a different object (a decoration), although the rhyme gives some compensation."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Plagued by vague suspicions\" is less theatrical than \"vague doubts haunt me\"; the mock-heroic operatic register is somewhat weakened, and \"suspicions\" shifts the sense of 'сомнения' (doubts)."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Very pleased, hello, tsar!' reads as Bunsha addressing a tsar, not introducing himself as the Tsar. This contradicts the analysis note. The reference's 'I'm the Tsar' / 'the Tsar' structure is missing, so the drunken self-introduction joke is lost."
+          "justification": "The candidate reads as Bunsha greeting a tsar (\"Hello, tsar!\") rather than introducing himself as the Tsar. The note explicitly requires making clear he is introducing himself, so the key meaning and joke are lost."
         }
       ]
     },
@@ -140,7 +146,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Everybody dance!\" is accurate and has the commanding tone, but it is flatter than the reference and does not convey the host-like, grand-gesture feel of Bunsha opening the dance floor."
+        }
+      ]
     },
     {
       "id": 8,
@@ -183,9 +196,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'caviar', which the analysis note explicitly forbids because it confuses viewers. The satire depends on the contrast between real caviar and a cheap Soviet spread, and the candidate blurs it. 'Overseas spread' or 'eggplant spread' would keep the contrast."
+          "justification": "The candidate calls the eggplant spread \"Eggplant caviar\", which the note explicitly forbids because it will confuse viewers. Without \"spread\", the contrast between real caviar and the cheap Soviet canned substitute is blurred."
         }
       ]
     },
@@ -207,7 +220,14 @@
         }
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\na suede jacket... three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "Using numerals \"3\" in subtitles is less natural than spelled-out numbers, especially in a spoken list. \"Domestic\" is attached only to the cigarette cases, which is acceptable, but the rhythmic build-up of the repeated 'three' is slightly weakened."
+        }
+      ]
     },
     {
       "id": 11,
@@ -228,13 +248,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 1
+      "minor": 4
     },
-    "total_points": 11,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

@@ -20,7 +20,14 @@
         }
       },
       "candidate": "Comrades, the directive is to greet\nthe New Year cheerfully.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the bureaucratic, top-down feel but the phrasing 'the directive is to greet the New Year cheerfully' is slightly more formal and clunky than the reference. It weakens the sly, mock-managerial tone just a little (the Russian has a brisk, officious economy that the candidate dilutes)."
+        }
+      ]
     },
     {
       "id": 2,
@@ -63,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the bureaucratic understatement and the comic reversal (claiming 'briefly' then giving 'forty minutes'), but the plain word 'briefly' lacks the diminutive, faintly patronizing tone of «коротенько» that makes Ogurtsov’s faux-modesty especially funny. This slightly weakens the character voice."
+          "justification": "The candidate keeps the important contrast (claim of brevity followed by 'forty minutes') and the punchline order, but the translation 'briefly' lacks the cosy, diminutive nuance of «коротенько», which slightly reduces the comic understatement of the original."
         }
       ]
     },
@@ -87,9 +94,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The double meaning (ready = prepared / already drunk) is preserved, but 'ready long ago' is slightly awkward English phrasing compared with more natural options ('he’s been ready for quite a while'), making the rhythm less smooth and reducing a little of the backstage coordination tone."
+          "justification": "The surface exchange is conveyed, but the candidate does not clearly preserve the key double reading (ready as 'prepared' vs. 'already drunk'). 'Ready—ready long ago' reads awkwardly and leans toward the literal administrative meaning, making the alcoholic subtext less audible."
         }
       ]
     },
@@ -137,7 +144,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate mirrors the Russian neologism but uses the literal calque 'armed eye,' which in English reads as oddly surreal rather than mock-scientific. The analysis recommended an idiomatic workaround (e.g. 'aided eye') to keep the subtle parody of pseudo-scientific speech; the current wording risks changing the comic effect."
+          "justification": "The candidate is a literal calque ('armed eye'), which comes across as oddly surreal in English and loses the mock‑scientific, slightly plausible deformation of a familiar idiom. A phrasing echoing 'unaided/aided eye' would better preserve the intended comic effect."
         }
       ]
     },
@@ -186,13 +193,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 4
     },
-    "total_points": 3,
+    "total_points": 4,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5,
+    "major_equiv_per_unit": 0.1,
+    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

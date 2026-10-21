@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the possessive structure from the source/analysis: it says Shpak and the ambassador still have the items, whereas the joke depends on them having lost them."
+          "justification": "The candidate says Shpak and the ambassador still have the items, whereas the line means they have lost them. This reverses the joke’s setup and conflicts with the note in the analysis."
         }
       ]
     },
@@ -41,9 +41,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line is meant to sound like Bunsha repeatedly introducing himself as the Tsar, but the candidate frames it as addressing the Tsar ('Encantada, tsar!'), which breaks the comic misunderstanding noted in the analysis."
+          "justification": "The line should clearly read as Bunsha introducing himself as the tsar, but the candidate uses greeting-style forms like \"Encantada\" and \"ola\" that make it sound like he is addressing someone else. That breaks the intended comic effect."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Vella’ and ‘triste’ are understandable, but they soften the slightly archaic, mock-regal tone of ‘старушка’ and ‘в печали’, making the line less characterful."
+          "justification": "\"Vella\" and \"estou triste\" are understandable, but they are less aristocratic and archaic than the reference’s more elevated, mock-regal tone, so the character voice is slightly weakened."
         }
       ]
     },
@@ -97,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The punctuation and repetition are a bit flat compared with the dramatic, exasperated cry in the source; the overall meaning is intact, but the comic panic is somewhat weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -119,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "Isto é o que fai a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "‘Isto é o que fai...’ is understandable, but it sounds less emphatic and less proverbial than the source’s triumphant exclamation, slightly reducing the miraculous comic punch."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -144,9 +130,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "‘A bailar todo o mundo!’ conveys the idea, but it shifts the imperative from a direct call to the dancers to a more descriptive phrasing, making the command less immediate."
+          "justification": "\"A bailar todo o mundo!\" conveys the meaning, but it is a bit less punchy and slogan-like than the imperative force of \"Todos a bailar!\", so the dance-command energy is slightly softened."
         }
       ]
     },
@@ -168,7 +154,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "‘Ben atinado que pasei por aquí!’ sounds like he was fortunate to have passed by, but the source means he has just come in and is pleased with his good timing. The nuance of arriving/leaping into the situation is lost."
+          "justification": "\"Ben atinado que pasei por aquí\" means he deliberately passed by or happened to come by, which can imply movement away from the apartment. The joke requires the sense that he has just entered and is pleased about it."
         }
       ]
     },
@@ -190,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate incorrectly repeats ‘caviar’ for the eggplant spread, directly contradicting the note that it should not be translated as caviar because that would confuse viewers and spoil the joke."
+          "justification": "The phrase \"caviar de ultramar\" is misleading because the analysis explicitly warns not to call the eggplant spread caviar. This obscures the satirical contrast between real caviar and the cheap Soviet spread."
         }
       ]
     },
@@ -210,9 +196,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The item list is compressed and partially restructured ('3 cámaras', '3 caixas de cigarros'), which weakens the comic accumulation and the escalating specificity of the original list, though the general meaning remains."
+          "justification": "The list is understandable, but the formatting is clunky and breaks the comic rhythm of the escalating inventory. \"chaqueta de camurça: tres\" also sounds less natural than a smooth subtitle line."
         }
       ]
     },
@@ -231,24 +217,24 @@
       "candidate": "E a ti tamén te curarán!\nE a min tamén me curarán!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the repeated phrase ‘e a ti tamén te curarán… e a min vanme curar…’, which is essential to the rhythmic, resigned comic effect and to the full meaning of the line."
+          "justification": "The candidate omits one of the repeated lines about the other woman being cured. The meaning remains mostly clear, but the rhythm of shared, cumulative resignation is weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 30,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

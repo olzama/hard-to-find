@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Guys,\nI should have been in his place.\nGet drunk enough, and you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The punctuation drops the contrast between Gorbunkov's dramatic declaration and the policeman's retort. The reference's exclamation and dash make the register clash clear, but here the line looks like one speaker's statement. The speaker change is not marked."
+        }
+      ]
     },
     {
       "id": 2,
@@ -33,10 +40,10 @@
       "candidate": "No, I'm not a coward,\nbut I'm overpowered by fear...",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The added 'No,' and the 'not a coward' phrasing are slightly heavier than the reference, and the trailing ellipsis replaces the pause that separates the claim from the admission. The paradox and the lighthearted effect are still preserved."
+          "justification": "The candidate is a literal rendering with no rhyme or bounce, and the analysis says to avoid this. Mirroring the Russian 'trus/boyus' with an internal rhyme would have kept the lighthearted, endearing effect, but the candidate sounds like a flat admission of fear. The reference at least has 'overpowered by fear'; the candidate keeps that and adds the awkward 'No, I'm not a coward', so it produces no comic effect."
         }
       ]
     },
@@ -73,13 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate starts with 'You know, signora...' and drops 'Lady', so the opening string of international address terms (Lady, signora, frau, miss) is broken. The comic multilingual mashup is weakened."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Russo turista' and 'verstehen' are normalized. The reference's more exaggerated pseudo-foreign forms ('Russo Turisto', 'Verstehen?') carry the crook's comic fake worldliness, and the candidate loses some of it."
+          "justification": "The opening 'Lady' is replaced by 'You know', which loses the first term of the polyglot address list 'Lady, signora, frau, miss'. The joke is the mashup of international forms of address, so losing the first element weakens it. It also adds a filler phrase that Gena does not say. 'Russo turista' is also altered from the deliberately mangled 'Russo Turisto'."
         }
       ]
     },
@@ -131,7 +132,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses the non-standard, uneducated speech of Lyolik. 'See you don't mix 'em up' is fairly standard, whereas the reference's 'Look now' preserves more of his voice."
+          "justification": "Lyolik's non-standard, uneducated speech ('young'uns', 'Look now, don't mix 'em up') is only partly kept. 'Children' and 'See you don't mix 'em up' are more neutral, so his characteristic voice is a little weaker. The 'broad' and 'Kutuzov' are kept."
         }
       ]
     },
@@ -153,7 +154,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the second member of the pair of drinkers, which here is the ulcer sufferers, who share the suffix and rhythm with the teetotalers. 'Teetotalers and convalescers' is only a bare list, and the sentence is left without a verb ('drink'), so it is ungrammatical and the proverb makes no sense. The rhythm and wit the analysis asks for are lost."
+          "justification": "The candidate cuts off before the verb, so the sentence 'even teetotalers and convalescers' never says they drink. The proverb's meaning is incomplete. It also has no rhythmic solution: the analysis asks for balanced paired suffixes, and the line trails off."
         }
       ]
     },
@@ -170,14 +171,7 @@
         "language_specific": {}
       },
       "candidate": "In the morning, champagne is drunk\nonly by aristocrats and degenerates!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is identical to the reference in wording, but the analysis calls for a rhyming social law. This is the same weakness as in the reference, so no extra penalty applies beyond the lost rhyme."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -227,7 +221,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate does not render the elongated vowel ('Semyo-o-on') that gives the melodic, weary sigh of disappointment. The trailing ellipsis only partly compensates."
+          "justification": "The melodic, elongated sigh ('Semyo-o-on') is lost. The candidate gives the name with a trailing ellipsis, which conveys some weariness but not the drawn-out facepalm intonation. It also writes the patronymic out in full ('Semyonovich'), which is a less natural rendering of the colloquial form."
         }
       ]
     },
@@ -244,14 +238,7 @@
         "language_specific": {}
       },
       "candidate": "May you live\non\nyour salary alone!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate drops the pauses of the theatrical curse ('live... on nothing but... your salary'). The line is compressed and loses the dramatic delivery, although the meaning is intact."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 14,
@@ -296,7 +283,14 @@
         "language_specific": {}
       },
       "candidate": "With a light movement of the hand\nthe trousers transform...\nthe trousers transform...\ntransform, the trousers...\ninto elegant shorts!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The inverted 'Transform, the trousers do' of the reference gives the stumbling, desperate repetition, but the candidate drops the 'do', which makes the third repetition less funny. The effect is only slightly weakened."
+        }
+      ]
     },
     {
       "id": 17,
@@ -326,14 +320,7 @@
         "language_specific": {}
       },
       "candidate": "Buy a whole ticket pack, win...\na tractor rack!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate gives only the host's half of the exchange and not the retort. The reference has the same limitation, so there is no extra penalty beyond the lost anti-climax of the second speaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 19,
@@ -368,7 +355,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a line, 'If you're ever in Kolyma - you're very welcome!', that is not in the source. It repeats the invitation, which blurs the exchange. It also leaves the Kolyma-as-labor-camp joke harder to read, since Gena's refusal now follows an explicit extra welcome."
+          "justification": "The candidate adds a line, 'If you're ever in Kolyma - you're very welcome!', that is not in the source. This duplicates the invitation, muddles the speakers and weakens the punchline, where Gena's reflexive refusal follows right after the invitation."
         }
       ]
     },
@@ -390,7 +377,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses Gena's affected pronunciation ('kof-e', 'coff-ey') and the fancy register, rendering it as a plain 'cup of coffee'. The affected sophistication the analysis calls central is gone."
+          "justification": "The affected pronunciation of 'coffee' (the 'coff-ey' marker) and the pretentious 'принять вѫнну' (bathe) are both normalised into plain 'take a bath' and 'coffee'. The affected, would-be aristocratic voice the analysis builds the joke on is lost."
         }
       ]
     },
@@ -409,16 +396,10 @@
       "candidate": "And don't you have the same one, but\nwith mother-of-pearl buttons?\nUnfortunately, no...\nNo, yes... we'll keep looking...",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'No, yes... we'll keep looking' mistranslates 'Нет? Будем искать'. It introduces a confusing 'yes' that is not in the source and breaks the sense of Gorbunkov calmly taking the refusal and carrying on."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'And don't you have the same one' is slightly awkward, whereas the reference's 'You wouldn't have' sounds more natural."
+          "justification": "'No, yes... we'll keep looking' is a confusing rendering of the dialogue, since 'No?' is a question and 'yes' is not in the source. It muddles the stalling tactic slightly."
         }
       ]
     },
@@ -441,13 +422,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 8
+      "minor": 5
     },
-    "total_points": 33,
+    "total_points": 30,
     "meaning_units": 23,
-    "penalty_per_unit": 1.434782608695652,
-    "major_equiv_per_unit": 0.28695652173913044,
-    "interpretation": "1.43 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3043478260869565,
+    "major_equiv_per_unit": 0.2608695652173913,
+    "interpretation": "1.30 MQM penalty points per meaning unit (≈ 0.26 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.4-mini"

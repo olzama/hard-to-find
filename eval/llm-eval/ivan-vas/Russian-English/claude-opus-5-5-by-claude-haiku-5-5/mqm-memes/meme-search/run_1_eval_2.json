@@ -21,14 +21,7 @@
         }
       },
       "candidate": "Again I am tormented\nby vague misgivings...\nShpak's lost a tape machine,\nthe envoy's locket's not been seen.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Shpak's lost a tape machine\" and \"the locket's not been seen\" are more colloquial than the source's elevated, mock-tragic register (\"терзают смутные сомнения\"). The contractions and the plainer verb phrasing weaken the theatrical tone the analysis describes, though the loss of each item is conveyed correctly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -48,13 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that the line make clear Bunsha is introducing himself as the Tsar, not addressing one. Line 1 (\"Pleased to meet you. Tsar.\") and line 2 read ambiguously, as if greeting a Tsar, and the self-identification is not clear until the later lines. This contradicts the analysis's explicit requirement."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The first line drops the opening \"Hello\" and the sentence order is reshuffled across four lines instead of three source sentences. This makes the greeting rhythm less natural and less faithful to the source structure."
+          "justification": "The analysis explicitly requires the translation to make clear that Bunsha introduces himself as the Tsar rather than addressing one. The candidate's bare 'Tsar.' at the end of lines, with no 'I am' or equivalent framing, is ambiguous and can be read as Bunsha greeting a Tsar, which contradicts the essence of the item."
         }
       ]
     },
@@ -188,10 +175,10 @@
       "candidate": "Black caviar, red...\nYes! Overseas caviar...\nAubergine!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "terminology",
           "span": "",
-          "justification": "The analysis explicitly says the translation must not call the eggplant spread 'caviar' because it will confuse viewers. The candidate's \"Overseas caviar...\" does exactly that, undermining the punchline's setup and contradicting the analysis."
+          "justification": "The analysis warns against calling the eggplant spread 'caviar' because it will confuse viewers. The candidate's 'Overseas caviar' followed by 'Aubergine!' keeps the status inversion and the punchline works, but the 'caviar' label for the spread is the exact usage the analysis flags, and the reference avoids it with 'spread'."
         }
       ]
     },
@@ -218,13 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's spoken hesitation (\"куртка… замшевая… Три\") is what reveals Shpak forgetting to count the suede jacket, which the analysis identifies as the core joke. The candidate's tabulated list (\"jacket, suede: three.\") drops the ellipses, the pauses, and the stumbling count, so the forgetting-then-correcting beat is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "\"Tape machines\" is a less precise and less common rendering of \"магнитофон\" than \"tape recorders\" in the reference, and the item is a fixed object in the list."
+          "justification": "The analysis identifies the forgotten count of suede jackets, with the count arriving only after hesitation ('куртка… замшевая… Три'), as the source of the humor. The candidate's ledger-style list gives every item its count upfront ('jacket, suede: three'), removing the spoken stumble and the self-betrayal the joke depends on."
         }
       ]
     },
@@ -246,27 +227,27 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first line \"They'll cure you too!\" adds \"too\". The source's first clause (\"И тебя вылечат\") has no equivalent of \"тоже\", which appears only in the second clause."
+          "justification": "The first line adds 'too' ('They'll cure you too!'), which is not in the source line 'И тебя вылечат'. The 'too' belongs to the second line only, so the addition is small but unsupported."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ends each line with exclamation marks, which sound agitated. The analysis describes Ulyana's melodic, calm resignation, which the trailing ellipses in the source and reference convey better."
+          "justification": "The analysis describes Ulyana's melodic, calm resignation. The candidate replaces the trailing ellipses with exclamation marks throughout, shifting the delivery toward agitation and hysteria rather than the calm fatalism the analysis describes."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 20,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

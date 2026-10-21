@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies current possession. The analysis explicitly notes these items are missing (they lost them); the candidate reverses the intended meaning."
+          "justification": "The candidate uses present possession ('Shpak has a tape recorder, the ambassador has a medallion'), whereas the original and analysis specify these items have been lost (they are the objects of theft). This reverses the intended meaning and breaks the callback to earlier thefts."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should make clear Bunsha is introducing himself as the Tsar (not addressing a Tsar). The candidate reads like greetings addressed to a Tsar ('Very nice, Tsar!'), losing the key comic premise that he is repeatedly presenting himself as 'the Tsar.'"
+          "justification": "The candidate reads as if Bunsha is addressing or praising a Tsar ('Very nice, Tsar!'), whereas the analysis requires it to be clear he is awkwardly introducing himself as 'the Tsar' in a repetitive, self-introducing Soviet-formal way. This changes the comedic premise (introducing himself vs. addressing a monarch)."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The original means 'They've walled me in... (it was) the demons' with demons as the agents/subject. The candidate's 'Walled up, demons!' reads as though the speaker is addressing the demons (vocative), which contradicts the analysis note that demons should be the subject, not addressees."
+          "justification": "The second line ('Walled up, demons!') is ambiguous and can read as addressing the demons, but the analysis/notes require 'demons' to be the subject (they walled him in). This creates a slight shift in meaning/agency."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate ('That's what the life-giving cross can do!') keeps the basic meaning but loses some of the elevated, archaic register ('Behold the power...') that contributes to the Tsar's grand, religious tone; this weakens the period flavor slightly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -166,10 +159,10 @@
       "candidate": "Black caviar, red...\nYes! Overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate presents 'Overseas caviar... Eggplant!' which implies the eggplant is a kind of caviar. The analysis warns translations must not call eggplant spread 'caviar'—the joke depends on contrasting expensive caviar with cheap eggplant spread; the candidate confuses that contrast."
+          "justification": "By rendering the line as 'Overseas caviar... Eggplant!' the candidate risks implying the eggplant spread is being called caviar. The analysis warns against calling eggplant spread 'caviar' because that confuses the satirical status inversion. The candidate's phrasing is ambiguous in that respect."
         }
       ]
     },
@@ -191,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The comic effect relies on the escalating, slightly confused counting (the forgotten increment). The candidate presents the list flatly ('3..., 3..., three suede jackets') and does not reproduce the hesitant/surprised counting that creates the joke; this weakens the intended humor."
+          "justification": "The candidate lists 'three suede jackets' without the stuttering/hesitation and self-contradictory pause present in the original ('jacket... suede... Three'), which softens the comic reveal that he forgets to increment the count."
         }
       ]
     },
@@ -213,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 2
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 22,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

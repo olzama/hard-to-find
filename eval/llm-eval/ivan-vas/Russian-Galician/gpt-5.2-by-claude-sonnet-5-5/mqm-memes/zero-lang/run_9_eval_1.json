@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB states the items are lost, not possessed. 'Shpak ten un magnetófono, o embaixador un medallón' says they have them, reversing the meaning and destroying the suspicion-callback logic."
+          "justification": "The NB is violated: 'Shpak ten un magnetófono, o embaixador un medallón' says they possess the items, whereas the source means each lost theirs. The causal link to the theft is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Volven asaltarme vagas dúbidas' is less elevated and mock-heroic than the archaic 'asáltanme escuras sospeitas'; 'vagas' is acceptable for 'смутные', but the theatrical register is weakened."
+          "justification": "'Volven asaltarme vagas dúbidas' is acceptable but 'vagas dúbidas' is less elevated than the mock-heroic 'escuras sospeitas'. The opening is only moderately theatrical."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Moito gusto, tsar!' reads as addressing the Tsar, which is the exact misreading the NB warns against."
+          "justification": "'Moito gusto, tsar!' reads as addressing a tsar, not introducing himself as the Tsar, contradicting the NB. 'Boas, tsar' is a vocative, so the self-introduction is lost."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Triste' is plain and modern; it loses the archaic, regal register of 'aflixido' that contrasts with the Soviet apartment setting."
+          "justification": "'Triste' is plainer and more modern than the archaic, elevated 'aflixido' / 'in sorrow'. The regal melancholy register is somewhat weakened."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedáronme, demos!' with the comma reads as a vocative, addressing the demons. The NB requires the demons to be the subject, not the addressee."
+          "justification": "'Emparedáronme, demos!' puts 'demos' as a vocative, so he addresses the demons. The NB requires demons to be the subject of the sentence."
         }
       ]
     },
@@ -125,7 +125,14 @@
         "language_specific": {}
       },
       "candidate": "Velaí o que fai a cruz vivificadora!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Vivificadora' is less established in the liturgical register than 'vivificante'. The archaic religious tone is only slightly weakened."
+        }
+      ]
     },
     {
       "id": 7,
@@ -157,10 +164,10 @@
       "candidate": "Foi boa a hora na que entrei!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'Foi boa a hora na que entrei' is awkward and the past tense could suggest he is looking back, which the NB warns against. It also loses the cheerful 'lucky find' idiom about the apartment."
+          "justification": "'Foi boa a hora na que entrei' is stiff and less colloquial than the cheerful exclamation. It does keep the sense that he has just entered, with no leaving implied."
         }
       ]
     },
@@ -182,7 +189,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB forbids calling the eggplant spread 'caviar'. The candidate renders the 'заморская икра' as 'Caviar de ultramar' and then 'De berenxena', which loses the contrast of an overseas delicacy and confuses the viewer."
+          "justification": "'Caviar de ultramar... De berenxena' calls eggplant spread caviar, which the NB forbids. It also loses the joke's inversion of status by changing 'manxar' to 'caviar'."
         }
       ]
     },
@@ -204,13 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the suede jacket count: it is a single jacket ('куртка… замшевая… Три') with the 'three' coming late. The candidate gives '3 chaquetas de camurza' in a clean list, so the joke is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Using digits '3' in the spoken, hesitant list is less natural than spelled-out numbers, and the hesitation pauses are dropped."
+          "justification": "The joke depends on the suede jacket not being tripled, with 'tres' coming only at the end as a delayed slip. The candidate says '3 chaquetas', which removes the betrayal of the exaggeration. The ellipses and hesitation are also lost."
         }
       ]
     },
@@ -232,27 +233,21 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first clause adds 'tamén' ('E a ti tamén'), where the source builds up from 'и тебя вылечат' to 'и тебя тоже', so the progression is flattened and the line repeated."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks undermine the calm, melodic resignation described in the analysis."
+          "justification": "The first line begins 'E a ti tamén' instead of just 'E a ti', so the sequence escalating with 'tamén tamén' is slightly off. The calm, melodic resignation is largely preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 5,
       "minor": 5
     },
-    "total_points": 35,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

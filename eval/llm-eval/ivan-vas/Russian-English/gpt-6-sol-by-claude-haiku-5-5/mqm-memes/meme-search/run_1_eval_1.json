@@ -23,16 +23,16 @@
       "candidate": "I'm beginning to have\na nagging suspicion again...\nShpak's tape recorder,\nthe ambassador's medal.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I'm beginning to have a nagging suspicion' flattens the mock-heroic register of 'терзают смутные сомнения'. The tragic-opera pomp that the analysis identifies as the source of the humor is lost."
+          "justification": "'I'm beginning to have a nagging suspicion again' is colloquial and loses the mock-heroic, tragic-opera register of 'терзают смутные сомнения' that the analysis identifies as the source of the humor."
         },
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "terminology",
           "span": "",
-          "justification": "'Medal' (an award or decoration) mistranslates 'медальон' (a locket or pendant). The stolen object is a piece of jewelry, as the reference's 'medallion' shows, so the plot item is wrong."
+          "justification": "'Medal' is not the same object as 'медальон' (medallion/locket). The reference keeps the pendant, and a medal reads as a decoration, which shifts the specific item the joke lists."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires the lines to make clear that Bunsha is introducing himself as the Tsar, not greeting one. 'A pleasure, Tsar!' and 'Hello, Tsar!' read as addressing a Tsar, which contradicts that requirement. The self-introduction that the reference renders as 'I'm the Tsar' is absent."
+          "justification": "The analysis requires making clear that Bunsha introduces himself as the Tsar rather than addressing one. 'A pleasure, Tsar!' and 'Hello, Tsar!' read as greetings directed at a Tsar, so the self-introduction, which is the core of the joke, is lost."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'I am in mourning' implies bereavement, but 'в печали' means sorrow or melancholy. The analysis's 'genuine, regal melancholy' is shifted toward a specific grief that the source does not state."
+          "justification": "'I am in mourning' implies bereavement, whereas 'я в печали' means melancholy or sorrow. The analysis stresses the Tsar's regal melancholy, so the shift is a small distortion of his state."
         }
       ]
     },
@@ -196,9 +196,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says the eggplant spread must not be called 'caviar' because it will confuse viewers, yet 'exotic caviar' does exactly that. The candidate also drops 'spread', so the final 'Eggplant!' lacks its referent and the overseas-versus-common contrast is blurred."
+          "justification": "The line 'And yes, exotic caviar...' applies the word 'caviar' to the overseas item that is in fact eggplant spread. The analysis explicitly warns against calling eggplant spread caviar, and the status inversion that drives the joke is muddied as a result."
         }
       ]
     },
@@ -225,7 +225,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's gag is that Shpak forgets to increment the count for the suede jacket, then corrects with a belated 'Три'. The analysis singles out this forgotten count as the funny part. The candidate states 'three suede jackets' outright, so the joke is erased."
+          "justification": "The source's hesitation ('куртка… замшевая… Три') and the final 'Три' that reveal Shpak forgetting to increment the count are dropped. The candidate simply lists 'three suede jackets', so the self-betraying miscount that the analysis identifies as the core of the joke is lost."
         }
       ]
     },
@@ -247,21 +247,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks and dropped ellipses make the lines excited and hysterical. The analysis calls for melodic, calm resignation, which the reference conveys through its ellipses."
+          "justification": "The exclamation marks and dropped ellipses turn the calm, trailing, melodic resignation of the source into an exclamatory tone, which weakens the effect described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 2
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 27,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 2.4545454545454546,
-    "major_equiv_per_unit": 0.4909090909090909,
-    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

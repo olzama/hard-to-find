@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "that should've been me in his place.\nGet drunk enough and it will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The second line 'Get drunk enough and it will be!' is grammatically awkward and slightly unclear in English — the impersonal 'it will be' lacks the natural mock-certainty of the policeman's jab. The intended humour (treating being carried off as the inevitable result of excessive drinking) is preserved, but the line reads a bit clumsy."
+        }
+      ]
     },
     {
       "id": 2,
@@ -41,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a literal, neutral rendering of the line. The analysis indicates the original's bouncing rhyme and lighthearted, endearing tone ('Trus/Boyus') — the candidate loses that comic rhythmic lift and reads flatter, reducing the intended charm."
+          "justification": "The candidate is a correct literal rendering ('I'm not a coward... but I am afraid.'), but it loses the light, bouncing comic rhythm of the original Russian rhyme (Trus/Boyus) that makes the admission endearing rather than flat. This reduces a bit of the intended charm."
         }
       ]
     },
@@ -203,7 +210,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source conveys a melodic, elongated sigh (melodic stretching of the name). The candidate is a straightforward rendering that loses some of the musical, weary-drawn effect that the analysis highlights."
+          "justification": "The candidate conveys the address plainly ('Semyon Semyonovich...') but loses the elongated, melodic sigh present in the original ('Semyo-o-on Semyonych!') that expresses weary exasperation. The emotional colouring is therefore slightly weaker."
         }
       ]
     },
@@ -376,13 +383,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 2,
+    "total_points": 3,
     "meaning_units": 23,
-    "penalty_per_unit": 0.08695652173913043,
-    "major_equiv_per_unit": 0.017391304347826087,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.13043478260869565,
+    "major_equiv_per_unit": 0.02608695652173913,
+    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

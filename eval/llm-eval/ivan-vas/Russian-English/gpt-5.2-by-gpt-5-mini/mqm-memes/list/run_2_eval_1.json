@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the ambassador has...', implying current possession. The analysis explicitly notes these phrases mean they lost those items (they were deprived of them), not that they possess them anymore, so the candidate reverses the intended meaning."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion.' The analysis explicitly warns this must not be translated as possession—the items have been lost (they are the objects of theft). By saying they 'have' the items now, the candidate reverses the situation and thus changes the meaning and the joke."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line must convey that Bunsha is introducing himself as the Tsar ('I am the Tsar'), not addressing a Tsar. The candidate reads as addressing someone ('Tsar—hello, Tsar!'), which obscures the comic premise described in the analysis and changes the role of the repeated phrase."
+          "justification": "The line is supposed to read as Bunsha introducing himself as 'the Tsar' (mock self-introduction), not addressing or complimenting a tsar. The candidate's phrasing ('Very nice, Tsar—hello, Tsar! ... Hello, Tsar! Very nice!') reads like someone repeatedly addressing or praising a tsar rather than clumsily announcing himself as the Tsar, losing the key comedic premise described in the analysis."
         }
       ]
     },
@@ -110,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That’s what the life-giving cross can do!') shifts from the high-register, archaic phrasing of the reference to a more colloquial, explanatory tone, weakening the intended regal/religious register of the Tsar's line."
+          "justification": "The candidate's 'That’s what the life-giving cross can do!' is more colloquial and slightly weakened compared with the lofty, archaic register of 'Behold the power of the life-giving cross!' The change reduces the high, religious-archaic tone that fuels the comedic contrast."
         }
       ]
     },
@@ -159,10 +159,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Exotic caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "By rendering 'Заморская икра… баклажанная!' as 'Exotic caviar... Eggplant!' the candidate risks implying the eggplant spread is itself a type of 'caviar.' The analysis warns against calling eggplant spread 'caviar' outright; the line should make the satirical contrast clearer to avoid audience confusion."
+          "justification": "The analysis warns that eggplant spread must not be called 'caviar' (it would confuse viewers). The candidate's sequence ('Exotic caviar... Eggplant!') strongly implies the eggplant spread is being presented as exotic caviar, which obscures the satirical contrast between real caviar and cheap 'eggplant caviar' and thus damages the joke."
         }
       ]
     },
@@ -179,7 +179,14 @@
         "language_specific": {}
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestically made cigarette cases,\na suede jacket—three!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The humor depends on the growing, inconsistent counting (he forgets to update the running total). The candidate's condensed punctuation ('a suede jacket—three!') blurs the incremental, hesitating delivery and reduces the comic effect of the speaker's self-contradiction."
+        }
+      ]
     },
     {
       "id": 11,
@@ -199,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 2
     },
-    "total_points": 12,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

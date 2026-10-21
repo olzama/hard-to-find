@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't bring\nin a Baba Yaga from outside.\nWe'll train one from our own staff!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The name is kept as a proper noun with an article, 'a Baba Yaga', which reads awkwardly and weakens the recognizable human-type reading the analysis asks for. 'From our own staff' and 'train one' do carry the workplace logic, and the mid-phrase line break 'We won't bring / in a Baba Yaga' adds to the awkwardness."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a third-person subject, 'He gives a nice, short address', which the source does not have. The speaker is describing his own planned length in the first person, as 'I don't think we need more' confirms. The trailing hesitation of the source ellipsis is also dropped."
+          "justification": "The candidate recasts Ogurtsov's direct speech as third-person narration ('He gives a nice, short address'), adding a subject and framing that the source does not have. The faux-modest brevity claim and the forty-minute punchline survive, but the speaker's own self-satisfied voice is weakened."
         }
       ]
     },
@@ -75,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\n- The lecturer's ready.\nHe's been ready for ages!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The double sense of 'готов' is lost. 'The lecturer's ready. He's been ready for ages!' reads only as official readiness, so the drunkenness subtext the analysis calls the core of the joke is absent. 'Ages' carries the duration but not the intoxication, and nothing else in the line signals it."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -100,9 +86,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Anybody out there?' is added content with no counterpart in the source, which is only 'Лю-ди! А… ау-у!'. The stretched, faltering vocalization of 'Peo-ple' and 'ау-у' is reduced to 'People!' and 'Hello...', so the broken, vocally unstable collapse the analysis asks for is only partly kept, through the ellipsis."
+          "justification": "The analysis stresses a stretched, faltering vocal opening ('Peo-ple!', 'ay-oo'). The candidate keeps a clean 'People!' and adds a new phrase, 'Anybody out there?'. The ellipses suggest faltering and the phrase does the same job as the call, but the broken vocal shape of the source is not reproduced."
         }
       ]
     },
@@ -127,9 +113,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The self-correction ('naked eye... I mean, the armed eye') adds the correct idiom and an explicit 'I mean', so the lecturer seems aware of the error. This weakens the analysis's point that he believes he is becoming more precise. The retained 'armed eye' is the literal calque the language notes say sounds stranger than the Russian in English."
+          "justification": "The candidate uses the literal 'armed eye' that the language notes warn against, and the added 'I mean' turns the error into a visible self-correction. This suggests the lecturer notices his mistake, which undercuts the analysis's point that he believes he is becoming more precise. The mock-scientific malformation still comes through, so the impact is limited."
         }
       ]
     },
@@ -153,10 +139,10 @@
       "candidate": "and we see\ntwo little stars, three little stars...\n...four little stars. Five stars\nis best, of course!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The sudden click from astronomy into cognac grading, which the analysis says must be felt for the line to be hilariously derailed, is not signalled. 'Five stars is best' reads as a generic ratings or hotel phrase, and the translator's note recommended in the language-specific guidance is absent, so the line becomes merely odd."
+          "justification": "The counting progression and the sudden 'five stars' click are preserved. However, the cognac association that the language notes say may need a translator's note is not signposted, so an English viewer may read 'five stars' only as a hotel or rating and miss the cultural point of the derailment."
         }
       ]
     },
@@ -178,21 +164,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Is there no life on Mars?' is an awkward rendering of 'нет ли жизни'. It is parallel to the source but reads as an ungrammatical question, where 'Is there life on Mars or not?' would give the same both-ways framing more naturally. The remaining lines capture the flat, uninformed register well, including 'hasn't been told yet' for 'не в курсе дела'."
+          "justification": "'Is there no life on Mars?' is a literal rendering of 'нет ли жизни' that sounds awkward in English. The 'whether there is or not' balance of the source is lost, and the lecture-like declarative uncertainty becomes a question sequence. The casual 'Science doesn't know' and 'Science hasn't been told yet' do preserve the register mismatch."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 0,
       "minor": 5
     },
-    "total_points": 15,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

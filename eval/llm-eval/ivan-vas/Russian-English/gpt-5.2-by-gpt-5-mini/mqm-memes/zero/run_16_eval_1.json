@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies possession. The analysis explicitly warns these items are no longer in their possession (they were lost/stolen). This reverses the intended meaning and contradicts the NB guidance."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as simple possession. The original (and the analysis note) indicate these items are no longer in their possession (they were taken/lost). This reverses the grammatical role and the intended meaning—he is listing items that have gone missing from them, not items they currently own."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original/analysis requires that Bunsha be heard as introducing himself as the Tsar, not addressing a Tsar. Lines like 'Very pleased, Tsar!' read as if he is addressing someone called 'Tsar' rather than proclaiming 'I am the Tsar, very pleased,' which loses the core comic premise described in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The repetitive, mundane Soviet-greeting rhythm is partly present but the candidate's ordering and punctuation make the self-introduction less obviously clumsy and drunk — the mock-cliche effect is weakened compared with the reference/analysis."
+          "justification": "The candidate lines ('Very pleased, Tsar! … Hello, Tsar! Very pleased!') read as if Bunsha is addressing a tsar rather than introducing himself as the tsar (the comic point noted in the analysis). The translation must make clear he is proclaiming himself to be the Tsar; the current wording implies vocative address and thus misrepresents the gag."
         }
       ]
     },
@@ -101,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB specifies that 'demons' are the subject (they have walled him in), not being directly addressed. The candidate's second line 'Walled in, demons!' reads as vocative (addressing demons), which reverses the grammatical role and undermines the intended meaning."
+          "justification": "The candidate 'Walled in! / Walled in, demons!' is ambiguous and reads like an address to demons (vocative). The analysis explicitly notes that 'demons' must be the subject who walled him in, not the addressee. The candidate therefore changes the syntactic role and the meaning of the line."
         }
       ]
     },
@@ -123,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross can do!' conveys the basic meaning but loses the elevated, archaic 'Behold the power of...' register. The line reads more conversational and thus slightly weakens the Tsar's archaic religious solemnity."
+          "justification": "The candidate ('That’s what the life-giving cross can do!') preserves the basic meaning but loses the high-register, archaic, exalted tone ('Behold the power of the life-giving cross!') that the analysis highlights. The more colloquial phrasing weakens the regal/religious register of the original."
         }
       ]
     },
@@ -140,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate 'Everyone dance!' communicates the invitation but is slightly stilted/unnatural in English. The reference's idiom ('The floor is open to everyone!') better captures the thrown-open, celebratory register; the candidate is functional but less idiomatic and energetic."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -177,7 +164,14 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate presents the line as 'Imported caviar... / Eggplant!' which risks implying the eggplant item is being called caviar. The analysis and notes warn against rendering 'баклажанная' as 'caviar' (it should be understood as the cheap eggplant spread presented as if it were an exotic delicacy). By labeling it 'Imported caviar' then 'Eggplant!' the candidate blurs that ironic contrast and may mislead viewers into thinking eggplant is literally caviar."
+        }
+      ]
     },
     {
       "id": 10,
@@ -197,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The comic beat in the analysis depends on the incremental count and the speaker's momentary self-correction (forgetting to increment the suede jacket count). The candidate presents a flat list ending with 'three suede jackets' and loses the subtle hesitancy/forgetfulness that produces the joke's punchline."
+          "justification": "The candidate lists the items clearly but loses some of the comic hesitation and incremental inflation present in the original (the interrupted phrasing and the comic reveal that he forgets to increase the count). The rendering is grammatical and accurate but slightly flattens the humorous delivery."
         }
       ]
     },
@@ -219,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 19,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

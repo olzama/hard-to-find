@@ -44,13 +44,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word \"коллектив\" untranslated (Cyrillic), which is untranslated material in the subtitle and will confuse or distract non-Russian viewers. This is an accuracy error: required target-language rendering of that key cultural/workplace term is missing."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses 'hiring' and 'raise one,' which slightly shifts the social-register nuance: the original reads as managerial/staffing rhetoric ('we won’t bring in... — we’ll cultivate/train one in-house'), whereas 'raise' gives a more childlike or domestic flavor and 'hiring' emphasizes recruitment rather than the voiced workplace cultivation—incongruent with the dry, bureaucratic tone in the analysis."
+          "justification": "The candidate leaves the word \"коллектив\" untranslated, producing a clear untranslated segment in an otherwise English subtitle. This breaks fluency and prevents the line from functioning for an English-speaking audience. The rest of the line also shifts to \"hiring\"/\"raise\" which slightly changes the staffing/workplace register, but the untranslated word is the primary serious error."
         }
       ]
     },
@@ -76,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses the diminutive, faux-modest flavor of «коротенько» by rendering it simply as 'just briefly.' That diminutive irony is important to set up the comic reversal when 'forty minutes' follows; the translation is accurate but weakens Ogurtsov’s smug, tone-deaf managerial voice."
+          "justification": "The candidate preserves the contrast between a claim of brevity and the forty-minute duration, but the diminutive, mildly self-congratulatory flavor of «коротенько» is flattened by the plain \"just briefly.\" The line still works comically but is stylistically weaker."
         }
       ]
     },
@@ -97,14 +91,7 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—been ready a long time!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate renders both instances as 'ready' and thus only preserves the surface administrative meaning. The original line relies on an ambiguous 'готов' that also suggests the lecturer is already drunk; the drunken double reading is attenuated here and the comic subtext is reduced."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -147,10 +134,10 @@
       "candidate": "But if we only take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate uses 'armed eye'—a literal calque that the analysis explicitly warns against because it creates a stranger, more surreal image in English and loses the intended mock-scientific, slightly wrong-but-plausible tone. The result is jarring rather than humorously pseudo-academic, so the comic effect is significantly damaged."
+          "justification": "The candidate translates «вооружённым глазом» literally as \"armed eye,\" which in English reads as an odd, more surreal image than the intended mildly mock‑scientific deformation. This calque risks changing the comic register; a less literal rendering (e.g. \"aided eye\") would better preserve the mock‑scientific but recognizably ludicrous tone."
         }
       ]
     },
@@ -198,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 3
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 13,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 1.625,
-    "major_equiv_per_unit": 0.325,
-    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

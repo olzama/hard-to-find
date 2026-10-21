@@ -186,7 +186,14 @@
         }
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic… a suede jacket… Three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate begins with a lowercase 'three' as if continuing a previous line, and the line breaks split the list unnaturally; the content (items, counts, the suede jacket without incremented count) is preserved, so the effect is only slightly weakened."
+        }
+      ]
     },
     {
       "id": 11,
@@ -203,30 +210,24 @@
       "candidate": "and they’ll cure you too…\nand they’ll cure me…\nThey'll cure me too!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the opening 'И тебя вылечат' ('And they'll cure you') and adds a final line, 'They'll cure me too!', which has no counterpart in the source. This breaks the three-step litany (you / you too / me) that gives the line its melodic, resigned rhythm."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The added exclamation mark in 'They'll cure me too!' makes the delivery emphatic. The analysis describes calm, melodic resignation, so this works against it."
+          "justification": "The candidate omits the first 'they'll cure you' and adds a new final line 'They'll cure me too!', altering the rhythm of the melodic, calm resignation described in the analysis. The added exclamation mark makes the ending more emphatic than the soft, resigned tone of the source, though the overall meaning and the joke about psychiatric wards remain intact."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

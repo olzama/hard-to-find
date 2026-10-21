@@ -26,7 +26,7 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Медальон' (medallion) is rendered as 'decoration', which is a broader and less specific term. The lost-item sense is preserved, but the object is misidentified."
+          "justification": "\"Decoration\" is a broader, vaguer term than the source's \"медальон\" (medallion). The item still conveys that the ambassador lost something, but the specific object named in the source is lost."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis states that the translation must make clear Bunsha is introducing himself as the Tsar rather than addressing one. 'A pleasure, tsar!' and 'Hello, tsar!' read as greetings to a tsar, and no self-introduction ('I'm the Tsar') is present, so the required clarification is missing and the line contradicts the analysis."
+          "justification": "The analysis explicitly requires that the translation make clear Bunsha is introducing himself as the Tsar, not addressing one. The candidate's repeated vocative \"Hello, tsar!\" and \"A pleasure, tsar!\" read as greeting a tsar, and the self-introduction is never signalled. This distorts the central point of the joke."
         }
       ]
     },
@@ -90,7 +90,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The contraction 'I'm' is more colloquial than the archaic, high-register 'I am' in the reference, which weakens the royal, archaic voice the analysis calls for. The split into two lines is acceptable."
+          "justification": "The contraction \"I'm\" in \"I'm in sorrow\" makes the line more colloquial. The analysis stresses the Tsar's high-register, archaic speech, which \"I am\" (as in the reference) preserves better."
         }
       ]
     },
@@ -112,7 +112,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled it up' leaves the object vague and reads as sealing an object, whereas 'замуровали' in context means the Tsar himself is trapped ('walled me in'). The elevator-trap sense is only weakly recoverable, though the demons-as-subject requirement is met."
+          "justification": "\"They've walled it up!\" leaves \"it\" without a clear referent and does not convey that the Tsar himself is trapped. The reference makes this explicit with \"me\". The demon-as-subject reading required by the analysis is preserved, so the problem is limited to the unclear object."
         }
       ]
     },
@@ -154,14 +154,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source is a declarative, ceremonious statement ('Everyone is dancing!'). 'Everybody dance!' turns it into a casual imperative and drops the regal, announcing register of the reference, though the chaotic party tone survives."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -206,7 +199,7 @@
           "severity": "major",
           "category": "terminology",
           "span": "",
-          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The final line 'Eggplant caviar!' does exactly that, contradicting the analysis. The reference's 'Overseas spread... eggplant!' avoids this."
+          "justification": "The analysis explicitly warns that eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate uses \"Eggplant caviar!\" and \"Caviar from overseas...\", directly contradicting that guidance. The reference correctly uses 'spread'."
         }
       ]
     },
@@ -233,7 +226,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis identifies the forgotten count on the suede jacket as the source of the joke. The source has 'куртка... замшевая... Три' (singular, then a correction to three). The candidate turns the jacket into 'three suede jackets' from the start, which removes the self-betraying slip and the comic count-up, so the joke no longer works."
+          "justification": "The analysis identifies the forgotten count of suede jackets (the trailing \"Три\" after a singular \"куртка… замшевая…\") as the source of the comedy. The candidate simply states \"three suede jackets\", removing the hesitation and miscount that make the joke work. The reference preserves this with \"a suede jacket… Three.\""
         }
       ]
     },
@@ -255,7 +248,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes Ulyana's 'melodic, calm resignation'. The exclamation marks in 'They'll cure you!' and 'And they'll cure me!' make the delivery urgent or agitated, and the ellipses that give the source its trailing, resigned rhythm are lost."
+          "justification": "The analysis describes the speech as melodic, calm resignation. The candidate's exclamation marks make the lines sound excited or alarmed. The source's trailing ellipses, kept in the reference, carry the resigned tone that the candidate loses."
         }
       ]
     }
@@ -263,13 +256,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

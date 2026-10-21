@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\nBaba Yaga from outside,\nwe'll raise one in our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Keeping the proper name \"Baba Yaga\" pulls the line toward the fairy-tale villainess. The analysis stresses the workplace reading of a nasty woman as a recognizable human type, which the reference's \"a witch\" carries more clearly. The candidate's \"raise one\" also reads less clearly as cultivation or training than \"train one in-house\"."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,13 +51,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"no more, I think, is needed\" is awkward word order for a spoken line, and it delays the verb in a way that weakens the faux-modest rhythm the analysis asks for."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line ends with a comma instead of the source's trailing ellipsis (\"не надо…\"), losing the self-satisfied trailing-off. The lowercase opening \"briefly\" also drops the sentence-initial capital."
+          "justification": "The inverted phrasing \"no more, I think, is needed,\" is awkward. The trailing comma replaces the source's trailing-off ellipsis, so the self-satisfied, patronizing wind-down that sets up the punchline is weakened."
         }
       ]
     },
@@ -83,10 +70,16 @@
       "candidate": "Is the lecturer ready?\nThe lecturer is ready, long ready!",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The analysis hinges on the double sense of «готов» (ready / drunk). The candidate renders only a flat \"ready\" and never signals intoxication, so the comic subtext is lost and the exchange no longer works as a joke."
+        },
+        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"long ready\" is not idiomatic English. A natural phrasing such as \"been ready for ages\" would carry the \"давно готов\" emphasis more smoothly."
+          "justification": "\"long ready\" is a literal calque of «давно готов» and is not idiomatic English. It reads as ungrammatical rather than as a natural, cheerfully slurred reply."
         }
       ]
     },
@@ -106,9 +99,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"People!\" is not stretched, so the vocal instability the analysis identifies as part of the drunken comedy is only partly carried by \"Yoo-hoo\". The ellipses are also shortened to two dots, and the stray leading dash reads as a dialogue marker rather than part of the utterance."
+          "justification": "The clean \"People!\" loses the stretched, faltering quality of «Лю-ди!» that the analysis calls for. \"Yoo-hoo!\" is a cheerful hailing call rather than a wavering, drunken cry, so the pitiful collapse of the formal opening is only partly conveyed."
         }
       ]
     },
@@ -135,7 +128,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"we need only take\" is stilted, where \"all we have to do is take\" would be natural and closer to the source's \"стоит только\". The final comma replaces the source's exclamatory trailing ellipsis (\"!..\"), flattening the lecturer's delivery."
+          "justification": "The line ends on a bare comma after \"eye,\" dropping the source's trailing \"!..\" hesitation. The lecturer's faltering, overconfident finish is slightly weakened, though the aided-eye echo of \"unaided\" works as the translation note recommends."
         }
       ]
     },
@@ -159,10 +152,10 @@
       "candidate": "and already we see two\nstars, three stars..\nFour stars, and best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The reference carries a translator's note explaining that 5-star cognac was the best Soviet brand. The candidate omits it, so English viewers may not get the cultural click into the cognac frame that the analysis says the final \"five stars\" must produce. The candidate's own wording is otherwise faithful to the counting progression."
+          "justification": "The punchline depends on the cognac association (five-star cognac, the best in the USSR) and on the sudden semantic shift it creates. The candidate supplies no translator's note or other means of signalling this, so English viewers will not get the click. The reference's bracketed note is the solution the analysis calls for, and the candidate omits it."
         }
       ]
     },
@@ -184,21 +177,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"is there no life on Mars\" is a clumsy construction for spoken English, creating an awkward doubled question before \"science doesn't know\". The reference's \"Whether there is life on Mars or not\" reads more smoothly while keeping the same uncertainty."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is clumsy. \"Whether there is life on Mars or not\" would read more naturally while keeping the rhythm of the original. The colloquial \"isn't in the loop yet\" does capture the casual register well."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 8
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 8,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

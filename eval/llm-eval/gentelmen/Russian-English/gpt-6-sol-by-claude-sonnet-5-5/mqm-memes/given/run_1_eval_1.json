@@ -36,7 +36,14 @@
         }
       },
       "candidate": "knock your block off, rip your trap,\nand poke your peepers out! You’ll be working\nfor medicine all your life!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate omits the subject 'I'll' at the start ('knock your block off'), so the threat begins as a bare imperative-like fragment. It still reads as a clipped, idiomatic threat and the remaining formula and the verdict-like ending are preserved."
+        }
+      ]
     },
     {
       "id": 3,
@@ -128,10 +135,10 @@
       "candidate": "Move the horse, I’ll never see the outside if I’m wrong!\nGet lost!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"Get lost!\", which has no basis in the source. It turns Fedya's forceful chess advice into a dismissal of the listener and weakens the joke of unschooled chess language paired with a prison oath."
+          "justification": "The candidate adds 'Get lost!' which has no source counterpart. It slightly dilutes the oath-like forcefulness of the advice, though the 'horse' and prison oath are preserved."
         }
       ]
     },
@@ -348,14 +355,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 0
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 5,
+    "total_points": 2,
     "meaning_units": 18,
-    "penalty_per_unit": 0.2777777777777778,
-    "major_equiv_per_unit": 0.05555555555555556,
-    "interpretation": "0.28 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.1111111111111111,
+    "major_equiv_per_unit": 0.02222222222222222,
+    "interpretation": "0.11 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

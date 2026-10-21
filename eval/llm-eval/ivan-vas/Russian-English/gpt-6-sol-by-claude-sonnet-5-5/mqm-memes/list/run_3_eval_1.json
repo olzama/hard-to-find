@@ -26,13 +26,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Medal' is less precise than 'medallion' for the ambassador's item; it changes the object slightly, though the lost-item reading is preserved."
+          "justification": "'Medal' is not 'medallion'. The lost item is a different object from the one in the source."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Nagging suspicions' is more mundane than the mock-heroic, operatic 'vague doubts haunt/torment me'; 'plagued' helps, but the theatrical register is somewhat weakened."
+          "justification": "'Plagued by nagging suspicions' is more colloquial than the mock-operatic 'vague doubts haunt me' and weakens the mock-heroic register. 'Suspicions' also shifts 'сомнения' (doubts)."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads 'Very pleased, Tsar!' and 'Hello, Tsar!', which sounds like Bunsha is addressing a Tsar rather than introducing himself as the Tsar. The analysis explicitly requires making the self-introduction clear (e.g. 'I'm the Tsar'), so the joke is lost."
+          "justification": "'Very pleased, Tsar!' and 'Hello, Tsar!' read as Bunsha addressing a Tsar, not introducing himself as the Tsar. This contradicts the analysis's note, and the joke of the drunk impostor is lost."
         }
       ]
     },
@@ -91,14 +91,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman.\nI am in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Splitting into 'Leave me be' plus a separate 'I am in sorrow' is fine, but 'Leave me be' is slightly more colloquial than the archaic, high-register 'Leave me'; the regal tone is only mildly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -173,14 +166,7 @@
         }
       },
       "candidate": "Well, I picked the right time\nto drop in!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Picked the right time to drop in' is acceptable on entry, but the analysis stresses that he has just entered. 'Drop in' fits arrival, so meaning is preserved; however the phrase loses the casual 'lucky find' sense of discovering the loot and sounds like a visit, which is a mild shift."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -200,7 +186,14 @@
         }
       },
       "candidate": "Black caviar, red caviar...\nAh, yes! Caviar from overseas...\nEggplant spread!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Caviar from overseas... Eggplant spread!' makes the overseas item read as caviar before the reveal. This risks the confusion the note warns about and blurs the 'overseas' eggplant spread."
+        }
+      ]
     },
     {
       "id": 10,
@@ -225,13 +218,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives 'three suede jackets', which removes the key joke: Shpak forgets to increment the count for the jacket at first (a single suede jacket, then 'Three'). The comedic slip is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Locally made' for 'отечественных' is acceptable but slightly awkward; 'domestic' would be more natural."
+          "justification": "The candidate says 'three suede jackets', so the humorous slip is lost. In the source Shpak says 'a suede jacket' and only then adds 'Three', which betrays the exaggeration."
         }
       ]
     },
@@ -248,19 +235,26 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The exclamation marks make the lines sound emphatic, while the analysis describes a calm, melodic resignation."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 4
     },
-    "total_points": 19,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

@@ -21,7 +21,14 @@
         }
       },
       "candidate": "I'm tormented by vague\ndoubts again...\nShpak's missing a tape recorder,\nthe ambassador's missing a medallion.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the corrected meaning (they are missing the items) but the colloquial phrasing 'Shpak's missing a tape recorder' and use of contractions weakens the mock-heroic, elevated theatrical register emphasized in the analysis."
+        }
+      ]
     },
     {
       "id": 2,
@@ -56,14 +63,7 @@
         }
       },
       "candidate": "I demand the banquet go on!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'I demand the banquet go on!' is more colloquial and less ceremonially elevated than the reference. This slightly weakens the mock-royal, high-register tone that contrasts Bunsha's usual bureaucratic voice, though the meaning and intent remain intact."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -193,7 +193,14 @@
         }
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\na suede jacket... three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate retains the joke about counting items and the self-correction, but use of the digit '3' and the ellipsis/punctuation choices make the line feel slightly stilted and visually inconsistent for subtitle style compared with the natural phrasing expected in the analysis."
+        }
+      ]
     },
     {
       "id": 11,
@@ -214,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 1,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

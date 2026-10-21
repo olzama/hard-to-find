@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is a directive:\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is a directive\" keeps the top-down bureaucratic framing, but \"welcome the New Year cheerfully\" and the colon-based break make it slightly less dryly official than the source's deadpan managerial tone; the joke is largely preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Hire a Baba Yaga\" and \"raise one\" keep the workplace logic and \"collective\" gives a Soviet feel, but leaving \"Baba Yaga\" untranslated foregrounds the fairy-tale figure and loses the sense of a nasty woman type the audience would recognize; \"hire\" is slightly weaker than \"bring in\" for the staffing joke."
+          "justification": "\"Hire\" and \"raise\" keep the workplace logic, but \"a Baba Yaga\" is left untranslated and may not evoke the nasty-woman type for English viewers. \"Raise\" also leans toward the fairy-tale/child-rearing frame rather than the in-house training logic, though the \"collective\" keeps the Soviet workplace feel."
         }
       ]
     },
@@ -74,10 +67,10 @@
       "candidate": "And just briefly—about\nforty minutes, I think\nno more is needed",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The diminutive faux-modesty of «коротенько» is rendered only as \"just briefly\", which is flat, and the trailing \"no more is needed\" is stiff. The contrast with \"forty minutes\" is kept in order, but the cozy, self-satisfied managerial tone required by the analysis is weakened."
+          "justification": "\"Just briefly\" keeps the briefness claim before the duration, but it loses the diminutive, faux-modest coziness of «коротенько». \"I think no more is needed\" is slightly stiff and the smug managerial tone is weaker."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready... been ready for ages\" gives only the surface administrative sense, with no hint of intoxication, so the core joke is lost. The reference's \"Oh, he's ready\" at least adds a knowing tone."
+          "justification": "The candidate keeps only the surface meaning of \"ready\". \"Been ready for ages\" does not suggest drunkenness, so the double reading (official readiness vs. already drunk) that the analysis calls the core of the joke is lost."
         }
       ]
     },
@@ -124,14 +117,7 @@
         }
       },
       "candidate": "People!.. Ah... A-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"People!.. Ah... A-oo!\" keeps the faltering structure, but \"People!\" is not stretched or broken (cf. «Лю-ди!»), so the drunken vocal instability is only partly conveyed. \"A-oo\" is a reasonable analogue of «ау-у»."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -158,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the English-specific note says to avoid. It does not echo \"unaided eye\", so it sounds surreal instead of a slightly wrong mock-scientific variation of a familiar idiom, and the intended joke of the deformed phrase does not land."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It sounds surreal rather than like a mock-scientific distortion of \"unaided eye\", so the malformed-idiom joke does not work in English."
         }
       ]
     },
@@ -185,9 +171,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The counting is broken up awkwardly: \"Four little stars—best of all, of course, five little stars!\" merges the last count step into the punchline and weakens the build-up. The cognac association is not conveyed, though the reference needed a note for that too."
+        },
+        {
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The progression is preserved with \"little stars\" and \"five little stars\" as the punchline, but the structure is rearranged: \"Four little stars—best of all, of course\" places the pause awkwardly, weakening the sudden shift to the cognac frame. There is no cue to the five-star cognac association, though the analysis allows a note."
+          "justification": "The opening \"we already see\" lacks \"As\" and reads as a fragment. The \"little stars\" rendering makes the counting sound childish, which suits the silly buildup."
         }
       ]
     },
@@ -213,21 +205,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Whether there is no life on Mars\" is a clumsy rendering of «нет ли жизни», and \"science does not know\" is flatter than the colloquial register of the source. \"Not yet in the know\" does capture the casual, personified tone well, so the joke survives."
+          "justification": "\"Whether there is no life on Mars\" is a clumsy literal rendering of the colloquial doublet and sounds less natural than \"whether there is life on Mars or not\". \"Science is not yet in the know\" keeps the casual register well."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 5
     },
-    "total_points": 20,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

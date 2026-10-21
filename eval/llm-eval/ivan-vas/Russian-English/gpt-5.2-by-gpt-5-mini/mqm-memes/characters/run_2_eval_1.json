@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies possession. The analysis explicitly notes these phrases mean the items are missing/lost (they no longer have them). This reverses the intended meaning and undermines the gag about misplaced items."
+          "justification": "The candidate renders У Шпака — У посла as 'Shpak has... the ambassador has...', which changes the meaning: the Russian indicates the items have been taken from/are missing from those people (they were robbed), not that they presently possess them. This reverses the clue that links these people to theft and undermines the joke/plot point described in the analysis."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line is supposed to read as Bunsha introducing himself as 'the Tsar' (NB: make clear he is presenting himself as the Tsar). The candidate's phrasing ('Very nice, Tsar! ... Hello, Tsar!') reads as if he is addressing a Tsar, not introducing himself, losing the core comic premise described in the analysis."
+          "justification": "The line should make it clear Bunsha is absurdly introducing himself as 'the Tsar' (a repetitive self-introduction), not addressing an actual Tsar. The candidate reads like greetings addressed to a Tsar ('Very nice, Tsar!'), losing the crucial comic premise that he is proclaiming himself the Tsar."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference uses a high-register, archaic tone ('I am in sorrow') to convey the Tsar's regal voice. The candidate's 'I’m sad' flattens the register into modern colloquial speech, weakening the intended archaic/regal effect."
+          "justification": "The candidate 'I’m sad' flattens the original's high-register, archaic tone ('I am in sorrow'). The register shift weakens the contrast between regal language and the mundane Soviet setting that the analysis highlights."
         }
       ]
     },
@@ -99,10 +99,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB states 'demons' must be the subject (they walled him in), not vocatively addressed. The candidate's 'Walled up, demons!' is ambiguous and can be read as addressing the demons rather than stating that demons walled him in, which alters the meaning and the intended comic misunderstanding of technology as sorcery."
+          "justification": "The Russian means 'They've walled me in... (they have) walled me in, the demons' with 'demons' as the subject (he blames demons). The candidate's 'Walled up, demons!' reads as a vocative address to demons, which reverses the grammatical role and changes the comedic effect of him blaming supernatural agents for a mechanical failure."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference's 'Behold the power of the life-giving cross!' carries an elevated, archaic, exclamatory register. The candidate's 'That’s what the life-giving cross can do!' keeps the meaning but shifts to a more conversational, less ceremonious phrasing, reducing the archaic/high-register flavor."
+          "justification": "The candidate's colloquial 'That’s what the life-giving cross can do!' conveys the meaning but reduces the archaic, solemn register ('Behold the power of the life-giving cross!') that underpins the joke about religious conviction triggering a mechanical response."
         }
       ]
     },
@@ -171,7 +171,14 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Overseas caviar...\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The analysis warns against calling the eggplant spread 'caviar' because that would confuse viewers; the candidate's 'Overseas caviar... Eggplant!' implies the eggplant is caviar. This misrepresents the satire (the joke that eggplant spread is a lowly item presented as exotic) and will confuse the target audience."
+        }
+      ]
     },
     {
       "id": 10,
@@ -189,9 +196,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humor in the source hinges on Shpak's halting list and the comic slip in counting (the suede jacket is initially left uncounted, revealing his exaggeration). The candidate renders a smooth, definitive list ending with 'three suede jackets,' which removes the stuttering/forgetfulness gag and thus significantly undermines the intended comic effect."
+          "justification": "The humor depends on Shpak's incrementing/counting gag (he keeps increasing the tally and forgets to add the suede jacket at first). The candidate lists 'three suede jackets' straightforwardly, removing the comedic miscount/hesitation and thus losing the joke described in the analysis."
         }
       ]
     },
@@ -208,26 +215,19 @@
         "language_specific": {}
       },
       "candidate": "And you’ll be cured too!\nAnd you’ll be cured as well!\nAnd I’ll be cured!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source uses an impersonal/future-causative pattern ('And they’ll cure you... and they’ll cure me') with a resigned, melodic tone. The candidate shifts to 'you’ll be cured' and 'you’ll be cured as well,' which changes the grammatical framing (from 'they will cure' to 'you will be cured') and slightly alters the rhythmic/melodic pattern, but the overall meaning remains understandable."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 5,
+      "minor": 2
     },
-    "total_points": 19,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

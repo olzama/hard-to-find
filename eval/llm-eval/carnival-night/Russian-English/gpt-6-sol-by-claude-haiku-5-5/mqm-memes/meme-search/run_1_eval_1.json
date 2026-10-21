@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"celebrate New Year\" omits the definite article that standard English uses (\"the New Year\"). The bureaucratic \"directive\" framing and the festive content are otherwise preserved well."
+          "justification": "\"celebrate New Year\" without an article is slightly unidiomatic in English; \"the New Year\" would read more naturally. The bureaucratic \"we have a directive\" framing is preserved well."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation mark adds emphasis absent from the source's calm, dry bureaucratic delivery. It pushes the tone toward excitement, which slightly weakens the managerial seriousness the analysis asks to preserve. \"Won't hire\" and \"train one in-house\" otherwise carry the workplace logic well."
+          "justification": "The added exclamation mark introduces an emphatic energy absent from the source, which is delivered in a dry, matter-of-fact managerial tone. The analysis stresses that the humour depends on this flat seriousness. \"Hire\" and \"train one in-house\" correctly carry the workplace logic, so the issue is limited to tone."
         }
       ]
     },
@@ -62,10 +62,16 @@
       "candidate": "And he delivers a brief address,\nabout forty minutes. I don't think\nwe need any longer.",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"And he delivers\" converts Ogurtsov's own first-person statement (\"я думаю, не надо\") into third-person narration. The speaker is no longer the self-satisfied official proposing his own length, which weakens the character voice the analysis identifies as central."
+        },
+        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"A brief address\" is neutral. The analysis stresses that «коротенько» must carry faux-modesty or patronizing understatement so that \"forty minutes\" lands as the punchline. The candidate keeps the briefness claim before the duration, but the diminutive, cozy tone is not recreated."
+          "justification": "\"A brief address\" flattens the diminutive faux-modesty of «коротенько». The analysis says this needs a sense of patronising understatement so that \"forty minutes\" lands as the punchline. The candidate's \"brief\" does not set up that reversal."
         }
       ]
     },
@@ -82,7 +88,14 @@
         "language_specific": {}
       },
       "candidate": "Is he ready?\nHe's ready. Has been for ages!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The double meaning of «готов» (ready / drunk) is lost. \"Ready\" and \"has been for ages\" read only as administrative readiness, so the intoxication subtext the analysis calls the core of the joke does not come through. The analysis specifically warns that translating only as \"ready\" makes the alcohol joke disappear, and that is what happens here."
+        }
+      ]
     },
     {
       "id": 5,
@@ -102,7 +115,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!... Hello?\" keeps the hesitation through the ellipsis, but it loses the stretched, faltering vocalization of \"Лю-ди\" and \"ау-у\" that the analysis identifies as carrying the drunken physical comedy. The question mark also makes the call sound like a query rather than a wavering cry. The leading dash is an unexplained artifact."
+          "justification": "The vocal instability of «Лю-ди! А… ау-у!» is only partly kept. \"Hello?\" is unstretched and, with its question mark, reads as an interrogative rather than a wavering, drunken call. The analysis asks for a vocally unstable line, and the reference's \"hellooo\" captures that better."
         }
       ]
     },
@@ -129,13 +142,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The malformed idiom «вооружённым глазом» (a corrupted «невооружённым глазом», \"with the naked eye\") is lost. \"With the aid of an instrument\" is a plain paraphrase, so the audience no longer hears a familiar expression being wrongly upgraded into mock-scientific language. The analysis identifies this lexical distortion as the key comic mechanism and warns against exactly this plain rendering."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The sentence ends on a trailing comma (\"instrument,\"), which leaves the line grammatically unfinished. A full stop or the ellipsis from the source would be more natural."
+          "justification": "The mangled idiom «вооружённым глазом» (a corruption of \"невооружённым глазом\") is normalised into \"with the aid of an instrument\", which is a correct, ordinary phrase. The wordplay on a familiar expression being wrongly 'upgraded' into pseudo-scientific language disappears, and the analysis identifies this as the source of the humour. The substitution does not do the same comic job."
         }
       ]
     },
@@ -159,10 +166,16 @@
       "candidate": "we can see two stars, three stars...\nFour stars. Best of all, of course,\nis five stars",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The full stop after \"Four stars.\" breaks the escalating counting rhythm that the analysis calls for, so the final \"five stars\" click is less smooth than the source's ellipsis-driven build-up. The candidate also gives no note for the cognac star-rating reference, which the language-specific analysis suggests may be needed for most viewers. This is a lesser concern because the punchline still lands."
+          "justification": "The cultural point (five-star cognac) is not signposted for an English audience. The candidate gives no translator's note, unlike the reference, and the \"is five stars\" phrasing does not make the sudden semantic click into the cognac frame land. The analysis explicitly flags that this association may need a note because it will not be obvious to most viewers."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Best of all, of course, is five stars\" is stilted and grammatically off, since \"five stars\" is used as a singular noun phrase. The \"already\" in \"as we can already see\" is also dropped, which slightly weakens the lecture-like framing."
         }
       ]
     },
@@ -184,27 +197,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"or no life on Mars\" is an awkward construction. \"Or not\" would be the natural English for the source's \"нет ли жизни\" and would read more smoothly as spoken lecture language."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Science hasn't found out yet\" is flatter than the source's casual, almost everyday phrasing of an unresolved question. The analysis emphasizes the register mismatch, with science treated as if it has simply not been briefed. A phrase like \"isn't up to speed\" would keep that conversational quality."
+          "justification": "\"or no life on Mars\" is awkward English; \"or not\" would read more naturally in the lecture register. \"Science hasn't found out yet\" successfully keeps the casual, under-briefed register that the analysis identifies as the comic effect."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 8
+      "major": 4,
+      "minor": 6
     },
-    "total_points": 13,
+    "total_points": 26,
     "meaning_units": 8,
-    "penalty_per_unit": 1.625,
-    "major_equiv_per_unit": 0.325,
-    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.25,
+    "major_equiv_per_unit": 0.65,
+    "interpretation": "3.25 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "how about we knock back a little shot?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line preserves the informal, provocative tone, but the lowercase initial 'how' looks like a subtitle formatting/fluency lapse and 'a little shot' is slightly clunky compared with more idiomatic alternatives ('a quick one', 'a shot')."
+        }
+      ]
     },
     {
       "id": 3,
@@ -46,7 +53,14 @@
         "language_specific": {}
       },
       "candidate": "Such lofty... lofty relations!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate keeps the repetition but uses 'relations', which reads as a literal noun-phrase and sounds awkward in idiomatic English for this sarcastic exclamation. This weakens the natural ironic register the analysis highlights."
+        }
+      ]
     },
     {
       "id": 4,
@@ -64,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Rendering «совесть» as \"conscience\" and phrasing the sentence as \"People don't live for joy—they live for conscience\" feels stilted and weakens the original soldierly fatalism and moral-duty register. The reference's \"you live to do your duty\" better captures the pragmatic, duty-focused tone described in the analysis."
+          "justification": "The candidate conveys the general idea but 'live for conscience' is awkward and non-idiomatic in English; it weakens the fatalistic, duty-bound phrasing that underpins the character's outlook."
         }
       ]
     },
@@ -101,9 +115,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The source is a biting, ironic reprimand using a neutral profession as a scornful household insult. The candidate \"Culinary genius!\" reads as a (possibly sarcastic) compliment rather than the sharp, accusatory exclamation required by the analysis, thus changing the intended comic and authoritarian effect."
+          "justification": "The candidate 'Culinary genius!' turns the original biting, ironic rebuke into an apparently complimentary or pompous phrase, losing the comic insult and imperious tone that make the line work as a household scolding."
         }
       ]
     },
@@ -135,7 +149,14 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, for hell's sake.\nDon't wait for peritonitis!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Splitting into two lines is fine for readability, but 'Cut it out, for hell's sake' softens the brusque surgical command of the original ('Cut it the hell out'), slightly reducing the abrupt, farcical tonal contrast with the medical threat."
+        }
+      ]
     },
     {
       "id": 9,
@@ -152,10 +173,10 @@
       "candidate": "Khabotov, that’s petty!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The character name is mistransliterated as \"Khabotov\" instead of the expected \"Khobotov\"/\"Hobotov\". This alters a recurring, character-defining address and is an accuracy error affecting identification and continuity."
+          "justification": "The candidate spells the name as 'Khabotov' rather than the expected 'Khobotov' — a transliteration inconsistency that could confuse recognition of the recurring character label while the rest of the line preserves the intended dismissive tone."
         }
       ]
     },
@@ -174,10 +195,10 @@
       "candidate": "This is my cross!\nAnd it's for me to bear it.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits and literalizes the idiom by translating to \"This is my cross! And it's for me to bear it.\" The analysis warns against literal \"This is my cross!\" because it breaks the English fixed idiom \"a cross to bear.\" The candidate therefore weakens the manipulative, hyperbolic sacrificial tone central to the line."
+          "justification": "The candidate literalizes and splits the English idiom ('This is my cross' / 'And it's for me to bear it'), which reduces the idiomatic punch of 'a cross to bear' and slightly undermines the manipulative hyperbole the analysis describes."
         }
       ]
     },
@@ -199,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the literal adjective \"angular,\" which the analysis explicitly flags as an awkward, overly literal choice for «угловатая». This makes the self-characterization less idiomatic and less aligned with the coquettish, self-mocking tone of the original."
+          "justification": "The candidate captures the self-mocking tone, but uses 'angular' — a literal rendering of 'угловатая' the analysis warns against — which reads oddly in English and less effectively conveys the coquettish awkwardness meant to be parodied."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 2
+      "major": 1,
+      "minor": 7
     },
-    "total_points": 17,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

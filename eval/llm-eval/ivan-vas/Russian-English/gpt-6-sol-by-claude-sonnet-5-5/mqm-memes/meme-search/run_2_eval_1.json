@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"A nagging suspicion\" is plain and colloquial; it loses the mock-heroic, theatrical register of \"терзают смутные сомнения\" (compare \"Vague doubts haunt me\"). The humor of the high-flown phrase from a bumbling bureaucrat is largely gone."
+          "justification": "\"Nagging suspicion\" is colloquial and loses the mock-heroic, theatrical register of \"терзают смутные сомнения\" (e.g. 'vague doubts haunt me'), which is the core of the humor."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Medal\" replaces \"medallion\", a small change in the specific item. The \"tape recorder/medal\" list correctly avoids implying that Shpak and the ambassador still have the items, so the main meaning is kept."
+          "justification": "\"Medal\" renders \"медальон\" (medallion) imprecisely, changing the object. The possessive structure correctly conveys loss, so the main meaning is preserved."
         }
       ]
     },
@@ -54,13 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"A pleasure, Tsar!\" and \"Hello, Tsar!\" read as Bunsha addressing a Tsar, not introducing himself as the Tsar. The analysis explicitly requires making clear that he is introducing himself. This reverses the speaker/addressee relation and breaks the joke."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate varies the phrasing (\"Such a pleasure\", \"Delighted\") and loses the stiff, mechanical repetition of the original. The drunken, ritualized loop is weakened."
+          "justification": "\"Hello, Tsar!\" reads as addressing a Tsar, which the analysis says must be avoided. Bunsha is introducing himself as the Tsar, so the joke of self-introduction is lost."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"I am in mourning\" changes \"в печали\" (in sorrow/sadness) to grief over a death. This adds a meaning not in the source, and it shifts the Tsar's melancholy toward bereavement."
+          "justification": "\"I am in mourning\" changes \"в печали\" (in sorrow/sadness) to grief over a death, which distorts the Tsar's melancholy. The archaic register and \"old woman\" are preserved."
         }
       ]
     },
@@ -164,7 +158,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Everybody dance!\" is accurate and direct but a flat imperative. It lacks the host-like, master-of-ceremonies quality of the reference (\"The floor is open to everyone\"). The effect is slightly weaker, though still acceptable."
+          "justification": "\"Everybody dance!\" is a literal, plain command. It keeps the meaning and the dance-party energy, but lacks the host-like, ceremonious flavor of the reference."
         }
       ]
     },
@@ -188,10 +182,10 @@
       "candidate": "I picked the right time to drop in!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"I picked the right time to drop in\" is a plausible fit for the situation. But it adds a notion of timing that is absent from the source, which is a general exclamation about a lucky choice of apartment. It does not mislead about leaving, so this is a modest shift. The loss of the \"good call/lucky choice\" sense, in favor of timing, slightly distorts the meaning."
+          "justification": "\"Drop in\" correctly conveys that he has just arrived, so it is not misleading. However, \"picked the right time\" shifts the emphasis from lucky arrival to timing, which is slightly different from the original."
         }
       ]
     },
@@ -218,7 +212,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"Eggplant caviar\" and \"Exotic caviar\". The analysis states that translations must not call eggplant spread \"caviar\" because it confuses viewers. It also drops the \"overseas\" idea (\"заморская\"), which carries the satire of foreign rarity."
+          "justification": "The candidate calls the eggplant spread \"caviar\", which the analysis says to avoid because it confuses viewers. \"Exotic caviar\" also loses the \"overseas\" detail, so the status-symbol inversion is muddled."
         }
       ]
     },
@@ -245,13 +239,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives \"three suede jackets\", removing the joke that Shpak forgets to increment the count for the jacket (a single suede jacket, then \"Three\" after the slip). The comic payoff of the betrayal is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Soviet-made\" for \"отечественных\" is acceptable, but it alters the word order and the rhythm of the list, in which the afterthought \"domestic\" follows the item."
+          "justification": "The list gives \"three suede jackets\", which removes the key joke: Shpak forgets to increment the jacket count (single jacket, then \"Three\"). The humor of the betrayal is lost."
         }
       ]
     },
@@ -268,19 +256,26 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Exclamation marks make the delivery energetic. The original is a calm, melodic, resigned tone, so the mood is somewhat altered, though the meaning is intact."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
+      "major": 5,
       "minor": 4
     },
-    "total_points": 34,
+    "total_points": 29,
     "meaning_units": 11,
-    "penalty_per_unit": 3.090909090909091,
-    "major_equiv_per_unit": 0.6181818181818182,
-    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.6363636363636362,
+    "major_equiv_per_unit": 0.5272727272727272,
+    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

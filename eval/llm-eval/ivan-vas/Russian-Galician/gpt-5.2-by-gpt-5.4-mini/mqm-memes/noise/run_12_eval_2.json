@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the key predicate of loss/absence and turns the line into a bare list of possessions, which breaks the joke and the meaning of Bunsha’s suspicious deduction."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The punchy catalog-like formatting is less idiomatic than the reference and weakens the mock-heroic buildup described in the analysis."
+          "justification": "The candidate drops the key mock-heroic sentence structure and the possessive/loss relation, turning the joke into a bare inventory list. The analysis stresses that the items are missing from Shpak and the ambassador, not simply associated with them."
         }
       ]
     },
@@ -49,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line no longer makes clear that Bunsha is introducing himself as the tsar; the repeated greeting sounds like he is addressing a tsar instead, which contradicts the note in the analysis."
+          "justification": "It fails to clearly convey that Bunsha is introducing himself as the tsar, not addressing one. The line becomes a series of exclamations without the self-identification needed for the joke."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The added exclamation and reordered repetitions make the speech sound less like the awkward, repetitive formal self-introduction that carries the humor."
+          "justification": "The phrasing sounds more natural and colloquial than the reference, but it loses some of the repetitive, stiff formal-greeting rhythm that creates the comic effect."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou triste\" is understandable, but it is flatter and less elevated than \"estou aflixido,\" so it slightly weakens the archaic, regal melancholy of the original."
+          "justification": "\"Estou triste\" is understandable, but it weakens the elevated, archaic melancholy of \"estou aflixido,\" which better fits Ivan's regal tone in the analysis."
         }
       ]
     },
@@ -109,14 +103,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The duplication with a line break is not wrong, but it is a bit less natural and less forceful than the smoother repeated lament in the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -136,7 +123,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Velaí\" is slightly more colloquial and less solemn than the reference’s \"Velaquí,\" so the religious-archaic flourish is somewhat weakened."
+          "justification": "\"Velaí\" is slightly less formal and less solemn than the reference's \"Velaquí,\" so the archaic, mock-religious flavor is a bit softened, though the meaning remains intact."
         }
       ]
     },
@@ -158,7 +145,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"A bailar todo o mundo\" is natural, but it shifts the imperative feel of \"Todos a bailar!\" into a more explanatory phrasing, slightly reducing the sharp rallying cry."
+          "justification": "\"A bailar todo o mundo\" is natural, but it shifts the imperative from a direct command to a more diffuse phrase, slightly weakening the shouted, rallying energy of the original."
         }
       ]
     },
@@ -180,7 +167,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Vaia ben que entrei\" means roughly \"good thing I came in,\" which keeps the entering idea but loses the full improvised, cheerful sense of having found a lucky situation; it is noticeably weaker and less specific than the source joke."
+          "justification": "\"Vaia ben que entrei\" suggests 'it's good that I came in' but not the playful satisfaction of having found the apartment full of valuables. It also risks implying a neutral or accidental entry rather than the burglar's triumphant discovery."
         }
       ]
     },
@@ -199,10 +186,10 @@
       "candidate": "Caviar negro, vermello...\nSi! Caviar de ultramar...\nDe berenxena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats the forbidden \"caviar\" label for the eggplant spread, directly violating the note that it should not be called caviar because that confuses the viewer."
+          "justification": "The line omits the initial \"red caviar\" item from the reference, reducing the satirical list of luxury foods. The core joke remains, but the setup is less complete."
         }
       ]
     },
@@ -224,13 +211,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The count and itemization are altered: the source escalates through a single boastful list and ends with \"three\" after the suede jacket, while the candidate replaces the joke structure with fixed 3s and drops the key comedic progression."
+          "justification": "The candidate removes the final self-correction and the escalating false count that make the joke work. By giving fixed counts for all items, it loses the comic detail of Shpak's inconsistency."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The compressed list is serviceable, but the formatting is much flatter than Shpak’s breathless, self-important delivery."
+          "justification": "Using terse shorthand like \"3 magnetófonos\" and \"3 cámaras\" is less vivid than the spoken, enumerative complaint in the source."
         }
       ]
     },
@@ -247,19 +234,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti te curarán!\nE a ti tamén te curarán!\nE a min curaranme!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The translation is clear, but it loses the resigned, melodically repetitive cadence of \"vante curar / vanme curar,\" which softens the comic surrender described in the analysis."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 4,
       "minor": 7
     },
-    "total_points": 32,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 2.909090909090909,
-    "major_equiv_per_unit": 0.5818181818181818,
-    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

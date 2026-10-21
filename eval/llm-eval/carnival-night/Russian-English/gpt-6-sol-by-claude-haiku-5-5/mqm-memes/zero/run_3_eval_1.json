@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\nBaba Yaga from outside.\nWe'll develop one from within!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The added exclamation mark in \"We'll develop one from within!\" makes the line more emphatic than the dry, matter-of-fact bureaucratic tone of the source and reference, which has no exclamation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"A short speech\" flattens the diminutive \"коротенько\" and loses the patronizing faux-modesty the analysis calls for. The contrast with \"about forty minutes\" is weaker than in the reference, though the brevity claim still comes first."
+          "justification": "\"A short speech\" drops the faux-modest diminutive of «коротенько» that the analysis says is needed to set up the 'forty minutes' punchline. The brief-claim-before-duration order is kept, but the patronizing tone is flatter than the source."
         }
       ]
     },
@@ -95,7 +88,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hello?\" is a reasonable equivalent of \"ау\", but the candidate drops the stretched, faltering vocal break (\"Ah… hellooo!\") that the analysis identifies as carrying the drunken physical comedy. It reads as a tentative question rather than a wavering cry."
+          "justification": "The analysis says the line must stay vocally unstable, a faltering broken call that dissolves. \"People!... Hello?\" keeps the hesitation but turns the drunken 'ау-у' call into a clean question, which weakens the physical comedy."
         }
       ]
     },
@@ -122,13 +115,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The mangled idiom «вооружённым глазом» (a distorted «невооружённым глазом») is entirely omitted. \"And look through it\" removes the mock-scientific lexical deformation that the analysis identifies as the core of the joke, and the reference preserves it with \"aided eye\". The analysis explicitly warns that plain rendering makes the idiom disappear, which is what happens here."
+          "justification": "The analysis identifies the malformed idiom «вооружённым глазом» (for «невооружённым глазом») as the key comic element. The candidate drops it entirely (\"And look through it,\"), so the mock-scientific pomp and the lexical distortion are lost. The reference's 'aided eye' echoes 'unaided eye' and carries this joke."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"But if we take a telescope...\" changes the sense of «стоит только», which means \"all we have to do is\". The conditional \"if\" weakens the lecturer's casual, self-assured framing. The trailing comma also leaves the sentence unfinished, with the ellipsis of the source not carried over."
+          "justification": "The line ends on a trailing comma, which reads as truncated and loses the exclamatory, mock-triumphant cadence of «вооружённым глазом!..»."
         }
       ]
     },
@@ -155,7 +148,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline depends on a culturally specific reference (five-star cognac, which the analysis describes as the sudden click into a different semantic frame). The candidate gives no translator's note, while the reference adds one, as the language-specific analysis recommends. Without it, \"five stars would be best\" does not clearly land as a cognac joke, so the cultural boundary is not bridged and the derailment is lost."
+          "justification": "The joke depends on the sudden shift from astronomy to the cognac star-rating system (five-star cognac in the USSR). The candidate gives no cue for this, so 'five stars would be best' reads as astronomy or ratings and the punchline's cultural click is lost for most viewers. The reference signals it with a bracketed note, which the analysis flags as needed."
         }
       ]
     },
@@ -178,13 +171,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 14,
+    "total_points": 13,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.625,
+    "major_equiv_per_unit": 0.325,
+    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

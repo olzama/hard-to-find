@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies possession. The analysis explicitly notes these items have been lost (they were taken/are missing); the original means they were walled off / taken from them, not that they currently possess them. This reverses the situation and undermines the joke's implication about theft/loss."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies possession. The analysis explicitly warns these phrases indicate the items are missing (they lost them), not that the people currently own them. This reverses the intended meaning and undercuts the gag about theft."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original line's comic premise is that Bunsha is repeatedly introducing himself as 'the Tsar' (i.e., 'I am the Tsar'), not addressing a Tsar. The candidate's phrasing ('Very nice, Tsar! ... Hello, Tsar!') reads as if he is addressing someone else called the Tsar rather than awkwardly introducing himself, losing the crucial gag described in the analysis and changing the line's pragmatic meaning."
+          "justification": "The line must make clear Bunsha is introducing himself as 'the Tsar' (a drunken self-introduction), not addressing an actual Tsar. The candidate reads like greetings addressed to a Tsar ('Very nice, Tsar!'), which changes the comedic premise described in the analysis."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes that 'demons' are the subject who walled him in (he is saying 'they walled me in'), not addressee. The candidate's 'Walled up, demons!' reads as if he is addressing demons, which flips the grammatical relation and misrepresents the original meaning."
+          "justification": "The original requires 'demons' to be the subject ('they walled me in, demons'), not vocative. The candidate's punctuation and phrasing ('Walled up, demons!') reads like an address to demons, which flips the intended meaning and loses the humour of the Tsar blaming unseen agents for a mechanical failure."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate conveys the meaning but shifts register from the archaic, elevated phrasing ('Behold the power of the life-giving cross') to a more colloquial tone ('That’s what the life-giving cross can do!'), softening the intended high-register, quasi-religious voice of the Tsar."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -166,10 +159,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'заморская икра… баклажанная' in a way that risks labeling the eggplant spread as 'overseas caviar' (i.e., calling the eggplant spread 'caviar'), which the analysis explicitly warns against. That confuses the satire (cheap eggplant spread presented as a rare delicacy) and misleads the viewer about the joke."
+          "justification": "The candidate presents 'Overseas caviar... Eggplant!' which risks implying the eggplant spread is literally 'caviar.' The analysis warns against calling eggplant spread 'caviar' because it confuses viewers; the candidate keeps the juxtaposition but may still mislead without clarifying that 'eggplant' is the cheap spread being mockingly elevated."
         }
       ]
     },
@@ -189,9 +182,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humor depends on Shpak's fumbling/incrementing of counts (he trails off with 'jacket... suede... Three'), which reveals his comic self-contradiction. The candidate lists '3 suede jackets' directly, removing the hesitant build-up and the joke about him forgetting to increment the count; this significantly weakens the intended comedic effect."
+          "justification": "The joke depends on Shpak forgetting to increment the running total (he hesitates between 'domestic... a suede jacket... Three'). The candidate lists '3 suede jackets' outright, removing the comic reveal of the miscount and thus destroying the intended humour and character exposure."
         }
       ]
     },
@@ -208,19 +201,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you too!\nAnd you’ll be cured too!\nAnd I’ll be cured!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate shifts the phrasing and repetition pattern ('And they’ll cure you too! And you’ll be cured too! And I’ll be cured!'), creating slight redundancy and changing the original melodic, resigned rhythm. Meaning is preserved, but the line is less natural and the original cadence is weakened."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 1
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 26,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 2.3636363636363638,
-    "major_equiv_per_unit": 0.4727272727272728,
-    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

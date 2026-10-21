@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Hire\" and \"cultivate\" keep the workplace logic, and \"Baba Yaga\" is kept untranslated. But \"Baba Yaga\" without any gloss is less accessible than \"witch\", so the social-type reading (nasty woman already present in the collective) may be weaker for English viewers. \"Cultivate\" is slightly more horticultural than the staffing/training tone of \"train in-house\"."
+          "justification": "\"Hire\" and \"cultivate\" keep the staffing/in-house logic, and \"collective\" fits the Soviet workplace. But \"Baba Yaga\" is left untranslated, so the nasty-woman workplace type is less accessible to a non-Russian audience than a generic \"witch\" would make it."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "just briefly—say,\nabout forty minutes; more, I think,\nisn’t necessary",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Just briefly—say, about forty minutes\" keeps the briefness-before-duration order. However, \"say\" and \"isn't necessary\" are somewhat flat and lose the cozy, faux-modest diminutive flavor of «коротенько». The smug, managerial self-satisfaction is slightly weaker."
+          "justification": "The diminutive faux-modesty of «коротенько» is rendered as plain \"just briefly,\" and the leading \"and\" is dropped. \"Say, about forty minutes\" and \"more isn't necessary\" are stiffer. The cozy, smug understatement that makes \"forty minutes\" the punchline is mostly lost, though the briefness-before-duration order is kept."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate translates \"ready\" literally and keeps no hint of the \"drunk / done for\" subtext. The analysis says the alcoholic double meaning is the core of the joke, and without any cue (tone, phrasing like \"he's been ready a while\" is only mildly suggestive) the joke is largely lost. The candidate matches a plain \"ready\" rendering the analysis warns against."
+          "justification": "\"Ready\" is translated flatly, so the double sense of «готов» (drunk or done for) is lost. \"Been ready a while\" gives no hint of intoxication, and the central joke disappears."
         }
       ]
     },
@@ -144,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the English-specific note explicitly says to avoid. It does not work as an echo of \"unaided eye\", so the recognizable malformed idiom is lost, and the phrase reads as surreal rather than mock-scientific."
+          "justification": "\"Armed eye\" is the literal calque the analysis says to avoid. It does not echo the English idiom \"unaided eye,\" so it reads as strange and surreal instead of as a mangled mock-scientific idiom."
         }
       ]
     },
@@ -170,10 +170,10 @@
       "candidate": "and now we can already see\ntwo little stars, three little stars...\nFour little stars—best of all, of course,\nfive little stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is kept and the \"five little stars\" punchline lands, and the cognac association is implicit as in the source. \"Little stars\" fits the childish tone. But the \"Four little stars—best of all\" merges the buildup and punchline, so the sudden click into the cognac frame is slightly weakened, and the missing cultural cue makes the shift less legible to English viewers."
+          "justification": "The five-star cognac punchline is lost. The English has no cognac cue or note, and \"little stars\" sounds childish, which weakens the shift into another semantic world. The structure is also garbled: \"four little stars—best of all, of course, five little stars\" breaks the three-four-five build-up, and the opening \"and now\" is added."
         }
       ]
     },
@@ -199,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science isn't in the loop yet\" conveys the casual register and personification of science well. The first half, \"whether there isn't life on Mars\", is a slightly clumsy literal rendering of the repetitive source structure, though that clumsiness arguably suits the lecturer. Minor awkwardness only."
+          "justification": "\"Science isn't in the loop yet\" keeps the casual register and treats science as a person. The first sentence is a clumsy calque (\"whether there isn't life on Mars\") and \"science doesn't know\" is flatter than the original. The effect is slightly weaker, but the joke works."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 14,
+    "total_points": 22,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.75,
+    "major_equiv_per_unit": 0.55,
+    "interpretation": "2.75 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

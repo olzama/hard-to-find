@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate repeats the second line ('Shpak's tape recorder, the ambassador's medallion') twice, splitting it across lines. Since the repetition is not in consecutive segments, it is a needless duplication that does not appear in the source. Meaning and the mock-heroic register ('Vague doubts haunt me') are preserved, and the 'lost items' sense is kept through the neutral possessive phrasing, which does not wrongly imply the men currently have the items."
+          "justification": "The candidate adds a redundant repetition of 'Shpak's tape recorder, the ambassador's medallion' that is not in the source, and which is not a consecutive-segment repeat of the same line but a duplicate within the same item. It does not harm the meaning (the possessive form correctly conveys loss, and the mock-heroic 'Vague doubts haunt me' is preserved), but it is unnecessary."
         }
       ]
     },
@@ -38,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.\nThe Tsar, very pleased. Hello, the Tsar. Very pleased!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate repeats the whole reference line and then adds 'The Tsar, very pleased. Hello, the Tsar. Very pleased!', which duplicates material not matching the source's sequence. The self-introduction as the Tsar is clear and the clichéd greeting humor is retained, so the damage is limited to padding."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -150,14 +143,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar... and yes! Overseas spread... eggplant!\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds an extra 'Eggplant!' line that has no counterpart in the source. It correctly avoids calling the eggplant spread 'caviar' and preserves the satirical inversion, so the effect is only slight padding."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -177,7 +163,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds 'Everything I earned by backbreaking labor—everything is gone:', which is absent from the source line. This shifts the content and adds a new characterization of Shpak. The list itself, including the suede jacket count slip that carries the joke, is preserved."
+          "justification": "The candidate adds a lament ('Everything I earned by backbreaking labor—everything is gone') that is absent from the source segment. It inserts content that changes the line's focus. The list itself, including the suede jacket that is not incremented before 'Three', is preserved, so the joke survives, but the addition is unsupported by the source."
         }
       ]
     },
@@ -199,7 +185,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks on the first two clauses make the delivery more emphatic, while the analysis stresses melodic, calm resignation. The final clause with ellipsis retains some resigned tone, and the meaning is intact. The ellipses of the reference that convey calm trailing resignation are lost in the first two clauses."
+          "justification": "Exclamation marks replace the ellipses of the reference, which loses the calm, melodic, resigned tone described in the analysis. The final line keeps the ellipsis and the meaning is intact."
         }
       ]
     }
@@ -207,13 +193,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 4
+      "minor": 2
     },
-    "total_points": 9,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

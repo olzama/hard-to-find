@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one\" keeps the workplace logic, but \"raise\" suggests upbringing/child-rearing rather than the managerial \"train in-house\" feel. \"Baba Yaga\" is left untranslated without a hint of the nasty-woman type, so the social-type reading is weaker for English viewers. The overall workplace joke still comes through."
+          "justification": "\"Raise one\" keeps the workplace logic and \"within our own collective\" is good, but \"raise\" is slightly more fairy-tale/parental than the managerial \"train/cultivate\", and \"collective\" is a bit foreign in English. The social-type joke still comes through."
         }
       ]
     },
@@ -70,7 +70,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The diminutive, faux-modest «коротенько так» is rendered as a flat \"briefly\", so the cozy patronizing understatement is lost. The following clause \"no more is needed\" is also stiff and stilted. The contrast with \"forty minutes\" is weakened, which the analysis names as the key risk."
+          "justification": "The faux-modest diminutive \"коротенько\" is flattened into a plain \"briefly\", and the \"no more is needed\" phrasing is stiff and loses Ogurtsov's smug \"I think\" tone. The comic contrast with \"forty minutes\" is weakened, which is the core of the joke."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line is broken oddly across subtitle lines, starts in lowercase, and has no closing ellipsis. The rhythm of the self-satisfied trailing-off is lost."
         }
       ]
     },
@@ -96,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word \"давно\" is left untranslated in the English subtitle (\"ready давно!\"), which is an untranslated-material error that would confuse viewers. The drunk double meaning of \"готов\" is not recreated in English, since \"ready\" alone carries no intoxication sense. The \"been ready for a while\" nuance is also broken. The joke is lost."
+          "justification": "The Russian word \"давно\" is left untranslated in the English subtitle, so English viewers cannot understand it. The \"ready = drunk\" double meaning is also not recreated; \"ready\" is only literal, so the alcoholic joke is lost."
         }
       ]
     },
@@ -120,9 +126,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The broken, wavering vocalization is only partly kept. \"People!..\" is a clean word rather than a stretched \"Peo-ple!\", so the drunken instability at the start is weaker. \"A-oo!\" is an unnatural rendering of the call-out \"hellooo\" and conveys less of the pitiful theatrical call to the audience. The leading dash is also unnecessary for a single speaker."
+          "justification": "The broken, stretched vocalization (\"Лю-ди!\" and \"ау-у\") is partly kept with \"People!.. Ah... A-oo!\", but \"People!\" is a clean word and not split or wavering. \"A-oo\" is a less natural call than \"hellooo\", so the drunken instability is weaker."
         }
       ]
     },
@@ -148,10 +154,10 @@
       "candidate": "But we only need to take\na telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the English-specific note says to avoid. It sounds more surreal than the Russian and lacks the echo of the \"unaided eye\" idiom, so the mock-scientific malformed-idiom effect is lost. The sentence is also left with a trailing comma, so the exclamatory pomp is weakened."
+          "justification": "The literal \"armed eye\" is the calque the analysis warns about. It sounds more surreal than the Russian and does not echo the English \"unaided eye\", though it keeps the mangled-idiom effect somewhat. The trailing comma also weakens the exclamatory, pompous delivery."
         }
       ]
     },
@@ -180,7 +186,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is garbled: \"two little stars, three little stars... Four little stars—and best of all\" breaks the buildup into a pause and a dash, which blunts the sudden click into the cognac frame. The \"five stars\" punchline gets no cognac association, so English viewers will see no derailment into drink. The analysis flags that a note may be needed. The \"little stars\" wording adds a childish tone that is partly appropriate but makes the wording stilted."
+          "justification": "The star counting is kept, but \"five little stars\" is rendered with the childish diminutive and nothing signals the cognac association. The sudden shift into a different frame is lost, so the punchline becomes merely odd. The reference adds a note to make the cultural link visible."
         }
       ]
     },
@@ -206,21 +212,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet up to date on the matter\" is slightly off from the colloquial \"not in the loop / up to speed\", so the casual register is a little weaker. The line breaks are awkward (\"does not\\nknow.\"), and the first clause \"is there no life on Mars\" is a stiff literal rendering. Meaning and the factual-yet-casual contrast are mostly preserved."
+          "justification": "\"Is not yet up to date on the matter\" is close to the casual \"не в курсе дела\", but \"up to date\" is slightly more formal than \"up to speed\" and loses some of the personified, colloquial feel. The odd line break after \"does not know\" and the stiff \"does not\" also reduce the loose conversational register."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 3,
+      "minor": 5
     },
-    "total_points": 23,
+    "total_points": 20,
     "meaning_units": 8,
-    "penalty_per_unit": 2.875,
-    "major_equiv_per_unit": 0.575,
-    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5,
+    "major_equiv_per_unit": 0.5,
+    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

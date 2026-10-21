@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate reduces the theatrical, self-dramatizing flourish by turning the plural/collective challenge into a singular \"Name one!\"—this weakens the original's bravado and rhetorical sweep even though the basic meaning is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about\nwe knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is conversational and captures the spirit, but the lowercase and line break create a slightly awkward presentation, and \"a little shot\" is marginally less idiomatic than alternatives like \"a quick one\" or \"a shot.\""
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the meaning but loses some of the original's comic stammering/phonetic elongation (the repeated v-sound in the reference) and uses a noun-phrase construction that is a bit more literal and less punchy as the film's refrain."
+          "justification": "The candidate loses the stuttering, performative delivery of the original refrained line (the repeated vowel in the reference), which is a key part of the comic effect and mock-grandiose tone. 'Such... such elevated relations.' is slightly flatter and more literal than the highly staged original."
         }
       ]
     },
@@ -87,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Literal rendering \"live for conscience\" is slightly unnatural in English and weakens the idiomatic, duty-focused fatalism (\"live to do your duty\") emphasized in the analysis; the register and force are therefore a bit reduced."
+          "justification": "Meaning is preserved, but 'conscience' reads more abstract and less idiomatic than the reference's 'do your duty.' The pragmatic, soldierly fatalism in the analysis is better conveyed by a duty-focused idiom than by the more philosophical 'conscience.'"
         }
       ]
     },
@@ -121,10 +107,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Culinary genius!\" avoids the unnatural literal noun but shifts the tone toward an ironic compliment rather than the sharp, scathing domestic insult of the original; the bite is softened."
+          "justification": "The original is an ironic insult using a profession as a dismissive reproach ('Some cook you are!'). 'Culinary genius!' reads as either genuine praise or a different sarcastic register that doesn't match the abrupt, biting domestic rebuke in the analysis, changing the line's comic and authoritative effect."
         }
       ]
     },
@@ -161,7 +147,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing \"Cut it out to hell with it.\" is awkward and unidiomatic in English and the line break separates the elements of the blunt surgical imperative, reducing the sharp, brusque comedic punch of the original."
+          "justification": "The candidate's phrasing ('Cut it out to hell with it.') is awkward and unidiomatic in English, weakening the sharp, brusque medical imperative that produces the comic contrast in the original. The second line preserves the medical reference but the delivery is clumsy."
         }
       ]
     },
@@ -178,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that's petty!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "The candidate uses the transliteration \"Khabotov\" instead of the reference's \"Khobotov.\" While pronunciation choices vary, this introduces an inconsistency in the established character name transcription."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -205,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the referent: \"He’s my cross to bear!\" makes a person the \"cross,\" whereas the source and analysis present the speaker claiming the burden as their own (\"This is my cross to bear\"). This reverses the intended manipulative self-victimization and thus significantly alters meaning and dramatic effect."
+          "justification": "The candidate shifts the grammatical subject: instead of the speaker owning the burden ('This is my cross to bear'), it makes the other person the cross ('He’s my cross to bear'), which alters the manipulative self-sacrificing rhetoric central to the analysis and the line's dramatic effect."
         }
       ]
     },
@@ -227,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 7
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 12,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

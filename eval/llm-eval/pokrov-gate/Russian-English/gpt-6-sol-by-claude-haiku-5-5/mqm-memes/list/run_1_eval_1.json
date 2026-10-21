@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate drops the mock-grand theatrical framing of the reference ('Pray, tell me, name them!!'). 'Name me one!' is serviceable but flatter, so the self-dramatizing voice the analysis describes is weakened."
+          "justification": "The candidate's plain colloquial phrasing ('Name me one!', 'I'm waiting!') drops the mock-theatrical bombast of the reference ('Pray, tell me, name them!!'), which the analysis identifies as Velyurov's high-flown self-dramatization."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate starts with a lowercase 'shall' and breaks the line after 'we', which reads as a formatting error. 'Knock back a little vodka' is also less colloquial than the reference's 'toss back a quick one', so the casual, deflating tone is slightly weaker."
+          "justification": "The line begins with a lowercase 'shall we' and is split across two lines, which reads as a formatting error. 'Knock back a little vodka' is also less casual than the reference's 'toss back a quick one', weakening the light, undercutting tone the analysis describes."
         }
       ]
     },
@@ -65,7 +65,14 @@
         }
       },
       "candidate": "Such lofty... lo-o-ofty relations!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Relations' is the literal noun-phrase choice the language note warns against. It sounds unnatural in English here; 'relationship' would fit the exclamatory phrasing. The stretched-syllable device ('lo-o-ofty') is preserved well."
+        }
+      ]
     },
     {
       "id": 4,
@@ -85,7 +92,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's 'sovest' (conscience/duty) is rendered as 'what's right', which loses the moral-duty framing the analysis identifies as central. The impersonal maxim also becomes an inclusive 'We', and 'pleasure' is a shifted register from 'happy' or 'joy'. The soldierly fatalism is only partly preserved."
+          "justification": "'Совесть' (conscience/moral duty), which the analysis identifies as the core of the maxim's irony, is rendered as 'what's right'. This weakens the moral-duty point and the absurd gap between conscience and the imposed 'care'. The antithetical structure is retained."
         }
       ]
     },
@@ -125,9 +132,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'What a chef!' is conventionally a compliment in English, so without sarcastic delivery it reads as praise rather than the domestic insult the analysis describes. The reference 'Some cook you are!' carries the ironic reproach more clearly."
+          "justification": "'What a chef!' can be read as sincere praise rather than the sarcastic household insult the analysis describes. The reference's 'Some cook you are!' makes the mocking tone explicit. The candidate avoids the bare-noun problem but loses some of the jab."
         }
       ]
     },
@@ -204,7 +211,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source 'Это мой крест' uses the neutral 'это' (this), and the reference keeps 'This is my cross'. The candidate's 'He's my cross' shifts the referent to a person without a marker in the source. This is a defensible reading, but it narrows the meaning of the self-pitying burden the analysis describes."
+          "justification": "'He's my cross to bear!' adds an explicit referent (Khobotov) that the source's 'Это мой крест' leaves open. The reference keeps 'This'. The specification is defensible from context but is an addition, and it shifts the pronoun from the situation to a person."
         }
       ]
     },
@@ -231,7 +238,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds material absent from the source: the opening 'Oh,', 'creature', and 'one big bundle'. This expands the stammering, self-conscious repetition ('такая... вся...') into a more polished verse. The idiomatic 'all elbows and angles' is a good solution for 'угловатая', but the additions make the speech more fluent and less hesitant than the original."
+          "justification": "The candidate adds unsourced material: the opening 'Oh,', the noun 'creature', and 'one big bundle'. It also turns the source's halting, repeated 'вся/такая' fragments into a more polished, expanded self-description. The mannered coquetry is kept, but the source's stammering rhythm is lost. 'All elbows and angles' handles 'угловатая' idiomatically and well."
         }
       ]
     }
@@ -239,13 +246,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

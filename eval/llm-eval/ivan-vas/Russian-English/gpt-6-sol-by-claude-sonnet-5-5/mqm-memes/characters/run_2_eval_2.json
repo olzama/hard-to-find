@@ -24,15 +24,15 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The analysis stresses the items are lost/stolen, which the candidate captures with 'loses'. However, 'loses' in present tense casts it as an ongoing habit, and 'medal' mistranslates 'медальон' (medallion). Also 'nagging doubts' replaces the mock-heroic 'vague doubts haunt me' with a mundane, colloquial phrase, losing the high-flown theatrical register the analysis identifies as the core of the humor."
+          "justification": "The mock-heroic, theatrical register of 'терзают смутные сомнения' is lost. 'I'm beginning to have those nagging doubts again' is colloquial, so the comic clash between high-flown language and the bumbling bureaucrat disappears."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Medal' is not 'medallion'; it changes the object (a decoration vs. a pendant)."
+          "justification": "The present-tense 'loses' only loosely conveys that the items are already gone. 'Medal' is also not 'medallion'."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate has Bunsha addressing the Tsar/Queen as 'Your Majesty' rather than introducing himself as the Tsar. The analysis's nb explicitly requires making clear he is introducing himself as the Tsar, not addressing one. This reverses the speaker/addressee relationship and loses the joke."
+          "justification": "'Charmed, Your Majesty!' has Bunsha address someone as Your Majesty. The source and the analysis note require him to introduce himself as the Tsar, so the meaning is reversed and the drunken self-introduction joke is lost."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I am sorrowful' is acceptably archaic, but splitting the line and dropping the 'in sorrow' phrasing slightly weakens the regal, high-register flow; the effect is mostly preserved."
+          "justification": "'I am sorrowful' is less natural and less archaic than 'I am in sorrow'. It slightly weakens the regal, high-register melancholy."
         }
       ]
     },
@@ -173,14 +173,7 @@
         }
       },
       "candidate": "Well, this is my lucky day!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'This is my lucky day' is natural and fits the cheerful tone and the fact that he has just entered, but it shifts from 'a good call/choice of entry' to luck, slightly altering the sense of his self-satisfied decision."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -203,9 +196,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'Caviar from overseas... Eggplant spread!', so the overseas item is called caviar, which the analysis nb explicitly warns against because it confuses viewers and weakens the inversion of status symbols. Only the final item is labelled 'spread'."
+          "justification": "'Caviar from overseas... Eggplant spread!' makes the eggplant spread read as a kind of caviar, which the note warns against. It confuses the viewer and blurs the inversion of status symbols."
         }
       ]
     },
@@ -232,7 +225,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'three suede jackets', erasing the key joke that Shpak forgets to increment the count for the single suede jacket (jacket... suede... Three). It also removes the hesitation and the closing 'Three' that betrays him."
+          "justification": "'Three suede jackets' removes the slip in which Shpak forgets to increment the jacket count (one jacket, then 'Three'). The joke that betrays his exaggeration is lost."
         }
       ]
     },
@@ -254,7 +247,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks make the delivery energetic, whereas the analysis describes a melodic, calm resignation. The tone is somewhat off, though the meaning is preserved."
+          "justification": "The exclamation marks replace the trailing ellipses, so the calm, melodic, resigned delivery becomes more emphatic and loses some of the hysterical-resignation effect."
         }
       ]
     }
@@ -262,13 +255,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

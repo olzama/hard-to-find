@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Comrades, we've been instructed\nto greet the New Year cheerfully.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Greet the New Year cheerfully\" is stiffer and less idiomatic than \"celebrate merrily\" or \"see in the New Year\". The bureaucratic \"we've been instructed\" keeps the directive framing, so the joke survives, but the phrasing reads slightly unnatural."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "We won't bring in\na Baba Yaga from outside.\nWe'll develop one from within\nour own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Develop one from within\" is weaker than the source's «воспитаем» (raise/educate). The candidate loses the sense of deliberately cultivating a difficult woman as if she were a staff member, which the analysis identifies as the workplace logic of the joke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,13 +58,13 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"And gives a short address.\" is a syntactically incomplete fragment with no subject, so it reads as a subtitle error before the punchline lands."
+          "justification": "Dropping the subject leaves \"And gives a short address\" as a sentence fragment. The line reads as ungrammatical rather than as Ogurtsov's relaxed speech."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive «коротенько» and the speaker's hedge «я думаю» are flattened into \"a short address\", so the faux-modest, self-satisfied tone the analysis asks for is weakened. The duration reversal itself still works."
+          "justification": "Omitting \"я думаю\" (\"I think\") and the diminutive or patronizing \"just a little\" weakens the faux-modest, self-satisfied tone the analysis asks to preserve. \"Short address\" is also more formal than \"briefly\"."
         }
       ]
     },
@@ -81,7 +81,14 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nHe's ready. Has been for ages!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The \"ready\" = drunk double meaning, which the analysis identifies as the core joke, is not recreated, so the line reads as a plain administrative exchange. The reference shares this loss, and \"Has been for ages!\" does not add a second reading either."
+        }
+      ]
     },
     {
       "id": 5,
@@ -101,7 +108,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!\" drops the stretched, faltering shape of the opening word (Peo-ple) that the analysis treats as part of the drunken collapse. \"Yoo-hoo!\" preserves the broken call, so the effect is only partly lost."
+          "justification": "The stretched, broken vocalization of \"Peo-ple\" is normalized to a clean \"People!\", and the leading dash adds nothing. \"Ah...\" and \"Yoo-hoo!\" keep some of the faltering attempt at address, but \"Yoo-hoo!\" reads as a playful call rather than a wavering, failing one."
         }
       ]
     },
@@ -125,10 +132,10 @@
       "candidate": "But once we take a telescope...\nand look with the instrumented eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Instrumented eye\" does not read as a recognizable corruption of the familiar \"naked eye\" idiom. The analysis identifies the mangled, almost-correct idiom as the central comic device, and the candidate keeps only the mock-technical pomp, so the lexical joke is lost. An English echo of \"unaided eye\", as in the reference, would have preserved it."
+          "justification": "\"Instrumented eye\" is a plausible pseudo-technical substitute, but it does not echo a recognizable idiom the way \"aided\" echoes \"unaided\". The audience is less likely to hear the familiar expression being incorrectly upgraded. The line also ends on a trailing comma, which leaves it hanging instead of ending on the lecturer's trailing-off \"!..\"."
         }
       ]
     },
@@ -152,10 +159,10 @@
       "candidate": "we can already see two little stars,\nthree little stars...\nFour little stars. Best of all,\nof course, is five little stars!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Five little stars\" does not signal the cognac/rating frame at the punchline, so the sudden semantic click the analysis calls essential is weaker. The repeated \"little\" supports the childish counting, but the final item reads as merely odd rather than clearly derailed. No translator's note is provided, though the language-specific note flags that the association may need one."
+          "justification": "The cognac five-star punchline is not made legible. No translator's note is given, though the analysis and language notes flag it as necessary. \"Five little stars\" also folds the final step into the childish counting pattern instead of producing the sudden jump into a different domain, so an English viewer will not hear the cultural click."
         }
       ]
     },
@@ -177,7 +184,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Whether there's life on Mars or no life on Mars\" is clunky. \"Or no life\" is awkward phrasing where the reference's \"or not\" reads naturally. The casual register of \"science isn't up to speed yet\" is preserved."
+          "justification": "\"Or no life on Mars\" is less natural than \"or not\". The phrasing is understandable but slightly clumsy, a small loss in the lecturer's casual-yet-correct register."
         }
       ]
     }
@@ -185,13 +192,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 11,
+    "total_points": 12,
     "meaning_units": 8,
-    "penalty_per_unit": 1.375,
-    "major_equiv_per_unit": 0.275,
-    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5,
+    "major_equiv_per_unit": 0.3,
+    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

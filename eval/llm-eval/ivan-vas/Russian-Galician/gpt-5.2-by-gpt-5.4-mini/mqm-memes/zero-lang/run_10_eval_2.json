@@ -18,16 +18,10 @@
       "candidate": "Vólvenme asaltar\ndúbidas difusas...\nShpak ten unha gravadora,\no embaixador un medallón.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The key second half is mistranslated: the source means Shpak and the ambassador have lost those items, not that they currently own them. This breaks the joke’s setup and the theft callback described in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The phrasing is somewhat less mock-heroic than the reference; 'Vólvenme asaltar dúbidas difusas' is understandable, but it weakens the theatrical, elevated tone of Bunsha’s comic register."
+          "justification": "The candidate preserves the idea of ominous doubts and the lost items, but it weakens the callback by using a plainer phrasing for the mock-heroic opening ('Vólvenme asaltar dúbidas difusas') and drops the explicit possessive/loss nuance of the second half only slightly by stating possession rather than the items being missing."
         }
       ]
     },
@@ -49,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate captures the repetitive greeting pattern, but it is less clear that Bunsha is introducing himself as the tsar rather than addressing one. The wording slightly blurs the intended comic self-presentation."
+          "justification": "The repeated greeting works and keeps the self-introduction as the tsar, but 'Moito gusto' sounds a bit more neutral/modern than the reference’s slightly stiffer, period-comic social formula, so the clash of eras is a little less sharp."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is accurate, but it is flatter and less dignified than 'estou aflixido', weakening the regal, archaic melancholy described in the analysis."
+          "justification": "The meaning is intact, but 'estou triste' is less elevated and less archaic in tone than 'que estou aflixido', so the regal melancholy is slightly weakened."
         }
       ]
     },
@@ -103,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is understandable, but the repetition and punctuation make it a bit clunkier than the source/reference. The effect is slightly less natural as an exclamation of panic."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -130,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Velaí' is acceptable, but it sounds a bit more colloquial than the reference's elevated 'Velaquí', slightly reducing the ceremonial, miracle-like tone."
+          "justification": "The line is accurate, but 'Velaí' and 'fai' sound slightly more colloquial than the reference’s more solemn 'Velaquí' and 'obra', so the mock-biblical miracle register is a bit reduced."
         }
       ]
     },
@@ -152,7 +139,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'A bailar todo o mundo!' conveys the meaning, but it is less punchy and imperative than 'Todos a bailar!', so the command-like festive energy is somewhat weakened."
+          "justification": "The sense is preserved, but 'A bailar todo o mundo!' shifts from a commanding party shout to a more generic invitation, making the imperative energy a little less forceful."
         }
       ]
     },
@@ -171,10 +158,10 @@
       "candidate": "Vaia, entrei con sorte!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Vaia, entrei con sorte!' is misleading because it suggests a past entry and the adjective 'con sorte' is less clearly the spontaneous 'I hit the jackpot' reaction to discovering valuables. The joke of realizing he has just stumbled into a treasure-filled apartment is weakened."
+          "justification": "The candidate gets the lucky arrival idea across, but 'entrei con sorte' can sound like he himself is lucky in general rather than specifically celebrating having stumbled into the right place; the discovery of the apartment as a valuable haul is slightly underplayed."
         }
       ]
     },
@@ -196,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the crucial joke about 'баклажанная' being an imitation spread and instead says 'caviar de berenxena', which the analysis explicitly says should not be called caviar. This distorts the punchline and would confuse viewers."
+          "justification": "The line should distinguish the cheap eggplant spread from actual caviar, but the candidate says 'Caviar de ultramar... de berenxena!', which risks reading as a kind of caviar and loses the satirical contrast described in the analysis."
         }
       ]
     },
@@ -218,7 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The famous counting gag is lost: the source has Shpak listing two, then three, then 'three' again for the suede jacket before correcting himself, whereas the candidate normalizes the list to all threes and omits the comic mistake."
+          "justification": "The source is about Shpak listing losses and then belatedly adding a third suede jacket, but the candidate turns the list into a fixed inventory of '3' items and removes the comic slip that makes the joke work."
         }
       ]
     },
@@ -240,21 +227,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the meaning by repeating the second-person line twice and adding 'tamén' to the final self-reference. The source has a distinct progression: you, you too, and me; that pattern is essential to the joke and the shared resignation."
+          "justification": "The source has three different clauses ('you will be cured... and you too... and I will be cured...'), but the candidate repeats the first clause twice and changes the structure, losing the cumulative rhythm and the self-inclusion of the final line."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 3,
       "minor": 6
     },
-    "total_points": 31,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

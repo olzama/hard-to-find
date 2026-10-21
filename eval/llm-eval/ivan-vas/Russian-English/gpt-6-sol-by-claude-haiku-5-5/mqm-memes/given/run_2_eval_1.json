@@ -191,13 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds an unsourced duplicate of the opening list ('Three tape recorders, three movie cameras') before repeating the full list. The source has one sequential count, and the joke depends on that count growing and on the suede jacket being forgotten. The duplication blurs that structure and adds material the source does not contain."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The fragmented lines end in commas and the final line restarts with a capitalized 'Three', which is inconsistent with the lowercase list items and makes the subtitle read awkwardly."
+          "justification": "The candidate adds an unsourced duplicate of the opening list ('Three tape recorders, three movie cameras,') before the full line. This breaks the cumulative counting that the analysis identifies as the source of the humor, because the count appears to restart and repeat within a single subtitle."
         }
       ]
     },
@@ -219,27 +213,27 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first clause, 'И тебя вылечат…' ('And they'll cure you…'), and begins with the second clause. The reference preserves the full three-part structure of the source."
+          "justification": "The candidate omits the first clause 'And they'll cure you…' and adds an unsourced final line 'They'll cure me too!'. The source has three parallel clauses (you, you too, me), but the candidate yields a different sequence in which 'too' now implies an extra person being cured."
         },
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The final line 'They'll cure me too!' is an addition not present in the source, which ends with 'и меня вылечат…'. The exclamation mark also conflicts with the calm, melodic resignation described in the analysis, so the addition changes both content and tone."
+          "justification": "The added exclamation mark on the final line ('They'll cure me too!') replaces the source's trailing, melodic resignation with an emphatic tone, weakening the calm, fatalistic register the analysis highlights."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 1
     },
-    "total_points": 16,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

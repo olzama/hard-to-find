@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate keeps the staffing joke but shifts register slightly toward modern HR phrasing with 'hire' and the awkward phrase 'in our own staff.' This weakens the original's specifically Soviet 'collective' / workplace tone and the caustic casualness of 'воспитаем в своём коллективе.' A more idiomatic in-house phrasing would better preserve the original social-register humor."
+          "justification": "The candidate preserves the staffing/workplace joke and bureaucratic tone well, but the phrase \"in our own staff\" is slightly awkward English. A smoother phrasing (e.g., \"in-house\" or \"within our own team\") would read more naturally while keeping the same effect."
         }
       ]
     },
@@ -65,7 +65,14 @@
         }
       },
       "candidate": "briefly—about\nforty minutes; more, I think,\nisn't necessary",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The line preserves the comic reversal (claiming briefness then naming forty minutes), but the diminutive, self-satisfied flavor of «коротенько» is weakened by the plain \"briefly.\" The target loses a bit of the faux-modest, cozy tone that makes the contrast sharper."
+        }
+      ]
     },
     {
       "id": 4,
@@ -84,7 +91,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—ready long ago!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The double reading (official 'ready' vs. drunken 'ready') is preserved, but the response \"ready long ago\" is slightly stilted compared with more natural English renderings (e.g., \"he's been ready for quite a while\"). The ambiguity and comic subtext remain, so this is a minor fluency issue."
+        }
+      ]
     },
     {
       "id": 5,
@@ -127,10 +141,10 @@
       "candidate": "But we need only take a telescope...\nAnd look with the armed eye—",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The literal calque 'armed eye' is odd in English and tends toward surreal or confusing phrasing, losing the mock‑scientific near-miss that the analysis recommends preserving. An expression echoing 'unaided/aided eye' would better reproduce the lecturer's pseudo‑scholarly distortion without sounding unnaturally literal."
+          "justification": "The candidate's \"armed eye\" is a literal calque that reads oddly and surreal in English, losing the intended mock‑scientific, slightly off idiom (the English solution should echo 'unaided/aided eye' to preserve the near‑recognizable idiom gone wrong). This choice alters the comedic mechanism and makes the phrase feel stranger rather than humorously mangled."
         }
       ]
     },
@@ -178,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 2,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -23,16 +23,10 @@
       "candidate": "Again I am tormented\nby vague misgivings...\nShpak's lost a tape machine,\nthe envoy's locket's not been seen.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Shpak's lost a tape machine, the envoy's locket's not been seen' does convey loss, which respects the nb, but it turns the terse parallel 'X has Y, Z has W' callback into a long explanatory rhyme and changes 'tape recorder' to the odd 'tape machine' and 'medallion' to 'locket' (a different object)."
-        },
-        {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The mock-heroic opening 'Vague doubts haunt me' is reduced to 'tormented by vague misgivings' split over lines, which is fine, but the forced rhyme and casual contractions ('Shpak's lost', 'locket's not been seen') undercut the high theatrical register and the clipped rhythm of the callback."
+          "justification": "The loss of items is correctly conveyed ('lost', 'not been seen'), and the rhymed, elevated opening ('Again I am tormented by vague misgivings') keeps the mock-heroic register. However, 'tape machine' is an unnatural rendering of 'tape recorder', and 'the envoy's locket's not been seen' is a clumsy, contracted construction that weakens the rhythm and the callback effect."
         }
       ]
     },
@@ -54,13 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate writes 'Tsar!' as a bare exclamation, which reads as addressing someone as Tsar rather than introducing himself as the Tsar; the nb explicitly requires it to be clear he is introducing himself."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The drunken, repetitive social-cliché effect is partly kept through the repeated 'Pleased to meet you', but the shuffled order loses the 'Hello, I'm the Tsar' self-introduction humor."
+          "justification": "The candidate gives only 'Tsar!' as an exclamation, so it can read as addressing a Tsar rather than introducing himself as the Tsar. The analysis note requires it to be clear that Bunsha is introducing himself as the Tsar."
         }
       ]
     },
@@ -112,14 +100,7 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nWalled me in, the fiends!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Walled in!' drops the ellipsis and hesitation of the original and 'fiends' is slightly less archaic/idiomatic than 'demons', though the demons remain the subject of the sentence as required."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -159,7 +140,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' conveys the meaning but is a plain imperative. It lacks the host-like, party-leading tone of Bunsha's commanding announcement, so the comic note of a bureaucrat playing master of ceremonies is somewhat weaker."
+        }
+      ]
     },
     {
       "id": 8,
@@ -204,13 +192,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Overseas caviar... Aubergine!', which labels it caviar, contradicting the nb that warns against this and risking viewer confusion."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Caviar, black, red...' is a slightly awkward inversion compared to 'Black caviar, red caviar'."
+          "justification": "The candidate calls the eggplant spread 'Overseas caviar... Aubergine!', which labels it caviar. The analysis note explicitly says not to call eggplant spread 'caviar' because it confuses viewers, and the joke on the inverted status symbols is blurred."
         }
       ]
     },
@@ -237,7 +219,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate writes '3' for the first two items and 'three' only for the jacket, so the key joke is lost: Shpak's initially forgetting to increment the jacket count and the progressive 'Three' ending are not conveyed. The structure is also altered to a ledger-like list, losing the spoken, flustered tone."
+          "justification": "The candidate drops the item counts into a reordered, ledger-like list ('tape recorders, 3; ... jacket, suede: three'). The key comic mechanism is missing: the fact that the count is repeated 'three' for each item and the jacket's number is initially forgotten. The final 'three' is retained, but the stilted format loses Shpak's spoken, inflating-claim voice."
         }
       ]
     },
@@ -259,21 +241,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks and the rearranged first line ('They'll cure you too!') add emphasis that breaks the calm, melodic resignation described in the analysis, and the 'cure you' / 'cure you too' progression is slightly flattened."
+          "justification": "The candidate adds exclamation marks and drops the ellipses, losing the calm, melodic resignation of Ulyana's trailing speech. The line reads as more emphatic than the dazed, soothing tone described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 4
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 29,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.6363636363636362,
-    "major_equiv_per_unit": 0.5272727272727272,
-    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

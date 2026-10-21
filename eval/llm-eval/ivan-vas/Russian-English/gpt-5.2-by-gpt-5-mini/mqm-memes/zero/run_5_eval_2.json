@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I’m plagued again\nby vague doubts...\nShpak had a tape recorder,\nthe ambassador had a medallion.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak had a tape recorder, the ambassador had a medallion,' which reads as simple possession. The analysis explicitly notes these phrases indicate the items have been lost (they belong to the implied thieves or are no longer with the named people). The candidate therefore reverses the intended reference to lost/missing items and so misrepresents the joke's implication."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that Bunsha is introducing himself as the Tsar (not addressing an actual Tsar). The candidate's lines ('Very pleased, Tsar!' / 'Very pleased, hello, Tsar!') read as if Bunsha is addressing someone titled 'Tsar,' rather than repeatedly introducing himself as 'the Tsar.' This reverses the comic premise and the intended mock-introduction, contradicting the analysis."
+          "justification": "The candidate reads as if Bunsha is addressing an actual Tsar ('Very pleased, Tsar!') rather than introducing himself as the Tsar. The analysis requires that the line make clear he is introducing himself (comic effect of him claiming the title), so this rendering changes the pragmatic meaning and undermines the joke."
         }
       ]
     },
@@ -80,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Leave me, old woman, I’m grieving.' conveys the meaning but uses a more contemporary/colloquial phrasing ('I’m grieving') that weakens the high-register, archaic tone ('I am in sorrow') the analysis highlights. This is a stylistic dilution rather than a meaning error."
+          "justification": "The phrasing 'I’m grieving' is more colloquial and modern than the high-register, archaic tone implied by 'I am in sorrow.' It preserves meaning but softens the elevated, old-fashioned register important to the contrast in the scene."
         }
       ]
     },
@@ -102,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "Per the analysis, 'демоны' functions as the subject (they walled him in). The candidate's 'Walled up, demons!' reads as a vocative address to demons, changing the syntactic role and misrepresenting the line's meaning and comic effect."
+          "justification": "The candidate's 'Walled up, demons!' reads as the Tsar addressing the demons (vocative), whereas the original and analysis specify that 'demons' are the subject (they walled him in). This flips the sentence structure and changes the meaning and the comedic misunderstanding of technology for sorcery."
         }
       ]
     },
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That’s what the life-giving cross can do!') preserves the idea but uses a casual modern phrasing that lessens the elevated, archaic religious register ('Behold the power of the life-giving cross!') emphasized in the analysis. This is a stylistic downgrade rather than a factual error."
+          "justification": "The line 'That’s what the life-giving cross can do!' keeps the meaning but shifts from the exalted, declarative 'Behold the power of the life-giving cross!' to a more conversational, prosaic tone, weakening the grandiose religious register that fuels the joke."
         }
       ]
     },
@@ -191,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The humor in the original depends on Shpak's fumbling recounting and the comic hesitation that makes the running total incrementally unreliable ('...a suede jacket... Three.'). The candidate rigidly lists '3 suede jackets' and thereby removes the self-contradictory hesitation that is the point of the gag, altering the comedic meaning and timing."
+          "justification": "The original gag depends on the inconsistent counting (three of many items, then a suede jacket that he fails to increment). The candidate lists '3 suede jackets,' which alters the joke by removing the comic slip and misrepresents the inventory as given in the source."
         }
       ]
     },
@@ -213,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 3,
       "minor": 2
     },
-    "total_points": 22,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

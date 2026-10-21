@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and the teasing demand for naming non-drinkers, but it tones down the actor's histrionic, self‑dramatising register from the reference (which uses arch phrasing: 'Pray, tell me... Go on, I'll wait!'). The shorter phrasing ('Name one! No, I'm waiting.') is natural but less flamboyant, weakening the comic self‑presentation signalled in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about\nwe knock back a little glass?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate captures the informal invitation to drink, but 'a little glass' is slightly awkward and less idiomatic in this context than the reference's 'a quick one' or 'toss back a quick one.' The line break and lowercase also create a choppy rhythm that reduces smoothness."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,14 +51,7 @@
         }
       },
       "candidate": "Lofty... Such lo-o-ofty relations.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps the stuttering comic effect and the sarcastic evaluation, but uses 'relations' as a noun phrase ('Such lo-o-ofty relations'), which flirts with the literal noun-phrase problem noted in the analysis. The rhythm and choice of 'lofty' produce a slightly different register from the reference's 'highly e-v-volved' mock‑intellectualism."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -90,9 +69,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate conveys the general idea of duty over happiness but renders it awkwardly in English: 'They live for conscience' is unidiomatic and weakens the soldierly fatalism and blunt practicality of the original/maxim. A more natural rendering ('you live to do your duty' / 'you live for duty') would better preserve tone and clarity."
+          "justification": "“They live for conscience” is grammatical but sounds unnatural and stilted in English; it weakens the soldierly, blunt register of the original maxim (which the reference captures with “you live to do your duty”). A more idiomatic phrasing would better preserve tone and clarity."
         }
       ]
     },
@@ -134,7 +113,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using 'Culinarian!' is a literal, formal noun that sounds stilted and unnatural in English as a scolding exclamation. The comic effect in the analysis depends on a brusque domestic insult; the candidate's literal word choice reduces the idiomatic punch."
+          "justification": "The candidate uses the literal noun “Culinarian!”, which the analysis flags as unnatural in English for this comic rebuke. This choice sounds awkward and reduces the punchy, domestic-invective effect the Russian achieves."
         }
       ]
     },
@@ -206,7 +185,14 @@
         }
       },
       "candidate": "This is my cross!\nAnd it's mine alone to bear.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Splitting the fixed idiom across two lines (“This is my cross!” / “And it's mine alone to bear.”) preserves the meaning but slightly weakens the natural English idiomaticity noted in the analysis. The theatrical delivery is intact, but the phrasing is less idiomatically compact than “This is my cross to bear.”"
+        }
+      ]
     },
     {
       "id": 11,
@@ -231,7 +217,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate transmits the self-deprecating, staccato inventory of flaws but uses 'angular' (and 'ungainly') in ways the analysis flagged as overly literal. 'Angular' sounds awkward in English here and lessens the coquettish, performative vulnerability the original mocks."
+          "justification": "Using “angular” as a literal translation of «угловатая» reads awkwardly in English and risks confusing the intended coquettish, self-deprecating tone. The candidate otherwise conveys the repetitive, affected manner, but the lexical choice weakens naturalness."
         }
       ]
     }
@@ -239,13 +225,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 6,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

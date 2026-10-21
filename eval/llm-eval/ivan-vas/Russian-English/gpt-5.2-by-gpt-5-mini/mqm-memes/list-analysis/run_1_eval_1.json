@@ -33,10 +33,10 @@
       "candidate": "Very pleased—hello, Tsar!\nTsar, very pleased!\nHello, Tsar—very pleased!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads like the speaker is addressing a Tsar ('Hello, Tsar!') rather than comically introducing himself as the Tsar, which is the key conceit in the analysis. That weakens the intended gag about Bunsha impersonating/announcing himself as the Tsar."
+          "justification": "The candidate reads like Bunsha is addressing an existing Tsar ('Hello, Tsar!'), whereas the source and analysis require that he be introducing himself as the Tsar (the joke is that he keeps saying 'I am the Tsar'). This changes the pragmatic meaning and undermines the comic premise."
         }
       ]
     },
@@ -86,9 +86,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The line must read as the demons being the agents who walled him in (subject). 'Bricked in, the demons!' is potentially vocative/ambiguous (as if addressing demons) rather than clearly blaming them as the perpetrators, so the intended meaning is slightly blurred."
+          "justification": "The phrasing 'Bricked in, the demons!' is slightly ambiguous in English: it can be read as addressing the demons rather than stating that demons did the bricking (the source specifies demons as the subject). The line still conveys panic and the basic idea, but the syntax is a bit awkward and risks shifting the intended subject."
         }
       ]
     },
@@ -105,14 +105,7 @@
         "language_specific": {}
       },
       "candidate": "See what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses a more colloquial construction ('See what the life-giving cross can do!') which reduces the archaic, exalted register of the original ('Behold the power of the life-giving cross!') and slightly weakens the Tsar's solemn, quasi-religious tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -174,10 +167,10 @@
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestic cigarette cases,\nand suede jackets... three!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the count for the suede jacket (singular) which betrays him. The candidate pluralizes ('suede jackets... three!') and thus removes the narrative cue of the forgetful recounting, undermining the comedic effect and the item's analysis."
+          "justification": "The candidate preserves the list and the comic recounting, but the switch to plural 'suede jackets' and the slightly clumsy ordering ('and suede jackets... three!') weakens the original micro-joke about the speaker momentarily losing track of the count. The effect is still present but less crisply executed."
         }
       ]
     },
@@ -200,13 +193,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 8,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

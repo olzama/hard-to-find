@@ -38,22 +38,22 @@
       "candidate": "I'll knock his horns off, rip his snout,\ngouge out his peepers! You'll spend your whole\nlife working to pay for medicine,",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The analysis explicitly says to avoid the literal 'knock your horns off' because it is not an idiomatic English threat. The candidate uses 'I'll knock his horns off', which is the literal construction the analysis warns against."
+          "justification": "'Knock his horns off' keeps the literal image the analysis says to avoid. It is not an idiomatic English threat."
         },
         {
-          "severity": "major",
-          "category": "fluency",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The analysis explicitly says to avoid the explanatory paraphrase 'You'll spend your whole life working just to pay for medicine'. The candidate's 'You'll spend your whole life working to pay for medicine' is essentially that paraphrase, and it puts the finite verb early instead of letting the compact verdict land at the end."
+          "justification": "The closing 'You'll spend your whole life working to pay for medicine' is the explanatory paraphrase the analysis warns against. It loses the compact, verdict-like fronting of the lifetime scale."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The addressee shifts from third person ('his horns', 'his snout', 'his peepers') to second person ('You'll spend'). The source threat is addressed to one target throughout, so the shift blurs who is being threatened."
+          "justification": "The threat switches from third person ('his horns', 'his snout', 'his peepers') to second person ('You'll'), so the addressee is inconsistent within the line."
         }
       ]
     },
@@ -112,16 +112,10 @@
       "candidate": "Steal, drink - off to prison.\nSteal, drink - off to prison.\nRomance!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis explicitly says to avoid bare 'Romance!' because it risks being read as love/romantic relationship rather than ironic romanticization of a criminal lifestyle. The candidate uses exactly that bare form, so the ironic reading is at risk."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Steal, drink' loses the sense of getting drunk (intoxication) and can be read as 'drink' in the ordinary sense, weakening the self-defeating cycle the analysis describes."
+          "justification": "The bare 'Romance!' is the option the analysis explicitly warns against, since it can be read as being about love rather than ironic romanticization of a criminal life. The ironic register is less secure than in the reference."
         }
       ]
     },
@@ -181,9 +175,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "other",
+          "category": "fluency",
           "span": "",
-          "justification": "The line 'A monument, maybe?' lacks the dash marking speaker change that every other turn carries, which makes the dialogue structure less clear in subtitle form."
+          "justification": "The 'Seated? - What?' exchange is an unnatural English question. It is followed by a redundant 'Is he sitting?', which makes the root-play setup less clean than it could be."
         }
       ]
     },
@@ -225,7 +219,14 @@
         }
       },
       "candidate": "Yes, yes. O-B-Kh-S-S.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The spelled-out 'O-B-Kh-S-S' is a Latin-letter transliteration that an English audience will not recognize as an acronym. The 'S-S' echo of 'Yes, yes' survives, but the fake-competence effect is weaker than the reference's recognizable 'IRS'."
+        }
+      ]
     },
     {
       "id": 11,
@@ -250,7 +251,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis notes that a fully standard 'citizen' loses part of the comic effect of Vasily's marked address. The candidate uses the standard form, while the broken grammar elsewhere is preserved."
+          "justification": "The standard 'citizen' smooths out the marked address that the analysis wants preserved. The analysis says a fully standard form loses part of the comic effect."
         }
       ]
     },
@@ -267,7 +268,14 @@
         "language_specific": {}
       },
       "candidate": "And in prison now is dinner... macaroni.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'And in prison now is dinner...' is stilted inverted syntax. It reads as translationese and loses the wistful, offhand tone of the original."
+        }
+      ]
     },
     {
       "id": 13,
@@ -290,9 +298,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The added causal connector 'so' ('so I ran') over-explains the logic. The analysis asks for minimal causal reasoning, and the reference's plain 'Everyone ran — I ran' keeps the childlike simplicity."
+          "justification": "The added 'so' turns the simple 'and' of the original into an explicit causal link. The analysis says the joke depends on minimal causal reasoning, so this slightly over-explains the logic."
         }
       ]
     },
@@ -354,7 +362,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The analysis explicitly says to avoid 'silly cow' because it distorts the tone of «дура». The candidate uses 'silly cow', which is the overly mild, semantically mismatched feminine insult the analysis warns against."
+          "justification": "'Silly cow' is both of the feminine insults the analysis explicitly says to avoid. 'Silly' is too mild for 'дура' and 'cow' is semantically mismatched. The feminine insult is the engine of the joke, so the register and tone are distorted."
         }
       ]
     },
@@ -379,9 +387,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "The analysis says to avoid a literal sanitary rendering that reduces «параша» to an object, and to use prison-status argot instead. The candidate's 'latrine bucket' is exactly that literal sanitary description, so the assignment to the lowest place in the inmate hierarchy is lost."
+          "justification": "'Latrine bucket' is the literal sanitary description the analysis warns against. It reduces 'параша' to an object rather than conveying the prison-status slang that places the addressee at the lowest rung of the hierarchy, which is the core of the insult."
         }
       ]
     },
@@ -405,24 +413,24 @@
       "candidate": "Help! Hooligans are depriving me of my eyesight!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "The analysis explicitly says to avoid 'hooligans' as a marked British-sounding choice and to name the attackers in contemporary, natural language. The candidate uses 'Hooligans', contradicting that guidance."
+          "justification": "'Hooligans' is one of the marked British-sounding choices the analysis explicitly says to avoid. It sounds dated and unnatural for the attackers."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 2,
+      "minor": 10
     },
-    "total_points": 35,
+    "total_points": 20,
     "meaning_units": 18,
-    "penalty_per_unit": 1.9444444444444444,
-    "major_equiv_per_unit": 0.3888888888888889,
-    "interpretation": "1.94 MQM penalty points per meaning unit (≈ 0.39 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1111111111111112,
+    "major_equiv_per_unit": 0.22222222222222224,
+    "interpretation": "1.11 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

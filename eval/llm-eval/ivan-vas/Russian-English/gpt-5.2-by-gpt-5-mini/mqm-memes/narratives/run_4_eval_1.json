@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as possession. The analysis explicitly notes these items are no longer possessed (they were lost/stolen/were missing); the candidate reverses that meaning and so contradicts the intended comic suspicion about missing items."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the ambassador has...', which implies possession. The analysis explicitly notes these phrases mean the items are missing (they were taken/lost). This reverses the meaning and destroys the comedic inference about items being lost to theft."
         }
       ]
     },
@@ -41,9 +41,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line must make clear Bunsha is introducing himself as the Tsar (comic effect: a Soviet bureaucrat pretending to be the Tsar). The candidate reads like a series of greetings addressed to a Tsar ('Very nice, Tsar!'), not an introduction ('I am the Tsar...'), so it loses the crucial impersonation/introductory joke described in the analysis."
+          "justification": "The source is Bunsha introducing himself as the Tsar in a repetitive, self-conscious way; the candidate reads as someone addressing a Tsar (greeting him) rather than claiming to be the Tsar. That change breaks the core gag (the absurd self-introduction) described in the analysis."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Leave me alone, old woman, I’m grieving.' conveys the meaning but modernizes and flattens the archaic, high-register tone ('я в печали') present in the analysis and reference. The regal, slightly antiquated register is weakened."
+          "justification": "The candidate's 'Leave me alone, old woman, I’m grieving.' uses modern, colloquial phrasing ('leave me alone', 'I’m grieving') and loses some of the archaic, high-register tone of the original ('я в печали') that the analysis highlights as part of the comedic contrast."
         }
       ]
     },
@@ -97,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "Walled up!\nWalled up, by demons!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate 'Walled up! / Walled up, by demons!' preserves the meaning (he perceives being walled in by demons) but the phrasing is stilted and slightly awkward in English. The comic image and the grammatical role of 'demons' as the agent are preserved, but the delivery could be smoother."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross can do!' keeps the meaning but reduces the elevated, archaic exclamatory register ('Behold the power of the life-giving cross!') to a more colloquial phrasing, diminishing some of the intended period flavor."
+          "justification": "The candidate 'That’s what the life-giving cross can do!' conveys the same idea but uses a conversational construction ('can do') instead of the elevated, archaic declarative ('Behold the power of...') that contributes to the comic effect in the analysis."
         }
       ]
     },
@@ -171,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Foreign caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate's lines 'Foreign caviar... / Eggplant!' may imply 'eggplant' as a standalone item and risk leaving viewers unclear about the intended contrast (the joke is that cheap eggplant spread is being presented like an exotic delicacy). The reference separates 'overseas spread... eggplant' to avoid calling eggplant spread 'caviar'; the candidate's phrasing is slightly ambiguous."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -198,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate lists 'three suede jackets' outright. The source and analysis rely on the comedic beat where Shpak hesitates ('куртка… замшевая… Три') revealing he forgot to increment the count; by making 'three suede jackets' explicit the candidate removes that self-betraying gag and changes the joke's structure."
+          "justification": "The joke depends on Shpak hesitating and then revealing the count ('куртка… замшевая… Три')—the growing, inconsistent inventory is the punchline. The candidate lists 'three suede jackets' as a straightforward inventory, eliminating the hesitation and the incremental-count gag, thereby removing the humor."
         }
       ]
     },
@@ -215,19 +201,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd you’ll be cured too!\nAnd I’ll be cured!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning but uses sharper, emphatic phrasing ('And they’ll cure you!') and more exclamation, losing some of the original's resigned, melodic quality described in the analysis. This slightly alters the character's tone but does not break the joke."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 19,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

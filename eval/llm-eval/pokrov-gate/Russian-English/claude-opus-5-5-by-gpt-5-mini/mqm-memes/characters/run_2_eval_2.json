@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "how about we\nknock back a little shot?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate captures the casual, provocative intent, but \"knock back a little shot\" is slightly clunkier and less idiomatically smooth than the reference's \"toss back a quick one.\" The lowercase start and line break are formatting choices but do not harm comprehension."
+        }
+      ]
     },
     {
       "id": 3,
@@ -56,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the meaning but loses the specific comic device of the halting, exaggerated stutter/elongation that the analysis highlights (the reference's \"e-v-volved\" effect). Repeating \"such lofty... such lofty relations\" is natural but less rhythmically comic and slightly weakens the original sarcastic bite."
+          "justification": "The original's stuttering, sardonic delivery (\"highly e-v-volved\") is an important part of the comic effect. The candidate repeats \"such lofty... such lofty relations,\" which preserves sarcasm but loses the playful stutter and rhythm that make the line a memorable refrain."
         }
       ]
     },
@@ -78,7 +85,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line is translated literally and reads more abstract/ moralizing in English (\"conscience\") than the blunt, practical soldierly maxim in the analysis (duty/doing one's duty). The register is a bit more formal and less colloquially fatalistic than ideal."
+          "justification": "The candidate is accurate and preserves the maxim's blunt moral tone, but the phrasing \"for conscience\" sounds slightly stilted in English compared with the idiomatic sense of duty conveyed by the reference."
         }
       ]
     },
@@ -118,9 +125,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The transliteration \"Kulinar!\" reads as a foreign or invented word in English and fails to reproduce the natural, biting domestic insult indicated in the analysis (e.g., \"Some cook you are!/What a cook!\"). This choice sounds unnatural and reduces the comic impact."
+          "justification": "Rendering the line as the transliterated single word \"Kulinar!\" keeps a foreign-word effect but reproduces the literal standalone noun criticized in the analysis. In English this reads oddly and loses the punchy, natural-sounding invective the reference achieves."
         }
       ]
     },
@@ -197,7 +204,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits and literalizes the idiom (\"It is my cross! / And mine to bear\"), which makes the English feel slightly awkward and less idiomatic than the fixed phrase \"a cross to bear\" highlighted in the analysis. The manipulative, hyperbolic tone is present but the idiomatic fluency is weakened."
+          "justification": "The candidate keeps the general meaning, but splitting the idiom into \"It is my cross! / And mine to bear\" reduces the fluency and weakens the fixed English idiom \"a cross to bear,\" slightly diminishing the manipulative rhetorical force noted in the analysis."
         }
       ]
     },
@@ -222,9 +229,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Using \"angular\" is a too-literal rendering of «угловатая» and reads oddly in English. While the candidate captures self-deprecating rhythm, the lexical choice weakens naturalness and the coquettish tone described in the analysis."
+          "justification": "The candidate conveys the self-mocking hesitancy, but using the literal \"angular\" for «угловатая» follows the problematic literalism warned in the analysis and reads awkwardly in English; the line would be more idiomatic with a different lexical choice that preserves the comic, self-deprecating tone."
         }
       ]
     }
@@ -232,13 +239,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 5,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

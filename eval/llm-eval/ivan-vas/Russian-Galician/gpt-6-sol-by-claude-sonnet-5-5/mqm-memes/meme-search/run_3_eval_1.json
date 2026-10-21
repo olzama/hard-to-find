@@ -23,22 +23,16 @@
       "candidate": "Atorméntanme vagas sospeitas...\nA Shpak faltoulle a gravadora,\nao embaixador, a condecoración.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "'Medallón' is rendered as 'condecoración' (a decoration or medal of honor). This changes the specific stolen item, which is the point of the callback to the earlier theft."
+          "justification": "\"Atorméntanme vagas sospeitas\" keeps a literary, mock-heroic tone, but it lacks the 'de novo' (again) callback to the earlier suspicion, and 'vagas' is flatter than 'escuras/smutnye'."
         },
         {
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Gravadora' is not the correct word for a reel-to-reel tape recorder. The analysis points to 'magnetófono'."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The 'опять' (again) of the source is omitted, so the callback to the earlier suspicion is weaker."
+          "justification": "'Gravadora' normally means a record label in Galician, not a tape recorder. The correct word is 'magnetófono'. 'Condecoración' for the medallion shifts the object to a decoration/award, which is less precise."
         }
       ]
     },
@@ -55,14 +49,7 @@
         "language_specific": {}
       },
       "candidate": "Un pracer, tsar!\nUn pracer, bos días, tsar!\nTsar, un pracer!\nBos días, tsar! Un pracer!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Un pracer, tsar!' reads as Bunsha addressing a tsar, not introducing himself as the Tsar. This directly contradicts the analysis note."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -97,14 +84,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, vella, que estou triste.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Triste' and the blunt 'vella' flatten the high, archaic register of the Tsar. The reference's 'aflixido' and 'velliña' keep the regal melancholy and its contrast with the Soviet setting."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -119,14 +99,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Emparedáronme, demos!' reads as a vocative, with the Tsar addressing the demons. The analysis requires the demons to be the subject of the sentence."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -146,14 +119,7 @@
         }
       },
       "candidate": "Velaquí o que obra\na cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Cruz vivificadora' is less established than the liturgical 'cruz vivificante' and slightly weakens the religious, archaic tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -193,14 +159,7 @@
         }
       },
       "candidate": "Cheguei no momento xusto!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Cheguei no momento xusto' shifts the meaning to good timing. The source says he has landed in a lucky place full of goods. It does not mislead about him leaving, but it loses the sense of a lucky find."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -220,14 +179,7 @@
         }
       },
       "candidate": "Caviar negro, vermello...\nAh, si! Caviar de ultramar...\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Caviar de ultramar... De berenxena!' calls the eggplant spread caviar, which the analysis says to avoid because it confuses viewers. It also loses the 'overseas delicacy' framing of the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -247,20 +199,7 @@
         }
       },
       "candidate": "tres gravadoras, tres cámaras,\ntres cigarreiras feitas aquí,\ntres chaquetas de ante.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The list ends with 'tres chaquetas de ante', so the joke is lost. In the source, Shpak forgets to increment the count and says a single suede jacket before 'three'."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Gravadoras' is not the correct term for 'magnetófonos'. 'Cámaras' also drops 'de cine'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -275,26 +214,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti hante curar!\nE a ti tamén hante curar!\nE a min tamén hánme curar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the lines emphatic. The ellipses of the source and reference give a calm, melodic, resigned delivery, and the candidate loses it."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 7
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 32,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 2.909090909090909,
-    "major_equiv_per_unit": 0.5818181818181818,
-    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

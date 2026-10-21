@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB explicitly warns that 'У Шпака... у посла...' means the items were lost, not that they possess them. 'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning and breaks the callback to the thefts."
+          "justification": "The NB explicitly warns against 'Shpak has... the envoy has...'. The candidate does exactly this, so it reads as though they still possess the items and loses the sense that each lost theirs, which breaks the callback to the thefts."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Again I'm tormented by vague misgivings' keeps a mock-elevated register, but 'misgivings' is slightly weaker than 'doubts' and the inverted word order is a bit stiff."
+          "justification": "'Tormented by vague misgivings' keeps a fairly elevated register, but 'misgivings' is slightly weaker than the mock-heroic theatrical 'haunt me'. The effect is mostly preserved."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Very pleased, Tsar!' and 'Hello, Tsar' read as addressing a Tsar, so the self-introduction joke is lost."
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Hello, Tsar!' and 'Very pleased, Tsar!' read as addressing a Tsar, which reverses the speaker/addressee relation and loses the joke of him introducing himself."
         }
       ]
     },
@@ -99,9 +99,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'Walled up, demons!' can read as addressing the demons, whereas the NB requires demons to be the subject. The sentence is ambiguous, though the elliptical form is close to the original and the intent is somewhat recoverable."
+          "justification": "'Walled up, demons!' is ambiguous and could be read as addressing the demons. The NB requires demons to be the subject, as in 'the demons walled me in'. The omitted object and the bare comma make this less clear, though the exclamation structure partly suggests accusation."
         }
       ]
     },
@@ -123,7 +123,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the Tsar's solemn, archaic register and conviction conveyed by 'Behold the power of...'."
+          "justification": "'That's what the life-giving cross can do!' is colloquial and loses some of the Tsar's solemn, archaic register ('Behold the power...'), weakening the contrast with the mundane elevator setting. The meaning and the religious conviction remain."
         }
       ]
     },
@@ -140,14 +140,7 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is accurate but flat. It conveys the command without the master-of-ceremonies, officious flavor of the reference, though it still works for the chaotic dance party."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -164,10 +157,10 @@
       "candidate": "Well, this was a lucky stop!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'This was a lucky stop' with the past tense suggests he is leaving or has finished, which the NB warns against, and 'stop' mistranslates 'зашел' (entered). It also loses the cheerful sense of having chosen the right apartment."
+          "justification": "'Lucky stop' is slightly ambiguous. It could suggest a stop on the way, though it is not clearly a departure, so the NB's misleading-leaving concern is mostly avoided. The 'dropping in' sense is preserved."
         }
       ]
     },
@@ -189,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Foreign caviar... Eggplant!' calls the eggplant spread caviar and drops 'баклажанная' as the qualifier of the caviar, which the NB explicitly says must be avoided because it confuses viewers. The cheap-spread-as-rare-delicacy joke is blurred."
+          "justification": "The NB says not to call eggplant spread 'caviar'. The candidate renders 'Foreign caviar... Eggplant!' and so mislabels the spread as caviar. It also loses the contrast of eggplant spread being presented as an overseas delicacy."
         }
       ]
     },
@@ -211,7 +204,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak failing to increment the count for the suede jacket (one jacket, then 'Three'). The candidate gives 'three suede jackets' straight, removing the slip that betrays him. Mixing '3' digits with 'three' also looks inconsistent."
+          "justification": "The joke depends on Shpak forgetting to increment the count of the suede jackets at first, then correcting himself with 'Three.' The candidate says 'three suede jackets' straight away and removes the hesitation and the self-betrayal, so the humor is lost."
         }
       ]
     },
@@ -233,21 +226,21 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'And you'll be cured too! And you'll be cured as well!' is a passive rewording that loses the impersonal 'they'll cure' (psychiatric ward implication), and the exclamation marks undercut the calm, melodic resignation described in the analysis."
+          "justification": "The candidate says 'you'll be cured', which drops the impersonal 'they'll cure', and it condenses the repeating, resigned, melodic pattern. The comic acceptance of 'and me too' still comes through."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 4,
       "minor": 5
     },
-    "total_points": 30,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

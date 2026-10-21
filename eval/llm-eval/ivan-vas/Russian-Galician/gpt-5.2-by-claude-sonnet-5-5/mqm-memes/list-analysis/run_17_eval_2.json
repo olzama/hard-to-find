@@ -18,16 +18,16 @@
       "candidate": "Volven atormentarme\nvagos dubidos...\nA Shpak faltoulle un magnetófono,\nao embaixador, un medallón.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The mock-heroic register of 'терзают смутные сомнения' is weakened: 'Volven atormentarme vagos dubidos' is plain and the word 'dubidos' (a misspelling/non-standard form of 'dúbidas') undermines the elevated theatrical tone. The 'опять' callback is carried by 'volven' but the high-flown effect is lost."
+          "justification": "'Volven atormentarme vagos dubidos' keeps an elevated register, but 'vagos' and the plain syntax are less theatrical than the mock-heroic phrasing, and 'dubidos' is a nonstandard form (should be 'dúbidas')."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'un magnetófono' (indefinite) instead of the specific 'o magnetófono' slightly loosens the reference to the particular stolen items, though 'faltoulle' correctly conveys the items are missing."
+          "justification": "'faltoulle un magnetófono' means a recorder is missing, which conveys the loss. However, 'un magnetófono' is indefinite and loses the specific callback to the items already stolen, and 'faltar' is weaker than 'desapareceu'."
         }
       ]
     },
@@ -49,19 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Ola, tsar' reads as addressing a Tsar rather than introducing himself as the Tsar, which the NB explicitly says must be clear. The reference uses 'son o tsar' to fix this."
+          "justification": "'Ola, tsar, encantado' reads as Bunsha addressing a tsar, which is exactly what the analysis says must be avoided. The reference uses 'son o tsar' to make clear he is introducing himself as the Tsar."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Two extra lines ('Tsar, encantado.' / 'Ola, tsar. Encantado!') are added beyond the source's three repetitions."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Ola' is a casual greeting rather than the formal 'Здравствуйте', losing some of the stiff formal-ritual flavor."
+          "justification": "The candidate adds extra repeated lines ('Tsar, encantado. Ola, tsar. Encantado!') that are not in the source."
         }
       ]
     },
@@ -98,7 +92,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'de loito' means 'in mourning', narrowing 'в печали' (sorrowful/sad) to bereavement, and is less archaic/high-register than the reference's 'aflixido'; the regal melancholy is slightly shifted."
+          "justification": "'estou de loito' means 'I am in mourning', which narrows 'в печали' (in sorrow/melancholy) to bereavement. It also loses the archaic, poetic register of the line."
         }
       ]
     },
@@ -130,7 +124,14 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificante!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Mira o que fai' is a more colloquial, everyday phrasing than the reference's 'Velaquí o que obra', so the Tsar's solemn, archaic voice is weakened."
+        }
+      ]
     },
     {
       "id": 7,
@@ -163,9 +164,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Mira que entrei ben!' conveys he has just entered and is pleased, avoiding the leaving-misreading, but 'Mira que' is a bit ambiguous and loses the sense of having landed on a lucky, rich spot (deficit goods) that 'dei cun bo sitio' provides."
+          "justification": "'Mira que entrei ben!' is ambiguous and could suggest a successful entrance or a past action. It does not clearly convey the lucky choice of this particular apartment, which is the point of the line."
         }
       ]
     },
@@ -187,7 +188,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Caviar de ultramar' replaces 'заморская икра' correctly in part, but the NB warns against calling eggplant spread caviar; here the joke's final item 'Pasta de berenxena' is OK, yet 'Caviar de ultramar' immediately before it leads the viewer to read the eggplant item as caviar, and the reference's 'Manxar de ultramar' avoids this. The 'overseas delicacy' vs. cheap spread inversion is blurred."
+          "justification": "'Caviar de ultramar' calls the delicacy caviar, which the NB says to avoid. It also blurs the joke, since the overseas item is meant to be the eggplant spread, and the fix comes only in the next line ('Pasta de berenxena')."
         }
       ]
     },
@@ -206,16 +207,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'cámaras' omits 'de cine' (кинокамеры), losing specificity of the status item; 'unha' before chaqueta is also dropped."
+          "justification": "Dropping 'unha' and writing 'chaqueta de camurza... tres' loses the pause and the failure to increment the count that the analysis calls the key to the joke. The 'tres' after the jacket is no longer a comic slip and the structure is flattened."
         },
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "Numerals '3' instead of spelled-out 'tres' are inconsistent with the final spoken 'tres' and read less naturally for spoken dialogue; the pause around 'замшевая' is partly lost since the adjective is not set off by a hesitation."
+          "justification": "'tres cámaras de cine' is shortened to '3 cámaras', and the digits '3' replace the spelled-out numbers, which reads less naturally as speech."
         }
       ]
     },
@@ -237,7 +238,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'van curarte' / 'van curarme' is grammatical, but the reference's 'vante curar' / 'vanme curar' creates a more melodic, natural rhythm; the candidate's stress is flatter, though the calm resignation is still conveyed."
+          "justification": "'van curarte' and 'van curarme' are grammatically acceptable, but the repeated enclitic pattern is less melodic and more stiff than the reference's rhythm."
         }
       ]
     }

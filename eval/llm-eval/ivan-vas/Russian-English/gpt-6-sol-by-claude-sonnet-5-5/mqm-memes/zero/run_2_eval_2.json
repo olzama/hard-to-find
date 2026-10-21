@@ -26,13 +26,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"I'm beset by vague suspicions\" keeps a somewhat elevated register, but \"suspicions\" is plainer than the mock-tragic \"doubts haunt me/torment me\"; the theatrical, operatic flavor is weakened."
+          "justification": "\"Beset by vague suspicions\" keeps a somewhat elevated register, but \"suspicions\" is less theatrical than \"doubts haunt me\" and weakens the mock-heroic tone of \"терзают смутные сомнения\"."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Decoration\" is a vaguer, less precise rendering of \"медальон\" (medallion) and could suggest an honor or award rather than the stolen object."
+          "justification": "\"Decoration\" for the ambassador's medallion is vaguer and less precise than \"medallion\"; it suggests an award or ornament and loses the specific object."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha addressing a tsar (\"A pleasure, tsar!\", \"Hello, tsar!\"), which the analysis explicitly says must be avoided. He should be introducing himself as the Tsar, so the joke of self-introduction is lost."
+          "justification": "The candidate reads as Bunsha addressing a tsar (\"A pleasure, tsar!\", \"Hello, tsar!\") rather than introducing himself as the Tsar. The analysis explicitly requires that he is introducing himself, so the core joke is lost."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Splitting into two lines drops the connection of the clause and reads more abruptly; \"I'm in sorrow\" is acceptable archaic-leaning phrasing but the regal flow of the single sentence is slightly weakened."
+          "justification": "Splitting the line into two sentences with a line break makes the delivery choppier and drops the \"I am in sorrow\" linkage of the original, but the archaic regal register and meaning are preserved."
         }
       ]
     },
@@ -118,7 +118,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"They've walled it up\" changes the object: the Tsar is walled in (himself trapped), not something being walled up. The meaning of being trapped in the elevator is lost, though the demons are correctly the subject."
+          "justification": "The candidate says \"They've walled it up!\", changing the object from the Tsar (\"walled me in\") to an unspecified \"it\". This loses the Tsar's sense of being trapped in the elevator, which is the basis of the joke. The demons are correctly the subject, but the meaning is distorted."
         }
       ]
     },
@@ -165,7 +165,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Everybody dance!\" is an accurate, natural imperative that conveys the call to dance, but it is more direct and lacks the host-like, ceremonial flavor of the reference; the mock-grandeur of Bunsha as master of ceremonies is slightly reduced."
+          "justification": "\"Everybody dance!\" is accurate but reads as a plain imperative. It lacks the host-like, proclaiming tone of Bunsha's party-leader moment, though the meaning and chaotic energy are preserved."
         }
       ]
     },
@@ -192,7 +192,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"What a lucky time to drop by!\" is acceptable as it signals arrival, and conveys the cheerful, casual tone. However, no issue with direction: it does not imply leaving. (Retained as no meaningful error.)"
+          "justification": "\"What a lucky time to drop by!\" is acceptable in meaning since it frames him as arriving, not leaving, and conveys his cheerful reaction to finding the goods. However, it sounds like a social visit and loses the burglar's casual, pleased self-congratulation about having picked the right place to break into."
         }
       ]
     },
@@ -217,9 +217,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"Eggplant caviar\" and \"Caviar from overseas,\" which the analysis explicitly warns against because it confuses viewers; the contrast between real caviar and the cheap spread is blurred."
+          "justification": "The candidate calls the eggplant spread \"Eggplant caviar\" and \"Caviar from overseas\", which the analysis explicitly says to avoid because it confuses viewers. It also loses the pivot from real caviar to the cheap spread presented as a rare overseas delicacy."
         }
       ]
     },
@@ -246,7 +246,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the final item to \"three suede jackets,\" removing the key joke where Shpak forgets to increment the count and says a single suede jacket, then \"Three.\" The comic betrayal of his exaggeration is lost."
+          "justification": "The candidate gives \"three suede jackets\", removing the key joke that Shpak forgets to increment the count for the jacket (a single suede jacket followed by \"Three\"). This destroys the comedic point of the exaggeration slipping."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "\"Soviet-made\" is a reasonable rendering of \"отечественных\" but is slightly heavier and more explicit than the original's casual \"domestic\"."
         }
       ]
     },
@@ -263,19 +269,26 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you!\nAnd they'll cure you, too!\nAnd they'll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Exclamation marks make the lines sound emphatic and cheerful, whereas the original conveys calm, melodic, resigned delivery; the trailing ellipses of hesitant resignation are lost."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 4
+      "minor": 6
     },
-    "total_points": 29,
+    "total_points": 31,
     "meaning_units": 11,
-    "penalty_per_unit": 2.6363636363636362,
-    "major_equiv_per_unit": 0.5272727272727272,
-    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.8181818181818183,
+    "major_equiv_per_unit": 0.5636363636363637,
+    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate faithfully conveys the meaning but loses the light rhythmic bounce of the original 'Trus/Boyus' pairing that makes the line feel endearingly comic; the phrasing is more prosaic and less playful."
+        }
+      ]
     },
     {
       "id": 3,
@@ -51,7 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is left in the original Russian rather than translated into the target language. This is untranslated material and fails to convey the comic deflation of the villain's facade described in the analysis."
+          "justification": "The candidate is left untranslated (still in Russian). That fails to convey the joke (exposure of a fake mustache) to the target-language audience."
         }
       ]
     },
@@ -71,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The insertion of 'You know,' and the odd transliteration 'versteh’en?' slightly weakens the performative, faux-sophisticated patter Gena is doing; the original montage of loanwords is preserved, but the added filler and unconventional spelling make the line sound less snappy."
+          "justification": "The sequence preserves the multilingual gag, but the added leading 'You know,' and the nonstandard spelling 'versteh’en?' make the line slightly awkward and inconsistent with natural English renderings of the mock-German 'Verstehen?'."
         }
       ]
     },
@@ -135,7 +142,14 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\non someone else’s dime, even teetotalers\nand convalescers drink.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the proverb but loses the original's rhythmic pairing (trezvenniki/yazvenniki). The line becomes flatter and lacks the balanced, proverbial cadence the analysis called for."
+        }
+      ]
     },
     {
       "id": 9,
@@ -200,7 +214,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original stretches and sighs the name for melodic, weary effect ('Semyo-o-on Semyonych!'). Rendering it as 'Semyon Semyonovich...' loses some of that elongated, musical exasperation and reads as a more neutral reproach."
+          "justification": "The candidate gives the correct name but drops the elongated, musical sigh ('Semyo-o-on') that carries the weary, melodic effect in the original; the impact is softened."
         }
       ]
     },
@@ -222,7 +236,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's staggered rhythm and theatrical pauses ('May you live... on nothing but... your salary!') heighten the mock-curse. The candidate is more compact and loses some of the rhetorical weight and comic timing."
+          "justification": "Meaning preserved, but the theatrical cadence and the ominous, drawn-out delivery of the original curse are reduced by the terse phrasing, weakening the comic dramatic weight."
         }
       ]
     },
@@ -334,7 +348,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate inserts an extra welcoming line ('If you’re ever in Kolyma - you’ll be welcome!') that is not present in the source. This adds content and shifts the economy of the exchange, reducing the concise joke that Gena treats 'Kolyma' as a threat."
+          "justification": "The candidate adds an extra felicitous line ('If you’re ever in Kolyma - you’ll be welcome!') that is not present in the source; although it keeps the Kolyma cultural reference, the addition slightly alters the exchange's structure and the immediate sense of threat that Gena reacts to."
         }
       ]
     },
@@ -351,14 +365,7 @@
         "language_specific": {}
       },
       "candidate": "In this state...\nI can’t.\nI must... first...\ntake a baaaath,\nhave a cup of coffee...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate emphasizes a long, comic elongation of 'bath' ('baaaath') rather than the affected pronunciation of 'coffee' noted in the analysis. This shifts the locus of Gena's affected sophistication and slightly alters the character nuance."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 22,
@@ -376,9 +383,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate's line 'No, yes... we'll keep looking...' introduces an ambiguous 'No, yes' hesitation that doesn't reflect the original exchange's clear implied rejection ('No? Must keep looking then!'). The awkward phrasing undermines the polite stalling tactic."
+          "justification": "The candidate communicates the stalling tactic but the 'No, yes...' filler is awkward and unclear in English, making the speaker sound indecisive rather than politely evasive as in the original."
         }
       ]
     },
@@ -401,13 +408,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 11,
+    "total_points": 12,
     "meaning_units": 23,
-    "penalty_per_unit": 0.4782608695652174,
-    "major_equiv_per_unit": 0.09565217391304348,
-    "interpretation": "0.48 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5217391304347826,
+    "major_equiv_per_unit": 0.10434782608695652,
+    "interpretation": "0.52 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

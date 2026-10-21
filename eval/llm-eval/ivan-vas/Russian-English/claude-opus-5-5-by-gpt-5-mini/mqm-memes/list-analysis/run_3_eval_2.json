@@ -23,10 +23,10 @@
       "candidate": "Once again I'm tormented\nby vague misgivings...\nShpak loses a tape recorder,\nthe ambassador loses a medallion.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak loses a tape recorder, the ambassador loses a medallion,' which changes the aspect/temporal meaning: the original (and the analysis note) indicate these items are missing / have been taken (they no longer have them), not that they are currently losing them. The present-tense 'loses' misrepresents the intended observation about items being absent. This significantly harms the meaning and the comedic callback structure."
+          "justification": "The candidate renders У Шпака — У посла as 'Shpak loses a tape recorder, the ambassador loses a medallion.' The Russian phrase indicates those items are missing/have been taken (result state), not an ongoing present-tense action of 'losing'. The present-tense 'loses' slightly distorts the aspect, though the overall meaning is recognizable."
         }
       ]
     },
@@ -158,7 +158,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate 'Now this is a lucky place to drop in!' shifts register and idiom compared with the reference's laconic, pleased reaction ('Now, this was a good call!'). 'Drop in' is a more casual phrasing and slightly alters the speaker's tone; it still conveys the basic meaning but is a less natural match for the character's sly, pleased discovery."
+          "justification": "The phrase 'a lucky place to drop in' is slightly awkward and colloquial compared to the concise, idiomatic sense of 'I came in at a lucky moment' conveyed by the original. The candidate preserves the meaning and tone but the phrasing is a bit clumsy."
         }
       ]
     },
@@ -220,14 +220,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

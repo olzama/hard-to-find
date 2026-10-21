@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'I'm beginning to have a nagging suspicion' is plain and modern; it loses the mock-heroic, theatrical register of 'терзают смутные сомнения' (haunt me / vague doubts) that drives the humor."
+          "justification": "\"I'm beginning to have a nagging suspicion\" is a plain, modern phrase. It loses the mock-heroic, literary register of \"терзают смутные сомнения\" (tormenting vague doubts) that the analysis identifies as the core of the joke."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'medal' is less precise than 'medallion' (медальон), which is the specific item lost by the ambassador."
+          "justification": "\"Medal\" is not \"medallion\". It is a different object, though the missing-item sense is preserved through the elliptical list."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha addressing a Tsar ('Hello, Tsar!'), not introducing himself as the Tsar, which contradicts the analysis note. The joke of the self-introduction is lost."
+          "justification": "The candidate reads as Bunsha addressing a Tsar (\"Hello, Tsar!\"), not introducing himself as the Tsar. The analysis explicitly requires making clear that he is introducing himself, so the joke's premise is lost."
         }
       ]
     },
@@ -96,13 +96,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'I am in mourning' mistranslates 'в печали' (in sorrow/sadness); it implies bereavement and changes the meaning."
+          "justification": "\"I am in mourning\" changes the meaning of \"я в печали\" (I am in sorrow) to bereavement. This implies someone has died, which distorts the Tsar's melancholy."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Leave me be' is slightly less archaic and regal than the reference; the high-register tone is only partly kept."
+          "justification": "\"Leave me be\" is fairly neutral and weakens the archaic high register the analysis describes."
         }
       ]
     },
@@ -159,14 +159,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is a direct and acceptable rendering, but it is flatter than the reference's host-like, party-leading tone; it carries little of the chaotic master-of-ceremonies flavor."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -191,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'I picked the right time to drop in' adds a timing idea not in the source (удачно зашел = it was a good call to come in) and is a muddled idiom; it does not clearly convey the burglar's delight at finding a lucrative apartment he has just entered."
+          "justification": "\"I picked the right time to drop in\" works with his arrival and does not suggest he is leaving. However, it shifts the meaning to timing (the owner being absent) rather than a lucky choice of apartment, which slightly changes the point of the line. This is a viable equivalent, but it loses the sense of discovering valuable goods."
         }
       ]
     },
@@ -216,9 +209,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'caviar', which the analysis explicitly warns against, as it confuses viewers. It also renders 'заморская' as 'exotic', losing 'overseas', and the final 'Eggplant!' is detached from the caviar joke."
+          "justification": "The candidate calls the eggplant spread \"caviar\" in \"exotic caviar...Eggplant!\" The analysis explicitly says not to do this because it confuses viewers. It also drops the \"overseas\" element of \"заморская\" and the cheap-vs-expensive inversion."
         }
       ]
     },
@@ -245,13 +238,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'three suede jackets', which removes the joke: Shpak forgetting to increment the jacket count (a single jacket, then 'Three') is what betrays him."
+          "justification": "The candidate says \"three suede jackets\", which removes the joke that Shpak forgets to increment the jacket count (a single jacket). The analysis says this slip is what makes the line funny."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Soviet-made' for 'отечественных' is acceptable, but the word order and the hesitant pause before the final 'Three' are lost."
+          "justification": "The closing \"Три\" (Three) is omitted, and the word order and \"domestic\" placement differ from the original."
         }
       ]
     },
@@ -274,13 +267,13 @@
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 34,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 3.090909090909091,
-    "major_equiv_per_unit": 0.6181818181818182,
-    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

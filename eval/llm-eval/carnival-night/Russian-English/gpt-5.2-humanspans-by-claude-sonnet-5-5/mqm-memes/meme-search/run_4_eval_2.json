@@ -44,13 +44,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word \"коллектив\" is left untranslated in the English subtitle, which is a clear untranslated-material error and breaks the line for English viewers."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Hire\" and \"raise\" capture the staffing logic less well than \"train/cultivate in-house\", and \"raise\" leans toward the fairy-tale or parental frame rather than the workplace logic. The reference's workplace framing is weakened somewhat."
+          "justification": "The word «коллектив» is left untranslated in Cyrillic inside an English subtitle. English-speaking viewers cannot read it, and the workplace/'in-house' logic that carries the joke is lost. A word like 'team', 'staff' or 'in-house' was needed."
         }
       ]
     },
@@ -73,10 +67,10 @@
       "candidate": "And briefly—about forty\nminutes; more, I think,\nis not necessary—",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The comic faux-modesty of \"коротенько\" is flattened. \"Briefly\" is kept, but the second half is stiff (\"more, I think, is not necessary\"), losing the cozy, self-satisfied managerial tone. The line also ends on a dash and drops the trailing hesitation, so the \"forty minutes\" punchline lands less well."
+          "justification": "The order is right (briefly, then forty minutes). However, 'more, I think, is not necessary' is a stiff calque of the Russian word order. It sounds less natural than the casual, self-satisfied tone the analysis describes, and the faux-modest cosiness of «коротенько» is only carried by 'briefly'."
         }
       ]
     },
@@ -99,10 +93,10 @@
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—has been ready a long time!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate renders only the surface meaning \"ready\" and does not recreate the double sense of \"готов\" as \"drunk\". The exchange loses the alcoholic subtext that the analysis identifies as the core of the joke. \"Has been ready a long time!\" adds only a mild hint."
+          "justification": "'Ready' is kept, which preserves the surface administrative reading. The 'has been ready a long time' gives a hint of the drunk subtext. The wording is a bit flat, however, and without a cheerful marker like 'Oh, he's ready' the second reading is less prominent."
         }
       ]
     },
@@ -128,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... Hoo!\" keeps a broken, faltering shape, but it does not stretch the syllables (Peo-ple) as the reference does. \"Hoo!\" is a weaker equivalent of the wavering \"ау-у\" call to an audience (\"hellooo\"), so the drunken vocal instability is less pronounced."
+          "justification": "The broken, hesitant delivery is partly kept with 'People!.. Ah... Hoo!'. But 'People' is not stretched or syllabified as in 'Peo-ple', and 'Hoo!' is less recognisable as a call to a crowd than 'Hellooo'. The wavering drunken vocalisation is weaker."
         }
       ]
     },
@@ -157,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the language-specific note explicitly says to avoid. It sounds surreal rather than like a mock-scientific distortion of the familiar \"unaided eye\", so the malformed-idiom effect is lost for English viewers."
+          "justification": "The literal 'armed eye' is exactly the calque the analysis warns against. English has no 'naked eye' echo here, so the viewer cannot recognise a mangled familiar idiom ('unaided eye'). The mock-scientific malapropism comes across as merely strange."
         }
       ]
     },
@@ -183,16 +177,16 @@
       "candidate": "we already see two little stars,\nthree little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The progression is garbled. In the source the counting goes two, three, four, and \"five stars\" is the punchline. In the candidate, \"Four little stars—best of all\" merges the fourth star into the punchline, which weakens the build-up and the sudden click into the cognac frame. The \"best of all, of course, five\" sets up well, but the mistimed dash undermines it."
+          "justification": "'Four little stars—best of all, of course, five little stars' merges the fourth step into the punchline. This blurs the trivial 2-3-4 counting buildup and softens the sudden snap to 'five stars'."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Little stars\" sounds childish and does not evoke the \"five-star\" cognac brand association. No note or other cue helps the shift into the cognac domain."
+          "justification": "Nothing signals the cognac association (no note or cue), so English viewers may not get the shift from astronomy to drinking. The analysis says this may need a translator's note, and the reference includes one."
         }
       ]
     },
@@ -218,14 +212,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 3
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 28,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 3.5,
-    "major_equiv_per_unit": 0.7,
-    "interpretation": "3.50 MQM penalty points per meaning unit (≈ 0.70 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

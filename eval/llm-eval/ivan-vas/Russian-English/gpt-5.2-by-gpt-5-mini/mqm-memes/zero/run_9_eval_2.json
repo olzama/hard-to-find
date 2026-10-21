@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies possession. The analysis explicitly notes these items are no longer possessed (they were lost/stolen); the original means the items belong(ed) to the deceased/are missing, not that they currently have them. This reverses the intended meaning and undercuts the joke about missing goods."
+          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as 'Shpak has a tape recorder, the envoy has a medallion,' which implies current possession. The analysis (NB) makes clear the line means these items were lost/taken (they no longer have them). This reverses the intended meaning and undermines the joke's investigative implication."
         }
       ]
     },
@@ -41,9 +41,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line must read as Bunsha introducing himself as 'the Tsar' (comic effect: he keeps declaring 'I am the Tsar'), not addressing someone called the Tsar. The candidate ('Very nice, Tsar!... Hello, Tsar!') reads as if he is speaking to a Tsar, losing the crucial comic premise described in the analysis and changing the register and intent."
+          "justification": "The line must make it clear Bunsha is introducing himself as the Tsar (he keeps saying 'I am the Tsar' in a repetitively self-introducing, mock-formal way). The candidate reads like addressing a Tsar ('Very nice, Tsar!'), not introducing himself, losing the crucial comic premise noted in the analysis."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Walled up, demons!' reads like an address to demons (vocative), whereas the analysis/notes require that 'demons' be the subject (they walled me in). This subtly shifts agency and makes the line sound like an exhortation rather than an accusation of who did it."
+          "justification": "The candidate omits the object ('me') and produces 'Walled up! / Walled up, demons!' which is ambiguous: it can be read as addressing demons rather than stating that demons (subject) walled him in. The analysis explicitly requires demons to be the subject, so the line is less clear and slightly alters the original perspective."
         }
       ]
     },
@@ -112,7 +112,14 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross does!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the literal meaning but loses the elevated, archaic register ('Behold the power of the life-giving cross!') by using a colloquial modern phrasing ('That's what the life-giving cross does!'), softening the regal/theatrical tone emphasized in the analysis."
+        }
+      ]
     },
     {
       "id": 7,
@@ -157,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Overseas caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "By rendering 'Заморская икра… баклажанная!' as 'Overseas caviar... Eggplant!' the candidate risks implying the eggplant spread is being called 'caviar' (which the analysis warns against). The humorous contrast between expensive caviar and cheap 'eggplant caviar' is blurred and could confuse viewers."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -181,10 +181,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original line's comic effect depends on Shpak hesitating ('куртка… замшевая…') and then suddenly ending with 'Three', revealing he inflated the count. The candidate lists 'three suede jackets' flatly, removing the stuttered increment and the self-betraying gag, which significantly weakens the humor and characterisation."
+          "justification": "The comic effect in the source comes from the hesitant, self-contradictory counting (he lapses over the suede jacket and the final 'Three' reveals the recount). The candidate lists items straightforwardly (and mixes numerals and words), which flattens the hesitating, escalating joke structure described in the analysis."
         }
       ]
     },
@@ -206,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 2
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 17,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I should have been in his place!\nGet drunk enough, and you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The original line opens with the vocative 'Ребята' (Guys), which establishes Gorbunkov's dramatic address to bystanders and helps set the clash of registers described in the analysis. The candidate omits this vocative, slightly weakening the public, theatrical quality of the original delivery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -73,7 +66,14 @@
         "language_specific": {}
       },
       "candidate": "Lady, signora, frau, miss... unfortunately, nothing's going to happen.\nRusso Turisto!\nObliko Morale! Verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate spells the mock-Italian phrase as 'Obliko Morale' rather than 'Obliko Morale' from the reference. This is a small orthographic difference that doesn't break meaning, but it slightly alters the sound pattern and the playful pseudo-foreign register Gena is performing."
+        }
+      ]
     },
     {
       "id": 5,
@@ -138,14 +138,7 @@
         }
       },
       "candidate": "As our dear boss says,\nOn someone else's dime, even teetotalers\nand convalescers drink!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The analysis asks for a rhythmic, balanced couplet (trezvenniki/yazvenniki) that carries a proverb-like punch. The candidate conveys the meaning but lacks any rhythmic or morphological echo between the two nouns, making the line less punchy and proverb-like than the original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -376,13 +369,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 23,
-    "penalty_per_unit": 0.08695652173913043,
-    "major_equiv_per_unit": 0.017391304347826087,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.043478260869565216,
+    "major_equiv_per_unit": 0.008695652173913044,
+    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

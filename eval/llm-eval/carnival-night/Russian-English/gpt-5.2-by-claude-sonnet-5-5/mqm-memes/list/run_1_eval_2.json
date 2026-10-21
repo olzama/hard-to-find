@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have an instruction\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Welcome the New Year cheerfully\" keeps the directive framing (\"we have an instruction\"), so the bureaucratic-vs-festive clash survives. \"Welcome\" and \"cheerfully\" are slightly softer and less dryly officious than \"celebrate merrily\", but the effect is largely preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Hire\" and \"in our own collective\" keep the workplace logic. \"Raise\" tilts slightly toward child-rearing and \"Baba Yaga\" is left untranslated with no gloss, which weakens the recognizable-toxic-colleague sense. \"Collective\" is appropriately Soviet. The exclamation mark adds a bit more cheer than the deadpan delivery."
+          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic and \"our own collective\" keeps the Soviet workplace framing, but Baba Yaga is left untranslated and the nasty-woman-in-the-office type is not made accessible to an English audience. The line leans toward the fairy-tale figure, though the workplace logic is still present."
         }
       ]
     },
@@ -77,7 +70,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key comic word \"коротенько\" (cozy, faux-modest \"briefly\") is rendered with a flat \"briefly\", and the added \"no more… I think that's enough\" shifts the emphasis. The faux-modesty/patronizing diminutive tone is lost, so the contrast with \"forty minutes\" is weakened. The briefness-before-duration order is kept, but the punchline is underplayed."
+          "justification": "The faux-modest, patronizing tone of \"коротенько\" is lost. \"Briefly\" is lowercase and fragmentary, and \"no more, I think that's enough\" loses the self-satisfied understatement. The comic reversal of 'briefly' followed by 'forty minutes' is weakened because the claim is flattened."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The segmentation and lack of punctuation read as a fragment. \"I think that's enough\" is flatter than the managerial tone of the original."
         }
       ]
     },
@@ -103,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready\" is translated literally with no recreation of the \"готов\" = drunk double meaning. \"Been ready a long time!\" has no hint of intoxication, so the central joke is lost and the exchange reads as plain administrative confirmation."
+          "justification": "The candidate only conveys \"ready\" and never recreates the 'drunk / done for' subtext. The exclamation \"been ready a long time!\" hints at it slightly but not enough for English viewers to get the alcoholic joke, so the main comic point is lost."
         }
       ]
     },
@@ -129,7 +128,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... helloo!\" retains the faltering call and the stretched \"helloo\", but \"People!\" is not elongated or broken as in the reference (\"Peo-ple!\"), so part of the drunken vocal instability is lost. The leading dash is also unneeded."
+          "justification": "\"People!.. Ah... helloo!\" retains the broken, faltering call, but without the syllable stretching of the original (\"Peo-ple!\") the drunken vocal instability is weaker. The leading dash also wrongly suggests a dialogue turn."
         }
       ]
     },
@@ -158,7 +157,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the notes say to avoid. It does not echo \"the unaided eye\", so the mangled-idiom effect is lost in English and the phrase sounds merely surreal. It also drops the exclamatory structure (\"take a telescope!\")."
+          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly warns against. It does not echo the English \"unaided eye\", so the mock-scientific malformed idiom is not recognizable and the line sounds merely strange rather than a drunken deformation of a familiar expression."
         }
       ]
     },
@@ -187,7 +186,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is silly, and \"five little stars\" as the payoff is kept, but \"little stars\" evokes a nursery rhyme and makes the cognac association less recognizable. No note or cue signals the cognac frame. The count is also reordered, with \"four little stars\" moved onto the next line, which slightly muddles the build-up."
+          "justification": "The counting build-up is trivial and silly, which works, but \"five little stars\" does not signal the cognac association to English viewers, and no note is provided. The sudden click into a different semantic world is therefore weaker."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line break placement (\"Four little stars—and best of all\") and the 'we already see' phrasing are slightly awkward, and the lecture-like opening 'As we can already see' is less natural."
         }
       ]
     },
@@ -211,9 +216,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Whether there is no life on Mars\" is a literal rendering of the colloquial \"нет ли жизни\" and sounds awkward in English."
+        },
+        {
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content is correct and the final \"Science is not yet in the know\" captures the colloquial register well. However, \"whether there is no life on Mars\" is awkward English, and \"science does not know\" is more formal than the casual \"unknown to science\", so the register mismatch is a bit weaker."
+          "justification": "\"Science does not know\" is more formal and flat than the casual \"это науке неизвестно\". \"Not yet in the know\" does preserve the colloquial personification of science and the register mismatch, so the main joke survives."
         }
       ]
     }
@@ -221,13 +232,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 5
+      "minor": 7
     },
-    "total_points": 20,
+    "total_points": 22,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.75,
+    "major_equiv_per_unit": 0.55,
+    "interpretation": "2.75 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

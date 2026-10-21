@@ -23,10 +23,16 @@
       "candidate": "Once again I'm plagued\nby vague suspicions...\nShpak loses a tape recorder,\nthe ambassador loses his order.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the list as active verbs ('Shpak loses...', 'the ambassador loses...') and uses 'order' for 'медальон', which changes aspect and introduces a different nuance. The analysis stresses that the line should convey that these items are missing/lost (not simply that they 'have' them) and 'medallion' is the clearer choice; the phrasing here is misleading and alters the intended meaning."
+          "justification": "The candidate renders У Шпака — У посла as 'Shpak loses... the ambassador loses...', using simple present 'loses' which implies an ongoing action rather than the intended meaning that these people no longer have those items (i.e., the items are missing/they were deprived of them). This shifts aspect and slightly distorts the original observation about lost possessions."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "The candidate uses 'order' for 'медальон' (reference: 'medallion'). 'Order' can imply a decoration but is less directly the same image as 'medallion', weakening the precise object at the joke's center."
         }
       ]
     },
@@ -45,10 +51,16 @@
       "candidate": "Very pleased, hello, tsar!\nTsar, very pleased!\nHello, tsar! Very pleased!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's phrasing ('Very pleased, hello, tsar!') risks reading as an address to a tsar rather than Bunsha introducing himself as 'the Tsar.' The analysis requires the translation to make clear he is introducing himself, so this ambiguity weakens the comedic effect."
+          "justification": "The line must make clear Bunsha is introducing himself as the Tsar (comedic effect: a petty official impersonating royalty). The candidate reads as if addressing a tsar ('Hello, tsar!'), not introducing himself as 'I am the Tsar', so it fails to convey the crucial silly inversion described in the analysis."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate's word order and punctuation make the repetition sound naturalistic rather than the awkward, ritualistic, overly polite Soviet self-introduction that produces the humor in the original."
         }
       ]
     },
@@ -185,7 +197,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate labels the eggplant spread as 'Eggplant caviar,' which the analysis explicitly warns against because it confuses the joke: the humor relies on treating a cheap eggplant spread as contrasted with real caviar, not renaming it as caviar."
+          "justification": "The candidate translates баклажанная (eggplant spread) as 'Eggplant caviar.' The analysis explicitly warns against calling the eggplant spread 'caviar' because the joke depends on the contrast between real caviar and a humble eggplant spread; calling it 'caviar' confuses the satire and undermines the punchline."
         }
       ]
     },
@@ -228,13 +240,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 1
+      "minor": 3
     },
-    "total_points": 11,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

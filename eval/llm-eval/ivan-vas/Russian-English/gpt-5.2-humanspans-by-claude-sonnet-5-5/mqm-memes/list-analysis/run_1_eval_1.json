@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate correctly conveys that the items are missing, which the NB requires. However, 'missing' is repeated in a heavier, more explanatory structure than the terse parallel list in the source. 'Plagued by vague misgivings' keeps the mock-heroic tone reasonably well, but 'misgivings' is slightly less theatrical than 'doubts haunt me'."
+          "justification": "'Plagued by vague misgivings' keeps the mock-heroic register reasonably well, though 'misgivings' is a bit less theatrical and archaic than 'haunt me' / 'torment'. The 'missing' items correctly convey loss (NB respected)."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Very pleased, Tsar!' and 'Hello, Tsar!' read as addressing a Tsar, which is exactly the misreading the analysis warns against. The self-introduction joke is lost."
+          "justification": "'Very pleased, Tsar!' and 'Hello, Tsar!' read as addressing a Tsar, not introducing himself as the Tsar. The NB explicitly requires making clear he is introducing himself; nothing like 'I'm the Tsar' appears, so the joke's point is lost."
         }
       ]
     },
@@ -93,9 +93,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "'Bricked in' conveys the walling-in and keeps 'the demons' as the subject, which satisfies the NB. However, it drops the first-person object ('me'), and 'bricked in' is slightly colloquial and modern against the archaic tone of the Tsar's line."
+          "justification": "'Bricked in' is a modern, colloquial phrase (suggesting bricked-up or damaged devices), which slightly weakens the archaic tone. Demons correctly remain the subject, not addressed."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'See what the life-giving cross can do!' is accurate in meaning, but it is a more modern, casual phrasing and loses the archaic, solemn register of the Tsar's pronouncement that 'Behold the power of...' carries."
+          "justification": "'See what the life-giving cross can do!' is somewhat casual and lacks the solemn, archaic conviction of the Tsar ('Behold the power...'), though meaning and joke are preserved."
         }
       ]
     },
@@ -139,7 +139,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate and natural. It loses the host-like, party-leader flavor of the reference, but the meaning and the chaotic disco energy are preserved."
+          "justification": "'Everybody dance!' is accurate and keeps the energy, but lacks the mock-formal, host-like tone of the reference that heightens the contrast with the chaotic party."
         }
       ]
     },
@@ -156,14 +156,7 @@
         "language_specific": {}
       },
       "candidate": "Now this is a lucky break!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Lucky break' keeps the sense that he has just entered and is pleased, so it does not mislead about leaving. It shifts the meaning slightly from his own good choice ('удачно зашел') to pure luck, which weakens the nuance of the cheerful burglar's self-satisfaction."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -198,7 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds material not in the source ('Everything I earned through backbreaking labor, is gone'), which changes the tone and the content of the line. It also turns 'suede jacket' into plural 'suede jackets... three', which destroys the joke that Shpak forgets to increment the count for the single jacket and gives himself away."
+          "justification": "The candidate adds material absent from the source ('Everything I earned through backbreaking labor, is gone') and shifts the joke to a complaint of loss. It also pluralizes 'suede jackets... three', which destroys the joke that Shpak forgets to increment the jacket count (single jacket, then 'Three')."
         }
       ]
     },
@@ -218,9 +211,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate switches the first line to active 'they'll cure you' but renders the other lines as 'you'll be cured too' and 'I'll be cured too', which loses the repeated 'they'll cure' pattern. It also drops the trailing ellipses that give the calm, melodic, resigned cadence."
+          "justification": "Switching from active 'they'll cure you' to passive 'you'll be cured too' and adding exclamation marks loses the calm, melodic, resigned repetition of the original, making it more emphatic and less eerie."
         }
       ]
     }
@@ -228,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 16,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

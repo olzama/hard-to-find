@@ -145,7 +145,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is truncated: it ends at 'But of course five stars' with no 'is best!' and no punctuation. The punchline, where the counting suddenly clicks into the cognac frame, is left unfinished and the sentence is incomplete. The reference also carries a note explaining the 5-star cognac association, and the candidate has none, so the cultural reference is not conveyed to viewers."
+          "justification": "The line is truncated. \"Лучше всего, конечно, пять звёздочек!\" becomes \"But of course five stars\", with the key predicate \"is best\" and the exclamation missing. The sentence is left hanging, so the punchline, in which the lecture suddenly clicks into the cognac frame, is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "other",
+          "span": "",
+          "justification": "The cultural note that five stars refers to the best Soviet cognac is absent. The analysis says English viewers will probably need it, so the shift from astronomy to drink may not register."
         }
       ]
     },
@@ -172,13 +178,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 0
+      "minor": 1
     },
-    "total_points": 5,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.625,
-    "major_equiv_per_unit": 0.125,
-    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

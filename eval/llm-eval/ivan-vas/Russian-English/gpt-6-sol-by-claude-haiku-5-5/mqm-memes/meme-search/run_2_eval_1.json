@@ -23,16 +23,16 @@
       "candidate": "I'm beginning to have\na nagging suspicion again...\nShpak's tape recorder,\nthe ambassador's medal...",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis identifies the mock-heroic, high-brow theatrical register of 'terzayut smutnye somneniya' as the source of the humor. 'I'm beginning to have a nagging suspicion' is colloquial and loses that register, so the bumbling-bureaucrat-in-tragic-mode effect is gone."
+          "justification": "'I'm beginning to have a nagging suspicion' is conversational and loses the high-register, tragic-theatrical weight of 'терзают смутные сомнения' that the mock-heroic joke depends on."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "'Медальон' is a medallion or locket, not a medal. 'The ambassador's medal' names a different object (an award) from the one the source describes."
+          "justification": "'Medal' is not the same object as 'медальон' (medallion, a pendant). The substitution is understandable, but it is less precise than the source."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis states the translation must make clear that Bunsha is introducing himself as the Tsar, not addressing one. The candidate's vocatives 'Hello, Tsar!', 'Tsar, what a pleasure!' and 'A pleasure, Tsar!' read as greeting a Tsar, and no 'I'm the Tsar' marker is present, so the central misreading the analysis warns against is produced."
+          "justification": "The analysis explicitly requires that Bunsha is introducing himself as the Tsar, not addressing one. 'Hello, Tsar!' and 'A pleasure, Tsar!' read as greetings to a Tsar, so the central self-introduction meaning is distorted."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Печаль' means sorrow or melancholy. 'I am in mourning' adds a specific cause (a bereavement) that the source does not state, which could confuse viewers in a scene where no one has died. 'Leave me be' is also less archaic than the high-register tone the analysis describes."
+          "justification": "'In mourning' implies bereavement, which is narrower than 'в печали' (in sorrow). The analysis describes genuine regal melancholy, not grief over a death, so the emotional shift is slight but real."
         }
       ]
     },
@@ -173,7 +173,14 @@
         }
       },
       "candidate": "I picked the right time to drop in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Удачно' signals fortunate happenstance. 'I picked the right time' implies a deliberate choice of timing, which slightly shifts the cheerful, lucky-break tone of the burglar's reaction."
+        }
+      ]
     },
     {
       "id": 9,
@@ -196,9 +203,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says the eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'Eggplant caviar!' does exactly this, and it also weakens the intended contrast between a cheap spread and an 'overseas' delicacy."
+          "justification": "The analysis explicitly warns against calling the eggplant spread 'caviar' because it will confuse viewers. The candidate's 'Eggplant caviar!' does exactly that, and it blurs the joke's point that a cheap spread is being passed off as overseas caviar."
         }
       ]
     },
@@ -225,7 +232,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis says the joke lies in Shpak forgetting to increment the suede-jacket count at first, and that this betrays him. The candidate's flat 'three suede jackets' removes the hesitation ('a suede jacket… Three.') and the self-correcting final count, so the central comic mechanism is lost."
+          "justification": "The analysis identifies the forgotten increment of the suede jacket count as the source of the humor. The candidate lists 'three suede jackets' with a consistent count, so the slip that betrays Shpak is lost and the joke no longer works."
         }
       ]
     },
@@ -247,21 +254,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes calm, melodic resignation. The candidate replaces the source's trailing ellipses with exclamation marks and drops the connecting 'And' in the first line, so the delivery reads as emphatic rather than resigned and the rhythm of the three repetitions is weakened."
+          "justification": "The source's melodic, calm resignation is conveyed with ellipses, while the candidate's exclamation marks make the lines sound emphatic and excited, slightly undercutting the calm fatalism described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 3,
+      "minor": 5
     },
-    "total_points": 23,
+    "total_points": 20,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.8181818181818181,
+    "major_equiv_per_unit": 0.36363636363636365,
+    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

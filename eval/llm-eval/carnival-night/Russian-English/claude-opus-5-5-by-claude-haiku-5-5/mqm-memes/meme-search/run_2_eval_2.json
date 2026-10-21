@@ -46,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "just a short one, forty minutes or so.\nNo more is needed, I think.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source ends on a trailing ellipsis, which carries the self-satisfied pause and trails off into the next beat. The candidate ends on a flat period ('I think.'), which weakens the managerial, self-congratulatory delivery the analysis describes. 'Or so' also softens the 'больше' that the reference renders as 'any more than that'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -70,10 +63,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer's ready, long since ready!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "'The lecturer's ready, long since ready!' is stilted. 'Long since' is normally followed by a past-tense clause, not an adjective, so the phrase sounds unidiomatic. The reference's 'He's been ready for quite a while' reads more naturally and carries the same 'давно' sense."
+          "justification": "The candidate drops the double meaning of «готов» (ready / drunk) that the analysis identifies as the core joke. \"Long since ready!\" reads only as a cheerful confirmation of readiness, with no intoxication subtext, so the comic reversal is lost."
         }
       ]
     },
@@ -93,9 +86,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "other",
+          "category": "style",
           "span": "",
-          "justification": "The leading hyphen ('- People!..') is a dialogue-dash convention, but the source has no second speaker and no dash. The stray mark suggests an exchange that does not exist and adds a formatting element the reference does not use."
+          "justification": "The elongated, faltering «Лю-ди!» is reduced to \"People!..\" with the stretched first syllable lost. The broken vocal shape is partly kept through the ellipses and \"Yoo-hoo!\", which works well, but the leading dash is an unexplained formatting artifact that may read as a dialogue marker."
         }
       ]
     },
@@ -122,7 +115,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The 'naked' to 'dressed' swap does reproduce the mangled-idiom mechanism of the source, and it is a valid creative equivalent. However, 'dressed eye' reads as a silly clothing joke rather than the mock-scientific upgrade ('armed' / 'aided') the analysis asks for, so the lecturer's pseudo-scholarly pomp is weakened. The telescope line also loses the exclamation of the source's '!..'."
+          "justification": "\"Dressed eye\" is a valid malformation of the idiom, and the naked/dressed swap is a recognizable word-level deformation. However, it turns the lecturer's mock-scientific upgrade («вооружённым», 'armed') into plain nonsense, so the pseudo-scientific pomp the analysis asks to preserve is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"But we need only take a telescope...\" is slightly stiff and less natural than the reference's \"all we have to do is take a telescope\"."
         }
       ]
     },
@@ -149,13 +148,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the cultural key of the punchline. The reference retains the cognac association (the USSR's best cognac as 5*), which is what makes 'five stars' snap into a different semantic world. Without it, the final line reads as merely odd, not as a hilariously derailed lecture. The analysis explicitly says this shift must be preserved, and the candidate offers no note or other compensation for it."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Four stars, but best of all, of course, five stars!' uses 'but' to signal a contrast that is not really there. The phrasing is awkward and slightly weakens the beat-by-beat counting rhythm."
+          "justification": "The punchline depends on a cultural association (five-star = the best Soviet cognac), which the analysis says is the moment where the semantic world suddenly shifts. The candidate gives no cue for this, so \"five stars\" reads as an incongruous number or a hotel/ratings term and the cultural click is lost for the target audience. The reference supplies this cue with a bracketed note, which the candidate omits."
         }
       ]
     },
@@ -177,21 +170,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Is there life on Mars, is there no life on Mars' is a literal, clunky rendering of the source's 'есть ли ..., нет ли ...'. 'Is there no life' is unnatural English, where 'whether or not' would be idiomatic. The second half ('science does not know'; 'Science hasn't been briefed yet') successfully carries the casual register and is a strength of the candidate."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is an awkward rendering of the «есть ли… нет ли» construction. A phrasing like \"whether or not there is life on Mars\" would read more naturally, though the casual, unscientific register is well preserved by \"Science hasn't been briefed yet.\""
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 11,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 1.375,
-    "major_equiv_per_unit": 0.275,
-    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

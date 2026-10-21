@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says the items are lost/stolen. The candidate says 'En Shpak hai un magnetófono, no embaixador, un medallón' (Shpak has a tape recorder, the ambassador a medallion), which is exactly the reading the analysis rules out. The point of the callback (the thefts) is lost."
+          "justification": "The NB says the items are missing (each lost theirs). The candidate says 'En Shpak hai un magnetófono, no embaixador, un medallón', i.e. they possess the items, which reverses the meaning and breaks the suspicion/theft callback."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'vagas dúbidas' is acceptable, but 'Volven asaltarme' is less elevated than the reference's archaic inversion 'asáltanme escuras sospeitas', so the mock-heroic register is somewhat weakened. The line breaks also fragment the sentence."
+          "justification": "'vagas dúbidas' and the line-broken phrasing are less mock-heroic than the archaic inverted 'asáltanme escuras sospeitas'; the theatrical register is somewhat weakened."
         }
       ]
     },
@@ -44,7 +44,20 @@
         "language_specific": {}
       },
       "candidate": "Moito gusto, tsar!\nMoito gusto, bos días, tsar!\nTsar, moito gusto!\nBos días, tsar! Moito gusto!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate drops the self-introduction framing ('son o tsar'). Bare 'tsar' reads more like addressing a tsar, which the NB warns against, though the repetition keeps some ambiguity."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Bos días' for the greeting mismatches the formal evening banquet and the stiff Soviet greeting cliché; the effect is weaker."
+        }
+      ]
     },
     {
       "id": 3,
@@ -79,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'triste' is flatter than 'aflixido'. The high-register, regal melancholy that contrasts with the mundane setting is weakened."
+          "justification": "'triste' is plainer and more modern than 'aflixido', losing some of the high-register, regal melancholy that contrasts with the Soviet setting."
         }
       ]
     },
@@ -101,7 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says the demons must be the subject. 'Emparedáronme, demos!' without a comma-less subject reading is vocative, so he appears to address the demons, which the analysis forbids."
+          "justification": "'Emparedáronme, demos!' with the comma reads as addressing the demons (vocative), which the NB explicitly forbids. Demons must be the subject."
         }
       ]
     },
@@ -118,14 +131,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Mira o que fai' is more colloquial than the reference's 'Velaquí o que obra', which better preserves the Tsar's solemn, archaic tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -157,10 +163,10 @@
       "candidate": "Mira ti, que ben entrei!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says he has just entered and the translation must not suggest he is leaving. 'que ben entrei' is about entering, so it is acceptable on that count, but it loses the point that he has found a lucrative place ('удачно зашел' as hitting the jackpot of deficit goods). The comment is about the entry itself, not the discovery, which weakens the cheerful anti-hero reaction. Ruling: the meaning is partly preserved but the loot-discovery implication is missing."
+          "justification": "'Mira ti, que ben entrei!' correctly conveys having just entered and avoids the leaving reading. It loses the sense of landing in a lucky spot (the goods-filled apartment), making it slightly less precise."
         }
       ]
     },
@@ -182,7 +188,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says not to call eggplant spread 'caviar'. The candidate says 'Caviar de ultramar... De berenxena!', which labels it caviar and loses the joke inversion that the reference handles with 'Manxar de ultramar'."
+          "justification": "The candidate calls the eggplant spread 'Caviar de ultramar... De berenxena', which the NB says to avoid because it confuses viewers and equates eggplant with caviar. It also loses the inversion where the cheap spread is passed off as an overseas delicacy."
         }
       ]
     },
@@ -204,7 +210,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Numerals '3' in place of spelled-out 'tres' and the omission of the article 'unha' and of the pause marker before 'de ante' make the list less natural. 'camurza' is acceptable. The joke of the jacket count not being incremented is preserved by 'tres' at the end."
+          "justification": "The candidate uses digits '3' instead of spelled-out numbers, which is a slight style loss in spoken dialogue. The suede jacket's missing count is kept ('chaqueta de camurza... tres'), so the joke works."
         }
       ]
     },
@@ -226,21 +232,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate omits the first 'E a ti vante curar… ' structure and the third repetition with 'e a min', but the key rhythm is preserved. The enclitic 'van curarte' is slightly stiffer than the reference's melodic resignation."
+          "justification": "The exclamation marks and the clipped 'van curarte' lose the melodic, calm resignation of the original; the delivery reads more emphatic than resigned."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 3,
+      "minor": 7
     },
-    "total_points": 25,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -41,7 +41,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the literal meaning but flattens the playful, bouncing rhyme/rhythm (Trus/Bo-yus) noted in the analysis. The line reads as a straightforward admission rather than a lighthearted, endearing paradox."
+          "justification": "The candidate is a correct, literal rendering but loses the light, bouncing comic rhythm of the Russian 'Trus/Boyus' pair described in the analysis. The line reads more flatly and missing the playful rhythmic lift that makes the original endearing."
         }
       ]
     },
@@ -73,14 +73,7 @@
         "language_specific": {}
       },
       "candidate": "You see, signora, Frau, miss,\nI'm afraid it's out of the question!\nRusso tourist—\nmorals impeccable! Verstehen?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate loses some of the mock-international playfulness of the original coinages (e.g., 'Russo Turisto' with its faux-foreign flavor). Also omits 'Lady' from the opening list, a small loss of the original's full roll-call effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -145,7 +138,14 @@
         }
       },
       "candidate": "As our dear boss says,\non someone else's tab,\neven teetotalers—\nand ulcer patients—drink.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate correctly conveys the meaning but renders the paired words ('trezvenniki/yazvenniki') literally without preserving the rhythmic, proverbial balance the analysis highlights. A more playful or rhythmic pairing would better mirror the original comedic effect."
+        }
+      ]
     },
     {
       "id": 9,
@@ -180,7 +180,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's comic effect relies on a marked, memorable mispronunciation of 'tablet' ('таблэтки'). The candidate renders a neutral, idiomatic line and thus loses that characterful speech trait."
+          "justification": "Meaning is preserved, but the candidate drops the comic effect produced by Lyolik's characteristic mispronunciation of 'tablet' (a phonetic joke noted in the analysis). The line reads natural but loses that idiosyncratic voice marker."
         }
       ]
     },
@@ -217,7 +217,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference conveys a melodic, elongated sigh ('Semyo-o-on Semyonych!'). The candidate reduces this to a plain name with ellipsis, losing some of the musical, weary-drawn effect described in the analysis."
+          "justification": "The candidate conveys the address correctly but loses the drawn-out, melodic sigh ('Semyo-o-on') that functions as a weary, elongated facepalm in the original. The shorter form is less expressive."
         }
       ]
     },
@@ -294,14 +294,7 @@
         "language_specific": {}
       },
       "candidate": "It's not my fault! He came here himself!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original's comedy comes from a slip into a provincial/unrefined register ('Не виноватая я!'). The candidate uses a standard, neutral phrase and so loses that register shift that undercuts the seductress trope."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 18,
@@ -396,7 +389,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's stubborn, folksy nonstandard verb form (poytit) contributes comic character. The candidate is a neutral refusal and therefore loses that rustic, emphatic flavor."
+          "justification": "The candidate gives a perfectly natural refusal but removes the deliberately nonstandard, folksy verb form ('пойти́ть' distortion) that adds comic stubbornness and rural flavor in the original. This flattens the characterful emphasis of the line."
         }
       ]
     }
@@ -404,13 +397,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 6,
+    "total_points": 5,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.21739130434782608,
+    "major_equiv_per_unit": 0.043478260869565216,
+    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

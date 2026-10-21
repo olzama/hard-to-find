@@ -46,7 +46,14 @@
         "language_specific": {}
       },
       "candidate": "a nice short speech,\nabout forty minutes. I don't\nthink it needs to be longer.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate renders «коротенько» as “a nice short speech,” which softens the faux-modest, managerial diminutive quality of the original. The bureaucratic, self-satisfied tone that makes the forty-minute claim comic is somewhat weakened by the warmer, more conversational “nice.” The overall meaning and punchline survive, but the specific register contrast in the analysis is less strong."
+        }
+      ]
     },
     {
       "id": 4,
@@ -81,7 +88,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate flattens the broken, wavering vocalization of the original ('Лю-ди! А… ау-у!') into a more composed sequence ('People! Hey... hello!'), which reduces the sense of a crumbling, theatrical attempt at a formal address. The line still reads as unsteady, but the specific stretched/collapsed syllabic effect that conveys drunken helplessness is weakened."
+          "justification": "The original’s faltering, stretched vocalization (a collapsing attempt at a formal opening) is not preserved: “People! Hey... hello!” is flatter and more coherent, losing the physical/drunken instability that constitutes much of the humor. The line still reads as a weak opening, but the crucial wavering sound-shape is diminished."
         }
       ]
     },
@@ -106,9 +113,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The original plays on a damaged idiom (a mock-scientific twist on 'the unaided eye'). The candidate's 'look with the aid of optics' is understandable but a bit stilted and loses the echo of the familiar 'unaided eye' phrasing; it reduces the playful pseudo-academic deformation that makes the line comic."
+          "justification": "The candidate keeps the mock‑scientific deformation but renders it as “the aid of optics,” which is awkward and slightly clunky in English. It conveys the intended ironic upgrade of idiom but the phrasing is less natural than alternatives like “the aided eye,” making the mock‑learned effect somewhat less smooth."
         }
       ]
     },
@@ -151,13 +158,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 2,
+    "total_points": 3,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.375,
+    "major_equiv_per_unit": 0.075,
+    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

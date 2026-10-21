@@ -38,10 +38,10 @@
       "candidate": "knock your horns off,\nrip your maw open, gouge your peepers out!\nYou'll work your whole life to pay\nfor medicine,",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate begins with the literal phrase “knock your horns off,” which the analysis specifically warned against as non-idiomatic and potentially misleading. It also breaks the compact, verdict-like cadence of the final clause by unfolding it into a clipped multi-line phrase ending with a trailing comma, losing the compact, declarative punch of the original verdict-style line about a lifetime spent on medicine."
+          "justification": "The candidate uses the non-idiomatic phrase “knock your horns off,” exactly the wording the analysis warned against; this reads awkwardly in English and weakens the naturalness of the threat formula. The final clause is also stretched across lines and ends with a trailing comma, losing the compact, verdict-like punch of the Russian ending."
         }
       ]
     },
@@ -83,7 +83,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders «нехороший человек» as “bad person,” which flattens the oddly euphemistic, restrained moralizing quality of the Russian phrase that the analysis highlights. The rest (including the rough insult “the bastard!”) preserves register, but the neutral “bad person” weakens the comic failure of re-education."
+          "justification": "Rendering «нехороший человек» as “bad person” flattens the oddly euphemistic, moralizing register that is crucial to the joke. The rest (the radiator incident and the closing insult) preserves the comic collapse of register."
         }
       ]
     },
@@ -120,14 +120,7 @@
         "language_specific": {}
       },
       "candidate": "That's all, folks! No more movie. We used up the electricity.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Opening with “That's all, folks!” introduces a cultured cartoon catchphrase not present in the original's unschooled phrasing. The candidate keeps the ‘used up electricity’ idea, but the added cultural reference changes the unschooled, blunt comic voice the analysis describes."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -209,10 +202,10 @@
       "candidate": "Yes, yes. Economic Crimes Police, I guess!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate expands ОБХСС into “Economic Crimes Police, I guess!” which destroys the acoustic/code-switching joke based on the abrupt sound echo between the speaker's broken “Yes, yes” and the acronym. The translation sacrifices the comic phonetic effect that the analysis identifies as central."
+          "justification": "Expanding ОБХСС to “Economic Crimes Police, I guess!” removes the brief acoustic echo between the beginner English “Yes, yes” and the terse acronym that the analysis highlights. The comic code-switch/rhyme effect is weakened by the expansion."
         }
       ]
     },
@@ -234,7 +227,14 @@
         }
       },
       "candidate": "Hey, citizen! Don't go there.\nCome this way!\nSnow hit head there.\nYou be completely dead!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate smooths the original’s slightly ungrammatical address by using the standard word “citizen,” which reduces part of the comic effect tied to Vasily’s non-native phrasing. Some lines retain the blunt brokenness, but the initial register slip is less pronounced than in the source."
+        }
+      ]
     },
     {
       "id": 12,
@@ -329,7 +329,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate’s “You stupid woman.” keeps the direct address but softens the specifically feminine insult structure and bluntness of «дура». The analysis asks to preserve the feminine–masculine–feminine sequence and the sharper feminine insult; this rendering is slightly milder and more neutral in tone."
+          "justification": "“You stupid woman” preserves the feminine-directed insult but is slightly more neutral and less colloquially sharp than the Russian «дура», which has a brusquer, more directly gendered tone in context."
         }
       ]
     },
@@ -356,7 +356,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «параша» as “cell bucket” reduces the term to a literal toilet image and loses the strong prison-argot force that assigns someone the lowest social status in the cell. The analysis recommends a prison-status slang equivalent rather than a sanitary literalization, so this choice weakens the intended contempt."
+          "justification": "Translating «параша» as “cell bucket” makes the line more literally sanitary and reduces the term’s function as a strong piece of prison-status argot. The original assigns the addressee to the lowest rank of the inmate hierarchy; the candidate turns that into a cruder object-image rather than preserving the prison-status insult."
         }
       ]
     },
@@ -381,23 +381,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "The use of “hooligans” is a dated/marked choice and the analysis warned against such terms; a more contemporary, natural-sounding label would better preserve the line’s comic effect. The formal phrasing “are depriving me of my sight” is acceptable, but the attacker label should be updated."
+          "justification": "Using “hooligans” is somewhat dated/British and less natural for contemporary, neutral English; the analysis recommends a more natural, modern term. The formal phrasing “depriving me of my sight” is acceptable, but the attacker label choice weakens register."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 0,
+      "minor": 7
     },
-    "total_points": 15,
+    "total_points": 7,
     "meaning_units": 18,
-    "penalty_per_unit": 0.8333333333333334,
-    "major_equiv_per_unit": 0.16666666666666669,
-    "interpretation": "0.83 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.3888888888888889,
+    "major_equiv_per_unit": 0.07777777777777778,
+    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Boas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.\nBoas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The whole greeting is duplicated within the same segment, although the source contains it only once. This adds text that is not in the source. The meaning is intact: the candidate keeps 'son o tsar', so Bunsha still introduces himself as the Tsar, and it keeps the repetitive Soviet-style politeness."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -143,14 +136,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello… Si! Manxar de ultramar… de berenxena!\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds a repeated 'De berenxena!' that is not in the source. The core joke is preserved: eggplant spread is not called caviar, and 'Manxar de ultramar… de berenxena' keeps the inversion of status symbols. The extra echo slightly dilutes the punchline."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -170,7 +156,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The first three counts are written as digits ('3') but the last one is the word 'tres'. This is inconsistent and less natural in subtitles. It also muddles the build-up where the count of jackets is first forgotten. The list and the 'unha chaqueta… de ante… tres' joke are preserved."
+          "justification": "The candidate writes the first three items with the digit '3' but ends with the word 'tres'. This inconsistency is distracting and weakens the rhythm of the escalating list. The meaning, the items and the suede-jacket slip are all preserved."
         }
       ]
     },
@@ -193,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

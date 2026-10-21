@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, go on, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and the teasing challenge, but it loses some of the heightened theatrical, self-dramatizing flavor signalled in the analysis (the archaic 'Pray, tell me' register). The line is more plain-spoken and therefore slightly weaker stylistically."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "how about we\nknock back a little one?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The phrase \"knock back a little one\" is understandable and colloquial, but slightly awkward in English. A more natural phrasing would omit \"little\" or reorder the words (e.g. \"knock back a quick one\"). The candidate nonetheless preserves the informal, convivial tone required by the analysis."
+        }
+      ]
     },
     {
       "id": 3,
@@ -76,9 +76,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "Using 'conscience' is a literal rendering of 'совести' but changes the idiomatic force of the maxim. The reference's 'do your duty' better conveys the soldierly fatalism and moral-duty register described in the analysis; 'live for conscience' sounds awkward and less idiomatic in English."
+          "justification": "\"They live for conscience\" is grammatical but sounds stilted and shifts the idiomatic weight compared with the reference's pragmatic \"you live to do your duty.\" The candidate keeps the fatalistic meaning but weakens the blunt, soldierly register the analysis highlights."
         }
       ]
     },
@@ -115,14 +115,7 @@
         }
       },
       "candidate": "Some chef!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'Some chef!' is natural English but flattens the biting home-spoken ironical insult that the analysis highlights; the reference's fuller phrasing ('Some cook you are!') carries the same sarcastic reproach more clearly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -195,9 +188,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits the idiom and opts for a more literal phrasing ('This is my cross! And I must bear it.') which weakens the fixed English idiom 'a cross to bear' and the emphatic, self-important exclusivity ('and mine alone') emphasized in the analysis."
+          "justification": "Splitting the English idiom into \"This is my cross! / And I must bear it.\" loses the fixed-phrase punch of \"a cross to bear.\" The candidate conveys the same manipulative sense but renders the idiom less natural and slightly more literal, reducing the original idiomatic emphasis."
         }
       ]
     },
@@ -224,7 +217,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular'—a literal rendering of 'угловатая'—which the analysis warns against; in English it reads oddly and a bit stilted. The repetitive 'all of me' also creates slight awkwardness compared with the more natural rhythmic self-mockery in the reference."
+          "justification": "Using \"angular\" is a too-literal rendering of «угловатая» and reads awkwardly in this self-mocking, coquettish register. The candidate preserves the stuttering/repetition pattern but the lexical choice weakens the naturalness and comic effect described in the analysis."
         }
       ]
     }
@@ -232,13 +225,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 5,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

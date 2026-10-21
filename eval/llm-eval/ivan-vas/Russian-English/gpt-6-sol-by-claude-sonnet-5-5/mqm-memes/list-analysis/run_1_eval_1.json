@@ -24,9 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Medal\" replaces \"medallion\", a small mistranslation of the lost item. The loss meaning is correctly preserved (\"missing\"), and the mock-heroic tone is largely kept with \"plagued\"."
+          "justification": "\"Plagued by vague suspicions\" keeps the sense of the mock-heroic phrase, but \"suspicions\" is flatter than \"doubts\" and the theatrical register is slightly weakened by the plain phrasing."
         }
       ]
     },
@@ -43,14 +43,7 @@
         "language_specific": {}
       },
       "candidate": "Delighted. I'm the Tsar!\nA pleasure. Hello, I'm the Tsar!\nThe Tsar. Delighted!\nHello, I'm the Tsar. A pleasure!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate correctly makes clear he introduces himself as the Tsar, but it drops the repetitive, clichéd greeting rhythm, with 'Hello' appearing only twice and the exclamation marks adding a more enthusiastic tone than the drunken, mechanical politeness of the original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -145,7 +138,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Everybody dance!\" is a faithful literal rendering, but it loses the host-like, mock-grand flavor of the reference \"The floor is open to everyone!\", making Bunsha's newfound authority a bit flatter."
+          "justification": "\"Everybody dance!\" is a plain imperative and loses some of the host-like, ceremonial tone of the reference (\"The floor is open to everyone\"), though it still conveys Bunsha's uninhibited party-leading."
         }
       ]
     },
@@ -167,14 +160,7 @@
         }
       },
       "candidate": "Well, I picked the right place to drop in!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Drop in\" and \"picked the right place\" correctly suggest he has just arrived, so it is not misleading about leaving. However, \"picked the right place\" adds a sense of deliberate choice that is absent from the casual, lucky tone of the source."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -194,14 +180,7 @@
         }
       },
       "candidate": "Black caviar, red caviar...\nAh, yes! A delicacy from overseas...\nEggplant spread!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate avoids calling eggplant spread \"caviar\", as required. But it drops the 'baklazhannaya' twist's setup slightly by splitting \"overseas delicacy\" and \"Eggplant spread\" across lines, and \"delicacy\" replaces \"spread/caviar\", which weakens the parallel with the preceding caviars that makes the punchline work."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -221,14 +200,7 @@
         }
       },
       "candidate": "Three tape recorders,\nthree movie cameras,\nthree locally made cigarette cases,\na suede jacket... three.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits the count of three for the suede jacket's setup in the same way as the source, preserving the joke. However, \"locally made\" attached to the cigarette cases is reasonable, while the hesitant pauses (\"domestic…\", \"suede…\") that suggest Shpak improvising are lost."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -243,26 +215,19 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you...\nand you too...\nand they'll cure me.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate says \"and they'll cure me\" without the trailing ellipsis, so it loses the melodic, trailing, resigned quality of the original delivery, and the final line sounds more conclusive than dreamy."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 2
     },
-    "total_points": 7,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

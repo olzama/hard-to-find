@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction to greet\nthe New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is an instruction\" keeps the directive/bureaucratic framing, but \"greet the New Year cheerfully\" is slightly less natural than \"celebrate merrily\" and lacks the dry managerial flavor of \"we have our instructions.\" The joke is largely preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,13 +44,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word \"коллектив\" is left untranslated in Cyrillic inside the English subtitle, which is an untranslated-material error and would be unreadable for the target audience. \"Collective\" or \"team/in-house\" was needed."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Raise one\" (instead of train/cultivate) and \"hiring\" are acceptable, but \"raise\" leans toward a child-rearing/fairy-tale image and slightly weakens the workplace-staffing logic emphasized in the analysis."
+          "justification": "The Russian word «коллектив» is left untranslated in the English subtitle, so English viewers get a Cyrillic word in the middle of the line. The workplace/'collective' logic the joke depends on is lost for them."
         }
       ]
     },
@@ -83,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Briefly\" is rendered flatly with no faux-modest, cozy diminutive quality of «коротенько», so the contrast with \"forty minutes\" is weaker. The order (briefness before duration) is preserved, and the lowercase start/missing ellipsis is minor."
+          "justification": "The sequence 'briefly' then 'forty minutes' is kept, so the comic reversal works. The faux-modest, cozy diminutive tone of «коротенько» is flattened to a plain 'just briefly', and 'more is necessary' sounds stiff, which weakens the smug managerial voice somewhat."
         }
       ]
     },
@@ -109,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation renders only the literal \"ready\" meaning; the \"ready = drunk\" double sense is not recreated. The added exclamation mark hints at cheerfulness, but the alcoholic subtext that the analysis identifies as the joke is lost for English viewers."
+          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. 'Ready' with 'been ready a long time' only gives the administrative reading, and nothing hints at intoxication, so the alcoholic joke disappears."
         }
       ]
     },
@@ -135,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... A-oo!\" preserves the faltering, unstable vocalization, but the \"People!\" lacks the stretched, broken syllabification (\"Peo-ple\") that conveys the drunken wobble, and \"A-oo\" is a less recognizable calling sound than \"hellooo.\""
+          "justification": "The broken, faltering shape is partly kept with 'People!.. Ah... A-oo!'. But 'People' is not stretched like 'Peo-ple', so the vocal wobble of the drunken entrance is weaker, and 'A-oo' is a less clear 'hello'-type call than the reference's 'hellooo'."
         }
       ]
     },
@@ -164,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the English-specific note explicitly says to avoid; it does not echo \"unaided eye\" so the recognizable idiom-distortion joke is lost and the phrase sounds merely strange/surreal rather than mock-scientific."
+          "justification": "'Armed eye' is the literal calque that the analysis warns against. In English it does not evoke the familiar 'unaided/naked eye' idiom, so the mangled-idiom, mock-scientific humor is lost and the phrase just sounds surreal."
         }
       ]
     },
@@ -193,7 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting and the final \"five little stars\" keep the childish progression and the pivot to cognac, but there is no note or cue making the five-star cognac association accessible, which the analysis says may be needed. \"Little stars\" also sounds nursery-rhyme-like, slightly shifting the tone."
+          "justification": "The silly counting build-up and the sudden 'five stars' punchline are kept. The cognac association is not signaled, and 'little stars' is a bit twee. The order 'four little stars—and best of all' also loosens the rhythm of the buildup."
         }
       ]
     },
@@ -219,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet in the know\" captures the colloquial personification well, and the content is accurate. The first sentence's \"science does not know\" is slightly flatter than \"unknown to science,\" and the doubled \"whether...whether\" is a bit stiff, but the register effect is largely preserved."
+          "justification": "The meaning and the conversational register are largely preserved, with 'in the know' recreating the colloquial «не в курсе дела». The doubled 'Whether there is... whether there isn't' is slightly awkward, and 'science does not know' is a little more formal than the casual original."
         }
       ]
     }
@@ -227,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 21,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 2.625,
-    "major_equiv_per_unit": 0.525,
-    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

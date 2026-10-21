@@ -31,20 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\na Baba Yaga from outside.\nWe'll cultivate one within our own team!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The added exclamation mark gives the final line an enthusiastic tone. The source is dry and matter-of-fact, and the analysis depends on that flat bureaucratic delivery."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Our own team' loses the Soviet collective flavor that the analysis ties to the workplace-as-collective joke. 'Our own collective' or 'in-house collective' would keep it."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -64,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'A brief address' drops the faux-modest, diminutive quality of 'коротенько так'. The analysis says the briefness claim needs patronizing understatement before 'forty minutes' lands, but here it reads as a plain statement."
+          "justification": "\"Brief\" is flat compared with the source diminutive \"коротенько\" and the faux-modest tone the analysis asks for. The line loses the patronizing 'just a little talk' effect that sets up 'forty minutes' as the punchline."
         }
       ]
     },
@@ -81,7 +68,14 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nHe's ready. He's been ready\nfor ages!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate renders only the administrative sense of \"готов\" ('ready'). The alcoholic double meaning ('ready' = already drunk), which the analysis identifies as the core of the joke, is absent. The analysis explicitly warns that translating only as 'ready' loses this joke."
+        }
+      ]
     },
     {
       "id": 5,
@@ -96,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "- People!... Ah... Yoo-hoo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The stretched, faltering opening is weakened. 'People!...' is not drawn out as 'Peo-ple', so the vocally unstable start that the analysis identifies as part of the joke is less pronounced. 'Yoo-hoo' is also more cheerful than the hailing 'ay-oo'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -125,10 +112,10 @@
       "candidate": "But just take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The analysis explicitly warns that a literal calque such as 'armed eye' does not work in English. It reads as surreal nonsense rather than a recognizable idiom that has been mangled into mock-scientific language, so the joke of 'unaided' being incorrectly upgraded is lost."
+          "justification": "\"An armed eye\" is the literal calque that the language-specific note says sounds stranger and more surreal in English than in Russian. It does not read as a recognizable malformation of 'naked/unaided eye'. The trailing comma also leaves the sentence hanging awkwardly."
         }
       ]
     },
@@ -153,9 +140,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Using 'little' for all five items means the final 'five little stars' does not sharply shift into the cognac-rating domain. The analysis says that click is the punchline, and the candidate gives no cue for it, unlike the reference's translator's note."
+          "justification": "The structure (trivial counting, then 'best of all') survives, but nothing in the English signals the cognac grading system, so the sudden shift into the cognac frame that the analysis calls the punchline is not conveyed. The reference compensates with a translator's note; the candidate offers no equivalent."
         }
       ]
     },
@@ -175,9 +162,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'Science does not know' is stiffer than the casual, loose register the analysis identifies as the source of the comedy. 'Science doesn't know' would keep the colloquial feel while still matching the source's flat wording."
+          "justification": "\"Is there no life on Mars?\" is an awkward, near-literal rendering of 'нет ли жизни'. It reads stiffly and is less natural than the casual register of the rest of the line."
         }
       ]
     }
@@ -185,13 +172,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 11,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.375,
-    "major_equiv_per_unit": 0.275,
-    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

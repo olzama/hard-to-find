@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a faithful literal rendering but loses the light, bouncing comic effect created by the Russian rhyme (Трус/Боюсь). The line reads more prosaic and earnest here, weakening the intended gently self-mocking, endearing tone."
+          "justification": "The candidate is a literal, neutral rendering that preserves meaning but loses the light, bouncing comic rhythm created by the Russian 'Trus/Bojus' rhyme; the line therefore reads more flatly and less endearingly than the analysis suggests it should."
         }
       ]
     },
@@ -70,10 +70,10 @@
       "candidate": "You know, signora, frau, miss,\nI’m afraid that’s impossible!\nRusso tourist...\nMoral character... verstehen?",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis highlights a playful multilingual mash-up (Russo Turisto! Obliko Morale!) that parodies faux-sophistication. The candidate renders 'Obliko Morale' as literal 'Moral character' and otherwise tones down the comic loanword performance, losing the central comic device and register clash. This significantly weakens the line's comedic and character effect."
+          "justification": "The candidate conveys the basic gag but softens the deliberate mash-up of foreign-sounding catchphrases. 'Moral character' is a clunky literalisation of 'Obliko Morale' and weakens the comic performance of faux-worldliness the analysis highlights."
         }
       ]
     },
@@ -125,7 +125,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Lyolik's original uses a non-standard, uneducated-sounding delivery. The candidate is idiomatic and clear ('old lady'), but it smooths some of the original rough, colloquial flavor that signals the character's distinctive speech."
+          "justification": "The candidate conveys the meaning but uses 'old lady' instead of the rougher colloquialism of the original ('его бабе'), mildly reducing the coarse, unrefined register characteristic of Lyolik's speech."
         }
       ]
     },
@@ -142,7 +142,14 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\neven teetotalers drink on someone else’s tab—\nand even ulcer sufferers.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning is preserved, but the original's rhythmic pairing (trezvenniki/yazvenniki) is not matched; 'ulcer sufferers' is more clinical and loses some of the proverb-like, balanced cadence the analysis calls for."
+        }
+      ]
     },
     {
       "id": 9,
@@ -177,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis points out a humorous mispronunciation of 'tablet' as a character trait. The candidate conveys the meaning ('One pill is enough') but omits the deliberate mispronunciation/mannerism that makes the line memorable and funny."
+          "justification": "The candidate is accurate, but it omits the comic effect of Lyolik's characteristic mispronunciation of 'tablet' that the analysis flags as a memorable humorous feature."
         }
       ]
     },
@@ -214,7 +221,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source is a drawn-out, melodic sigh ('Semyo-o-on'), which carries weary exasperation. The candidate's plain 'Semyon Semyonovich...' conveys the address but loses the elongated, musical delivery that communicates the character's emotion."
+          "justification": "The candidate is correct in content, but it lacks the elongated, melodic sigh and playful stretching of the patronymic present in the original, which diminishes the weary, musical quality described in the analysis."
         }
       ]
     },
@@ -231,7 +238,14 @@
         "language_specific": {}
       },
       "candidate": "May you live\non one\nsalary!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The translation preserves the curse's literal meaning but loses the theatrical pauses and weight ('Чтоб ты жил… на одну… зарплату!') that make it an effective, dramatic swearing; the line reads too straightforwardly."
+        }
+      ]
     },
     {
       "id": 14,
@@ -386,21 +400,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's intentionally nonstandard, folksy verb form adds comic stubbornness. The candidate expresses refusal clearly but replaces the humorous, uneducated verb form with a neutral idiom, losing that rustic, characterful flavor."
+          "justification": "The candidate communicates the refusal accurately but omits the intentionally nonstandard, folksy verb form that adds comic, stubborn rural flavor to the original; the line reads more standard and less characterful."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 0,
+      "minor": 8
     },
-    "total_points": 10,
+    "total_points": 8,
     "meaning_units": 23,
-    "penalty_per_unit": 0.43478260869565216,
-    "major_equiv_per_unit": 0.08695652173913043,
-    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.34782608695652173,
+    "major_equiv_per_unit": 0.06956521739130435,
+    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'Shpak has a tape recorder, the envoy has a medallion', which the analysis explicitly forbids. The items were stolen, so Shpak and the ambassador no longer have them. This reverses the meaning and destroys the logic of the connection between the thefts."
+          "justification": "The NB explicitly forbids rendering 'У Шпака — магнитофон, у посла — медальон' as possession. 'Shpak has a tape recorder, the envoy has a medallion' says they have the items, when the meaning is that each lost his item. The callback to the thefts is lost."
         },
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "'Envoy' for 'посол' is acceptable but less direct than 'ambassador'. It slightly changes the diplomatic register."
+          "justification": "'Plagued by vague doubts' keeps a fairly elevated register, but it is weaker than the mock-theatrical 'haunt me' quality. 'Envoy' is acceptable for 'ambassador'."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads 'Very pleased, Tsar!' and 'Hello, Tsar!', which sounds like Bunsha addressing a tsar. The analysis requires that he introduce himself as the Tsar. The self-introduction is lost, and the joke of the impersonation is obscured."
+          "justification": "The NB requires that Bunsha clearly introduces himself as the Tsar. 'Very pleased, Tsar!' and 'Hello, Tsar!' read as addressing the Tsar, which reverses the speaker and addressee and loses the joke of him announcing he is the Tsar."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I'm sorrowful' uses a contraction and is less archaic and solemn than 'I am in sorrow'. The high-register regal melancholy is slightly weakened, although 'Leave me be' and 'old woman' keep some of the effect."
+          "justification": "'Leave me be' and the contraction 'I'm sorrowful' are slightly more casual and less archaic than the high-register melancholy, which weakens the regal contrast. The meaning is preserved."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' reads like an address to the demons, which the NB forbids. Demons must be the subject. Dropping 'me' also makes the line less clear."
+          "justification": "'Walled up, demons!' reads as addressing the demons (vocative), which the NB explicitly rules out. Demons must be the subject, as in 'the demons have walled me in'. The omitted 'me' also blurs who was walled in."
         }
       ]
     },
@@ -125,7 +125,14 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross can do!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'That's what the life-giving cross can do!' conveys the meaning and the Tsar's conviction. The colloquial phrasing lacks the solemn, archaic tone of 'Behold the power', which slightly weakens the contrast with the modern setting."
+        }
+      ]
     },
     {
       "id": 7,
@@ -145,7 +152,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate and natural. It loses some of the host-like, mock-grand flavor of the reference 'The floor is open to everyone!'. The line still conveys the call to uninhibited celebration."
+          "justification": "'Everybody dance!' is accurate and lively, but it lacks the host-like, master-of-ceremonies flavor of Bunsha's declaration. The effect is slightly flatter, though the meaning is conveyed."
         }
       ]
     },
@@ -167,7 +174,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'I picked the right moment to drop by!' changes the meaning. It suggests good timing for a visit and misses that he has found a lucky target full of valuables. It also could mislead, as the NB warns that he has just entered. The line is not a leaving remark, but the 'good call' sense of the choice of apartment is lost."
+          "justification": "'I picked the right moment to drop by' is a reasonable idea about arriving at a lucky time. But it loses the sense of his lucky choice of apartment, which matters because Shpak's flat is full of deficit goods. It does not imply he is leaving, so the NB is not violated, but the point about the lucky choice is weakened."
         }
       ]
     },
@@ -189,7 +196,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Imported caviar... Eggplant!' calls the eggplant spread caviar. The NB warns that this confuses viewers. The satirical inversion of overseas eggplant spread as a delicacy is lost, and the punchline is flattened by the fragmented 'Eggplant!'."
+          "justification": "The NB says not to call eggplant spread 'caviar'. 'Imported caviar... Eggplant!' calls the overseas item caviar and drops the 'eggplant spread' idea, so the joke about the cheap spread posing as a rare delicacy is muddled."
         }
       ]
     },
@@ -209,9 +216,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The digits '3' are used instead of spelled-out 'three'. This is stylistically off for dialogue subtitles. The stumbling rhythm of the reference, where 'domestic' is delayed and the jacket count is forgotten, is also less pronounced. The key joke of the jacket count is preserved."
+          "justification": "The list works and the suede jacket's count comes late as in the source. But the digit '3' and the dash weaken the spoken, escalating-lie rhythm, and the pause with 'domestic' placed before the cigarette cases is lost. The effect is mostly preserved."
         }
       ]
     },
@@ -233,7 +240,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks replace the ellipses. The calm, melodic, resigned tone described in the analysis becomes more emphatic and energetic, which weakens the effect of dazed resignation."
+          "justification": "Exclamation marks make the delivery more emphatic than the melodic, calm resignation described in the analysis. The ellipses of trailing, resigned speech are lost, though the meaning is correct."
         }
       ]
     }
@@ -241,13 +248,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 30,
+    "total_points": 31,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.8181818181818183,
+    "major_equiv_per_unit": 0.5636363636363637,
+    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

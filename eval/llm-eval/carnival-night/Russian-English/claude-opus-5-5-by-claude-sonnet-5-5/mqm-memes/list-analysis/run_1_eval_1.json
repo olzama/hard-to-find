@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise our own within the collective\" keeps the in-house workplace logic, but \"raise\" leans toward child-rearing/fairy-tale tone and loses the managerial \"train/cultivate\" bureaucratic flavor. \"Baba Yaga\" is left untranslated without any cue to the toxic-colleague type, though the workplace framing (hire, collective) mostly preserves the joke."
+          "justification": "\"Baba Yaga\" keeps the fairy-tale figure, but English-speaking viewers may not read her as the nasty workplace type. The staffing logic (\"hire\", \"raise our own within the collective\") does preserve the workplace joke, so the loss is slight."
         }
       ]
     },
@@ -55,10 +55,16 @@
       "candidate": "short little talk,\nforty minutes or so, no more is\nneeded, I think,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Short little talk\" supplies the faux-modest diminutive, but the structure drops the adverbial \"briefly\" and is slightly choppy; the faux-modesty before \"forty minutes\" works, though the self-satisfied managerial tone is a bit weaker. Fragment lacks the smooth \"I don't think we need more\" flow."
+          "justification": "The line starts with \"short little talk\", which keeps the faux-modest diminutive and puts the brevity claim before the \"forty minutes\" punchline. However, the Russian «коротенько» is the speaker's own claim of brevity, while the candidate reads as a noun phrase naming the talk. This loses the pointed contradiction less sharply than the original, so the joke is weaker but still lands. Also \"no more is needed, I think\" is an awkward, inverted construction."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"no more is needed, I think\" is stilted word order and sounds unnatural for a self-satisfied manager's casual understatement."
         }
       ]
     },
@@ -78,9 +84,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Good to go\" / \"he's gone... long gone\" preserves the double sense (ready vs. out of it) and the escalation of \"давно\". However, \"gone\" reads more as departed/dead or leaving than drunk, so the intoxication subtext is somewhat less clear than \"ready\" in the reference, and \"the lecturer\" repetition is slightly clumsy."
+          "justification": "\"good to go\" / \"gone... long gone\" recreates the double sense (ready on the surface, drunk/out of it underneath), which is a good creative solution. But \"gone\" reads more as absent or dead than drunk, and the repetition \"the lecturer\" adds a stiff rhythm, so the intoxication reading is a bit weaker than in the original."
         }
       ]
     },
@@ -122,7 +128,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Un-naked eye\" does not work as the familiar-idiom deformation: it sounds like a clumsy negation of \"naked eye\" and lacks the mock-scientific \"upgraded\" feel of \"aided/unaided eye\". The analysis warns against oddness without the idiom echo; the joke of a plausibly scientific phrase going slightly wrong is only weakly conveyed, and it reads as silly wordplay rather than pseudo-learned speech."
+          "justification": "\"un-naked eye\" is a mangled idiom, which is the right idea. But it echoes \"naked eye\" with a clumsy negation that sounds merely silly rather than mock-scientific. It lacks the pseudo-upgraded, learned feel of \"aided/armed eye\" because \"un-naked\" suggests clothing, not instrumentation, so the pompous-science parody is lost."
         }
       ]
     },
@@ -149,7 +155,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Counting progression is kept trivial with \"little stars\", good, but \"Four little stars, though best of all\" blurs the build-up; \"though\" weakens the sudden click to \"five stars\" and the line is split awkwardly. The cognac association is not signaled, though the analysis notes it needs a note, so the shift is less clear."
+          "justification": "The silly counting progression is preserved, but \"four little stars, though best of all... five stars\" is awkwardly phrased: \"though\" blurs the sudden snap into the cognac frame, and \"little\" is dropped for the final \"five stars\", which does keep the click. No hint is given of the cognac association, which the analysis notes may need a note."
         }
       ]
     },
@@ -171,21 +177,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" preserves the colloquial rhythm and \"put in the loop\" keeps the casual register well. The slight weakness is \"science doesn't know that\", which is a little flat compared to \"unknown to science\", but overall the effect is retained."
+          "justification": "\"hasn't been put in the loop yet\" is a good colloquial equivalent of «не в курсе дела» and keeps the register mismatch. \"science doesn't know that\" is flat but suitably casual. The repeated \"is there no life on Mars\" is slightly clunky in English."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 2,
       "minor": 5
     },
-    "total_points": 10,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Vague doubts haunt me once again...\nShpak's tape recorder, the ambassador's medallion.\nShpak's tape recorder,\nthe ambassador's medallion.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The second line of the source is rendered twice (once as a single line, then again split across two lines), producing an unnecessary repetition within the same segment that is not in the source and is not a consecutive-segment repeat. The meaning (each lost an item) is preserved and the mock-heroic register is kept."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.\nThe Tsar, very pleased. Hello, the Tsar. Very pleased!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate repeats the full reference and then adds a further 'The Tsar, very pleased. Hello, the Tsar. Very pleased!' that has no counterpart in the source, adding redundant material. The self-introduction as the Tsar is clear and the comic effect is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -150,14 +136,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar... and yes! Overseas spread... eggplant!\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The extra 'Eggplant!' line is an added repetition not present in the source. The key point (not calling the spread 'caviar', 'overseas spread... eggplant') is preserved, so the effect is only slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -192,7 +171,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks replace the reference's ellipses, making the delivery more emphatic. The analysis stresses a melodic, calm resignation, so this loses some of the trailing, resigned tone, though the meaning is intact."
+          "justification": "The analysis describes calm, melodic resignation. The exclamation marks on the first two clauses make her sound emphatic and agitated, which weakens the eerie calm of the delivery. Only the final clause keeps the trailing ellipsis. The meaning is preserved."
         }
       ]
     }
@@ -200,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 4
+      "minor": 1
     },
-    "total_points": 4,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.36363636363636365,
-    "major_equiv_per_unit": 0.07272727272727272,
-    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

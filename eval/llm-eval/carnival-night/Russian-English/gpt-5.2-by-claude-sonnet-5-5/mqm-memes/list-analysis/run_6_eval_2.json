@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Cultivate\" plus the added \"in our own collective\" is slightly more flowery and wordy than the deadpan staffing logic of \"train one in-house\"; \"Baba Yaga\" keeps a folkloric flavor and the workplace/social-type reading is less immediate, though the in-house joke still works."
+          "justification": "\"Cultivate one in-house, in our own collective\" keeps the workplace logic and the 'grow our own' joke, but \"in our own collective\" is redundant and \"Baba Yaga\" without explanation leans on the fairy-tale rather than the recognizable nasty-woman type; the workplace reading is slightly weaker than \"witch\" in a staffing frame."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key word \"коротенько\" is rendered only as \"just briefly\", losing the diminutive, cozy faux-modesty. The line also drops the opening \"And\" and the self-satisfied \"I don't think we need more\" tone, replacing it with a flat \"I think that's enough\", so the comic contrast with \"forty minutes\" is weakened."
+          "justification": "The key word \"коротенько\" is rendered as a flat \"just briefly\" and the line begins with a lowercase fragment. The cozy, faux-modest diminutive is lost, so the contrast with \"forty minutes\" is weakened. \"I think that's enough\" also shifts the meaning from \"no more than that is needed\" to a plain statement of sufficiency, losing the smug moderation."
         }
       ]
     },
@@ -94,9 +94,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The scare quotes around \"ready\" hint at the drunk double meaning and keep the administrative setup. However, the English \"ready\" lacks a natural drunk connotation, and the quotation marks are an explicit signal rather than a recreated ambiguity, so the joke is less organic than in the reference."
+          "justification": "The scare quotes around \"ready\" do recreate the double sense (ready/drunk) and hint at the intoxication, but the wording \"The lecturer's 'ready'\" is slightly awkward and the ambiguity depends on the quotation marks rather than natural phrasing, making the joke less effortless."
         }
       ]
     },
@@ -117,14 +117,7 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... a-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"a-oo\" is a weaker rendering of the calling \"ау-у\" than \"hellooo\"; it reads as an odd sound rather than a faltering call to the crowd, though the broken drunken shape of the entrance is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -148,10 +141,10 @@
       "candidate": "But all we have to do is take a telescope...\nAnd look with the armed eye...",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against. It sounds surreal and does not echo the English \"unaided eye\", so the recognizable mock-scientific idiom distortion is lost."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns about; it sounds stranger and more surreal in English than the Russian and does not echo the familiar \"unaided eye\" idiom. It still conveys a malformed mock-scientific phrase, so the damage is limited. The ellipses also soften the pompous exclamatory delivery."
         }
       ]
     },
@@ -178,9 +171,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Little stars\" captures the childish counting well, but the line omits the \"as we can already see\" lecture framing. The reference's cognac association (5*) is not signaled; \"five little stars\" makes the sudden shift to the cognac frame less legible."
+          "justification": "The star progression and the final \"five little stars\" punchline are preserved, but \"little stars\" nudges toward a childish tone, and there is no cue that five stars means cognac, so the shift into a different semantic world may not register for English viewers. The analysis notes a translator's note may be needed. The opening \"and now we can see\" also slightly changes \"as we already see\"."
         }
       ]
     },
@@ -201,26 +194,19 @@
         }
       },
       "candidate": "Whether there is life on Mars, whether there isn’t life on Mars—\nscience doesn’t know.\nScience hasn’t gotten the memo yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Hasn't gotten the memo yet\" preserves the casual, personified register well. However, it is an idiom with an office-bureaucracy flavor and a slightly different nuance from \"not up to speed\"; the first part is also somewhat clumsy with the doubled \"whether...whether\" structure."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

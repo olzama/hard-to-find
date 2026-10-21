@@ -21,7 +21,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The opening address 'Ребята' ('Guys') is omitted. The reference keeps it, and its absence slightly weakens the group-addressed exclamation that sets up the punchline. The joke itself still works."
+          "justification": "The vocative 'Ребята' (Guys) is dropped, so the address to the group is lost. The reference keeps it as 'Guys,'."
+        },
+        {
+          "severity": "minor",
+          "category": "other",
+          "span": "",
+          "justification": "The dash marking the speaker change between Gorbunkov's line and the policeman's reply is omitted, which the reference preserves. The turn change is still clear from the line break and content, so the effect is small."
         }
       ]
     },
@@ -348,7 +354,14 @@
         "language_specific": {}
       },
       "candidate": "You wouldn't have the same one, but\nwith mother-of-pearl buttons?\nUnfortunately, no.\nNo? Must keep looking then!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "other",
+          "span": "",
+          "justification": "The dialogue dashes that mark each speaker turn in the source and reference are dropped, so the exchange between Gorbunkov and the saleswoman is less clearly delineated. The content itself is otherwise identical to the reference."
+        }
+      ]
     },
     {
       "id": 23,
@@ -369,13 +382,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 3
     },
-    "total_points": 1,
+    "total_points": 3,
     "meaning_units": 23,
-    "penalty_per_unit": 0.043478260869565216,
-    "major_equiv_per_unit": 0.008695652173913044,
-    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.13043478260869565,
+    "major_equiv_per_unit": 0.02608695652173913,
+    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

@@ -21,14 +21,7 @@
         }
       },
       "candidate": "Once again I'm tormented\nby vague misgivings...\nShpak loses a tape recorder,\nthe ambassador loses a medallion.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak loses a tape recorder, the ambassador loses a medallion.' The original line implies the items are missing / have been taken (they no longer have them), not an ongoing action of 'loses' in the present that suggests the loss is happening now. This shifts the temporal/aspectual meaning and risks confusing whether the items are currently missing or being lost at that moment."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -113,14 +106,7 @@
         }
       },
       "candidate": "Behold what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's 'Behold what the life-giving cross can do!' is slightly more colloquial and less stately than the reference's 'Behold the power of the life-giving cross!,' which softens the archaic, exalted register of the Tsar's line."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -163,9 +149,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate 'Now this is a lucky place to drop in!' captures the basic reaction but uses a colloquial phrasing ('drop in') and frames it as a comment about the place rather than the discovery of valuable goods. This slightly weakens the snappy, opportunistic tone tied to Soviet-era scrounging in the analysis."
+          "justification": "The phrasing 'a lucky place to drop in' is slightly awkward and colloquial compared with the concise, idiomatic reaction in the analysis ('Now, this was a good call!'). It conveys the meaning (he's pleased to have just entered) but the wording weakens the punchy, casual tone that makes the line work as a crisp, likable aside."
         }
       ]
     },
@@ -227,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

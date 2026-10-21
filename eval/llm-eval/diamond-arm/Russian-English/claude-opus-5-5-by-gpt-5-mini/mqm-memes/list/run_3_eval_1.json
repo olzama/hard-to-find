@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The policeman's retort 'Get plastered and it will be!' reads awkwardly in English. 'It will be' is vague and disrupts the punchy, mocking one-liner rhythm of the original; a smoother colloquial phrasing (e.g. 'Get plastered and you'll be!' or 'Get plastered enough and that'll be you!') would better capture the bored, amused cop-tone described in the analysis."
+          "justification": "The policeman's retort 'Get plastered and it will be!' is awkward and unidiomatic in English. It weakens the dry, mocking punchline that should treat 'being carried away' as an inevitable result of drinking; a smoother colloquial rendering (e.g. 'Get plastered and you will be!' or 'Drink enough and you'll end up there!') would better preserve the comic effect."
         }
       ]
     },
@@ -43,7 +43,14 @@
         }
       },
       "candidate": "No, no, I'm no coward,\nbut I'm scared...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate keeps the meaning but loses the light, bouncing rhythmic charm of the original 'trus / boyus' pairing; 'No, no, I'm no coward, but I'm scared...' reads as a plain admission rather than the lightly self-deprecating, rhythmic line described in the analysis."
+        }
+      ]
     },
     {
       "id": 3,
@@ -143,7 +150,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the meaning but loses the neat, rhythmic pairing present in the Russian ('trezvenniki / yazvenniki'). 'Ulcer sufferers' is accurate but less punchy and rhythmic than the original; a more balanced, rhythmic pair would preserve the proverb-like delivery."
+          "justification": "The candidate preserves meaning but loses the rhythmic, balanced pairing (trezvenniki/yazvenniki) that gives the original its proverbial, musical quality. 'Ulcer sufferers' is accurate but the line would benefit from a crisper, more rhythmic pairing to match the original's effect."
         }
       ]
     },
@@ -210,7 +217,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source is a melodic, elongated sigh ('Semyo-o-on Semyonych!'). The candidate 'Semyon Semyonovich...' is correct but flattens the drawn-out, musical disappointment; it loses some of the weary, stretched-out cadence that functions as a gentle facepalm in the analysis."
+          "justification": "The candidate loses the elongated, melodic sigh ('Semyo-o-on') that conveys weary exasperation. Rendering as 'Semyon Semyonovich...' preserves meaning but softens the musical, drawn-out effect described in the analysis."
         }
       ]
     },
@@ -275,9 +282,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The repetition in the candidate becomes awkward: 'turn into... the trousers... elegant shorts!' reverses the expected focal stress and slightly muddles the telegraphed transformation sequence. The comedic tension from the repeated verbal stumble is preserved but the phrasing reads clumsy and disrupts the intended rhythm."
+          "justification": "The candidate reproduces the repetition but the word order ('turn into... the trousers... elegant shorts!') is slightly clumsy and disrupts the comic cadence; it reads less confidently performative than the reference's playful inversion."
         }
       ]
     },
@@ -311,10 +318,10 @@
       "candidate": "Buy a stack of tickets, and you'll get...\nA water jet!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The original joke hinges on the absurd industrial prize ('водокачку' / a water-pumping unit or pump rack) as a mocked reward; the candidate's 'A water jet!' changes the object to something nonsensical and far less appropriate as a lottery 'prize', undermining the intended anti-climax and humor."
+          "justification": "Rendering 'Водокачку!' as 'A water jet!' is an odd lexical choice. The original implies an industrial/waterworks prize (water pump/station); 'water jet' is ambiguous and weakens the specifically absurd, industrial flavor of the punchline."
         }
       ]
     },
@@ -366,7 +373,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Gena's affected, slightly Frenchified pronunciation of 'bathe' and 'coffee' is a key comic marker of his pretentiousness. The candidate splits 'ba-ath' and uses an unmarked 'coffee' without the coquettish mispronunciation ('coff-ey' or similar), so the aristocratic affectation is weakened."
+          "justification": "The candidate conveys the meaning and priorities but loses Gena's affectation of pronunciation for 'coffee' ('kof-e'), which is a character-signalling joke about his pretensions. Using a marked pronunciation would better match the analysis."
         }
       ]
     },
@@ -403,14 +410,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 0,
+      "minor": 7
     },
-    "total_points": 10,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.43478260869565216,
-    "major_equiv_per_unit": 0.08695652173913043,
-    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

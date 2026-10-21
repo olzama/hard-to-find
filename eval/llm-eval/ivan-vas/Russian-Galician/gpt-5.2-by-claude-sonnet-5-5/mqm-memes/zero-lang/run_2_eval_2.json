@@ -19,15 +19,15 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Shpak: magnetófono. O embaixador: medallón.' reads as a bare list and does not convey that the items have been lost or stolen, which the NB requires. The callback to the theft suspicion is lost."
+          "justification": "The mock-heroic, theatrical register of 'терзают смутные сомнения' is flattened: 'Vólvenme asaltar certas dúbidas' is plain and lacks the archaic, operatic flavour ('escuras sospeitas', 'de novo asáltanme') that carries the joke."
         },
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The mock-heroic, theatrical register of 'терзают смутные сомнения' is flattened. 'Vólvenme asaltar certas dúbidas' is plain and lacks the elevated, operatic tone ('escuras sospeitas'), so the humor is weakened."
+          "justification": "The NB requires that Shpak and the ambassador LOST their items. 'Shpak: magnetófono. O embaixador: medallón.' is a bare list of nouns that does not convey loss or disappearance; it could read as possession, and the callback to the thefts is lost."
         }
       ]
     },
@@ -44,7 +44,14 @@
         "language_specific": {}
       },
       "candidate": "Moito gusto, tsar!\nMoito gusto, boas, tsar!\nTsar, moito gusto!\nBoas, tsar! Moito gusto!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Moito gusto, tsar!' and 'Boas, tsar!' read as addressing a tsar (vocative), which is exactly the ambiguity to avoid; there is no 'son o tsar' self-introduction."
+        }
+      ]
     },
     {
       "id": 3,
@@ -74,7 +81,14 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, que estou triste.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'triste' is plainer than 'aflixido' and weakens the high-register, regal melancholy; the sense is preserved, though the archaic grandeur is reduced."
+        }
+      ]
     },
     {
       "id": 5,
@@ -89,7 +103,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The NB requires demons to be the subject ('the demons walled me in'). 'Emparedáronme, demos!' uses 'demos' as a vocative, so he addresses the demons, which is explicitly wrong."
+        }
+      ]
     },
     {
       "id": 6,
@@ -134,7 +155,14 @@
         "language_specific": {}
       },
       "candidate": "Que ben entrei!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Que ben entrei!' is unidiomatic and does not convey the cheerful 'what a lucky find' reaction to a jackpot of goods. It reads as just having entered well, which is vague and loses the sense of fortunate discovery."
+        }
+      ]
     },
     {
       "id": 9,
@@ -149,7 +177,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nSi! Caviar de ultramar...\nDe berinxela!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The NB forbids calling eggplant spread 'caviar'. The candidate says 'Caviar de ultramar... De berinxela!', which loses the satirical inversion and risks confusing viewers."
+        }
+      ]
     },
     {
       "id": 10,
@@ -164,7 +199,20 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 petacas nacionais,\nchaqueta de camurza... tres!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'petacas' means hip flasks, not cigarette cases (portsigar), so the status item is mistranslated."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The joke where Shpak forgets to increment the suede jacket count is only partly kept: 'chaqueta de camurza... tres!' drops the 'unha' and hesitation structure, so the comic slip is weaker."
+        }
+      ]
     },
     {
       "id": 11,
@@ -179,19 +227,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti hanche curar!\nE a ti tamén hanche curar!\nE a min hanme curar!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate uses exclamation marks, which undermines the melodic, calm resignation described in the analysis; the wording is otherwise equivalent."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 0
+      "major": 7,
+      "minor": 3
     },
-    "total_points": 10,
+    "total_points": 38,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.4545454545454546,
+    "major_equiv_per_unit": 0.6909090909090909,
+    "interpretation": "3.45 MQM penalty points per meaning unit (≈ 0.69 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "it should be me in his place.\nGet drunk—you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The policeman's retort 'Get drunk—you will be!' is slightly awkward in word order compared with the jocular idiom in the analysis/reference ('Get drunk enough, and you will be!'); the meaning and mocking tone remain, but the phrasing reads a bit stilted."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Candidate preserves the literal meaning but loses the light, bouncing comic effect created by the Russian rhyme ('trus/boyus') noted in the analysis. The line is more prosaic and lacks the intended playful rhythm."
+          "justification": "The candidate is a correct literal rendering but loses the light, bouncing comic effect of the original 'Trus/Bojus' rhyme noted in the analysis. The line reads as a straightforward admission of fear rather than the endearing, slightly playful paradox."
         }
       ]
     },
@@ -75,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nunfortunately it’s not going to happen!\nRusso touristo...\nObliko morale... fer-shteyn?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Candidate adds 'You know,' and slightly reorders the opening address, which is unnecessary but not harmful. The international-jargon gag and the mock-sophisticated terms are preserved, so this is a minor fluency/adaptation issue only."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -142,7 +128,14 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\non someone else’s dime,\neven teetotalers drink—\nand ulcer sufferers too.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the meaning accurately but loses the rhythmic pairing (trezvenniki/yazvenniki) the analysis highlights. 'Teetotalers... and ulcer sufferers' is clear but lacks the balanced, proverbial cadence of the original."
+        }
+      ]
     },
     {
       "id": 9,
@@ -177,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis highlights Lyolik's comic mispronunciation of 'tablet' as an important character tic. The candidate's neutral 'One tablet is enough...' conveys meaning but omits this specific humorous pronunciation, weakening the character voice."
+          "justification": "Meaning is preserved, but the candidate omits the humorous mispronunciation emphasis ('tab-LEHT') that contributes to Lyolik's memorable, slightly grotesque delivery."
         }
       ]
     },
@@ -209,14 +202,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source's elongated, melodic sigh ('Semyo-o-on Semyonych!') is a prosodic cue. The candidate 'Semyon Semyonovich...' correct in content but lacks the drawn-out melodic feel noted in the analysis, softening the expressive effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -356,7 +342,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis flags Gena's affected pronunciation of 'coffee' as an important comedic marker of his pretension. The candidate renders the line in plain pronunciation, preserving meaning but losing that distinctive, character-revealing pronunciation."
+          "justification": "Content is accurate, but the candidate omits Gena's affected pronunciation and faux-sophisticated delivery (e.g., 'kof-e'), which is a key comic marker in the analysis."
         }
       ]
     },
@@ -393,7 +379,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's intentionally nonstandard verb form adds a folksy, stubborn flavour to the refusal. The candidate's standard 'No, I can’t do that!' conveys the refusal accurately but removes the comic rusticism signalled in the analysis."
+          "justification": "The candidate communicates the refusal but loses the intentionally incorrect, folksy verb form that gives the original its stubborn, rural comic flavor. The more neutral phrasing reduces the characterful color."
         }
       ]
     }
@@ -401,13 +387,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 5
     },
-    "total_points": 7,
+    "total_points": 5,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.21739130434782608,
+    "major_equiv_per_unit": 0.043478260869565216,
+    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

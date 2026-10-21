@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line is duplicated in full, which is unnecessary here and makes the subtitle look cluttered, although the meaning and comic effect are preserved."
+          "justification": "The line is duplicated in full, which is unnecessary and slightly clutters the subtitle display, though it does not change the joke or meaning."
         }
       ]
     },
@@ -148,7 +148,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The extra repeated line creates avoidable clutter, but the satire and meaning remain clear."
+          "justification": "The extra repeated line breaks make the subtitle less elegant and may distract slightly, but the satirical meaning is preserved."
         }
       ]
     },
@@ -167,10 +167,10 @@
       "candidate": "tres magnetófonos, tres cámaras de cine, tres cigarreiras nacionais, unha chaqueta… de ante… tres.\ntres cigarreiras nacionais,\nunha chaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate is incomplete and garbled: it omits most of the itemized list and repeats fragments in a way that no longer matches Shpak's escalating tally of stolen goods."
+          "justification": "The candidate repeats part of the inventory in a slightly awkward way, which weakens the smooth buildup of the list, but the joke about the inflated count remains understandable."
         }
       ]
     },
@@ -192,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 0,
+      "minor": 3
     },
-    "total_points": 7,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

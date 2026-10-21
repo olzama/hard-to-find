@@ -41,13 +41,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that the line make clear he is introducing himself as the Tsar, not addressing one. The bare exclamations 'Tsar!' after 'Pleased to meet you' do not signal self-introduction and can be read as a greeting to the Tsar."
+          "justification": "The analysis requires it to be clear that Bunsha introduces himself as the Tsar. The candidate's 'Pleased to meet you. Tsar!' and reshuffled lines leave it ambiguous whether he is addressing a tsar, so the self-introduction is not reliably conveyed."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Pleased to meet you, hello.' is awkward and stilted, and weakens the rhythm of the repeated formal greeting."
+          "justification": "'Pleased to meet you, hello. Tsar!' is awkward English, and the order of 'hello' within the lines is less natural than the reference's flow."
         }
       ]
     },
@@ -104,7 +104,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Walled in!' drops the subject and the hesitant build-up of the source ('Замуровали… замуровали'), so the first line reads more clipped than the reference's 'They've walled me in...'. The meaning and the demons-as-subject reading are preserved."
+          "justification": "'Walled in!' is clipped and drops the subject of the opening line. It still conveys the trapped state, but it is less natural than the reference's 'They've walled me in...'."
         }
       ]
     },
@@ -191,13 +191,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar'. The candidate's 'Overseas caviar...' followed by 'Aubergine!' presents the eggplant product as caviar, which the analysis warns will confuse viewers. The reference's 'Overseas spread... eggplant!' avoids this."
+          "justification": "The candidate calls the eggplant spread 'Overseas caviar...', which the analysis explicitly says must not be done because it will confuse viewers. The inversion of status symbols that the joke depends on is undermined."
         },
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Aubergine!' alone does not identify the product as a spread, so the deflating reveal of the source's 'баклажанная' loses some clarity."
+          "justification": "The bare punchline 'Aubergine!' does not signal that the item is a spread, so viewers may not register the eggplant reveal as clearly as the reference's 'Overseas spread... eggplant!'."
         }
       ]
     },
@@ -221,10 +221,10 @@
       "candidate": "tape recorders, 3;\nfilm cameras, 3;\ncigarette cases, domestic, 3;\njacket, suede: three.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The ledger format (semicolons, counts after commas) turns spoken exaggeration into a written inventory. It drops the ellipses and hesitation that set up the suede-jacket beat, weakening the character's speech rhythm, though the final 'three' still lands as the punchline."
+          "justification": "The analysis says the humor lies in the count growing with each telling and in Shpak forgetting to increment the jacket count. The candidate gives every item its final count at once in a ledger format, so the escalating count and the forgotten increment are lost, and the joke's mechanism no longer works."
         }
       ]
     },
@@ -244,23 +244,29 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds 'too' to the first line ('They'll cure you too!'), which the source does not contain. This shifts the sequence so that the first line implies someone else has already been named."
+        },
+        {
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks and the added 'as well' make the lines sound agitated or hysterical. The analysis describes Ulyana's melodic, calm resignation, which the reference conveys with ellipses and which the candidate loses. The first line also reads 'You too' as if a prior 'you' were already established, unlike the source's 'И тебя вылечат'."
+          "justification": "The exclamation marks replace the source's trailing ellipses, turning the melodic, calm resignation described in the analysis into an agitated, excited delivery."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 5
     },
-    "total_points": 15,
+    "total_points": 20,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.8181818181818181,
+    "major_equiv_per_unit": 0.36363636363636365,
+    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

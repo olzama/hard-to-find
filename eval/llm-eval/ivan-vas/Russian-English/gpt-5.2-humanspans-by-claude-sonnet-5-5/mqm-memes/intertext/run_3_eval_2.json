@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly warns that 'У Шпака — У посла' means the items are missing. 'Shpak has a tape recorder, the envoy has a medallion' states possession, reversing the meaning of the stolen items."
+          "justification": "The NB says У Шпака / у посла means each lost the item, not that they have it. 'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning (possession instead of loss), breaking the callback to the thefts."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Plagued by vague suspicions' is somewhat flatter than the mock-heroic 'vague doubts haunt me'; 'suspicions' shifts from 'doubts' and the theatrical tone is weakened. 'Envoy' is also a less precise choice than 'ambassador'."
+          "justification": "'Plagued by vague suspicions' is reasonably elevated, but 'suspicions' is weaker than 'doubts' and loses a little of the mock-heroic, operatic ring of 'терзают смутные сомнения'."
         }
       ]
     },
@@ -44,14 +44,7 @@
         "language_specific": {}
       },
       "candidate": "Very nice, Tsar!\nVery nice—hello, Tsar!\nTsar, very nice!\nHello, Tsar—very nice!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The translation does not make clear that Bunsha is introducing himself as the Tsar. 'Very nice, Tsar!' and 'Hello, Tsar!' read as addressing a Tsar, which the analysis explicitly forbids. 'Very nice' is also a weak rendering of the polite formula 'very pleased to meet you', and the humor of the repeated self-introduction is lost."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -101,7 +94,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Bricked up, demons!' reads as a vocative, with the Tsar addressing the demons. The analysis requires demons to be the subject, as in 'the demons have walled me in'. 'Bricked up' also omits the 'me' and sounds like a modern idiom."
+          "justification": "'Bricked up, demons!' reads as the Tsar addressing the demons (vocative). The NB requires demons to be the subject, as in 'the demons have walled me in'. The grammatical role is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Bricked up' is a modern, flat register and loses the archaic flavor of 'замуровали'."
         }
       ]
     },
@@ -118,14 +117,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the elevated, archaic tone of the Tsar's pious exclamation ('Behold the power...'). The meaning is preserved, so the loss is minor."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -140,14 +132,7 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is accurate and fits the party mood, but it is a plain imperative that does not convey the host-like, mock-ceremonial tone of announcing a dance to all."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -167,7 +152,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Good timing' shifts the meaning from a lucky choice of apartment to a matter of timing. It is acceptable as he has just arrived, but it loses the sense of having picked a lucrative place to burgle."
+          "justification": "'Good timing' keeps the idea of arriving at a lucky moment and is not misleading about leaving, but it loses the casual 'what a good place to drop in' and the cheerful, likable-rogue tone is weakened slightly."
         }
       ]
     },
@@ -187,9 +172,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'баклажанная икра' as 'Overseas caviar… Eggplant!', so the cheap eggplant spread is called caviar. The analysis explicitly warns against this because it confuses viewers, and the joke's inversion of status items is blurred."
+          "justification": "The NB says not to call eggplant spread 'caviar'. The candidate says 'Overseas caviar… Eggplant!', which calls the spread caviar and obscures the joke that cheap eggplant spread is presented as a rare overseas delicacy."
         }
       ]
     },
@@ -211,7 +196,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'three suede jackets', so Shpak's slip, where the count fails to increase for the single suede jacket, is lost. The analysis says this is what makes the joke particularly funny. The candidate also adds invented material ('everything I earned through backbreaking labor') and changes the itemized list into a lament."
+          "justification": "The candidate adds a line about 'everything I earned through backbreaking labor' that is not in the source. It also writes 'three suede jackets' instead of one suede jacket, then 'Three'. The joke depends on Shpak forgetting to increment the jacket count and being caught, so the candidate removes the comic mechanism."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Mixing digits ('3') with the word 'three' is inconsistent and reads awkwardly."
         }
       ]
     },
@@ -233,21 +224,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate is accurate, but the future 'you'll be cured' with exclamation marks makes it brisk and emphatic. This loses the calm, melodic, resigned delivery ('they'll cure you... they'll cure me...') and the hint of the psychiatric ward through the impersonal 'they'."
+          "justification": "'And you'll be cured' loses the repeated 'they'll cure' structure that keeps the calm, singsong tone. The passive removes the implied agents (doctors) that evoke the psychiatric ward, and the exclamation marks undercut the melodic resignation."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 4,
       "minor": 5
     },
-    "total_points": 30,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

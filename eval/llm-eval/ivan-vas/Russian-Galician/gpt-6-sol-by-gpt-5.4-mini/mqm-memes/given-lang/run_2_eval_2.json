@@ -111,7 +111,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning is correct, but \"Velaquí\" clashes with the guidance to avoid \"velaí\" and sounds slightly less idiomatic for the emphatic revelatory tone than the reference."
+          "justification": "The wording is understandable and faithful, but the analysis asks to avoid 'velaí'; 'Velaquí' is slightly less natural here and weakens the target-style preference."
         }
       ]
     },
@@ -173,14 +173,7 @@
         }
       },
       "candidate": "Caviar negro, vermello… Si! Manxar de ultramar…\nde berenxena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line break before \"de berenxena!\" is awkward in a subtitle and slightly disrupts the rhythm of the punchline, though the meaning remains clear."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -205,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The first line is erroneous and incomplete: it repeats only \"tres magnetófonos, tres cámaras de cine\" instead of the full boastful list, which distorts the joke and omits the rest of the items."
+          "justification": "The first line is a duplicated fragment of the list rather than a full rendering of the joke, so the candidate omits the intended buildup and the comic final count. This significantly distorts the meaning and timing of the line."
         }
       ]
     },
@@ -227,7 +220,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first clause \"E a ti vante curar…\", so the repetition and escalating structure of the original are lost."
+          "justification": "The candidate omits the first clause 'E a ti vante curar…', which weakens the rhythmic three-part escalation of the joke and loses part of the shared-resignation effect, though the remaining text is still understandable."
         }
       ]
     }
@@ -235,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 8,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-6-sol"

@@ -18,10 +18,16 @@
       "candidate": "that should’ve been... me.\nDrink enough—will be.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Drink enough—will be\" is a clipped fragment with no subject. It reads as awkward English and weakens the cop's deadpan comeback. The opening address \"Guys\" is also dropped."
+          "justification": "The policeman's retort 'Drink enough—will be' is telegraphic and ungrammatical, so the cop's dry mockery is lost. The cause-effect logic of 'get drunk and you'll end up carried away' does not come across clearly."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Gorbunkov's heavy, dramatic 'spy thriller' declaration is flattened to a bare 'that should've been... me', and the address 'Guys' is dropped."
         }
       ]
     },
@@ -41,9 +47,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "This is a plain literal rendering. It has none of the bouncing rhythm or lighthearted, endearing effect of the Russian trus/boyus rhyme, and the analysis explicitly says to avoid a literal translation with no comic effect."
+          "justification": "A plain literal rendering. The analysis says to avoid literal translation with no comic effect. There is no rhythm, bounce or wordplay (trus/boyus), so the endearing, lighthearted tone is lost."
         }
       ]
     },
@@ -80,13 +86,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Obliko morale\" is rendered as \"Moral face\", which turns the pseudo-Italian into an English phrase. \"Russo turisto\" becomes \"Russo tourist\". The mashup of fake international loanwords that Gena uses to sound worldly is largely lost."
+          "justification": "'Облико морале' is rendered as 'Moral face', which is meaningless, and 'Russo tourist' loses the pseudo-Italian flavor. The loanword mashup that conveys faux-international sophistication is partly destroyed."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Lady\" is replaced by \"Listen\", which breaks the list of foreign forms of address (lady, signora, frau, miss)."
+          "justification": "'Lady' is rendered as 'Listen', which changes the series of foreign forms of address."
         }
       ]
     },
@@ -103,7 +109,14 @@
         "language_specific": {}
       },
       "candidate": "Boss, we’re finished! We’re finished!!!\nThey’re taking off the cast—the mark is leaving!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'The mark' is a plausible crook-slang equivalent for 'client', but 'we're finished' is a bit weaker than 'everything is lost'. The panic and the specific absurd detail of the cast still come through."
+        }
+      ]
     },
     {
       "id": 6,
@@ -135,10 +148,10 @@
       "candidate": "ice cream for the kids,\nflowers for his missus.\nDon’t mix it up, got it?\nKutuzov!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Lyolik's non-standard, uneducated speech is not reproduced. The line is neutral standard English, apart from \"missus\". \"Got it?\" is an addition."
+          "justification": "Lyolik's non-standard, uneducated speech ('нэ пэрэпутай') is not rendered. 'Don't mix it up, got it?' is neutral, and the character's distinctive voice is lost."
         }
       ]
     },
@@ -158,9 +171,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "There is no rhythm or balance between \"teetotalers\" and \"ulcer sufferers\", and the proverbial feel is gone. The ending \"and ulcer sufferers too\" is flat, and the analysis requires some creative solution here."
+          "justification": "The balanced rhythmic pairing trezvenniki/yazvenniki is lost. 'Ulcer sufferers too' is a clunky, unparallel tail. The analysis explicitly warns against a version with no rhythm and no creative solution."
         }
       ]
     },
@@ -177,7 +190,14 @@
         "language_specific": {}
       },
       "candidate": "Champagne in the morning is drunk\neither by aristocrats—or degenerates!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The rhyme/rhythmic 'social law' feel (аристократы/дегенераты) is not reproduced, although the meaning and the contrast are preserved."
+        }
+      ]
     },
     {
       "id": 10,
@@ -195,9 +215,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The joke is Lyolik's mispronunciation of \"tablet\". \"tab-let\" shows no marked pronunciation, so the memorable, funny quirk is lost."
+          "justification": "The characteristic mispronunciation of 'tablet', which makes the line memorable, is not rendered. 'Tab-let' is just a normal word, so the joke is lost."
         }
       ]
     },
@@ -234,7 +254,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The elongated, melodic sigh (Семё-он) is not conveyed. The candidate uses a plain \"Semyon Semyonovich...\", so the weary 'facepalm' tone is weaker."
+          "justification": "The elongated, melodic sigh ('Семё-он') that expresses weary patience is lost. The full name with ellipsis conveys only part of the 'facepalm' tone."
         }
       ]
     },
@@ -251,7 +271,14 @@
         "language_specific": {}
       },
       "candidate": "May you live...\non one...\nsalary!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The curse is rendered plainly. 'On one salary' loses the sense of 'nothing but your salary', which is the horror of an honest life, though the broken lines give some theatrical weight."
+        }
+      ]
     },
     {
       "id": 14,
@@ -281,7 +308,14 @@
         "language_specific": {}
       },
       "candidate": "I slipped, I fell...\na closed fracture...\nPassed out—came to—\ncast!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The staccato telegraphic quality is partly kept, but 'I slipped, I fell' adds pronouns, and the ending 'cast!' is abrupt. The mechanical mantra effect is slightly weakened."
+        }
+      ]
     },
     {
       "id": 16,
@@ -296,7 +330,14 @@
         "language_specific": {}
       },
       "candidate": "With a flick of the wrist,\nthe trousers turn into...\nthe trousers turn into...\nturn into, the trousers...\nelegant shorts!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The fourth line 'turn into, the trousers...' mimics the inversion, which is fine, but the final 'elegant shorts' is not tied to the third repetition with an ellipsis. The stuck-malfunction feel is somewhat weaker."
+        }
+      ]
     },
     {
       "id": 17,
@@ -316,7 +357,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The key device is the uneducated slip \"виноватая\" that reveals her provincial register. The candidate's standard \"It's not my fault!\" removes this and with it the parody of the seductress."
+          "justification": "The comedy depends on the uneducated, provincial slip ('виноватая'). The candidate is standard, neutral English ('It's not my fault'), so the revealed mask and register shift are lost."
         }
       ]
     },
@@ -338,7 +379,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The rhyme (пачку/водокачку) is lost, and the sarcastic retort is merged into one speaker's line. The anti-climactic rhythmic comedy of the slogan is gone."
+          "justification": "The rhymed slogan with a sarcastic anti-climax (пачку/водокачку) is lost. The candidate has no rhyme or rhythm, and the 'water pump' prize is delivered as a flat statement without the retort effect."
         }
       ]
     },
@@ -370,7 +411,14 @@
         "language_specific": {}
       },
       "candidate": "Well, if you’re ever up in Kolyma...\nNo thanks—better you come to us!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The Kolyma joke is preserved, and the culturally knowing audience gets it. 'No thanks' is a bit more explicit than the reflexive polite rejection, but it works."
+        }
+      ]
     },
     {
       "id": 21,
@@ -400,7 +448,14 @@
         "language_specific": {}
       },
       "candidate": "And do you have the same thing, but\nwith mother-of-pearl buttons?\nUnfortunately, no...\nNo, huh... we’ll keep looking...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'No, huh...' adds a tone that is not in the source, and the stalling-tactic sense of 'Будем искать' is slightly altered. The overall deficit-economy gag is still readable."
+        }
+      ]
     },
     {
       "id": 23,
@@ -420,21 +475,21 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The deliberately incorrect, folksy \"пойтить\" is rendered in neutral standard English. The rural-sounding comic emphasis described in the analysis is lost."
+          "justification": "The deliberately incorrect, folksy form ('пойтить') is rendered in standard English, so the stubborn rural-sounding comic emphasis is lost."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
-      "minor": 4
+      "major": 9,
+      "minor": 10
     },
-    "total_points": 39,
+    "total_points": 55,
     "meaning_units": 23,
-    "penalty_per_unit": 1.6956521739130435,
-    "major_equiv_per_unit": 0.3391304347826087,
-    "interpretation": "1.70 MQM penalty points per meaning unit (≈ 0.34 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.391304347826087,
+    "major_equiv_per_unit": 0.4782608695652174,
+    "interpretation": "2.39 MQM penalty points per meaning unit (≈ 0.48 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies possession. The analysis explicitly warns these phrases indicate the items are missing (they were lost/removed), not that the characters currently possess them. This reverses the meaning and destroys the intended clue/joke."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion.' The analysis explicitly notes these lines mean the items are missing (they were lost / associated with theft), not that the characters possess them. Rendering them as present possession reverses the intended meaning and undermines the joke about stolen goods."
         }
       ]
     },
@@ -41,9 +41,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires the line to read as Bunsha introducing himself as the Tsar (comically asserting 'I am the Tsar'), not addressing a Tsar. The candidate's phrasing ('Very nice, Tsar! ... Hello, Tsar!') reads like greetings directed to a Tsar rather than self-introduction, losing the core comedic premise described in the analysis and thus contradicting the required register/intent."
+          "justification": "The analysis requires that Bunsha's lines read as him introducing himself as the Tsar (not addressing an actual Tsar). The candidate ('Very nice, Tsar! ... Hello, Tsar!') reads like polite address to a person titled 'Tsar' rather than the repetitive, self-introducing, awkward formalities of a man saying 'I am the Tsar.' This misrepresents the comic premise described in the analysis."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'old girl' and 'I'm in despair' shift the line toward a modern, colloquial tone and away from the archaic, high-register phrasing ('old woman' / stately sorrow) that produces the humor contrast in the analysis. This weakens the intended regal/antique voice but does not break meaning."
+          "justification": "The candidate uses 'old girl' and 'I'm in despair.' 'Old girl' is colloquial and diminishes the archaic, high-register tone of the original 'старушка.' This weakens the contrast between the Tsar's regal speech and the modern setting; 'despair' is acceptable but the register shift matters stylistically."
         }
       ]
     },
@@ -97,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nDemons—walled me in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The NB stresses that 'demons' are the subject ('They walled me in, the demons'), not being addressed. The candidate's second line ('Demons—walled me in!') reads ambiguously as a vocative or as an exclamation and doesn't clearly present 'demons' as the agent, slightly altering the intended meaning and emphatic structure."
+        }
+      ]
     },
     {
       "id": 6,
@@ -112,14 +119,7 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's 'That's what the life-giving cross can do!' is more colloquial and less exalted than the reference's formal exclamation ('Behold the power of the life-giving cross!'), softening the archaic, religious register that underpins the joke. Meaning is preserved but the high-register tone is diminished."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -149,7 +149,14 @@
         "language_specific": {}
       },
       "candidate": "Wow. Great timing.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate ('Wow. Great timing.') is more neutral/colloquial than the reference's cheeky, self-satisfied 'Now, this was a good call!' It largely conveys positive surprise but loses a bit of the casual, slightly criminal cheerfulness specific to Miloslavsky's character."
+        }
+      ]
     },
     {
       "id": 9,
@@ -166,10 +173,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Exotic caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's sequencing ('Exotic caviar... Eggplant!') risks implying that the eggplant spread itself is the 'exotic caviar,' which the analysis explicitly warns against. The original joke relies on contrasting genuine caviar with the humble eggplant spread; the candidate's wording may confuse that distinction."
+          "justification": "The analysis warns against calling eggplant spread 'caviar.' The candidate ('Exotic caviar... Eggplant!') implies eggplant is a type of caviar, which confuses the satire: the joke depends on presenting eggplant spread as a cheap Soviet product contrasted with real caviar, not renaming it as caviar."
         }
       ]
     },
@@ -189,9 +196,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humour in the source hinges on Shpak miscounting and forgetting to increment the running total when mentioning the suede jacket. The candidate lists 'three suede jackets' directly, removing the slip-up and thereby eliminating the comedic effect described in the analysis. This substantially harms the intended joke/character portrayal."
+          "justification": "The comedic beat in the source is that Shpak hesitates and fails to correctly update the count (he first lists 'jacket... suede... Three'), which reveals his exaggeration. The candidate ('three suede jackets') removes that hesitation and produces a straightforward list, erasing the humor based on the miscount and thus changing the joke's mechanism."
         }
       ]
     },
@@ -213,14 +220,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 4,
       "minor": 3
     },
-    "total_points": 18,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

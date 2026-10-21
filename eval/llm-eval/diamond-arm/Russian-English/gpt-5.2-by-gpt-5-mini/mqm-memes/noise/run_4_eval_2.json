@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk—you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the basic meaning and the policeman's mocking undercut, but the phrasing \"Get drunk—you will be!\" sounds slightly stilted compared with the casual, deadpan cop humour in the analysis. A more idiomatic rendering (e.g. \"Get drunk enough and you'll be\") would better match the bored, amused register."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate accurately conveys the semantic contrast but loses the light, bouncy comic rhythm of the original rhyme (Trus/Bojus) that makes the line endearing rather than merely literal. A more playful cadence would better capture the intended effect."
+        }
+      ]
     },
     {
       "id": 3,
@@ -106,14 +120,7 @@
         "language_specific": {}
       },
       "candidate": "Ice cream for the kids,\nflowers for his woman.\nDon’t mix it up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate softens Lyolik's rough, uneducated register by rendering 'его бабе' as 'his woman' instead of a coarser term. This reduces the character's coarse, streetwise voice that the analysis highlights."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -163,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's comic effect relies on a specific mispronunciation of 'tablet' (phonetic humor). The candidate's neutral 'One pill is enough...' loses that distinctive spoken-character trait."
+          "justification": "The candidate conveys the meaning but drops the character's comic mispronunciation/mannerism that is an identifiable hook of the line. The loss of that phonetic humour weakens the line's memorable, character-driven effect."
         }
       ]
     },
@@ -200,7 +207,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source conveys a melodic, elongated sigh in the patronymic. The candidate's flat 'Semyon Semyonovich...' removes the elongated, weary musicality emphasized in the analysis."
+          "justification": "Meaning is preserved, but the candidate loses the elongated, melodic sigh and weary musicality of the original elongated name, which functions as a gently exasperated vocal gesture in performance."
         }
       ]
     },
@@ -217,7 +224,14 @@
         "language_specific": {}
       },
       "candidate": "May you live\non one\nsalary!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate keeps the literal curse but trims the theatrical pauses and mounting, doom-laden cadence that make the original both comic and ominous. The reduced rhythm makes the curse feel flatter."
+        }
+      ]
     },
     {
       "id": 14,
@@ -342,7 +356,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis points out Gena's affected pronunciation ('kof-e') as a comic marker of pretension. The candidate uses neutral 'coffee,' losing that affected, character-defining pronunciation and the slightly ludicrous attempt at sophistication."
+          "justification": "The candidate renders the content clearly but omits Gena's affected pronunciation and pretentious rhythm (the marked 'coff-ey' and elongated sounds) that signal his faux-aristocratic persona. This loses a layer of comic characterisation."
         }
       ]
     },
@@ -379,7 +393,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's deliberate nonstandard verb form adds a folksy, stubborn flavor to the refusal. The candidate's standard 'No, I can’t do that!' removes that dialectal comic colouring."
+          "justification": "The candidate communicates the refusal but removes the rustic, nonstandard verb form that adds comic stubbornness and a folksy tone. The loss of that linguistic quirk weakens the characterful emphasis of the line."
         }
       ]
     }
@@ -387,13 +401,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 7
     },
-    "total_points": 5,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

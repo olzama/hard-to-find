@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats the reference and then adds an untranslated, transliterated Russian line ('U Shpaka - magnitofon, u posla - medallón.'). This is leftover source material in the Spanish subtitle. It also reads as 'Shpak has a tape recorder, the ambassador has a medallion', which contradicts the analysis note that each of them lost the item."
+          "justification": "The candidate appends untranslated transliterated Russian ('U Shpaka - magnitofon, u posla - medallón') after the correct Spanish line. This is unwanted extra material that would confuse Spanish viewers and clutters the subtitle, and the transliteration literally reads as 'Shpak has a tape recorder, the ambassador has a medallion', which contradicts the NB (they lost the items)."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate appends untranslated Russian source text ('Царь, очень приятно! Здравствуйте, царь! Очень приятно!') after the correct Spanish. Untranslated Cyrillic in a Spanish subtitle breaks the viewing experience and adds a duplicate of the line."
+          "justification": "The candidate appends untranslated Russian Cyrillic text ('Царь, очень приятно! Здравствуйте, царь! Очень приятно!') after the correct Spanish. This is untranslated material that is unusable for the target audience and clutters the subtitle."
         }
       ]
     },
@@ -150,7 +150,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, rojo… ¡Sí!¡Manjar de ultramar… de berenjena!\n¡De berenjena!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate adds a redundant extra line '¡De berenjena!' after the correct translation. It duplicates the final words within the same segment, which is unnecessary and slightly clumsy, though the joke (eggplant not called caviar, 'ultramar' delicacy) is preserved."
+        }
+      ]
     },
     {
       "id": 10,
@@ -185,7 +192,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate appends untranslated Russian text ('И тебя тoже вылечат! И меня вылечат!') after the correct Spanish. This is leftover source material, and it duplicates the line in the wrong language."
+          "justification": "The candidate appends untranslated Russian text ('И тебя тoже вылечат! И меня вылечат!') after the correct Spanish. This is untranslated material that would confuse Spanish viewers and break the subtitle."
         }
       ]
     }
@@ -193,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 0
+      "minor": 1
     },
-    "total_points": 15,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

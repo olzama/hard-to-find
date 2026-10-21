@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire a Baba Yaga\nfrom outside.\nWe'll cultivate one\nwithin our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation mark at the end of 'within our own collective!' adds emphasis that the source lacks. The analysis calls for Ogurtsov's dry, managerial seriousness, and the exclamation pushes the delivery toward enthusiasm."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'He gives a nice little talk' recasts Ogurtsov's first-person proposal (коротенько так... не надо) as third-person narration, which weakens his direct, self-satisfied voice. 'Nice' adds a positive judgment not in the source. The faux-modesty of 'little' and the briefness-before-duration order are preserved."
+          "justification": "The added word \"nice\" gives the speaker a warm evaluative tone that the source lacks. Ogurtsov's self-satisfied, managerial register is weakened somewhat, although the faux-modesty of \"little talk\" and the brief-then-forty-minutes sequence are preserved."
         }
       ]
     },
@@ -75,7 +68,14 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nOh, he's ready. He's been\nwell and truly ready for ages!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Well and truly\" works mainly as an intensifier, so the intoxication subtext implied by the double meaning of «готов» is only faintly suggested. The analysis asks for the official-readiness and drunkenness readings together, and the candidate retains only the first clearly."
+        }
+      ]
     },
     {
       "id": 5,
@@ -93,9 +93,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "other",
+          "category": "style",
           "span": "",
-          "justification": "The leading dash before 'Peo-ple!' marks a speaker change or dialogue turn, but this is a single-speaker line with no preceding speech. The formatting is misleading. The hesitant 'Ah...' and the stretched, wavering call ('yoo-hoo') otherwise convey the faltering entrance well."
+          "justification": "\"Yoo-hoo\" is a bright, singsong call. The source «ау-у» is a faltering, half-collapsed cry, and the analysis stresses that the vocal instability is part of the drunken comedy. The candidate is cheerier and more controlled than the source."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The leading dash implies a speaker change or dialogue marker that the source does not show, so the line is formatted inconsistently with the rest of the subtitle sequence."
         }
       ]
     },
@@ -119,10 +125,10 @@
       "candidate": "But if we take a telescope...\nand look with the armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye', which the language-specific note explicitly flags as something to avoid because it 'sounds stranger and more surreal than the Russian'. The analysis recommends an 'aided eye'-type solution that echoes the English 'unaided eye'. The candidate therefore contradicts explicit guidance in the analysis."
+          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly says does not work in English. It sounds more surreal than the Russian, when the intended effect is a tipsy, mock-scientific mangling of a familiar idiom. The malformed-idiom mechanism is present, but the line is less natural and less controlled than the reference."
         }
       ]
     },
@@ -149,7 +155,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline depends on 'five stars' signalling the Soviet five-star cognac, a cultural boundary the analysis says must be crossed for the sudden semantic shift to land. The candidate gives no note or other means of conveying this, so for most English viewers the final line reads as generic rather than as a click into the cognac domain. The reference supplies a bracketed note, which the candidate lacks."
+          "justification": "The punchline depends on \"five stars\" clicking into the cognac frame, which is a cultural association that an English-speaking audience will not recognize. The candidate has no compensation, such as the translator's note the reference and analysis call for. The sudden shift to a different semantic world is lost, leaving a generic \"five stars are best\" line."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line begins in lowercase (\"we can see\") and then switches to capitalized lines, which is a capitalization inconsistency in the subtitle."
         }
       ]
     },
@@ -169,23 +181,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The source's 'whether there is life or not' construction, which states the uncertainty as a flat assertion, is rendered as a pair of questions ('Is there...? Isn't there...?'). This shifts the lecturer's casual, pseudo-authoritative statement toward a musing or interrogative tone. 'Science doesn't know' is terse and loses the 'still/пока' sense of ongoing uncertainty. 'Science hasn't been told yet' does capture the not-briefed idiom well."
+          "justification": "The source's neutral \"whether there is life or not\" is turned into the contradictory question pair \"Is there life on Mars? / Isn't there life on Mars?\". The restatement sounds repetitive and unnatural, and it adds a question structure that the source does not have. The core point that science doesn't know, and the casual register of the second sentence, are preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 1,
+      "minor": 7
     },
-    "total_points": 14,
+    "total_points": 12,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5,
+    "major_equiv_per_unit": 0.3,
+    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

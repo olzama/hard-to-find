@@ -24,15 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate correctly renders that the items are missing rather than possessed, preserving the key meaning. However, it uses 'tape machine' (less natural than 'tape recorder') and renders 'medallion' as 'locket', which changes the specific item and weakens the match with the reference's inventory."
-        },
-        {
-          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase 'the envoy's locket's not been seen' is awkward and colloquial in a way that slightly disrupts the mock-heroic register noted in the analysis."
+          "justification": "The lines preserve the meaning that the items are missing, but the phrasing is awkward: 'Shpak's lost a tape machine' is colloquial and 'the envoy's locket's not been seen' is stilted and unnatural for subtitle style. A smoother rendering would keep the lost/absent nuance with more idiomatic phrasing."
         }
       ]
     },
@@ -51,10 +45,10 @@
       "candidate": "Pleased to meet you, hello. Tsar!\nTsar. Pleased to meet you!\nHello. Tsar! Pleased to meet you!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that Bunsha be clearly introducing himself as the Tsar (not addressing a Tsar). The candidate repeatedly exclaims 'Tsar!' without an explicit 'I am' or clear self-introduction, creating ambiguity about whether he is declaring himself the Tsar or addressing one, which undermines the comedic premise."
+          "justification": "The candidate repeats 'Tsar!' as isolated exclamations which can read as addressing a tsar rather than Bunsha introducing himself as the Tsar. The translation should make clear he is declaring himself to be the Tsar, not speaking to one."
         }
       ]
     },
@@ -108,10 +102,10 @@
       "candidate": "Walled me in!\nWalled me in, the fiends!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian presents 'demons' as the subject who have walled him in ('They've walled me in... demons'). The candidate's 'Walled me in, the fiends!' reads like a vocative address to the fiends rather than stating that the fiends are the perpetrators, reversing the subject-role and changing the intended meaning."
+          "justification": "The candidate conveys entrapment well, but 'the fiends!' reads like a direct address (vocative) rather than making 'fiends/demons' the subject who walled him in. The original requires the demons to be the doers, not the addressees."
         }
       ]
     },
@@ -198,7 +192,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns not to present eggplant spread as 'caviar.' The candidate's line 'And overseas caviar... Aubergine!' implies the aubergine is a variety of caviar (or calls it 'overseas caviar'), which misrepresents the satirical contrast between expensive caviar and cheap eggplant spread and thus undermines the joke."
+          "justification": "The candidate renders the eggplant spread as 'overseas caviar... Aubergine', effectively calling the cheap eggplant spread 'caviar.' The analysis explicitly warns against labeling eggplant spread as caviar because the joke depends on the contrast between real caviar and humble 'eggplant caviar'—this candidate collapses that contrast and misrepresents the punchline."
         }
       ]
     },
@@ -220,14 +214,7 @@
         }
       },
       "candidate": "tape recorders, three;\ncine cameras, three;\ncigarette cases, domestic, three;\njacket, suede: three.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The humor depends on Shpak's fumbling recount—his hesitation around the suede jacket and the incremental counting that betrays him. The candidate's flat, fully enumerated list ('...jacket, suede: three') removes that stuttered comedic beat and the self-betrayal, substantially weakening the intended comic effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -242,26 +229,19 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you too!\nAnd they'll cure you as well!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate preserves the meaning and melodic repetition, but the pair 'They'll cure you too! And they'll cure you as well!' is slightly redundant and less fluid than the original rhythmical succession; it reads as a tautological repetition rather than a calm, melodic resignation."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 1,
       "minor": 3
     },
-    "total_points": 23,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

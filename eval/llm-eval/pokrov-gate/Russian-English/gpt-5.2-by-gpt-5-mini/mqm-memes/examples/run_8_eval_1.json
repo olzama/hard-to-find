@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and comic defiance but loses some of the performative, high-register self-dramatization of the reference (e.g., 'Pray, tell me' / 'Go on, I'll wait!'). The phrasing is more prosaic and less theatrically pompous than the analysis suggests."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -55,10 +48,10 @@
       "candidate": "Such lofty... lofty relations.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line is a key repeated refrain with a sarcastic stutter/performative delivery in the reference. The candidate uses a literal noun phrase ('lofty relations') and drops the stuttering/comic delivery, which undermines the established refrain and the intended sarcastic tone (the analysis explicitly warns against a literal noun-phrase rendering)."
+          "justification": "The candidate uses the literal noun 'relations' which flattens the sarcastic exclamatory punch of the original refrain. The repetition 'Such lofty... lofty relations.' reads more literal and less idiomatic than the playful, drawn-out mockery indicated in the analysis."
         }
       ]
     },
@@ -80,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is a fairly literal rendering ('People don’t live for joy, but for conscience') but reads awkwardly in English and shifts nuance from the idiomatic sense of duty/obligation ('live to do your duty') toward a more abstract 'conscience.' This makes the line less natural and weakens the soldierly fatalism described in the analysis."
+          "justification": "The phrasing 'People don’t live for joy, but for conscience' is literal and slightly awkward in English; it loses the idiomatic force of 'you live to do your duty,' which better conveys the soldierly fatalism and moral justification described in the analysis."
         }
       ]
     },
@@ -97,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "Note: I didn’t suggest it.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate conveys the intended meaning but reduces the teasingly deflective theatricality of the reference. 'Note:' is flatter and less playful than 'For the record:' used in the approved translation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -122,9 +108,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The source is an ironic, sharp rebuke using a neutral profession as an insult ('Some cook you are!'). The candidate, 'Culinary genius!', reads as positive praise rather than an ironic insult, reversing the intended meaning and destroying the comic effect."
+          "justification": "The candidate 'Culinary genius!' turns the line into an ostensibly praise-like exclamation, whereas the original is a sharp, ironic rebuke framed as a biting household insult. This reverses the intended tone and reduces the comic, imperious sting described in the analysis."
         }
       ]
     },
@@ -161,7 +147,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate's first line ('Cut it out to hell with it.') is awkward and unidiomatic in English compared with the punchy, coarse imperative in the reference. The meaning is recoverable, but phrasing is clumsy and disrupts the abrupt surgical-farce tone."
+          "justification": "The first sentence 'Cut it out to hell with it.' is awkward and unidiomatic in English. While the violent imperative and reference to peritonitis are preserved, the phrasing weakens the brusque, punchy medical-farce register of the original."
         }
       ]
     },
@@ -178,7 +164,14 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that's petty!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "The character name is rendered as 'Khabotov' instead of the established transliteration 'Khobotov' used elsewhere; this inconsistency can distract and looks like a minor transliteration error, though the line's function and tone are preserved."
+        }
+      ]
     },
     {
       "id": 10,
@@ -196,9 +189,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits and literalizes the idiom ('This is my cross! / And I’m the one to carry it.'), which weakens the fixed English idiom 'a cross to bear' and the manipulative, hyperbolic self-sacrificial tone highlighted in the analysis."
+          "justification": "The candidate splits the idiom into 'This is my cross! And I’m the one to carry it.' This literal treatment loses the compact idiomatic punch of 'a cross to bear' and therefore weakens the manipulative grandeur the character projects."
         }
       ]
     },
@@ -220,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the literal 'angular' for 'угловатая,' which the analysis warns against; this literalness reads oddly in English and undermines the coquettish, self-mocking charm of the original line, even though the general meaning is preserved."
+          "justification": "The candidate's use of 'angular' follows a literal rendering that the analysis warned against; it sounds odd in English and reduces the idiomatic, coquettish self-mockery the original conveys. The rest of the line preserves the sense, but the lexical choice is slightly awkward."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 6
     },
-    "total_points": 16,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

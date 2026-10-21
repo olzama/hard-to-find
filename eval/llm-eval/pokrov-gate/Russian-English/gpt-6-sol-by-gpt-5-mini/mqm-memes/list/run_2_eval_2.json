@@ -69,9 +69,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate replaces the duty-focused fatalism of the reference ('you live to do your duty') with the more general moral phrasing 'You do what's right.' This weakens the soldierly, institutional tone (the idea of living for conscience/duty) that the analysis highlights, though the general moral meaning remains."
+          "justification": "The candidate reduces the fatalistic, dutiful tone of the original maxim. 'You do what's right' is more general and less idiomatic than 'you live to do your duty,' making the line sound softer and less resigned than the character's blunt soldierly logic."
         }
       ]
     },
@@ -178,7 +178,14 @@
         }
       },
       "candidate": "He's my cross to bear!\nAnd I must bear it!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate uses the idiom correctly but shifts the framing from an abstract 'this (situation) is my cross to bear' to 'he's my cross to bear' (labeling a person as the burden). This slightly changes the nuance of the manipulative self-sacrifice, making it more directly personal."
+        }
+      ]
     },
     {
       "id": 11,
@@ -204,13 +211,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 1,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

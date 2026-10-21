@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk—you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The second line \"Get drunk—you will be!\" is grammatically odd and stilted in English. It preserves the policeman's mocking idea but reads awkwardly; a smoother idiom (e.g., \"Get drunk enough and you'll be\") would better match the casual, deadpan cop humor described in the analysis."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning but loses the light, bouncing comic effect of the original rhyme/rhythm (Trus/Boyus). The plain phrasing \"but I'm afraid...\" is sincere but less playful and endearing than the analysis recommends."
+        }
+      ]
     },
     {
       "id": 3,
@@ -66,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate omits the initial direct address 'Lady' and renders 'Obliko morale' as 'Moral character,' which feels slightly stiff and less idiomatically playful than the reference's mock-internationalism; the result weakens the comic performance of pseudo-sophistication."
+          "justification": "The candidate conveys the multilingual parody but flattens the faux-sophisticated mashup slightly (e.g., translating \"Obliko Morale\" as \"Moral character\" loses some of the comic pseudo-Italian/Franglais flavour). The line still works but is stylistically weaker than the analysis' target."
         }
       ]
     },
@@ -128,14 +142,7 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\non someone else’s tab even teetotalers drink—\nand ulcer sufferers too.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate conveys the meaning but loses some of the original's rhythmic parallelism (trezvenniki/yazvenniki). The phrasing 'ulcer sufferers' is accurate but flattens the balanced, proverbial cadence the analysis asks to preserve."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -170,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's comic effect rests partly on a mispronounced, memorable form of 'tablet'; the candidate uses a neutral 'One tablet is enough,' losing that small but characterful pronunciation joke."
+          "justification": "The candidate conveys the basic meaning but drops the humorous mispronunciation/phonetic quirk of the original (the comic pronunciation of \"tablet\"), which is an important characterizing trait in the analysis."
         }
       ]
     },
@@ -207,7 +214,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source is a drawn-out, melodic sigh ('Semyo-o-on Semyonych!'). The candidate's flat 'Semyon Semyonovich...' conveys the address but loses the elongated, weary musicality that communicates exasperation."
+          "justification": "The candidate is a faithful, neutral rendering but loses the elongated, melodic sigh ('Semyo-o-on') noted in the analysis. The shorter form reduces the expressive, weary tone of the original."
         }
       ]
     },
@@ -349,7 +356,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Gena's affected pronunciation of 'coffee' ('kof-e') is an important marker of pretentiousness; the candidate uses a neutral 'coffee,' losing that small character detail that underlines his faux-sophistication."
+          "justification": "The candidate preserves meaning but neutralizes Gena's affected pronunciation and aristocratic pretense (e.g., the comedic \"kof-e\"). The line becomes straightforward rather than showing the character's affected, slightly ridiculous manner of speech."
         }
       ]
     },
@@ -386,7 +393,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's folksy, ungrammatical refusal ('На это я пойтить не могу!') carries comedic stubbornness. The candidate's standard 'No, I can’t go along with that!' preserves meaning but removes the rustic, emphatic phrasing that adds humor and character."
+          "justification": "Meaning is preserved, but the candidate loses the folksy, nonstandard verb form that adds comic stubbornness in the original. The neutral phrasing \"I can’t go along with that\" misses the rustic linguistic flavor highlighted in the analysis."
         }
       ]
     }
@@ -394,13 +401,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

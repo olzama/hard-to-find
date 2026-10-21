@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The policeman's retort in the candidate ('Keep drinking—you will be.') is understandable but slightly awkward and less natural than the reference's idiomatic 'Get drunk enough, and you will be!' The phrasing weakens the punchline's casual, mocking register."
+          "justification": "The candidate preserves the meaning but flattens the clash of registers and the policeman's deadpan mockery. 'Keep drinking—you will be.' is slightly awkward and less punchy than an idiomatic cop retort (e.g. 'Get drunk enough, and you will be!'), weakening the comic deflation of Gorbunkov's heroic line."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves meaning but drops some of the light, bouncing comic effect of the Russian rhyme (trus/boyus). 'But I am scared...' is slightly plainer and less rhythmically playful than the reference's suggested rendering."
+          "justification": "Meaning is preserved, but the candidate is too literal and loses the light, bouncing comic rhythm of the original (the Trus/Boyus rhyme effect). 'but I am scared...' reads flatter and less endearing than a solution that creates a rhythmic or ironically elevated contrast."
         }
       ]
     },
@@ -180,7 +180,14 @@
         "language_specific": {}
       },
       "candidate": "Our kind of people\ndon’t take taxis to the bakery!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate 'Our kind of people...' is understandable but less idiomatic and a touch more distancing than the succinct, collective 'Our people don't...' which better conveys the original Soviet communal register."
+        }
+      ]
     },
     {
       "id": 12,
@@ -195,7 +202,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the address but loses the drawn-out, melodic sigh ('Semyo-o-on') that functions as a weary, elongated reaction. The shorter 'Semyon Semyonovich...' reduces that performative, exasperated quality."
+        }
+      ]
     },
     {
       "id": 13,
@@ -240,14 +254,7 @@
         "language_specific": {}
       },
       "candidate": "Slipped. Fell...\nClosed fracture...\nLost consciousness, came to—\na cast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate conveys the telegraphic alibi but the line 'a cast!' reads a bit abrupt and less idiomatic than 'Woke up in a cast.' The rhythm of the rehearsed list is slightly disrupted."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -267,7 +274,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The repetition in the candidate ('the trousers become... the trousers become... become trousers...') is confusing and seems to lose the intended progression toward the punchline. It reads as a small stumble in phrasing rather than the purposeful build found in the reference."
+          "justification": "The repeated lines become awkward ('become trousers...') and introduce a small incoherence compared with the original's escalating repetition that culminates in 'elegant shorts.' The candidate's repetition loses the smooth telegraphed escalation and reads clumsy."
         }
       ]
     },
@@ -377,9 +384,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate loses the intentionally nonstandard, folksy verb form ('пойтить') that adds rural stubbornness and comic flavor. The meaning of refusal remains, but the rustic voice that the analysis highlights is weakened."
+          "justification": "The candidate conveys a firm refusal but loses the intentionally incorrect, folksy verb form ('пойти' → 'пойти́ть' mispronunciation) that adds rustic stubborn humor. The translation becomes natural-sounding and misses that comic linguistic detail."
         }
       ]
     }
@@ -387,13 +394,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 5,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

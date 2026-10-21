@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the comic reversal (claiming briefness before naming ‘forty minutes’), but the rendering 'very briefly' lacks the diminutive, self-effacing nuance of «коротенько» that sharpens the understatement. This slightly weakens Ogurtsov’s faux-modest managerial voice."
+          "justification": "The candidate preserves the comic reversal (claim of briefness followed by 'forty minutes'), but the choice 'very briefly' lacks the diminutive, faux-modest tone of коро́тенько. That softer, puckish undercutting is what makes the forty-minute duration unexpectedly absurd; the current wording leans more emphatic than endearingly understated, slightly weakening the character's smug managerial voice."
         }
       ]
     },
@@ -127,10 +127,10 @@
       "candidate": "But we need only take\na telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye', which the analysis warns tends to read as oddly surreal in English. The intended mock‑scientific, slightly incorrect echo of 'the unaided/naked eye' is better conveyed with a phrase like 'the aided eye' — the current wording risks shifting the humor toward pure strangeness rather than the intended comic pseudo‑science."
+          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis explicitly warns against: in English this reads as odd and more surreal than the Russian play on 'невооружённым глазом.' The reference solution ('aided eye'/'unaided eye' echo) preserves the mock‑scientific near-idiom without producing bizarre imagery. 'Armed eye' loses the intended humorous effect and changes the register into an unintentionally strange phrasing."
         }
       ]
     },
@@ -178,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

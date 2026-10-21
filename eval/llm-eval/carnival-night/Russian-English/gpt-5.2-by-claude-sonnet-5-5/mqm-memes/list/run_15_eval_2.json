@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto welcome the New Year joyfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is an instruction\" keeps the directive/bureaucratic framing, but \"welcome the New Year joyfully\" is slightly less dryly official and less comic than \"celebrate merrily\" against the managerial register; the clash is mostly preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Raise one within our own collective\" keeps the workplace/social logic and \"collective\" is Soviet-flavored, but \"raise\" sounds more like child-rearing than the staffing/training logic of \"train in-house\"; the Baba Yaga as a toxic human type is still conveyed."
+          "justification": "Keeping 'Baba Yaga' untranslated makes the line sound fairy-tale-like and an English-speaking audience will not recognize the 'nasty woman' workplace type; the social logic is weakened. 'Collective' does preserve the Soviet workplace flavor and 'raise' keeps the deadpan staffing logic."
         }
       ]
     },
@@ -74,10 +67,10 @@
       "candidate": "just briefly—about forty minutes,\nmore than that, I think, isn’t necessary—",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive faux-modesty of \"коротенько\" is rendered with a flat \"just briefly\", which loses the cozy, self-satisfied tone the analysis says is needed for \"forty minutes\" to land as the punchline. The lowercase opening and trailing dash also make the line read as a fragment."
+          "justification": "'just briefly' is flat and lacks the faux-modest, cozy diminutive tone of 'коротенько'. The order (briefness before forty minutes) is kept, so the punchline works, but the patronizing charm is weaker."
         }
       ]
     },
@@ -103,13 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders \"готов\" only as \"ready\" and uses \"been ready for ages\", which does not create the double sense of \"drunk/done for\". The analysis explicitly warns that translating only as \"ready\" loses the alcoholic joke; there is no hint of intoxication."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The two speakers' lines are not marked with dashes, so it is unclear that this is a dialogue exchange."
+          "justification": "'Ready' alone preserves only the administrative surface meaning; the drunk subtext of 'готов' is not recreated. The phrase 'been ready for ages' adds no hint of intoxication, so the double-sense joke is lost."
         }
       ]
     },
@@ -133,9 +120,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... helloo!\" keeps the broken, wavering call, but \"People!\" is not stretched into syllables like \"Peo-ple!\", so the drunken vocal instability is slightly weaker."
+          "justification": "'People!.. Ah... helloo!' keeps some broken, wavering shape, but the first word is a clean 'People!' and is not stretched like 'Peo-ple', so the drunken vocal instability is weaker than it could be."
         }
       ]
     },
@@ -162,9 +149,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis says to avoid, because it sounds stranger and more surreal than the Russian and does not echo any recognizable English idiom (such as \"unaided eye\"). The malformed-idiom joke is lost. The candidate also drops \"all we have to do\" and the exclamatory pacing."
+          "justification": "'Armed eye' is the literal calque the notes warn against. It is more surreal than the Russian and does not echo the familiar English 'unaided eye', so the idiom-deformation effect is weaker. The meaning is intact, but the line sounds strange rather than mock-scientific."
         }
       ]
     },
@@ -193,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting is garbled: \"Four little stars\" is separated from the progression and attached to the punchline, so the build-up (two, three, four... five) is broken. The \"little stars\" for every item, including the final one, weakens the click into the cognac frame, and no cognac cue or note is given, so the derailment is unlikely to register."
+          "justification": "The progression is changed: 'Four little stars' is moved to start a new line and set off with an em dash, so the counting runs into the 'best of all' line and the sequence is broken. The cognac association is also never made available to the viewer, which was the key click into another semantic world. 'Little stars' does keep the childish counting tone."
         }
       ]
     },
@@ -219,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Whether there is life on Mars or no life on Mars\" is slightly awkward, and \"in the know\" captures the colloquial register well, but the first half is a little stiffer than the casual Russian \"есть ли... нет ли\"; the overall effect is mostly preserved."
+          "justification": "'Whether there is life on Mars or no life on Mars' is a bit stiff, and 'is not yet in the know' is slightly less casual than 'isn't up to speed'. Content and register mismatch are mostly preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 25,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 3.125,
-    "major_equiv_per_unit": 0.625,
-    "interpretation": "3.12 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

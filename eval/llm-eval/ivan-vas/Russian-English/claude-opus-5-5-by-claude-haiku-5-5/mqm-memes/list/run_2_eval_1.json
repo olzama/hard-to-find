@@ -21,14 +21,7 @@
         }
       },
       "candidate": "Once again I'm plagued\nby vague suspicions...\nShpak loses a tape recorder,\nthe ambassador loses his order.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Medallion' is rendered as 'order' (a state decoration), changing the object. The joke about the items lost still works, but the candidate's object is not the one in the source."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -48,13 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that it be clear Bunsha is introducing himself as the Tsar, not addressing one. The candidate's vocative 'Hello, tsar!' reads as greeting a tsar, so it contradicts that requirement."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Opening with 'Very pleased, hello, tsar!' reverses the source's natural greeting order and reads awkwardly in English."
+          "justification": "The analysis requires that the line be clearly a self-introduction ('I am the Tsar'), not a greeting addressed to a tsar. The candidate's 'Hello, tsar!' and 'Tsar, very pleased!' read as the vocative address the analysis explicitly warns against, so the central comic premise of Bunsha impersonating the Tsar is lost."
         }
       ]
     },
@@ -166,14 +153,7 @@
         }
       },
       "candidate": "Looks like I dropped by at just the right time!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Looks like I dropped by' turns the source's cheerful self-congratulation ('I arrived at a fortunate moment') into a neutral observation, weakening the burglar's upbeat, self-satisfied tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -196,9 +176,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's final line 'Eggplant caviar!' does exactly that and contradicts the analysis."
+          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's final line 'Eggplant caviar!' does exactly that, and it also drops the distinction between real caviar and a cheap spread on which the joke's status inversion depends."
         }
       ]
     },
@@ -225,7 +205,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Numerals ('3 tape recorders', '3 movie cameras') make the escalating list look more clinical than the spelled-out counts in the reference, weakening the comic rhythm of the list."
+          "justification": "Using numerals ('3 tape recorders, 3 movie cameras...') instead of spoken words makes the list read as a written inventory rather than Shpak's speech. This weakens the rhythm of the escalating count that the analysis highlights, though the forgotten-jacket beat ('a suede jacket... three.') still works."
         }
       ]
     },
@@ -248,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 4
+      "minor": 1
     },
-    "total_points": 14,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

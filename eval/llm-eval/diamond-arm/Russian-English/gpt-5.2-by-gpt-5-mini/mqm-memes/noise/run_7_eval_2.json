@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk—you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The policeman's retort 'Get drunk—you will be!' is slightly awkward in word order compared with idiomatic English ('Get drunk enough, and you will be!'). The intended bored, mocking tone is preserved, but the phrasing reads stilted."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the basic meaning but loses the light, bouncing comic effect created by the original rhyme and rhythm; the line reads more prosaic and less endearing than the analysis requires."
+        }
+      ]
     },
     {
       "id": 3,
@@ -66,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate replaces the faux-Italian/foreign catchphrases ('Obliko Morale', 'Russo Turisto') with literal English ('Moral character', 'Russo tourist'), which weakens the comic effect of Gena's performative international jargon and the mock-sophisticated register described in the analysis."
+          "justification": "The candidate mostly captures the multilingual gag, but the added 'You know,' and the flattening of 'Russo Turisto! Obliko Morale!' to 'Russo tourist... Moral character...' weakens the playful mock-sophistication and punchy loanword rhythm described in the analysis."
         }
       ]
     },
@@ -128,14 +142,7 @@
         "language_specific": {}
       },
       "candidate": "even teetotalers drink\non someone else’s dime—\nand ulcer patients too.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original balances rhythmic suffixes (trezvenniki / yazvenniki) to create a proverb-like cadence. The candidate conveys the meaning but flattens the rhythmical pairing, losing some of Lyolik's proverb-like punch."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -170,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis highlights a specific comic mispronunciation of 'tablet' as part of Lyolik’s character. The candidate renders the line neutrally ('One tablet is enough...'), dropping that pronounced speech quirk and losing a bit of the character's memorable voice."
+          "justification": "The line communicates the meaning but loses Lyolik's distinctive mispronunciation/playful cadence of 'таблэтки' that adds comic bite and character; the phrasing is too neutral."
         }
       ]
     },
@@ -207,7 +214,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source is a melodically elongated sigh ('Semyo-o-on Semyonych!') conveying weary, drawn-out disappointment. The candidate shortens this to a simple 'Semyon Semyonovich...', which reduces the original's musical, exasperated effect."
+          "justification": "The candidate conveys the patronymic address but drops the elongated, musical sigh ('Semyo-o-on Semyonych!') that gives the line its weary, melodic character."
         }
       ]
     },
@@ -349,7 +356,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Gena's affected pronunciation and pseudo-aristocratic diction (e.g., marked pronunciation of 'coffee') are important character markers in the analysis. The candidate not only fails to reproduce the affected 'kof-e' but also misspells 'bath' ('baath'), losing the intended pretentious vocal mannerism and introducing a small fluency error."
+          "justification": "The candidate conveys Gena's priorities but loses the affected pronunciation ('kof-e') that signals his pretentiousness. Additionally, there's a spelling/typo ('baath') that weakens fluency and distracts from the character's affected manner."
         }
       ]
     },
@@ -386,7 +393,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source uses an intentionally nonstandard folk form for emphasis ('пойти'→'пойти́ть' variant) that gives the refusal a stubborn, rural flavor. The candidate's neutral 'No, I can’t do that!' loses that rustic, folksy flavor and the comedic emphasis the original provided."
+          "justification": "The translation preserves the refusal but drops the intentionally nonstandard/folksy verb form that adds comedic stubbornness and rural color to the original; the line reads too neutral."
         }
       ]
     }
@@ -394,13 +401,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

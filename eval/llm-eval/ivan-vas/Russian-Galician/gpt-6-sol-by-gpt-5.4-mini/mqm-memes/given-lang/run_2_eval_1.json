@@ -56,14 +56,7 @@
         }
       },
       "candidate": "Esixo a continuación do banquete!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The translation is understandable and accurate, but the added exclamation mark slightly weakens the subtitle style compared with the source/reference tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -115,10 +108,10 @@
       "candidate": "Velaquí o que obra a cruz vivificante!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate uses 'Velaquí', which the analysis explicitly says to avoid; it changes the intended phrasing and loses the preferred natural Galician rendering of the line."
+          "justification": "The meaning is intact, but the use of 'Velaquí' is less idiomatic here and weakens the punch of the exclamation; the analysis specifically asks to avoid this wording."
         }
       ]
     },
@@ -140,14 +133,7 @@
         }
       },
       "candidate": "Todos a bailar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The added exclamation mark is a minor subtitle-style issue; the meaning is preserved, but the formatting is less consistent with the guidance."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -167,14 +153,7 @@
         }
       },
       "candidate": "Pois si que dei cun bo sitio!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'dei cun bo sitio' means something like 'I found a good place' rather than 'I came in at a good time'; it weakens the joke about entering a well-stocked apartment and sounds misleadingly like arrival at a location rather than stumbling on a haul."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -219,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The first line is malformed and duplicated, omitting most of the actual list and the escalating joke. It fails to convey Shpak's exaggerated inventory and the comic buildup."
+          "justification": "The candidate repeats the beginning of the list instead of continuing Shpak's inventory, so it loses the joke about the escalating count and the specific enumerated items."
         }
       ]
     },
@@ -241,21 +220,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first clause about 'you' being cured, so the sequence is incomplete and the shared resignation of all three figures is lost."
+          "justification": "The first clause is omitted, so the translation no longer conveys the full three-part rhythm of 'you too, and me too', which is central to the resigned comic buildup."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 2
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 22,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-6-sol"

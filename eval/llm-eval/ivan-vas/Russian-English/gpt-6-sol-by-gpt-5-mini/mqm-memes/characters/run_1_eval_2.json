@@ -26,7 +26,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses present-tense 'loses' (Shpak loses... the ambassador loses...), which reads as an ongoing action or that they currently possess the items. The analysis explicitly notes the Russian means they have lost these items (they no longer have them). This changes the factual status and undermines the intended meaning."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak loses a tape recorder, the ambassador loses a medal,' which changes the aspect/stance: the analysis emphasises that the original means they no longer have those items (they were deprived of them), not a present-tense action of 'losing.' This alters the nuance and temporal reference and risks confusing the viewer about who possesses or has been deprived of the items."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "The candidate uses 'medal' instead of 'medallion,' a slight terminological mismatch that weakens the period/artefact specificity noted in the analysis."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original/analysis requires that Bunsha is introducing himself as the Tsar (not addressing a Tsar). The candidate's lines ('A pleasure, Tsar! ... Hello, Tsar!') read as vocative greetings addressed to a Tsar, rather than self-introductions, which contradicts the comic setup and the analysis."
+          "justification": "The candidate's lines ('A pleasure, Tsar! ... Hello, Tsar!') read as directly addressing a tsar rather than Bunsha clumsily introducing himself as 'the Tsar,' which the analysis points out is essential to the gag (he is impersonating/introducing himself). This reverses the pragmatic role and undermines the comic effect based on mistaken identity and awkward self-introduction."
         }
       ]
     },
@@ -182,10 +188,10 @@
       "candidate": "Black caviar, red caviar...\nAnd yes! Caviar from overseas...\nEggplant!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's pacing ('Caviar from overseas... Eggplant!') risks implying that the eggplant item is itself caviar or a high-status overseas caviar, whereas the analysis warns against calling eggplant spread 'caviar.' This obscures the satirical inversion between expensive caviar and the humble eggplant spread."
+          "justification": "The candidate's phrasing ('Caviar from overseas... Eggplant!') risks presenting the cheap eggplant spread as if it were caviar, which the analysis explicitly warns against. That inversion is central to the satire (eggplant spread is a low-status Soviet product, not literal caviar) and the candidate thus undermines the cultural joke."
         }
       ]
     },
@@ -210,9 +216,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humor in the original hinges on Shpak's teller failing to update the count (he lists items, hesitates, then says 'Three' again), which exposes his exaggeration. The candidate collapses this into a straightforward list ('three suede jackets') and removes the comic slip/hesitation, losing the joke's structural punch and character-revealing moment."
+          "justification": "The original joke depends on Shpak's self-contradictory counting (he lists items and the final 'Three' reveals his exaggeration). The candidate lists 'three suede jackets,' eliminating the mismatch and the comic reveal; this materially alters the humor and the character-revealing detail described in the analysis."
         }
       ]
     },
@@ -234,14 +240,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 4,
       "minor": 1
     },
-    "total_points": 16,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which treats these items as possessions. The analysis explicitly notes these items are no longer in their possession (they were lost/stolen); the line means they were 'walled off' or 'deprived' of them (i.e., each of them lost their corresponding item). Using 'has' reverses the meaning and undermines the joke about theft/loss."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies current possession. The analysis explicitly notes these phrases mean the items are missing/lost (they were taken from them). This reverses the intended meaning and breaks the joke about stolen goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source is Bunsha introducing himself as the Tsar in a repetitively awkward, self-introducing way. The candidate reads as if he is addressing an actual Tsar ('Very pleased, Tsar! ... Hello, Tsar!'), not introducing himself as the Tsar. The analysis warns this distinction is crucial; the candidate loses the comedic effect of Bunsha awkwardly claiming the role of 'the Tsar.'"
+          "justification": "The line must make clear Bunsha is introducing himself as 'the Tsar' (not addressing an actual Tsar). The candidate reads as if speaking to a Tsar ('Very pleased, Tsar!'), which misrepresents the comedic premise described in the analysis and loses the gag about him awkwardly proclaiming himself the Tsar."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original line and analysis indicate 'демоны' function as the subject (i.e., 'They (the demons) have walled me in'), not as a vocative address. The candidate's 'Walled up, demons!' reads as if the speaker is addressing the demons, changing the grammatical role and the sense of being victimized by an external agency, which undermines the intended comedic misunderstanding of modern technology as sorcery."
+          "justification": "The Russian construction makes 'demons' the subject (they walled me in). The candidate's punctuation/wording ('Walled up, demons!') reads as if the Tsar is addressing demons vocatively, which contradicts the analysis note and changes who is acting in the sentence."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross does!' preserves the basic meaning but loses the elevated, archaic register of 'Behold the power of the life-giving cross!' from the reference. This slightly weakens the grandiose, archaic tone that produces part of the joke."
+          "justification": "The candidate preserves the meaning but loses the high-register, archaic tone ('Behold the power of the life-giving cross') by using a more colloquial construction ('That’s what the life-giving cross does!'), softening the regal/religious rhetorical effect described in the analysis."
         }
       ]
     },
@@ -134,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate 'Everyone dance!' conveys the intended instruction but is slightly awkward/unidiomatic in English (would more naturally be 'Everyone, dance!' or 'Everybody dance!'). This reduces fluency but does not change meaning or tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -171,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate splits the items as 'Imported caviar... Eggplant!' which risks ambiguity about whether 'eggplant' is being labelled as caviar. The analysis warns translators not to call eggplant spread 'caviar' to avoid confusion; the candidate skirts that line and could be misread. The basic contrast is preserved, but the phrasing could mislead."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -195,10 +181,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The joke depends on Shpak's inconsistent counting—the list grows and he forgets to increment the jacket count, betraying his inflation. The candidate lists 'three suede jackets' directly, eliminating the self-contradiction and the punchline. This alters the comedic structure and significantly harms the intended effect."
+          "justification": "The original's comedic effect comes from the hesitating, self-inflating recount ('куртка… замшевая… Три') where the count grows. The candidate presents 'three suede jackets' flatly, which loses the subtle incremental reveal and weakens the humor, though the inventory meaning remains clear."
         }
       ]
     },
@@ -215,19 +201,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd they’ll cure you too!\nAnd they’ll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The reference conveys a calm, resigned, melodic repetition. The candidate's use of exclamation marks makes the lines more emphatic and less resigned, slightly altering the intended tone though the basic meaning is preserved."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 3,
       "minor": 3
     },
-    "total_points": 23,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

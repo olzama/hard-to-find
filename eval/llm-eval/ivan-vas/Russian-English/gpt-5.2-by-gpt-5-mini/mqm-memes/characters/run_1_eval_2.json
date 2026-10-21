@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which changes the meaning. The original (and analysis note) indicate these items are missing/were lost (they 'have been taken' or 'are gone'), not that the people currently possess them. This reversal undermines the joke and the investigative implication."
+          "justification": "The candidate reads 'Shpak has a tape recorder, the ambassador has a medallion,' which asserts current possession. The analysis explicitly notes these lines mean the items are missing (they were lost/stolen), not that the characters currently possess them. This reverses the intended meaning and undermines the joke about discovering stolen goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis stresses that Bunsha is introducing himself as the Tsar (repeatedly: 'I am the Tsar'), not addressing a tsar. The candidate's lines ('Very nice, Tsar! ... Hello, Tsar') read as if Bunsha is speaking to a Tsar rather than awkwardly introducing himself, losing the core comic premise of him repeatedly presenting himself as the monarch."
+          "justification": "The line must convey that Bunsha is introducing himself as 'the Tsar' (the comic effect is that he keeps presenting himself as the Tsar), not addressing someone called the Tsar. The candidate's wording ('Very nice, Tsar! ... hello, Tsar!') reads as if he is addressing a Tsar, losing the essential gag that he is simulating/introducing himself."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "candidate": "Bricked up!\nBricked up, demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The original and analysis note require that 'demons' be the subject (i.e., 'They have walled me in, the demons'), not a vocative address. The candidate's 'Bricked up, demons!' reads as addressing demons, which reverses the grammatical role and weakens the intended comic misunderstanding of technology as malicious agency."
+          "justification": "The candidate 'Bricked up, demons!' risks making 'demons' a vocative (he's addressing demons) rather than the subject who walled him in, which the analysis flags as important. The phrase 'Bricked up!' is also slightly stilted compared with the mock-archaic horror of the original, though the general idea is preserved."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "See what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'See what the life-giving cross can do!' modernizes and lightens the archaism and solemnity of the reference 'Behold the power of the life-giving cross!' The meaning is preserved, but the elevated, archaic register that heightens the joke (a historical ruler solemnly crediting a miracle) is somewhat weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -181,10 +174,10 @@
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The humor in the original relies on Shpak's stumbling recounting and the comedic inflation of the count (he hesitates over 'suede jacket' then the final 'Three' reveals his exaggeration). The candidate lists 'three suede jackets' outright, removing the performative hesitation and the punchline built into the incremental recounting, which significantly weakens the joke and character behavior."
+          "justification": "The original joke depends on Shpak's faltering recounting (jacket... suede... then realizing the count), which exposes his attempt to inflate numbers. The candidate flattens this by listing 'three suede jackets' smoothly, losing the comedic hesitancy and the reveal that makes the line funny."
         }
       ]
     },
@@ -206,14 +199,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 1
+      "major": 2,
+      "minor": 2
     },
-    "total_points": 21,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

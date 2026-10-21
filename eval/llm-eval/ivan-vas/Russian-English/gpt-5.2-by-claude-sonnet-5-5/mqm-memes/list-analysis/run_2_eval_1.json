@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate correctly conveys that the items are missing (per the NB). However, 'I'm tormented by vague doubts again' is plainer than the reference's 'haunt me', and the mock-heroic, theatrical register is somewhat weakened. The added 'missing' also loses the terse parallel 'Shpak's tape recorder, the ambassador's medallion'."
+          "justification": "'I'm tormented by vague doubts again' keeps the mock-heroic register reasonably well, but it is slightly less archaic/theatrical than 'Vague doubts haunt me once again'. The 'missing' items correctly convey loss, so the NB is respected."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Very pleased, Tsar!' and 'Hello, Tsar' read as addressing a Tsar, which is exactly the misreading the analysis warns against. The self-introduction is lost, as is the comic effect."
+          "justification": "The candidate reads as addressing a Tsar ('Very pleased, Tsar!', 'Hello, Tsar') rather than introducing himself as the Tsar. The NB explicitly requires making clear he is introducing himself, so the core joke of the drunken self-introduction is lost."
         }
       ]
     },
@@ -77,10 +77,10 @@
       "candidate": "Leave me, old woman, I’m in mourning.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'In mourning' implies bereavement and shifts the meaning from the general 'in sorrow/grief' of the source ('в печали'). It slightly narrows the Tsar's melancholy, though the archaic regal tone is mostly preserved."
+          "justification": "'I'm in mourning' changes the meaning of 'в печали' (in sorrow/melancholy) to grief for a death, which distorts the Tsar's genuine regal melancholy. It also loses the archaic, poetic register of the original."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Bricked me in' is colloquial and modern rather than archaic. It also loses the elided ellipsis hesitation. Demons are correctly the subject, so the meaning is preserved, but the register is a bit less fitting for the Tsar."
+          "justification": "'Bricked me in' is a modern, colloquial phrasing that lacks the archaic flavor of 'walled me in' (замуровали). The demons are correctly the subject, so the NB is respected and the meaning is preserved."
         }
       ]
     },
@@ -119,14 +119,7 @@
         "language_specific": {}
       },
       "candidate": "See what the life-giving Cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'See what the life-giving Cross can do!' is understandable and keeps the religious conviction, but is less solemn and archaic than 'Behold the power of...', weakening the regal tone slightly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -141,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is accurate and conveys the uninhibited party, but it is flat and loses the mock-formal, host-like flourish of the reference ('The floor is open to everyone'), which supports the comedic clash of decorum and a Soviet functionary playing master of ceremonies."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -163,7 +149,14 @@
         "language_specific": {}
       },
       "candidate": "I picked a good time to drop by!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'I picked a good time to drop by' preserves the sense of arriving, so it is not misleading about leaving. However, it shifts the meaning to good timing rather than luck in finding a jackpot of goods, weakening the 'deficit goods' point of the analysis and the cheerful burglar's remark about the haul."
+        }
+      ]
     },
     {
       "id": 9,
@@ -196,9 +189,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate keeps the joke that the jacket count is only 'one' until corrected, but 'a suede jacket—three' loses the pause and the hesitation ('...') that betray Shpak. Using digits '3' in dialogue is also less natural than spelled-out 'three', and the list loses the ellipsis rhythm."
+          "justification": "The candidate keeps the escalating count and the suede jacket slip ('a suede jacket—three'). Using numerals '3' for spoken numbers and splitting the list into lines makes the delivery slightly less natural, and the hesitation pauses of the original are flattened."
         }
       ]
     },
@@ -220,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The ellipsis-based calm, melodic resignation is replaced with exclamation marks, making her sound emphatic rather than resigned. Also, the second and third clauses 'you'll be cured too' and 'I'll be cured too' change the structure, though meaning is preserved."
+          "justification": "The candidate shifts from 'they'll cure' to a passive 'you'll be cured', and the exclamation marks lose the calm, melodic resignation described in the analysis. The meaning is preserved, and the vague agent ('they') who does the curing, which evokes the psychiatric ward, is weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 7
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 12,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

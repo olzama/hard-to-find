@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one\" is slightly more fairy-tale/parental than the workplace staffing logic of \"train one in-house\"; \"in our own collective\" does keep the Soviet workplace flavor, but the bureaucratic-HR tone is somewhat weaker."
+          "justification": "\"Raise one in our own collective\" keeps the workplace logic, but \"Baba Yaga\" is left untranslated and unexplained, so English viewers get only the fairy-tale reading and miss the 'nasty woman in the workplace' type. \"Collective\" retains the Soviet flavor, but \"raise\" is less bureaucratic than \"train\"."
         }
       ]
     },
@@ -56,9 +56,15 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The faux-modesty of «коротенько» is rendered with flat \"briefly\" and the line is fragmented with a lowercase start, so the smug managerial understatement is weak. \"No more, I don't think we need more\" is redundant and clumsy, and the comic reversal with \"forty minutes\" is blunted."
+          "justification": "The key word «коротенько» is rendered as a flat \"briefly\" with no faux-modest or cozy diminutive feel. The lowercase fragment also loses the patronizing, self-satisfied managerial tone, so \"forty minutes\" lands with less comic contrast."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"No more, I don't think we need more\" is repetitive and clumsy, which weakens the pacing of the understatement."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready\" keeps the surface administrative meaning and \"been ready for ages\" hints at the drunk subtext, which is the same approach as the reference. The exclamation mark makes it more overt and cheerful, but the double reading is largely preserved; only slightly weaker than the reference's \"quite a while\" understatement."
+          "justification": "\"Ready\" with \"ready for ages\" keeps the surface administrative sense and the long duration, but nothing in English hints at the 'drunk' subtext of «готов». The double meaning is largely lost, though the context of the scene may help the viewer."
         }
       ]
     },
@@ -99,10 +105,10 @@
       "candidate": "- People!.. Ah... Yoo-hoo!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "\"People!\" is rendered as a clean, normal word, losing the stretched, broken vocalization («Лю-ди!») that conveys the drunken faltering. The analysis explicitly warns against normalizing into a clean \"People!\". \"Yoo-hoo\" is a reasonable stand-in for «ау-у», but the instability of the opening is lost."
+          "justification": "\"People!.. Ah... Yoo-hoo!\" keeps the faltering structure and the shift to a wandering cry, but \"People!\" is not stretched or broken (as in \"Peo-ple!\"), so the slurred vocal instability is weaker."
         }
       ]
     },
@@ -147,9 +153,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The \"five stars = cognac\" association is not conveyed and no note is added, though the analysis flags it as needing a translator's note. The progression itself is kept, but the line is broken awkwardly with \"Four stars, and best of all\" separated from the counting, slightly weakening the sudden click."
+          "justification": "The progression is preserved and \"five stars\" is the final item, but the \"Four stars, and best of all\" break moves the build-up and weakens the sudden click into the cognac frame. No note or cue marks the cognac association for English viewers."
         }
       ]
     },
@@ -169,23 +175,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Whether there's life on Mars or there's no life on Mars\" is a clumsy, over-literal rendering of the parallel structure, and \"science does not know\" is somewhat more formal than the flat colloquial «это науке неизвестно». The final \"isn't up to speed\" preserves the casual register well."
+          "justification": "The meaning and casual register are preserved, including \"isn't up to speed\". \"Science does not know\" is slightly more formal than the colloquial «это науке неизвестно», so the register contrast is a little weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 14,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

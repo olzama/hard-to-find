@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak's got a tape recorder, the envoy's got a medallion\" says the two men currently possess the items. The NB says the Russian means each of them lost the item, so the meaning is reversed and the callback to the thefts is lost."
+          "justification": "\"Shpak's got a tape recorder, the envoy's got a medallion\" says they currently possess the items. The source means each of them has lost the item. The analysis explicitly warns against this reading, so it reverses the meaning."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Very nice, Tsar!\" and \"Hello, Tsar!\" read as Bunsha addressing someone else as the Tsar. The NB requires that he introduce himself as the Tsar, so the drunken self-introduction joke is lost."
+          "justification": "\"Tsar!\" reads as Bunsha addressing a Tsar, not introducing himself as one, which the analysis says must be clear. \"Very nice\" is also a weak rendering of \"очень приятно\" (pleased to meet you), so the stock social greeting that carries the joke is lost."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Bricked up, demons!\" reads as a vocative, as if the Tsar were addressing the demons. The NB requires the demons to be the subject, as in \"the demons walled me in\"."
+          "justification": "\"Bricked up, demons!\" reads as the Tsar addressing the demons, because the vocative comma is ambiguous. The analysis requires demons to be the subject, as in \"the demons have walled me in\". \"Bricked up\" is also an unnatural rendering of замуровали."
         }
       ]
     },
@@ -112,7 +112,14 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross can do!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"That's what the life-giving cross can do!\" is accurate but colloquial. It loses the solemn, archaic register of the Tsar's pious proclamation (compare \"Behold the power...\"), so the contrast with the mundane elevator is weaker."
+        }
+      ]
     },
     {
       "id": 7,
@@ -142,7 +149,14 @@
         "language_specific": {}
       },
       "candidate": "I picked a good time to drop by!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"I picked a good time to drop by\" works for arriving, so it does not suggest he is leaving. It shifts the meaning from a lucky choice of apartment (finding it full of deficit goods) to good timing, which weakens the joke about discovering the loot. This is a minor shift in focus but the core sense of a lucky visit is kept."
+        }
+      ]
     },
     {
       "id": 9,
@@ -160,15 +174,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Imported caviar... Eggplant!\" reads as eggplant caviar, and the item is never marked as a spread. The NB warns against calling it caviar, and the cheap-spread-as-overseas-delicacy inversion is blurred."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Imported\" is flatter than \"заморская\" (overseas), which carries an exotic, mock-grand tone."
+          "justification": "\"Imported caviar... Eggplant!\" calls the eggplant spread caviar, which the analysis says will confuse viewers. It also drops the cheap-spread-as-overseas-delicacy inversion, since \"eggplant\" alone doesn't land as a spread."
         }
       ]
     },
@@ -190,7 +198,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"suede jackets—three\" pluralizes the jacket. In the source, Shpak says a single jacket and only then \"Три\", and that slip betrays his exaggeration. The candidate removes that comic beat."
+          "justification": "The joke depends on Shpak forgetting to raise the suede jacket count: a single jacket, then \"Three\". The candidate pluralizes it as \"suede jackets—three\", so the slip that betrays him is gone."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Using numerals \"3\" in subtitles for spoken numbers is less natural for spoken dialogue and flattens the rhythm of his list."
         }
       ]
     },
@@ -212,21 +226,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The repeated exclamation marks make the lines sound emphatic, which weakens the calm, melodic, trailing resignation (the ellipses) described in the analysis."
+          "justification": "The exclamation marks make the lines sound cheerfully reassuring. The melodic, calm, resigned tone that turns the psychiatric-ward fear into a shared joke is lost."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 2
+      "major": 6,
+      "minor": 3
     },
-    "total_points": 27,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 2.4545454545454546,
-    "major_equiv_per_unit": 0.4909090909090909,
-    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

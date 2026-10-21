@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the literal meaning but softens the high-flown, self-dramatizing theatricality described in the analysis. The clipped 'Name one! No, I’m waiting.' is more conversational and loses some of the grand, performative tone of the reference ('Pray, tell me... I'll wait!')."
+          "justification": "The candidate captures the meaning and comedic challenge, but it flattens the heightened, mock-theatrical self-dramatization present in the reference (loses the slightly pompous 'pray, tell me' register)."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), which the analysis explicitly warns against. It loses the natural exclamatory register, the sarcastic summative force, and the comedic stutter-play of the reference ('What an evolved... highly e-v-volved relationship!'), thereby undermining the line's established refraining, ironic effect."
+          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), which defeats the sarcastic, exclamatory refrain and the comic stuttering/elevated tone the analysis requires. It reads flat and unnatural in English and misses the refrain's performative effect."
         }
       ]
     },
@@ -78,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate is a literal rendering ('People don’t live for joy—they live for conscience.') but uses 'conscience' rather than the idiomatic 'duty' which better conveys the soldierly fatalism and moral-execution feel in the analysis. The shift makes the maxim slightly less idiomatic and less aligned with the character's pragmatic tone."
+          "justification": "The literal phrasing 'live for conscience' is grammatically odd and weakens the fatalistic, duty-bound register of the original; a more idiomatic phrasing would better convey the resigned moral logic."
         }
       ]
     },
@@ -97,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "Note: I didn’t suggest it.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate ('Note: I didn’t suggest it.') keeps the meaning but flattens the charmingly defensive, almost theatrical register of the reference ('For the record: I am not the one who suggested it!'). The phrasing is more prosaic and less characterful."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -121,10 +114,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate ('Culinary genius!') risks changing the bite of the original sarcastic reproach. The analysis cautions against literal professional nouns; while this candidate conveys sarcasm, it reads more like backhanded praise than the sharp home-complaint ('Some cook you are!'), slightly altering tone."
+          "justification": "The candidate ('Culinary genius!') turns an ironic/derisive household insult into a positive compliment, reversing the intended sarcastic scorn and losing the comic effect of using a neutral professional term as an abusive jibe."
         }
       ]
     },
@@ -161,7 +154,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate ('Cut it out to hell with it. Without waiting for peritonitis.') is unidiomatic and awkward in English. It breaks the original blunt, punchy imperative into an awkward construction that reduces the comic surgical brusqueness described in the analysis."
+          "justification": "The phrasing 'Cut it out to hell with it.' is awkward and unidiomatic in English, disrupting the sharp, brusque medical imperative. The second line preserves meaning but the split and first-line wording harm fluency."
         }
       ]
     },
@@ -198,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('It’s my cross! And I’ll carry it.') conveys the literal idea but loses the idiomatic English structure ('a cross to bear') and the emphatic exclusivity ('mine alone') emphasized in the analysis. The result is less idiomatic and less theatrically manipulative."
+          "justification": "Splitting and literalizing the idiom into 'It’s my cross! And I’ll carry it.' reduces the idiomatic force of the established English phrase 'a cross to bear' and slightly weakens the manipulative grandiosity of the original."
         }
       ]
     },
@@ -220,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' to render 'угловатая', which the analysis explicitly warns against as overly literal. This choice reads awkward and weakens the intended comic self-mockery and idiomatic feel of the original characterization."
+          "justification": "Using 'angular' is a literal rendering of 'угловатая' that the analysis warns against; it sounds awkward and overly literal in English, diminishing the coquettish self-deprecation the line is meant to convey."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 7
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 12,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

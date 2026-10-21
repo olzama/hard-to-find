@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "that should’ve been me.\nKeep drinking—you will be.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The policeman's punchline \"Keep drinking—you will be.\" reads awkwardly and a bit stiff compared with the colloquial mockery in the analysis/reference. It preserves the meaning but weakens the casual, dismissive cop-humor register."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "I’m no coward...\nbut I am scared...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is a literal, straightforward rendering (\"but I am scared...\") and loses the light, bouncy comic effect and rhythmic contrast emphasized in the analysis. It works meaning-wise but is less endearing and playful than the intended tone."
+        }
+      ]
     },
     {
       "id": 3,
@@ -61,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Listen, lady—signora, frau, miss—\nunfortunately, it’s not going to happen!\nRusso tourist!\nMoral appearance! Versteh'n?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate renders 'Облико морале' as the literal 'Moral appearance!', which is slightly awkward in English and loses some of the faux-foreign, performative flourish present in the reference's loanword phrase. The line still communicates the joke but is less evocative of Gena's attempt at pseudo-sophistication."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -173,7 +180,14 @@
         "language_specific": {}
       },
       "candidate": "Our kind of people\ndon’t take taxis to the bakery!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The phrase \"Our kind of people\" slightly softens the collective, quasi-authoritative tone of the original \"Our people\" (which reads as a social boundary declaration). The meaning is preserved, but the register is a touch less definitive."
+        }
+      ]
     },
     {
       "id": 12,
@@ -188,7 +202,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The original's elongated, melodic sigh is an expressive device; \"Semyon Semyonovich...\" loses some of that drawn-out, musical disappointment. The sense is retained but the specific vocalic effect is reduced."
+        }
+      ]
     },
     {
       "id": 13,
@@ -233,14 +254,7 @@
         "language_specific": {}
       },
       "candidate": "Slipped. Fell...\nClosed fracture...\nLost consciousness, came to—\na cast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The cadence in 'Lost consciousness, came to— a cast!' is slightly awkward in English; 'came to— a cast' reads as an abrupt fragment and could flow more naturally as 'came to — and woke up in a cast.' The intended telegraphic rhythm is preserved but the phrasing is a bit clumsy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -260,7 +274,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The repeated lines include 'become trousers...' which reads oddly (seeming to revert to the original noun) and interrupts the intended escalating repetition. The overall repetition and final punchline remain, but one line is awkward and disrupts rhythm."
+          "justification": "The repetition in the candidate becomes confusing (\"become... become... become trousers...\") and interrupts the intended rising comedic rhythm toward the reveal of \"elegant shorts.\" The meaning is recoverable but the telegraphed transformation is muddled."
         }
       ]
     },
@@ -352,14 +366,7 @@
         "language_specific": {}
       },
       "candidate": "And don’t you have the same thing, but\nwith pearl buttons?\nUnfortunately, no...\nNo, huh... we’ll keep looking...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate's 'No, huh... we’ll keep looking...' contains a small hesitative filler ('huh') that feels slightly awkward and unnecessary in English. The exchange still conveys the shop-stalling tactic, but the phrasing is a bit informal/uneven compared with the concise rhythm of the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 23,
@@ -379,7 +386,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's intentionally nonstandard, folksy verb form adds comic character; the candidate's standard phrasing ('I can’t go along with that—no way!') loses that rustic, morphologically marked flavor. The refusal remains strong, but a distinctive comic feature from the original is reduced."
+          "justification": "The source's deliberately nonstandard, folksy verb form adds comic rural stubbornness. The candidate's standard refusal (\"I can’t go along with that—no way!\") preserves the refusal but loses the rustic, unpolished flavor that contributes to the humor."
         }
       ]
     }
@@ -387,13 +394,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 5,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion.' The analysis explicitly warns these phrases mean the items were lost by those people (they are the subject/agent who caused the loss or the items are gone), not that they currently possess them. The candidate therefore reverses the intended meaning."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies possession. The source/analysis make clear these items are missing (they were taken/lost). This reverses the meaning and therefore undermines the joke (it should indicate they lost the items or that the items are elsewhere)."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line must make clear Bunsha is introducing himself as the Tsar (not addressing an actual Tsar). The candidate's phrasing ('Very nice, Tsar! ... Hello, Tsar') reads as if he is greeting a Tsar rather than repeatedly introducing himself as 'the Tsar', which contradicts the analysis and the comedic point."
+          "justification": "The original/analysis require that Bunsha be heard introducing himself as the Tsar (not addressing an actual tsar). The candidate reads like a direct address to a Tsar ('Very nice, Tsar!'), which changes the comic premise (he's impersonating himself as the Tsar), losing the intended absurdity."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original means 'They've walled me in... Walled me in, the demons' (demons as the subject who did it). The candidate's lines ('Walled up!' / 'Walled up, demons!') are ambiguous and read plausibly as addressing demons (vocative) rather than stating that demons walled him in, reversing the grammatical role and undermining the intended meaning."
+          "justification": "NB specifies that 'demons' are the subject (they walled him in), not being addressed. The candidate's 'Walled up, demons!' reads as a vocative address to demons rather than indicating demons as the agents who walled him in, which reverses the sentence structure and the comedic misunderstanding of technology."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That’s what the life-giving cross can do!') conveys the meaning but loses some of the archaic, lofty tone ('Behold the power of the life-giving cross!') that creates the comic contrast in the analysis. The colloquial 'can do' weakens the regal/ritual register slightly."
+          "justification": "The candidate conveys the basic meaning but downgrades the archaic, exalted register ('Behold the power of the life-giving cross') into a more prosaic modern phrasing ('That’s what... can do'), slightly weakening the mock-religious rhetorical effect emphasized in the analysis."
         }
       ]
     },
@@ -152,9 +152,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate ('What a lucky stop!') conveys luck but uses 'stop', which is an unusual collocation for entering an apartment and may read as a public-transport metaphor. It is slightly awkward and less natural than alternatives that emphasize having 'struck lucky' on this visit."
+          "justification": "The candidate 'What a lucky stop!' conveys the general idea of a fortuitous discovery but uses a colloquial phrasing ('stop') that is less natural for entering an apartment full of goods and slightly softens the cheeky, opportunistic tone of the reference."
         }
       ]
     },
@@ -173,10 +173,10 @@
       "candidate": "Black caviar, red…\nYes! Imported caviar…\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate presents 'Imported caviar... Eggplant!' which risks presenting eggplant spread as a type of caviar (or as an imported caviar). The analysis explicitly warns not to call the eggplant spread 'caviar'—the joke depends on eggplant spread being a cheap Soviet product contrasted with real caviar. The candidate therefore misrepresents the status inversion and confuses the joke."
+          "justification": "The gag depends on the inversion where expensive caviar is abundant while 'eggplant caviar' (a cheap Soviet spread) is treated as a rare 'overseas' delicacy. The candidate separates 'Imported caviar… Eggplant!' which risks losing the ironic conflation of eggplant spread with 'caviar' and thus mildly weakens the satirical contrast."
         }
       ]
     },
@@ -196,9 +196,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate ends with 'three suede jackets' (plural) and uses numerals for some items. The original joke hinges on the slipped counting and growing tally; the candidate's rendering smooths the list and changes plurality, which slightly weakens the comic effect of the self-contradiction."
+          "justification": "The candidate preserves the list and item counts but mixes numeric forms ('3' digits then 'three' words) and renders the punchline without the subtle self-betraying hesitation about the count that the analysis highlights, making the escalation slightly less playful."
         }
       ]
     },
@@ -220,14 +220,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 23,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Comrades, there is a directive\nto see in the New Year merrily.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Directive\" keeps the bureaucratic register and the top-down mandate, and the contrast with festive content survives. \"To see in the New Year merrily\" is a slightly more idiomatic, warmer phrase than the dry official tone requires, so the deadpan clash is mildly softened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" and \"raise\" keep the workplace logic and the Baba Yaga as in-house type. \"Raise\" is a bit more upbringing-oriented than the managerial \"train/cultivate\", and keeping the untranslated \"Baba Yaga\" leans toward the folkloric. The social-type joke still comes across."
+          "justification": "\"Raise one from within our own collective\" keeps the workplace/social logic, but \"raise\" is slightly more parental than the managerial \"train/cultivate\" framing, and \"hire\" is fine. The effect is intact, with only a small loss of the bureaucratic staffing tone."
         }
       ]
     },
@@ -65,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Just briefly\" before \"forty minutes\" keeps the correct order and the comic reversal. The faux-modest, cozy diminutive quality of «коротенько» is flattened, and the self-satisfied managerial tone is reduced. The line also ends on a dangling \"I'd say,\" which is acceptable here because the sentence continues."
+          "justification": "\"Just briefly\" is flatter than the cozy diminutive faux-modesty of «коротенько». The briefness claim still precedes \"forty minutes\", so the comic reversal works, but the patronizing, self-satisfied tone is weakened."
         }
       ]
     },
@@ -87,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Well and truly ready\" gives only a faint hint of intoxication, and the \"давно готов\" idea of having been ready for a long time is missing. The reference's \"He's been ready for quite a while\" supplies this. The alcoholic subtext, which is the joke, is largely lost."
+          "justification": "The double meaning of «готов» (ready / drunk) is lost. \"Well and truly ready\" has no intoxication connotation in English, and the \"for quite a while\" element (давно готов) is dropped, so the joke disappears. Only the surface administrative reading remains."
         }
       ]
     },
@@ -126,10 +119,10 @@
       "candidate": "But we need only take\na telescope...\nAnd look with the un-naked\neye,",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Un-naked eye\" is a creative equivalent that deforms the familiar idiom \"naked eye\" and preserves the mock-scientific, slightly wrong feel. It differs from the original wordplay: it lacks the sense of being \"armed/aided\" by an instrument and is somewhat more silly than pompous. The meaning is nevertheless clear and the joke still works."
+          "justification": "\"Un-naked eye\" is a clumsy, nonsensical coinage that does not echo a recognizable English idiom (\"unaided/naked eye\") in a way that sounds like mock-scientific upgrading. It reads as odd wordplay and does not convey an armed/aided eye, so the mangled-idiom joke does not land clearly."
         }
       ]
     },
@@ -156,7 +149,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is trivial and the final \"five-star\" shift to the cognac frame is preserved. \"Five-star\" is plausibly read as cognac/hotel, so the click into a different domain is less sharp than in the original, and no cultural note is given. The reference includes a note on the cognac association, which the English audience may miss."
+          "justification": "The counting progression and the \"five-star\" punchline are preserved, but the cognac association is not explained or signaled for English viewers. Dropping \"stars\" in the final item (\"five-star\") also slightly weakens the derailment, though the shift into a different domain is still plausible via the hotel/cognac sense."
         }
       ]
     },
@@ -176,23 +169,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Kept in the loop\" is colloquial and treats science as a person not yet briefed, matching the register mismatch. The first sentence, \"or there's no life on Mars\", is a bit wordy and awkward in rhythm, slightly weakening the flat casual delivery."
+          "justification": "\"Whether there's life on Mars, or there's no life on Mars\" is slightly clumsy, with a mid-sentence line break, though it mirrors the colloquial looseness of the original. \"Kept in the loop\" keeps the casual register and personifies science well, so the effect is preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 11,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 1.375,
-    "major_equiv_per_unit": 0.275,
-    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Once again I’m tormented\nby vague misgivings...\nShpak’s missing a tape recorder,\nthe ambassador’s missing a medallion.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Tormented by vague misgivings\" keeps the mock-elevated register reasonably well, but \"misgivings\" is slightly more modern and less theatrical than the archaic 'haunt me'. The line break after 'tormented' is also awkward."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The bare \"Tsar\" and \"Hello, Tsar!\" read as Bunsha addressing a tsar, not introducing himself as the Tsar. The analysis's NB explicitly requires the self-introduction to be clear. The rendering also loses the mundane social-cliché pattern of the original (\"Hello, I'm the Tsar, very pleased\")."
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar, not that he addresses a Tsar. \"Hello, Tsar!\" reads as direct address to a Tsar, which reverses the meaning. \"Tsar—very pleased\" is ambiguous at best."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The mundane Soviet formal-greeting cliché is only partly kept. The chopped fragments lose the polite, repetitive 'Hello, I'm...' pattern that creates the comic clash of eras."
         }
       ]
     },
@@ -70,10 +83,10 @@
       "candidate": "Leave me, old woman—I'm in mourning.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"In mourning\" implies bereavement, whereas \"в печали\" means being in sorrow or grief. The contraction \"I'm\" also weakens the high-register, archaic regal tone."
+          "justification": "\"I'm in mourning\" changes the meaning: 'в печали' means sorrow or sadness, not mourning for a death. It implies a specific bereavement that the source does not state. It also loses the archaic, regal melancholy of the line."
         }
       ]
     },
@@ -90,7 +103,14 @@
         "language_specific": {}
       },
       "candidate": "Bricked in!\nBricked in, the demons!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "\"Bricked in\" conveys being walled up and keeps 'the demons' as subject, which satisfies the NB. However, it is a slightly modern, colloquial phrase and lacks the archaic flavor of 'walled in'."
+        }
+      ]
     },
     {
       "id": 6,
@@ -105,7 +125,14 @@
         "language_specific": {}
       },
       "candidate": "So that’s what the life-giving cross can do!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"So that's what the life-giving cross can do!\" conveys the Tsar's conviction, but it is casual and lacks the solemn, archaic, declarative weight of a pious proclamation like 'Behold the power...'."
+        }
+      ]
     },
     {
       "id": 7,
@@ -137,10 +164,10 @@
       "candidate": "I picked a good time to drop by!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"I picked a good time\" shifts the meaning to timing. The original expresses luck at choosing this particular apartment full of valuables. \"Drop by\" correctly signals arrival, not departure."
+          "justification": "\"I picked a good time to drop by\" fits his arrival and does not suggest leaving, so the NB is respected. However, it shifts the point from a lucky choice of target (full of deficit goods) to good timing, which weakens the connection to the discovery of valuables."
         }
       ]
     },
@@ -159,10 +186,10 @@
       "candidate": "Black caviar, red...\nYes! Some overseas “caviar”...\nEggplant spread!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "terminology",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The NB warns against calling eggplant spread \"caviar.\" The candidate does so in scare quotes (\"overseas 'caviar'\"). The quotes mitigate the confusion, but the wording still goes against the analysis, and \"spread\" alone would be clearer. The sarcastic inversion of status symbols is otherwise preserved."
+          "justification": "The candidate puts \"caviar\" in quotes for the overseas item, which partly calls the eggplant spread caviar, against the NB. The 'Да!' pivot into a rare overseas delicacy is also weakened, since the original item is 'overseas caviar' and the humor depends on the inversion of status."
         }
       ]
     },
@@ -179,7 +206,14 @@
         "language_specific": {}
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestic cigarette cases,\nsuede jacket—three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The punchline works only if the count of suede jackets is forgotten and then corrected to 'three'. The candidate's 'suede jacket—three' keeps it, but it drops the hesitation marked by the pause after 'domestic' and the ellipsis, so the revealing slip is flattened."
+        }
+      ]
     },
     {
       "id": 11,
@@ -196,24 +230,24 @@
       "candidate": "And you’ll be cured!\nAnd you will be cured too!\nAnd I will be cured too!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The exclamation marks make the lines sound emphatic and cheerful. The analysis describes a melodic, calm resignation. The added \"too\" in the third line and the future-tense phrasing also flatten the gradual, resigned rhythm of the original."
+          "justification": "The candidate drops the sequence 'they'll cure you too... and me', and changes it into a plain statement of being cured. It loses the passive 'they' (the Soviet psychiatric authorities) that the analysis says carries the dark social reality. The melodic calm resignation is also reduced to flat exclamations."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 6,
       "minor": 4
     },
-    "total_points": 9,
+    "total_points": 34,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.090909090909091,
+    "major_equiv_per_unit": 0.6181818181818182,
+    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

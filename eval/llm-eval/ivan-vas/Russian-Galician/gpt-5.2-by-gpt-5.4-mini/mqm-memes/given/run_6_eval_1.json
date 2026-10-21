@@ -141,7 +141,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The added line break with a repeated final fragment makes the subtitle slightly clunkier than the reference, though the joke and meaning remain clear."
+          "justification": "The duplicated final line is unnecessary within the same subtitle item and makes the line feel slightly clumsy, though the joke and meaning remain intact."
         }
       ]
     },
@@ -161,9 +161,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "Using numerals instead of spelled-out counts is less idiomatic and slightly weakens the comic rhythm of the escalating list, but the meaning is preserved."
+          "justification": "The line-break formatting is awkward, and starting each inventory item with a numeral changes the natural spoken rhythm a bit. The meaning and comic buildup are still preserved."
         }
       ]
     },
@@ -180,19 +180,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti vante curar…\ne a ti tamén te van curar…\ne a min vanme curar…",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The repeated line breaks are acceptable, but the lineation makes the subtitle look slightly fragmentary compared with a smoother rendering. The resigned humorous effect is still clear."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 2,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

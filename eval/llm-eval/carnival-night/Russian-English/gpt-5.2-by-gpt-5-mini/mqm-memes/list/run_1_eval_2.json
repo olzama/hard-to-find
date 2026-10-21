@@ -20,7 +20,14 @@
         }
       },
       "candidate": "Comrades, we have an instruction\nto welcome the New Year cheerfully.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the bureaucratic register and the clash with festive content, but the phrase “welcome the New Year cheerfully” is slightly less idiomatic and less festive than the reference’s “celebrate the New Year merrily.” This weakens the overtly celebratory content a little."
+        }
+      ]
     },
     {
       "id": 2,
@@ -63,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive, faux-modest flavor of «коротенько» is weakened by the plain “briefly.” The comic contrast between a cosy-downplayed lead-in and the absurdly long “forty minutes” is preserved in order, but the candidate loses some of the patronizing, affectionate smallness that helps make the line characteristically Ogurtsov."
+          "justification": "The candidate preserves the comic reversal (claim of brevity followed by forty minutes) but uses a plain “briefly” that lacks the diminutive, faux-modest tone of «коротенько». That slightly reduces the speaker’s smug, patronizing voice which is central to the joke."
         }
       ]
     },
@@ -103,14 +110,7 @@
         }
       },
       "candidate": "- People!.. Ah... helloo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The lecturer’s faltering, fractured vocalization is smoothed out. The candidate’s “People!.. Ah... helloo!” is more coherent than the original broken cry, so it softens the physical, drunken comedic effect described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -134,10 +134,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as “armed eye,” a literal calque the analysis specifically warns against. In English this reads oddly and more surreal than the Russian; it loses the mock‑scientific, slightly off idiom that an expression like “aided eye” would preserve, thereby damaging the intended comic effect."
+          "justification": "The candidate uses the literal calque “armed eye,” which the analysis warns against because it reads too surreal in English. This choice makes the mock‑scientific deformation sound odd rather than the near‑plausible, slightly wrong scholarly phrasing intended."
         }
       ]
     },
@@ -185,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 0,
+      "minor": 3
     },
-    "total_points": 7,
+    "total_points": 3,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.375,
+    "major_equiv_per_unit": 0.075,
+    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

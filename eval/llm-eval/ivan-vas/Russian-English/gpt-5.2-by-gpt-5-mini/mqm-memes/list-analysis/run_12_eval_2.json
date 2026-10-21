@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as possession. The analysis explicitly notes these items are no longer possessed (they were lost/removed) — the original means they were 'walled off/lost' or 'these items are missing from them.' The candidate thus reverses the intended meaning."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the ambassador has...', implying possession. The analysis explicitly warns these items are no longer possessed (they were lost), so the Russian means they have been deprived of those items. This reverses the factual relation and changes the intended meaning."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The comic premise is that Bunsha is introducing himself as 'the Tsar' (repeatedly declaring 'I am the Tsar'), not addressing a Tsar. The candidate's lines ('Very pleased, Tsar! ... Hello, Tsar!') read as if he is speaking to someone called 'Tsar' rather than proclaiming that he is the Tsar, losing the key humorous role-play and the NB warning about self-introduction."
+          "justification": "The line must make clear Bunsha is introducing himself as 'the Tsar' (not addressing a tsar). The candidate's repeated exclamations ('Very pleased, Tsar!') read like he is speaking to a tsar rather than awkwardly introducing himself as the tsar, losing the comic premise described in the analysis."
         }
       ]
     },
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I am sorrowful.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'I am sorrowful' conveys the meaning but flattens the archaic, high-register phrasing of 'I am in sorrow' that contributes to the mock-regal tone. This is a stylistic weakening rather than a mistranslation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -99,10 +92,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Walled up, demons!' is ambiguous and reads as a vocative address to demons. The analysis/NB specifies that 'demons' should function as the subject (i.e., 'they walled me in, the demons'), so the candidate slightly alters the grammatical role and thus the nuance of the line."
+          "justification": "The original has demons as the subject ('demons [have walled me in]'), not as the addressee. The candidate's phrasing 'Walled up, demons!' reads as if the Tsar is addressing demons (vocative), which contradicts the intended meaning and the analysis."
         }
       ]
     },
@@ -119,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross does!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'That's what the life-giving cross does!' preserves the literal meaning but loses some of the lofty, archaic exclamatory register of 'Behold the power of the life-giving cross!' — a small stylistic weakening of the Tsar's grand religious diction."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -173,10 +159,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Exotic caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate translates the punchline as 'Exotic caviar... Eggplant!' which presents the eggplant spread as a type of 'caviar.' The analysis explicitly warns against calling the eggplant spread 'caviar' because that will confuse viewers; the joke depends on contrasting real caviar with the much humbler 'eggplant' spread. Rendering it as 'exotic caviar' misrepresents the satirical inversion."
+          "justification": "The analysis warns against calling the eggplant spread 'caviar' because that will confuse viewers. The candidate's sequence 'Exotic caviar... Eggplant!' still implies the eggplant is a type of caviar, which muddies the intended satirical reversal (cheap eggplant spread contrasted with true caviar)."
         }
       ]
     },
@@ -193,14 +179,7 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The humor hinges on the escalating list and the teller's slip in counting (the trailing solitary 'Three'). The candidate lists '3 ... three suede jackets' without the same hesitative rhythm or the isolated final 'Three,' which mildly weakens the intended comic timing and reveal."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -221,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 4
+      "minor": 1
     },
-    "total_points": 19,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

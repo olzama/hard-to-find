@@ -111,7 +111,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Velaquí’ is understandable, but the analysis explicitly asks to avoid the more awkward/marked form ‘velaí’; this choice is slightly less natural than the reference’s intended register."
+          "justification": "The phrase keeps the meaning, but 'Velaquí' is slightly less natural here than the preferred Galician avoidance noted in the analysis, so the punch is a bit weaker stylistically."
         }
       ]
     },
@@ -193,14 +193,7 @@
         }
       },
       "candidate": "tres magnetófonos,\ntres cámaras de cinema,\ntres cigarreiras nacionais,\nunha chaqueta de ante... tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is mostly accurate, but ‘cámaras de cinema’ is less idiomatic than the more natural subtitle phrasing for ‘kinokamery’; the punctuation and line breaks are also a bit clumsy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -215,26 +208,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te van curar…\n\ne a min vanme curar…",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The meaning is preserved, but the extra blank line disrupts the rhythm of the repeated reassurance and makes the subtitle slightly less smooth to read."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-6-sol"

@@ -51,14 +51,7 @@
         }
       },
       "candidate": "Lofty... Lo-o-ofty relations.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps the stuttering and sarcastic tone but uses the noun phrase \"Lofty... Lo-o-ofty relations,\" which is somewhat stilted and less natural in English than an exclamatory phrase. The analysis warns against literal noun-phrase structures; this rendering slightly weakens the idiomatic comedic effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -76,9 +69,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate preserves the fatalistic meaning but uses \"conscience\" where the reference conveys the sense of duty/obligation ('do your duty'). 'For conscience' is an unusual collocation in English and slightly shifts the pragmatic emphasis from duty to inner moral feeling, making the line sound more abstract and less in keeping with the soldier's blunt pragmatism."
+          "justification": "The phrasing 'One lives not for joy, but for conscience' is grammatically correct but sounds stilted and more literary/archaic in English. The analysis emphasises a plain, soldierly fatalism best rendered with a more natural idiom (e.g. 'You don't live to be happy.../You live to do your duty'), so this wording weakens the original's blunt, pragmatic tone."
         }
       ]
     },
@@ -115,7 +108,14 @@
         }
       },
       "candidate": "Some chef!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'Some chef!' uses a standalone noun that reads awkwardly in English and loses the biting, sarcastic home-invective of the original. The analysis warns that literal nouns like 'Chef!' or 'Culinarian!' don't sound natural here; a fuller exclamation ('Some cook you are!') better preserves the comic sting."
+        }
+      ]
     },
     {
       "id": 7,
@@ -187,10 +187,10 @@
       "candidate": "He is my cross!\nAnd mine to bear.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate literalizes the idiom as \"He is my cross!\" and then separates the burden phrase. While the manipulative sense remains, this phrasing splits and slightly alters the established English idiom ('a cross to bear') and reads less idiomatically than the reference, reducing part of the rhetorical force of the original line."
+          "justification": "Rendering the line as 'He is my cross!' breaks the English idiom and obscures the manipulative meaning. The analysis stresses that the character’s line functions as the fixed idiom 'a cross to bear' (claiming suffering as moral justification). The candidate's literal formulation misrepresents that idiomatic force and reads unnatural, so it significantly harms the intended manipulative effect."
         }
       ]
     },
@@ -217,21 +217,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate follows the original's self-effacing rhythm but retains the literal \"angular,\" which the analysis flags as awkward in English. The phrase 'all so angular' sounds overly literal and may confuse or weaken the witty self-mockery compared with a more idiomatic alternative."
+          "justification": "Using 'angular' mirrors a literal reading of 'угловатая' and sounds oddly physical/technical in English, as the analysis warns. This weakens the intended coquettish, self-deprecating tone; a less literal word (e.g. 'awkward' alone or 'all so awkward... so sharp-edged') would better capture the original effect."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 4
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 4,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 0.36363636363636365,
-    "major_equiv_per_unit": 0.07272727272727272,
-    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

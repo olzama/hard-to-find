@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I'm the big bad wolf, a fearsome beast,\non little piggies I love to feast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate heightens the menace (’love to feast’ and explicit eating of piggies) compared with the playful, mock‑menacing tone of the analysis/reference. It reads more gruesome than the theatrical, childlike boast intended."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -48,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts the addressee from second person to third person at the start (’his horns’), creating a mismatch in who is being threatened. It also uses the literal phrasing the analysis warned against (’knock his horns off’), which sounds non‑idiomatic and weakens the intended compact, verdict‑like threat."
+          "justification": "The candidate shifts person and specificity (\"his horns\" vs the original direct threat to the addressee) and uses the idiom \"knock his horns off,\" which the analysis warned against as non‑idiomatic. The line also ends with a comma and reads unevenly; the compact, verdict‑like final clause about a lifetime of paying for medicine is weakened."
         }
       ]
     },
@@ -90,7 +83,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «нехороший человек» as ‘bad person’ flattens the oddly restrained, euphemistic moralizing register the analysis highlights. The rough insult ‘the scumbag!’ is appropriate, but the middle phrase loses the intended awkward politeness."
+          "justification": "Rendering «нехороший человек» as \"bad person\" flattens the oddly euphemistic, moralizing tone the analysis highlights. The line loses some of the awkwardly restrained register before the final coarse insult."
         }
       ]
     },
@@ -117,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the repetitive formula but ‘Such romance!’ slightly risks being read as genuine romance rather than the ironic romanticization of a criminal life; it’s marginally less idiomatic than the reference’s ironic punch."
+          "justification": "The closing \"Such romance!\" risks being read as love‑romance rather than the ironic romanticization of a criminal, self‑defeating life. The formulaic cadence is preserved but the final ironic tone is slightly weakened."
         }
       ]
     },
@@ -156,10 +149,10 @@
       "candidate": "Move the horse, may I rot in jail!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate’s oath (‘may I rot in jail!’) reads as a self‑curse rather than the prison‑coded guarantee contained in «век воли не видать». This changes the direction and force of the original prison‑oath and loses the solemn, punitive assurance in the analysis."
+          "justification": "The candidate keeps the nontechnical \"horse\" but renders the prison oath awkwardly as \"may I rot in jail!\", which reads as a strange wish rather than the blunt, prison‑coded certainty of \"век воли не видать.\" The register/force of the oath is reduced."
         }
       ]
     },
@@ -221,14 +214,7 @@
         }
       },
       "candidate": "Yes, yes, FBI.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Choosing ‘FBI’ preserves a topical agency but misses the acoustic echo between the spoken ‘Yes, yes’ and the original Cyrillic letter sequence ending in ‘-ess‑ess’ that the analysis wants preserved. The comic sound‑play is weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -341,9 +327,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate’s ‘Well, you're a fool, then.’ turns the feminine direct address into a gender‑neutral comment and smooths the insult. This erases the feminine–masculine–feminine comic sequence (mistaken female addressee → masculine name → feminine insult) that the analysis says is essential."
+          "justification": "The candidate renders «дура» as the gender‑neutral \"you're a fool, then,\" erasing the feminine→masculine→feminine comic sequence that depends on Tanya addressing an apparent woman with a feminine insult after hearing a masculine name. This destroys the joke's gendered structure."
         }
       ]
     },
@@ -368,9 +354,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "Rendering «параша» as ‘slop bucket’ literalizes the toilet image rather than preserving the prison‑status insult. The line loses some of the prison‑argot force that assigns the addressee to the lowest social position."
+          "justification": "Using \"slop bucket\" literalizes the toilet image rather than conveying the prison‑status insult. The analysis recommends a functional prison‑status term rather than a sanitary object; the choice weakens the intended hierarchical contempt."
         }
       ]
     },
@@ -395,23 +381,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "The formal phrasing ‘depriving me of my eyesight’ roughly matches the bureaucratic tone, but the word ‘hooligans’ is dated/regionally marked and not the contemporary, natural term the analysis recommends; this slightly weakens the intended comic register."
+          "justification": "The formal phrasing \"depriving me of my eyesight\" preserves the bureaucratic tone, but \"hooligans\" is a dated/British choice the analysis cautions against. A more contemporary, natural register would better match the intended comic register."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 21,
+    "total_points": 15,
     "meaning_units": 18,
-    "penalty_per_unit": 1.1666666666666667,
-    "major_equiv_per_unit": 0.23333333333333334,
-    "interpretation": "1.17 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8333333333333334,
+    "major_equiv_per_unit": 0.16666666666666669,
+    "interpretation": "0.83 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

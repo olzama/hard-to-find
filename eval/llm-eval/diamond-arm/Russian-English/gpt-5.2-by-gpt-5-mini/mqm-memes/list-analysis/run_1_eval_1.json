@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('but I am scared...') preserves the meaning but loses some of the lighthearted bouncing rhyme/compact comic rhythm of the Russian 'Я не трус… но я боюсь' described in the analysis. The line is perfectly natural but slightly less comic and punchy than the target effect."
+          "justification": "The candidate is a faithful, literal rendering but loses the lighthearted, bouncing comic effect of the Russian rhyme (Trus/Bojus). 'But I am scared' reads straightforward and flat, weakening the endearing, comic admission the analysis emphasizes."
         }
       ]
     },
@@ -68,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Listen, lady—signora, frau, miss—\nunfortunately, nothing’s going to happen!\nRusso tourist!\nMoral image! Verstehen?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate conveys the multilingual gag and meaning, but rendering 'Облико морале' as 'Moral image!' is clunky in English and weakens the faux-sophisticated, slightly pompous effect Gena is performing. A more idiomatic or stylized phrase would better match the comedic register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -195,14 +188,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate ('Semyon Semyonovich...') conveys the address but loses the elongated, musical sigh ('Semyo-o-on Semyonych!') that expresses weary, melodic disappointment in the original analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -337,7 +323,14 @@
         "language_specific": {}
       },
       "candidate": "Looking like this...\nI can’t.\nI need to... first...\ntake a baath,\nhave a little cup of coff-ay...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate attempts the affected pronunciations the analysis calls for, but contains a likely typographic/phonetic error ('baath' for 'bath') that reads awkwardly. This undermines fluency for the viewer while still conveying the intended pomposity."
+        }
+      ]
     },
     {
       "id": 22,
@@ -372,7 +365,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('I can’t go along with that!') communicates the refusal but removes the intentionally incorrect, folksy verb form from the original that adds rustic stubbornness and comic flavor. This normalizes the line and loses a layer of characterful speech."
+          "justification": "The original's intentionally nonstandard folk phrasing (comical verb form) is an important character cue. The candidate uses a neutral, standard phrasing ('I can’t go along with that'), losing that rustic, stubborn flavor described in the analysis."
         }
       ]
     }
@@ -380,13 +373,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 4,
+    "total_points": 3,
     "meaning_units": 23,
-    "penalty_per_unit": 0.17391304347826086,
-    "major_equiv_per_unit": 0.034782608695652174,
-    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.13043478260869565,
+    "major_equiv_per_unit": 0.02608695652173913,
+    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies possession. The analysis explicitly notes these items are no longer possessed (they have been lost/stolen); the Russian means each of them lost their corresponding item. Changing the sentence to assert current possession reverses the intended meaning and undermines the callback about missing goods."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which treats these as possessions. The analysis explicitly warns this is incorrect: the line means those items are missing/from them (they were robbed), not that the characters currently possess them. This reverses the intended meaning and undermines the joke about discovered losses."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires making clear Bunsha is introducing himself as the Tsar (not addressing an existing Tsar). The candidate reads like awkward vocatives/addresses to a Tsar ('Very pleased, Tsar! ... Hello, Tsar!'), which fails to convey that he is repeatedly introducing himself as 'the Tsar' in the absurd, performative way central to the joke."
+          "justification": "The candidate reads like Bunsha addressing a Tsar ('Very pleased, Tsar! ... Hello, Tsar!'), whereas the analysis specifies he is absurdly introducing himself as 'the Tsar' (i.e., claiming the identity). The translation therefore fails to convey the crucial comic premise that he is announcing himself as the Tsar rather than speaking to one."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original presents 'демоны' as the subject (i.e., 'They've walled me in... the demons [did it]'). The candidate's 'Walled up, demons!' reads as an address to the demons (vocative), which reverses the grammatical role and the speaker's accusatory meaning. This contradicts the analysis' NB and alters the comic misunderstanding of technology as sorcery."
+          "justification": "The candidate's 'Walled up, demons!' reads as if addressing 'demons' (vocative). The analysis and note make clear that 'demons' are the subject who walled him in (he means 'they walled me in — the demons'), so the candidate misrepresents the syntactic role and the line's meaning, changing the comedic effect of supernatural agency."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That's what the life-giving cross does!' preserves the literal meaning but flattens the elevated, archaic register ('Behold the power of the life-giving cross!') that contributes to the Tsar's regal, emphatic tone. This is a stylistic weakening of the original's high-register effect."
+          "justification": "The candidate's 'That's what the life-giving cross does!' conveys the meaning but uses a colloquial construction ('does') that weakens the elevated, archaic, quasi-liturgical register emphasized in the analysis. The line loses some of its mock-solemn tone."
         }
       ]
     },
@@ -181,10 +181,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humor hinges on Shpak inflating his losses and then failing to update the running count—an audible gag when he trails off with 'Три' (Three). The candidate lists 'three suede jackets' explicitly, removing the gag of the forgotten/incrementing count and thus substantially diminishes the comedic effect described in the analysis."
+          "justification": "The candidate lists 'three suede jackets' straightforwardly. The analysis highlights the joke that Shpak initially mentions 'a suede jacket... Three' — the hesitation/recount reveals his exaggeration. By making it simply plural without the pause/shift, the candidate loses that small but important comic beat."
         }
       ]
     },
@@ -206,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 1
+      "major": 3,
+      "minor": 2
     },
-    "total_points": 21,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

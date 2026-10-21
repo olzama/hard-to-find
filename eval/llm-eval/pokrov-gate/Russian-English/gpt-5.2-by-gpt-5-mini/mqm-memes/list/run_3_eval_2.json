@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line is not capitalized at the start ('how' rather than 'How'), which is a basic fluency/punctuation issue for subtitles. Otherwise the casual, ironic register ('knock back a little shot') matches the reference's function."
+          "justification": "Sentence begins with a lowercase letter and the phrasing 'a little shot' is slightly awkward in this register compared with idiomatic alternatives like 'a quick one' or 'a shot'. The colloquial sense is preserved, but presentation is somewhat unpolished."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps a literal noun phrase ('The highest... the high-est relations!') rather than the more natural exclamatory sarcastic phrasing recommended in the analysis. The result is slightly awkward and weakens the established ironic refrain."
+          "justification": "Using the literal noun 'relations' and the phrasing 'The highest... the high-est relations!' leans toward a stilted, literal structure the analysis warned against. The stuttering is kept, but the exclamation reads awkwardly in English and weakens the sarcastic idiomatic punch."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Using 'conscience' ('live for conscience') shifts the idiomatic meaning away from the reference's sense of duty/fatalistic moral obligation. 'Conscience' is less idiomatic here and softens the soldierly, duty-driven tone the analysis highlights."
+          "justification": "The candidate conveys a faithful literal meaning ('conscience') but loses the idiomatic military resignation and moral-duty force of 'you live to do your duty,' making the line less pointed and culturally specific to the character's fatalism."
         }
       ]
     },
@@ -97,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "Just note: I didn’t suggest it!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Just note: I didn’t suggest it!' captures the idea but is less idiomatic and less performative than 'For the record,' which better matches the character's mock-official distancing. The effect is slightly weakened."
+        }
+      ]
     },
     {
       "id": 6,
@@ -114,10 +121,10 @@
       "candidate": "Chef!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Rendering the exclamation simply as 'Chef!' turns the original comic, admonishing use of a profession into a literal noun that doesn't function as a mocking rebuke in English, losing some of the intended domestic-invective effect."
+          "justification": "Rendering the exclamation as the literal single word 'Chef!' removes the intended ironic insult and imperious sting. The analysis specifically warns against literal professional nouns; this choice neutralizes the comic force and the character's domineering voice."
         }
       ]
     },
@@ -137,9 +144,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The German interjection 'Natürlich!' is a deliberate character quirk; translating it as 'Naturally.' removes the foreign-language cue that marks the character's comic linguistic habit and submissive persona, contradicting the analysis."
+          "justification": "The German interjection is a deliberate character trait ('Natürlich!'). Translating it as 'Naturally.' erases that linguistic quirk and the associated comedic-cultural signal, altering the characterisation."
         }
       ]
     },
@@ -158,10 +165,10 @@
       "candidate": "Cut it out, for the devil’s sake—without waiting for peritonitis!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The Russian imperative refers to surgical action ('Резать...'), while 'Cut it out' in English colloquially means 'stop that behavior.' This changes the spoken-for-surgery black-comic shock into a request to stop acting, altering the line's meaning and farcical medical punchline."
+          "justification": "The candidate softens the brusque surgical imperative ('Cut it out, for the devil’s sake—without waiting for peritonitis!') compared with the harsher 'Cut it the hell out,' slightly reducing the abrupt, farcical medical tone though the meaning remains clear."
         }
       ]
     },
@@ -195,10 +202,10 @@
       "candidate": "This is my cross!\nAnd I’ll carry it.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Splitting and literalizing the idiom ('This is my cross! And I’ll carry it.') undermines the fixed English idiom 'a cross to bear' and reduces the hypocritical, inflated self-sacrifice effect the analysis warns to preserve."
+          "justification": "Splitting and literalizing the phrase as 'This is my cross! And I’ll carry it.' breaks the English idiom 'a cross to bear' and weakens the manipulative, hyperbolic self-sacrifice central to the line's effect. The translation loses the fixed-idiom punch the analysis flags as important."
         }
       ]
     },
@@ -220,21 +227,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' to render 'угловатая,' which the analysis explicitly cautions against as overly literal and awkward in English. The rest of the self-deprecating, affected tone is preserved, but 'angular' sounds unnatural here."
+          "justification": "The candidate keeps the self-mocking register but uses 'angular'—a literal rendering of 'угловатая' the guidance advised against—which may read oddly in English. 'Misfit' also shifts the nuance; overall the line is serviceable but stylistically slightly off."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 6
     },
-    "total_points": 16,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

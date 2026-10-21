@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive\nto welcome the New Year with fun.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"We have a directive\" keeps the bureaucratic register well, but \"welcome the New Year with fun\" is flatter and less natural than \"celebrate merrily\"; the dry official formulation of having fun is somewhat weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one\" is slightly more folksy/parental than the managerial \"train/cultivate in-house\", and \"hiring\" keeps the staffing logic. The workplace joke is preserved, but the bureaucratic-educational flavor is a bit softer."
+          "justification": "\"Raise one\" and \"collective\" keep the workplace logic, but \"hiring\" plus \"raise\" mixes staffing and child-rearing metaphors slightly; the 'cultivate in-house' bureaucratic ring is a bit weaker. The Baba Yaga as a nasty colleague type is not evoked for English viewers who may not know the name."
         }
       ]
     },
@@ -74,16 +67,10 @@
       "candidate": "And just briefly—about forty minutes,\nmore than that, I think,\nisn’t necessary—he gives his talk.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds \"he gives his talk\", which is not in the source, and which breaks the line's structure. The bureaucratic understatement is muddled by the dangling clause, and the faux-modest tone is partly lost."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"More than that, I think, isn't necessary\" is a stiff, awkward rendering, and the diminutive coziness of \"коротенько\" is only conveyed by \"just briefly\"."
+          "justification": "The tacked-on \"he gives his talk\" at the end is an addition that breaks the pacing: the punchline \"forty minutes\" is followed by a trailing clause, and the broken word order is awkward. The brief-then-forty-minutes reversal is preserved, but \"just briefly\" lacks the cozy faux-modesty of «коротенько»."
         }
       ]
     },
@@ -109,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of \"готов\" (ready / drunk) is not recreated. \"Ready long ago!\" is only the plain administrative reading, with no hint of intoxication, so the core joke is lost. The exclamation also changes the dry backstage tone."
+          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready long ago\" is only the literal administrative reading and there is no hint of intoxication, so the core joke is lost."
         }
       ]
     },
@@ -154,16 +141,10 @@
       "candidate": "But it’s enough for us to take a telescope...\nAnd look with an armed eye—",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly says to avoid. It does not echo the English idiom \"unaided eye\", so the mock-scientific near-idiom is lost and the phrase sounds merely surreal."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"It's enough for us to take a telescope\" is a stiff calque of the Russian; \"all we have to do is take\" would be more natural."
+          "justification": "\"Armed eye\" is the literal calque the English note warns against; it sounds stranger and more surreal than the Russian and does not echo \"unaided eye\", so the mock-scientific malformed idiom is less recognizable. It still conveys a deformed expression, and \"it's enough for us to take\" is slightly stiff."
         }
       ]
     },
@@ -192,7 +173,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is broken by the added dash and line break: \"Four little stars—best of all...\" folds the fourth star into the punchline rather than building two, three, four and then snapping to five. The \"As we can already see\" is also reduced to \"and we already see\". The cognac click is not signalled, though the source offers no explicit note either."
+          "justification": "The counting is preserved, but the structure is altered: \"Four little stars—best of all\" merges the buildup so the sequence is less clearly trivial counting before the punchline. The cognac association is not signalled for English viewers, so the click into another semantic world is weaker, although the analysis says a note may be needed."
         }
       ]
     },
@@ -218,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Is there no life on Mars\" is a literal calque of the Russian \"нет ли\" and sounds a bit awkward in English. \"Science is not yet in the know\" keeps the casual register, but \"in the know\" is slightly off compared with \"up to speed\" and reads less naturally."
+          "justification": "\"Science does not know\" is flatter and more formal than the colloquial «науке неизвестно», and \"in the know\" is conversational and works well. The doubled \"is there... is there no life\" is somewhat clumsy, so the register mismatch is mostly kept but a little less smooth."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 21,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 2.625,
-    "major_equiv_per_unit": 0.525,
-    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

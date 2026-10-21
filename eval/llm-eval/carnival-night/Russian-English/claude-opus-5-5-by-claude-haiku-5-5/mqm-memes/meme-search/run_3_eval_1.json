@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Comrades, we have a directive to see\nin the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The directive register is kept well (\"we have a directive\"), but \"to see in the New Year cheerfully\" is an awkward construction. The adverb sits oddly after the idiom and reads less smoothly than \"merrily\" in the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -53,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "And, just a short one, forty minutes\nor so — no more is needed, I think —",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"just a short one\" captures the faux-modesty well, and the briefness claim comes before the duration as the analysis requires. However, the added hedge \"or so\" softens the exact \"forty minutes\" punchline, and the opening \"And,\" adds a connective the source does not have."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -80,7 +66,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The double reading of \"готов\" (ready / drunk) is lost. \"The lecturer's ready, been ready for ages\" keeps the administrative exchange but gives no intoxication subtext, which the analysis says should be preserved or recreated. The reference shares this loss, so the penalty is minor."
+          "justification": "The candidate keeps the official 'ready' reading but does not signal the colloquial 'ready = drunk' subtext that the analysis calls the core of the joke. 'Been ready for ages' conveys lateness, not intoxication. The reference shares this gap, so the loss is partial rather than a distortion."
         }
       ]
     },
@@ -102,7 +88,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Yoo-hoo!\" reads as a cheerful, playful call rather than the faltering, slurred attempt at a formal address the analysis describes. \"People!\" is not stretched or broken as the source \"Лю-ди!\" is, so the drunken vocal instability is only partly carried by the ellipses."
+          "justification": "'Yoo-hoo' works well as the equivalent of 'ау-у'. However, the stretched, faltering 'Peo-ple' is reduced to a clean 'People!', which weakens the vocal instability the analysis says carries part of the joke."
         }
       ]
     },
@@ -129,7 +115,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The \"naked / dressed\" substitution does recreate a mangled idiom, which is the right kind of solution. But \"dressed\" evokes clothing rather than the mock-scientific \"upgrade\" from unaided to aided/armed, so the lecturer does not sound as if he believes he is becoming more precise. The effect is sillier than scholarly."
+          "justification": "'Not with the naked eye but with the dressed one' keeps the malformed-idiom mechanism, and 'dressed' is a valid antonym-based substitution. But it reads as silly rather than mock-scientific, so the lecturer's sense of becoming more precise, which the analysis asks to preserve, is weakened."
         }
       ]
     },
@@ -153,10 +139,10 @@
       "candidate": "and already we see\ntwo stars, three stars...\nFour stars, but best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline depends on the sudden click into the cognac five-star system, which is the cultural boundary the analysis flags. \"Five stars\" alone does not signal cognac to most English viewers, and the candidate offers no note or other compensation. The reference's bracketed translator's note addresses this, and the analysis explicitly recommends one."
+          "justification": "The cognac association that the analysis identifies as the point of the derailment is not signalled. Without the translator's note the reader sees 'five stars' only as a generic rating, so the shift into the cognac domain is partly lost. The reference includes the note that the analysis anticipated."
         }
       ]
     },
@@ -178,21 +164,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"is there no life on Mars\" is grammatical but stilted for the colloquial register the analysis wants. \"science does not know\" is also a little flatter than \"unknown to science,\" though it suits the casual tone. The second sentence, \"Science hasn't been briefed yet,\" captures the register mismatch well."
+          "justification": "'Is there life on Mars, is there no life on Mars' is an awkward question-within-question construction. A phrasing such as 'whether there is life on Mars or not' would read more naturally while keeping the casual, uncertain tone. 'Science hasn't been briefed yet' captures the 'не в курсе дела' effect well."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 0,
+      "minor": 5
     },
-    "total_points": 11,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 1.375,
-    "major_equiv_per_unit": 0.275,
-    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

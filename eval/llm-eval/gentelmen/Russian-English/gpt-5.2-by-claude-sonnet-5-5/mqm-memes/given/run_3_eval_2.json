@@ -41,7 +41,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate drops the subject \"I'll\" at the start, so the threat opens with a bare verb phrase (\"knock your block off...\"). This is less complete and less natural than the full threat formula. The idioms and the closing verdict \"You'll be working for medicine all your life!\" are preserved."
+          "justification": "The opening \"I'll\" is dropped, so the threat starts with a bare imperative-like fragment (\"knock your block off\") instead of a full, clipped threat. This slightly weakens the theatrical threat formula, though the idiomatic wording and the verdict-like ending \"You'll be working for medicine all your life!\" are preserved."
         }
       ]
     },
@@ -138,7 +138,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"Move the horse! - Buzz off!\", which has no basis in the source. The extra rude command muddies the chess advice and the prison-oath punchline. The second line itself matches the reference and keeps \"horse\" and the oath."
+          "justification": "The candidate adds an unrelated line, \"Move the horse! - Buzz off!\", which has no source basis. It introduces a second speaker and a dismissive reply that changes the exchange and dilutes the single forceful piece of advice backed by a prison oath."
         }
       ]
     },
@@ -312,10 +312,10 @@
       "candidate": "Miss, what’s your name? — Tanya. — I’m Feodor. — You dumb broad!\nExcuse me.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"Excuse me.\", which is not in the source. It softens the abrupt feminine insult that ends the exchange. The feminine–masculine–feminine structure (\"Miss\", \"Feodor\", \"dumb broad\") is intact."
+          "justification": "The candidate adds \"Excuse me.\" after the insult, which is absent from the source. It undermines the blunt feminine insult by turning it into a polite apology, breaking the comic structure of feminine presentation, masculine name, feminine insult."
         }
       ]
     },
@@ -362,14 +362,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 11,
     "meaning_units": 18,
-    "penalty_per_unit": 0.3888888888888889,
-    "major_equiv_per_unit": 0.07777777777777778,
-    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6111111111111112,
+    "major_equiv_per_unit": 0.12222222222222223,
+    "interpretation": "0.61 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

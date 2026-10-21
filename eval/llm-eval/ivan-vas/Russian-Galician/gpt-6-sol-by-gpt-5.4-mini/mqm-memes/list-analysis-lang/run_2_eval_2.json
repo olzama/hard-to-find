@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate mistranslates the key list of stolen items as if Shpak and the ambassador possess them, rather than having lost them. This breaks the callback joke and contradicts the intended meaning."
+          "justification": "The candidate changes the key meaning of the line: it suggests the items are with Shpak and the ambassador, rather than that they are missing from them. This breaks the joke's premise and the callback described in the analysis."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Vagas sospeitas\" is a weaker, less theatrical rendering of the mock-heroic \"смутные сомнения,\" so the elevated comic tone is slightly softened."
+          "justification": "The opening phrase is a bit less elevated and theatrical than the mock-heroic tone of the original, so the comedic contrast is slightly weakened."
         }
       ]
     },
@@ -54,13 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should clearly sound like Bunsha repeatedly introducing himself as the Tsar, but the candidate's punctuation and wording make some phrases read more like exclamations than a self-introduction, weakening the comedic misunderstanding described in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The distribution of short clauses is a bit abrupt and uneven, making the subtitle less smooth and less natural than the reference."
+          "justification": "The candidate fails to make clear that Bunsha is introducing himself as the Tsar, not addressing a Tsar. Several lines can be read as generic greetings rather than the repeated self-introduction that drives the joke."
         }
       ]
     },
@@ -97,7 +91,14 @@
         "language_specific": {}
       },
       "candidate": "Déixame, vella, que estou aflixido.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "‘vella’ is a bit harsher and less affectionate than the reference’s ‘velliña’, slightly weakening the old-fashioned, mock-regal tone."
+        }
+      ]
     },
     {
       "id": 5,
@@ -112,14 +113,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nOs demos emparedáronme!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Splitting the line into two separate sentences is slightly less natural than the compact, plaintive original effect, though the meaning is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -139,14 +133,7 @@
         }
       },
       "candidate": "Isto é obra da cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Isto é\" is a bit more direct and less elevated than the archaic, solemn phrasing expected for Ivan's theatrical religious exclamation, so the mock-archaic tone is slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -188,10 +175,10 @@
       "candidate": "Que ben fixen en entrar!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Que ben fixen en entrar!\" is understandable, but it is less idiomatic and less breezy than the cheerful self-satisfied surprise of the original, so the comic voice is slightly weakened."
+          "justification": "‘Que ben fixen en entrar!’ suggests he is pleased that he came in, but it can also sound like he is reflecting after entering rather than reacting to a newly discovered windfall. The upbeat criminal self-satisfaction is preserved, but the line is slightly less clearly an immediate discovery reaction."
         }
       ]
     },
@@ -218,7 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Paté de berenxena\" directly contradicts the analysis warning not to call the eggplant spread 'caviar.' The line should preserve the joke about a cheap eggplant spread being absurdly presented as a delicacy, without using an ordinary pâté label that blunts the satirical contrast."
+          "justification": "The candidate keeps the essential joke, but ‘Paté de berenxena!’ risks sounding like a plain food label rather than the deliberately absurd, prized-sounding ‘overseas delicacy’ setup that makes the punchline work. It also slightly softens the comic contrast with the preceding caviars."
         }
       ]
     },
@@ -240,14 +227,7 @@
         }
       },
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres cigarreiras de fabricación nacional,\nunha cazadora de ante... tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Cazadora de ante\" is a less precise and slightly less natural choice than the expected suede jacket term, so the item list sounds a bit off even though the joke remains clear."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -267,21 +247,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Van curarte\" is grammatical but less idiomatic and less rhythmically polished than the reference's repeated clitic structure, so the line loses some of its melodic resignation."
+          "justification": "The repeated future-periphrastic construction is understandable, but ‘van curarte / van curarte / van curarme’ sounds less natural and less colloquial than the reference’s smoother phrasing."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 7
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 22,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-6-sol"

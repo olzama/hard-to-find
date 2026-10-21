@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" and \"cultivate\" capture the staffing/educational logic, but \"cultivate one within our collective\" sounds slightly more elevated and less workplace-colloquial than \"train one in-house\". The \"collective\" keeps the Soviet flavor, and the joke still works."
+          "justification": "\"Cultivate one within our collective\" keeps the workplace logic and the Baba Yaga reference, but \"collective\" and \"cultivate\" sound a bit stilted. \"Hire\" works as a staffing frame. The line still conveys the idea of breeding a nasty woman in-house, though the social type is less obviously evoked than in the reference."
         }
       ]
     },
@@ -70,13 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The diminutive \"коротенько\" is rendered as plain \"briefly\", with no faux-modesty or cozy tone, and it comes without the \"and\" or \"so\" of the original. The rendering of \"more isn't necessary\" is stiff and loses the smug, self-satisfied \"I think\" tone, so the contrast with forty minutes is weakened."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"more, I think, isn't necessary\" is awkward, formal phrasing that reads unnaturally as spoken subtitle text. The lowercase start with no ellipsis also loses the trailing-off feel of the original."
+          "justification": "The diminutive, faux-modest «коротенько» is rendered as a flat \"briefly\", and the line is rendered in a stiff, formal way (\"more, I think, isn't necessary\"). The cozy, patronizing understatement that makes \"forty minutes\" land as a punchline is weakened. The order (brief first, then duration) is preserved, but the smug managerial tone is largely lost."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of \"готов\" (ready / drunk) is not recreated. \"Ready long ago\" keeps only the surface meaning and the intoxication subtext is lost, so the joke disappears. There is also no dialogue dash to mark two speakers, which makes the exchange less clear."
+          "justification": "The \"ready\" = \"drunk\" double meaning is lost. \"Ready long ago!\" reads only as literal readiness, with no hint of intoxication, and no equivalent double sense (e.g. \"ready\" as \"wasted\" or \"out of it\") is recreated. The core joke disappears."
         }
       ]
     },
@@ -125,10 +119,10 @@
       "candidate": "- People!.. Ah... A-oo!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The stretched, broken syllabification of \"Лю-ди\" is lost: \"People!..\" is a clean word, which the analysis warns against. The faltering drunken quality is only partly conveyed by \"Ah... A-oo!\", and \"A-oo\" does not read as a call to a crowd (\"hellooo\"). The leading dash also wrongly suggests dialogue."
+          "justification": "\"People!.. Ah... A-oo!\" keeps a broken, faltering cry, but the \"People\" is not stretched or split (Peo-ple) as in the source «Лю-ди», and \"A-oo\" is a weak equivalent of «ау-у». The drunken vocal instability is only partly preserved."
         }
       ]
     },
@@ -157,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the English-specific note says to avoid. It sounds more surreal than the original and does not echo the familiar English \"unaided eye\", so the mock-scientific malformed idiom is lost. The exclamation marks and the pause rhythm are also dropped."
+          "justification": "\"Armed eye\" is the literal calque that the notes explicitly say to avoid. It sounds surreal and does not echo the familiar English idiom \"unaided/naked eye\", so the malformed-idiom, mock-scientific effect is lost. The line also lacks the exclamatory pomp of the original."
         }
       ]
     },
@@ -183,16 +177,10 @@
       "candidate": "and we already see two\nlittle stars, three little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline structure is garbled: the \"four little stars—best of all, of course, five little stars\" rendering joins four and five with a dash, which breaks the one-two-three-four buildup and blunts the sudden click to five-star cognac. The star-counting is kept, but the cognac association is not signaled in any way."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"and we already see\" opens abruptly and loses the \"as we can already see\" flow of lecture-like speech."
+          "justification": "The counting progression is kept and the \"five little stars\" punchline works as a sudden shift. However, the \"four little stars—best of all\" structure merges the buildup with the punchline, which weakens the pause and the click into the cognac frame. There is no note for the cognac association, which the analysis says may be needed for English viewers."
         }
       ]
     },
@@ -213,19 +201,26 @@
         }
       },
       "candidate": "Whether there's life on Mars or not,\nscience does not know.\nScience isn't up to speed yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The content and the casual \"isn't up to speed yet\" are preserved, but \"science does not know\" is slightly more formal and flat than the colloquial «это науке неизвестно». The parallel \"есть ли... нет ли\" is also reduced. The register mismatch remains, though it is a little weaker."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 3
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 28,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 3.5,
-    "major_equiv_per_unit": 0.7,
-    "interpretation": "3.50 MQM penalty points per meaning unit (≈ 0.70 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

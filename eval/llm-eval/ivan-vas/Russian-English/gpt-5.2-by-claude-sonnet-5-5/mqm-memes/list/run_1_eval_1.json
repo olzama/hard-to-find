@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak has a tape recorder, the ambassador has a medallion\" reverses the meaning: the source (per the NB) means these items were lost/stolen, not that the men still possess them. This also breaks the callback to the theft suspicion."
+          "justification": "'Shpak has a tape recorder, the ambassador has a medallion' reverses the meaning. The analysis stresses that the items were lost (stolen), not possessed, so the callback to the thefts is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Plagued by vague doubts' keeps a reasonably elevated register, but the line break and flat phrasing slightly weaken the mock-heroic theatrical effect."
         }
       ]
     },
@@ -43,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Your Majesty\" makes Bunsha address the Tsar/Queen instead of introducing himself as the Tsar, which the NB explicitly says must be clear. The self-introduction joke is lost and the meaning is changed."
+          "justification": "'Your Majesty' makes Bunsha address the other person as royalty instead of introducing himself as the Tsar, which is the explicit NB. The self-introduction joke is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The mundane, repetitive Soviet-style greeting clichés are partly kept, but the royal-address wording makes it sound like court etiquette rather than a drunken impostor's mantra."
+          "justification": "The mundane, repetitive Soviet-style social cliché is partly kept, but the drunken self-introduction absurdity is absent because of the addressing error."
         }
       ]
     },
@@ -86,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"I'm sad\" is flat and modern; it lacks the high-register, archaic melancholy of \"я в печали\" that contrasts with the Soviet setting. \"Leave me be\" is acceptable."
+          "justification": "'I'm sad' is too plain and modern. It loses the archaic, regal register ('I am in sorrow') that contrasts with the Soviet apartment setting."
         }
       ]
     },
@@ -108,7 +114,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"You demons!\" turns the demons into addressees (direct address), contradicting the NB that demons must be the subject and are not being addressed. The meaning is changed."
+          "justification": "'You demons' turns the demons into the addressee, contradicting the NB that demons are the subject of the sentence and are not being addressed."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Bricked up' is a bit colloquial for the Tsar's archaic voice, though it conveys being walled in."
         }
       ]
     },
@@ -130,7 +142,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Now that's what the life-giving cross can do!\" is colloquial and modern; it loses the Tsar's solemn, pious, archaic register, weakening the contrast, though the meaning is preserved."
+          "justification": "'Now that's what the life-giving cross can do!' is colloquial and loses the solemn, triumphant tone of the Tsar's pious declaration, though the meaning and the religious joke are preserved."
         }
       ]
     },
@@ -167,7 +179,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"What a lucky break, me dropping by!\" correctly conveys he has just arrived and is not leaving, but is slightly clumsy and stiff for a casual, cheerful remark."
+          "justification": "'Me dropping by' is acceptable, since it implies arrival and not departure. However, 'lucky break' loses the sense that he is pleased with a good choice of apartment, and the phrasing is slightly awkward."
         }
       ]
     },
@@ -189,7 +201,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Exotic caviar... Eggplant!\" loses the \"баклажанная\" qualifier: the eggplant spread is never labeled as a spread of the caviar type, and \"Exotic caviar\" actually calls the item caviar, which the NB warns against. The \"overseas\" element is also weakened to \"exotic\", reducing the status-inversion joke."
+          "justification": "'Exotic caviar' followed by 'Eggplant!' loses the 'eggplant spread' distinction and the 'overseas' idea. The eggplant item reads as caviar, which the NB says will confuse viewers, and the inversion of status symbols is weakened."
         }
       ]
     },
@@ -209,9 +221,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Three domestic cigarette cases\" moves \"domestic\" before the noun, which loses the hesitating list rhythm slightly. The joke of the suede jacket count is preserved by \"a suede jacket—three\", though the pause and the delayed realisation are less marked."
+          "justification": "'Domestic' is moved to modify the cigarette cases directly, which is acceptable. The pause in the original after 'domestic' is lost, and the clipped delivery is slightly flatter. The suede-jacket count joke is preserved."
         }
       ]
     },
@@ -233,7 +245,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Changing to the passive \"you'll be cured\" and using exclamation marks makes it sound emphatic and cheerful rather than the calm, melodic, resigned tone of the original. The repetition and meaning are intact."
+          "justification": "'You'll be cured too' / 'I'll be cured' changes the active 'they'll cure' to a passive and drops the melodic, resigned repetition. The reference's 'they'll cure' keeps the ominous psychiatric-ward implication more clearly."
         }
       ]
     }
@@ -241,13 +253,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 6
+      "minor": 8
     },
-    "total_points": 26,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 2.3636363636363638,
-    "major_equiv_per_unit": 0.4727272727272728,
-    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Comrades, we have a directive\nto celebrate New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Directive\" keeps the bureaucratic, top-down register well, but \"we have a directive\" is slightly less idiomatic than \"we have our instructions\" and \"cheerfully\" is a touch softer than \"merrily\". The core contrast between official form and festive content is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -41,9 +34,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Hire\" frames the line as a staffing matter, which fits the workplace logic. However, \"a Baba Yaga\" leans toward the fairy-tale figure and loses the social-type reading (a nasty woman already present in workplaces). It also lacks the \"bring in\" phrasing. The reference's \"witch\" works the same way, so the effect is only slightly weakened."
+          "justification": "\"Hire\" fits the staffing logic, and keeping \"Baba Yaga\" preserves the folkloric reference, but it leaves the social type (a nasty woman already present in workplaces) unexplained for English viewers who may not know Baba Yaga. The reference's \"witch\" is more accessible. The workplace logic of \"train one in-house\" still comes through."
         }
       ]
     },
@@ -65,7 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The diminutive, faux-modest \"коротенько\" is rendered as a flat \"briefly\" and merged into \"for about forty minutes—no longer, I think\". The dash and \"no longer\" change the structure. The claim of brevity no longer sets up the forty-minute punchline, and the smug understatement the analysis requires is weakened."
+          "justification": "The diminutive faux-modesty of «коротенько» is lost: \"briefly, for about forty minutes\" is acceptable as a contrast, but the added \"no longer, I think\" turns the line into a limit statement and loses the smug self-satisfied tone. The line is also a fragment without the \"I don't think we need more\" managerial feel, weakening the punchline."
         }
       ]
     },
@@ -87,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of \"готов\" (ready / drunk) is lost. \"He's ready. Has been for ages!\" has no hint of intoxication, such as the reference's \"Oh, he's ready\" with emphatic intonation. The analysis says the alcoholic subtext is the core of the joke, and here it is essentially gone."
+          "justification": "The \"ready\" = \"drunk\" double meaning is not recreated. \"He's ready. Has been for ages!\" keeps only the literal administrative reading, so the alcoholic joke disappears, which the analysis flags as the key risk."
         }
       ]
     },
@@ -109,7 +102,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The drunken, faltering vocalization is normalized into a clean \"People!... Hello?\". There is no stretched syllabification (\"Peo-ple!\") and no broken \"Ah…\". The analysis warns specifically against this normalization, as the physical comedy of the collapsing speech is lost."
+          "justification": "The drunken, stretched, faltering vocalization is normalized into a clean \"People!... Hello?\". The broken syllables (\"Peo-ple!\", \"hellooo\") that carry the physical comedy are lost, as the analysis warns."
         }
       ]
     },
@@ -136,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The malformed idiom \"вооружённым глазом\" is replaced by the correct, plain \"with the aid of optics\". The mock-scientific distortion of a familiar phrase (e.g. \"aided eye\" echoing \"unaided eye\") disappears. The lecturer no longer sounds ridiculous. The phrase is merely a bit pompous, so the joke is lost."
+          "justification": "\"With the aid of optics\" is a plain, correct phrase. The malformed idiom (a familiar expression like \"unaided eye\" wrongly upgraded) is gone, so the mock-scientific distortion that makes the line funny disappears. The \"armed/aided eye\" element is missing entirely."
         }
       ]
     },
@@ -161,9 +154,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The counting progression and the \"five stars are best\" punchline are preserved, so the cognac shift works for viewers who know the reference. The diminutive silliness of \"звёздочки\" is lost and the line is broken oddly across the subtitle (\"Four stars... But five stars\"), which weakens the build-up slightly. The cognac association is no clearer than in the reference."
+          "justification": "The star progression and the final \"five stars are best of all\" punchline are preserved, so the cognac derailment works for those who know the association. No note or hint helps non-Soviet viewers, and the buildup loses some of the silly childish counting rhythm (\"two stars, three stars...\" with a break), but the joke largely survives."
         }
       ]
     },
@@ -185,7 +178,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content and the casual \"Science hasn't been informed yet\" capture the personification of science well. The wording \"Science doesn't know\" is flatter than \"unknown to science\", and the line breaks are awkward. The register mismatch is mostly kept, with only a slight loss of the colloquial \"не в курсе дела\" flavor."
+          "justification": "The register mismatch is mostly kept: \"Science hasn't been informed yet\" treats science like a person not briefed, and the content is valid. \"Doesn't know\" is flatter than the reference's \"unknown to science\", losing a little of the mock-formal phrasing before the colloquial punchline, and \"informed\" is less idiomatic than \"up to speed\"."
         }
       ]
     }
@@ -193,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

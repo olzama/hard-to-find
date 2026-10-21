@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate drops the mock-elevated theatrical framing of the reference (\"Pray, tell me, name them!!\") and the emphatic \"нет\" beat. The condensed \"Name one!\" keeps the challenge but weakens the self-dramatizing voice the analysis describes."
+          "justification": "\"Name one!\" is much terser than the source's pompous, theatrical \"назови, нет, я жду!\". The mock-elevated self-dramatizing tone the analysis describes is weakened, and the hesitation particle \"нет\" is dropped."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"how about a little drink?\" is more generic than the reference's colloquial \"toss back a quick one\", so the casual camaraderie of the diminutive \"рюмашка\" is weakened. The candidate also starts with a lowercase letter, which reads as inconsistent with the other segments."
+          "justification": "\"a little drink\" is blander than the colloquial \"toss back a quick one\" of the reference. The quick, deflating casualness the analysis highlights is weakened, and the line is lowercased, which is inconsistent with subtitle convention."
         }
       ]
     },
@@ -68,9 +68,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Such... such lofty relations!\" uses the literal noun-phrase structure the language-specific note warns against, and \"relations\" is less natural than \"relationship\" in this exclamation. The stretched sibilant of \"выс-с-сокие\" is not reproduced, so the mocking elongation the reference preserves via \"e-v-volved\" is lost."
+          "justification": "The source's stretched sibilant \"выс-с-сокие\", which signals a sarcastic drawl, is not reproduced. The stutter \"Such... such\" captures the hesitation, but the mocking elongation that carries the irony is lost."
         }
       ]
     },
@@ -87,14 +87,7 @@
         "language_specific": {}
       },
       "candidate": "You don't live to please yourself.\nYou live to do what's right.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"You live to do what's right\" conveys the conscience-based moral framing, but it loses the soldierly \"duty\" register that the analysis links to Savva's fatalism and practical directness. The abstract phrasing is more generic than the character voice."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -132,9 +125,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Master chef!\" reads as a title or even sincere praise, not as a loud domestic insult. The analysis requires the absurd use of a neutral professional term as an ironic dismissal, and the standalone noun is the literal structure the language-specific note flags. The comic effect of Margarita's contemptuous tone is significantly lost, and the phrase also evokes an unrelated TV brand."
+          "justification": "\"Master chef!\" is a standalone professional noun phrase, the exact pattern the analysis flags as unnatural. It also reads as sincere praise rather than the sarcastic domestic insult the joke depends on, so the comic contempt of Margarita Pavlovna's line is inverted or lost."
         }
       ]
     },
@@ -171,14 +164,7 @@
         "language_specific": {}
       },
       "candidate": "Cut the damn thing out!\nDon't wait for peritonitis!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"the damn thing\" is vaguer and weaker than the reference's \"the hell out\", which renders the strong \"к чёртовой матери\". The profanity intensity is reduced, though the surgical urgency and the peritonitis line come across."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -193,7 +179,14 @@
         "language_specific": {}
       },
       "candidate": "Khobotov, how petty!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Khobotov, how petty!\" is an awkward exclamative. It shifts the flat, dismissive judgement of \"Это мелко!\" (\"That is petty!\") into a verdict on Khobotov as a person, which is slightly less natural than the reference."
+        }
+      ]
     },
     {
       "id": 10,
@@ -216,9 +209,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The idiom \"cross to bear\" is preserved, but \"He's my cross\" personifies the burden as Khobotov, where the source's \"Это\" points to the situation. \"And I must bear him!\" is slightly unidiomatic and loses the solitary martyrdom of the reference's \"And mine alone!\" and the triple-exclamation intensity, weakening the self-dramatizing tone the analysis highlights."
+          "justification": "The source's \"Это мой крест\" (this situation is my cross) is rendered as \"He's my cross to bear!\", which adds a referent (Khobotov) not in the source. The follow-up \"And I must bear him!\" also mismatches the source's \"его\", which refers to the masculine noun крест (cross), not to a person. This shifts the hyperbolic self-pity toward blaming the husband."
         }
       ]
     },
@@ -246,13 +239,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 11,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

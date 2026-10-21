@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the vocative 'Ребята' (Guys) that addresses the policemen. The reference keeps it, so the candidate loses the speaker's direct address to the officers."
+          "justification": "The candidate omits the address 'Guys' (Ребята) that opens the source line. The joke itself ('Get drunk enough, and you will be!') is preserved."
         }
       ]
     },
@@ -140,10 +140,10 @@
       "candidate": "As our dear boss says,\nOn someone else's dime, even teetotalers\nand convalescers drink!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis explicitly states that the translation needs at least some creative solution for the balanced, proverbial rhythm of 'трезвенники/язвенники'. The candidate's 'even teetotalers / and convalescers drink!' is a flat, unrhythmic rendering with no parallel cadence, so it contradicts that requirement. The added 'As our dear boss says,' is faithful to the source but does not compensate for the missing rhythm."
+          "justification": "The analysis calls for a balanced, proverbial rhythm built on parallel suffixes, and the language note asks for at least some creative solution to the missing rhythm. The candidate reproduces the reference's unrhythmic wording, and the line break after 'teetotalers' further breaks the intended parallelism."
         }
       ]
     },
@@ -250,14 +250,7 @@
         "language_specific": {}
       },
       "candidate": "\"Slipped. Fell.\"\n\"Closed fracture.\"\n\"Passed out. Woke up...\"\n\"In a cast!\"",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate adds quotation marks, an exclamation mark on 'In a cast!', and an ellipsis after 'Woke up', none of which appear in the source. The flat, telegraphic delivery of 'Очнулся — гипс' becomes emphatic and hesitant, which weakens the mechanical, rehearsed-alibi effect described in the analysis. The quotation marks do suggest a recited script, so the staccato mantra is largely preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -382,14 +375,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 2
     },
-    "total_points": 7,
+    "total_points": 2,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.08695652173913043,
+    "major_equiv_per_unit": 0.017391304347826087,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

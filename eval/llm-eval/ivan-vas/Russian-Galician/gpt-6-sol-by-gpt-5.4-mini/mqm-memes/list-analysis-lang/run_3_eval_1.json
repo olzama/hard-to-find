@@ -24,15 +24,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Medalla\" changes the object from a medallion to a medal, weakening the specific callback to the missing item in the source."
+          "justification": "The candidate preserves the meaning and comic effect, but 'vagas sospeitas' and the line break slightly weaken the mock-heroic, theatrical cadence of the original phrase."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Vagas sospeitas\" is less elevated and less mock-heroic than the original theatrical phrasing, slightly reducing the comedic register."
+          "justification": "'unha medalla' is less precise than the reference's 'medallón' for the stolen item, though the joke and overall point remain intact."
         }
       ]
     },
@@ -52,15 +52,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate keeps the self-identification as Tsar clear, but the wording reorganizes the repeated greeting enough that the comic pattern of \"greeting, then introducing oneself\" is somewhat less precise than in the reference."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Eu son o tsar\" sounds more modern and emphatic than the reference's more neutral, repetitive politeness, slightly changing the comic cadence."
+          "justification": "The candidate conveys the repeated self-introduction, but 'Moito gusto. Eu son o tsar!' is more modern and flattened than the awkward, formulaic greeting-cliché humor in the reference."
         }
       ]
     },
@@ -97,14 +91,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, vella, estou aflixido.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Vella\" is less affectionate and period-flavored than \"velliña,\" so the archaic, slightly condescending tone is weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -119,14 +106,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme...\nOs demos emparedáronme!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The split into two lines and the exclamation mark make the line a bit less abrupt and despairing than the source/reference, slightly softening the comic panic."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -151,7 +131,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Iso é\" is a bit flatter than the more theatrical, exclamatory phrasing in the reference, so the miracle-claim sounds slightly less forceful."
+          "justification": "'Iso é obra da cruz vivificadora!' is understandable, but it is less idiomatic and forceful than the more proverbial exclamation in the reference, slightly weakening the devotional grandiosity."
         }
       ]
     },
@@ -196,15 +176,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Ao entrar\" can suggest simply entering, but \"dar cun bo sitio\" / \"зашел\" in context is the fortunate arrival at a profitable place; the candidate is acceptable yet somewhat less idiomatic and precise."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The phrasing is a little more literal and less breezy than the source's cheerful, self-satisfied tone, so the playful anti-hero voice is slightly weakened."
+          "justification": "'Vaia sorte tiven ao entrar!' preserves the exclamation, but 'ao entrar' sounds a bit more neutral and less jaunty than the cheerful self-satisfied punchline in the reference."
         }
       ]
     },
@@ -226,14 +200,7 @@
         }
       },
       "candidate": "Caviar negro, vermello...\nAh, si! Unha exquisitez de ultramar...\nPaté de berenxena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Ah, si!\" is less natural and less sly than the source's triumphant \"Да!\", slightly reducing the comic punch."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -253,14 +220,7 @@
         }
       },
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres cigarreiras de fabricación nacional,\nunha chaqueta de ante... tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Cámaras de cine\" is understandable, but the reference's sharper, more natural catalog rhythm is slightly weakened by the more descriptive phrasing and line break."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -280,7 +240,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The repeated \"vante curar\" misstates the second clause slightly; the source/reference has a more varied, natural repetition and the candidate sounds a bit less exact in the escalation."
+          "justification": "The candidate repeats 'vante curar' in the second line, which slightly changes the rhythm and pronoun pattern of the original; the meaning remains clear, but the construction is less faithful and natural."
         }
       ]
     }
@@ -288,13 +248,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 12
+      "minor": 6
     },
-    "total_points": 12,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-6-sol"

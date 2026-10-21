@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which states they currently possess these items. The analysis explicitly notes these lines mean the items were lost (each had their corresponding item), not that they still have them. This reverses the intended meaning and undermines the comedic callback."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' implying present possession. The analysis explicitly notes these items are missing (they were lost); the Russian means they were walled/stripped of those items, not that they currently possess them. This reverses the intended meaning and undermines the joke about discovered loss/theft."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should make clear Bunsha is introducing himself as 'the Tsar' (a drunken self-introduction), not addressing some tsar. The candidate repeatedly uses 'Hello, Tsar' which reads as addressing a monarch rather than the intended self-introduction. That changes the comedic effect described in the analysis."
+          "justification": "The original gag depends on Bunsha introducing himself as 'the Tsar' (repeatedly) rather than addressing someone called the Tsar. The candidate's phrasing ('Hello, Tsar, very pleased.') reads as if Bunsha is greeting a Tsar, not proclaiming himself to be the Tsar, which contradicts the analysis and changes the comedic situation."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "In the source the demons are the subject ('They walled me in... the demons'), not addressees. The candidate 'Walled up, you demons!' turns 'demons' into a vocative (addressing them), which reverses the syntactic role and weakens the intended meaning that forces beyond his control entombed him."
+          "justification": "The line 'Замуровали… замуровали, демоны' in the analysis specifies that 'demons' are the subject (he is saying they have walled him in), not that he addresses demons. The candidate's 'Walled up, you demons!' turns 'demons' into an addressee, changing the syntactic role and the intended meaning."
         }
       ]
     },
@@ -112,7 +112,14 @@
         "language_specific": {}
       },
       "candidate": "See what the life-giving cross can do!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the meaning but reduces the archaic, formal register of the reference ('Behold the power of the life-giving cross') by using the colloquial 'See what the life-giving cross can do!' This slightly weakens the high-register, devout flavor that heightens the joke."
+        }
+      ]
     },
     {
       "id": 7,
@@ -159,10 +166,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Exotic caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'Заморская икра… баклажанная!' as 'Exotic caviar... Eggplant!' which risks implying the eggplant spread itself is a type of caviar. The analysis warns translations should not call eggplant spread 'caviar' to avoid confusing viewers about the satirical contrast between real caviar and cheap 'eggplant caviar.'"
+          "justification": "The analysis warns not to call eggplant spread 'caviar' because the joke rests on presenting humble 'eggplant caviar' as a cheap Soviet product, not literal caviar. The candidate's 'Exotic caviar... Eggplant!' risks treating eggplant as genuine caviar and thus confuses the satirical inversion and the intended social commentary."
         }
       ]
     },
@@ -199,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 4,
       "minor": 1
     },
-    "total_points": 16,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

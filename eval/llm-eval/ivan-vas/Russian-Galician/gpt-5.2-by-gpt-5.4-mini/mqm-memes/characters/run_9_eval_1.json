@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key meaning in the NB: it says Shpak and the ambassador currently have the items, while the line means they lost them. This breaks the callback and the joke about the theft."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The wording is slightly less mock-heroic and less idiomatic than the reference, so the theatrical ‘smutnye somneniya’ register is weakened."
+          "justification": "The candidate states that Shpak and the ambassador still have the items, but the line means they have lost them; this reverses the joke’s setup and contradicts the analysis note."
         }
       ]
     },
@@ -46,10 +40,10 @@
       "candidate": "Moito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate does not clearly preserve that Bunsha is introducing himself as the tsar. The repeated greeting could be read as addressing a tsar, which conflicts with the analysis and weakens the joke."
+          "justification": "The greeting is understandable and keeps the self-introduction as the tsar, but the phrasing is less convincingly repetitive and bureaucratically mundane than the reference, so the comic social-cliché effect is slightly weakened."
         }
       ]
     },
@@ -66,14 +60,7 @@
         "language_specific": {}
       },
       "candidate": "Esixo que continúe o banquete!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is understandable, but 'que continúe o banquete' is a bit more literal and less natural than an idiomatic subtitle rendering."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -93,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'vella' and 'estou triste' are more plain and modern than the reference's slightly elevated, resigned tone. The regal melancholy is preserved, but with less period flavor."
+          "justification": "The meaning is clear, but 'estou triste' is flatter and less elevated than the reference’s more formal, archaic melancholy, which slightly reduces the regal tone."
         }
       ]
     },
@@ -110,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The split line is acceptable, but the second line is a bit less smooth than the reference and slightly redundant in its punctuation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -132,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "Velaí o que fai a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Velaí' is a slightly different discourse choice from the reference's more elevated 'Velaquí', making the miracle formula a bit less formal and ceremonial."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -171,10 +144,10 @@
       "candidate": "Que ben entrei!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "'Que ben entrei!' suggests entering was good or fortunate, but it does not fully convey the triumphant 'I hit the jackpot by coming in here' nuance. The jaunty criminal self-congratulation is weakened."
+          "justification": "The candidate preserves the sense of pleased discovery, but 'Que ben entrei!' is a bit less idiomatic and less casually self-satisfied than the reference, slightly weakening the anti-heroic comic tone."
         }
       ]
     },
@@ -196,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'caviar' for the eggplant item, directly violating the NB. The joke depends on recognizing that this is not actually caviar but cheap eggplant spread."
+          "justification": "The candidate calls the eggplant spread 'caviar' ('Caviar de ultramar'), which the analysis explicitly says should be avoided because it confuses the joke and erases the contrast between real caviar and the cheap Soviet substitute."
         }
       ]
     },
@@ -218,7 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits one of the listed suede jackets and fails to preserve the escalating repetition that is central to the joke. The final self-betraying 'three' is also not clearly attached to the missing item."
+          "justification": "The candidate omits the repeated counting structure that is central to the joke and does not preserve the incremental list with the missing jacket count; this significantly weakens the escalating comic effect and the punchline."
         }
       ]
     },
@@ -235,19 +208,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te curarán!\nE a ti tamén te curarán!\nE a min tamén me curarán!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the meaning, but replacing 'vante curar' with the simpler future passive 'curarán' reduces the calm, slightly melodic resignation of the reference."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 30,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

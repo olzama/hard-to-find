@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction to\ncelebrate the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is an instruction to celebrate... cheerfully\" keeps the bureaucratic directive framing, but \"cheerfully\" is slightly less festive-formal than \"merrily\" and the phrasing is a bit stiffer, with no real loss of the joke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" is left untranslated, which is acceptable but keeps the fairy-tale flavor more prominent than the workplace type; \"hire\" and \"raise within our own collective\" preserve the staffing logic, and \"raise\" slightly infantilizes versus \"train/cultivate\". Only a mild loss."
+          "justification": "\"Raise one\" and \"hire\" are acceptable, but \"raise\" leans toward child-rearing and loses the bureaucratic staffing/training logic of \"train in-house\"; the workplace-type joke is still readable thanks to \"our own collective\"."
         }
       ]
     },
@@ -74,10 +67,10 @@
       "candidate": "briefly—about\nforty minutes, I think\nno more is needed",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"briefly\" is rendered flatly, with no sense of the diminutive faux-modesty of «коротенько» (\"just a little while\"). The contrast with \"forty minutes\" and Ogurtsov's smug tone is weakened, and \"no more is needed\" sounds stiff."
+          "justification": "The faux-modest \"briefly\" comes before the duration, so the reversal works, but the flat, lowercase rendering with \"no more is needed\" loses the cozy, self-satisfied diminutive tone of «коротенько»."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The \"ready\" = \"drunk\" double meaning is not recreated. \"Ready long ago\" is only a literal reading, so the alcoholic subtext is lost unless the viewer supplies it from the image, and the joke largely disappears."
+          "justification": "\"Ready long ago\" keeps only the surface meaning. Nothing in English hints at the colloquial \"done for / drunk\" sense of «готов», so the double reading that carries the joke is lost."
         }
       ]
     },
@@ -126,10 +119,10 @@
       "candidate": "- People!.. Ah... Hel-lo!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The broken vocalization is only partly kept: \"People!.. Ah...\" is normalized and \"Hel-lo!\" lacks the stretched, wavering «ау-у» quality, so the drunken physical comedy is weaker than in \"Peo-ple!\" and \"hellooo\"."
+          "justification": "The line is normalized to a clean \"People!\" with no stretching or breaking, and \"Hel-lo!\" is only weakly broken. The faltering, drunken vocal instability the analysis stresses is largely lost."
         }
       ]
     },
@@ -158,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It does not echo the English \"unaided eye\", so the mangled-idiom joke is lost and the phrase sounds merely strange. The first sentence is also split and \"only need\" is flatter than \"all we have to do\"."
+          "justification": "\"Armed eye\" is the literal calque the notes warn against. It does not echo \"unaided eye\" and so does not evoke a recognizable idiom being wrongly upgraded; it just sounds surreal."
         }
       ]
     },
@@ -184,10 +177,10 @@
       "candidate": "and we already see two stars,\nthree stars...\nFour stars—best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Four stars—best of all\" merges the counting and the punchline, so the progression is blurred and the \"five stars\" click is slightly weakened because four stars is presented as best. No note explains the cognac link, though the star counting is retained."
+          "justification": "The progression is garbled: \"Four stars—best of all, of course, five stars!\" makes four stars the best and muddles the buildup. The sudden click to the five-star cognac frame is weakened, and there is no cultural cue to it."
         }
       ]
     },
@@ -213,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The casual register is mostly kept, but \"science does not know\" is more formal than \"unknown to science\", and \"is not yet aware\" drops the colloquial \"up to speed\" feel of «не в курсе дела». The personification of science is weaker."
+          "justification": "Meaning and the casual phrasing are preserved, but \"science is not yet aware\" is slightly more formal than the colloquial «не в курсе дела» (\"isn't up to speed\"), so the register mismatch is a bit weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 20,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

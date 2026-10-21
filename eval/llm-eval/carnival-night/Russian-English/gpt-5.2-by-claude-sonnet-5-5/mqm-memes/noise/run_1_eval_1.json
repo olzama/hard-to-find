@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one\" and \"team\" are acceptable and keep the workplace logic, but \"raise\" has a slightly parental/fairy-tale flavor and is less like the managerial 'train/cultivate in-house' wording; the deadpan staffing tone is a bit weaker."
+          "justification": "Baba Yaga is kept as a name, so the 'nasty woman' social type is only implied. 'Raise one within our own team' keeps the workplace logic and the in-house cultivation joke, but English viewers may not recognize Baba Yaga as a malicious-woman type, so the second level is weaker."
         }
       ]
     },
@@ -67,16 +67,10 @@
       "candidate": "briefly—about\nforty minutes; more, I think,\nisn't necessary",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The faux-modest, cozy diminutive force of «коротенько» is flattened to a plain lowercase \"briefly\", so the contrast with \"forty minutes\" is weakened; the smug, patronizing tone is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"more, I think, isn't necessary\" is stilted and bookish, and lacks Ogurtsov's colloquial managerial self-satisfaction."
+          "justification": "The word 'briefly' is rendered flatly, with no sense of faux-modesty or diminutive coziness. The briefness-then-forty-minutes order is kept, so the punchline still works, but the patronizing managerial tone is weaker. The ending 'isn't necessary' is also a bit stiff."
         }
       ]
     },
@@ -99,10 +93,10 @@
       "candidate": "Is the lecturer ready?\n- The lecturer's ready—ready long ago!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready long ago\" renders only the literal sense and the subtext of intoxication is lost, so the joke disappears."
+          "justification": "'Ready long ago' keeps the administrative surface meaning and the 'for a while' nuance, but it does not recreate the 'drunk/done for' double sense, so the alcoholic subtext is only faintly available. The exclamation mark also adds an emphasis that the dry exchange does not need."
         }
       ]
     },
@@ -128,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, wavering vocalization is kept, but \"People!\" is not stretched or split into syllables as in the source «Лю-ди!», so the drunken instability is slightly weaker; \"ah-oo\" is a reasonable equivalent of «ау-у»."
+          "justification": "The broken, faltering shape is partly kept with 'People!.. Ah... ah-oo!'. However, 'People' is not stretched or broken into syllables, and the final 'ah-oo' is less of a wavering call-out than 'hellooo', so the drunken vocal instability is somewhat weaker."
         }
       ]
     },
@@ -155,15 +149,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis warns against; it sounds surreal and does not evoke the familiar English \"unaided eye\", so the mock-scientific malformed idiom is not recreated."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"it's enough for us to take a telescope\" is awkward compared with the natural 'all we have to do is', and the lecturer's exclamatory rhythm is weakened."
+          "justification": "'Armed eye' is the literal calque that the analysis explicitly warns against. It sounds surreal rather than like a mangled 'unaided eye' mock-scientific idiom, so the joke of a familiar expression wrongly 'upgraded' is lost. 'It's enough for us to take' is also awkward."
         }
       ]
     },
@@ -192,13 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting sequence is broken: \"Four little stars—best of all, of course, five little stars\" merges four into the punchline, so the trivial one-two-three buildup does not lead cleanly to the sudden \"five stars\" click into cognac."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "\"Little stars\" is a faithful diminutive but loses the cognac association of \"five stars\"; no note or cue helps viewers make the shift."
+          "justification": "The counting progression is garbled: 'Four little stars' is separated from the buildup and merged into the punchline ('Four little stars—best of all, of course, five'), which breaks the one-two-three-four rhythm that makes the 'five stars' click land as a sudden derailment. The 'little stars' wording fits the childish counting, but the cognac association is not signaled in any way. The analysis says a note may be needed, and none is provided."
         }
       ]
     },
@@ -222,23 +204,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Science is not yet in the know\" keeps the colloquial register, but \"science does not know\" is more formal than «науке неизвестно» and the rhythm of the line is somewhat clumsy; the casual personification is still conveyed."
+          "justification": "The content and casual register are kept, and 'Science is not yet in the know' captures the personified 'not up to speed' joke. However, 'is there not life on Mars' is slightly stiff compared with the colloquial source, and the line break and dash make the structure a little awkward."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 6
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 26,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 3.25,
-    "major_equiv_per_unit": 0.65,
-    "interpretation": "3.25 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

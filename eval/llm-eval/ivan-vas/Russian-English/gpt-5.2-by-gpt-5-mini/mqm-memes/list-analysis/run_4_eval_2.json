@@ -33,10 +33,10 @@
       "candidate": "Hello, Tsar—very pleased.\nVery pleased—hello, Tsar.\nTsar—very pleased.\nHello, Tsar—very pleased!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing a Tsar ('Hello, Tsar'), whereas the analysis requires that he be introducing himself as the Tsar (mock self-identification). This change reverses the joke’s target and undermines the intended comedic clash between eras."
+          "justification": "The candidate repeatedly addresses or names 'Tsar' (Hello, Tsar—very pleased) rather than clearly introducing himself as the Tsar (I am the Tsar). The analysis explicitly notes the need to make clear he is introducing himself; the current wording is ambiguous and could be read as addressing a tsar rather than claiming the identity, which weakens the intended gag."
         }
       ]
     },
@@ -88,7 +88,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original requires 'demons' to be the subject ('They walled me in — the demons'), but the candidate's vocative phrasing ('Walled me in, demons!') makes it sound like Ivan is addressing the demons. This reverses grammatical role and alters the intended comedic misunderstanding."
+          "justification": "The analysis requires that 'demons' be the subject (i.e., 'they walled me in'—the demons did it), not a vocative address. The candidate's second line ('Walled me in, demons!') reads as if the speaker is addressing demons, which reverses the grammatical role and undermines the intended meaning and comedic misunderstanding of technology as a demonic act."
         }
       ]
     },
@@ -110,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a colloquial, explanatory tone ('So that’s what the life-giving cross can do!') rather than the high-register, archaic exclamation of the reference. Meaning is preserved, but the elevated, somewhat solemn register that heightens the comic-religious contrast is weakened."
+          "justification": "The candidate renders the line in a colloquial, explanatory tone ('So that’s what the life-giving cross can do!'), which conveys the meaning but loses some of the archaic, high-register solemnity of the original 'Behold the power of the life-giving cross!' The shift mildly weakens the comic contrast between regal religiosity and modern technology."
         }
       ]
     },
@@ -192,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 1
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 11,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

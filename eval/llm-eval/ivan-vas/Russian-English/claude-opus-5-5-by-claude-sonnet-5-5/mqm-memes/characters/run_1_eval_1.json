@@ -26,7 +26,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Tormented by vague suspicions\" keeps the sense, but \"suspicions\" is plainer than \"doubts\" and the inverted word order is only mildly elevated, so the mock-heroic, operatic register of 'терзают смутные сомнения' is somewhat weakened."
+          "justification": "'Tormented by vague suspicions' keeps the loss meaning (Shpak lost, ambassador lost), but 'suspicions' is plainer than the mock-elevated 'vague doubts haunt me'. The theatrical, literary register is slightly weakened. 'Once again I'm tormented' is acceptable but less grand."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"A pleasure, Tsar!\" and \"Hello, Tsar!\", which reads as Bunsha addressing a Tsar. The analysis requires that he introduces himself as the Tsar. The central joke of the drunken self-introduction is lost and the meaning is reversed."
+          "justification": "The candidate 'A pleasure, Tsar!' / 'Hello, Tsar!' reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. The analysis' note explicitly requires making clear he is introducing himself as the Tsar. This misreading removes the joke of the drunken self-introduction."
         }
       ]
     },
@@ -140,7 +140,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' is accurate and conveys the command, but it is plainer than the host-like, ceremonial 'The floor is open to everyone!'. It loses some of the mock-official party-leader tone, though the uninhibited spirit remains."
+        }
+      ]
     },
     {
       "id": 8,
@@ -162,10 +169,10 @@
       "candidate": "Well, I picked the right time to drop by!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"I picked the right time to drop by\" is acceptable for having just arrived and is not misleading about leaving. But it shifts the meaning to good timing and loses the sense of a lucky find of loot (a good call). This weakens the connection to discovering the valuables, though it is not seriously misleading."
+          "justification": "'Picked the right time to drop by' correctly implies he has just arrived, so it avoids the misleading departure reading. However, it adds a 'timing' nuance (the owner being away) that is absent from the source's more general 'good call coming in here', and 'drop by' sounds like a casual visit rather than a burglary. Slight loss of the cheerful anti-hero crime tone."
         }
       ]
     },
@@ -192,7 +199,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"caviar\" (\"overseas caviar... Eggplant caviar!\"), which the analysis explicitly says must be avoided because it confuses viewers. It also replaces the 'Да!' with \"Aye!\", which adds an archaic tone not in the source."
+          "justification": "The candidate calls the eggplant spread 'eggplant caviar' and 'overseas caviar', which the analysis' note explicitly forbids because it confuses viewers. The satire depends on the contrast between real caviar and a cheap spread, which is blurred here. 'Aye!' is also an odd, archaic-pirate rendering of 'Да!'."
         }
       ]
     },
@@ -219,13 +226,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The structure is changed: \"domestic\" is attached to cigarette cases but the comic beat of the suede jacket count is kept only as \"suede jacket - three\", with no hesitation/ellipsis that shows him forgetting to increment. The joke still works but is less clearly marked."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Using numerals \"3\" in a spoken list is slightly less natural than spelled-out numbers."
+          "justification": "The candidate moves 'domestic' to describe the cigarette cases (which is correct), but 'suede jacket - three' makes it clear the count is repeated and misses the original's hesitation and the 'forgetting to increment' effect. The source's joke that he initially forgets the jacket count is partially preserved but weaker. Digits '3' instead of 'three' also slightly flatten the spoken rhythm."
         }
       ]
     },
@@ -247,21 +248,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks replace the ellipses of the original, which turns the calm, melodic resignation of Ulyana into a more emphatic delivery and weakens the tone described in the analysis."
+          "justification": "Exclamation marks make the delivery more emphatic and hysterical. The analysis stresses a melodic, calm resignation, so the tone is a little off, though the meaning is fully preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 19,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

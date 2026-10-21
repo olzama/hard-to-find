@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis's NB says the items are lost, not possessed. 'Shpak has a tape recorder, the ambassador has a medallion' reverses the meaning, since both items were stolen."
+          "justification": "The NB explicitly forbids 'Shpak has... the ambassador has...': the items are gone. The candidate says they possess a tape recorder and medallion, reversing the meaning and breaking the callback to the thefts."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Plagued by vague suspicions' is reasonably elevated, but 'suspicions' shifts the sense of 'сомнения' (doubts) and loses some of the mock-heroic, operatic flavor."
+          "justification": "'Plagued by vague suspicions' is less mock-heroic than 'vague doubts haunt me'; 'suspicions' also shifts from 'doubts', weakening the theatrical register."
         }
       ]
     },
@@ -49,7 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Hello, Tsar!' reads as addressing a Tsar, which is exactly the misreading the analysis warns against."
+          "justification": "'Hello, Tsar!' reads as addressing a Tsar, not introducing himself as the Tsar, which the NB says must be clear. The self-introduction joke is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'So nice' is a stilted rendering of 'очень приятно' (pleased to meet you), so the stiff Soviet social cliché is weaker."
         }
       ]
     },
@@ -81,14 +87,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The contraction 'I'm' lowers the archaic, regal register slightly compared with 'I am in sorrow', weakening the contrast the analysis describes."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -108,7 +107,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' reads as addressing the demons as a vocative. The NB requires demons to be the subject, as in 'the demons walled me in'."
+          "justification": "'Walled up, demons!' reads as addressing the demons, which the NB forbids. Demons must be the subject (the demons walled me in). The candidate also drops the 'me'."
         }
       ]
     },
@@ -125,14 +124,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross does!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'That's what the life-giving cross does!' is accurate but colloquial. It loses the solemn, triumphant tone of the Tsar's pronouncement, which a phrase like 'Behold the power of the cross' would preserve."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -147,7 +139,14 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' conveys the meaning but lacks the host-like, mock-grand sweep of the reference. Still natural and effective."
+        }
+      ]
     },
     {
       "id": 8,
@@ -167,7 +166,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'What perfect timing!' changes the meaning and drops the sense of a fortunate choice of apartment to enter. The NB requires that it not mislead about his having just entered."
+          "justification": "'What perfect timing!' misses the point: he has just entered Shpak's apartment and found it full of valuables. The NB warns against misleading readings, and 'timing' suggests the burglar's lucky arrival, losing the 'good call/chose well' sense of his choice of target and the cheerful anti-hero reaction."
         }
       ]
     },
@@ -189,7 +188,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'caviar' ('Imported caviar... Eggplant!'), which the NB forbids. It blurs the joke, since the viewer cannot tell the eggplant item is a cheap spread."
+          "justification": "The NB forbids calling eggplant spread 'caviar'. The candidate says 'Imported caviar... Eggplant!', which confuses the viewer and loses the joke of cheap spread presented as a rare overseas delicacy."
         }
       ]
     },
@@ -211,13 +210,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the count for the suede jacket, which should be singular ('a suede jacket... Three'). The candidate says 'three suede jackets' and loses the slip that betrays him."
+          "justification": "The joke depends on Shpak forgetting to increment the jacket count at first and being betrayed by the final 'Three'. The candidate states 'three suede jackets' straight away, with no slip or delayed correction, so the humor is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Mixing digits ('3') with the spelled-out 'three' is inconsistent."
+          "justification": "Mixing digits '3' with the word 'three' is inconsistent, and the 'domestic' placement and the hesitant list rhythm are lost."
         }
       ]
     },
@@ -239,13 +238,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first clause is rendered 'you too' and the second 'you as well', which drops the cumulative progression of the original ('и тебя вылечат… и тебя тоже вылечат'). The effect is still largely preserved."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks replace the calm, melodic resignation described in the analysis with a more emphatic tone."
+          "justification": "The first 'And they'll cure you' is omitted and 'too' and 'as well' are inserted, so the sequence 'you... you too... me' becomes an inexact enumeration, though the calm, resigned, melodic tone is mostly preserved."
         }
       ]
     }
@@ -253,13 +246,13 @@
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 36,
+    "total_points": 35,
     "meaning_units": 11,
-    "penalty_per_unit": 3.272727272727273,
-    "major_equiv_per_unit": 0.6545454545454545,
-    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.1818181818181817,
+    "major_equiv_per_unit": 0.6363636363636364,
+    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

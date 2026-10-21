@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive\nto greet the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"We have a directive\" keeps the bureaucratic top-down register and the clash with festive content. \"Greet the New Year cheerfully\" is slightly less natural than \"celebrate merrily\" but acceptable; the effect is largely preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Hire\" keeps the workplace logic and \"bring her up in our own collective\" keeps the Soviet 'upbringing' tone, but \"bring up\" suggests raising a child and is less clearly staffing/training. \"Collective\" is a slightly foreign term, though it fits the Soviet feel. The dual workplace/social-type effect is mostly intact."
+          "justification": "\"Hire\" fits the staffing logic, but \"Baba Yaga\" is left untranslated and without the human-type connotation (a nasty woman). English viewers may read it only as a fairy-tale figure, so the workplace/social dimension is weaker. \"Bring up in our own collective\" keeps the educational idea but is a bit stiff."
         }
       ]
     },
@@ -75,9 +68,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The diminutive faux-modesty of «коротенько» is rendered as a flat \"briefly\", with no sense of cozy patronizing understatement. The added \"no more, I think that's enough\" also shifts the line toward a firm limit rather than smug moderation, weakening the comic contrast with \"forty minutes\". The order (briefly before duration) is preserved."
+          "justification": "The line loses the faux-modest, cozy diminutive effect of \"коротенько\" and flattens it into plain \"briefly\", which weakens the contrast with \"forty minutes\". The added \"no more, I think that's enough\" is a reasonable rendering, but the ordering and smug managerial tone are only partly kept. The comic reversal lands less strongly."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The double sense of \"ready\" (prepared / drunk) is kept with \"ready long ago!\", and the idea of being ready for a long time is conveyed. However, the exclamation and odd phrasing \"ready long ago\" make the drunk subtext less clear and less natural than the reference's deadpan \"He's been ready for quite a while.\""
+          "justification": "\"Ready long ago\" is slightly odd English and the \"drunk\" subtext of \"готов\" is only faintly implied. The administrative surface and the \"for a while\" idea are kept, but the double meaning is not actively recreated. The exchange is also clipped, losing the dryly cheerful confirmation."
         }
       ]
     },
@@ -124,14 +117,7 @@
         }
       },
       "candidate": "- People!.. Ah... A-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The broken vocalization is preserved with \"People!.. Ah... A-oo!\", but the lecturer's stretched, faltering shape (Peo-ple) is lost, so the drunken physical comedy is weaker. \"A-oo\" is also less recognizable as a call than \"hellooo\"."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -158,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the language-specific note explicitly says to avoid. It sounds surreal rather than like a mangled \"unaided eye\", so the familiar-idiom-incorrectly-upgraded effect is lost. The comma ending also leaves the sentence hanging, losing the exclamatory pomp."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the notes say to avoid. It does not evoke the familiar \"unaided eye\" idiom, so the audience does not hear a familiar expression being wrongly upgraded. The result sounds surreal rather than mock-scientific, and the joke is lost. The trailing comma also breaks the exclamatory delivery."
         }
       ]
     },
@@ -184,10 +170,10 @@
       "candidate": "and we already see two little stars,\nthree little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The build-up is garbled. \"Four little stars—best of all, of course, five little stars\" makes four stars part of the praise and merges it with five, breaking the counting progression and the sudden click to five-star cognac. The punchline is blurred. The \"little stars\" wording does keep the childish tone."
+          "justification": "The \"little stars\" counting is kept and reads as silly. However, \"Four little stars—best of all, of course, five little stars!\" blurs the progression, because \"best of all\" is attached to the fourth star and the buildup is disrupted. The sudden click to the cognac frame is weakened, and there is no note or cue for the cognac association."
         }
       ]
     },
@@ -211,23 +197,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Whether there is no life on Mars\" is a stilted literal rendering of «нет ли жизни» and sounds awkward. The colloquial \"not yet up to speed\" is preserved, so the key register mismatch survives, but the line is chopped into short segments and loses some of the casual rhythm."
+          "justification": "\"Whether there is no life on Mars\" is a faithful, slightly awkward echo of the Russian tic. The casual register of \"up to speed\" is preserved. \"Science does not know\" is somewhat more formal than \"unknown to science\", so the colloquial flatness is slightly reduced."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

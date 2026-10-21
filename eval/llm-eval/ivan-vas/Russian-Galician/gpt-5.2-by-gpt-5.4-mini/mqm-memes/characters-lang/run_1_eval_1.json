@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate misses the key negation in the second half: it says Shpak and the ambassador still have the items, whereas the line means the items are with them in the sense of being missing/lost from their possession. This breaks the joke’s setup and the callback logic noted in the analysis."
+          "justification": "The candidate reverses the key point in the NB: it says Shpak and the ambassador currently have the items, rather than that these items were taken from them. That breaks the intended meaning of the clue and the joke setup."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Moito gusto, boas tardes, tsar!\nTsar, moito gusto!\nBoas tardes, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate changes the greeting into standard 'boas tardes' and does not clearly preserve that Bunsha is repeatedly introducing himself as 'tsar' while speaking in a banal, repetitive social register. The result weakens the comedic confusion between royal identity and mundane politeness."
+          "justification": "The line keeps the repetitive self-introduction, but 'boas tardes' weakens the slightly absurd formal greeting effect described in the analysis, which is less fitting for the banquet scene than a more neutral/oddly polite salutation."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is understandable, but it is flatter and less elevated than the reference's more archaic, regal melancholy. The mock-royal tone is slightly weakened."
+          "justification": "'Estou triste' is understandable, but it softens the more elevated, old-fashioned melancholy of 'estou aflixido', so the regal/archaic tone is slightly weakened."
         }
       ]
     },
@@ -97,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The second line sounds as if he is addressing the demons ('Emparedáronme, demos!') rather than stating that demons have entombed him. The NB explicitly warns against this, and it alters the meaning."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -119,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "Isto é o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Isto é o que fai...' is natural, but it is a bit less forceful and idiomatic than the exclamatory reference. The line loses some of the triumphant, miraculous punch of the original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -141,14 +127,7 @@
         "language_specific": {}
       },
       "candidate": "A bailar todo o mundo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'A bailar todo o mundo!' conveys the meaning, but it is less direct and punchy than 'Todos a bailar!'. For a shouted command, the phrasing is slightly more cumbersome."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -168,7 +147,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate suggests he 'passed by' and that it was fortunate, which reverses the situation. The original is a cheerful comment after entering and discovering a great find, not a remark about walking past the place."
+          "justification": "The candidate is misleading about the action: 'Foi ben cando pasei por aquí' suggests a retrospective remark about having passed by, not the immediate delighted realization upon entering that the apartment is full of goods. It blurs the comic timing and the sense that he has just stumbled into a lucky haul."
         }
       ]
     },
@@ -190,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'caviar' for the eggplant spread, directly conflicting with the NB that it should not be called caviar. This obscures the Soviet-food-shortage joke and makes the line misleading."
+          "justification": "The candidate omits 'eggplant' from the key phrase and repeats 'caviar' instead of making clear that the final item is eggplant spread. This removes the punchline and violates the analysis note that it should not be called caviar."
         }
       ]
     },
@@ -210,15 +189,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits 'unha chaqueta' being singled out and the running count error that makes the joke land. 'Cazadoras de ante, tres' is too compressed and loses part of the cumulative, boastful exaggeration."
-        },
-        {
-          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The abbreviated list and abrupt line break make the sentence less smooth and less like a comic inventory. It reads more like notes than a polished subtitle."
+          "justification": "The abbreviated list is intelligible, but '3 pitilleiras nacionais' and the final 'cazadoras de ante, tres' are awkwardly ordered, which slightly weakens the escalating, comic inventory rhythm."
         }
       ]
     },
@@ -235,26 +208,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te van curar!\nE a min vanme curar!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits the first clause about 'you will be cured' that is essential to the escalating, collective joke. Without it, the resigned recognition that everyone is equally mad is much weaker."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 35,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

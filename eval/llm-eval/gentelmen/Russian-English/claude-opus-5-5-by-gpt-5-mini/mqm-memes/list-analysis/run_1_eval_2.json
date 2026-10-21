@@ -38,10 +38,10 @@
       "candidate": "knock his horns off, rip his jaws,\ngouge his peepers out! You'll spend your whole life\nworking to pay for your meds,",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the phrase “knock his horns off,” which the analysis specifically warns against as a non-idiomatic literalism. It also shifts person/target wording compared with the reference’s direct-address threat. The final clause is more wordy (“working to pay for your meds”) than the compact, verdict-like Russian ending."
+          "justification": "The candidate shifts the addressee from second person to third person (“knock his horns off”) which changes the threat's directness and the speaker's stance. It also expands the compact, verdict-like final clause into a longer explanatory phrasing (“You'll spend your whole life working to pay for your meds”), losing the terse, sentence-final punch that the analysis identifies as crucial."
         }
       ]
     },
@@ -58,14 +58,7 @@
         "language_specific": {}
       },
       "candidate": "Oh, how many I have knifed, oh, how many I have sliced,\noh, how many souls I've sent to rest!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate softens the bluntly theatrical self-mythologizing by rendering the last line as “I've sent to rest,” which reads more euphemistic and less darkly grandiose than the reference’s “how many souls I’ve damned.” The sing-song repetition and comic aria effect are preserved, but the final verb weakens the original's comic-nihilistic edge."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -110,7 +103,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate’s final exclamation “Romance!” risks being read as literal love-romance rather than the ironic romanticization of a criminal routine; the analysis warned against the bare “Romance!” reading. The iterative formulaic cadence is preserved, however."
+          "justification": "The final word “Romance!” risks being read primarily as romantic love rather than the ironic romanticization of a criminal life; the analysis recommends an adaptation that keeps the ironic, lifestyle-romanticizing tone (e.g., “Romantic!” or similar)."
         }
       ]
     },
@@ -232,7 +225,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the vocative as the standard “citizen,” losing the source’s ungrammatical and comic «гражданина» (the mis-formed address contributes to the character’s broken English). The broken syntax of the warning is otherwise preserved, but the erased error lessens the comic effect described in the analysis."
+          "justification": "The translation smooths the original's slightly ungrammatical address by using the standard “citizen,” which reduces some of the comic effect produced by Vasily’s marked, non-native phrasing. The line should keep a bit more of the broken quality of the original address."
         }
       ]
     },
@@ -274,7 +267,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts tense and aspect—“Everybody run, so I run too”—where the source’s simple past parallelism (“Everyone ran — I ran”) supplies the childlike, meme-ready repetition. The present-tense phrasing reduces the original’s compact, explanatory rhythm."
+          "justification": "The candidate uses present-tense verbs (“Everybody run, so I run too”) rather than the past-tense parallelism of the original («Все побежали — и я побежал»). The simple past repetition is important to preserve the childlike, retrospective meme rhythm."
         }
       ]
     },
@@ -336,7 +329,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate changes the blunt feminine insult «дура» into “silly cow,” which both softens and alters the specific tone. The required feminine–masculine–feminine sequence is preserved, but the choice of insult is milder and somewhat different in connotation from the original."
+          "justification": "The candidate renders «дура» as “silly cow,” which softens and slightly miscasts the feminine insult's tone and direct-address quality. The line should keep a clearly feminine, directly addressed insult that matches the bluntness of the original."
         }
       ]
     },
@@ -363,7 +356,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate’s “slop bucket” makes the line a literal sanitary image; the analysis recommends avoiding a literal toilet rendering because «параша» functions as strong prison-status argot. The translation therefore reduces the term to an object rather than conveying the intended prison-hierarchy contempt."
+          "justification": "Using “slop bucket” risks reducing «параша» to a literal toilet object rather than conveying its role as a strong prison-status slur assigning someone to the lowest position in the inmate hierarchy. A more functionally equivalent prison-status term would better capture the original's force delivered with false civility."
         }
       ]
     },
@@ -388,23 +381,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The use of “hooligans” reads as dated/British and does not match the analysis’s call for contemporary, natural language for the attackers; the line should keep the oddly formal bureaucratic phrasing but avoid marked words like “hooligans.” The formal register of “depriving me of sight” is otherwise acceptable."
+          "justification": "The formal phrasing “depriving me of sight” reasonably preserves the bureaucratic tone, but the choice “hooligans” is dated/regionally marked and was warned against; a more natural contemporary term (e.g., “thugs” or “these men”) would better match the intended register while keeping the comedic, semi-formal panic."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 8
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 8,
+    "total_points": 11,
     "meaning_units": 18,
-    "penalty_per_unit": 0.4444444444444444,
-    "major_equiv_per_unit": 0.08888888888888888,
-    "interpretation": "0.44 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6111111111111112,
+    "major_equiv_per_unit": 0.12222222222222223,
+    "interpretation": "0.61 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

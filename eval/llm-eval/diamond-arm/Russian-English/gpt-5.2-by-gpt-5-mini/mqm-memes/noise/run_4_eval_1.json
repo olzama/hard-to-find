@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk—you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The policeman's line 'Get drunk—you will be!' is grammatically awkward and slightly stilted in English compared with the snappy, deadpan retort in the analysis/reference. The meaning and humor survive, but the phrasing weakens the bored, amused cop voice."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a perfectly accurate, literal rendering but loses the light, rhythmic bounce of the original 'Трус/Бо́юсь' rhyme that makes the line endearing rather than flatly literal. This weakens the comic, self-deprecating charm described in the analysis."
+          "justification": "The candidate preserves meaning but loses the light, bouncing comic effect of the original rhyme (Trus/Boyus). The line reads as a straightforward admission rather than the endearing, rhythmic paradox described in the analysis."
         }
       ]
     },
@@ -113,14 +120,7 @@
         "language_specific": {}
       },
       "candidate": "Ice cream for the kids,\nflowers for his woman.\nDon’t mix it up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate softens the coarse, uneducated register of 'баба'/'broad' to 'his woman,' removing some of Lyolik's rough, sarcastic voice and the comic bite of his instruction."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -170,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original line's comic effect relies on a marked pronunciation/mispronunciation of 'tablet' (phonetic humor). The candidate's neutral 'One pill is enough...' removes that spoken-character detail and thus weakens Lyolik's distinctive voice."
+          "justification": "The candidate conveys the content but omits the character's humorous mispronunciation and rhythmic stress on 'tablet' that make the original line memorable and characterful."
         }
       ]
     },
@@ -207,7 +207,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source is a melodic, elongated sigh ('Semyo-o-on Semyonych!'). The candidate's plain 'Semyon Semyonovich...' loses the drawn-out, weary musicality that conveys the character's exasperated tone."
+          "justification": "The reference emphasises a long, melodic sigh (elongation of the name). The candidate 'Semyon Semyonovich...' is functional but reduces the drawn-out, weary musicality described in the analysis."
         }
       ]
     },
@@ -224,14 +224,7 @@
         "language_specific": {}
       },
       "candidate": "May you live\non one\nsalary!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The theatrical ellipses and punch of the curse in the original ('Чтоб ты жил… на одну… зарплату!') are flattened in the candidate's more prosaic three-line delivery, slightly reducing the dramatic, malediction-like quality."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 14,
@@ -356,7 +349,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Gena's affected pronunciation of 'coffee' and slightly pompous delivery are a character marker in the original. The candidate's neutral 'have a cup of coffee' removes that affected, comic pretension."
+          "justification": "The candidate preserves the meaning but loses the affected pronunciation ('kof-e') that signals Gena's pretentious, pseudo-sophisticated persona; the line reads more plain and less characterful."
         }
       ]
     },
@@ -393,7 +386,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's intentionally incorrect, folksy verb form adds comedic stubbornness and rural flavor to the refusal. The candidate 'No, I can’t do that!' is accurate but neutralizes that comic, linguistically marked resistance."
+          "justification": "The candidate conveys a simple refusal but drops the purposely nonstandard, folksy verb form from the source that adds comic stubbornness and rural coloring to the line."
         }
       ]
     }
@@ -401,13 +394,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 6
     },
-    "total_points": 7,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

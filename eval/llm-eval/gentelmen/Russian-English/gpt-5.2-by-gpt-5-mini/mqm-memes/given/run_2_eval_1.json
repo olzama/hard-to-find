@@ -36,14 +36,7 @@
         }
       },
       "candidate": "I’ll knock your block off, rip your trap, and poke your peepers out! You’ll be working for medicine all your life!\nworking for medicine all your life",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate duplicates the final clause ('working for medicine all your life') on a new line in a lower-case, fragmentary form. This redundancy/formatting oddity is unnecessary and disrupts reading flow, though it does not change meaning."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -83,7 +76,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate contains an ungrammatical, awkward repetition: 'me on the foot a radiator dropped, the scumbag!' This word order is nonstandard in English and disrupts comprehension. The earlier main line is fine, but the extra malformed repetition weakens the subtitle's fluency."
+          "justification": "The candidate contains an extra, ungrammatical line ('me on the foot a radiator dropped, the scumbag!') that reads like a literal word-order transfer from Russian and breaks English fluency. The first line matches the intended effect, but the appended line is redundant and awkward."
         }
       ]
     },
@@ -142,10 +135,10 @@
       "candidate": "Move the horse! - Buzz off!\nMove the horse, I’ll never see the outside if I’m wrong!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds 'Buzz off!' and renders the oath as 'I’ll never see the outside if I’m wrong!', which changes the original force and meaning. The Russian line is a prison-styled certainty ('век воли не видать') rather than a conditional admission of error; the addition and conditional phrasing undermine the solemn, oath-like guarantee and the joke that depends on unschooled chess wording."
+          "justification": "The candidate inserts an extraneous utterance ('- Buzz off!') that is not in the source and disrupts the original exchange. The core joke—using the nontechnical 'horse' and a prison-style oath—is preserved, but the added line alters the interaction and flow."
         }
       ]
     },
@@ -169,10 +162,10 @@
       "candidate": "Was there a square? — There was.\nMaybe a monument?\n- There was a monument.\n- Whose monument?\n- How should I know? Some guy.\n- With a beard? - No!\n- With sideburns?\n- I don’t remember. He had a jacket!\n- Seated? - What?\n- Sitting? - Who?\n- That guy of yours!\n- What a hick! Listen to you!\nWho’d seat him? He’s a monument!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The final retort uses 'Who’d seat him? He’s a monument!' The verb 'seat' is an odd choice here and reads awkwardly in English; it weakens the intended ambiguity/pun between sitting and being imprisoned. The rest of the exchange preserves the setup."
+          "justification": "The punchline depends on an ambiguity between 'seated' (as a monument) and 'put in prison' (посадит). Rendering it as 'Who’d seat him? He’s a monument!' uses 'seat' which in English normally means place someone sitting, and does not trigger the prison/confinement reinterpretation—so the core pun and comedic logic are lost."
         }
       ]
     },
@@ -234,14 +227,7 @@
         }
       },
       "candidate": "Hey, citizin! You don’t go there, you go here! Snow fall on head — you be dead completely!\nor snow fall on head —\nyou be dead completely!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate repeats the final warning on a new line ('or snow fall on head — you be dead completely!'), creating an unnecessary duplication/formatting inconsistency. The broken, non-native grammar that is crucial to the comic effect is otherwise preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 12,
@@ -334,9 +320,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate appends a redundant sentence ('What a dumb broad.') after the main line, repeating the insult and creating unnecessary duplication. The primary line preserves the intended feminine–masculine–feminine sequence, but the extra clause is stylistically superfluous."
+          "justification": "The candidate includes an extra repetition ('What a dumb broad.') that changes the direct-address dynamic of the original. The original relies on Tanya addressing the apparent woman directly with a feminine insult; the added line turns it into detached commentary and slightly weakens the immediate comic effect."
         }
       ]
     },
@@ -358,7 +344,14 @@
         }
       },
       "candidate": "Sweetheart, don’t you think you belong with the punks?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "Rendering 'параша' as 'punks' neutralizes the original's harsh prison-status insult. 'Параша' marks the lowest, most degraded place in the inmate hierarchy; 'punks' is a much milder, non-prison social category and fails to transmit the contempt and prison-register effect essential to the joke."
+        }
+      ]
     },
     {
       "id": 18,
@@ -383,14 +376,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 10,
+    "total_points": 13,
     "meaning_units": 18,
-    "penalty_per_unit": 0.5555555555555556,
-    "major_equiv_per_unit": 0.11111111111111112,
-    "interpretation": "0.56 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7222222222222222,
+    "major_equiv_per_unit": 0.14444444444444443,
+    "interpretation": "0.72 MQM penalty points per meaning unit (≈ 0.14 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

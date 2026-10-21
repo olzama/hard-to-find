@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "De novo asáltanme escuras sospeitas… A Shpak desapareceulle o magnetófono; ao embaixador, o medallón.\nU Shpak desapareceulle o magnetófono; ao embaixador, o medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The duplicated line is not an accuracy error, but it reads like an accidental repetition in the subtitle file and is unnecessary here, making the presentation slightly awkward."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line is duplicated consecutively, which is not wrong for timing, but it makes the subtitle display unnecessarily repetitive and slightly clunky."
+          "justification": "The line is duplicated consecutively, which is acceptable for subtitles, but the repeated block creates unnecessary visual clutter compared with a single subtitle line."
         }
       ]
     },
@@ -150,14 +143,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello… Si! Manxar de ultramar… de berenxena!\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The extra standalone repetition of 'De berenxena!' is unnecessary and makes the subtitle feel less polished, though the meaning remains clear."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -175,9 +161,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "Using numerals instead of spelled-out numbers is acceptable, but it weakens the phrasing slightly compared with the more natural subtitle style of the reference."
+          "justification": "Using Arabic numerals instead of spelled-out 'tres' slightly weakens the comic rhythm and the obsessive counting effect in the original."
         }
       ]
     },
@@ -200,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 4
+      "minor": 2
     },
-    "total_points": 4,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.36363636363636365,
-    "major_equiv_per_unit": 0.07272727272727272,
-    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

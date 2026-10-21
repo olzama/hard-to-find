@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The directive and festive content are both preserved, but 'see the New Year in cheerfully' is awkward. 'Cheerfully' sits oddly after the phrasal 'see in', and the reference's 'celebrate ... merrily' reads more naturally."
+          "justification": "\"See the New Year in cheerfully\" is awkward phrasing. The directive register is preserved, but the phrasal construction sounds unnatural in English."
         }
       ]
     },
@@ -58,7 +58,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds 'he gives his address', which has no basis in the source. It replaces the closing 'больше, я думаю, не надо' (no more needed, I think) with an unrelated clause and destroys the punchline. 'say,' is also an unsupported filler."
+          "justification": "The closing clause \"he gives his address\" is an addition with no counterpart in the source. It garbles the ending, so the contrast between the claimed brevity and the forty-minute duration, which is the punchline, is no longer clearly delivered. The source's \"I don't think we need more than that\" is only partly carried by \"no more, I think.\""
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Briefly, say, about forty minutes\" is clumsy. The faux-modest, patronizing tone of \"коротенько\" is only weakly rendered."
         }
       ]
     },
@@ -75,7 +81,14 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\n- Oh, he's ready, all right. Well past ready!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Well past ready!\" hints at the double meaning of готов but does not clearly signal intoxication. The drunk subtext described in the analysis is weaker than in the reference, and \"all right\" shifts the tone toward sarcasm."
+        }
+      ]
     },
     {
       "id": 5,
@@ -95,7 +108,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The stretched, broken 'Лю-ди' becomes an unstretched 'People!..', which loses some of the vocal instability the analysis asks for. 'Uh...' and 'Hello-o-o?!' largely carry the faltering effect, so the loss is small."
+          "justification": "The rising \"?!\" turns the wavering calling cry (\"ау-у\") into a question. This adds an interrogative intonation the source does not have, slightly weakening the broken, wandering vocal effect."
         }
       ]
     },
@@ -122,7 +135,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Un-naked eye' does mangle a familiar idiom, but it reads as silly wordplay rather than the mock-scientific pomp the analysis describes. The lecturer should sound like he is becoming more scholarly while actually becoming ridiculous, and that register is weaker here. 'Aided eye' in the reference keeps that register."
+          "justification": "\"Un-naked eye\" correctly yields the meaning of an aided eye and mimics the malformed-idiom mechanism. However, \"naked\" carries a faintly cheeky connotation that pulls against the mock-scientific register the analysis asks for."
         }
       ]
     },
@@ -149,7 +162,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The reference's bracketed translator's note on the cognac ranking is omitted. Without it, 'five-star' may not trigger the shift into the cognac domain that the analysis identifies as the punchline, so some viewers will read it as merely odd. The opening 'and already we see' also reads as a slightly awkward continuation."
+          "justification": "The candidate gives no cue that \"five-star\" refers to cognac. The sudden shift into a different semantic domain is weaker for viewers who do not know the Soviet cognac grading, and the analysis flags this as a possible need for a translator's note, which is absent."
         }
       ]
     },
@@ -172,13 +185,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 4
+      "minor": 6
     },
-    "total_points": 9,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 1.125,
-    "major_equiv_per_unit": 0.225,
-    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

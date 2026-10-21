@@ -34,9 +34,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "Keeping 'Baba Yaga' as a proper name makes the line read mainly as a fairy-tale allusion. The analysis stresses the generic social type (a malicious, unpleasant woman), which the reference signals with 'a witch'. The candidate's 'Baba Yaga' weakens that workplace-type reading, though the 'raise one in our own collective' echo of the educational metaphor is preserved well."
+          "justification": "\"Raise one\" evokes child-rearing or growing crops, which weakens the managerial logic of training a witch in-house. \"Train\" or \"cultivate\", as the analysis suggests, would keep the workplace-staffing joke sharper."
         }
       ]
     },
@@ -56,9 +56,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The line ends on a comma rather than the trailing ellipsis in the source. This loses the self-satisfied trailing-off that the analysis identifies as part of Ogurtsov's tone."
+        },
+        {
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'No more, I don't think we need more' repeats the same idea twice and reads clumsily. The source trails off with an ellipsis, which the candidate replaces with a trailing comma, so the speaker's self-satisfied hesitation is less clear. The faux-modest 'just a little' colouring of 'коротенько' is only partly carried by 'briefly'."
+          "justification": "\"No more, I don't think we need more\" repeats \"more\" and reads clumsily. The source's \"больше, я думаю, не надо\" can be rendered more smoothly."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of 'готов' (ready / drunk) is not recreated. Nothing in 'The lecturer's ready, he's been ready for ages!' hints at intoxication beyond the exclamation mark, so the comic subtext the analysis asks for is lost. The reference shares this gap, but the candidate does not compensate for it. The speaker-change dashes present in the source are also dropped."
+          "justification": "The double reading of «готов» as \"ready\" and \"drunk\" is absent. The analysis flags that translating only as \"ready\" loses the alcoholic subtext. The reference also omits it, so the loss is partial rather than severe."
         }
       ]
     },
@@ -102,7 +108,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Yoo-hoo!' reads as a cheerful, social hailing call, whereas the analysis asks for a faltering, wavering cry that signals drunkenness. The source's stretched 'Лю-ди' is rendered as 'People!..' without the broken vocal stretch that the reference keeps with 'Peo-ple'. The 'Ah...' and ellipses do partly preserve the instability."
+          "justification": "\"Yoo-hoo\" is a cheerful, sing-song call, whereas the source «ау» is faltering and slurred. The drunken, unstable vocalisation the analysis asks for is only partly kept."
+        },
+        {
+          "severity": "minor",
+          "category": "other",
+          "span": "",
+          "justification": "The leading hyphen before \"People!..\" is a dialogue marker, but this is a single speaker's line. It is a stray formatting artifact."
         }
       ]
     },
@@ -129,7 +141,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line break 'aided / eye,' splits the key phrase 'aided eye' across two subtitle lines, which weakens the mock-scientific idiom at the point where it lands. The line also ends on a comma, losing the source's exclamatory '!..' close of the lecturer's flourish."
+          "justification": "The segment ends on a comma, so the line reads as cut off mid-sentence. The source's trailing \"!..\" completes the drunken overreach, and this closing punctuation is lost."
         }
       ]
     },
@@ -154,15 +166,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The opening 'and we already see' drops the 'as' connective of 'Как мы уже видим' and reads as a continuation, which may or may not match the previous segment. The break 'two / stars' separates the counting phrase unnaturally, and the trailing 'stars!' does not clearly mark the sudden click into a different semantic world."
+          "justification": "The reference's note explaining that the five-star system refers to Soviet cognac is omitted. Without it, the cultural shift that the analysis calls the punchline is not legible to most viewers, which the language-specific note explicitly warns about."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The analysis notes that the cognac association ('five-star' cognac) may need a translator's note because it will not be obvious to most viewers. The candidate has no note, so the sudden shift from astronomy to the drink is less legible. The reference includes a bracketed note that the candidate omits."
+          "justification": "\"And we already see\" opens with a conjunction and drops \"as\" from \"Как мы уже видим\". This reads as a slightly awkward continuation rather than a fresh lecture opening."
         }
       ]
     },
@@ -184,7 +196,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Whether there's life on Mars or there's no life on Mars' mirrors the source, but the repeated 'life on Mars' is clumsy. The phrasing is split across three lines ('there's no / life on Mars, science / does not know'), which makes the opening sentence harder to parse. 'Or not' would be smoother."
+          "justification": "\"Whether there's life on Mars or there's no life on Mars\" is wordy and repetitive. A tighter \"whether or not\" construction would keep the casual, flat register more crisply."
         }
       ]
     }
@@ -192,13 +204,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 8
+      "minor": 10
     },
-    "total_points": 8,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

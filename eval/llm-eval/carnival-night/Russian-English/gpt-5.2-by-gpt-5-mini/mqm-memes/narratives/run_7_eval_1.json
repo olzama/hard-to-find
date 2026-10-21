@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the bureaucratic framing but weakens the festive/bureaucratic clash. Using “welcome the New Year cheerfully” is slightly softer and more hospitable than the terse, managerial phrasing in the analysis (\"celebrate... merrily\" as an administratively mandated activity). The phrasing reduces the dry, top-down absurdity that is central to the line's comic effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -70,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the ironic contrast (claim of brevity followed by “forty minutes”), but it loses the diminutive, self-satisfied tone of «коротенько». The plain “briefly” is flatter and weakens the faux-modest, patronizing voice that makes the original comic reversal land most strongly."
+          "justification": "The candidate loses the tiny, diminutive tone of «коротенько» (a faux-modest, cozy ‘brief’) that sets up the comic reversal when followed by an obviously long duration. The phrasing is functional but a bit flat and lacks the smug, managerial voice that makes the original ridiculous."
         }
       ]
     },
@@ -134,10 +127,10 @@
       "candidate": "But it’s enough for us to take a telescope...\nand look with the armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as “armed eye,” a literal calque the analysis warns against. In English this reads oddly and more surreal than comically pseudo-scientific; it loses the slightly wrong-but-recognizable mock-scientific tune that a solution like “aided eye” would preserve."
+          "justification": "The candidate renders «вооружённым глазом» as “armed eye,” which the analysis specifically warns against: in English this reads as oddly surreal rather than a mock-scientific deformation of the familiar ‘unaided/the naked eye.’ The chosen wording fails to reproduce the intended mildly ludic, pseudo-scientific feel and instead creates an unintended strangeness."
         }
       ]
     },
@@ -185,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

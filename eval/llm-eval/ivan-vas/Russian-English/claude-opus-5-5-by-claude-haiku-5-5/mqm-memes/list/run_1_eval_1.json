@@ -23,10 +23,10 @@
       "candidate": "Once again I'm tormented\nby vague suspicions...\nShpak - a tape recorder,\nthe ambassador - a medallion.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The dash construction 'Shpak - a tape recorder, the ambassador - a medallion' is elliptical and can be read as possession. The analysis says the items were lost, and the candidate does not make that clear. The reference shares this ambiguity, so the penalty is small."
+          "justification": "The analysis explicitly warns that 'Shpak - a tape recorder, the ambassador - a medallion' cannot be read as 'Shpak has... the ambassador has...'. The elliptical dash construction is ambiguous and invites exactly that possession reading, and it does not convey that each man has lost his item. The loss, which is the point of the joke, is not clear."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly states the translation must make clear Bunsha is introducing himself as the Tsar, not addressing one. The candidate's 'Pleased to meet you, Tsar!', 'Tsar, pleased to meet you!' and 'Hello, Tsar!' all read as greetings directed at a Tsar, which contradicts the analysis and reverses the intended joke."
+          "justification": "The analysis requires that Bunsha is introducing himself as the Tsar, not addressing a Tsar. The candidate lines ('Pleased to meet you, Tsar!', 'Tsar, pleased to meet you!') read as greetings directed at a Tsar, which reverses the speaker's identity and the intended joke. The reference's 'I'm the Tsar' makes the self-introduction explicit, and the candidate does not."
         }
       ]
     },
@@ -105,7 +105,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's stammered repetition 'замуровали… замуровали' is rendered with an exclamation mark after the first line instead of the hesitant ellipsis, which loses the panicked pause that the repetition conveys. The second line correctly keeps the demons as subject, as the analysis requires."
+          "justification": "The source's stammering pauses ('Замуровали… замуровали') are rendered as a flat exclamation ('They've walled me in!') rather than the hesitant, ellipsized delivery of the reference. This makes the Tsar's panic more abrupt and slightly weakens the dramatic effect of his misunderstanding."
         }
       ]
     },
@@ -147,14 +147,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is a casual imperative. The source is an indicative announcement, and the reference's 'The floor is open to everyone!' keeps the formal, bureaucratic-host voice that the analysis links to Bunsha's suppressed Soviet character. The candidate loses that register contrast."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -174,7 +167,14 @@
         }
       },
       "candidate": "Well, I picked a good time to drop in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Удачно зашел' refers to the luck of the find (the burglar stumbling on valuable goods), which the analysis highlights. 'Picked a good time to drop in' shifts emphasis to timing rather than the bounty, so the cheerful, self-congratulatory reaction to a lucky haul is somewhat weaker. The meaning is otherwise preserved and the entry-not-exit point is respected."
+        }
+      ]
     },
     {
       "id": 9,
@@ -197,15 +197,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis states that eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'And overseas caviar... Eggplant!' does exactly this, and the reference avoids it with 'overseas spread'. The lexical choice contradicts the translation note and undermines the joke's point that a cheap canned spread is presented as a rare delicacy."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Caviar, black, red...' inverts the natural adjective order of 'Black caviar, red caviar' and drops the second noun, so the opening list reads less naturally than the source and reference."
+          "justification": "The analysis states that eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'And overseas caviar... Eggplant!' attaches the caviar label to the overseas item and then names eggplant as the reveal, so the eggplant spread is presented as caviar. This is the specific error the analysis forbids, and it blurs the satirical contrast between real caviar and the cheap canned spread."
         }
       ]
     },
@@ -230,9 +224,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "The candidate uses numerals ('3 tape recorders', '3 movie cameras', '3 domestic cigarette cases') but spells out 'three.' in the final line. This inconsistency weakens the rhythm of Shpak's escalating inventory, and the spelled-out form in the reference is more consistent with the literary register."
+          "justification": "The candidate mixes numerals ('3 tape recorders', '3 movie cameras', '3 domestic cigarette cases') with the word 'three' at the end. Digits break the spoken rhythm of an accumulating list, and the inconsistency weakens the escalating count that drives the joke. The 'a suede jacket... three' ending does preserve the forgotten-increment gag."
         }
       ]
     },
@@ -249,26 +243,19 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you...\nAnd they'll cure you too...\nAnd they'll cure me...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source opens with the conjunction 'И' ('And'), which signals continuation of the resigned, melodic sequence. The candidate omits it in the first line, while the reference keeps 'And they'll cure you…'. The omission is small, but it slightly weakens the cadence of the repeated structure."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 6
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 16,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

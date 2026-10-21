@@ -36,14 +36,7 @@
         }
       },
       "candidate": "knock your block off, rip your trap,\nand poke your peepers out! You’ll be working\nfor medicine all your life!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The first clause drops the implied subject \"I'll\" (\"knock your block off, rip your trap\"), which leaves a fragment that reads less naturally than the reference's \"I'll knock your block off, rip your trap, and poke your peepers out!\" The threat formula and the lifetime-medicine ending are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -138,7 +131,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds the line \"Get lost!\", which has no counterpart in the source \"Лошадью ходи, век воли не видать!\" or the reference. This invents an extra utterance and changes the item's ending, so the chess-advice oath is no longer the item's closing beat."
+          "justification": "The candidate adds a second line, \"Get lost!\", which has no counterpart in the source. The source is a single chess-advice oath, and the reference ends with it. The addition inserts a new hostile speech act and changes the item's content and ending, so it is an addition that distorts the meaning."
         }
       ]
     },
@@ -356,13 +349,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 1
+      "minor": 0
     },
-    "total_points": 6,
+    "total_points": 5,
     "meaning_units": 18,
-    "penalty_per_unit": 0.3333333333333333,
-    "major_equiv_per_unit": 0.06666666666666667,
-    "interpretation": "0.33 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2777777777777778,
+    "major_equiv_per_unit": 0.05555555555555556,
+    "interpretation": "0.28 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

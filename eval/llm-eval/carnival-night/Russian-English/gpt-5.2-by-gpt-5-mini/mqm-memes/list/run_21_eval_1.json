@@ -58,14 +58,7 @@
         }
       },
       "candidate": "just briefly—about\nforty minutes. More, I think,\nisn’t necessary...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate renders «коротенько» as “just briefly,” which loses the diminutive, faux-modest tone (a cozy, patronizing ‘just a little’ feel) that makes the forty-minute claim comic. The later phrasing (“More, I think, isn’t necessary...”) is slightly awkward in English and weakens the smug administrative voice; overall the line reads a bit less characterful than the analysis requires."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -84,7 +77,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—been ready a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The Russian line relies on the double meaning of готов ('ready' vs. 'smashed/drunk'). The candidate renders both uses as the straightforward 'ready' without recreating the drunk subtext. As a result the comic ambiguity — administrative coordination versus the lecturer already being drunk — is lost, removing the key joke described in the analysis."
+        }
+      ]
     },
     {
       "id": 5,
@@ -128,9 +128,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye.” As noted in the analysis, that phrasing in English reads oddly and more surreal than the Russian original’s intended mock‑scientific deformation. A subtler solution (e.g. “aided eye”) would better preserve the pseudo‑scientific, slightly-off register without becoming absurd."
+          "justification": "The candidate calques 'вооружённым глазом' as 'armed eye.' The analysis warns that a literal 'armed eye' reads too surreal in English and loses the mock‑scientific echo of 'the unaided eye.' While the line remains odd and humorous, the intended near‑recognizable idiom deformation is weakened; a solution like 'aided eye' would better preserve the effect."
         }
       ]
     },
@@ -178,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

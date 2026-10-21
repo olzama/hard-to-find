@@ -44,7 +44,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word «коллектив» untranslated (uses Cyrillic), which is a clear error in the target text and breaks comprehension for non-Russian readers. This untranslated word prevents the line from conveying the intended workplace/social logic that is central to the joke."
+          "justification": "The candidate leaves the word \"коллектив\" untranslated (Cyrillic) which is an untranslated element in the target text and breaks comprehension. The rest of the line mixes English and Russian, so the delivery of the workplace/social logic is compromised for an English-speaking audience."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive, self-effacing nuance of «коротенько» (a faux-modest 'briefly') is weakened by the plain 'just briefly'. The contrast between modest claim and the obvious absurdity of 'forty minutes' is thus slightly blunted, reducing some of Ogurtsov's tone-deaf managerial smugness."
+          "justification": "The candidate keeps the basic contrast but flattens the specifically diminutive, faux-modest tone of «коротенько». \"Just briefly\" is serviceable but less mock-cozy and managerial than the original; the fully comic collision between 'brief' and 'forty minutes' is slightly weakened by the more colloquial phrasing and line breaks."
         }
       ]
     },
@@ -112,10 +112,10 @@
       "candidate": "- People!.. Ah... heeelp!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate turns the faltering crowd-address into a cry for help ('heeelp!'), changing the comic effect. The original is a pathetic, slurred attempt at a formal 'People! … hello!' that immediately collapses; the candidate's 'help' implies distress/emergency rather than a failed oration, which alters the meaning and removes the intended theatrical/drunken collapse."
+          "justification": "The candidate renders the faltering vocalization as a cry for help (\"heeelp\") rather than the wavering, half-formed attempt to address the crowd (\"Ah... hello!\"). This shifts the comic effect from theatrical slurring/failed oratory to a plea for assistance, altering the intended pitiful/theatrical register."
         }
       ]
     },
@@ -142,9 +142,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye,' which reads oddly and more surreal in English than the Russian. This choice loses the mock-scientific, slightly off idiom feel the analysis recommends; a phrasing like 'aided eye' better preserves the intended pseudo‑scientific awkwardness without becoming unintentionally bizarre."
+          "justification": "The candidate uses the literal calque \"armed eye,\" which the analysis warns against: in English this reads oddly and more surreal than the Russian playful malformation. It loses the mock‑scientific near-idiom effect that a milder solution (e.g. \"aided eye\") would preserve."
         }
       ]
     },
@@ -187,26 +187,19 @@
         }
       },
       "candidate": "Whether there is life on Mars, whether there is no life on Mars—\nthat is unknown to science.\nScience is not yet aware of the matter.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The final clause 'Science is not yet aware of the matter' is a bit stilted compared with the colloquial flavor of the Russian ('Наука ещё пока не в курсе дела'). The candidate preserves the factual-casual contrast but slightly loses the everyday conversational register that produces part of the humor."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 3
     },
-    "total_points": 13,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 1.625,
-    "major_equiv_per_unit": 0.325,
-    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

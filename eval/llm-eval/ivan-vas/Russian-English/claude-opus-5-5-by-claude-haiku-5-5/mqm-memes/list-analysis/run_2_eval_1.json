@@ -36,7 +36,14 @@
         "language_specific": {}
       },
       "candidate": "Pleased to meet you, I'm the Tsar!\nPleased to meet you, hello, I'm the Tsar!\nTsar here, pleased to meet you!\nHello, I'm the Tsar! Pleased to meet you!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The second line, 'Pleased to meet you, hello, I'm the Tsar!', is clumsy because 'hello' is inserted into the middle of the formulaic greeting. This weakens the stiff, mechanical politeness the analysis describes, though the meaning and the self-introduction are clear."
+        }
+      ]
     },
     {
       "id": 3,
@@ -126,7 +133,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source is declarative ('Everyone is dancing!'), describing the party. The candidate turns it into an imperative, 'Everybody dance!'. Bunsha still reads as the host driving the uninhibited celebration, so the artistic effect survives, but the mood of the line shifts."
+        }
+      ]
     },
     {
       "id": 8,
@@ -146,14 +160,7 @@
         }
       },
       "candidate": "Well, I sure picked the right place to drop in!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source 'удачно' means 'luckily', so the joke is about fortunate timing. 'I sure picked the right place' presents the entry as a deliberate choice, which shifts the nuance slightly. The cheerful tone and the 'drop in' entering sense are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -173,14 +180,7 @@
         }
       },
       "candidate": "Caviar, black, red...\nYes! And an overseas delicacy...\nEggplant spread!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate drops the word 'caviar' from the overseas item ('an overseas delicacy'), which weakens the setup of the pun that the eggplant reveal depends on. The status inversion still comes through, so the effect is only mildly reduced."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -203,9 +203,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "Numerals are used for the first three items ('3 tape recorders') but the final count is spelled out as 'three.', which is inconsistent within a single list that builds to the joke's punchline."
+          "justification": "The list mixes the digit '3' in the first three lines with the spelled-out 'three' in the final line. The inconsistency weakens the count-correction gag and lowers the register of the list compared with the reference's consistently spelled-out numbers."
         }
       ]
     },
@@ -227,7 +227,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's ellipses signal calm, melodic resignation, but the candidate turns every line into an exclamation. This pushes the delivery toward excitement and slightly undermines the calm tone described in the analysis."
+          "justification": "The source trails off with ellipses, which conveys calm, melodic resignation. The candidate's exclamation marks make each line emphatic, shifting the delivery away from the resignation the analysis describes."
         }
       ]
     }

@@ -16,20 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Otra vez me asaltan\nvagas dudas...\nA Shpak le falta un magnetófono,\nal embajador, un medallón.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "\"vagas dudas\" loses the mock-heroic, theatrical register of \"смутные сомнения\"; the reference's \"oscuras sospechas\" keeps the literary/operatic flavor (the Spanish also drops the callback to suspicion/theft)."
-        },
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"le falta un magnetófono\" / \"un medallón\" suggests merely lacking an item (and indefinite/singular), not that each lost their specific item. The NB requires conveying that the items disappeared/were lost; \"falta\" is ambiguous and misses the theft connection."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hola\" is a bland greeting, lacking the formal Soviet social-cliché flavor of \"Buenas noches\"/\"Здравствуйте\"; it still makes clear he introduces himself as the zar and keeps the repetitive, absurd rhythm."
+          "justification": "\"Hola\" is casual and does not carry the stiff, overly polite social cliché of \"Здравствуйте\" that the analysis highlights. The self-introduction as the Tsar is clear, though."
         }
       ]
     },
@@ -81,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Déjame, viejecita, que estoy apenado.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"apenado\" is more colloquial and milder than the reference's \"afligido\"; it slightly weakens the high, archaic regal melancholy of \"в печали\"."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -118,14 +98,7 @@
         "language_specific": {}
       },
       "candidate": "¡Mira lo que hace la cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"¡Mira lo que hace...!\" is a colloquial address to a listener and sounds less like the Tsar's solemn, archaic self-satisfied declaration; \"Esto es lo que obra\" conveys the pious register better."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -157,10 +130,10 @@
       "candidate": "¡Qué bien he entrado!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "\"¡Qué bien he entrado!\" is literal and unnatural, and it misses the sense of having chosen the right place/hitting the jackpot (\"acerté de sitio\"). It does avoid implying he is leaving, but the cheerful, lucky-find tone is weakened."
+          "justification": "\"¡Qué bien he entrado!\" is not idiomatic Spanish for \"lucky I came in here\". It does keep the sense that he has just entered, but it sounds awkward and loses the cheerful, casual tone of the original."
         }
       ]
     },
@@ -177,14 +150,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, rojo...\n¡Sí! Delicadeza de ultramar...\n¡Crema de berenjena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Crema de berenjena\" correctly avoids calling it caviar, but loses the parallel with the caviar term and the mock-exotic \"Manjar de ultramar... de berenjena\" structure; the punchline still works."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -199,14 +165,7 @@
         "language_specific": {}
       },
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres pitilleras nacionales,\nchaqueta de ante... tres.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits the article \"una\" before \"chaqueta\", and more importantly renders it \"chaqueta de ante... tres\" without the singular marker, so the key joke (he forgets to increment the count for the jacket, saying one) is obscured. \"magnetófonos\" is acceptable."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -226,21 +185,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks and the lack of ellipses turn the calm, melodic resignation into an emphatic, hysterical delivery, which weakens the soft, trailing tone of the original."
+          "justification": "The exclamation marks make the lines emphatic and loud, and the trailing ellipses are dropped. This weakens the calm, melodic, resigned delivery described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 0,
+      "minor": 3
     },
-    "total_points": 25,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

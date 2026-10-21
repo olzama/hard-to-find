@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB states the items are lost, not possessed. 'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning, implying they still have the items."
+          "justification": "'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning flagged in the analysis: the Russian implies each lost his item (stolen), not that they possess them. The key link between the two thefts is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I'm plagued by vague doubts again' keeps some elevated register, but the line breaks and the plain 'has' weaken the mock-heroic callback effect."
+          "justification": "'Plagued by vague doubts' keeps a reasonably elevated register, but 'envoy' is acceptable while the mock-heroic effect is slightly weaker than 'haunt me'."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Hello, Tsar' and 'Tsar, very nice' read as Bunsha addressing a Tsar rather than introducing himself as the Tsar, which the NB says must be clear. The self-introduction is lost."
+          "justification": "The candidate reads as addressing someone as 'Tsar' ('hello, Tsar') rather than introducing himself as the Tsar, which the NB explicitly says must be clear. The self-introduction joke is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a weaker rendering of 'очень приятно' (pleased to meet you), reducing the stiff formal-greeting cliché that drives the humor."
+          "justification": "'Very nice' is a weak rendering of 'очень приятно' (pleased to meet you); it loses the stiff formal social-cliché register that is the source of the humor."
         }
       ]
     },
@@ -107,7 +107,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' reads as a vocative, as if addressing the demons. The NB requires demons to be the subject: they walled him in. The first-person object is also dropped."
+          "justification": "'Walled up, demons!' reads as a vocative, addressing the demons, which the NB says must be avoided; demons should be the subject (the demons walled me in). Also, the object 'me' is dropped and the phrase is ambiguous."
         }
       ]
     },
@@ -129,7 +129,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the Tsar's solemn, archaic, triumphant tone ('Behold the power...'), though the meaning is preserved."
+          "justification": "'That's what the life-giving cross can do!' keeps the meaning but is colloquial and loses the archaic, solemn register of the Tsar's pronouncement ('Behold the power of...')."
         }
       ]
     },
@@ -151,7 +151,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate and direct, but it lacks the master-of-ceremonies flavor of the reference. It is acceptable and only slightly flat."
+          "justification": "'Everybody dance!' conveys the meaning and the uninhibited command, but it is plain and loses a bit of Bunsha's host-like, party-leader tone from the reference."
         }
       ]
     },
@@ -173,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'What a lucky stop!' is ambiguous and could suggest a stop on the way or a departure. The NB warns that the translation must not mislead, since he has just entered and is not leaving. It also loses the sense of having chosen well to come in."
+          "justification": "'What a lucky stop!' suggests he is stopping by or passing through, which is the misleading reading the NB warns against. It also loses the sense of having chosen the right apartment to enter (a good call)."
         }
       ]
     },
@@ -195,7 +195,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Imported caviar… Eggplant!' calls the eggplant item caviar by implication and drops the 'spread' idea. The NB says not to call eggplant spread caviar, and the joke inversion is garbled. The word 'overseas' is also weakened to 'imported'."
+          "justification": "Calls the eggplant spread 'caviar' ('Imported caviar… Eggplant!'), which the NB says to avoid, and breaks up the structure so that 'imported caviar' and 'eggplant' read as separate items. The joke of cheap eggplant spread presented as an 'overseas' delicacy is lost."
         }
       ]
     },
@@ -217,13 +217,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the count for the jacket, so a single 'suede jacket' is followed by a hesitant 'Three'. The candidate states 'three suede jackets' straightforwardly, removing the slip that betrays him."
+          "justification": "The candidate says 'three suede jackets', whereas in the source the joke is that Shpak forgets to increment the count and says one suede jacket, then corrects himself to 'Three'. The humor of the slip is lost."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "Numerals '3' mixed with the word 'three' are inconsistent, and the hesitation pauses (ellipses) are lost."
+          "justification": "Mixing numerals ('3') and the word 'three' within the list is inconsistent; the hesitating, spoken rhythm of the original is also lost."
         }
       ]
     },
@@ -240,19 +240,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd they’ll cure you too!\nAnd they’ll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Exclamation marks replace the calm, melodic, trailing resignation of the original (ellipses in the reference); this weakens the tone of dazed acceptance."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 35,
+    "total_points": 36,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.272727272727273,
+    "major_equiv_per_unit": 0.6545454545454545,
+    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

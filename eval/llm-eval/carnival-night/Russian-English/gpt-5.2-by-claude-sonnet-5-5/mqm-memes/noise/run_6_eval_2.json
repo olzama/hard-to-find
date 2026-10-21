@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is an instruction to welcome the New Year cheerfully\" keeps the directive framing and the bureaucratic-versus-festive clash. \"Welcome\" and \"cheerfully\" are slightly softer and less dryly official than \"celebrate merrily\", and the line break after \"instruction\" adds a little formality, so the deadpan effect is marginally weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one within our own team\" keeps the workplace logic and avoids over-fairy-tale framing. \"Raise\" is more parental than the managerial \"train/cultivate\", and \"Baba Yaga\" untranslated loses some of the 'nasty woman in the collective' social-type resonance for English viewers. The joke still works."
+          "justification": "\"Raise one within our own team\" keeps the workplace logic, but \"take Baba Yaga\" and \"raise\" lean toward the fairy-tale figure. The social-type reading (a nasty woman already present in the collective) is less accessible to a non-Russian viewer, and the bureaucratic 'train in-house' flavor is softened."
         }
       ]
     },
@@ -77,7 +70,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The key word «коротенько» is rendered with the flat \"briefly\", and the lowercase opening drops the cozy diminutive and faux-modesty. The closing \"is not necessary\" is stiff and bureaucratic rather than the self-satisfied \"I don't think we need any more than that\". The contrast with \"forty minutes\" is weakened, so the punchline lands less strongly. The reference shares the flat \"briefly\" but adds the \"And\" and a more conversational tone."
+          "justification": "The faux-modest diminutive «коротенько» is rendered as a flat \"briefly\". The final clause, \"more, I think, is not necessary\", is stiff. The smug, self-satisfied managerial tone that makes \"forty minutes\" land as the punchline is weakened."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word \"давно\" is left untranslated in the English subtitle (\"ready давно!\"), which viewers cannot understand. The 'drunk' subtext of «готов» is also not recreated: the answer is a plain repeat of \"ready\" with no hint of intoxication, so the double meaning is lost."
+          "justification": "The Russian word \"давно\" is left untranslated in the English subtitle, so English viewers cannot understand it. The \"ready\" = \"drunk\" double meaning is not recreated: \"ready\" is simply repeated, so the intoxication subtext is lost."
         }
       ]
     },
@@ -129,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... Ah-oo!\" keeps a broken, wavering call, but the lecturer's stretched syllabification (\"Peo-ple!\") is lost and \"Ah-oo\" is less of a recognizable hailing cry than \"hellooo\". Some of the drunken vocal instability is flattened, though the attempt to address a crowd remains."
+          "justification": "The line keeps the broken, stretched shape (\"People!.. Ah... Ah-oo!\"), but \"People!\" is not split into syllables as in \"Peo-ple!\", so the faltering, drunken vocal instability is slightly weaker. \"Ah-oo\" is an acceptable equivalent of «ау-у»."
         }
       ]
     },
@@ -156,9 +149,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against: it sounds more surreal than the Russian and does not echo the English idiom \"unaided eye\", so the sense of a familiar expression wrongly 'upgraded' into mock-scientific language is not conveyed. The lost exclamatory \"But all we have to do is\" structure also reduces the lecturer's pompous build-up."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. English has no \"unarmed eye\" idiom to echo, so the mangled-idiom joke (a familiar phrase wrongly upgraded) does not register and the phrase sounds merely strange. The line also drops the emphatic \"But all we have to do is\" and the exclamatory rhythm."
         }
       ]
     },
@@ -185,9 +178,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The star progression is kept, but \"four stars—best of all, of course, five stars!\" merges the counting and the punchline into one run, so the sudden click into the cognac frame is less pronounced. The reference's pause (\"four stars… But of course five stars is best\") sets up the reversal better. No cultural note is given, which the analysis suggests may be needed."
+          "justification": "The star progression and the \"five stars\" punchline are preserved, and the cognac association is left unexplained, which the analysis allows for with a note. The wording \"four stars—best of all\" runs the last count together with the punchline, so the pause and sudden semantic click into the cognac frame are slightly weakened. The counting is also less silly than the original."
         }
       ]
     },
@@ -213,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content is accurate and the register is mostly casual. \"Science does not know\" is slightly flatter than «это науке неизвестно». \"Not yet in the know\" keeps the colloquial personification of science well. The overall comic mismatch is largely preserved, with a small loss of the 'unknown to science' formal-versus-casual contrast."
+          "justification": "The meaning is correct, and \"Science is not yet in the know\" keeps the casual personification. The first clause, \"science does not know\", is plainer than the original, and the rhythm of the colloquial pair is slightly weaker, so the register mismatch is a bit less pronounced."
         }
       ]
     }
@@ -221,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

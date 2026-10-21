@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No—I’m waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning and the teasing incredulity, but it loses some of the mock‑grandiose, theatrical flourish of the original (the heightened self‑dramatic register indicated in the analysis). The shorter, more prosaic phrasing slightly weakens the comic persona."
+        }
+      ]
     },
     {
       "id": 2,
@@ -51,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's stuttered delivery (выс-с-сокие) is a key rhythmic/comic device. The candidate repeats the word without a marked stutter or playful phonetic disruption, weakening the refrain's comic rhythmic effect."
+          "justification": "The candidate conveys the basic idea but uses a literal noun 'relations' and lacks the sarcastic stutter/performative delivery that makes the line a memorable refrain in the source. This reduces the comic rhythm and ironic tone described in the analysis."
         }
       ]
     },
@@ -71,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate renders 'совести' as 'conscience', which is close in denotation but shifts the idiomatic force of the original (which reads as duty/obligation). 'Live for conscience' is slightly awkward and less idiomatically aligned with the soldierly fatalism described in the analysis."
+          "justification": "'People don't live for joy—they live for conscience.' is grammatically acceptable but reads awkwardly in English and loses the more idiomatic, blunt soldierly fatalism ('you don't live to be happy / you live to do your duty') highlighted in the analysis."
         }
       ]
     },
@@ -90,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "Note: it wasn’t me who suggested it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Note: it wasn’t me who suggested it.' keeps the meaning but the phrasing is slightly flat compared with the witty, performative distancing ('For the record: I am not the one who suggested it!') that characterizes the original line."
+        }
+      ]
     },
     {
       "id": 6,
@@ -107,10 +121,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The reference's curt insult ('Some cook you are!') carries a biting, dismissive register. 'Culinary genius!' reads more like ironic praise and softens the caustic, imperious tone of the original, reducing the intended comic sting."
+          "justification": "The source is a biting, ironic insult using a neutral profession as a household reproach ('Some cook you are!' / 'Some cook you are!'). 'Culinary genius!' turns the line into praise, reversing the intended ridicule and destroying the comic and character effect."
         }
       ]
     },
@@ -145,9 +159,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The original is a brusque surgical imperative ('Cut it the hell out, don't wait for peritonitis!') with coarse, punchy rhythm. The candidate's split phrasing ('Cut it out to hell with it. / Without waiting for peritonitis.') is awkward, unidiomatic and obscures the sharp imperative force and coarse idiom of the source, losing the farcical abruptness."
+          "justification": "The candidate is unidiomatic and fragmented ('Cut it out to hell with it. Without waiting for peritonitis.'), failing to reproduce the abrupt, blunt surgical verdict of the original. The phrasing is awkward and obscures the contrast between personal anguish and a curt medical command emphasized in the analysis."
         }
       ]
     },
@@ -167,9 +181,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The character name is transliterated as 'Khabotov' instead of the reference 'Khobotov' and the punctuation/exclamation is softened to a comma. These small changes slightly reduce the force of the recurring dismissal and introduce a minor inconsistency in name rendering."
+          "justification": "The candidate uses the spelling 'Khabotov' rather than the expected 'Khobotov' transliteration. This alters the name's standard rendering and may reduce recognizability, though the overall meaning and tone are preserved."
         }
       ]
     },
@@ -191,7 +205,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits and literalizes the idiom ('This is my cross! / And I must bear it.'), rather than using the natural English fixed phrase ('a cross to bear'). This weakens the idiomatic punch and the manipulative grandiosity the analysis highlights."
+          "justification": "The candidate renders the line literally ('This is my cross! And I must bear it.'), which keeps the basic sense but loses the idiomatic English phrase 'a cross to bear' and the manipulative grandiosity of the original. The split and wording make it less natural and slightly weaken the rhetorical effect."
         }
       ]
     },
@@ -213,21 +227,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая', which the analysis warns against as too literal and potentially awkward in English. This choice risks sounding overly literal and less idiomatically natural than alternatives that capture the comic self-deprecation."
+          "justification": "The candidate repeats 'awkward' and uses 'angular' as a literal translation of 'угловатая', which the analysis specifically warns against. 'Angular' sounds odd in this self‑deprecatory, coquettish register and less effectively captures the target comic persona."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 2,
+      "minor": 7
     },
-    "total_points": 11,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

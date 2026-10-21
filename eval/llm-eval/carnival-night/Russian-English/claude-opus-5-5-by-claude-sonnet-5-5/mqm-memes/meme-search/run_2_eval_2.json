@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" fits the workplace logic, but \"raise our own\" leans toward the fairy-tale/upbringing sense, and \"in our collective!\" with an exclamation mark loses Ogurtsov's dry, matter-of-fact managerial tone. The social-type joke still comes through."
+          "justification": "\"Raise our own\" and \"in our collective\" keep the workplace/social logic, but \"hire\" with \"raise\" mixes registers a little, and the exclamation mark adds emphasis the deadpan managerial tone does not need. The core joke still works."
         }
       ]
     },
@@ -58,13 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key word «коротенько» is rendered as \"a short one\", which is flat, and the line opens with \"just a short one\" without the faux-modest, patronizing tone. The brevity claim does come before the duration, but the diminutive coziness that makes \"forty minutes\" a punchline is weakened."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Forty minutes or so. No more is needed, I think\" is slightly stilted, and the \"or so\" softens the bureaucratic precision."
+          "justification": "The faux-modest \"briefly\" (коротенько) is rendered as \"just a short one\", which is flat and does not capture the cozy diminutive or the smug moderation. The \"No more is needed, I think\" split also weakens the comic reversal, so \"forty minutes\" lands less as a punchline."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate preserves only the surface sense of \"ready\" and gives no cue to the 'drunk' subtext. \"Long since ready\" is archaic and does not hint at intoxication, so the double-meaning joke at the core of the analysis is lost."
+          "justification": "\"Ready\" has no \"drunk\" reading in English, so the double meaning of готов (official readiness versus intoxication) is lost. \"Long since ready\" adds nothing that hints at drunkenness. The analysis asks for the ambiguity to be preserved or recreated, and the candidate does neither."
         }
       ]
     },
@@ -106,9 +100,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"People!.. Ah... Yoo-hoo!\" keeps the faltering cry and the shift into a wandering call, but \"People!\" is a clean word, not stretched like «Лю-ди» (Peo-ple), so the drunken vocal instability is weaker. The leading dash is also odd for a single speaker."
+          "justification": "The broken, wavering vocalization is kept with \"Ah...\" and \"Yoo-hoo!\", but \"People!\" is a clean, unstretched word. The reference's \"Peo-ple!\" shows the faltering shape better. \"Yoo-hoo\" is a bit jaunty instead of drunkenly trailing off."
         }
       ]
     },
@@ -135,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate spells out the idiom (\"not with the naked eye, but with the dressed eye\"), so the malformed idiom no longer arises by accident, which loses the drunken slip. \"Dressed eye\" is an odd, unmotivated substitution for \"armed\"/\"aided\" and does not carry the mock-scientific upgrade of the idiom. The line also ends on a comma, leaving the sentence unfinished."
+          "justification": "\"Dressed eye\" is not a recognizable distortion of \"unaided/naked eye\" and carries no mock-scientific sense. It is also odd that the candidate spells out \"not with the naked eye\", which removes the effect of a familiar idiom being wrongly \"upgraded\" and gives the line an unrelated clothing connotation. The joke of the malformed idiom is lost."
         }
       ]
     },
@@ -159,10 +153,10 @@
       "candidate": "and we already see\ntwo stars, three stars...\nFour stars, but best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is broken: \"two stars, three stars... Four stars, but best of all, of course, five stars\" splits the counting with an ellipsis and attaches a \"but\" to four stars. The trivial, mechanical count therefore does not build smoothly toward the sudden click into cognac, which weakens the derailment punchline."
+          "justification": "The counting is rendered well, but the buildup is slightly disturbed: \"Four stars, but best of all, of course, five stars\" blurs the sequence, and the cognac association is left entirely implicit with no note. The sudden \"click\" into another semantic world is weaker for English viewers."
         }
       ]
     },
@@ -179,19 +173,26 @@
         "language_specific": {}
       },
       "candidate": "Is there life on Mars, is there no\nlife on Mars, science\ndoes not know.\nScience hasn't been briefed yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Science hasn't been briefed yet\" keeps the personified, conversational register well. \"Is there life on Mars, is there no life on Mars\" is a slightly stiff calque of the Russian structure, and the line breaks make it a little awkward. \"Does not know\" is more formal than the casual tone intended."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 23,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 2.875,
-    "major_equiv_per_unit": 0.575,
-    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

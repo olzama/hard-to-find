@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\nBaba Yaga from outside.\nWe'll develop one in-house!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "\"Develop\" is a weaker equivalent for «воспитаем» than \"train\" or \"raise\". It loses the educational, cultivating sense the analysis highlights (\"cultivate one within their own collective\"). \"Hire\" is a reasonable staffing-logic choice and does not offset this."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -55,10 +48,16 @@
       "candidate": "And he gives a short address,\nabout forty minutes. Any longer,\nI think, would be unnecessary.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"A short address\" is flat. It drops the faux-modest, diminutive «коротенько» tone the analysis calls for (\"just a little short talk\"), so the contrast with \"forty minutes\" is weaker. The added narration \"And he gives\" also shifts the speaker framing slightly."
+          "justification": "The analysis identifies the faux-modest diminutive «коротенько» as the setup that makes 'forty minutes' land as the punchline. The candidate's flat 'a short address' drops that diminutive, so the contrast between modest claim and actual duration is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'And he gives' adds a subject and verb that are not in the source. It shifts Ogurtsov's direct, self-satisfied remark into third-person narration with an unclear referent for 'he'."
         }
       ]
     },
@@ -75,14 +74,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\n- He's ready. Has been for ages!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"He's ready. Has been for ages!\" reads only as administrative readiness. The reference also misses the intoxication sense, so the loss is shared, but the analysis asks for official readiness on the surface with intoxication underneath."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -102,7 +94,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!\" drops the stretched, hyphenated shape of «Лю-ди!» that the analysis calls the faltering, wavering cry. \"Yoo-hoo!\" is a lighter, more cheerful hail than the half-collapsed «ау-у», so the drunken helplessness is softened."
+          "justification": "The analysis stresses the stretched, broken vocalization of «Лю-ди». The candidate's clean 'People!' loses that elongated, unstable quality, although 'Ah... Yoo-hoo!' keeps some of the wavering effect."
         }
       ]
     },
@@ -124,14 +116,7 @@
         }
       },
       "candidate": "But we need only take a telescope...\nAnd look with the aided eye,",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line ends on a comma after \"aided eye,\", which reads as an unfinished sentence. It loses the exclamatory, trailing-off delivery of «!..», weakening the lecturer's wavering oratory at this point. The \"aided eye\" solution itself follows the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -156,7 +141,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac association behind \"five stars\" (the USSR's best cognac, the 5* reference) is not signalled. The analysis notes this association may need a translator's note because it will not be obvious to most viewers, and the candidate provides none, so the sudden semantic click may be lost."
+          "justification": "The final 'five stars' is meant to click into the cognac frame, which most English viewers will not recognize. The reference signals this with a translator's note, and the candidate provides no equivalent signpost, so the punchline's cultural shift is less legible."
         }
       ]
     },
@@ -173,26 +158,19 @@
         "language_specific": {}
       },
       "candidate": "Whether there is life on Mars\nor no life on Mars,\nscience does not know.\nScience hasn't got a clue yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"or no life on Mars\" is awkward. Idiomatic English would be \"or not\" (\"Whether there is life on Mars or not\"), and the phrasing is less natural than the rest of the line."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 7
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 7,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

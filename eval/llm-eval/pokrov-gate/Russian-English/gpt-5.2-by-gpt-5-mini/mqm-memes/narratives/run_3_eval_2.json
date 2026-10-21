@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning but loses the heightened theatrical self-dramatisation and mock-formal tone present in the analysis (e.g. 'Pray, tell me' / two exclamation marks). 'Name one! No, I’m waiting.' is more plain and colloquial, weakening the character's grandiose pose."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "shall we\nknock back a little one?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrasing 'knock back a little one?' is a natural colloquial equivalent, but the line break and the lowercase initial 'shall' make the subtitle look awkward and inconsistent with typical subtitle capitalization/flow."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the repetition but renders the line as a fairly neutral exclamation ('Such... such elevated relations.'), losing the sharper, sarcastic stutter/playful vocalisation (the stretched consonants and comic dissection like 'e-v-volved') that the analysis highlights."
+          "justification": "The phrase \"elevated relations\" is somewhat literal and awkward in English; it reads like a noun-phrase rather than the ironic exclamation/faux-grandiose refrain the analysis describes. This weakens the sarcastic, idiomatic punch of the original."
         }
       ]
     },
@@ -85,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'People don't live for joy—they live for conscience.' is a literal rendering but sounds slightly odd in English. The reference's 'you live to do your duty' better conveys the soldierly fatalism and moral-duty register; 'conscience' softens that tone and reads less natural."
+          "justification": "Using \"conscience\" (People... live for conscience) preserves a literal meaning but lacks the idiomatic force of \"duty\" or \"to do your duty,\" which better conveys the soldierly, moralistic rationale described in the analysis."
         }
       ]
     },
@@ -124,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original is a sharp domestic barb using a professional term as a cutting insult. 'Culinary genius!' shifts the nuance toward ironic praise rather than the biting, imperious rebuke implied by the original; this weakens the intended comic-authoritative effect."
+          "justification": "\"Culinary genius!\" reads as a faintly positive-sounding phrase rather than a sharp, dismissive domestic insult. The original comedic bite that comes from misusing a neutral professional term as a scolding is softened here."
         }
       ]
     },
@@ -173,10 +159,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The surname is rendered as 'Khabotov' instead of the expected 'Khobotov' transliteration. This is an inaccuracy in proper name spelling, though the meaning and tone remain intact."
+          "justification": "The character name is mistransliterated: source is \"Хоботов\" (Khobotov) but candidate spells it \"Khabotov.\" This alters the name's recognizable form and undermines character identity in a recurring, character-marking line."
         }
       ]
     },
@@ -193,14 +179,7 @@
         "language_specific": {}
       },
       "candidate": "It's my cross to bear!\nAnd I must carry it.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The idiom 'It's my cross to bear!' is correct, but the follow-up 'And I must carry it.' omits the exclusivity of the reference's 'And mine alone!'—reducing the manipulative, possessive force of the original line."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -220,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая', which the analysis warns against as overly literal and odd in English. This choice makes the self-characterisation less natural and weakens the intended playful, coquettish awkwardness."
+          "justification": "The candidate uses \"angular,\" which the analysis explicitly warns against as too literal. It sounds odd in English here and diminishes the playful, coquettish self-deprecation of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 8
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 8,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

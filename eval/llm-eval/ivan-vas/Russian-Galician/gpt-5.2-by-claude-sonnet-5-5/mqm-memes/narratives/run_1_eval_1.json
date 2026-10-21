@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The bare labels 'Shpak: magnetófono. O embaixador: medallón.' read as if they still have the items. The analysis notes that each of them lost the item, so the sense of loss is missing."
+          "justification": "The NB says 'У Шпака — магнитофон, у посла — медальон' must convey that each man LOST his item. 'Shpak: magnetófono. O embaixador: medallón.' is a bare label list that does not say the items are missing, so the callback to the thefts is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'dúbidas vagas' and the clipped, list-like phrasing weaken the mock-heroic, operatic register of 'терзают смутные сомнения'. The reference's 'asáltanme escuras sospeitas' keeps that tone better."
+          "justification": "'dúbidas vagas' and the fragmented layout weaken the mock-heroic, operatic register of 'терзают смутные сомнения', which the reference keeps with 'asáltanme escuras sospeitas'."
         }
       ]
     },
@@ -49,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Moito gusto, tsar!' and 'Ola, tsar!' read as Bunsha addressing a tsar, not introducing himself as the Tsar. The analysis explicitly forbids this. The self-introduction 'son o tsar' is missing."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The drunken, repetitive self-introduction as the Tsar is flattened into generic greetings, so the comic absurdity is weaker."
+          "justification": "The NB requires that Bunsha introduces himself as the Tsar. 'Moito gusto, tsar!' and 'Ola, tsar!' read as greeting someone else who is a tsar, which reverses the joke of the drunken impersonator."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'estou triste' is plain and colloquial. It loses the elevated, archaic melancholy of 'я в печали', which the reference renders as 'aflixido'."
+          "justification": "'estou triste' is plain and modern. It loses the archaic, high-register melancholy of 'я в печали', which the reference renders with 'aflixido', so the contrast with the Soviet setting is weaker."
         }
       ]
     },
@@ -114,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'demoños' is set off by a comma as a vocative, so the Tsar appears to address the demons. The analysis requires the demons to be the subject of the sentence, as in the reference 'emparedáronme os demos'."
+          "justification": "The NB says the demons must be the subject. 'Emparedáronme, demoños!' reads as a vocative or exclamation addressed to the demons, so the Tsar appears to be shouting at them rather than blaming them for walling him in."
         }
       ]
     },
@@ -179,9 +173,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Caviar de ultramar... De berenxena'. The analysis warns that calling it caviar confuses viewers. It also loses the contrast of a humble spread presented as an exotic delicacy, which the reference gets with 'Manxar de ultramar'."
+          "justification": "The NB says not to call the eggplant spread 'caviar'. 'Caviar de ultramar... De berenxena!' does exactly that, and it blurs the contrast between the expensive caviar and the cheap spread presented as an overseas delicacy."
         }
       ]
     },
@@ -200,16 +194,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 cigarreiros nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'cigarreiros' means cigarette makers or sellers, not cigarette cases. The correct word is 'cigarreiras', so the stolen object is mistranslated."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'cámaras' drops 'de cine', so the film cameras become generic cameras. 'chaqueta' also lacks the article 'unha'."
+          "justification": "'cigarreiros' is the wrong word for cigarette cases. The reference uses 'cigarreiras', and the candidate's form suggests people or makers. The escalating-count joke with the jacket still works."
         }
       ]
     },
@@ -229,23 +217,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The first two lines become identical, losing the progression 'и тебя вылечат… и тебя тоже вылечат'. The present tense 'curan' replaces the future 'van curar', and the melodic, resigned build-up is weakened."
+          "justification": "The exclamation marks and the identical 'tamén te curan' in the first two lines lose the calm, melodic resignation and the progression ('e a ti... e a ti tamén... e a min') of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 30,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

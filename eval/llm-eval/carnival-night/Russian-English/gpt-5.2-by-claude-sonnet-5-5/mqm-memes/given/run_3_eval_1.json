@@ -63,7 +63,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the key word «коротенько» (\"briefly\"). Without the faux-modest claim of brevity, the comic reversal against \"forty minutes\" is lost, and the analysis states that the briefness claim must come before the duration."
+          "justification": "The candidate omits «коротенько» ('And briefly—'). The analysis says the joke depends on the faux-modest claim of brevity coming before 'forty minutes', which is the comic reversal. Without it, the line is a flat statement of duration and the punchline is lost."
         }
       ]
     },
@@ -149,22 +149,16 @@
       "candidate": "we already see two little stars,\nthree little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting is rendered as \"little stars\" with a clumsy sequence. \"Four little stars—best of all\" merges the fourth star into the punchline, so the buildup is less clean and the sudden click to \"five stars\" is weakened."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate gives no cue (such as a note) to the cognac association, and \"little stars\" sounds childish and does not evoke the cognac star system. The shift into a different semantic world is therefore less legible to English viewers."
+          "justification": "The line is meant to snap from a trivial counting sequence into the cognac star-rating frame. 'Four little stars—best of all, of course, five little stars' blurs the build-up, because it suggests four is best and then switches to five. The diminutive 'little stars' also sounds childish rather than evoking the cognac '5 stars', and there is no note or cue for the cognac association. The derailment into a different semantic domain therefore does not land."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The opening \"we already see\" drops \"As\" and the linking structure, so the lecturer's mock-explanatory flow is somewhat choppy. The line breaks also fragment the sentence."
+          "justification": "The line breaks and dash make the rhythm choppy. The counting is interrupted mid-sequence ('Four little stars—best of all'), so the pointless one-two-three-four progression is weaker."
         }
       ]
     },
@@ -190,14 +184,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 8,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

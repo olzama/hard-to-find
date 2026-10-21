@@ -38,10 +38,10 @@
       "candidate": "Pleased to meet you — Tsar!\nCharmed, hello — Tsar!\nTsar — pleased to meet you!\nHello — Tsar! Charmed!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits any first-person introduction ('I am the Tsar') and instead strings 'Tsar' onto each greeting, which can be read as addressing a Tsar rather than comically introducing himself as the Tsar. This weakens the specific gag described in the analysis (that he is repeatedly introducing himself as the Tsar)."
+          "justification": "The candidate reads like Bunsha is addressing or exclaiming to a 'Tsar' (vocative) rather than repeatedly introducing himself as the Tsar. The analysis requires it to be clear he is impersonating/introducing himself as the Tsar (not addressing one); this change alters the comedic premise and the character’s embarrassed, repetitive self-introduction."
         }
       ]
     },
@@ -93,14 +93,7 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nThey've walled me in, the demons!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The line 'They've walled me in, the demons!' reads as if the Tsar is addressing the demons (vocative), whereas the analysis requires that 'demons' be the subject (i.e., 'Demons have walled me in'). This reverses the grammatical role and changes the intended meaning and comedic effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -185,7 +178,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Eggplant caviar,' which the analysis explicitly warns against because it confuses the joke (eggplant spread should be presented as a cheap/common 'spread', not literal caviar). This misrepresents the satirical inversion of status-symbol foods."
+          "justification": "The candidate renders the cheap Soviet eggplant spread as 'eggplant caviar,' which the analysis explicitly warns against because it will confuse viewers. The joke depends on contrasting real (black/red) caviar with a humble eggplant spread presented as a mocked 'overseas' delicacy; calling it 'caviar' collapses that contrast and misrepresents the cultural gag."
         }
       ]
     },
@@ -228,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 1
+      "minor": 0
     },
-    "total_points": 11,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

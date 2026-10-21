@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB states the items are missing (each lost theirs). 'Shpak has a tape recorder, the envoy has a medallion' reverses this, implying possession and losing the theft connection that drives the callback."
+          "justification": "The NB says the items are lost, not possessed. 'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning, so the callback to the thefts is lost."
         },
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "'Envoy' for the ambassador is a less precise lexical choice, though the meaning is close."
+          "justification": "'Plagued again by vague doubts' keeps the mock-elevated register reasonably well. The line breaks are fine, but 'envoy' is slightly less natural than 'ambassador' for the intended effect."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha is introducing himself as the Tsar. 'Hello, Tsar!' reads as addressing a Tsar, so the self-introduction joke is lost."
+          "justification": "The candidate reads as addressing someone as 'Tsar' ('Hello, Tsar!'), not introducing himself as the Tsar. The NB explicitly requires making the self-introduction clear."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a weak rendering of 'очень приятно' (pleased to meet you), and it loses the mundane social-cliché greeting feel."
+          "justification": "'Very nice' is a weaker rendering of the stiff formulaic 'very pleased to meet you'. The mundane social-ritual cliché is flattened."
         }
       ]
     },
@@ -92,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Old girl' is colloquial and affectionate, which weakens the archaic, high-register regal tone; 'despair' also overstates 'в печали' (sorrow)."
+          "justification": "'Old girl' is colloquial and affectionate, and 'despair' is more modern than the archaic, high-register 'I am in sorrow'. This weakens the regal, archaic tone and the contrast the analysis describes."
         }
       ]
     },
@@ -109,7 +109,14 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nDemons—walled me in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Demons—walled me in!' makes demons the subject and avoids the vocative, which is correct. The dash-based phrasing is slightly choppy and loses the exclamatory 'the demons!' rhythm of the original."
+        }
+      ]
     },
     {
       "id": 6,
@@ -129,7 +136,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross can do!' is flatter and more colloquial than the Tsar's solemn, convinced proclamation, weakening the archaic religious register."
+          "justification": "'That's what the life-giving cross can do!' is colloquial. It loses the solemn, archaic, triumphant conviction of 'Behold the power...', which weakens the Tsar's voice."
         }
       ]
     },
@@ -151,7 +158,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate in meaning but loses the host-like, master-of-ceremonies tone of the reference ('The floor is open to everyone')."
+          "justification": "'Everybody dance!' is accurate and conveys the command to join in. It is plainer than the host-like, party-leader flavor and does not add the festive, bureaucratic-turned-host touch."
         }
       ]
     },
@@ -173,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB warns against misleading the viewer into thinking he is leaving. 'Great timing' is vague and loses the sense of a good choice of apartment, and the cheerful anti-hero reaction to finding goods is weakened."
+          "justification": "'Great timing' loses the burglar's pleased reaction to having chosen a good apartment. The NB warns against misleading readings, and 'Wow. Great timing.' fails to convey that he has just entered and chose well, and the lucky-find sense of the deficit goods is lost."
         }
       ]
     },
@@ -195,7 +202,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says eggplant spread must not be called caviar. 'Exotic caviar... Eggplant!' keeps 'caviar' and splits the line so the joke about 'eggplant caviar' becomes confusing, and 'overseas' is lost."
+          "justification": "The candidate calls the eggplant spread 'caviar' ('Exotic caviar... Eggplant!'), which the NB forbids. It also drops the 'overseas' notion and the punchline that the cheap spread is presented as a rare delicacy, so the satirical inversion is confused."
         }
       ]
     },
@@ -217,7 +224,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the count for the suede jacket (singular, then 'Three'). The candidate gives 'three suede jackets' straight away, losing the comic slip that betrays his exaggeration."
+          "justification": "The candidate gives 'three suede jackets', erasing the joke that Shpak forgets to increment the count for the jacket and the single 'suede jacket' before the 'Three'. The humor of the slip is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The tidy repeating list loses the hesitant, spoken rhythm and the self-correcting pause of the original."
         }
       ]
     },
@@ -239,7 +252,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The opening 'And they'll cure you' is omitted and the sequence is rearranged ('too', 'as well'), slightly weakening the melodic, calm repetition of the original, though the overall effect survives."
+          "justification": "The first clause 'And they'll cure you' is dropped, leaving 'you too' and 'as well' with nothing preceding them. The melodic, repetitive resignation is mostly kept, but the escalation 'you... you too... me' is weakened."
         }
       ]
     }
@@ -247,13 +260,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 6
+      "minor": 8
     },
-    "total_points": 31,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

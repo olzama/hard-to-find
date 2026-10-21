@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line says the items are missing from Shpak and the ambassador, but the candidate states that they still have them, which reverses the factual meaning and breaks the joke setup."
+          "justification": "The candidate reverses the key meaning from the NB: it says Shpak and the ambassador still have the items, rather than that the items are missing from them."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The phrasing \"dúbidas vagas\" is understandable, but it weakens the mock-heroic, theatrical flavor of \"смутные сомнения\" that the analysis highlights."
+          "justification": "The line keeps the mock-solemn tone fairly well, but the phrasing is a bit flatter than the reference’s comic, theatrical cadence."
         }
       ]
     },
@@ -46,10 +46,10 @@
       "candidate": "Ola, tsar, moito gusto. Tsar, moito gusto, tsar. Moito gusto, ola, tsar.\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate largely preserves the repetitive comic greeting, but adding separate exclamatory lines at the end slightly alters the rhythm and the tightly controlled repetition of the original."
+          "justification": "The candidate does not clearly show that Bunsha is introducing himself as the Tsar; 'Ola, tsar' can read like he is addressing the Tsar rather than speaking as him, which the analysis specifically warns against."
         }
       ]
     },
@@ -84,9 +84,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Estou de loito\" changes the meaning of \"я в печали\" from being in sorrow/melancholy to being in mourning, which is somewhat too specific and less accurate."
+          "justification": "'Estou de loito' shifts the emotional nuance slightly; it suggests mourning rather than the more intimate, regal melancholy of 'estou aflixido'."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original is singular and self-referential: the Tsar says he has been walled in. The candidate changes it to \"nos\" (we/us), which distorts the scene and the comic misunderstanding."
+          "justification": "The candidate changes the meaning from 'They have walled me in' to 'They have walled us in,' losing the singular, panicked perspective of Ivan."
         }
       ]
     },
@@ -130,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Velaí\" is understandable, but it is slightly less elevated/idiomatic than the reference's more solemn exclamation, weakening the mock-religious register a bit."
+          "justification": "'Velaí' is slightly less natural and less elevated than the reference’s more idiomatic 'Velaquí,' weakening the ceremonial tone a bit."
         }
       ]
     },
@@ -152,7 +152,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"A bailar, todo o mundo!\" conveys the meaning, but it shifts the command from \"Everyone dance!\" to a looser invitation/exhortation, making it a bit less forceful and imperative."
+          "justification": "The imperative sense of a command to everyone dancing is weakened; 'A bailar, todo o mundo!' sounds more like an invitation than the exuberant, collective order of the original."
         }
       ]
     },
@@ -174,7 +174,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Mire que entrei con sorte\" is misleading because it sounds like he is saying he entered/lucked in, but the original means he has happened upon a fortunate discovery right after entering, with the emphasis on the lucky find."
+          "justification": "'Mire que entrei con sorte!' sounds like a comment about having entered by chance or about the quality of the entry, but it does not clearly convey the idiomatic 'I hit the jackpot / what good luck' reaction to finding the loot."
         }
       ]
     },
@@ -196,7 +196,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate wrongly repeats \"caviar\" for the eggplant spread, directly violating the note that it should not be called caviar; this obscures the Soviet-food shortage joke."
+          "justification": "The candidate omits the crucial joke that the eggplant spread is a fake/cheap 'caviar' substitute. 'Caviar de ultramar' loses the satirical contrast and can mislead viewers."
         }
       ]
     },
@@ -215,16 +215,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 cigarreiros nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The count pattern is broken: the candidate reduces the list to bare quantities and omits the final incremental repetition that is essential to the joke, so the escalating comic effect is lost."
+          "justification": "The counting structure is less precise than the source: it drops one 'three' for the jackets and does not reproduce the escalating, self-incriminating exaggeration as clearly."
         },
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The line is compressed into an unnatural list-like format, which makes the subtitle less natural and less performative than the reference."
+          "justification": "Using numerals makes the delivery more list-like and less comic than the spoken repetition in the original."
         }
       ]
     },
@@ -241,19 +241,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti vante curar!\nE a ti tamén vante curar!\nE a min vanme curar!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is understandable, but it sounds a bit more clipped and less melodic than the reference, which helps convey the character’s calm, resigned rhythm."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 31,
+    "total_points": 32,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.909090909090909,
+    "major_equiv_per_unit": 0.5818181818181818,
+    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

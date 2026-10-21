@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and the joking challenge, but it loses some of the heightened, melodramatic self-presentation of the original (the more theatrical cadence of 'Pray, tell me' / 'Go on, I'll wait!'). The wording is more prosaic and less bombastic than the analysis recommends."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -56,9 +49,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as a flat noun phrase ('High... high relations.'), which the analysis explicitly warns against. The original is a sarcastic, exclamatory refrain with stuttering for comic effect; the candidate loses that performative, mocking tone and becomes awkwardly literal."
+          "justification": "The candidate ('High... high relations.') renders the line as a literal noun phrase and loses the sarcastic, stuttering exclamation and comic register that the analysis highlights. It fails to reproduce the ironic, performative effect of the original refrain and thus contradicts the essence of the line."
         }
       ]
     },
@@ -78,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate keeps the maxim's structure but uses 'conscience' ('live for conscience'), which is unidiomatic in English and weakens the intended 'duty' / moral-obligation sense conveyed in the analysis. The idiomatic English phrasing ('live to do your duty' / 'not to be happy') would better match the original sentiment."
+          "justification": "The wording 'live for conscience' is grammatical but sounds unnatural in English and weakens the soldierly, duty-focused fatalism of the original ('live to do your duty'). The idea is present, but the register and idiomatic force are blunted."
         }
       ]
     },
@@ -114,10 +107,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' uses a laudatory-sounding phrase that can be read as sarcastic, but it shifts register compared with the sharp, brusque domestic insult implied by the original ('Some cook you are!'). The change softens the biting, imperious tone described in the analysis."
+          "justification": "The candidate ('Culinary genius!') reads as an (ironic) compliment rather than the sharp, dismissive insult of the original interjection. It changes the intended accusatory, domestically scolding effect into praise, which undermines the character's tone and the comic bite."
         }
       ]
     },
@@ -151,10 +144,10 @@
       "candidate": "Cut it out to hell.\nWithout waiting for peritonitis.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'Cut it out to hell.' is unidiomatic and awkward in English and fails to reproduce the abrupt, coarse surgical verdict of the original. Splitting into two lines ('Cut it out to hell.' / 'Without waiting for peritonitis.') also disrupts the original's punchy imperative. The result weakens the medical-farce impact."
+          "justification": "The phrasing 'Cut it out to hell. / Without waiting for peritonitis.' is awkward and disrupts the abrupt, coarse imperative in the original. The meaning (act now, don't wait) is retained, but the cadence and punch are weakened by odd word order and sentence split."
         }
       ]
     },
@@ -191,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the idea of self-sacrifice but renders the idiom as two lines ('This is my cross!' / 'And it's mine to bear.'), which fragments the fixed English idiom 'a cross to bear' and slightly reduces the rhetorical force and manipulative grandiosity the analysis highlights."
+          "justification": "Splitting the idiom into 'This is my cross! / And it's mine to bear.' alters the fixed English idiom 'a cross to bear' and slightly reduces the manipulative grandiosity of the original. The meaning remains, but the idiomatic force and theatrical phrasing are weakened."
         }
       ]
     },
@@ -213,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая,' which the analysis cautions against as overly literal and awkward in English. While the overall self-mocking characterization is preserved, the wording feels clumsy and less idiomatic than alternatives that capture mannered awkwardness without the literal 'angular.'"
+          "justification": "Using 'angular' reproduces the literal Russian word that the analysis warns against. In English 'angular' reads oddly here and makes the self-mockery less idiomatic; the candidate therefore weakens the original's characteristic, coquettish self-deprecation."
         }
       ]
     }
@@ -221,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

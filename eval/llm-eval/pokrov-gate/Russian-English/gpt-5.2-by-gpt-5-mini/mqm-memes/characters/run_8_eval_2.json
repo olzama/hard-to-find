@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and comic intent but flattens the heightened, theatrical self-dramatization described in the analysis. The reference's archaic/performative flavor ('Pray, tell me... I'll wait!') is stronger than the candidate's more prosaic phrasing ('Name one! No, I'm waiting.')."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -58,7 +51,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The line functions as a sarcastic, stuttering refrain in the original; the reference captures that with playful elongation and vocalized hesitation. The candidate 'Lofty... lofty relations.' turns the phrase into a literal noun phrase and loses the ironic, performative delivery and stuttering that make the original a memorable refrain, contradicting the analysis guidance."
+          "justification": "The candidate renders the line as a literal noun phrase ('Lofty... lofty relations'), losing the sarcastic exclamatory, stuttering refrains and comic register the analysis identifies. It fails to reproduce the idiomatic, performative mockery of 'высокие… выс-с-сокие отношения' and therefore undermines the established meme rhythm and tone."
         }
       ]
     },
@@ -77,10 +70,10 @@
       "candidate": "People don't live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps the idea but uses the awkward construction 'live for conscience,' which is not a natural English idiom and slightly weakens the plainspoken, fatalistic soldierly tone the analysis highlights. A more idiomatic rendering would better match register."
+          "justification": "Rendering 'совести' as 'conscience' ('live for conscience') produces an unnatural, ambiguous English phrase and loses the soldierly, duty-focused sense ('live to do your duty') that the analysis highlights as essential to the character's worldview."
         }
       ]
     },
@@ -117,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'A culinary genius!' is sarcastic, but it shifts register toward a faux-complimentary tone and uses a literal professional-sounding phrase. The analysis warns against literal professional terms; a sharper, more biting retort closer to the reference would better convey the original's imperious comedic bite."
+          "justification": "'A culinary genius!' shifts the bite and register of the original blunt domestic insult into a more elaborate, potentially ambiguous phrase. The original's sharp ironic reproach ('Some cook you are!') is stronger for the character; the candidate weakens that punch."
         }
       ]
     },
@@ -154,7 +147,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate is grammatically awkward and fragments the line into two clauses that read unnaturally in English ('Cut it out to hell with it. / Without waiting for peritonitis.'). The violent, punchy imperative of the reference is not rendered cleanly, reducing the sharp farcical effect."
+          "justification": "The phrasing 'Cut it out to hell with it. Without waiting for peritonitis.' is awkward and unidiomatic in English. The candidate preserves the violent, abrupt imperative but is clumsy compared with a tighter idiomatic imperative ('Cut it the hell out, don't wait for peritonitis!')."
         }
       ]
     },
@@ -173,10 +166,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "terminology",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The character name is transliterated as 'Khabotov' rather than the form used in the reference ('Khobotov'). This is a small inconsistency in name rendering; otherwise the candidate preserves meaning and tone."
+          "justification": "The candidate transliterates the name as 'Khabotov' instead of the expected 'Khobotov'. Misrendering the character's name alters an identifying detail and undermines fidelity to the source; given this repeated formulaic line, correct naming is important to the quote's recognizability."
         }
       ]
     },
@@ -195,10 +188,10 @@
       "candidate": "This is my cross!\nAnd I am the one to carry it.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate translates the idiom too literally ('This is my cross! And I am the one to carry it.'), splitting and losing the established English idiom 'a cross to bear' and the emphatic, manipulative boast of the original. This weakens the manipulative, hyperbolic drama described in the analysis and fails to convey the intended idiomatic force."
+          "justification": "By translating literally as 'This is my cross! And I am the one to carry it.' the candidate breaks the natural English idiom ('a cross to bear') and loses some of the manipulative, idiomatic force the analysis recommends. The meaning remains but the phrasing is less idiomatic and dramatic."
         }
       ]
     },
@@ -220,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the literal word 'angular' for 'угловатая,' which the analysis specifically warns against as overly literal and potentially confusing in English. While the self-deprecating tone remains, a less literal choice would better capture the original's idiomatic effect."
+          "justification": "Using 'angular' reproduces a literal reading of 'угловатая' that the analysis warns against; in English 'angular' here sounds awkward and reduces the playful, coquettish self-deprecation. The line is understandable but stylistically off for the meme's intended voice."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 6
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 16,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

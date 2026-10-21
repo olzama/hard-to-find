@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak 'ten un magnetófono' and the ambassador has a medallion. The NB says the source means each of them lost the item, so the candidate states the opposite and loses the point of the callback to the thefts."
+          "justification": "The NB is violated: 'Shpak ten un magnetófono, e o embaixador, un medallón' says they possess the items, whereas the source means each of them lost his item. The suspicion linking the thefts is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Volven atormentarme dúbidas vagas' is plain and less mock-heroic and theatrical than the elevated 'terzan/asáltanme escuras sospeitas' register; 'de novo' (опять) is rendered as 'volven', which is acceptable."
         }
       ]
     },
@@ -43,7 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Moito gusto, tsar!' and 'Ola, tsar!' read as Bunsha addressing a tsar. The NB requires that he introduces himself as the Tsar (as in the reference 'son o tsar'). The joke of the drunken impersonator is lost."
+          "justification": "Per the NB, the line must show Bunsha introducing himself as the Tsar. 'Moito gusto, tsar!' / 'Ola, tsar!' reads as addressing a Tsar, so the self-introduction joke is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The rhythm of the polite formulaic greeting is kept, but the extra reordering and loss of 'son o tsar' weakens the drunken Soviet-cliché effect."
         }
       ]
     },
@@ -80,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Triste' is plainer than 'aflixido'. It weakens the archaic, regal register of the Tsar's melancholy, though the meaning is preserved."
+          "justification": "'triste' is flatter and more modern than 'aflixido'; the archaic, regal melancholy register is weakened, though the meaning and the 'velliña' contrast are kept."
         }
       ]
     },
@@ -102,7 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedáronme, demos!' puts 'demos' as a vocative, so the Tsar addresses the demons. The NB requires the demons to be the subject of the sentence, as in the reference 'emparedáronme os demos'."
+          "justification": "'Emparedáronme, demos!' reads as a vocative address to the demons, which the NB explicitly forbids; demos must be the subject of the sentence."
         }
       ]
     },
@@ -151,10 +163,10 @@
       "candidate": "Vaia, cheguei no momento xusto!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Cheguei no momento xusto' shifts the meaning to good timing. The source is about luckily landing in a good place full of valuables, so the burglar's delight at the loot is lost. It is not misleading about entering versus leaving."
+          "justification": "'Cheguei no momento xusto' means 'I arrived at the right moment', losing the idea of striking lucky by choosing this apartment and the 'deficit goods' jackpot. It is not misleading about leaving, but the lucky-find joke is mostly lost."
         }
       ]
     },
@@ -174,9 +186,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Caviar de ultramar... De berenxena' calls the eggplant spread caviar, which the NB says will confuse viewers. The reference uses 'manxar de ultramar' for this reason."
+          "justification": "The NB says not to call eggplant spread 'caviar'. The candidate says 'Caviar de ultramar... De berenxena', which confuses the viewer and loses the inversion of status symbols."
         }
       ]
     },
@@ -198,13 +210,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives the plural 'chaquetas de camurza: tres', so the comic slip where Shpak starts with one jacket ('unha chaqueta') and then corrects it to three is lost."
+          "justification": "The joke depends on Shpak forgetting to increment the jacket count, i.e. a singular jacket first and then 'tres'. The candidate pluralizes 'chaquetas' with 'tres', erasing the slip that betrays him."
         },
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "Using the digit '3' in spoken-line subtitles is less natural than the written-out numeral, and the broken-off, hesitant rhythm of the list is flattened."
+          "justification": "Digits '3' instead of the word 'tres' and the dropped 'de cine' make the list less natural as spoken Shpak speech."
         }
       ]
     },
@@ -226,21 +238,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'E a ti a ti tamén' is a stutter-like duplication, and the first line already includes 'tamén', which is not in the source. This blurs the calm, melodic escalation of the reference."
+          "justification": "The repetition 'E a ti a ti tamén' is clumsy and the future 'curarán' loses the melodic, calm resignation of the original; 'tamén' on the first clause is also off."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 4
+      "major": 6,
+      "minor": 5
     },
-    "total_points": 29,
+    "total_points": 35,
     "meaning_units": 11,
-    "penalty_per_unit": 2.6363636363636362,
-    "major_equiv_per_unit": 0.5272727272727272,
-    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.1818181818181817,
+    "major_equiv_per_unit": 0.6363636363636364,
+    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

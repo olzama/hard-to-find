@@ -63,7 +63,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the opening \"And briefly\", which renders «коротенько». The analysis says this faux-modest word is the setup for the joke, and the claim of brevity must come before the duration. Without it, \"about forty minutes\" has nothing to contrast with, and the comic reversal and Ogurtsov's smug, patronizing tone are lost."
+          "justification": "The opening 'коротенько так' (faux-modest 'briefly') is omitted. The analysis says the briefness claim must come before the duration so that 'forty minutes' lands as the punchline. Without it the comic reversal and Ogurtsov's smug, self-satisfied moderation are lost, leaving a flat statement of duration."
         }
       ]
     },
@@ -125,7 +125,14 @@
         }
       },
       "candidate": "But all we have to do is take a telescope! And look with the aided eye!..\nAnd look with the aided eye,",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The key phrase 'aided eye' is preserved and works as intended, but the line is followed by a stray repetition, 'And look with the aided eye,'. It is not in a consecutive segment as a clean repeat, so it adds clutter and reads like a duplicated or garbled subtitle."
+        }
+      ]
     },
     {
       "id": 7,
@@ -147,7 +154,14 @@
         }
       },
       "candidate": "and we can already see two\nstars, three stars...\nFour stars... As we can already see, two stars, three stars, four stars… But of course five stars is best! [The best cognac in USSR was known as 5*]",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The star-counting progression and the cognac punchline with its explanatory note are preserved. However, the segment is cluttered with a duplicated, fragmentary start ('and we can already see two stars, three stars... Four stars...') before the full line is repeated. This breaks the clean build-up to 'five stars' and reads like a subtitle-splitting artifact."
+        }
+      ]
     },
     {
       "id": 8,
@@ -166,19 +180,26 @@
         }
       },
       "candidate": "Whether there is life on Mars or not, that is unknown to science. Science still isn’t up to speed on the matter.\nScience still isn’t up to speed on the matter.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The casual register and the 'up to speed' phrasing are preserved, so the humor works. The final sentence is repeated on a separate line within the same item, which adds redundancy and looks like a subtitle-splitting artifact."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 0
+      "minor": 3
     },
-    "total_points": 5,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 0.625,
-    "major_equiv_per_unit": 0.125,
-    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

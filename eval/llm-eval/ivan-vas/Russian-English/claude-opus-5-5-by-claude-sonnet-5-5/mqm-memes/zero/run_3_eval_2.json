@@ -23,10 +23,16 @@
       "candidate": "Again I'm tormented\nby vague doubts...\nShpak's missing a tape recorder,\nthe ambassador's missing a medallion.",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The analysis explicitly warns against 'has/is missing' readings. 'Shpak's missing a tape recorder' is actually the correct sense (each lost an item), so meaning is fine, but the mock-heroic register is weakened: 'Again I'm tormented by vague doubts' is acceptable, yet the line break and the explicit 'missing' turn the elliptical rhythmic parallelism ('Shpak's tape recorder, the ambassador's medallion') into plain prose, flattening the callback's punch."
+        },
+        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The mock-heroic register is partly preserved ('tormented by vague doubts'), but the inverted word order 'Again I'm tormented' reads slightly stilted, and the callback to the earlier scene is a little weaker than the reference's compact 'Vague doubts haunt me once again'. The 'missing' wording correctly conveys that the items are lost, which satisfies the nb."
+          "justification": "The explicit 'is missing' expansion loses the terse, rhymed, chant-like parallelism of the source (магнитофон/медальон) and makes the delivery more mundane than the mock-theatrical original."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha addressing a tsar ('A pleasure, tsar!', 'Hello, tsar!'), which is exactly what the analysis forbids. Bunsha is introducing himself as the Tsar, so the translation needs something like 'I'm the Tsar'. The humor of the self-introduction is lost."
+          "justification": "The candidate reads as Bunsha addressing a tsar ('A pleasure, tsar!', 'Hello, tsar!'), not introducing himself as the Tsar. The analysis's note explicitly requires making clear he is introducing himself, so the central joke is lost."
         }
       ]
     },
@@ -100,7 +106,14 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nThe demons have walled me in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The demons are correctly the subject, but the second sentence 'The demons have walled me in!' is a flat, complete statement; the original's broken, halting delivery with the demons as a trailing exclamation is somewhat lost, making it less archaic and dramatic."
+        }
+      ]
     },
     {
       "id": 6,
@@ -125,7 +138,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's the power of...' is colloquial and flatter than the elevated, archaic exclamation of the reference ('Behold the power...'). It weakens the Tsar's solemn conviction, though the meaning is intact."
+          "justification": "'That's the power of the life-giving cross!' is colloquial and weakens the Tsar's solemn, archaic, reverent register compared to a declamatory 'Behold the power...'."
         }
       ]
     },
@@ -147,7 +160,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everybody dance!' conveys the meaning but is a plain imperative that lacks the playful, mock-formal host's tone of the reference, slightly weakening the comic contrast with the 16th-century setting."
+        }
+      ]
     },
     {
       "id": 8,
@@ -172,7 +192,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Lucky I dropped by' suggests a visit that is over or a casual stop-in. Miloslavsky has just entered the apartment, and the analysis requires that the translation not mislead on this. The line also loses the sense of a successful choice of target apartment ('good call')."
+          "justification": "'Lucky I dropped by!' is misleading: it suggests a friendly visit or a retrospective remark, while Miloslavsky has just entered and is burgling. The nb explicitly warns against a translation implying leaving, and 'dropped by' also loses the burglar's criminal cheerfulness."
         }
       ]
     },
@@ -199,7 +219,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Eggplant caviar' and also 'Overseas caviar', which the nb explicitly prohibits because it confuses viewers. The reference uses 'spread' to keep the distinction. The satirical inversion of black and red caviar against the cheap eggplant spread is blurred."
+          "justification": "The candidate calls eggplant spread 'caviar' ('Overseas caviar... Eggplant caviar!'), which the analysis explicitly says will confuse viewers; it also drops the contrast that makes the joke work by treating the 'overseas' item as real caviar."
         }
       ]
     },
@@ -223,10 +243,16 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nsuede jackets — three.",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The punchline relies on Shpak forgetting to increment the suede jacket count at first and then saying 'Three'. The candidate pluralizes 'suede jackets — three', which removes the slip (a single jacket) and the comic betrayal of his exaggeration."
+        },
+        {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'suede jackets — three' pluralizes the jacket, so the joke is lost. Shpak forgets to increment the count at first and says a single jacket before 'Three', and the plural makes the slip disappear. The use of numerals instead of words is a small stylistic issue as well."
+          "justification": "'domestic' is attached only to cigarette cases and the numerals are written as digits, losing the rhythmic spoken list structure of the original."
         }
       ]
     },
@@ -246,23 +272,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The structure is changed: the first 'And they'll cure you' is replaced by 'And they'll cure you too!', and the repeated 'too' and 'as well' add emphasis not in the source. The exclamation marks undermine the calm, melodic resignation described in the analysis, which fits better with ellipses."
+          "justification": "Exclamation marks and the rearranged phrasing ('too', 'as well') make the delivery more emphatic, losing the calm, melodic, resigned tone and the ellipses of the original that make the dark joke work."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 5,
+      "minor": 6
     },
-    "total_points": 19,
+    "total_points": 31,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.8181818181818183,
+    "major_equiv_per_unit": 0.5636363636363637,
+    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

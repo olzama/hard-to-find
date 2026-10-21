@@ -24,15 +24,15 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The mock-heroic, theatrical register of 'терзают смутные сомнения' is lost. 'I'm beginning to have those nagging doubts again' is a flat, everyday colloquial phrase that removes the high-brow parody the analysis identifies as the core of the joke."
-        },
-        {
-          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Shpak loses a tape recorder, the ambassador loses a medal' does convey loss rather than possession, but the present tense reads as ongoing or habitual, which weakens the callback to completed thefts. 'Medal' also replaces 'medallion', changing the object."
+          "justification": "The NB explicitly says the line must not be rendered as present possession or ongoing action: the items were lost. 'Shpak loses a tape recorder, the ambassador loses a medal' uses the present tense, which makes it a general habit or ongoing event rather than a completed loss, so the callback to the earlier thefts is distorted."
+        },
+        {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "'I'm beginning to have those nagging doubts again' is a colloquial rendering that loses the mock-heroic, theatrical register of 'терзают смутные сомнения'; the high-brow literary tone that drives the joke is gone."
         }
       ]
     },
@@ -54,13 +54,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha addressing a Tsar ('Your Majesty') rather than introducing himself as the Tsar. The analysis' note requires that it be clear he is the Tsar, so the core of the joke is reversed."
+          "justification": "The NB requires that Bunsha introduce himself as the Tsar. 'Charmed, Your Majesty!' addresses the Queen/Tsar as 'Your Majesty', so the self-introduction as the Tsar is lost and the meaning is reversed."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Charmed' and 'So nice to meet you' are acceptable stiff greeting clichés, but the drunken repetition of self-introduction as 'the Tsar' is lost."
+          "justification": "The repeated 'Your Majesty' also replaces the mundane Soviet greeting clichés with courtly address, weakening the clash of eras that carries the humor."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I am sorrowful' is archaic enough, but splitting the line and using the adjective form is slightly less natural and regal than 'I am in sorrow'. The effect is mostly preserved."
+          "justification": "'I am sorrowful' is stiff and splits the line, but it keeps an archaic, regal register. The sense of 'in sorrow' is preserved, so the effect is only slightly weaker than the reference."
         }
       ]
     },
@@ -184,7 +184,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'This is my lucky day' is a good, cheerful reaction and not misleading about leaving, so the key nb is respected. It slightly shifts the meaning from his choice of entering at the right moment ('удачно зашел') to general luck."
+          "justification": "'This is my lucky day' correctly fits the moment of arrival and the cheerful reaction. It shifts the nuance from a good choice of apartment ('удачно зашел') to pure luck, which is a slight loss but not misleading about timing."
         }
       ]
     },
@@ -231,13 +231,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the count for the jacket ('a suede jacket… Three'). The candidate gives 'three suede jackets' straight, which removes the slip that betrays him."
+          "justification": "The humor depends on Shpak forgetting to increment the count of the suede jackets, so the original has a single suede jacket followed by a belated 'Three'. The candidate says 'three suede jackets' straight away, which removes the slip that betrays him."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'Soviet-made' for 'отечественных' is acceptable, but the hesitating structure of the original list is flattened."
+          "justification": "'Soviet-made' for 'отечественных' is acceptable, but the original's afterthought placement (the word 'domestic' tacked on after the cigarette cases) is lost."
         }
       ]
     },
@@ -259,21 +259,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks give the lines an energetic tone, while the analysis calls for melodic, calm resignation. The ellipses of the original are lost, which weakens the dreamy, resigned delivery."
+          "justification": "The exclamation marks on the first two clauses make the delivery sound emphatic. The original conveys melodic, calm resignation, so the tone is slightly off, although the meaning is intact."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 4,
+      "minor": 5
     },
-    "total_points": 21,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

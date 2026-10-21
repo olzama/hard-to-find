@@ -38,10 +38,10 @@
       "candidate": "Pleased to meet you — Tsar!\nCharmed, hello — Tsar!\nTsar — pleased to meet you!\nHello — Tsar! Charmed!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing or greeting an actual Tsar ('Pleased to meet you — Tsar!'), rather than clumsily introducing himself as 'the Tsar' in the repetitive, self-referential way required by the analysis. This reverses the intended comic point (that he is presenting himself as the Tsar) and undermines the gag."
+          "justification": "The candidate's phrasing ('Pleased to meet you — Tsar!') is ambiguous and reads like Bunsha addressing someone as 'Tsar' rather than repeatedly introducing himself as 'the Tsar', which the analysis says must be clear. The repetitive, self-introducing comic effect is mostly preserved, but the intended self-identification is made less explicit."
         }
       ]
     },
@@ -98,7 +98,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The line 'They've walled me in, the demons!' reads like an address to the demons rather than stating that demons are the ones who walled him in. The analysis specifies the demons should be the grammatical subject (they did it), so the current phrasing slightly misrepresents the intended agency."
+          "justification": "The line 'They've walled me in, the demons!' risks reading as a direct address to the demons because of the comma; the analysis specifies the demons are the subject who walled him in. The overall meaning (he is walled in and blames demons) is preserved, but the syntactic role of 'demons' is slightly ambiguous."
         }
       ]
     },
@@ -185,7 +185,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeatedly labels the cheap eggplant spread as 'caviar' ('Eggplant caviar' / 'overseas caviar'), which the analysis warns against because it will confuse viewers and loses the satirical inversion (cheap eggplant spread being treated as a rare 'overseas' item). This misrenders the joke about Soviet status goods."
+          "justification": "The candidate renders the cheap Soviet spread as 'Eggplant caviar', effectively treating the eggplant spread as actual 'caviar.' The analysis explicitly warns against calling the eggplant spread 'caviar' because the joke depends on the contrast between true caviar and a humble eggplant spread presented as a faux delicacy. This misrendering undermines the satirical inversion that makes the line funny."
         }
       ]
     },
@@ -227,14 +227,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 1
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 11,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

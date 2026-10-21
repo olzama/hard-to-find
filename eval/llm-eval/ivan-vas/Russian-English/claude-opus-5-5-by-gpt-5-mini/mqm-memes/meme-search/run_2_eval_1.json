@@ -24,9 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The phrase 'the envoy's locket's not been seen' is awkward and non-idiomatic in English. The candidate correctly renders that the items have been lost (per the analysis), but the phrasing reduces naturalness and rhythm compared with the mock-heroic register established earlier in the line."
+          "justification": "The candidate weakens the mock-heroic register slightly by using colloquial phrasing ('tape machine') and a more prosaic rhythm than the elevated 'Vague doubts haunt me...'. The sense that the items are missing is preserved, but the lofty theatrical voice described in the analysis is a bit reduced."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's lines are ambiguous about whether Bunsha is introducing himself as the Tsar or addressing a Tsar. The analysis requires that the translation make clear he is introducing himself as the Tsar (not speaking to a Tsar). The candidate's punctuation and ordering risk reading as exclamations addressed to a Tsar rather than the self-introduction that produces the gag."
+          "justification": "The candidate fails to make clear that Bunsha is introducing himself as the Tsar ('I am the Tsar'). The lines read as addressing a Tsar rather than self-identification, which contradicts the analysis that the joke depends on him repeatedly presenting himself as 'the Tsar.'"
         }
       ]
     },
@@ -185,7 +185,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate presents 'overseas caviar... Aubergine!' which risks implying that the aubergine spread is also caviar. The analysis explicitly warns translations should not call eggplant spread 'caviar'—the joke depends on the contrast between luxury caviar and humble 'eggplant caviar' being treated as an exotic delicacy. The candidate's wording therefore confuses that distinction and undermines the satirical effect."
+          "justification": "The candidate risks calling the cheap eggplant spread 'overseas caviar' by grouping 'overseas' with 'caviar' then appending 'Aubergine', which can confuse the target audience. The analysis warns against rendering eggplant spread as 'caviar'—the humor depends on distinguishing the cheap 'aubergine' spread from real caviar."
         }
       ]
     },
@@ -207,7 +207,14 @@
         }
       },
       "candidate": "tape recorders, three;\ncine cameras, three;\ncigarette cases, domestic, three;\njacket, suede: three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate renders the list as a flat inventory and thus loses the specific comedic beat in which Shpak inflates and then forgets to increment the count (the joke depends on the hesitation/forgetting). This omission significantly harms the humorous effect described in the analysis."
+        }
+      ]
     },
     {
       "id": 11,
@@ -227,14 +234,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 1
     },
-    "total_points": 11,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

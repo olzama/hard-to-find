@@ -86,14 +86,7 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nThe demons have walled me in!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source's stammering, broken rhythm (\"Замуровали… замуровали, демоны\") is replaced by two complete, composed sentences. The second line makes the demons the clear grammatical subject, as the analysis requires, but the Tsar's agitation is slightly more controlled than in the original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -133,14 +126,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source \"Танцуют все!\" is a declarative (\"Everyone is dancing!\"). The candidate \"Everybody dance!\" changes it to an imperative. The invitation and the chaotic party mood still come through, but the mood of the utterance shifts."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -165,7 +151,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"удачно\" (luckily, fortunately) carries the sense of Miloslavsky's cheerful good fortune. \"I picked the right place\" shifts emphasis to deliberate choice of location, so the ironic luck element of the reference (\"a good call\") is weakened. The candidate is not misleading about his having just entered."
+          "justification": "'Удачно' means 'luckily, by good fortune', but 'I picked the right place to visit' frames the entry as a deliberate choice. The luck element that drives the cheerful, opportunistic reaction is weakened, though the joke still works and the candidate correctly does not imply he is leaving."
         }
       ]
     },
@@ -192,7 +178,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Заморская икра\" (imported/overseas caviar) signals foreign-import status. \"An exotic delicacy\" conveys general exoticism rather than the specific imported-status symbol, so the set-up is slightly less pointed before the eggplant reveal. Avoiding the word 'caviar' for the eggplant spread follows the analysis."
+          "justification": "'Заморская' (overseas/imported) carries the Soviet deficit-goods nuance the joke relies on. 'An exotic delicacy' keeps the status inversion and the eggplant reveal, and the candidate correctly avoids calling the spread caviar, but it drops the imported origin, which is a slightly weaker equivalent."
         }
       ]
     },
@@ -214,20 +200,7 @@
         }
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestically made cigarette cases,\na suede jacket... three jackets.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The final \"a suede jacket... three jackets.\" spells out the count correction that the source leaves as a bare \"Три\". The reference keeps the bare \"Three.\" punchline, and the explicit restatement dulls the moment where Shpak catches his own miscount."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Lines begin with lowercase letters (\"three tape recorders,\", \"three movie cameras,\") while the rest of the subtitle set and the reference use sentence case. The inconsistent capitalization reads as a formatting slip."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -242,26 +215,19 @@
         "language_specific": {}
       },
       "candidate": "They'll treat you...\nand they'll treat you, too...\nand they'll treat me...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"вылечат\" means 'will cure/heal'. The candidate's \"they'll treat\" is a vaguer medical verb, which weakens the calm, resigned ring of the source's curing language. The psychiatric connotation is still present, so the effect is mostly preserved."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 2
     },
-    "total_points": 7,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

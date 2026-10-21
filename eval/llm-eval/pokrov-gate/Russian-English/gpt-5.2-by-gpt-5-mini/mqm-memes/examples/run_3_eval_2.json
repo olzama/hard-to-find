@@ -51,7 +51,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('Elevated... elevated relations.') renders the line as a flat, literal noun phrase and loses the sarcastic, stuttering exclamatory delivery that functions as a recurring refrain in the film. It fails to reproduce the comic stammer and ironic self-mockery signalled in the analysis and reference, weakening the line's characteristic satirical bite."
+          "justification": "The candidate renders the line as a flat noun phrase ('Elevated... elevated relations.') and loses the performative, sarcastic exclamation and stuttering delivery that make the original a recurring, mocking refrain. This ignores the analysis note to avoid a literal noun-phrase and weakens the comedic, emphatic effect."
         }
       ]
     },
@@ -73,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate ('People don't live for joy—they live for conscience.') is literal but less idiomatic and shifts the emphasis from the soldierly idea of 'duty' (practical obligation) to a more inward moral 'conscience', softening the original fatalistic, duty-focused tone described in the analysis."
+          "justification": "The candidate is a fairly literal rendering ('live for conscience') but sounds awkward and less idiomatic in English than the reference ('live to do your duty'), which better conveys the soldierly fatalism and moralistic rationalization highlighted in the analysis."
         }
       ]
     },
@@ -110,7 +110,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase 'You culinary genius!' is awkward in English and reads as an unidiomatic collocation. It attempts to reproduce the mocking bite but uses an unnatural construction compared with the reference's idiomatic insult ('Some cook you are!')."
+          "justification": "‘You culinary genius!’ is an awkward, unidiomatic exclamation in English. It fails to capture the punchy, mocking denunciatory register of the reference ('Some cook you are!') and reads as oddly phrased praise rather than a sharp domestic insult."
         }
       ]
     },
@@ -127,14 +127,7 @@
         "language_specific": {}
       },
       "candidate": "Natuerlich, Margarita Pavlovna.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the German word (as recommended) but writes it 'Natuerlich' and appends the full name, which slightly alters the original's succinct comic tic. The misspelling ('ae' instead of using a conventional transcription like 'Natürlich' or 'Natuerlich' consistently) and added name change the terse automatic quality the analysis highlights."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -151,10 +144,10 @@
       "candidate": "Cut it out, damn it.\nDon't wait for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits the line into two sentences and tones down the coarse force of the original ('Cut it the hell out') to 'Cut it out, damn it.' It still conveys the abrupt surgical dismissal but with slightly reduced brusqueness compared to the reference, which weakens the intended farcical shock value a bit."
+          "justification": "The original issues a brusque surgical imperative ('Резать...'), juxtaposed with medical urgency; the candidate's 'Cut it out, damn it.' reads as 'stop that' rather than an order to perform surgery, thus substantially changing meaning and eroding the farcical medical-legal contrast the analysis highlights."
         }
       ]
     },
@@ -173,10 +166,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate spells the character's name as 'Khabotov' rather than the established transliteration 'Khobotov' (or 'Khabotov' is inconsistent with the reference), introducing an error in a recurrent formulaic address. Misrendering a proper name in a repeated, character-defining line undermines consistency and character recognition."
+          "justification": "The surname is mistransliterated as 'Khabotov' rather than the expected 'Khobotov' (or consistent form). This is a small but identifiable error in the character name, though the rest of the line's function is preserved."
         }
       ]
     },
@@ -198,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('This is my cross! And I must bear it.') translates literally and breaks the fixed idiom 'a cross to bear' into a less natural phrasing. This reduces the punch of the manipulative hyperbole described in the analysis by making the line more prosaic and less idiomatically forceful."
+          "justification": "The candidate's literal split ('This is my cross! / And I must bear it.') loses the idiomatic English construction 'a cross to bear' and the compact, manipulative tone of the reference. Meaning is retained but the idiomatic and emphatic theatricality is weakened."
         }
       ]
     },
@@ -221,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

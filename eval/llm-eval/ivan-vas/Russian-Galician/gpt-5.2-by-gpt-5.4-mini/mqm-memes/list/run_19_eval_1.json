@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador still have the items, but the line means those items are missing/lost, which is essential to the joke and the plot detail noted in the analysis."
+          "justification": "The line says Bunsha is again seized by vague suspicions and then identifies two people who lost their items. The candidate reverses this by saying Shpak and the ambassador still have the objects, which breaks the joke and the meaning."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate turns the line into greetings addressed to the tsar ('Encantada, tsar!') instead of Bunsha repeatedly introducing himself as the tsar. This removes the core comic effect and contradicts the note that he is speaking as the Tsar, not to him."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The greeting pattern is less clearly a repetitive, over-formal self-introduction and feels more like a generic exchange, weakening the banal Soviet politeness described in the analysis."
+          "justification": "The candidate fails to make clear that Bunsha is introducing himself as the Tsar and instead reads like he is addressing or greeting a Tsar. This contradicts the required comic effect noted in the analysis."
         }
       ]
     },
@@ -81,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, que estou de pena.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Estou de pena\" is understandable, but it sounds slightly less natural and less regal/poetic than a phrase closer to \"estou aflixido,\" softening the mock-archaic Tsar-like tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -103,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is preserved, but the punctuation and line break make the exclamation slightly less natural and less forceful than the reference."
+        }
+      ]
     },
     {
       "id": 6,
@@ -123,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Mira\" is slightly more colloquial and less ceremonious than the reference's \"Velaquí,\" so the line loses a bit of the elevated, wondrous tone, though the meaning remains clear."
+          "justification": "‘Mira’ is understandable, but it is a bit more colloquial and less idiomatically emphatic than the reference’s elevated exclamation, slightly weakening the mock-religious tone."
         }
       ]
     },
@@ -140,7 +134,14 @@
         "language_specific": {}
       },
       "candidate": "A bailar todo o mundo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the command to dance, but ‘A bailar todo o mundo!’ is a little less punchy and imperative than the simple, rallying cry effect of the reference."
+        }
+      ]
     },
     {
       "id": 8,
@@ -160,13 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Que ben entrei eu aquí!\" means \"I entered well here,\" which is odd but does not clearly convey the intended meaning that he has luckily/fortunately stumbled into the apartment. It also risks sounding less like a spontaneous pleased reaction to discovering valuables."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrasing is somewhat unnatural in Galician; \"dei cun bo sitio\"/\"atopei un bo sitio\" would better convey the idiomatic casual delight of the original."
+          "justification": "‘Que ben entrei eu aquí!’ suggests ‘I entered here well’/‘I came in here nicely,’ which is awkward and can imply the wrong perspective. The line should express that he has stumbled on a good place, not comment on the act of entering itself."
         }
       ]
     },
@@ -188,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "By rendering the last item as \"caviar de ultramar\" and then separately \"de berenxena,\" the candidate obscures the key joke that this is not real caviar but the cheap eggplant spread. The analysis explicitly warns against calling the eggplant dish caviar because it confuses viewers."
+          "justification": "The analysis explicitly warns not to call the eggplant spread ‘caviar.’ The candidate does exactly that, which obscures the satire about Soviet shortages and the absurd rebranding of a cheap spread as a delicacy."
         }
       ]
     },
@@ -210,13 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses \"petacas\" instead of the reference's cigarette cases/\"portсigараs,\" changing the list of stolen status items and weakening the specific comic inventory."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line is compressed and less rhythmically faithful to the escalating list/comedic cadence of the original, especially since the punchline depends on the clumsy repetition of the counts."
+          "justification": "The candidate changes the item ‘cigarreiras’ to ‘petacas’ and drops the final counted item structure, which distorts the comic list of stolen goods. The specific status objects are part of the joke and should be preserved."
         }
       ]
     },
@@ -239,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 5
+      "minor": 3
     },
-    "total_points": 30,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

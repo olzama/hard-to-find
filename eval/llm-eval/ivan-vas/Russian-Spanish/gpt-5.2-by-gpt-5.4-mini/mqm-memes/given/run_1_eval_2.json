@@ -18,10 +18,10 @@
       "candidate": "De nuevo me asaltan oscuras sospechas… A Shpak le desapareció el magnetofón; al embajador, el medallón.\nU Shpaka - magnitofon,\nu posla - medallón.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The added Russian line is untranslated and duplicates the phrase in a way that leaves the item incomplete for the target audience. Since subtitle evaluation requires the candidate itself to be in the target language, the untranslated tail is a significant problem."
+          "justification": "The added Russian transliteration after the Spanish line is unnecessary and breaks the subtitle’s flow, slightly weakening the polished comedic delivery."
         }
       ]
     },
@@ -43,7 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The added Russian lines are left untranslated, so the candidate does not fully convey the subtitle content in Spanish. This makes the item incomplete despite the first sentence being acceptable."
+          "justification": "The added Russian lines repeat the source in untranslated form instead of preserving the same joke in the target language, which would be unreadable for the audience and disrupt the effect."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Keeping the original-script lines makes the subtitle look like a draft rather than a finished line, reducing the comic rhythm described in the analysis."
         }
       ]
     },
@@ -185,21 +191,27 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate appends two Russian lines that remain untranslated, so the subtitle is not fully rendered in the target language. This is a substantive completeness problem even though the Spanish part is correct."
+          "justification": "The candidate adds untranslated Russian lines after the Spanish translation, which would not communicate the joke to the target audience and interrupts the flow of the final punchline."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The extra source-language repetition makes the line feel cluttered and less elegant as a subtitle, even though the main translation is correct."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 0
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 15,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

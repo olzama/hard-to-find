@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as possession. The analysis explicitly warns these lines mean the items are missing/lost (they no longer have them). The candidate reverses the intended meaning."
+          "justification": "The candidate renders У Шпака — у посла as possessive ('Shpak has... the envoy has...'), which contradicts the analysis note: the line means those items are missing from them (they lost them). This reverses the intended meaning and undermines the joke about discovered theft."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line is meant to show Bunsha introducing himself as the Tsar (not addressing a Tsar). The candidate's variants ('Very nice, Tsar! ... Hello, Tsar!') read as greetings directed at a Tsar rather than self-introductions, contradicting the analysis note and changing the comedic premise."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The reference's repetitive, banal Soviet-introduction rhythm is a key part of the joke. The candidate's versions are more natural-sounding exclamations and lose some of the awkward, mechanical repetitiveness that produces the humor."
+          "justification": "The candidate reads as if Bunsha is addressing a Tsar ('Very nice, Tsar!'), whereas the analysis requires it to be clear he is introducing himself as the Tsar (a repetitive, self-introducing, drunken ritual). This changes the pragmatic function and spoils the comedic effect described."
         }
       ]
     },
@@ -101,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "In Russian the demons are the subject (i.e., 'they walled me in — the demons'), not addressees. The candidate's 'Walled up, demons!' reads like Bunsha/Ivan addressing demons, which flips the grammatical role and changes the meaning and tone of the complaint."
+          "justification": "The candidate's 'Walled up, demons!' reads as a vocative addressing demons, but the analysis explicitly states 'demons' must be understood as the subject (they walled him in). The candidate thus misrepresents who is acting and who is being addressed, altering the line's meaning."
         }
       ]
     },
@@ -118,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "So that’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The reference uses elevated, archaic phrasing ('Behold the power of the life-giving cross!'). The candidate's 'So that’s what the life-giving cross can do!' keeps the idea but lowers register and immediacy, softening the quasi-religious, emphatic tone that produces comedic contrast in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -155,14 +142,7 @@
         "language_specific": {}
       },
       "candidate": "Well, this was a lucky visit!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The analysis notes he has just entered and the line should not imply he's leaving. The candidate's past phrasing ('this was a lucky visit') slightly suggests a completed action/departure, which can mislead the viewer about timing and weakens the immediacy of his discovery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -177,7 +157,14 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar…\nYes! Imported caviar…\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate's sequence ('Imported caviar… Eggplant!') risks implying 'eggplant' as a type of caviar, whereas the analysis warns translators not to label the eggplant spread as caviar. This could confuse the target audience about the intended Soviet-era inversion joke."
+        }
+      ]
     },
     {
       "id": 10,
@@ -194,10 +181,10 @@
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestic cigarette cases,\nthree suede jackets!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The joke depends on Shpak hesitating and failing to update the count (a suede jacket is first singular, then 'Three' after he inflates the tally). The candidate's 'three suede jackets!' makes the count consistent and removes the humorous reveal of his self-contradiction, losing the intended comedic beat."
+          "justification": "The candidate lists 'three suede jackets' immediately, removing the original comic beat where the speaker hesitates/forgets to increment the count. That loss of the incremental gag slightly weakens the humor and character exposure."
         }
       ]
     },
@@ -219,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 3,
+      "minor": 2
     },
-    "total_points": 23,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

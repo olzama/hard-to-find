@@ -44,7 +44,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word \"коллектив\" untranslated. That term is central to the joke (the idea of cultivating the type within the workplace collective) and must be rendered into the target language for viewers to get the social/workplace meaning. Leaving it in Cyrillic breaks comprehension and therefore undermines the line's key comic premise."
+          "justification": "The candidate leaves the word коллектив untranslated (in Cyrillic), which is inappropriate in an English subtitle. The humour depends on the social concept of the Soviet 'collective' being presented as the in-house source of a toxic type; leaving the Russian word without explanation breaks fluency and hinders comprehension for an anglophone audience."
         }
       ]
     },
@@ -65,7 +65,14 @@
         }
       },
       "candidate": "And briefly—about forty minutes.\nMore than that, I think, is unnecessary—",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the structural reversal (briefness before forty minutes) but translates «коротенько» simply as “briefly,” losing the diminutive/faux-modest flavor that heightens the irony. The result is slightly flatter stylistically though the joke still works."
+        }
+      ]
     },
     {
       "id": 4,
@@ -130,7 +137,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye.\" The analysis warns that this phrasing reads too surreal in English and that a solution like \"aided eye\" better preserves the mock‑scientific, slightly wrong register without overdoing the oddness. \"Armed eye\" is intelligible but stylistically off and more jarring than the intended comic effect."
+          "justification": "The candidate uses the literal calque “armed eye,” which the analysis warns against because it reads as overly odd or surreal in English. That choice weakens the intended mock‑scientific, slightly-wrong idiom (better rendered with a phrase echoing “unaided/aided eye”), making the line sound more bizarre than humorously pseudo‑academic."
         }
       ]
     },
@@ -179,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.75,
-    "major_equiv_per_unit": 0.15,
-    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the opening addressee 'Ребята' (reference 'Guys'), losing the group address that frames Gorbunkov's heroic declaration. The rest of the joke, including the 'get drunk enough' punchline, is preserved."
+          "justification": "The candidate omits the vocative 'Guys' (Ребята) that opens the source line and the reference. The joke still works, but the address to the group is lost."
         }
       ]
     },
@@ -348,14 +348,7 @@
         "language_specific": {}
       },
       "candidate": "You wouldn't have the same one, but\nwith mother-of-pearl buttons?\nUnfortunately, no.\nNo? Must keep looking then!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "The reference's dash markers for speaker changes are dropped, so the lines 'Unfortunately, no.' and 'No? Must keep looking then!' no longer signal the turn changes between the shopper and the saleswoman, making the exchange less clear to the viewer."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 23,
@@ -376,13 +369,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 23,
-    "penalty_per_unit": 0.08695652173913043,
-    "major_equiv_per_unit": 0.017391304347826087,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.043478260869565216,
+    "major_equiv_per_unit": 0.008695652173913044,
+    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

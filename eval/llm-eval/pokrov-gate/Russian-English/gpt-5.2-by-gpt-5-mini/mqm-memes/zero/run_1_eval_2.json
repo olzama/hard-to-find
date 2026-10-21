@@ -48,10 +48,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'High... high relations.' renders the line as a literal noun phrase, which the analysis explicitly warns against. The result loses the natural exclamatory, sarcastic refrain quality of the original and sounds awkward rather than the intended ironic comment on pretended 'high' relationships."
+          "justification": "The candidate renders the line as a plain noun phrase without the sarcastic exclamatory force, stuttered delivery, or ironic tone that make the original a recurring comic refrain. Rendering it as \"High... high relations.\" loses the performative, mocking quality essential to the meme."
         }
       ]
     },
@@ -71,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "Rendering 'совести' as 'conscience' ('live for conscience') is understandable but unnatural and slightly shifts the pragmatic meaning away from the soldierly notion of duty/obligation emphasized in the analysis. The line reads oddly in English and weakens the fatalistic, duty-focused tone."
+          "justification": "\"People don’t live for joy—they live for conscience.\" is grammatical but slightly awkward and non-idiomatic in English. The reference's rendering as duty/obligation better captures the soldierly, fatalistic tone; \"for conscience\" feels stilted and weakens that pragmatic moral register."
         }
       ]
     },
@@ -107,10 +107,10 @@
       "candidate": "You cook!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'You cook!' is a literal and flat construction that fails to reproduce the scathing, idiomatic insult of the reference ('Some cook you are!'). It lacks the sarcastic exclamatory punch and sounds unnatural for the context."
+          "justification": "The candidate \"You cook!\" reads as a literal statement rather than the biting, ironic insult of the original. The comic effect created by using a profession as a sharp domestic rebuke is lost; the line should feel caustic and idiomatic (e.g. \"Some cook you are!\") to preserve the original tone."
         }
       ]
     },
@@ -144,10 +144,10 @@
       "candidate": "Cut it out to hell with it.\nWithout waiting for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'Cut it out to hell with it. Without waiting for peritonitis.' is awkward and stilted in English. It breaks the abrupt, punchy surgical verdict of the original into clumsy clauses and loses the brusque comic contrast between emotional distress and the harsh medical command."
+          "justification": "The phrasing \"Cut it out to hell with it. / Without waiting for peritonitis.\" is unidiomatic and awkward in English, breaking the brisk, blunt imperative and dark comic contrast of the original. It fails to deliver the succinct, coarse surgical verdict; a tighter construction is required to preserve the effect."
         }
       ]
     },
@@ -182,9 +182,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Splitting the idiom into 'It’s my cross! And I will bear it.' makes the fixed English idiom ('a cross to bear') less natural and reduces the manipulative theatricality. The meaning is present but the phrasing weakens the established idiomatic force noted in the analysis."
+          "justification": "Splitting the idiom into \"It’s my cross! / And I will bear it.\" makes the English less idiomatic and reduces the impact of the fixed expression \"a cross to bear.\" The manipulative grandiosity is still present but weakened compared with a single idiomatic phrasing."
         }
       ]
     },
@@ -204,23 +204,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "Translating 'угловатая' as 'angular' is explicitly discouraged in the analysis; here it sounds overly literal and awkward. This choice undermines the playful, coquettish self-mockery that the line is meant to convey and makes the phrasing less idiomatic in English."
+          "justification": "The candidate uses \"angular\" to render «угловатая», which the analysis explicitly warns against as sounding overly literal and odd in English. While the general self-deprecating register is present, this lexical choice makes the line less natural and slightly confusing."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 6
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 6,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

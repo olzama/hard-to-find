@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The 'missing' construction correctly conveys that the items were lost, which respects the NB. But the line is broken into three lines and 'Shpak's missing a tape recorder' is a bit wordy and loses the parallel, clipped rhythm of the source. 'Plagued by vague misgivings' keeps the mock-heroic register well."
+          "justification": "'Plagued by vague misgivings' keeps the mock-heroic tone, but 'misgivings' is less theatrical than 'haunt'/'torment'. The 'missing' construction correctly conveys that the items were lost, as the NB requires."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Very pleased, Tsar!' and 'Hello, Tsar!' read as addressing a Tsar, not introducing himself as the Tsar. This contradicts the NB. Nothing like 'I'm the Tsar' or 'the Tsar' appears, so the self-introduction joke is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source has three sentences, but the candidate adds a fourth repetition and rearranges the order, which slightly changes the pattern of the drunken repetition."
+          "justification": "'Very pleased, Tsar!' and 'Hello, Tsar!' read as Bunsha addressing a Tsar, which is exactly what the NB forbids. Nothing signals he is introducing himself as the Tsar (e.g., 'I'm the Tsar'), so the drunken self-introduction joke is lost."
         }
       ]
     },
@@ -101,7 +95,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Bricked in' is a modern colloquial phrasing that lacks the archaic, mystical flavor of 'walled me in'. The demons are correctly the subject, but the register is somewhat weaker."
+          "justification": "'Bricked in' is idiomatic and keeps the demons as the subject, but it is a modern colloquial phrase that slightly weakens the archaic, bewildered tone of the Tsar's line."
         }
       ]
     },
@@ -123,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'See what the life-giving cross can do!' is more casual than the solemn, archaic 'Behold the power of...' and weakens the Tsar's regal conviction, though the meaning and the faith-miracle joke are preserved."
+          "justification": "'See what the life-giving cross can do!' conveys the Tsar's conviction that the cross caused the miracle, but it is plainer and less solemn than the regal 'Behold the power of...' register."
         }
       ]
     },
@@ -145,7 +139,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate and fits the disco-party moment, but it is plain and loses the mock-host flavor of Bunsha taking charge that the reference's 'floor is open to everyone' captures."
+          "justification": "'Everybody dance!' is accurate but flat. It lacks the host-like, party-leading flair of the reference, though the chaotic uninhibited feel is mostly preserved."
         }
       ]
     },
@@ -167,7 +161,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Lucky break' fits the cheerful, opportunistic tone and works as he has just entered, so it is not misleading about leaving. However, it emphasizes luck rather than his good choice of apartment ('удачно зашел'), a small shift in nuance."
+          "justification": "'Lucky break' fits the cheerful burglar and does not suggest leaving, so the NB is respected. It shifts the nuance from 'I chose well to come in' to pure luck, which is slightly less precise."
         }
       ]
     },
@@ -204,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a whole opening clause ('Everything I earned through backbreaking labor, is gone'), which is not in the source. It also pluralizes 'suede jackets...' before 'three', which destroys the joke that Shpak forgets to increment the count of jackets (one jacket, then 'Three')."
+          "justification": "The candidate adds an invented line ('Everything I earned through backbreaking labor, is gone'), which is not in the source. It also writes 'suede jackets... three!' in the plural, which destroys the joke: Shpak forgets to increment and says one jacket, so the count only reaches 'three' afterwards. The plural removes the slip that makes the item funny."
         }
       ]
     },
@@ -223,24 +217,24 @@
       "candidate": "And they’ll cure you!\nAnd you’ll be cured too!\nAnd I’ll be cured too!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The source repeats the same active construction ('they'll cure you... you too... me') in a calm, melodic way. The candidate switches to a passive 'you'll be cured', and the exclamation marks make the delivery energetic rather than resigned, undermining the calm resignation described in the analysis."
+          "justification": "The shift to the passive 'you'll be cured too' and 'I'll be cured too' alters the repetitive, melodic incantation of the source. The calm resignation is mostly kept, but the rhythm and the 'they will cure' agent are weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 6
     },
-    "total_points": 21,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -60,10 +60,10 @@
       "candidate": "about forty minutes, I don’t think we need any more than that…",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the diminutive/faux-modest cue («коротенько») that leads into the ironic punchline. Starting directly with “about forty minutes” loses the tiny patronizing preface that makes the duration unexpectedly comically long, weakening the character's tone-deaf managerial voice."
+          "justification": "The candidate omits the diminutive faux-modesty of «коротенько» (“briefly/just a little”), which is essential to the joke: the comic reversal depends on a modest claim followed by an obviously long duration. By starting directly with the duration, the punchline and Ogurtsov’s tone-deaf managerial persona are significantly weakened."
         }
       ]
     },
@@ -125,14 +125,7 @@
         }
       },
       "candidate": "But all we have to do is take a telescope! And look with the aided eye!..\nAnd look with the aided eye,",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The chosen wording “aided eye” preserves the intended mock‑scientific feel well, but the candidate repeats the phrase twice (one line ends with it and it is immediately repeated). The duplicate line is unnecessary and creates a stilted/redundant subtitle."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -159,7 +152,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate contains duplicated and disordered fragments (counting lines repeated and the full sentence repeated), creating clutter and breaking the comic pacing. The counting should feel like a single trivial sequence culminating in the sudden cognac punchline; the current repetition reduces clarity and smooth delivery."
+          "justification": "The candidate contains duplicated and disordered fragments and includes an explanatory bracketed note within the subtitle. The repetition and the inline meta-note make the line clumsy and distract from the intended comic build-up (two, three, four… then the sudden cognac punchline)."
         }
       ]
     },
@@ -180,26 +173,19 @@
         }
       },
       "candidate": "Whether there is life on Mars or not, that is unknown to science. Science still isn’t up to speed on the matter.\nScience still isn’t up to speed on the matter.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate repeats the closing sentence (“Science still isn’t up to speed on the matter.”) twice. While the wording matches the intended casual register, the duplication is redundant and disrupts subtitle flow."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 4
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 4,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.5,
-    "major_equiv_per_unit": 0.1,
-    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak has a tape recorder and the ambassador a medallion, whereas the source means each of them lost the item. The analysis NB explicitly warns against this reading, so the meaning is reversed and the suspicion/callback logic is lost."
+          "justification": "The candidate says Shpak 'ten' a tape recorder and the ambassador 'ten' a medallion, which is the exact error the NB warns against. The items have been lost or stolen, so the meaning is reversed."
         },
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'dúbidas vagas' is plainer than 'escuras sospeitas'. It weakens the mock-heroic, theatrical register of 'терзают смутные сомнения', and 'asaltan' is not strengthened by any elevated phrasing."
+          "justification": "'Dúbidas vagas' with a plain 'Outra vez me asaltan' is flatter than the reference's archaic, mock-heroic 'asáltanme escuras sospeitas'. The pompous theatrical register that carries the joke is weakened."
         }
       ]
     },
@@ -44,20 +44,7 @@
         "language_specific": {}
       },
       "candidate": "Encantada, ola, tsar!\nTsar, encantada!\nOla, tsar! Encantada!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Encantada, ola, tsar!' reads as greeting a tsar rather than introducing himself as the tsar, which the NB says must be clear. 'Encantada' is also feminine, which is wrong for Bunsha as a male speaker (the reference uses 'encantado')."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Ola' is a casual greeting rather than the formal 'Boas noites'. This loses part of the stiff Soviet-formal cliché that clashes with the royal impersonation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -87,14 +74,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, que estou triste.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Triste' is flatter than 'aflixido' and loses the elevated, archaic regal melancholy that contrasts with the mundane Soviet setting."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -109,14 +89,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Emparedáronme, demos!' with a comma reads as a vocative, with the Tsar addressing the demons. The NB requires the demons to be the subject of the sentence, as in 'emparedáronme os demos'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -176,14 +149,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nSi! Caviar de ultramar...\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate calls the eggplant spread 'Caviar de ultramar', which the NB explicitly forbids. It confuses the viewer and blurs the joke of the cheap spread presented as an overseas delicacy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -198,20 +164,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de ante: tres.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The list drops the cine camera detail and the pattern in which the jacket is the item that betrays Shpak. The candidate renders the jacket as 'chaqueta de ante: tres', losing the hesitation/ellipsis and the 'unha' (one) that sets up the slip, so the joke about forgetting to increment the jacket count is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Numerals ('3') are used in place of written numbers, which is less natural in running dialogue and flattens the spoken rhythm."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -226,32 +179,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te curarán!\nE a ti tamén te curarán!\nE a min tamén me curarán!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate says 'E a ti tamén' in the first line, which loses the progression 'и тебя... и тебя тоже... и меня'. All three lines are flattened into an identical pattern, so the shift in her calm, melodic resignation is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks turn the calm, resigned tone into emphatic statements, working against the soothing, hysterical-yet-calm delivery described in the analysis."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 2,
+      "minor": 0
     },
-    "total_points": 35,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The linebreak and lowercase start make the segment read awkwardly for subtitle flow, and the phrasing 'knock back a little one' is slightly clumsy in idiomatic English compared with the snappier, conversational register called for in the analysis."
+          "justification": "The phrasing 'we knock back a little one' is awkward and non-idiomatic in English for this casual suggestion; capitalization is inconsistent ('how about' lowercase). The candidate nonetheless preserves the casual, ironic deflation of the prior line."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering the phrase as 'Lofty... lofty relations.' follows a literal noun-phrase structure that the analysis warns against; it loses the natural exclamatory, sarcastic cadence and the comic refrain quality of the original."
+          "justification": "Rendering as 'Lofty... lofty relations.' uses a literal noun phrase that flattens the original's sarcastic exclamatory refrain and loses the comic stutter/elongation and natural idiomatic feel the analysis highlights."
         }
       ]
     },
@@ -78,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate's 'conscience' is a more abstract, inward term than the pragmatic 'duty' in the analysis; this shifts the register away from the soldierly, practical fatalism that the line is meant to convey."
+          "justification": "'People don’t live for joy, but for conscience.' is understandable but sounds unnatural in English ('for conscience' is not idiomatic). It weakens the soldierly fatalism and idiomatic punch of the reference."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' turns the original sarcastic rebuke into a (seemingly) positive exclamation. The source is an abrupt, contemptuous domestic insult; this candidate reverses the intended ironic/derogatory force and thereby undermines the character's domineering tone."
+          "justification": "The candidate 'Culinary genius!' reads as praise rather than the sharp, ironic insult in the original. It reverses the intended mocking/reproachful tone and thus damages the comic effect and character voice."
         }
       ]
     },
@@ -151,10 +151,10 @@
       "candidate": "Cut it out to hell with it.\nWithout waiting for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "fluency",
           "span": "",
-          "justification": "The split into two short lines ('Cut it out to hell with it.' / 'Without waiting for peritonitis.') is awkward and unidiomatic in English. The violent, punchy imperative in the analysis is partly preserved, but the phrasing is clumsy and weakens the abrupt surgical shock intended."
+          "justification": "The two-line split 'Cut it out to hell with it. / Without waiting for peritonitis.' is ungrammatical and awkward in English. It fails to deliver the abrupt, forceful surgical injunction of the original and disrupts the intended comic shock value."
         }
       ]
     },
@@ -171,7 +171,14 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that's petty!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate uses the name 'Khabotov', which deviates from the expected transliteration and may hinder recognition of the recurring formula. The rest of the line preserves the intended dismissive tone."
+        }
+      ]
     },
     {
       "id": 10,
@@ -191,7 +198,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate literalizes 'This is my cross!' instead of using the established English idiom ('a cross to bear'). That literal phrasing fragments the idiomatic force and slightly reduces the mocking manipulative grandiosity described in the analysis."
+          "justification": "'This is my cross! And I’m the one to bear it.' is comprehensible but splits and literalizes an English idiom instead of using the natural fixed expression ('a cross to bear'), reducing the rhetorical force of the manipulative self-sacrifice."
         }
       ]
     },
@@ -213,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using 'angular' translates 'угловатая' too literally. Per the analysis, this produces an English phrasing that sounds oddly literal and less idiomatically coquettish than the intended self-mocking, mannered characterization."
+          "justification": "The candidate's use of 'angular' is a literal rendering of 'угловатая' that sounds odd in English and was advised against in the analysis; it weakens the playful self-mockery and idiomatic tone."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 2,
       "minor": 6
     },
-    "total_points": 11,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

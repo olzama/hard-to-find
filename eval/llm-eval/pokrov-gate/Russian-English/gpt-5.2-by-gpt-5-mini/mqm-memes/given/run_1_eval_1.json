@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Candidate uses a lowercase initial letter ('shall we...') which is inconsistent with sentence-case norms in English subtitles and makes the line look like a continuation rather than a standalone prompt; the phrasing itself matches the reference and tone."
+          "justification": "The candidate begins with a lowercase letter ('shall we...') which is a punctuation/capitalization slip that looks unpolished in subtitle text and reduces perceived fluency and register consistency compared to the expected sentence-case rendering."
         }
       ]
     },
@@ -173,26 +173,19 @@
         "language_specific": {}
       },
       "candidate": "I am so utterly awkward... just all sharp edges... so entirely contradictory!\nSo entirely contradictory!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Candidate duplicates the final clause ('So entirely contradictory!') immediately after the same line. Unlike allowed consecutive-segment repetition, this in-line repetition is unnecessary and weakens the concise comic rhythm of the original phrasing."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

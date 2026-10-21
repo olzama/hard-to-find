@@ -61,9 +61,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate conveys the basic meaning and the ironic timing, but it flattens the diminutive, faux-modest flavour of «коротенько» by using the plain 'just briefly'. The comic contrast between a cozy-sounding 'short' remark and an actually long 'forty minutes' is slightly weakened."
+          "justification": "The candidate preserves the crucial contrast between a faux-modest \"just briefly\" and the absurd forty-minute duration, so the comic reversal remains. However, the phrasing \"more than that, I think, isn’t necessary—\" is slightly awkward and less idiomatic in English than alternatives like \"I don’t think we need any more than that.\" This weakens the smooth, self-satisfied managerial voice a little."
         }
       ]
     },
@@ -127,10 +127,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate preserves the mock-scientific intent but uses the literal calque 'armed eye,' which English readers find oddly surreal rather than the gently warped pseudo-technical phrasing suggested in the analysis (e.g. 'aided eye'). This makes the line less natural and shifts the comedic effect."
+          "justification": "The Russian joke hinges on a mock-malformed idiom that sounds almost plausible to the audience; the analysis warns that a literal calque like \"armed eye\" does not work in English because it reads as oddly surreal rather than mock-scientific. By using \"armed eye,\" the candidate loses the intended near-plausible, pseudo-academic feel and instead produces an English phrase that jars and changes the comic effect. A solution like \"the aided/unaided eye\" was recommended to preserve the humorous deformation; the candidate's choice therefore contradicts the analysis and significantly harms the intended humor."
         }
       ]
     },
@@ -178,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

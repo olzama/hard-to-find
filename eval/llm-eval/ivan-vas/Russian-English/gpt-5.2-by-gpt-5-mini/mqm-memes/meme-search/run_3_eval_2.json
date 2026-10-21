@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reverses the intended meaning explained in the analysis: the line indicates those items are missing/were taken (they no longer have them), not that the characters possess them. This contradicts the NB guidance and the joke's implication about theft."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', implying possession. The source (and analysis note) indicate these items were lost by them (they are missing), not that they currently possess them. This reverses the meaning and breaks the callback joke about the missing items."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original line is Bunsha introducing himself as the Tsar in a repetitively clueless, self-referential way. The candidate reads as addressing an actual Tsar ('So pleased, Tsar!'), which loses the crucial comic premise that Bunsha is repeatedly introducing himself as 'the Tsar' rather than greeting a sovereign. This contradicts the analysis note that the translation must make clear he is introducing himself."
+          "justification": "The candidate reads as if Bunsha is addressing someone called 'Tsar' (vocative) rather than absurdly introducing himself as 'the Tsar' in the repetitive, self-introducing Soviet manner required by the analysis. That change alters the comic premise (he's impersonating/announcing himself) and loses the intended ridicule of banal Soviet greeting rituals."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'old girl' and 'I'm in despair' are more modern and colloquial than the archaic, high-register tone ('old woman' / 'I am in sorrow') that the Tsar's line should convey. This weakens the regal/archaic voice that creates the contrast in the scene."
+          "justification": "The phrase 'old girl' and 'I'm in despair' are colloquial and modern, which weakens the archaic, high-register royal tone that produces the humor. The original's harsher, more archaic dismissal ('old woman', 'I am in sorrow') better preserves the Tsar's distance and register."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis specifies that 'demons' must be the subject (i.e., 'the demons walled me in'). The candidate's punctuation and word order ('Demons—walled me in!') reads as if the speaker is addressing or exclaiming to the demons, which inverts the intended meaning and undermines the comic image of supernatural agency causing the entrapment."
+          "justification": "The NB specifies that 'demons' are the subject (they walled him in), not an addressee. The candidate's second line ('Demons—walled me in!') reads like an address or is syntactically ambiguous, which risks turning the demons into vocative addressees rather than the agents, reversing the intended comic misunderstanding of technology as sorcery."
         }
       ]
     },
@@ -119,14 +119,7 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'That's what the life-giving cross can do!' conveys the idea but adopts a more colloquial, conversational phrasing. This reduces the lofty, quasi-biblical register of 'Behold the power of the life-giving cross!' that heightens the humorous contrast between devout conviction and mechanical cause."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -176,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate presents the cheap Soviet eggplant spread as 'exotic caviar... Eggplant!', effectively labeling eggplant spread as caviar. The analysis explicitly warns against calling the eggplant spread 'caviar' because that would confuse viewers and undo the satirical inversion between precious caviar and humble 'eggplant caviar.' This misrepresents the joke."
+          "justification": "The analysis warns against calling eggplant spread 'caviar' because that will confuse viewers. The candidate's 'Exotic caviar... Eggplant!' still frames the eggplant spread as a form of caviar, which undermines the satirical inversion (cheap eggplant spread presented as a prized 'overseas' item) and therefore misrepresents the joke."
         }
       ]
     },
@@ -195,10 +188,10 @@
       "candidate": "three tape recorders,\nthree film cameras,\nthree domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The original line's humor relies on the list-building and the comic slip about the suede jacket count (hesitation/ellipses then 'Three'). The candidate collapses the line into a flat list ('three suede jackets'), removing the falter that signals the joke. This weakens the comedic timing and characterial boastfulness, but does not entirely change factual content."
+          "justification": "The humor in the original relies on Shpak inflating counts and forgetting to increment the suede jacket count; the reference and analysis show the list's incremental, self-contradictory counting is the joke. The candidate simply lists 'three suede jackets' outright, removing the comedic pause/confession and thus losing the gag."
         }
       ]
     },
@@ -220,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 3
+      "major": 5,
+      "minor": 1
     },
-    "total_points": 23,
+    "total_points": 26,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.3636363636363638,
+    "major_equiv_per_unit": 0.4727272727272728,
+    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the key comical structure 'У Шпака — ... у посла — ...' and turns it into a label-like list. This loses the sense that Bunsha is making a suspicious deduction about two specific people and their lost items, which is central to the joke."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line 'Shpak: magnetófono. O embaixador: medallón.' is very flat and telegraphic, weakening the mock-heroic, self-important tone described in the analysis."
+          "justification": "The candidate drops the key mock-heroic framing and the lost-item meaning from the note: it lists the objects as if they are simply present, instead of implying that Shpak and the ambassador lost them. That weakens the callback and misses the specific joke."
         }
       ]
     },
@@ -49,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate obscures the fact that Bunsha is introducing himself as the tsar. By using 'Moito gusto, tsar!' and repeated greetings, it can read as if he is addressing a tsar rather than impersonating one, contrary to the note."
+          "justification": "The candidate blurs the crucial point that Bunsha is introducing himself as the tsar, not addressing one. By omitting the explicit self-introduction pattern, the joke and the scene setup become less clear."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The wording is a bit too modern and natural-sounding, but it does not fully reproduce the awkward, repetitive formal-cliché effect of the original joke."
+          "justification": "The phrasing is less awkwardly repetitive and mundane than the source’s deliberately stiff, socially banal greeting, so it slightly weakens the comic contrast described in the analysis."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is simpler and less elevated than 'que estou aflixido', slightly weakening the regal, archaic melancholy of Ivan's line."
+          "justification": "\"Estou triste\" conveys the meaning, but it is flatter and less elevated than the reference’s more dignified, slightly archaic melancholy, so the regal tone is somewhat weakened."
         }
       ]
     },
@@ -114,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the meaning from 'They have walled me in' to 'They have walled us in,' introducing an unnecessary plural and altering who is trapped. The second line also reads as if he is addressing the demons, which contradicts the intended subject relation."
+          "justification": "The line changes the meaning from \"they wall me in\" to \"they wall us in,\" adding a plural subject that is not in the original and disrupting the Tsar’s frightened, solipsistic complaint."
         }
       ]
     },
@@ -131,14 +125,7 @@
         "language_specific": {}
       },
       "candidate": "Velaí o que fai a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Velaí' is a bit less solemn/expressive than the reference's 'Velaquí', so the triumphant religious register is slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -173,7 +160,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Entrei con sorte!' is not misleading about entering, but it removes the idiomatic sense of a delighted remark about having stumbled into a good situation. The key comic reaction to finding valuables is significantly weakened."
+          "justification": "\"Entrei con sorte\" means \"I came in with luck\" and can read like a neutral description of entering, but the source means he has just arrived and is pleased about stumbling into the apartment. The candidate is too vague and slightly misleading about the situation."
         }
       ]
     },
@@ -195,13 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'Заморская икра… баклажанная!' as 'Caviar de ultramar... De berenxena!', which can still suggest eggplant caviar, but it loses the deliberate punch of the twist and risks ambiguity. More importantly, it does not clearly preserve the satirical contrast between imported delicacy and the cheap eggplant spread as a separate item."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line is less rhythmically sharp than the reference and the comic pause before the twist is slightly underplayed."
+          "justification": "The candidate omits the crucial final joke that the \"overseas caviar\" is eggplant. Since that punchline is the whole satirical payoff, the meme’s meaning is seriously weakened."
         }
       ]
     },
@@ -223,13 +204,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the final joke of the line: the count of the suede jacket is not left incomplete as in the source. In the original, the unfinished 'Три' is essential to the humor; here it is replaced by a completed list, eliminating the punchline."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Pitilleiras' is a regional choice for cigarette case that may be less neutral than the reference's register, though it remains understandable."
+          "justification": "The candidate removes the staged counting joke and the forgotten-increment punchline. Using fixed numerals throughout loses the escalation and specifically fails to preserve the humor that Shpak’s count keeps changing as he boasts."
         }
       ]
     },
@@ -252,13 +227,13 @@
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 6
+      "minor": 2
     },
-    "total_points": 36,
+    "total_points": 32,
     "meaning_units": 11,
-    "penalty_per_unit": 3.272727272727273,
-    "major_equiv_per_unit": 0.6545454545454545,
-    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.909090909090909,
+    "major_equiv_per_unit": 0.5818181818181818,
+    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

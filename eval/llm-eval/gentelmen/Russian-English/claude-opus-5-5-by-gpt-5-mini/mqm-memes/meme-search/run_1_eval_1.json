@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses “knock his horns off,” which the analysis explicitly warns against as non-idiomatic for this threat formula; it also switches person from direct “you” to “his,” changing the immediacy of the threat. The final clause is expanded into an explanatory paraphrase (“You'll spend your whole life working to pay for medicine”) rather than the compact, verdict-like phrasing the analysis requires, losing the terse, sentence-final punch of the original."
+          "justification": "The candidate uses the third person (“his”) instead of addressing the listener directly, reversing the original threat’s point of view. It also keeps the literal phrasing “knock his horns off,” which the analysis specifically warned against as non-idiomatic, and renders the final clause as an explanatory sentence (“You'll spend your whole life working to pay for medicine”) that loses the compact, verdict-like punch of the Russian ending."
         }
       ]
     },
@@ -58,7 +58,14 @@
         "language_specific": {}
       },
       "candidate": "How many I've stabbed, how many I've slashed,\nhow many souls I've destroyed!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate preserves the repetitive sung structure and darkly comic tone, but replacing «загубил»/‘damned’ with “destroyed” loses some of the moral/poetic weight of the original (soul-damnation vs. physical destruction)."
+        }
+      ]
     },
     {
       "id": 4,
@@ -83,7 +90,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «нехороший человек» as “bad person” flattens the oddly euphemistic, moralizing tone called for in the analysis; likewise, translating «падла» as “the scum!” is acceptable but somewhat milder and less raw than the rough prison-register insult the analysis expects."
+          "justification": "Rendering «нехороший человек» as “bad person” flattens the oddly euphemistic, moralizing register the analysis calls for. “The scum!” for «падла» is roughly in range but slightly milder/less rough than the prison-register contempt intended."
         }
       ]
     },
@@ -107,10 +114,10 @@
       "candidate": "Steal, drink, jail.\nSteal, drink, jail.\nRomance!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The clipped formula “Steal, drink, jail.” is serviceable, but the final word “Romance!” risks being read primarily as love/romantic relationship rather than the ironic romanticization of criminal life the analysis demands; the rhythm and proverb-like quality of the original are slightly weakened."
+          "justification": "The English rhythm and verb forms are too flat and literal. The compact proverb-like formula from the Russian is lost in the staccato “Steal, drink, jail,” and the final “Romance!” reads primarily as romantic love rather than the ironic romanticization of a criminal life required by the analysis."
         }
       ]
     },
@@ -152,7 +159,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the non-technical «horse» for the chess piece, which is good, but the oath “may I never see freedom!” reads as a wish rather than the blunt, prison-coded guarantee («век воли не видать») expected in the analysis, slightly changing register and force."
+          "justification": "The candidate correctly keeps the nontechnical “horse,” preserving the joke, but the oath “may I never see freedom!” is slightly more formal/archaic than the blunt prison-coded oath in the source. The effect remains intelligible but is a bit softened."
         }
       ]
     },
@@ -234,7 +241,14 @@
         }
       },
       "candidate": "Hey, citizen! You no go there,\nyou go here,\nor snow fall on head -\nyou be totally dead!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate retains the broken grammar and blunt warning, but using the fully standard address “citizen” slightly reduces the comic effect of the original malformed vocative. Overall the line still conveys the caring, non-threatening warning."
+        }
+      ]
     },
     {
       "id": 12,
@@ -326,10 +340,10 @@
       "candidate": "- Miss, what's your name? - Tanya.\n- And I'm Fedya.\nWell, you're an idiot.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders Tanya's retort as the gender-neutral “Well, you're an idiot,” which removes the crucial feminine–masculine–feminine sequence (apparent woman — masculine name — feminine insult) that drives the joke. This erases the disguise-based comic structure described in the analysis."
+          "justification": "The candidate’s “you’re an idiot” removes the feminine direct-address structure that is central to the joke (woman assumed → masculine name → feminine insult). The gendered sequence and immediacy of the original feminine insult («дура») are therefore weakened."
         }
       ]
     },
@@ -356,7 +370,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using “slop bucket” makes the line sound like a literal toilet reference rather than the strong prison-status insult the analysis recommends; the translation therefore weakens the original’s assignment of the addressee to the lowest place in the inmate hierarchy."
+          "justification": "Using “slop bucket” risks reducing «параша» to a literal object rather than preserving its force as prison-status argot that assigns the addressee to the lowest rank. The line still conveys contempt but loses some of the intended prison-hierarchy resonance."
         }
       ]
     },
@@ -383,7 +397,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate’s “Hooligans are blinding me!” uses the dated/regionally marked term “hooligans” and a plain verb “blinding me,” losing the comically formal bureaucratic register of «зрения лишают». The line therefore becomes more straightforward panic than the memorable, oddly official complaint the analysis describes."
+          "justification": "The candidate uses “hooligans” (dated/British) and the simple clause “are blinding me,” which makes the plea informal. The original’s comically formal, almost bureaucratic phrasing («зрения лишают») is not preserved; the translation therefore weakens the contrast between high register and helpless complaint that the analysis highlights."
         }
       ]
     }
@@ -391,13 +405,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 5
+      "minor": 7
     },
-    "total_points": 15,
+    "total_points": 17,
     "meaning_units": 18,
-    "penalty_per_unit": 0.8333333333333334,
-    "major_equiv_per_unit": 0.16666666666666669,
-    "interpretation": "0.83 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9444444444444444,
+    "major_equiv_per_unit": 0.18888888888888888,
+    "interpretation": "0.94 MQM penalty points per meaning unit (≈ 0.19 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

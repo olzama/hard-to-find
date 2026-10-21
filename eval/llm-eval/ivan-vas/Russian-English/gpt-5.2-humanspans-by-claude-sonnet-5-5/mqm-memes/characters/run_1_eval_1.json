@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly forbids 'Shpak has... the ambassador has...' because the items are missing (stolen). The candidate says they possess a tape recorder and medallion, reversing the meaning of the callback to the thefts."
+          "justification": "'Shpak has a tape recorder, the ambassador has a medallion' states possession, contradicting the source and the NB: the items were stolen/lost. This destroys the logical link of the callback (the thefts connect)."
         }
       ]
     },
@@ -43,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Tsar' reads as addressing the Tsar, not introducing himself as the Tsar, which the NB requires. The humor of Bunsha announcing himself as Tsar is lost."
+          "justification": "'Tsar' without 'I'm the' reads as addressing the Tsar, which the NB explicitly warns against; it is unclear Bunsha introduces himself as the Tsar, losing the joke."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a weaker rendering of the stock formal 'очень приятно' (pleased to meet you), reducing the mocking of stiff social ritual."
+          "justification": "'Very nice' is a weaker rendering of the stock formal 'очень приятно' (pleased to meet you), so the stiff social-ritual cliché is less evident."
         }
       ]
     },
@@ -81,7 +81,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m in sorrow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The contraction 'I'm' makes the Tsar's archaic, high-register line sound more casual than the regal melancholy described in the analysis."
+        }
+      ]
     },
     {
       "id": 5,
@@ -98,16 +105,10 @@
       "candidate": "Bricked up!\nBricked up, demons!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Bricked up, demons!' reads as a vocative, addressing the demons, which the NB says to avoid. Demons should be the subject (e.g., 'the demons have walled me in'). The vocative punctuation makes the misreading likely."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Bricked up' is somewhat modern and colloquial and lacks the archaic flavor of 'walled in'."
+          "justification": "'Bricked up, demons!' reads as addressing the demons (vocative), which the NB forbids; demons must be the subject who did it. The first-person 'me' is also absent."
         }
       ]
     },
@@ -144,7 +145,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate and natural, but it is a plain command. It carries little of the host-like, uninhibited, power-drunk tone of Bunsha taking over the party, though the meaning is preserved."
+          "justification": "'Everybody dance!' conveys the meaning but is a plain imperative that loses the host-like, mock-grand flavor of an MC declaring the floor open, weakening the comic gap with the 'proper' behavior."
         }
       ]
     },
@@ -166,7 +167,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'This is a lucky visit' is stilted and sounds like a reflection on a visit that is over, which is the misleading effect the NB warns against. It loses the casual, cheerful exclamation of a burglar who has just walked in on a jackpot."
+          "justification": "'Lucky visit' suggests a visit that has ended or is being evaluated retrospectively, which is the misleading reading the NB warns against; he has just entered. The idea of a good call/choice of apartment is also weakened."
         }
       ]
     },
@@ -188,7 +189,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Imported caviar' followed by 'Eggplant!' calls the eggplant spread caviar, which the NB warns will confuse viewers. It also loses the contrast of the cheap spread presented as a rare 'overseas' delicacy, which is the satirical point."
+          "justification": "'Imported caviar... Eggplant!' calls the eggplant item caviar, which the NB warns will confuse viewers; it also loses the 'overseas' phrasing and the satirical inversion of eggplant spread as a rare delicacy."
         }
       ]
     },
@@ -210,13 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'three suede jackets', but the joke is that Shpak forgets to increment the jacket count and says one suede jacket before catching himself with 'Three'. The humor is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The added 'Everything I earned by backbreaking labor' is not in the source and shifts the focus. It is plausible in context, but it is an addition."
+          "justification": "The suede jacket count is rendered as 'three suede jackets', erasing the joke where Shpak forgets to increment the count and says a single jacket before 'Three'. The added lament ('everything I earned by backbreaking labor') is an addition not in the source."
         }
       ]
     },
@@ -238,14 +233,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 6,
+      "minor": 3
     },
-    "total_points": 30,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

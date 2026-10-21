@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "how about we\nknock back a little one?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The phrasing \"knock back a little one\" is slightly awkward and colloquially clumsy in English. The intent (a quick casual drink) is preserved, but the wording disrupts natural register and rhythm for a light, teasing provocation."
+        }
+      ]
     },
     {
       "id": 3,
@@ -68,10 +75,10 @@
       "candidate": "People don't live for joy.\nThey live for conscience.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The phrase \"They live for conscience\" is awkward and slightly shifts the Russian sense. The original conveys a pragmatic, duty-focused logic ('you live to do your duty'), while the candidate's wording is less natural in English and may obscure the intended soldierly fatalism."
+          "justification": "The candidate renders the line as \"People don't live for joy. They live for conscience.\" This shifts both person (from the direct \"you\" to impersonal \"people\") and crucially replaces the idiomatic idea of duty/obligation with the more abstract \"conscience,\" weakening the soldierly fatalism and the pragmatic moral rationale central to the original and analysis."
         }
       ]
     },
@@ -108,7 +115,14 @@
         }
       },
       "candidate": "Some chef!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Some chef!\" keeps the sarcastic rebuke but uses 'chef' (slightly more elevated/professional) instead of the blunt domestic bite of 'cook.' The change is acceptable but slightly alters the domestic, scolding tone described in the analysis."
+        }
+      ]
     },
     {
       "id": 7,
@@ -180,10 +194,10 @@
       "candidate": "This is my cross!\nAnd I must bear it.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "Splitting the idiom into \"This is my cross! / And I must bear it.\" makes the fixed English idiom ('a cross to bear') less natural and weakens the manipulative, idiomatic flourish of the original line."
+          "justification": "The candidate literally splits and partially translates the idiom as \"This is my cross! And I must bear it,\" which disrupts the fixed English idiom 'a cross to bear' and reduces the rhetorical force of self-righteous, manipulative martyrdom emphasized in the analysis. The result reads awkwardly and weakens the manipulative tone."
         }
       ]
     },
@@ -210,21 +224,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using the literal adjective \"angular\" for «угловатая» reads awkwardly in English and matches the analysis note that a literal translation of \"угловатая\" is confusing; it weakens the coquettish self-mockery that the original diction conveys."
+          "justification": "The candidate translates «угловатая» as \"angular,\" which the analysis flags as overly literal and awkward in English. The repeated \"all of me\" phrasing also feels stilted and diminishes the coquettish, self-mocking rhythm of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 2,
       "minor": 3
     },
-    "total_points": 3,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

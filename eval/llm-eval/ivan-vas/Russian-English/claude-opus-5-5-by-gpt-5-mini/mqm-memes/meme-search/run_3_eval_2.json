@@ -21,14 +21,7 @@
         }
       },
       "candidate": "Again I am tormented\nby vague misgivings...\nShpak's lost a tape machine,\nthe envoy's locket's not been seen.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrase 'tape machine' is awkward and less natural than the established subtitle convention 'tape recorder' (the analysis flags that 'magnetofón' should be handled carefully). The rest preserves meaning, tone, and the 'mock-heroic' register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -45,10 +38,10 @@
       "candidate": "Pleased to meet you. Tsar!\nPleased to meet you, hello. Tsar!\nTsar. Pleased to meet you!\nHello. Tsar! Pleased to meet you!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's punctuation and ordering make it ambiguous whether Bunsha is introducing himself as 'the Tsar' or addressing an existing Tsar. The analysis requires clarity that he is repeatedly introducing himself as the Tsar (a key part of the joke); the candidate reads more like exclamatory address and thus undermines the comedic premise."
+          "justification": "The candidate's phrasing ('Tsar!' interjected between fragments) reads more like addressing a tsar than clearly introducing himself as 'I am the Tsar,' which the analysis says must be explicit. The repetitive polite clichés are present, but the line risks ambiguity about whether Bunsha is introducing himself or speaking to a sovereign."
         }
       ]
     },
@@ -100,14 +93,7 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nWalled me in, the fiends!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Replacing 'demons' with 'fiends' and phrasing 'Walled in!' slightly reduces the archaic, mystical register and may read more like a direct address than the analysis-required observation that 'demons' are the subject acting on him."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -189,10 +175,10 @@
       "candidate": "Caviar, black, red...\nYes! Overseas caviar...\nAubergine!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the cheap Soviet 'eggplant spread' as 'Overseas caviar... Aubergine!', effectively calling the eggplant product 'caviar.' The analysis explicitly warns against labeling eggplant spread as 'caviar' because it will confuse viewers and destroys the intended satirical inversion of status symbols."
+          "justification": "The candidate renders the cheap Soviet eggplant spread as 'Overseas caviar... Aubergine!', which risks conflating or labeling eggplant spread as 'caviar.' The analysis warns against calling the eggplant spread 'caviar' because that will confuse the inversion joke (cheap spread presented as exotic)."
         }
       ]
     },
@@ -219,7 +205,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The terse, list-like presentation preserves item content but loses the comic hesitation/forgetfulness (the incremental recounting and the telling slip) that the analysis highlights as the source of humor."
+          "justification": "The candidate renders the list as a tidy inventory ('tape recorders, 3; ... jacket, suede: three.') which misses the comic performance detail in the original where Shpak hesitates and forgets to increment the count for the suede jacket. That loss of performative stumble weakens the joke's comic timing."
         }
       ]
     },
@@ -241,14 +227,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 0,
       "minor": 3
     },
-    "total_points": 13,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

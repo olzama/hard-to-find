@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Otra vez me atormentan\nvagas dudas...\nA Shpak le robaron el magnetófono,\nal embajador el medallón.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"vagas dudas\" and \"me atormentan\" are acceptable, but the mock-heroic, theatrical register of 'терзают смутные сомнения' is slightly flatter than the reference's 'oscuras sospechas'."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hola\" is casual and does not carry the stiff, formal social-cliché greeting that the analysis describes for the 1970s Soviet setting. The self-introduction as the Tsar is clear, and the repetition is preserved."
+          "justification": "\"Hola\" is a neutral greeting, and the added final line \"Encantado.\" alone breaks the rhythmic, looping pattern of the original, which weakens the absurd repetitive formal-cliché effect. The self-introduction as the Tsar is clear, though."
         }
       ]
     },
@@ -73,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"vieja\" is blunt and colloquial, and \"triste\" is plain. This loses the high-register, archaic regal melancholy the analysis highlights, which the reference keeps with \"viejecita\" and \"afligido\"."
+          "justification": "\"vieja\" is blunter than 'старушка' and \"triste\" is plainer than the archaic, elevated 'в печали', so the regal high-register contrast with the mundane setting is weakened."
         }
       ]
     },
@@ -110,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"¡Mira lo que hace...!\" is colloquial and sounds like a call to a listener. This weakens the Tsar's solemn, pious conviction, although \"cruz vivificante\" keeps the religious flavor."
+          "justification": "\"¡Mira lo que hace...!\" sounds colloquial and addresses someone, reducing the Tsar's solemn conviction of a religious miracle. The meaning is preserved."
         }
       ]
     },
@@ -147,7 +154,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"En el momento justo\" shifts the sense from having landed in a lucky place, full of valuable goods, to good timing. The cheerful tone and the fact that he has just entered are preserved."
+          "justification": "\"en el momento justo\" shifts the meaning to timing rather than having landed on a lucky place full of goods; it does not convey the delight at finding Shpak's well-stocked apartment, though it is not misleading about entering vs. leaving."
         }
       ]
     },
@@ -167,9 +174,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Huevas de berenjena\" still presents the eggplant spread as roe, which is the same confusion the note warns against. It is nonsensical in Spanish, since eggplants have no roe. Rendering \"икра\" as \"huevas\" for the black and red caviar also loses the luxury connotation. The inversion of status between the heaped caviar and the \"overseas delicacy\" is weakened."
+          "justification": "\"Huevas de ultramar... de berenjena\" calls the eggplant spread \"huevas\" (roe), which is exactly what the NB warns against, as it confuses the viewer. The reference's 'manjar de ultramar' avoids this, so the joke's inversion is muddled."
         }
       ]
     },
@@ -191,7 +198,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Cámaras\" drops \"de cine\" (кинокамеры), which makes the item less specific. The list structure and the delayed \"tres\" after the jacket are preserved."
+          "justification": "The candidate drops 'de cine' from the cameras and uses numerals; more importantly, 'chaqueta de ante... tres' loses the article/count structure ('una chaqueta') that makes Shpak's slip of forgetting to increment the count visible. The joke still largely works."
         }
       ]
     },
@@ -213,7 +220,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks make the lines sound emphatic or panicked. The analysis describes a melodic, calm resignation, and the reference's ellipses convey that better."
+          "justification": "The exclamation marks make the delivery sound emphatic or shouted, whereas the analysis stresses calm, melodic resignation expressed with ellipses; the tone is somewhat off."
         }
       ]
     }
@@ -221,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 11,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

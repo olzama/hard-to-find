@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning but tones down the bombastic, self-dramatizing theatricality signalled in the analysis. Phrases like \"Name one! No, I’m waiting.\" are more prosaic and less grandiose than the reference's stagey \"Pray, tell me... I'll wait!\", weakening the original performative boastfulness."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about\nwe knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Candidate communicates the same convivial invitation but the line break and initial lowercase \"how about\" create a slightly awkward subtitle presentation. \"knock back a little shot\" is idiomatic but slightly more colloquial/uneven than the reference's crisp phrasing."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,7 +51,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the famous refrain as a literal noun phrase \"High... high relations.\", which loses the sarcastic, exclamatory idiom and rhythmic stuttering of the original. This literal phrasing contradicts the analysis warning against such noun-phrase translations and undermines the comedic, biting register of the line."
+          "justification": "The candidate 'High... high relations.' renders the line as a literal noun phrase and loses the sarcastic, stuttering exclamatory refrain that functions as a repeated comic motif in the source. It fails to reproduce the ironic tone and rhythmic hesitation highlighted in the analysis."
         }
       ]
     },
@@ -85,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses \"conscience\" where the reference uses the idiomatic English sense of duty/obligation. \"Live for conscience\" reads awkwardly and shifts the idiomatic tone away from the soldierly fatalism and moral-duty sense highlighted in the analysis."
+          "justification": "Rendering 'совести' as 'conscience' makes the line more abstract and philosophical than the pragmatic, duty-oriented sentiment in the analysis ('you live to do your duty'). The meaning is close but the pragmatic, soldierly tone is weakened."
         }
       ]
     },
@@ -121,10 +107,10 @@
       "candidate": "A culinary artist!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using the elevated phrase \"A culinary artist!\" turns the intended sharp, homey insult into an oddly formal compliment. The analysis cautions against literal professionalized terms; this choice removes the biting, comedic denunciation and is stylistically inappropriate."
+          "justification": "The candidate 'A culinary artist!' uses an elevated, literal phrase that loses the sharp, imperious, home-grown insult effect of the original. The register is wrong for the pointed domestic exclamation described in the analysis."
         }
       ]
     },
@@ -158,10 +144,10 @@
       "candidate": "Cut it out, for hell’s sake.\nWithout waiting for peritonitis.",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate softens and fragments the original's brutal medical farce. Splitting into two lines makes the second line a dependent fragment (\"Without waiting for peritonitis.\"), and \"Cut it out, for hell’s sake\" lacks the abrupt surgical command of the reference. This reduces the sharp contrast between sentiment and the harsh surgical verdict central to the comic effect."
+          "justification": "Splitting the sentence into two lines ('Cut it out, for hell’s sake. / Without waiting for peritonitis.') slightly reduces the abrupt, brutal surgical imperative of the original. The core meaning is preserved, but the forceful, blackly comic punch is softened."
         }
       ]
     },
@@ -180,10 +166,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate misspells/transliterates the name as \"Khabotov\" rather than the expected \"Khobotov\" (or \"Khobotov\" used in the reference). Misrendering a repeated character name alters identification and is an accuracy error affecting character voice and recognition."
+          "justification": "The candidate spells the name as 'Khabotov' rather than the expected 'Khobotov' (or another consistent transliteration). This may cause a recognition issue; otherwise the tone and function are preserved."
         }
       ]
     },
@@ -202,10 +188,10 @@
       "candidate": "He’s my cross to bear!\nAnd I will bear it.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the referent to \"He’s my cross to bear!\", which reverses the original meaning. The line is supposed to be self-referential (the speaker presenting the burden as hers); making the burden a person ('He') is an inaccurate and significant change that contradicts the manipulative self-sacrifice described in the analysis."
+          "justification": "The candidate 'He’s my cross to bear!' shifts the phrasing so the person (he) is presented as the cross, which slightly alters the idiomatic framing compared with the source's emphasis on the speaker's sacrificial burden ('This is my cross to bear!'). The manipulative, self-sacrificing theatricality is somewhat reduced."
         }
       ]
     },
@@ -227,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses \"angular\" to render «угловатая», which the analysis specifically flags as a literal and awkward choice in English. While the overall self-deprecating, coquettish tone is preserved, the word \"angular\" reads too literal and weakens the idiomatic, characterful phrasing."
+          "justification": "Using 'angular' reproduces the source's literal word but runs contrary to the analysis' warning: a literal 'angular' reads oddly in English and weakens the idiomatic, coquettish self-mockery. The overall sense remains, but register and naturalness suffer."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 4
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 29,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 2.6363636363636362,
-    "major_equiv_per_unit": 0.5272727272727272,
-    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

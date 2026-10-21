@@ -46,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "a short talk,\nabout forty minutes. No need\nfor any longer, I think.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the core joke (calling forty minutes “short”) but loses some of the diminutive, faux-modest flavour of «коротенько так». The English is straightforward and a bit more neutral; it reduces the patronizing, self-satisfied managerial voice that makes the original especially comic."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -88,7 +81,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate becomes a more conventional greeting (“People! Hey... yoo-hoo!”) and therefore softens the faltering, broken vocalization required by the analysis. The pitiful, theatrical collapse of speech is less evident than in the source, so some of the drunken, helpless comic effect is weakened."
+          "justification": "The candidate keeps a casual, audience-calling line but loses some of the original's faltering, vocally collapsing quality. 'Hey... yoo-hoo!' sounds like a jaunty call rather than the broken, wavering attempt to form a formal address that conveys the lecturer's drunken helplessness."
         }
       ]
     },
@@ -112,10 +105,10 @@
       "candidate": "But just take a telescope...\nand look with the armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which the analysis warns against because it reads as stranger/surreal in English. This choice makes the line oddly literal rather than preserving the mock‑scientific, almost-plausible idiom deformation that the analysis recommends (e.g., ‘aided eye’). The result is slightly jarring and loses the intended comic near-recognition of a mangled idiom."
+          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis explicitly warns against: in English it reads as oddly surreal rather than a plausible mock‑scientific deformation of 'the unaided eye.' This misrenders the delicate comic effect (a slightly off, pseudo‑scientific phrase). It should favour a phrase like 'aided eye' or similar to preserve the intended humorous near‑idiom distortion."
         }
       ]
     },
@@ -157,14 +150,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

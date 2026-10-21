@@ -49,15 +49,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The ending \"no more, I don't think we need more,\" repeats \"more\" awkwardly and leaves a comma splice, which is less natural than the source's clipped, self-satisfied rhythm."
+          "justification": "\"Briefly\" is flat and does not carry the diminutive, faux-modest tone of «коротенько» that the analysis says is needed to set up the 'forty minutes' punchline."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The source's trailing ellipsis (\"не надо…\") signals the speaker's trailing-off self-satisfaction. The candidate ends on a comma, dropping that hesitation."
+          "justification": "The line ends on a comma instead of the source's trailing ellipsis, losing the hesitant, self-satisfied trail-off. The repeated 'no more ... more' is also clumsy, and the lowercase opening reads as a fragment."
         }
       ]
     },
@@ -74,7 +74,14 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nOh, he's ready, all right. Been ready for ages!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The 'ready' = drunk double meaning that the analysis treats as the core joke is not recreated; 'ready for ages' reads only as a literal answer. The sardonic 'all right' hints at irony but does not carry the intoxication subtext."
+        }
+      ]
     },
     {
       "id": 5,
@@ -94,7 +101,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Anybody?\" is an addition with no counterpart in the source \"Люди! А… ау-у!\". It adds a question the source does not ask, though it does reinforce the sense of calling out to a crowd."
+          "justification": "'Anybody?' is an addition not in the source. It turns the cry into a question and shifts the emphasis from the broken, wandering call to a request for a response."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'People!' is not split into a broken, stretched form, so the vocal instability the analysis calls for is weakened. 'Yoo-hoo' does capture the 'ау' call well."
         }
       ]
     },
@@ -118,10 +131,10 @@
       "candidate": "But all we have to do is take\na telescope...\nAnd look with the armed\neye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "terminology",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The analysis explicitly warns against the literal calque \"armed eye\" as a translation to avoid, yet the candidate uses exactly that phrase. This contradicts the analysis. The deformed-idiom joke depends on the audience recognizing \"unaided eye,\" which \"armed eye\" does not evoke, so the mock-scientific upgrade reads as plain nonsense rather than a near-miss idiom."
+          "justification": "'Armed eye' is the literal calque that the language-specific note explicitly says to avoid, since it sounds stranger and more surreal than the Russian. It remains a recognizable mangled idiom, so the joke partly survives, but the effect is weaker than the 'aided eye' solution the note recommends."
         }
       ]
     },
@@ -148,7 +161,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The hyphenated \"two-star, three-star, four-star\" frames the counting as hotel or cognac ratings from the start. This weakens the analysis's requirement that the counting sound trivial and uninformative, so the sudden click to \"five-star\" is less pronounced than in the reference's plain \"two stars, three stars.\""
+          "justification": "'Two-star' and 'three-star' immediately read as hotel or rating terms, so the counting does not sound like trivial, pseudo-astronomical 'little stars' and the sudden click into the cognac frame is less surprising."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The cultural point that five-star is the best cognac in the USSR is not flagged. The reference includes a translator's note for this, and the analysis says the association may need one for English viewers."
         }
       ]
     },
@@ -165,13 +184,20 @@
         "language_specific": {}
       },
       "candidate": "Whether there's life on Mars or\nthere isn't life on Mars, that's\nunknown to science.\nScience is not yet in the loop.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Science is not yet in the loop' is stiffer than the casual, colloquial register the analysis calls for. 'Not yet' and the uncontracted form sit against the looser 'that's unknown' earlier in the line, weakening the deliberately casual phrasing of valid uncertainty."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 4
+      "major": 0,
+      "minor": 9
     },
     "total_points": 9,
     "meaning_units": 8,

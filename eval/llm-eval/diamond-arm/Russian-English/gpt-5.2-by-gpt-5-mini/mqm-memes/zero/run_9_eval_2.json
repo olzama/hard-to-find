@@ -21,7 +21,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The policeman's deadpan mockery is preserved, but the phrasing 'Get drunk—you will be!' is slightly stilted compared with the wry, conversational timing of the reference ('Get drunk enough, and you will be!'), making the comic retort feel a bit awkward."
+          "justification": "The candidate omits the casual vocative 'Guys,' which slightly reduces the conversational, dismissive tone of Gorbunkov's line and weakens the register clash with the policeman's deadpan reply."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The policeman's retort 'Get drunk—you will be!' is slightly stilted compared with the reference's more idiomatic 'Get drunk enough, and you will be!'; the causal inevitability joke is preserved but the phrasing is less natural."
         }
       ]
     },
@@ -38,7 +44,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning but loses the bouncing, rhyming comic rhythm (Trus/Boyus) that makes the original light and endearing; the line reads as a straightforward statement rather than a playful paradox."
+        }
+      ]
     },
     {
       "id": 3,
@@ -73,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses some of the playful pseudo-foreign jargon and rhythmic theatricality of the original (e.g. 'Oblico Morale' rendered as 'Moral character'), which weakens the mock-sophisticate effect Gena is performing."
+          "justification": "'Moral character... versteh’n?' is a functional rendering but slightly flattens the playful pseudo-foreign bravado and rhythm of the original loanword mashup (Obliko Morale/Verstehen)."
         }
       ]
     },
@@ -135,7 +148,14 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\neven teetotalers drink on someone else’s dime,\nand ulcer sufferers too.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is conveyed, but the candidate loses the original's rhythmic pairing (trezvenniki/yazvenniki) that gives the line a proverbial, balanced punch."
+        }
+      ]
     },
     {
       "id": 9,
@@ -170,7 +190,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original’s comedic effect included Lyolik’s characteristic mispronunciation of 'tablet' ('tab-LEHT'); the candidate’s neutral 'One tablet is enough...' loses that vocal quirk and a bit of the character's menacing humour."
+          "justification": "The candidate conveys the idea but drops the comic effect of Lyolik's characteristic mispronunciation of 'tablet' which is an important vocal tic and part of the line's humor."
         }
       ]
     },
@@ -207,7 +227,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source is a drawn-out, melodic sigh ('Semyo-o-on Semyonych!'). The candidate simply gives the name without the elongated, weary cadence, losing some of the expressive, melodic disappointment."
+          "justification": "The candidate is accurate but loses the elongated, melodic sigh present in the original ('Semyo-o-on Semyonych!'), making the line less sonically expressive and slightly flatter in tone."
         }
       ]
     },
@@ -254,7 +274,14 @@
         "language_specific": {}
       },
       "candidate": "slipped, fell...\nclosed fracture...\nLost consciousness, came to—\ncast!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The terse, telegraphic rhythm is mostly preserved but the last beats ('Lost consciousness, came to— cast!') are slightly awkward in English punctuation/flow compared with the reference's smoother staccato sequence."
+        }
+      ]
     },
     {
       "id": 16,
@@ -347,9 +374,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "Gena’s affected pronunciations (notably the comic 'kof-e') are important to his pretentious, flustered voice. The candidate uses standard 'coffee' and also contains a typo ('baath'), losing the deliberate mispronunciation and slightly harming characterisation and fluency."
+          "justification": "The candidate introduces a spelling oddity ('baath') and breaks the rhythm; additionally, Gena's affected pronunciations ('kof-e') and theatrical mispronunciation are not represented, which diminishes the character's pretentious affectation."
         }
       ]
     },
@@ -386,7 +413,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's folksy, deliberately incorrect verb form adds rustic stubbornness and humour. The candidate's neutral 'No, I can’t do that!' correctly conveys refusal but loses the comic, rural flavour of the original."
+          "justification": "The candidate conveys the refusal but loses the folksy, nonstandard verb form that adds comedic stubbornness and rural flavor to the original; the line reads as a neutral refusal rather than a characterful, colloquial one."
         }
       ]
     }
@@ -394,13 +421,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 10
     },
-    "total_points": 6,
+    "total_points": 10,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.43478260869565216,
+    "major_equiv_per_unit": 0.08695652173913043,
+    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" and \"cultivate\" keep the staffing/educational logic, but \"Baba Yaga\" is left untranslated and \"collective\" is slightly foreign; it leans toward the fairy-tale character rather than the recognizable nasty-woman workplace type, weakening the social dimension a little. The deadpan managerial tone is still largely preserved."
+          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic and \"cultivate one within our own collective\" keeps the bureaucratic humor. However, \"Baba Yaga\" is left untranslated, so the human-type connotation (a nasty woman already present in the workplace) is not explained for English viewers, and the exclamation mark makes the deadpan delivery slightly more emphatic."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key joke is missing: \"коротенько\" (faux-modest \"briefly\") is not rendered as a brevity claim preceding the duration. \"A nice little talk\" is a partial echo of the diminutive, but the order is changed and the line is restructured around \"He gives\", which shifts the meaning from Ogurtsov's proposal to a description. The reversal \"brief → forty minutes\" is weakened, and \"No longer than that, I think\" loses the smug moderation as punchline."
+          "justification": "The key joke is the faux-modest \"briefly\" followed by \"forty minutes\". The candidate drops the briefness claim and uses \"nice little talk\" instead, which is only a partial substitute. It also changes the speaker's perspective by adding \"He gives\", and the pacing is lost: the duration is stated first and \"no longer than that\" follows. The comic reversal is therefore weakened considerably."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The \"ready\" double meaning (official readiness vs. drunk) is preserved by the ambiguous \"he's ready\", and \"well and truly ready\" even nudges toward the drunk reading. The question and answer are merged without a dash, so the dialogue exchange between two speakers is slightly unclear."
+          "justification": "The candidate is nearly identical to the reference and keeps the \"ready\" ambiguity, with \"well and truly ready for ages\" even hinting at drunkenness. It still lacks any explicit signal of the intoxication subtext beyond the ambiguity, which is the same limitation as the reference. The first line is also missing its dash or speaker marker, which could blur the exchange between two speakers."
         }
       ]
     },
@@ -117,7 +117,14 @@
         }
       },
       "candidate": "But if we take a telescope...\nand look with the armed eye,",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The analysis explicitly warns against the literal calque \"armed eye\", which sounds more surreal than the Russian. It does not echo the English idiom \"unaided eye\", so the sense of a familiar expression being wrongly \"upgraded\" into mock-scientific language is lost. The line reads as merely odd instead of a mangled idiom."
+        }
+      ]
     },
     {
       "id": 7,
@@ -142,7 +149,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The silly counting and the final \"five stars\" click are preserved, but there is no cultural note or cue to the cognac association, and the ellipsis/rhythm slightly weakens the build-up. The \"little stars\" nicely keeps the childish tone."
+          "justification": "The counting progression is kept and sounds trivial, and the \"five stars\" punchline is preserved. The cognac association is not conveyed, and no note is supplied, which the analysis suggests may be needed. The candidate has also inserted \"little\" before each star, which is a reasonable rendering of the diminutive, but the punchline is only slightly weaker without the cognac cue."
         }
       ]
     },
@@ -164,21 +171,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science hasn't been told yet\" is a good colloquial equivalent of \"не в курсе дела\" and personifies science. However, \"Isn't there life on Mars?\" renders \"нет ли жизни\" as a separate question, which is a bit stilted, and the formulation loses the slightly tipsy rambling flow of the original."
+          "justification": "The colloquial \"Science hasn't been told yet\" preserves the personification of science and the casual register well. However, the candidate omits the \"unknown to science\" phrasing and compresses the two statements, so the flat \"Science doesn't know\" is a little blunter than the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 2,
       "minor": 4
     },
-    "total_points": 9,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 1.125,
-    "major_equiv_per_unit": 0.225,
-    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

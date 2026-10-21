@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The Russian line's bounce (Trus / Boyus) creates a light, rhyming, comic rhythm that makes the admission endearing. The candidate is a faithful, literal rendering but does not recreate the playful rhythmic effect, so the comic lightness is weakened."
+        }
+      ]
     },
     {
       "id": 3,
@@ -151,14 +158,7 @@
         "language_specific": {}
       },
       "candidate": "One таблетка is enough...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate leaves the Russian word 'таблетка' untranslated (Cyrillic), breaking consistency with the rest of the English subtitles. The analysis requested a playful mispronunciation of 'tablet' to convey character speech; the untranslated token instead creates a readability/jargon issue rather than the intended comic mispronunciation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -328,7 +328,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the lines fluently but omits the affected pronunciation cue ('kof-e' / 'coff-ey') that the analysis identifies as an important marker of Gena's pretentiousness. The lack of this speech affect slightly weakens the character's comedic aristocratic pose."
+          "justification": "The original uses an affected pronunciation of 'coffee' as a character cue (pretentious, slightly comic). The candidate uses the normal word 'coffee,' losing that small but telling vocal affect that marks Gena's faux-sophistication."
         }
       ]
     },
@@ -363,9 +363,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate expresses the refusal in standard idiomatic English ('No, I can’t go for that!'), which loses the intentionally nonstandard, folksy flavor of the original phrasing. This reduces the rustic, stubborn comic emphasis described in the analysis."
+          "justification": "The source's nonstandard verb form ('пойти' distorted as 'пойти́ть') is part of the comedic stubborn, folksy register. The candidate supplies a natural idiomatic refusal but omits the intentionally incorrect/folksy phrasing, losing a layer of characterful emphasis."
         }
       ]
     }

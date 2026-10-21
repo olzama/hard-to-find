@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "I'm not a coward,\nbut I'm afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is a literal, neutral rendering of the line and preserves meaning, but it loses the rhythmic, bouncy comic effect (the 'Trus/Boyus' playfulness) that makes the admission lighthearted in the analysis."
+        }
+      ]
     },
     {
       "id": 3,
@@ -64,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate's 'Moral image...' is a very literal rendering of 'Obliko morále' and loses the playful faux-foreign, quasi-moral catchphrase quality of the original. The line 'You know,' is an added filler that slightly weakens Gena's performed cosmopolitan swagger."
+          "justification": "Phrases like 'You know' and the clipped 'Russo tourist...' / 'Moral image...' are slightly awkward and reduce the playful pseudo-international patter; the candidate also softens the mock-sophisticated faux-foreign punch of the original mash-up."
         }
       ]
     },
@@ -163,7 +170,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word 'таблетка' in Cyrillic within an English subtitle. That is effectively untranslated for an English-speaking viewer and also fails to convey the comic mispronunciation cue the analysis highlights."
+          "justification": "The candidate leaves the Russian word 'таблетка' in Cyrillic within an otherwise English subtitle, which is untranslated for the target audience and therefore inconsistent; it also loses the comic mispronunciation mark that the analysis highlights."
         }
       ]
     },
@@ -195,7 +202,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the meaning but drops the elongated, melodic sigh implied by the original rhythmic stretching of the name, slightly weakening the weary, musical effect described in the analysis."
+        }
+      ]
     },
     {
       "id": 13,
@@ -287,10 +301,10 @@
       "candidate": "Whoever takes a пачка of tickets will get...\nA water pump!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate leaves the Russian word 'пачка' untranslated ('a пачка of tickets'), producing mixed-language text that may confuse viewers; it should be rendered as 'a pack of tickets' to match the reference and make the slogan clear."
+          "justification": "The candidate leaves the Russian word 'пачка' untranslated ('a пачка of tickets'), which is a clear omission for an English subtitle and disrupts comprehension; the prize rendering ('A water pump!') is acceptable, but the untranslated key noun is a significant accuracy problem."
         }
       ]
     },
@@ -342,7 +356,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate misspells 'bath' as 'baath' and uses a plain 'coffee' without attempting the affected pronunciation cue ('coff-ey') that signals Gena's pretentiousness. This reduces the comic characterisation noted in the analysis."
+          "justification": "The candidate contains a misspelling ('baath') and uses fully standard pronunciations, losing the affected, pretentious pronunciation of 'coffee' that the analysis identifies as character-revealing; meaning is intact but some character nuance and fluency are weakened."
         }
       ]
     },
@@ -379,21 +393,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the refusal in standard English ('I can't go along with that'), losing the folksy, nonstandard verb form and rustic emphasis that add comedic character in the original."
+          "justification": "The candidate conveys the refusal but removes the folksy, nonstandard verbal form that gives the original its rural, stubborn comic flavor; the register is regularized and the humorous linguistic error is lost."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 5
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 5,
+    "total_points": 11,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.4782608695652174,
+    "major_equiv_per_unit": 0.09565217391304348,
+    "interpretation": "0.48 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

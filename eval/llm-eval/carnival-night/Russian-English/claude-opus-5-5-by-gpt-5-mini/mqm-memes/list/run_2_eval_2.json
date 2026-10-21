@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Comrades, we have a directive to see in\nthe New Year cheerfully.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate preserves the bureaucratic register with “Comrades” and “directive,” but the phrasing “to see in the New Year cheerfully” is slightly awkward and draws attention away from the dry, deadpan formulation the analysis emphasizes. A smoother wording would better keep the mock-official tone while remaining natural in English."
+        }
+      ]
     },
     {
       "id": 2,
@@ -51,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate places the diminutive claim of shortness before the duration (so the comic reversal is preserved), but the rendering is slightly awkward and flabby: 'briefly, for about forty minutes, no more, I don't think we need more' repeats 'more' and loses the cozy, faux-modest tone of «коротенько» (a small, self-satisfied understatement). A tighter, slightly more patronizing phrasing would better capture Ogurtsov's voice."
+          "justification": "The candidate keeps the key reversal (claim of briefness followed by forty minutes), but it flattens the diminutive, faux-modest sense of «коротенько» by using a plain “briefly.” The trailing repetition (“no more, I don't think we need more”) is also clumsy and weakens the smug, self-satisfied rhythm that makes the line funny."
         }
       ]
     },
@@ -88,7 +95,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate turns the faltering, wavering cry into a more cheerful 'Yoo-hoo! Anybody?', which diminishes the original's pitiful, collapsing-oratory effect. The broken, stretched vocalization that signals drunken loss of control is softened here, weakening the physical-comic quality of the entrance."
+          "justification": "The candidate keeps an attention-call, but replacing the faltering broken vocalization with “Yoo-hoo! Anybody?” makes the entrance sound more playful and less pitiably slurred. That reduces the specific comic effect of a would-be formal address collapsing into unstable, drunken speech."
         }
       ]
     },
@@ -112,10 +119,10 @@
       "candidate": "But all we have to do is take\na telescope...\nAnd look with the armed\neye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye', which the analysis warns against: in English this reads as oddly surreal rather than the intended mock‑scientific deformation of a familiar idiom. The mistranslation changes the comedic effect — it becomes stranger and less recognizably a drunken attempt at pseudo-scientific diction, undermining the line's core joke."
+          "justification": "The candidate renders «вооружённым глазом» as “armed eye,” a literal calque that the analysis warns against because it sounds oddly surreal in English. While it still signals a distorted pseudo‑scientific phrase, the translation’s strangeness diverges from the intended slightly wrong-but-recognizable mock‑scientific tone (e.g., “aided eye”)."
         }
       ]
     },
@@ -157,14 +164,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 0,
+      "minor": 4
     },
-    "total_points": 7,
+    "total_points": 4,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5,
+    "major_equiv_per_unit": 0.1,
+    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

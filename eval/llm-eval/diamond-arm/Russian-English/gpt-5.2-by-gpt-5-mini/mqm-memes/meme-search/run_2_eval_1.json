@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate's lines are understandable and keep the comic clash of registers, but the phrasing 'it should be me in his place.' and the slightly stilted 'Get drunk—you will be!' read awkwardly in English and interrupt the policeman's breezy mockery. A smoother idiomatic rendering would better preserve the intended tone."
+          "justification": "The policeman's line in the reference implies inevitability reached through quantity ('Get drunk enough, and you will be!'). The candidate 'Get drunk—you will be!' loses the sense of 'enough' (the causal inevitability), making the joke slightly blunt rather than mock-predictive."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate accurately conveys the meaning but loses the light, bouncing comic rhythm implied by the Russian rhyme (Trus/Bo-yus). The line reads more prosaic and less endearing than the analysis suggests it should be."
+          "justification": "The candidate conveys the literal meaning but drops the light, bouncing comic rhythm of the original (the Trus/Boyus rhyme). The line is serviceable but lacks the playful prosody that makes the original endearing."
         }
       ]
     },
@@ -170,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's comic effect relies on Lyolik's characteristic mispronunciation of 'tablet.' The candidate 'One tablet is enough...' conveys meaning but loses that distinctive, funny pronunciation that marks the character."
+          "justification": "The original's humour hinges on Lyolik's distorted pronunciation of 'tablet' as a memorable vocal tic. The candidate renders a neutral, standard line ('One tablet is enough...'), losing that character-specific mispronunciation."
         }
       ]
     },
@@ -207,7 +207,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source is a melodic, elongated sigh ('Semyo-o-on Semyonych!'). The candidate 'Semyon Semyonovich...' conveys the address but loses the drawn-out, weary musicality that communicates the character's exasperation."
+          "justification": "The source conveys an elongated, melodic sigh ('Semyo-o-on Semyonych!') that expresses weary exasperation. The candidate's neutral 'Semyon Semyonovich...' captures the meaning but loses the drawn-out melodic quality that gives the line its comic, resigned tone."
         }
       ]
     },
@@ -344,7 +344,14 @@
         "language_specific": {}
       },
       "candidate": "Looking like this...\nI can’t.\nI have to... first...\ntake a baaath,\ndrink a cup of coffee...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Gena's affected pronunciation of 'coffee' (a comedic marker of affected sophistication) is part of the character work. The candidate preserves the bath affectation but renders 'coffee' normally, losing a little of the affected aristocratic flavour."
+        }
+      ]
     },
     {
       "id": 22,
@@ -379,7 +386,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's folksy, intentionally incorrect verb form gives the refusal a rural, stubborn comic flavor. The candidate 'No, I can’t do that!' is a clear refusal but lacks the rustic linguistic color that adds humor and character."
+          "justification": "The original uses a deliberately nonstandard, folksy verb form that adds rustic stubbornness and comic flavour to the refusal. The candidate's standard 'No, I can’t do that!' communicates the refusal plainly but removes that dialectal colour."
         }
       ]
     }
@@ -387,13 +394,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 5,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

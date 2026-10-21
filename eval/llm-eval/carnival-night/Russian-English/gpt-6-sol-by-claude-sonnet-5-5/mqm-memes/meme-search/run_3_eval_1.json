@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\na Baba Yaga from outside.\nWe'll train one in-house!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Hire a Baba Yaga from outside\" keeps the workplace/staffing logic and the in-house training punchline, so the joke works. However, the Baba Yaga reference is left unexplained, and the nasty-woman-in-the-collective type is less accessible to a non-Russian audience than in the reference's generic 'witch'. The effect is slightly weakened."
+        }
+      ]
     },
     {
       "id": 3,
@@ -51,7 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest 'briefly' is kept but the pacing/punchline is weakened: 'no longer, I think' is placed as a hedge and the clause 'for about forty minutes—no longer' reads as a plain statement of duration rather than a smug understatement. The lowercase fragment also lacks the self-satisfied managerial tone; the comic reversal (brief → forty minutes) is blunted by the dash structure that foregrounds the length as a qualification."
+          "justification": "The key joke is the faux-modest diminutive «коротенько» followed by the absurd duration. \"Briefly, for about forty minutes—no longer, I think\" keeps the order (briefly before duration). But the lowercase fragment and the dash don't convey the smug, patronizing faux-modesty, and the added \"no longer\" is flatter than \"I don't think we need any more.\" The contrast is kept but the cozy, self-satisfied managerial tone is weakened."
         }
       ]
     },
@@ -73,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The 'ready' = 'drunk' double meaning is not recreated. 'He's ready. Has been for ages!' keeps only the literal sense, and nothing hints at intoxication, so the central joke from the analysis is lost."
+          "justification": "The joke depends on «готов» meaning both 'ready' and 'drunk/done for'. The candidate renders only 'ready' with no wordplay or hint of intoxication (the reference at least adds 'Oh, he's ready' with a knowing tone). The alcoholic subtext is lost, leaving only the administrative surface meaning."
         }
       ]
     },
@@ -95,7 +102,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The drunken, stretched, broken vocalization ('Лю-ди! А… ау-у!') is normalized into a clean 'People!... Hello?'. The syllable breaks and wavering cry are lost, and the analysis warns against exactly this, so the physical comedy disappears."
+          "justification": "The drunken, faltering, stretched vocalization («Лю-ди! А… ау-у!») is normalized into a clean \"People!... Hello?\". The broken syllabification and wavering sound ('Peo-ple! Ah… hellooo!') that carry the physical comedy are lost, which the analysis explicitly warns against."
         }
       ]
     },
@@ -122,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Look with the aid of optics' is a plain, correct phrase. The malformed idiom ('armed eye' / 'aided eye' echoing 'unaided eye') is lost, so the mock-scientific distortion that is the joke disappears. The line is also left unfinished by a trailing comma, and 'But if we' loses the 'all we have to do' pomp."
+          "justification": "The joke is the mangled idiom «вооружённым глазом» (from 'невооружённым'). \"Look with the aid of optics\" is a correct, plain, grammatical phrase. It has no malformed idiom, no echo of 'unaided eye', and no drunken pseudo-scientific distortion, so the comic effect disappears."
         }
       ]
     },
@@ -147,9 +154,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The star progression and the 'five stars' punchline are preserved, but 'are best of all, of course' is slightly stiff and the cognac association is not signaled in any way. The sudden click into a different domain is weaker for English viewers, though the reference also relies on a note."
+          "justification": "The silly counting progression and the five-star punchline are preserved, but the cognac association is not signaled anywhere (the reference adds a note). Non-Russian viewers will likely miss the click into a different semantic frame, though the analysis notes this may need a translator's note."
         }
       ]
     },
@@ -166,19 +173,26 @@
         "language_specific": {}
       },
       "candidate": "Is there life on Mars, or isn't\nthere life on Mars? Science\ndoesn't know.\nScience hasn't been informed yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning and casual phrasing are preserved. \"Science hasn't been informed yet\" gets the personification of science, but is slightly less idiomatic than 'isn't up to speed' and loses a little of the colloquial «не в курсе дела» register."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 1
+      "minor": 3
     },
-    "total_points": 21,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 2.625,
-    "major_equiv_per_unit": 0.525,
-    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

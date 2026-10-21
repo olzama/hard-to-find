@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Guys,\nI should have been in his place.\nGet drunk enough, and you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is nearly identical to the reference, but the policeman's retort lacks the contrast with Gorbunkov's dramatic declaration: the period after 'place' and the line breaks flatten the sacrificial, heroic tone slightly. The cop's deadpan quip still works, so the effect is only mildly weakened."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "I'm no coward,\nbut I'm overpowered by fear...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is nearly identical to the reference, but the line break and ellipsis at the end make the 'I'm no coward / but I'm afraid' pivot slightly less bouncy and the admission less lighthearted. Overall the effect is mostly preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -53,7 +53,14 @@
         "language_specific": {}
       },
       "candidate": "Your... mustache... is peeling off...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The hesitant, polite stammer is mostly kept, but the opening 'Um...' is dropped and the line starts directly with 'Your...'. This slightly reduces the nervous, helpful hesitancy that makes the exposure funny."
+        }
+      ]
     },
     {
       "id": 4,
@@ -70,16 +77,10 @@
       "candidate": "You know, signora, frau, miss,\nunfortunately, nothing's going to happen!\nRusso Turisto…\nObliko morale… Verstehen?",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Lady' is mistranslated/replaced by 'You know,' so the string of international address terms (lady, signora, frau, miss) is incomplete and the multilingual mashup is weakened."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Russo Turisto' and 'Obliko morale' are kept, but the fragmenting ellipses lose the confident, pompous flow of Gena's performance of worldliness."
+          "justification": "'Lady' is replaced with 'You know', so the opening string of international forms of address (Lady, signora, frau, miss) is broken. The mashup of loanwords that creates the 'worldly' jargon is damaged and the line no longer reads as addressing women in multiple languages."
         }
       ]
     },
@@ -96,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "Boss, everything's lost! Everything's lost!!!\nThe cast is coming off, the client is leaving.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The first sentence is good, but the closing exclamation is replaced with a flat period. The hysteria described in the analysis is somewhat deflated at the moment the absurdly specific detail lands."
+        }
+      ]
     },
     {
       "id": 6,
@@ -129,9 +137,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Look now, don't mix 'em up' is rendered as 'Watch you don't mix 'em up', which is slightly less natural but retains the folksy, micro-managing tone and the Kutuzov jab."
+          "justification": "Lyolik's non-standard, uneducated speech is only partly kept. 'Watch you don't mix 'em up' is more standard than the reference's 'Look now, don't mix 'em up', although 'young'uns' and 'broad' preserve some of the register."
         }
       ]
     },
@@ -151,15 +159,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The punchline is broken: the sentence lacks a verb ('even teetotalers and convalescers' never 'drink'), so the proverb is incomplete and grammatically hanging."
-        },
-        {
-          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The analysis demands rhythm or a creative solution for the balanced trezvenniki/yazvenniki pairing. The candidate has none, and the dropped verb removes the proverbial 'law of nature' punch."
+          "justification": "The candidate drops the verb 'drink', leaving the sentence unfinished ('even teetotalers and convalescers.'). The balanced rhythmic structure is absent and the proverbial 'law of nature' punch is lost, which the analysis specifically says to avoid. There is no creative substitute for the paired suffix rhythm."
         }
       ]
     },
@@ -226,7 +228,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The elongated, melodic sigh ('Semyo-o-on') is lost; the candidate gives a flat 'Semyon Semyonovich...', so the weary 'facepalm' tone the analysis highlights is not conveyed."
+          "justification": "The elongated, melodic sigh ('Semyo-o-on') that works as a gentle facepalm is lost. The flat 'Semyon Semyonovich...' reads as a plain address and loses the weary, drawn-out disappointment the analysis stresses."
         }
       ]
     },
@@ -248,7 +250,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'on just your salary' loses the 'nothing but' emphasis and the theatrical, drawn-out pauses of the curse are only partly preserved; the sense of a death sentence is weaker."
+          "justification": "The theatrical, death-sentence pause structure of the original ('на одну… зарплату') is compressed into a smooth phrase, and 'nothing but' is replaced by 'just'. The curse is still clear, but the weight of the delivery is slightly reduced."
         }
       ]
     },
@@ -295,7 +297,14 @@
         "language_specific": {}
       },
       "candidate": "With a light flick of the wrist\nthe trousers transform...\nthe trousers transform...\ntransform, the trousers...\ninto elegant shorts!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate cuts 'do' from 'transform, the trousers do...', so the third repetition no longer has the same inverted, faltering rhythm. It also splits the final line differently. The stuck-zipper desperation is still conveyed."
+        }
+      ]
     },
     {
       "id": 17,
@@ -325,14 +334,7 @@
         "language_specific": {}
       },
       "candidate": "Buy a whole ticket pack, win...\na tractor rack!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Matches the reference's rhyme, but the speaker split (the sarcastic retort 'Водокачку' by a second voice) is not reflected; the line reads as one speaker's slogan, which slightly weakens the anti-climax."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 19,
@@ -367,7 +369,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a repeated, invented line ('If you ever come to us in Kolyma - you're welcome!') not in the source, which distorts the exchange and dilutes the sharp joke of Gena's reflexive refusal after a Kolyma invitation."
+          "justification": "The candidate adds a repeated line, 'If you ever come to us in Kolyma - you're welcome!', that is not in the source. Because it comes between segments, it is an addition that breaks the pacing of the exchange and weakens the sharp, reflexive punchline of Gena's refusal."
         }
       ]
     },
@@ -389,13 +391,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Gena's affected pronunciation of 'coffee' ('coff-ey') and the fancy phrasing are lost; the plain 'have a cup of coffee' removes the marker of his pretentious delusions that the analysis identifies as the source of humor."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'I can't' and 'take a bath' are plainer than the reference's 'I simply cannot' and 'bathe', lessening his affected register."
+          "justification": "The affected pronunciation of 'coffee' ('coff-ey') that marks Gena's pretension is lost, and 'take a bath' and 'I can't' are plain and neutral. The 'aristocratic' delusion and the comic mispronunciation described in the analysis are not carried over."
         }
       ]
     },
@@ -417,13 +413,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'No, yes... we'll keep looking' is a mistranslation that garbles the saleswoman's 'No?' as a confused 'No, yes', making the exchange illogical."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The initial 'And don't you have the same one' is awkward compared with a natural polite request."
+          "justification": "'No, yes... we'll keep looking' does not match the source 'Нет? Будем искать…'. The added 'yes' makes the reply confusing and the stalling tactic is unclear."
         }
       ]
     },
@@ -440,19 +430,26 @@
         "language_specific": {}
       },
       "candidate": "No, I ain't doing no such thing!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The folksy mistake is rendered as 'ain't doing no such thing', which matches the reference in register. The opening 'No,' instead of 'No!' slightly weakens the stubborn emphasis."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 8
+      "minor": 7
     },
-    "total_points": 38,
+    "total_points": 37,
     "meaning_units": 23,
-    "penalty_per_unit": 1.6521739130434783,
-    "major_equiv_per_unit": 0.33043478260869563,
-    "interpretation": "1.65 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.608695652173913,
+    "major_equiv_per_unit": 0.32173913043478264,
+    "interpretation": "1.61 MQM penalty points per meaning unit (≈ 0.32 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.4-mini"

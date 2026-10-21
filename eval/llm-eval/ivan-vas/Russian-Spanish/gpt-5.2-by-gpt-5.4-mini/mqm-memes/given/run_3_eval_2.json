@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "De nuevo me asaltan oscuras sospechas… A Shpak le desapareció el magnetofón; al embajador, el medallón.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate changes the meaning of the first clause: 'У Шпака — магнитофон' and 'у посла — медальон' mean the items belong to Shpak and the ambassador, not that the items have disappeared. This removes the specific theft reference noted in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Buenas noches, soy el zar, encantado. Soy el zar, encantado, el zar. Encantado, buenas noches, soy el zar.\nBuenas noches, soy el zar, encantado. Soy el zar, encantado, el zar. Encantado, buenas noches, soy el zar.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is duplicated in full, which is unnecessary and slightly clumsy in subtitle form, even though the wording itself preserves the comic effect and self-introduction as the Tsar."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -155,7 +141,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The repeated final '¡De berenjena!' is a bit awkward and redundant as subtitle phrasing, though it does not alter the joke or meaning."
+          "justification": "The added standalone repeat of '¡De berenjena!' is slightly awkward and unnecessary, though it preserves the joke and emphasis."
         }
       ]
     },
@@ -177,7 +163,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The full line is repeated verbatim, which is redundant and slightly inelegant in subtitle form, but it does not change the joke or meaning."
+          "justification": "The line is duplicated without need, which makes the subtitle less elegant, though the meaning and comic effect remain intact."
         }
       ]
     },
@@ -199,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 8,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

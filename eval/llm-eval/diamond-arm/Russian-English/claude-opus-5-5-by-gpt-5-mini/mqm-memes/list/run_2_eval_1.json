@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate drops the vocative 'Guys' and reduces the heightened theatrical register of Gorbunkov's sacrificial exclamation ('I should have been in his place!') to a more prosaic phrasing ('that ought to be me lying there'), which slightly weakens the contrast between his melodrama and the policeman's deadpan humor."
+          "justification": "The policeman's retort 'Drink enough and it will be!' is understandable but slightly awkward and stilted in English — 'you will be' or 'you will end up there' would read more naturally while preserving the deadpan mockery."
         }
       ]
     },
@@ -46,9 +46,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate is a literal, earnest rendering ('I'm not a coward... but I'm scared') and loses the light, bouncing, rhyming comic quality of the original Russian ('trus/boyus') that makes the admission endearing rather than flatly literal."
+          "justification": "The candidate is a fairly literal rendering ('I'm not a coward... but I'm scared'), which preserves meaning but loses the light, bouncing comic rhythm (Trus/Boyus) noted in the analysis that makes the line endearing rather than merely literal."
         }
       ]
     },
@@ -110,7 +110,14 @@
         "language_specific": {}
       },
       "candidate": "As our beloved chief says,\nif a man is an idiot,\nit's for the long haul.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The phrase 'for the long haul' conveys the meaning but introduces a colloquial, American idiom that softens the blunt, diagnostic finality of the original phrasing."
+        }
+      ]
     },
     {
       "id": 7,
@@ -130,7 +137,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'old lady' where the reference uses a coarser slang ('babe'/'broad'). The softer choice reduces a bit of Lyolik's rough, colloquial tone, though the meaning and directive remain clear."
+          "justification": "'Old lady' is a coarse, colloquial rendering of 'его бабе' that alters the register slightly; while it keeps the crude tone, it shifts the flavor of the mockery compared with alternatives like 'his woman' or 'his broad.'"
         }
       ]
     },
@@ -157,7 +164,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the paired terms and the registerical rhyme: 'teetotalers and convalescers/ulcer patients' (trezvenniki/yazvenniki) is rendered as 'ascetics... and diabetics,' which alters the intended medical/folk pairing and loses the original rhythmic/semantic link. This shifts the joke's target and weakens the proverbial punchline."
+          "justification": "The candidate replaces the rhythmic pair 'teetotalers and ulcer-sufferers' with 'ascetics' and 'diabetics,' changing the medical reference and losing the original rhyme/parallelism. This alters the joke's structure and weakens the intended proverbial rhythm and irony."
         }
       ]
     },
@@ -219,14 +226,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The reference is a melodic, elongated sigh ('Semyo-o-on Semyonych!'); the candidate 'Semyon Semyonovich...' delivers the same address but loses some of the drawn-out melodic resignation that conveys weary exasperation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -271,7 +271,14 @@
         "language_specific": {}
       },
       "candidate": "Slipped, fell...\nclosed fracture...\nPassed out, came to -\nplaster cast!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The rhythmic telegraphic style is preserved, but the line 'Passed out, came to - plaster cast!' is slightly awkward in English punctuation and phrasing; 'Passed out. Came to. Woke up in a cast.' would read more smoothly while keeping the staccato effect."
+        }
+      ]
     },
     {
       "id": 16,
@@ -397,13 +404,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 4
+      "minor": 5
     },
-    "total_points": 9,
+    "total_points": 10,
     "meaning_units": 23,
-    "penalty_per_unit": 0.391304347826087,
-    "major_equiv_per_unit": 0.0782608695652174,
-    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.43478260869565216,
+    "major_equiv_per_unit": 0.08695652173913043,
+    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

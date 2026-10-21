@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB states the items are lost, not possessed. 'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning, implying they currently have the items."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Envoy' is less precise than 'ambassador' for 'посол'."
+          "justification": "The NB explicitly warns against 'has' because Shpak and the ambassador no longer have these items; they were stolen. 'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning and loses the link between the two thefts, which is the point of the callback."
         }
       ]
     },
@@ -49,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Very nice, Tsar!' reads as addressing a Tsar rather than introducing himself as the Tsar, which the NB says must be clear. The 'I'm the Tsar' self-introduction is lost."
+          "justification": "The NB requires that Bunsha introduce himself as the Tsar. 'Hello, Tsar' reads as addressing a Tsar, so the self-introduction is lost, which breaks the joke of the drunk impersonator."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a weaker rendering of the formal greeting 'очень приятно' (pleased to meet you), losing the stiff social-ritual cliché."
+          "justification": "'Very nice' is a weaker equivalent of the formal 'very pleased to meet you', so the stiff Soviet social ritual comes across less clearly."
         }
       ]
     },
@@ -104,10 +98,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'Walled up, demons!' can read as addressing the demons, whereas the NB requires demons to be the subject (the demons walled me in). The pronoun and subject are missing."
+          "justification": "'Walled up, demons!' can be read as addressing the demons, although the NB says they must be the subject. The comma-separated vocative reading is a risk. The subject role of 'demons' is not made clear, as in 'Walled me in, the demons!'."
         }
       ]
     },
@@ -129,7 +123,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and lacks the solemn, archaic conviction of the Tsar's declaration ('Behold the power...')."
+          "justification": "'That's what the life-giving cross can do!' is colloquial and flat. It loses the Tsar's solemn, archaic exclamation of conviction ('Behold the power...') that contrasts with the modern setting."
         }
       ]
     },
@@ -146,14 +140,7 @@
         "language_specific": {}
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is a plain, literal command. It is acceptable for the dance-party context, but lacks the host-like, ceremonial flavor of the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -170,10 +157,10 @@
       "candidate": "What a lucky stop!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'What a lucky stop!' suggests he is stopping along the way or leaving, which the NB warns against. It also loses the casual, cheerful 'good call' tone about having come in."
+          "justification": "'What a lucky stop!' is slightly unnatural and suggests a brief stopover, which is acceptable, but it does not clearly convey the burglar's cheerful self-congratulation on his choice of apartment, or that he has just entered."
         }
       ]
     },
@@ -195,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation calls the eggplant spread 'caviar', which the NB explicitly forbids because it confuses viewers. 'Imported caviar... Eggplant!' also loses the satirical inversion of 'eggplant caviar' as an overseas delicacy."
+          "justification": "The NB says eggplant spread must not be called caviar. 'Imported caviar… Eggplant!' keeps the word 'caviar' and splits off 'Eggplant', so the viewer loses the 'overseas eggplant spread' and the inverted status joke."
         }
       ]
     },
@@ -217,13 +204,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the count for the suede jacket (a single jacket, then 'Three'). The candidate gives 'three suede jackets' straight away, which removes the slip and the humor."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The hesitation and trailing structure of the spoken list are lost, so the line reads as a tidy list instead of improvised exaggeration."
+          "justification": "The joke depends on Shpak forgetting to increment the count of suede jackets, with 'a suede jacket... Three.' The candidate says 'three suede jackets' straight away, so the slip that betrays him and the humor are lost."
         }
       ]
     },
@@ -240,26 +221,19 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd they’ll cure you too!\nAnd they’ll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the delivery more emphatic, whereas the analysis describes a melodic, calm resignation. The ellipses in the reference convey this."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 6
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 36,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 3.272727272727273,
-    "major_equiv_per_unit": 0.6545454545454545,
-    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

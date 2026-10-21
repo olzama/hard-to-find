@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The policeman's retort in the candidate ('Get drunk—then it will be!') is a bit stiffer and less colloquial than the reference's mocking, bored quip ('Get drunk enough, and you will be!'), which flattens the clash between Gorbunkov's melodrama and the cop's dry humour."
+          "justification": "The policeman's rejoinder is preserved, but 'Get drunk—then it will be!' is awkward English and weakens the deadpan, mocking delivery of the original cop humor. A smoother phrasing would better convey the joke's punch."
         }
       ]
     },
@@ -38,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning is preserved, but the candidate lacks the light, bouncing comic rhythm implied by the original 'Trus/Boyus' pairing. The line reads as a straightforward admission rather than the endearing, slightly playful paradox described in the analysis."
+        }
+      ]
     },
     {
       "id": 3,
@@ -73,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders 'Облико морале' as the literal 'Moral image...', losing some of the playful foreign-jargon mashup and cadence present in the reference. This slightly weakens Gena's mock-sophisticated international patter."
+          "justification": "Overall effect (mock-sophisticated multilingual listing) is preserved, but 'You know,' is an unnecessary filler and 'Moral image...' is a stilted literalization of 'Obliko morale,' which slightly weakens the comic pretension the line should project."
         }
       ]
     },
@@ -170,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's comic effect relies on a particular mispronunciation of 'tablet' (phonetic play). The candidate's plain 'One pill is enough...' loses that playful pronunciation cue and so reduces a character-specific humorous trait."
+          "justification": "The meaning is correct, but the candidate loses the comic effect created by Lyolik's characteristic mispronunciation of 'tablet.' That deliberate speech trait is an important stylistic marker in the analysis."
         }
       ]
     },
@@ -207,7 +214,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's elongated, melodic sigh ('Semyo-o-on Semyonych!') conveys weary musicality. The candidate's neutral 'Semyon Semyonovich...' captures the content but loses some of the drawn-out, expressive cadence."
+          "justification": "The address conveys the correct name, but it drops the elongated, melodic sigh ('Semyo-o-on') that functions as an expressive, weary facepalm in the original; this lessens the line's emotional color."
         }
       ]
     },
@@ -254,7 +261,14 @@
         "language_specific": {}
       },
       "candidate": "I slipped, I fell...\na closed fracture...\nLost consciousness, came to—\na cast!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The staccato, telegraphic quality is present, but the final fragment 'came to— a cast!' reads slightly abrupt and awkward in English. A smoother telegraphic turn would better replicate the original rhythmic alibi."
+        }
+      ]
     },
     {
       "id": 16,
@@ -379,7 +393,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's intentionally nonstandard verb form adds a folksy, stubborn flavor to the refusal. The candidate's standard phrasing ('No, I can’t go along with that!') conveys the refusal but loses that rustic, comical linguistic coloring."
+          "justification": "The refusal's meaning is intact, but the candidate loses the intentionally ungrammatical, folksy verb form ('пойти' error) that adds comic stubbornness and rural flavor to the original. The line reads more neutral and loses that character touch."
         }
       ]
     }
@@ -387,13 +401,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 7
     },
-    "total_points": 5,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

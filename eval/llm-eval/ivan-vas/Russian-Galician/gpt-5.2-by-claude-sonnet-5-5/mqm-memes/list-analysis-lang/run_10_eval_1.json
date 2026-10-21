@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Volven asaltarme\nvagas dúbidas...\nA Shpak faltoulle o magnetófono,\nao embaixador, o medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Vagas dúbidas\" is a weaker, more neutral rendering than the mock-heroic \"escuras sospeitas\"; the theatrical, operatic flavour is somewhat diluted, and \"Volven asaltarme\" is less elevated than the archaic reference construction."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first clause \"Ola, tsar, encantado\" can be read as addressing a tsar, which the NB warns against, although later clauses clarify \"Son o tsar\". The repetition pattern is also altered, with an extra line added."
+          "justification": "The opening 'Ola, tsar, encantado' can be read as Bunsha addressing a tsar, which the note warns against. Only the later 'Son o tsar' makes the self-introduction clear."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Ola' is casual and does not carry the stiff, formal Soviet greeting cliché. The variation and repetition pattern is also looser than in the source."
         }
       ]
     },
@@ -80,7 +79,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Estou de loito\" means \"I am in mourning\", which is narrower than \"I am in sorrow/grief\" (\"en печали\"). It also loses the slightly archaic, regal register of \"aflixido\"."
+          "justification": "'Estou de loito' means being in mourning, while the source 'в печали' is general sorrow or melancholy. This shifts the meaning slightly, though the regal register is kept."
         }
       ]
     },
@@ -102,7 +101,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Demons are correctly the subject, but the vocative-like \"Emparedaron, os demos!\" lacks the object pronoun \"me\" and the comma/word order may read as addressing the demons. The verb is also missing its accent (\"Emparedaron\" for \"Emparedaron\" vs. standard \"emparedaron\"), and the self-reference is lost."
+          "justification": "'Emparedaron' lacks the accent and the object pronoun ('Emparedáronme'), so the sentence reads as an orthographic error and loses the sense of being walled in. The demons do stay as the subject."
         }
       ]
     },
@@ -119,7 +118,14 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Mira o que fai' is more colloquial than the elevated 'Velaquí o que obra'. 'Vivificadora' also departs from the liturgical set phrase 'cruz vivificante', which weakens the archaic religious tone."
+        }
+      ]
     },
     {
       "id": 7,
@@ -149,14 +155,7 @@
         "language_specific": {}
       },
       "candidate": "Mira ti que ben entrei!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Mira ti que ben entrei!\" conveys a cheerful remark upon entering and is not misleading, but it lacks the sense of lucky discovery (\"dei cun bo sitio\"), so the idea of having landed in a good place is weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -173,10 +172,10 @@
       "candidate": "Caviar negro, vermello...\nSi! Unha pasta exótica...\nde berenxena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Unha pasta exótica\" loses the \"заморская\" (from overseas) marker and the \"delicacy\" notion that drives the joke of a cheap spread presented as a rare luxury. It avoids calling the spread caviar, as required, but the satirical inversion is weakened."
+          "justification": "'Exótica' only loosely renders 'заморская' (from overseas). This weakens the contrast between the cheap spread and its pretentious presentation as a rare foreign delicacy. The eggplant spread is correctly not called caviar."
         }
       ]
     },
@@ -198,7 +197,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Cámaras\" omits \"de cine\" (film cameras), and \"camurza\" is a less precise term for suede than \"ante\". The singular \"chaqueta\" loses \"unha\", but the key joke, where the jacket count is not initially incremented, is preserved. Using numerals instead of words is a minor stylistic choice."
+          "justification": "'Cámaras' drops 'de cine' (movie cameras), so the list of status items is less specific. The count joke with the single jacket is kept."
         }
       ]
     },
@@ -220,14 +219,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 0,
+      "minor": 7
     },
-    "total_points": 11,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -193,24 +193,24 @@
       "candidate": "I am so utterly awkward... just all sharp edges... so entirely contradictory!\nso entirely contradictory!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats the final phrase \"so entirely contradictory!\" as a second line after the complete sentence. The source has no such repetition, so this is an addition that corrupts the subtitle. The repeated line reads as a rendering error and breaks the character's self-characterization rhythm, which the analysis identifies as the point of the line."
+          "justification": "The candidate appends a duplicated line, \"so entirely contradictory!\", that has no counterpart in the source. The source contains \"такая противоречивая вся\" only once, so the candidate adds material and distorts the rhythm of the self-description. The repetition is within a single segment, so principle 7 does not cover it."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 0
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 5,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

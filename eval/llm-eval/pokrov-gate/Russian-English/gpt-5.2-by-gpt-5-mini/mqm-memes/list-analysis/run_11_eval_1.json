@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about we knock back a little one?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrase \"knock back a little one\" is understandable and conversational, but the collocation \"a little one\" sounds slightly awkward in English for a drink; a more natural phrasing would mirror the snappy idiomic rhythm of the reference (e.g. \"knock back a quick one\")."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -55,10 +48,10 @@
       "candidate": "Such... such wonderfully civilized relations!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate softens the ironic, stuttering refrain and replaces the biting sarcasm with a more positive-sounding phrase (\"wonderfully civilized relations\"). This weakens the original's mock-intellectual tone and the memorable halting rhythm that functions as a running gag."
+          "justification": "The candidate turns the line into a seemingly sincere praise (‘wonderfully civilized relations’), losing the original sarcastic, stuttering mockery. The analysis emphasizes the line's role as a repeated, ironic refrain; the candidate weakens that comic, sarcastic register and therefore contradicts the essence of the original."
         }
       ]
     },
@@ -78,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "Using \"conscience\" instead of phrasing like \"duty\" or \"to do your duty\" shifts the emphasis: the Russian conveys a stoic, duty-bound resignation, whereas \"conscience\" reads more introspective and moral rather than the soldierly fatalism in the analysis."
+          "justification": "‘You don't live for conscience’ is slightly awkward and less idiomatic than the reference's English phrasing about duty. The pragmatic meaning (privileging duty over happiness) is preserved, but the phrasing reduces naturalness and the blunt, fatalistic register of the original."
         }
       ]
     },
@@ -147,7 +140,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits the line and tones down the coarse forcefulness of the original by using \"for God's sake\" and \"Cut it out\" rather than the harsher \"cut it the hell out.\" The medical punchline remains, but the edge of the original blunt surgical imperative is slightly softened."
+          "justification": "The candidate softens the brusque medical imperative by using ‘for God's sake’ and splitting the line, which reduces the abrupt, coarse surgical punchline that fuels the farcical contrast with the emotional moment. Meaning is intact but force and register are weakened."
         }
       ]
     },
@@ -169,7 +162,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The surname is transliterated as \"Khabotov\" instead of the expected \"Khobotov\"; this is a spelling error in a repeated character label and affects character identity though the meaning and tone are preserved."
+          "justification": "The surname is rendered as 'Khabotov' instead of the expected 'Khobotov' transliteration. This alters the character name spelling and may hinder recognition, though the line's dismissive function is preserved."
         }
       ]
     },
@@ -191,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the referent: the source and reference express that the burden is the speaker's own (an idiom: \"my cross to bear\"), while the candidate renders it as \"He's my cross to bear,\" which reverses the meaning and undermines the manipulative self-sacrificing claim central to the line. The emphasis \"mine alone\" is also lost."
+          "justification": "The candidate renders the phrase as 'He's my cross to bear,' which changes the original reflexive claim of burden (the speaker bearing the cross) into an assertion that a person is the burden. This reverses the intended manipulative meaning and misrepresents the speaker's rhetorical posture."
         }
       ]
     },
@@ -208,26 +201,19 @@
         "language_specific": {}
       },
       "candidate": "Oh, I'm such a misfit...\nso awkward and clumsy...\nSo full of contradictions!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate conveys the general self-deprecating idea but shifts register with \"misfit\" and \"clumsy,\" making the line sound more blunt and less coquettishly mannered than the original. The repeated rhythm is preserved, but the delicate, affected self-characterization in the analysis is weakened."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 11,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

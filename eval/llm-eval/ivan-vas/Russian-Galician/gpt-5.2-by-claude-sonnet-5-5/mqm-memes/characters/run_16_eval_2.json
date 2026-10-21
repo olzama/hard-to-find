@@ -19,15 +19,15 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The NB requires that each person lost their item. 'Shpak: magnetófono, o embaixador: medallón' is a bare list of nouns with no verb, so it never says the items disappeared and the theft connection is lost."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Outra vez me roen dúbidas vagas' is natural but flatter than the mock-heroic, theatrical register of 'asáltanme escuras sospeitas'. 'Roer' sounds more colloquial than operatic."
+          "justification": "The mock-heroic, theatrical register of 'терзают смутные сомнения' is flattened: 'me roen dúbidas vagas' is plain, and 'terzar' is lost. The result is neither elevated nor funny."
+        },
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The NB says the items are missing. 'Shpak: magnetófono, o embaixador: medallón' is just a bare list and does not convey that each lost their item. The callback to the thefts is lost."
         }
       ]
     },
@@ -49,7 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads 'ola, tsar!' as a greeting addressed to the Tsar, which is exactly what the NB prohibits. Bunsha is introducing himself as the Tsar, and nothing in the candidate signals that."
+          "justification": "'Ola, tsar!' reads as Bunsha addressing a tsar, not introducing himself as the Tsar. The NB explicitly warns against this, and the reference uses 'son o tsar' to avoid it."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Moito gusto, ola' keeps the mundane polite cliché, but the drunken, repetitive self-introduction effect is weakened because the speaker's identity is unclear."
         }
       ]
     },
@@ -86,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is plain and modern. It loses the elevated, archaic melancholy of 'estou aflixido' that contrasts with the Soviet apartment setting."
+          "justification": "'Estou triste' is plain and loses the high-register, archaic melancholy of 'в печали' (reference 'aflixido'). The contrast with the Soviet setting is weaker."
         }
       ]
     },
@@ -108,7 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedáronme, demos!' with a comma reads as a vocative, addressing the demons. The NB requires the demons to be the subject of the sentence, not the addressees."
+          "justification": "'Emparedáronme, demos!' puts 'demos' as a vocative, so he addresses the demons. The NB requires the demons to be the subject of the sentence."
         }
       ]
     },
@@ -125,14 +131,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Mira o que fai' is more colloquial than 'Velaquí o que obra'. It weakens the solemn, archaic register of the Tsar's pious exclamation, though 'cruz vivificadora' keeps the religious flavor."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -164,10 +163,10 @@
       "candidate": "Bo momento para entrar!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Bo momento para entrar!' changes the meaning, since it comments on timing rather than on finding a lucrative place. It loses the joy at discovering a flat full of valuables, which is the point of the analysis. It does correctly signal that he has just entered."
+          "justification": "'Bo momento para entrar!' correctly marks that he has just entered. It loses the joy of discovering the apartment full of goods (удачно зашел), but it is not misleading."
         }
       ]
     },
@@ -189,7 +188,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Caviar de ultramar... De berenxena', which the NB explicitly forbids because it confuses viewers. The reference uses 'Manxar de ultramar' to avoid this."
+          "justification": "The candidate calls the overseas item 'Caviar de ultramar', so the eggplant spread is also called caviar. The NB says to avoid this, and it blurs the joke about the cheap spread passed off as a rare delicacy."
         }
       ]
     },
@@ -211,13 +210,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate pluralizes the jackets ('chaquetas de camurza: tres'), which removes the joke that Shpak forgets to increment the count for the single suede jacket. The humor depends on a singular jacket followed by a belated 'tres'."
+          "justification": "The candidate gives 'chaquetas' in the plural and then 'tres'. This removes the joke where Shpak forgets to increment the jacket count, which betrays him. 'Petacas' (flasks) is also a mistranslation of 'портсигар' (cigarette cases)."
         },
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "'Petacas' means hip flasks, not cigarette cases. The correct term is 'cigarreiras'."
+          "justification": "Digits '3' instead of the word 'tres' flatten the spoken rhythm of the list."
         }
       ]
     },
@@ -236,24 +235,24 @@
       "candidate": "E a ti tamén te curarán!\nE a min tamén me curarán!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the repeated 'e a ti tamén' structure and the line 'E a ti vante curar', which shortens the melodic, resigned, repetitive rhythm of the original."
+          "justification": "The candidate omits the first 'И тебя вылечат' and the escalating three-part chain. Her melodic resignation is reduced to two lines, and the shared hysterical rhythm is lost."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 7,
+      "minor": 4
     },
-    "total_points": 35,
+    "total_points": 39,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.5454545454545454,
+    "major_equiv_per_unit": 0.7090909090909091,
+    "interpretation": "3.55 MQM penalty points per meaning unit (≈ 0.71 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

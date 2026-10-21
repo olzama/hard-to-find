@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak: magnetófono, el embajador: medallón\" reads as a bare list of items and does not convey that each item has disappeared (was stolen/lost), which the NB says is essential. The connection to theft is lost."
+          "justification": "The NB says the items were lost. \"Shpak: magnetófono, el embajador: medallón\" is a bare list that does not say the items disappeared, so the callback to the thefts is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"vagas sospechas\" is acceptable but weaker than the mock-heroic \"oscuras sospechas\"; the staccato colon structure also flattens the theatrical register."
+          "justification": "\"Vagas sospechas\" is plainer than \"oscuras sospechas\" and weakens the mock-heroic, theatrical register."
         }
       ]
     },
@@ -49,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Mucho gusto, zar\" and \"Hola, zar\" read as Bunsha addressing a Tsar, which the NB explicitly forbids. He should be introducing himself as the Tsar (\"soy el zar\")."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate adds a fourth line that does not correspond to the source's three repetitions, and loses the 1970s formal-greeting clichés (\"buenas noches\")."
+          "justification": "\"Mucho gusto, zar\" and \"Hola, zar\" read as addressing a tsar, not introducing himself as the Tsar, which the NB explicitly warns against. The joke of the drunk Bunsha introducing himself as the Tsar is lost."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"estoy triste\" is plain and modern; it loses the archaic, high-register melancholy of \"afligido\" that contrasts with the Soviet setting."
+          "justification": "\"Estoy triste\" is plainer than \"afligido\" and loses some of the archaic, regal melancholy register."
         }
       ]
     },
@@ -114,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"¡Emparedados, demonios!\" reads as addressing the demons (vocative), which the NB forbids; demons must be the subject (\"me han emparedado los demonios\"). Also \"emparedados\" without \"me han\" is ambiguous and can read as 'sandwiches'."
+          "justification": "\"¡Emparedados, demonios!\" reads as a vocative addressed to the demons, which the NB forbids, since the demons must be the subject. \"Emparedados\" as a bare participle also suggests the speaker and others are walled in, and it evokes the sandwich."
         }
       ]
     },
@@ -146,7 +140,14 @@
         "language_specific": {}
       },
       "candidate": "¡Que baile todo el mundo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Que baile todo el mundo\" is a more formal, subjunctive wish than the punchy imperative-like \"¡Todos a bailar!\", so it has slightly less energy as a party command."
+        }
+      ]
     },
     {
       "id": 8,
@@ -163,10 +164,10 @@
       "candidate": "¡Qué bien que he venido!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"¡Qué bien que he venido!\" conveys a fortunate arrival and does not suggest he is leaving, so it respects the NB, but it loses the idiomatic 'happened to pick the right place' sense and sounds somewhat flat."
+          "justification": "\"¡Qué bien que he venido!\" (how good that I came) loses the sense of luckily picking the right apartment, the \"lucky choice of place\" that implies a jackpot of goods. The sense of a fortunate find is weakened, though it does not mislead about leaving."
         }
       ]
     },
@@ -188,7 +189,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"caviar de ultramar\" followed by \"De berenjena\" calls the eggplant spread 'caviar', which the NB explicitly says to avoid since it confuses viewers. The reference uses \"manjar de ultramar\" to preserve the joke."
+          "justification": "The candidate calls the eggplant spread \"caviar de ultramar ... de berenjena\", which the NB says to avoid because it confuses viewers. It also loses the \"delicacy from overseas\" framing (manjar)."
         }
       ]
     },
@@ -210,13 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"chaquetas de ante... tres\" pluralizes the jacket, destroying the joke where Shpak forgets to increment the count and says a single jacket (\"una chaqueta\") before correcting to three."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Numerals \"3\" and dropping \"de cine\" are minor deviations that slightly reduce precision."
+          "justification": "\"Chaquetas de ante... tres\" makes the jacket plural, which removes the joke that Shpak forgets to increment the jacket count and the singular \"una chaqueta\" before \"tres\" gives him away."
         }
       ]
     },
@@ -238,21 +233,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks make the delivery emphatic rather than the calm, melodic resignation described in the analysis."
+          "justification": "The exclamation marks make the lines sound emphatic or panicked, whereas the analysis describes a calm, melodic, resigned delivery."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 6
+      "major": 6,
+      "minor": 4
     },
-    "total_points": 31,
+    "total_points": 34,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.090909090909091,
+    "major_equiv_per_unit": 0.6181818181818182,
+    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

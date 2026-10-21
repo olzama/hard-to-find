@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Vague doubts haunt me once again...\nShpak's tape recorder, the ambassador's medallion.\nShpak's tape recorder,\nthe ambassador's medallion.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate uses possessive phrasing (\"Shpak's tape recorder, the ambassador's medallion\") that reads as if those people currently have these items. The analysis explicitly notes that the original means they have lost those items (they no longer possess them). This reverses the intended meaning and undermines the joke's callback to missing/stolen goods."
+        }
+      ]
     },
     {
       "id": 2,
@@ -166,19 +173,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd they’ll cure you too!\nAnd they’ll cure me...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate renders the first two lines with exclamation points (\"And they’ll cure you!\") rather than the ellipses and calmer, resigned rhythm of the reference. This makes the delivery more emphatic and less the melodic, subdued resignation described in the analysis, weakening the intended tone."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 0
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 0,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 0.0,
-    "major_equiv_per_unit": 0.0,
-    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

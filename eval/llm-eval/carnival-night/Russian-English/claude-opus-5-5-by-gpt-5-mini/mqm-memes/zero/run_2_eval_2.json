@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line preserves the bureaucratic register and the ‘directive’ idea, but the phrasing “to see in the New Year merrily” is awkward in English and disrupts natural rhythm. A smoother word order would better keep the deadpan managerial tone while remaining idiomatic."
+          "justification": "The phrase \"to see in the New Year merrily\" is grammatically awkward and stilted in English here; the line reads unevenly and interrupts the intended brisk, bureaucratic delivery. The bureaucratic tone is preserved, but the phrasing could be smoother."
         }
       ]
     },
@@ -56,9 +56,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The diminutive, faux-modest flavour of «коротенько» (a patronizing 'just a little while') is weakened by the flat translation 'briefly.' The comic cosy understatement is less marked."
+        },
+        {
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate keeps the faux-modest claim followed by ‘forty minutes,’ so the comic reversal is preserved, but the phrasing is clumsy (odd punctuation and the final clause “is needed” feels tacked on). A more idiomatic construction would deliver the punchline with crisper timing."
+          "justification": "The sentence-ending phrasing 'is needed,' and the line breaks make the delivery clumsy in English; the rhythm that sets up the comic reversal is not as natural as it could be."
         }
       ]
     },
@@ -77,10 +83,16 @@
       "candidate": "Is the lecturer ready?\nThe lecturer is ready, long ready!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian exchange hinges on the double meaning of готов (ready / already smashed/drunk). The candidate renders both lines as plain ‘ready,’ losing the strong alcoholic subtext that creates the joke. English needs a formulation that preserves or recreates that double reading; as given the comic ambiguity is largely gone."
+          "justification": "The candidate renders the reply literally but fails to recreate the useful ambiguity of «готов» (ready vs. already smashed/drunk). 'Long ready' is awkward and does not clearly suggest the subtext of the lecturer being already drunk."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The phrase 'long ready' is unnatural in English and disrupts the brisk backstage rhythm; a more idiomatic phrasing would better preserve timing and double meaning."
         }
       ]
     },
@@ -97,7 +109,14 @@
         "language_specific": {}
       },
       "candidate": "- People!.. Ah.. Yoo-hoo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Using 'Yoo-hoo!' turns the faltering, slurred vocal collapse into a jaunty attention call; the original's wavering, pitiful attempt to begin a lecture (the broken vocalization) is dulled."
+        }
+      ]
     },
     {
       "id": 6,
@@ -157,14 +176,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 0,
+      "minor": 6
     },
-    "total_points": 7,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

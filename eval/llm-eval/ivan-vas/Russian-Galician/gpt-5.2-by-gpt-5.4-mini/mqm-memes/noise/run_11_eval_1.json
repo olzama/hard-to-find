@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the comedic structure of the original and turns the items into bare labels. It also misses the key sense that the objects are no longer in their owners’ possession, which the analysis explicitly warns is essential."
+          "justification": "The candidate drops the key meaning that the items are missing from Shpak and the ambassador, not merely listed as possessions. This breaks the punchline and contradicts the analysis note."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The line should clearly mean Bunsha is introducing himself as the tsar, but the candidate’s phrasing can read as if he is addressing the tsar. It also loses the repetitive, self-introducing rhythm that creates the joke."
+          "justification": "The line conveys the self-introduction and repetition, but the phrasing is a bit less natural and less clearly comic than the reference’s plain, repetitive greeting structure."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning is preserved, but 'estou triste' is flatter and less elevated than the reference’s 'aflixido,' weakening the mock-archaic regal tone."
+          "justification": "The meaning is intact, but 'estou triste' is flatter and less elevated than the more literary 'que estou aflixido,' weakening the mock-royal tone."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'demoños' is not the right reading here: the Tsar is not addressing demons but lamenting that they have walled him in. The punctuation also makes the exclamation sound odd and reduces the comic force."
+          "justification": "The second line uses 'demoños' as if addressing the demons, instead of stating that demons caused the entrapment. This directly conflicts with the required meaning."
         }
       ]
     },
@@ -119,14 +119,7 @@
         "language_specific": {}
       },
       "candidate": "Isto é o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate conveys the miracle, but 'Isto é o que fai...' is less idiomatic and less triumphant than the reference's more exclamatory phrasing, slightly weakening the comic religious fervor."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -161,7 +154,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei!' means 'I entered well,' but the joke is about having landed in the perfect place after discovering the loot. It misses the triumphant 'I hit the jackpot' sense and sounds less naturally like a reaction to the discovery."
+          "justification": "'Que ben entrei!' suggests he has entered well, but it does not clearly express the idiomatic 'I hit the jackpot / this worked out well' sense of finding a lucrative target. The celebratory criminal satisfaction is weakened too much."
         }
       ]
     },
@@ -183,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "By repeating 'caviar' for the eggplant spread, the candidate directly violates the instruction not to call it caviar. This blurs the joke, since the punchline is that a cheap eggplant dish is absurdly presented as a delicacy."
+          "justification": "The candidate repeats 'caviar' for the eggplant spread, which the analysis explicitly warns against. This blurs the satire and makes the joke confusing instead of clearly signaling the cheap substitute."
         }
       ]
     },
@@ -205,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the final item from 'three suede jackets' to 'three leather jackets,' losing the crucial comic detail that Shpak forgets to finish the count correctly. It also omits the growing escalation from the source's running list."
+          "justification": "The count is changed from three by object to a flat list of 3s, so the incremental exaggeration and the specific joke about forgetting to increase one item are lost."
         }
       ]
     },
@@ -227,21 +220,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The final line omits the repeated 'e a ti' and changes the full escalating refrain into two lines, losing the shared, resigned chorus effect. The original joke is about everyone being included in the same absurd 'cure,' not only the others plus the speaker."
+          "justification": "The candidate omits the repeated middle line and the final self-inclusion, reducing the structure to a partial statement. The communal, resigned joke that everyone will be 'cured' is weakened and incomplete."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
+      "major": 6,
       "minor": 2
     },
-    "total_points": 37,
+    "total_points": 32,
     "meaning_units": 11,
-    "penalty_per_unit": 3.3636363636363638,
-    "major_equiv_per_unit": 0.6727272727272727,
-    "interpretation": "3.36 MQM penalty points per meaning unit (≈ 0.67 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.909090909090909,
+    "major_equiv_per_unit": 0.5818181818181818,
+    "interpretation": "2.91 MQM penalty points per meaning unit (≈ 0.58 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

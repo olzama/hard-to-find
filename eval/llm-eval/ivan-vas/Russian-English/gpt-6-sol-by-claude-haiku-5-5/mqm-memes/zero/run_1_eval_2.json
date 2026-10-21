@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'Beginning to have another nagging suspicion' drops the mock-heroic register of 'терзают смутные сомнения', which the analysis identifies as the source of the humor. The phrasing is conversational and loses the theatrical tone."
+          "justification": "The analysis identifies the mock-heroic, high-brow theatrical register of 'терзают смутные сомнения' as the source of the humor. 'I'm beginning to have another nagging suspicion' is plain and colloquial, so the register that carries the joke is lost."
         },
         {
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Medal' is a decoration, while 'медальон' is a pendant or locket. The reference correctly uses 'medallion', and the object's identity matters for the plot callback."
+          "justification": "'Medal' is not the same object as the source's 'медальон' (medallion). A medal is an award, which changes the image of the ambassador's stolen item."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'A pleasure, tsar!' and 'Hello, tsar!' read as Bunsha addressing a tsar. The analysis states the translation must make clear he is introducing himself as the Tsar, and the candidate does not do this."
+          "justification": "The analysis requires that it be clear Bunsha is introducing himself as the Tsar, not addressing a Tsar. Lines such as 'A pleasure, tsar!', 'Hello, tsar!' and 'Tsar, a pleasure!' read as greetings directed at a Tsar, and the self-identification that drives the joke is absent."
         }
       ]
     },
@@ -93,10 +93,10 @@
       "candidate": "Leave me, old woman.\nI'm in mourning.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'I'm in mourning' mistranslates 'я в печали' (I am in sorrow). It implies bereavement, which changes the character's emotional state and contradicts the analysis's emphasis on genuine regal melancholy."
+          "justification": "'I'm in mourning' adds a specific bereavement sense that is not in 'я в печали'. The source conveys regal melancholy, not grief for a death, so the meaning shifts."
         }
       ]
     },
@@ -113,7 +113,14 @@
         "language_specific": {}
       },
       "candidate": "They've walled us in!\nThe demons have walled us in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source repeats 'замуровали… замуровали' in a panicked stutter. The candidate drops this repetition and uses two separate lines, which weakens the sense of panic the joke relies on."
+        }
+      ]
     },
     {
       "id": 6,
@@ -173,14 +180,7 @@
         }
       },
       "candidate": "What a lucky time to drop by!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The source's self-congratulatory 'Это я удачно зашел!' (I dropped in at a good moment) loses its first-person emphasis. 'What a lucky time to drop by' shifts the focus to the timing rather than to the speaker's pleased reaction to his own entry."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -200,7 +200,14 @@
         }
       },
       "candidate": "Black caviar, red caviar...\nAnd yes! Imported caviar...\nEggplant spread!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The notes explicitly say eggplant spread must not be called 'caviar' because it will confuse viewers. 'Imported caviar' labels the eggplant dish as caviar in the setup line, which contradicts that guidance. The reference avoids this with 'overseas spread'."
+        }
+      ]
     },
     {
       "id": 10,
@@ -225,7 +232,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate flattens the list into 'three suede jackets', removing the source's hesitation ('куртка… замшевая… Три'). The analysis says the humor lies in Shpak forgetting to increment the count for the jackets, and that self-correction is lost."
+          "justification": "The analysis says the joke depends on the suede jacket count being forgotten at first ('куртка… замшевая… Три'). The candidate lists 'three suede jackets' as a plain item and loses the hesitation and correction that make the beat funny."
         }
       ]
     },
@@ -245,15 +252,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'Too' is placed on the first line ('They'll cure you too!'), while the source places 'тоже' on the second ('тебя тоже'). The repetition pattern of the source is misaligned."
+          "justification": "The source order is 'you', 'you too', 'me'. The candidate opens with 'too' ('They'll cure you too!') and then gives 'And they'll cure you!', which reverses the intended rhythm of the repetition."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks replace the source's trailing ellipses, making the lines hysterical rather than the 'melodic, calm resignation' the analysis describes."
+          "justification": "The analysis describes calm, melodic resignation, which the source's ellipses convey. Adding an exclamation mark to every line makes the delivery shriller and more hysterical than the source."
         }
       ]
     }
@@ -261,13 +268,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 4
+      "minor": 5
     },
-    "total_points": 24,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

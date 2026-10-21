@@ -66,7 +66,7 @@
           "severity": "minor",
           "category": "other",
           "span": "",
-          "justification": "The reference marks the speaker exchange with dialogue dashes (\"— Is the lecturer ready? — Oh, he's ready...\"). The candidate drops both dashes and relies only on a line break, so the change of speaker is less clearly signposted. The wording itself matches the reference, so this is a formatting issue."
+          "justification": "The reference marks the speaker change with leading dashes (\"— Is the lecturer ready? — Oh, he's ready...\"), but the candidate drops them, so the exchange between Ogurtsov and the offscreen organizer is less clearly attributed on screen. The wording itself matches the reference."
         }
       ]
     },
@@ -125,10 +125,10 @@
       "candidate": "As we can already see,\ntwo stars, three stars,\nfour stars… But of course five stars is best!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The reference includes a translator's note explaining that the five-star system refers to Soviet cognac (5*). The analysis flags that this association will not be obvious to most viewers and may need a note. The candidate omits the note, so the shift from astronomy into the cognac domain, which is the punchline's mechanism, is less legible. The joke still works through the 'five stars is best' line."
+          "justification": "The candidate omits the cultural explanation in the reference (the best USSR cognac was known as 5*). The analysis identifies the sudden shift into the cognac frame as the core of the punchline and says it will not be obvious to most viewers. Without a note or other cue, \"five stars is best\" does not land as a semantic derailment, so the line becomes merely odd, which the analysis says is the failure to avoid."
         }
       ]
     },
@@ -150,14 +150,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

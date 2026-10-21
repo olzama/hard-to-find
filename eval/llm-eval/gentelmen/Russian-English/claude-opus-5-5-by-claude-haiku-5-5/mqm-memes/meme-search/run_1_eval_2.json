@@ -38,22 +38,22 @@
       "candidate": "knock his horns off, rip his jaw off,\ngouge his peepers out! You'll spend your whole life\nworking to pay for medicine",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate uses the literal idiom 'knock his horns off', which the analysis explicitly says to avoid as non-idiomatic English for this threat."
-        },
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The threats shift to third person ('his horns', 'his jaw', 'his peepers') while the final clause addresses the listener as 'You'll'. The source addresses the listener throughout, so the candidate changes the addressee and makes the sequence incoherent."
+          "justification": "The literal 'knock his horns off' is understandable but not an idiomatic English threat, which the analysis specifically warns against."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'You'll spend your whole life working to pay for medicine' is the explanatory paraphrase the analysis warns against. It also loses the verdict-like compactness, since the finite verb no longer lands at the end of the sentence."
+          "justification": "'You'll spend your whole life working to pay for medicine' is the explanatory paraphrase the analysis advises avoiding. It loses the compact, verdict-like form in which the lifetime scale is fronted and the finite verb lands last."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The addressee shifts from third person ('his jaw', 'his peepers') to second person ('You'll spend...'), which makes the threat's target less consistent."
         }
       ]
     },
@@ -70,7 +70,14 @@
         "language_specific": {}
       },
       "candidate": "How many I've stabbed, how many I've slashed,\nhow many souls I've destroyed!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate drops the exclamatory 'Oh' and renders 'загубил' as 'destroyed', which loses the damnation/mythic ring of 'damned' and weakens the operatic, sung-aria quality the analysis describes."
+        }
+      ]
     },
     {
       "id": 4,
@@ -92,16 +99,16 @@
       "candidate": "This Vasily Alibabaevich...\nthis... bad person...\ndropped a radiator on my foot, the scum!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Bad person' flattens 'нехороший человек' into a plain moral label. The analysis names this exact trap and says the restrained, euphemistic quality is central to the joke, so the failed re-education effect is weakened."
+          "justification": "'bad person' is a neutral, routine English moral label. It does not carry the oddly restrained, euphemistic, moralizing quality of 'нехороший человек' that the analysis asks to preserve."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'The scum' is less rough and contemptuous than the register of 'падла' (rendered as 'scumbag' in the reference). The definite article also makes the noun phrase sound stilted."
+          "justification": "'the scum' is less coarse than the reference's 'scumbag' and does not fully convey the rough, contemptuous prison register of 'падла'."
         }
       ]
     },
@@ -128,7 +135,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The bare exclamation 'Romance!' is the form the analysis flags as risking a love/relationship reading rather than ironic romanticization of a criminal life. The reference's 'Romantic!' avoids this ambiguity."
+          "justification": "The bare 'Romance!' is the form the analysis flags as risking a love/relationship reading. The ironic romanticization of a criminal cycle depends on context here, which weakens the effect."
         }
       ]
     },
@@ -150,7 +157,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Tonight' is added to 'No pictures'. The source 'Кина не будет' is not time-bound, so the addition narrows the scope of the cancellation."
+          "justification": "'No pictures tonight!' adds a time specification ('tonight') that is not in the source 'Кина не будет'."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'pictures' is an old-fashioned word, not an unschooled one. The nonstandard quality of 'кина' is not carried by the substitution, so the deliberately naive register is only partly preserved (mainly by 'Lectricity')."
         }
       ]
     },
@@ -177,13 +190,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The oath ends in 'freedom', the flat ordinary rendering the analysis says to avoid. The prison-coded oath function is preserved, but the key word is the one the analysis warns against."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'May I never see freedom' is an unidiomatic collocation. An idiomatic English prison oath such as 'may I never see daylight' would sound more natural."
+          "justification": "'may I never see freedom' keeps the oath function but lacks the prison-coded register of 'век воли не видать' and omits the conditional force of 'if I'm wrong', so the guarantee of the advice is less pointed."
         }
       ]
     },
@@ -205,14 +212,7 @@
         }
       },
       "candidate": "- Was there a pond?\n- No. There were puddles.\nA statue, maybe?\n- There was a statue.\n- Whose statue?\n- How should I know? Some guy.\n- With a beard? - No!\n- With sideburns?\n- I don't remember. In a jacket!\n- Sitting? - What?\n- Is he inside? - Who?\n- That guy of yours!\n- What a hick! You're something else!\nHow could he be inside? He's a statue!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'How could he be inside?' does not carry the source's question of who would put him away ('Кто же его посадит?'). The prison-confinement logic is partly preserved, but the agent of the imprisonment is lost."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -232,7 +232,14 @@
         }
       },
       "candidate": "This isn't pinching small change\nfrom pockets!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'This isn't pinching small change from pockets!' is slightly awkward; 'small change from pockets' reads unnaturally, although the petty-theft register of 'pinching' is adequate."
+        }
+      ]
     },
     {
       "id": 10,
@@ -277,7 +284,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Citizen' is the standard form. The analysis notes that the wrong grammatical form of the address ('гражданина') is part of the comic effect, and the candidate loses that marked non-native quality here, though it keeps the broken grammar elsewhere."
+          "justification": "'citizen' is fully standard English, which the analysis flags as losing part of the comic effect of Vasily's grammatically wrong address 'гражданина'. The other broken-grammar choices are retained."
         }
       ]
     },
@@ -319,7 +326,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'So' introduces an explicit causal connective. The analysis asks for minimal causal reasoning and a simple parallel 'Everyone ran, and I ran' structure, so the candidate over-explains the logic."
+          "justification": "'Everyone ran, so I ran' adds an explicit causal connective absent from the source's juxtaposition 'Все побежали — и я побежал'. This over-explains the logic the analysis wants kept minimal and childlike."
         }
       ]
     },
@@ -346,7 +353,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Sit down' is more blunt than the polite 'Садитесь' frame, which the analysis says to preserve. 'Please be seated' would keep the ceremonious hospitality that the vulgar 'stuff your faces' is set against."
+          "justification": "'Sit down' is a blunter imperative than the polite 'Please be seated' of the reference. It weakens the grammatically polite frame in which the vulgar verb 'жрать' should clash."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The full stop after 'Dinner is served' flattens the ceremonious exclamation of 'Кушать подано!', which sets up the register clash."
         }
       ]
     },
@@ -368,7 +381,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Jaw' is more clinical than 'пасть', which the analysis describes as animalizing and rougher. 'Trap' in the reference carries the stylized criminal register that the candidate loses."
+          "justification": "'jaw' is a neutral body-part term. It lacks the animalizing, slangy register of 'пасть' that makes the threat rougher and more stylized, as conveyed by the reference's 'trap'."
         }
       ]
     },
@@ -395,7 +408,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'Well, you're an idiot' is the gender-neutral rendering the analysis explicitly says to avoid. It erases the feminine–masculine–feminine structure, since the feminine insult that addresses the apparent woman is lost, and the line becomes commentary instead of a gendered insult."
+          "justification": "'Well, you're an idiot' is the gender-neutral rendering the analysis warns against. It erases the feminine-masculine-feminine structure, since Tanya's feminine insult 'дура' to the apparent woman is the core of the joke."
         }
       ]
     },
@@ -422,7 +435,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'By the slop bucket' is the literal sanitary rendering the analysis explicitly says to avoid. It reduces 'параша' to an object rather than conveying the inmate-hierarchy status that makes the insult work, so it contradicts the analysis."
+          "justification": "'by the slop bucket' reduces 'параша' to a literal object, which the analysis explicitly says to avoid. It loses the cultural point that the addressee is assigned the lowest, most degraded place in the prison hierarchy."
         }
       ]
     },
@@ -446,30 +459,30 @@
       "candidate": "Help! Hooligans are blinding me!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Hooligans' is the marked British-sounding choice that the analysis explicitly says to avoid. The attackers should be named in contemporary, natural language, so the candidate contradicts the analysis."
+          "justification": "'Hooligans' is the dated, British-sounding choice the analysis says to avoid. The attackers should be named in contemporary, natural language."
         },
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Blinding me' replaces the comically formal, bureaucratic wording of 'зрения лишают'. The analysis identifies this official-sounding panic as the source of the line's memorability, and the candidate loses it."
+          "justification": "'Hooligans are blinding me!' drops the comically formal, bureaucratic register of 'зрения лишают' that the analysis asks to preserve. The helpless-complaint reversal still works, but more weakly."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
-      "minor": 11
+      "major": 2,
+      "minor": 18
     },
-    "total_points": 46,
+    "total_points": 28,
     "meaning_units": 18,
-    "penalty_per_unit": 2.5555555555555554,
-    "major_equiv_per_unit": 0.5111111111111111,
-    "interpretation": "2.56 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5555555555555556,
+    "major_equiv_per_unit": 0.3111111111111111,
+    "interpretation": "1.56 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

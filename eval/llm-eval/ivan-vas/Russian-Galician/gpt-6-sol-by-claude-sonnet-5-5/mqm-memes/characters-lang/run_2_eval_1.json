@@ -23,22 +23,22 @@
       "candidate": "Volven asaltarme\nvagas sospeitas...\nShpak perde unha gravadora\ne o embaixador, unha medalla.",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "'vagas sospeitas' and the plain 'Volven asaltarme' lose the mock-heroic, theatrical register of 'терзают смутные сомнения'; the wording is flatter and not clearly elevated."
-        },
-        {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Shpak perde unha gravadora' / 'o embaixador, unha medalla' uses present tense 'loses', which can read as a general or ongoing action and not as items already missing. It is also 'unha medalla' (indefinite) instead of the specific medallion, and the callback to the specific stolen items is weakened."
+          "justification": "The present tense 'perde' reads as 'Shpak loses/is losing a recorder' rather than clearly saying each of them has lost their item, which is the nuance the analysis stresses."
         },
         {
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'gravadora' is a recording company/recorder, not the standard word for tape recorder; the analysis asks for 'magnetófono'."
+          "justification": "'gravadora' is not the expected word for the device ('magnetófono') and can also mean a record label, so it is imprecise."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'vagas sospeitas' is flatter than the mock-heroic, theatrical 'escuras sospeitas'. 'Volven asaltarme' keeps some elevated tone, but the comic grandiloquence is weakened."
         }
       ]
     },
@@ -55,20 +55,7 @@
         "language_specific": {}
       },
       "candidate": "Encantado, son o tsar!\nEncantado, bos días, son o tsar!\nO tsar, encantado!\nBos días, o tsar! Encantado!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Encantado, son o tsar' conveys self-introduction correctly, but 'bos días' replaces the evening greeting 'Здравствуйте' (reference uses 'boas noites'), a small shift for a banquet scene."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Bos días, o tsar!' lacks 'son', so it can read as addressing the tsar rather than introducing himself, partially undermining the key note. The sentence structure also adds a fourth line, with exclamation marks that change the drunk, mechanical tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -108,7 +95,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'vella' with 'en paz' is blunt and loses the high-register, archaic regal melancholy of 'старушка, я в печали'; 'Déixame en paz' sounds modern and colloquial."
+          "justification": "'Déixame en paz, vella' is blunt and colloquial. It loses the affectionate-archaic 'старушка' and the elevated 'я в печали', which weakens the regal melancholy against the mundane setting."
         }
       ]
     },
@@ -127,10 +114,10 @@
       "candidate": "Emparedáronnos!\nEmparedáronnos os demos!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedáronnos' changes the meaning: the Tsar says he (singular) has been walled in, not 'us'. 'Os demos' is the subject, which is correct, but the first-person plural alters the content and the omission of the ellipsis hesitation loses the dramatic delivery."
+          "justification": "'Emparedáronnos' (us) adds a plural object that is not in the source. The Tsar speaks of himself (reference: 'me'). Demons are correctly the subject."
         }
       ]
     },
@@ -157,7 +144,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Isto é obra da Santa Cruz' keeps the meaning but drops 'vivificante' (life-giving), losing the liturgical, archaic register of 'крест животворящий'."
+          "justification": "The archaic epithet 'животворящий' (vivificante) is dropped and 'Santa Cruz' replaces it. The solemn, liturgical tone and the 'Вот что...' flourish of the Tsar's conviction are weakened."
         }
       ]
     },
@@ -201,10 +188,10 @@
       "candidate": "Cheguei no momento xusto!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Cheguei no momento xusto' loses the meaning of 'удачно зашел' (lucky choice of place to enter) and shifts it to timing. It also uses the Portuguese-like 'no momento' form and the 'Cheguei' sense is acceptable for just entered, but the casual, cheerful remark on finding a lucrative apartment is weakened."
+          "justification": "'Cheguei no momento xusto' shifts the meaning to good timing. The source expresses luck at landing in this particular (rich) apartment. It does not mislead about leaving, but the cheerful windfall note is weakened."
         }
       ]
     },
@@ -231,13 +218,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Caviar de terras afastadas... De berenxena!' calls the eggplant spread 'caviar', which the analysis explicitly says to avoid because it confuses viewers and breaks the joke's contrast."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'terras afastadas' is a weak rendering of 'заморская' (from overseas), losing the exotic delicacy connotation."
+          "justification": "'Caviar de terras afastadas... De berenxena!' calls the eggplant spread 'caviar', which the analysis says will confuse viewers. It also makes the pairing with real caviar ambiguous, so the contrast between luxury and cheap canned spread is muddled."
         }
       ]
     },
@@ -264,19 +245,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The list omits the joke's mechanism: the count 'Три' after the suede jacket is missing, and the jacket is rendered as 'tres cazadoras de ante' instead of one jacket followed by 'tres', so the slip that betrays Shpak is lost."
+          "justification": "The jacket is given as 'tres cazadoras', so the joke is lost. Shpak should name one jacket, hesitate, and only then add 'tres', betraying that he forgot to inflate that item."
         },
         {
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'gravadoras' is not the correct term; the analysis calls for 'magnetófonos'."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'fabricadas aquí' is a clumsy rendering of 'отечественных' (domestic/national) compared with 'nacionais'."
+          "justification": "'gravadoras' is not the expected 'magnetófonos', and 'cazadoras' is a Spanish form rather than the Galician 'chaqueta'/'xaqueta'."
         }
       ]
     },
@@ -295,30 +270,24 @@
       "candidate": "A ti tamén te han curar!\nE a ti tamén te han curar!\nE a min hanme curar!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The first clause 'И тебя вылечат' is rendered as 'A ti tamén', so the progression 'you / you too / me' is flattened and the structure of the escalating calm resignation is altered."
-        },
-        {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "'han curar' is a less natural Galician future periphrasis than 'van curar', and the exclamation marks make the delivery sound emphatic rather than calmly resigned."
+          "justification": "The exclamation marks make the lines sound agitated, while the analysis calls for a calm, melodic resignation. The repeated 'tamén' in the first two lines also flattens the progression of the list."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
+      "major": 2,
       "minor": 9
     },
-    "total_points": 44,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 4.0,
-    "major_equiv_per_unit": 0.8,
-    "interpretation": "4.00 MQM penalty points per meaning unit (≈ 0.80 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

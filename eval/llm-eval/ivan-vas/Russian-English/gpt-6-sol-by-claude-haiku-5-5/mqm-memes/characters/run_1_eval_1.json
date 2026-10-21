@@ -26,7 +26,7 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "\"Medal\" translates \"медальон\" (a pendant or locket) imprecisely. The reference's \"medallion\" is the correct term. The candidate does correctly read the possessive construction as loss, per the analysis note."
+          "justification": "'медальон' is a pendant or locket, but the candidate renders it as 'medal', which suggests a decoration or award. The item still works because the ambassador's loss is clear, but the object is wrong."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Hello, Tsar!\" and \"Tsar, a pleasure!\" read as Bunsha addressing a tsar, which contradicts the analysis note that he is introducing himself as the Tsar. The candidate also adds a fourth greeting line (\"A pleasure, Tsar!\") that has no clear source counterpart, though the repetitive, drunken greeting structure is preserved."
+          "justification": "The analysis requires that the viewer understand Bunsha is introducing himself as the Tsar, not greeting one. The candidate's 'Hello, Tsar!' and 'A pleasure, Tsar!' read as addressing a Tsar, and the self-introduction is never made explicit, which contradicts the essence of the analysis."
         }
       ]
     },
@@ -90,7 +90,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Leave me be\" and \"I am grieving\" lower the register relative to the archaic, high-register \"I am in sorrow\" that the analysis calls for. \"Grieving\" also narrows the general melancholy (\"в печали\") to mourning."
+          "justification": "'I am grieving' is modern and conversational, while the source 'я в печали' is archaic and high-register. 'Leave me be' also adds a colloquial tone, which weakens the regal melancholy the analysis describes."
         }
       ]
     },
@@ -189,10 +189,10 @@
       "candidate": "Black caviar, red caviar...\nAnd yes! Caviar from overseas...\nEggplant!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits any noun identifying the eggplant product (e.g., \"spread\"), so the final \"Eggplant!\" is less clear as the reveal than the reference's \"Overseas spread… eggplant!\". The analysis explicitly warns about viewer confusion here. The candidate does not wrongly call the spread caviar."
+          "justification": "The analysis explicitly warns against calling the eggplant spread 'caviar', yet the candidate's 'Caviar from overseas... Eggplant!' applies the word 'caviar' to the eggplant spread. This is the confusion the analysis flags and undermines the status-inversion punchline."
         }
       ]
     },
@@ -219,7 +219,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's central joke is the self-correction: \"куртка… замшевая… Три\" has him first state one jacket, then catch the forgotten count. The candidate flattens this into \"three suede jackets,\" losing the stumble and revision that the analysis identifies as what makes the joke funny."
+          "justification": "The analysis identifies the forgotten count on the suede jacket as the source of the joke. The candidate changes it to 'three suede jackets', which removes the count error and the punchline, and drops the source's pausing structure ending on 'Три'."
         }
       ]
     },
@@ -239,23 +239,29 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source's third clause 'и меня вылечат' has no 'too', but the candidate adds 'too' to 'They'll cure me too!', which is an addition not present in the source."
+        },
+        {
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate replaces the source's ellipses and connective \"и\" with exclamation marks and drops the opening conjunction. This shifts the calm, melodic resignation the analysis describes toward agitation and weakens the rhythm."
+          "justification": "The analysis describes Ulyana's 'melodic, calm resignation', which the source's ellipses convey. The candidate's exclamation marks make the delivery more agitated than the calm, resigned tone described."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 4
     },
-    "total_points": 14,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should have been in his place!\nGet drunk enough, and you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The opening address \"Guys,\" is omitted. Gorbunkov's dramatic announcement to his companions loses a little of its theatrical, declarative feel. The cop's retort is preserved and still works."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,14 +43,7 @@
         }
       },
       "candidate": "I'm no coward...\nbut I'm overpowered by fear!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The translation is identical to the reference, so by the stated rule it would receive no issues; however, it is retained unchanged and the analysis notes that the literal rendering creates no comic effect and loses the Trus/Boyus rhyme."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -143,7 +143,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate adds 'As our dear boss says,' which restores the attribution omitted in the reference, but the proverb itself has no rhythm or parallel structure ('teetotalers'/'convalescers' do not echo each other as trezvenniki/yazvenniki do). The analysis calls for at least some creative solution, and none is present."
+          "justification": "The proverbial, balanced 'law of nature' rhythm of trezvenniki/yazvenniki is only weakly echoed. The two '-ers' nouns give some parallelism, but there is no real creative rhythmic solution. 'Convalescers' is also a non-standard word (convalescents), and the added 'As our dear boss says' is set up awkwardly with a comma and a capitalised clause."
         }
       ]
     },
@@ -160,14 +160,7 @@
         "language_specific": {}
       },
       "candidate": "In the morning, champagne is drunk\nonly by aristocrats and degenerates.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The Russian is a rhyming social maxim (aristokraty/degeneraty). The English 'aristocrats and degenerates' carries no rhyme or punchy cadence, so the gravelly aphoristic quality is weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -383,13 +376,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 2,
     "meaning_units": 23,
-    "penalty_per_unit": 0.13043478260869565,
-    "major_equiv_per_unit": 0.02608695652173913,
-    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.08695652173913043,
+    "major_equiv_per_unit": 0.017391304347826087,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

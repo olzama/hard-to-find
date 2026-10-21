@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB explicitly says the items are lost, not possessed. 'Shpak tiña un magnetófono, o embaixador un medallón' says they merely had/owned the items, missing the theft callback and the point of the suspicion."
+          "justification": "The NB says the items are missing (each lost theirs). The candidate says Shpak 'tiña' a magnetophone and the ambassador 'un medallón', which is a past-possession reading that does not convey the loss and so the suspicion/theft callback is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vólvenme asaltar dúbidas difusas' is acceptably literary, but 'dúbidas difusas' is less mock-heroic than 'escuras sospeitas' and loses some of the theatrical, operatic register. The line breaks also fragment the delivery."
+          "justification": "'Vólvenme asaltar dúbidas difusas' keeps a reasonably elevated register, but 'dúbidas difusas' is weaker than the archaic mock-heroic 'asáltanme escuras sospeitas'. The line break also fragments the phrase."
         }
       ]
     },
@@ -44,7 +44,14 @@
         "language_specific": {}
       },
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. 'Moito gusto, tsar!' / 'Ola, tsar!' reads as addressing a Tsar, so the self-introduction is lost and the meaning is reversed."
+        }
+      ]
     },
     {
       "id": 3,
@@ -74,7 +81,14 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, que estou triste.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'triste' is flatter than the elevated, archaic 'aflixido' and weakens the regal melancholy and the contrast with the mundane Soviet setting."
+        }
+      ]
     },
     {
       "id": 5,
@@ -89,7 +103,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The NB requires the demons to be the subject. 'Emparedáronme, demos!' reads as a vocative address to the demons, which is what the NB rules out."
+        }
+      ]
     },
     {
       "id": 6,
@@ -149,7 +170,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nE si! Caviar de ultramar...\nDe berenxena!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The NB forbids calling eggplant spread 'caviar'. The candidate says 'Caviar de ultramar... De berenxena!', which confuses viewers and loses the contrast between the real caviar and the humble spread presented as an overseas delicacy."
+        }
+      ]
     },
     {
       "id": 10,
@@ -164,7 +192,14 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 caixas de cigarros nacionais,\nchaqueta de camurza, tres.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Caixas de cigarros' is less precise than 'cigarreiras' (cigarette cases). The dropped 'unha' and the 'tres' on the same line lose some of the status-item feel."
+        }
+      ]
     },
     {
       "id": 11,
@@ -179,19 +214,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén te curarán!\nE a min tamén me curarán!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate omits the first clause ('E a ti vante curar') and the build-up of 'you too, me too'. The rhythmic, resigned, melodic repetition is gone, and the reassurance to the other person is lost."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 5,
+      "minor": 3
     },
-    "total_points": 6,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate breaks the idiom and the key meaning of the callback: it fragments the sentence into labels, omits the idea that Shpak and the ambassador have lost their items, and loses the mock-heroic phrasing that carries the joke."
+          "justification": "The candidate breaks the required meaning of the list: it turns the items into a bare inventory ('Shpak: magnetófono') instead of saying that Shpak and the ambassador are missing their respective objects. This loses the joke’s premise and contradicts the analysis note."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The line is noticeably less polished and theatrical than the reference; the ellipsis and compressed labeling weaken the mock-heroic, suspicious tone."
         }
       ]
     },
@@ -43,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate fails to make clear that Bunsha is introducing himself as the Tsar; it reads like he is addressing or calling out to a tsar, which contradicts the scene and the analysis."
+          "justification": "The candidate does not clearly show Bunsha introducing himself as the Tsar repeatedly. By using only 'zar' with exclamations, it risks reading like he is addressing the Tsar rather than impersonating him, which the analysis explicitly warns against."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The repeated greeting is less natural and less deadpan bureaucratic than the reference, so the comic contrast with the royal persona is weakened."
+          "justification": "The phrasing sounds more like a neutral greeting than the awkward, repetitive formal Soviet cliché that creates the comedy in the original."
         }
       ]
     },
@@ -86,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estoy triste\" is flatter and less elevated than the reference's more formal, regal \"estoy afligido,\" which slightly weakens Ivan's archaic, high-register voice."
+          "justification": "‘Estoy triste’ preserves the basic meaning but weakens the elevated, archaic melancholy of ‘estoy afligido,’ which is important to the character voice."
         }
       ]
     },
@@ -108,7 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the construction so that \"emparedados\" becomes a standalone exclamation, which no longer clearly means \"they have walled me in.\" It also loses the subject role of \"demonios,\" making the joke less coherent."
+          "justification": "The candidate omits the key sense that he has been walled in/entombed and reduces the utterance to repeated fragments. The original’s comic complaint is not conveyed clearly, and the intended subject-structure about the demons is lost."
         }
       ]
     },
@@ -130,7 +136,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hace\" is understandable, but it is slightly more generic and less solemn than the reference's \"obra,\" so the religiously grand tone is somewhat weakened."
+          "justification": "‘Hace’ is understandable, but it slightly dulls the biblical/ritual tone of the approved phrasing. The line still works, but it is less resonant than 'obra'."
         }
       ]
     },
@@ -147,14 +153,7 @@
         "language_specific": {}
       },
       "candidate": "¡Que baile todo el mundo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"¡Que baile todo el mundo!\" is close in meaning, but it sounds more like a spontaneous command than the snappier, collective rallying cry of \"¡Todos a bailar!,\" slightly reducing the comic punch."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -171,10 +170,10 @@
       "candidate": "¡Qué bien que he venido!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate means \"it's good that I came,\" which can suggest mere arrival or hindsight, but it misses the idiomatic sense of having happened upon the right place by luck and does not convey the burglar's delighted discovery."
+          "justification": "‘¡Qué bien que he venido!’ is understandable, but it weakens the specific idea of pleasantly discovering he has come to the right place. The casual, opportunistic self-satisfaction of the original is less sharp."
         }
       ]
     },
@@ -196,7 +195,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the crucial joke about the fake 'overseas eggplant spread' and instead sounds like ordinary caviar from abroad. This removes the satirical Soviet food-shortage punchline and the contrast described in the analysis."
+          "justification": "The candidate drops the crucial joke that the cheap Soviet spread is 'eggplant caviar' presented as an exotic overseas delicacy. By separating ‘de ultramar’ and ‘de berenjena’ and omitting the playful setup, the punchline becomes unclear and the satirical contrast is weakened."
         }
       ]
     },
@@ -218,13 +217,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the joke's structure by using numerals and by making the final \"tres\" modify the coats more awkwardly, so the escalating-count gag is less clearly preserved."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrasing is somewhat clipped and unnatural in Spanish, especially the bare list form and the final \"chaquetas de ante... tres,\" which sounds less clean than the reference."
+          "justification": "Using numerals and shortening 'cámaras de cine' to 'cámaras' slightly reduces the specificity and comic buildup of the list, though the core joke remains intact."
         }
       ]
     },
@@ -246,14 +239,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
+      "major": 4,
       "minor": 6
     },
-    "total_points": 31,
+    "total_points": 26,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.3636363636363638,
+    "major_equiv_per_unit": 0.4727272727272728,
+    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Raise one\" and the exclamation mark lean toward a fairy-tale/parental tone, and \"Baba Yaga\" with no gloss keeps the line more folkloric. The workplace logic of \"train in-house\" (staffing/educational matter) is weaker, though \"in our own collective\" does keep the Soviet workplace flavor."
+          "justification": "\"Raise one\" and \"Baba Yaga\" keep the fairy-tale figure but are slightly less workplace-flavored than \"train one in-house\"; the transliterated Baba Yaga may not evoke the toxic-coworker type for English viewers. The bureaucratic \"collective\" does preserve some of the Soviet workplace logic, so the effect is only mildly weakened."
         }
       ]
     },
@@ -68,15 +68,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest diminutive \"коротенько\" is rendered as a flat \"briefly\" with no sense of cozy, patronizing understatement, and the leading \"And\" is dropped. The contrast with \"forty minutes\" is weakened, so the punchline loses much of its force."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"I don't think more is necessary\" is stiff and slightly unnatural; it lacks Ogurtsov's self-satisfied managerial tone, and the lowercase start with no trailing ellipsis loses the trailing, smug delivery."
+          "justification": "The faux-modest diminutive «коротенько» is rendered as plain \"briefly\", and the line is lowercase and fragmentary, so the patronizing, self-satisfied tone is flattened. The candidate does keep the order (briefness claim before the duration), but \"more is necessary\" is also stiffer than the casual \"I don't think we need any more than that\"."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of \"готов\" (ready / already drunk) is not recreated. \"Ready\" is translated literally, with no hint of intoxication. The reference's \"Oh, he's ready. He's been ready for quite a while\" supplies the knowing tone that hints at drunkenness, which is missing here, so the joke disappears."
+          "justification": "The candidate translates \"ready\" literally and adds nothing to evoke the \"drunk/done for\" subtext. The English \"been ready a long time!\" is a plain statement, so the double reading that makes the joke is lost. The administrative setup survives, but the alcoholic undertone is not recreated (the reference's \"Oh, he's ready\" at least hints at it)."
         }
       ]
     },
@@ -123,7 +117,14 @@
         }
       },
       "candidate": "- People!.. Ah... Hellooo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"People!.. Ah... Hellooo!\" keeps the broken, wavering shape, but the first word is a clean \"People!\" rather than a stretched, slurred form (Peo-ple!), so the drunken vocal instability is slightly weaker. The leading dash is also an unneeded addition."
+        }
+      ]
     },
     {
       "id": 6,
@@ -150,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the notes warn against. It sounds surreal rather than like a mangled \"unaided eye\", so the mock-scientific malformed idiom is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line ends with a comma and the second sentence is split from the first, losing the exclamatory, pompous build-up (\"take a telescope! And look...\")."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It does not echo the English \"unaided eye\", so the audience cannot recognize a familiar idiom being mangled into mock-scientific language; it sounds surreal rather than like drunken pseudo-scholarship."
         }
       ]
     },
@@ -182,16 +177,10 @@
       "candidate": "we can already see two little stars,\nthree little stars...\nFour little stars—and best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac association of \"five stars\" is not signaled by a note or any other means, so the sudden click into a different semantic world is likely lost for English viewers. The analysis flags this as needing a translator's note."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Little stars\" sounds childish and trivial, which suits the silly counting, but the punctuation (\"Four little stars—and best of all\") breaks the steady buildup of the count and weakens the abrupt shift to the punchline."
+          "justification": "The sequence is altered: \"two little stars, three little stars... Four little stars—and best of all, of course, five little stars!\" breaks the counting build-up with an ellipsis and a dash, which weakens the rhythm. More importantly, the cognac association is lost: \"little stars\" evokes a childish rhyme rather than the cognac star rating, and the candidate has no cue (such as \"five stars\" or a note) for the sudden shift into a different semantic domain, so the punchline becomes merely odd."
         }
       ]
     },
@@ -212,26 +201,19 @@
         }
       },
       "candidate": "Whether there is life on Mars, whether there isn’t\nlife on Mars—science does not know.\nScience is not yet up to speed.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Science does not know\" is more formal and stiff than the casual \"это науке неизвестно\", so the register mismatch is slightly weaker. The final line \"Science is not yet up to speed\" keeps the colloquial joke well."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 21,
+    "total_points": 22,
     "meaning_units": 8,
-    "penalty_per_unit": 2.625,
-    "major_equiv_per_unit": 0.525,
-    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.75,
+    "major_equiv_per_unit": 0.55,
+    "interpretation": "2.75 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

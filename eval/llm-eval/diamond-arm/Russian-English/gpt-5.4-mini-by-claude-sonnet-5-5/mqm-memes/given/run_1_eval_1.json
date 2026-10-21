@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "Guys,\nI should have been in his place.\nGet drunk enough, and you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate drops the exclamation and the dash/turn-taking, so the shift from Gorbunkov's dramatic declaration to the policeman's retort is less clear. The wording is otherwise identical to the reference and keeps the cop-humor effect."
+        }
+      ]
     },
     {
       "id": 2,
@@ -66,7 +73,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source opens the string of international forms of address with 'Леди'. The candidate replaces it with 'You know', which has no source basis. This weakens the comic list of 'Lady, signora, frau, miss' and the mashup of loanwords that the analysis describes."
+          "justification": "'Lady' is replaced by 'You know', so the opening string of international address terms (lady, signora, frau, miss) loses one element and the mashup is slightly weaker."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Verstehen' replaces the Russianized 'Ferstein' effect and the exclamatory, pompous delivery is flattened. The comic pseudo-international jargon survives overall."
         }
       ]
     },
@@ -128,7 +141,14 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\non someone else's dime, even teetotalers\nand convalescers drink.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate gives no rhythmic or parallel effect, which the analysis explicitly says to avoid. It is a plain literal rendering and loses the balanced proverbial feel of 'trezvenniki/yazvenniki'. It also omits the 'and' pairing in the reference."
+        }
+      ]
     },
     {
       "id": 9,
@@ -143,7 +163,14 @@
         "language_specific": {}
       },
       "candidate": "Champagne in the morning is drunk\nonly by aristocrats and degenerates!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The rhyme (aristokraty/degeneraty) is lost, as it is in the reference, but the candidate adds no compensating rhythm or gravelly authority. The line is accurate, but the 'social law' punch is slightly flat."
+        }
+      ]
     },
     {
       "id": 10,
@@ -193,7 +220,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The analysis centres on a melodic, elongated sigh ('Семё-он'), a weary 'facepalm'. The candidate drops the elongation and gives a flat, formal 'Semyonovich' in place of the colloquial 'Semyonych'. The tone of weary patience is lost."
+          "justification": "The elongated, melodic sigh ('Semyo-o-on') is not conveyed. The candidate gives a flat address with an ellipsis, so the 'gentle facepalm' of weary patience is lost."
         }
       ]
     },
@@ -210,7 +237,14 @@
         "language_specific": {}
       },
       "candidate": "May you live\non\nyour salary alone!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate compresses the pauses into line breaks and loses the 'on nothing but...' build-up. The curse still lands, but the theatrical weight and the suspense before 'salary' are weaker."
+        }
+      ]
     },
     {
       "id": 14,
@@ -317,10 +351,10 @@
       "candidate": "Well, if you're ever in Kolyma...\nIf you're ever in Kolyma - you're warmly invited!\nNo, better you visit us!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a line, 'If you're ever in Kolyma - you're warmly invited!', that is not in the source. It clutters the exchange and breaks the quick invitation-and-refusal rhythm. It also spells out the sincerity that the joke leaves implicit."
+          "justification": "The candidate adds a line, 'you're warmly invited!', that is not in the source. It also repeats the invitation in a way that makes the guest's offer clunky, and the reflexive horror of Gena's reply is diluted. The Kolyma joke is still present."
         }
       ]
     },
@@ -342,7 +376,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The analysis stresses Gena's affected pronunciation ('кофэ', 'вѫнну') as the marker of his pretentious, aristocratic delusions. The candidate renders it as plain 'coffee', with no affected marker, so this characterization is lost."
+          "justification": "Gena's affected pronunciation ('coff-ey', and the stilted 'vãnna') is not rendered at all. 'Coffee' is plain, so the marker of his pretentious, sophisticated pose is lost, which the analysis names as the key effect."
         }
       ]
     },
@@ -364,7 +398,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Нет? Будем искать…' becomes 'No, yes... we'll keep looking...'. The 'yes' has no source basis and makes the reply confusing, and Gorbunkov's polite stalling is muddled."
+          "justification": "'No, yes... we'll keep looking' is a mistranslation of the confirming 'No? Will search...'. The contradictory 'No, yes' confuses the sense and the stalling tactic. 'And don't you have' is also awkward."
         }
       ]
     },
@@ -386,14 +420,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 2
+      "major": 5,
+      "minor": 5
     },
-    "total_points": 17,
+    "total_points": 30,
     "meaning_units": 23,
-    "penalty_per_unit": 0.7391304347826086,
-    "major_equiv_per_unit": 0.14782608695652172,
-    "interpretation": "0.74 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3043478260869565,
+    "major_equiv_per_unit": 0.2608695652173913,
+    "interpretation": "1.30 MQM penalty points per meaning unit (≈ 0.26 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.4-mini"

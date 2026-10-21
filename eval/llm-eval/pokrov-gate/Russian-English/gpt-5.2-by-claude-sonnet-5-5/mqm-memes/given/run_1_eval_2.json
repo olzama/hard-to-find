@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "shall we toss back a quick one?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The sentence begins with a lowercase 's' ('shall we toss back a quick one?'). It is a new sentence and should be capitalized. The wording and the colloquial, ironic register otherwise match the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -178,7 +171,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a second line, 'So entirely contradictory!', that repeats the end of the first line. The source says «такая противоречивая вся» only once, so this is an unwarranted addition. It also makes the character's self-description sound stuck, which weakens the natural coquettish rhythm of the tirade. The core translation of the line is otherwise equivalent to the reference."
+          "justification": "The candidate adds a second 'So entirely contradictory!' line that is not in the source, where the character says 'такая противоречивая вся' once. The repetition falls within a single segment rather than across consecutive segments, so it reads as an addition. It slightly changes the rhythm of the trailing self-description and clutters the subtitle. The rest of the translation matches the reference and keeps the affected, self-dramatizing tone."
         }
       ]
     }
@@ -186,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

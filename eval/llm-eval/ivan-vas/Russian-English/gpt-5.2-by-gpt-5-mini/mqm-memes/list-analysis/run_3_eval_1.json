@@ -33,10 +33,10 @@
       "candidate": "Tsar—very pleased. Tsar.\nVery pleased. Hello, Tsar.\nTsar—very pleased.\nHello, Tsar! Very pleased!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing a Tsar ('Hello, Tsar') rather than introducing himself as the Tsar. The analysis stresses that he is impersonating/introducing himself as 'the Tsar' (not speaking to a monarch); the candidate therefore changes the pragmatic meaning and undermines the joke."
+          "justification": "The repetition 'Tsar—very pleased' conveys the ritualistic politeness, but it is somewhat ambiguous about whether Bunsha is introducing himself as 'the Tsar' (as required by the analysis) or addressing a Tsar. The line should more clearly signal self-introduction; the candidate risks losing the specific comic premise that he is impersonating the Tsar."
         }
       ]
     },
@@ -71,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The original 'я в печали' conveys sorrow/melancholy; the candidate's 'I'm in mourning' suggests bereavement and is a stronger, more specific meaning than intended, slightly shifting the tone."
+          "justification": "Replacing 'I am in sorrow' with 'I'm in mourning' slightly narrows the nuance (mourning implies death) and shifts register. It still communicates regal melancholy, but the choice subtly changes the tone of the original archaic sadness."
         }
       ]
     },
@@ -93,9 +93,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The phrasing 'Bricked in!' is awkward and colloquial compared with the archaic-exclamatory register in the analysis. While the meaning (being walled/bricked in by demons) is preserved, the expression is stilted and loses some of the original's dramatic register."
+          "justification": "The terse 'Bricked in!' captures the idea of being walled in but is idiomatic and a little awkward. More importantly, 'Bricked in, the demons!' is slightly ambiguous about whether the speaker is addressing demons or accusing them as the subject; the original requires the demons to be the subject (they have walled him in)."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "So that’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's 'So that’s what the life-giving cross can do!' is more conversational and modern than the lofty, archaic 'Behold the power of the life-giving cross!' described in the analysis, softening the Tsar's grand, religious conviction."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -199,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 3
     },
-    "total_points": 8,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

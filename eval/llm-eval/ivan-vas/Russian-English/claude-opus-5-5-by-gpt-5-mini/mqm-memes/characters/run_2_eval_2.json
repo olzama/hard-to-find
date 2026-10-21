@@ -21,14 +21,7 @@
         }
       },
       "candidate": "Again I'm tormented\nby vague doubts...\nShpak's missing a tape recorder,\nthe ambassador a medallion.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The phrasing 'Shpak's missing a tape recorder, the ambassador a medallion' is ambiguous and reads as if only Shpak lacks an item while the fragment 'the ambassador a medallion' is elliptical. The analysis stresses that the Russian means these items have been lost (they no longer have them). The candidate risks failing to make that clear to the viewer."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -48,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that Bunsha be clearly introducing himself as the Tsar (not addressing a Tsar). Lines like 'Very pleased, Tsar!' read as direct address to a Tsar rather than 'I am the Tsar, very pleased to meet you.' This changes who is being identified and undercuts the comic premise that Bunsha is impersonating/announcing himself as the Tsar."
+          "justification": "The candidate reads like Bunsha is addressing a tsar ('Very pleased, Tsar!'), whereas the original and analysis make clear he is absurdly introducing himself as the Tsar. This changes the pragmatic meaning and undercuts the joke about him impersonating the monarch."
         }
       ]
     },
@@ -100,7 +93,14 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nThey've walled me in, the demons!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The line 'They've walled me in, the demons!' is slightly ambiguous and can be read as a vocative address to the demons rather than stating that demons are the agents who walled him in. The analysis stresses that 'demons' should be the subject (they walled me in), so the phrasing weakens that intended reading."
+        }
+      ]
     },
     {
       "id": 6,
@@ -182,10 +182,10 @@
       "candidate": "Caviar, black, red...\nYes! And overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the punchline as 'And overseas caviar... Eggplant!' which explicitly labels the eggplant spread as 'caviar.' The analysis warns against calling the eggplant spread 'caviar' in translation because that will confuse viewers; the approved reference avoids that by treating it as an 'overseas spread.'"
+          "justification": "The candidate presents 'eggplant' as 'overseas caviar... Eggplant!', which effectively labels the eggplant spread as caviar. The analysis explicitly warns against calling eggplant spread 'caviar' — the joke depends on eggplant spread being a cheap Soviet product presented ironically as an exotic delicacy, not being literally called caviar."
         }
       ]
     },
@@ -212,7 +212,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original gag depends on Shpak losing track of counts (the suede jacket is first hesitated over, then the repeating 'Three' is funny). The candidate pluralizes 'suede jackets' and presents the final count straightforwardly, which smooths over the comic hesitation and the incremental inflation of the list, weakening the joke's timing and character effect."
+          "justification": "The candidate smooths the list into 'suede jackets — three,' losing the original's incremental, self-contradictory counting rhythm (he hesitates and then says 'Three'), which is the source of the comic effect. The meaning is preserved but the joke's timing is weakened."
         }
       ]
     },
@@ -234,14 +234,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 2,
+      "minor": 2
     },
-    "total_points": 8,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

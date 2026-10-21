@@ -41,7 +41,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts the threatened person from second person (“you”) to third person (“his”), which softens the directness of the original threat. It also keeps the non‑idiomatic image of knocking horns off contrary to the guidance to avoid that literal phrasing; the line remains understandable but departs subtly from the original force and address."
+          "justification": "The candidate uses the non-idiomatic phrasing “knock his horns off,” which the analysis specifically warns against; it also shifts the direct address slightly (his vs. the more general threat), and ends with an explanatory “working to pay for medicine” rather than the compact, verdict-like finality of the Russian clause."
         }
       ]
     },
@@ -78,7 +78,14 @@
         }
       },
       "candidate": "This Vasily Alibabaevich...\nthis... not-nice person...\ndropped a radiator on my foot, the rat bastard!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Rendering «нехороший человек» as “not-nice person” sounds childish and flattens the oddly restrained, moralizing euphemism in the Russian; the ending “rat bastard!” suitably captures «падла», but the middle phrase weakens the intended contrast between polite register and rough insult."
+        }
+      ]
     },
     {
       "id": 5,
@@ -98,7 +105,14 @@
         }
       },
       "candidate": "Steal, drink - off to prison.\nSteal, drink - off to prison.\nRomance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The formulaic cadence is preserved, but the final word “Romance!” risks being read as straightforward romantic love rather than the ironic romanticization of a miserable criminal cycle; the analysis warned this could be ambiguous in English."
+        }
+      ]
     },
     {
       "id": 6,
@@ -133,14 +147,7 @@
         }
       },
       "candidate": "Move the horse, may I never walk free!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the nontechnical «horse» but converts the prison‑coded oath into a first‑person wish (“may I never walk free”), changing the original’s threatening guarantee (“you’ll never see freedom”) into a self‑cursing formula. This alters the register and the way the prison oath functions."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -225,7 +232,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using the fully correct word “citizen” reduces the comic effect of the original incorrect/awkward address («гражданина»). The candidate preserves the broken grammar and blunt warning but loses a layer of the original nonstandard addressal."
+          "justification": "The candidate preserves the broken grammar, but uses the fully standard “citizen,” which loses part of the original comic effect of the grammatically wrong address «гражданина»; otherwise the blunt final clause and nonstandard syntax are well rendered."
         }
       ]
     },
@@ -322,7 +329,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the feminine–masculine–feminine exchange but renders «дура» as “silly cow,” which weakens the original’s blunt feminine insult. The line becomes milder and slightly more comical than the harsher, contemptuous tone intended."
+          "justification": "The candidate preserves the sequence but replaces «дура» with “silly cow,” which alters the tone and punch: it is milder and shifts register (and may be read as a different kind of insult), losing the direct, feminine-targeted sting of the original."
         }
       ]
     },
@@ -346,10 +353,10 @@
       "candidate": "Little one, don't you feel your place is\nnext to the latrine bucket?",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Rendering «параша» as “latrine bucket” makes the term a literal toilet object rather than the strong prison‑status slur it is in context. This reduces the line’s function of assigning the addressee to the lowest rank of the inmate hierarchy."
+          "justification": "Translating «параша» as “latrine bucket” literalizes the term and reduces its function as a prison-status slur that consigns someone to the lowest place in the inmate hierarchy. This change weakens the original's harsh, socially coded insult and thus undermines the comic/prison-register effect."
         }
       ]
     },
@@ -374,23 +381,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The use of “hooligans” is dated/British and the phrase “depriving me of my eyesight” is somewhat literal and formal; the original comic effect depends on a slightly formal, bureaucratic‑sounding complaint in contemporary, natural language. The candidate is understandable but not the best idiomatic match."
+          "justification": "The formal phrase “depriving me of my eyesight” captures the bureaucratic tone, but the choice “hooligans” is a dated or regionally marked term that the analysis advised against; a more neutral contemporary term would better match the intended register while keeping the comic formality."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 6
     },
-    "total_points": 6,
+    "total_points": 11,
     "meaning_units": 18,
-    "penalty_per_unit": 0.3333333333333333,
-    "major_equiv_per_unit": 0.06666666666666667,
-    "interpretation": "0.33 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6111111111111112,
+    "major_equiv_per_unit": 0.12222222222222223,
+    "interpretation": "0.61 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

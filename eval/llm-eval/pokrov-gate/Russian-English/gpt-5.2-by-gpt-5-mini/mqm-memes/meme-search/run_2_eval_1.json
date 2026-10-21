@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves meaning and the jocular challenge, but it tones down the bombastic, self‑dramatic stage persona signaled in the analysis. The shorter, more prosaic phrasing ('Name one! No, I’m waiting.') is less grandiose than the reference's theatrical 'Pray, tell me... I'll wait!'."
+          "justification": "The candidate captures the meaning and the teasing demand for names, but it loses some of the heightened, self-dramatic theatricality of the approved translation (the more florid \"Pray, tell me... I'll wait!\"). The line is slightly more prosaic and less performative than the analysis indicates the meme should be."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Arkady Varlamovich—how about a shot?",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate inserts a proper name ('Arkady Varlamovich') that is not present in the source, changing the address and slightly altering the interpersonal dynamics. The casual provocation ('how about a shot?') itself is acceptable, but the added name is an unnecessary addition."
+          "justification": "The candidate inserts a proper name (\"Arkady Varlamovich\") that is not present in the source and changes the interactional dynamic. The original functions as a generic, mischievous nudge lowering the previous monologue's pathos; adding a direct address makes the line more specific and alters the jokey, mediating role described in the analysis."
         }
       ]
     },
@@ -65,7 +65,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'Such... such elevated arrangements.' uses a noun ('arrangements') that reads more literal and less idiomatically sarcastic than the reference's playful, stuttering exclamation. It weakens the familiar refrained, ironic tone of the original."
+          "justification": "The candidate preserves the basic idea but renders the line as a literal noun phrase (\"elevated arrangements\") and drops the stuttering/sarcastic cadence that is central to the refrain's comic effect. This makes the line feel less idiomatic and less recognizably meme-like."
         }
       ]
     },
@@ -85,9 +85,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate ('People don’t live for joy—they live by conscience.') keeps the general idea but shifts register and nuance: 'live by conscience' is more abstract and less idiomatic than the reference's 'you live to do your duty,' which better captures the soldierly fatalism and moral‑duty framing in the analysis."
+          "justification": "Meaning is preserved (duty over personal happiness), but \"live by conscience\" is slightly awkward and less idiomatic than the reference's natural phrasing conveying soldierly fatalism (\"live to do your duty\"). The translation could be smoother to match the original's bluntness."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'You cook!' is a literal, clipped phrasing that sounds unnatural in English for the intended biting, sarcastic reprimand. The analysis recommends an ironic idiom like 'Some cook you are!'—the candidate fails to replicate that idiomatic bite."
+          "justification": "The candidate's \"You cook!\" is a literal and neutral statement that fails to deliver the biting, ironic domestic insult in the analysis. It loses the absurd, vociferous quality of the original exclamation that treats a neutral profession-term as a sharp household rebuke."
         }
       ]
     },
@@ -141,14 +141,7 @@
         "language_specific": {}
       },
       "candidate": "Natürlich, Margarita Pavlovna.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "Keeping the original German 'Natürlich' is appropriate, but the candidate appends 'Margarita Pavlovna,' which the source does not include. This unnecessary addition alters the brevity and automaticity of the verbal tic that the analysis highlights."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -178,14 +171,7 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that’s petty!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate transliterates the name as 'Khabotov' rather than a closer rendering of 'Khobotov' (or 'Khobotov' as in the reference). The name misspelling is an accuracy issue even though the rest of the line preserves the intended dismissive tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -205,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits and literalizes the phrase ('It’s my cross! And I will bear it.'), losing the English fixed idiom 'a cross to bear' and thereby weakening the manipulative, self‑sacrificial rhetorical punch emphasized in the analysis."
+          "justification": "The candidate conveys the literal meaning, but it slightly fragments the idiom and lacks the concentrated manipulative hyperbole of the reference (\"This is my cross to bear! And mine alone!\"). The phrasing is serviceable but less idiomatically forceful."
         }
       ]
     },
@@ -227,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' as a direct rendering of 'угловатая,' which the analysis explicitly warns against. 'Angular' reads literal and awkward in this self‑deprecatory context, making the line less idiomatic and undermining the intended coquettish, mannered tone."
+          "justification": "The candidate uses \"angular\" to translate «угловатая», which the analysis explicitly warns against because it reads as overly literal and odd in English. The rest of the line preserves the self-mocking register, but the choice \"angular\" weakens naturalness and the intended coquettish awkwardness."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 9
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 9,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

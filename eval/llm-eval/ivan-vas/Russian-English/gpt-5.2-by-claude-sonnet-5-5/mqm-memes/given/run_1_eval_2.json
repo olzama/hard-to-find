@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.\nThe Tsar, very pleased.\nHello, the Tsar! Very pleased!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "After the full rendering, the candidate adds extra lines ('The Tsar, very pleased.' and 'Hello, the Tsar! Very pleased!') that go beyond the three-sentence source. The self-introduction as the Tsar is preserved, but the added repetition inflates the gag."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -143,14 +136,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar... and yes! Overseas spread... eggplant!\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds a standalone 'Eggplant!' line that is not in the source. The punchline is not damaged, and the eggplant spread is correctly not called caviar, but the addition is unnecessary."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -185,7 +171,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate replaces the ellipses with exclamation marks on the first two clauses. This makes the delivery emphatic, whereas the analysis describes a melodic, calm resignation, so the tone is somewhat weakened."
+          "justification": "The exclamation marks on 'And they'll cure you!' and 'And they'll cure you too!' make the delivery emphatic, which works against the melodic, calm resignation the analysis describes. The wording is correct, and only the final 'And they'll cure me...' keeps the trailing, resigned tone."
         }
       ]
     }
@@ -193,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

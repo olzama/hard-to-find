@@ -58,7 +58,14 @@
         }
       },
       "candidate": "just briefly, about\nforty minutes—more, I think,\nisn’t necessary",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The diminutive, self-satisfied tone of «коротенько» (a faux-modest 'just a little') is weakened by the plain 'just briefly.' The comic contrast between 'briefly' and 'forty minutes' still works, but the cozy, patronizing flavor is slightly lost and the latter clause ('more, I think, isn’t necessary') reads a bit awkwardly."
+        }
+      ]
     },
     {
       "id": 4,
@@ -120,10 +127,10 @@
       "candidate": "But we only have to take a telescope...\nAnd look with an armed eye",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate's literal calque “armed eye” sounds oddly surreal in English and loses the intended mock‑scientific echo of the familiar phrase “the unaided eye.” The analysis recommends a solution that preserves a near‑familiar idiom (e.g. “aided eye”) so the line reads as a slightly mangled pseudo‑scientific expression rather than an unexpectedly strange image."
+          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis warns against: in English this reads oddly and surreal rather than as a recognizably 'mock‑scientific' deformation of the idiom 'the unaided eye.' The intended comic effect (a slightly wrong, pseudo‑scientific phrasing) is lost or distorted by the literalness."
         }
       ]
     },
@@ -171,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 1
     },
-    "total_points": 1,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.125,
-    "major_equiv_per_unit": 0.025,
-    "interpretation": "0.12 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

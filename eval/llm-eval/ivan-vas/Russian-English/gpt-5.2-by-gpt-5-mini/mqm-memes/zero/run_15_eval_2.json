@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies possession. The analysis and NB make clear the original means they have lost those items (they are the victims), not that they currently possess them. This reverses the meaning and undermines the joke's implication about missing goods."
+          "justification": "The candidate renders У Шпака — у посла as possession ('Shpak has... the envoy has...'), whereas the analysis/note specifies these items are no longer with them (they were lost/stolen). This reverses the intended meaning and undermines the joke about missing goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original line is Bunsha introducing himself as the Tsar (satirically claiming the identity). The candidate reads as addressing someone called 'Tsar' ('Very nice, Tsar!'), which changes the gag: it no longer clearly communicates that Bunsha is introducing himself as the Tsar, losing the key comedic premise noted in the analysis."
+          "justification": "The line must make clear that Bunsha is introducing himself as the Tsar (not addressing a tsar). The candidate reads as addressing the Tsar ('Very nice, Tsar!'), which contradicts the analysis and removes the core comic premise of self-introduction and impersonation."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Leave me, old woman, I'm sad.' renders the Tsar's line in plain modern speech. The analysis emphasizes an archaic, high-register tone ('I am in sorrow') that contrasts with the mundane setting; the candidate flattens that register and loses some of the mock-heroic, archaic flavor."
+          "justification": "The candidate ('I'm sad') flattens the archaic, high-register tone of the original ('I am in sorrow' / 'я в печали'), weakening the regal, old-fashioned voice that creates the contrast with the modern setting."
         }
       ]
     },
@@ -99,10 +99,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source means 'They've walled me in... (they have enclosed me),' and the NB stresses that 'demons' are the subject (they did it), not a vocative. The candidate's 'Walled up! / Walled up, demons!' is ambiguous and reads as addressing demons ('Walled up, demons!') rather than clearly saying 'the demons have walled me in,' slightly altering the intended subject and nuance."
+          "justification": "The analysis notes that 'demons' must be the subject (they walled him in), not vocatively addressed. The candidate's punctuation/ordering ('Walled up, demons!') reads as addressing demons, changing the grammatical role and the intended meaning of the complaint."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the meaning but loses the elevated, archaic exclamatory register ('Behold the power of the life-giving cross!'). 'That's what the life-giving cross does!' is colloquial and less dramatic, softening the mock-religious grandeur that contributes to the joke."
+          "justification": "The candidate preserves the literal meaning but uses a colloquial construction ('That's what... does!') that slightly reduces the lofty, ritualistic register ('Behold the power of the life-giving cross!') important for the comedic clash with Soviet atheism."
         }
       ]
     },
@@ -176,7 +176,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's phrasing 'Foreign caviar... Eggplant!' risks implying that the eggplant spread is being called 'caviar.' The analysis warns against translating баклажанная as 'caviar' to avoid confusing viewers. The line should make clearer that the eggplant is the cheap 'eggplant spread' highlighted as if it were exotic."
+          "justification": "The analysis warns against calling eggplant spread 'caviar' to avoid confusion. The candidate groups 'Foreign caviar... Eggplant!' in a way that could imply the eggplant is being presented as a type of (foreign) caviar, which risks confusing the intended satirical contrast."
         }
       ]
     },
@@ -193,7 +193,14 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nsuede jackets—three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The original joke depends on the incremental listing and the momentary slip over the count of 'three' (and the singular 'jacket' hesitation). The candidate pluralizes 'suede jackets' and presents the counts more flatly, which weakens the specific comic effect of the slip."
+        }
+      ]
     },
     {
       "id": 11,
@@ -213,14 +220,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 4
     },
-    "total_points": 14,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

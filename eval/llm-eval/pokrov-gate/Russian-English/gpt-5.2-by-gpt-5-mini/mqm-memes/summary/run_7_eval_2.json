@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the meaning but loses the heightened, self-dramatic theatricality of the original/memetic line (the reference's mock-grandiose tone). The curt \"Name one! No, I'm waiting.\" is natural but slightly flattens the stagey flourish implied in the analysis."
+          "justification": "The candidate preserves meaning and the teasing demand for names, but loses some of the heightened, self-dramatic theatricality of the reference (the jocular 'pray, tell me' flourish). Tone is slightly flatter."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase \"we knock back a little one?\" is understandable and captures the informal invitation, but the wording is slightly awkward in English—\"a little one\" feels clumsy. Also the line-break and lowercase start are stylistic choices that reduce fluency on screen."
+          "justification": "The casual invitation is preserved, but the phrase 'we knock back a little one' is slightly awkward in English (especially 'a little one'). A more natural colloquial option would mirror the breezy idiomality of the reference."
         }
       ]
     },
@@ -63,9 +63,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Rendering the line as the literal noun phrase \"High... high relations.\" goes against the analysis' instruction to avoid a literal noun-phrase structure. This loses the idiomatic, exclamatory sarcastic refrain and reads unnaturally in English, undermining the comic effect and refrain function."
+          "justification": "The candidate renders the line as a flat noun phrase ('High... high relations.'), which violates the analysis guidance to avoid a literal noun-phrase structure. It loses the sarcastic, exclamatory refrain and the stuttering ironic emphasis that make the original memetic."
         }
       ]
     },
@@ -87,7 +87,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People don’t live for joy—they live for conscience\" is a literal rendering that keeps the general idea but sounds stilted and less idiomatic than the reference. The register and fatalistic soldierly bluntness are somewhat weakened by the unusual English phrasing \"live for conscience.\""
+          "justification": "The candidate conveys the fatalistic sense but uses 'conscience' in a way that sounds slightly odd or formal in English compared with the more natural 'duty'/'to be happy' construction. The phrasing is passable but a bit stilted."
         }
       ]
     },
@@ -104,7 +104,14 @@
         "language_specific": {}
       },
       "candidate": "Note: that wasn't my suggestion.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The line keeps the meaning and comic distancing, but 'Note:' is less idiomatic than 'For the record' in this context; the phrasing weakens the performative, charmingly evasive tone a little."
+        }
+      ]
     },
     {
       "id": 6,
@@ -124,7 +131,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Using the literal noun \"Culinarian!\" replicates the 'Things to avoid' warning: it sounds unnatural and removes the biting domestic insult of the original. The comic effect depends on an idiomatic, scolding exclamation (e.g. \"Some cook you are!\"); the candidate's literal professional term undermines that effect."
+          "justification": "Using 'Culinarian!' produces an unnatural, overly literal and awkward exclamation in English. The analysis explicitly warns against such literal professional nouns; the candidate fails to reproduce the sharp, colloquial insultal bite of the original."
         }
       ]
     },
@@ -158,10 +165,10 @@
       "candidate": "Cut it out, to hell with it.\nWithout waiting for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate conveys the warning but splits and softens the original brusque surgical imperative. \"Cut it out, to hell with it. Without waiting for peritonitis.\" is awkwardly phrased and loses some of the abrupt, darkly comic force of the reference's single-line command."
+          "justification": "The original surgical, brusque imperative ('Cut it the hell out' meaning perform the cut) is turned into 'Cut it out, to hell with it,' which reads as 'stop that' rather than a violent surgical verdict. The medical farce element and abruptness are lost."
         }
       ]
     },
@@ -180,10 +187,10 @@
       "candidate": "Khibotov, that’s petty!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the name as \"Khibotov\" instead of a more accurate transliteration like \"Khobotov.\" This alters the character name and may confuse viewers and reduce consistency across subtitles, though the meaning of the line remains."
+          "justification": "The character name is mistransliterated as 'Khibotov' instead of 'Khobotov', which is an accuracy error that undermines the repeated formulaic address central to the film's power. The rest of the line is acceptable but the name error is significant."
         }
       ]
     },
@@ -205,7 +212,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the idiomatic construction and the referent: \"He is my cross to bear!\" turns the abstract burden into the person (the man) himself, which shifts the meaning and weakens the manipulative, self-sacrificial posturing of the original. The idiom is also split awkwardly across lines, reducing its force."
+          "justification": "The candidate changes the construction to 'He is my cross to bear!', making the person the 'cross' and thus altering the idiomatic meaning. It also omits the emphatic 'mine alone' idea. This distorts the manipulative, self-sacrificial rhetorical effect the analysis highlights."
         }
       ]
     },
@@ -227,14 +234,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 5,
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 29,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.6363636363636362,
+    "major_equiv_per_unit": 0.5272727272727272,
+    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

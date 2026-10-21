@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! Go on, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and the boastful challenge, but reduces the heightened theatrical self-dramatization signalled in the analysis (\"Pray, tell me... I'll wait!\"). The phrasing is more colloquial and less grandiloquent than the reference, slightly weakening the character's stagey tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The informal intention is preserved, but \"knock back a little glass\" is slightly awkward/unidiomatic in English. A more natural phrasing would be e.g. \"knock back a quick one\" or \"have a little glass.\""
+          "justification": "The phrase \"knock back a little glass\" is slightly awkward and non-idiomatic in English; a more natural colloquial rendering would be \"knock back one\" or \"toss back a quick one,\" as noted in the analysis."
         }
       ]
     },
@@ -67,10 +60,10 @@
       "candidate": "Lofty... Lo-o-ofty relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The repeated stretching of the word is preserved, but using the noun \"relations\" echoes the literal noun-phrase warned against in the analysis. It reads less like a natural exclamation in English than the more idiomatic, sarcastic exclamatory phrasing the analysis prefers."
+          "justification": "The candidate preserves the stretched delivery but renders the line as a literal noun phrase \"Lofty... Lo-o-ofty relations,\" which the analysis warns against. This literal noun-phrase loses the sarcastic exclamatory idiom and the mocking highbrow tone achieved by a more natural exclamation (e.g. \"What an evolved...\"), reducing the comedic effect and character voice."
         }
       ]
     },
@@ -89,10 +82,10 @@
       "candidate": "We don't live for joy. We live for conscience.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps the maxim's sense but \"We live for conscience\" is non-idiomatic in English and softens the soldierly, duty-centered fatalism (\"live for conscience\" reads abstract and awkward compared with the idiomatic \"live to do your duty\")."
+          "justification": "\"We don't live for joy. We live for conscience.\" is a literal but awkward rendering that shifts and weakens the original meaning. The reference's idiom expresses duty/obligation (\"you live to do your duty\"); \"live for conscience\" is unidiomatic in English and loses the soldierly, moral-duty register central to the analysis."
         }
       ]
     },
@@ -201,10 +194,10 @@
       "candidate": "He's my cross!\nAnd it's mine to bear.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate renders the idiom as \"He's my cross!\" which literalizes the metaphor by turning the person into the cross. This alters the manipulative rhetorical effect: the original expresses faux self-sacrifice (\"a cross to bear\"), while the candidate shifts the construction and risks changing the intended idiomatic meaning and tone of grandiose martyrdom."
+          "justification": "Rendering the line as \"He's my cross! And it's mine to bear.\" awkwardly personifies the idiom and slightly alters the English idiomatic structure. While the manipulative possessiveness is still present, the phrasing is less natural than the established idiom \"a cross to bear,\" and it splits the fixed expression in a way the analysis warns against."
         }
       ]
     },
@@ -231,14 +224,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 4
+      "major": 2,
+      "minor": 2
     },
-    "total_points": 9,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

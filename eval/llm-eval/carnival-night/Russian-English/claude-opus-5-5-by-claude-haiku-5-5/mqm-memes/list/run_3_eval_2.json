@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"See the New Year in cheerfully\" is awkward: the idiom is \"see the New Year in\", and placing \"cheerfully\" after the particle makes the phrasing sound unnatural. The directive register and bureaucratic tone are preserved."
+          "justification": "\"see the New Year in cheerfully\" is an awkward construction. The idiom \"see in the New Year\" does not take a directional \"in cheerfully\", so the line reads as stilted rather than as smooth official phrasing. The bureaucratic directive register is preserved."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The clause \"I think, he gives his address\" is a mistranslation and addition. The source says \"больше, я думаю, не надо\" (\"I don't think more is needed\"), so the modest-sounding closing reversal and the punchline are lost. \"He gives his address\" has no basis in the source and makes the line incoherent."
+          "justification": "The final clause \"he gives his address\" is not in the source. It adds a new claim about a speech and garbles the punchline, which should end on \"I don't think we need any more than that.\" The candidate's \"no more, I think\" already carries that point, so the appended clause distorts the comic reversal."
         }
       ]
     },
@@ -90,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "- People!.. Uh... Hello-o-o?!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The stretched, broken \"Peo-ple\" of the source is normalized to \"People!..\". The ellipsis gives some hesitation, but the vocal instability the analysis asks for is weaker. \"Hello-o-o?!\" with a rising question mark slightly changes the call into a query, though it still conveys the faltering attempt to address a crowd."
+        }
+      ]
     },
     {
       "id": 6,
@@ -113,9 +120,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "\"un-naked eye\" is a hyphenated coinage that reads as silly wordplay rather than a familiar expression being wrongly upgraded into pseudo-scientific language. The aided/unaided echo of the reference, which the analysis singles out as the working solution, is not recreated."
+        },
+        {
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Un-naked eye\" is a workable mangling of the idiom and keeps the sense of a familiar expression being wrongly altered. However, it reads as cute or silly rather than as mock-scientific pomp, so the lecturer's pseudo-scholarly tone is weakened."
+          "justification": "The source ends on \"!..\", a trailing flourish of drunken oratory. The candidate ends on a comma, which drops the dramatic pause and weakens the closing beat of the lecturer's pseudo-scientific flourish."
         }
       ]
     },
@@ -137,7 +150,14 @@
         }
       },
       "candidate": "and already we see two\nstars, three stars...\nFour stars... Best of all,\nof course, is five-star!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The cultural point that \"five-star\" refers to cognac grading is not recoverable without a translator's note, which the analysis flags as needed. Unaided, \"five-star\" reads as hotel or restaurant ratings. The sudden shift to a different semantic world still happens, but the specific punchline association is lost."
+        }
+      ]
     },
     {
       "id": 8,
@@ -152,19 +172,26 @@
         "language_specific": {}
       },
       "candidate": "Is there life on Mars, or is there no\nlife on Mars — science\ndoes not know.\nScience has not yet been brought into the loop.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"or is there no life on Mars\" is clunky. \"or not\" or \"or no life on Mars\" would sound more natural in lecture speech. The casual register of \"brought into the loop\" and the content of the line are otherwise preserved."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 2
+      "minor": 6
     },
-    "total_points": 7,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

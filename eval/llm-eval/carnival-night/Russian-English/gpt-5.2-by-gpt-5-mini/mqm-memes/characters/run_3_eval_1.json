@@ -58,14 +58,7 @@
         }
       },
       "candidate": "very briefly—about\nforty minutes, no more, I think\nthat’s enough",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The diminutive, slightly cozy nuance of «коротенько» is reduced by the plain 'very briefly.' The crucial comic contrast between a faux-modest lead-in and an absurdly long 'forty minutes' still holds, but the candidate loses a touch of Ogurtsov's patronizing, diminutive tone that heightens the irony."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -127,10 +120,10 @@
       "candidate": "But we need only take\na telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as 'armed eye,' a close calque that reads stranger and more surreal in English than the playful mock‑scientific deformation in Russian. The analysis recommends a solution like 'aided eye' to preserve the slightly off, pseudo‑scientific feel without overdoing oddness."
+          "justification": "The candidate renders «вооружённым глазом» as “armed eye,” a literal calque that reads as oddly surreal in English and loses the intended mock‑scientific subtlety. The analysis warns that a direct calque like “armed eye” does not work in English; the line should evoke a slightly wrong, pseudo‑scientific version of a familiar idiom (e.g., “aided/with the aided eye”) so the drunken lecturer sounds pretentiously scholarly rather than producing a bizarre image. The current wording therefore contradicts the analysis and harms the comic effect."
         }
       ]
     },
@@ -178,14 +171,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 1,
+      "minor": 0
     },
-    "total_points": 2,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

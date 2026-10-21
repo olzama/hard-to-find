@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak has a tape recorder, the envoy has a medallion\" reverses the meaning flagged in the NB: the items have been lost/stolen, not possessed. The candidate states possession, which misleads the viewer about the connection Bunsha is drawing."
+          "justification": "\"Shpak has a tape recorder, the envoy has a medallion\" reverses the meaning: the Russian implies each lost the item (they no longer have them). The analysis explicitly forbids the 'has' rendering."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Vague suspicions torment me\" keeps some of the elevated register, but \"suspicions\" shifts the sense slightly from \"doubts\" and weakens the echo of the mock-operatic quotation."
+          "justification": "\"Vague suspicions torment me\" keeps a reasonably elevated register, but \"haunt\" or \"torment... vague doubts\" better preserves the mock-heroic, theatrical tone."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Very pleased, Tsar!\" / \"Hello, Tsar!\" reads as Bunsha addressing a Tsar, which the NB explicitly says must be avoided. The candidate never makes clear he is introducing himself as the Tsar."
+          "justification": "\"Very pleased, Tsar!\" and \"Hello, Tsar!\" read as Bunsha addressing a Tsar rather than introducing himself as the Tsar. The NB explicitly requires making the self-introduction clear, so the core joke is lost."
         }
       ]
     },
@@ -101,7 +101,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Walled up, demons!\" reads as the Tsar addressing the demons, contradicting the NB that demons must be the subject of the sentence. It should be something like \"The demons have walled me in\"."
+          "justification": "\"Walled up, demons!\" reads as a vocative, addressing the demons, which the NB forbids. The demons must be the subject (\"the demons walled me in\")."
         }
       ]
     },
@@ -123,7 +123,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"That's what the life-giving cross does!\" is colloquial and flat; it loses the archaic, solemn register of the Tsar's pronouncement (compare \"Behold the power of...\")."
+          "justification": "\"That's what the life-giving cross does!\" is colloquial and loses the Tsar's solemn, archaic declaration of faith (\"Behold the power...\"), weakening the regal register, though the meaning is preserved."
         }
       ]
     },
@@ -160,7 +160,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"I picked a good time to drop by\" changes the meaning from a remark on a lucky choice of apartment to one on timing. It loses the point that he has found a jackpot of goods, though it does correctly avoid implying he is leaving."
+          "justification": "\"I picked a good time to drop by!\" is acceptable in meaning and not misleading about leaving, but it misses the cheerful remark on the good find (the loot-filled apartment) and shifts to timing, weakening the 'hunt for goods' point."
         }
       ]
     },
@@ -182,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"Overseas caviar... Eggplant!\", which the NB warns against. It misleads viewers, and the joke of the cheap spread being presented as a rare delicacy is lost."
+          "justification": "\"Overseas caviar... Eggplant!\" calls the eggplant spread caviar, which the NB prohibits. It also breaks the punchline structure: the humor of the cheap eggplant spread presented as an overseas delicacy is confused."
         }
       ]
     },
@@ -204,7 +204,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate writes \"three suede jackets\", losing the joke that Shpak forgets to increment the count for the jacket (the reference has a single suede jacket, then \"Three\" as a late correction). The comic betrayal of his exaggeration is lost."
+          "justification": "The candidate gives \"three suede jackets\", so the count is consistent. This removes the joke that Shpak initially forgets to increment the number for the single jacket (\"a suede jacket... Three\") and then catches himself, so the comic betrayal is lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Mixing numerals \"3\" with the word \"three\" is inconsistent in the subtitle."
         }
       ]
     },
@@ -223,24 +229,24 @@
       "candidate": "And they'll cure you too!\nAnd they'll cure you too!\nAnd they'll cure me!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats \"And they'll cure you too!\" twice, losing the progression from \"you\" to \"you too\" to \"me\". This weakens the melodic, resigned build-up of the line, and the added exclamation marks undercut the calm resignation described in the analysis."
+          "justification": "The first line \"And they'll cure you too!\" drops the progressive build (\"you... you too... me\"), so the rhythm is flatter, and the exclamation marks lose the calm, melodic resignation described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
-      "minor": 2
+      "major": 6,
+      "minor": 4
     },
-    "total_points": 37,
+    "total_points": 34,
     "meaning_units": 11,
-    "penalty_per_unit": 3.3636363636363638,
-    "major_equiv_per_unit": 0.6727272727272727,
-    "interpretation": "3.36 MQM penalty points per meaning unit (≈ 0.67 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.090909090909091,
+    "major_equiv_per_unit": 0.6181818181818182,
+    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

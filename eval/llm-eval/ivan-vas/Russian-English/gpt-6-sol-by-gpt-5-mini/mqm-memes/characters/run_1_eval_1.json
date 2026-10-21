@@ -26,13 +26,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'у посла — медальон' as 'the ambassador loses a medal.' The original implies a specific 'medallion' (медальон), not a generic 'medal', so the lexical choice slightly alters the item referenced."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line 'I'm plagued by a vague suspicion again...' is serviceable but a bit stilted compared with the mock-heroic register signaled in the analysis; it flattens the theatrical irony of 'терзают смутные сомнения.'"
+          "justification": "The candidate renders the losses with simple present tense ('Shpak loses..., the ambassador loses...'), which reads as ongoing actions rather than the intended observation that these people no longer have those items. This slightly shifts the nuance the analysis emphasises (they have been deprived of them), making the line less clear."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's lines ('A pleasure, Tsar! ... Hello, Tsar!') read as if Bunsha is addressing someone called 'Tsar' rather than introducing himself as the Tsar. The analysis requires that it be clear he is impersonating/introducing himself as the Tsar; this candidate changes that pragmatic function and thus alters the comedic premise."
+          "justification": "The candidate addresses someone as 'Tsar' ('A pleasure, Tsar!'), which makes Bunsha appear to be speaking to a tsar rather than introducing himself as the tsar. The analysis requires that it be clear he is impersonating/declaring himself the Tsar; this candidate reverses that relationship and loses the central gag."
         }
       ]
     },
@@ -91,14 +85,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman.\nI am grieving.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate ('Leave me be, old woman. I am grieving.') conveys the meaning but modernizes and softens the archaic, high-register tone ('I am in sorrow' / mock-regal) that the analysis highlights, slightly reducing the period flavor of the line."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -195,10 +182,10 @@
       "candidate": "Black caviar, red caviar...\nAnd yes! Caviar from overseas...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate presents the sequence so that 'Eggplant' follows 'Caviar from overseas,' which risks implying that the eggplant spread is a kind of caviar. The analysis explicitly warns against calling the eggplant spread 'caviar'—the joke depends on eggplant being a cheap, non-caviar item juxtaposed with real caviar—so this phrasing undermines the satirical contrast."
+          "justification": "The candidate's punctuation and lineation risk implying that the eggplant item is literally 'caviar from overseas' rather than the intended contrast (expensive black/red caviar versus humble eggplant spread presented as if it were a luxury). The analysis warns against calling the eggplant spread 'caviar'; the candidate's phrasing is ambiguous and may confuse the satirical inversion."
         }
       ]
     },
@@ -223,9 +210,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The comedic effect in the source hinges on Shpak's bumbling incremental counting (he lists items and then forgets to update the count). The candidate renders the line as 'three ... three ... three suede jackets,' which removes the momentary hesitation/miscalculation and thus neutralizes the joke about him failing to increment his count."
+          "justification": "The humour in the original comes from Shpak's self-contradictory counting (he lists a singular suede jacket and then blurts 'Three'), which betrays his exaggeration. The candidate renders the list simply as 'three suede jackets,' removing the comic stumble and thereby eliminating the key joke about his inflated claim."
         }
       ]
     },
@@ -247,14 +234,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 3
+      "major": 2,
+      "minor": 2
     },
-    "total_points": 18,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

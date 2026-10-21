@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk and you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate omits the vocative 'Guys' that registers Gorbunkov's attempt at a dramatic, public complaint and slightly flattens the register contrast. The policeman's line is also a bit blunter than the reference's mocking inevitability ('Get drunk enough, and you will be!'), losing a touch of the amused, world-weary cop humor."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "I'm not a coward,\nbut I'm afraid...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate accurately conveys meaning but is a straightforward literal rendering. It loses the bouncing rhythmic comic effect of the original 'Trus/Boyus' rhyme that makes the admission feel lighthearted and endearing rather than flat."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -71,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate conveys the sequence of loanwords but renders 'Obliko Morale' as the awkward literal 'Moral appearance...' which weakens the intended mock-sophisticated flourish; the phrasing feels stilted compared with the playful mashup tone in the analysis."
+          "justification": "The literal rendering 'Moral appearance...' for 'Obliko morale' reads awkwardly in English and weakens the faux-sophisticated gag; a more idiomatic phrase (e.g., 'moral appearance' rendered as 'moral posture' or keeping the original loanword) would better convey the comic pretension."
         }
       ]
     },
@@ -170,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line communicates the basic meaning but loses the comic effect of the original's mispronunciation ('tab-LEHT') that makes the line memorable and sinister; the candidate is neutral and lacks that character marker."
+          "justification": "The original's comic effect relies partly on the character's mispronunciation of 'tablet'; the candidate's neutral 'One pill is enough...' loses that phonic quirk which is a recognizable part of Lyolik's voice."
         }
       ]
     },
@@ -202,14 +202,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Meaning is preserved, but the candidate omits the elongated melodic sigh ('Semyo-o-on') that conveys weary patience; the elision reduces the expressive, drawn-out exasperation described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -289,7 +282,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate's 'He came himself!' is understandable but slightly non-idiomatic in English and lacks the theatrical, panicked register of the reference ('He came here on his own!'), reducing the dramatic comic effect."
+          "justification": "The candidate's 'He came himself!' is slightly stilted in English and fails to convey the frantic defensiveness and colloquial emphasis of the original (better: 'He came here on his own!' or 'He came by himself!')."
         }
       ]
     },
@@ -356,7 +349,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate contains a misspelling ('baath') and renders the line without the affected, pretentious pronunciation marker for 'coffee' ('kof-e') that signals Gena's attempted sophistication; both reduce a character-specific vocal tic described in the analysis."
+          "justification": "The candidate contains a typo ('baath') and renders the speech in a neutral way that loses Gena's affected pronunciation of 'coffee' (the original's deliberate mispronunciation is a character tick indicating pretension)."
         }
       ]
     },
@@ -393,7 +386,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate expresses the refusal clearly but loses the intentionally nonstandard, folksy verb form that adds comic stubbornness and rural flavor in the original; the rustic comic effect is therefore weakened."
+          "justification": "The candidate 'No, I can't go for that!' conveys refusal but loses the rustic, intentionally 'incorrect' verbal form and stubborn rural flavor of the original phrasing, which contributes comedic character."
         }
       ]
     }
@@ -401,13 +394,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 6
     },
-    "total_points": 7,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is an instruction\" keeps the directive/bureaucratic framing, which is good, but \"welcome the New Year cheerfully\" is slightly less natural than \"celebrate merrily\" and loses a little of the dry official-festive clash. The line break is also awkward."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Hire\" and \"raise\" keep the workplace/collective logic and the joke works. However, \"raise\" leans toward child-rearing rather than the managerial \"train/cultivate in-house\", and the explicit \"Baba Yaga\" without any hint of the toxic-colleague type makes it slightly more folkloric for English viewers."
+          "justification": "\"Hire\" keeps the workplace logic, and \"raise one within our collective\" keeps the in-house cultivation joke. But \"raise\" is a little more child-rearing than training/educating, and \"Baba Yaga\" untranslated may not evoke the nasty-woman-in-the-workplace type for English viewers as a plain \"witch\" would. The effect is slightly weakened."
         }
       ]
     },
@@ -77,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The \"briefly\" is rendered flatly and lacks the faux-modest, diminutive tone of «коротенько». The candidate also adds \"he delivers his address\", which is not in the source line and shifts the structure so that the punchline is buried. \"Is unnecessary\" sounds stiff. The comic reversal is weakened."
+          "justification": "The candidate drops the faux-modest \"коротенько\" setup in its diminutive, cozy sense. It also adds \"he delivers his address,\" which is not in the source line and shifts the line from Ogurtsov's self-satisfied voice into narration. The contrast is blunted. The \"more, I think, is unnecessary\" phrasing is stiff, and the reversal between briefness and forty minutes is weakened."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate only renders \"ready\" and loses the \"drunk\" double meaning of «готов». Nothing suggests the lecturer is plastered, so the central joke disappears. The analysis explicitly warns about this."
+          "justification": "The candidate renders only the surface meaning, \"ready, long ready.\" The \"готов\" = drunk double sense is lost, and nothing recreates the alcoholic subtext. The joke disappears for English viewers."
         }
       ]
     },
@@ -129,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Ah... Hel-lo!\" retains the broken vocalization, but \"Hel-lo\" is a cleaner, more normal syllable break than a wavering \"hellooo\" and loses some of the drunken, trailing quality of «ау-у». The \"People\" is also not stretched as in the original."
+          "justification": "\"People!.. Ah... Hel-lo!\" keeps the broken, stretched shape. But \"Hel-lo\" is less wavering and drunken than the reference's \"hellooo\" or the Russian \"ау-у\", and \"People\" is not split into syllables as in the source. The vocal instability is weakened, though the joke still partly works."
         }
       ]
     },
@@ -158,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is exactly the literal calque the English notes say to avoid. It does not echo \"unaided eye\", so the mock-scientific malformed idiom is not recognizable to English viewers and sounds merely surreal. The \"But as soon as we take\" is fine, but the key joke fails."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. In English it is surreal rather than a recognizable deformation of \"unaided/naked eye,\" so the mock-scientific idiom mangling does not register. The tipsy pseudo-learned effect is lost."
         }
       ]
     },
@@ -187,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate breaks the counting progression: \"Four stars—best of all, of course, five stars!\" merges four into the punchline and garbles the logic of the sequence, which should build trivially through two, three, four before \"five stars is best\". This weakens the sudden click into the cognac frame. There is also no note on the cognac association (flagged as helpful in the analysis)."
+          "justification": "The counting progression is broken: \"Four stars—best of all, of course, five stars!\" makes four stars the best before five and muddles the buildup. The punchline \"five stars\" is not set up as a sudden switch into the cognac frame. The \"we already see\" opening is also clipped. The derailment effect is weakened, and there is no cultural cue for the cognac link."
         }
       ]
     },
@@ -213,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content is right and \"Science is not yet informed\" keeps the personified, casual quality, but \"does not know\" and \"is not yet informed\" are a bit stiffer than the colloquial \"isn't up to speed on the matter\". The casual register is somewhat weakened."
+          "justification": "\"Science is not yet informed\" is stiffer and more formal than the colloquial \"not up to speed,\" so the casual register mismatch is weaker. \"Is there no life on Mars\" is also slightly awkward. The content is correct and the personification is kept."
         }
       ]
     }
@@ -221,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

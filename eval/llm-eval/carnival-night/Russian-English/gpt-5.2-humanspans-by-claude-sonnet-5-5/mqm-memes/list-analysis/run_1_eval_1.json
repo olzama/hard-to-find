@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive to\nwelcome the New Year in a cheerful manner.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Directive\" keeps the bureaucratic register and the top-down framing, but \"welcome the New Year in a cheerful manner\" is stiffer and more clerical than the reference's dry \"celebrate merrily\". The clash between official form and festive content is kept, with slightly less comic contrast."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -46,7 +39,14 @@
         }
       },
       "candidate": "- We won’t bring in a Baba Yaga from outside—\nwe’ll cultivate one in our own collective!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"a Baba Yaga\" keeps the fairy-tale name untranslated for English viewers, so the toxic-woman workplace type is less accessible than with \"witch\". \"Cultivate\" and \"collective\" do keep the bureaucratic, workplace logic, so the damage is limited."
+        }
+      ]
     },
     {
       "id": 3,
@@ -67,10 +67,10 @@
       "candidate": "And then, just briefly—about forty minutes,\nno more, I think,",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The line opens with \"And then, just briefly\" and ends in \"no more, I think,\" with a trailing comma, so it reads as incomplete. The faux-modest \"briefly\" is kept before \"forty minutes\", which preserves the comic reversal. However, \"And then\" adds a sequence not in the source, and \"no more, I think\" weakens the smug understatement of \"I don't think we need any more than that\". The diminutive, cozy tone of «коротенько» is also flattened to plain \"briefly\"."
+          "justification": "The \"briefly\" claim comes before \"forty minutes\", so the punchline works. However, \"And then, just briefly\" has less faux-modest, cozy diminutive feel than the original, and \"no more, I think,\" ends on a dangling comma. The patronizing smugness is slightly weaker."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready long ago\" keeps the official-readiness surface meaning and the 'for a while' nuance. The drunk subtext is not made explicit, but the same ambiguity of \"ready\" is carried over as in the reference, which also relies on it. The phrasing \"ready long ago!\" is somewhat less natural and less colloquial than \"He's been ready for quite a while\"."
+          "justification": "\"Ready long ago\" keeps the administrative surface and the \"for a long time\" intensifier. The drunk subtext relies on context, as in the reference's own \"ready\" solution. The phrasing \"ready long ago\" is slightly less natural than \"he's been ready for quite a while\" and the double meaning is weak."
         }
       ]
     },
@@ -117,14 +117,7 @@
         }
       },
       "candidate": "Peo-ple!.. Ah... heeell-o!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The broken, stretched vocalization (\"Peo-ple!.. Ah... heeell-o!\") preserves the faltering, drunken call. The elongated \"heeell-o\" is a reasonable equivalent of «ау-у». The change is only a slight stylistic shift from the reference's \"hellooo\"."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -149,9 +142,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly lists as something to avoid. English audiences have no familiar idiom \"unarmed eye\" to echo, so the malformed-idiom effect is lost and the phrase sounds surreal rather than like mock-scientific language. The reference's \"aided eye\" solves this."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. In English it is more surreal than the Russian and does not echo the idiom \"unaided eye\", so the mangled-idiom, mock-scientific effect is lost."
         }
       ]
     },
@@ -180,7 +173,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps the trivial counting progression and the final \"five little stars\" punchline. The cognac association is not signaled, which the analysis says may need a note, so the click into a different semantic world is weaker for English viewers. \"Little stars\" is a faithful rendering of the diminutive and adds to the silliness."
+          "justification": "The trivial counting buildup is kept, with \"little stars\" rendering the diminutive. \"Five little stars\" however loses the plain \"five stars\" cognac-rating cue, which makes the shift into a different semantic world less legible to English viewers, and no note is provided."
         }
       ]
     },
@@ -206,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The casual register is preserved, and \"Science is not yet in the know\" matches the conversational tone of «не в курсе дела». The first part, \"Is there life on Mars, is there not life on Mars,\" mirrors the Russian structure but is somewhat awkward, and \"science does not know\" is a bit more formal than the reference's \"unknown to science\". The overall effect is intact."
+          "justification": "The content and casual register are kept, and \"in the know\" is colloquial. \"Is there life on Mars, is there not life on Mars\" is slightly clumsy, and \"science does not know\" is a bit more formal than the flat colloquial original. The effect is slightly weaker but intact."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 5
     },
-    "total_points": 15,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

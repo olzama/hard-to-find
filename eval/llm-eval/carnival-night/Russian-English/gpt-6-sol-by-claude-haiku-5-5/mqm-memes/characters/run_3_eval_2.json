@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\nBaba Yaga from outside.\nWe'll develop one in-house!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The verb 'develop' for a person is less natural than 'train' or 'raise', and it loses the educational sense of воспитаем (raise, bring up) that the analysis ties to the workplace-cultivation logic."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive faux-modesty of коротенько is lost: 'a short address' is flat, so the contrast the analysis calls the key joke is weaker. Recasting Ogurtsov's direct, self-satisfied speech as third-person narration ('And he gives...') also dilutes the character voice."
+          "justification": "The diminutive faux-modesty of «коротенько» is flattened to plain \"short\", weakening the patronizing understatement the analysis says must set up the \"forty minutes\" punchline."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The opening \"And he gives\" adds a subject and a clause that are not in the source. The source is a bare hesitant continuation, so the framing shifts the sentence slightly."
         }
       ]
     },
@@ -75,14 +74,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\n- He's ready. Has been for ages!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate renders готов only as 'ready' and drops the colloquial 'drunk' sense entirely. The analysis names this as the central joke and says a plain 'ready' translation makes the alcoholic double reading disappear, so the punchline does not land."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -100,9 +92,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The clean 'People!' drops the stretched, faltering vocal shape of 'Лю-ди!' that the analysis says carries the drunken comedy. 'Yoo-hoo!' is a good equivalent for 'ау-у', but the broken, unstable delivery is only partly conveyed."
+          "justification": "\"People!\" normalizes the stretched, broken «Лю-ди!» into a clean word. The analysis names this as a risk that removes the vocal instability, although the trailing \"Ah... Yoo-hoo!\" keeps some of the wavering effect."
         }
       ]
     },
@@ -124,7 +116,14 @@
         }
       },
       "candidate": "But we need only take a telescope...\nAnd look with the aided eye,",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"we need only take a telescope\" is slightly awkward, since \"we need only take\" is less natural than \"all we have to do is take\". The line also ends on a trailing comma instead of closing the exclamatory pomp, so the rhetorical climax is weakened."
+        }
+      ]
     },
     {
       "id": 7,
@@ -146,10 +145,10 @@
       "candidate": "and already we see two stars,\nthree stars...\nFour stars... Five stars\nwould be best of all, of course!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline 'five stars' depends on the Soviet cognac grading system, which crosses a cultural boundary. The approved reference bridges this with a translator's note, and the analysis flags that the English audience will not recognize it. The candidate has no note or equivalent bridge, so the sudden shift into a different semantic world does not register and the joke reads as merely odd."
+          "justification": "Without the translator's note the final \"Five stars\" reads as a generic quality ranking, so the sudden click into the cognac grading system that the analysis calls essential is not signposted for most viewers. The reference supplies this note, and the candidate does not."
         }
       ]
     },
@@ -169,23 +168,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "'or no life on Mars' is less idiomatic than 'or not' and sounds slightly stilted in the repeated 'whether ... or' construction. The rest of the line, including 'hasn't got a clue' for не в курсе дела, preserves the casual register and the comic mismatch well."
+          "justification": "\"hasn't got a clue\" implies ignorance or stupidity, which is stronger than the mild \"not yet in the know\" sense of «Наука ещё пока не в курсе дела». The casual register is kept, but the \"science not yet briefed\" nuance shifts toward mockery."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 0,
+      "minor": 6
     },
-    "total_points": 14,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

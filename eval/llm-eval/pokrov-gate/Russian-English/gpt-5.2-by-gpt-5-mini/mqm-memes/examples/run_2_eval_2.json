@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "shall we knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Candidate begins with a lowercase letter ('shall') which is a simple typographic/subtitling fluency issue. Otherwise the casual, provocative register ('knock back a little shot') preserves the intent and humour."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line literally as 'High... high relations,' which loses the idiomatic, sarcastic exclamatory phrasing and the stuttering/effects present in the reference ('e-v-volved'). This undermines the line's function as a biting, repeated refrain and reads awkwardly as a literal noun phrase rather than the intended sarcastic commentary."
+          "justification": "The candidate 'High... high relations.' renders the line as a flat literal noun phrase and loses the sarcastic, sing-song refraining effect and rhythmic stuttering of the original. It fails to convey the ironic, performative register that makes this repeated gag work as a characterising refrain."
         }
       ]
     },
@@ -80,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'People don’t live for joy— they live for conscience' shifts the nuance from the reference's pragmatic, duty-focused fatalism ('live to do your duty') to a more inward moralising ('conscience'), which weakens the soldierly, practical tone emphasized in the analysis."
+          "justification": "'People don’t live for joy— they live for conscience.' is a close, literal rendering but reads less idiomatic and less forceful than the reference ('you live to do your duty'), weakening the soldierly fatalism and moral-justification tone present in the original."
         }
       ]
     },
@@ -117,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' reads more like (possibly ironic) praise rather than the brisk, biting domestic reproach implied by the source and reference ('Some cook you are!'). The comic insult is softened and its imperious domestic bite is reduced."
+          "justification": "The candidate 'Culinary genius!' turns the blunt, scornful domestic insult into a phrase that can be read as a (possibly sarcastic) compliment. This softens the original's sharp, imperious rebuke and changes the register of the put-down."
         }
       ]
     },
@@ -152,9 +145,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate softens and splits the original brusque, surgical command into 'Cut it out, for God’s sake.' followed by a separate sentence. This reduces the abrupt, black-humour contrast of the original medical pronouncement ('Cut it the hell out, don't wait for peritonitis!')."
+          "justification": "The candidate splits the line and softens 'cut it the hell out' to 'Cut it out, for God’s sake,' which reduces the brusque surgical bluntness and dark comic shock of the original injunction. The medical punchline ('peritonitis') is preserved but the force is slightly weakened."
         }
       ]
     },
@@ -173,10 +166,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the transliteration 'Khabotov' instead of the expected 'Khobotov,' altering the established romanization of the character's name and therefore creating an accuracy/consistency issue."
+          "justification": "The candidate misspells/transliterates the character name as 'Khabotov' instead of the established 'Khobotov' (or comparable transliteration). Altering a proper name changes the character reference and undermines the recognisability and consistent voice of the repeated formula."
         }
       ]
     },
@@ -198,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits and literalizes the idiom ('This is my cross! And it’s mine to bear.'), which runs counter to the analysis warning against a literal rendering and slightly weakens the fixed idiomatic force of the line ('a cross to bear')."
+          "justification": "By rendering the line as 'This is my cross! / And it’s mine to bear,' the candidate splits and partially literalises an English idiom. The phrasing reads slightly awkward and diminishes the idiomatic manipulative flourish of 'This is my cross to bear.'"
         }
       ]
     },
@@ -220,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 11,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

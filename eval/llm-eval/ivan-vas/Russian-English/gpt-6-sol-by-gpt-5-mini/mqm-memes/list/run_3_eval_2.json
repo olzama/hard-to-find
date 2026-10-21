@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as possessive (Shpak's tape recorder, the ambassador's medal), implying they currently own these items. The analysis explicitly notes these items were lost (the phrasing means each was deprived of the item). This reverses the meaning and undermines the callback to past thefts."
+          "justification": "The candidate ('Shpak's tape recorder... the ambassador's medal') reads as simple possession, implying they currently have these items. The analysis and Russian original indicate the opposite: these items are missing/lost (each person has been deprived of their item). This reverses the implied meaning and undermines the joke about discovered thefts."
         },
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "The candidate uses 'medal' rather than 'medallion' (reference). While not catastrophic, 'medallion' better matches the original's tone and the specific object implied; 'medal' is a slightly different register/nuance."
+          "justification": "The phrase 'nagging suspicions' downplays the mock-heroic theatrical register of 'терзают смутные сомнения', which should sound grandly tormented and slightly pompous for comic effect. The candidate is more prosaic."
         }
       ]
     },
@@ -51,10 +51,10 @@
       "candidate": "Very pleased, Tsar!\nVery pleased! Hello, Tsar!\nTsar, very pleased!\nHello, Tsar! Very pleased!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should make clear Bunsha is introducing himself as 'the Tsar' (comedic inversion), not addressing a Tsar. The candidate reads as if he is repeatedly addressing someone called 'Tsar' (vocative), which weakens the intended gag about him introducing himself."
+          "justification": "The candidate's lines ('Very pleased, Tsar!') read as addressing a Tsar rather than Bunsha introducing himself as the Tsar. The analysis stresses this must be clear (he is introducing himself), so the candidate misrepresents who is being named and loses the gag of him repeatedly proclaiming himself to be the Tsar."
         }
       ]
     },
@@ -208,10 +208,10 @@
       "candidate": "three tape recorders,\nthree movie cameras,\nthree locally made cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The original gag depends on the incremental, contradictory counting (he lists items and then fails to update the tally). The candidate presents all items as 'three' including 'three suede jackets', which removes the joke's reveal and the comedic self-contradiction central to the line."
+          "justification": "The original gag hinges on the speaker inflating counts mid-list (he forgets to increment the suede jacket count), with an awkward trailing 'a suede jacket... Three.' The candidate renders this as straightforward 'three... three...' which preserves counts but removes the comic effect of the faltering recounting and the subtle self-betrayal."
         }
       ]
     },
@@ -228,26 +228,19 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source and reference convey a resigned, melodic repetition; the candidate uses exclamation marks and a more emphatic delivery ('And they'll cure you!'), which shifts the tone from calm resignation to urgency/hysteria and softens the original's ironic, subdued quality."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 13,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

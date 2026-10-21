@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive, faux-modest tone of «коротенько» is muted by the bare word “briefly.” The phrasing “more, I think, is not necessary” is slightly clumsy and flattens Ogurtsov’s self-satisfied managerial voice, weakening the comic contrast between the claimed brevity and the absurd forty-minute duration."
+          "justification": "The candidate loses the diminutive, faux-modest tone of «коротенько» that makes the line comic; rendering it simply as “briefly” flattens Ogurtsov’s patronizing self-satisfaction. The second clause (“more, I think, is not necessary”) is also slightly awkward and less natural than the conversational rhythm of the original."
         }
       ]
     },
@@ -130,7 +130,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which the analysis warns against: in English it reads oddly and risks becoming surreal rather than the mock‑scientific, slightly off idiom intended. A phrase like “aided eye” better preserves the intended parody of scientific diction."
+          "justification": "The literal calque “armed eye” misfires in English: it sounds oddly surreal rather than the mock‑scientific near‑idiom intended. The translation thus loses the original’s plausible, slightly wrong scientific phrasing; a solution like “aided/unaided eye” better preserves the intended comic deformation."
         }
       ]
     },
@@ -173,19 +173,26 @@
         }
       },
       "candidate": "Is there life on Mars, is there no\nlife on Mars—science does not know.\nScience is not yet up to date.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The phrasing is a bit stilted—repeating the question structure (“Is there life on Mars, is there no / life on Mars”) reads awkwardly in English, and “Science is not yet up to date” is slightly off idiomatically compared with the conversational looseness of the original (“not up to speed” / “not yet up to date on the matter”). The candidate nevertheless preserves the casual, non‑pompous register."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 2,
+    "total_points": 3,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.375,
+    "major_equiv_per_unit": 0.075,
+    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

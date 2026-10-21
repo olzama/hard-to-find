@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have an instruction\nto greet the New Year merrily.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"We have an instruction\" keeps the directive-like bureaucratic framing, but \"greet the New Year\" is slightly less natural than \"celebrate\" and weakens the clash between official form and festive content a little."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept transliterated without a gloss, so the fairy-tale reference leans fantastical and the human 'nasty woman at work' type is less accessible to non-Russian viewers. \"Hire\" and \"bring one up\" do preserve the staffing/upbringing logic and the in-house joke."
+          "justification": "Keeping 'Baba Yaga' untranslated preserves the fairy-tale reference but loses the accessible 'witch'/nasty-woman workplace type for English audiences; 'bring one up in our own collective' keeps the in-house logic, and 'hire' adds a staffing frame that fits, so the effect is largely preserved but slightly more folkloric and opaque."
         }
       ]
     },
@@ -77,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"More, I think, is not necessary\" is stilted and loses the casual, self-satisfied tone of \"я думаю, не надо\". The faux-modest \"briefly\" before \"forty minutes\" is kept, so the punchline works, but the diminutive coziness is flat."
+          "justification": "'More, I think, is not necessary' is stiff and lacks the faux-modest, self-satisfied managerial tone; 'briefly' is kept first so the reversal works, but the diminutive coziness of 'коротенько' is not conveyed."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation renders only the surface meaning of \"ready\" and does nothing to evoke the 'drunk/done for' subtext. The analysis says the double sense must be preserved or recreated, so the joke is lost. The reference also has \"Oh, he's ready\" to hint at it."
+          "justification": "The translation renders 'ready' literally with no hint of the 'drunk/done for' double meaning. The emphasis 'been ready for a long time!' hints slightly, but the alcoholic subtext that makes the joke is essentially lost, leaving only the administrative surface."
         }
       ]
     },
@@ -149,9 +142,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Armed eye\" is exactly the literal calque the analysis says to avoid. It sounds surreal rather than like a mangled version of \"unaided eye\", so the mock-scientific idiom distortion that carries the joke is not recreated. The lecturer's pompous \"But all we have to do\" build-up is also reduced."
+          "justification": "'Armed eye' is the literal calque that the analysis explicitly warns against; it sounds surreal rather than like a mangled 'unaided eye', so the near-correct mock-scientific idiom distortion is not recreated."
         }
       ]
     },
@@ -180,7 +173,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is intact, but the cognac association is not signaled in any way, and the sequence is slightly disrupted by \"Four stars.\" as a separate sentence. The final \"five stars\" therefore lands less clearly as a click into the cognac frame for English viewers."
+          "justification": "The progression is kept, but without any cultural cue the cognac association is not accessible, and the buildup is slightly broken by 'Four stars.' as a separate sentence; the punchline's shift into a different semantic domain is weaker for English viewers."
         }
       ]
     },
@@ -206,7 +199,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet up to date\" is a less idiomatic rendering of \"не в курсе дела\". It loses the sense of science being not briefed or not in the loop, which is the personified casual register at the heart of the joke. The first sentence is accurate and suitably colloquial."
+          "justification": "'Science is not yet up to date' is an awkward rendering of 'не в курсе дела'; it loses the personified 'hasn't been briefed' conversational idiom, though the content and casual tone are mostly preserved."
         }
       ]
     }
@@ -214,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

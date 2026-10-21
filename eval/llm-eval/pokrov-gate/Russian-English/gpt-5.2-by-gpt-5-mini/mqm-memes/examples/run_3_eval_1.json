@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and the teasing challenge, but it tones down the performative, bombastic self-dramatization highlighted in the analysis (the reference's playful theatricality is stronger)."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about we knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The casual phrasing captures the provocation, but the lowercase sentence start is nonstandard for subtitles and 'little shot' is slightly less idiomatic than the reference's punchy colloquial alternative."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -62,10 +48,10 @@
       "candidate": "Elevated... elevated relations.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Uses a literal noun-phrase ('relations') and a flat repetition that loses the ironic, performative stutter and exclamatory register of the original refrain. This contradicts the analysis guidance to avoid a literal noun phrase and to keep the sarcastic, rhythmic effect."
+          "justification": "The candidate uses a literal noun phrase ('relations') and a flat repetition ('Elevated... elevated relations.') rather than the playful, stuttering, sarcastic exclamation in the analysis (e.g. the broken 'e-v-volved' effect). This makes the line less idiomatic and reduces the comic, mocking register of the original refrain."
         }
       ]
     },
@@ -85,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "Says 'live for conscience' instead of the idiomatic sense of living out of duty/obligation. The shift toward 'conscience' changes the pragmatic shading and reduces the soldierly, duty-focused bluntness described in the analysis."
+          "justification": "Rendering 'совести' as 'conscience' ('live for conscience') is grammatical but sounds unnatural in English and weakens the soldierly fatalism and idiomatic force of the reference ('live to do your duty'). The original pragmatic punch would be better served by 'duty' or a more idiomatic phrasing."
         }
       ]
     },
@@ -124,7 +110,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate intends a sarcastic insult but the phrasing 'You culinary genius!' is awkward in English (missing a more natural construction like 'Some cook you are!' or 'You culinary genius, huh?'), which weakens the punch."
+          "justification": "'You culinary genius!' is awkward in English word order and register for a sharp domestic insult. The line feels unidiomatic compared with the snappy dismissive tone required ('Some cook you are!' or similar)."
         }
       ]
     },
@@ -144,9 +130,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Keeping the German word is correct per the analysis, but the ASCII spelling 'Natuerlich' and the added vocative 'Margarita Pavlovna' alter the original's clipped, automatic interjection and add unintended formality/rhythm changes."
+          "justification": "Keeping the German word is appropriate, but the candidate adds the addressee's full name ('Margarita Pavlovna'), which is not present in the source and changes the line's economy. Also the transliteration 'Natuerlich' is a nonstandard orthography; while understandable, it departs from the simple preserved German token recommended in the analysis."
         }
       ]
     },
@@ -180,10 +166,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The character name is mistransliterated ('Khabotov' vs. the expected 'Khobotov'), which is a factual error that undermines character identity and consistency."
+          "justification": "The surname is rendered as 'Khabotov' instead of the expected 'Khobotov' transliteration, which is a small but noticeable proper-name error. The rest of the line preserves the intended psychological dismissal."
         }
       ]
     },
@@ -202,10 +188,10 @@
       "candidate": "This is my cross!\nAnd I must bear it.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line literally ('This is my cross! And I must bear it.') and thereby loses the idiomatic English phrasing ('a cross to bear' / 'mine alone') that delivers the manipulative grandiosity in the analysis. This weakens the line's rhetorical impact and alters the intended manipulative tone."
+          "justification": "The candidate translates the phrase too literally ('This is my cross! And I must bear it.'), splitting the English idiom and losing the idiomatic 'a cross to bear' phrasing that better conveys the manipulative, hyperbolic martyrdom described in the analysis."
         }
       ]
     },
@@ -222,19 +208,26 @@
         "language_specific": {}
       },
       "candidate": "Oh, I’m so awkward,\nso all angles...\nSo full of contradictions!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate's 'all angles' is a near-literal rendering of 'угловатая' and reads a bit odd in English. While the general self-mocking register is present, the phrasing is slightly clumsy and less natural than alternatives that avoid literal 'angular' imagery."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 0,
+      "minor": 7
     },
-    "total_points": 20,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

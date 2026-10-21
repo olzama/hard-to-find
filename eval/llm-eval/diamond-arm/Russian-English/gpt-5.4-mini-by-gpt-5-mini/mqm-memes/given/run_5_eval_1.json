@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "I'm not a coward,\nbut I'm overpowered by fear...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning but loses the light, bouncy comic effect of the original rhyme (Trus/Bojus). The phrasing is slightly more elevated ('overpowered by fear') which reduces the endearing, self-deprecating bounce described in the analysis."
+        }
+      ]
     },
     {
       "id": 3,
@@ -61,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nunfortunately nothing will come of it!\nRusso turisto…\nObliko morale… verstehen?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Adds \"You know,\" which softens and slightly modernizes Gena's pompous catalog of foreign titles. The original performance is a bravado listing; the extra phrase reduces the brisk, performative swagger the analysis highlights."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -133,7 +133,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Word order splits the paired items awkwardly: \"even teetotalers drink and convalescers\" reads clumsy and loses the original rhythmic balance (trezvenniki/yazvenniki) the analysis requests be preserved."
+          "justification": "The candidate keeps the meaning and the parallel structure but reads slightly awkwardly because the verb 'drink' is only clearly attached to the first noun phrase; the original rhythmical pairing (trezvenniki/yazvenniki) is weakened."
         }
       ]
     },
@@ -200,7 +200,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a neutral prosodic rendering \"Semyon Semyonovich...\" losing the elongated, melodic sigh in the reference. This weakens the weary, drawn-out expressive effect described in the analysis."
+          "justification": "The candidate conveys the meaning but loses the elongated, melodic sigh and weary musicality of the original elongated address ('Semyo-o-on'), which softens the exasperation into a flatter delivery."
         }
       ]
     },
@@ -222,7 +222,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate compresses the line into three short words without the drawn-out pauses. The theatrical curse's ironic weight and timing (pauses that make it sound like a doom sentence) are reduced."
+          "justification": "Meaning is preserved, but the candidate's terser lineation removes some of the drawn-out theatrical cadence that makes the curse feel weighty and humorously severe."
         }
       ]
     },
@@ -346,10 +346,10 @@
       "candidate": "In this state...\nI can't.\nI must... first...\ntake a bath,\nhave a cup of coffee...",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Removes the affected pronunciation of \"coffee\" (the playful 'kof-e' marker of Gena's affected sophistication). This loses a small but character-defining vocal tic noted in the analysis."
+          "justification": "The candidate preserves content but removes Gena's characteristic affected pronunciation ('kof-e'), which the analysis identifies as an important marker of his pretentiousness. Losing that phonetic affectation significantly weakens the character voice and comedic effect."
         }
       ]
     },
@@ -386,14 +386,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 5,
+    "total_points": 9,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.391304347826087,
+    "major_equiv_per_unit": 0.0782608695652174,
+    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

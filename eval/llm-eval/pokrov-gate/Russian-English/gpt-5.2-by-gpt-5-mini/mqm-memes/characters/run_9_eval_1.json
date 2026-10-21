@@ -48,10 +48,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'High... high relations.' renders the line literally and loses the ironic, stuttering delivery and playful elongation present in the original ('Выс-с-сокие') and the reference's mocking stretching ('e-v-volved'). The result is flatter and less characterful."
+          "justification": "The candidate 'High... high relations.' renders the line as a literal noun phrase and loses the sarcastic, stuttering exclamatory effect that functions as a recurring refrained joke in the film. The original's comic rhythm and ironic register (the broken, drawn-out 'e-v-volved') are central to the gag; the candidate flattens that and thus fails to reproduce the intended humorous voice."
         }
       ]
     },
@@ -70,10 +70,10 @@
       "candidate": "People don't live for joy, they live for conscience.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "Rendering 'совести' as 'conscience' ('People don't live for joy, they live for conscience') shifts the meaning away from the original sense of duty/obligation ('live to do your duty') and weakens the soldierly fatalism and moral-justifying tone that the line must convey."
+          "justification": "The candidate 'People don't live for joy, they live for conscience.' preserves the basic meaning but sounds slightly stilted and unnatural in English ('live for conscience' is awkward). It weakens the blunt, soldierly fatalism of the original phrasing and would read more idiomatically if rendered as duty/obligation."
         }
       ]
     },
@@ -105,7 +105,14 @@
         "language_specific": {}
       },
       "candidate": "Culinary genius!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate 'Culinary genius!' reads as a compliment or ironic praise rather than the biting, scolding retort of the original ('Some cook you are!') which ridicules the person's cooking. This reverses the intended comic insult and therefore changes the line's function and tone."
+        }
+      ]
     },
     {
       "id": 7,
@@ -140,7 +147,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate softens the ruthless medical punch ('Cut it the hell out') to 'Cut it out, for heaven's sake,' which reduces the abrupt, coarse comic contrast that is central to the original line. The split into two lines also diffuses the single sharp imperative."
+          "justification": "The candidate softens the brusque, surgical imperative of the original by using 'Cut it out, for heaven's sake' and splitting the medical warning into a separate line. The harsher, comic abruptness that contrasts domestic worry with a blunt medical pronouncement is weakened."
         }
       ]
     },
@@ -160,9 +167,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "The character name is transliterated inconsistently: reference uses 'Khobotov' while the candidate writes 'Khabotov'. This is a small but noticeable accuracy/consistency issue in a repeated catchphrase."
+          "justification": "The candidate spells the name as 'Khabotov' instead of the more accurate/established transliteration 'Khobotov.' This alters the expected character name pronunciation/spelling and is an inconsistent rendering of the proper name."
         }
       ]
     },
@@ -181,10 +188,10 @@
       "candidate": "This is my cross!\nAnd I will carry it.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate's literal 'This is my cross! And I will carry it.' breaks the English idiom and loses the idiomatic 'a cross to bear' structure and the emphatic, self-victimizing theatricality ('And mine alone!') that the original uses to manipulate. This weakens the manipulative, grandiose tone."
+          "justification": "Rendering the line as 'This is my cross! And I will carry it.' literalizes and splits the idiom, losing the compact English fixed expression 'a cross to bear' that better conveys the manipulative self-pity. The candidate is understandable but less idiomatic and less forcefully manipulative."
         }
       ]
     },
@@ -206,7 +213,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая', which is an overly literal choice that sounds awkward in English and undermines the playful, self-mocking characterization. A less literal, more idiomatic phrase would better capture the intended coquettish awkwardness."
+          "justification": "The candidate uses 'angular' as a direct translation of 'угловатая,' which the analysis specifically flags as sounding overly literal and awkward in English. This choice reduces the sly, coquettish self-mockery of the original; a less literal phrasing (e.g., 'all sharp edges') would better preserve the character's voice."
         }
       ]
     }
@@ -214,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 4
+      "minor": 5
     },
-    "total_points": 14,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

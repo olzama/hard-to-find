@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "shall we have a little drink?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the meaning but uses a softer, less idiomatic colloquial phrasing ('have a little drink') than the punchy, teasing register of the reference ('toss back a quick one'). The lowercased initial letter is a small typographic/ register slip but does not break the joke."
+        }
+      ]
     },
     {
       "id": 3,
@@ -56,7 +63,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate includes a huge block of unrelated dialogue beyond the repeated catchphrase. The source item is the short repeating refrain; adding extensive extra lines introduces material not present in the source and changes the segment's content and function."
+          "justification": "The candidate does not translate the source line at all; instead it inserts a long unrelated block of dialogue. This completely loses the original repeated, sarcastic refrain ('Высокие… выс-с-сокие отношения!') that functions as a running gag and character marker."
         }
       ]
     },
@@ -73,7 +80,14 @@
         "language_specific": {}
       },
       "candidate": "We live by conscience, not for pleasure.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate conveys the general idea (living according to conscience/duty) but shifts the focus/wording ('We live by conscience, not for pleasure') and sounds more abstract and less blunt than the soldierly, moral-duties phrasing in the analysis. The core effect remains, though slightly softened."
+        }
+      ]
     },
     {
       "id": 5,
@@ -90,10 +104,10 @@
       "candidate": "Mind you, that was your suggestion.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts the nuance: the reference is a defensive denial of having suggested drinking; the candidate instead puts the suggestion back onto the other person ('that was your suggestion'), which alters the rhetorical stance and reduces the original's charming, self-exculpatory pose."
+          "justification": "The candidate reverses the speaker's intent: the original absolves the speaker of responsibility ('I did not suggest it'), while the candidate blames the addressee ('that was your suggestion'), which changes the meaning and undermines the character's defensive, self-excusing pose."
         }
       ]
     },
@@ -120,7 +134,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering the exclamation as the bare noun 'The cook!' loses the sarcastic, scolding idiom of 'Some cook you are!' and reads awkwardly in English; it fails to reproduce the biting, hyperbolic domestic insult flagged in the analysis."
+          "justification": "Rendering the exclamation as the neutral noun phrase 'The cook!' loses the caustic, ironic invective of the reference. The effect of using a professional noun as a domestic insult is weakened because in English a standalone literal noun sounds odd rather than cutting."
         }
       ]
     },
@@ -197,7 +211,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the idiom but makes it refer explicitly to a person ('He's my cross to bear') and adds the awkward line 'I'll bear him.' This slightly distorts the idiomatic English phrasing and feels less natural than the compact reference ('a cross to bear' / 'mine alone'), weakening the manipulative theatricality."
+          "justification": "The candidate keeps the idiomatic 'cross to bear' idea and the possessive burden, but wording ('He's my cross to bear! I'll bear him.') is slightly stilted and less natural than the stronger idiom in the reference ('This is my cross to bear! And mine alone!'), mildly reducing the manipulative theatricality."
         }
       ]
     },
@@ -224,14 +238,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 8,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

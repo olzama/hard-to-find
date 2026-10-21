@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as current possession. The analysis explicitly notes these lines indicate the items are missing (they were lost/stolen), not that the characters possess them. This reverses the intended meaning and undermines the callback joke about theft."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' implying possession. The source (and analysis note) makes clear these are items that have been lost/are missing (they were walled off/stolen), not current possessions. This reverses the meaning and undermines the joke about suspicious disappearances."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that Bunsha is introducing himself as the Tsar (mock-self-introduction), not addressing an actual Tsar. The candidate 'Hello, Tsar, very pleased...' reads as addressing someone called 'Tsar' rather than repeatedly introducing himself as 'the Tsar,' losing the key comedic clash between modern polite self-introduction and historical impersonation."
+          "justification": "The line must convey that Bunsha is introducing himself as 'the Tsar' (absurdly claiming that identity). The candidate reads like direct address to a Tsar ('Hello, Tsar'), failing to signal that he is repeatedly introducing himself as the Tsar, which is the core of the joke and the era-clash described in the analysis."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original and analysis specify that 'demons' are the subject (i.e., 'They have walled me in... the demons'—the demons did it), not being directly addressed. The candidate's 'Walled up, you demons!' turns 'demons' into the addressee, changing sentence structure and misrepresenting the Tsar's exclamation as direct invective rather than an observation about who trapped him."
+          "justification": "The Russian has demons as the agent who walled him in (he laments 'walled me in, demons'). The candidate uses a vocative ('you demons!') addressing demons, which changes the grammatical relation and weakens the intended meaning that he believes demons have imprisoned him."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'See what the life-giving cross can do!' preserves meaning but shifts register from the elevated, archaic 'Behold the power of the life-giving cross!' to a more colloquial modern phrasing, slightly weakening the intended high-register, quasi-solemn tone."
+          "justification": "The candidate conveys the meaning but shifts register from the elevated 'Behold the power of the life-giving cross!' to a more colloquial 'See what the life-giving cross can do!,' which softens the archaic, solemn tone that heightens the comedic incongruity."
         }
       ]
     },
@@ -166,10 +166,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Exotic caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns against rendering the eggplant spread as 'caviar' to avoid confusion. The candidate's line 'Exotic caviar... Eggplant!' implies the eggplant is being presented as an 'exotic caviar' and therefore fails to preserve the satirical inversion (cheap eggplant spread contrasted with real black/red caviar). This misleads the viewer about the joke's target."
+          "justification": "The candidate's 'Exotic caviar... Eggplant!' risks implying that the eggplant spread is itself a kind of caviar. The analysis warns against labeling eggplant spread as 'caviar' (it should come across as an anticlimactic, cheap substitute). The joke survives, but the wording may confuse viewers about the nature of the 'eggplant' item."
         }
       ]
     },
@@ -206,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 1
+      "major": 3,
+      "minor": 2
     },
-    "total_points": 21,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

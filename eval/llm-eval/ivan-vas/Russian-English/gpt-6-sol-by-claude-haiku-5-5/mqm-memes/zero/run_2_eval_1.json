@@ -24,9 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "The source noun 'медальон' is a medallion (a pendant or locket), but the candidate renders it as 'decoration', which suggests an award or order. This shifts the stolen object and weakens the link to the theft callback. 'Medallion', as in the reference, would be more precise."
+          "justification": "'Decoration' is not a close equivalent of 'медальон' (medallion). It shifts the object from a piece of jewelry to an award or honor, though it still reads as a status item."
         }
       ]
     },
@@ -48,7 +48,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that it be clear Bunsha introduces himself as the Tsar rather than addressing one. The candidate's repeated 'Hello, tsar!' and 'A pleasure, tsar!' read as greetings to a tsar, which is the misreading the analysis warns against. The reference resolves this with 'I'm the Tsar', and the candidate has no equivalent."
+          "justification": "The analysis says the line must make clear that Bunsha introduces himself as the Tsar, not that he addresses one. Lines such as 'Hello, tsar!' and 'Tsar, such a pleasure!' read as greetings to a tsar, and the self-introduction the reference makes explicit ('I'm the Tsar') is missing."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate adds a fourth line, 'Delighted!', that has no counterpart in the source and reorders the repeated phrases, which weakens the mechanical repetition of the Soviet formal greeting."
         }
       ]
     },
@@ -90,7 +96,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The contraction 'I'm' in 'I'm in sorrow' lowers the archaic, high-register tone the analysis calls for. 'I am in sorrow', as in the reference, would keep the Tsar's regal melancholy."
+          "justification": "The contraction 'I'm' in 'I'm in sorrow' drops the archaic, high-register tone the analysis describes for the real Tsar's speech, which the reference preserves with 'I am in sorrow'."
         }
       ]
     },
@@ -112,7 +118,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first line 'They've walled it up!' replaces the personal object of the source (the Tsar being walled in) with the impersonal 'it'. This weakens his personal stake in the elevator entrapment. 'They've walled me in' would be more natural and closer to the source. The second line correctly makes the demons the subject."
+          "justification": "'Walled it up' turns the object of entrapment from the speaker to an unspecified 'it'. The Tsar's own panic about being trapped, which is the core of the misunderstanding, is weakened. The demons correctly appear as subject, but the first line's 'They' is ambiguous."
         }
       ]
     },
@@ -177,9 +183,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The source 'Это я удачно зашел!' stresses the burglar's own self-congratulation ('it was I who got lucky in dropping in'). 'What a lucky time to drop by' shifts the emphasis to the timing and drops the first-person self-praise that the reference's 'this was a good call' keeps."
+          "justification": "'What a lucky time to drop by!' shifts the emphasis from Miloslavsky's own triumphant 'I' ('Это я удачно зашел') to the timing. The cheerful self-congratulation the analysis describes is somewhat diluted."
         }
       ]
     },
@@ -204,9 +210,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's final line 'Eggplant caviar!' does exactly this, and the joke's reveal depends on the audience recognising a cheap spread. The reference's 'Overseas spread... eggplant!' avoids the problem."
+          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate does exactly this with 'Eggplant caviar!' and never identifies the item as a cheap spread, so the status inversion (overseas delicacy that is really a common canned spread) is lost."
         }
       ]
     },
@@ -233,7 +239,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source 'куртка... замшевая... Три' is one suede jacket, and the count is forgotten and then corrected with the final 'Три'. The candidate turns this into 'three suede jackets', inventing a quantity of jackets. It also removes the stumble that the analysis identifies as the source of the comedy (the forgotten increment betrays him). The reference's 'a suede jacket... Three.' keeps both the single item and the hesitation."
+          "justification": "The joke depends on Shpak's count failing to update: he lists a single suede jacket, hesitates, then corrects with 'Three'. The candidate removes the hesitation and states 'three suede jackets' outright, eliminating the self-betrayal the analysis identifies as the source of the humor."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Soviet-made' is an addition. The source's 'отечественных' supports it, but the explicit adjective is added to a list item that does not need it, and the reference does not include it."
         }
       ]
     },
@@ -255,7 +267,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source uses ellipses and a melodic, resigned rhythm, which the analysis describes as calm resignation. The candidate's exclamation marks ('They'll cure you!', 'And they'll cure me!') make the line sound urgent or excited. The reference's ellipses preserve the calm, resigned tone. The first line also omits the source's 'и' (and)."
+          "justification": "The candidate drops the opening 'And' and the ellipses, and adds exclamation marks. This shifts the calm, melodic resignation described in the analysis toward a hysterical tone, which the reference avoids."
         }
       ]
     }
@@ -263,13 +275,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 5
+      "minor": 7
     },
-    "total_points": 20,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

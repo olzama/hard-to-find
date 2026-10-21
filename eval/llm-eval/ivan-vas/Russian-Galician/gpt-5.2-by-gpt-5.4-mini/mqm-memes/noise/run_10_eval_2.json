@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key meaning of the line: it says Shpak has the magnetophone and the ambassador has the medallion, while the intended joke is that both items are missing from them."
+          "justification": "The candidate reverses the key temporal/possession sense: it says Shpak and the ambassador currently have the items, rather than that they are missing/lost them, which is essential to the joke and the detective logic."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The phrasing is less effective than the mock-heroic opening in the reference; it sounds flatter and loses some of Bunsha’s theatrical self-dramatization."
+          "justification": "The phrasing is less polished than the reference and weakens the mock-solemn rhythm of Bunsha’s dramatic suspicion."
         }
       ]
     },
@@ -46,16 +46,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate does not clearly preserve the required sense that Bunsha is introducing himself as the tsar. The line reads more like he is addressing the tsar, which contradicts the scene and the note."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The repeated greeting is preserved, but the wording is somewhat less natural and less witty than the reference’s deadpan bureaucratic/formal rhythm."
+          "justification": "The line preserves the repetitive greeting and self-introduction, but 'Moito gusto, ola, tsar!' is slightly less clear than needed for making it obvious that Bunsha is introducing himself as the tsar rather than addressing one."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estou triste\" is understandable, but it weakens the more archaic, regal melancholy of \"estou aflixido,\" which better fits Ivan’s elevated voice."
+          "justification": "'Estou triste' is understandable, but it is flatter and less elevated than the more archaic, regal melancholy suggested by the source and reference."
         }
       ]
     },
@@ -124,14 +118,7 @@
         "language_specific": {}
       },
       "candidate": "Velaí o que fai a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Velaí\" is slightly less formal and elevated than the reference’s \"Velaquí,\" so the archaic, miraculous tone is weakened a bit."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -166,7 +153,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Vaia, que ben entrei!\" suggests a neutral or successful entry, but it loses the evaluative, lucky/disciplined sense of having 'come upon' a good opportunity. The reference conveys his delighted reaction to discovering the apartment's valuables."
+          "justification": "'Vaia, que ben entrei!' can sound like 'I entered well' but does not clearly convey the casual celebratory exclamation of having come across a great opportunity; it weakens the idiomatic comic reaction and risks sounding like mere physical entry."
         }
       ]
     },
@@ -188,7 +175,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the crucial specific punchline 'de berenxena' as part of the same list structure and also repeats 'caviar' for the eggplant spread, which the analysis explicitly warns against. This blurs the satirical contrast and weakens the joke."
+          "justification": "By writing 'Caviar de ultramar', the candidate omits the crucial absurd comparison to 'eggplant spread,' which is the core of the joke. This removes the satirical punch and the Soviet-food-shortage reference."
         }
       ]
     },
@@ -210,7 +197,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the structure and content of the joke: it removes the escalating, self-incriminating 'three... three... three... three' pattern and replaces 'suede jacket' with plural 'chaquetas de camurza,' losing the humorous betrayal of the forgotten count."
+          "justification": "The candidate changes the structure and number progression: every item is rendered with 3, so it loses the joke that the count is being inflated and that one item is initially not correctly counted. The specific comic buildup is therefore destroyed."
         }
       ]
     },
@@ -230,23 +217,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The repeated reassurance is preserved, but the candidate drops the important nuance of 'you will be cured too' versus a more categorical 'they will cure you,' which weakens the resigned, collective joke about psychiatric treatment."
+          "justification": "Using the future tense 'curarán' makes the line slightly less idiomatic and less gently resigned than the reference’s more immediate, conversational promise of treatment, though the overall joke remains intact."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 30,
+    "total_points": 24,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.1818181818181817,
+    "major_equiv_per_unit": 0.43636363636363634,
+    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

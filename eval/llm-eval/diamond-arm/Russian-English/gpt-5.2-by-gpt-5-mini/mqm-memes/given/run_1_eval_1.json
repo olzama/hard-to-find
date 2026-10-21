@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate adds a redundant second line ('but I'm afraid...') after a complete rendering of the paradoxical admission. This repetition weakens the rhythmic, bouncing effect (Trus/Boyus) described in the analysis and makes the line feel clumsy rather than lightheartedly self-contradictory."
+          "justification": "The candidate adds an initial 'No,' and then splits the admission into two lines, ending with the bland 'but I'm afraid...' This weakens the original's light, bouncing paradox (not a coward / but afraid) and loses the rhythmic, endearing comic effect the analysis calls for."
         }
       ]
     },
@@ -233,7 +233,14 @@
         "language_specific": {}
       },
       "candidate": "Slipped. Fell. Closed fracture. Passed out. Woke up in a cast.\nSlipped...\nClosed fracture...\ncast!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate's second repetition fragments the sequence (omitting 'Fell' and 'Passed out' and reducing lines to 'Slipped... Closed fracture... cast!'), which slightly alters the telegraphic, complete alibi rhythm. The meaning remains recoverable but the rehearsed, evenly paced mantra is weakened."
+        }
+      ]
     },
     {
       "id": 16,
@@ -359,13 +366,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 1,
+    "total_points": 2,
     "meaning_units": 23,
-    "penalty_per_unit": 0.043478260869565216,
-    "major_equiv_per_unit": 0.008695652173913044,
-    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.08695652173913043,
+    "major_equiv_per_unit": 0.017391304347826087,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

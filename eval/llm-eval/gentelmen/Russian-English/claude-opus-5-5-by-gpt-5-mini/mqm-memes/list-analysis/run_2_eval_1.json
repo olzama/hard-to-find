@@ -41,13 +41,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the grammatical target from the second person in the source to third person with 'his' (\"I'll knock his horns off\"), which reverses who is being threatened and thus alters the meaning of the line. The analysis requires preserving the compact, verdict-like threat directed at the addressee."
+          "justification": "The candidate shifts the threatened person from second person to third person with “his” (\"I'll knock his horns off\"), changing who is being addressed/menaced. The original is a direct, verdict-like second-person threat; this alteration materially changes the force and immediacy of the line."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The final clause uses an explanatory phrasing 'you'll be working to pay for medicine,' which softens the compact, verdict-like structure recommended in the analysis and makes the sentence more prosaic."
+          "justification": "The final clause loses the compact, verdict-like landing recommended in the analysis: ending the sentence with a trailing comma/continuation (\"...you'll be working to pay for medicine,\") weakens the terse, sentence-final punch of the original."
         }
       ]
     },
@@ -84,7 +84,14 @@
         }
       },
       "candidate": "This Vasily Alibabaevich...\nthis... not-nice person...\ndropped a radiator on my foot, the scumbag!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"not-nice person\" awkwardly literalizes the euphemistic restraint of «нехороший человек». It preserves the idea but reads oddly in English; a slightly more natural euphemistic phrasing would better convey the comic, moralizing tone."
+        }
+      ]
     },
     {
       "id": 5,
@@ -109,7 +116,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The repeated formula is preserved, but the final exclamation 'Such romance!' risks being read as literal romantic love rather than the ironic romanticization of a criminal life emphasized in the analysis. The tone is close but slightly weaker/more ambiguous than the approved ironic reading."
+          "justification": "Using \"booze\" as a clipped verb and \"Such romance!\" slightly shifts register and risks reading as playful rather than the compact, proverb-like fatalism of the original. The rhythm/formulaic punch is a bit weakened."
         }
       ]
     },
@@ -148,10 +155,10 @@
       "candidate": "Move the horsey, may I never walk free!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate's oath ('may I never walk free!') shifts the grammatical subject and sense: it reads like a first-person curse on the speaker rather than the original prison-oath forecast about the addressee ('век воли не видать'). That change distorts the intended meaning and force of the original line."
+          "justification": "\"Move the horsey\" and \"may I never walk free!\" capture the unschooled vocabulary and oath form but lean toward childish phrasing and a formal wish structure respectively; the register of the prison oath is slightly softened and could be more forcefully oath-like."
         }
       ]
     },
@@ -193,7 +200,14 @@
         }
       },
       "candidate": "This ain't like pinching small change from pockets!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Pinching small change from pockets\" conveys the petty-thief register, but the added phrase \"from pockets\" makes the line wordier and slightly less punchy than the terse slangy original; it's a small fluency/concision loss."
+        }
+      ]
     },
     {
       "id": 10,
@@ -238,7 +252,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the standard 'citizen,' which smooths over the original's grammatically marked and slightly off address ('гражданина') that contributes to the comic effect. This reduces a layer of the intended non-native, oddly phrased register."
+          "justification": "Rendering the address as the standard \"citizen\" loses some of the original's slightly ungrammatical comic effect (the reference used \"citizin\"). The rest preserves the broken grammar, but standardizing the address weakens the humorous speech error."
         }
       ]
     },
@@ -335,7 +349,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the feminine insult as 'one dumb girl,' which softens and generalizes the direct feminine address in the original. The analysis asks to preserve the feminine–masculine–feminine sequence and the force of a feminine insult; this wording weakens that sharp register and directness."
+          "justification": "\"Then you're one dumb girl\" preserves the insult but slightly smooths and weakens the original feminine–masculine–feminine comic sequence and the directness of the address. A cruder, more directly feminine insult would better match the source tone."
         }
       ]
     },
@@ -359,10 +373,10 @@
       "candidate": "Little one, don't you think your proper place\nis by the slop bucket?",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal phrase 'slop bucket,' which reduces the prison-argot function of 'параша' to a sanitary object. The analysis recommends a functional prison-status term rather than a literal toilet image to preserve the social-hierarchy insult."
+          "justification": "The candidate renders «параша» as \"slop bucket,\" reducing a term of prison-status argot to a literal sanitary object. The original assigns the addressee to the lowest place in the inmate hierarchy; the translation turns that into a mere toilet image and loses the social-status/prison-register meaning required by the analysis."
         }
       ]
     },
@@ -387,9 +401,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "The choice 'hooligans' is somewhat dated and carries British connotations; the analysis suggests using contemporary, natural language for the attackers. Also 'depriving me of my eyesight' is fairly literal and formal—while the line remains understandable, the phrasing slightly undermines the comic-bureaucratic tone of the original."
+          "justification": "Using \"hooligans\" reads as dated or regionally marked and undercuts the recommendation to choose a more natural, contemporary term for attackers. The formal phrasing \"are depriving me of my eyesight\" is serviceable, but the lexical choice for the attackers weakens the intended naturalness."
         }
       ]
     }
@@ -397,13 +411,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 8
     },
-    "total_points": 16,
+    "total_points": 18,
     "meaning_units": 18,
-    "penalty_per_unit": 0.8888888888888888,
-    "major_equiv_per_unit": 0.17777777777777776,
-    "interpretation": "0.89 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

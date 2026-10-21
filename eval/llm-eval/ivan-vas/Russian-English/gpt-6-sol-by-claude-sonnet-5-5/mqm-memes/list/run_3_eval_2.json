@@ -26,13 +26,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Nagging suspicions' is more colloquial than the mock-heroic, theatrical 'vague doubts haunt me'; 'plagued' keeps some elevation but the high-brow operatic register is weakened."
+          "justification": "\"Nagging suspicions\" is an everyday phrase and loses the mock-heroic, operatic register of \"терзают смутные сомнения\". \"Plagued\" helps only slightly, and the vagueness of \"смутные\" is gone."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Medal' is not 'medallion'; the stolen item is the ambassador's medallion, so the callback to the earlier theft is slightly imprecise."
+          "justification": "\"Medal\" renders \"медальон\" (medallion) inexactly. It names a different object, though the loss structure of the two noun phrases is preserved."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation reads as Bunsha addressing a Tsar ('Hello, Tsar!'), not introducing himself as the Tsar. The analysis explicitly requires making clear he is the Tsar, so the self-introduction joke is lost."
+          "justification": "\"Very pleased, Tsar!\" and \"Hello, Tsar!\" read as Bunsha addressing a Tsar, not introducing himself as the Tsar. The analysis explicitly requires the self-introduction, so the drunken impersonation joke is lost."
         }
       ]
     },
@@ -146,14 +146,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everybody dance!' is accurate but plain; it lacks the invitational, mock-ceremonious flavor of the reference, though the chaotic party energy is still conveyed."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -173,14 +166,7 @@
         }
       },
       "candidate": "Well, I picked the right time\nto drop in!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'I picked the right time to drop in' is acceptable as he has just entered, but the phrasing is a bit long and shifts the focus to timing rather than a lucky call; it does not mislead about leaving, so the meaning holds."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -203,9 +189,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Ah, yes!' and the dropped 'caviar' for the eggplant are fine, but 'Caviar from overseas' followed by 'Eggplant spread' loses the punchline structure slightly; the eggplant is correctly not called caviar."
+          "justification": "\"Caviar from overseas... Eggplant spread!\" attaches \"caviar\" to the overseas item, so the eggplant item reads as a correction. This risks the confusion the note warns about and weakens the \"overseas = eggplant\" punchline, although the final \"eggplant spread\" avoids calling it caviar."
         }
       ]
     },
@@ -232,7 +218,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives 'three suede jackets', erasing the joke that Shpak forgets to increment the count for the jacket (a single suede jacket, then 'Three'). The comedic slip that betrays him is lost."
+          "justification": "The candidate says \"three suede jackets\", so Shpak does not slip. The joke is that he forgets to increment the count for the jacket (\"куртка… замшевая… Три\") and so betrays his exaggeration. The candidate removes this and the punchline is lost."
         }
       ]
     },
@@ -249,26 +235,19 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks make the delivery energetic, whereas the analysis describes a melodic, calm resignation; the ellipses in the source signal a quieter tone."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 20,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

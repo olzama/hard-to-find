@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "shall we toss back a quick one?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate reproduces the meaning and register of the reference but begins with a lowercase letter ('shall'), which reads as a typographic/fluency lapse in subtitle presentation and mildly weakens the naturalness and on-screen professionalism."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -113,14 +106,7 @@
         "language_specific": {}
       },
       "candidate": "Natürlich, Margarita Pavlovna.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps the German word (preserving the character quirk) but adds the address 'Margarita Pavlovna,' which alters the original's clipped, automatic interjection by making the line more formal and directed. This changes the comic rhythm and brevity slightly though the core effect remains."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -182,24 +168,24 @@
       "candidate": "I am so utterly awkward... just all sharp edges... so entirely contradictory!\nWhat is it, Margo?",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate inserts an extra sentence ('What is it, Margo?') that is not present in the source or reference. This addition alters the line's self-focused, performative character and introduces new dialogue that changes speaker dynamics and on-screen timing."
+          "justification": "The candidate adds an extra line, 'What is it, Margo?', that does not exist in the source. This is an unnecessary addition that changes the on-screen content and speaker dynamics even though the rendered self-description itself is an acceptable, idiomatic rendering."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

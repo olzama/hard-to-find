@@ -46,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "Such lofty... lo-lo-lofty feelings!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the stuttering and lofty sarcastic tone, but substitutes \"feelings\" for the original social/relational sense of «отношения». This weakens the pointed irony about the trio's ‘relationship’ dynamic slightly, making the line a touch less precise stylistically."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -70,10 +63,10 @@
       "candidate": "You don't live for happiness—you live for conscience.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "Rendering the line as \"You don't live for happiness—you live for conscience\" produces an odd and less natural English phrasing and shifts the intended soldierly, duty-centered fatalism. The original conveys living out of duty/obligation; \"live for conscience\" is unusual and risks obscuring that key meaning and register."
+          "justification": "The candidate renders 'совести' as 'conscience', which is a literal but slightly odd collocation in English for this proverbial maxim. The reference's 'duty' better captures the idiomatic, pragmatic fatalism of the original; the candidate is understandable but weakens the soldierly, duty-focused tone."
         }
       ]
     },
@@ -155,7 +148,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate misspells/transliterates the character name (\"Kholotov\" instead of the intended \"Khobotov\"), altering the referent. Because this repeated formula functions as a tool of psychological domination directed at a named character, changing the name is a significant accuracy error."
+          "justification": "The candidate misspells the character's name ('Kholotov' instead of 'Khobotov'), altering the proper-name reference that is central to this recurring, character-specific taunt. This error undermines the repeated psychological-control function of the line."
         }
       ]
     },
@@ -177,7 +170,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate turns the idiom into \"He's my cross to bear,\" making a person the object of the cross rather than the speaker's burden. This shifts the manipulative, self-sacrificing rhetoric and the idiomatic sense of \"a cross to bear\" in English, changing the line's meaning and weakening the original tactic of feigned martyrdom."
+          "justification": "The candidate changes the grammatical subject to 'He' ('He's my cross to bear'), which shifts the meaning from the speaker claiming a burden (manipulative self-sacrifice) to calling the person themselves the burden. This reverses the original rhetorical effect and thus contradicts the analysis."
         }
       ]
     },
@@ -194,26 +187,19 @@
         "language_specific": {}
       },
       "candidate": "Oh, I’m such an awkward mess,\nso all elbows and knees...\nSo full of contradictions!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate captures the coquettish, self-mocking tone but uses the unusual image \"all elbows and knees,\" which is slightly more colloquial and idiosyncratic than the reference's \"all sharp edges.\" This is a stylistic deviation that is not harmful but makes the phrasing less elegant/precise."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 2
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 17,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

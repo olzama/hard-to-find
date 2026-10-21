@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\na Baba Yaga from outside.\nWe'll cultivate one within our own team!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the staffing/HR joke and the double sense of Baba Yaga as an in-house type, but the word “team” is a more modern, neutral term than Soviet-era “collective.” That slightly weakens the period/collective workplace register the analysis says should be preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the comic reversal (a supposedly 'brief' forty-minute address), but the phrasing adds a third-person framing (“And he gives a brief address—”) rather than the speaker's self-satisfied, managerial voice. This reduces immediacy and weakens the character's tone described in the analysis."
+          "justification": "The candidate introduces a framing ('And he gives a brief address—') that shifts the speaker perspective and slightly weakens the intimate, self-satisfied diminutive tone of «коротенько». The comic undercut of faux-modesty is preserved, but the phrasing is a bit less character-specific and less directly Ogurtsov's voice."
         }
       ]
     },
@@ -90,7 +83,14 @@
         "language_specific": {}
       },
       "candidate": "- People!... Ah... Yoo-hoo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate's 'Yoo-hoo' reads as a cheerful attention-getter rather than the faltering, wavering vocal collapse of the original drunken opener. The broken, unstable vocalization is attenuated, making the physical comic helplessness slightly less audible."
+        }
+      ]
     },
     {
       "id": 6,
@@ -112,10 +112,10 @@
       "candidate": "But just take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the key malformed idiom as “armed eye,” which the analysis warned against because it reads as a strange literal calque in English. That choice makes the mock‑scientific stumble more surreal and less recognizably playful than the preferable solution (e.g. “aided eye”), reducing the intended comic effect."
+          "justification": "Rendering «вооружённым глазом» as 'armed eye' produces an odd, overly literal phrasing in English that reads surreal rather than the intended mock-scientific near-idiom. The line loses the delicate parody of scientific diction; a solution like 'aided eye' better preserves the familiar idiom twist and subtle comic effect."
         }
       ]
     },
@@ -157,14 +157,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept as a fairy-tale name, and \"raise one\" loses the social-type reading (a nasty woman already present in the workplace). The workplace logic survives through \"within our own team\", but the line is somewhat more folkloric than the reference's 'witch ... train in-house'. The bureaucratic 'train/cultivate' flavor is also weaker."
+          "justification": "Baba Yaga is kept as a fairy-tale name, but without the 'witch'/nasty-woman gloss, so the social-type reading (toxic woman already in the workplace) is weaker for English viewers. 'Team' and 'raise' keep the workplace logic, so the damage is limited."
         }
       ]
     },
@@ -67,16 +67,10 @@
       "candidate": "briefly, for about\nforty minutes—more, I think,\nisn't necessary",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The line lacks the diminutive faux-modesty of «коротенько» and the 'And' linking it to the previous sentence. \"Briefly, for about forty minutes\" is a flat statement. The briefness claim is present and precedes the duration, so the contrast is partly kept, but the cozy, self-satisfied managerial tone is missing."
-        },
-        {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"more, I think, isn't necessary\" is stiff and awkward in English; it lacks the natural 'I don't think we need any more than that'."
+          "justification": "The candidate keeps the order 'briefly' then 'forty minutes', so the reversal lands. It loses the cozy, faux-modest diminutive tone of 'коротенько'. The lowercase fragment 'briefly, for about forty minutes' reads flatter and less self-satisfied than the original."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready... been ready for a long time\" works only on the surface level, so the intoxication subtext is lost. The reference's 'Oh, he's ready. He's been ready for quite a while' at least adds a knowing tone that hints at it."
+          "justification": "The candidate translates 'ready' literally and adds nothing to hint at 'drunk'. The central double meaning (official readiness vs. already smashed) is lost, so the joke disappears. The exclamation mark does not rescue it."
         }
       ]
     },
@@ -126,9 +120,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"People!.. Ah... Hellooo!\" keeps the broken, wavering shape, but the syllable-stretching of «Лю-ди!» (Peo-ple!) is lost, so the vocal instability of the drunken entrance is slightly weaker."
+          "justification": "'Hellooo!' keeps the stretched, wavering call, but 'People!' is clean and unbroken. The drunken faltering of 'Лю-ди!' is only partly conveyed. The leading dash is also odd for a single speaker."
         }
       ]
     },
@@ -157,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against. It sounds more surreal than the Russian and does not echo the familiar English idiom 'unaided eye', so the sense of a familiar expression being wrongly 'upgraded' into mock-scientific language is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"one need only take\" is more formal and pompous than the original's casual \"all we have to do\", though it fits the mock-scholarly pose."
+          "justification": "'Armed eye' is the literal calque the analysis warns against. It does not echo a known English idiom like 'unaided eye', so the malformed-idiom, mock-scientific joke is lost and the phrase just sounds surreal. 'One need only' adds a formal register but does not fix this."
         }
       ]
     },
@@ -192,7 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression and the five-star punchline are preserved, but the cognac association is not signaled, and the dash flattens the sudden 'click' into another semantic world. The reference's 'But of course' and note give the turn more punch."
+          "justification": "The star progression and the 'five stars' punchline are kept, so the derailment works structurally. There is no cue that connects it to cognac, and the analysis notes that viewers may need one. The line reads as odd rather than clearly derailed into drinking."
         }
       ]
     },
@@ -218,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet aware of the matter\" is stiffer and more formal than the colloquial «не в курсе дела» ('isn't up to speed'). The comic register mismatch is weaker and the personification of science as someone not briefed is less vivid. The meaning and the correct-but-casual content are retained."
+          "justification": "Meaning and the casual 'not yet aware of the matter' are preserved. 'Science is not yet aware of the matter' is slightly more formal than the colloquial 'не в курсе дела' (as in 'not up to speed'). The comic register mismatch is a bit weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 21,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 2.625,
-    "major_equiv_per_unit": 0.525,
-    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

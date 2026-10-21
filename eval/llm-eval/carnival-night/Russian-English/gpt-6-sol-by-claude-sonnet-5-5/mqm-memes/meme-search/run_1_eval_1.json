@@ -34,9 +34,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Hire\" keeps the workplace logic, but \"a Baba Yaga\" keeps the fairy-tale name untranslated for an English audience without the 'witch' gloss. The social-type reading (a nasty woman already in the collective) is less accessible than with \"witch\"."
+          "justification": "\"Hire a Baba Yaga\" keeps the untranslated folkloric name, which leans toward the fairy-tale reading, though \"hire\" and \"train in-house\" keep the workplace logic. The social-type meaning (a nasty woman already present in the collective) is not accessible to English viewers."
         }
       ]
     },
@@ -58,7 +58,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"And he delivers\", which turns Ogurtsov's own proposal into a description of the lecturer. The faux-modest first-person tone is lost. \"Brief address\" is flatter than the cozy diminutive \"коротенько\" and loses the patronizing 'just a little talk' effect. \"Longer\" shifts the meaning from 'more than that'."
+          "justification": "\"And he delivers a brief address\" adds a subject and shifts the line. The faux-modest framing comes from Ogurtsov's own voice, and the line should work as his announcement of a lecture. The pacing is preserved (brief, then forty minutes), but the diminutive \"коротенько\" is flattened into \"brief address\" and the smug self-assured tone is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"I don't think we need any longer\" is a slight shift from \"no more than that\" and loses some of the self-satisfied sense of restraint."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of \"готов\" (ready/drunk) is not recreated. \"Ready... has been for ages\" only conveys the surface sense, so the central drunkenness joke is lost, and the reference's \"Oh, he's ready\" hint is absent. Also \"lecturer\" is replaced by \"he\", weakening the production-style setup."
+          "justification": "The double sense of \"готов\" (ready / drunk) is not recreated. \"He's ready. Has been for ages!\" keeps only the surface meaning, and the lecturer is not named, so the intoxication subtext, which is the whole joke, is lost. Nothing hints at being \"ready\" in the drunk sense (e.g. \"he's well and truly ready\")."
         }
       ]
     },
@@ -102,7 +108,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate normalizes the line into a clean \"People!... Hello?\". The stretched, broken vocalization (\"Peo-ple! Ah… hellooo!\") that conveys drunken physical comedy is gone, and \"Ah\" is omitted. \"Hello?\" reads as a sober query rather than a wavering \"ау-у\" call."
+          "justification": "The broken, stretched, drunken vocalization (\"Peo-ple! Ah… hellooo!\") is flattened into a clean \"People!... Hello?\". The faltering physical comedy and slurred wavering cry are lost, and \"Hello?\" reads as a normal question rather than a trailing \"ау-у\"."
         }
       ]
     },
@@ -129,7 +135,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"With the aid of an instrument\" is a plain, correct phrase. The malformed idiom \"вооружённым глазом\" and its mock-scientific, tipsy deformation are lost, so the humor disappears. There is no echo of \"unaided eye\"."
+          "justification": "\"With the aid of an instrument\" is a plain, correct phrase. The malformed idiom (\"armed eye\" / \"aided eye\" echoing \"unaided eye\") is gone, so the mock-scientific drunken distortion that carries the joke disappears; the line is merely wordy."
         }
       ]
     },
@@ -154,9 +160,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The counting build-up and the 'five stars' punchline are kept, but the line is rewritten so that \"Four stars\" begins a new line before the punchline, slightly weakening the trivial counting rhythm. The cognac association is not signaled (no note), though the analysis says a note may be needed. The missing final punctuation also weakens the exclamatory drunken flourish."
+          "justification": "The counting progression and the sudden shift to \"five stars\" are preserved, and the cognac association is optional per the note. However, the line loses the diminutive silliness of \"звёздочки\" and the exclamatory punch (no \"!\"), so the click into a different domain is somewhat weaker, and without any cue the cognac reading may not land for English viewers."
         }
       ]
     },
@@ -178,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hasn't found out yet\" is casual and keeps some register mismatch, but it loses the personified, 'not yet briefed' quality of \"не в курсе дела\" (\"isn't up to speed\"). \"Or no life on Mars\" is clumsy compared with the natural \"or not\"."
+          "justification": "The content and casual register are largely kept, and \"Science hasn't found out yet\" is colloquial. But it loses the personification of science as someone not yet briefed (\"not up to speed\"), so the comic conversational punch is somewhat weaker. \"Or no life on Mars\" is also slightly clumsy."
         }
       ]
     }
@@ -186,13 +192,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 3
+      "minor": 4
     },
-    "total_points": 23,
+    "total_points": 24,
     "meaning_units": 8,
-    "penalty_per_unit": 2.875,
-    "major_equiv_per_unit": 0.575,
-    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

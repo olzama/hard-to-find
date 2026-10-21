@@ -58,7 +58,14 @@
         }
       },
       "candidate": "just briefly—about forty minutes,\nI think that’s enough...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the structural joke (faux-briefness followed by ‘forty minutes’) but renders «коротенько» as plain “just briefly.” The diminutive, slightly self-satisfied, patronizing tone of «коротенько» is weakened, so the comic understatement is a bit less characterful than in the analysis."
+        }
+      ]
     },
     {
       "id": 4,
@@ -121,9 +128,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate keeps the intended malformed idiom but uses the literal wording “armed eye.” The analysis warns that a calque like “armed eye” reads stranger and more surreal in English than in Russian; a solution echoing English idioms (e.g. “aided eye” or a similar ironic phrasing) would better preserve the mock‑scientific but recognizable deformation. Using quotation marks mitigates this, but the phrasing still risks sounding oddly literal rather than humorously pseudo‑scientific."
+          "justification": "The candidate keeps the malformed idiom, but uses the literal calque “armed” eye (even in quotes). As noted in the analysis, English finds “armed eye” odd and slightly surreal; a solution like “aided eye” better preserves the mock‑scientific, near-recognizable idiom while remaining natural. The current phrasing is understandable but less idiomatically effective."
         }
       ]
     },
@@ -172,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 1,
+    "total_points": 2,
     "meaning_units": 8,
-    "penalty_per_unit": 0.125,
-    "major_equiv_per_unit": 0.025,
-    "interpretation": "0.12 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.25,
+    "major_equiv_per_unit": 0.05,
+    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

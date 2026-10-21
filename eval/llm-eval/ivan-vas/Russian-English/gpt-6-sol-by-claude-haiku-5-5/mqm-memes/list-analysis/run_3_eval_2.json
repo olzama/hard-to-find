@@ -24,9 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The elliptical fragment 'The ambassador, his medal.' leaves the verb implicit and is less clear than the reference. The loss is inferred from the preceding line, but the reader has to work to reconstruct it."
+          "justification": "'медальон' (locket/medallion) is rendered as 'medal', which names a different object (a decoration or award). The joke about each man losing his item still works, but the noun is wrong."
         }
       ]
     },
@@ -98,7 +98,7 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Sealed me in' is a looser choice than the reference's 'walled me in' for the source's 'замуровали' (to wall up). It keeps the trapping sense but loses the specific image of being bricked in, which supports the analysis's point about the Tsar's literal, sorcery-based reading."
+          "justification": "'замуровали' (walled up / bricked in) is rendered as 'sealed in', which loses the walling image and the sense of a physical enclosure. The demons-as-subject reading required by the analysis is correct."
         }
       ]
     },
@@ -202,10 +202,10 @@
       "candidate": "Three tape recorders,\nthree movie cameras,\nthree domestically made cigarette cases,\none suede jacket... Three.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "'three domestically made cigarette cases' is wordier and more clumsy than the reference's 'three cigarette cases, domestic', and it reads less naturally as a spoken list item in a character's voice."
+          "justification": "The candidate adds an explicit count, 'one suede jacket', where the source has 'куртка… замшевая…' with no count. The analysis says the joke depends on Shpak forgetting to increment the jacket count and being betrayed by it. The added 'one' removes that mechanism, so the final 'Three' no longer works as the betrayal."
         }
       ]
     },
@@ -227,21 +227,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate drops the leading 'And' and ends the final line with '!' instead of the source's trailing ellipsis. This shifts the calm, melodic resignation described in the analysis toward an exclamatory tone, and it weakens the rhythmic trailing-off of the original."
+          "justification": "The final line ends with an exclamation mark ('and they'll cure me!') where the source trails off with an ellipsis. This turns the calm, melodic resignation described in the analysis into an exclamation."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 4
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 4,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 0.36363636363636365,
-    "major_equiv_per_unit": 0.07272727272727272,
-    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "shall we toss back a quick one?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line starts with a lowercase 's' ('shall we toss back a quick one?'). It reads as a continuation of the previous line, but this is a new speaker's line, so the capitalization is a small mechanical flaw. The wording and the lowering of Velyurov's pathos into casual camaraderie are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -203,7 +196,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds an 'Oh,' that is not in the Russian source. It fits the affected, coquettish tone, and the rest of the line (awkward / sharp edges / contradictory) is natural and avoids the literal 'angular'. Still, it is an unwarranted addition."
+          "justification": "The candidate adds an interjection 'Oh,' that is not in the source. It slightly reinforces the mannered, affected tone, but it is an addition not present in the original and the reference."
         }
       ]
     }
@@ -211,13 +204,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

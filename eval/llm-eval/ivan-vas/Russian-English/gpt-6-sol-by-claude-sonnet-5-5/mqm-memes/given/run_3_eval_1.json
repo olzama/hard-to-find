@@ -186,7 +186,14 @@
         }
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic… a suede jacket… Three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate begins with lowercase 'three' and is split across lines, so it reads as a fragment of a longer list. It also lacks the full-sentence feel of the reference. The meaning and the key detail (the suede jacket count not being incremented, 'Three' as the final slip) are preserved, so the impact is small."
+        }
+      ]
     },
     {
       "id": 11,
@@ -206,13 +213,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first 'and they'll cure you…' and adds a final line, 'They'll cure me too!', which is not in the source. This changes the three-beat litany of the original."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The added exclamation mark makes the last line sound emphatic. The analysis describes the character's melodic, calm resignation, so the tone is slightly off."
+          "justification": "The candidate omits the first 'And they'll cure you…' and adds a new final line 'They'll cure me too!' that is not in the source. The added line also changes the calm, melodic resignation into an exclamation. The overall effect of resigned, shared madness is mostly preserved."
         }
       ]
     }

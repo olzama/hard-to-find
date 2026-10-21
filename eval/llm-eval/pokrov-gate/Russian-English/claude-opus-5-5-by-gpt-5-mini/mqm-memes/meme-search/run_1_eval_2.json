@@ -56,7 +56,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the stuttering and sarcastic tone, but uses the noun 'relations' which leans toward a literal noun-phrase rendering. This risks the slight awkwardness the analysis warned against (preferring a more natural exclamatory idiom), though the overall effect is maintained."
+          "justification": "The phrase \"Such... such lofty relations.\" is understandable but feels slightly awkward and formal in English; it doesn't capture the sing-song, sardonic repetition and playful stutter of the original refrain as naturally as alternatives like \"highly e-v-volved\" or an exclamatory idiom would."
         }
       ]
     },
@@ -78,7 +78,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the maxim's bluntness but uses 'conscience' in a way that reads unidiomatically in English ('for conscience' is awkward). A more natural target would use 'duty' or a phrasing like 'you don't live for joy, you live out of conscience' to better capture register and idiom."
+          "justification": "\"We live not for joy, but for conscience.\" is a literal rendering of the Russian but reads oddly in English: \"conscience\" here carries a different register than the intended soldierly sense (compare \"duty\"). The line is understandable but slightly weakens the original's blunt, pragmatic tone."
         }
       ]
     },
@@ -115,14 +115,7 @@
         }
       },
       "candidate": "Master chef!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'Master chef!' is natural English but shifts the comic bite and register slightly from the brusque, scornful short exclamation in the analysis. It changes the flavor of the ironic insult though it remains understandable and contains the intended scorn."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -159,10 +152,10 @@
       "candidate": "Cut it out, damn it,\ndon't wait for the peritonitises!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate mistranslates the medical term by pluralizing 'peritonitis' as 'peritonitises', which is ungrammatical and distracts in a medical farce context. The rest of the line preserves register and abruptness."
+          "justification": "The candidate misrenders the medical imperative. \"Cut it out, damn it\" means 'stop doing that' rather than the surgical command to operate (\"резать\" = to cut surgically). Additionally, \"peritonitises\" is an awkward, incorrect pluralization. Together these change the intended medical farce and blunt, urgent surgical tone."
         }
       ]
     },
@@ -204,7 +197,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits and literalizes the fixed idiom into 'He's my cross!', which changes the framing: instead of the manipulative self-victim idiom 'a cross to bear' (emphasizing feigned sacrifice), it labels the person as the burden, altering the character's rhetorical self-sacrifice and the manipulative tone described in the analysis."
+          "justification": "The candidate turns the idiomatic burden into a literal statement about a person: \"He's my cross!\" which shifts the meaning. The original idiom expresses self-sacrificial burden ('This is my cross to bear'), not that someone is literally the cross. This alteration undermines the manipulative self-pity in the character's line."
         }
       ]
     },
@@ -229,23 +222,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'angular' (a literal rendering of 'угловатая') and has slightly awkward repetition ('all of me... So contradictory, all of me!'), which makes the line feel less idiomatic and less coquettishly self-mocking than the analysis suggests."
+          "justification": "Using \"angular\" for «угловатая» is a too-literal lexical choice that sounds odd in idiomatic English and weakens the coquettish, self-mocking quality of the original. The repeated \"all of me\" also reads somewhat stilted compared with a smoother, idiomatic rendering."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 10,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

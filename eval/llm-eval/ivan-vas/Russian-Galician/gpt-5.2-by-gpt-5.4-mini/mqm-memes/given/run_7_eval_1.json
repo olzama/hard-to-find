@@ -33,10 +33,10 @@
       "candidate": "Boas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.\nBoas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate repeats the full line twice in one subtitle, adding a duplicated block that is not in the source and unnecessarily changes the delivery/pace."
+          "justification": "The line is duplicated immediately after itself, which is not wrong, but in isolation it looks like an accidental repetition rather than a deliberate subtitle split."
         }
       ]
     },
@@ -148,7 +148,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The added standalone line \"Berenxena!\" is awkward and unnecessary; it breaks the cadence of the punchline even though the main meaning is preserved."
+          "justification": "The final isolated “Berenxena!” is awkward as a subtitle fragment; it reads like an unnecessary repetition and slightly disrupts the comic punch."
         }
       ]
     },
@@ -167,10 +167,10 @@
       "candidate": "Tres magnetófonos, tres cámaras de cine, tres cigarreiras nacionais, unha chaqueta… de ante… tres.\ntres cigarreiras nacionais,\nchaqueta de ante: tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate is heavily corrupted by duplicated fragments and broken structure, making the list of items unclear and distorting the joke about the exaggerated inventory and the final forgotten count."
+          "justification": "The candidate repeats pieces of the inventory in a fragmented way, which is understandable but somewhat awkward and less smooth than a single coherent subtitle line."
         }
       ]
     },
@@ -192,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 1
+      "major": 0,
+      "minor": 3
     },
-    "total_points": 11,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

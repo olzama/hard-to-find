@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves meaning and the teasing, self-dramatic tone, but it is less flamboyant and theatrical than the reference (loses the heightened rhetorical flourish of 'Pray, tell me' / double exclamation). This slightly weakens the original performative bravado."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "how about we knock back a little shot?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The phrase conveys the same ironic, convivial invitation and the trickster tone, but 'knock back a little shot' is slightly colloquial and a bit clunky compared with the snappier idiom of the reference. Still perfectly understandable and functional."
+        }
+      ]
     },
     {
       "id": 3,
@@ -48,10 +62,10 @@
       "candidate": "Lofty... lofty relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Lofty... lofty relations.' is a literal noun-phrase that reads flatly and misses the sarcastic, stuttering exclamatory rhythm of the original refrain (the repeating, drawn-out delivery). This weakens the recognizable comic hook described in the analysis."
+          "justification": "The line is a key repeated sarcastic refrain. The candidate's literal 'Lofty... lofty relations.' reads as a noun phrase and loses the ironic exclamatory phrasing and rhythmic stutter that make the meme recognizable and comic. This undermines the original's mock-elevated tone and refrain function."
         }
       ]
     },
@@ -70,10 +84,10 @@
       "candidate": "People don’t live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'live for conscience' is unnatural in English and fails to convey the soldierly fatalism and duty-focused sense of the original (and of the reference 'live to do your duty'). This changes register and obscures the intended pragmatic point about duty over happiness."
+          "justification": "'People don’t live for joy—they live for conscience.' is a literal rendering that communicates the soldierly fatalism, but the collocation 'live for conscience' sounds slightly awkward in English compared with more natural idioms like 'live to do your duty' or 'live for duty.'"
         }
       ]
     },
@@ -107,10 +121,10 @@
       "candidate": "A culinary genius!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'A culinary genius!' shifts the bite of the original sarcastic insult to a more exaggerated, ironically flattering tone. It keeps the mockery but softens the terse, scolding punch that the analysis highlights."
+          "justification": "The original is a biting ironic rebuke ('Some cook you are!') using a professional term as an insult. The candidate 'A culinary genius!' turns the insult into praise, reversing the intended sarcastic meaning and destroying the comic/verbal effect."
         }
       ]
     },
@@ -159,10 +173,10 @@
       "candidate": "Khabotnov, that's petty!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The name is mistransliterated as 'Khabotnov' instead of the expected 'Khobotov' (or equivalent). Misrendering the character's name is a significant accuracy error because it affects identification and continuity."
+          "justification": "The surname is rendered as 'Khabotnov' instead of 'Khobotov' (transliteration error). The line otherwise retains the meaning and tone, but the name misspelling is an accuracy issue."
         }
       ]
     },
@@ -181,10 +195,10 @@
       "candidate": "He’s my cross to bear!\nAnd I’ll bear it.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as 'He’s my cross to bear!', which makes the person (He) the cross, changing the original meaning. The intended manipulative idiom is that the speaker bears the burden (the cross to bear), not that someone else 'is' the cross. This reverses the sense and undermines the rhetorical effect."
+          "justification": "The candidate uses the idiom 'cross to bear,' which correctly conveys the manipulative sacrificial tone, but renders the object as 'He’s my cross' rather than keeping the original impersonal 'This is my cross' / 'This is my cross to bear.' This slightly shifts focus onto the person as the 'cross,' a small change in nuance."
         }
       ]
     },
@@ -206,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The phrase 'all angles' mirrors the source's 'угловатая' too literally and reads awkwardly in English. While the candidate conveys the general self-deprecating tone, the wording is somewhat unnatural and weakens the idiomatic, coquettish self-characterisation noted in the analysis."
+          "justification": "The candidate captures the self-mocking, stammering quality, but uses 'all angles'—a near-literal rendering of 'угловатая'—which was warned against as awkward in English. The phrasing is understandable but stylistically less natural than alternatives that preserve the intended comic self-deprecation."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 3
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 18,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -41,13 +41,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that it be clear he is introducing himself as the Tsar, not addressing one. The candidate's bare 'Tsar!' with 'Pleased to meet you, hello.' before it is ambiguous and can be read as greeting a Tsar. The reference's 'I'm the Tsar' resolves this and the candidate does not."
+          "justification": "The analysis requires that Bunsha is clearly introducing himself as the Tsar, not addressing one. The candidate's 'Hello. Tsar!' and 'Tsar. Pleased to meet you!' read as greetings to a Tsar, so the key self-introduction point is lost."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Opening with 'Pleased to meet you, hello.' reverses the source's greeting-then-pleasure order ('Здравствуйте, царь, очень приятно'), which makes the first line less natural."
+          "justification": "'Pleased to meet you, hello.' reverses the source's courtesy order and sounds awkward in English, weakening the stiff, cliched greeting rhythm."
         }
       ]
     },
@@ -99,14 +99,7 @@
         "language_specific": {}
       },
       "candidate": "Walled me in!\nWalled me in, the fiends!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "Dropping the subject ('They've walled me in') leaves 'Walled me in!' without a clear agent. The analysis asks that the demons read as the subject of the sentence, and the candidate's wording makes that less clear than the reference does."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -188,10 +181,10 @@
       "candidate": "Caviar, black, red...\nYes! And overseas caviar...\nAubergine!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'And overseas caviar...' applies the word 'caviar' to the eggplant item, which is the error the analysis warns against."
+          "justification": "The analysis warns against calling the eggplant spread 'caviar', but the candidate keeps 'overseas caviar' before the 'Aubergine!' reveal. The status inversion still comes through, but the bare 'Aubergine!' is less clear about what the rare delicacy is than the reference's 'overseas spread... eggplant'."
         }
       ]
     },
@@ -213,7 +206,14 @@
         }
       },
       "candidate": "tape recorders, three;\ncine cameras, three;\ncigarette cases, domestic, three;\njacket, suede: three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The telegraphic list has awkward phrasing, such as 'cigarette cases, domestic, three' and 'jacket, suede: three', which loses the spoken pauses and the 'Three.' punchline of the original. The growing count and the forgotten suede-jacket increment are still preserved."
+        }
+      ]
     },
     {
       "id": 11,
@@ -233,21 +233,27 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's trailing ellipses and melodic, calm resignation are replaced by exclamation marks on every line. This pushes the delivery toward agitation and weakens the calm, fatalistic tone the analysis describes."
+          "justification": "The exclamation marks on every line turn the calm, melodic resignation described in the analysis into excited, hysterical delivery, which shifts the tone of the character."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The first line adds 'too' ('They'll cure you too!'), which has no counterpart in the source's opening 'И тебя вылечат'. The later 'as well' then repeats the same idea."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 3
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 13,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

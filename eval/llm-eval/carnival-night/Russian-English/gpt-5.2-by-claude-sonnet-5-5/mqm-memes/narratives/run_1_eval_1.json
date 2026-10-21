@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire a Baba Yaga\" and \"raise one\" keep the staffing/upbringing logic, but \"Baba Yaga\" untranslated may be opaque to non-Russian viewers, and \"raise\" is less bureaucratic than \"train/cultivate\" (воспитаем). The workplace-social reading is weakened slightly, though the joke largely survives."
+          "justification": "\"Hire\" and \"raise\" keep the workplace logic, but \"raise one\" sounds more like upbringing than in-house staff training, and \"Baba Yaga\" untranslated without a gloss leans on the folkloric frame. The social-type reading (a nasty woman already in the collective) survives mostly through context."
         }
       ]
     },
@@ -70,13 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The diminutive, faux-modest «коротенько» is rendered as plain \"briefly\", with no cozy or patronizing sense, so the contrast with \"forty minutes\" is weakened, which the analysis flags as the key risk."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"more isn't necessary\" is stiff and unnatural; it lacks the self-satisfied managerial tone of \"I don't think we need any more than that\"."
+          "justification": "The faux-modest diminutive \"коротенько\" is rendered as a flat \"briefly\", and \"more isn't necessary\" is stiff. The self-satisfied, patronizing managerial tone that makes \"forty minutes\" land as the punchline is weakened."
         }
       ]
     },
@@ -102,13 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready a long time ago\" is ungrammatical in sense and does not carry the double meaning of \"ready\" as \"drunk\"; it misrenders «давно готов» (has been ready for a long time) and the intoxication subtext is lost, so the joke is not recreated."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The exchange has no dash or speaker distinction between question and answer, and \"ready a long time ago\" is awkward English."
+          "justification": "The double meaning of \"готов\" (ready / drunk) is not recreated. \"Ready a long time ago!\" is just literal readiness with an exclamation, so the drunkenness joke is lost for the English viewer."
         }
       ]
     },
@@ -134,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, stretched vocalization is only partly kept: \"People!..\" is a clean word rather than a faltering \"Peo-ple!\", and \"Ah.. Ah-oo!\" adds an extra \"Ah\" and loses the wavering, hailing \"hellooo\" quality, so the drunken physical comedy is weakened."
+          "justification": "The broken, wavering vocalization is kept (\"People!.. Ah.. Ah-oo!\"), but the word \"People\" is not stretched into syllables and the final cry \"Ah-oo\" is less clearly a calling-out \"hello\", so the drunken faltering is slightly weaker."
         }
       ]
     },
@@ -161,9 +149,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly says to avoid; it sounds surreal and does not echo \"unaided eye\", so the mock-scientific malformed idiom is not recreated for English viewers."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It sounds surreal and does not evoke a familiar English idiom (\"unaided eye\") being wrongly upgraded, so the mock-scientific malapropism is lost."
         }
       ]
     },
@@ -192,13 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is garbled: \"Four stars—best of all, of course, five stars!\" makes four stars the best, then five stars, which breaks the trivial counting buildup and the sudden click into the cognac frame; the original counts four, then says five is best."
-        },
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "No cultural note is given for the five-star cognac reference, which the analysis says most viewers will not recognize, so the punchline may be lost."
+          "justification": "The progression is garbled: \"Four stars—best of all, of course, five stars!\" makes four stars the best and then five, breaking the build-up. The trivial counting followed by the sudden click to \"five stars is best\" is blurred, and the cognac association is not signaled."
         }
       ]
     },
@@ -222,15 +204,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"whether there is no life on Mars\" is a clumsy literal rendering of «нет ли жизни», and \"science does not know\" is a bit stiff compared with the casual \"unknown to science\"."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Not yet up to date\" is a less idiomatic equivalent of «не в курсе дела» (\"up to speed\"), slightly weakening the conversational personification of science."
+          "justification": "\"Whether there is no life on Mars\" is awkward and \"Science is not yet up to date\" is a slightly off idiom compared to the colloquial \"not up to speed\", so the casual personified register is a bit weaker, though the comic mismatch largely survives."
         }
       ]
     }
@@ -238,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 7
+      "minor": 3
     },
-    "total_points": 27,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 3.375,
-    "major_equiv_per_unit": 0.675,
-    "interpretation": "3.38 MQM penalty points per meaning unit (≈ 0.68 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

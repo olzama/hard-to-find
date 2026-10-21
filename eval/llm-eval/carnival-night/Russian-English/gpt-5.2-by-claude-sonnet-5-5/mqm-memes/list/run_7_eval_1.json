@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Keeping the proper name \"Baba Yaga\" pushes the line toward fairy-tale territory. The analysis warns against this because the joke depends on the workplace type of a nasty woman. English-speaking viewers are less likely to catch that social meaning than with a plain word like \"witch\". The staffing logic (\"bring in from outside\" vs. \"raise within our team\") is preserved, so the damage is limited."
+          "justification": "Keeping 'Baba Yaga' untranslated makes the line more fairy-tale-like for a non-Russian audience, who may not recognize the workplace-type of nasty woman; 'team' and 'raise' keep the workplace logic, but the social-type reading is weaker than with a generic 'witch'."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "briefly—about\nforty minutes. More, I think,\nis unnecessary...",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The plain \"briefly\" lacks the cozy, faux-modest quality of «коротенько», and \"is unnecessary\" sounds stiffly formal. The contrast with \"forty minutes\" still works, and the order (briefness claim first, duration second) is kept, but the smug managerial tone is weaker than in the original."
+          "justification": "The diminutive faux-modesty of «коротенько» is rendered as a flat 'briefly', so the contrast with 'forty minutes' is weakened. 'Is unnecessary' also sounds stiff rather than self-satisfied and managerial, and the line loses the cozy, patronizing tone the analysis requires."
         }
       ]
     },
@@ -91,7 +91,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—been ready a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Ready' is translated only in its literal sense. Nothing in the English suggests the colloquial 'done for/drunk' reading, so the double meaning, which is the whole joke, is lost."
+        }
+      ]
     },
     {
       "id": 5,
@@ -135,9 +142,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the English notes explicitly say to avoid. It reads as stranger and more surreal than the Russian and does not echo the familiar \"unaided eye\", so the sense of a familiar idiom being wrongly upgraded into mock-scientific language is lost."
+          "justification": "'Armed eye' is the literal calque that the English-specific note explicitly says to avoid. It does not echo 'the unaided eye', so English viewers do not hear a familiar idiom wrongly upgraded and the mock-scientific effect is lost; it sounds merely strange."
         }
       ]
     },
@@ -161,7 +168,14 @@
         }
       },
       "candidate": "and we can already see two little stars,\nthree little stars...\nfour little stars—and best of all,\nof course, five little stars!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The silly counting build-up and the 'five little stars' punchline are kept. However, the 'little stars' phrasing and the absence of any cue to the cognac association mean that the click into a different semantic world will be missed by most English viewers."
+        }
+      ]
     },
     {
       "id": 8,
@@ -183,23 +197,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Whether there is no life on Mars\" is an awkward, over-literal rendering of «нет ли жизни». It reads as ungrammatical or stilted in English. The casual-register punchline \"not yet up to speed\" is kept and the meaning is intact."
+          "justification": "The line keeps the casual 'up to speed' and the personified science. The stiff, literal 'whether there is no life on Mars' is slightly awkward and less natural than the colloquial original, which weakens the loose conversational register a little."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 3,
       "minor": 3
     },
-    "total_points": 8,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

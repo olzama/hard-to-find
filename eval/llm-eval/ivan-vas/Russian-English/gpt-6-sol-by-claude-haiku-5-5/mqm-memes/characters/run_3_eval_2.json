@@ -24,9 +24,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Medal' names a different object from the source 'медальон' (a pendant or locket), which the reference correctly renders as 'medallion'. The candidate keeps the structure of the two losses but misidentifies the stolen item."
+          "justification": "'Medal' does not match 'медальон' (medallion). The analysis specifies the ambassador's item as a valuable piece of jewelry, and a medal is a different object, so the substitution does not clearly do the same job."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Plagued by a vague suspicion' weakens the mock-heroic register of 'терзают смутные сомнения' (tormented by vague doubts). The singular 'suspicion' loses the plural, theatrical tone the analysis identifies as the source of the humor."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that Bunsha is clearly introducing himself as the Tsar, not addressing one. 'A pleasure, Tsar!' and 'Hello, Tsar!' read as vocatives greeting a Tsar, so the candidate contradicts the required meaning and removes the impersonation joke."
+          "justification": "The analysis states that Bunsha introduces himself as the Tsar and does not address a Tsar. The candidate's repeated vocatives ('A pleasure, Tsar!', 'Hello, Tsar!') read as greeting the Tsar, which reverses the intended meaning and contradicts the translation note."
         }
       ]
     },
@@ -87,10 +93,10 @@
       "candidate": "Leave me, old woman.\nI'm in mourning.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'В печали' means 'in sorrow' in a high, archaic register, and the reference renders it as 'I am in sorrow'. 'I'm in mourning' mistranslates it toward bereavement, a specific meaning absent from the source, and modernizes the regal melancholy the analysis calls for."
+          "justification": "'I'm in mourning' implies bereavement, whereas 'в печали' means being in sorrow or melancholy. The shift changes the specific emotional state the analysis describes as regal melancholy, though the overall effect survives."
         }
       ]
     },
@@ -212,7 +218,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis identifies the punchline as Shpak forgetting to count the suede jacket at first, then correcting to 'Three'. The source's 'куртка… замшевая… Три' hesitation carries this beat. The candidate lists 'three suede jackets' flatly, removing the self-correction and the comic reveal of his inflated count."
+          "justification": "The joke depends on Shpak forgetting to increment the suede jacket count before correcting himself with 'Три' at the end. The candidate removes that lapse by listing 'three suede jackets' in the same consistent pattern as the other items, so the comic reveal described in the analysis is lost."
         }
       ]
     },
@@ -231,24 +237,24 @@
       "candidate": "They'll fix you!\nThey'll fix you too!\nThey'll fix me!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis stresses a calm, melodic resignation with a psychiatric-ward connotation. 'Fix' is mechanical repair language, and the three exclamation marks turn the calm refrain into a hurried shout. The reference's 'cure' and unmarked delivery keep the intended tone, which the candidate loses."
+          "justification": "'They'll fix you!' uses a mechanical, casual register, whereas 'cure' carries the psychiatric and medical connotation that the analysis ties to the calm, resigned tone and the reference to the psychiatric ward. The meaning shifts toward repair, weakening that effect."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 1
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 21,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

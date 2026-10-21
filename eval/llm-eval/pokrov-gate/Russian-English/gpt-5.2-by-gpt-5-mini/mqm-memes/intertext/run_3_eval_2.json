@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and the mocking challenge, but it is less theatrically self-dramatizing than the reference and the analysis requires. The clipped 'Name one! No, I'm waiting.' loses some of the grandiose, performative flourish characteristic of Velurov's line."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -55,10 +48,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), which the analysis explicitly warns against. It fails to reproduce the sarcastic exclamatory refrain and the stuttering/evocative delivery that mark the original as a recurring ironic motif, significantly weakening the comic effect and character voice."
+          "justification": "The candidate 'High... high relations.' uses a literal noun phrase and lacks the mocking stuttery delivery and idiomatic exclamation of the reference. This weakens the sarcastic refrain that caricatures claimed 'evolved' relations."
         }
       ]
     },
@@ -80,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's wording ('People don't live for joy, but for conscience') is a more literal phrasing and uses 'conscience' where the reference conveys the idiomatic idea of duty/obligation. This shifts nuance and sounds slightly stilted, reducing the soldierly fatalism and blunt moral register highlighted in the analysis."
+          "justification": "Rendering 'совести' as 'conscience' shifts the idiom from the social/duty-oriented fatalism ('you live to do your duty') to a more introspective sense. The soldierly, duty-bound bluntness from the analysis is therefore slightly softened."
         }
       ]
     },
@@ -117,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' adopts a positive-sounding formulation that lacks the sharp, biting domestic insult of the original. It softens the authoritative, dismissive tone that the reference captures, reducing the comedic sting of the exclamation."
+          "justification": "The candidate 'Culinary genius!' is idiomatic but reads as an oddly positive phrase rather than the sharp, dismissive household insult implied by the original. The register/force of the snappy rebuke is somewhat weakened."
         }
       ]
     },
@@ -164,7 +157,14 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that's petty!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The surname is transliterated as 'Khabotov' instead of the expected 'Khobotov' — a minor but noticeable inconsistency in the character name that could distract or confuse attentive viewers."
+        }
+      ]
     },
     {
       "id": 10,
@@ -184,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as 'He's my cross!', which concretely labels the person as the cross rather than expressing the idiomatic burden ('a cross to bear'). This reverses the intended figurative meaning and undermines the manipulative self-sacrificial tone central to the line, as explained in the analysis."
+          "justification": "The candidate 'He's my cross!' changes the construction and agency: it literalizes the person as the 'cross' rather than preserving the idiomatic sacrificial line ('This is my cross to bear / And mine alone') used manipulatively in the original. This alters the manipulative, self-victimizing rhetorical effect described in the analysis."
         }
       ]
     },
@@ -206,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' as a translation of 'угловатая,' which the analysis explicitly warns against because it reads as an overly literal and awkward lexical choice in English. This reduces the witty, idiomatic self-mockery of the original."
+          "justification": "The candidate uses 'angular' as a direct translation of 'угловатая', which the analysis explicitly warns against because it reads too literal and awkward in English. The phrasing therefore sounds less natural and weakens the intended self-mocking coquettishness."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 14,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

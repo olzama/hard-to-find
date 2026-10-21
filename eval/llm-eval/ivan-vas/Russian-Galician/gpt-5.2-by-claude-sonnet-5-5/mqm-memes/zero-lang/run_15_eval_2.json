@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak 'ten' a tape recorder and the ambassador 'ten' a medallion, which is the exact error the NB warns against. The items are missing (stolen), not possessed, so the logic of the callback to the theft is lost."
+          "justification": "The NB explicitly says the items are lost, but the candidate says Shpak 'ten un magnetófono' and the ambassador 'un medallón' (they have them), reversing the meaning and breaking the callback to the thefts."
         },
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'vagas dúbidas' is a flat rendering of 'смутные сомнения'. It loses the mock-heroic, theatrical register that the reference keeps with 'asáltanme escuras sospeitas'. The line breaks and the weak 'Outra vez me asaltan' also reduce the comic pomposity."
+          "justification": "'Outra vez me asaltan vagas dúbidas' is acceptable but 'vagas' is flatter than the mock-heroic 'escuras sospeitas'; the pronoun placement 'me asaltan' is also less formal/archaic than the enclitic 'asáltanme', weakening the theatrical register."
         }
       ]
     },
@@ -44,26 +44,7 @@
         "language_specific": {}
       },
       "candidate": "Encantada, tsar!\nEncantada, ola, tsar!\nTsar, encantada!\nOla, tsar! Encantada!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate drops the self-introduction. 'Encantada, tsar!' reads as addressing a tsar (vocative) instead of introducing himself as the Tsar, which the NB explicitly requires."
-        },
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Encantada' is feminine, but Bunsha is a man, so the speaker's gender is wrong."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Ola' is a casual greeting. It lacks the formal, stiff Soviet-style politeness of 'Boas noites' in the reference, and the repetitive formula is weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -93,14 +74,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, estou triste.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'estou triste' is plain and modern. It lacks the archaic, elevated register of 'estou aflixido' and so weakens the contrast with the Soviet setting."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -115,14 +89,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Emparedáronme, demos!' puts 'demos' as a vocative, as if he were addressing the demons. The NB requires the demons to be the subject, as in the reference's 'emparedáronme os demos'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -182,14 +149,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello...\nSi! Caviar de ultramar...\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Caviar de ultramar... De berenxena' calls the eggplant spread 'caviar', which the NB explicitly forbids as confusing. The reference uses 'Manxar de ultramar' to keep the contrast with the real caviar."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -204,20 +164,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 piteiras nacionais,\ncazadora de camurza, tres.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'piteiras' means cigarette holders, not cigarette cases (cigarreiras), so the item is mistranslated."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate changes 'unha chaqueta... de ante' to 'cazadora de camurza' and removes the hesitation pause. The joke depends on the count being forgotten for the jacket, and the trailing 'tres' keeps only part of that effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -232,26 +179,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti tamén han de curarte!\nE a ti tamén han de curarte!\nE a min han de curarme!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'han de curarte' is an obligation or future construction that sounds stiff and literary. It lacks the calm, melodic resignation of 'vante curar', and it changes the first line to 'tamén', which slightly alters the progression."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
-      "minor": 4
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 39,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 3.5454545454545454,
-    "major_equiv_per_unit": 0.7090909090909091,
-    "interpretation": "3.55 MQM penalty points per meaning unit (≈ 0.71 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

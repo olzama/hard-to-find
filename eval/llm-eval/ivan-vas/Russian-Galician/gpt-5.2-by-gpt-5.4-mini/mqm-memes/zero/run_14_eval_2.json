@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador currently have the items ('ten'), whereas the line means they are missing/lost them. This reverses the intended meaning of the joke."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The first line weakens the mock-heroic phrasing by using a more literal, less theatrical construction than the elevated Russian comic register."
+          "justification": "The candidate reverses the key meaning: it says Shpak and the ambassador still have the items, while the line means they are the ones who lost them."
         }
       ]
     },
@@ -46,10 +40,10 @@
       "candidate": "Moito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate is ambiguous and can read as addressing the tsar rather than Bunsha introducing himself as the tsar, which the analysis says must be clear. This blurs the joke and the scene’s comedic premise."
+          "justification": "The greeting is understandable and keeps the repetitive comic rhythm, but it sounds more neutral/modern than the approved version and slightly weakens the mundane, bureaucratic politeness described in the analysis."
         }
       ]
     },
@@ -81,7 +75,14 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, estou triste.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is preserved, but 'estou triste' is flatter and less dignified than the more melancholic 'estou aflixido,' so the regal, archaic tone is somewhat weakened."
+        }
+      ]
     },
     {
       "id": 5,
@@ -99,9 +100,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'demoños' is an odd choice for 'demons' here and sounds less idiomatic than the reference; it slightly weakens the force of the exasperated complaint, though the meaning remains clear."
+          "justification": "'demoños' is understandable, but the spelling is awkward here; the line would read more naturally with the standard form, and the second line sounds slightly less polished than the reference."
         }
       ]
     },
@@ -136,9 +137,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'A bailar todo o mundo!' changes the imperative crowd-calling feel of 'Todos a bailar!' into a more neutral statement about everyone dancing, slightly weakening Bunsha’s exuberant command."
+          "justification": "The meaning is close, but 'A bailar todo o mundo!' is a bit less direct and idiomatic than the imperative force of 'Todos a bailar!', so the rallying shout loses some punch."
         }
       ]
     },
@@ -160,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Entreino a tempo!' means 'I got in on time / arrived on time,' which is misleading because the character has just entered and is reacting to the discovery of valuables. It loses the sense of happily stumbling into a profitable situation."
+          "justification": "The candidate changes the meaning substantially: 'Entreino a tempo!' implies arriving on time, whereas the original expresses happy surprise at having entered a useful place and specifically not leaving yet."
         }
       ]
     },
@@ -182,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'caviar' for the eggplant spread, which the analysis explicitly warns against. This obscures the joke, since the punchline depends on the absurd contrast between true caviar and cheap eggplant spread."
+          "justification": "The line omits the crucial joke that the 'overseas caviar' is eggplant-based. Since the analysis says not to translate it as caviar in a misleading way, this version loses the punchline and the Soviet-food satire."
         }
       ]
     },
@@ -204,7 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'pitreiras' does not correspond to 'portсigars' and is not an appropriate equivalent for the listed stolen items. The inventory is central to the joke, so this mistranslation seriously damages meaning."
+          "justification": "The list is distorted: 'pitreiras' does not match 'portсигары' (cigarette cases), and the structure no longer clearly conveys the escalating count joke. The cumulative comic effect is significantly weakened."
         }
       ]
     },
@@ -221,19 +222,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti te curarán!\nE a ti tamén te curarán!\nE a min tamén me curarán!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The meaning is intact, but the repetition sounds slightly more mechanical than the reference, and 'te curarán'/'me curarán' is less idiomatic in context than the more natural phrasing of the approved version."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 3
+      "major": 4,
+      "minor": 5
     },
-    "total_points": 28,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 2.5454545454545454,
-    "major_equiv_per_unit": 0.509090909090909,
-    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

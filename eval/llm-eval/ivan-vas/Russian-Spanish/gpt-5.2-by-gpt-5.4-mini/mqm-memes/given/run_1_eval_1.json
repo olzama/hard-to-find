@@ -18,10 +18,10 @@
       "candidate": "De nuevo me asaltan oscuras sospechas… A Shpak le desapareció el magnetofón; al embajador, el medallón.\nU Shpaka - magnitofon,\nu posla - medallón.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The second half is untranslated Russian ('У Шпака - магнитофон, у посла - медальон'), so the item is incomplete and the key comic callback is duplicated rather than rendered for viewers."
+          "justification": "The added Russian line after the Spanish subtitle is distracting and not part of a clean subtitle translation, though it does not change the core meaning."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The added Russian lines are left untranslated, which breaks comprehension and interrupts the joke about Bunsha repeatedly introducing himself as the Tsar."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Buenas noches' is less fitting than a greeting equivalent to the source's 'Здравствуйте' and slightly weakens the mundane, repetitive formal tone described in the analysis."
+          "justification": "The added Russian lines reintroduce the original wording and break the subtitle into an inconsistent bilingual mix, which disrupts the intended repeated self-introduction as the Tsar in the target language."
         }
       ]
     },
@@ -156,14 +150,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, rojo… ¡Sí!¡Manjar de ultramar… de berenjena!\n¡De berenjena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The duplicated final '¡De berenjena!' is not an error in meaning, but it is awkward and needlessly repetitive, slightly reducing the punch of the line."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -198,21 +185,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate appends two untranslated Russian lines, leaving part of the subtitle inaccessible and breaking the full repetition effect in Spanish."
+          "justification": "The candidate appends untranslated Russian lines, so the subtitle is no longer a proper Spanish rendering and the repeated resigned joke is not fully presented in the target language."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 2
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 17,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

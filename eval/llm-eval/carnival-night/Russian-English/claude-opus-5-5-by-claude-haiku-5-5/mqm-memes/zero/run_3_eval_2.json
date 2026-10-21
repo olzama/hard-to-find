@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"see in the New Year cheerfully\" places the adverb awkwardly after the phrasal verb \"see in\", which reads clumsily. The directive register and the managerial tone are preserved."
+          "justification": "The line 'there's a directive to see in the New Year cheerfully' is awkward: 'cheerfully' is placed after a dangling 'in the New Year', so the sentence reads stiffly. The bureaucratic directive register is preserved, so the joke still works."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line ends on a trailing comma instead of the source's ellipsis, so the deliberate trailing-off hesitation is lost and the line reads as unfinished. \"no more, I think\" is also less clear than \"not needed\" for conveying that more time is unnecessary."
+          "justification": "The line ends with a trailing comma, which reads as an error rather than a trailing-off pause. The analysis calls for a faux-modest, drawn-out delivery, and an ellipsis would convey the hesitant 'I don't think we need more' cadence better. The 'briefly ... forty minutes' reversal is preserved."
         }
       ]
     },
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nThe lecturer's ready, been ready a long time!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The double sense of \"готов\" (ready / drunk) is not recreated. \"The lecturer's ready\" reads only as readiness, so the comic subtext the analysis asks for is absent. The exclamation mark adds cheer but does not carry the intoxication reading."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -102,7 +95,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!\" normalizes the stretched \"Лю-ди\" into a clean word, losing the broken vocal break the analysis identifies as central. The \"Ah.. Yoo-hoo!\" tail partly preserves the faltering call."
+          "justification": "The stretched, broken vocalization of 'Peo-ple' is flattened to 'People!', so part of the drunken, faltering entrance is lost. 'Yoo-hoo' does reproduce the call-to-the-crowd function of 'ау-у', so the loss is partial."
         }
       ]
     },
@@ -129,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"armed eye\" is the literal calque the language-specific note lists under things to avoid. It reads as strange nonsense rather than a recognizable deformation of \"unaided eye\", so the audience is less likely to hear the familiar idiom being wrongly upgraded."
+          "justification": "'Armed eye' is the literal calque that the analysis explicitly flags as something to avoid, because it sounds more surreal than mock-scientific in English. It still signals a wrongly altered idiom, so the joke partly survives, but the recommended echo of 'unaided eye' would have kept the lecturer's pseudo-scientific tone more convincingly."
         }
       ]
     },
@@ -153,16 +146,16 @@
       "candidate": "we already see two\nstars, three stars..\nFour stars, best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Four stars, best of all, of course, five stars!\" is garbled. \"best of all\" attaches grammatically to four, implying four is best, and the pause before the punchline is lost. The shift to five still arrives, but the sentence is hard to parse."
+          "justification": "The punchline depends on the sudden shift from astronomy to the cognac star-rating system, which the analysis identifies as the key click. The candidate has no translator's note and no other signal, so 'five stars' reads as an odd counting sequence rather than a derailment into cognac, and most viewers will not get the cultural reference the analysis says needs a note."
         },
         {
           "severity": "minor",
-          "category": "other",
+          "category": "fluency",
           "span": "",
-          "justification": "No translator's note explains the cognac association, which the language-specific analysis says will not be obvious to most viewers. The reference includes one, and without it the 'five stars' punchline loses its cultural anchor."
+          "justification": "The opening 'we already see two stars' drops 'As', leaving a fragment, and 'Four stars, best of all, of course, five stars!' is clumsy and over-punctuated. The counting progression is still preserved."
         }
       ]
     },
@@ -184,14 +177,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 7
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 7,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

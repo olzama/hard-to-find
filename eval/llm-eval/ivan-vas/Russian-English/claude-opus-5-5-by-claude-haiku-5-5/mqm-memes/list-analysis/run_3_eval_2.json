@@ -41,7 +41,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The third line, 'The Tsar, pleased to meet you!', could be read as addressing the Tsar rather than introducing oneself as the Tsar, which the analysis explicitly warns against. The surrounding lines make the intended reading clear, so the problem is limited to this one line."
+          "justification": "The candidate adds a fourth greeting line with no counterpart in the three-sentence source. The extra repetition inflates the segment rather than mirroring the source's structure, although the self-introduction as 'the Tsar' is clearly conveyed."
         }
       ]
     },
@@ -156,9 +156,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'A lucky place to drop in' moves the luck from Miloslavsky's act of arriving, as in 'удачно зашел', to the location. The 'drop in' idiom does correctly signal that he has just entered, so the meaning is close but slightly less precise than the source and reference."
+          "justification": "'A lucky place to drop in' moves the self-congratulation from the burglar's own timing (он удачно зашёл) to the location. The phrasing is somewhat awkward, though the sense of entering, which the analysis requires, is correctly kept."
         }
       ]
     },
@@ -205,7 +205,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using numerals ('3 tape recorders', '3 film cameras', '3 domestic cigarette cases') makes the list read like an inventory report rather than Shpak's spoken, inflated recital. Spelled-out numbers, as in the reference, would better preserve the oral register and the comic build-up of the count."
+          "justification": "Digits ('3') in place of spelled-out numbers make the list read as written text rather than a man counting aloud. The escalating count and the final 'three' still land."
         }
       ]
     },
@@ -227,13 +227,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first line adds 'too' ('They'll cure you too!'), but the source's first line 'И тебя вылечат' has no equivalent of 'тоже', which appears only in the second line. The candidate then repeats the 'too' idea with 'as well' in the second line, so the parallel structure of the source is slightly distorted."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Replacing the source's trailing ellipses with exclamation marks gives every line an emphatic delivery. The analysis describes the Ulyana's melodic, calm resignation, and the ellipses carry that quality more faithfully than the exclamations do."
+          "justification": "'Too' on the first line adds emphasis with no source referent. The source's 'тоже' appears on the second line and is rendered as 'as well', so 'too' is duplicated and the first-line addition distorts the cadence of the original 'and you too' sequence."
         }
       ]
     }
@@ -241,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 5,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "it should be me in his place.\nGet drunk and you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Candidate drops the vocative 'Guys' and presents Gorbunkov's dramatic line more flatly ('it should be me in his place.'), reducing the heightened, heroic register described in the analysis. The policeman's punchline is preserved but slightly less idiomatic ('Get drunk and you will be!') than the reference's mocking inevitability."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -46,9 +39,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "Literal rendering ('I'm not a coward, but I'm afraid...') preserves meaning but misses the light, bouncing comic effect created by the Russian rhyme and rhythm ('Trus/Boyus') noted in the analysis, making the line more prosaic than endearing."
+          "justification": "The candidate is a literal rendering that preserves meaning but loses the light, bouncing comic effect created by the original Trus/Boyus rhyme. The line reads flatly rather than playfully endearing as described in the analysis."
         }
       ]
     },
@@ -150,7 +143,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Meaning is preserved, but the candidate loses the original's rhythmic pairing (trezvenniki/yazvenniki). The translation is clear but lacks the balanced, proverbial cadence the analysis highlights."
+          "justification": "The candidate conveys the meaning but drops the rhythmic, balanced pairing (trezvenniki/yazvenniki) that gives the original its proverbial punch. The translation is clear but lacks the original's rhythmic wit."
         }
       ]
     },
@@ -187,7 +180,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Line communicates the content but omits the comic effect of Lyolik's characteristic mispronunciation of 'tablet' (the phonetic quirk is an important humorous marker in the analysis)."
+          "justification": "Meaning is preserved, but the candidate omits the humorous mispronunciation/phonetic quality of the original ('tab-LEHT' / table-t-ka) that makes the line characterful and memorable."
         }
       ]
     },
@@ -219,14 +212,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Candidate conveys the address but drops the elongated, musical sigh ('Semyo-o-on') that functions as a weary, melodic facepalm in the analysis, making the delivery less expressive."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -273,10 +259,10 @@
       "candidate": "I slipped, fell...\nclosed fracture...\nLost consciousness, came to -\na cast!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The final beat is unclear and reads awkwardly ('Lost consciousness, came to - a cast!'). The original communicates a telegraphic sequence ending with 'Woke up in a cast.' The candidate's phrasing breaks the logical sequence and may confuse viewers about whether 'came to' leads to a cast or whether 'cast' is the state upon waking."
+          "justification": "The candidate keeps the telegraphic, staccato content but the last segment ('came to - a cast!') is slightly awkward in English phrasing and interrupts the otherwise punchy rhythm."
         }
       ]
     },
@@ -373,7 +359,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Candidate keeps the content but does not convey Gena's affected pronunciation of 'coffee' ('kof-e'), which the analysis treats as an important marker of his pretentious affectation; the attempted 'ba-ath' break doesn't replicate the same comic phonetic affect."
+          "justification": "The candidate communicates the content but does not convincingly render Gena's affected, faux-sophisticated pronunciation (especially of 'bath' and 'coffee'), which is a key comedic marker of the character."
         }
       ]
     },
@@ -410,21 +396,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Meaning is preserved, but the candidate loses the comically nonstandard, folksy verb form ('пойти' error) that gives the original line its rustic stubbornness; the result is a more neutral refusal."
+          "justification": "The candidate expresses the refusal clearly but loses the intentionally nonstandard, folksy verb form that adds comedic stubbornness and rural flavor in the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 7
+      "major": 0,
+      "minor": 6
     },
-    "total_points": 12,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.5217391304347826,
-    "major_equiv_per_unit": 0.10434782608695652,
-    "interpretation": "0.52 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

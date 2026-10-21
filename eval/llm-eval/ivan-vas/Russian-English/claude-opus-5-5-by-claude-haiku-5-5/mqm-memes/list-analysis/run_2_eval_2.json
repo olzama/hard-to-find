@@ -111,7 +111,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Behold what the life-giving cross can do!\" shifts the source's \"делает\" (what the cross does) to a statement of capacity (can do). Bunsha is crediting the cross with an actual result, so \"does\" or \"has done\" would be closer."
+          "justification": "The source 'делает' describes an actual observed effect (the doors opening). 'Can do' recasts it as a general capability, which slightly weakens the Tsar's conviction that his faith triggered the doors."
         }
       ]
     },
@@ -153,7 +153,14 @@
         }
       },
       "candidate": "Well, I sure picked the right place to drop in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Удачно' means luckily or at a fortunate moment. 'Picked the right place' presents the visit as a deliberate choice, which shifts the accidental, lucky quality of the source and the analysis's point about a bumbling intruder."
+        }
+      ]
     },
     {
       "id": 9,
@@ -173,7 +180,14 @@
         }
       },
       "candidate": "Caviar, black, red...\nYes! And an overseas delicacy...\nEggplant spread!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Caviar, black, red...' is clipped and unnatural English. 'Black caviar, red caviar...' would read more naturally while keeping the same list rhythm."
+        }
+      ]
     },
     {
       "id": 10,
@@ -198,7 +212,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate mixes numerals (\"3 tape recorders\", \"3 movie cameras\") with the spelled-out \"three\" in the final line. The source spells every count, and the joke depends on the tally building visibly toward the closing \"Три\", so the mixed notation weakens that rhythm."
+          "justification": "The list mixes numerals ('3') with a spelled-out 'three' at the end. In spoken dialogue the escalating count reads better fully spelled out, and the inconsistency weakens the comic build-up of the final count."
         }
       ]
     },
@@ -220,7 +234,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate turns the source's trailing ellipses into exclamation marks, making the lines exclamatory and emphatic. The analysis describes Ulyana's delivery as melodic and calm resignation, which the punctuation undercuts. The reference keeps the trailing ellipses."
+          "justification": "The exclamation marks replace the source's trailing ellipses. This shifts the calm, melodic resignation described in the analysis toward alarm."
         }
       ]
     }
@@ -228,13 +242,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 5
     },
-    "total_points": 3,
+    "total_points": 5,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.45454545454545453,
+    "major_equiv_per_unit": 0.09090909090909091,
+    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

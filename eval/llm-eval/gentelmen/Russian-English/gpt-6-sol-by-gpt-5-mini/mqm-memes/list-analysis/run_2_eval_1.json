@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts the threatened person from second person (the compact, verdict-like 'you' threat of the reference and source) to a third-person 'his', changing who is being addressed and weakening the immediacy of the threat. It also uses the literal phrasing 'knock off his horns,' which the analysis specifically warned against as non-idiomatic, and the final line loses the compact, verdict-like landing of the Russian sentence (the candidate ends with a trailing comma), undermining the original's punchy sentence-final verdict."
+          "justification": "The candidate uses the literal phrasing “knock off his horns,” which the analysis explicitly warned against as non‑idiomatic and misleading in English. It also breaks the compact, verdict‑like final clause by trailing into a line break and comma after “medicine,” losing the original’s terse, scaled judgment."
         }
       ]
     },
@@ -83,7 +83,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate flattens the awkwardly euphemistic «нехороший человек» into the neutral phrase 'bad person,' losing the comic, restrained moralizing register that the analysis identifies as crucial. The rough insult 'the bastard' appropriately captures 'падла.'"
+          "justification": "Rendering «нехороший человек» as “bad person” flattens the oddly euphemistic, awkwardly restrained moral label the analysis highlights. The rough insult “the bastard!” is appropriate, but the middle phrase loses the comic register clash between genteel restraint and coarse prison speech."
         }
       ]
     },
@@ -140,14 +140,7 @@
         }
       },
       "candidate": "Use the horse, may I never see freedom again!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line preserves the nontechnical 'horse' for the chess piece, which is good, but renders the oath as 'may I never see freedom again!'—a slightly more formal/archaic construction than the blunt, prison-coded curse in the source. This softens the rough, oath-like tone a little."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -227,14 +220,7 @@
         }
       },
       "candidate": "Hey, citizen! Don't go that way.\nYou go this way.\nOr snow hit your head.\nYou be completely dead!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate regularizes the address to 'citizen' and smooths some of the nonstandard syntax, which reduces the comic effect of Vasily's marked, non-native phrasing. The broken word order and odd grammar in the original are an important part of the humor and are somewhat softened here."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 12,
@@ -326,10 +312,10 @@
       "candidate": "- Miss, what's your name? - Tanya.\n- Mine's Fedya.\nWhat a stupid woman.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate turns the direct feminine insult into a third-person comment ('What a stupid woman.') rather than a direct address, destroying the feminine–masculine–feminine exchange that is central to the joke (apparent woman → masculine name → direct feminine insult). This change erases the crucial effect produced by Tanya addressing an apparent woman with a feminine insult after hearing a masculine name."
+          "justification": "The candidate’s “What a stupid woman” preserves the feminine address but softens the blunt, colloquial sting of «дура». The line loses some of the original’s crude, directly insulting register that produces the comic shock."
         }
       ]
     },
@@ -356,7 +342,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «параша» as 'slop bucket' reduces a strong piece of prison argot to a sanitary object; the original assigns the addressee to the lowest rank of inmate hierarchy, so a functional prison-status term would better preserve the insult's force."
+          "justification": "Translating «параша» as “slop bucket” reduces a prison‑status insult to a literal toilet image, which the analysis warns against. This weakens the line’s function of assigning the speaker to the lowest place in the inmate hierarchy; a functional prison‑status term would better preserve the effect."
         }
       ]
     },
@@ -381,23 +367,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "The candidate uses 'hooligans,' a term that risks sounding dated or British and therefore weakens the recommended contemporary, neutral labelling of attackers. The formal phrasing 'are depriving me of my eyesight' successfully preserves the comedic bureaucratic tone."
+          "justification": "Using “hooligans” imports a dated/British flavor contrary to the analysis note to avoid such marked terms. The candidate otherwise preserves the formal phrasing «зрения лишают», but the choice of attacker label is slightly off in register and contemporary naturalness."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 9,
     "meaning_units": 18,
-    "penalty_per_unit": 0.8333333333333334,
-    "major_equiv_per_unit": 0.16666666666666669,
-    "interpretation": "0.83 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5,
+    "major_equiv_per_unit": 0.1,
+    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

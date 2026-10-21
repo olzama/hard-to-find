@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" keeps the fairy-tale name, which English viewers may not read as the nasty-woman workplace type, so the social double meaning of the analysis is weakened. \"Hire\" and \"cultivate within our own collective\" do keep the staffing logic and bureaucratic tone, so the damage is limited."
+          "justification": "\"Hire a Baba Yaga\" and \"cultivate one within our own collective\" keep the workplace/staffing logic, but \"Baba Yaga\" is left untranslated and may not evoke the nasty-woman type for English viewers; \"cultivate\" is slightly less natural than the managerial \"train in-house\". The effect is mostly preserved."
         }
       ]
     },
@@ -70,13 +70,13 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"A little brief talk\" is awkward and redundant. It does carry some faux-modesty, but \"brief\" and \"little\" stack clumsily instead of giving a smooth diminutive effect like \"коротенько\". The \"forty minutes\" punchline still lands after the briefness claim."
+          "justification": "\"A little brief talk\" is awkward and redundant. It conveys the faux-modesty, but the diminutive coziness of «коротенько» is clumsy. The brief-before-duration order is kept, so the punchline still lands."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"And then just a little brief talk\" adds \"then\" and the notion of a talk that the source does not state. The nuance of \"I think more isn't necessary\" is also slightly stiff."
+          "justification": "\"And then\" is an addition, and the \"talk\" framing weakens the sense of an official lecture being inserted into a celebration."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders \"готов\" only as \"ready\" and does not recreate the \"drunk/done for\" subtext. The analysis warns that rendering only \"ready\" loses the alcoholic joke, and nothing in the wording (e.g. \"ready\" with a hint of being plastered) signals the second reading. The reference's \"Oh, he's ready\" at least offers a knowing tone."
+          "justification": "The candidate renders only the surface meaning \"ready\". The English \"ready\" does not carry the \"drunk / done for\" sense, and nothing recreates the double reading. The alcoholic joke the analysis identifies as the point is lost."
         }
       ]
     },
@@ -123,14 +123,7 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... a-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The broken, wavering shape is preserved (\"Peo-ple!.. Ah... a-oo!\"), but \"a-oo\" is a weaker approximation of the \"ау-у\" halloo call than a stretched \"hellooo\", so the drunken calling-out to a crowd is slightly less clear."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -155,15 +148,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the language-specific note explicitly says to avoid: it sounds more surreal than the Russian and does not echo the familiar English \"unaided eye\", so the malformed-idiom effect is lost."
-        },
-        {
-          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The sentence is split with an ellipsis after \"telescope\", softening the build-up of the lecturer's pompous exclamation compared with the source's emphatic two-part structure."
+          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against. It does not echo \"unaided eye\", so the English audience does not hear a familiar idiom being mangled and the mock-scientific joke is reduced to strange surrealism."
         }
       ]
     },
@@ -189,16 +176,10 @@
       "candidate": "and then we can already see two little stars,\nthree little stars...\nFour little stars... best of all, of course,\nfive little stars!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps the star progression and the sudden \"five stars\" derailment, but \"little stars\" leans towards a nursery-rhyme sound and the cognac association is not signaled at all. Per the language-specific note, a translator's note may be needed, and without it English viewers will likely miss the click into the cognac frame."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line begins with a lowercase \"and then we can already see\", which adds \"then\" and reads as a fragment, weakening the lecturer's \"Как мы уже видим\" phrasing."
+          "justification": "The counting buildup is preserved, but \"little stars\" never clicks into the cognac frame for English viewers, and there is no note or marker such as 5* to make the shift legible. The punchline of a derailment into drink is largely lost, leaving the line merely odd."
         }
       ]
     },
@@ -224,14 +205,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 7
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 17,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 2.125,
-    "major_equiv_per_unit": 0.425,
-    "interpretation": "2.12 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

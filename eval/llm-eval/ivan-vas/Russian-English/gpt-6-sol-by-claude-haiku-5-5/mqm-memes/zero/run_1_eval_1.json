@@ -23,16 +23,16 @@
       "candidate": "I'm beginning to have\nanother nagging suspicion...\nShpak's tape recorder,\nthe ambassador's medal.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'I'm beginning to have another nagging suspicion' is flatter than the source's 'терзают смутные сомнения' (tormented by vague doubts). It loses the tragic, mock-heroic register the analysis identifies as the source of the humor, and drops 'vague'."
+          "justification": "The source's mock-heroic register rests on the tragic verb 'терзают' (torment). 'I'm beginning to have another nagging suspicion' is flat and colloquial, so the high-brow theatrical tone the analysis identifies as the source of the humor is lost."
         },
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Medal' does not match 'медальон' (medallion). A medal is an award, while a medallion is a pendant, so the object the ambassador lost is changed."
+          "justification": "'Медальон' (locket/medallion) is rendered as 'medal', which names a different object. The substitution does not do the same job and is a small lexical error."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The vocative 'Hello, tsar!' and 'A pleasure, tsar!' read as Bunsha addressing a tsar. The analysis explicitly requires that it be clear he is introducing himself as the Tsar, which the reference does ('I'm the Tsar', 'the Tsar'). The candidate contradicts this requirement."
+          "justification": "The analysis states the segment must make clear that Bunsha is introducing himself as the Tsar, not addressing one. 'Hello, tsar!' and 'A pleasure, tsar!' read as greetings directed at a tsar, and no self-introduction ('I'm the Tsar') appears, so the reversed reading the analysis warns against is produced."
         }
       ]
     },
@@ -94,15 +94,15 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'I'm in mourning' changes the meaning of 'я в печали' (I am in sorrow/melancholy). Mourning implies a bereavement, which is not in the source and undercuts the regal melancholy the analysis describes."
+          "justification": "The analysis locates the humor in the Tsar's archaic, high-register speech. 'Leave me, old woman' is modern and plain, and the archaic 'в печали' register is not carried over."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The short, modern 'I'm in mourning' drops the high-register, archaic tone of the Tsar's speech, which the analysis says is central to the contrast with the Soviet setting."
+          "justification": "'In mourning' narrows 'в печали' (in sorrow/melancholy) to bereavement, which implies a death that the source does not state."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Us' is a choice not supported by the source, which gives no object for 'замуровали'. The reference uses 'me'. The demons-as-subject reading is correctly handled, but the added group is an unwarranted specification."
+          "justification": "The source 'Замуровали…' has no object. The candidate adds 'us', while the reference uses 'me'. The added referent is an unsupported addition, though it is a plausible contextual reading in a shared elevator."
         }
       ]
     },
@@ -166,7 +166,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source is an indicative announcement ('Everyone is dancing!'), while the candidate is an imperative command ('Everybody dance!'). The uninhibited-celebration essence survives, but the grammatical mood shifts."
+        }
+      ]
     },
     {
       "id": 8,
@@ -206,14 +213,7 @@
         }
       },
       "candidate": "Black caviar, red caviar...\nAnd yes! Imported caviar...\nEggplant spread!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Imported caviar' labels the eggplant item as caviar in the first presentation. The analysis warns against calling eggplant spread 'caviar' because it confuses viewers. The reference avoids this with 'Overseas spread'. The reveal still works, but the wording is less clear."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -238,7 +238,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source states 'куртка… замшевая… Три', so the count is first given as one jacket and then corrected to three. The candidate states 'three suede jackets' from the start, which removes the self-betrayal the analysis identifies as the point of the joke ('that is what makes the joke particularly funny')."
+          "justification": "The analysis says the joke lies in the forgotten increment of the suede jackets, betrayed by the hesitation 'куртка… замшевая… Три'. The candidate states 'three suede jackets' flatly, which removes the self-correction and the count-growth gag the analysis singles out as the funny element."
         }
       ]
     },
@@ -260,27 +260,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate replaces the calm, melodic ellipses of the source with exclamation marks. This shifts the 'melodic, calm resignation' described in the analysis toward agitation and weakens the intended tone."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "Opening with 'They'll cure you too!' makes 'too' refer to nothing, and it reverses the cumulative sequence of the source (you, you too, me). The logical build-up of the line is lost."
+          "justification": "The source's ellipses signal melodic, calm resignation. The candidate's exclamation marks make each line agitated, which shifts the tone toward hysteria and away from the resigned delivery the analysis describes."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 7
+      "major": 4,
+      "minor": 5
     },
-    "total_points": 22,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

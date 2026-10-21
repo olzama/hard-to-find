@@ -26,7 +26,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Once again I am beset by vague misgivings' keeps a mock-elevated register, though 'misgivings' is a bit more modern and less tragic-theatrical than 'haunt/torment'. The 'lost' items correctly convey that they no longer have them, so the NB is respected."
+          "justification": "'Once again I am beset by vague misgivings' keeps a mock-elevated register, but 'misgivings' is slightly more modern and mild than the theatrical 'haunt/torment' feel. The 'lost' structure correctly conveys that the items are gone, so meaning is preserved."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Clearly introduces himself as the Tsar, but the repetitive, mundane Soviet formal-greeting cliché is somewhat varied and exclamatory rather than the flat, ritualized repetition of the source; 'Tsar here' is a slightly different register."
+          "justification": "Clearly presents Bunsha as introducing himself as the Tsar, and the repetition works. The exclamation marks and 'Tsar here' make it a bit more energetic and less like the stiff, mundane Soviet formal-greeting cliché the analysis describes."
         }
       ]
     },
@@ -85,7 +85,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, for I am in sorrow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The added 'for' gives a slightly archaic flavor, which is acceptable, but it makes the line a touch more ornate than the plain, regal dismissal of the source."
+        }
+      ]
     },
     {
       "id": 5,
@@ -120,7 +127,14 @@
         }
       },
       "candidate": "Behold what the life-giving cross can do!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Behold what the life-giving cross can do!' preserves the Tsar's conviction and archaic register, but is a little less of a proclamation than 'the power of the life-giving cross' and loses some of the pointed 'look what it does' immediacy of the source."
+        }
+      ]
     },
     {
       "id": 7,
@@ -145,7 +159,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate and preserves the uninhibited party energy, but it is a plain imperative that loses the MC-like, mock-ceremonial 'floor is open' flavor of the reference."
+          "justification": "'Everybody dance!' is accurate and conveys the uninhibited party, but is a plain imperative that lacks the host-like, grand-gesture tone of the reference's 'floor is open to everyone'."
         }
       ]
     },
@@ -167,7 +181,14 @@
         }
       },
       "candidate": "Well, I sure picked the right place to drop in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Drop in' correctly signals he has just arrived and avoids the leaving implication. However, 'picked the right place' shifts to deliberate choice, while the source expresses lucky timing, and it is wordier than the casual, cheerful original."
+        }
+      ]
     },
     {
       "id": 9,
@@ -190,9 +211,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'Caviar, black, red...' is fine and 'Eggplant spread' avoids calling it caviar, respecting the NB. However 'overseas delicacy' drops no meaning but the structure splits the joke slightly; the humor of the punchline still lands."
+          "justification": "Does not call eggplant spread 'caviar' and keeps the inversion, but 'Caviar, black, red...' then 'overseas delicacy' leaves out the 'заморская икра' wordplay slightly, and the line break structure is somewhat choppy."
         }
       ]
     },
@@ -219,7 +240,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Numerals '3' in a spoken list are less natural than spelled-out 'three'. The suede jacket 'three' payoff is preserved, but 'domestic' is attached to cigarette cases only, which matches the reference well enough."
+          "justification": "The list structure and the forgotten suede jacket increment are preserved, which is the core joke. Using numerals '3' instead of spelled-out 'three' and moving 'domestic' to modify the cigarette cases is a small deviation from the spoken rhythm, though the 'three' reveal at the end works."
         }
       ]
     },
@@ -236,26 +257,19 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Exclamation marks make the delivery energetic, while the analysis describes a melodic, calm resignation; the ellipses of the reference convey that tone better."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 8
     },
-    "total_points": 6,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

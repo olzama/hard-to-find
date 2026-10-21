@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which reads as current possession. The analysis explicitly notes these items are no longer in their possession (they were lost/stolen); the candidate thus reverses the intended meaning."
+          "justification": "The candidate renders У Шпака — у посла as possession ('Shpak has... the envoy has...'), whereas the source (and analysis NB) means they have been deprived of those items (they were lost/walled-off). This reverses the factual relation and undermines the intended irony of recovered/missing goods."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Hello, Tsar—delighted!\nDelighted, hello, Tsar!\nTsar, delighted!\nHello, Tsar—delighted!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line should make it clear Bunsha is introducing himself as the Tsar (comic self-introduction). The candidate's punctuation and ordering read more like addressing a Tsar ('Hello, Tsar') rather than the repetitive, awkward self-introduction the analysis describes, weakening the intended gag."
+          "justification": "The original is Bunsha repeatedly introducing himself as 'the Tsar' in a clumsy, self-important way. The candidate reads like addressing an actual Tsar ('Hello, Tsar'), not self-introduction, losing the crucial comic premise noted in the analysis."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'I’m in mourning,' which implies bereavement/funeral context rather than the more general melancholic 'I am in sorrow' of the original; this slightly changes nuance and the Tsar's archaic tone."
+          "justification": "The candidate's 'I’m in mourning' implies bereavement, a stronger and more specific sense than the source's general 'I am in sorrow.' This shifts nuance away from the archaic, melancholic tone described in the analysis."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes 'demons' must be the subject (i.e., 'they have walled me in, the demons'), not the addressee. The candidate's 'you demons!' turns the demons into the vocative (he's addressing them), altering the grammatical role and meaning of the original line."
+          "justification": "In the source 'демоны' functions as the subject/cause ('walled me in, the demons'), not an addressee. The candidate's 'you demons!' makes the line a direct address to demons, changing the grammatical relation and the original exclamatory attribution of blame."
         }
       ]
     },
@@ -119,14 +119,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's colloquial 'That’s what the life-giving cross can do!' weakens the high-register, solemn/archaic tone ('Behold the power of the life-giving cross') that contributes to the comedic contrast; meaning preserved but register diminished."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -176,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'Exotic caviar… Eggplant!' can be read as labelling the eggplant spread as a kind of 'caviar', which the analysis warns against because it may confuse viewers; the reference avoided calling the eggplant spread 'caviar' explicitly."
+          "justification": "The humour hinges on contrasting expensive 'black/red caviar' with cheap 'eggplant' spread; the analysis warns against labeling eggplant spread as 'caviar.' The candidate's 'Exotic caviar… Eggplant!' risks implying 'eggplant caviar' and may confuse that intended inversion."
         }
       ]
     },
@@ -213,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 3,
+      "minor": 2
     },
-    "total_points": 14,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

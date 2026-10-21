@@ -164,7 +164,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line correctly, preserving the casual register and the 'isn't up to speed' phrasing. It then appends unrelated material that is not in the source: a stray subtitle index '399', a timecode '00:46:43,979 --> 00:46:46,197', and a fragment 'As-sa...'. This is an addition that would corrupt the on-screen subtitle and disrupt the deadpan delivery of the punchline."
+          "justification": "The candidate appends material that is not part of the line: a stray subtitle index (399), a timecode (00:46:43,979 --> 00:46:46,197) and a fragment 'As-sa...'. This is an addition that would show up as garbage in the subtitle and corrupts the segment. The core translation of the Mars line is identical to the reference and keeps the casual register ('isn't up to speed')."
         }
       ]
     }

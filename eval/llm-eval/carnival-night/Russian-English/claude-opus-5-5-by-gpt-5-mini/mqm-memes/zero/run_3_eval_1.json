@@ -21,7 +21,13 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase 'there's a directive to see\nin the New Year cheerfully' is awkward and stilted in English; the line splits 'see in the New Year' in a way that breaks natural rhythm. The candidate preserves the bureaucratic 'directive' tone, but the phrasing reduces smoothness and distracts from the intended deadpan delivery."
+          "justification": "The phrasing 'there's a directive to see in the New Year cheerfully' is awkward and unidiomatic in English; it reads like a literal, clumsy calque and interrupts the line's rhythm, making it harder for viewers to parse quickly."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate weakens the crisp bureaucratic bite of the original. While it keeps 'Comrades' and the idea of a directive, the wording loses some of the dry, managerial tone and the oxymoronic feel of a top-down order to 'have fun' that the analysis says is essential."
         }
       ]
     },
@@ -58,7 +64,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the key contrast (claiming brevity then specifying 'forty minutes') and the required ordering, but 'briefly, say, for about' flattens the diminutive, faux-modest flavor of «коротенько». The comic understating is present but slightly weakened."
+          "justification": "The candidate preserves the core reversal (claiming briefness then giving 'forty minutes'), but 'briefly' lacks the diminutive, puckish quality of «коротенько». That soft faux-modesty which makes the forty minutes absurd is slightly reduced."
         }
       ]
     },
@@ -95,7 +101,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps a broken call to the audience, but 'Yoo-hoo!' reads as a playful, attention-getting shout rather than the faltering, pitiful, semi-slurred collapse implied by the original. The drunken physical failure of speech is therefore a bit softened."
+          "justification": "The candidate keeps a broken address, but 'Yoo-hoo' reads as a jaunty call rather than the faltering, wavering, half-slurred cry described in the analysis. The line loses some of the pathetic, physically unstable quality of the drunken entrance."
         }
       ]
     },
@@ -119,10 +125,10 @@
       "candidate": "But as soon as we take\na telescope...\nAnd look with the armed\neye",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'armed eye,' a literal rendering the analysis specifically warns against because it sounds oddly surreal in English. That choice changes the mock-scientific register: it risks sounding stranger than the intended slightly-wrong technical phrasing (e.g., 'aided eye'), and so diminishes the intended comic effect."
+          "justification": "The candidate renders «вооружённым глазом» as 'the armed eye', which the analysis explicitly warns against: in English this sounds surreal and more literally bizarre than the intended mock‑scientific deformation. The joke relies on a recognizably mangled idiom (an echo of 'unaided eye' or 'aided eye'); 'armed eye' overplays the literalness and fails to recreate the original's parody of learned speech."
         }
       ]
     },
@@ -164,14 +170,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 4
     },
-    "total_points": 4,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 0.5,
-    "major_equiv_per_unit": 0.1,
-    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

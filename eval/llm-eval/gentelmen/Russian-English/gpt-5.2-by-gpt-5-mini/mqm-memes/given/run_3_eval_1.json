@@ -129,15 +129,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate inserts an extra line (“- Buzz off!”) that is not present in the source or reference. This addition changes the turn-taking and introduces an unnecessary interjection that disrupts the compact comic exchange."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The translated oath ‘I’ll never see the outside if I’m wrong!’ softens the prison-coded force of «век воли не видать». The phrase loses some of the grim, oath-like finality expected from the original and from the analysis (a prison-coded guarantee)."
+          "justification": "The candidate inserts an extraneous interjection (“Buzz off!”) and repeats the move line, which disrupts the tight comic collision between unschooled chess terminology and the solemn prison-oath phrasing. The core meaning is preserved, but the added line weakens the original's force and rhythm."
         }
       ]
     },
@@ -312,9 +306,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate adds an extra line (“Excuse me.”) not present in the source or reference. This additional utterance alters the concise comic beat that depends on the three-part feminine–masculine–feminine sequence and slightly diffuses the punchline timing."
+          "justification": "The candidate adds “Excuse me.” after the exchange, which is not present in the source and changes the immediate punchline pacing. The essential feminine–masculine–feminine structure and insult are preserved, but the extra tag slightly alters timing and tone."
         }
       ]
     },
@@ -341,7 +335,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «параша» as “punks” reduces the strong prison-hierarchy insult to a generic street-group label. The original uses prison-status argot that assigns the addressee to the lowest place in the inmate order; ‘punks’ does not carry that specific carceral degradation."
+          "justification": "Rendering «параша» as “punks” softens the original's harsh prison-status insult that assigns someone to the lowest, most degraded place in the cell hierarchy. The candidate keeps a contemptuous rebuke, but it loses some of the prison-argot severity that makes the line striking."
         }
       ]
     },
@@ -369,13 +363,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 4,
+    "total_points": 3,
     "meaning_units": 18,
-    "penalty_per_unit": 0.2222222222222222,
-    "major_equiv_per_unit": 0.04444444444444444,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.16666666666666666,
+    "major_equiv_per_unit": 0.03333333333333333,
+    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

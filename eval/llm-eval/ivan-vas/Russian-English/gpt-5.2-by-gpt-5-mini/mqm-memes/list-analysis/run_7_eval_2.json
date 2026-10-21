@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies they currently possess these items. The analysis explicitly notes these lines mean the items were lost (they no longer have them). This reverses the intended meaning and undermines the joke about missing goods."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', implying current possession. The analysis explicitly warns these phrases indicate the items were lost (they are the ones missing), not that the people currently possess them. This reverses the intended meaning and undermines the callback/joke."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source is Bunsha impersonating and introducing himself as the Tsar (i.e., 'I am the Tsar'). The candidate's lines ('So pleased, tsar! ... Hello, tsar!') read as if addressing a tsar rather than introducing himself, losing the key comedic premise (the absurd self-introduction) noted in the analysis."
+          "justification": "The original line is Bunsha repeatedly introducing himself as 'the Tsar' in a clumsy, self-introducing way. The candidate reads as if addressing the Tsar (vocative) rather than introducing himself, losing the crucial comic premise noted in the analysis that he is introducing himself as the Tsar. This changes the social absurdity at the core of the gag."
         }
       ]
     },
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman, I’m in mourning.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate translates 'я в печали' as 'I’m in mourning.' 'In mourning' implies grieving a death, while the original means 'I am in sorrow' or 'I am sad.' This shifts the nuance of the Tsar's melancholy and is an imprecise rendering."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -97,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "Walled up!\nWalled up, demons!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The analysis stresses that 'demons' are the subject who walled him in (they've walled me in), not an addressee. The candidate's 'Walled up, demons!' reads as if the Tsar is addressing demons (vocative) rather than accusing them as the agents, which inverts the intended meaning and weakens the joke about misunderstanding a mechanical trap."
+        }
+      ]
     },
     {
       "id": 6,
@@ -162,7 +162,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'Imported caviar... Eggplant!' risks implying that the eggplant spread is being presented as a type of caviar. The analysis warns not to call eggplant spread 'caviar' to avoid confusion; the candidate's wording may blur that satirical contrast."
+          "justification": "The analysis warns against rendering the cheap eggplant spread as 'caviar' (which would confuse viewers). The candidate's 'Imported caviar... Eggplant!' risks implying eggplant is presented as caviar. This is a subtle accuracy/style issue that may blur the intended satirical contrast."
         }
       ]
     },
@@ -181,10 +181,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak losing track of his counting (the comedic reveal that he forgot to increment the count). The candidate lists items in a flat enumerated way ('3 ... three suede jackets') and drops the small hesitations/shift that signal the counting error, slightly weakening the intended comic beat."
+          "justification": "The comedic effect in the original comes from Shpak's hesitating recounting and the forgotten increment (the count grows awkwardly). The candidate presents 'three suede jackets' straightforwardly, flattening the hesitation and the joke about the inflating tally. This loses a key humorous detail from the analysis."
         }
       ]
     },
@@ -206,21 +206,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate's second line ('And you too, they’ll cure!') uses an awkward word order that reads less natural and disrupts the original's melodic, resigned rhythm. The meaning is preserved but the phrasing is stilted compared with the reference's smoother repetition."
+          "justification": "The candidate preserves the resigned, repetitive sense but one line ('And you too, they’ll cure!') uses an unnatural word order in English that slightly disrupts the melodic resignation described in the analysis. It's awkward but not meaningfully damaging."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 14,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

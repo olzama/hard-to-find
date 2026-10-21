@@ -24,9 +24,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "\"медальон\" is rendered as \"unha medalla\" (a medal), which is not a medallion. The reference \"medallón\" is the correct item."
+          "justification": "The reference uses 'medallón', but the candidate has 'medalla'. A medal is not the ambassador's medallion, so the object changes slightly."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Volven atormentarme vagas sospeitas' keeps the mock-heroic tone, but it is a little less archaic and theatrical than the reference's inverted 'asáltanme escuras sospeitas'."
         }
       ]
     },
@@ -83,7 +89,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"vella\" is blunter than \"старушка\" (reference \"velliña\"). It loses the archaic, gently condescending regal tone, and the dropped \"que\" makes the sentence more clipped."
+          "justification": "'Vella' is blunter and harsher than 'velliña'. It weakens the tsar's melancholy, regal tone, and the dropped 'que' makes the line more clipped and less elevated."
         }
       ]
     },
@@ -120,7 +126,14 @@
         }
       },
       "candidate": "Iso é obra da cruz vivificadora!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "The liturgical epithet is 'cruz vivificante'. 'Vivificadora' is less idiomatic in the religious register that the tsar's pious line relies on."
+        }
+      ]
     },
     {
       "id": 7,
@@ -200,14 +213,7 @@
         }
       },
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres cigarreiras de fabricación nacional,\nunha chaqueta de ante... tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The hesitation after \"chaqueta\" (\"куртка… замшевая… Три\") is lost because \"de ante\" is attached directly. This weakens the beat where Shpak forgets to increase the jacket count."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -227,7 +233,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks and the dropped ellipses make the delivery emphatic. The analysis calls for a melodic, calm, resigned tone, which the reference's trailing ellipses preserve."
+          "justification": "The exclamation marks replace the reference's ellipses and make the delivery emphatic. The analysis describes a calm, melodic resignation, and the dropped pauses lose some of that tone."
         }
       ]
     }
@@ -235,13 +241,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 4
+      "minor": 5
     },
-    "total_points": 4,
+    "total_points": 5,
     "meaning_units": 11,
-    "penalty_per_unit": 0.36363636363636365,
-    "major_equiv_per_unit": 0.07272727272727272,
-    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.45454545454545453,
+    "major_equiv_per_unit": 0.09090909090909091,
+    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

@@ -16,20 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Otra vez me asaltan\nvagas dudas...\nA Shpak le falta un magnetófono,\nal embajador, un medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Vagas dudas\" preserves the meaning, but it weakens the elevated, mock-heroic flavor of \"смутные сомнения\" that the analysis highlights."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "\"Magnetófono\" is acceptable, but in this context \"magnetofón\" better echoes the specific Soviet-era item and the reference's register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -44,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Hola, soy el zar, encantado.\nEl zar, encantado. Hola, soy el zar.\nSoy el zar, encantado.\nHola, soy el zar. Encantado.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The repetition is preserved, but the line sounds slightly less like a stiff, awkward formal self-introduction than the reference; it is more neutral and colloquial with \"Hola\"."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -66,7 +46,14 @@
         "language_specific": {}
       },
       "candidate": "¡Exijo que continúe el banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is correct, but the phrasing is a bit more ordinary than the reference and slightly reduces the mock-royal, theatrical punch of the line."
+        }
+      ]
     },
     {
       "id": 4,
@@ -86,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Apenado\" is understandable, but it is less elevated and less specifically archaic/melancholic than \"afligido,\" so the Tsar's regal tone is slightly weakened."
+          "justification": "\"Apenado\" is understandable, but it softens the elevated, archaic note of \"afligido\" and makes the Tsar sound less formally regal and melancholic."
         }
       ]
     },
@@ -103,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "¡Me han emparedado...\nme han emparedado los demonios!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is understandable, but the added line break makes the utterance slightly less smooth as a single exclamation. The meaning and the demon subject are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -130,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Mira lo que hace\" is natural, but it sounds a bit less solemn and declarative than the reference's exclamatory tone, slightly weakening the miraculous revelation."
+          "justification": "\"Mira\" shifts the line from an exclamatory statement of miraculous causation to a more colloquial imperative, slightly weakening the triumphant, quasi-biblical tone."
         }
       ]
     },
@@ -167,7 +147,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"¡Qué bien he entrado!\" reverses the sense: the character has just arrived at a favorable place, not simply entered well. It loses the playful self-satisfied discovery of having found the right apartment."
+          "justification": "\"¡Qué bien he entrado!\" suggests simply that he entered well, but it loses the idiomatic sense of lucky/fortunate timing and weakens the comic self-satisfaction of having stumbled into a jackpot."
         }
       ]
     },
@@ -189,13 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Crema de berenjena\" is not the same joke as \"баклажанная икра\" and risks losing the satirical contrast with caviar; the analysis explicitly says it should not be translated as a spread or cream-like product that confuses viewers."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The phrasing is less crisp and comic than the reference, which preserves the mock-deluxe feel of a fake luxury item."
+          "justification": "The last item becomes \"crema de berenjena,\" which changes the joke and the specific Soviet low-status spread; the reference depends on a common eggplant dish, not a cream, and this blunts the satirical contrast."
         }
       ]
     },
@@ -214,16 +188,10 @@
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres pitilleras nacionales,\nchaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The final counting joke is distorted: \"chaqueta de ante... tres\" no longer clearly means he forgot to increment the suede jacket count, which is the punchline described in the analysis."
-        },
-        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The fragmentary punctuation is workable, but the line reads slightly awkwardly compared with the smooth escalating list in the reference."
+          "justification": "The line is understandable, but the final fragment \"chaqueta de ante... tres\" is slightly unidiomatic and less smooth than the reference's counted, comic buildup."
         }
       ]
     },
@@ -245,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 8
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 23,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

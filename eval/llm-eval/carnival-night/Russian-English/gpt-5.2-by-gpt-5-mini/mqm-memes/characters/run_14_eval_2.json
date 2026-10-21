@@ -39,14 +39,7 @@
         }
       },
       "candidate": "We won't hire\na Baba Yaga from outside—\nwe'll train one in our own team!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the bureaucratic/workplace joke and double reading, but uses 'team' instead of 'collective,' which weakens the Soviet-era connotation that the analysis says is important. The register is slightly modernized."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -89,7 +82,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The ambiguity between 'ready' (official) and 'ready' (drunk) is preserved, but the phrasing 'ready long ago' is slightly stilted and less natural than the reference's 'he’s been ready for quite a while.' The comic double reading remains, however."
+          "justification": "The reply “The lecturer is ready—ready long ago!” preserves the double meaning but reads awkwardly in English. A more natural phrasing (e.g. “He’s ready—he’s been ready for a while”) would keep the backstage rhythm while sounding smoother."
         }
       ]
     },
@@ -137,7 +130,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as 'armed eye,' a literal calque the analysis specifically warns against. In English this reads as oddly surreal rather than the intended mock‑scientific, slightly off idiom ('aided' or echoing 'unaided eye'), so the comedic effect of a plausible-but-wrong technoidiom is lost."
+          "justification": "The candidate uses the literal calque “armed eye,” which the analysis warns against: in English this comes off as odd and surreal rather than a plausible mock‑scientific deformation. The intended effect is a slightly wrong pseudo‑technical phrasing (e.g. “aided eye” echoing “the unaided eye”), not a jarring literalization."
         }
       ]
     },
@@ -180,26 +173,19 @@
         }
       },
       "candidate": "Is there life on Mars, is there no\nlife on Mars—science does not know.\nScience is not yet up to date on the matter.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate maintains the factual correctness and the register mismatch, but 'Science is not yet up to date on the matter' is a touch more formal/odd than the conversational tone of the reference ('isn't up to speed' / 'not in the know'). The line remains effective but slightly less colloquial."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 3
+      "minor": 1
     },
-    "total_points": 8,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

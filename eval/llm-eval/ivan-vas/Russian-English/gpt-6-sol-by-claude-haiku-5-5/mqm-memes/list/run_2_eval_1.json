@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"I'm having those vague suspicions\" flattens the source's mock-heroic verb \"терзают\" (torment, haunt). The analysis identifies this high-register theatrical phrasing as the core of the joke, and the candidate loses it."
+          "justification": "The source's mock-heroic register, 'терзают смутные сомнения' (vague doubts torment/haunt me), is the core of the joke. 'I'm having those vague suspicions again...' is flat and conversational, so the theatrical, tragic-opera tone the analysis identifies is lost."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Medal\" mistranslates \"медальон\", which is a locket or pendant. The reference correctly uses \"medallion\"."
+          "justification": "'Medal' is not the same object as the 'медальон' (medallion) in the source and reference. The analysis asks for the correct object, and a medal changes the item's identity."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"A pleasure, Tsar!\" and \"Tsar, a pleasure!\" read as Bunsha addressing a tsar, which contradicts the analysis note that he is introducing himself as the Tsar. The candidate never makes the self-introduction clear."
+          "justification": "The analysis says the translation must make clear that Bunsha introduces himself as the Tsar rather than addressing a Tsar. The candidate's vocative 'Tsar!' lines ('A pleasure, Tsar!', 'Hello, Tsar!', 'Tsar, a pleasure!') read as greeting a Tsar, and no line conveys self-identification, so the central comic misreading is lost."
         }
       ]
     },
@@ -106,7 +106,14 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nWalled me in, the demons!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source's ellipses ('Замуровали…') mark the Tsar's stunned, hesitant pause. The candidate drops them, so the opening line lands more abruptly than the reference, which keeps the pauses."
+        }
+      ]
     },
     {
       "id": 6,
@@ -191,13 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Exotic caviar...\" labels the eggplant spread as caviar. The analysis explicitly says eggplant spread must not be called caviar because it will confuse viewers, and the candidate does exactly that."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Exotic\" drops the \"overseas/imported\" sense of \"заморская\". The satire turns on the status of imported goods, which the reference keeps with \"Overseas\"."
+          "justification": "The analysis says the translation must not call the eggplant spread 'caviar' because viewers will be confused. The candidate's 'Exotic caviar...' labels the eggplant item as caviar immediately before the reveal, which contradicts that requirement. The 'overseas' (заморская) status point is also reduced to 'exotic' with the foreign origin dropped."
         }
       ]
     },
@@ -224,13 +225,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Three suede jackets\" mistranslates the singular \"куртка\" (one jacket) and removes the punchline. The analysis says the joke is that Shpak forgets to increment the count for the jacket, and the trailing \"Три\" betrays him. The candidate makes the count consistent, so the joke is lost."
+          "justification": "The analysis identifies the punchline as Shpak forgetting to increment the count for the suede jacket, which betrays his exaggeration. The candidate's 'three suede jackets' supplies a count and removes that mechanism, and the final standalone 'Three.' beat is also gone, so the joke's structure is lost."
         },
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Soviet-made\" for \"отечественных\" (domestic) adds a specific nationality cue that the source does not state explicitly. \"Domestic\", as in the reference, is closer to the original."
+          "justification": "The list items begin with lowercase letters and are formatted as a sequence of fragments, which is less polished than a dramatic list in subtitle form. The source's pauses ('куртка… замшевая… Три') are not reflected."
         }
       ]
     },
@@ -249,30 +250,30 @@
       "candidate": "You'll get treatment!\nAnd you'll get treatment, too!\nAnd I'll get treatment!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Three exclamation marks turn the calm, melodic resignation described in the analysis into agitation. The source's ellipses and quiet tone are lost."
+          "justification": "The analysis describes melodic, calm resignation. The candidate's three exclamatory lines ('You'll get treatment!', 'And you'll get treatment, too!', 'And I'll get treatment!') turn the calm, weary tone into agitated exclamation and drop the ellipses that carry the resignation."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Get treatment\" weakens the ironic sense of \"вылечат\" (will cure). The sinister promise of a cure is central to the psychiatric-ward joke, and the reference keeps it with \"cure\"."
+          "justification": "'вылечат' means 'they will cure', which carries the notion of healing and echoes the 'curing' of the madness theme. 'Treatment' is a more clinical, bureaucratic word that shifts the register and weakens the sense of cure."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 5,
+      "minor": 4
     },
-    "total_points": 25,
+    "total_points": 29,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.6363636363636362,
+    "major_equiv_per_unit": 0.5272727272727272,
+    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

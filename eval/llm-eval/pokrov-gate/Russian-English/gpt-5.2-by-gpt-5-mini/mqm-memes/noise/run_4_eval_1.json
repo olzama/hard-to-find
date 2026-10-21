@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and the teasing challenge, but it loses some of the high-flown, self-dramatizing theatricality signalled in the analysis (e.g., \"Pray, tell me\" / \"I'll wait\"). The register is more colloquial and thus slightly weakens the original's performative pomp."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -55,10 +48,10 @@
       "candidate": "High... such high relations.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a literal noun-phrase structure ('High... such high relations.') that the analysis explicitly warns against. This phrasing reads awkwardly in English and fails to reproduce the sarcastic, exclamatory refrain and natural idiomatic punch of the original."
+          "justification": "The candidate uses a literal noun-phrase construction ('High... such high relations.') that sounds awkward and fails to reproduce the short, sarcastic exclamatory refrain advised in the analysis. The line should read as a natural ironic exclamation rather than a stilted noun phrase."
         }
       ]
     },
@@ -77,10 +70,10 @@
       "candidate": "People don’t live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'совести' as 'conscience' rather than the sense of duty/fateful obligation emphasized in the analysis. That shifts the pragmatic meaning from soldierly fatalism ('you live to do your duty') to moral introspection, altering the character's voice and the line's thematic force."
+          "justification": "The candidate renders the second half as 'live for conscience,' which shifts the pragmatic nuance from the practical, duty-driven fatalism ('live to do your duty') toward a more abstract moral sense of 'conscience.' This weakens the original soldierly, pragmatic tone described in the analysis."
         }
       ]
     },
@@ -114,10 +107,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'Culinary genius!' reads as ironic praise rather than the sharp, imperious domestic rebuke the original delivers. It doesn't use the awkward, punchy insultal quality the analysis identifies and so slightly changes the line's combative tone."
+          "justification": "The candidate ('Culinary genius!') turns an ironic, scolding insult into what reads like genuine praise. That reverses the intended mocking, imperious tone and loses the comic effect of using a neutral profession as a household rebuke."
         }
       ]
     },
@@ -154,7 +147,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate's 'Cut it out to hell.' is unidiomatic in English and awkwardly splits the imperative across lines. While the violent, brusque advice about not waiting for peritonitis is present, the phrasing is clumsy compared with a tighter idiomatic rendering ('Cut the hell out of it' / 'Cut it the hell out, don't wait for peritonitis!')."
+          "justification": "The phrasing 'Cut it out to hell.' is awkward and unidiomatic in English. It fails to deliver the brusque, surgical imperative of the reference; the second line ('No waiting for peritonitis.') is fine, but the first line needs a stronger, more natural idiom."
         }
       ]
     },
@@ -176,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The character's name is transliterated as 'Khabotov' rather than the established 'Khobotov' in the reference. This introduces a small inaccuracy in the proper name, though the dismissive meaning is preserved."
+          "justification": "The name is transliterated as 'Khabotov' instead of the expected 'Khobotov' (an added vowel), which is a small but noticeable inconsistency in the character's name. The remainder of the line preserves the intended dismissive tone."
         }
       ]
     },
@@ -198,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's literal split ('It’s my cross! / And I’m the one to carry it.') misses the natural English idiom 'a cross to bear' noted in the analysis. The result is slightly awkward and less idiomatic, reducing the rhetorical punch of the manipulative self-victimisation."
+          "justification": "The candidate's split 'It's my cross! / And I'm the one to carry it.' is slightly more literal and less idiomatic than the fixed English idiom 'a cross to bear' used in the reference, which compresses the manipulative hyperbole more effectively. The meaning is retained but the punch and idiomatic force are weakened."
         }
       ]
     },
@@ -220,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate translates 'угловатая' as 'angular', which the analysis warns against as overly literal and confusing in English. This choice makes the self-characterisation sound more physical/architectural rather than stylistically self-mocking and coquettish, weakening the intended comic self-portrait."
+          "justification": "The candidate uses 'angular' for 'угловатая,' which the analysis specifically warns against as overly literal and awkward in English. This choice makes the self-description sound odd rather than coquettishly awkward as intended."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 6
     },
-    "total_points": 16,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

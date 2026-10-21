@@ -61,14 +61,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nReady? He's been well and truly ready\nfor ages!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"He's been well and truly ready for ages!\" keeps the surface sense of readiness but slightly reduces the possibility of the double reading (ready = drunk). The original's neat ambiguity between administrative 'ready' and colloquial 'ready' (smashed/drunk) is weakened by the emphatic adverbial phrasing, which leans more toward a straightforward confirmation than a winking double entendre."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -86,9 +79,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate uses 'Yoo-hoo!' which reads as a cheerful attention-getter rather than the faltering, wavering vocal collapse of the Russian line. The broken, unstable vocalization that signals the lecturer's drunken loss of control is reduced, so some of the physical/comic helplessness in the original is lost."
+          "justification": "The candidate uses “Yoo-hoo!” which reads as a playful attention-getter rather than the faltering, wavering vocalization the analysis describes. That reduces the pitiful, physically collapsing quality of the drunken attempt at a formal address, making the entrance less pitiable/theatrical."
         }
       ]
     },
@@ -112,10 +105,10 @@
       "candidate": "But all we have\nto do is take a telescope...\nand look with the armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «вооружённым глазом» as 'armed eye.' The analysis warns against a literal calque because 'armed eye' in English reads more surreal/strange than the intended mock‑scientific deformation. This choice increases oddness and risks shifting the joke away from a believable pseudo‑scientific slip into something more bizarre."
+          "justification": "The candidate renders «вооружённым глазом» as “the armed eye,” which produces an odd, surreal phrasing in English rather than the subtle mock-scientific deformation intended. This choice loses the balance between recognizably mangled idiom and plausible pseudo-technical language that makes the line funny; a milder solution (e.g. “aided eye” / “unanided/unaided eye” play) would better preserve the comic effect."
         }
       ]
     },
@@ -157,14 +150,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

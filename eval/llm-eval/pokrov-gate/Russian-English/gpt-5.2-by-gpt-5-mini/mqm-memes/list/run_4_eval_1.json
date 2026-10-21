@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "how about we knock back a little one?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The phrase \"a little one\" is slightly awkward in colloquial English for a drink. The reference's \"toss back a quick one\" or \"knock back a quick one\" reads more naturally; the candidate is understandable but less idiomatic."
+        }
+      ]
     },
     {
       "id": 3,
@@ -51,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'high-minded relations', which shifts the sarcastic, mocking register toward a more genuinely moral phrasing. The original punchy, stuttering sarcasm about pretentiousness is weakened by the more literal/serious 'high-minded' wording."
+          "justification": "The original line works as a repeated, drawn-out sarcastic refrain. The candidate's \"High... high-minded relations!\" loses the playful vowel-stutter and the biting ironic cadence of the refrain, and adds 'minded', which softens the mockery."
         }
       ]
     },
@@ -73,7 +80,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Rendering 'совести' as 'conscience' ('live for conscience') is grammatically possible but unidiomatic and narrows the meaning. The reference's idiom ('live to do your duty') better conveys the soldierly, duty-focused fatalism present in the analysis; the candidate loses that pragmatic/duty sense."
+          "justification": "The candidate renders \"совести\" as \"conscience,\" which is a literal but somewhat odd-sounding choice here; the spoken force of the original (duty/obligation tone) is better captured by \"duty.\" The line is understandable but the pragmatic nuance is weakened."
         }
       ]
     },
@@ -110,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' is a teasing compliment rather than the sharp domestic insult of 'Some cook you are!'. While sarcastic reading can work, the phrasing softens the original's biting, imperious blow and changes register."
+          "justification": "\"Culinary genius!\" reads more like ironic praise than the brusque, scolding household insult the original delivers. The candidate could be interpreted as sarcastic, but it lacks the sharp, imperious bite of the original exclamation."
         }
       ]
     },
@@ -130,9 +137,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly notes the German interjection as a character quirk; translating 'Натюрлих!' to 'Naturally.' removes the foreign-word play and the comedic marker of the character's speech. This change undermines a distinctive character trait and the film's linguistic joke."
+          "justification": "Translating the German interjection into English removes a key character quirk: the use of a foreign word as a comic signifier of the character's demeanour. The analysis explicitly warns against this; rendering it as \"Naturally.\" destroys that linguistic joke and the character marker."
         }
       ]
     },
@@ -149,7 +156,14 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, for God’s sake—no waiting for peritonitis!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate's \"Cut it out\" reads as 'stop that behavior,' whereas the original issues a blunt surgical imperative ('cut it [out surgically] — don't wait for peritonitis'). This shifts the meaning from a violent medical verdict to a plea to cease activity, which undermines the medical farce and the speaker's authority."
+        }
+      ]
     },
     {
       "id": 9,
@@ -184,7 +198,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits and literalizes the fixed idiom by rendering 'This is my cross!' followed by 'And I’m the one to carry it.' The analysis warns against breaking the English idiom 'a cross to bear'; the candidate's phrasing reads less natural and undermines the idiomatic manipulation of self-sacrificial rhetoric."
+          "justification": "The candidate splits the fixed English idiom and uses a literal short sentence \"This is my cross!\" which the analysis warns can mis-handle the idiom. The manipulative, hyperbolic tone is preserved, but the phrasing is less idiomatically tight than the reference."
         }
       ]
     },
@@ -206,21 +220,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'all angular' which the analysis explicitly advises against as an overly literal rendering of 'угловатая'. The line becomes slightly awkward and loses the playful, coquettish self-mockery of the original phrasing."
+          "justification": "Using \"angular\" reproduces the Russian adjective too literally; the analysis warns this sounds odd in English. The candidate conveys self-deprecating awkwardness, but the word choice is clunky and less natural than alternatives that capture the intended \"sharp-edged\" mannerism."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 10,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

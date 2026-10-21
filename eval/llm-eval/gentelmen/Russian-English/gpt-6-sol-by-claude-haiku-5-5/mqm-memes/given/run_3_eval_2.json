@@ -36,14 +36,7 @@
         }
       },
       "candidate": "knock your block off, rip your trap,\nand poke your peepers out!\nYou'll be working for medicine all your life!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate drops the subject of the first clause (\"I'll\"), so \"knock your block off, rip your trap, and poke your peepers out!\" reads as a headless list rather than a threat. The reference keeps \"I'll\" and the candidate's line breaks further split the sequence. It remains understandable, but it is less fluent than the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -153,14 +146,7 @@
         }
       },
       "candidate": "Was there a square? — There was.\nMaybe a monument?\n— There was a monument.\n— Whose monument?\n— How should I know? Some guy.\n— With a beard? — No!\n— With sideburns?\n— I don’t remember. He had a jacket!\n— Was he inside?\n— Who?\n— That guy of yours!\n— What a hick! Listen to you!\nWho’d put him inside? He’s a monument!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The reference marks \"Maybe a monument?\" as a new speaker's line with a dash (\"— Maybe a monument?\"). The candidate drops that dash, so the line reads as the same speaker continuing after \"There was.\" The dialogue convention is inconsistent with the reference and the surrounding exchange. The rest of the dialogue content matches the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -205,7 +191,7 @@
           "severity": "minor",
           "category": "other",
           "span": "",
-          "justification": "The candidate adds a leading dash (\"- Yes, yes. IRS.\") that is absent from both the source and the reference. It is a stray dialogue marker that suggests a speaker change not present in the source, which is a small formatting error."
+          "justification": "The candidate begins with a stray dialogue dash (\"- Yes, yes. IRS.\") that is absent from both the source and the reference. It suggests a speaker change that does not occur in the line. The wording itself matches the reference and preserves the code-switch effect."
         }
       ]
     },
@@ -363,13 +349,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 1,
     "meaning_units": 18,
-    "penalty_per_unit": 0.16666666666666666,
-    "major_equiv_per_unit": 0.03333333333333333,
-    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.05555555555555555,
+    "major_equiv_per_unit": 0.01111111111111111,
+    "interpretation": "0.06 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

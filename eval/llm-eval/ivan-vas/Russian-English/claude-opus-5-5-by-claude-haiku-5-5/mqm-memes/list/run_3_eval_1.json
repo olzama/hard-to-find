@@ -38,10 +38,10 @@
       "candidate": "Pleased to meet you — Tsar!\nCharmed, hello — Tsar!\nTsar — pleased to meet you!\nHello — Tsar! Charmed!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis asks that the lines make clear he is introducing himself as the Tsar, not addressing one. 'Pleased to meet you — Tsar!' and 'Tsar — pleased to meet you!' leave that reading ambiguous, since the dash does not mark the Tsar as the speaker. The reference's 'I'm the Tsar' in the first line resolves this."
+          "justification": "The analysis says the translation must make clear that Bunsha introduces himself as the Tsar, not that he addresses one. The dashes and word order ('Pleased to meet you — Tsar!', 'Tsar — pleased to meet you!') read as a vocative, so the self-introduction is ambiguous and can be taken as greeting a Tsar."
         }
       ]
     },
@@ -68,7 +68,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The passive 'be continued' is stilted for a power-hungry royal demand. It also invites the TV-serial 'to be continued' association, which weakens the imperious tone the analysis describes. 'I demand that the banquet continue!' would be more natural."
+          "justification": "The passive 'be continued' is stilted compared with the active source demand 'continue the banquet', and it evokes the 'To be continued' caption, which weakens the commanding tone of the line."
         }
       ]
     },
@@ -140,7 +140,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source is declarative ('Everyone is dancing!'), a proud announcement of the chaotic party. The candidate turns it into an imperative. This still does the job of a host leading the party, so the shift is slight, but it is a grammatical mood change."
+        }
+      ]
     },
     {
       "id": 8,
@@ -183,9 +190,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's final line 'Eggplant caviar!' does exactly that, and it removes the 'overseas spread' contrast that the joke depends on. This contradicts the analysis."
+          "justification": "The analysis explicitly says eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's final line 'Eggplant caviar!' does exactly that, contradicting the essence of the analysis about the cheap canned spread being passed off as an overseas delicacy."
         }
       ]
     },
@@ -210,9 +217,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The numerals are inconsistent: the first three counts are written as digits ('3') while the final count is spelled out ('three'). Mixing the two weakens the deadpan list rhythm that makes the forgotten-count payoff land."
+          "justification": "The candidate mixes numerals ('3 tape recorders', '3 movie cameras', '3 cigarette cases') with the spelled-out 'three' at the end, and drops the article in 'suede jacket'. This breaks the spoken counting rhythm of the source, which weakens the escalating-count gag that the analysis highlights."
         }
       ]
     },
@@ -234,14 +241,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 2,
       "minor": 3
     },
-    "total_points": 8,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 0.7272727272727273,
-    "major_equiv_per_unit": 0.14545454545454545,
-    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

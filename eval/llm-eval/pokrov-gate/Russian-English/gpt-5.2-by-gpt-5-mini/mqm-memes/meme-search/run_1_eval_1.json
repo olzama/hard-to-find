@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the literal meaning and the teasing challenge, but it loses some of the theatrical, self-dramatizing flourish that makes the original a memetic boast. The shorter, plainer phrasing weakens the comic grandiosity described in the analysis."
+        }
+      ]
     },
     {
       "id": 2,
@@ -51,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses some of the comic delivery marked by the original's stuttering and ironic emphasis (reference reproduces a stammered \"e-v-volved\"). \"Such... such elevated relations\" is grammatical but flatter and more literal, weakening the punchy, sarcastic refrain."
+          "justification": "The candidate uses the noun 'relations' in a fairly literal way ('Such... such elevated relations'), which the analysis warns against because it sounds unnatural in English. This reduces the line's status as a snappy, sarcastic refrain, even though the basic meaning is preserved."
         }
       ]
     },
@@ -71,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"People don’t live for joy—they live by conscience.\" preserves the meaning but the phrase \"live by conscience\" is slightly awkward in natural English compared with the idiomatic force of the reference (\"you live to do your duty\"). The soldierly fatalism is present but the register is less idiomatic."
+          "justification": "The candidate keeps the general idea of duty over happiness but shifts phrasing to 'live by conscience,' which is a slightly different idiom and softens the blunt, fatalistic tone ('You don't live to be happy, you live to do your duty') central to the character's voice."
         }
       ]
     },
@@ -107,10 +114,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "\"Culinary genius!\" shifts register toward ironic praise rather than the sharp, imperious reproach conveyed by the original. It loses the brisk, domestic insult quality of \"Some cook you are!\" and sounds less natural as a biting retort."
+          "justification": "The original is a sharp, ironic insult using a neutral profession as a biting domestic rebuke ('Some cook you are!'). The candidate 'Culinary genius!' turns it into a positive or sarcastic-sounding phrase that misses the intended scathing, imperious tone and the comedic effect of using a profession as an invective."
         }
       ]
     },
@@ -162,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The character name is transliterated as \"Khabotov\" instead of the expected \"Khobotov.\" This alters a proper name spelling and is an accuracy/terminology issue, though the intended addressee is still clear."
+          "justification": "The candidate transliterates the name as 'Khabotov' instead of the expected 'Khobotov'/'Khobotov' form in the reference. This is a small but noticeable error in the character name, though the insulting function of the line is preserved."
         }
       ]
     },
@@ -181,10 +188,10 @@
       "candidate": "This is my cross!\nAnd I’ll carry it.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate translates the idiom too literally as \"This is my cross! And I’ll carry it.\" The analysis warns against splitting the English fixed idiom; the theatrical, manipulative effect relies on the idiomatic English \"a cross to bear\" (or a similarly idiomatic rendering). The literal phrasing reduces the idiomatic force and changes the manipulative theatricality of the line."
+          "justification": "The candidate translates the line literally as 'This is my cross! And I’ll carry it.' The analysis cautions against a literal rendering that splits or flattens the English idiom (\"a cross to bear\"). The result is understandable but loses some of the idiomatic, self-aggrandizing manipulation of the original phrasing."
         }
       ]
     },
@@ -206,7 +213,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"All angles\" is a borderline literal rendering of «угловатая» and is slightly awkward, but the candidate largely preserves the coquettish, self-deprecating register and rhythm. The line is acceptable though a touch less natural than the reference."
+          "justification": "The candidate conveys the self-deprecating, coquettish tone, but uses 'all angles' to render 'угловатая,' which the analysis warns against as a literal and potentially awkward choice in English. The phrasing is acceptable but slightly clumsy compared with a more natural idiomatic rendering."
         }
       ]
     }
@@ -214,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 10,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

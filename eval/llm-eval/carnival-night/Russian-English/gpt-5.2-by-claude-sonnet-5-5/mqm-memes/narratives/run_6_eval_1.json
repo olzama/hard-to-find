@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic, but the untranslated \"Baba Yaga\" leans toward the fairy-tale figure and loses the generic nasty-woman-in-the-workplace type that a viewer would recognize. \"Raise one\" is also less bureaucratic than \"train/cultivate\" in-house."
+          "justification": "\"Hire\" suits the staffing logic, but \"a Baba Yaga\" leaves the fairy-tale name opaque to English viewers and loses the workplace-type reading (a nasty woman already in the collective). \"Raise one in our own team\" keeps the in-house cultivation joke, so the effect is only slightly weakened."
         }
       ]
     },
@@ -70,13 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key word «коротенько» (faux-modest \"briefly/just a short one\") is rendered as bare \"briefly\" with no cozy diminutive feel. \"Forty minutes\" does follow it, but the passive \"no more, I think, is needed\" is stiff and the self-satisfied managerial tone is weakened, so the comic reversal is blunted."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The syntax \"no more, I think, is needed\" is awkward and unnatural in English, and it lacks the connective \"and\" or \"so\" that gives the colloquial flow."
+          "justification": "The key word \"коротенько\" is translated as plain \"briefly\" with no faux-modest, cozy diminutive tone. It is also placed after a dash and lacks the self-satisfied managerial voice. The line starts with lowercase \"briefly\" and runs on, so the contrast with \"forty minutes\" is flattened. The punchline is weakened, and \"no more, I think, is needed\" is stiff and slightly awkward."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready a long time ago!\" is only mildly suggestive and reads as plain readiness, so the drunken subtext is largely lost. It is also grammatically odd, since \"ready a long time ago\" is not natural English for \"has been ready for a long time\"."
+          "justification": "\"Ready\" is translated literally, and the colloquial \"drunk/done for\" subtext is lost. \"Ready a long time ago\" does not suggest intoxication to English viewers. The double reading that makes the joke work is gone, and the phrase is also awkward because it uses the past tense where the original has present perfect continuity."
         }
       ]
     },
@@ -126,9 +120,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The broken, stretched vocalization is only partly kept. \"People!\" is clean and unbroken, losing the drawn-out \"Peo-ple\" wobble, though \"Ah... A-oo!\" keeps some instability and the faltering cry survives."
+          "justification": "The broken, wavering vocalization is only partly kept. \"People!.. Ah... A-oo!\" has no stretched syllables like \"Peo-ple\", so the drunken instability is weaker. The dash prefix also wrongly implies a dialogue turn. \"A-oo\" does not clearly read as a calling \"hellooo\"."
         }
       ]
     },
@@ -157,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against. It sounds surreal rather than like a mock-scientific distortion of a familiar idiom such as \"unaided eye\", so the intended effect is not recreated in English."
+          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly says to avoid. It sounds more surreal than the Russian and does not echo the familiar English idiom \"unaided eye\", so the mock-scientific idiom distortion is not recreated. The line also ends with a comma instead of the trailing exclamation and pause."
         }
       ]
     },
@@ -183,10 +177,10 @@
       "candidate": "and we already see two little stars,\nthree little stars...\nFour little stars—best of all, of course,\nfive little stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The cognac punchline relies on \"five stars\", but \"little stars\" repeated through the whole sequence, including \"five little stars\", reads as childish and weakens the click into the cognac frame. The progression is also mangled, with \"Four little stars—best of all\" running into the punchline and losing the beat of \"four... but best of all five\"."
+          "justification": "The punchline is broken. The progression is garbled: \"Four little stars—best of all, of course, five little stars!\" merges four and five into one phrase, and the neat counting sequence that sets up the sudden click is lost. The \"little stars\" diminutive does keep the childish counting tone. However, the cognac association is not signaled, and the English lacks the rhythm of the build-up followed by the shift into a different frame."
         }
       ]
     },
@@ -212,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Is there no life on Mars\" is slightly stilted, and \"science does not know\" is a little more formal than the flat colloquial «науке неизвестно». The final \"not yet in the know\" keeps the casual register well, so the overall effect is mostly preserved."
+          "justification": "The meaning is correct and the colloquial \"in the know\" keeps the register mismatch. However, \"science does not know\" is flatter than \"that is unknown to science\", and the stiff \"is there no life on Mars\" is slightly unnatural. The comic effect is only mildly weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 20,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

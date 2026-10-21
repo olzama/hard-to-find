@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the key structure that each person has lost an item ('У Шпака — ..., у посла — ...') and turns it into a bare list, so the theft/correspondence relation is weakened and the joke loses clarity."
+          "justification": "The candidate misreads the key meaning of the line: it lists missing items ('at Shpak's, the tape recorder; at the ambassador's, the medallion'), but the candidate omits the notion of disappearance and instead presents them as bare nouns, losing the joke's setup."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vólvenme asaltar certas dúbidas' is a bit less idiomatic and less mock-solemn than the elevated, theatrical phrasing described in the analysis."
+          "justification": "The mock-solemn, theatrical wording is somewhat flattened by the very terse list format, reducing the comic high-register effect."
         }
       ]
     },
@@ -49,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should clearly show Bunsha introducing himself as the Tsar, but 'Moito gusto, tsar!' and the surrounding wording can read as addressing a tsar rather than being one; the required ambiguity is not well preserved."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The sequence sounds somewhat fragmented and less like a comic repetition of a stiff formal greeting, weakening the rhythmic absurdity of the original."
+          "justification": "The line should clearly sound like Bunsha repeatedly introducing himself as the tsar, not merely addressing a tsar. The candidate's punctuation and word order make the utterance ambiguous and can read as if he is speaking to the tsar rather than impersonating one."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is understandable, but it is flatter and less regal/archaic than 'estou aflixido', so the aristocratic tone is slightly weakened."
+          "justification": "'Estou triste' is understandable, but it weakens the elevated, archaic melancholy of 'estou aflixido,' which better matches Ivan's regal, theatrical tone."
         }
       ]
     },
@@ -109,14 +103,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The second line 'Emparedáronme, demos!' can be read as addressing the demons, which conflicts with the note that 'demons' must be the subject of the sentence. This changes the meaning of the joke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -166,7 +153,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei!' conveys entering successfully, but it drops the nuance of an opportunistic discovery upon stumbling into a good situation and can sound like mere physical entry rather than the burglar's delighted reaction."
+          "justification": "'Que ben entrei!' is literally 'How well I entered,' which is unnatural and weakens the intended meaning of a cheerful reaction to having come upon a great opportunity. The reference's sense of lucky timing is not well preserved."
         }
       ]
     },
@@ -188,7 +175,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'Caviar de ultramar' and then separates 'De berinxela!', which obscures the intended joke that the cheap item is eggplant spread presented as a rare overseas delicacy. It risks making 'eggplant' sound like a modifier of caviar, which the analysis explicitly warns against."
+          "justification": "The candidate repeats 'caviar' for the eggplant spread, directly contradicting the analysis: this item should not be called caviar, because the joke depends on the cheap eggplant spread being presented as a mock luxury food."
         }
       ]
     },
@@ -210,13 +197,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Petacas nacionais' does not match 'портсигара отечественных' as closely as 'cigarreiras nacionais'; it is a less precise item name, though the overall list joke remains understandable."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The abbreviated list form is acceptable, but it is slightly less polished than the reference and does not fully preserve the escalating comic inventory rhythm."
+          "justification": "'Petacas' is not the same as the reference's cigarette cases ('cigarreiras'), so the inventory of stolen items is altered. The joke still works, but the specific status-item list is less faithful."
         }
       ]
     },
@@ -233,26 +214,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti hanche curar!\nE a ti tamén hanche curar!\nE a min hanme curar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Hanche curar' is a bit more colloquial and less neutral than the reference's 'vante curar', slightly shifting the tone of calm resignation."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 6
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 31,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

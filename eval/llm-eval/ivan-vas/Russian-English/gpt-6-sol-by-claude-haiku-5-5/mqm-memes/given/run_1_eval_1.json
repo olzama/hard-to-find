@@ -191,7 +191,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The subtitle opens with a lowercase \"three\" even though it begins a new utterance after the ellipsis in the source. The reference capitalizes it as \"Three tape recorders\", so the candidate's capitalization is inconsistent with standard subtitle convention. The content and the rising list structure are otherwise preserved."
+          "justification": "The line-broken list starts with lowercase 'three' on the first line (and on the second line), which is inconsistent with sentence-initial capitalization in the reference ('Three tape recorders...'). The content and list structure are otherwise preserved."
         }
       ]
     },
@@ -213,13 +213,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the opening clause \"And they'll cure you…\" (И тебя вылечат…). This reduces the anaphoric triad of the source to two beats, so the calm, melodic cadence described in the analysis is weakened and a line of source content is missing."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The subtitle opens with a lowercase \"and\" although it starts a new utterance. The reference capitalizes the first word, so the candidate's capitalization is inconsistent with subtitle convention."
+          "justification": "The candidate omits the first clause of the source ('И тебя вылечат…', 'And they'll cure you…'). This breaks the three-beat structure of the refrain that the analysis's 'melodic, calm resignation' depends on, and leaves 'and they'll cure you too' without an antecedent within the segment."
         }
       ]
     }
@@ -227,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

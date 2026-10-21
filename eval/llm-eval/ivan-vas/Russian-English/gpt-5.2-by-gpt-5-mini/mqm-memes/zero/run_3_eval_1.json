@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies possession. The analysis explicitly notes these items are no longer possessed (they were lost/stolen); the original means each of them lost their corresponding item. This reverses the intended meaning."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', which implies possession. The analysis and NB make clear the original means they have had those items taken from them (they lost them). This reverses the intended meaning and undermines the joke about stolen goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should make clear Bunsha is introducing himself as the Tsar ('I am the Tsar'), not addressing someone called the Tsar. The candidate's phrasing reads as direct address to a Tsar rather than self-introduction, which undermines the comedic premise described in the analysis."
+          "justification": "The line must show Bunsha introducing himself as the Tsar (not addressing an actual Tsar). The candidate reads like exclamatory address to a Tsar ('Very pleased, Tsar!'), losing the important comic premise that he is repeatedly proclaiming himself 'the Tsar'. This misrepresents the gag described in the analysis."
         }
       ]
     },
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses the contraction 'I’m' which softens the high-register, archaic tone of the original 'я в печали.' This slightly weakens the intended regal, elevated voice of the Tsar."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -99,10 +92,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The original indicates someone (demons) have walled him in—the demons are the subject. The candidate's 'Walled up! Walled up, demons!' reads as a vocative/exclamation addressing demons rather than stating they are the agents who walled him in, creating an ambiguity that contradicts the analysis note."
+          "justification": "The original has a passive sense ('They've walled me in') with 'demons' as the subject/agent. The candidate's 'Walled up! / Walled up, demons!' is ambiguous and reads as if addressing the demons (vocative) or as a clipped exclamation, which weakens the clear accusatory subject of the Russian line."
         }
       ]
     },
@@ -119,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross does!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's colloquial 'That’s what the life-giving cross does!' preserves meaning but loses some of the formal, archaic register ('Behold the power of the life-giving cross!') that contributes to the joke's contrast between sacred gravity and modern technology."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -141,14 +127,7 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrasing 'Everyone dance!' is grammatically awkward and not idiomatic English for a party exhortation. It conveys the intent but reads less natural and less punchy than alternatives like 'Everyone, dance!' or 'Everybody dance!'"
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -193,7 +172,14 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The humor depends on Shpak's self-contradictory counting (he grows the count mid-list and then repeats 'Three' as if to remember another item). The candidate flattens this into a straightforward list ('three suede jackets'), removing the comic reveal of the forgotten increment and thereby losing the joke's essence."
+        }
+      ]
     },
     {
       "id": 11,
@@ -214,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 3
+      "minor": 1
     },
-    "total_points": 18,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

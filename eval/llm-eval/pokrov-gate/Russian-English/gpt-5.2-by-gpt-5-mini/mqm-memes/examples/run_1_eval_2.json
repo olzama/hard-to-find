@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Line begins with a lowercase 'how' which looks like a subtitle capitalization oversight. The phrasing 'we knock back a little shot?' is otherwise natural and captures the casual, ironic tone, but the punctuation/capitalization makes it read awkwardly on screen."
+          "justification": "The candidate captures the casual, ironic invitation, but the linebreak and lowercase start make the delivery slightly awkward for subtitle presentation. \"a little shot\" is slightly clumsy compared with more idiomatic alternatives like \"a quick one\" or \"a shot.\""
         }
       ]
     },
@@ -55,10 +55,10 @@
       "candidate": "Elevated... elevated relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Elevated... elevated relations.' uses a literal noun phrase ('relations') and a plain repetition rather than the stuttering, sarcastic exclamatory effect in the analysis. This weakens the iconic, mocking refrain and its performative delivery."
+          "justification": "The original's comic effect relies on a sarcastic, stuttering exclamation that mocks the claimed 'high' nature of the relationship. The candidate's flat repetition 'Elevated... elevated relations.' loses the stuttered, mocking delivery and reads as a literal, less funny statement, undermining the line's established refrain and tone."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'live for conscience' is a literal rendering of 'для совести' but sounds less idiomatic and less pointed than the reference's 'live to do your duty,' which better conveys the soldierly fatalism and moralization described in the analysis."
+          "justification": "The candidate preserves the general contrast between personal happiness and moral duty but renders it as \"live for conscience,\" which is slightly odd and less natural than the idiomatic sense of \"living for duty/obligation\" emphasized in the analysis."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "Culinary genius!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'Culinary genius!' reads as a (possibly sarcastic) compliment rather than the sharp, dismissive home-turned-invective implied by the analysis and reference ('Some cook you are!'). This softens the original's biting, imperious tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -164,14 +157,7 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that's petty!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate spells the name as 'Khabotov' instead of the correct transliteration 'Khobotov' (or 'Khobotov' as in the reference). This misrendering of a recurring character name is a significant accuracy error that can confuse viewers and undermines character identity."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -191,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits and literalizes the phrase ('This is my cross! / And I’m the one to bear it.'), which loses the idiomatic English fixed expression 'a cross to bear' favored in the reference and analysis. The meaning remains but the manipulative, grandiose idiom is weakened."
+          "justification": "The candidate keeps the boastful self-sacrificing tone but splits the idiom awkwardly into two lines and uses a literal \"This is my cross!\" which the analysis warned can break the English idiomatic phrasing. A more idiomatic single-phrase rendering (e.g., \"This is my cross to bear\") would better preserve the manipulative grandiosity."
         }
       ]
     },
@@ -213,7 +199,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' as a translation of 'угловатая,' which the analysis explicitly warns against because it reads as an overly literal and awkward choice in English. This reduces the natural, coquettish self-deprecation the line should convey."
+          "justification": "The candidate conveys the self-deprecating, performative tone, but uses the literal \"angular\" for «угловатая», which the analysis specifically cautions against as it reads oddly in English. This weakens the comic self-portrait compared with a more natural idiomatic choice."
         }
       ]
     }
@@ -221,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 11,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

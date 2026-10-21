@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No—I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning but loses some of the mock-ceremonial, high-flown self-dramatization signaled in the analysis (the reference's 'Pray, tell me' / 'Go on, I'll wait!' theatricality). 'Name one! No—I’m waiting.' is natural and colloquial, which softens the performative, meme-like tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate captures the casual invitation to drink and the trickster register, but 'shall we knock back a little shot?' is slightly awkward in rhythm and article choice ('a little shot' reads clumsy). A smoother phrasing would better match idiomatic English."
+          "justification": "The candidate captures the casual, convivial tone, but the lowercase initial letter and the slightly clunky phrasing \"a little shot\" make it a bit less natural and punchy than the reference's idiomatic \"toss back a quick one.\""
         }
       ]
     },
@@ -62,10 +55,10 @@
       "candidate": "Such... such elevated relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the basic idea but drops the stuttering/refrain and sharpened sarcastic bite that make the line a recurring comic motif. 'Such... such elevated relations.' reads flatter and less performative than the reference's staggered, emphatic delivery."
+          "justification": "The candidate uses a literal noun phrase \"such elevated relations,\" losing the performative stutter and sarcastic exclamatory phrasing that function as the film's recurring refrain. This weakens the ironic, theatrical effect central to the line."
         }
       ]
     },
@@ -87,7 +80,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Meaning is preserved broadly, but 'live for conscience' is less idiomatic and weakens the original's practical, duty-focused fatalism ('live to do your duty'). The nuance of duty/obligation is diluted by the choice of 'conscience.'"
+          "justification": "The candidate preserves the general meaning (duty over joy) but the phrasing \"live for conscience\" is slightly awkward and less idiomatic than the reference's clear moral/duty register, softening the blunt, soldierly fatalism."
         }
       ]
     },
@@ -121,10 +114,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses a positive-sounding phrase ('Culinary genius!') that can read as praise rather than the sharp, dismissive household insult implied in the analysis. It shifts the bite and register of the exclamation."
+          "justification": "The reference is a biting, sarcastic rebuke using a neutral profession as an insult. The candidate's \"Culinary genius!\" reads as genuine praise rather than an ironic reprimand, reversing the intended effect."
         }
       ]
     },
@@ -173,10 +166,10 @@
       "candidate": "Khabotov, that’s petty!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate misspells/transliterates the character name ('Khabotov' vs. reference 'Khobotov'). This alters a recurring, character-marking formula and risks confusing the identity and recognition of the target, harming the line's psychological function."
+          "justification": "The candidate preserves the formulaic mockery, but the transliteration \"Khabotov\" differs from the reference \"Khobotov,\" introducing a small inconsistency in the character's name."
         }
       ]
     },
@@ -198,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The idiom 'It's my cross to bear' is correctly used, but the second line ('And I will bear it.') softens the possessive, self-exculpatory arrogance of the reference ('And mine alone!'). The exclusivity and manipulative emphasis are reduced."
+          "justification": "The idiom \"It's my cross to bear\" is preserved, but the follow-up \"And I will bear it\" is more prosaic and less rhetorically sharp than the reference's emphatic \"And mine alone!\", slightly weakening the self-aggrandizing, manipulative tone."
         }
       ]
     },
@@ -220,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate largely conveys the self-mocking, neurotic tone, but it translates 'угловатая' literally as 'angular,' which the analysis specifically warns against as awkward/literal in English. This choice makes the line sound less natural and idiomatic."
+          "justification": "The candidate keeps the self-deprecating rhythm but translates «угловатая» as \"angular,\" which the analysis explicitly flags as a literal and potentially confusing choice; this slightly undermines the natural, coquettish self-portrait."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 7
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 12,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

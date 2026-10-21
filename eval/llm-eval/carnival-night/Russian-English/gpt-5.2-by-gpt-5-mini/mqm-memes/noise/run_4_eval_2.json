@@ -20,7 +20,20 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto welcome the New Year cheerfully.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate keeps the bureaucratic register but uses 'to welcome the New Year cheerfully' rather than the slightly more idiomatic and punchy 'celebrate the New Year merrily.' 'Welcome' softens the festive/bureaucratic contrast a little, weakening the dry, quasi-managerial sting described in the analysis."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The phrase 'there is an instruction to welcome…' is grammatical but a bit stilted in English; a more natural phrasing would better preserve the official-sounding directive while remaining fluent."
+        }
+      ]
     },
     {
       "id": 2,
@@ -61,9 +74,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The diminutive, faux-modest flavor of 'коротенько' is flattened to a plain 'briefly,' which reduces the comic contrast between 'just a little' and 'forty minutes' that supplies the punchline."
+        },
+        {
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds the phrase \"he delivers his address,\" which is not present in the source and changes the line from Ogurtsov's self-satisfied first-person directive into a narrational comment. This extra material weakens the original speaker-focused tone and slightly alters the comedic effect."
+          "justification": "The added clause 'he delivers his address' is extraneous and changes the original's tight, self-satisfied delivery; it introduces material not present in the source and slightly shifts focus away from the ironic understatement."
         }
       ]
     },
@@ -89,7 +108,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing \"long ready\" is awkward in English and fails to fully reproduce the colloquial double reading (ready vs. already drunk) present in the Russian. A more idiomatic rendering (e.g. \"he's been ready for quite a while\" / \"he's been ready for ages\") would better preserve the breezy ambiguity."
+          "justification": "The rendering 'long ready' is understandable but awkward in English; it preserves the sense of 'давно готов' but the phrasing is clumsy and mildly reduces the crisp backstage rhythm that supports the double reading."
         }
       ]
     },
@@ -134,10 +153,10 @@
       "candidate": "But as soon as we take\na telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate's literal \"armed eye\" recreates the Russian wording but produces a stranger, more surreal image in English than intended. The analysis recommends a softer mock-scientific distortion (e.g. \"aided eye\") to preserve the quasi-technical but ridiculous feel; \"armed eye\" overplays the oddness and risks losing the comic nuance."
+          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis specifically warns against: in English this reads as oddly surreal rather than the intended mock‑scientific deformation of a familiar idiom. That choice loses the subtle, slightly wrong popular‑science feel and becomes jarring instead of humorously pretentious."
         }
       ]
     },
@@ -185,21 +204,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The final sentence \"Science is not yet informed\" reads more formal and impersonal than the original's colloquial, conversational tone (\"Science still isn’t up to speed on the matter\"). The change reduces the casual, chatty register that creates much of the line's comic effect."
+          "justification": "'Science is not yet informed' preserves the meaning but sounds slightly more formal and less colloquial than the source's conversational 'Наука ещё пока не в курсе дела.' The casual, chatty register that supplies much of the line's humor is therefore a little weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 4
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 4,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 0.5,
-    "major_equiv_per_unit": 0.1,
-    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

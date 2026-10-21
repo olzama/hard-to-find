@@ -41,7 +41,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts the target pronoun from second-person threats in the original («Я... тебя») to third-person ('his') at the start (\"I'll knock his horns off\"), creating an inconsistent addressee and undermining the direct, verdict-like menace. It also retains the literal 'horns' phrasing that the analysis advised avoiding as unidiomatic for English threats, making the line feel awkward rather than the compact, idiomatic threat the reference models."
+          "justification": "The candidate begins with a third-person reference (“I'll knock his horns off”) while the original threat is directed at the addressee (second person). This person-shift changes who is threatened and undermines the immediacy and menace of the line."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The final clause ends with a comma and uses a more explanatory phrasing (“you'll be working to pay for medicine,”) rather than the compact, verdict-like finish recommended in the analysis, which weakens the punchy, sentencing rhythm of the original."
         }
       ]
     },
@@ -78,7 +84,14 @@
         }
       },
       "candidate": "This Vasily Alibabaevich...\nthis... not-nice person...\ndropped a radiator on my foot, the scumbag!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate’s “not-nice person” preserves the euphemistic restraint of «нехороший человек» but reads as awkward/childish in English; however it does keep the comedic contrast before the rough insult “the scumbag!”"
+        }
+      ]
     },
     {
       "id": 5,
@@ -103,7 +116,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using the single-word exclamation \"Romance!\" risks being read primarily as a comment about romantic love rather than the ironic romanticization of a criminal routine; the analysis warned that a different phrasing is needed to preserve the ironic, adventurous-tone reading."
+          "justification": "The repeated formula is preserved, but the final word “Romance!” risks being read primarily as a love-related word rather than the ironic romanticization of a criminal life; this slightly weakens the intended irony."
         }
       ]
     },
@@ -180,14 +193,7 @@
         }
       },
       "candidate": "This ain't like picking pockets for small change!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "The candidate uses \"picking pockets,\" which is a neutral idiom; the analysis recommends preserving the low-register slang quality of «тырить». The candidate therefore slightly weakens the petty-criminal register that contrasts with the bigger operation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -297,14 +303,7 @@
         "language_specific": {}
       },
       "candidate": "I'll rip your face off.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Rendering «пасть» as \"face\" removes some of the animalizing, stylized roughness of the original stock threat. The candidate conveys the meaning but loses the slightly more dehumanizing register that marks the criminal catchphrase."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -329,7 +328,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Silly cow\" is milder and more colloquial than the pointed feminine insult «дура» in this context; it reduces the sting and slightly flattens the feminine–masculine–feminine comedic sequence that depends on a blunt feminine reproach."
+          "justification": "The candidate preserves the feminine–masculine–feminine sequence, but “Silly cow.” is a register/variant that may not match the concise, blunt tone of «дура» and risks shifting the nuance of the insult."
         }
       ]
     },
@@ -353,10 +352,10 @@
       "candidate": "Sweetie, don't you think your place\nis by the slop bucket?",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate's \"slop bucket\" renders «параша» as a literal toilet object rather than as prison-status argot assigning the addressee to the lowest place in the inmate hierarchy. This reduces the line's function as a degraded-status insult and makes the image more sanitary/literal than the original prison-coded contempt."
+          "justification": "Rendering «параша» as “slop bucket” reduces a strong piece of prison argot to a literal sanitary object; the original assigns the addressee the lowest status in the inmate hierarchy, which calls for prison-status slang rather than a literal toilet image."
         }
       ]
     },
@@ -381,23 +380,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "Using \"hooligans\" risks a dated or British inflection; the analysis recommends a contemporary, natural term. The candidate preserves the formal phrasing (\"depriving me of sight\") but the attacker label feels slightly off-register for the intended comic-bureaucratic tone."
+          "justification": "The candidate’s use of “hooligans” is dated and British-flavored; the analysis asks for a contemporary, natural term. The formal phrasing “depriving me of sight” is appropriate, but the attacker label should be updated to feel idiomatic and natural."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 6
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 11,
+    "total_points": 15,
     "meaning_units": 18,
-    "penalty_per_unit": 0.6111111111111112,
-    "major_equiv_per_unit": 0.12222222222222223,
-    "interpretation": "0.61 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8333333333333334,
+    "major_equiv_per_unit": 0.16666666666666669,
+    "interpretation": "0.83 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

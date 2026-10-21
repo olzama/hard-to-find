@@ -26,13 +26,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's phrasing 'Shpak's tape recorder, the ambassador's medal' implies possession (they have these items). The analysis explicitly warns that У Шпака — У посла indicates those items have been lost/taken from them; the candidate thus reverses the meaning and misleads the viewer about the situation."
+          "justification": "The candidate lists 'Shpak's tape recorder, the ambassador's medal' in a way that implies current possession. The analysis explicitly notes these phrases indicate the items are missing (they lost them), so the candidate misrepresents the situation and thus alters the meaning."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference uses a mock-heroic, slightly elevated register ('Vague doubts haunt me...') that parodies high literature; the candidate's 'I'm beginning to have a nagging suspicion again...' is more prosaic and diminishes the ironic theatrical tone described in the analysis."
+          "justification": "The phrasing 'I'm beginning to have a nagging suspicion again...' tones down the mock-heroic, high-register theatricality ('vague doubts haunt me') that is central to the comic effect."
         }
       ]
     },
@@ -54,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis stresses that Bunsha is introducing himself as the Tsar (not addressing an existing Tsar). The candidate lines ('A pleasure, Tsar! Hello, Tsar!') read as if he is speaking to a Tsar rather than awkwardly introducing himself as 'the Tsar', which changes the gag and undermines the intended absurdity."
+          "justification": "The candidate addresses someone as 'Tsar' ('Hello, Tsar!'), which reads as speaking to a tsar rather than Bunsha repeatedly introducing himself as the Tsar. The analysis stresses that the line must make clear he is introducing himself, not addressing a tsar, so this changes the intended comic premise."
         }
       ]
     },
@@ -91,7 +91,14 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman;\nI am in mourning.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Rendering 'я в печали' as 'I am in mourning' is stronger and more specific (implying bereavement) than the original's archaic, regal 'I am in sorrow.' This slightly shifts register and nuance of the Tsar's melancholy."
+        }
+      ]
     },
     {
       "id": 5,
@@ -191,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The comedic inversion hinges on contrasting real luxury (black/red caviar) with cheap Soviet 'eggplant' spread presented as a faux-delicacy. The candidate labels the cheap item as 'Eggplant caviar' and calls it 'exotic caviar,' which literally reclassifies the spread as caviar and thus destroys the satirical contrast and will confuse viewers unfamiliar with the joke."
+          "justification": "The candidate translates the cheap Soviet eggplant spread as 'Eggplant caviar' and 'Exotic caviar,' which contradicts the analysis note that eggplant spread should not be called 'caviar.' This misrepresents the satirical inversion between real caviar and the humble 'eggplant spread' that is essential to the joke."
         }
       ]
     },
@@ -218,7 +225,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The humor depends on Shpak's self-contradictory counting—the hesitation around the suede jacket count is part of the gag. Rendering the list flatly as 'three suede jackets' removes that subtle comic beat and weakens the joke, though the inventory itself remains accurate."
+          "justification": "The candidate smooths the list into 'three suede jackets,' removing the original's halting self-contradiction and incremental recounting (domestic… a suede jacket… Three) that creates the comic reveal. This flattens the intended humorous timing."
         }
       ]
     },
@@ -241,13 +248,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 17,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

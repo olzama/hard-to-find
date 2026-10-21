@@ -26,13 +26,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Tormented by vague suspicions' keeps the lost-item meaning (lost, not has), but 'suspicions' and the plain phrasing slightly weaken the mock-heroic theatrical register of 'терзают смутные сомнения' (reference: 'Vague doubts haunt me')."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The added 'lost' is explicit and correct in meaning, but it turns the terse parallel structure 'У Шпака — магнитофон, у посла — медальон' into flat full sentences, losing the rhythmic callback effect."
+          "justification": "'Tormented by vague suspicions' keeps the mock-heroic tone reasonably well, though 'suspicions' is slightly less theatrical than 'doubts' and the line break is awkward."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha addressing someone else as 'Tsar' ('A pleasure, Tsar!', 'Hello, Tsar!'). The analysis explicitly requires making clear he introduces himself as the Tsar, not addresses a Tsar. This reverses the joke's meaning."
+          "justification": "The candidate reads as addressing a Tsar ('A pleasure, Tsar!') rather than introducing himself as the Tsar, which the analysis explicitly says must be clear. The self-introduction joke is lost."
         }
       ]
     },
@@ -151,7 +145,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everybody dance!' is accurate and carries the uninhibited party energy, but it is a flat imperative that loses the host-like, MC-ish tone of the reference 'The floor is open to everyone!'."
+          "justification": "'Everybody dance!' conveys the command, but is plainer than the reference and loses some of the host-like, uninhibited festive tone of the original. The meaning and chaotic energy are preserved."
         }
       ]
     },
@@ -173,14 +167,7 @@
         }
       },
       "candidate": "Good thing I dropped in!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Good thing I dropped in!' is acceptable as meaning, but the analysis stresses that he has just entered. 'Dropped in' is a fine entry verb, so the only concern is that it implies a casual visit, shifting the burglar's irony; the tone remains cheerful and fits. Reading is not misleading about departure."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -205,7 +192,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'caviar' ('overseas caviar... Eggplant!'), which the analysis explicitly forbids as confusing. The joke relies on eggplant spread being a cheap item presented as a rare overseas delicacy, and this is blurred."
+          "justification": "The candidate calls the eggplant spread 'overseas caviar' and ends with 'Eggplant!', which the note explicitly forbids because it confuses viewers. It also blurs the inversion of status between the real caviars and the cheap spread."
         }
       ]
     },
@@ -232,13 +219,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The suede jackets are pluralized ('suede jackets—three'), which destroys the joke: Shpak forgets to increment the count and says a single jacket before correcting to three. The reference keeps 'a suede jacket… Three.' so the slip is visible."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Numerals '3' in spoken dialogue and the rendering 'Soviet-made' for 'отечественных' are acceptable, but the digits feel less natural as subtitle speech than the written-out 'Three' of the reference."
+          "justification": "The joke depends on Shpak forgetting to increment the suede jacket count: 'a suede jacket… Three'. The candidate pluralizes 'suede jackets—three', which removes the slip and the humor. 'Soviet-made' also relocates 'domestic' to the wrong place in the list."
         }
       ]
     },
@@ -258,23 +239,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The rendering begins with 'They'll cure you too!' and then 'as well', changing the progression (first 'you', then 'you too', then 'me'). The calm, melodic resignation is partly lost through exclamation marks, which add excitement instead of the serene hysteria described in the analysis."
+          "justification": "The candidate adds exclamation marks and drops the ellipses, losing the melodic, calm, resigned delivery. The first line also omits the opening 'And they'll cure you' so it reads 'too' without a setup."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 25,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

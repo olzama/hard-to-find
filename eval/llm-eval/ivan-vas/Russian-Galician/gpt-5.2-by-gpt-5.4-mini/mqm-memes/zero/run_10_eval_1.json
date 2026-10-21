@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'Shpak has a tape recorder' and 'the ambassador has a medallion,' which reverses the intended meaning; the line means they are missing these items, not that they currently possess them."
+          "justification": "The candidate reverses the key meaning of the second clause: it says Shpak and the ambassador still have the items, whereas the line means they no longer have them because they were stolen/lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The mock-heroic, elevated phrasing is weakened by the more plain ‘Volven asaltarme vagas dúbidas’, though the tone is still recognizably comic."
         }
       ]
     },
@@ -40,10 +46,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate turns the line into a series of greetings to the tsar rather than clearly showing Bunsha introducing himself as the tsar, which is essential to the joke described in the analysis."
+          "justification": "The line captures the repetition and self-introduction, but ‘Moito gusto, ola, tsar’ is a bit less natural and less clearly a Soviet-style formula than the reference’s formal greeting pattern."
         }
       ]
     },
@@ -60,14 +66,7 @@
         "language_specific": {}
       },
       "candidate": "Eu esixo que continúe o banquete!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Eu esixo que continúe o banquete!' preserves the meaning, but it sounds more explanatory and less punchy than the concise, theatrical demand in the reference."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -82,14 +81,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, estou de pena.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Estou de pena' is understandable, but it is less idiomatic and less naturally grave than a phrase like 'estou aflixido,' slightly weakening the regal, archaic tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -119,14 +111,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Mira o que fai...' is a natural equivalent, but it weakens the demonstrative exclamatory force of the original and sounds a bit less solemnly triumphant."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -141,14 +126,7 @@
         "language_specific": {}
       },
       "candidate": "Que baile todo o mundo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Que baile todo o mundo!' conveys the command, but it loses some of the abrupt Soviet-era rallying energy of the original imperative 'Todos a bailar!'"
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -168,7 +146,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei!' means 'I entered well,' which is misleading here; the joke is that he has come across a lucky situation, not simply that he entered successfully."
+          "justification": "‘Que ben entrei!’ means ‘I entered well,’ which weakens the intended celebratory reaction to stumbling onto a valuable haul and loses the idiomatic ‘this worked out well for me’ sense."
         }
       ]
     },
@@ -190,7 +168,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate incorrectly repeats 'caviar de ultramar' and omits the crucial twist that the final item is eggplant spread, not caviar; this breaks the satirical joke and the Soviet food-shortage reference."
+          "justification": "The candidate omits the key humorous twist that the ‘overseas caviar’ is eggplant; without that, the satirical punchline about cheap Soviet spread being miscast as a delicacy is lost."
         }
       ]
     },
@@ -212,13 +190,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Pitilleiras' is the wrong object for 'portсigara' and changes the list item, so the inventory of stolen goods is no longer accurate."
+          "justification": "The list is incomplete and restructured: it drops one camera, one suitcase case/portсigar item, and the final count joke is not reproduced cleanly, so the escalating inventory gag is weakened."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "The formatting and punctuation make the list less comic and less breathless than the original, which builds humor through obsessive repetition and escalating count."
+          "justification": "‘Pitilleiras’ is not the most natural equivalent for the cigarette cases in this context; the item naming sounds less specific and less idiomatic than needed."
         }
       ]
     },
@@ -240,21 +218,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the final 'and me too' idea from the reference, so Ulyana's shared, resigned self-inclusion in the joke is lost."
+          "justification": "The candidate omits the first clause entirely (‘and you will be cured’), so the rhythmic, cumulative joke of including everyone in the same psychiatric fate is only partially preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 5,
+      "minor": 3
     },
-    "total_points": 35,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -38,10 +38,10 @@
       "candidate": "Pleased to meet you. Tsar.\nPleased to meet you, hello. Tsar.\nTsar. Pleased to meet you!\nHello. Tsar. Pleased to meet you!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis asks that it be clear Bunsha is introducing himself as the Tsar, not addressing one. The candidate drops the reference's 'I'm' and leaves 'Tsar.' as a bare word after 'Pleased to meet you', so the self-identification is only implied and could be read as a form of address."
+          "justification": "The analysis requires the translation to make clear that Bunsha is introducing himself as the Tsar, not addressing one. The candidate's bare 'Tsar.' with no 'I'm' or equivalent is ambiguous in direction and can be read as Bunsha greeting a Tsar, which is the exact confusion the note warns against."
         }
       ]
     },
@@ -175,16 +175,10 @@
       "candidate": "Black caviar, red...\nYes! Overseas caviar...\nAubergine!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "The analysis explicitly says the eggplant spread must not be called 'caviar' because it will confuse viewers. The candidate's 'Overseas caviar...' applies the word 'caviar' to the eggplant item before the 'Aubergine!' reveal, and the reference's 'Overseas spread' avoids this. The result is the mislabelling the note warns against."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Aubergine!' alone does not say what the item is (a spread or dip), so the final beat is less clear than the reference's 'eggplant' after 'Overseas spread', and the Russian 'баклажанная' spread is only partly conveyed."
+          "justification": "The analysis advises against calling the eggplant spread 'caviar' because it will confuse viewers. The candidate's 'Overseas caviar...' follows the source's wording and the 'Aubergine!' reveal still lands the joke, but the label may briefly read as literal caviar before the reveal."
         }
       ]
     },
@@ -211,7 +205,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis locates the humor in the spoken list whose count grows with each telling, including the hesitation over the suede jacket. The candidate's written inventory with numerals and semicolons ('tape machines, 3;') reads as a ledger rather than speech, which removes the spoken build-up and the 'Three...' hesitation, weakening the comic beat."
+          "justification": "The candidate turns Shpak's spoken, stumbling exaggeration into a ledger-style list with explicit counts. This weakens the character voice and the analysis's key beat, the late-remembered suede jacket, which in the source is conveyed by hesitation ('куртка… замшевая… Три') rather than by a tabulated entry."
         }
       ]
     },
@@ -233,13 +227,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's first clause is 'И тебя вылечат' (and they'll cure you), with 'тоже' (too) only in the second clause. The candidate adds 'too' to the first line, so the sequence no longer builds to the 'too' of the second line as the source does."
+          "justification": "The source's first line is 'И тебя вылечат' with no 'тоже'; the candidate adds 'too' to the first line. This shifts the parallel structure, so 'too' appears twice while the source places it only in the second line."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes a 'melodic, calm resignation'. The source's trailing ellipses are replaced by exclamation marks on every line, which turns the calm, drawn-out resignation into agitated shouting and shifts the tone away from the described character."
+          "justification": "The analysis describes Ulyana's 'melodic, calm resignation.' The candidate replaces the source's trailing ellipses with exclamation marks, which turns the calm, trailing cadence into a more agitated delivery."
         }
       ]
     }
@@ -247,13 +241,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 10,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

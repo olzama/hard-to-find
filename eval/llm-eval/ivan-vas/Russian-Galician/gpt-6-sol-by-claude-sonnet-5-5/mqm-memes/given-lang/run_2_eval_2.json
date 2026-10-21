@@ -106,14 +106,7 @@
         }
       },
       "candidate": "Velaquí o que obra a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "The analysis explicitly says to avoid the word 'velaí'. The candidate uses 'Velaquí', which is identical to the reference. Since the candidate is identical to the reference, this should not be penalized."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -193,14 +186,7 @@
         }
       },
       "candidate": "tres magnetófonos, tres cámaras de cine,\nTres magnetófonos, tres cámaras de cine, tres cigarreiras nacionais, unha chaqueta… de ante… tres.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The line is garbled: it starts with a lowercase fragment 'tres magnetófonos, tres cámaras de cine,' and then repeats the whole list 'Tres magnetófonos, tres cámaras de cine, tres cigarreiras...'. This duplicates items within the same line (not across consecutive segments), producing a confusing list that undermines the comic escalation of Shpak's count and the suede jacket slip."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -217,24 +203,24 @@
       "candidate": "E a ti tamén te van curar…\ne a min vanme curar…\n",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first clause 'E a ti vante curar…' is omitted. The candidate begins with 'E a ti tamén te van curar…', so the three-part progression (you / you too / me) that builds Ulyana's calm, melodic resignation is lost."
+          "justification": "The first clause of the source ('И тебя вылечат…') is omitted, leaving two clauses instead of three. The meaning of resignation is kept, but the melodic, incantatory three-part repetition that drives the calm, hysterical tone is weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 0,
       "minor": 1
     },
-    "total_points": 11,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

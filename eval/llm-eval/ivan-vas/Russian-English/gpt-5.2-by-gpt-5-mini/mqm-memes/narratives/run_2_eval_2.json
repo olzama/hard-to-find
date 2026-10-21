@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as possession. The analysis and NB make clear the original means they have lost or been robbed of these items (they are missing), not that they currently possess them. This reverses the intended meaning and undermines the comedic callback."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the ambassador has...', which implies current possession. The analysis explicitly warns these phrases mean they lost their items (they've been deprived), not that they own them. This reverses the intended meaning and undermines the gag about missing goods."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'So nice—hello, Tsar! / Tsar, so nice!' reads as addressing an existing Tsar rather than Bunsha introducing himself as the Tsar. The analysis stresses the humor comes from him introducing himself repeatedly as 'the Tsar.' The candidate fails to make that introduction role clear, altering the gag's premise."
+          "justification": "The line must make clear Bunsha is introducing himself as 'the Tsar' (I am the Tsar), not addressing or greeting a Tsar. The candidate reads like addressing a Tsar ('Hello, Tsar!') rather than the repetitive self-introduction and the absurdity of him claiming the identity, which is the core of the joke."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Leave me alone, old woman, I’m grieving.' uses colloquial modern phrasing ('Leave me alone,' 'I’m grieving') that softens the high-register, archaic, mock-royal tone the analysis highlights. The meaning is preserved but the elevated, theatrical register is weakened."
+          "justification": "The candidate uses more colloquial phrasing ('Leave me alone... I’m grieving') that softens the archaic, high-register tone ('I am in sorrow') the Tsar's line should have. The regal, old-fashioned register that creates contrast with the modern setting is weakened."
         }
       ]
     },
@@ -99,10 +99,10 @@
       "candidate": "Walled up!\nWalled up, demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB specifies that 'демоны' must be the subject (they walled him in), not an addressee. The candidate 'Walled up, demons!' reads as addressing demons (vocative) rather than stating that demons walled him in, reversing the grammatical relation and the intended comic misunderstanding."
+          "justification": "The analysis notes that 'demons' must be the subject (they walled him in), not being directly addressed. The candidate's punctuation/word order ('Walled up, demons!') creates ambiguity and could be read as addressing demons rather than stating that demons have walled him in, slightly distorting the original intent."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'That’s what the life-giving cross can do!' preserves the content but replaces the formal, archaic exclamation ('Behold the power of the life-giving cross!') with a more casual, contemporary phrasing. This reduces the grand, religious register that is part of the joke."
+          "justification": "The candidate's 'That’s what the life-giving cross can do!' reduces the emphatic, archaic declarative force of 'Behold the power of the life-giving cross!' The line loses some of the solemn, medieval diction that underlines the Tsar's conviction."
         }
       ]
     },
@@ -186,7 +186,14 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The comedic effect relies on Shpak's incremental inflation and his momentary slip (he trails off on 'suede jacket... three'), which betrays his exaggeration. The candidate lists 'three suede jackets' outright and keeps counts consistent, removing the self-betraying hesitancy that makes the joke work."
+        }
+      ]
     },
     {
       "id": 11,
@@ -207,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 17,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

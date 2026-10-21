@@ -26,13 +26,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"I'm beginning to have those nagging doubts again\" flattens the mock-heroic register the analysis identifies as the source of the humor. \"Nagging\" is colloquial, and the tragic, theatrical weight of \"терзают\" (torment, haunt) is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Медальон\" is a locket or medallion, but the candidate renders it as \"a medal,\" which changes the object. The reference correctly keeps the medallion."
+          "justification": "The candidate's conversational phrasing ('I'm beginning to have those nagging doubts again') weakens the mock-heroic, high-register tone that the analysis identifies as the source of the humor. The items-and-medal payoff still works, so the damage is limited."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly requires that the translation make clear Bunsha is introducing himself as the Tsar, not addressing one. The candidate repeatedly uses \"Your Majesty\" as the form of address in every line, so it reads as Bunsha greeting a Tsar, which contradicts the analysis and removes the central comic misidentification."
+          "justification": "The analysis states that Bunsha is introducing himself as the Tsar and not addressing one. The candidate's repeated 'Your Majesty' reads as Bunsha greeting a royal, and the self-introduction is lost. This removes the impersonation joke that the item depends on."
         }
       ]
     },
@@ -106,14 +100,7 @@
         "language_specific": {}
       },
       "candidate": "They've walled me in!\nThe demons have walled me in!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source's stammering repetition (\"Замуровали… замуровали, демоны\") and the demons as a late, appositive reveal are restructured into two declarative exclamations. The candidate's second line restates the first rather than building to the reveal, which weakens the rhythm and the mystical-misunderstanding punch. The demons-as-subject reading required by the analysis is correctly preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -153,7 +140,14 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source 'Танцуют все!' is declarative, a description of everyone dancing. The candidate turns it into an imperative 'Everybody dance!'. The party-leading effect still comes through, so this is a small shift in speech act rather than a loss of the joke."
+        }
+      ]
     },
     {
       "id": 8,
@@ -173,14 +167,7 @@
         }
       },
       "candidate": "Well, this is my lucky day!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Удачно зашел\" is a casual 'dropped in at the right moment' phrase that carries the visiting/entering nuance the analysis emphasizes. \"This is my lucky day\" captures the cheerful tone and avoids implying he is leaving, but it drops the entering/visiting sense and the light wordplay of the reference's \"good call.\""
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -225,7 +212,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis states that the joke depends on Shpak forgetting to increment the suede-jacket count at first, and that this lapse is what makes the joke funny. The source models this with \"куртка… замшевая… Три,\" a self-correcting stutter. The candidate lists \"three suede jackets\" as a clean, consistent item, so the miscount and the comic betrayal are removed."
+          "justification": "The analysis says the humor comes from Shpak forgetting to increment the suede jacket count at first and then correcting himself. The source reproduces this with 'куртка… замшевая… Три'. The candidate states 'three suede jackets' flatly and drops the stumble and the final 'Three', so the joke's mechanism is lost."
         }
       ]
     },
@@ -247,7 +234,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes Ulyana's melodic, calm resignation. The source's trailing ellipses (\"…\") are replaced by exclamation marks, which turns the resignation into urgency or alarm and loses the lulling, fatalistic cadence."
+          "justification": "The source's ellipses create a calm, melodic resignation, which the analysis highlights. The candidate replaces them with exclamation marks, which make the delivery excited or alarmed instead of resigned. The words and meaning are preserved."
         }
       ]
     }
@@ -255,13 +242,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 5
+      "minor": 3
     },
-    "total_points": 15,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

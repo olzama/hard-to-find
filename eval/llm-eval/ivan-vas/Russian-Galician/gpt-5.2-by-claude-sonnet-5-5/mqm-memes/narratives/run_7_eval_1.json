@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB explicitly warns against 'Shpak has / the ambassador has'. The candidate says 'Shpak ten un magnetófono, o embaixador un medallón', which states possession and reverses the meaning: the items were lost or stolen."
+          "justification": "The NB is violated: 'Shpak ten un magnetófono, o embaixador un medallón' says they possess the items, whereas the source means each lost his item. The link to the theft suspicion is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Dúbidas vagas' and 'roen' render the doubts, but the mock-heroic theatrical register of 'терзают смутные сомнения' is weakened compared with the reference's elevated 'asáltanme escuras sospeitas'."
+          "justification": "'Outra vez me roen dúbidas vagas' is plain and loses the mock-heroic theatrical register of 'terzan escuras sospeitas'; the inverted, elevated phrasing is weaker."
         }
       ]
     },
@@ -44,7 +44,20 @@
         "language_specific": {}
       },
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate reads as addressing a Tsar ('Moito gusto, tsar!', 'Ola, tsar!') rather than introducing himself as the Tsar, contradicting the NB."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate does not make the greeting sound like a drunken Soviet formal cliché; the mundane politeness is retained but the absurdity of self-introduction is lost."
+        }
+      ]
     },
     {
       "id": 3,
@@ -79,7 +92,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is plain and modern. It loses the archaic, high-register melancholy of 'я в печали', which the reference keeps with 'aflixido'. The regal contrast is weakened."
+          "justification": "'estou triste' is flat and colloquial; it loses the high-register, archaic regal melancholy ('estou aflixido') that contrasts with the Soviet setting."
         }
       ]
     },
@@ -101,7 +114,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires 'demons' to be the subject. 'Emparedáronme, demoños!' reads as a vocative, with the Tsar addressing the demons, which is the error the NB warns against. 'Demoños' is also a diminutive or mild register that does not suit the Tsar's solemn tone."
+          "justification": "'Emparedáronme, demoños!' reads as addressing the demons (vocative), contradicting the NB that demons must be the subject. 'Demoños' is also a mild, comic form that weakens the archaic tone."
         }
       ]
     },
@@ -133,7 +146,14 @@
         "language_specific": {}
       },
       "candidate": "Que baile todo o mundo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Que baile todo o mundo!' is correct but less like a punchy imperative shout from a party leader than 'Todos a bailar!'."
+        }
+      ]
     },
     {
       "id": 8,
@@ -153,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Cheguei no momento xusto' says he arrived at the right moment. This loses the sense of discovering a lucky place full of goods, which is the point of the line. 'Vaia' is acceptable, but the content is changed."
+          "justification": "'cheguei no momento xusto' changes the meaning to arriving at the right time, losing the sense of finding a lucrative, goods-filled place; it also lacks the cheerful burglar's remark on the apartment's wealth."
         }
       ]
     },
@@ -175,7 +195,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says eggplant spread must not be called 'caviar'. The candidate writes 'Caviar de ultramar... De berenxena!', so the eggplant spread is called caviar. This confuses viewers and loses the joke of the humble spread presented as an overseas delicacy."
+          "justification": "The candidate calls the eggplant spread 'Caviar de ultramar... De berenxena', which violates the NB against calling eggplant spread caviar and confuses the viewer; the inversion of status symbols is muddied."
         }
       ]
     },
@@ -195,15 +215,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Numerals ('3') in the first three items are less natural in spoken subtitles. The structure keeps the joke of the suede jacket count coming last."
-        },
-        {
-          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Camurza' is a less standard word than 'ante' for suede. The singular 'chaqueta de camurza, tres' is acceptable, but the pause marker '…' that shows his hesitation is lost."
+          "justification": "The jacket is given without the 'unha' and the hesitation ('... de ante ...') that shows him forgetting to increment the count; the candidate's 'tres' after it still partially works but the comic slip is weaker."
         }
       ]
     },
@@ -223,29 +237,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds 'tamén' to the first clause ('E a ti tamén'), which removes the progression from 'и тебя' to 'и тебя тоже'. The repetition loses the melodic build-up of the original."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The future 'curarán' sounds more factual and less like the calm, resigned reassurance conveyed by the reference's 'van curar' construction."
+          "justification": "The repeated 'tamén' on the first line and the identical lines lose the progression of the reference (first 'te' alone, then 'tamén', then 'a min'), weakening the melodic, resigned build-up."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 5,
       "minor": 6
     },
-    "total_points": 26,
+    "total_points": 31,
     "meaning_units": 11,
-    "penalty_per_unit": 2.3636363636363638,
-    "major_equiv_per_unit": 0.4727272727272728,
-    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.8181818181818183,
+    "major_equiv_per_unit": 0.5636363636363637,
+    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

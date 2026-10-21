@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the addressee 'Guys' (Ребята) and shifts 'should have been' to 'should be', losing the counterfactual regret that the analysis's 'thought he dodged a bullet' reading depends on. The joke itself ('Get drunk and you will be!') survives."
+          "justification": "The opening address 'Guys' is dropped, and 'should have been' is flattened to 'should be', which weakens the regretful counterfactual of the source."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is flat and literal. The analysis stresses the bouncing rhythm that makes the admission lighthearted, and the language note calls a literal version without comic effect insufficient. 'I'm afraid...' carries the meaning but not the rhythm or the endearing tone."
+          "justification": "The candidate is flat and literal. It drops the bouncy, lighthearted rhythm the analysis identifies as the source of the endearing effect, and 'I'm afraid' reads more plainly than the playful original."
         }
       ]
     },
@@ -85,7 +85,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first form of address, 'Lady' (Леди), from the list, and adds an unmotivated 'You know,' at the start. The list rhythm and the mashup of loanwords are still intact, so the effect is only slightly weakened."
+          "justification": "The initial 'Леди' ('Lady') is omitted, and 'nothing doing' drops the innuendo of 'ничего не выйдет' that the reference keeps as 'nothing's going to happen'."
         }
       ]
     },
@@ -137,7 +137,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mind you don't mix it up!' is standard English, so Lyolik's non-standard, uneducated speech marked in the analysis is largely lost. 'Kiddies' and 'missus' carry some colloquial flavor, but the source's dialect markers ('нэ пэрэпутай') are not reflected."
+          "justification": "Lyolik's non-standard, uneducated speech ('Смотры, нэ пэрэпутай!') is rendered as standard English 'Mind you don't mix it up!', so the character voice the analysis emphasizes is largely lost."
         }
       ]
     },
@@ -161,16 +161,10 @@
       "candidate": "As our dear boss says,\non someone else's tab even teetotalers drink\nand ulcer sufferers.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis calls for a balanced, proverbial rhythm, and the language note says at least one creative solution must be present. The candidate has no rhythmic parallelism; 'even teetotalers drink / and ulcer sufferers' is a literal rendering that fails both requirements, so it contradicts the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'And ulcer sufferers' is a literal, awkward rendering of 'язвенники' that dangles at the end of the line. Without a noun to complete the parallel with 'teetotalers', the phrasing reads as unclear."
+          "justification": "The candidate has no rhythm or creative solution. The balanced, proverbial 'law of nature' feel of the trezvenniki/yazvenniki pairing is gone, and the analysis explicitly requires at least some creative solution here."
         }
       ]
     },
@@ -237,7 +231,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes a melodic, elongated sigh of disappointment. The candidate 'Semyon Semyonovich...' only suggests the weary tone through the trailing ellipsis and loses the stretched vowel of 'Semyo-o-on' that makes the facepalm effect."
+          "justification": "The elongated, drawn-out sigh of 'Семё-он' is lost, and the colloquial short patronymic 'Семёныч' is replaced by the formal 'Semyonovich', which shifts the exasperated familiarity of the address."
         }
       ]
     },
@@ -274,7 +268,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis describes frantic urgency. The candidate ends on an ellipsis, which trails off and softens the command to 'hurry', where the reference's exclamation keeps the rushed, gibberish energy."
+          "justification": "The trailing ellipsis replaces the exclamation of the source, which deflates the frantic urgency the analysis describes as the point of the chant."
         }
       ]
     },
@@ -336,14 +330,7 @@
         "language_specific": {}
       },
       "candidate": "Whoever buys a stack of tickets wins...\nA water tower!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The source's rhythmic rhyme (пачку / водокачку) is the basis of the upbeat slogan and the anticlimax. The candidate's prose 'Whoever buys a stack of tickets wins...' drops the rhythm, though 'A water tower!' keeps the mocking punchline."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 19,
@@ -393,7 +380,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis identifies Gena's affected pronunciation of 'coffee' as the marker of his pretentious voice. The candidate normalizes 'coffee', though 'baaath' and 'little cup' partly keep the affectation, so the character effect is weakened rather than lost."
+          "justification": "The affected pronunciation marker of 'кофэ' (rendered in the reference as 'coff-ey') is lost, so the candidate's 'coffee' does not signal Gena's pretentious airs as the analysis specifies. The stretched 'baaath' only partly compensates."
         }
       ]
     },
@@ -430,14 +417,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 9
+      "major": 0,
+      "minor": 8
     },
-    "total_points": 14,
+    "total_points": 8,
     "meaning_units": 23,
-    "penalty_per_unit": 0.6086956521739131,
-    "major_equiv_per_unit": 0.12173913043478261,
-    "interpretation": "0.61 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.34782608695652173,
+    "major_equiv_per_unit": 0.06956521739130435,
+    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

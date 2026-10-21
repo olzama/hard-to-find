@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" and \"raise one within our own collective\" keep the workplace logic, but \"raise\" is more parental than the managerial 'cultivate/train' sense, and 'collective' is a slightly foreign Sovietism. The staffing-matter deadpan is still largely preserved."
+          "justification": "\"Raise one\" and \"hire\" keep the staffing/workplace logic and the \"collective\" gives the Soviet social flavor. However, \"raise\" leans slightly toward child-rearing and the line is a bit more fairy-tale-like than the reference's \"train in-house\". The effect is only slightly weakened."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"A little forty minutes\" is awkward English; it does convey faux-modesty, but the diminutive is attached to the duration rather than to the briefness claim, and the closing \"I think that's enough\" is stilted and weakens the smug managerial tone."
+          "justification": "\"A little forty minutes\" is awkward English; the diminutive faux-modesty of «коротенько» is carried by \"just briefly, a little\", but the phrasing is clumsy and the ending \"I think that's enough\" is less smooth. The briefness-before-duration order is preserved and the joke still lands."
         }
       ]
     },
@@ -77,10 +77,10 @@
       "candidate": "Is the lecturer primed?\nPrimed and ready, been primed for ages!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Primed\" can suggest being 'primed' with drink and keeps the administrative surface, so the double sense is partially recreated. However, it is a much weaker and less recognizable hint of intoxication than 'ready/done for', so the drunk subtext may be missed by many viewers."
+          "justification": "\"Primed\" does not carry the intoxication reading of «готов». It means prepared, perhaps prepped for action, and has no clear drunk connotation in English. The double sense (official readiness on the surface, drunkenness underneath) is lost, so the joke disappears."
         }
       ]
     },
@@ -122,7 +122,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Fully clothed eye\" is a mistranslation that does not echo \"unaided/naked eye\" in a mock-scientific way. It invents a different joke (a play on 'naked'), loses the idea of a pseudo-upgraded scholarly idiom related to the telescope, and contradicts the analysis's goal of a slightly wrong but scientific-sounding phrase."
+          "justification": "\"Fully clothed eye\" is a mistranslation. It invents a nonsensical image that inverts \"naked eye\" instead of echoing \"unaided/naked eye\" as an upgraded mock-scientific idiom. The lecturer no longer sounds like he is pompously becoming more precise, and the malformed-idiom joke is lost. The sentence also ends on a comma, which weakens the trailing exclamatory delivery."
         }
       ]
     },
@@ -144,7 +144,14 @@
         }
       },
       "candidate": "and already we see two\nlittle stars, three little stars...\nFour little stars... The best, of course,\nis five-star!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The silly counting build-up and the sudden \"five-star\" punchline are preserved, and \"five-star\" can evoke cognac. However, the cognac association is not signaled, and \"five-star\" in English reads more as hotel or rating, so the shift into the drinking frame is weaker for the target audience."
+        }
+      ]
     },
     {
       "id": 8,
@@ -159,26 +166,19 @@
         "language_specific": {}
       },
       "candidate": "Is there life on Mars, is there no\nlife on Mars - science\nhas no idea.\nScience just isn't in the loop yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Is there no life on Mars\" is a bit clumsy, and \"science has no idea\" is slightly more flippant than the reference's 'unknown to science'. \"Isn't in the loop yet\" does keep the casual register and personification of science, so the core effect is preserved."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 4
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 9,
+    "total_points": 13,
     "meaning_units": 8,
-    "penalty_per_unit": 1.125,
-    "major_equiv_per_unit": 0.225,
-    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.625,
+    "major_equiv_per_unit": 0.325,
+    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

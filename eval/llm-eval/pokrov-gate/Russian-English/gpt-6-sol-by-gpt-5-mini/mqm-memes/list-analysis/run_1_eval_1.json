@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "how about\na little drink?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate captures the casual, ironic invitation to drink, but the line break and all-lowercase initial word ('how about') read as nonstandard punctuation/casing for subtitle style and slightly weakens register."
+        }
+      ]
     },
     {
       "id": 3,
@@ -51,7 +58,14 @@
         }
       },
       "candidate": "Such noble... noble relations!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the sarcastic appraisal but drops the comic stutter/elongation and the sharper ironic register of the original ('Выс-с-сокие' / 'e-v-volved'), making the line less characterful and less of the film's recurring mocking refrain."
+        }
+      ]
     },
     {
       "id": 4,
@@ -66,14 +80,7 @@
         "language_specific": {}
       },
       "candidate": "You don't live for pleasure.\nYou live to do what's right.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the maxim's pragmatic meaning but softens the militaristic fatalism of the original by using \"do what's right\" instead of the starker, duty-focused \"do your duty.\" This slightly weakens the soldierly register described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -111,9 +118,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"You chef!\" is a literal, non-idiomatic rendering that sounds unnatural in English and loses the sharp, idiomatic bite of the reference (\"Some cook you are!\"). This harms fluency and the intended comic insult."
+          "justification": "‘You chef!’ is unnatural in English and reads as an awkward literalism; it fails to reproduce the biting, idiomatic insult achieved by the reference ('Some cook you are!')."
         }
       ]
     },
@@ -187,10 +194,10 @@
       "candidate": "He's my cross to bear!\nAnd I must bear it.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the referent by saying \"He's my cross to bear,\" implying a person is the \"cross,\" whereas the original and reference present the burden/role itself as the speaker's cross. This shifts the meaning and weakens the manipulative self-sacrificial framing central to the line."
+          "justification": "The candidate conveys the idiom but shifts the grammatical focus by making Khobotov explicitly 'the cross' ('He's my cross to bear'), which slightly changes the nuance from a stated burden/mission to labeling the person as the burden. The manipulative tone is retained, but the shift is a subtle alteration of focus."
         }
       ]
     },
@@ -217,14 +224,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 0,
+      "minor": 4
     },
-    "total_points": 7,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

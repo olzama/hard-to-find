@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning but flattens the heightened, self-dramatic theatricality emphasized in the analysis. \"Name one! No, I'm waiting.\" is more colloquial and less pompous than the reference's performative \"Pray, tell me... I'll wait!\", weakening the character's ostentatious self-presentation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a literal noun phrase \"Lofty... lofty relations,\" which the analysis warns against. It reads less like the sarcastic exclamatory refrain in natural English and more like a direct noun phrase, losing some of the idiomatic bite and performative stutter of the reference."
+          "justification": "Using the literal noun 'relations' produces an awkward, non‑idiomatic exclamation in English and weakens the sarcastic refrain effect the analysis emphasizes. A more natural exclamatory phrasing would better match the film's ironic register."
         }
       ]
     },
@@ -78,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"People don't live for joy, but for conscience.\" conveys the basic idea but sounds slightly awkward and stilted in English. Phrases like \"live for conscience\" are unnatural compared with the idiomatic force of the reference and so soften the soldierly bluntness described in the analysis."
+          "justification": "The phrasing 'People don't live for joy, but for conscience' is somewhat stiff and literal in English. It preserves the meaning but loses a bit of the blunt, idiomatic soldierly tone of the reference ('You don't live to be happy…')."
         }
       ]
     },
@@ -97,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "Note: I didn't suggest it.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is accurate but more prosaic. \"Note: I didn't suggest it.\" lacks the slightly defensive, performative flourish of the reference's idiom \"For the record: I am not the one who suggested it!\", which better captures the character's charmingly evasive pose."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -121,10 +107,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate \"Culinary genius!\" converts a bitter, sarcastic rebuke into apparent praise. The source's comic insult (mocking ability as a cook) becomes an affirmative compliment, which reverses the intended tone and comedic effect."
+          "justification": "The candidate 'Culinary genius!' is idiomatic but shifts the line toward ironic praise rather than the sharp, dismissive domestic insult conveyed by the reference. It works but softens the original's biting imperativeness."
         }
       ]
     },
@@ -141,14 +127,7 @@
         "language_specific": {}
       },
       "candidate": "Natürlich, Margarita Pavlovna.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate correctly preserves the German word (maintaining the film's linguistic quirk) but adds the address \"Margarita Pavlovna,\" which is not present in the source. This extra element is unnecessary and slightly alters the original's brevity and timing."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -165,10 +144,10 @@
       "candidate": "Cut it out to hell.\nBefore peritonitis sets in.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The two-line split and phrasing \"Cut it out to hell.\" is awkward English. While the violent imperative and the peritonitis warning are present, the first line's construction is unidiomatic and slightly obscures the abrupt surgical bluntness emphasized in the analysis."
+          "justification": "The candidate 'Cut it out to hell.' is unidiomatic and obscures the original blunt surgical imperative. The intended forceful 'Cut it the hell out, don't wait for peritonitis!' is lost in awkward wording and line break, reducing the sharp medical farce effect."
         }
       ]
     },
@@ -190,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate transliterates the name as \"Khabotov\" rather than the standard or expected \"Khobotov.\" This is a small but noticeable deviation in a repeated character name and may alter intended pronunciation."
+          "justification": "The candidate spells the name as 'Khabotov' instead of the established transliteration 'Khobotov' used in the reference. This is a small accuracy/consistency issue with the character's name."
         }
       ]
     },
@@ -212,7 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds extra content not present in the source (\"You'll still meet someone handier—and fresher.\"), altering the manipulative theatrics and introducing new semantic material. Additionally, it renders the idiom literally as \"This is my cross!\" rather than preserving the English fixed idiom \"a cross to bear,\" which the analysis specifically warns against. These changes materially distort both idiomatic meaning and dramatic effect."
+          "justification": "The candidate literalizes and splits the idiom ('This is my cross! And I must bear it') and then adds an extra sentence about the listener meeting 'someone handier—and fresher.' This addition alters the manipulative focus and rhythm of the original, undermining the concentrated melodramatic self‑sacrifice central to the analysis."
         }
       ]
     },
@@ -235,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 7
+      "minor": 4
     },
-    "total_points": 17,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

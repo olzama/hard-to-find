@@ -41,7 +41,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses vocative 'tsar!' and 'hello, tsar!', which reads as Bunsha addressing a tsar. The analysis states that the translation must make clear he is introducing himself as the Tsar. The reference's 'I'm the Tsar' and 'Hello, the Tsar' are not matched, and the candidate also reorders the source's greeting-first structure."
+          "justification": "The analysis requires that the lines read as Bunsha introducing himself as the Tsar, not addressing a Tsar. The candidate's lowercase 'tsar!' vocatives with no self-identification ('I'm the Tsar') read as greetings to a Tsar, which contradicts that essential point."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Very pleased, hello, tsar!' is a clumsy stacking of the greeting and the pleasantry, and the lines are reordered from the source, which weakens the rhythm of the repetitive social cliché."
         }
       ]
     },
@@ -63,14 +69,7 @@
         }
       },
       "candidate": "I demand the banquet go on!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Go on' is colloquial and weakens the formal, imperious royal demand that the analysis describes. 'Continue' or 'carry on' would better match the power-hungry persona."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -105,7 +104,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The pronoun 'us' is added. The source has no first-person object, and the reference uses 'me'. The choice is defensible if Bunsha is in the elevator, but it shifts the scope of the statement without support in the source."
+          "justification": "The source 'Замуровали… замуровали' has no pronoun. The candidate's 'us' adds a specific object, changing who is trapped, while the reference keeps 'me'. The meaning is still close enough that this is a small deviation."
         }
       ]
     },
@@ -132,7 +131,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's the power of...' is more conversational than the source's 'Вот что ... делает!', which carries a solemn, archaic, miraculous-declaration register. 'Behold the power of...' would preserve that tone."
+          "justification": "'That's the power of the life-giving cross!' is more colloquial than the source's solemn exclamation, so it loses the Tsar's archaic, grandiose register that the analysis emphasizes. The religious miracle is still conveyed."
         }
       ]
     },
@@ -196,10 +195,10 @@
       "candidate": "Black caviar, red...\nYes! And overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
-          "category": "terminology",
+          "severity": "minor",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Overseas caviar... Eggplant!' presents the eggplant spread as caviar, which the analysis explicitly forbids because it will confuse viewers. The reference correctly uses 'overseas spread'. The joke's bait-and-switch relies on the audience recognizing the spread as a cheap substitute, and the candidate blurs that."
+          "justification": "The analysis says eggplant spread should not be called 'caviar' because it will confuse viewers. The candidate's 'overseas caviar' does call it caviar, though the 'Eggplant!' punchline still lands and the status inversion survives."
         }
       ]
     },
@@ -226,7 +225,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source's singular 'куртка' followed by the final 'Три' sets up the joke that Shpak claims three jackets while reporting one. The candidate's 'suede jackets, three.' makes the jackets plural, so the discrepancy the analysis identifies as the punchline is lost. The candidate also changes the count format mid-list ('3' numerals then 'three'), which weakens the list rhythm."
+          "justification": "The analysis identifies the forgotten increment of the suede jacket count as the core of the gag. The candidate's plural 'suede jackets, three' reads as three jackets, which removes the mismatch that betrays Shpak's exaggeration. The source's singular 'куртка' followed by the count 'Три' is not preserved."
         }
       ]
     },
@@ -246,29 +245,29 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "All three lines end in exclamation marks, while the source uses trailing ellipses. This changes the calm, melodic resignation described in the analysis into an excited, hysterical delivery."
+          "justification": "The first line 'They'll cure you too!' adds 'too', which is not in the source 'И тебя вылечат'. The source's 'тоже' appears only in the second line."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Too' is added to the first line, where the source ('И тебя вылечат') has no 'тоже'. The source places 'тоже' only in the second line, so the added word slightly alters the structure of the repetition."
+          "justification": "The source's ellipses and melodic, calm resignation become exclamation marks throughout, which shifts the tone toward agitation and hysteria rather than the calm resignation described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 2,
+      "minor": 6
     },
-    "total_points": 20,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

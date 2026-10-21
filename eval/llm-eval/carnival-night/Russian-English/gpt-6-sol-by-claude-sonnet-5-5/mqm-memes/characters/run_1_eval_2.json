@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" keeps the fairy-tale name, which is less accessible to English viewers and leans toward the fantastical, whereas the analysis stresses the workplace/social type. \"Develop one from within our own collective\" does keep the staffing logic and bureaucratic tone, so the effect is only slightly weakened."
+          "justification": "\"Develop one from within our own collective\" keeps the workplace logic, but \"collective\" is a Sovietism that is less natural in English than \"in-house\", and \"Baba Yaga\" is left as an untranslated folkloric name, which tilts the line toward the fairy-tale side and weakens the toxic-colleague association."
         }
       ]
     },
@@ -58,13 +58,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key joke is the faux-modest \"briefly\" (коротенько) placed before \"forty minutes\". The candidate drops the briefness claim in that form and says \"short address\" only after a dangling \"And gives\", then states the duration. The comic reversal and the smug understatement are weakened, and the opening \"And gives a short address\" is a fragment that doesn't read as Ogurtsov's own line."
+          "justification": "The key joke is the faux-modest \"коротенько\" followed by \"forty minutes\". The candidate says \"a short address\", which is flat, and puts \"short\" in a separate line that begins with the unclear \"And gives\". The patronizing, self-satisfied managerial tone is lost, so the comic reversal is weak."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"longer would be unnecessary\" is stiffer than the casual \"I don't think we need more\", losing the self-satisfied managerial tone's naturalness."
+          "justification": "\"And gives a short address\" starts mid-sentence, and \"longer would be unnecessary\" is stiffly formal instead of Ogurtsov's casual \"I think we don't need more\"."
         }
       ]
     },
@@ -83,10 +83,10 @@
       "candidate": "Is the lecturer ready?\nHe's ready. Has been for ages!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The English keeps the double reading of \"ready\" (official readiness vs. drunk) only implicitly. The \"Has been for ages\" element conveys the long-standing state, but nothing cues the drunk subtext, so the alcoholic joke relies on the visuals. This is the same level as the reference, which also relies on the ambiguity, but the reference's \"Oh, he's ready\" adds a knowing tone that is missing here."
+          "justification": "The \"ready\" = \"drunk\" double meaning is the whole joke. The candidate offers a plain \"He's ready. Has been for ages!\" with no sign of intoxication, so the alcoholic subtext is not recreated and the joke is largely lost. The emphatic \"Has been for ages\" hints at it only weakly."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The clean \"People!\" loses the stretched, broken vocalization (\"Peo-ple!\") that signals drunken instability. \"Ah... Yoo-hoo!\" does preserve the wavering call, so the loss is only partial."
+          "justification": "\"People!\" is delivered as a clean word, with no stretched or broken vocalization like \"Peo-ple!\". The drunken instability is only partly kept through \"Ah... Yoo-hoo!\", which is a good equivalent of \"ау-у\" but leaves the first word too normalized."
         }
       ]
     },
@@ -135,13 +135,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Instrumented eye\" is an unrecognizable phrase that doesn't echo \"unaided eye\", so the malformed idiom (the central joke) isn't recognizable in English. It sounds technical rather than like a mock-scientific distortion of a familiar expression."
+          "justification": "\"Instrumented eye\" does not echo a familiar idiom such as \"unaided eye\", so the malformed-idiom effect is lost. It sounds like a technical term and not like a drunken, mock-scientific distortion. The pompous-collapsing-into-nonsense joke does not work."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "\"But once we take a telescope... and look\" drops the emphatic \"all we have to do\" and the exclamatory pomp, leaving the lecturer's rhetorical build-up flatter."
+          "justification": "The utterance ends on a comma after \"eye\", and the line breaks lose the emphatic exclamatory rhythm of the source."
         }
       ]
     },
@@ -168,7 +168,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate has no note for the five-star cognac association, which the analysis says may be needed. The sequence \"Four little stars. Best of all...\" also breaks the counting rhythm slightly, but the childish counting and the sudden pivot to \"five little stars\" still work."
+          "justification": "The counting progression and the \"five stars\" punchline are kept, but there is no cue (such as a note) linking \"five stars\" to cognac, so the sudden click into another semantic world is not obvious to English viewers. The analysis flags this need."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Little stars\" sounds childish and slightly silly, which fits the trivial counting, but it makes the cognac connection less evident than in the reference's plain \"stars\"."
         }
       ]
     },
@@ -190,21 +196,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Whether there's life on Mars or no life on Mars\" keeps the loose, colloquial phrasing of the original and \"isn't up to speed yet\" matches the casual register. The only loss is that \"science doesn't know\" is plainer than \"unknown to science\", slightly reducing the personified mock-formality."
+          "justification": "The casual register of \"Science isn't up to speed yet\" is kept, and \"or no life on Mars\" mirrors the source. However, \"science doesn't know\" is flatter than \"unknown to science\", and the slightly clumsy opening phrasing reduces the lecture-style parody a little."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 7
     },
-    "total_points": 17,
+    "total_points": 22,
     "meaning_units": 8,
-    "penalty_per_unit": 2.125,
-    "major_equiv_per_unit": 0.425,
-    "interpretation": "2.12 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.75,
+    "major_equiv_per_unit": 0.55,
+    "interpretation": "2.75 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

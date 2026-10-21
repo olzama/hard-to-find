@@ -46,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "Such lofty... lo-lo-lofty relations!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the stuttering sarcasm, but uses the plural noun 'relations', which reads slightly less natural and less idiomatically exclamatory in English than the reference's phrasing ('relationship' / exclamatory phrase). The effect is mostly preserved but the register is a bit awkward."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -71,9 +64,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "Replacing 'duty' or 'to be happy' with 'conscience' shifts the register and nuance: 'live for conscience' is an odd English formulation and weakens the soldierly, duty-focused fatalism described in the analysis."
+          "justification": "“People don’t live for joy—they live for conscience” preserves the literal words but sounds slightly awkward and less idiomatic than the reference. The target-language phrasing weakens the soldierly fatalism and pragmatic moral framing (\"duty\"/\"to do your duty\") emphasized in the analysis."
         }
       ]
     },
@@ -107,10 +100,10 @@
       "candidate": "Chef!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The single-word 'Chef!' mirrors the literal noun the guidance warned against. It fails to reproduce the sarcastic, scolding home-insult register of the original (e.g., 'Some cook you are!'), making the line sound unnatural and flat in this comedic context."
+          "justification": "Rendering the exclamation as the single word “Chef!” turns the line into a literal vocational label and loses the ironic, scolding punch of the original. The comic effect depends on using a professional term as a stinging domestic insult (e.g. “Some cook you are!”); the candidate's literal choice fails to reproduce that effect."
         }
       ]
     },
@@ -147,7 +140,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The first clause 'Cut it out to hell.' has awkward word order and phrasing compared with the idiomatic, forceful 'Cut it the hell out' in the reference. The second line preserves meaning, but the first line reads clumsy and reduces the abrupt, brusque comic surgical verdict."
+          "justification": "“Cut it out to hell” is awkward and unidiomatic in English. The intended brusque surgical verdict and sharp contrast with the character's complaints is present, but the phrasing disrupts natural flow and register compared with a more idiomatic imperative."
         }
       ]
     },
@@ -164,14 +157,7 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that's petty!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The character name is mistransliterated: source and reference use 'Khobotov' (K-h-o-), while the candidate renders 'Khabotov' (introducing an extra 'a'), which misidentifies the character and harms clarity and continuity."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -191,7 +177,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the referent by saying 'He's my cross!' which makes the person (Hobotov) into the burden, instead of expressing the speaker's claim that the situation/person is her burden to bear. This reverses the intended manipulative self-victimizing meaning described in the analysis."
+          "justification": "The candidate renders the line as “He’s my cross!” which literalizes the noun and shifts the idiomatic burden onto a person. The analysis warns against a literal translation; the line should evoke the idiom of a burden to be borne (e.g. \"a cross to bear\" / \"This is my cross to bear\"), preserving the manipulative self-sacrificing tone. The candidate misfires on that key idiomatic and pragmatic effect."
         }
       ]
     },
@@ -213,7 +199,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering 'угловатая' as 'angular' repeats the literal translation the analysis warned against—'angular' sounds awkward and overly literal in this self-deprecatory, coquettish context. The rest conveys the idea, but the lexical choice weakens the naturalness and comedic tone."
+          "justification": "Using “angular” echoes the Russian word too literally; the analysis specifically warns against translating «угловатая» as \"angular.\" The phrasing therefore sounds somewhat unnatural and weakens the playful, coquettish self-portrait the line should convey."
         }
       ]
     }
@@ -221,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 5
+      "minor": 3
     },
-    "total_points": 15,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

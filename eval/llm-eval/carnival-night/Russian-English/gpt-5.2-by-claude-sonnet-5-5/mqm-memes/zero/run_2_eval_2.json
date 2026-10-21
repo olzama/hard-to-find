@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hiring\" and \"raise one\" keep the staffing/upbringing logic, but \"raise\" is a bit fairy-tale/parental and less managerial than \"train in-house\"; the workplace-type social joke is slightly weakened, though \"within our collective\" retains the Soviet feel."
+          "justification": "\"Raise one\" and \"hiring\" keep the workplace logic, but \"raise\" leans toward child-rearing or animal-rearing rather than staffing/training, and \"within our collective\" sounds more Soviet-literal than natural. The deadpan staffing tone is slightly weaker than \"train one in-house\"."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is lower-case and ends with \"no more, I think that's enough,\" which flattens the joke: \"forty minutes\" is no longer a punchline. It drops the faux-modest, diminutive sense of «коротенько» (\"just a short one\"), so the contrast between claimed briefness and the long duration is weakened."
+          "justification": "The faux-modest diminutive \"коротенько\" is rendered as a flat \"briefly\". The \"forty minutes, no more\" phrasing and \"that's enough\" keep the smug tone, but the cozy faux-modesty that makes the contrast land is not recreated, so the comic reversal is weakened."
         }
       ]
     },
@@ -93,10 +93,10 @@
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—ready a long time ago!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives only the literal \"ready,\" with \"ready a long time ago,\" and has no cue for the \"drunk\" sense of «готов». The double meaning that the analysis says is the core of the joke is lost; the exclamatory phrasing does not suggest intoxication, and the English reads as plain readiness."
+          "justification": "\"Ready a long time ago\" keeps the surface meaning and the \"for a long time\" emphasis, and the exclamation hints at the double sense. But nothing signals the drunk reading (no \"he's been ready for quite a while\" knowing tone), so the ambiguity is only faintly preserved."
         }
       ]
     },
@@ -122,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, drunken vocalization is only partly kept. \"People!..\" is a clean word, not stretched or faltering like \"Peo-ple!\", and \"Ah-oo!\" is a weak equivalent of «ау-у», though the ellipses do give some instability."
+          "justification": "The broken, faltering vocalization is only partly kept. \"People!..\" is written as a clean word, with no stretching like \"Peo-ple\", and \"Ah-oo\" is weaker than a wavering \"hellooo\". The drunken instability is reduced."
         }
       ]
     },
@@ -151,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis says to avoid: it sounds more surreal than the Russian and does not echo \"unaided eye\", so the mock-scientific deformation of a familiar idiom is not recreated in English."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"It's enough for us to take a telescope\" is awkward and less natural than \"all we have to do is take a telescope\", and the line break leaves \"eye\" dangling."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It sounds surreal rather than echoing \"unaided eye\", so the mock-scientific malformed idiom is not recreated for English audiences."
         }
       ]
     },
@@ -184,9 +178,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Little stars\" captures the childish counting well, but \"five little stars\" loses the cognac association that makes the punchline click into a different domain. Without a note or cue such as \"five stars\", the derailment lands more weakly."
+          "justification": "The silly counting progression and the \"five little stars\" punchline are preserved. But \"little stars\" evokes a nursery rhyme and there is no cue connecting five stars to cognac, so the shift into a different semantic world is weaker for viewers without the cultural reference."
         }
       ]
     },
@@ -212,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content is accurate, but \"science does not know\" and \"Science is not yet informed\" sound more formal and stiff than the colloquial «не в курсе дела» (\"isn't up to speed\"). The casual register of the punchline is weakened. \"Is there no life on Mars\" is also slightly awkward."
+          "justification": "The content is right and \"science is not yet informed\" keeps the personification. But \"does not know\" and \"informed\" are slightly more formal than the colloquial \"isn't up to speed\", so the casual register mismatch is somewhat flattened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 5
     },
-    "total_points": 20,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

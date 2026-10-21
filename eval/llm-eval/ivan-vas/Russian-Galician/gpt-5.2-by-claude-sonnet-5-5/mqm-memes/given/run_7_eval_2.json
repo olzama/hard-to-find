@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "Boas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.\nBoas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The whole line is repeated twice within the same segment, which is not in the source. The repetition adds redundant text and clutters the subtitle. It does not alter the meaning or the joke."
+        }
+      ]
     },
     {
       "id": 3,
@@ -136,7 +143,14 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello… Si! Manxar de ultramar… de berenxena!\nBerenxena!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds an extra line, 'Berenxena!', that is not in the source. The core translation keeps eggplant distinct from caviar, as the NB requires, and the joke survives. The addition is superfluous and slightly disrupts the original rhythm."
+        }
+      ]
     },
     {
       "id": 10,
@@ -151,7 +165,14 @@
         "language_specific": {}
       },
       "candidate": "Tres magnetófonos, tres cámaras de cine, tres cigarreiras nacionais, unha chaqueta… de ante… tres.\ntres cigarreiras nacionais,\nchaqueta de ante: tres.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate appends extra lines ('tres cigarreiras nacionais, chaqueta de ante: tres.') that are not in the source. This repeats the list and states the jacket count as 'tres' at once. That undermines the joke, where Shpak forgets to increment the jacket count at first and gives it away. The comic beat of the hesitation and late 'tres' is spoiled."
+        }
+      ]
     },
     {
       "id": 11,
@@ -171,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 0
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 0,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.0,
-    "major_equiv_per_unit": 0.0,
-    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

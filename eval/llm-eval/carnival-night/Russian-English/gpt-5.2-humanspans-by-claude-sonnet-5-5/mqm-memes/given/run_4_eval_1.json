@@ -58,14 +58,7 @@
         }
       },
       "candidate": "And briefly, for about\nforty minutes—more, I think,\nisn’t necessary—",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The word 'briefly' is kept first, but the phrasing 'for about forty minutes—more, I think, isn't necessary' is stiffer and loses the faux-modest, self-satisfied tone of the reference. The aside 'I don't think we need any more than that' is also reworded in a way that makes the punchline less smooth."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -103,14 +96,7 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... Hoo-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Hoo-oo' keeps the broken, wavering vocalization and the stretched 'Peo-ple', but it reads less like a call to an audience than 'hellooo'. The drunken attempt to address a crowd is slightly weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -156,16 +142,16 @@
       "candidate": "we already see two little stars,\nthree little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting is restructured: 'Four little stars—best of all, of course, five little stars!' makes four stars part of the 'best of all' phrase and breaks the one-two-three-four buildup. The punchline then loses its sudden click into the cognac frame, which the analysis treats as the core of the joke."
+          "justification": "The line keeps the star countdown, but nothing signals the cognac association (no note or cue). English viewers will likely not feel the click from astronomy to drinking, so the punchline is weaker than the analysis requires."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'Little stars' sounds childish, which fits the silly counting. However, there is no cue (such as a note) for the five-star cognac association, so the shift into another semantic world may not register for English viewers."
+          "justification": "The sentence is split awkwardly: 'Four little stars—best of all, of course, five little stars!' makes the progression read as if four stars were the best. The build-up to the final 'five stars' is less clean than the count in the source."
         }
       ]
     },
@@ -186,26 +172,19 @@
         }
       },
       "candidate": "Is there life on Mars, is there not\nlife on Mars—science does not know.\nScience is not yet in the know.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Science is not yet in the know' keeps the colloquial register of 'не в курсе дела'. The first sentence, 'science does not know', is plainer than 'unknown to science', and the 'is there... is there not' structure is slightly awkward. The comic casualness is mostly preserved."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 4
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 9,
+    "total_points": 2,
     "meaning_units": 8,
-    "penalty_per_unit": 1.125,
-    "major_equiv_per_unit": 0.225,
-    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.25,
+    "major_equiv_per_unit": 0.05,
+    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

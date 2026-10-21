@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador still have the objects, but the line means they are missing/lost them. This reverses the intended meaning of the clue Bunsha is making."
+          "justification": "The candidate misses the key meaning in the note: it says Shpak and the ambassador still have the items, not that the items were merely present with them. The joke depends on the implication that they were stolen/lost, so the line becomes incorrect."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Volvenme roer dúbidas vagas\" is understandable, but it is less natural and less mock-heroic than the elevated, theatrical phrasing described in the analysis."
         }
       ]
     },
@@ -40,10 +46,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, ola, tsar!\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The translation preserves the repeated self-introduction, but 'Ola' and the punctuation make the greeting slightly less crisp and comic than the reference’s more awkwardly formal repetitive salutation."
+          "justification": "The candidate does not clearly show Bunsha introducing himself as the Tsar. Instead, the punctuation and wording can read as if he is addressing a tsar, which conflicts with the analysis and weakens the joke."
         }
       ]
     },
@@ -80,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' conveys the meaning, but it weakens the mock-archaic, dignified melancholy of 'que estou aflixido', which better matches Ivan’s regal tone."
+          "justification": "\"Estou triste\" is much flatter and more modern than \"que estou aflixido,\" so it slightly weakens the regal, archaic tone of the Tsar's line."
         }
       ]
     },
@@ -97,14 +103,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The doubled exclamation line is understandable, but the split format and added punctuation slightly dull the frantic, plaintive rhythm of the original cry."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -119,14 +118,7 @@
         "language_specific": {}
       },
       "candidate": "Velaí o que fai a cruz vivificante!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Velaí' is understandable, but it sounds a bit more colloquial and less solemn than the reference's 'Velaquí', which better suits the Tsar's elevated, pseudo-biblical register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -141,14 +133,7 @@
         "language_specific": {}
       },
       "candidate": "Que baile todo o mundo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Que baile todo o mundo!' preserves the sense, but it is less punchy and imperious than the imperative 'Todos a bailar!', which better matches the abrupt crowd-commanding energy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -168,7 +153,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Entrei no momento xusto!' suggests he entered at the right time, but the source is an exclamation of having landed in a fortunate place. It misses the sense of his pleased reaction to finding valuables and the idea that he has just come in."
+          "justification": "\"Entrei no momento xusto!\" reverses the perspective: it states that he entered at the right moment, but the idiomatic comic point is that he has landed in a lucky place/spot upon finding the goods. The result is less idiomatic and less precise."
         }
       ]
     },
@@ -190,7 +175,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops 'red caviar' and turns the final joke into 'caviar from overseas of eggplant', which obscures the satirical contrast. The reference specifically avoids calling the eggplant spread caviar, but still clearly identifies it."
+          "justification": "The candidate omits the crucial joke element that this is eggplant spread, not actual caviar. Since the analysis explicitly says not to call it caviar, the line loses the satirical punch about Soviet shortages."
         }
       ]
     },
@@ -212,7 +197,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The final count is wrong: the source lists the suede jacket as part of the inventory and then trails off at 'three', while the candidate leaves it singular and places 'tres' after the jacket, breaking the joke about the repeated count and the missing item's number."
+          "justification": "The list is not fully rendered: \"portсigaras\" becomes \"pitilleiras\" and the final count/chaqueta wording is awkward enough that the comedic buildup of repeated quantities is weakened. The missing repetition of \"tres\" on each listed item also disrupts the exact comic rhythm."
         }
       ]
     },
@@ -231,10 +216,10 @@
       "candidate": "E a ti tamén van curarte!\nE a ti tamén van curarte!\nE a min van curarme!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate changes the meaning from a passive prediction ('they will cure you/me') to an imperative-like form ('they will cure you'), and it also loses the calm resigned tone created by the repeated, inclusive fatalism of the original."
+          "justification": "The candidate is understandable, but \"van curarte\" is less natural and less melodic than the reference's repeated, resigned phrasing. It slightly weakens the calm, absurdly compassionate tone."
         }
       ]
     }
@@ -242,13 +227,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 5
+      "minor": 3
     },
-    "total_points": 30,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

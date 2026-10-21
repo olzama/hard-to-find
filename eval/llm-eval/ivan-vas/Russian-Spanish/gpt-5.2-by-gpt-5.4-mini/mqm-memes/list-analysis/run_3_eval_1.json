@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Vagas dudas\" slightly weakens the mock-heroic, literary phrasing of \"смутные сомнения\", though the meaning and comic effect remain intact."
+          "justification": "\"Vagas dudas\" is natural, but it softens the mock-heroic cadence of \"смутные сомнения,\" which is central to the comedic effect described in the analysis."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The greeting sequence is preserved, but \"Hola\" sounds a bit less like the stiff, formulaic social cliché described in the analysis than the reference's more ceremonious \"Buenas noches\"."
+          "justification": "The line is understandable and preserves the self-introduction, but the punctuation and reordering make the repeated, clumsy bureaucratic rhythm slightly less comic and less insistently repetitive than the reference."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Vieja\" is more blunt and colloquial than the slightly old-fashioned, dismissive \"viejecita\"/\"старушка\", so the regal-archaic contrast is somewhat weakened."
+          "justification": "\"Vieja\" and \"apenado\" convey the sense, but they sound more modern and less elevated than the regal, archaic tone of the original exchange."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The subject is wrong: \"nos emparedaron\" means 'they walled us in', but the original has Ivan saying that he has been walled in, not that 'we' were."
+          "justification": "The speaker changes from singular to plural with \"nos emparedaron,\" which alters the scene and weakens the Tsar's individual perception of being trapped by demons."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Mira\" shifts the line toward an admonition/exclamation and slightly dilutes the solemn miracle-claiming tone of the original."
+          "justification": "\"Mira lo que hace...\" is slightly less exclamatory and less epigrammatic than the reference, reducing the triumphant, astonished tone of the line."
         }
       ]
     },
@@ -161,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"He entrado\" is misleading because the analysis explicitly says he has just entered and is reacting to the discovery; the line should sound like a pleased comment on having come in, not a statement that he has already arrived in a completed way that can imply movement is finished. More importantly, it misses the casual 'I came in just at the right moment' sense of lucky timing."
+          "justification": "\"He entrado\" misrepresents the situation as a completed entry and sounds like he is already inside with hindsight, whereas the line is a spontaneous reaction to having just come in and finding himself in the right place."
         }
       ]
     },
@@ -180,10 +180,16 @@
       "candidate": "Huevas negras, rojas...\n¡Sí! Huevas de ultramar...\n¡De berenjena!",
       "issues": [
         {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Huevas\" is a generic term for roe and works, but it is less specific and less idiomatic for the comic food-list effect than the reference's clearer phrasing."
+        },
+        {
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the key joke that the cheap spread is being framed as a special overseas delicacy in a comic, non-caviar sense. \"Huevas de ultramar\" is too generic and \"de berenjena\" does not clearly reproduce the punchline; it also weakens the satirical contrast emphasized in the analysis."
+          "justification": "The line omits the key satirical opposition between ordinary caviar and the absurd 'overseas' eggplant delicacy, flattening the joke about Soviet shortages and status inversion."
         }
       ]
     },
@@ -200,7 +206,14 @@
         "language_specific": {}
       },
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres pitilleras nacionales,\nchaqueta de ante... tres.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The spacing and line breaks are awkward, and \"tres\" after \"chaqueta de ante\" is slightly clunkier than the more natural list structure in the reference."
+        }
+      ]
     },
     {
       "id": 11,
@@ -221,13 +234,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 4
+      "minor": 6
     },
-    "total_points": 19,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

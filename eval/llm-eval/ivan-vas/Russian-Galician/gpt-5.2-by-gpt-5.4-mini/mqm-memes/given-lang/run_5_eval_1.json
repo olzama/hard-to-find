@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "Boas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.\nBoas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line is duplicated verbatim, which is not wrong, but it is unnecessary and makes the subtitle feel awkwardly repeated rather than cleanly timed."
+        }
+      ]
     },
     {
       "id": 3,
@@ -141,7 +148,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The added line break and repeated standalone 'De berenxena!' are awkward and unnecessary, slightly disrupting the punch of the joke, though the meaning remains clear."
+          "justification": "The extra standalone line 'De berenxena!' is redundant and slightly disrupts the rhythm, though the core joke remains clear."
         }
       ]
     },
@@ -163,13 +170,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate badly mangles the counted list and repeats only fragments, losing the structured escalation of losses. It no longer reads as Shpak's exaggerated inventory with the final omitted item count joke."
-        },
-        {
-          "severity": "major",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is broken into incoherent fragments with abrupt punctuation and duplication, making the subtitle difficult to read and diminishing the comic timing."
+          "justification": "The candidate breaks the original list into fragmented repeated lines, which distorts the comic buildup and makes the counting joke less clear and less natural."
         }
       ]
     },
@@ -191,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 1
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 11,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

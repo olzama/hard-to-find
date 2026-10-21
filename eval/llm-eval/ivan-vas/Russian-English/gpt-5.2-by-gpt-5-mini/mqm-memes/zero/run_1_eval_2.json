@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders У Шпака — магнитофон, у посла — медальон as 'Shpak has a tape recorder, the envoy has a medallion,' which implies current possession. The analysis explicitly warns these lines mean the items were lost/are missing (they were taken), not that the characters possess them. This reverses the intended meaning and undermines the joke about stolen items."
+          "justification": "The candidate reads as possession ('Shpak has a tape recorder, the envoy has a medallion'), whereas the original (and the analysis note) requires that these items have been taken from them (they were 'lost' / 'walled off' — i.e., they no longer have them). This reverses the intended meaning and destroys the callback to theft."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source is Bunsha introducing himself as the Tsar (repeatedly), a key comic point noted in the analysis. The candidate's phrasing ('Very nice, Tsar! ... Hello, Tsar!') reads as addressing someone called 'Tsar' rather than introducing himself as the Tsar, losing the crucial self-introduction gag and the era-clash humor."
+          "justification": "The candidate treats the lines as direct addresses to a Tsar ('Very nice, Tsar!'), but the analysis specifies Bunsha is introducing himself as 'the Tsar' in a repetitive, self-introducing, banal Soviet register. The candidate thus changes the pragmatic function (address vs self-introduction), losing the core comedic clash described in the analysis."
         }
       ]
     },
@@ -90,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "Walled up!\nWalled up, demons!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The original requires the demons to be the subject ('They have walled me in, the demons!'). The candidate's 'Walled up, demons!' reads as if addressing demons directly, creating ambiguity about whether the line names the perpetrators or speaks to them, slightly altering the intended meaning and tone."
+        }
+      ]
     },
     {
       "id": 6,
@@ -105,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate ('That’s what the life-giving cross can do!') shifts from the high, archaic register of the reference ('Behold the power of the life-giving cross!') to a more casual modern phrasing. This weakens the exalted, period tone that supports the comedic clash between Tsarist religiosity and modern technology."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -157,14 +157,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Overseas caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate presents 'Overseas caviar... Eggplant!' which risks reading the eggplant spread as another kind of caviar. The analysis warns explicitly not to call the eggplant spread 'caviar'—its comic value depends on contrasting real caviar with cheap 'eggplant spread' presented as a faux-delicacy. The candidate therefore risks confusing the joke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -184,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the final item cluster as 'three suede jackets' without the halting, self-correcting rhythm of the source ('куртка… замшевая… Три') that produces the joke (forgetting to increment the count). The meaning is preserved, but the comic timing and self-betrayal are weakened."
+          "justification": "The gag in the analysis depends on a halting recounting and the narrator's self-betraying slip when counting the suede jacket. The candidate presents a flat list ('three suede jackets') without the hesitant beat or the incremental humor, weakening the comic effect."
         }
       ]
     },
@@ -201,19 +194,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you too!\nAnd they’ll cure you too!\nAnd they’ll cure me too!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate repeats 'And they’ll cure you too!' twice with identical wording; the original has a slightly varied, melodic resignation that distinguishes the addresses and culminates in 'and they’ll cure me'. The repetition here feels more mechanical and less musically resigned, softening the intended bittersweet humor."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 2
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 17,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

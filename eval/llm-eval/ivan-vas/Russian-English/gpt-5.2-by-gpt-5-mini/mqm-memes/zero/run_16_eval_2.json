@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies current possession. The analysis explicitly notes these people have lost the items (they are the ones who were robbed). This changes the meaning and undermines the line's comic implication about missing goods."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which changes the meaning: the original implies these items are (now) with the thief / missing from those people, not that those people currently possess them. This directly contradicts the NB in the analysis and undermines the joke about possessions/loss."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original and analysis make clear Bunsha is introducing himself as 'the Tsar' (absurd self-introduction). The candidate's phrasing ('Very pleased, Tsar!') reads as if he is addressing someone called 'Tsar' rather than introducing himself, which reverses the joke's target and weakens the intended comic effect."
+          "justification": "The analysis requires making clear that Bunsha is introducing himself as the Tsar (not addressing a tsar). The candidate's fragments ('Very pleased, Tsar!') read as vocative—addressing a tsar—rather than self-introduction, which misrepresents the gag's core (Bunsha repeatedly presenting himself as 'the Tsar')."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses the modern contraction 'I’m' ('I’m in sorrow'), which softens the archaic, high-register tone the analysis identifies as part of the humor. The line remains accurate, but the register is slightly weakened."
+          "justification": "The contraction 'I’m in sorrow' slightly reduces the archaic, high-register tone that the analysis highlights. The meaning is preserved, but the register is a bit weakened compared with the reference's more formal phrasing."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis notes 'demons' must function as the subject accusingly ('the demons [did it]'), not as a vocative addressee. The candidate's 'Walled in, demons!' reads like addressing or exclaiming to demons rather than accusing them as the agents who walled him in, reversing the grammatical role and altering the intended meaning."
+          "justification": "The NB specifies that 'demons' are the subject (they walled him in), not the addressee. The candidate's 'Walled in, demons!' reads as addressing demons, which reverses the grammatical role and misrepresents the speaker's perception in the scene."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's colloquial phrasing ('That’s what the life-giving cross can do!') loses some of the solemn, archaic register ('Behold the power of the life-giving cross!') that contributes to the Tsar's religious conviction and the joke's contrast with modernity."
+          "justification": "The candidate preserves the meaning but renders the exalted, archaic proclamation in a colloquial frame ('That’s what... can do!'), which softens the lofty, quasi-religious register that creates the comic contrast in the original."
         }
       ]
     },
@@ -141,7 +141,14 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The imperative 'Everyone dance!' conveys the basic meaning but reads slightly awkwardly in natural English; a more idiomatic rendering would be 'Everybody dance!' or 'Let everyone dance!' The line still functions comically, so the issue is a fluency/idiomaticity weakness, not a loss of meaning."
+        }
+      ]
     },
     {
       "id": 8,
@@ -171,14 +178,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate's 'Imported caviar... Eggplant!' risks readers interpreting 'eggplant' as simply another kind of caviar or as literal caviar made of eggplant. The analysis warns against presenting eggplant spread as 'caviar'; the candidate's phrasing is ambiguous and could confuse that satirical inversion."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -193,14 +193,7 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The joke hinges on Shpak's tell — he hesitates and then silently increases the running count (the line structure betrays him). The candidate lists 'three suede jackets' uniformly, removing the verbal hesitation and the comedic reveal of miscounting; this eliminates the punchline and undermines the character-based humor."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -220,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 3,
       "minor": 3
     },
-    "total_points": 23,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.090909090909091,
-    "major_equiv_per_unit": 0.41818181818181815,
-    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

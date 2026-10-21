@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as possession. The analysis explicitly warns these lines mean the items were lost/removed (they no longer have them). The candidate therefore reverses the intended sense and undermines the comedic callback."
+          "justification": "The candidate renders У Шпака — у посла as 'Shpak has... the envoy has...', implying possession. The analysis explicitly warns these phrases mean the items are missing from them (they lost them), not that they currently possess them. This inverts the meaning and undermines the joke about suspects having had the items taken."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should make clear Bunsha is awkwardly introducing himself as the Tsar (not addressing an actual Tsar). The candidate reads like greetings addressed to a Tsar ('Hello, Tsar!'), losing the crucial comic premise that he is repeatedly presenting himself as 'the Tsar.' This changes the gag's direction and undermines the analysis."
+          "justification": "The line must make clear Bunsha is introducing himself as 'the Tsar' (an absurd self-introduction), not addressing a tsar. The candidate reads as if he is addressing someone called 'Tsar' ('Hello, Tsar!'), losing the crucial gag that he keeps announcing himself as 'the Tsar' in a banal, repetitive Soviet greeting style."
         }
       ]
     },
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me be, old woman, I’m sorrowful.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's 'Leave me be, old woman, I’m sorrowful.' conveys the meaning but uses a modern contraction and a slightly colloquial phrasing ('I'm sorrowful') that softens the high-register, archaic tone the analysis highlights."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -102,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original means 'They have walled me in' with 'demons' as the subject. The candidate's 'Walled up, demons!' reads as if addressing demons (vocative) or is otherwise ambiguous, flipping the grammatical role and losing the intended comic misunderstanding of the elevator as an act by demonic agents."
+          "justification": "The original has demons as the (impersonal) subject who performed the walled-up action ('They've walled me in... the demons'). The candidate 'Walled up, demons!' reads as if the speaker is addressing demons vocatively, which reverses the syntactic role and weakens the intended comedic interpretation of a technological mishap perceived as demonic agency."
         }
       ]
     },
@@ -119,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning but uses a more colloquial construction ('That's what... can do!') rather than the elevated, declarative 'Behold the power...' of the reference. This slightly reduces the archaic, reverent register that creates the joke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -171,14 +157,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "By listing 'Imported caviar... Eggplant!' the candidate risks implying that eggplant is being presented as caviar. The analysis warns translators not to call eggplant spread 'caviar' to avoid confusion; the candidate's phrasing leaves that ambiguity unresolved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -214,13 +193,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 3
+      "minor": 0
     },
-    "total_points": 18,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

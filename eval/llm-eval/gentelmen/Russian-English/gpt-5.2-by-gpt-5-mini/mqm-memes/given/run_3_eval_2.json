@@ -128,16 +128,16 @@
       "candidate": "Move the horse! - Buzz off!\nMove the horse, I’ll never see the outside if I’m wrong!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate inserts an extra phrase (“- Buzz off!”) that does not appear in the source and interrupts the compact question/command sequence. This addition changes the pacing and adds content not supported by the original."
+          "justification": "The candidate inserts an out-of-context line (“Buzz off!”) and an added conditional clause (“if I’m wrong”) that were not present in the source. This changes the exchange’s turn-taking and weakens the original prison-oath force of «век воли не видать» (an absolute, coded guarantee of never seeing freedom), replacing it with a hedged, uncertain formulation."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The rendering “I’ll never see the outside if I’m wrong!” softens the original prison-coded oath («век воли не видать») by using the neutral word “outside” rather than a more prison-associated term (e.g., ‘freedom’ or a harsher formula). That reduces the underworld solemnity central to the joke."
+          "justification": "The candidate preserves the nontechnical «Move the horse» (good), but the phrasing “I’ll never see the outside” softens the prison-register bluntness of the original; the tone is less oath-like and more conversational."
         }
       ]
     },
@@ -312,15 +312,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds an extra line (“Excuse me.”) that is not present in the source, introducing new dialogue and slightly altering the turn-taking and abruptness of the original exchange."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The chosen insult “You dumb broad!” captures the crude tone but is a culturally loaded Americanism; while it preserves the feminine-address structure required by the analysis, it may shift the register and connotations compared with the simpler Russian «дура»."
+          "justification": "The candidate reproduces the required feminine–masculine–feminine sequence and tone, but the added postscript “Excuse me.” is extraneous and shifts the scene rhythm; it undercuts the abruptness of Tanya’s insult and slightly alters the original exchange's pacing."
         }
       ]
     },
@@ -347,7 +341,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «параша» as “punks” neutralizes the original prison-status insult tied to being assigned the lowest, most degraded place. The candidate loses the strong prison-argot weight and the toilet-as-hierarchy implication that the analysis recommends preserving or functionally rendering with prison-status slang."
+          "justification": "Rendering «параша» as “punks” loses the prison-status punch: the original assigns the addressee to the lowest place in the inmate hierarchy rather than grouping them with generic low-level troublemakers. The candidate weakens the crude, institution-specific contempt."
         }
       ]
     },
@@ -374,14 +368,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 5
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 5,
+    "total_points": 8,
     "meaning_units": 18,
-    "penalty_per_unit": 0.2777777777777778,
-    "major_equiv_per_unit": 0.05555555555555556,
-    "interpretation": "0.28 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.4444444444444444,
+    "major_equiv_per_unit": 0.08888888888888888,
+    "interpretation": "0.44 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is accurate, but the flat 'Name one! No, I'm waiting!' drops the pompous, theatrical self-dramatization the analysis emphasizes. The reference's 'Pray, tell me' and doubled exclamation carry that bluster, and the candidate does not."
+          "justification": "\"Name one!\" is blunter than the source's mock-theatrical challenge. The reference's \"Pray, tell me, name them!!\" carries the grandiloquent, self-dramatizing register the analysis describes, and the candidate drops that elevated tone."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Knock back a little glass' is an awkward, literal rendering of 'хлопнуть по рюмашке'. It lacks the idiomatic casualness of 'toss back a quick one' and reads unnaturally in English, though the meaning and the casual register survive."
+          "justification": "\"a little glass\" is a literal, unidiomatic rendering of «рюмашка». The lowercase opening and line break make the line read as a fragment, which weakens the quick, casual toast the analysis describes."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Lofty... Lo-o-ofty relations.' keeps the stretched sarcastic delivery, but it ends in a noun phrase, which is the non-exclamatory structure the language-specific note warns against. 'Relations' is also stiff for 'отношения' in this context."
+          "justification": "\"Lofty... Lo-o-ofty relations.\" keeps the bare noun-phrase structure that the language note warns against, instead of a natural exclamatory sentence. The sarcasm survives through \"lofty\", but the line sounds stilted."
         }
       ]
     },
@@ -87,7 +87,14 @@
         "language_specific": {}
       },
       "candidate": "Folks don't live for joy, they live for conscience.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"live for conscience\" is unidiomatic in English. \"Conscience\" is a weaker vehicle than \"duty\" for the soldierly, moral-obligation justification that the analysis identifies as the core of the maxim."
+        }
+      ]
     },
     {
       "id": 5,
@@ -125,9 +132,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Master chef!' is a standalone literal noun phrase, the exact pattern the language-specific note flags. It reads as praise rather than as the sarcastic domestic insult the analysis describes ('Кулинар!' used as a loud rebuke), so the comic effect is reversed."
+          "justification": "\"Master chef!\" reads as praise, and as a TV-show title, rather than as a sarcastic domestic insult. The absurd use of a neutral professional term as a scolding is lost, so the comic effect and Margarita Pavlovna's imperious tone are inverted."
         }
       ]
     },
@@ -154,7 +161,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The German word is kept correctly, but the source exclamation mark is dropped. 'Natürlich.' with a period flattens the emphatic, automatic obedience that the analysis ties to Savva's delivery."
+          "justification": "The period in \"Natürlich.\" flattens the source's exclamatory \"!\", which carries Savva's eager, reflexive compliance. The German word itself is preserved, so the linguistic quirk survives."
         }
       ]
     },
@@ -176,7 +183,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Cut the damn thing out!' weakens the profanity of 'к чёртовой матери' compared with the reference's 'the hell'. The surgeon's blunt, abrasive tone is somewhat softened, though the medical meaning is preserved."
+          "justification": "\"damn\" is weaker than the source's crude intensifier «к чёртовой матери» (\"the hell out\" in the reference). \"Cut the damn thing out\" is also vague, and \"any peritonitis\" is unidiomatic. The surgical bluntness is still conveyed."
         }
       ]
     },
@@ -218,7 +225,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate correctly restores 'to bear' rather than the literal 'This is my cross!', but the sentence break still splits the fixed idiom 'cross to bear' across two sentences. This is the same fragmentation the language-specific note warns against, and the triple exclamation intensity is also lost."
+          "justification": "\"This is my cross!\" splits the fixed idiom \"a cross to bear\" across two lines, which is the problem the language note flags. \"mine to bear\" recovers the meaning, but the idiom is still broken up."
         }
       ]
     },
@@ -245,7 +252,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'All so angular' keeps the literal 'angular' for 'угловатая', which the language-specific note identifies as overly literal and confusing in English. 'Ungainly' and the repeated 'all so' rhythm work well, but the middle line reads oddly."
+          "justification": "\"angular\" is the literal rendering of «угловатая» that the language note flags as overly literal and confusing in English. The reference's \"all sharp edges\" conveys the awkward, gawky image more naturally."
         }
       ]
     }
@@ -253,13 +260,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 7
+      "minor": 8
     },
-    "total_points": 12,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

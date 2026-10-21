@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is a plain literal rendering ('I'm not a coward, but I'm afraid...') that preserves meaning but loses the light, bouncing comic rhythm (Trus/ Boyus rhyme effect) described in the analysis. The line reads more flatly and less endearingly than the playful original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate remains in Russian ('У Вас... ус... отклеился...') and is untranslated, so it fails to convey the exposed-facade gag to an English-speaking audience. This omission fatally undermines the comedic reveal described in the analysis."
+          "justification": "The candidate is left in Russian (У Вас... ус... отклеился...), not translated into the target language. This loses the joke that exposes the villain's fake mustache and thus fails entirely to convey the comedic effect described in the analysis."
         }
       ]
     },
@@ -78,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate adds 'You know,' at the start and renders 'Verstehen?' as 'versteh’en?' which looks like an unnatural spelling/phonetic rendering in English. While the multilingual jokey register is preserved, the odd apostrophe spelling of 'versteh’en' is awkward and may distract viewers."
+          "justification": "Overall the international mashup is preserved, but the added prefatory 'You know,' and the odd orthography 'versteh’en?' slightly weaken the faux-sophisticated, performative register. This is a small stylistic awkwardness rather than a loss of meaning."
         }
       ]
     },
@@ -147,7 +140,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the proverb and meaning but drops the rhythmic pairing (trezvenniki/yazvenniki) that gives the original its balanced, proverbial punch. The line reads slightly prosaic rather than rhythmically aphoristic."
+          "justification": "The candidate preserves the proverb but loses some of the Russian rhythmic mirroring (trezvenniki/yazvenniki). The line reads a bit flat and formal compared with the punchy, rhythmic original, though the meaning and cynical tone remain."
         }
       ]
     },
@@ -209,14 +202,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'Semyon Semyonovich...' conveys the address but loses the elongated, melodic sigh ('Semyo-o-on Semyonych!') that registers the weary, musical facepalm in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -231,14 +217,7 @@
         "language_specific": {}
       },
       "candidate": "May you live\non one\nsalary!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate compresses the staged pauses of the curse ('May you live\non one\nsalary!') into a more straightforward line. The theatrical cadence and the comic weight of the drawn-out curse are reduced."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 14,
@@ -348,7 +327,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate inserts an extra explicit line of welcome ('If you’re ever in Kolyma - you’ll be welcome!') that expands on the guest's offer beyond the source's terse invitation. This addition slightly alters the pacing and tone of the exchange but does not contradict the scene's intent."
+          "justification": "The candidate inserts an extra positive line ('If you’re ever in Kolyma - you’ll be welcome!') that was not in the source. This addition softens the original tension (Gena misunderstanding an invitation as a threat) and slightly alters the punchline dynamic."
         }
       ]
     },
@@ -365,14 +344,7 @@
         "language_specific": {}
       },
       "candidate": "In this state...\nI can’t.\nI must... first...\ntake a baaaath,\nhave a cup of coffee...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate emphasizes the bath ('baaaath') but drops the affected, mock-sophisticated pronunciation of 'coffee' present in the analysis ('coff-ey'). This shifts the comic focus and weakens the intended pretentiousness of the line."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 22,
@@ -392,7 +364,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate introduces a hesitant 'No, yes...' which does not appear in the source and creates a slightly muddled response. The essential back-and-forth and the shopper's stalling tactic are present, but the added hesitation weakens the crispness of the exchange."
+          "justification": "The candidate's 'No, yes... we'll keep looking...' is hesitating and a bit awkward; it introduces an ambiguous 'yes' that isn't present in the original exchange. The meaning (they'll keep looking) remains, but phrasing is clumsy."
         }
       ]
     },
@@ -415,13 +387,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 8
+      "minor": 4
     },
-    "total_points": 13,
+    "total_points": 9,
     "meaning_units": 23,
-    "penalty_per_unit": 0.5652173913043478,
-    "major_equiv_per_unit": 0.11304347826086955,
-    "interpretation": "0.57 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.391304347826087,
+    "major_equiv_per_unit": 0.0782608695652174,
+    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

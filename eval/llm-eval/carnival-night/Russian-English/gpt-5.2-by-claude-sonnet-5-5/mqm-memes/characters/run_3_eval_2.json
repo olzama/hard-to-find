@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Hire\" a Baba Yaga fits the staffing logic, but \"raise one\" shifts the in-house \"cultivation/training\" idea toward upbringing, slightly weakening the workplace-training/educational-matter tone of \"train one in-house\". Also \"Baba Yaga\" retained as a fairy-tale name without any hint of the nasty-woman social type, though the workplace framing (\"our own collective\") partly carries it."
+          "justification": "\"Hire\" a Baba Yaga fits the staffing logic, but \"a Baba Yaga\" keeps the fairy-tale figure foreign and does not evoke the nasty-woman workplace type as clearly as a more social rendering would. \"Raise one\" is a bit more fairy-tale/parental than the bureaucratic \"train/cultivate in-house\", though \"within our own collective\" keeps the Soviet workplace flavor."
         }
       ]
     },
@@ -67,16 +67,10 @@
       "candidate": "very briefly—about\nforty minutes, no more, I think\nthat’s enough",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive, faux-modest flavor of «коротенько» is lost: \"very briefly\" is flat and does not convey the cozy, patronizing \"just a short little talk\". The contrast with \"forty minutes\" is therefore weakened, and the smug managerial tone is reduced. The briefness claim does come before the duration, which preserves the order."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Lowercase start and missing punctuation (no comma before \"I think\", no ending punctuation) make the line read awkwardly; \"no more, I think that's enough\" is a run-on that loses the trailing hesitant \"…\"."
+          "justification": "\"Very briefly\" sets up the briefness-then-duration reversal in the right order, but it is flat. It lacks the faux-modest, cozy diminutive tone of «коротенько» (e.g. \"just a little talk\"), so the smug managerial self-satisfaction is weaker."
         }
       ]
     },
@@ -99,10 +93,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer’s ready—been ready a long time!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation keeps only the surface meaning \"ready\" and does not recreate the double sense of «готов» (drunk/done for). The \"been ready a long time!\" with exclamation hints at cheerful confirmation, but the alcoholic subtext is not conveyed to English viewers, so the joke is largely lost. The administrative setup is preserved."
+          "justification": "\"Ready\" is kept, and \"been ready a long time!\" hints at the drunk reading, but nothing in the English makes the intoxication subtext audible. The double sense is likely lost on viewers, so the joke mostly disappears."
         }
       ]
     },
@@ -128,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!\" is written as a clean word, losing the stretched, broken syllabification (\"Peo-ple!\") that carries the drunken vocal instability. The trailing \"Ah-oo!\" and ellipses retain some wavering quality, and the faltering call is partly preserved."
+          "justification": "\"People!..\" is not stretched into a faltering \"Peo-ple!\", and \"Ah-oo!\" is only a loose echo of «ау-у». The ellipses suggest some instability, but the drawn-out, wavering drunken vocalization is only partly conveyed."
         }
       ]
     },
@@ -157,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly says to avoid; it sounds stranger and more surreal than the Russian and does not echo the familiar English idiom \"unaided eye\", so the mock-scientific malformed idiom effect is not recreated."
+          "justification": "\"Armed eye\" is the literal calque the analysis explicitly says to avoid. Without the echo of \"unaided eye\", the familiar idiom is not recognizable as being mangled, so the mock-scientific malapropism is lost and the line sounds merely strange."
         }
       ]
     },
@@ -186,13 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression and the final \"five little stars\" work well, but \"little stars\" repeated throughout makes the cognac association with \"five stars\" less recognizable in English; the final click into the cognac frame is weaker, and no note is provided."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Lowercase start and a dash before \"and best of all\" slightly muddle the rhythm of the buildup and punchline."
+          "justification": "The counting build-up and the \"five little stars\" punchline are preserved, and the diminutive adds to the silliness. However, the cognac association is not supported (no note or cue), so the sudden shift into the cognac domain may not be legible to English viewers. The line also begins with \"and\" instead of a lecture-like \"as we already see\"."
         }
       ]
     },
@@ -218,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Overall register is well maintained, but \"Is there life on Mars, is there no life on Mars\" is a slightly stiff calque of the Russian doubled structure, and dropping \"on the matter\" makes the final colloquial punch marginally less pronounced. The key phrase \"up to speed\" preserves the casual personification of science."
+          "justification": "The colloquial \"not yet up to speed\" is preserved, and the structure mirrors the source well. \"Is there life on Mars, is there no life on Mars\" is a slightly awkward literal calque of the «нет ли» construction, though it does not damage the effect."
         }
       ]
     }
@@ -226,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 7
+      "minor": 5
     },
-    "total_points": 17,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 2.125,
-    "major_equiv_per_unit": 0.425,
-    "interpretation": "2.12 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

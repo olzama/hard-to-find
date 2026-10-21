@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "it should be me in his place.\nGet drunk—you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate drops the opening address ('Guys') and renders the policeman's line as a clipped imperative ('Get drunk—you will be!') that feels more awkward than the wry, mocking cop humor in the analysis. The playful deflation of Gorbunkov's melodrama is weaker here."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -113,7 +106,14 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kids,\nflowers for his woman.\nDon’t mix them up!\nKutuzov!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate renders Lyolik's blunt, uneducated register in a more neutral colloquial tone (‘his woman’). The original's coarse, characteristic voice and slight comic roughness are softened, reducing the distinctive character flavour."
+        }
+      ]
     },
     {
       "id": 8,
@@ -128,14 +128,7 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\non someone else’s dime even teetotalers drink,\nand ulcer patients too.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original relies on a tight rhythmic pairing (trezvenniki / yazvenniki) for a proverb-like punch. The candidate conveys correct meaning but breaks that rhythmical balance by rendering the second item as 'ulcer patients,' which flattens the original's wry cadence."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -170,7 +163,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line loses the character's comic mispronunciation of 'tablet' (a small but distinctive vocal tic). The candidate communicates the meaning but omits the humorous pronunciation that marks Lyolik's voice."
+          "justification": "The line loses the original's pronounced mispronunciation/micro-phonetic joke (the comic pronunciation of 'tablet'). Meaning is preserved but the memorable, character-specific humor is absent."
         }
       ]
     },
@@ -202,14 +195,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is a neutral, correctly formed name. It loses the original's melodic, elongated sighed delivery ('Semyo-o-on Semyonych!') that functions as a weary, performative facepalm."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -344,7 +330,14 @@
         "language_specific": {}
       },
       "candidate": "In this condition...\nI can’t.\nI must... first...\ntake a baaath,\ndrink a cup of coffee...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the content (bath, coffee) but drops Gena's affected, pretentious pronunciation of 'coffee' that signals his faux-sophistication. The character nuance is weakened."
+        }
+      ]
     },
     {
       "id": 22,
@@ -379,7 +372,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's intentionally nonstandard verb form gives the refusal a folksy, stubborn flavor. The candidate's neutral 'No, I can’t do that!' conveys refusal but loses the comic ruralized verb and the added character that provides local color."
+          "justification": "The candidate neutralizes the original's folksy, nonstandard verb form that adds comedic stubbornness. The meaning is intact, but the rural/stubborn comic flavour created by the deliberate grammatical error is lost."
         }
       ]
     }
@@ -387,13 +380,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 5,
+    "total_points": 4,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.17391304347826086,
+    "major_equiv_per_unit": 0.034782608695652174,
+    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

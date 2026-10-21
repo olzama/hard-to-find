@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I'm the big bad wolf, a fearsome beast;\non little piggies I love to feast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps the mock-menacing, rhymed theatricality, but the image of 'feast' on piggies is somewhat darker and more explicitly cannibalistic than the lighter, playful boast of the reference. That slightly shifts the intended childlike playfulness toward harsher imagery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -48,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'I'll knock his horns off' (literal phrasing the guidance warned against) and switches the addressee to 'his' rather than the direct threat tone of the original. The final clause becomes an explanatory paraphrase ('working to pay for medicine'), losing the compact, verdict-like Russian ending and softening the punchy, scaled economic sentence."
+          "justification": "The candidate uses 'his' horns rather than addressing the threat directly to the interlocutor ('your'), which changes the immediacy of the threat. It also literalizes 'knock his horns off,' a phrasing the analysis explicitly warns against because it is non-idiomatic and flattens the theatrical, verdict-like Russian original. The final line ('working to pay for medicine') is more explanatory and prosaic than the compact, verdictal economy the analysis requires."
         }
       ]
     },
@@ -90,7 +83,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «нехороший человек» as 'bad person' flattens the oddly euphemistic, morally restrained register that the analysis highlights. The ending 'the bastard!' captures «падла»'s rough contempt, but the middle phrase loses the comic contrast between restrained language and collapse into slang."
+          "justification": "Rendering «нехороший человек» as 'bad person' flattens the oddly restrained, euphemistic moralizing quality of the original phrase. The candidate preserves the rough insult 'the bastard!' for «падла», but loses the comic failure of register that comes from the clash between the euphemism and the final coarse expletive."
         }
       ]
     },
@@ -169,10 +162,10 @@
       "candidate": "- Was there a pond?\n- No. There were puddles.\nMaybe a statue?\n- There was a statue.\n- Of whom?\n- How should I know? Some man.\n- With a beard? - No!\n- Sideburns?\n- I don't remember. He wore a jacket!\n- Was he inside?\n- Inside what?\n- Sitting inside? - Who?\n- Your man! Inside the statue!\n- What a bumpkin! You don't get it!\nHow could he be inside?\nThe man is the statue!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate makes the spatial reading explicit ('Inside the statue!','How could he be inside? The man is the statue!'), which spoils the necessary ambiguity and the subtle pun based on Russian 'сидит'/'посадит'. The analysis urged against making the spatial meaning explicit; this version over-explains and dissipates the root-play that generates the joke."
+          "justification": "The candidate preserves the identification sequence and the punchline, but the exchange becomes a bit clumpier and slightly over-explicit (e.g. 'Inside the statue! ... How could he be inside?'). This reduces the compact ambiguity that compensates for the untranslatable Russian root-play."
         }
       ]
     },
@@ -234,14 +227,7 @@
         }
       },
       "candidate": "Hey, citizen! Don't go that way.\nCome this way!\nOr snow hit head,\nyou be completely dead!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Using the standard 'citizen' reduces the comic effect of the original malformed address («йес, йес» / grammatically odd «гражданина»). While the candidate preserves broken grammar elsewhere, the fully standard 'citizen' smooths a feature of the speaker's non-native, slightly wrong phrasing that the analysis flagged as part of the humor."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 12,
@@ -336,7 +322,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «дура» as 'What a silly girl' softens the insult and loses the sharper, directly addressed feminine contempt in the original. The gendered sequence (woman—masculine name—feminine insult) is preserved, but the tone is weakened."
+          "justification": "The final line 'What a silly girl' softens the blunt feminine insult «дура» and thus loses some of the original's sharper tone. The feminine–masculine–feminine comic sequence is preserved, but the insult's strength and register are reduced."
         }
       ]
     },
@@ -361,9 +347,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "The candidate's 'slop bucket' reduces «параша» to a literal toilet object rather than conveying its strong prison-argot function as the label for the lowest social position in the cell. The line therefore weakens the intended prison-status insult delivered with faux civility."
+          "justification": "Translating «параша» as 'slop bucket' reduces the term to a literal toilet object rather than preserving its function as a strong piece of prison-status argot that assigns the addressee the lowest rank in the cell hierarchy. The candidate therefore weakens the original's social-hierarchy insult."
         }
       ]
     },
@@ -388,23 +374,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "The phrasing 'Hooligans are depriving me of my eyesight' is understandable and preserves the formal tone, but 'hooligans' is a dated/regionally marked term and the candidate leans toward a somewhat stilted literalism ('depriving me of my eyesight') rather than the crisply formal-but-comic register the analysis recommends. A contemporary neutral term for attackers would better match the guidance."
+          "justification": "The choice 'hooligans' reads as dated/British and contradicts the analysis guidance to avoid such marked regional terms; the attackers should be named in more contemporary, natural language. The formal phrasing 'depriving me of my eyesight' is acceptable, but the attacker label is slightly off-register."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 6
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 16,
+    "total_points": 10,
     "meaning_units": 18,
-    "penalty_per_unit": 0.8888888888888888,
-    "major_equiv_per_unit": 0.17777777777777776,
-    "interpretation": "0.89 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5555555555555556,
+    "major_equiv_per_unit": 0.11111111111111112,
+    "interpretation": "0.56 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

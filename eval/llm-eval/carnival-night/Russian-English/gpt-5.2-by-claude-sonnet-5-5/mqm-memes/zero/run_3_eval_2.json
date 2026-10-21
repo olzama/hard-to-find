@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Raise one\" is slightly more fairy-tale/parental than the workplace staffing logic of \"train one in-house\"; \"hire\" for bringing in is fine, but the managerial register is somewhat weakened. \"Collective\" keeps the Soviet flavor, so the effect is largely preserved."
+          "justification": "\"Raise one\" is slightly more fairy-tale/parental than the workplace-training logic of \"train/cultivate\", though \"our own collective\" keeps the Soviet workplace frame and the joke still works."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The \"briefly\" is kept but the faux-modest diminutive feel of «коротенько» is not rendered, and \"I think that won't be necessary\" is a mistranslation: Ogurtsov means he doesn't think more than forty minutes is needed, not that the talk itself won't be necessary. The ordering (briefly, then forty minutes) is preserved, but the smug self-satisfied tone is weakened and the meaning is distorted."
+          "justification": "The \"I think that won't be necessary\" is ambiguous and reads as if the forty minutes won't be necessary, reversing the meaning (\"no more than that is needed\"). The faux-modest diminutive sense of \"коротенько\" is also lost, as \"briefly\" is flat, weakening the comic contrast."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate only gives the literal \"ready\" reading, so the \"done for/drunk\" double meaning is lost. It is rendered as plain readiness, and there is nothing (e.g. \"he's been ready for quite a while\" with a knowing tone, or \"he's totally ready/loaded\") that hints at intoxication. The core joke disappears."
+          "justification": "The translation keeps only the literal \"ready\" and has no hint of the \"drunk/done for\" subtext. The central double meaning is lost, so the joke disappears. The English audience gets only a plain exchange."
         }
       ]
     },
@@ -122,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, wavering shape is partly kept (\"People!.. Ah... Ah-oo!\"), but the syllable stretching (\"Peo-ple\") that conveys the drunken vocal instability is lost, and \"Ah-oo\" is a weaker echo of the calling \"hellooo\" sound."
+          "justification": "The broken, stretched vocalization is only partly kept: \"People!..\" is a clean word rather than a faltering \"Peo-ple\", so the drunken instability is weaker. \"Ah-oo\" does retain some wavering sound."
         }
       ]
     },
@@ -151,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly says to avoid; it does not evoke the familiar English \"unaided eye\", so the malformed-idiom, mock-scientific effect is replaced by a stranger, more surreal phrase."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"One only has to\" is more formal and stilted than the lecturer's loose speech, and the exclamatory pomp of the two separate exclamations is flattened into a comma and ellipses."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. In English it does not echo \"unaided eye\", so the mangled-idiom, mock-scientific effect is not recreated and it reads as strange rather than as a tipsy near-idiom."
         }
       ]
     },
@@ -183,10 +177,16 @@
       "candidate": "and we already see two\nlittle stars, three little stars...\nFour little stars—and best of all,\nof course, five little stars!",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "\"Little stars\" renders the diminutive but loses the link to cognac stars. The final \"five little stars\" does not click into a different semantic world, since nothing signals brandy and there is no note. The punchline of the derailment is lost, leaving a merely odd children's-rhyme counting."
+        },
+        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The \"little stars\" counting is fitting for the silly childish progression, but the punchline is partly undercut by the odd structure (\"Four little stars—and best of all, of course, five little stars\") and \"little stars\" for the cognac stars sounds more childish than the cognac click. No note or cue helps viewers shift to the cognac frame."
+          "justification": "The structure \"two little stars, three little stars... Four little stars—and best of all\" breaks the counting sequence with a dash and reads as an inaccurate buildup."
         }
       ]
     },
@@ -210,23 +210,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" is a literal, slightly awkward calque of the Russian structure. \"Science is not yet informed\" is more formal than the colloquial \"isn't up to speed\", so the casual register mismatch that drives the joke is somewhat weakened, though the personification of science is preserved."
+          "justification": "\"Science is not yet informed\" is somewhat stiff and less colloquial than \"isn't up to speed\" or \"не в курсе дела\", so the casual register of science as a person not yet briefed is slightly weaker. \"Is there no life on Mars\" is also a bit awkward, though the content and comic mismatch are largely preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 4,
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 24,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

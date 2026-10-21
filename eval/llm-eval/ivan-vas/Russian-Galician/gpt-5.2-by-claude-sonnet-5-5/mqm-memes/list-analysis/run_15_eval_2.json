@@ -16,7 +16,20 @@
         "language_specific": {}
       },
       "candidate": "Outra vez me atormentan\nvagas dúbidas...\nA Shpak perdeulle o magnetófono,\nao embaixador perdeulle o medallón.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The mock-heroic register is weakened: 'Outra vez me atormentan vagas dúbidas' is serviceable, but 'vagas dúbidas' is less elevated than the archaic-theatrical 'asáltanme escuras sospeitas'. The enclitic/proclitic inversion 'me atormentan' is also slightly less natural."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'perdeulle' is repeated and the second clause is redundant ('ao embaixador perdeulle o medallón'), making the line heavier than the original's terse parallel 'У Шпака — магнитофон, у посла — медальон'. The 'lost' meaning is correctly preserved."
+        }
+      ]
     },
     {
       "id": 2,
@@ -33,10 +46,10 @@
       "candidate": "Ola, tsar, moito gusto. Son o tsar: encantado.\nSon o tsar: moito gusto. Ola, tsar.\nSon o tsar, moito gusto.\nOla, tsar. Encantado!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The analysis requires that Bunsha clearly introduces himself as the Tsar rather than addressing one. \"Ola, tsar, moito gusto\" and the final \"Ola, tsar. Encantado!\" read as greetings addressed to a tsar. Only the \"Son o tsar\" lines carry the self-introduction, so the core joke is muddled."
+          "justification": "The candidate correctly marks self-introduction ('Son o tsar'), but 'Ola, tsar' in several places reads as addressing a tsar, which the NB warns against. The mundane formulaic clichés are kept, but the ambiguity weakens the drunken self-introduction effect."
         }
       ]
     },
@@ -71,15 +84,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Estou de loito\" means being in mourning, not the more general sorrow of \"я в печали\". This shifts the Tsar's melancholy toward bereavement."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Bare \"vella\" is blunter than \"старушка\" and loses the archaic, regal-yet-affectionate address. The elevated register of \"я в печали\" is also flattened into a plain statement."
+          "justification": "'estou de loito' means 'I am in mourning', which shifts the meaning from the Tsar's melancholy/sorrow ('в печали') to bereavement. The archaic, regal register ('старушка', 'aflixido') is also flattened by the colloquial 'vella'."
         }
       ]
     },
@@ -96,14 +103,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme...\nEmparedáronme os demoños!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Demoños\" is a diminutive or colloquial form that gives the demons a mild, comic tone. It weakens the Tsar's genuine terror and archaic voice. The demons do remain the subject, as required."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -118,14 +118,7 @@
         "language_specific": {}
       },
       "candidate": "Velaí o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "\"Cruz vivificadora\" and \"fai\" are less liturgical than the fixed \"cruz vivificante\" and the more solemn \"obra\". The Tsar's pious, archaic register is slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -157,10 +150,10 @@
       "candidate": "Vaia, que ben entrei!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Que ben entrei\" reads as praise for how he entered rather than his luck at hitting on this apartment. It does convey that he has just arrived and is not leaving, but it loses the sense of a lucky find."
+          "justification": "'Vaia, que ben entrei!' is acceptable in conveying that he entered well, but it loses the sense of luckily landing in a jackpot place full of valuable goods. It stays on the act of entering, though it is not misleading about him leaving. The pleased reaction survives, but the 'lucky find' meaning is only partially conveyed."
         }
       ]
     },
@@ -180,9 +173,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The eggplant spread is correctly not called caviar. However, the plain \"pasta de berenxena\" loses the pretentious \"заморская\" delicacy framing (\"manxar de ultramar\" in the reference). This slightly deflates the satirical inversion."
+          "justification": "The candidate avoids calling eggplant spread 'caviar' ('pasta de berenxena'), as required. However, the 'ultramar' placement after the pause and dropping 'Manxar' lessens the pretentious 'foreign delicacy' build-up, though the inversion joke still works."
         }
       ]
     },
@@ -201,10 +194,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 petacas nacionais,\nchaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "terminology",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Petacas\" is ambiguous in Galician and often means hip flasks, whereas \"портсигар\" is a cigarette case (\"cigarreiras\" in the reference). The loss of the pause after \"chaqueta\" also slightly weakens the comic beat of the uncounted jacket."
+          "justification": "'petacas' means flasks/hip flasks, not cigarette cases ('портсигар'). This mistranslates one of the status items in the list."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The jacket 'chaqueta de ante... tres' drops the 'unha' article, but the key gag, the hesitation before forgetting to increment the count, is preserved by the pause."
         }
       ]
     },
@@ -226,21 +225,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Han curarte\" and \"han curarme\" are a non-standard future construction, missing \"de\" (\"han de curarte\") or the periphrasis \"vante curar\". The calm, melodic resignation therefore sounds a little stilted."
+          "justification": "'han curarte' is a stiff, formal future-obligation form in Galician, less natural than 'vante curar'. The resigned, melodic singsong tone is slightly lost, though the meaning and repetition are preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 8
+      "major": 2,
+      "minor": 7
     },
-    "total_points": 13,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

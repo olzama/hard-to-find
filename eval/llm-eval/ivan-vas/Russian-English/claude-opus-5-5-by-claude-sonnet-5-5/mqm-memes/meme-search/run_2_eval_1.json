@@ -24,9 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "style",
           "span": "",
-          "justification": "\"Tape machine\" is an unnatural rendering of \"magnitofon\" (tape recorder). The rest preserves the sense of loss and the mock-heroic tone."
+          "justification": "The first lines keep a mock-elevated register ('tormented by vague misgivings'), but the rhymed couplet 'tape machine'/'locket's not been seen' is clumsy. 'Tape machine' is an odd choice for 'tape recorder' and weakens the comic precision. The loss meaning (lost/not seen) is correctly preserved."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The bare \"Tsar!\" reads as a vocative, as if Bunsha were addressing a Tsar. The analysis requires that he introduce himself as the Tsar, as in \"I'm the Tsar\". The drunken self-introduction joke is lost."
+          "justification": "The candidate reduces 'Tsar' to a bare exclamation ('Tsar!'). It never makes clear that Bunsha is introducing himself as the Tsar, and it reads as addressing a Tsar, which the analysis explicitly forbids. The drunken self-introduction joke is lost."
         }
       ]
     },
@@ -70,7 +70,14 @@
         }
       },
       "candidate": "I demand the banquet continue!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate is close to the reference and keeps the imperious tone, so it works well. Dropping 'that' is slightly clipped, but it does not damage the effect."
+        }
+      ]
     },
     {
       "id": 4,
@@ -160,7 +167,14 @@
         }
       },
       "candidate": "Well, didn't I drop by at the right time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Didn't I drop by at the right time' correctly signals arrival rather than departure and keeps the cheerful tone. The phrasing is slightly wordy and less punchy than the casual original."
+        }
+      ]
     },
     {
       "id": 9,
@@ -185,7 +199,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"caviar\" (\"overseas caviar... Aubergine!\"), which the notes say will confuse viewers. It blurs the contrast between the real caviars and the cheap spread."
+          "justification": "The candidate calls the eggplant spread 'overseas caviar', which the analysis says must be avoided because it confuses viewers. Ending on 'Aubergine!' also leaves the inversion unclear, since the joke depends on the cheap spread being presented as a rare overseas delicacy."
         }
       ]
     },
@@ -207,7 +221,14 @@
         }
       },
       "candidate": "tape recorders, three;\ncine cameras, three;\ncigarette cases, domestic, three;\njacket, suede: three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The count is moved to the end of each item and 'three' appears for the jacket too, so the joke is lost. The original's humor lies in Shpak forgetting to increment the jacket count and betraying his lie, which the candidate's uniform 'three' erases. The 'three' also now reads as a count of the jacket, not a trailing pause, and the list lacks the hesitation of the original."
+        }
+      ]
     },
     {
       "id": 11,
@@ -225,23 +246,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The first line already says \"too\" and all three lines end in exclamation marks. This turns the calm, melodic resignation into emphatic shouting. It also loses the build-up from \"you\" to \"you too\" to \"me\"."
+          "justification": "The candidate drops the opening 'And they'll cure you' and adds exclamation marks, which turns the calm, melodic resignation into a more agitated delivery. The meaning of the cure is preserved, but the tone of weary acceptance is weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 2
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 12,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

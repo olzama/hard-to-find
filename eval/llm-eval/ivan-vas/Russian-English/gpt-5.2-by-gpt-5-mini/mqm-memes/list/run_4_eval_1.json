@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies current possession. The analysis explicitly notes these items are lost (they no longer have them); the original means each of them was deprived of the corresponding item. This reverses the intended meaning and undermines the comedic callback about stolen goods."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies current possession. The analysis (NB) makes clear the original means these items were lost/are missing (they no longer have them). This reverses the intended meaning and undermines the joke about discovered stolen goods."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Hello, Tsar—so pleased.\nSo pleased, hello, Tsar!\nTsar, so pleased!\nHello, Tsar! So pleased!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line must make clear Bunsha is introducing himself as the Tsar (not addressing an actual tsar). The candidate's phrasing ('Hello, Tsar—so pleased') reads like a direct address rather than a repetitive self-introduction, which weakens the gag based on him repeatedly proclaiming himself 'the Tsar.' This is a subtle but important shift from the analysis guidance."
+          "justification": "The line should make clear Bunsha is introducing himself as the Tsar (comic self-presentation), not addressing someone who is a tsar. The candidate reads like greetings directed TO a Tsar ('Hello, Tsar'), losing the crucial comedic premise noted in the analysis that he is repeatedly announcing himself as 'the Tsar.' This changes the joke's orientation and weakens the intended effect."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "candidate": "They bricked me in!\nThey bricked me in, the devils!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'They bricked me in, the devils!' risks making 'devils' sound like a vocative (addressing the devils) rather than the subject who walled him in, as the analysis requires. Also 'devils' is a slightly different register from 'demons' but still acceptable; the main issue is the potential shift to vocative phrasing."
+          "justification": "The original requires that 'demons' be the subject who walled him in (he's reporting '[they] walled me in, the demons'). The candidate's phrasing ('They bricked me in!... the devils!') risks making 'the devils!' a direct address rather than the subject, which conflicts with the NB guidance and alters the syntactic/semantic relationship crucial to the joke."
         }
       ]
     },
@@ -112,7 +112,14 @@
         "language_specific": {}
       },
       "candidate": "That’s what the life-giving cross can do!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the meaning but shifts register toward colloquial modern English ('That’s what the life-giving cross can do!') rather than the elevated, archaic religious tone implied in the analysis. This slightly weakens the regal/solemn effect but does not break the joke."
+        }
+      ]
     },
     {
       "id": 7,
@@ -157,7 +164,14 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The analysis warns against implying that the eggplant spread is actually 'caviar.' The candidate's lines ('Imported caviar... Eggplant!') risk leaving the relationship ambiguous and could be read as labeling the eggplant spread as another kind of caviar. The core joke remains, but the ambiguity may confuse the intended satirical contrast."
+        }
+      ]
     },
     {
       "id": 10,
@@ -192,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 3,
       "minor": 2
     },
-    "total_points": 7,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

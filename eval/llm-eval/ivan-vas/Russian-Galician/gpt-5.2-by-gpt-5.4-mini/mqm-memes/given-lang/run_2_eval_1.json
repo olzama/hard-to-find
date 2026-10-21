@@ -141,7 +141,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The duplicated final line 'De berenxena!' is awkward and unnecessary in a single subtitle segment, even though the core meaning and joke are preserved."
+          "justification": "The added line break and repeated final phrase make the subtitle slightly clunkier than the reference, though the joke and meaning remain clear."
         }
       ]
     },
@@ -160,10 +160,10 @@
       "candidate": "tres magnetófonos, tres cámaras de cine, tres cigarreiras nacionais, unha chaqueta… de ante… tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate starts with lowercase and omits the initial 'Tres', so it no longer faithfully reproduces Shpak's escalating list of stolen items. The count buildup is an important part of the joke."
+          "justification": "The candidate is missing the initial capitalization, which makes the subtitle look slightly less polished, but the content and comic effect are preserved."
         }
       ]
     },
@@ -185,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

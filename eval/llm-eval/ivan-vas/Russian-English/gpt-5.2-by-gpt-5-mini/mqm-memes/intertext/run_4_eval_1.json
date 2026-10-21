@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's lines 'Shpak has a tape recorder, the envoy has a medallion' use present possession ('has'), which contradicts the source/analysis NB: the items are no longer with those people (they were lost/stolen). This reverses the meaning and loses the comedic implication that these items are missing from their owners."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which incorrectly indicates current possession. The analysis explicitly notes these lines mean the items are missing (they were taken/lost), not that the characters possess them, so the candidate reverses the intended meaning."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads like someone addressing the Tsar ('So nice, Tsar!'), whereas the analysis specifies Bunsha is repeatedly introducing himself as 'the Tsar.' The translation therefore misrepresents the performative self-introduction and the gag that he is claiming to be the Tsar rather than speaking to one."
+          "justification": "The candidate reads as if Bunsha is addressing the Tsar ('So nice, Tsar! ... Hello, Tsar!'), whereas the analysis and NB require making clear he is repeatedly introducing himself as the Tsar (a comic self-introduction), not speaking to a tsar. This changes the comic premise and role-play central to the joke."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source and analysis make clear 'demons' are the subject who walled him in (not being addressed). The candidate's 'Walled up, demons!' reads as a vocative address to demons, which reverses the syntactic relation and the intended meaning."
+          "justification": "The source and analysis indicate the line means 'They've walled me in... Walled me in, the demons' (demons as the subject who did it). The candidate 'Walled up, demons!' reads like an address to demons or an ambiguous exclamation, changing the grammatical subject and the climactic horror of being imprisoned by 'demons.' This alters the intended meaning and tone."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'That’s what the life-giving cross can do!' conveys the basic idea but loses the archaic, elevated 'Behold' register of the original. This slightly weakens the historical/ritual tone of the line, though the core joke remains."
+          "justification": "The candidate 'That’s what the life-giving cross can do!' preserves the meaning but loses some of the high-register, archaic grandeur of the reference ('Behold the power of the life-giving cross!'). This softens the regal, solemn tone that contributes to the joke."
         }
       ]
     },
@@ -166,10 +166,10 @@
       "candidate": "Black caviar, red caviar…\nAnd! Overseas caviar…\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as 'Overseas caviar… Eggplant!' which risks presenting the eggplant spread as a kind of 'caviar.' The analysis explicitly warns against calling eggplant spread 'caviar'; the humor depends on contrasting precious caviar with cheap 'eggplant' spread, not naming the spread as caviar."
+          "justification": "The candidate's line 'Overseas caviar… Eggplant!' risks implying eggplant itself is caviar. The analysis warns translators not to call eggplant spread 'caviar'; the humour depends on treating the cheap eggplant spread as a distinct, ironically presented item. The phrasing here is potentially confusing and weakens that satirical inversion."
         }
       ]
     },
@@ -186,7 +186,14 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The comic point in the source is that Shpak inflates his losses and then slips up when counting (the joke hinges on the forgetful increment). The candidate lists 'three suede jackets' straightforwardly, removing the hesitance/miscount gag and thus erasing the key humorous mechanism."
+        }
+      ]
     },
     {
       "id": 11,
@@ -201,19 +208,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you too!\nAnd you’ll be cured too!\nAnd I’ll be cured too!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate preserves the meaning but the wording is slightly awkward and redundant ('And they’ll cure you too! / And you’ll be cured too!'), altering the original’s calm, melodic repetition. This makes the rhythm less natural and weakens the resigned tone in Ulyana Andreyevna's lines."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 1
+      "minor": 3
     },
-    "total_points": 21,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

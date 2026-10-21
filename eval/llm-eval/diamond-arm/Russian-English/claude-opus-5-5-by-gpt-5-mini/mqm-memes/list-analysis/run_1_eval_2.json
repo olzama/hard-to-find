@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The policeman's retort 'Drink enough and it will be!' is grammatically awkward in English and slightly unclear—'it' vaguely refers back to 'being in his place.' The meaning and humor are preserved, but the phrasing reads unnatural and weakens the punchline's immediacy."
+          "justification": "The policeman's line 'Drink enough and it will be!' is slightly awkward and less idiomatic than the intended punchline ('Get drunk enough, and you will be!'), which undermines the deadpan mockery. The overall meaning is preserved, but phrasing weakens the comic timing."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'I'm not a coward, but I'm scared...' conveys the meaning but loses the light, bouncing rhythmic charm of the original 'Trus/Boyus' rhyme. The line reads more prosaic and less endearing than the analysis requires."
+          "justification": "The candidate 'I'm not a coward, but I'm scared...' is accurate but loses the Russian's rhythmic, bouncing charm (Trus/Boyus rhyme) that makes the line lighthearted and endearing rather than plain. A more playful cadence would better capture the effect."
         }
       ]
     },
@@ -110,7 +110,14 @@
         "language_specific": {}
       },
       "candidate": "As our beloved boss says,\nif a man is an idiot,\nit's chronic.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Rendering 'это надолго' as 'it's chronic' keeps the sense of permanence but shifts register toward medical jargon; it slightly reduces the blunt, gnomic punch of the original line delivered as streetwise aphorism."
+        }
+      ]
     },
     {
       "id": 7,
@@ -150,7 +157,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the proverb-like structure but 'the ulcerous' is an awkward, non-idiomatic rendering of 'язвенники' (people with ulcers). It also loses the neat rhythmic pairing (trezvenniki/yazvenniki) that gives the original its punch; the line reads clunky in English."
+          "justification": "The candidate conveys the meaning but uses awkward, high-register words ('abstemious', 'ulcerous') and loses the rhythmic pairing that gives the original proverb-like feel. 'Ulcerous' is also an odd choice for a natural-sounding subtitle."
         }
       ]
     },
@@ -182,7 +189,14 @@
         "language_specific": {}
       },
       "candidate": "Just one tab-lyet will do...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The invented pronunciation 'tab-lyet' attempts to mirror the original mispronunciation but reads as slightly clumsy; it preserves the joke but is less punchy than the reference's 'tab-LEHT' stress play."
+        }
+      ]
     },
     {
       "id": 11,
@@ -217,7 +231,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source is a melodic, elongated sigh ('Semyo-o-on Semyonych!'). The candidate 'Semyon Semyonovich...' conveys the address but loses the musical prolongation and weary, drawn-out feeling implied in the analysis."
+          "justification": "The candidate 'Semyon Semyonovich...' is a faithful translation but drops the elongated, melodic sigh implied by the original ('Semyo-o-on Semyonych!'), reducing the drawn-out exasperation that characterizes the line."
         }
       ]
     },
@@ -390,13 +404,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 4
+      "minor": 6
     },
-    "total_points": 4,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.17391304347826086,
-    "major_equiv_per_unit": 0.034782608695652174,
-    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

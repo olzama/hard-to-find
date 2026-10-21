@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate replaces the boast 'I know a piglet or two' (expertise/experience) with 'I eat piglets every day', changing the meaning and making the menace more literal. It adds a rhyme not matching the source's idiom, though the rhymed couplet does keep a children's-play rhythm."
+          "justification": "The candidate drops the 'I know a piglet or two' boast of expertise and replaces it with a literal claim to eat piglets daily. This shifts the mock-menace from theatrical swagger to a crude statement, though the rhyme does preserve the nursery-rhyme feel."
         }
       ]
     },
@@ -43,7 +43,20 @@
         }
       },
       "candidate": "knock his horns off, rip his jaw off,\ngouge his peepers out! You'll spend\nyour whole life working to pay for medicine,",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate changes the person from 'you' to 'his' in the first clauses, and then switches back to 'you', which is inconsistent and muddles the threat."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The ending is the explanatory paraphrase the notes warn against ('spend your whole life working to pay for medicine'). It loses the compact verdict-like punch, and the trailing comma leaves the line unfinished."
+        }
+      ]
     },
     {
       "id": 3,
@@ -78,7 +91,14 @@
         }
       },
       "candidate": "This Vasily Alibabayevich...\nthis... bad person...\ndropped a radiator on my foot, the scumbag!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "'Bad person' is flat and loses the oddly restrained, moralizing euphemism of 'нехороший человек'. The reference's 'not-so-good person' keeps that quality, whereas this reads as a routine insult."
+        }
+      ]
     },
     {
       "id": 5,
@@ -98,7 +118,14 @@
         }
       },
       "candidate": "Steal, drink - off to prison.\nSteal, drink - off to prison.\nRomance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Romance!' is the bare rendering the notes warn against, as it reads as love or romantic relationship rather than ironic romanticization of a criminal life. 'Off to prison' keeps the formulaic cycle, which is fine."
+        }
+      ]
     },
     {
       "id": 6,
@@ -113,7 +140,14 @@
         "language_specific": {}
       },
       "candidate": "That's it! No movie today. The power's run out.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'The power's run out' is standard English and loses the deliberately unschooled flavor of 'кина' and the household-supply idea of electricity being used up. 'No movie today' adds 'today', which is a small addition."
+        }
+      ]
     },
     {
       "id": 7,
@@ -133,7 +167,14 @@
         }
       },
       "candidate": "Move the horsey, may I never walk free!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Horsey' keeps the unschooled non-technical piece name, though it sounds childish rather than uneducated. 'May I never walk free' is a weaker prison oath than the reference and loses the underworld solemnity."
+        }
+      ]
     },
     {
       "id": 8,
@@ -153,7 +194,14 @@
         }
       },
       "candidate": "- Was there a pond?\n- No. There were puddles.\nA monument, maybe?\n- There was a monument.\n- Whose monument?\n- How should I know? Some guy.\n- With a beard? - No!\n- With sideburns?\n- Don't remember. In a jacket!\n- Sitting? - What?\n- Is he sitting? - Who?\n- That guy of yours!\n- What a hick! You're something else!\nWho'd put him away? He's a monument!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate keeps the setup but replaces 'sitting' with 'put away' for the pun. 'Sitting?' vs. 'put him away' does give a seated/imprisoned reinterpretation, so the pun works, but 'put away' is less clearly tied to the earlier question than the Russian root-play, and 'No. There were puddles' alters the exchange slightly."
+        }
+      ]
     },
     {
       "id": 9,
@@ -173,7 +221,14 @@
         }
       },
       "candidate": "This ain't picking pockets for small change!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Picking pockets' is a neutral term and less low-register than slang such as 'lifting', so the petty-criminal register is weaker. The contrast with a serious job is preserved."
+        }
+      ]
     },
     {
       "id": 10,
@@ -193,7 +248,14 @@
         }
       },
       "candidate": "Yes, yes, OBKhSS.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate transliterates 'OBKhSS' unchanged, which is opaque to an English audience. The acoustic echo between 'Yes, yes' and an acronym ending in '-ess-ess' is lost, so the joke fails."
+        }
+      ]
     },
     {
       "id": 11,
@@ -213,7 +275,14 @@
         }
       },
       "candidate": "Hey, citizen! You no go there,\nyou go here,\nor snow fall on head -\nyou be totally dead!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The broken grammar in the warning is kept ('You no go there', 'snow fall on head', 'you be totally dead'). However, 'citizen' is spelled correctly, so the marked wrong address 'гражданина' is lost, and 'totally' is a lighter modifier than the reference."
+        }
+      ]
     },
     {
       "id": 12,
@@ -228,7 +297,14 @@
         "language_specific": {}
       },
       "candidate": "And in prison it's dinner now... macaroni.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The closing period on 'macaroni.' slightly weakens the wistful, delayed punchline compared to the exclamation, and the line is otherwise accurate."
+        }
+      ]
     },
     {
       "id": 13,
@@ -248,7 +324,14 @@
         }
       },
       "candidate": "- And why did you run?\n- Everybody ran, so I ran.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The inserted 'so' adds an explicit causal link and smooths the childlike parallel 'Everyone ran — I ran', which slightly weakens the minimal-reasoning effect."
+        }
+      ]
     },
     {
       "id": 14,
@@ -268,7 +351,14 @@
         }
       },
       "candidate": "Dinner is served! Sit down and stuff faces, please.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Sit down and stuff faces' makes the frame brusque rather than polite, as the notes warn. The missing article in 'stuff faces' also sounds clipped, and the ceremonial register clash is weaker."
+        }
+      ]
     },
     {
       "id": 15,
@@ -283,7 +373,14 @@
         "language_specific": {}
       },
       "candidate": "I'll rip your jaw off.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Rip your jaw off' is a plausible threat, but it loses the animalizing, stylized 'пасть'/'trap' slang quality, so it is more generic than the catchphrase."
+        }
+      ]
     },
     {
       "id": 16,
@@ -303,7 +400,14 @@
         }
       },
       "candidate": "- Miss, what's your name? - Tanya.\n- And I'm Fedya.\nWhat a dummy.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'What a dummy' is a gender-neutral, mild rendering, so the feminine insult is lost. The masculine-name-then-feminine-insult structure collapses, and the tone of 'дура' is softened. The notes explicitly warn against this."
+        }
+      ]
     },
     {
       "id": 17,
@@ -323,7 +427,14 @@
         }
       },
       "candidate": "Sweetie, don't you think your place\nis by the slop bucket?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Slop bucket' reduces 'параша' to a sanitary object, which the notes warn against. The prison-hierarchy meaning, assigning the addressee to the lowest status, is lost, though the patronizing 'Sweetie' and polite frame are kept."
+        }
+      ]
     },
     {
       "id": 18,
@@ -343,19 +454,26 @@
         }
       },
       "candidate": "Help! Hooligans are blinding me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "'Blinding me' drops the comically formal, bureaucratic 'зрения лишают' and just says he is being blinded, which is the plain version the notes contrast with. 'Hooligans' is also the marked British-sounding term the notes warn against."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 0
+      "major": 7,
+      "minor": 11
     },
-    "total_points": 5,
+    "total_points": 46,
     "meaning_units": 18,
-    "penalty_per_unit": 0.2777777777777778,
-    "major_equiv_per_unit": 0.05555555555555556,
-    "interpretation": "0.28 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5555555555555554,
+    "major_equiv_per_unit": 0.5111111111111111,
+    "interpretation": "2.56 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

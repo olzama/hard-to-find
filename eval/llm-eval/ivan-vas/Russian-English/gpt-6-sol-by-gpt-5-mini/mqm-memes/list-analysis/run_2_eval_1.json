@@ -186,7 +186,14 @@
         }
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestically made cigarette cases,\na suede jacket... three jackets.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate preserves the joke (the speaker's slip in counting), but the phrasing 'a suede jacket... three jackets' is slightly awkward and reads as a stilted repetition. A smoother rendering would make the comedic self-correction clearer without the clumsy cadence."
+        }
+      ]
     },
     {
       "id": 11,
@@ -207,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 0
+      "minor": 1
     },
-    "total_points": 0,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.0,
-    "major_equiv_per_unit": 0.0,
-    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

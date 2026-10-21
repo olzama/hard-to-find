@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies current possession. The analysis explicitly notes these phrases mean the items were lost (they are missing from these people). This reverses the intended meaning and undermines the joke about missing items."
+          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as 'Shpak has a tape recorder, the envoy has a medallion,' which implies possession. The analysis explicitly notes these items are no longer possessed (they were lost/stolen/walled off); the original meaning is that the items are missing (they've been taken or are gone). This reverses the informational core and undermines the joke about discovered losses."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as direct addresses to a Tsar ('Very pleased, Tsar!'), whereas the analysis requires that Bunsha be clearly introducing himself as the Tsar (an impersonation). The vocative phrasing changes the pragmatic intent and loses the comedic effect of self-introduction."
+          "justification": "The line must make clear Bunsha is introducing himself as 'the Tsar' (comic impersonation). The candidate reads as if the speaker is addressing the Tsar ('Very pleased, Tsar!'), not introducing himself as such, losing the core comedic misunderstanding described in the analysis."
         }
       ]
     },
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I'm in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses a modern contraction ('I'm in sorrow') which softens the archaic, high-register tone of the original line and reduces the contrast between regal speech and the Soviet setting. Meaning is preserved but register is weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -102,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line 'Walled up, demons!' reads as addressing demons (vocative), but the analysis/NB specifies that 'demons' are the subject who walled him in (he is not addressing them). The candidate thus misrepresents the syntactic and semantic role of 'demons' and the intended bewildered accusation."
+          "justification": "The Russian means 'They've walled me in... Walled me in, the demons' with 'demons' as the subject (i.e., he says demons have walled him in). The candidate 'Walled up, demons!' reads as if he is addressing the demons (vocative), which reverses the syntactic relation and changes the intended comic panic rooted in misunderstanding a mechanical failure as an act by demons."
         }
       ]
     },
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That's what the life-giving cross does!') is a colloquial rephrasing that preserves meaning but loses the elevated, solemn register ('Behold the power...') that produces comedic contrast in the scene."
+          "justification": "The candidate preserves the basic meaning but uses a colloquial conversational phrasing ('That's what the life-giving cross does!') rather than the elevated, archaic register of the reference ('Behold the power of the life-giving cross!'). This slightly weakens the period/royal tone important to the gag."
         }
       ]
     },
@@ -176,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "By rendering the line as 'Overseas caviar... Eggplant!' the candidate keeps 'caviar' tied to the overseas item and then simply 'Eggplant!' This risks readers interpreting eggplant as actual caviar rather than the ironic Soviet 'eggplant spread' contrast the analysis describes; it loses the clearer cue that the eggplant is a cheap spread rather than true caviar."
+          "justification": "The candidate separates 'Overseas caviar...' and then 'Eggplant!' but risks implying 'eggplant' is simply another kind of caviar. The analysis warns against calling the eggplant spread 'caviar' outright; the candidate's terse punctuation could confuse viewers about whether 'eggplant' is being labeled as caviar rather than as the cheap eggplant spread contrasted with true caviar."
         }
       ]
     },
@@ -195,10 +188,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate lists 'three suede jackets' as a completed plural item, removing the original's comic reveal where the speaker forgets to increment the count (the staggered 'domestic... a suede jacket... Three'). This change destroys the timing and the gag based on the growing tally, significantly harming the intended humor."
+          "justification": "The humor depends on the growing, slightly fumbling recounting and the momentary miscount (the count expanding with each item). The candidate lists items plainly ('3 ... three suede jackets') without conveying the incremental, self-contradictory buildup that makes the line funny, so the comic timing/effect is weakened."
         }
       ]
     },
@@ -215,26 +208,19 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you too!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate repeats 'And they'll cure you too!' twice at the start, which flattens the original's slightly varied, melodic resignation ('And they’ll cure you... and they’ll cure you too... and they’ll cure me...'). The repetition is natural but weakens the subtle progression and rhythm that create the comic effect."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 4
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

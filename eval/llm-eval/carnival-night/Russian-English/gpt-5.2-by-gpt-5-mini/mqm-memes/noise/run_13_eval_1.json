@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original’s «коротенько» has a diminutive, faux-modest tone that heightens the comic mismatch before the punchline. The candidate’s plain “briefly” lacks that cozy, patronizing nuance, so the deliberately absurd contrast with “forty minutes” is slightly weakened."
+          "justification": "The candidate preserves the structure (claim of brevity followed by 'forty minutes') but loses the diminutive, faintly self-satisfied tone of «коротенько». The phrasing is more neutral and less mock-modest, slightly weakening the comic mismatch between 'brief' and an obviously long duration."
         }
       ]
     },
@@ -127,10 +127,10 @@
       "candidate": "But as soon as we take\na telescope...\nAnd look with the armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate’s literal calque “armed eye” makes the phrase sound oddly surreal in English rather than mock‑scientific. The analysis advised avoiding a direct calque; a solution like “aided eye” better preserves the near‑correct, pseudo‑scientific humor."
+          "justification": "The candidate renders «вооружённым глазом» as 'armed eye,' a literal calque that in English reads as surreal and oddly violent rather than the intended mock‑scientific deformation of the idiom. This loses the subtle parody of pseudo‑science present in the original; a milder solution (e.g. 'aided/assisted eye') would better recreate the double effect."
         }
       ]
     },
@@ -178,21 +178,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the factual content but renders «Наука ещё пока не в курсе дела» as the slightly stiffer “Science is not yet informed.” This loses some of the original’s conversational, colloquial flavor that supplies much of the comic effect."
+          "justification": "The candidate keeps the factual point but 'Science is not yet informed' reads slightly stiff and impersonal compared with the intended colloquial, conversational shrug ('science still isn’t up to speed' / 'science hasn’t been briefed'). The more casual register of the original is weakened here."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

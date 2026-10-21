@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The rhymed, rhythmic boast is lost; 'fierce and frightening wolf' drops the Big Bad Wolf identity and nursery-play mock menace. 'Know just what to do with pigs' is flat and loses the 'know a thing or two about piglets' swagger and the diminutive 'piglets'."
+          "justification": "Loses the 'Big Bad Wolf' fairy-tale persona and the rhymed, rhythmic mock-menace boast. 'Fierce and frightening wolf' is flat and 'know just what to do with pigs' is generic, without the playful 'know a piglet or two' swagger."
         }
       ]
     },
@@ -43,7 +43,20 @@
         }
       },
       "candidate": "I'll knock your horns off,\nrip your mouth off, gouge your peepers out!\nYou'll work your whole life to pay for medicine,",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Knock your horns off' is the literal rendering the notes warn against, and 'rip your mouth off' is less idiomatic than 'rip your trap'."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The ending 'You'll work your whole life to pay for medicine,' is an explanatory paraphrase that loses the compact, verdict-like landing, and the trailing comma leaves it unfinished."
+        }
+      ]
     },
     {
       "id": 3,
@@ -58,7 +71,14 @@
         "language_specific": {}
       },
       "candidate": "How many men I've stabbed and slain,\nhow many souls I've damned!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The folk-song refrain quality is partly kept through the rhythm, but 'stabbed and slain' drops the repeated 'how many' structure and the 'slashed' step, so the sing-song accumulation is weaker. 'Men' is also an addition."
+        }
+      ]
     },
     {
       "id": 4,
@@ -78,7 +98,20 @@
         }
       },
       "candidate": "That Vasily Alibabayevich...\nthat bad person...\ndropped a radiator on my foot, the swine!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "'Bad person' is a plain, flat label and loses the oddly restrained, euphemistic 'not-so-good person' quality of «нехороший человек», so the failed re-education joke is weakened."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Swine' is milder and more old-fashioned than the rough contemptuous prison register of «падла»."
+        }
+      ]
     },
     {
       "id": 5,
@@ -98,7 +131,14 @@
         }
       },
       "candidate": "Steal, drink, prison.\nSteal, drink, prison.\nHow romantic!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Steal, drink, prison' keeps the formulaic cycle, but 'How romantic!' reads as a sarcastic quip rather than the bare ironic 'Romantic!'. Dropping 'go to jail' also loses some of the proverb-like cadence."
+        }
+      ]
     },
     {
       "id": 6,
@@ -115,10 +155,10 @@
       "candidate": "That's it—no movie. Power's out.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'Power's out' is standard, idiomatic English and loses the folksy, unschooled flavor of 'electricity's all gone' (the used-up household supply idea) and of 'кина'."
+          "justification": "'Power's out' is standard and technical, and loses the unschooled, household-supply notion that the electricity has been used up ('all gone'). The deliberately uneducated voice is gone."
         }
       ]
     },
@@ -140,7 +180,14 @@
         }
       },
       "candidate": "Move the horse!\nGet lost!\nMove the horse, I swear on my freedom!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The inserted 'Get lost!' is an unmotivated addition that distorts the advice. 'I swear on my freedom' flattens the prison-coded oath «век воли не видать» into ordinary freedom, which the notes warn against. 'Move the horse' is correctly kept."
+        }
+      ]
     },
     {
       "id": 8,
@@ -160,7 +207,20 @@
         }
       },
       "candidate": "- Was there a pond?\n- No. There were puddles.\nMaybe a monument?\n- There was a monument.\n- To whom?\n- How would I know? Some man.\n- With a beard? - No!\n- Sideburns?\n- I don't remember. He wore a jacket!\n- Seated? - What?\n- Was he sitting? - Who?\n- Your man!\n- What a fool! Honestly!\nWho'd lock him up? He's a monument!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The pun is not recreated. 'Seated' / 'sitting' in the setup and 'lock him up' in the punchline do not share a hook, so the sit/put-in-prison pivot is lost and the joke does not work in English. The 'inside' ambiguity is not built."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'What a fool! Honestly!' does not convey the 'what a hick' mockery of the city-vs-village angle."
+        }
+      ]
     },
     {
       "id": 9,
@@ -180,7 +240,14 @@
         }
       },
       "candidate": "This isn't some petty pickpocketing job!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Petty pickpocketing job' is neutral and descriptive and lacks the low slang register of «тырить», although the petty-versus-serious contrast is kept."
+        }
+      ]
     },
     {
       "id": 10,
@@ -200,7 +267,14 @@
         }
       },
       "candidate": "Yes, yes, OBKhSS.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Transliterating 'OBKhSS' leaves an acronym that means nothing to an English audience and gives no sound echo with 'Yes, yes'. The code-switch rhyme effect is lost, and no equivalent such as IRS or FBI is used."
+        }
+      ]
     },
     {
       "id": 11,
@@ -220,7 +294,14 @@
         }
       },
       "candidate": "Hey, citizen! Don't go that way.\nGo this way!\nSnow fall on head that way.\nYou be dead completely!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Citizen' is spelled correctly, so the grammatically wrong address «гражданина» is not reflected. The broken grammar elsewhere ('Snow fall on head', 'You be dead completely') is preserved, though 'that way' is a redundant addition."
+        }
+      ]
     },
     {
       "id": 12,
@@ -235,7 +316,14 @@
         "language_specific": {}
       },
       "candidate": "They'll be having dinner in prison now...\npasta.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'They'll be having dinner' is a speculative future construction and is wordier than the immediate 'it's dinner now'. 'Pasta' also drops the earthier prison-canteen 'macaroni' as the punchline."
+        }
+      ]
     },
     {
       "id": 13,
@@ -255,7 +343,14 @@
         }
       },
       "candidate": "- Why did you run?\n- Everyone ran, so I ran too.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Everyone ran, so I ran too' adds the causal 'so' and 'too', smoothing the childlike bare parallelism of «Все побежали — и я побежал»."
+        }
+      ]
     },
     {
       "id": 14,
@@ -290,7 +385,14 @@
         "language_specific": {}
       },
       "candidate": "I'll rip your mouth off.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Rip your mouth off' is less idiomatic than 'rip your trap' and loses the animalizing, rough-stylized flavor of «пасть», though the threat is conveyed."
+        }
+      ]
     },
     {
       "id": 16,
@@ -310,7 +412,14 @@
         }
       },
       "candidate": "- What's your name, miss? - Tanya.\n- Mine's Fedya.\nSilly cow.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "'Silly cow' is the kind of mild, mismatched feminine insult the notes warn about. It distorts the tone of «дура», though the feminine-masculine-feminine structure is preserved."
+        }
+      ]
     },
     {
       "id": 17,
@@ -330,7 +439,14 @@
         }
       },
       "candidate": "Sweetheart, shouldn't your place\nbe next to the slop bucket?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Slop bucket' is the literal sanitary image the notes warn against. The prison-hierarchy meaning, assigning the addressee to the lowest status in the cell, is lost, and the line reads as a mild insult about location."
+        }
+      ]
     },
     {
       "id": 18,
@@ -350,19 +466,26 @@
         }
       },
       "candidate": "Help! Hooligans are blinding me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "'Hooligans are blinding me' loses the comically formal, bureaucratic «зрения лишают» (depriving me of sight), reducing it to a plain panic cry. 'Hooligans' is also the marked British-sounding choice the notes ask to avoid."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 9,
+      "minor": 11
     },
-    "total_points": 6,
+    "total_points": 56,
     "meaning_units": 18,
-    "penalty_per_unit": 0.3333333333333333,
-    "major_equiv_per_unit": 0.06666666666666667,
-    "interpretation": "0.33 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.111111111111111,
+    "major_equiv_per_unit": 0.6222222222222222,
+    "interpretation": "3.11 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

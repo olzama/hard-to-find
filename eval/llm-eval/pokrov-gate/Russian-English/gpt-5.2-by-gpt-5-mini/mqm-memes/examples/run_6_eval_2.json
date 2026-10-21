@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the meaning and the teasing demand for names, but its phrasing ('Name one! No, I'm waiting.') is flatter and less theatrically self-dramatic than the reference. It weakens the heightened, mock-grandiose tone the analysis highlights."
+        }
+      ]
     },
     {
       "id": 2,
@@ -31,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "why don't we knock back a shot?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The idiom 'knock back a shot' works and captures the casual, ironic deflation of the previous speech, but the candidate starts with a lowercase letter which is a punctuation/fluency flaw for subtitles."
+        }
+      ]
     },
     {
       "id": 3,
@@ -51,7 +65,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'High... high relations.' renders the line as a literal noun phrase and loses the sarcastic, exclamatory refrain and stuttering mockery present in the original and reference. This weakens the iconic comic effect and the repeated, contemptuous delivery that marks the phrase in the film."
+          "justification": "Rendering the line as the literal noun phrase 'High... high relations.' produces an unnatural, flat exclamation in English and loses the sarcastic, repeated refrained delivery. The translation fails to capture the idiomatic, mocking exclamatory effect emphasized in the analysis."
         }
       ]
     },
@@ -73,7 +87,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Using 'conscience' ('live for conscience') shifts the nuance away from the military/ duty sense implied in the analysis and reference ('live to do your duty'). The line still conveys self-denial but the moral/obligation emphasis is softened."
+          "justification": "The candidate keeps the general meaning but shifts register by using 'conscience' instead of the more idiomatic 'duty' or 'to be happy.' This makes the line slightly more abstract and less aligned with the soldierly, pragmatic fatalism noted in the analysis."
         }
       ]
     },
@@ -107,10 +121,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' turns the cutting ironic insult into apparent praise. The original comedic effect relies on using a neutral profession as a sharp domestic rebuke ('Some cook you are!'); the candidate reverses the intended ironic meaning."
+          "justification": "The candidate 'Culinary genius!' is idiomatic but changes the insult's bite and register: instead of a sharp domestic retort using an absurd professional term as a rebuke, it reads more like (possibly sarcastic) praise, which weakens the original scathing, commanding effect."
         }
       ]
     },
@@ -144,10 +158,10 @@
       "candidate": "Cut it out to hell.\nDon't wait for peritonitis.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The phrasing 'Cut it out to hell.' is an unnatural, unidiomatic rendering of the blunt surgical injunction. It distorts the forceful, coarse imperative of the original; the second line preserves the intended meaning."
+          "justification": "The phrase 'Cut it out to hell.' is unidiomatic and obscures the abrupt, brutal surgical imperative of the original. It fails to reproduce the coarse, decisive punchline ('Cut it the hell out' / 'Cut it the hell out, don't wait for peritonitis') that provides the comic-medical contrast in the scene."
         }
       ]
     },
@@ -166,10 +180,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "terminology",
           "span": "",
-          "justification": "The candidate spells the name 'Khabotov' instead of 'Khobotov' (reference). This alters the proper name, undermining character identification and consistency with the film's established transliteration."
+          "justification": "The surname is rendered as 'Khabotov' rather than the expected 'Khobotov' (or consistent transliteration used in the reference). This variation is a minor inconsistency in proper-name spelling but does not change meaning."
         }
       ]
     },
@@ -188,10 +202,10 @@
       "candidate": "This is my cross!\nAnd it's mine to bear.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "Splitting the fixed idiom across two lines ('This is my cross! / And it's mine to bear.') makes the expression less idiomatic than the reference's single-phrase equivalent ('my cross to bear'). The manipulative, hyperbolic tone is largely preserved but weakened by the literal split."
+          "justification": "The candidate splits and literalizes the idiom ('This is my cross! And it's mine to bear.'), which breaks the English fixed expression 'a cross to bear' and reduces the manipulative, hyperbolic tone. This undermines the line's rhetorical function as theatrical self-sacrifice described in the analysis."
         }
       ]
     },
@@ -213,7 +227,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using 'angular' reproduces the literal sense warned against in the analysis. While the overall self-deprecating effect remains, 'angular' sounds overly literal and odd in English compared with a more idiomatic rendering of the Russian."
+          "justification": "Using 'angular' for 'угловатая' mirrors the Russian literally and reads oddly in English, as warned in the analysis. While the rest of the self-deprecatory list works, 'angular' weakens the naturalness and idiomatic quality of the characterization."
         }
       ]
     }
@@ -221,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 4
+      "minor": 6
     },
-    "total_points": 19,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

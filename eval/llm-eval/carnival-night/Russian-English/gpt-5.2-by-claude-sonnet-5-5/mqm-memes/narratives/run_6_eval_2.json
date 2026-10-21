@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Hire\" fits the workplace logic, but \"raise\" in a \"team\" is slightly more fairy-tale/parental than the reference's bureaucratic \"train in-house\"; the staffing/educational joke is slightly softened. Keeping \"Baba Yaga\" untranslated also loses the immediate social-type association of 'a nasty woman' for non-Russian viewers."
+          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic and the workplace-type reading, and \"raise one in our own team\" works as the in-house cultivation joke. However, leaving \"Baba Yaga\" untranslated means English viewers may get only the folkloric reading and miss the 'nasty woman in the collective' type that the analysis stresses. The exclamation mark also adds a slightly more emphatic tone than Ogurtsov's deadpan delivery."
         }
       ]
     },
@@ -70,13 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest diminutive sense of «коротенько» is lost: \"briefly\" has no cozy, patronizing tone, and the clause \"no more, I think, is needed\" is awkwardly ordered. The comic contrast with \"forty minutes\" is weakened, and the line lacks the managerial self-satisfaction described in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"no more, I think, is needed\" is stilted, unnatural English word order for spoken dialogue."
+          "justification": "The faux-modest 'коротенько' (briefly, in a cozy diminutive) is rendered plainly as 'briefly', and the clash with 'forty minutes' is weakened. The awkward inverted 'no more, I think, is needed' also loses the smug, self-satisfied managerial tone. The essential comic reversal is only partly preserved."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready a long time ago!\" is only literal readiness and has no intoxication subtext; the grammar is also odd (\"is ready—ready a long time ago\"), so the joke disappears."
+          "justification": "The double meaning of 'готов' (ready / drunk) is not recreated. 'Ready a long time ago' sounds like an odd phrase and carries no hint of intoxication, so the central joke is lost and only the administrative surface remains. 'Ready a long time ago' also shifts the meaning from 'has been ready for a while' to a past event."
         }
       ]
     },
@@ -123,14 +117,7 @@
         }
       },
       "candidate": "- People!.. Ah... A-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The broken, stretched vocalization of «Лю-ди!» is normalized to a clean \"People!\", losing the drunken faltering of the opening. \"A-oo\" does keep some wavering sound for the second cry, so the damage is partial."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -157,13 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is a literal calque that the analysis explicitly says to avoid. It sounds surreal rather than echoing the familiar idiom \"unaided/naked eye\", so the mock-scientific idiom distortion is not recreated."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The ending with a comma and the shift to \"an\" armed eye is slightly off; the exclamatory pomp of the original is flattened."
+          "justification": "'Armed eye' is the literal calque the analysis explicitly warns against. It sounds more surreal than the Russian and does not echo 'unaided eye', so the idea of a familiar idiom being wrongly 'upgraded' into mock-scientific language is lost. Also, the original has an exclamation-driven pompous delivery while the candidate ends with a flat comma."
         }
       ]
     },
@@ -189,10 +170,10 @@
       "candidate": "and we already see two little stars,\nthree little stars...\nFour little stars—best of all, of course,\nfive little stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is broken: the \"five stars\" punchline is mangled by \"Four little stars—best of all, of course, five little stars!\", which blurs the buildup (two, three, four…) and the sudden click into the cognac frame. \"Little stars\" throughout makes it sound childish rather than evoking the cognac star rating, and no cue to the cognac association is given."
+          "justification": "The counting progression is kept and 'little stars' captures the childish tone, so the derailment works. However, 'Four little stars—best of all, of course, five little stars' blurs the buildup by folding the fourth star into the punchline, and nothing signals the cognac association for English viewers (the analysis suggests a note may be needed). The sudden click into a different semantic world is weaker."
         }
       ]
     },
@@ -218,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet in the know\" is reasonably colloquial, but \"Is there life on Mars, is there no life on Mars\" is a stiff calque and \"science does not know\" is flatter and more formal than the original's casual phrasing; the register mismatch is slightly weakened though the content is preserved."
+          "justification": "Meaning and the personified 'Science is not yet in the know' are preserved, and the colloquial register is largely kept. 'Is there no life on Mars' is a slightly stilted rendering of the 'нет ли' parallel, and 'science does not know' is a bit more formal than the Russian 'это науке неизвестно', so the casual mismatch is slightly weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 25,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 3.125,
-    "major_equiv_per_unit": 0.625,
-    "interpretation": "3.12 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -63,7 +63,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the opening \"коротенько\" (\"And briefly\"). The joke depends on the faux-modest claim of brevity coming before \"forty minutes\", so the comic reversal is lost and the line becomes a flat statement of duration."
+          "justification": "The word «коротенько» (\"briefly\") is omitted. The joke depends on that faux-modest claim of brevity coming right before \"forty minutes\". Without it the comic reversal and Ogurtsov's self-satisfied, tone-deaf moderation are lost. What remains is a flat statement of duration."
         }
       ]
     },
@@ -147,14 +147,7 @@
         }
       },
       "candidate": "As we can already see, two stars, three stars, four stars… But of course five stars is best!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate keeps the star progression and the punchline, but it leaves out the note explaining that five stars refers to the best cognac. Most English-speaking viewers will not make that association, so the shift from astronomy to drink may not land."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -179,13 +172,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 1
+      "minor": 0
     },
-    "total_points": 6,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 0.75,
-    "major_equiv_per_unit": 0.15,
-    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

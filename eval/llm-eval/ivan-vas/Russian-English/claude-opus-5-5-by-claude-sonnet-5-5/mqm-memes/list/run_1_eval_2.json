@@ -21,14 +21,7 @@
         }
       },
       "candidate": "Once again I'm tormented\nby vague suspicions...\nShpak - a tape recorder,\nthe ambassador - a medallion.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Tormented by vague suspicions\" keeps the mock-heroic register reasonably, but \"suspicions\" is a bit more concrete than \"doubts\" and the phrase loses some of the literary 'haunt' flavor. The dash structure \"Shpak - a tape recorder\" conveys loss acceptably, so the effect is only slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -48,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"Pleased to meet you, Tsar!\", which reads as Bunsha addressing a Tsar. The analysis/nb requires making clear that he is introducing himself as the Tsar. Nothing in the lines signals self-introduction, so the core joke is lost."
+          "justification": "\"Pleased to meet you, Tsar!\" reads as Bunsha addressing a Tsar, not introducing himself as the Tsar. This contradicts the analysis note and loses the drunken self-introduction joke. The reference uses \"I'm the Tsar\" / \"the Tsar\" to make the self-introduction clear."
         }
       ]
     },
@@ -140,14 +133,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Everybody dance!\" is accurate in meaning, but it is a plain imperative and loses some of the host-like, grandly permissive tone of the reference. The chaotic party-leader effect is still conveyed."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -192,7 +178,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread \"overseas caviar\" and \"Eggplant!\" follows it, which the nb explicitly forbids because it confuses viewers. It also drops the comedic contrast between true caviar and a cheap spread presented as a delicacy."
+          "justification": "The candidate calls the eggplant spread \"overseas caviar... Eggplant!\", which the analysis explicitly warns against because it confuses viewers. It also loses the contrast between luxury caviar and a cheap canned spread presented as an exotic delicacy, and \"Caviar, black, red\" blurs the list structure."
         }
       ]
     },
@@ -214,14 +200,7 @@
         }
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\na suede jacket... three.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Using numerals \"3\" in place of the word \"three\" is a stylistic weakening for spoken subtitle text. It also moves \"domestic\" to modify only cigarette cases, which is acceptable. The key joke (the jacket count lagging, \"three\" added late) is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -242,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 3
+      "minor": 0
     },
-    "total_points": 13,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

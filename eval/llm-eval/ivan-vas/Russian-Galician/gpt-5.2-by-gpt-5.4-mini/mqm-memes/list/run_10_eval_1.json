@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says the items are currently with Shpak and the ambassador ('hai...'), but the line means they are missing from them, matching the theft callback described in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The phrasing is less idiomatic and less mock-heroic than the reference; 'Volven asaltarme' weakens the theatrical, high-register comic tone."
+          "justification": "The candidate reverses the key meaning from loss to possession: it says Shpak and the ambassador 'have' the items, while the line is about them having lost them. This breaks the callback joke noted in the analysis."
         }
       ]
     },
@@ -49,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate turns the line into greetings to the tsar ('Encantada, tsar!') instead of Bunsha repeatedly introducing himself as the Tsar, which changes the joke and contradicts the analysis."
+          "justification": "The line should clearly sound like Bunsha introducing himself as the tsar, but the candidate reads as if someone is being addressed as 'tsar' and uses the wrong perspective throughout. That obscures the comic self-introduction central to the line."
         },
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Because it addresses the tsar rather than self-identifying, it loses the absurd repetitive formal self-introduction that creates the comedic effect."
+          "justification": "The wording is less natural as a repetitive formal greeting and loses some of the bland, bureaucratic-social cadence that makes the joke work."
         }
       ]
     },
@@ -90,9 +84,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'Estou de pena' is understandable, but it is less natural and less elevated than the reference's lamenting tone; the melancholy archaic flavor is slightly weakened."
+          "justification": "'Estou de pena' is understandable, but it is slightly less idiomatic and less elevated than the reference’s 'estou aflixido,' softening the mock-archaic royal tone."
         }
       ]
     },
@@ -112,9 +106,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The two-line repetition is acceptable, but the punctuation and split make the line slightly less smooth and punchy than the original exclamation."
+          "justification": "Splitting the utterance into two lines is acceptable, but the second line is somewhat flatter and less ghostly than the repeated complaint in the reference, slightly weakening the frantic trapped-in-the-elevator effect."
         }
       ]
     },
@@ -131,14 +125,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Mira' is slightly more colloquial than the reference's more solemn 'Velaquí', which softens the mock-biblical, emphatic register."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -153,14 +140,7 @@
         "language_specific": {}
       },
       "candidate": "Que baile todo o mundo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The meaning is correct, but 'Que baile todo o mundo!' is a bit less crisp and festive than the imperative force of 'Todos a bailar!', so the dance-call sounds slightly weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -180,7 +160,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate means 'I arrived here well' rather than 'I happened to drop in/usefully came in'; it loses the sense that he has just entered and accidentally found a good situation, which is central to the joke."
+          "justification": "'Que ben cheguei!' means 'I arrived well / I got here fine,' which misses the point that he has just stumbled into a lucky situation. The triumphant, opportunistic tone of 'I hit the jackpot here' is lost."
         }
       ]
     },
@@ -202,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Caviar de ultramar' omits the crucial comic mislabeling of eggplant spread as a distinct 'eggplant' item; the final punchline is lost or obscured, contrary to the analysis."
+          "justification": "The candidate drops the crucial joke about 'eggplant caviar' by rendering only 'caviar from overseas' and then 'eggplant' separately. This obscures the satirical inversion of Soviet shortages that the analysis highlights."
         }
       ]
     },
@@ -224,13 +204,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes 'three suitcases/briefcases' into 'three' only at the end, but the original joke depends on the escalating, inconsistent counting of a specific item list; the inventory is incomplete and the comic structure is damaged."
+          "justification": "The famous escalating count is broken by replacing the repeated list with bare numerals and by compressing the final phrase. The joke depends on the cumulative, breathless inventory and the self-incriminating count error."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Pitilleiras' and the compressed formatting are slightly less vivid and natural than the reference's enumerative, boastful police-report style."
+          "justification": "The shortened, list-like formatting is less comic and less speech-like than the original boastful, rapidly escalating police report."
         }
       ]
     },
@@ -252,14 +232,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 6
+      "major": 5,
+      "minor": 4
     },
-    "total_points": 36,
+    "total_points": 29,
     "meaning_units": 11,
-    "penalty_per_unit": 3.272727272727273,
-    "major_equiv_per_unit": 0.6545454545454545,
-    "interpretation": "3.27 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.6363636363636362,
+    "major_equiv_per_unit": 0.5272727272727272,
+    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

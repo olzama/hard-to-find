@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction to greet\nthe New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is an instruction\" keeps the directive/bureaucratic framing, but \"greet the New Year cheerfully\" is slightly less natural than \"celebrate merrily\" and loses a bit of the dry officialese. The core joke is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,13 +44,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word \"коллектив\" is left untranslated in the English subtitle, which breaks the line for English viewers and is a clear untranslated-material error."
+          "justification": "The Russian word 'коллектив' is left untranslated in the English subtitle, breaking the line for the target audience. The English 'in our own team/workplace/collective' is needed to carry the workplace/social logic."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one\" and \"hiring\" are acceptable, but \"raise\" leans toward child-rearing and weakens the workplace/staffing logic of \"train in-house\" the analysis stresses."
+          "justification": "'Raise one' evokes upbringing of a child or animal rather than the managerial staff-training tone of 'train in-house', slightly weakening the bureaucratic workplace logic."
         }
       ]
     },
@@ -83,7 +76,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Just briefly\" is flat and loses the diminutive, faux-modest, cozy tone of «коротенько», so the contrast with \"forty minutes\" is weaker. The order (brief before duration) is preserved."
+          "justification": "The candidate keeps the 'briefly' before 'forty minutes' order, but the flat 'just briefly' and 'more is necessary' lose some of the cozy faux-modesty of 'коротенько' and the self-satisfied managerial tone, so the comic reversal is a bit weaker."
         }
       ]
     },
@@ -109,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders only the literal \"ready\" and does not recreate the double sense of drunkenness. \"Been ready a long time!\" adds a hint through the exclamation, but the alcoholic subtext, which is the whole joke, is essentially lost."
+          "justification": "The candidate keeps only the surface meaning 'ready'. The double sense of 'готов' (drunk/done for) is not recreated, so the central joke is lost. 'Been ready a long time!' has no hint of intoxication."
         }
       ]
     },
@@ -133,9 +126,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The drunken, stretched vocalization is only partly kept: \"People!..\" is a clean word rather than a broken \"Peo-ple!\", and \"A-oo\" is a reasonable stand-in for «ау-у» but less wavering than \"hellooo\". The faltering effect is weakened but still present."
+          "justification": "The broken, stretched vocalization is only partly kept: 'People!..' is a clean word without the stretched 'Peo-ple' syllable break, and 'A-oo' is a weaker drunken call than 'hellooo'. The faltering drunken quality is reduced."
         }
       ]
     },
@@ -164,7 +157,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is a literal calque that the analysis specifically says to avoid. It sounds surreal rather than echoing \"unaided eye\", so the mangled-idiom joke does not register in English."
+          "justification": "'Armed eye' is the literal calque the analysis warns against. It does not echo a recognizable English idiom such as 'unaided eye', so the malformed-idiom joke (mock-scientific upgrade of a familiar phrase) does not come across and reads as merely surreal."
         }
       ]
     },
@@ -193,7 +186,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression and final \"five little stars\" are kept, so the derailment structure works. The cognac association is not signalled at all, and the trivial counting is slightly shifted by the dash placement. The reference adds a note; the candidate lacks it, so the final click into the cognac frame is less accessible."
+          "justification": "The progression and the 'five stars' punchline are preserved, but the cognac association is not signalled in any way, and 'little stars' makes the cognac link less clear. The derailment into another semantic domain may be missed by English viewers."
         }
       ]
     },
@@ -219,7 +212,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet in the know\" captures the colloquial personification well, but \"science does not know\" is a bit more neutral than the flat «неизвестно» phrasing and the doubled \"whether there isn't life\" is slightly awkward. The register mismatch is largely preserved."
+          "justification": "'Science is not yet in the know' preserves the colloquial personification well, but the opening 'whether there isn't life on Mars' is slightly stilted, and 'science does not know' is a bit more formal than the flat colloquial register of the original."
         }
       ]
     }
@@ -227,13 +220,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 21,
+    "total_points": 20,
     "meaning_units": 8,
-    "penalty_per_unit": 2.625,
-    "major_equiv_per_unit": 0.525,
-    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5,
+    "major_equiv_per_unit": 0.5,
+    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -25,7 +25,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"There is a directive\" keeps the bureaucratic register, but \"in a merry manner\" is stilted and slightly clunky; it weakens the dry deadpan clash with festive content slightly versus a smoother phrasing."
+          "justification": "\"There is a directive\" keeps the bureaucratic, top-down register and the clash with festive content. \"In a merry manner\" is slightly stilted and wordy, but it still reads as officialese, so the effect is only mildly affected."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "briefly—just\nabout forty minutes, no more,\nI think that should be enough",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest diminutive sense of «коротенько» is flattened: \"briefly—just about forty minutes\" keeps the briefness-then-duration order, but \"just about\" and the lack of patronizing coziness make the smug understatement weaker. \"No more, I think that should be enough\" is acceptable but loses some of the self-satisfied managerial tone."
+          "justification": "The faux-modesty of «коротенько» is lost. The candidate has \"briefly—just about forty minutes\", but \"just about\" reads as approximation rather than smug understatement. \"No more\" and \"I think that should be enough\" are close to the source. The briefness claim does come first, so the reversal survives, but the patronizing diminutive tone is weakened."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «готов» only as \"ready\" with no recreation of the double sense (drunk/done for). The English \"has been ready for a long time!\" carries no hint of intoxication, so the core joke described in the analysis disappears. The reference at least adds \"Oh, he's ready\" with insinuating tone."
+          "justification": "The candidate renders only the literal \"ready\" and does not recreate the double sense of «готов» (ready / drunk). The joke is lost, and nothing in the English hints at intoxication, which the analysis warns against."
         }
       ]
     },
@@ -122,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, stretched vocalization is only partly preserved: \"People!..\" is a clean, unbroken word, losing the faltering syllabic split (\"Peo-ple!\") that signals drunken collapse. \"Ah... heeey!\" does keep some wavering, so the damage is limited."
+          "justification": "The broken, wavering delivery is partly kept with \"People!.. Ah... heeey!\", but \"People!\" is not stretched or split like \"Peo-ple\", so the drunken vocal instability is weaker. \"Heeey\" is acceptable for «ау-у»."
         }
       ]
     },
@@ -151,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It lacks any echo of the \"unaided eye\" idiom, so the audience does not hear a familiar expression being wrongly upgraded; it reads as merely strange/surreal and the mock-scientific malapropism is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The exclamatory rhythm of the source is flattened: \"We only need to take a telescope...\" and the trailing comma ending lose the pompous build-up and the \"all we have to do\" emphasis."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid. It sounds surreal rather than like a familiar idiom wrongly upgraded (cf. \"unaided eye\"), so the mock-scientific malformed-idiom joke does not land for an English audience."
         }
       ]
     },
@@ -186,13 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline is garbled: \"Four stars—best of all, of course—five stars!\" makes four stars part of the best-of-all statement and breaks the counting progression (two, three, four… then five is best). The sudden click from silly counting to the cognac frame is blurred, and the word order/segmentation muddles the derailed delivery."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "No note or cue conveys the five-star cognac association, which the analysis says non-Soviet viewers may need; the reference supplies a translator's note. Also \"and we already see\" drops the lecture-like \"As we can already see\" tone."
+          "justification": "The punchline is broken. The source builds up to five stars as the best, but the candidate says \"Four stars—best of all, of course—five stars!\", which muddles the logic and makes four stars the best. The sudden click into the cognac frame is therefore lost, and the line is merely confusing. The cognac association is also left unexplained, though the reference gives a note."
         }
       ]
     },
@@ -218,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" is a faithful, slightly clunky rendering of the colloquial source, and \"science does not know\" is somewhat more formal than «это науке неизвестно». The final \"Science isn't in the know yet\" keeps the casual personification well, so only a small register inconsistency remains."
+          "justification": "The content and casual register are well preserved, and \"isn't in the know yet\" is a good colloquial equivalent. \"Is there life on Mars, is there no life on Mars\" is slightly clunky as a calque of the paired structure, but it still reads as loose speech."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 6
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 21,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 2.625,
-    "major_equiv_per_unit": 0.525,
-    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

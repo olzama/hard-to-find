@@ -26,13 +26,13 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'medalla' (medal) does not match 'медальон' (medallion); the reference uses 'medallón'. This changes the object."
+          "justification": "The source object is a medallion (медальон), but 'medalla' means a medal. This changes the stolen item, which the reference renders as 'medallón'."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The bare elliptical 'A Shpak, o magnetófono; ao embaixador, a medalla' can be read as 'Shpak has the tape recorder'. The analysis stresses that each man lost his item, and the reference makes this explicit with 'desapareceulle'."
+          "justification": "The elliptical 'A Shpak, o magnetófono; ao embaixador, a medalla' does not say the items are missing. The analysis note requires that each man lost his item, and the candidate leaves this implicit. The mock-heroic opening is kept."
         }
       ]
     },
@@ -49,14 +49,7 @@
         "language_specific": {}
       },
       "candidate": "Un pracer. Son o tsar!\nEncantado. Boas, son o tsar!\nSon o tsar, moito gusto!\nBoas, son o tsar! Encantado!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate adds a fourth repeated greeting and reshuffles the source's three-part pattern. It also drops the 'Boas noites' formality in favour of the casual 'Boas'. The self-introduction as the Tsar is clear and the comic effect is largely kept."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -96,7 +89,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'vella' is blunter than the diminutive 'старушка' (reference 'velliña'). This weakens the Tsar's regal, melancholy dismissal."
+          "justification": "'Vella' is blunter and more disrespectful than the diminutive 'старушка' (reference 'velliña'). This weakens the archaic, melancholy-regal dismissal in the Tsar's line."
         }
       ]
     },
@@ -133,14 +126,7 @@
         }
       },
       "candidate": "Isto é obra da cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'cruz vivificadora' is not the established liturgical epithet; 'cruz vivificante' is the expected form. The candidate also loses the 'Вот что' emphasis of the Tsar's astonished conviction."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -241,13 +227,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 3
     },
-    "total_points": 5,
+    "total_points": 3,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2727272727272727,
+    "major_equiv_per_unit": 0.05454545454545454,
+    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

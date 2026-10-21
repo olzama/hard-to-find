@@ -18,16 +18,16 @@
       "candidate": "Outra vez me asaltan\nvagas dúbidas...\nShpak: magnetófono.\nO embaixador: medallón.",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The mock-heroic, theatrical register of 'terzan smutnye somnenia' is lost: 'vagas dúbidas' is flat and 'Outra vez me asaltan' lacks the elevated inverted syntax of the reference. The comedic effect of high-flown language is weakened."
-        },
-        {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Shpak: magnetófono. O embaixador: medallón.' is a bare list that does not convey that each lost the item, which the NB explicitly requires. The verb of loss is missing, so the meaning is unclear."
+          "justification": "The bare 'Shpak: magnetófono. O embaixador: medallón.' mirrors the source ellipsis but never signals that the items were lost. A viewer could read it as a list of what they have, which is the reading the analysis warns against."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Vagas dúbidas' and 'me asaltan' keep some elevated flavour, but the mock-heroic register is weaker than the reference's 'asáltanme escuras sospeitas'."
         }
       ]
     },
@@ -49,7 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires that Bunsha introduces himself as the Tsar. 'Ola, tsar!' and 'Tsar, moito gusto!' read as addressing a tsar, with no 'son o tsar'. This is the exact misreading the NB warns about, and the self-introduction gag is lost."
+          "justification": "'Moito gusto, tsar!' reads as addressing a tsar, not introducing himself as one. The analysis requires that Bunsha introduces himself as the Tsar, so the drunken self-presentation joke is lost."
         }
       ]
     },
@@ -86,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Triste' is plain and modern compared to 'aflixido', which better preserves the high-register, regal melancholy the analysis describes."
+          "justification": "'Triste' is plainer and more modern than 'aflixido'. It weakens the high-register, regal melancholy that contrasts with the Soviet setting."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Emparedáronme, demos!' puts 'demos' as a vocative, so he addresses the demons. The NB requires demons to be the subject of the sentence, so the meaning is wrong."
+          "justification": "'Emparedáronme, demos!' puts 'demos' in the vocative, so the Tsar addresses the demons. The analysis requires the demons to be the subject of the sentence."
         }
       ]
     },
@@ -155,14 +155,7 @@
         "language_specific": {}
       },
       "candidate": "Vaia ben que entrei!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Vaia ben que entrei!' is ambiguous and could be read as 'it's good that I got in', but it lacks the sense of landing on a lucky find. It fails to convey the discovery of a bounty of goods, and the nuance of luck in choosing this apartment is weak. It does at least avoid implying he is leaving."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -182,7 +175,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says eggplant spread must not be called 'caviar'. The candidate says 'Caviar de ultramar... De berenxena', which calls the eggplant spread caviar and loses the satirical inversion."
+          "justification": "'Caviar de ultramar... De berenxena' calls the eggplant spread caviar, which the note forbids as confusing. It also loses the inversion of 'exotic overseas delicacy' versus cheap spread."
         }
       ]
     },
@@ -204,13 +197,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis says the joke depends on Shpak forgetting to increment the count for the suede jacket, which the source gives as a single jacket followed by 'Три'. The candidate says '3 chaquetas de camurza', removing the slip and the humor."
-        },
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Pitilleiras' means cigarette cases, which is acceptable, but 'cámaras' drops 'de cine', losing the specific film-camera item."
+          "justification": "The candidate says '3 chaquetas', so the joke where Shpak hesitates and forgets to increment the jacket count (one 'unha chaqueta… de ante… tres') is lost. The pauses and the slip that betray him are also removed."
         }
       ]
     },
@@ -227,26 +214,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti te curarán!\nE a ti tamén te curarán!\nE a min curaranme!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is accurate, but the lines lose the melodic, calm resignation of the reference's parallel structure, and the repeated future tense is slightly less natural than 'vante curar'."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
+      "major": 4,
       "minor": 3
     },
-    "total_points": 38,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 3.4545454545454546,
-    "major_equiv_per_unit": 0.6909090909090909,
-    "interpretation": "3.45 MQM penalty points per meaning unit (≈ 0.69 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

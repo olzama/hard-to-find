@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate keeps the teasing challenge but reduces the grandly theatrical self-dramatization of the original by using the singulative \"Name one!\" rather than the more sweeping, mock-judicial \"name them\" / \"Pray, tell me\" phrasing. The effect is slightly less bombastic."
+        }
+      ]
     },
     {
       "id": 2,
@@ -51,7 +58,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'High... high relations.' renders a literal noun-phrase and loses the sarcastic, stuttering exclamatory rhythm and ironic register signalled in the analysis (the repeated, drawn-out pronunciation and mocked 'evolved' tone). This significantly weakens the iconic comic effect."
+          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), which the analysis explicitly warns against. This loses the sarcastic, exclamatory refrain and the rhythmic stutter that makes the original iconic and comedic, diminishing the line's function as a repeated ironic tag."
         }
       ]
     },
@@ -73,7 +80,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Using 'conscience' ('live for conscience') shifts the nuance from the soldierly sense of duty/fate ('you live to do your duty') toward an inward moral faculty, making the fatalistic, duty-oriented tone slightly less precise."
+          "justification": "The candidate translates 'совести' as 'conscience,' producing a more introspective, moralized phrasing ('live for conscience') that is less idiomatic and less aligned with the soldierly, duty-focused tone ('live to do your duty') emphasized in the analysis."
         }
       ]
     },
@@ -110,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' turns the original snappy ironic insult into an ostensibly positive-sounding phrase; the register and biting domestic invective of the source are softened, reducing the intended comic bite."
+          "justification": "The candidate 'Culinary genius!' shifts the original sarcastic scolding into a more upbeat-sounding phrase. While it can be read ironically, it does not replicate the punchy, contemptuous single-word invective ('Some cook you are!') and so weakens the intended brusque household insult."
         }
       ]
     },
@@ -147,7 +154,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'Cut it out to hell.' is unidiomatic in English and interrupts the brusque, punchy surgical imperative of the source. The split into two lines also fragments the single coarse command, making it less natural and forceful than the reference."
+          "justification": "The phrase 'Cut it out to hell.' is unidiomatic in English and disrupts the brusque, imperative medical farce of the original. The second line is literal but the split wording and awkward first clause reduce the punch and naturalness of the original quip."
         }
       ]
     },
@@ -169,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The character name is mistransliterated as 'Khibotov' instead of 'Khobotov' (or an accepted English spelling). Misnaming a repeated authoritative address undermines character recognition and is a substantive accuracy error."
+          "justification": "The candidate misspells the character's name as 'Khibotov' instead of a faithful transliteration 'Khobotov.' This alters an identifying element of a frequently repeated, character-defining line and therefore harms accuracy and character recognition."
         }
       ]
     },
@@ -191,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as 'He's my cross!' which makes the person the object of the metaphor rather than preserving the English idiom 'a cross to bear' (the burdensome duty). This reverses the intended manipulative self-sacrificial wording and breaks the fixed idiomatic structure noted in the analysis."
+          "justification": "The candidate changes the construction so that a person ('He') becomes 'my cross,' shifting the meaning from the idiomatic burden ('a cross to bear'—a situation or duty) to labeling a person as the burden. This materially alters the manipulative, self-sacrificial rhetoric described in the analysis."
         }
       ]
     },
@@ -213,7 +220,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' for 'угловатая,' which the analysis explicitly warns against as a too-literal, awkward rendering. This choice reads oddly in English and weakens the playful, coquettish self-deprecation of the original."
+          "justification": "The candidate uses 'angular' for 'угловатая,' which the analysis warns against as a too-literal choice. While the overall self-mocking cadence is preserved, 'angular' reads as awkwardly literal in English and weakens the idiomatic, coquettish self-characterization."
         }
       ]
     }
@@ -221,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 4
+      "minor": 5
     },
-    "total_points": 19,
+    "total_points": 20,
     "meaning_units": 11,
-    "penalty_per_unit": 1.7272727272727273,
-    "major_equiv_per_unit": 0.34545454545454546,
-    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.8181818181818181,
+    "major_equiv_per_unit": 0.36363636363636365,
+    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

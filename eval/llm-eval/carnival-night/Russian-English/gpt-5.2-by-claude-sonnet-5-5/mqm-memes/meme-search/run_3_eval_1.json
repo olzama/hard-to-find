@@ -25,7 +25,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Preserves the directive framing ('there is an instruction'), but 'in a cheerful manner' is a bit stilted and wordy; 'merrily' gives a crisper clash. The bureaucratic-festive contrast is retained."
+          "justification": "The bureaucratic register and the clash with festive content are preserved ('there is an instruction'). 'Meet the New Year in a cheerful manner' is slightly stiffer and less idiomatic than 'celebrate merrily', but it still reads as officialese, so the weakness is small."
         }
       ]
     },
@@ -46,14 +46,7 @@
         }
       },
       "candidate": "We won’t be hiring\nBaba Yaga from outside—\nwe’ll train one up in-house, within our collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'within our collective' is a redundant addition after 'in-house' and slightly overexplains; 'hiring Baba Yaga' keeps workplace logic, but the line is wordier than the dry original. Core joke is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -77,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key faux-modest diminutive 'коротенько' is rendered as plain 'briefly' and the order is distorted by 'just forty minutes', which pre-empts the punchline as if the speaker were stressing shortness. 'No more, I think, is necessary' is stilted. The cozy, smug understatement and clean reversal are weakened."
+          "justification": "The faux-modest 'коротенько' contrast is weakened: 'briefly—just forty minutes' keeps the order (brief before duration), but 'no more, I think, is necessary' is stilted and lacks the cozy, self-satisfied managerial tone. The lowercase fragment start also loses the 'And' flow. The punchline still lands partially."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps only the literal 'ready' and has no cue for the 'drunk/done for' subtext. The double meaning that makes the exchange funny is lost, leaving a flat exchange."
+          "justification": "The 'ready' = 'drunk' double meaning is not recreated. 'Ready' in English does not carry the colloquial 'done for/smashed' sense, so only the administrative surface reading remains and the alcoholic subtext is lost unless the viewer sees the scene."
         }
       ]
     },
@@ -129,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'People!.. Ah... Hel-lo!' keeps some faltering shape, but the first word is unbroken ('People!' rather than 'Peo-ple!'), so the drunken stretched vocalization is weaker. 'Hel-lo' retains a bit of wavering, so the effect is partly kept."
+          "justification": "The stretched, faltering vocalization is only partly kept. 'People!' is a clean, unbroken word, unlike the stretched 'Лю-ди', and 'Hel-lo' is split only lightly. The drunken instability is weaker than in the reference, though the ellipses and 'Ah' help."
         }
       ]
     },
@@ -158,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Armed eye' is the literal calque the analysis warns against. It does not echo the English 'unaided eye', so the recognizable idiom being mangled into mock-scientific language is lost and the phrase just sounds strange."
+          "justification": "The candidate uses the literal calque 'armed eye', which the analysis explicitly says to avoid. It sounds surreal, and does not echo the familiar English idiom 'unaided/naked eye', so the recognizable mangled-idiom effect is lost."
         }
       ]
     },
@@ -184,10 +177,10 @@
       "candidate": "and we already see two little stars,\nthree little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The 'little stars' counting is trivial and silly, which fits. But the punchline is blurred: 'Four little stars—best of all, of course, five' merges the four into the superlative, and the structure 'Four... best of all' weakens the buildup to the sudden shift to five stars. 'Little stars' also reduces the cognac association compared with plain 'stars', and there is no note."
+          "justification": "The counting progression is garbled: 'Four little stars—best of all, of course, five little stars' folds four stars into the punchline, which weakens the build-up of two, three, four followed by the sudden shift to five stars as best. The cognac association is also not signaled, though the reference relies on a note for this. The derailment joke is blunted."
         }
       ]
     },
@@ -211,23 +204,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "'Is there life on Mars, is there no life on Mars' is a faithful, awkwardly casual rendering that works. 'Isn't in the know yet' keeps the colloquial register well. The line break in 'is there no / life' is slightly awkward, and 'does not know' is a little more formal than 'unknown to science'."
+          "justification": "The content and the casual register are preserved ('isn't in the know yet'). However, 'is there no life on Mars' is slightly awkward, and 'science does not know' is a bit more formal than the colloquial feel of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 20,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

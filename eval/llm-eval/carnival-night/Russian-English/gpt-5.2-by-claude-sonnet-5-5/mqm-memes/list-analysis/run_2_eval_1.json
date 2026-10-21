@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Hire\" and \"cultivate\" keep the staffing/workplace logic, and \"collective\" retains the Soviet flavor. However, \"a Baba Yaga\" leans toward the fairy-tale figure and loses some of the 'nasty woman' social type that the analysis stresses; the pun on 'train in-house' is slightly more exotic than needed."
+          "justification": "\"Hire a Baba Yaga\" and \"cultivate one\" keep the workplace/staffing logic, but the untranslated \"Baba Yaga\" is less immediately recognizable as the nasty-woman-at-work type for English viewers than \"witch\"; \"collective\" is a slightly stiff but acceptable Soviet flavor."
         }
       ]
     },
@@ -70,13 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key joke is the faux-modest diminutive «коротенько» followed by 'forty minutes'. The candidate renders it as a flat 'briefly' with no coziness or patronizing tone, and the line starts in lowercase mid-sentence, so the faux-modesty is weak. The 'more isn't necessary' phrasing is also stiff, reducing the comic reversal."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"more, I think, isn't necessary\" is a calque of the Russian word order and sounds awkward in English, though it does keep a bureaucratic flavor."
+          "justification": "The key word \"коротенько\" is rendered as a flat \"briefly\" with no faux-modesty or cozy diminutive feel (e.g. \"just a short little talk\"), so the contrast with \"forty minutes\" is weakened, as the analysis warns. Also, the line begins lowercase without a connective and the \"more isn't necessary\" phrasing is stiff."
         }
       ]
     },
@@ -99,10 +93,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer’s ready—been ready for a while!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is preserved only through the word 'ready' with 'been ready for a while'. This is the same strategy as the reference, but the exclamation mark and lack of any marker (like 'Oh') make the drunk subtext slightly less audible; the line is nonetheless acceptable."
+          "justification": "The candidate translates \"готов\" only as \"ready\" and does not recreate the double sense of \"drunk/done for\". The analysis explicitly warns that translating only as \"ready\" loses the alcoholic joke; nothing in the wording (e.g. \"he's ready... been ready a while\" with a hint of intoxication) signals it. The reference at least adds the knowing \"Oh, he's ready\" tone, which is missing here."
         }
       ]
     },
@@ -123,14 +117,7 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... Hoo-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Hoo-oo!\" conveys a wavering call but is less recognizable as a 'hello/ahoy' call than the reference's 'hellooo'. The broken 'Peo-ple!.. Ah...' keeps the faltering oratory well, so the effect is mostly preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -152,14 +139,7 @@
         }
       },
       "candidate": "But we need only take a telescope...\nAnd look with the aided\neye",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"aided eye\" matches the reference solution and echoes 'unaided eye'. The break before 'eye' and the missing final '!..' flatten the rhetorical punchline slightly, and 'we need only' is a little stiffer than the original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -183,10 +163,16 @@
       "candidate": "and then we can already see two\nlittle stars, three little stars...\nFour little stars—and best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'little stars' preserves the childish counting tone, but the structure changes: 'Four little stars—and best of all' runs the build-up straight into the punchline and loses the pause before 'five'. There is no cognac cue, which the analysis says might need a translator's note; without it the shift into the cognac domain is not accessible to most viewers."
+          "justification": "The punchline is lost: \"five little stars\" in the diminutive carries no cognac association and nothing marks the sudden shift into a different semantic domain. Without a note or a cue such as \"five stars\" (cognac rating), English viewers see only an odd counting sequence, which the analysis says makes the line \"merely odd instead of hilariously derailed\"."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The order is muddled: \"Four little stars—and best of all\" runs the last count step into the punchline, and the opening \"and then we can already see\" is less natural than the source's \"as we can already see\", weakening the progression's rhythm."
         }
       ]
     },
@@ -207,26 +193,19 @@
         }
       },
       "candidate": "Whether there is life on Mars, whether there isn’t\nlife on Mars—science doesn’t know.\nScience isn’t in the loop yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Science isn't in the loop yet\" captures the casual register well. \"Science doesn't know\" is a bit blunter than the Russian «науке неизвестно» but still works. The doubled 'whether ... whether there isn't' is slightly clumsy."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 7
+      "major": 3,
+      "minor": 2
     },
-    "total_points": 12,
+    "total_points": 17,
     "meaning_units": 8,
-    "penalty_per_unit": 1.5,
-    "major_equiv_per_unit": 0.3,
-    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.125,
+    "major_equiv_per_unit": 0.425,
+    "interpretation": "2.12 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

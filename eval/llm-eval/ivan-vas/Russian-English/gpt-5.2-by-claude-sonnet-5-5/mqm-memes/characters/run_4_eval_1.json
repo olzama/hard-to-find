@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says 'Shpak has a tape recorder, the envoy has a medallion', which is exactly the reading the NB forbids. The items have been lost or stolen, not possessed, so the meaning is reversed."
+          "justification": "The analysis explicitly warns that 'Shpak has a tape recorder / the envoy has a medallion' is wrong: the items were stolen and no longer belong to them. The candidate states possession, which reverses the meaning and breaks the callback to the thefts."
         },
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "'Plagued by vague doubts' keeps a fairly elevated register, but the line is broken awkwardly and the mock-heroic tone is somewhat weaker. 'Envoy' for 'посол' is acceptable."
+          "justification": "'Envoy' is less accurate than 'ambassador' for 'посол' and is inconsistent with the established term."
         }
       ]
     },
@@ -49,13 +49,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as Bunsha greeting a Tsar ('hello, Tsar!'), not introducing himself as the Tsar. The NB explicitly requires that the self-introduction be clear, so the central joke is lost."
+          "justification": "The candidate reads as Bunsha addressing a Tsar ('hello, Tsar'), not introducing himself as the Tsar. The analysis NB requires making clear he is the Tsar, so the drunken self-introduction joke is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Very nice' is a weaker rendering of the stiff formulaic 'очень приятно' than 'very pleased to meet you', which reduces the mockery of social ritual."
+          "justification": "'Very nice' is a weak rendering of 'очень приятно' and lacks the formal social-cliché tone of 'very pleased to meet you'."
         }
       ]
     },
@@ -107,13 +107,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' reads as a vocative, as though the Tsar is addressing the demons. The NB requires the demons to be the subject, as in 'the demons have walled me in'."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The first-person object ('me') is dropped and the phrase is clipped, so it is less natural and less clear who was walled in."
+          "justification": "'Walled up, demons!' reads as addressing the demons (vocative), while the NB requires demons to be the subject, i.e. the demons did it. The meaning is distorted. Also, 'walled up' lacks the 'me' and sounds less natural."
         }
       ]
     },
@@ -135,7 +129,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the solemn, archaic register of the Tsar's pious exclamation ('Behold the power of...')."
+          "justification": "'That's what the life-giving cross can do!' is colloquial and loses the archaic, solemn register of the Tsar's pronouncement. The meaning and conviction are preserved."
         }
       ]
     },
@@ -157,7 +151,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Everyone dance!' is an ungrammatical-sounding imperative that lacks the host-like, party-leader flavour of the original. It is still understandable and conveys the main meaning."
+          "justification": "'Everyone dance!' is accurate and carries the disco-party command, but is blunter and less natural than a host-like invitation, and weakens the host-like flavor of the original."
         }
       ]
     },
@@ -179,7 +173,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'What a lucky time to drop by!' correctly signals that he has just arrived, so it avoids the misleading departure reading. However, 'drop by' sounds like a friendly social call and slightly weakens the burglar's cheerful, cynical tone."
+          "justification": "'What a lucky time to drop by!' is not misleading about arrival or leaving, and preserves the cheerful tone, but 'drop by' sounds like a social visit and slightly softens the burglar's wry quip about his own crime."
         }
       ]
     },
@@ -201,7 +195,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'imported caviar', which the NB explicitly forbids. It also drops 'eggplant spread' as a distinct item, so viewers will be confused and the satirical inversion of status symbols is lost."
+          "justification": "The candidate calls the eggplant spread 'caviar' ('Imported caviar... Eggplant!'), which the NB prohibits as confusing. It also loses the punchline of 'eggplant caviar' as a cheap spread presented as an overseas delicacy, so the satirical inversion is blurred."
         }
       ]
     },
@@ -223,7 +217,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate gives 'three suede jackets' and omits the slip where Shpak forgets to increment the count on the jacket (a single suede jacket, then 'Three'). The analysis says this is what makes the joke particularly funny, so the joke is lost."
+          "justification": "The candidate gives 'three suede jackets', which removes the joke where Shpak forgets to increment the count at first ('a suede jacket... Three'), which the analysis says is what makes it funny."
         }
       ]
     },
@@ -246,13 +240,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 31,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

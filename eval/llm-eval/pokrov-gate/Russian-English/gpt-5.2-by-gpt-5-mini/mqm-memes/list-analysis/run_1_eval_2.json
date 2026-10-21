@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase \"how about we knock back a little one?\" is understandable and preserves the casual, convivial function, but \"a little one\" reads as slightly awkward and non-idiomatic in colloquial English compared with the punchier \"a quick one\" or \"toss back a quick one\" that better matches the original's breezy register."
+          "justification": "Lowercase start and the phrasing \"a little one\" is slightly awkward in subtitle register. The casual, provocative tone is preserved, but punctuation/capitalization and the noun choice make it less natural than idiomatic alternatives (e.g., \"Shall we knock back a quick one?\")."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate \"Such... such elevated feelings!\" keeps the exclamatory repetition but softens the original's sarcastic bite and the comic register of the refrain. The reference's stilted, almost stammering \"highly e-v-volved relationship\" has a character-specific irony that the candidate reduces by using the gentler noun \"feelings.\""
+          "justification": "The candidate preserves the hesitating delivery but shifts from commenting on the nature of the relationship ('relations') to vague 'feelings', which softens the original sarcastic bite that ridicules the couple's pretentious 'high' relationship."
         }
       ]
     },
@@ -78,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"People don’t live for joy—they live for conscience.\" conveys the basic idea but uses the phrase \"live for conscience,\" which is unusual in English and shifts the tone away from the blunt, duty-bound fatalism of the reference (\"live to do your duty\"). The phrasing sounds slightly stilted and weakens the soldierly, practical voice described in the analysis."
+          "justification": "The candidate is literal and grammatical, but \"conscience\" slightly changes the pragmatic force of the maxim: the original implies duty/fatalism rather than inner moral scruples. This makes the line less idiomatically resonant for the target audience."
         }
       ]
     },
@@ -112,7 +112,14 @@
         "language_specific": {}
       },
       "candidate": "You hopeless cook!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"You hopeless cook!\" conveys contempt but reads a bit clunky compared with the brisk, punchy sarcasm of the original meme-like exclamation (e.g., \"Some cook you are!\"). The register is slightly off, reducing the crispness of the put-down."
+        }
+      ]
     },
     {
       "id": 7,
@@ -142,14 +149,7 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, damn it—no waiting for peritonitis!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The Russian line issues a brusque surgical imperative (i.e., 'cut it out' in the sense of perform an operation/remove something before peritonitis). The candidate \"Cut it out, damn it—no waiting for peritonitis!\" reads as the colloquial admonition to 'stop doing that,' which misinterprets the medical/hyperbolic surgical verdict and thereby loses the intended farcical contrast between intimate suffering and a crude surgical decree."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -194,26 +194,19 @@
         "language_specific": {}
       },
       "candidate": "Oh, I’m such a misfit...\nso awkward and gawky...\nSo full of contradictions!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the self-deprecating, mannered quality but substitutes \"misfit\" for the original's sequence of awkward, coquettish nuances. \"Misfit\" emphasizes social outsiderness in a way that slightly changes the character's playful, affectatious tone; otherwise the translation captures the repetition and contradictory self-portrait well."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 4
     },
-    "total_points": 9,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -36,14 +36,7 @@
         }
       },
       "candidate": "knock your block off, rip your trap,\nand poke your peepers out! You’ll be working\nfor medicine all your life!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate omits the initial first-person subject/auxiliary (\"I’ll\") present in the reference. This slightly alters the delivery from a speaker’s direct threat to a bare threat clause, which is acceptable but loses a bit of the original speakerly framing emphasized in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -135,10 +128,16 @@
       "candidate": "Move the horse, I’ll never see the outside if I’m wrong!\nGet lost!",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate alters the register and threat-formula of «век воли не видать» by rendering it as a tentative conditional ('if I’m wrong') and a literalized notion of seeing 'the outside', which loses the original prison-oath sense. It also adds an extraneous 'Get lost!' not present in the source, changing the turn and tone of the line."
+        },
+        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the nontechnical \"horse\" and the prison-oath sense, but adds an extraneous line (\"Get lost!\") that is not in the source or reference. That addition changes the rhythm and injects extra brusqueness, mildly altering the intended comic collision between unschooled chess language and solemn oath."
+          "justification": "The phrasing 'I’ll never see the outside if I’m wrong!' is awkward and flattens the solemn, coded prison-oath tone; a more stilted, oath-like formulation without the conditional would better preserve the comic collision of unschooled chess talk and underworld gravity."
         }
       ]
     },
@@ -332,10 +331,10 @@
       "candidate": "Sweetheart, don’t you think you belong with the punks?",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "Rendering «параша» as \"punks\" softens the original prison-register degradation. The line is meant to assign the addressee to the very lowest place in inmate hierarchy; \"punks\" reads as a milder, more general insult and therefore slightly weakens the brutal, status-specific contempt described in the analysis."
+          "justification": "Rendering «параша» as 'punks' removes the specific prison-argot meaning: the source assigns the addressee to the lowest, most degraded place in the inmate hierarchy. 'Punks' lacks that institutional degradation and sanitary-prison connotation, so the central insult and its social-dominance function are lost."
         }
       ]
     },
@@ -362,14 +361,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 3,
+    "total_points": 11,
     "meaning_units": 18,
-    "penalty_per_unit": 0.16666666666666666,
-    "major_equiv_per_unit": 0.03333333333333333,
-    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6111111111111112,
+    "major_equiv_per_unit": 0.12222222222222223,
+    "interpretation": "0.61 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

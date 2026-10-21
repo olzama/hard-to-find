@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk—you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The cop's line 'Get drunk—you will be!' is slightly stilted compared with the punchy conversational retort in the analysis/reference ('Get drunk enough, and you will be!'). The joke and contrast of registers are preserved, but the phrasing is a bit awkward."
+        }
+      ]
     },
     {
       "id": 2,
@@ -66,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders 'Obliko morale' as 'Moral character...', which flattens the foreign-jargon comic effect and the playful pseudo-sophisticated register Gena is performing. The added 'You know,' also softens the abrupt, performative listing of titles."
+          "justification": "The multilingual gag is weakened: 'You know, signora, frau, miss' drops the opening 'Lady' and 'Obliko Morale' is rendered as 'Moral character,' which loses part of the playful faux-foreign phrasing and performative sophistication that the analysis highlights. The overall meaning remains but the comic multilingual performance is dulled."
         }
       ]
     },
@@ -113,14 +120,7 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kids,\nflowers for his woman.\nDon’t mix it up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's 'his woman' is a milder phrasing than the reference's rougher 'broad', reducing Lyolik's coarse, unrefined voice and the blunt comedic register of the original."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -135,7 +135,14 @@
         "language_specific": {}
       },
       "candidate": "As our dear boss says,\neven teetotalers drink at someone else’s expense—\nand ulcer patients too.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the proverb-like content but loses the original's rhythmic coupling (trezvenniki / yazvenniki). Rendering 'yazvenniki' as 'ulcer patients' is accurate but the balanced, catchy rhythm is diminished, which the analysis flags as important."
+        }
+      ]
     },
     {
       "id": 9,
@@ -170,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis flags Lyolik's characteristic mispronunciation of 'tablet' as a comedic marker. The candidate's neutral 'One tablet is enough...' removes that pronunciation-based humor and the character-specific speech trait."
+          "justification": "The original's comic effect relies on a distinctive mispronunciation of 'tablet.' The candidate's plain 'One tablet is enough...' conveys meaning but drops that phonetic joke, weakening the characterful delivery."
         }
       ]
     },
@@ -202,7 +209,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source is a melodic, elongated sigh ('Semyo-o-on Semyonych!'). Rendering it as the normalized 'Semyon Semyonovich...' keeps the address but loses the drawn-out, weary musicality that characterizes the line."
+        }
+      ]
     },
     {
       "id": 13,
@@ -340,15 +354,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate includes a typo/extra letter in 'baath' which is a small fluency error that could distract the viewer."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis emphasizes Gena's affected pronunciation ('kof-e') as a marker of pretension. The candidate uses a normal 'coffee,' losing that affected, aristocratic pronunciation and weakening the comic character detail."
+          "justification": "Gena's affected pronunciation is an important comedic marker. The candidate attempts to show this with 'baath' but is inconsistent (and misspells), and 'coffee' loses the stylized 'kof-e' pronunciation from the analysis, so the pretentious affectation is weakened."
         }
       ]
     },
@@ -385,7 +393,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's folksy, deliberately ungrammatical phrasing conveys a stubborn rural flavor. The candidate's neutral 'No, I can’t do that!' loses that rustic, comical speech trait and reduces the line's characterful emphasis."
+          "justification": "The original's intentionally nonstandard, folksy verb form contributes comedic stubbornness. 'No, I can’t do that!' communicates refusal accurately but removes the rustic, humorous phrasing that the analysis identifies as characterful."
         }
       ]
     }
@@ -393,13 +401,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

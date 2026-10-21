@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the meaning and the teasing challenge, but it softens the original's pompous, self-dramatizing theatricality (\"Pray, tell me... I'll wait!\"). The line is less elevated and therefore slightly weaker in capturing the character's stagey pose."
+        }
+      ]
     },
     {
       "id": 2,
@@ -51,7 +58,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line as a literal noun phrase ('High... high relations.'), losing the sarcastic, exclamatory refrain and the stuttering, mock-intellectual delivery that functions as a running comic motif. This departs from the analysis' required ironic tone and weakens the culturally recognisable catchphrase."
+          "justification": "The candidate renders the line as a literal noun phrase (\"High... high relations.\"), which the analysis specifically warns against. This loses the natural ironic exclamatory phrasing and the sarcastic refrain effect that makes the quote a recognisable comic motif."
         }
       ]
     },
@@ -73,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The sense is preserved, but 'conscience' shifts the nuance away from the blunt, duty-bound soldierly fatalism described in the analysis. 'Duty' or a similar term would better capture the original register and pragmatic moralism."
+          "justification": "The candidate keeps the fatalistic sense but uses the phrasing \"live for conscience,\" which is slightly stilted and less idiomatic than the reference's more natural English rendering (\"live to do your duty\" / \"don't live to be happy\"). Tone and meaning are intact but wording weakens fluency."
         }
       ]
     },
@@ -90,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "Notice, I didn't suggest it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The line keeps the core evasive denial, but opening with \"Notice,\" is less idiomatic and less performatively defensive than the reference's \"For the record:\"—a small register/tone mismatch that slightly reduces the comic posture."
+        }
+      ]
     },
     {
       "id": 6,
@@ -110,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original comic bite uses a terse, mocking retort comparable to 'Some cook you are!'. 'Culinary genius!' reads as more playful or even positive and changes the register of the put-down, softening the caustic domestic insult."
+          "justification": "\"Culinary genius!\" communicates sarcastic scorn, but it shifts register from the short, punchy insult intended by the original (an absurd domestic exclamation using a professional term). The result is slightly more playful and less brusquely accusatory."
         }
       ]
     },
@@ -145,9 +159,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate splits the idea into two lines and uses 'Cut it out, to hell with it,' which is slightly awkward and less punchy than the abrupt medical/hyperbolic command in the analysis. The warning about peritonitis is preserved but the phrasing reduces the abrupt surgical comedic shock."
+          "justification": "The candidate conveys the injunction to operate without delay and retains the peritonitis punchline, but splits and softens the medical/hortatory bite (\"Cut it out, to hell with it\" vs. the sharper \"Cut it the hell out, don't wait for peritonitis\"). The brusque comic contrast is slightly weakened."
         }
       ]
     },
@@ -184,7 +198,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "By translating as 'This is my cross! And I will carry it.' the candidate breaks the established English idiom ('a cross to bear') and removes the concentrated manipulative hyperbole. The phrasing loses the idiomatic force and the theatrical self-victimization central to the character's manipulative posture described in the analysis."
+          "justification": "The candidate translates the idiom too literally (\"This is my cross! And I will carry it.\"), losing the natural English fixed expression (\"a cross to bear\") and thereby weakening the manipulative, hyperbolic self-sacrificing tone central to the line's comic-tragic effect."
         }
       ]
     },
@@ -206,7 +220,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular'—a literal rendering of 'угловатая'—which the analysis warns against as it reads oddly in English. While the self-deprecating tone is retained, the word choice is awkward and weakens the naturalness of the character's speech."
+          "justification": "The candidate reproduces the self-mocking listing of faults well, but uses the literal word \"angular\" for «угловатая», which the analysis warns against. \"Angular\" reads oddly in this context and makes the self-characterisation less idiomatic and slightly awkward in English."
         }
       ]
     }
@@ -214,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 4
+      "minor": 6
     },
-    "total_points": 14,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have instructions to greet\nthe New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Greet the New Year cheerfully\" keeps the 'we have instructions' bureaucratic frame, so the directive-from-above joke survives. However, \"greet\" is slightly less natural than \"celebrate\" and \"cheerfully\" is a bit softer than \"merrily\", which mildly weakens the dry official-versus-festive contrast."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire Baba Yaga\" and \"raise one within our collective\" keep the workplace logic. But keeping the untranslated name \"Baba Yaga\" pulls the line toward the fairy-tale frame, and \"raise\" evokes child-rearing more than staff training. The social-type reading (a nasty woman already in the collective) is less accessible to an English viewer than with \"witch\"/\"train in-house\"."
+          "justification": "\"Raise one within our collective\" keeps the workplace logic and the Baba Yaga type, but \"raise\" leans toward child-rearing and loses some of the managerial staffing tone of 'hire/train in-house'. \"Hire\" for 'bring in' is acceptable. Still a slight weakening of the bureaucratic flavor."
         }
       ]
     },
@@ -77,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key word «коротенько» is rendered as plain \"briefly\", which loses the cozy diminutive and faux-modesty the analysis flags as the core of the joke. \"No more, I think\" does keep the self-satisfied managerial tone, and the order (briefly before forty minutes) is preserved. But the contrast is flatter than required, and the line also loses the lead-in \"And\" and its trailing ellipsis."
+          "justification": "The faux-modest \"briefly\" is kept and precedes \"forty minutes\", but the diminutive coziness of «коротенько» (\"just a short little talk\") is not conveyed. The line also ends with a trailing comma and reads as a fragment, so the smug, self-satisfied managerial tone and the comic reversal are weaker than in the reference."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready давно\" leaves the Russian word \"давно\" untranslated in the English subtitle, which is unreadable for the target audience. The \"ready = drunk\" double meaning is not recreated either: nothing in English signals intoxication, so the joke is lost and only the literal administrative exchange remains."
+          "justification": "The Russian word \"давно\" is left untranslated in the English subtitle, so English viewers cannot understand it. The \"ready\" = drunk double meaning is not recreated either, and the 'ready for a while' hint of long-term drunkenness is lost."
         }
       ]
     },
@@ -129,7 +122,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate normalizes the lecturer's drunken, broken vocalization (\"Лю-ди! А… ау-у!\") into a clean \"People!.. Ah... Hello!\". The stretched, wavering syllables and the \"ау-у\" call fall away. The analysis explicitly warns that this normalization removes the physical drunken comedy of the entrance."
+          "justification": "The line is normalized to a clean \"People!.. Ah... Hello!\". The stretched, broken vocalization (\"Peo-ple!\", \"hellooo\") that carries the drunken physical comedy is lost, which the analysis names as the main risk."
         }
       ]
     },
@@ -158,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the English-specific note says to avoid. It is more surreal than the Russian and does not echo the familiar English idiom \"unaided eye\", so the sense of a familiar expression being wrongly upgraded into mock-scientific speech does not come across. The candidate also drops the exclamation emphasis of the original and ends with a comma where the line trails off."
+          "justification": "\"Armed eye\" is the literal calque that the English note explicitly warns against. It is surreal rather than a mock-scientific echo of \"unaided eye\", so the malformed-idiom joke that English viewers would recognize does not work."
         }
       ]
     },
@@ -187,7 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting buildup with \"little stars\" keeps the childish, trivial tone and the five-star punchline arrives well. However, the cognac association is not signalled (the analysis suggests a translator's note might be needed), so the shift into a different semantic world will be lost on most English viewers. The first clause also reads as a loose fragment, \"we already see\"."
+          "justification": "The counting progression and the sudden shift to \"five stars\" are preserved. \"Little stars\" fits the childish silliness well. However, the cognac association is not signaled, and the lack of a note or cue means English viewers may not catch the punchline. The reference adds a note about the 5* cognac."
         }
       ]
     },
@@ -211,9 +204,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" is a stiff, literal rendering of the Russian structure, and \"science does not know\" is a bit more formal than the casual «науке неизвестно». \"Science is not yet in the know\" does keep the colloquial personification, so the main joke survives. The register is a little less casual than the reference, and the line break splits \"life\" awkwardly."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is a slightly awkward, literal rendering of the Russian structure. \"Science is not yet in the know\" keeps the colloquial register and the personified science well, so the joke largely works, but the phrasing is a bit clumsy."
         }
       ]
     }
@@ -221,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

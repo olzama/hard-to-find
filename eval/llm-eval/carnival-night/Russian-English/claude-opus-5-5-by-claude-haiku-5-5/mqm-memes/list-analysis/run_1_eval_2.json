@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire\na Baba Yaga from outside,\nwe'll raise our own within the collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation mark at the end adds an enthusiastic tone that the source does not have. Ogurtsov's line is dry and managerial, so the closing punctuation pushes it toward a rallying cheer."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"No more is needed, I think\" uses stilted inverted word order that reads as unnatural spoken English. The trailing ellipsis of the source, which signals the self-satisfied trailing-off, is also dropped."
+          "justification": "'No more is needed, I think' is stilted and passive, and the opening 'short little talk' is a sentence fragment. The faux-modest setup and the forty-minute punchline still land, but the phrasing is less natural than the reference's 'Briefly, about forty minutes, I don't think we need any more than that…'."
         }
       ]
     },
@@ -80,7 +73,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"He's gone... Long gone!\" most naturally reads as the lecturer having left, which removes the surface meaning of official readiness that the analysis requires. The ready/drunk double sense is lost rather than recreated, so the administrative exchange and the comic subtext are both weakened."
+          "justification": "The analysis requires official readiness on the surface with intoxication underneath. 'Good to go' carries only the readiness sense, and the answer 'he's gone... Long gone!' reads as the lecturer having departed, which contradicts the readiness question. 'Long gone' does hint at drunkenness, but the double meaning is largely lost and the exchange becomes a different joke."
         }
       ]
     },
@@ -97,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "- Peo-ple!.. Ah.. Yoo-hoo-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Yoo-hoo-oo\" is a bright, chipper whistle-like call, which shifts the drunken, faltering cry toward cheerfulness. The analysis asks for a vocally unstable, wavering attempt, and this rendering only partly preserves that instability."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -127,9 +113,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The line ends on a bare comma, which flattens the source's exclamatory-and-trailing \"!..\" flourish. The mock-scientific punchline loses some of its emphatic close."
+          "justification": "'Un-naked eye' is a playful deformation of the English idiom, so the malformed-idiom gag survives. However, the hyphenated 'un-' coinage reads as silly rather than as a mock-scientific upgrade, which weakens the pseudo-scientific pomp the analysis asks for. 'Unaided' in the reference carries that sense more convincingly."
         }
       ]
     },
@@ -156,13 +142,13 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Four little stars, though best of all\" introduces a contrastive \"though\" that the source does not imply. The source simply builds a list toward the superlative, so the connective creates a slightly false logical relation."
+          "justification": "'Four little stars, though best of all, of course, is five stars!' misuses 'though', which implies a contrast that does not exist. The sentence reads awkwardly at the point where the punchline should snap into place."
         },
         {
           "severity": "minor",
-          "category": "other",
+          "category": "accuracy",
           "span": "",
-          "justification": "The cognac reference, which the analysis flags as likely needing a translator's note, is not addressed. Without the note, the punchline of \"five stars\" may be opaque to most viewers, although the reference itself carries the same bracketed note."
+          "justification": "The candidate gives no cue that 'five stars' refers to Soviet cognac grading, and the analysis notes this association may need a translator's note. Without it, the sudden semantic shift to a different domain is less legible to most viewers than in the reference."
         }
       ]
     },
@@ -184,7 +170,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" keeps the source's word order but reads clumsily in English. A more idiomatic phrasing such as \"whether there is life on Mars or not\" would sound more natural while keeping the casual register."
+          "justification": "'Is there life on Mars, is there no life on Mars' is grammatically awkward; 'is there no life' is unnatural in English. The casual register ('science doesn't know that', 'put in the loop') otherwise matches the analysis well."
         }
       ]
     }
@@ -192,13 +178,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 7
+      "minor": 5
     },
-    "total_points": 12,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 1.5,
-    "major_equiv_per_unit": 0.3,
-    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

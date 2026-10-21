@@ -61,20 +61,7 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nOh, he’s ready. He’s been ready for quite a while.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "The source marks each speaker turn with an em-dash (\"— Лектор готов? — Готов лектор…\"), and the reference keeps both dashes. The candidate drops them and puts the second turn on a new line, so the turn boundary is less clearly marked than in the source and the reference."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The analysis identifies the double reading of «готов» (ready, and colloquially drunk) as the core of the joke and says the target should preserve or recreate it if possible. The candidate, like the reference, renders only the literal 'ready' sense, so the intoxication undertone is lost. This is a shortfall against the analysis, though the approved reference shares it."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -150,13 +137,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 0
     },
-    "total_points": 2,
+    "total_points": 0,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.0,
+    "major_equiv_per_unit": 0.0,
+    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

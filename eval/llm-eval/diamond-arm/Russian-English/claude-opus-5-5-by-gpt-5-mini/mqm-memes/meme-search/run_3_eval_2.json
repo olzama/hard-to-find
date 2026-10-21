@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate drops the opening vocative 'Guys,' and the register loses a bit of the original contrast between Gorbunkov's theatrical proclamation and the bored cop's deadpan. The cop's line 'Get drunk and it will be!' is slightly unidiomatic and misses the colloquial punch of 'Get drunk enough, and you will be!'"
+          "justification": "The second line 'Get drunk and it will be!' is grammatically awkward and vague in English — it reads clumsy compared with the punchy cop retort in the analysis ('Get drunk enough, and you will be!'). Meaning is preserved but phrasing weakens the comic timing."
         }
       ]
     },
@@ -43,7 +43,14 @@
         }
       },
       "candidate": "No, no, I'm no coward,\nbut I'm scared...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'No, no, I'm no coward, but I'm scared...' conveys the sense but loses the light, bouncing rhythmic effect of the original rhyme (Trus/Bojus) that makes the line endearing; the repetition 'No, no' is an unnecessary addition that slightly alters register."
+        }
+      ]
     },
     {
       "id": 3,
@@ -120,10 +127,10 @@
       "candidate": "kiddies get ice cream,\nhis missus gets flowers.\nDon't mix it up!\nNelson!",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate replaces the Russian historical jab 'Kutuzov' with 'Nelson.' That swaps a specifically Russian sarcastic reference (mocking a Russian general) for an unrelated British admiral and thus alters the cultural target and comedic resonance of the line."
+          "justification": "Replacing the Russian historical jab 'Kutuzov' with 'Nelson' changes the cultural reference. Both are military figures, but the original sarcastic comparison relies on a specifically Russian reference (Kutuzov); 'Nelson' reduces that local sarcasm and slightly alters the intended mockery."
         }
       ]
     },
@@ -150,7 +157,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the meaning but loses the tight rhythmical pairing present in the original (trezvenniki / yazvenniki). The phrasing 'the teetotaller and the ulcer case both have a fine time' is slightly clunky and smooths out the punchy, proverb-like cadence the analysis calls for."
+          "justification": "The candidate attempts a two-part contrast but 'ulcer case' and the softer 'have a fine time' dilute the curt, proverbial rhythm and biting cynicism of the original pairing (trezvenniki / yazvenniki). It works but is stylistically weaker."
         }
       ]
     },
@@ -217,7 +224,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original prolongation and melodic sigh ('Semyo-o-on Semyonych!') is an expressive, weary exhalation. Rendering it simply as 'Semyon Semyonovich...' loses some of that musical, exasperated timing that functions as a character beat."
+          "justification": "The candidate 'Semyon Semyonovich...' conveys the address but loses the drawn-out, melodic sigh ('Semyo-o-on') that signals weary exasperation; the emotional colouring is slightly reduced."
         }
       ]
     },
@@ -234,7 +241,14 @@
         "language_specific": {}
       },
       "candidate": "You should live\non one\nsalary!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The translation preserves meaning, but the curt three-line delivery 'You should live / on one / salary!' is less theatrically weighty than the original's curse-like cadence; the comic horror of the fate is somewhat attenuated."
+        }
+      ]
     },
     {
       "id": 14,
@@ -309,14 +323,7 @@
         "language_specific": {}
       },
       "candidate": "Buy your tickets by the batch, and you'll win...\nA water tower to match!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate keeps the anti-climactic industrial-prize joke but substitutes 'water tower' for the reference's intended odd industrial object. The effect (absurd prize) remains, but the specific imagery changes, slightly altering the original flavour of the punchline."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 19,
@@ -346,7 +353,14 @@
         "language_specific": {}
       },
       "candidate": "Well, if you're ever up our way in Siberia...\nNo, you'd better come visit us!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Replacing the explicit 'Kolyma' with the vague 'Siberia' removes the crucial cultural/historical punchline: Kolyma evokes labor camps and a threat of imprisonment. 'Siberia' is too general and loses the menacing joke that Gena interprets the invitation as a threat."
+        }
+      ]
     },
     {
       "id": 21,
@@ -397,13 +411,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 4
+      "minor": 6
     },
-    "total_points": 9,
+    "total_points": 11,
     "meaning_units": 23,
-    "penalty_per_unit": 0.391304347826087,
-    "major_equiv_per_unit": 0.0782608695652174,
-    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.4782608695652174,
+    "major_equiv_per_unit": 0.09565217391304348,
+    "interpretation": "0.48 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

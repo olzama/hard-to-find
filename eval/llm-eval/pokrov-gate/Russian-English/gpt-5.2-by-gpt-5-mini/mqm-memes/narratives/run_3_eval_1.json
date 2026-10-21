@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "shall we\nknock back a little one?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The linebreak and lowercase 'shall' make the subtitle look uneven; 'knock back a little one' is slightly awkward compared with the idiomatic 'toss back a quick one' and weakens the snappy, ironic register described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -53,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "Such... such elevated relations.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate turns the repeating, stuttering sarcastic refrain into a flat literal phrase ('Such... such elevated relations'), losing the comic stutter, rhythmic delivery and ironic register that are central to this running gag. The literal noun 'relations' also risks sounding stiff and non-idiomatic in the intended exclamatory function."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -77,10 +63,10 @@
       "candidate": "People don't live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "‘People don't live for joy—they live for conscience’ is a too-literal rendering that reads awkwardly in English and fails to capture the soldierly fatalism and practical moral phrasing of the original (the more natural idiom conveys living out of duty rather than 'for conscience')."
+          "justification": "Rendering «совести» as \"conscience\" instead of the more idiomatic English sense of duty/obligation softens the soldierly fatalism and pragmatic moral logic highlighted in the analysis. The line still works, but the nuance and register of practical duty are weakened."
         }
       ]
     },
@@ -114,10 +100,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'Culinary genius!' reads more like an (ambiguous) compliment than the sharp domestic insult intended by the Russian exclamation. While sarcasm can rescue it, the phrasing slightly softens the imperious, cutting tone of the original."
+          "justification": "The candidate \"Culinary genius!\" reads as ironic praise rather than the sharp, dismissive domestic insult conveyed by the original and the reference (\"Some cook you are!\"). This flips the intended biting, imperious tone and undermines the comic effect described in the analysis."
         }
       ]
     },
@@ -169,7 +155,7 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "The surname is rendered as 'Khabotov' rather than the more consistent transliteration 'Khobotov' (or 'Khobotov' used in the reference). This creates an inconsistency in a recurring character name and may jar viewers familiar with the established form."
+          "justification": "The surname is transliterated as \"Khabotov\" rather than the reference's \"Khobotov.\" This is a small inconsistency in proper-name rendering but does not change meaning or tone."
         }
       ]
     },
@@ -189,9 +175,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The idiom 'It's my cross to bear!' is preserved, but the second line 'And I must carry it.' is more literal and slightly weaker than the emphatic 'And mine alone!' in the reference, reducing the manipulative, self-important flourish."
+          "justification": "The candidate preserves the idiom \"cross to bear\" but drops the emphatic exclusivity of the reference's \"And mine alone!\", slightly reducing the manipulative grandiosity of the original line."
         }
       ]
     },
@@ -213,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using 'angular' for 'угловатая' follows a literal route the analysis warns against; in English 'angular' reads oddly in this context and weakens the coquettish, self-mocking register of the original line."
+          "justification": "Using the word \"angular\" reproduces the literal sense the analysis warned against; it sounds overly literal and awkward in English. The line still conveys the self-deprecating, mannered quality, but the lexical choice weakens the naturalness and comedic effect."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

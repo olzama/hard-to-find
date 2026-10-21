@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as possession. The analysis explicitly notes these phrases mean the items are missing/related to loss, not that the characters currently possess them. This reverses the intended meaning and undermines the joke about stolen/lost goods."
+          "justification": "The candidate uses 'Shpak has... the ambassador has...', which implies current possession. The source (and analysis note) means they have been deprived of those items (they lost them). This reverses the crucial meaning of the line and undermines the joke about theft/loss."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line must convey that Bunsha is introducing himself as 'the Tsar,' not addressing an actual tsar. The candidate's phrasing ('A pleasure, Tsar! ... Hello, Tsar!') reads as if Bunsha is addressing someone called 'Tsar,' losing the comic effect of him repeatedly introducing himself as the Tsar. This misrepresents the key comic premise described in the analysis."
+          "justification": "The candidate reads as if Bunsha is addressing a tsar ('A pleasure, Tsar!') rather than absurdly introducing himself as 'the Tsar' in repetitive, self-important Soviet-formal clichés. This changes the comedic premise described in the analysis (he's impersonating/introduction, not addressing a monarch)."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original uses high-register, archaic phrasing. 'Old girl' and the slightly colloquial 'I'm in despair' reduce the archaic/regal register and make the line more modern and less formally melancholic, weakening the intended contrast between regal language and the modern setting."
+          "justification": "The candidate's 'old girl' and 'I'm in despair' are colloquial/modern and weaken the intended high-register, archaic, regal tone of the Tsar's line. The meaning is preserved but the stylistic distance is reduced."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB specifies that 'demons' are the subject (i.e., 'They walled me in, the demons') rather than a vocative address. The candidate's 'They've walled me in, demons!' reads as if the Tsar is addressing demons directly, which reverses grammatical role and changes the line's meaning and tone."
+          "justification": "The candidate addresses 'demons' ('They've walled me in, demons!'), whereas in the original the demons are the grammatical subject (he says that demons have walled him in). This flips the syntax and makes it sound like he is speaking to demons rather than accusing them, contrary to the analysis note."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line is meant to read as a high-register, archaic declaration ('Behold the power of the life-giving cross!'). 'That's what the life-giving cross does!' is more colloquial and prosaic, softening the archaic, devout register that produces the comic clash with modern technology."
+          "justification": "The candidate preserves the basic meaning but moves from the lofty, archaic 'Behold the power of the life-giving cross!' to a more colloquial phrasing ('That's what the life-giving cross does!'), softening the grand, religious register that creates the comic contrast in the scene."
         }
       ]
     },
@@ -156,7 +156,14 @@
         "language_specific": {}
       },
       "candidate": "Wow. Great timing.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'Wow. Great timing.' conveys a casual, approving reaction but is tonally weaker and less specifically tied to the comic idea of his fortunate (criminal) discovery conveyed in the reference. It loses a bit of the cheeky opportunism typical of the character."
+        }
+      ]
     },
     {
       "id": 9,
@@ -173,10 +180,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Exotic caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns not to call the eggplant spread 'caviar' to avoid confusion. The candidate's 'Exotic caviar... Eggplant!' implies the eggplant spread is a type of caviar, which distorts the original joke that contrasts real (black/red) caviar with cheap 'eggplant caviar' presented as a faux exotic delicacy. This misleads the viewer and undermines the satire."
+          "justification": "The candidate's line ('Exotic caviar... Eggplant!') risks implying that the eggplant spread is being presented as a kind of 'exotic caviar.' The analysis warns against calling eggplant spread 'caviar' because it confuses the joke that cheap eggplant spread is humorously juxtaposed with true caviar. The meaning is still present but slightly misleading."
         }
       ]
     },
@@ -193,14 +200,7 @@
         "language_specific": {}
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestic cigarette cases,\nthree suede jackets!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The humor depends on Shpak's comic miscounting and the incremental, self-aggrandizing list (he forgets to update the count). The candidate presents 'three suede jackets' outright and lists items as a flat enumeration, removing the joke's buildup and the revealing slip that makes the scene funny. This significantly harms the intended comic effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -220,14 +220,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 2
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 27,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 2.4545454545454546,
-    "major_equiv_per_unit": 0.4909090909090909,
-    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

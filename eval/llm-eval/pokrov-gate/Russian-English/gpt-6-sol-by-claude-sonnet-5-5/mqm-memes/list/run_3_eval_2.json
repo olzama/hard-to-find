@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate flattens the high-flown, self-dramatizing theatrical tone of Velyurov (no 'Pray, tell me', no rhetorical build-up); 'Name one!' is plain and colloquial, so the histrionic self-presentation described in the analysis is weakened, though the challenge and 'I'm waiting' are preserved."
+          "justification": "The flat, plain phrasing ('Name one!', 'I'm waiting!') loses the high-flown theatrical self-dramatization (the 'Pray, tell me', 'name them!!') that the analysis highlights; the comic defensive pomp is weakened, though the sense and the challenging tone are preserved."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'how about a little drink?' conveys the invitation but loses the playful, mock-formal 'А не хлопнуть ли нам' phrasing and the ironic, trickster-like quality of Kostik's proposal; it is also lowercase and bland, with 'a little drink' sounding less idiomatic than 'a quick one'."
+          "justification": "'A little drink' is neutral and bland; it lacks the jaunty, colloquial 'toss back a quick one' feel of the diminutive 'рюмашка' and the mock-formal 'А не хлопнуть ли' construction, so the ironic deflation of the previous pathos is softer. The lowercase 'how' is also a minor formatting slip."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Such... such lofty relations!' is a natural exclamation, but it drops the sarcastic drawn-out hissing of 'выс-с-сокие' and the wordplay on 'high/evolved' that gives the line its mocking edge; the repeated 'such' replaces the stuttering with a weaker hesitation."
+          "justification": "'Such... such lofty relations!' is a natural exclamation and conveys sarcasm, but it drops the drawn-out hissing 'выс-с-сокие' effect and the mock-elevated pun on 'evolved'. 'Relations' is slightly less natural than 'relationship', though it avoids the literal noun-phrase trap."
         }
       ]
     },
@@ -87,14 +87,7 @@
         "language_specific": {}
       },
       "candidate": "You don't live to please yourself.\nYou live to do what's right.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Совесть' is rendered as 'what's right', which softens the sense of duty and conscience; the soldierly fatalism and the absurd framing of confinement as moral duty are slightly diluted. 'To please yourself' for 'для радости' also shifts the meaning from happiness to self-indulgence."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -134,7 +127,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Master chef!' reads as praise and misses the sarcastic, scolding force of 'Кулинар!' (equivalent to 'Some cook you are!'). The ironic reproach is lost, and the line may be taken as a compliment, contradicting the analysis of a harsh verdict from a domineering character."
+          "justification": "'Master chef!' reads as a genuine compliment or title rather than a sarcastic reproach. The reference 'Some cook you are!' conveys the scolding, ironic verdict on the failed cooking; the candidate loses the sarcasm and the commanding, condemning tone of Margarita Pavlovna."
         }
       ]
     },
@@ -191,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Khobotov, how petty!' turns the verdict into an exclamation of mild disapproval; it weakens the declarative, authoritative formula 'That is petty!' which Margarita uses to suppress him and treat him like a child."
+          "justification": "'How petty!' turns the blunt, authoritative verdict 'Это мелко!' into a lighter exclamation, slightly weakening the dominating, belittling formula that the analysis describes, though the key meaning and repeated address are kept."
         }
       ]
     },
@@ -215,10 +208,10 @@
       "candidate": "He's my cross to bear!\nAnd I must bear him!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source says 'This is my cross', not 'He's my cross'; the candidate changes the referent to Khobotov, which is an addition not in the Russian. It does keep the idiom 'cross to bear' intact, but 'And I must bear him!' alters the line's meaning and makes it more direct than the self-pitying hyperbole of 'And mine alone!'."
+          "justification": "The candidate keeps the idiom 'cross to bear' and the hyperbolic martyrdom, but changes 'This is my cross' into 'He's my cross', explicitly naming Khobotov. This shifts the generalized self-pity, and 'I must bear him' is somewhat more literal and loses the 'mine alone' flourish; the effect is mostly preserved."
         }
       ]
     },
@@ -243,23 +236,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate compresses three self-descriptions into a looser paraphrase ('awkward thing', 'all elbows and corners', 'a walking contradiction'). 'Elbows and corners' is a good solution for 'угловатая', but 'A walking contradiction' and the added 'Oh' shift the affected, coquettish rhythm of the original repetitions ('вся такая... такая... вся')."
+          "justification": "'All elbows and corners' is a good equivalent for 'угловатая' and avoids the literal 'angular' trap. However, the repeated 'вся такая' mannered rhythm is condensed, and 'A walking contradiction!' is a fairly idiomatic cliché that slightly reduces the affected, coquettish self-portrait."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 6
     },
-    "total_points": 16,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

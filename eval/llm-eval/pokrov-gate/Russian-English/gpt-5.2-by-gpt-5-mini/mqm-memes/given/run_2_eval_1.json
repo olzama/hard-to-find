@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Candidate is identical in meaning and tone to the reference, but sentence-initial capitalization is missing ('shall' should be 'Shall'), which is a small typographic/fluency issue for subtitle presentation."
+          "justification": "The candidate is identical in meaning and tone to the reference but begins with a lowercase letter, which is an odd typographic choice for an isolated subtitle line and makes it look less polished for target viewers."
         }
       ]
     },
@@ -113,14 +113,7 @@
         "language_specific": {}
       },
       "candidate": "Natürlich, Margarita Pavlovna.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The German interjection 'Natürlich!' is correctly preserved, which the analysis requires; however, the candidate adds 'Margarita Pavlovna.'—an address not present in the source. This addition alters rhythm and the succinct comic tic of the original, making it a mild stylistic deviation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -185,7 +178,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds an extra line ('What is it, Margo?') that does not appear in the source. This introduces new content and changes the subtitle's meaning/turn-taking, which is a significant accuracy error even though the first part matches the reference well."
+          "justification": "The candidate adds an extra line, \"What is it, Margo?\", that is not present in the source and thus introduces unattested content and a different interaction. This changes the original utterance's self-focused, performative character and undermines the meme-like solo self-description the analysis highlights."
         }
       ]
     }
@@ -193,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

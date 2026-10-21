@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate omits the informal address ('Guys') that helps set the register clash between Gorbunkov's melodrama and the policeman's bored retort. The policeman's line 'Get drunk—you will be!' is slightly stilted compared with the playful inevitability of the reference ('Get drunk enough, and you will be!'), weakening the cop's mocking, humorous tone."
+          "justification": "The policeman's line in the candidate ('Get drunk—you will be!') is slightly stilted compared with the wry, deadpan cop humor in the analysis. The reference's 'Get drunk enough, and you will be!' more clearly delivers the mocking inevitability; the candidate preserves meaning but weakens the punchline's natural conversational cadence."
         }
       ]
     },
@@ -38,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is a faithful literal rendering but loses the light, bouncing comic effect created by the Russian rhyme and rhythm noted in the analysis. The line reads as a plain statement of fear rather than the endearing, slightly playful paradox intended."
+        }
+      ]
     },
     {
       "id": 3,
@@ -68,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nunfortunately nothing will come of it!\nRusso tourist...\nMoral appearance... versteh'n?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate literalizes 'Obliko morale' as 'Moral appearance' and uses 'Russo tourist' instead of the faux-foreign mashup in the reference. This reduces the comic effect of Gena's performative, pseudo-international jargon and weakens the intended mock-sophistication."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -120,14 +120,7 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kids,\nflowers for his old lady.\nDon’t mix them up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Rendering the addressee as 'his old lady' softens Lyolik's coarse, nonstandard register compared with the rougher 'broad' in the reference. This reduces some of the character's blunt, unrefined voice."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -177,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses the comic effect tied to Lyolik’s characteristic mispronunciation of 'tablet.' The plain 'One tablet is enough...' conveys the meaning but omits the memorable pronunciation-based humor described in the analysis."
+          "justification": "The comedic effect in the analysis depends on Lyolik's pronunciation/mispronunciation of 'tablet' as a memorable spoken tic. The candidate ('One tablet is enough...') conveys meaning but loses that distinctive phonetic humor."
         }
       ]
     },
@@ -209,14 +202,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The original line is a melodic, elongated sigh ('Semyo-o-on Semyonych!') conveying weary patience; the candidate's 'Semyon Semyonovich...' loses the distinctive stretched delivery and musicality that signal the speaker's tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -351,7 +337,14 @@
         "language_specific": {}
       },
       "candidate": "In this state...\nI can’t.\nI must... first...\ntake a ba-ath,\nhave a cup of coffee...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The analysis highlights Gena's affected, slightly pretentious pronunciation of 'coffee' as a character marker. The candidate uses a normal 'coffee' (with a stutter on 'bath'), so it preserves the comic priorities but loses the specific phonetic cue that signals his pretension."
+        }
+      ]
     },
     {
       "id": 22,
@@ -386,7 +379,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's stubborn refusal uses a nonstandard verb form that adds a folksy, comic flavor. The candidate's normalized 'No, I can’t go along with that!' conveys the refusal but removes the rustic, linguistically marked character that contributes to the humor."
+          "justification": "The source uses a deliberately nonstandard, folksy verb form for comic effect. The candidate's neutral phrasing ('No, I can’t go along with that!') preserves the refusal but removes the rustic, humorous flavor that the original morphosyntactic error provides."
         }
       ]
     }
@@ -394,13 +387,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 6,
+    "total_points": 5,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.21739130434782608,
+    "major_equiv_per_unit": 0.043478260869565216,
+    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

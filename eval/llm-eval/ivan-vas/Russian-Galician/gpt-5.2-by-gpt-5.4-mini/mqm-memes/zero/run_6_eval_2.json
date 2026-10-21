@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador still have the items ('ten'), but the note specifies the meaning is that these items are missing from them, not possessed by them."
+          "justification": "The candidate says Shpak and the ambassador still have the objects ('ten un', 'un medallón'), whereas the analysis and reference require the idea that they lost or no longer have them. This breaks the callback joke about theft."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should clearly show Bunsha repeatedly introducing himself as the tsar; 'Moito gusto, ola, tsar!' reads like he is greeting a tsar, which contradicts the intended comic effect."
+          "justification": "It omits Bunsha's self-introduction as the tsar and reads like he is simply greeting the tsar. The analysis explicitly says the joke depends on his repeatedly introducing himself as the Tsar."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' conveys the basic meaning, but it is flatter and less elevated than the more formal, aristocratic 'estou aflixido', weakening the regal tone."
+          "justification": "'Estou triste' is understandable, but it is flatter and less elevated than the slightly mock-regal 'que estou aflixido,' so it weakens the archaic, theatrical tone."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The repetition is preserved, but the punctuation makes the second line sound slightly awkward as a separate exclamation rather than the natural echo of the Russian line."
+          "justification": "The line is split awkwardly and repeats the verb in a way that sounds less natural than the reference, though the meaning is still clear."
         }
       ]
     },
@@ -119,7 +119,14 @@
         "language_specific": {}
       },
       "candidate": "Isto é o que fai a cruz vivificante!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Isto é o que fai...' sounds a bit more explanatory and less exclamatory than the reference's more idiomatic 'Velaquí o que obra...', slightly weakening the ecstatic miracle tone."
+        }
+      ]
     },
     {
       "id": 7,
@@ -154,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben pasei por aquí!' suggests 'I passed by here well' or 'I walked past here,' which is misleading. The source means he has just lucked into a good opportunity upon entering, not that he is leaving or merely passing through."
+          "justification": "'Que ben pasei por aquí!' suggests 'I had a good time here' or 'I passed by here well,' which misses the meaning that he has just fortuitously come to a lucky place. The sense of a pleased burglar discovering a rich apartment is lost."
         }
       ]
     },
@@ -176,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Caviar de ultramar' is incorrect here because the analysis explicitly says the eggplant spread should not be called caviar; the joke depends on preserving the contrast without mislabeling the item."
+          "justification": "The candidate calls the eggplant dish 'caviar,' directly contradicting the analysis note that it should not be translated as caviar because that would confuse viewers. This blurs the satirical contrast between real caviar and the cheap Soviet spread."
         }
       ]
     },
@@ -195,16 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The count and structure of the inventory are mishandled: the source builds up to 'three' at the end, but the candidate starts with numerals and breaks the comedic escalation, losing the effect of the final repeated count."
-        },
-        {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "'Pitilleiras' is a less natural choice here than a term closer to the elegant, slightly old-fashioned 'cigarreiras', weakening the character-specific enumeration."
+          "justification": "Using numeral '3' instead of spelling out the counts is readable but less natural in subtitles and weakens the comic rhythm of the escalating inventory."
         }
       ]
     },
@@ -226,21 +227,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the central repeated segment 'and you too' and 'and me too,' so it loses the full comedic rhythm of the original resignation to collective treatment."
+          "justification": "The candidate omits the repeated 'e a ti' and the final 'e me curingan' style self-reference, reducing the three-part resigned cadence that carries the joke. It no longer clearly captures the shared, growing 'they'll cure us all' refrain."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 3
+      "major": 5,
+      "minor": 4
     },
-    "total_points": 33,
+    "total_points": 29,
     "meaning_units": 11,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.6363636363636362,
+    "major_equiv_per_unit": 0.5272727272727272,
+    "interpretation": "2.64 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

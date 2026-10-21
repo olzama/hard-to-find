@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Guys,\nI should be in his place.\nDrink enough and you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate shifts tense from the reference's sacrificial past ('should have been in his place') to a present simple ('I should be in his place'), which weakens the sense that he narrowly escaped and is making a heroic lament. The policeman line 'Drink enough and you will be!' preserves the joke but is slightly less idiomatic than 'Get drunk enough, and you will be!'"
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "No, I’m not a coward,\nbut I’m afraid...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate renders the line literally and soberly. It loses the light, bouncing comic rhythm (the Trus/Boyus rhyme and playful paradox) the analysis calls for, making the admission more plaintive than endearing."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -125,7 +111,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering 'бабе' as 'his wife' loses the rough, slightly crude register ('broad' / slang) that characterizes Lyolik's unpolished speech and mockery; the meaning is preserved but the voice is softened."
+          "justification": "The candidate uses 'his wife' which softens the rough, colloquial insult of the original ('babe' / slang). This reduces Lyolik's coarse, mocking register slightly, making the line less characterful."
         }
       ]
     },
@@ -147,7 +133,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the idea but loses the balanced rhythmic pairing (trezvenniki/yazvenniki) emphasized in the analysis. The phrasing is a bit prosaic and the line break/ordering reduces the proverbial, rhythmic punch."
+          "justification": "The candidate preserves meaning but loses the rhythmic pairing (trezvenniki / yazvenniki) that gives the line its proverbial, punchy cadence; the rendering is more prosaic and less memorable."
         }
       ]
     },
@@ -184,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves meaning but omits the comic mispronunciation of 'tablet' that the analysis highlights as a memorable, characterizing tic for Lyolik."
+          "justification": "The original relies on a comic mispronunciation of 'tablet' as a character tic. The candidate uses a neutral 'tablet', losing that specific humorous pronunciation/character marker."
         }
       ]
     },
@@ -216,14 +202,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is a plain, correct rendering but loses the elongated, melodic sigh ('Semyo-o-on') that conveys weary patience; the emotional texture is therefore slightly diminished."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -288,7 +267,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate repeats 'turn into trousers...' before resolving to 'into elegant shorts,' which introduces a small logical hiccup and reduces the smooth comic build of the repeated transformation; meaning survives but the phrasing is awkward."
+          "justification": "The candidate contains a confusing repetition ('turn into trousers... into elegant shorts') that reads awkwardly and momentarily contradicts itself, weakening the original's escalating repetition toward the final comic announcement."
         }
       ]
     },
@@ -350,7 +329,14 @@
         "language_specific": {}
       },
       "candidate": "Well, if you’re ever in Kolyma...\nIf you’re ever in Kolyma — you’re most welcome!\nNo, you come see us!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate adds an extra welcoming line ('If you’re ever in Kolyma — you’re most welcome!') before Gena's reflexive refusal, which slightly alters the exchange's pacing and makes the guest's line more warmly invited than in the original concise setup."
+        }
+      ]
     },
     {
       "id": 21,
@@ -385,7 +371,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate's 'No, yes... we'll keep looking...' is contradictory and awkward, muddying the shopkeeper's polite refusal and the implied plan to continue searching. The original exchange's clearer turn-taking is preferable."
+          "justification": "The candidate's 'No, yes... we'll keep looking...' is muddled and awkward compared with the shopkeeper's measured denial and the customer's polite insistence; the hesitancy reads unclear and less natural."
         }
       ]
     },
@@ -402,19 +388,26 @@
         "language_specific": {}
       },
       "candidate": "No, I can’t go along with that!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The source's intentionally nonstandard verb form adds a folksy, stubborn comic flavor. The candidate's standard phrasing ('I can’t go along with that') preserves meaning but loses that rustic, humorous linguistic coloring."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 8
+      "minor": 7
     },
-    "total_points": 8,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.34782608695652173,
-    "major_equiv_per_unit": 0.06956521739130435,
-    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

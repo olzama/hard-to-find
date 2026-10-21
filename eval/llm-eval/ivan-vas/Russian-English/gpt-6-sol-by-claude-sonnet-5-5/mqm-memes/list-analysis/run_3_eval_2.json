@@ -26,13 +26,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Dark suspicions\" and \"beset\" capture the mock-elevated register reasonably, but \"dark\" shifts the sense of \"смутные\" (vague, hazy) toward something more sinister."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Medal\" instead of \"medallion\" is a lexical imprecision. The loss structure (lost items) is correctly conveyed, but the explicit \"lost\" turns the callback into a flat statement and the elliptical parallelism is only partly preserved."
+          "justification": "'Beset by dark suspicions' is reasonably elevated, but 'dark' shifts 'смутные' (vague) toward something sinister, and the mock-operatic 'haunt/torment' quality is somewhat weaker. The lost-item meaning is correctly preserved ('lost his tape recorder', 'the ambassador, his medal')."
         }
       ]
     },
@@ -49,14 +43,7 @@
         "language_specific": {}
       },
       "candidate": "A pleasure. I'm the Tsar!\nSo pleased to meet you. The Tsar!\nThe Tsar. A pleasure!\nHello! The Tsar. Delighted!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Self-introduction as the Tsar is clear and the repetitive clichés are kept. The exclamation marks and \"Delighted\" add a slightly different tone, but the mundane Soviet-formal repetition still works."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -146,14 +133,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Everybody dance!\" is accurate but plain; it loses the mock-decorum, host-like flavor of the reference \"The floor is open to everyone!\" that highlights the collapse of formality."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -173,7 +153,14 @@
         }
       },
       "candidate": "Well, I picked the right place\nto drop in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'I picked the right place to drop in' conveys that he has just arrived, so it avoids the leaving ambiguity. However, it turns the exclamation into a more explanatory statement and loses some of the casual, cheerful punch of the original."
+        }
+      ]
     },
     {
       "id": 9,
@@ -218,7 +205,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says \"one suede jacket... Three.\" The analysis states the joke is that Shpak forgets to increment the jacket count at first, which the reference preserves with \"a suede jacket... Three\". \"One\" is an addition that makes the slip explicit and flattens the humor. Also \"domestically made\" is attached to cigarette cases only, which is acceptable."
+          "justification": "The candidate says 'one suede jacket', which spells out the punchline. In the source, Shpak at first forgets to increment the count for the jacket and only afterwards says 'Three'. The joke depends on the jacket being singular and then Shpak tacking on 'Three' to correct himself. Here the candidate does preserve a singular jacket followed by 'Three', so the mechanism is retained, but 'one' makes the number explicit, removing the subtle slip that betrays him. This weakens the humor significantly."
         }
       ]
     },
@@ -235,26 +222,19 @@
         "language_specific": {}
       },
       "candidate": "They'll cure you...\nand they'll cure you too...\nand they'll cure me!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The final exclamation mark (\"cure me!\") undermines the calm, melodic resignation described in the analysis, which the reference keeps with ellipses."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 5
+      "minor": 2
     },
-    "total_points": 10,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

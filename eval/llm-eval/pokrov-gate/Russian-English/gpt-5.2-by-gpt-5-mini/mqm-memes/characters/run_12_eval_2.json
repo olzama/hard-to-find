@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning and comic defiance but tones down the bombastic, self-dramatising register described in the analysis (\"Pray, tell me... I'll wait!\"). The punchy theatricality and heightened self-presentation are weakened by the more prosaic phrasing."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the idea but loses the recognisable sarcastic refrain and clipped, performative stutter of the original. 'Such... such lofty relations' reads as a flatter, more literal phrase and weakens the comic repeated-hook effect."
+          "justification": "The candidate loses the performative stammer and heightened ironic flourish of the original and reference (the repeated sound / stutter is a key rhythmic gag). 'Such... such lofty relations.' is natural but flattens the comic delivery and the refraining, sing-song quality that makes the line a memorable refrain."
         }
       ]
     },
@@ -80,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is grammatically awkward and shifts nuance: 'for conscience' is unnatural in English and fails to convey the idiomatic sense of duty/fatalistic moral obligation ('you live to do your duty') that the analysis highlights."
+          "justification": "The phrase 'for conscience' reads awkwardly and abstractly in English and shifts the practical meaning toward a moralistic abstraction. The reference's 'do your duty' better captures the soldierly, duty-driven fatalism in the analysis; the candidate weakens that pragmatic tone."
         }
       ]
     },
@@ -117,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "While sarcastic reading is possible, 'A culinary genius!' leans toward a backhanded compliment rather than the sharp, scornful home-invective of the original ('Some cook you are!'). The biting, imperious tone is softened."
+          "justification": "'A culinary genius!' is idiomatic but reads more like backhanded praise than the sharp, imperious household insult the analysis describes. The candidate softens the biting, absurdly accusatory register of the original."
         }
       ]
     },
@@ -154,7 +147,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The phrase 'Cut it out to hell' is unidiomatic and distorts the original abrupt, violent surgical injunction. It fails to reproduce the coarse, decisive command contrastive with the medical term and thus undermines the intended farcical shock."
+          "justification": "The candidate's word order 'Cut it out to hell.' is unclear and fails to reproduce the abrupt, violent surgical verdict in the reference. The split into two lines further fragments the imperative; the sense of a brusque command to operate immediately ('don't wait for peritonitis') is obscured, harming meaning and comic shock value."
         }
       ]
     },
@@ -171,7 +164,14 @@
         "language_specific": {}
       },
       "candidate": "Khabotov, that’s petty!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "The character name is transliterated as 'Khabotov' instead of the expected 'Khobotov' (or 'Khobotov'), which is a small but noticeable inconsistency. The rest of the line preserves the intended dismissive tone."
+        }
+      ]
     },
     {
       "id": 10,
@@ -188,10 +188,10 @@
       "candidate": "This is my cross!\nAnd it's mine to bear.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "By splitting and rendering the line as 'This is my cross! / And it's mine to bear.' the candidate breaks the English idiom and weakens the manipulative, self-sacrificing phrasing. The original's fixed idiomatic force ('a cross to bear') and theatrical self-victimisation are lost."
+          "justification": "Splitting the idiom into 'This is my cross!' and 'And it's mine to bear.' makes the English read slightly awkwardly and loses the natural fixed expression 'a cross to bear' used in the reference; the manipulative, grandiose idiomatic register is therefore weakened."
         }
       ]
     },
@@ -213,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular'—a literal rendering of 'угловатая'—which the analysis warns against. This choice reads awkward and slightly literal in English, reducing the playful, coquettish self-deprecation of the original."
+          "justification": "Using 'angular' is a literal rendering of 'угловатая' and reads oddly in English for this self-mocking, coquettish register. The analysis specifically warns against a literal 'angular' — the candidate therefore weakens the comic, self-effacing character voice."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 15,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

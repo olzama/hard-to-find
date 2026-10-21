@@ -24,9 +24,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate renders the second clause as 'Shpak loses a tape recorder, the ambassador a medal,' using present-tense 'loses' which suggests an ongoing action rather than the intended past/loss meaning (they have had those items taken). This conflicts with the analysis note that these constructions indicate the items are missing, not possessed."
+        },
+        {
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The line 'I'm plagued by a vague suspicion again...' is slightly awkward and flattens the mock‑heroic register (contraction and word order reduce the elevated theatrical tone described in the analysis)."
+          "justification": "The mock-heroic theatrical register of 'терзают смутные сомнения' is only partially preserved by the conversational 'I'm plagued by a vague suspicion again...'; the elevated, parody-of-tragedy tone is somewhat weakened."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing a tsar ('A pleasure, Tsar!') rather than introducing himself as the Tsar. The analysis explicitly requires the translation to make clear he is introducing himself as the Tsar, so this changes the pragmatic meaning and the joke."
+          "justification": "The candidate reads as if Bunsha is addressing a tsar ('Hello, Tsar!') rather than introducing himself as the Tsar. The analysis explicitly requires that it be clear he is introducing himself as the Tsar (the joke is that he keeps presenting himself as 'the Tsar'), so this rendering reverses the pragmatic role and undermines the gag."
         }
       ]
     },
@@ -90,7 +96,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using the contraction 'I'm' and the phrase 'I'm in mourning' modernizes and slightly shifts the tone away from the archaic, high‑register melancholy ('I am in sorrow') that the analysis highlights."
+          "justification": "Rendering 'в печали' as 'I'm in mourning' shifts the nuance toward formal bereavement; the original archaic melancholy ('in sorrow') is slightly different. The line still works but the high-register, melancholic tone is a bit changed."
         }
       ]
     },
@@ -187,7 +193,14 @@
         }
       },
       "candidate": "Black caviar, red caviar...\nAnd yes, imported caviar...\nEggplant spread!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate separates 'imported caviar' and 'Eggplant spread!' which risks losing the ironic inversion that presents eggplant spread as an exotic 'zamorskaya' delicacy. The joke is still present but the target-language phrasing slightly weakens the satirical contrast."
+        }
+      ]
     },
     {
       "id": 10,
@@ -212,7 +225,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the list as 'three suede jackets' (plural) rather than preserving the comic beat where the speaker hesitates/forgets and the count is inconsistent. That change removes the gag built on the miscount and escalation described in the analysis."
+          "justification": "The original gag depends on Shpak failing to increment the count of the suede jacket (he lists 'a suede jacket... Three' which betrays him). The candidate lists 'three suede jackets,' eliminating that self-betraying slip and thus removing the joke's key mechanism."
         }
       ]
     },
@@ -234,7 +247,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The colloquial 'They'll fix you!' is a looser, more modern phrasing than the resigned, melodic 'And they’ll cure you…', which slightly weakens the original's calm, wry tone."
+          "justification": "The candidate's 'They'll fix you!' uses colloquial, slightly jocular language. While it preserves the meaning (they'll cure/treat you), it loses some of the original's resigned, melodic tone ('they'll cure you...'), making the line a touch more casual and less characterful."
         }
       ]
     }
@@ -242,13 +255,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 3
+      "minor": 5
     },
-    "total_points": 13,
+    "total_points": 15,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.3636363636363635,
+    "major_equiv_per_unit": 0.2727272727272727,
+    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

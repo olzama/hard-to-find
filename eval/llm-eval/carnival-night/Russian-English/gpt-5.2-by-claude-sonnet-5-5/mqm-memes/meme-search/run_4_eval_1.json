@@ -44,13 +44,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The word 'коллектив' is left untranslated in Cyrillic inside the English subtitle, which is a clear untranslated-material error and would be unreadable for English viewers; it also loses the in-house workplace sense ('within our own collective/team')."
+          "justification": "The Russian word \"коллектив\" is left untranslated in the middle of the English subtitle. Viewers who do not read Russian will not understand it, and the workplace/collective framing the joke relies on is lost."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Raise' (воспитаем) with 'hire' gives a workable workplace logic, but 'Baba Yaga' without any hint of the nasty-woman type is less accessible than the reference's 'witch'; the social-type reading is weaker for English viewers."
+          "justification": "\"Hire a Baba Yaga\" keeps the staffing logic, but the untransliterated fairy-tale name \"Baba Yaga\" without any hint of the nasty-woman type makes the social reading weaker than a workplace-flavored rendering would."
         }
       ]
     },
@@ -73,10 +73,10 @@
       "candidate": "briefly—about\nforty minutes. More, I think,\nis not necessary",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest, cozy diminutive quality of «коротенько» is flattened to a plain 'briefly', and 'More, I think, is not necessary' is stiff; the smug managerial tone is weaker, though the order (briefly before forty minutes) is preserved and the joke still lands."
+          "justification": "\"Briefly\" is kept, but the diminutive faux-modesty of «коротенько» (\"nice and short\") is lost, and the self-satisfied managerial tone is flattened. The segment also starts lowercase and ends without punctuation, so the contrast with the forty-minute punchline is weaker."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double sense of «готов» (ready / drunk) is not recreated: 'ready' is rendered flatly, so the intoxication subtext is lost. The reference's 'Oh, he's ready' with emphasis hints at the joke, while the candidate offers no equivalent signal."
+          "justification": "\"Ready\" is rendered literally, with no hint of the \"done for / drunk\" subtext. The double reading that makes the joke work is lost, and the exchange comes across as a plain statement of readiness."
         }
       ]
     },
@@ -126,9 +126,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "'People!.. Ah... Hoo!' keeps a broken shape but loses the stretched, wavering syllabic quality ('Лю-ди', 'ау-у'); 'Hoo!' does not read as an attempt to call out to a crowd ('hello'/'ау'), so the drunken oratory collapse is weaker."
+          "justification": "\"People!.. Ah... Hoo!\" keeps a broken, faltering call, but the stretched, wavering vocalization (\"Peo-ple!\", \"hellooo\") is not conveyed. \"Hoo!\" is a less clear attempt to address a crowd than \"ау-у\", so the drunken physical comedy is weaker."
         }
       ]
     },
@@ -157,7 +157,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Armed eye' is the literal calque that the analysis explicitly says to avoid; it does not echo 'unaided eye' and so sounds surreal rather than a mangled mock-scientific idiom."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the notes specifically warn against. It sounds surreal and does not echo the familiar English idiom \"unaided eye\", so the mock-scientific malformed-idiom effect is lost."
         }
       ]
     },
@@ -186,13 +186,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is garbled: 'Four little stars—best of all, of course, five little stars' makes four stars part of the superlative setup, and 'two little stars, three little stars' is not given the 'four stars' step; the counting build-up and the sudden click to 'five stars' as the best is blurred, weakening the punchline."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Little stars' sounds childish, which fits the silly counting, but the cognac association is not supported by any note, as the analysis suggests may be needed."
+          "justification": "The punchline is mangled. \"Four little stars—best of all, of course, five little stars\" removes the buildup of \"four stars…\" followed by the click to \"five stars is best\". The cognac association is not signaled, and \"little stars\" keeps a childish tone but fails to make the shift into another semantic world land."
         }
       ]
     },
@@ -218,14 +212,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 4
+      "major": 5,
+      "minor": 2
     },
-    "total_points": 24,
+    "total_points": 27,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.375,
+    "major_equiv_per_unit": 0.675,
+    "interpretation": "3.38 MQM penalty points per meaning unit (≈ 0.68 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

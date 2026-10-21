@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador still have the items ('ten un magnetófono', 'un medallón'), but the line means those items are missing from them, not currently possessed by them."
+          "justification": "The candidate reverses the key gist of the line: it says Shpak and the ambassador still have the items, whereas the context requires that they no longer have them because they were stolen."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The phrase \"vagas dúbidas\" is a bit flatter than the mock-heroic, melodramatic tone of the original opening."
         }
       ]
     },
@@ -40,10 +46,16 @@
       "candidate": "Ola, tsar, encantada.\nTsar, encantada, tsar. Encantada, ola, tsar.\nTsar, encantada.\nOla, tsar. Encantada!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The gendered form 'encantada' makes the Tsar sound like a woman, and the line no longer clearly works as Bunsha repeatedly introducing himself as 'the Tsar' while using banal polite greetings. This damages both meaning and the comic effect."
+          "justification": "The greeting is mostly preserved, but \"Ola\" slightly weakens the formal, repetitive social-cliché flavor that makes the line comic."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate sounds more conversational than the reference’s deliberately stiff, ceremonial-sounding banter, which slightly reduces the comic contrast."
         }
       ]
     },
@@ -78,9 +90,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Que estou de loito' is understandable, but it weakens the specific mood of royal melancholy conveyed by 'estou aflixido' and sounds slightly less fitting for the Tsar's elevated, archaic tone."
+          "justification": "\"Estou de loito\" changes the meaning slightly: the original says he is sad/mournful, not literally in mourning."
         }
       ]
     },
@@ -99,10 +111,10 @@
       "candidate": "Emparedáronme!\nEmparedáronme, demoños!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'demoños' is a misspelling/variant that reads as incorrect here, and the punctuation plus duplicated exclamation mark disrupt the line's rhythm. More importantly, the candidate weakens the pointed complaint of being walled in by demons."
+          "justification": "\"demoños\" is an unusual form in this context and sounds less natural than the expected word choice, though the line remains understandable."
         }
       ]
     },
@@ -122,9 +134,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Mira' is a bit more casual and less emphatic than the reference's exclamatory phrasing, so the astonished, miraculous tone is slightly weakened."
+          "justification": "\"Mira\" is slightly less formal and less elevated than the original exclamatory \"Velaquí\", so the grand, quasi-biblical tone is a bit weakened."
         }
       ]
     },
@@ -161,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben pasei por aquí!' suggests pleasant passage through a place, but the original is about having entered at exactly the right moment. The directional sense is wrong and the burglar's self-satisfied discovery is lost."
+          "justification": "The candidate suggests he is passing by or arriving somewhere, but the joke is that he has just come in and is delighted to have found a good target; the timing and sense of discovery are lost."
         }
       ]
     },
@@ -183,7 +195,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats 'Caviar' for the eggplant item, directly conflicting with the note that this should not be called caviar. This blunts the Soviet-food-shortage joke and makes the punchline less clear."
+          "justification": "By repeating \"caviar\" for the eggplant item, the candidate ignores the analysis warning and turns the joke into a misleading literal label instead of the satirical \"overseas eggplant spread.\""
         }
       ]
     },
@@ -202,10 +214,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reduces the count to '3' from the start, removing the escalating exaggeration that is central to the joke. It also weakens the confession-like specificity of the inventory list."
+          "justification": "The numeral form changes the comic buildup: the original is a spoken inventory with the count escalating in the line, while the candidate reads more like a list than a boastful recounting."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Pitilleiras\" is less idiomatic here than a more natural equivalent for the cigarette cases, which slightly weakens the period flavor."
         }
       ]
     },
@@ -225,23 +243,29 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Han curarte/han curarme' is understandable, but the construction is less idiomatic and more awkward than the reference's natural future/near-future phrasing, which gives the line its calm, resigned cadence."
+          "justification": "\"Han curarte\" slightly changes the nuance of the original, which more naturally means \"they will cure you\" in a resigned, repetitive cadence rather than the clunkier future-periphrastic form."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The phrasing is somewhat stiffer and less melodic than the reference, so the calm, resigned rhythm of the joke is a bit reduced."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 3
+      "major": 3,
+      "minor": 10
     },
-    "total_points": 33,
+    "total_points": 25,
     "meaning_units": 11,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.272727272727273,
+    "major_equiv_per_unit": 0.4545454545454546,
+    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

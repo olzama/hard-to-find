@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "I should have been in his place!\nGet drunk enough, and you will be!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate omits 'Guys' (Ребята), the group address that shows Gorbunkov speaking to the people present. The joke itself is intact, so this is a small omission."
+        }
+      ]
     },
     {
       "id": 2,
@@ -241,7 +248,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds quotation marks around the whole alibi. The source line has no quotation marks, and the reference does not add them. The marks are harmless but are an addition not present in the source."
+          "justification": "The candidate wraps the alibi in quotation marks, which appear in neither the source nor the reference. This is a small addition, although it can be read as marking the line as a rehearsed script."
         }
       ]
     },
@@ -348,14 +355,7 @@
         "language_specific": {}
       },
       "candidate": "You wouldn't have the same one,\nbut with mother-of-pearl buttons?\nUnfortunately, no.\nNo? Must keep looking then!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "The candidate drops the dialogue dashes that mark speaker turns in the source and reference. Without them, the saleswoman's replies ('Unfortunately, no.' and 'No? Must keep looking then!') run into Gorbunkov's lines without a clear turn change, which slightly weakens the exchange's readability."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 23,

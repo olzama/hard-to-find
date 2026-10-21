@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops the address 'Guys' (ребята) and the word 'enough' from 'Напьёшься', and shifts 'должен был быть' (should have been) to 'should be', which weakens the sense of regret over the dead man's place."
+          "justification": "The source's counterfactual 'должен был быть' ('should have been') is rendered as the present 'should be', and the address 'Guys' (Ребята) is dropped, so the opening line loses some of Gorbunkov's dramatic self-regard toward his peers."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a close literal rendering and loses the light, bouncing rhythm the analysis identifies as making the admission endearing rather than pathetic."
+          "justification": "The literal 'I'm afraid...' flattens the admission. The analysis stresses the bouncy, lighthearted quality that keeps the confession endearing rather than pathetic, and the candidate does not carry that rhythm or tone."
         }
       ]
     },
@@ -85,7 +85,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the opening 'Леди' (lady) from the list of forms of address, so the first item of the mashup is missing."
+          "justification": "The form of address 'Lady' is dropped and replaced by an added 'You know,' which is not in the source. The list of addresses (signora, frau, miss) is left without its opening term."
         }
       ]
     },
@@ -132,7 +132,14 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kiddies,\nflowers for his missus.\nMind you don't mix it up!\nKutuzov!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The analysis identifies Lyolik's non-standard, uneducated speech as the point of the line. 'Mind you don't mix it up!' is standard English with no marked register, so the character voice is weakened. 'Kiddies' and 'missus' partly keep the colloquial tone."
+        }
+      ]
     },
     {
       "id": 8,
@@ -155,9 +162,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The analysis calls for rhythmic, balanced proverbial phrasing and the guidance requires at least some creative solution. The candidate has no parallelism, and 'and ulcer sufferers' is a clunky literal rendering that separates the pair awkwardly."
+          "justification": "The language-specific note requires some creative solution, but the rendering is largely literal and has no rhythmic balance. 'And ulcer sufferers' as a clipped tail to the line is clumsy next to 'teetotalers', which is less elegant than the reference's 'convalescers'."
         }
       ]
     },
@@ -224,7 +231,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The full form 'Semyonovich' replaces the colloquial 'Semyonych' and the elongated 'Semyo-o-on' sigh is lost. The ellipsis partly conveys the weary tone, but the facepalm-like patience described in the analysis is weakened."
+          "justification": "The source's elongated, melodic sigh ('Семё-он') is lost. The formal 'Semyonovich' replaces the colloquial, affectionate patronymic 'Semyonych', so the weary-teacher tone is only partly conveyed by the ellipsis."
         }
       ]
     },
@@ -291,7 +298,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate drops 'light' from 'Лёгким движением руки', so the contrast between promised light elegance and the stuck zipper that the analysis highlights is weakened."
+          "justification": "The source adjective 'Лёгким' ('light') is dropped. The analysis builds the joke on the contrast between the promise of 'light' elegance and the stuck zipper, so this weakens the setup of the joke."
         }
       ]
     },
@@ -323,14 +330,7 @@
         "language_specific": {}
       },
       "candidate": "Whoever buys a stack of tickets wins...\nA water tower!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The rhymed setup and punchline (пачку/водокачку) that create the rhythmic anti-climax are lost. 'stack' and 'water tower' do not rhyme, so the lottery slogan lands less sharply."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 19,
@@ -375,14 +375,7 @@
         "language_specific": {}
       },
       "candidate": "In this state...\nI can't.\nFirst... I must...\ntake a baaath,\nhave a little cup of coffee...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The analysis names the affected pronunciation of 'coffee' as Gena's marker of sophistication. The candidate keeps the stretched 'baaath' but renders 'coffee' in plain form, so the affectation is only partly conveyed."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 22,
@@ -418,13 +411,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 8
+      "minor": 7
     },
-    "total_points": 8,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.34782608695652173,
-    "major_equiv_per_unit": 0.06956521739130435,
-    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

@@ -41,16 +41,10 @@
       "candidate": "We won't bring Baba Yaga from outside,\nwe'll raise her in our own collective!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps the fairy-tale name 'Baba Yaga' and drops the 'witch' type. 'Raise her' (a child) is less bureaucratic than 'train/cultivate in-house'. A non-Russian viewer will not get the 'nasty woman already in our workplace' social logic. The line becomes fairy-tale-like, which the analysis says to avoid."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Raise her in our own collective' sounds slightly odd and less like staffing/HR talk than 'train one in-house'. The exclamation mark adds enthusiasm to what should be a deadpan delivery."
+          "justification": "\"Raise her\" keeps the in-house logic, but \"Baba Yaga\" untranslated is a fairy-tale name that may not evoke the nasty-woman-in-the-workplace type for English viewers; the social-type layer is weakened, though the workplace framing with \"collective\" survives."
         }
       ]
     },
@@ -73,10 +67,10 @@
       "candidate": "briefly, about\nforty minutes, no more,\nI think that's enough",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "accuracy",
           "span": "",
-          "justification": "The diminutive, faux-modest 'коротенько' is rendered with plain 'briefly', so the comic contrast with 'forty minutes' is weakened. The added 'no more, I think that's enough' sounds like a firm limit rather than smug understatement, which flattens the self-satisfied managerial tone. The briefness-then-duration order is preserved."
+          "justification": "The faux-modest \"briefly\" is kept before the duration, but \"no more, I think that's enough\" shifts the nuance slightly and loses the cozy diminutive flavor of «коротенько»; the comic reversal still lands."
         }
       ]
     },
@@ -99,10 +93,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer's ready—been ready a long time!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of 'готов' (ready / drunk) is not recreated. 'Ready—been ready a long time!' gives only the administrative sense. The exclamation mark hints a little at the joke, but the intoxication subtext is largely lost, which the analysis names as the main risk."
+          "justification": "\"Ready\" with \"been ready a long time\" preserves the double reading (ready/drunk) as in the reference, but the exclamation and lack of a cheerful knowing tone make the drunk subtext slightly less audible."
         }
       ]
     },
@@ -123,14 +117,7 @@
         }
       },
       "candidate": "- People!.. Ah... Ah-oo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The broken, faltering vocalization is only partly kept. 'People!.. Ah... Ah-oo!' keeps the stumble, but the stretched syllables ('Peo-ple') are lost and 'Ah-oo' is a weak equivalent of 'ау-у', so the drunken, wavering shape is less pronounced. The leading dash is acceptable."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -157,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Armed eye' is the literal calque the English-specific note says to avoid. It does not echo 'unaided eye', so the viewer does not hear a familiar idiom wrongly 'upgraded'. It reads as strange and surreal rather than as mock-scientific. The 'one only has to' phrasing is acceptable."
+          "justification": "\"Armed eye\" is the literal calque the analysis explicitly says to avoid; it sounds surreal rather than a recognizable idiom echo (\"unaided eye\"), so the mock-scientific deformation of a familiar expression is lost for English viewers."
         }
       ]
     },
@@ -186,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline is garbled. The counting reads 'two little stars, three little stars... Four little stars—best of all, of course, five little stars!', so 'four' is merged into the 'best of all' clause and the progression breaks. The final 'five' no longer snaps into a new frame. The cognac association is not signaled, although the analysis notes a translator's note may be needed, so the joke would be lost on most viewers."
+          "justification": "The counting is garbled: \"Four little stars—best of all, of course, five little stars!\" merges the sequence so four is no longer part of the trivial buildup, and the punchline is blurred. Also no cue (e.g. note) for the cognac association, so the shift into a different semantic domain is not signaled and the joke does not land."
         }
       ]
     },
@@ -212,21 +199,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'Is there life on Mars, is there no life on Mars' is a stiff calque of 'есть ли... нет ли'. 'Whether there is life on Mars or not' sounds more natural. The colloquial 'in the know' keeps the casual register and the personified science, so the effect is largely preserved."
+          "justification": "\"Is there no life on Mars\" is a slightly awkward literal rendering of the Russian doublet, and \"in the know\" captures the colloquial register well, but the opening phrasing is clumsier than the reference."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 3
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 28,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 3.5,
-    "major_equiv_per_unit": 0.7,
-    "interpretation": "3.50 MQM penalty points per meaning unit (≈ 0.70 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

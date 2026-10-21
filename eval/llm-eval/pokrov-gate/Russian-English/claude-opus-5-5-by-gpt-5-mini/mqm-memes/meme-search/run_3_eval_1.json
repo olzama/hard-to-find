@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the meaning and the teasing challenge, but it flattens the high, self-dramatising theatrical tone indicated in the analysis (the reference's 'Pray, tell me... I'll wait!' is more grandiose). The candidate feels more prosaic and less performative."
+          "justification": "The candidate preserves the meaning and challenge-like tone, but it loses some of Velyurov's theatrical self-dramatisation (the heightened, pleading register of the reference). \"Name one! No, I'm waiting.\" is flatter and less grandiose than the original comic self-presentation."
         }
       ]
     },
@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the stutter and ironic register, but uses 'relations' which the analysis warns can sound literal/unidiomatic in English. The phrasing is acceptable but slightly less natural and less punchy than the playful, idiomatic exclamation sought in the analysis/reference."
+          "justification": "The candidate conveys the sarcastic dismissal but abandons the comic hesitation/stuttering and the deliberately odd phrase shape that make the line a recurring refrén. Also uses the literal noun \"relations,\" which the analysis warns can sound stilted in English."
         }
       ]
     },
@@ -83,9 +83,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "Meaning (the soldier's fatalism) is preserved, but the phrasing 'for conscience' is unnatural in English. A more idiomatic rendering (e.g. 'for duty' or 'to do our duty') would better capture the register and readability."
+          "justification": "The candidate is an accurate, fairly literal rendering, but reads somewhat formal and abstract compared with the conversational, pragmatic soldierly register of the reference. The effect is slightly weakened."
         }
       ]
     },
@@ -122,14 +122,7 @@
         }
       },
       "candidate": "Master chef!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'Master chef!' reads as upbeat or admiring rather than the sharp, mocking household rebuke the analysis describes. It loses some of the original's caustic, imperious bite."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -149,7 +142,14 @@
         }
       },
       "candidate": "Natürlich, Margarita Pavlovna.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Keeping the German \"Natürlich\" is correct, but adding the name \"Margarita Pavlovna\" is an addition not present in the source and changes the line's brevity and comic timing."
+        }
+      ]
     },
     {
       "id": 8,
@@ -169,7 +169,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the intended imperative: the Russian orders radical surgical action ('cut [him] to hell') but 'Cut it out, damn it' in English reads as 'stop cutting'. Additionally, 'peritonitises' is an incorrect pluralisation and awkward; the medical urgency and bluntness are thus both mistranslated and made ungrammatical."
+          "justification": "The candidate misreads the medical imperative as an exhortation to \"stop\" (\"Cut it out, damn it\") rather than the surgeon's command to perform an operation immediately. This reverses the intended comic shock of a blunt surgical pronouncement."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "The plural \"peritonitises\" is awkward and nonstandard in English; the medical noun should remain singular (peritonitis) in this context."
         }
       ]
     },
@@ -208,10 +214,10 @@
       "candidate": "He's my cross!\nAnd mine to bear.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "Rendering the line as 'He's my cross!' splits the English idiom and makes the phrase less idiomatic and rhetorically effective. The manipulative, self-sacrificial idiom ('a cross to bear') is weakened by literalising the metaphor."
+          "justification": "The candidate turns an idiomatic claim of burden/responsibility into a statement that calls the person \"my cross\" (\"He's my cross\"), changing the meaning and undermining the manipulative self-sacrificial hypocrisy central to the line."
         }
       ]
     },
@@ -236,23 +242,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate largely conveys the self-mocking list of traits, but uses 'angular' which the analysis flags as a too-literal and awkward calque of 'угловатая'. This choice makes the line sound less natural and somewhat stilted in English."
+          "justification": "The candidate's use of \"angular\" is a too-literal rendering of «угловатая» and sounds awkward in colloquial English. The phrasing \"So contradictory, all of me!\" is also slightly strained and less natural than the playful self-mocking rhythm of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 2,
       "minor": 6
     },
-    "total_points": 11,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

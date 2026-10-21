@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.\nThe Tsar, very pleased.\nHello, Tsar! Very pleased!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The final line, 'Hello, Tsar! Very pleased!', reads as a vocative addressing a Tsar. The analysis requires Bunsha to introduce himself as the Tsar. The earlier lines ('I'm the Tsar') establish this, so the damage is limited."
+        }
+      ]
     },
     {
       "id": 3,
@@ -151,14 +158,7 @@
         "language_specific": {}
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic...\na suede jacket... Three.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The list is split across lines with lowercase 'three' at the start and no sentence-initial capitalization, which is slightly less polished than the reference. The content, the 'domestic' qualifier, and the key joke of the suede jacket count are fully preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -178,7 +178,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks on 'And they'll cure you!' and 'you too!' replace the reference's trailing ellipses and undermine the melodic, calm, resigned tone described in the analysis. The meaning is preserved, and the final line keeps its ellipsis."
+          "justification": "The exclamation marks on the first two clauses replace the trailing ellipses. This makes the delivery emphatic rather than the calm, melodic, resigned tone the analysis describes. The meaning is intact."
         }
       ]
     }

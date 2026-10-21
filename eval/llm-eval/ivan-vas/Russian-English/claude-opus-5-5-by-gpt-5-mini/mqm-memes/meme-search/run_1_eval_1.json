@@ -26,7 +26,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the mock-heroic opening but uses 'envoy' and the phrasing 'locket's not been seen', which weakens the original's register and clarity. 'Посол' is best rendered as 'ambassador' to keep the slightly elevated ironic tone; 'not been seen' is awkward compared with a clear loss construction."
+          "justification": "The candidate preserves the mock-heroic opening, but uses colloquial contractions and phrasing ('Shpak's lost a tape machine', 'envoy' and 'locket') that slightly weakens the elevated theatrical tone and specificity (tape recorder vs 'tape machine', ambassador vs 'envoy')."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's short fragments ('Pleased to meet you. Tsar.') fail to make it clear that Bunsha is introducing himself as the Tsar rather than addressing a tsar. The crucial gag in the analysis — that he keeps introducing himself as 'the Tsar' — is obscured by the punctuation and ordering here, changing the intended comedic effect."
+          "justification": "The original comedy depends on Bunsha introducing himself as the Tsar (not addressing a Tsar). The candidate's phrasing is ambiguous and reads largely like short direct addresses ('Tsar.'), which risks losing the clear self-introduction that creates the joke."
         }
       ]
     },
@@ -185,7 +185,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Overseas caviar' (followed by 'Aubergine'), which conflicts with the analysis note that the eggplant spread must not be presented as 'caviar'. This misrenders the satire that elevates a cheap Soviet eggplant spread to the status of an exotic delicacy."
+          "justification": "The candidate renders the cheap Soviet eggplant spread as 'Overseas caviar... Aubergine!', which effectively labels the eggplant spread as 'caviar' and therefore reverses the satirical contrast between real caviar and humble eggplant spread. The analysis explicitly warns against calling the spread 'caviar'."
         }
       ]
     },
@@ -207,7 +207,14 @@
         }
       },
       "candidate": "tape machines, 3;\ncine cameras, 3;\ncigarette cases, domestic, 3;\njacket, suede: three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate conveys the list and counts but the punctuation and ordering ('tape machines, 3; ... jacket, suede: three.') is stilted and awkward for subtitle phrasing, reducing the natural buildup and comic hesitancy that the original list implies."
+        }
+      ]
     },
     {
       "id": 11,
@@ -228,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 11,
+    "total_points": 12,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0909090909090908,
+    "major_equiv_per_unit": 0.21818181818181817,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

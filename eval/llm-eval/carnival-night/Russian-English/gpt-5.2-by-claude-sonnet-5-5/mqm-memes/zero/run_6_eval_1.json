@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is a directive\nto celebrate the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is a directive\" keeps the bureaucratic register and top-down framing, but \"cheerfully\" is slightly less formal than \"merrily\", and the dry official tone is mildly weakened. Overall the joke is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Hire\" and \"raise\" work with the workplace logic, but \"raise\" suggests bringing up a child rather than cultivating or training a staff member, so the managerial/educational sense is a bit weaker. \"Collective\" retains the Soviet flavor. The leading dash is a minor formatting oddity."
+          "justification": "\"Raise one\" and \"hire\" keep the workplace logic, but \"raise\" is more parental/fairy-tale than the managerial \"train in-house\" register; the bureaucratic staffing tone is slightly weaker. \"Collective\" does preserve the Soviet workplace flavor."
         }
       ]
     },
@@ -74,10 +67,10 @@
       "candidate": "briefly—about\nforty minutes. More, I think,\nisn’t necessary",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The diminutive, faux-modest \"коротенько\" is rendered with plain \"briefly\", and the lowercase opening drops the \"And\". The analysis warns that a flat rendering weakens the contrast; there is no cozy or patronizing sense, so the punchline \"forty minutes\" loses much of its comic reversal."
+          "justification": "\"Briefly\" is kept before the duration, so the reversal works, but the faux-modest, cozy diminutive tone of «коротенько так» is lost, and the sentence ends flatly with \"isn't necessary\" rather than the self-satisfied \"I don't think we need more\"."
         }
       ]
     },
@@ -100,10 +93,10 @@
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—ready a long time!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The \"ready = drunk\" double meaning is not recreated. \"Ready a long time!\" is a plain literal rendering and the alcoholic subtext is lost, which the analysis flags as the main risk. The line is also missing the dash marking the first speaker."
+          "justification": "\"Ready a long time\" keeps the surface administrative meaning and the duration, and the odd phrasing hints at the drunk reading, but the double sense is only weakly signaled. The English \"ready\" does not clearly evoke intoxication, so the joke is partly lost."
         }
       ]
     },
@@ -127,9 +120,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"People!.. Uh... Hel-lo!\" keeps some broken, faltering delivery, but the first word is a clean \"People!\" rather than stretched like \"Peo-ple\", and \"Hel-lo\" is less wavering than the drawn-out \"hellooo\". The drunken vocal instability is only partly conveyed."
+          "justification": "The broken, wavering quality is partly kept (\"People!.. Uh... Hel-lo!\"), but \"People\" is not stretched, and \"Hel-lo\" is more regular than the drawn-out, slurred \"ау-у\". The drunken vocal instability is weaker than in the original."
         }
       ]
     },
@@ -156,9 +149,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly says to avoid. It sounds more surreal than the Russian and does not evoke the English \"unaided eye\", so the mangled mock-scientific idiom is not recreated."
+          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against. It sounds surreal rather than like a mangled version of the familiar English idiom \"unaided/naked eye\", so the mock-scientific malformed-idiom effect is lost."
         }
       ]
     },
@@ -187,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline is broken. The counting progression is restructured so that \"Four little stars—best of all, of course, five little stars!\" makes \"four\" part of the superlative setup and mangles the build-up of two, three, four, then \"best of all, five\". The shift to the cognac frame is also not signalled, and there is no note or hint of the five-star cognac association, so the derailment is weakened."
+          "justification": "The counting is garbled: \"Four little stars—best of all, of course, five little stars\" makes four the best option and breaks the build-up and punchline. The sudden shift to \"five stars\" as the best cognac does not land, and there is no cultural cue to the cognac frame."
         }
       ]
     },
@@ -213,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning and the colloquial \"in the know\" are preserved, which matches the casual register of the original. However, \"is there no life on Mars\" is slightly clumsy, and \"science does not know\" is a bit more formal than the flat \"unknown to science\". The comic register mismatch is mostly kept."
+          "justification": "The content and the casual \"in the know\" ending are preserved, but \"Is there life on Mars, is there no life on Mars\" is a slightly stiff calque, and \"science does not know\" is a bit more formal than the colloquial \"unknown to science\"; the register mismatch is nearly kept."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 4
+      "major": 2,
+      "minor": 5
     },
-    "total_points": 24,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

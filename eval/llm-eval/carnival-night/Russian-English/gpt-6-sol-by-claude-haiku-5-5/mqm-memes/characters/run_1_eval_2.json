@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Comrades, we've been instructed\nto greet the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Greet the New Year' is an unidiomatic collocation in English, where 'celebrate' or 'see in' would be natural. The bureaucratic directive register ('we've been instructed') is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'A Baba Yaga' keeps the fairy-tale reading but does not signal the workplace-villainess type as clearly as the reference's 'witch'. 'Develop one' also weakens the sense of training a person in-house."
+          "justification": "\"Develop one from within\" reads more like product or talent development than the nurturing, educational \"воспитаем\" that drives the workplace joke. \"Train\" or \"raise\" would keep the sense that the collective is shaping a Baba Yaga-type figure."
         }
       ]
     },
@@ -65,13 +58,13 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'And gives a short address.' is an incomplete sentence with no subject, so the opening reads as a fragment and is hard to parse on first viewing."
+          "justification": "The opening \"And gives a short address.\" is a dangling fragment with an unmotivated \"And\" that reads as a continuation of a missing line. It is awkward as the first subtitle."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Short' lacks the diminutive faux-modesty of 'коротенько', and 'longer would be unnecessary' is stiffer than the speaker's self-satisfied 'не надо'. This weakens the patronizing tone the analysis asks for, though the 'short' then 'forty minutes' reversal still lands."
+          "justification": "\"Longer would be unnecessary\" drops the conversational hedge (\"я думаю\", \"I think\") that carries Ogurtsov's self-satisfied, patronizing tone. The faux-modesty of \"коротенько\" is also flatter than the analysis asks for."
         }
       ]
     },
@@ -108,13 +101,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Yoo-hoo!' is a cheerful hailing call and does not carry the faltering, drunken quality of 'ау'. 'People!' is also not stretched or broken as in the source, so the vocal instability the analysis calls for is only partly kept by the ellipsis."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The leading dash implies a second speaker or dialogue exchange, which the single-speaker source line does not have."
+          "justification": "\"People!\" is unstretched and clean, so the faltering, wavering vocal quality the analysis calls essential is weakened. \"Yoo-hoo!\" is a good equivalent for \"ау-у\", but it sounds more cheerful than pitiful and slightly undercuts the drunken collapse."
         }
       ]
     },
@@ -141,13 +128,7 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Instrumented eye' is a plausible mock-technical phrase, but it does not echo the familiar 'unaided eye'. The viewer therefore loses the sense of a known idiom being wrongly upgraded, which the analysis identifies as the joke's core."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Once we take a telescope' replaces the 'стоит только' sense of 'all it takes is', which carries the lecturer's casual, over-simple logic."
+          "justification": "\"Instrumented eye\" is a workable mock-technical distortion of \"unaided eye\", but it is less immediately recognizable as an echo of the familiar idiom than the reference's \"aided\", so the mangled-idiom effect is somewhat weaker."
         }
       ]
     },
@@ -171,16 +152,10 @@
       "candidate": "we can already see two little stars,\nthree little stars...\nFour little stars. Best of all,\nof course, is five little stars!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The segment opens lowercase with no lead-in, and 'Four little stars.' starts a new capitalized sentence, so capitalization is inconsistent within the segment."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The cognac reference that the analysis calls the punchline's semantic click is not signaled, with neither a note nor another cue. Applying 'little' to the final 'five' also keeps it in the childish counting register, so the shift into a different frame is weaker."
+          "justification": "The punchline depends on \"five stars\" suddenly clicking into the cognac grading system, a cultural point the analysis treats as the essence of the joke. Adding \"little\" to every star anchors the sequence in astronomy, so the final item does not register as a shift into a different semantic world. The reference's bracketed note, which the analysis recommends, is also absent, so most viewers will not get the cognac reference."
         }
       ]
     },
@@ -197,26 +172,19 @@
         "language_specific": {}
       },
       "candidate": "Whether there's life on Mars\nor no life on Mars,\nscience doesn't know.\nScience isn't up to speed yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Or no life on Mars' is an awkward rendering of 'нет ли жизни', and 'or not' would read more naturally in the casual register the analysis asks for."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 11
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 11,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 1.375,
-    "major_equiv_per_unit": 0.275,
-    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

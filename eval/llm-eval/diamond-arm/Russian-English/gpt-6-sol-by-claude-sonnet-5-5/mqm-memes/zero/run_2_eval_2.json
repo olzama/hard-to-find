@@ -18,10 +18,16 @@
       "candidate": "that should have been me.\nKeep drinking and it will be!",
       "issues": [
         {
+          "severity": "major",
+          "category": "style",
+          "span": "",
+          "justification": "The policeman's retort 'Keep drinking and it will be!' loses the cop-humor logic of 'get drunk enough and you will be'. It reads as advice and not as a mocking remark about being carried off."
+        },
+        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Keep drinking and it will be' preserves the cop's mocking logic, but 'Keep drinking' is flatter than the reference's 'Get drunk enough, and you will be'. Gorbunkov's dramatic, sacrificial tone is also reduced to a plain 'that should have been me'."
+          "justification": "Gorbunkov's dramatic, sacrificial tone ('Guys, I should have been in his place!') is flattened into a plain, lowercase statement. The address 'Guys' is dropped."
         }
       ]
     },
@@ -45,10 +51,10 @@
       "candidate": "I'm no coward,\nbut I am afraid...",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate is a literal rendering with no rhythmic or comic device. The analysis says the 'Trus/Boyus' bounce makes the admission endearing, and the reference's 'overpowered by fear' adds some flavor. The English note also says a literal translation creates no comic effect."
+          "justification": "The line is rendered literally, with no bounce, rhythm or comic effect. The analysis stresses the lighthearted, endearing 'trus/boyus' rhyme effect, and the candidate has no creative solution for it. It sounds flat and pathetic."
         }
       ]
     },
@@ -65,7 +71,14 @@
         "language_specific": {}
       },
       "candidate": "Your... mustache is coming unstuck...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The hesitant, stammering delivery ('Um... your... mustache...') is lost. Gorbunkov's polite, awkward helpfulness is weaker, though the meaning is preserved."
+        }
+      ]
     },
     {
       "id": 4,
@@ -83,9 +96,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The comic mashup of pseudo-international jargon ('Russo Turisto! Obliko Morale!') is lost. 'Russo tourist' and 'Morality' are plain English, and 'You see' and 'out of the question' replace the faux-worldly, broken-foreign register with a neutral one. 'Lady' is also dropped."
+          "justification": "The comic mashup of pseudo-international loanwords is largely lost. 'Russo tourist' and 'Morality' are plain English, not 'Russo Turisto! Obliko Morale!', and 'I'm afraid it's out of the question' replaces the idiom. Gena's performance of Western worldliness is not conveyed. 'Lady' is dropped."
         }
       ]
     },
@@ -107,7 +120,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the specific cast detail but loses the hysteria. 'It's all gone wrong' is milder than 'everything's lost', and the repeated panic is flattened into a single 'Everything!'. The 'client' becomes the colorless 'he'."
+          "justification": "The hysterical panic is weakened. 'It's all gone wrong' is milder than 'everything's lost', and the repeated cry is reduced. The specific cast detail is preserved, but the final line is flat ('he's leaving' lacks 'the client')."
         }
       ]
     },
@@ -129,7 +142,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'It's for life' is natural and keeps the chronic-condition idea, but it shifts 'надолго' (for a long time) to 'for life', which is slightly stronger and loses the dry diagnostic wording."
+          "justification": "'It's for life' is a reasonable idiomatic equivalent of 'надолго' and keeps the chronic-condition punch. It shifts slightly from 'a long time' and is a bit less diagnostic, but works."
         }
       ]
     },
@@ -151,7 +164,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Lyolik's non-standard, uneducated speech ('Смотры, нэ пэрэпутай', 'Дитям') is not reproduced. The candidate is neutral standard English, unlike the reference's 'young'uns', 'broad' and 'mix 'em up'. The Kutuzov joke is also left unexplained, as in the reference."
+          "justification": "Lyolik's non-standard, uneducated speech style (the 'Смотры, нэ пэрэпутай' mimicry) is entirely neutralized into standard English. The character voice described in the analysis is lost, and the sarcasm of 'Kutuzov' gets no support."
         }
       ]
     },
@@ -178,7 +191,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The analysis requires some creative rhythmic or balanced solution for the trezvenniki/yazvenniki parallel. The candidate is a plain literal rendering with no rhythm or proverbial feel, and 'ulcer patients' does not echo 'teetotalers'."
+          "justification": "The line is a plain literal rendering with no rhythm or creative solution, which the analysis says is required. The balanced proverbial feel of 'trezvenniki/yazvenniki' is absent. 'Ulcer patients' also misses the paired-suffix effect."
         }
       ]
     },
@@ -200,7 +213,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning is correct, but the rhyming, aphoristic 'law' feel (аристократы/дегенераты) is not recreated. The candidate is a plain statement with no rhythm."
+          "justification": "The meaning is intact and the structure is natural. The rhyming 'social law' quality (аристократы/дегенераты) is not rendered, so the proverbial punch is a little weaker."
         }
       ]
     },
@@ -222,7 +235,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Lyolik's distinctive mispronunciation of 'tablet', which the analysis says makes the line funny and memorable, is not rendered. 'One tablet is enough' is neutral and loses the character voice."
+          "justification": "The key joke is Lyolik's mispronunciation of 'tablet'. The candidate uses the plain word 'tablet' with no marked pronunciation or other compensation, so the memorable comic effect is lost entirely."
         }
       ]
     },
@@ -244,7 +257,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'People like us' weakens the collective Soviet 'наши люди' and the sense of surveillance over moral purity. 'Bread shop' is acceptable but slightly unidiomatic."
+          "justification": "'People like us' loses the collective Soviet 'наши люди' ('our people') ideology. The meaning of the taxi/bakery absurdity survives, but the sense of surveillance and collective morality is weaker."
         }
       ]
     },
@@ -266,7 +279,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The elongated, sighing intonation ('Семё-он') is not conveyed. The candidate gives a flat full name and patronymic, and the 'weary facepalm' tone is lost."
+          "justification": "The elongated, melodic sigh ('Семё-он') is not reproduced. The full patronymic 'Semyonovich' and the trailing ellipsis convey some weariness, but the 'facepalm' sing-song effect is lost."
         }
       ]
     },
@@ -283,7 +296,14 @@
         "language_specific": {}
       },
       "candidate": "May you have to live\non nothing\nbut your salary!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning and the ironic curse are preserved. The staged pauses ('live... on nothing... but') are partly handled via line breaks, though 'have to live' adds a slightly explanatory tone. Little is lost."
+        }
+      ]
     },
     {
       "id": 14,
@@ -298,7 +318,14 @@
         "language_specific": {}
       },
       "candidate": "tsigel, tsigel, tsigel, ai-lyulyu...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate uses 'tsigel' where the reference uses the 'zigel' spelling, and the third 'tsigel' is not set apart from the first two as in the source. The gibberish and the rhythm still come through, so this is a small weakness."
+        }
+      ]
     },
     {
       "id": 15,
@@ -318,7 +345,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the staccato rhythm, but the added quotation marks and the 'and there was a cast!' ending soften the telegraphic, mechanical alibi. 'Came to' also sits oddly against the clipped style."
+          "justification": "The telegraphic, staccato mechanical mantra is softened by the first-person 'I' and the added quotation marks. 'And there was a cast' is chattier than the clipped 'Woke up in a cast'."
         }
       ]
     },
@@ -335,7 +362,14 @@
         "language_specific": {}
       },
       "candidate": "With a simple flick of the wrist,\nthe trousers become...\nthe trousers become...\nbecome, the trousers...\nelegant shorts!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The structure follows the source's repeating stall, but 'simple flick' replaces 'light', which weakens the 'light elegance' contrast. The inverted echo is kept ('become, the trousers...'), but the final ellipsis build-up to 'elegant shorts' is lost."
+        }
+      ]
     },
     {
       "id": 17,
@@ -355,7 +389,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The comic morphological slip ('Не виноватая я'), where a panicked seductress reverts to a provincial register, is lost. The candidate is standard, neutral English, unlike the reference's 'Twasn't my fault'."
+          "justification": "The 'uneducated' form 'не виноватая я' that reveals her provincial register under panic is rendered in neutral standard English. The parody of the seductress and the register slip are lost, so a key part of the humor disappears."
         }
       ]
     },
@@ -377,7 +411,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The rhymed anti-climax (пачку/водокачку) and the sarcastic retort from a second speaker are lost. 'A whole block of tickets could win you... A pumping station!' has no rhyme and is not a punchy slogan. 'Block' is also awkward for 'pack'."
+          "justification": "The rhyme and the rhythmic anti-climax (пачку/водокачку) are lost. The prize delivery is not split across two speakers as a sarcastic retort, and 'pumping station' is merely literal. The upbeat slogan and its mockery are gone."
         }
       ]
     },
@@ -412,9 +446,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The meaning and the Kolyma joke are preserved, but the missing 'Well' and the plain 'No, you'd better come to us' make the exchange less natural. The reflexive polite rejection is lessened slightly."
+          "justification": "The translation preserves the Kolyma reference, and the refusal is understandable to those who know the geography. It does not signal Gena's alarm, so the joke is conveyed only implicitly, but it is close to the reference."
         }
       ]
     },
@@ -436,7 +470,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Gena's affected pronunciation ('кофэ', 'вѫнну') and his pretentious diction are not rendered. The candidate is neutral and plain ('take a bath', 'coffee'), and 'cup of coff-ey' and 'simply cannot' are missing, so the aristocratic delusion is lost."
+          "justification": "Gena's affected pronunciation ('кофэ') is not rendered, and 'принять ванну' is flattened to 'take a bath'. His pseudo-aristocratic pretension in the midst of a crisis is largely lost."
         }
       ]
     },
@@ -456,9 +490,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate is accurate, but it loses Gorbunkov's stammer ('пелра… с перламутровыми'). 'Will keep looking' misses the stalling tone of 'Будем искать'."
+          "justification": "The meaning of the stalling tactic is preserved. The hesitation 'пелра… перламутровыми' and the 'Will keep looking' persistence are slightly weakened, and the extra 'like this' alters the request."
         }
       ]
     },
@@ -480,21 +514,21 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The deliberately folksy, incorrect 'пойтить' is not rendered. 'No, I can't agree to that!' is standard and formal, with none of the rural flavor and comic stubbornness of 'I ain't doing no such thing'."
+          "justification": "The intentionally incorrect, folksy 'пойтить' is rendered as a neutral, standard 'I can't agree to that'. The rural-sounding emphasis and the comic stubbornness are lost."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 8,
-      "minor": 10
+      "major": 10,
+      "minor": 13
     },
-    "total_points": 50,
+    "total_points": 63,
     "meaning_units": 23,
-    "penalty_per_unit": 2.1739130434782608,
-    "major_equiv_per_unit": 0.43478260869565216,
-    "interpretation": "2.17 MQM penalty points per meaning unit (≈ 0.43 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.739130434782609,
+    "major_equiv_per_unit": 0.5478260869565218,
+    "interpretation": "2.74 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

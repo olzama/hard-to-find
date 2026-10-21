@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses past-tense possession ('Shpak had... the ambassador had...'), which reads as simple prior possession. The analysis explicitly notes these phrases must convey that the items are missing/lost (they no longer have them). The candidate therefore fails to render the intended meaning that the items were taken/lost."
+          "justification": "The candidate renders У Шпака — У посла as 'Shpak had... the ambassador had...', which implies simple past possession. The analysis explicitly warns these phrases indicate the items are missing (they were taken/lost), not that the people possess them. This changes the factual relation and undermines the intended meaning."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source is Bunsha introducing himself as 'the Tsar.' The candidate renders lines as address to a Tsar ('Very nice, Tsar!'), which shifts the communicative role (addressing vs. self-introduction) and loses the gag of Bunsha repeatedly introducing himself as the Tsar, as required by the analysis."
+          "justification": "The candidate reads as if Bunsha is addressing an existing Tsar ('Very nice, Tsar!'), rather than introducing himself as the Tsar repeatedly. The analysis requires that the line convey he is introducing himself as 'the Tsar' (the joke is that he keeps announcing himself), so this rendering misrepresents the comic premise."
         }
       ]
     },
@@ -75,14 +75,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m grieving.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'I’m grieving' is more modern and conversational than the high-register, archaic tone ('I am in sorrow') noted in the analysis, weakening the regal, old-fashioned voice of the Tsar."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -102,7 +95,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The line 'Walled up, demons!' is ambiguous and reads like a vocative (addressing demons) rather than indicating that demons are the agents who walled him in, whereas the analysis requires 'demons' to function as the subject (they walled me in)."
+          "justification": "The candidate's 'Walled up, demons!' is ambiguous and can read as a vocative addressing the demons. The analysis notes the line must present 'demons' as the subject who walled him in (not as being spoken to). This ambiguity risks changing the line from an accusatory observation into a direct address."
         }
       ]
     },
@@ -124,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's phrasing ('That’s what the life-giving cross can do!') is colloquial and less elevated than the reference's archaic, declarative 'Behold the power of the life-giving cross!', softening the Tsar's solemn, quasi-religious register."
+          "justification": "The candidate's 'That’s what the life-giving cross can do!' is colloquial and slightly modernized compared with the high-register, archaic tone in the analysis. The meaning is preserved, but the elevated/solemn register that creates the comic contrast with the modern setting is weakened."
         }
       ]
     },
@@ -141,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate 'Everyone dance!' is grammatically terse and slightly awkward in English; a more natural rendering would be 'Everyone, dance!' or 'Everybody dance!' to capture the rallying, idiomatic imperative of the source."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -180,10 +166,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate presents 'Overseas caviar... Eggplant!' which still frames the eggplant spread as 'caviar' and risks misleading viewers. The analysis warns explicitly not to call the eggplant spread 'caviar'—it should be clear that 'eggplant' is a cheap spread contrasted with true caviar."
+          "justification": "The candidate's phrasing 'Overseas caviar... Eggplant!' risks implying the eggplant spread is itself 'caviar.' The analysis warns translations must avoid calling eggplant spread 'caviar' to prevent viewer confusion; this line is ambiguous in that respect."
         }
       ]
     },
@@ -202,10 +188,10 @@
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The humor depends on Shpak's miscount (the joke that he forgets to increment the count for the suede jacket). The candidate renders a simple plural 'three suede jackets,' eliminating the staggered counting gag and thereby removing the intended comedic effect."
+          "justification": "The candidate gives a straightforward inventory ('three suede jackets'), losing the comic timing and self-betraying hesitation from the original (the forgotten increment/hesitation that makes the joke). The meaning is intact but the specific humorous effect is weakened."
         }
       ]
     },
@@ -227,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 2,
       "minor": 4
     },
-    "total_points": 24,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

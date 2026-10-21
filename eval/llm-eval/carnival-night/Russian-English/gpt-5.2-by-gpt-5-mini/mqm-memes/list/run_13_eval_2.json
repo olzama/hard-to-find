@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction\nto welcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the bureaucratic framing but weakens the festive/bureaucratic clash slightly by using “welcome the New Year cheerfully” instead of a more overtly celebratory verb like “celebrate” or “merrily.” “Welcome” sounds milder and more passive, so the sharp tension between administrative register and the demand to ‘have fun’ is a bit softened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -127,10 +120,10 @@
       "candidate": "But it’s enough for us to take a telescope...\nAnd look with an armed eye",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The phrase “armed eye” is a literal calque of the Russian and reads oddly in English; it pushes the line toward surreal literalness rather than the mock‑scientific near‑idiom the analysis calls for. A phrasing echoing “unaided/aided eye” would better recreate the humorous near‑idiom without sounding awkward or excessively strange."
+          "justification": "The candidate uses the literal calque “armed eye.” The analysis explicitly warns that a literal translation like “armed eye” sounds oddly surreal in English and loses the intended mock‑scientific, slightly-wrong idiom effect. This choice makes the line more strange than humorously pseudo‑scientific and therefore contradicts the analysis guidance (a solution such as “aided eye” better preserves the intended comic register)."
         }
       ]
     },
@@ -178,14 +171,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 1,
+      "minor": 0
     },
-    "total_points": 2,
+    "total_points": 5,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.625,
+    "major_equiv_per_unit": 0.125,
+    "interpretation": "0.62 MQM penalty points per meaning unit (≈ 0.12 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

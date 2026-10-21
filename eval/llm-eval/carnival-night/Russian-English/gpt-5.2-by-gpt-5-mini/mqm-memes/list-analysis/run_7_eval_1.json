@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders «коротенько» as plain “just briefly,” which loses the diminutive, faux-modest flavor that underpins the comic contrast with “about forty minutes.” The phrasing and punctuation are also a bit flat and conversational, weakening Ogurtsov’s smug managerial voice that makes the line funny."
+          "justification": "The candidate preserves the key comic reversal (claim of brevity followed by 'forty minutes') and the managerial tone, but it slightly flattens the diminutive, cozy nuance of «коротенько» by using the neutral 'just briefly.' The comic tiny/affectionate undercut of the Russian is weakened a little, though the punchline still lands."
         }
       ]
     },
@@ -84,7 +84,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer’s ready—been ready a while!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The exchange in English uses 'ready' in both lines, but unlike Russian, 'ready' in ordinary English lacks the colloquial double meaning of 'already drunk / done for.' The candidate therefore preserves the surface administrative reading but fails to reproduce the drunken subtext, losing the important double entendre that makes the line funny."
+        }
+      ]
     },
     {
       "id": 5,
@@ -103,7 +110,14 @@
         }
       },
       "candidate": "- Peo-ple!.. Ah... a-woo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate keeps the broken, faltering vocalization, which is essential, but 'a-woo' is an odd rendering that risks reading as a howl rather than a slurred, collapsing 'hello' address. The physical, pitiable failure to form a proper opening could be rendered more clearly as a slurred/fragmented 'hello' sound."
+        }
+      ]
     },
     {
       "id": 6,
@@ -127,10 +141,10 @@
       "candidate": "But all we have to do is take a telescope!\nAnd look with the armed eye!..",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which in English reads oddly and more surreal than the intended mock‑scientific near-idiom. The analysis recommends a solution echoing “unaided eye” (e.g., “aided eye”) to preserve the slightly wrong, pseudo‑scientific register without making the phrase sound unnatural."
+          "justification": "The candidate translates «вооружённым глазом» literally as 'armed eye,' which the analysis explicitly warns against: in English this reads surreal and overly literal, losing the intended mock‑scientific, slightly wrong-but-plausible feel. The result is jarring rather than mock‑learned, so the comedic deformation of a familiar idiom is not preserved."
         }
       ]
     },
@@ -178,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 2,
       "minor": 2
     },
-    "total_points": 2,
+    "total_points": 12,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5,
+    "major_equiv_per_unit": 0.3,
+    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

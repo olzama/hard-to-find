@@ -21,13 +21,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the vocative 'Guys' (losing Gorbunkov's appeal to others) and changes the policeman's line from a direct 'you will be' to the impersonal 'it will be', slightly weakening the mocking, conversational cop humor described in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The first line is lowercased and less emphatic than the reference's sacrificial, heroic declaration; this reduces the clash of registers between Gorbunkov and the bored policeman."
+          "justification": "The second line's pronoun is vague: 'it will be' blunts the policeman's direct mock ('you will be') that treats being carried away as the inevitable result of getting drunk. The informal register of the first line ('that should have been me') is acceptable but lacks the elevated, theatrical tone of the speaker in the analysis."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a perfectly literal rendering but drops the playful bounce/rhyme (Trus/Bo-yus) that makes the admission lighthearted and endearing; per the analysis, a more rhythmic or comic phrasing would better capture the original effect."
+          "justification": "Accurate and natural, but the candidate loses the light, bouncing comic effect of the original Russian rhyme (Trus/Boyus). The line reads as a straightforward statement rather than a playful, rhythmical admission."
         }
       ]
     },
@@ -86,7 +80,14 @@
         "language_specific": {}
       },
       "candidate": "Look, signora, Frau, Miss,\nI'm afraid it's out of the question!\nRusso tourist-o!\nMoral character-o! Verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Overall keeps the multilingual gag and mock-sophistication. However, 'Moral character-o!' is a slightly awkward rendering of the garbled 'Obliko Morale' cacophony and reduces the original's comic foreign-sounding jumble."
+        }
+      ]
     },
     {
       "id": 5,
@@ -151,7 +152,14 @@
         }
       },
       "candidate": "As our dear boss says,\nwhen someone else is paying,\neven teetotalers drink...\nand ulcer sufferers!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is preserved, but the Russian rhythmic pairing (trezvenniki/yazvenniki) that gives the line proverbial punch is weakened. 'Ulcer sufferers' is accurate but less rhythmically matched to 'teetotalers' than the original pairing."
+        }
+      ]
     },
     {
       "id": 9,
@@ -216,7 +224,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate removes the elongated, melodic sigh present in the original (Semyo-o-on), which softens the weary, drawn-out exasperation that characterizes this line."
+          "justification": "Correct literal rendering of the name, but it loses the drawn-out, melodic sigh/elongation (semē-ōn...) that conveys weary exasperation in the original."
         }
       ]
     },
@@ -293,7 +301,14 @@
         "language_specific": {}
       },
       "candidate": "I'm innocent! He came here himself!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning is preserved, but the candidate uses a neutral register ('I'm innocent!') and loses the panicked provincial/morphological slip that undercuts the seductress's affectation in the original."
+        }
+      ]
     },
     {
       "id": 18,
@@ -388,7 +403,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's intentionally nonstandard, folksy verb form (which adds comic, stubborn rural color) is neutralized in the candidate's standard phrasing, losing a layer of character-specific humor and dialectal emphasis highlighted in the analysis."
+          "justification": "The candidate conveys the refusal but loses the deliberately nonstandard, folksy wording of the Russian ('пойти' mis-formed) that gives the line its comic, stubborn rural flavor."
         }
       ]
     }
@@ -396,13 +411,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 7
     },
-    "total_points": 5,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.21739130434782608,
-    "major_equiv_per_unit": 0.043478260869565216,
-    "interpretation": "0.22 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

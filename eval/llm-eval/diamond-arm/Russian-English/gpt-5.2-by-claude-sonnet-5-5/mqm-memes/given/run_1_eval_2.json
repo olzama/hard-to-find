@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "No, I'm no coward... but I'm overpowered by fear!\nbut I'm afraid...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate begins with an added 'No,' that is not in the source or the reference. The extra line 'but I'm afraid...' is a plain literal rendering that repeats the idea without the comic effect the analysis asks for. It is a partial, non-consecutive fragment, so it reads as clutter rather than as helpful repetition."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -68,14 +61,7 @@
         "language_specific": {}
       },
       "candidate": "Lady, signora, frau, miss... unfortunately, nothing's going to happen. Russo Turisto! Obliko Morale! Verstehen?\nRusso Turisto...\nObliko Morale... Verstehen?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The segment is followed by fragmentary repetitions ('Russo Turisto...', 'Obliko Morale... Verstehen?') that are not identical consecutive repeats. This adds slight clutter, though the core mashup of pseudo-international loanwords is fully preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -240,14 +226,7 @@
         "language_specific": {}
       },
       "candidate": "Slipped. Fell. Closed fracture. Passed out. Woke up in a cast.\nSlipped...\nClosed fracture...\ncast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate adds truncated follow-up lines ('Slipped...', 'Closed fracture...', 'cast!') after the full script. These are partial rather than identical repeats, so they fragment the staccato telegraphic rhythm somewhat. The mantra-like effect from the analysis is still conveyed."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -373,13 +352,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 0
     },
-    "total_points": 3,
+    "total_points": 0,
     "meaning_units": 23,
-    "penalty_per_unit": 0.13043478260869565,
-    "major_equiv_per_unit": 0.02608695652173913,
-    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.0,
+    "major_equiv_per_unit": 0.0,
+    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

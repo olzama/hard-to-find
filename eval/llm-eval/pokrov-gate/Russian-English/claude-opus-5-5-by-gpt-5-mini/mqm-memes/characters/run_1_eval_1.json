@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No, I'm waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Candidate preserves meaning and comic defiance but loses some of the heightened, theatrical self-dramatization of the reference (the florid \"Pray, tell me... I'll wait!\"). The line reads more prosaic and less performative than the analysis expects."
+        }
+      ]
     },
     {
       "id": 2,
@@ -36,7 +43,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase \"a little glass\" is slightly awkward and uncommon in colloquial English for proposing a drink; a more natural phrasing (e.g. \"a little drink\" or \"a quick one\") would better match the casual, ironic register described in the analysis."
+          "justification": "The candidate conveys the casual proposal and ironic deflation of the previous line, but phrasing ('knocked back a little glass') is slightly awkward and non-idiomatic in English; punctuation/capitalization is inconsistent."
         }
       ]
     },
@@ -63,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original line uses a stuttering elongation as a recurring, sarcastic refrain (\"Выс‑с‑сокие\") that conveys comic timing and mock-affected diction. The candidate's \"Lofty... What a lofty relationship.\" flattens the stuttered, performative quality and loses some of the rhythmic comedic effect."
+          "justification": "Candidate communicates the sarcastic judgment, but it loses the distinctive repeated stutter/elongation that functions as a memorable refrained gag in the original (the drawn-out, self-mocking delivery)."
         }
       ]
     },
@@ -83,9 +90,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"We live not for joy, but for conscience\" is understandable and preserves the fatalistic sentiment, but the phrasing is slightly unnatural in English—\"for conscience\" reads awkwardly compared with idiomatic alternatives (e.g. \"for duty\" or \"to do your duty\") that better carry the intended pragmatic force."
+          "justification": "Meaning is preserved, but the phrasing ('We live not for joy, but for conscience') sounds slightly stilted and less idiomatic than the intended, characterful English rendering ('you live to do your duty'), weakening the soldierly bluntness of the original."
         }
       ]
     },
@@ -127,7 +134,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation relies on absurdly using a professional noun as an insult. In English, the standalone \"Some cook!\" is less natural and forceful than the idiomatic target-like form (e.g. \"Some cook you are!\"), so the candidate weakens the intended comedic, imperious bite."
+          "justification": "Candidate carries the basic insult but is clipped and less idiomatic than the target effect ('Some cook you are!'). As the analysis notes, a lone noun feels weaker in English; the line loses some of the sharp, imperious bite."
         }
       ]
     },
@@ -199,7 +206,14 @@
         }
       },
       "candidate": "This is my cross!\nAnd it's mine to bear.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Candidate retains the literal words but splits the idiom awkwardly ('This is my cross!' then 'it's mine to bear'), which the analysis warns against; the phrasing is understandable but weakens the natural English idiomatic force of 'a cross to bear.'"
+        }
+      ]
     },
     {
       "id": 11,
@@ -222,9 +236,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate captures the self-mocking, coy character voice, but the literal use of \"angular\" mirrors the original Russian literalism that reads oddly in English. A less literal choice would better convey the intended coquettish awkwardness without sounding overly literal or stilted."
+          "justification": "Candidate attempts to render the self-mocking, awkward character but uses literal 'angular' and repetitive 'all over', producing an awkward, non-idiomatic cadence in English ('so angular all over' and repeated 'all over') where a smoother colloquial phrasing would better capture the original's comic mannerism."
         }
       ]
     }
@@ -232,13 +246,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 7
     },
-    "total_points": 5,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

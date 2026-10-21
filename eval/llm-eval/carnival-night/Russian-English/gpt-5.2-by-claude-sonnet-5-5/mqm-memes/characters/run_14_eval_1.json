@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept as a fairy-tale proper name, which may be opaque to English viewers and pushes toward the folkloric. The reference's generic \"witch\" keeps the workplace-type reading more accessible. \"Hire\" and \"our own team\" do preserve the staffing logic, so the damage is small."
+          "justification": "\"Hire\" and \"in our own team\" keep the workplace logic, but \"hire\" is weaker than the reference's \"bring in\" and loses a bit of the Baba Yaga-as-social-type nuance; \"train one\" is fine. The effect largely survives."
         }
       ]
     },
@@ -70,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The punchline logic is weakened. \"No more, I think that's enough\" turns the line into a flat statement of sufficiency. It loses the faux-modest understatement of the reference (\"I don't think we need any more than that\"), and there is no diminutive or patronizing coziness around \"briefly.\" The comic reversal of \"briefly\" followed by \"forty minutes\" is kept, but the smug managerial tone is much reduced."
+          "justification": "The faux-modest \"briefly\" is kept before the duration, but the candidate turns it into a flat statement and drops the ellipsis/trailing, self-satisfied tone. The \"no more... I think that's enough\" version is acceptable in meaning, yet the cozy, patronizing diminutive quality of «коротенько» is not conveyed, so the contrast is weakened."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready long ago\" keeps the administrative surface and hints at a long-standing state, so the double sense of readiness versus drunkenness is partly implied. It is less idiomatic and less clearly suggestive of drunkenness than \"he's been ready for quite a while.\" The line also loses the brisk, colloquial backstage rhythm."
+          "justification": "\"Ready long ago!\" keeps the ambiguity between official readiness and being drunk only weakly; it is slightly awkward and the \"been ready for a while\" implication is compressed. The double meaning survives only through context."
         }
       ]
     },
@@ -139,14 +139,7 @@
         }
       },
       "candidate": "But as soon as we take\na telescope...\nand look with the armed eye,",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye,\" which the analysis explicitly says to avoid. It does not echo the English \"unaided eye\" and so reads as strange and surreal rather than as a slightly wrong mock-scientific idiom. The joke of a familiar expression being wrongly upgraded is lost."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -173,7 +166,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The star counting and the final \"five little stars\" are preserved, but the cognac association is not signaled. In English, \"five little stars\" sounds like a nursery rhyme and does not click into a different semantic world. A note or cue would help. The childish counting is also mildly overdone."
+          "justification": "The star counting progression and the final \"five little stars\" are preserved, but the cognac association is not signalled (no note, and \"little stars\" sounds childish). The click into the cognac frame depends on viewer knowledge that English audiences lack."
         }
       ]
     },
@@ -199,21 +192,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The meaning and the colloquial \"up to date on the matter\" are retained. However, \"science does not know\" is more formal and flat than \"that is unknown to science.\" \"Is there no life on Mars\" is a stilted, literal rendering of \"нет ли жизни,\" which loses some of the casual rhythm."
+          "justification": "\"Science is not yet up to date on the matter\" keeps the personified, casual register, though \"up to date\" is slightly less idiomatic than \"up to speed\". The first half is faithful and keeps the colloquial rhythm."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 4
     },
-    "total_points": 14,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.75,
-    "major_equiv_per_unit": 0.35,
-    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key sense of the callback: it says Shpak and the ambassador still have the items, whereas the line means those items were stolen/missing from them."
+          "justification": "The candidate reverses the key meaning in the memoized callback: it says Shpak and the ambassador still have the items, rather than that their items are missing/lost. This undermines the joke and the detective-like realization."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The first line is slightly less idiomatic and less mock-heroic than the reference; the elevated, theatrical cadence is weakened a bit."
         }
       ]
     },
@@ -40,10 +46,16 @@
       "candidate": "Ola, tsar, moito gusto. Tsar, moito gusto, tsar.\nMoito gusto, ola, tsar.\nTsar, moito gusto!\nOla, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The line should clearly sound like Bunsha repeatedly introducing himself as the tsar, but the candidate begins with \"Ola, tsar,\" which reads like he is greeting the tsar rather than saying \"I am the tsar.\""
+          "justification": "The candidate preserves the repetition and self-introduction, but 'Ola, tsar' can sound like he is addressing the tsar rather than introducing himself as the tsar, which slightly blurs the intended comic effect."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The phrasing is somewhat more colloquial and less neatly formal than the reference, so the banal-polite Soviet-greeting effect is a little weaker."
         }
       ]
     },
@@ -75,14 +87,7 @@
         "language_specific": {}
       },
       "candidate": "Déixame, velliña, que estou de pena.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Estou de pena\" is understandable, but it sounds less natural and less idiomatic than a phrase conveying the Tsar's regal sorrow with the elevated tone described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -100,9 +105,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate is understandable, but the line break and punctuation make it less smooth than the reference; the repeated complaint should read as a more natural exclamation."
+          "justification": "The split line break is awkward, though the meaning is intact and the exasperated tone remains clear."
         }
       ]
     },
@@ -124,7 +129,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Mira\" is slightly more colloquial and less forceful than the reference's elevated, wonder-struck \"Velaquí\", so the mock-religious awe is weakened a bit."
+          "justification": "'Mira' is slightly less idiomatic and less exuberant than a more natural exclamation, but it still conveys the same comic miracle reaction."
         }
       ]
     },
@@ -144,9 +149,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"A bailar todo o mundo!\" is slightly less punchy as an imperative than \"Todos a bailar!\" and weakens the commanding, chaotic party feel."
+          "justification": "'A bailar todo o mundo!' shifts the command from 'everyone dance' to 'the whole world dance,' which is understandable but a bit less direct and imperative."
         }
       ]
     },
@@ -183,7 +188,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the crucial comedic point that the spread is eggplant-based and presents it as \"caviar exótico,\" which destroys the Soviet-food-shortage joke and the specific punchline."
+          "justification": "The candidate drops the crucial Soviet-joke setup that the 'eggplant caviar' is a specific, absurd substitute for caviar. By calling it 'caviar exótico,' it loses the punchline and the food-shortage satire."
         }
       ]
     },
@@ -202,16 +207,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 cigarreiros nacionais,\nchaqueta de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The count progression is broken: the candidate collapses the list into bare numerals and omits the final repeated jacket joke structure, so the escalating exaggeration is lost."
+          "justification": "'3 cigarreiros nacionais' is a slightly off lexical choice for 'portсigaras' and the list is compressed, but the overall itemized bragging effect is preserved."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Cigarreiros\" is a less natural choice here than a term for cigarette cases, which makes the inventory sound awkward."
+          "justification": "The layout and punctuation are somewhat clumsy, especially the final 'chaqueta de camurza... tres.', though the joke remains recognizable."
         }
       ]
     },
@@ -228,26 +233,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti vanche curar!\nE a ti tamén che van curar!\nE a min vanme curar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is clear, but the repeated future/passive phrasing is slightly less melodic and resigned than the reference, softening Ulyana's calm, shared-hysteria tone."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 6
+      "major": 2,
+      "minor": 8
     },
-    "total_points": 26,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 2.3636363636363638,
-    "major_equiv_per_unit": 0.4727272727272728,
-    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

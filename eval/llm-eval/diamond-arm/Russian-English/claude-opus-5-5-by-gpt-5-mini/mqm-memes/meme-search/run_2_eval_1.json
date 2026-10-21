@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The policeman's retort 'Get drunk and it will be!' is slightly awkward and less idiomatic than the reference's mocking fatalism ('Get drunk enough, and you will be!'). The terse phrasing reduces the cop's bored, amused tone and the punch of the joke."
+          "justification": "The policeman's retort \"Get drunk and it will be!\" is slightly awkward and elliptical in English compared with the intended joke's smooth punchline (\"Get drunk enough, and you will be!\"). It preserves the humourous mockery but the phrasing reads a bit stilted."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'but I'm scared...' preserves the meaning but loses the light, rhythmic bounce of the original Russian rhyme and the slightly comic, endearing self-contradiction described in the analysis."
+          "justification": "The candidate conveys the meaning but loses the light, bouncing comic rhythm of the original rhyme (Trus/Boyus). \"I'm scared...\" is natural but less playful and lacks the rhythmic lift that makes the line endearing."
         }
       ]
     },
@@ -80,7 +80,14 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nI'm afraid it's no go!\nRusso turisto...\nObliko morale... verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Translation captures the international-jargon gag, but the opening \"You know,\" is an unnecessary filler that weakens Gena's pompous parade of loanwords. Overall effect is preserved, though slightly softened."
+        }
+      ]
     },
     {
       "id": 5,
@@ -127,10 +134,10 @@
       "candidate": "ice cream for the kiddies,\nflowers for his missus.\nMind you don't mix it up!\nNelson!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate replaces the original sarcastic historical reference 'Kutuzov' with 'Nelson'. That swaps the culturally specific Russian joke (comparing the bungling crook to Kutuzov) for a different historical figure, undermining the intended local mockery and character voice."
+          "justification": "Substituting \"Nelson!\" for \"Kutuzov!\" is a reasonable cultural swap that keeps the historical-mocking jab, but it shifts the specific Russian reference and therefore slightly changes the character's local flavour."
         }
       ]
     },
@@ -157,7 +164,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the meaning but loses the original's tight rhythmic pairing (trezvenniki/yazvenniki). The phrasing 'the teetotaller and the ulcer case both have a fine time' is natural but flattens the balanced, proverbial cadence that gives the line its comic force."
+          "justification": "The candidate preserves the cynical meaning but loses the tight rhythmic pairing (trezvenniki/yazvenniki) that gives the original its proverb-like punch. \"Ulcer case\" is also an awkward phrasing in English, weakening fluency."
         }
       ]
     },
@@ -189,14 +196,7 @@
         "language_specific": {}
       },
       "candidate": "Just vun tablet...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate captures an accented delivery ('vun') but does not reproduce the specific comic mispronunciation of 'tablet' (the emphasized 'tab-LEHT' of the reference). The effect is present but slightly different from the original marked pronunciation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -226,14 +226,7 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate 'Semyon Semyonovich...' conveys the address but lacks the elongated, melodic sigh of the reference ('Semyo-o-on Semyonych!'), softening the weary, musical exasperation described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 13,
@@ -253,7 +246,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate states the curse plainly but loses some of the theatrical pacing and weight ('May you live... on nothing but... your salary!') that makes the line a comic, scathing threat in the original."
+          "justification": "Meaning is preserved but the candidate's flat layout reduces the theatrical curse's weight; the original's dramatic cadence is somewhat lost."
         }
       ]
     },
@@ -330,7 +323,14 @@
         "language_specific": {}
       },
       "candidate": "Buy a whole stack, and you'll get back...\nA pump-house shack!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate keeps the anti-climactic joke (industrial prize) but the rhyme/word choice \"pump-house shack\" is odd and slightly awkward in English, reducing naturalness though not the comedic intent."
+        }
+      ]
     },
     {
       "id": 19,
@@ -365,7 +365,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes 'Kolyma' (a loaded reference to Soviet labor camps) to 'Siberia', which significantly weakens the line's intended threat/implied imprisonment. This alters the cultural punchline and the character's fearful refusal."
+          "justification": "Replacing the culturally loaded toponym \"Kolyma\" (evoking labor camps) with the generic \"Siberia\" removes the dark, prison-associated menace of the original joke and thus undermines the punchline's cultural meaning."
         }
       ]
     },
@@ -417,14 +417,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 6
+      "major": 1,
+      "minor": 7
     },
-    "total_points": 16,
+    "total_points": 12,
     "meaning_units": 23,
-    "penalty_per_unit": 0.6956521739130435,
-    "major_equiv_per_unit": 0.1391304347826087,
-    "interpretation": "0.70 MQM penalty points per meaning unit (≈ 0.14 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5217391304347826,
+    "major_equiv_per_unit": 0.10434782608695652,
+    "interpretation": "0.52 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

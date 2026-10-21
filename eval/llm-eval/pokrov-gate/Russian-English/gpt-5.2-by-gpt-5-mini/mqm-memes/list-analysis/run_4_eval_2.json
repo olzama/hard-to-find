@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "And who doesn't drink? Name one! No—I'm waiting!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the meaning and humor but tones down the mock‑elevated, theatrical self‑presentation signaled in the analysis. The reference's more florid phrasing ('Pray, tell me... I'll wait!') heightens the performative pose; 'Name one! No—I'm waiting!' is natural and fine but less pompous."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "how about we knock back a little shot?",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Candidate captures the casual, ironic invitation but the lowercase initial letter and the slightly clunkier 'a little shot' make the line read less polished than the snappier colloquial reference ('toss back a quick one'). Tone and function are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -60,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "Such... such civilized relations!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate conveys sarcasm about the relationship but loses the specific stuttered, drawn‑out comic effect ('high‑e‑v‑olved') that functions as a repeated refrén in the film. 'Such... such civilized relations!' is acceptable but less characteristically rhythmic and mocking."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -84,10 +63,10 @@
       "candidate": "People don't live for happiness—they live for conscience.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate shifts the moral register from dutiful, soldierly fatalism ('live to do your duty') to an odd, slightly abstract phrasing 'live for conscience.' This changes the pragmatic meaning and weakens the specific sense of duty/obligation central to the character's worldview as described in the analysis."
+          "justification": "The phrase \"live for conscience\" is slightly awkward and uncommon in English. The analysis stresses a blunt, soldierly fatalism ('duty' is a more natural, idiomatic rendering). The candidate keeps the meaning but the phrasing reads less natural and weakens the pragmatic force of the original."
         }
       ]
     },
@@ -149,14 +128,7 @@
         "language_specific": {}
       },
       "candidate": "Cut it out, for God's sake—no waiting for peritonitis!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate retains the medical farce and abruptness but softens the blunt expletive ('Cut it out, for God's sake' vs. 'Cut it the hell out'), making the line marginally less brusque. The medical reference to peritonitis is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -186,7 +158,14 @@
         "language_specific": {}
       },
       "candidate": "It's my burden to bear!!!\nAnd I'm the one who has to carry it.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the manipulative self-sacrifice but uses the wordy \"burden to bear\" plus a redundant second clause. The analysis recommends avoiding a literal split of the idiom; a tighter idiomatic line (e.g. \"It's my cross to bear — and mine alone\") would be stronger. The current wording is understandable but a bit clumsy and weakens the rhetorical punch."
+        }
+      ]
     },
     {
       "id": 11,
@@ -206,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 4
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 9,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

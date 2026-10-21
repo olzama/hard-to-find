@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The policeman's retort 'Get drunk enough, and it will be!' is slightly awkward and ambiguous ('it' is unclear). The intended mocking inevitability (you'll end up being carried) is preserved, but English phrasing is less natural than 'you will be' or 'you will'."
+          "justification": "The policeman's retort in the candidate ('Get drunk enough, and it will be!') loses some of the caustic, amused cop humor and direct mockery of Gorbunkov's dramatic line. 'It will be' reads awkward and less punchy than a direct 'you will be' or another sharp retort that treats being carried away as an inevitable destination reached by drinking."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'but I am scared.' is a literal, flat rendering that loses the light, rhythmic comic bounce and mild self-mockery of the original. The analysis calls for a translation that preserves the playful paradox; this one is accurate but lacks the comic effect."
+          "justification": "The candidate ('but I am scared') is a literal, neutral rendering that preserves meaning but misses the light, bouncing comic effect and rhythmic contrast of the Russian two-syllable pair (trus/boyus). The line becomes flatter and less endearing than the analysis requires."
         }
       ]
     },
@@ -175,7 +175,14 @@
         "language_specific": {}
       },
       "candidate": "One teeny tab-let will do...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate ('One teeny tab-let will do...') renders the line with a cutesy tone ('teeny') that softens the sinister, efficient edge of Lyolik's delivery and shifts the register away from the harder, grotesque mispronunciation implied in the analysis."
+        }
+      ]
     },
     {
       "id": 11,
@@ -205,7 +212,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate ('Semyon Semyonovich...') conveys the address but loses the elongated, melodic sigh and weary musicality ('Semyo-o-on Semyonych!') that functions as a comic facepalm in the original."
+        }
+      ]
     },
     {
       "id": 13,
@@ -220,7 +234,14 @@
         "language_specific": {}
       },
       "candidate": "May you live...\non nothing...\nbut your salary!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the meaning of the curse but the rhythm and theatrical weight are slightly off ('on nothing... but your salary!' reads awkwardly across the breaks), which weakens the comic horror of living solely on a state salary."
+        }
+      ]
     },
     {
       "id": 14,
@@ -375,7 +396,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'No! I can't go along with that!' removes the intentional folksy/incorrect verb form and rustic emphasis present in the source. The original's comic/stubborn rural flavor (which relies on the malformed verb) is lost, making the line more neutral and less characterful."
+          "justification": "The candidate ('No! I can't go along with that!') conveys refusal but loses the folksy, dialectal flavor and the comic stubbornness present in the original's nonstandard verb form. The rustic emphasis that makes the line characterful is diminished."
         }
       ]
     }
@@ -383,13 +404,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 6
     },
-    "total_points": 3,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.13043478260869565,
-    "major_equiv_per_unit": 0.02608695652173913,
-    "interpretation": "0.13 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

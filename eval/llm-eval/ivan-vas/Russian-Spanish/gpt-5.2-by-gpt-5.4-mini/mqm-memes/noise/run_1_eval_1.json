@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate says Shpak and the ambassador currently ‘have’ the items, but the source and reference mean those items are missing/stolen. This reverses the factual sense of the joke."
+          "justification": "The candidate reverses the key meaning of the line: it says Shpak and the ambassador currently have the items, whereas the joke is that each has lost them. This breaks the comedic callback and the suspicion being built."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "It drops the repeated self-introduction ‘I am the Tsar,’ which is essential to the humor and to the analysis that he is impersonating the Tsar rather than addressing one."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line becomes more like a generic cheerful toast and loses the awkward, repetitive, overly polite social-register parody of the original."
+          "justification": "It omits the repeated self-introduction as the Tsar and turns the line into generic greetings addressed to a zar, rather than Bunsha repeatedly introducing himself as the Tsar. That destroys the core comic effect described in the analysis."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Estoy triste’ is flatter and less archaic/regal than the source’s ‘estoy afligido,’ so the royal melancholy is slightly weakened."
+          "justification": "\"Estoy triste\" is understandable, but it is flatter and less regal/archaic than the reference’s more elevated \"estoy afligido,\" so the mock-royal tone is somewhat weakened."
         }
       ]
     },
@@ -108,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the subject to ‘we’ (‘Nos emparedaron’) and then addresses ‘demonios,’ which conflicts with the source: the Tsar says he has been walled up and calls the demons the cause, not the addressees."
+          "justification": "The candidate changes the sentence from a cry of personal entrapment to plural \"we\" and adds an exclamation structure that alters the viewpoint. The original is a terrified realization that he himself has been walled in, not a statement about multiple people."
         }
       ]
     },
@@ -130,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "‘Mira lo que hace...’ is a bit less idiomatic and less emphatic than the source’s exclamatory ‘Вот что... делает!’, though the core meaning remains clear."
+          "justification": "\"Mira\" slightly shifts the tone from a solemn exclamation to a more colloquial prompt, softening the amazed, quasi-biblical register of the original."
         }
       ]
     },
@@ -167,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "‘¡Qué bien que entré!’ suggests a completed action and reads unnaturally as if he is commenting on having entered, which blurs the intended meaning that he has just arrived and is pleased with the discovery."
+          "justification": "The candidate means \"I entered well,\" which is not the same as realizing he has come to the right place. It loses the idea of a lucky, opportunistic find and is awkwardly misdirected for the scene."
         }
       ]
     },
@@ -189,13 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation repeats ‘caviar’ for the eggplant spread, directly contradicting the analysis warning not to call it caviar; the joke depends on that being a cheap eggplant spread, not actual caviar."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The phrasing is somewhat flatter than the reference and loses some of the playful, escalating rhythm of the original exclamation."
+          "justification": "By saying \"Caviar de ultramar\" directly, the candidate misses the crucial satirical wording of \"eggplant caviar\" as the absurd cheap substitute. The joke about mistaking a humble spread for luxury food is significantly weakened."
         }
       ]
     },
@@ -214,10 +202,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleras nacionales,\n3 chaquetas de ante.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the final ‘three’ and changes the joke: the source intentionally leaves the suede jacket count unfinished to expose Shpak’s slip, but here all items are simply listed as threes, removing the punchline."
+          "justification": "The candidate normalizes the final incomplete count by writing \"3 chaquetas de ante,\" which removes the joke that Shpak forgot to increment the last item and then awkwardly trails off."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Using bare numerals and a stripped-down list makes the line less oral and less comic than the reference, which preserves the breathless, self-incriminating accumulation of items."
         }
       ]
     },
@@ -239,21 +233,21 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first clause about ‘you,’ so the repetitive calming refrain is incomplete and the shared-resignation joke is weakened."
+          "justification": "The candidate omits the first clause entirely, so the escalating reassurance to three different people is lost. That breaks the rhythm and the comic resignation described in the analysis."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
+      "major": 6,
       "minor": 4
     },
-    "total_points": 39,
+    "total_points": 34,
     "meaning_units": 11,
-    "penalty_per_unit": 3.5454545454545454,
-    "major_equiv_per_unit": 0.7090909090909091,
-    "interpretation": "3.55 MQM penalty points per meaning unit (≈ 0.71 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.090909090909091,
+    "major_equiv_per_unit": 0.6181818181818182,
+    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

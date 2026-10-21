@@ -51,7 +51,13 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The line starts in lowercase and ends on a trailing comma, so it reads as an unfinished fragment. The phrasing \"no more than that is needed, I think\" is stiff and clumsy, though the faux-modest setup and the order of briefness claim before duration are preserved."
+          "justification": "\"short little talk\" is a sentence fragment that reads awkwardly as the opening of a line. The reference's \"Briefly, about forty minutes\" gives the faux-modest framing more naturally."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line ends on a trailing comma with no ellipsis, and it begins in lowercase. This weakens the trailing, self-satisfied cadence of Ogurtsov's speech that the reference's ellipsis preserves. The added \"or so\" also hedges the duration, which the source does not do."
         }
       ]
     },
@@ -83,7 +89,20 @@
         "language_specific": {}
       },
       "candidate": "- Peo-ple!.. Uh.. Yoo-hoo-oo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "other",
+          "span": "",
+          "justification": "The leading dash before \"Peo-ple!\" is a speaker-change marker, but the same speaker continues the line, so the dash is a formatting error."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Yoo-hoo-oo!\" is a cheerful, perky call, while the source \"ау-у\" is a faltering shout. The candidate loses some of the drunken collapse of the lecturer's entrance."
+        }
+      ]
     },
     {
       "id": 6,
@@ -106,9 +125,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Un-naked\" reads as a silly prefixing joke rather than a familiar expression being wrongly upgraded into pseudo-scientific language. The analysis asks that the lecturer sound as if he is becoming more precise, which this wording only partly conveys. The ending on a comma also drops the exclamatory close of the source."
+          "justification": "\"un-naked eye\" is a playful nonsense back-formation that reads as a pun, not as a familiar idiom mock-upgraded into scientific language. The analysis warns against overdoing the oddness; \"aided eye\" keeps the wrong-but-plausible feel more closely. The line also ends on a comma, leaving the sentence incomplete."
         }
       ]
     },
@@ -133,9 +152,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The cognac-specific referent of the five stars is lost. \"Five-star\" reads mainly as a general quality or hotel rating, so the sudden click into a different semantic world is weaker. The reference handles this with a translator's note, which the candidate does not provide."
+        },
+        {
+          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Is five-star!\" is ungrammatical as a predicate with a hyphenated adjective and needs a noun or article. \"And already we see\" with a lowercase opening is also awkward. The sudden shift to the cognac frame still lands, but the phrasing is weaker than the reference."
+          "justification": "The line starts in lowercase, and the ellipses are irregular (\"two little stars.. Four little stars...\"), so the counting rhythm is less clean than the source."
         }
       ]
     },
@@ -157,7 +182,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Whether there's life on Mars or there's no life on Mars\" is redundant and less natural than an \"or not\" construction, which the source \"нет ли\" points to. The casual register of \"out of the loop\" correctly captures the mismatch with scientific speech."
+          "justification": "\"Whether there's life on Mars or there's no life on Mars\" is clunky and repetitive. The source's compact \"нет ли\" corresponds to the more natural \"or not\" in the reference, and the candidate's version weakens the casual, offhand register of the first clause."
         }
       ]
     }
@@ -165,13 +190,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 4
+      "minor": 8
     },
-    "total_points": 4,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 0.5,
-    "major_equiv_per_unit": 0.1,
-    "interpretation": "0.50 MQM penalty points per meaning unit (≈ 0.10 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

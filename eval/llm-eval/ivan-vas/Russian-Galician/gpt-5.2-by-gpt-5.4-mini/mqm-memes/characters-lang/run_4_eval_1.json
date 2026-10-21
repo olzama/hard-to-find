@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the key verb of loss from the second half: the analysis stresses that Shpak and the ambassador no longer have these items, but the translation only lists them as possessions. This weakens the callback and misstates the situation."
+          "justification": "The candidate omits the key possessive/loss relation and makes it sound like Shpak and the ambassador simply have the items, whereas the joke depends on them having lost them."
         }
       ]
     },
@@ -43,7 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The sentence should clearly be Bunsha introducing himself as the tsar, but the candidate sounds like he is addressing the tsar/using the title as vocative. This misses the required comic misunderstanding noted in the analysis."
+          "justification": "It fails to make clear that Bunsha is introducing himself as the tsar; the phrasing reads like he is addressing the tsar, which contradicts the scene and the analysis."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The repetition is preserved, but the colloquial greeting is shifted to a more natural modern register and loses some of the stiff, formulaic bureaucratic flavor of the original comic line."
         }
       ]
     },
@@ -60,7 +66,14 @@
         "language_specific": {}
       },
       "candidate": "Eu esixo que continúe o banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is intact, but the wording is less forceful and less pompously imperative than the original, slightly weakening Bunsha's mock-royal command."
+        }
+      ]
     },
     {
       "id": 4,
@@ -80,7 +93,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou triste' is understandable, but it is flatter and less archaic than the reference's more literary 'estou aflixido,' reducing the regal, high-register tone of Ivan's line."
+          "justification": "The final clause is semantically correct, but 'estou triste' is flatter than the approved 'aflixido' and weakens the archaic, regal tone of Ivan's speech."
         }
       ]
     },
@@ -100,9 +113,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The line is split awkwardly and repeats the verb in a way that sounds less natural than the source and reference. The meaning is preserved, but the delivery is clunkier."
+          "justification": "The line keeps the meaning, but splitting it into two exclamations reduces the panicked, stumbling rhythm of the original repeated complaint."
         }
       ]
     },
@@ -124,7 +137,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' is more colloquial and less elevated than the reference's 'Velaquí,' slightly weakening the mock-biblical, miraculous tone of the line."
+          "justification": "The sense is correct, but 'Mira' sounds a bit less elevated and liturgical than the more ceremonial 'Velaquí', slightly weakening the mock-religious grandeur."
         }
       ]
     },
@@ -146,7 +159,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'A bailar todo o mundo!' changes the command from 'everyone dance' to 'everybody, dance' / 'the whole world dance,' which is semantically close but less direct and slightly distorts the rallying imperative."
+          "justification": "The meaning is broadly right, but 'A bailar todo o mundo!' shifts the emphasis from commanding everyone to dance to a more descriptive statement, softening the imperative force."
         }
       ]
     },
@@ -168,7 +181,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Entrei con sorte!' makes it sound as if he has already entered, but the analysis says he has just come in and should not be translated as leaving or otherwise misleading about the direction/state of the action. The joke depends on the fresh discovery after entry."
+          "justification": "'Entrei con sorte!' is misleading because it sounds like he is commenting on having come in well, rather than expressing delight at having stumbled upon the apartment full of valuables."
         }
       ]
     },
@@ -190,7 +203,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the crucial joke that the eggplant spread is not real caviar by reducing the final punchline to just 'De berenxena!' after 'Caviar de ultramar.' This destroys the satirical contrast and the humorous reveal described in the analysis."
+          "justification": "The candidate drops the specific joke about 'eggplant caviar' and instead says 'caviar de ultramar', which removes the satirical punch and the absurd contrast described in the analysis."
         }
       ]
     },
@@ -209,10 +222,16 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleiras nacionais,\nchaqueta de ante: tres.",
       "issues": [
         {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The first part is incomplete and the list structure is altered enough to lose the comic buildup of repeated counts; the final joke about forgetting the count is much weaker without the full progression."
+        },
+        {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The list is compressed into a telegraphic format with inconsistent punctuation, which makes the line less natural and less like the escalating comic inventory in the original. The joke remains understandable, but the rhythm is weaker."
+          "justification": "The punctuation and line-breaking make the inventory feel slightly choppy and less polished than the reference."
         }
       ]
     },
@@ -231,10 +250,10 @@
       "candidate": "E a ti van curarte!\nE a ti tamén van curarte!\nE a min van curarme!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate changes 'they will cure you' into 'they will cure you yourself,' which is not the same meaning and sounds unnatural. It also loses the calm, resigned repetition of being 'cured' that carries the comic psychiatric subtext."
+          "justification": "The translation conveys the meaning, but 'van curarte' is less natural and less rhythmic than the repeated periphrastic future in the reference, slightly weakening the melodic resigned tone."
         }
       ]
     }
@@ -242,13 +261,13 @@
   "summary": {
     "counts": {
       "major": 5,
-      "minor": 5
+      "minor": 8
     },
-    "total_points": 30,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -16,7 +16,14 @@
         "language_specific": {}
       },
       "candidate": "And who doesn’t drink? Name one! No, I’m waiting.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Candidate preserves the basic meaning and the teasing challenge, but the phrasing is less grandiose and self-dramatizing than the analysis requires. The reference's heightened, performative tone ('Pray, tell me... I'll wait!') is softened by the straightforward 'Name one! No, I’m waiting.'"
+        }
+      ]
     },
     {
       "id": 2,
@@ -48,10 +55,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'High... high relations.' renders the phrase as a literal noun phrase and loses the sarcastic exclamatory, stuttering, performative quality highlighted in the analysis (the playful elongation/stammer and ironic tone). This weakens the refrain's comic effect."
+          "justification": "The candidate renders the line as a plain noun phrase ('High... high relations.') which the analysis explicitly warns against. The original functions as a sardonic exclamation and a stuttering, mocking refrain; the candidate loses the ironic, performative register and the playful stuttered effect that makes the line a memorable comic tag."
         }
       ]
     },
@@ -70,10 +77,10 @@
       "candidate": "People don’t live for joy—\nthey live for conscience.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "Rendering 'совести' as 'conscience' ('they live for conscience') is unnatural in English and shifts the meaning away from the soldierly idea of duty/obligation emphasized in the analysis. The original sense ('you don't live to be happy, you live to do your duty') is not preserved, altering the line's ideological and tonal force."
+          "justification": "The candidate's literal 'they live for conscience' keeps the semantic core but reads awkwardly in English and loses the soldierly, duty-focused phrasing of the reference ('live to do your duty'). The idiomatic force is weakened by the noun choice 'conscience.'"
         }
       ]
     },
@@ -105,7 +112,14 @@
         "language_specific": {}
       },
       "candidate": "Culinary genius!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'Culinary genius!' avoids the unnatural literal noun but shifts the bite of the original insult into an ironic praise that feels different in register. It works, but is slightly less sharp and imperious than the terse, scornful retort the analysis describes."
+        }
+      ]
     },
     {
       "id": 7,
@@ -140,7 +154,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase 'Cut it out to hell.' is awkward and non-idiomatic in English. It garbles the brusque, abrupt surgical imperative that the analysis describes. The second sentence preserves the meaning but the combined phrasing reads stilted."
+          "justification": "Meaning is preserved, but 'Cut it out to hell.' is unidiomatic in English. The two-line split also disrupts the abrupt, punchy imperative of the original; a more natural rendering would keep the coarse, commanding cadence."
         }
       ]
     },
@@ -174,10 +188,10 @@
       "candidate": "It’s my cross!\nAnd I will bear it.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The candidate 'It’s my cross! And I will bear it.' translates the line too literally and breaks the English idiom ('a cross to bear'). This alters the recognizable manipulative grandiosity and theatrical register—losing the idiomatic punch that frames the character's performative self-sacrifice."
+          "justification": "Candidate conveys the self‑sacrificial sentiment, but the phrasing 'It's my cross! And I will bear it.' fragments the English idiom compared with the more natural idiom 'a cross to bear.' This slightly weakens the manipulative grandiosity called for in the analysis."
         }
       ]
     },
@@ -199,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' (explicitly warned against) and shifts the self-characterization toward 'such a mess,' which changes the nuance from coquettish, self-deprecating awkwardness to a cruder sense of being disordered. This weakens the original's stylized, mocking tone."
+          "justification": "The candidate's use of 'so angular' repeats the literal translation pitfall the analysis warns against—'угловатая' as 'angular' sounds odd in English and reduces the witty, self-mocking character sketch. Other lines are acceptable, but the lexical choice here undermines the intended coquettish awkwardness."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 3
+      "major": 1,
+      "minor": 6
     },
-    "total_points": 13,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

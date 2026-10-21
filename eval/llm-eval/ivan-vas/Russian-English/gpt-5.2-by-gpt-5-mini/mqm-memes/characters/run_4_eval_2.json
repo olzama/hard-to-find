@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' implying current possession. The analysis explicitly notes these phrases mean the items were lost/are missing (they've had them taken), not that the people possess them. This reverses the meaning and undermines the joke about theft."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies possession. The source (and analysis note) indicate these items are lost / no longer possessed; the line lists who lost which item. This reverses the intended meaning and undermines the comedic callback."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate phrases ('Hello, Tsar!') read as Bunsha addressing a tsar rather than introducing himself as the Tsar. The analysis emphasises that the humour comes from him repeatedly introducing himself as 'the Tsar' (not addressing one). This candidate therefore misrepresents the performative gag and the intended absurdity."
+          "justification": "The line should make clear Bunsha is awkwardly introducing himself as 'the Tsar' (a repetitive self-introduction), not addressing a tsar. The candidate reads as though he is greeting an existing Tsar ('Hello, Tsar!'), losing the crucial comic premise (the absurd self-introduction) described in the analysis."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB states that 'demons' must be the subject (they walled me in). The candidate 'Walled up, demons!' reads like addressing the demons, turning them into vocative addressees instead of agents. This reverses the intended meaning and the comedic misunderstanding of the elevator malfunction."
+          "justification": "The source means 'They have walled me in' with 'demons' as the subject (i.e., 'walled me in, the demons'). The candidate's 'Walled up, demons!' reads as an address to demons rather than as a statement that demons did the walling, reversing the grammatical relation and therefore the intended comic panic."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('That’s what the life-giving cross can do!') preserves the meaning but loses some of the high-register, archaic, solemn tone ('Behold the power of the life-giving cross!') that contrasts with the modern setting. This slightly weakens the intended regal/religious register."
+          "justification": "The candidate conveys the meaning, but the phrasing 'That’s what the life-giving cross can do!' is noticeably more colloquial and conversational than the high-register, archaic tone the Tsar's line should evoke. This slightly weakens the contrast between regal religiosity and modern technology."
         }
       ]
     },
@@ -134,7 +134,14 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The imperative is understandable, but 'Everyone dance!' is slightly unidiomatic in English (preferred: 'Everybody dance!' or 'Everyone, dance!'). The line reads a bit awkwardly and loses some rhythmic punch of the original exclamation."
+        }
+      ]
     },
     {
       "id": 8,
@@ -164,14 +171,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Imported caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate's line ('Imported caviar... Eggplant!') risks implying that the eggplant spread is a type of imported caviar. The analysis warns against calling eggplant spread 'caviar.' The reference separates 'overseas spread... eggplant' to make the ironic contrast clear; the candidate's phrasing is more ambiguous and may confuse the satirical inversion."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -188,10 +188,10 @@
       "candidate": "three tape recorders,\nthree film cameras,\nthree domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The original joke relies on Shpak's hesitating and the comedic miscount (the suede jacket is hesitated over then counted). The candidate lists 'three suede jackets' flatly, which loses the performative hesitation and the subtle humor of the forgotten increment, making the line stylistically weaker."
+          "justification": "The comedic gag depends on Shpak miscounting / forgetting to update the running total (he trails off and then repeats 'Three'), which reveals his exaggeration. The candidate lists 'three suede jackets' straightforwardly, removing the incremental-count gag and thus losing the essential humor and character exposure described in the analysis."
         }
       ]
     },
@@ -213,14 +213,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 3
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 18,
+    "total_points": 22,
     "meaning_units": 11,
-    "penalty_per_unit": 1.6363636363636365,
-    "major_equiv_per_unit": 0.32727272727272727,
-    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.0,
+    "major_equiv_per_unit": 0.4,
+    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

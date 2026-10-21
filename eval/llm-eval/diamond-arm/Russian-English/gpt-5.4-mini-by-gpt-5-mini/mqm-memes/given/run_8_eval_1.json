@@ -64,9 +64,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate omits the initial address 'Lady' (source: 'Леди, синьора...'), starting instead with 'signora', which slightly reduces the original's rapid multilingual roll-call and the comic effect of listing polite forms of address."
+          "justification": "The candidate drops the initial English address ('Lady') and the enumerative cadence of the original list of titles, which weakens Gena's ostentatious, pseudo-international performance. The overall meaning is kept, but the playful rhythm and theatrical register are somewhat reduced."
         }
       ]
     },
@@ -131,9 +131,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The candidate drops the final verb ('drink') that completes the proverbical punchline in the reference. Leaving the line as 'even teetotalers and convalescers.' weakens the rhythmic aphorism and the clear meaning that even they will drink on someone else's dime."
+          "justification": "The candidate conveys the proverb but loses the original's tight rhythmic pairing (trezvenniki/yazvenniki). The translation is accurate, yet it lacks the musical, balanced punch that makes the line memorable and proverb-like."
         }
       ]
     },
@@ -200,7 +200,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference conveys a melodic, elongated sigh ('Semyo-o-on Semyonych!'). The candidate's plain 'Semyon Semyonovich...' loses that stretched, musical, exasperated delivery and thus flattens the expressive effect."
+          "justification": "The reference preserves a drawn-out, melodic sigh; the candidate reduces this to a flat name delivery. The sense is intact, but the weary, elongated melodic effect described in the analysis is diminished."
         }
       ]
     },
@@ -324,10 +324,10 @@
       "candidate": "Well, if you're ever in Kolyma...\nIf you're ever in Kolyma - you're most welcome!\nNo, better you visit us!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate inserts an extra, emphatic line ('If you're ever in Kolyma - you're most welcome!') not present in the source. This adds a sincere, hospitable tone to the guest's line and slightly reduces the ambiguous threat/ominous subtext that Gena misreads as a danger."
+          "justification": "The candidate inserts an extra welcoming line ('If you're ever in Kolyma - you're most welcome!') that changes the dialogue's dynamics: the guest's simple regional invitation is followed by an affirmative acceptance before Gena's fearful refusal. This addition alters the original joke (Gena mistaking the invitation for a threat) and weakens the cultural punchline about Kolyma as a place of imprisonment."
         }
       ]
     },
@@ -349,7 +349,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders the line straightforwardly ('Drink a cup of coffee...') but omits the affected pronunciation marker ('coff-ey') present in the analysis/reference that signals Gena's pretentious, aristocratic attempt at sophistication. This loses a small comic character detail."
+          "justification": "The candidate conveys Gena's needs but omits the affected pronunciation of 'coffee' (the comedic 'kof-e' marker). This loses a small but important character detail that signals his pretentiousness and attempts at refinement."
         }
       ]
     },
@@ -371,7 +371,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate's 'No, yes... we'll keep looking...' introduces an awkward 'No, yes' hesitation not present in the source. It reads as confused and reduces the crispness of the original exchange ('— Нет? — Будем искать...'), which is a polite stall tactic."
+          "justification": "The final line 'No, yes... we'll keep looking...' is awkward and unclear compared with the reference's polite, decisive 'Must keep looking then!'. The candidate's hesitation phrasing reduces naturalness and undermines the shop-stalling tactic's comic clarity."
         }
       ]
     },
@@ -393,14 +393,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 6
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 6,
+    "total_points": 10,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.43478260869565216,
+    "major_equiv_per_unit": 0.08695652173913043,
+    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.4-mini"

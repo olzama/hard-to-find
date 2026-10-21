@@ -23,10 +23,16 @@
       "candidate": "I'm beginning to have\nthose nagging doubts again...\nShpak loses a tape recorder,\nthe ambassador loses a medal.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses present-tense 'loses' (Shpak loses a tape recorder, the ambassador loses a medal), which reads as an ongoing action rather than indicating their items are missing/were taken. The analysis specifies these lines should convey that the items are missing (lost), not that the characters currently possess them."
+          "justification": "The candidate renders У Шпака — У посла as 'Shpak loses... the ambassador loses...', which reads as an ongoing action rather than the intended meaning that the items are missing / have been taken from them. The line in Russian implies the items are no longer in their possession (they've been stripped or stolen), which the translation should reflect ('have been robbed of', 'are gone', 'missing', etc.)."
+        },
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "The candidate uses 'medal' where the approved translation (and the nuance) suggests 'medallion' — a different object and register. This weakens the specificity of the original."
         }
       ]
     },
@@ -48,7 +54,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate addresses 'Your Majesty' (Charmed, Your Majesty!), which makes Bunsha appear to be speaking to a tsar rather than introducing himself as the Tsar. The analysis explicitly requires clarity that he is introducing himself as the Tsar (not addressing one); this change reverses the intended comedic premise and register."
+          "justification": "The Russian line is Bunsha introducing himself as the Tsar (repeatedly: 'I am the Tsar'), but the candidate addresses someone else ('Your Majesty', 'Hello! So nice to meet you!') rather than making it clear he is claiming to be the Tsar. This reverses the crucial comic premise noted in the analysis and loses the gag of him repeatedly presenting himself as the monarch."
         }
       ]
     },
@@ -203,9 +209,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as a plain list ending in 'three suede jackets,' removing the original's comic self-correction/hesitation (the speaker lists 'a suede jacket… Three'). That forgetting/recounting is central to the joke (it reveals his exaggeration and guilt); eliminating it significantly weakens the humorous effect described in the analysis."
+          "justification": "The joke depends on Shpak inflating and losing track of counts (the comedic beat where the speaker fails to increment the number). The candidate lists 'three suede jackets' immediately, removing the incremental slip that creates the humor and thus undermining the comedic effect described in the analysis."
         }
       ]
     },
@@ -227,14 +233,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 3,
       "minor": 1
     },
-    "total_points": 11,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

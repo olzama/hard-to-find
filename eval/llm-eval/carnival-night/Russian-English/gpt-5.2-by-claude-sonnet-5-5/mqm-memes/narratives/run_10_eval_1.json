@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have an instruction\nto greet the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Instruction to greet the New Year cheerfully\" keeps the directive framing and the Comrades address, but \"greet\" and \"cheerfully\" are slightly less natural than \"celebrate merrily\" and the bureaucratic-festive clash is a bit softer."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,13 +44,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word \"коллектив\" is left untranslated in the English subtitle, which a viewer cannot read; the key workplace/collective punchline is therefore lost."
+          "justification": "The Russian word \"коллектив\" is left untranslated in the English subtitle, so the target audience gets a Cyrillic word and the workplace/collective logic the joke depends on is not conveyed."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" and \"raise\" are reasonable, but \"Baba Yaga\" without any hint of the toxic workplace type leans toward the fairy-tale figure; \"raise\" is less staffing-like than \"train in-house\"."
+          "justification": "Keeping \"Baba Yaga\" without any workplace-type framing leans toward the fairy-tale reading, though \"hire\" and \"raise\" keep some of the staffing logic."
         }
       ]
     },
@@ -80,10 +73,10 @@
       "candidate": "And briefly—about forty minutes.\nMore than that, I think, is unnecessary—",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The diminutive faux-modesty of \"коротенько\" is flattened to plain \"briefly\", and \"More than that, I think, is unnecessary\" is stiffer than the casual managerial tone; the smug understatement is weakened, though the brief-then-forty-minutes order is preserved."
+          "justification": "\"And briefly—about forty minutes\" keeps the briefly-then-duration order, but nothing conveys the cozy faux-modesty of the diminutive \"коротенько\", so the smug understatement is somewhat flatter than in the source."
         }
       ]
     },
@@ -109,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation renders only the literal \"ready\" and gives no hint of the \"drunk\" double meaning; the analysis says this alcoholic subtext is the whole joke, and \"been ready for a while\" alone does not recreate it."
+          "justification": "The candidate gives only the literal \"ready\" and does nothing to recreate the \"ready = drunk\" double meaning. The alcoholic subtext, which is the whole joke, is lost; \"been ready for a while!\" alone does not signal intoxication to an English viewer."
         }
       ]
     },
@@ -135,7 +128,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, stretched vocalization is only partly kept: \"People!..\" is clean and lacks the elongated, wavering \"Peo-ple\" of the drunken call, though \"Ah… Ah-oo!\" retains some instability."
+          "justification": "The broken, faltering vocalization is only partly kept: \"People!.. Ah… Ah-oo!\" has the wavering cry, but the stretched syllables of \"Лю-ди\" are lost, which weakens the drunken physical comedy."
         }
       ]
     },
@@ -164,7 +157,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly warns against; it sounds surreal rather than like a mangled \"unaided eye\" and does not evoke the familiar idiom being wrongly upgraded."
+          "justification": "The literal calque \"armed eye\" is what the analysis says to avoid. English has no familiar \"naked eye\" idiom being deformed in a recognizable way, so it sounds surreal rather than like a mock-scientific mangling of a known phrase, and the joke is lost."
         }
       ]
     },
@@ -190,16 +183,16 @@
       "candidate": "and we already see two little stars,\nthree little stars…\nFour little stars—and best of all, of course,\nfive little stars!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The five-star cognac punchline is not conveyed. No note or cue signals the shift from astronomy to cognac, so English viewers will see only odd counting. The analysis flags that a note may be needed."
+          "justification": "The counting build-up and the \"five stars\" punchline are preserved, but nothing signals the cognac association, which the analysis says may need a note. The click into a different semantic world will not register for most English viewers."
         },
         {
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Little stars\" repeated throughout makes the counting sound childish, which suits the silly buildup but is somewhat heavy, and the structure \"Four little stars—and best of all\" slightly muddles the progression."
+          "justification": "\"Little stars\" with the dash and awkward line breaks reads somewhat choppy, though it does keep the childish counting tone."
         }
       ]
     },
@@ -225,21 +218,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" keeps the colloquial feel, but \"science does not know\" is more formal than \"that is unknown to science\" and \"not yet up to date on the matter\" is a bit less idiomatic than \"isn't up to speed\", slightly reducing the casual register."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" keeps the casual looseness, and \"not yet up to date on the matter\" keeps the personified, conversational \"science\". \"Up to date\" is slightly less idiomatic than \"up to speed\", and \"science does not know\" is a bit more formal than the flat colloquial original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 3,
+      "minor": 6
     },
-    "total_points": 30,
+    "total_points": 21,
     "meaning_units": 8,
-    "penalty_per_unit": 3.75,
-    "major_equiv_per_unit": 0.75,
-    "interpretation": "3.75 MQM penalty points per meaning unit (≈ 0.75 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.625,
+    "major_equiv_per_unit": 0.525,
+    "interpretation": "2.62 MQM penalty points per meaning unit (≈ 0.53 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

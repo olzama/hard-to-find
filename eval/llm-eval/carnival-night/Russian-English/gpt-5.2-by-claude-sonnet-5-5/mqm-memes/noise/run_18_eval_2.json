@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction to\nwelcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is an instruction to welcome the New Year cheerfully\" keeps the directive-like, bureaucratic frame and the contrast with festive content. \"Welcome\" and \"cheerfully\" are slightly less natural and less officially flavored than \"celebrate merrily,\" and \"there is an instruction\" lacks the \"we have our instructions\" managerial ring. This weakens the effect only slightly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -46,7 +39,14 @@
         }
       },
       "candidate": "We won't bring Baba Yaga in from outside—\nwe'll raise one in our own collective!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Raise one in our own collective\" keeps the workplace logic and the Baba Yaga reference, but \"raise\" is slightly more parental than the managerial \"train/cultivate\". The effect is mostly preserved."
+        }
+      ]
     },
     {
       "id": 3,
@@ -70,13 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"And then\" before \"briefly\", which is not in the source, and it renders the line as flat \"briefly\" with no sense of faux-modesty or diminutive coziness (коротенько). The briefness claim is present before the duration, but the comic contrast is weakened. Also, the sentence is left without closing punctuation or ellipsis, which loses the trailing, self-satisfied tone."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"more, I think, isn't necessary\" is stilted and awkward in English compared to a natural \"I don't think we need more than that.\""
+          "justification": "The opening \"And then briefly\" drops the faux-modest, cozy sense of «коротенько» and turns it into a plain sequencing adverb. The \"briefly\" claim therefore does not set up the \"forty minutes\" punchline as a comic reversal, which is the core of the joke."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders \"готов\" only as \"ready\" three times, with no recreated hint of intoxication (e.g., \"he's been ready a long time\" with a drunk innuendo). The administrative surface is kept, but the alcoholic double meaning described in the analysis, which is the core of the joke, is lost."
+          "justification": "The candidate translates \"ready\" literally and keeps nothing of the double sense. Nothing hints that the lecturer is drunk, so the alcoholic joke from the analysis is lost, and the exchange reads as plain backstage coordination."
         }
       ]
     },
@@ -128,7 +122,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!.. Uh... Hel-lo!\" keeps a faltering, broken delivery, but \"Peo-ple\" is not stretched like the source \"Лю-ди\", so the drunken vocal instability is slightly weaker. \"Hel-lo!\" is also a bit more controlled than a wavering \"hellooo.\""
+          "justification": "\"People!.. Uh... Hel-lo!\" keeps some faltering, broken shape, but it is milder than the stretched, slurred \"Peo-ple! Ah… hellooo!\". The drunken vocal instability is weaker, and \"Hel-lo\" is less of a wavering call."
         }
       ]
     },
@@ -157,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye,\" which the language-specific note explicitly says to avoid because it sounds stranger and more surreal in English. It does not echo the familiar English idiom \"unaided eye,\" so the near-miss mock-scientific malformation is not recreated naturally."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The first part, \"But once we take a telescope...\", breaks the pompous exclamatory build (\"all we have to do is\"), and the line ends with a comma, so the flow is slightly off."
+          "justification": "\"Armed eye\" is the literal calque the analysis warns against. It does not echo the English idiom \"unaided eye\", so English viewers cannot recognise a familiar expression being wrongly \"upgraded\". The mock-scientific malapropism is lost, and the phrase just sounds surreal."
         }
       ]
     },
@@ -192,13 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate garbles the structure of the joke: \"Four stars—best of all, of course, five stars!\" merges the counting sequence with the punchline, so the buildup is muddled (\"four stars—best of all\" reads as if four were the best) and the sudden click into the cognac domain is weakened. The source's \"I can already see\" quality and the clear separation of the empty counting from the \"five stars\" payoff are lost."
-        },
-        {
-          "severity": "minor",
-          "category": "other",
-          "span": "",
-          "justification": "No translator's note about the 5-star cognac association, which the analysis says is likely needed since most English viewers will not catch it."
+          "justification": "The counting buildup is garbled: \"Four stars—best of all, of course, five stars!\" breaks the trivial one-two-three-four sequence, and the punchline loses its sudden click from empty counting into the cognac frame. There is also no cue, such as a note, that \"five stars\" refers to cognac, so the derailment joke is largely lost for English viewers."
         }
       ]
     },
@@ -222,9 +204,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" is a literal calque of the Russian structure and is somewhat awkward in English. \"Science is not yet in the know\" does preserve the casual register of \"не в курсе дела\", so the main joke survives."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is a stiff calque of the Russian structure. \"Not yet in the know\" keeps the casual register well, but the opening is clumsier than natural English."
         }
       ]
     }
@@ -232,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 6
+      "minor": 3
     },
-    "total_points": 26,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 3.25,
-    "major_equiv_per_unit": 0.65,
-    "interpretation": "3.25 MQM penalty points per meaning unit (≈ 0.65 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

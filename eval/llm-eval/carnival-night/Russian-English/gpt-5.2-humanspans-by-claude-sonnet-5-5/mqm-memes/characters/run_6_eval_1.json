@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, the directive is to\nwelcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"The directive is to welcome the New Year cheerfully\" keeps the top-down bureaucratic framing and the \"Comrades\" address, so the core joke survives. \"Welcome\" and \"cheerfully\" are slightly less festive and mandated-sounding than \"celebrate merrily\", and the phrase is a little stiff, but the effect is largely preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Hire a Baba Yaga\" matches the staffing logic, and \"raise one within our own collective\" keeps the in-house cultivation joke and the Soviet \"collective\" flavor. Keeping \"Baba Yaga\" untranslated is a defensible choice, but without gloss it leans on the fairy-tale reading and is less accessible as the nasty-woman workplace type for English viewers."
+          "justification": "\"Hire\" fits the staffing logic, but \"raise\" is more fairy-tale/parental than the training/cultivating sense, and \"Baba Yaga\" left untranslated may be less recognizable as a nasty-woman type for English viewers. The workplace logic still comes through via \"within our own collective\"."
         }
       ]
     },
@@ -75,9 +68,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"And briefly, about forty minutes\" keeps the claim of brevity before the duration, so the reversal lands. It loses the cozy faux-modesty of the diminutive «коротенько», and the \"more, I think, isn't necessary\" word order is slightly awkward."
+          "justification": "\"Briefly, about forty minutes\" keeps the order and the contradiction, but the diminutive faux-modesty of «коротенько» is lost, and the stiff \"more, I think, isn't necessary\" is somewhat less natural and self-satisfied than the original tone."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation renders only the literal \"ready\", so the double sense \"ready = drunk\" described in the analysis is lost. \"Has been ready a long time\" stays in the administrative reading, with no hint of intoxication. The key joke disappears."
+          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready\" is rendered flatly, so the alcoholic subtext, the core of the joke, disappears for the English viewer."
         }
       ]
     },
@@ -149,9 +142,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly warns against. It sounds more surreal than the Russian and misses the \"unaided eye\" echo that creates the mock-scientific malformed idiom in English."
+          "justification": "The literal calque \"armed eye\" is exactly what the analysis warns against. It does not echo \"unaided/naked eye\", so English viewers do not hear a familiar idiom being mangled into mock-scientific language; it reads as odd and surreal instead of pseudo-learned."
         }
       ]
     },
@@ -178,9 +171,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The star progression and the final \"five stars!\" punchline are preserved. The \"four stars—best of all\" punctuation blurs the pause and the sudden shift into the cognac frame. There is also no note on the cognac association, which the analysis flags as likely needed for English viewers."
+          "justification": "The counting is broken up awkwardly: \"four stars—best of all\" merges the final item into the sequence, which weakens the build-up and the sudden click to \"five stars\". The cognac association is also not signalled."
         }
       ]
     },
@@ -204,9 +197,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate keeps the colloquial \"up to speed\" and the personified science, so the register mismatch is preserved. \"Whether there is no life on Mars\" is a clumsy literal rendering of the Russian doubled structure, and \"science does not know\" is slightly stiffer than the casual \"unknown to science\"."
+          "justification": "The content and the colloquial \"up to speed\" are preserved. However, the awkward \"whether there is no life on Mars\" and the line breaks make the loose, casual phrasing slightly stilted."
         }
       ]
     }
@@ -214,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

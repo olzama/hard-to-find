@@ -21,7 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key meaning from the NB: it says Shpak and the ambassador currently have the items, whereas the source means they have lost them / no longer have them."
+          "justification": "The candidate reverses the key time/ownership relation: it says Shpak and the ambassador still have the items, whereas the line means they no longer have them because they were stolen or lost."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The phrasing keeps the sense but slightly weakens the mock-heroic, theatrical tone of the original line."
         }
       ]
     },
@@ -40,10 +46,10 @@
       "candidate": "Moito gusto, tsar!\nMoito gusto, boas, tsar!\nTsar, moito gusto!\nBoas, tsar! Moito gusto!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The translation preserves the self-introduction and repetition, but the phrasing 'Moito gusto, boas' is awkward and slightly weakens the comic, mundane greeting-register described in the analysis."
+          "justification": "The line does not clearly preserve the crucial meaning that Bunsha is introducing himself as the Tsar; it reads more like he is addressing the Tsar, which the analysis explicitly warns against."
         }
       ]
     },
@@ -60,14 +66,7 @@
         "language_specific": {}
       },
       "candidate": "Esixo que continúe o banquete!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The meaning is correct, but 'que continúe o banquete' is a bit more neutral and less emphatic than the brisk, commanding tone of the source."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -87,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Que estou de loito' changes the nuance: the source conveys being sad/melancholy, while 'de loito' suggests mourning and adds a more specific emotional state than intended."
+          "justification": "\"Estou de loito\" shifts the nuance from being saddened/afflicted to formal mourning, which is slightly less idiomatic for this line's melancholic royal tone."
         }
       ]
     },
@@ -106,10 +105,10 @@
       "candidate": "Emparedáronme!\nEmparedáronme, demoños!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "'demoños' is used as a direct address here, but the source means 'the demons' as the subject of the sentence. This breaks the joke’s sense of being trapped by demons."
+          "justification": "\"demoños\" is an unnatural spelling/form in this context; it sounds awkward compared with the normal word choice needed for the comic outburst."
         }
       ]
     },
@@ -131,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira' is understandable, but the source has a more exalted, demonstrative exclamation; the candidate sounds slightly less ritualistic and less wonder-struck."
+          "justification": "\"Mira\" is a bit more everyday than the emphatic, near-archaic exclamation in the reference, so the biblical/mock-solemn tone is slightly reduced."
         }
       ]
     },
@@ -148,7 +147,14 @@
         "language_specific": {}
       },
       "candidate": "Que baile todo o mundo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Que baile todo o mundo!\" conveys the meaning, but it sounds a little less like a commanding mass call than the punchy imperative of the original."
+        }
+      ]
     },
     {
       "id": 8,
@@ -168,7 +174,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Que ben entrei!' means 'How well I entered', which is misleading and loses the idea that he 'happened to walk in' at a lucky moment. It also shifts the meaning toward the action of entering rather than the fortunate discovery."
+          "justification": "\"Que ben entrei!\" means \"I entered well/nicely,\" which is misleading because the original expresses his pleased reaction to having ended up there, not merely the act of entering."
         }
       ]
     },
@@ -190,7 +196,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate incorrectly repeats 'caviar' for 'eggplant caviar', despite the NB warning not to do so. This makes the punchline harder to understand and blurs the contrast between real caviar and the cheap Soviet spread."
+          "justification": "The line repeats the forbidden term \"caviar\" for the eggplant spread, which the analysis says should not be called caviar because that would confuse viewers and spoil the joke."
         }
       ]
     },
@@ -207,14 +213,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaqueta de camurza... tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The list is mostly preserved, but 'pitilleiras' is less appropriate than a term matching the prestige item in the source/reference, weakening the social-status flavor of the joke."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -229,19 +228,26 @@
         "language_specific": {}
       },
       "candidate": "E a ti han curarte!\nE a ti tamén han curarte!\nE a min han curarme!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"Han curarte\" is understandable, but it sounds less natural and less calmly resigned than the reference's more idiomatic repetitive phrasing."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 5
+      "minor": 6
     },
-    "total_points": 25,
+    "total_points": 26,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.3636363636363638,
+    "major_equiv_per_unit": 0.4727272727272728,
+    "interpretation": "2.36 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

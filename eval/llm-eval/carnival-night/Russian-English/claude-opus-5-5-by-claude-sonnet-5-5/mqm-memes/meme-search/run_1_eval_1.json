@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"see in the New Year cheerfully\" is a slightly awkward phrasing, though \"directive\" keeps the bureaucratic register and the contrast with festive content. The line is split awkwardly across subtitle breaks."
+          "justification": "\"Directive\" keeps the bureaucratic register and the clash with festive content, but \"see in the New Year cheerfully\" is a slightly clumsy, less dry phrasing than the deadpan original."
         }
       ]
     },
@@ -41,9 +41,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Raise our own\" leans toward a fairy-tale or livestock/child-rearing image rather than the staffing/training logic of the reference (\"train one in-house\"), though \"in our collective\" retains the Soviet workplace flavor. \"Hire\" keeps the staffing logic. The workplace-type joke is largely preserved."
+          "justification": "\"Hire\" and \"raise our own\" preserve the workplace logic and the Baba Yaga reference. However, \"raise\" is more parental/fairy-tale than the managerial \"train/cultivate in-house\", and \"a Baba Yaga\" remains an opaque folkloric reference for English viewers, so the toxic-colleague type is only partly conveyed."
         }
       ]
     },
@@ -62,10 +62,10 @@
       "candidate": "just a short one,\nforty minutes or so - no more is needed, I think",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The key word «коротенько» is rendered as a flat \"just a short one\", losing the diminutive, cozy faux-modesty. The sentence also lacks the setup of briefness before the duration in a way that lands as a punchline; \"a short one\" is ambiguous (could read as a short drink), weakening the comic reversal."
+          "justification": "\"Just a short one\" sets up the faux-modesty before the duration, which keeps the comic reversal. But it loses the cozy diminutive tone of \"коротенько\", and \"no more is needed, I think\" is slightly stiff, so the smug managerial voice is weaker."
         }
       ]
     },
@@ -87,7 +87,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready\" is translated only literally, so the \"drunk\" double meaning of «готов» is lost, as the analysis warns. \"Long ready\" is also unidiomatic and does not suggest intoxication, so the joke disappears."
+          "justification": "The double meaning of \"готов\" (ready / drunk) is not recreated. \"Ready, long ready\" gives only the literal administrative sense, so the alcoholic joke the analysis identifies as the core is lost."
         }
       ]
     },
@@ -104,14 +104,7 @@
         "language_specific": {}
       },
       "candidate": "- People!.. Ah.. Yoo-hoo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The broken, stretched vocalization of «Лю-ди!» is normalized to a clean \"People!\", losing part of the drunken instability. \"Ah.. Yoo-hoo!\" does retain a wavering call, so the effect is only partly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -136,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"The dressed one\" is a nonsensical rendering of «вооружённым» that does not echo the idiom \"unaided eye\"; it sounds like an unrelated clothing joke. It does explicitly contrast with \"naked eye\", which keeps a malformed-idiom idea, but the mock-scientific pomp is lost and the meaning is unclear. The line also ends on a comma, and the \"not X but Y\" structure makes the lecturer sound deliberate rather than tipsily mangling the phrase."
+          "justification": "The malformed idiom is replaced by \"not with the naked eye but the dressed one\". This explicitly contrasts the standard phrase instead of mangling it, and \"dressed eye\" is neither mock-scientific nor logically tied to the telescope. The pseudo-scholarly slip is lost and the joke does not work. The sentence is also left unfinished with a trailing comma."
         }
       ]
     },
@@ -163,7 +156,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting sequence is slightly garbled: \"Four stars, but best of all\" breaks the rhythm of the build-up, and there is no note or cue connecting five stars to cognac, which the analysis says may need explanation. The overall progression and punchline are otherwise preserved."
+          "justification": "The star progression and the \"five stars\" punchline are kept, so the cognac click can work. The \"but best of all\" attaches to the fourth star, which blurs the buildup slightly, and there is no cue for the cognac association. This is a weakness in delivery, not a loss of the joke."
         }
       ]
     },
@@ -183,23 +176,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" is a stilted calque of the Russian structure, and \"science does not know\" is a bit flatter than the reference. \"Science hasn't been briefed yet\" does preserve the casual personified register well."
+          "justification": "The casual register is preserved, especially in \"hasn't been briefed yet\", which treats science as a person. \"Is there no life on Mars\" is a slightly awkward literal rendering, and \"science does not know\" is a little more formal than the conversational Russian."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 2,
       "minor": 5
     },
-    "total_points": 20,
+    "total_points": 15,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.875,
+    "major_equiv_per_unit": 0.375,
+    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

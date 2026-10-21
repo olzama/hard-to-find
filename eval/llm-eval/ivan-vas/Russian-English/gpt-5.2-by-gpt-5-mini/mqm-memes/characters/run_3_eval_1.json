@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion.' The analysis explicitly warns that this construction does not mean they possess these items anymore but that the items are missing/from them (they were lost/stolen). The candidate therefore reverses the intended meaning and misrepresents the joke's implication about stolen goods."
+          "justification": "The candidate renders У Шпака — у посла as literal possession ('Shpak has... the envoy has...'), which contradicts the NB: these phrases indicate the items are missing from them (they were robbed). This reverses the intended meaning and harms the joke about theft."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line must make clear Bunsha is introducing himself as the Tsar (not addressing a Tsar). The candidate ('Very nice, Tsar! ... Hello, Tsar!') reads as someone addressing a Tsar rather than repeatedly introducing himself as 'I am the Tsar' in the absurd, self-introducing way described in the analysis. This changes the comedic premise and contradicts the NB guidance."
+          "justification": "The candidate reads as addressing the Tsar ('Very nice, Tsar!') rather than Bunsha introducing himself as the Tsar. The analysis explicitly requires that it be clear he is introducing himself as the Tsar, not speaking to one; this changes the central comedic premise of the impersonation."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian line frames 'demons' as the subject who have walled him in (he's reporting being trapped), not as a vocative address. The candidate's punctuation/wording ('Walled up, demons!') reads as if he is addressing demons, which reverses the syntactic/semantic relation and undermines the intended misunderstanding of modern technology as a demonic act."
+          "justification": "The Russian places 'demons' as the subject responsible for walling him in (they walled me in). The candidate's second line ('Walled up, demons!') reads as if speaking to demons (vocative) rather than blaming them, which contradicts the NB and alters the meaning of the exclamation."
         }
       ]
     },
@@ -117,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Candidate 'So that’s what the life-giving cross can do!' keeps the literal meaning but shifts register to a more colloquial modern phrasing. The analysis emphasizes high-register, quasi-biblical diction; the candidate weakens that archaic, solemn tone, making the line less evocative of the Tsar's religio-historical voice."
+          "justification": "The candidate's colloquial phrasing ('So that’s what the life-giving cross can do!') preserves meaning but loses the elevated, archaic register ('Behold the power of the life-giving cross!') that contributes to the Tsar's solemn, historic voice."
         }
       ]
     },
@@ -169,7 +169,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The reference highlights the satirical inversion where cheap 'eggplant caviar' is presented as if it were a rare imported delicacy. The candidate's 'Imported caviar… Eggplant!' loses the clearer juxtaposition that marks eggplant as the ironic, low-status substitute and thus blunts the specific satirical target (the joke that eggplant spread is being treated like imported caviar)."
+          "justification": "The candidate uses 'Imported caviar...' which risks treating the eggplant spread as genuine imported caviar. The analysis warns against calling eggplant spread 'caviar'—the humor depends on contrasting lavish caviar with humble eggplant spread; the wording blurs that contrast."
         }
       ]
     },
@@ -186,7 +186,14 @@
         "language_specific": {}
       },
       "candidate": "three tape recorders,\nthree movie cameras,\nthree domestic cigarette cases,\nthree suede jackets!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate lists 'three suede jackets!' without the hesitating, self-betraying pause present in the original that sells the joke (he forgets to increment). Presenting it cleanly as 'three suede jackets' weakens the comedic reveal described in the analysis."
+        }
+      ]
     },
     {
       "id": 11,
@@ -207,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 2
+      "minor": 3
     },
-    "total_points": 17,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 1.5454545454545454,
-    "major_equiv_per_unit": 0.3090909090909091,
-    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Bring up\" and \"collective\" keep the workplace logic, but \"Baba Yaga\" left as a bare proper name leans toward the fairy-tale figure and loses the 'nasty woman' social type that a plain 'witch' evokes in English; the human-type reading is weaker. The in-house training/staffing flavor is also softer than 'train one in-house'."
+          "justification": "\"Bring up\" and \"Baba Yaga\" keep the in-house workplace logic, but the untranslated name leans fairy-tale and loses the recognizable toxic-woman-in-the-office type that the English audience would get from \"witch\"; the social dimension is weaker, though \"collective\" retains the Soviet workplace flavor."
         }
       ]
     },
@@ -68,15 +68,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The diminutive faux-modesty of «коротенько» is rendered with plain \"briefly\", and the added \"no more, I think\" shifts the stress away from the comic reversal. The smug, patronizing understatement that makes \"forty minutes\" a punchline is flattened."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "Lowercase start and trailing dash are fine for a continuation, but the \"no more, I think\" clause weakens the pacing compared with the brief claim followed directly by duration and the closing thought."
+          "justification": "The faux-modest diminutive \"коротенько\" is rendered as a flat, lowercase \"briefly\" with no sense of cozy understatement, and the \"no more, I think\" tail is clipped. The comic reversal between claimed briefness and forty minutes is weakened, and the smug managerial tone is largely lost."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"Ready\" is repeated literally and \"been ready a long time!\" gives no hint of intoxication, so the alcoholic joke disappears and only the administrative surface remains."
+          "justification": "The double meaning of \"готов\" (ready / drunk) is lost. The candidate only says \"ready\" and \"been ready a long time\" with no hint of intoxication, so the alcoholic subtext that makes the exchange memorable disappears."
         }
       ]
     },
@@ -126,9 +120,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Hoo-hoo!\" renders «ау-у» as a different, owl-like or laughing sound rather than a calling-out \"hello/ahoy\" cry. The broken vocal instability is partly kept, but the \"People!\" is not stretched (Лю-ди) so the drunken faltering is less pronounced."
+          "justification": "\"People!.. Ah... Hoo-hoo!\" keeps a broken, faltering call, but the first word is not stretched into syllables like \"Лю-ди\", and \"Hoo-hoo\" reads as an owl or laugh rather than a calling \"ау-у\". The drunken vocal instability is only partly conveyed."
         }
       ]
     },
@@ -157,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the English notes warn against: it sounds surreal rather than like a mangled \"unaided eye\", so the familiar-idiom-wrongly-upgraded joke is lost. \"It's enough for us to take\" is also an awkward calque of «стоит только»."
+          "justification": "\"Armed eye\" is the literal calque the English notes warn against. It does not echo any familiar English idiom such as \"unaided eye\", so the sense of a recognizable expression being wrongly upgraded is lost and the phrase sounds merely odd and surreal."
         }
       ]
     },
@@ -186,7 +180,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting sequence is broken: \"Four little stars—and best of all, of course, five little stars\" removes the buildup and the 'But of course five stars is best' click into the cognac frame. \"Little stars\" also sounds childlike but no cognac association is conveyed (the reference adds a note), so the derailment to a different semantic world is weak."
+          "justification": "\"Little stars\" renders the diminutive as a childish counting rhyme, which suits the trivial buildup. However, the cognac association is not conveyed in any way, so \"five little stars\" does not click into a different semantic world and the derailment punchline becomes merely odd. A note or cue such as \"five stars\" would be needed."
         }
       ]
     },
@@ -210,9 +204,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Or there isn't life on Mars\" is a stilted literal calque of «нет ли жизни», and \"Science is not yet in the know\" is slightly less natural and colloquial than \"isn't up to speed\". The casual register mismatch is still largely preserved."
+          "justification": "\"Or there isn't life on Mars\" is a stiff calque of the Russian doubled construction, and \"science doesn't know\" is slightly flatter than the reference. \"Not yet in the know\" does capture the colloquial personification of science, so the joke largely survives."
         }
       ]
     }
@@ -220,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

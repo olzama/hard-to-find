@@ -34,9 +34,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line is a plain literal rendering of the contrast. It loses the bouncing 'trus/boyus' rhythm and the endearing, lighthearted effect, and the analysis explicitly warns against a literal translation with no comic effect. The reference's 'overpowered by fear!' keeps a comic, mock-heroic touch that the candidate lacks."
+          "justification": "Literal rendering with no comic effect or bouncing rhythm; the analysis explicitly says to avoid literal translation without comic effect. The 'not a coward / but afraid' paradox is kept, but the lighthearted, endearing tone is lost."
         }
       ]
     },
@@ -73,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits 'Lady' from the list of international forms of address and adds 'You see', which is not in the source. This weakens the mashup of loanwords and the pretentious tone."
+          "justification": "Opens with 'You see' and drops 'Lady', adding/omitting from the mashup of address terms. The pseudo-international jargon (Russo turisto, Obliko morale, verstehen) is preserved."
         }
       ]
     },
@@ -140,7 +140,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The verb 'drink' is missing, so the sentence ends on 'even teetotalers and convalescers.' and is incomplete. The punchline about free alcohol is lost, and no rhythmic or creative solution compensates."
+          "justification": "The sentence is incomplete: it never says they drink, so the proverbial point is lost. 'Even teetotalers and convalescers.' has no verb. It also drops the parallel punchline structure and has no rhythm or creative solution, which the note says to avoid."
         }
       ]
     },
@@ -157,7 +157,14 @@
         "language_specific": {}
       },
       "candidate": "In the morning, champagne is drunk\nonly by aristocrats and degenerates!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The meaning is preserved, but the aristocrats/degenerates rhyme is not rendered, so the rhyming social-law quality is weaker. This matches the reference approach."
+        }
+      ]
     },
     {
       "id": 10,
@@ -207,7 +214,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The elongated, melodic sigh ('Semyo-o-on') is flattened into a plain address with an ellipsis. This loses the weary 'facepalm' tone."
+          "justification": "The elongated, melodic sigh of 'Семё-он' is lost; the plain 'Semyon Semyonovich...' loses the facepalm intonation."
         }
       ]
     },
@@ -227,9 +234,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'On one salary' loses the 'nothing but' sense of living on a salary alone. It reads more like a budget remark than a curse, which weakens the subversive punch."
+          "justification": "'On one salary' is acceptable, but the line breaks flatten the theatrical curse. The meaning of the curse of an honest life is preserved."
         }
       ]
     },
@@ -309,9 +316,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The rhyme and rhythmic anti-climax are lost. 'A pack of tickets gets... a water tower' is a literal rendering with no rhyme. The sarcastic retort structure and the slogan-like jingle that the analysis describes are not recreated."
+          "justification": "The rhyme (pack/rack) is lost entirely, as is the rhythmic anti-climax of the slogan, and the retort format with a second speaker is missing. 'Water tower' is a plausible industrial prize, but the slogan no longer works as a rhythmic lottery jingle."
         }
       ]
     },
@@ -363,13 +370,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Gena's affected pronunciation of 'coffee' (the reference's 'coff-ey') is not rendered, so the marker of his pretentious, aristocratic delusions is lost. 'Simply' is also dropped."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Take a bathe' is ungrammatical, since the noun should be 'bath'."
+          "justification": "The affected pronunciation of 'coffee' (coff-ey) is lost, so Gena's pretentious sophistication marker disappears. 'Take a bathe' is also ungrammatical, adding awkwardness."
         }
       ]
     },
@@ -388,10 +389,10 @@
       "candidate": "And don't you have the same one, but\nwith mother-of-pearl buttons?\nUnfortunately, no...\nNo, yes... must keep looking...",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'No, yes... must keep looking' garbles the saleswoman's 'No?' into a confusing, contradictory reply. The deliberately polite stalling tactic becomes unclear."
+          "justification": "'No, yes... must keep looking' adds a confusing 'yes' that is not in the source. The stalling tactic is otherwise preserved."
         }
       ]
     },
@@ -413,14 +414,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 4
+      "major": 4,
+      "minor": 5
     },
-    "total_points": 29,
+    "total_points": 25,
     "meaning_units": 23,
-    "penalty_per_unit": 1.2608695652173914,
-    "major_equiv_per_unit": 0.25217391304347825,
-    "interpretation": "1.26 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0869565217391304,
+    "major_equiv_per_unit": 0.21739130434782608,
+    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.4-mini"

@@ -24,15 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Plagued by vague suspicions' is a decent mock-heroic rendering, though 'suspicions' is slightly more modern/less theatrical than 'vague doubts haunt me'; the high-opera tone is somewhat weakened."
-        },
-        {
-          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Loses' captures that the items are gone, but 'order' for 'медальон' (medallion) is a mistranslation/odd word choice (an order is a decoration, not a medallion) and was likely chosen for rhyme, which departs from the source item."
+          "justification": "The candidate correctly conveys that the items were lost and keeps the mock-heroic opening, and the rhyme is a fair equivalent. But 'order' for 'медальон' (medallion) is ambiguous and shifts the object toward a decoration or award, which is less precise."
         }
       ]
     },
@@ -54,7 +48,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires making clear Bunsha introduces himself as the Tsar, not addresses a Tsar. 'Hello, tsar!' reads as a vocative address to a tsar, which reverses the speaker/addressee relationship and loses the joke."
+          "justification": "'Hello, tsar!' and 'Tsar, very pleased!' read as Bunsha addressing a tsar rather than introducing himself as the Tsar. The analysis explicitly requires making clear he is introducing himself, so the impersonation joke is lost."
         }
       ]
     },
@@ -91,14 +85,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, for I am in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The added 'for' is acceptable as archaic register, but it slightly alters the terse original; the effect is preserved overall."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -173,14 +160,7 @@
         }
       },
       "candidate": "Looks like I dropped by at just the right time!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Dropped by at just the right time' correctly implies he has just arrived, not that he is leaving, and keeps the cheerful tone; however, 'Looks like' hedges the exclamation and is slightly less punchy than the original's satisfied remark."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -205,7 +185,7 @@
           "severity": "major",
           "category": "terminology",
           "span": "",
-          "justification": "The candidate calls the eggplant spread 'Eggplant caviar', which the analysis explicitly warns against because it confuses viewers; it also loses the contrast of the cheap 'spread' presented as an overseas delicacy."
+          "justification": "The candidate calls the eggplant spread 'Eggplant caviar', which the analysis explicitly says to avoid because it confuses viewers. It also blurs the contrast between real caviar and the humble Soviet 'overseas' spread that carries the satire."
         }
       ]
     },
@@ -227,14 +207,7 @@
         }
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\na suede jacket... three.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Domestic' is placed as an adjective on cigarette cases within the count, which is acceptable, but the numerals '3' instead of 'three' and the flattened structure lose some of the comic buildup, and 'a suede jacket... three' is preserved fine."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -255,13 +228,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 5
+      "minor": 1
     },
-    "total_points": 15,
+    "total_points": 11,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

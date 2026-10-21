@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase \"knock back a little one\" is understandable and preserves the informal invitational tone, but \"a little one\" sounds slightly awkward in idiomatic English for referring to a drink; a smoother phrasing (e.g., \"knock back a quick one\") would better match natural register."
+          "justification": "The phrasing 'how about we knock back a little one?' is colloquial and conveys the meaning, but the lowercase initial word and the slightly awkward 'a little one' reduce smoothness; a more natural phrasing would be 'How about we knock back a quick one?'"
         }
       ]
     },
@@ -53,14 +53,7 @@
         "language_specific": {}
       },
       "candidate": "Such... such elevated feelings!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps the repeated/sarcastic effect but replaces the sharp, ironic noun phrase about a 'relationship' with the softer, less pointed \"feelings,\" which reduces the biting social-commentary bite of the original refrain."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -78,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"You don’t live for joy—you live for conscience\" is a literal rendering but shifts the original soldierly, duty-focused tone (\"you live to do your duty\") toward a more inward moralizing idea of \"conscience,\" which weakens the practical, resigned fatalism emphasized in the analysis."
+          "justification": "'You don’t live for conscience' is a literal rendering that sounds awkward and less idiomatic in English than the reference's 'you live to do your duty,' which better captures the soldierly fatalism and moralized tone."
         }
       ]
     },
@@ -117,7 +110,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate \"You menace in the kitchen!\" misrenders the concise ironic insult. It fails to convey the intended sarcastic meaning of \"Some cook you are!\" and produces an awkward, semantically incorrect phrasing that damages the comic effect and register."
+          "justification": "The candidate 'You menace in the kitchen!' changes the meaning: the original is a terse ironic insult using a professional label ('Some cook you are!') as a domestic put-down. The candidate introduces 'menace' (threatening) and an odd construction, which breaks the comic effect and the intended insult."
         }
       ]
     },
@@ -184,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"It’s my burden to bear!!! And I’ll carry it.\" conveys the self-sacrificial tone but softens the idiomatic punch of the fixed expression \"a cross to bear\" and omits the emphatic exclusivity of \"mine alone,\" slightly reducing the manipulative theatricality."
+          "justification": "'It’s my burden to bear!!! And I’ll carry it.' preserves the self-sacrificial tone but softens the idiomatic punch of 'a cross to bear' and drops the emphatic 'mine alone' possessive force of the reference, making the manipulative grandiosity slightly weaker."
         }
       ]
     },
@@ -207,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 9,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

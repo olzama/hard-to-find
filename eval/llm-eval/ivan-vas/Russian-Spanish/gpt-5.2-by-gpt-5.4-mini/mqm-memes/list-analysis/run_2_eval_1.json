@@ -16,20 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Otra vez me atormentan\nvagas dudas...\nA Shpak le faltó el magnetófono,\nal embajador, el medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Vagas dudas\" preserves the meaning, but it softens the mock-heroic, literary flavor of \"смутные сомнения\" that is central to the joke."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Le faltó el magnetófono\" can suggest a temporary lack or shortage rather than the intended idea that Shpak has lost or is missing the recorder."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -44,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Hola, soy el zar, encantado.\nEl zar, encantado, el zar.\nEncantado, hola, soy el zar.\nSoy el zar, encantado.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Hola\" sounds more casual than the reference's formal greeting and slightly weakens the comic contrast of Bunsha's repetitive, overpolite speech."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -81,14 +61,7 @@
         "language_specific": {}
       },
       "candidate": "Déjame, anciana, estoy apenado.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Anciana\" is a flatter, more modern word than the reference's slightly old-fashioned \"viejecita,\" so it loses some of the tsar's archaic-register color."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -121,9 +94,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "\"Mira lo que hace...\" shifts the sense from an exclamatory assertion of miracle to a command-like \"look,\" slightly altering the original force."
+          "justification": "\"Mira\" slightly weakens the exclamatory, celebratory astonishment of the original; it sounds more like an instruction to look than a triumphant realization."
         }
       ]
     },
@@ -140,14 +113,7 @@
         "language_specific": {}
       },
       "candidate": "¡A bailar, todos!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"¡A bailar, todos!\" is understandable, but it is a bit less natural and punchy than the reference's concise imperative crowd-call."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -162,20 +128,7 @@
         "language_specific": {}
       },
       "candidate": "¡He entrado en el momento justo!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"He entrado en el momento justo\" changes the scene logic: it sounds like he is describing entering at the right time, but it misses the cheerful self-satisfied discovery that he has stumbled into a jackpot of valuables."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The wording is more explanatory and less spontaneous than the playful, colloquial boast in the source."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -190,20 +143,7 @@
         "language_specific": {}
       },
       "candidate": "Huevas negras, huevas rojas...\n¡Sí! Y un paté de berenjena...\n¡de ultramar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Huevas\" is not the usual translation for the caviar items here and slightly narrows the meaning; the line also loses the succinct comic contrast of the original list."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The phrasing is less crisp and less witty than the reference, and the line break before \"¡de ultramar!\" weakens the punchline structure."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -218,20 +158,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleras nacionales,\nuna chaqueta de ante... tres.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The final \"tres\" is detached from the jacket phrase and no longer clearly conveys the joke that the count of suede jackets is being corrected from one item to three."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The abbreviated list is serviceable, but it reduces the comic rhythm and escalating specificity of Shpak's exaggerated report."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -251,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 10
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 20,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is more tentative and plain («why don't we have a little drink?») than the brisk, colloquial provocation of the reference (\"Shall we toss back a quick one?\"). It slightly softens Kostik's ironic, mediating provocation, though it preserves the overall meaning."
+          "justification": "The candidate is natural and conversational but slightly tamer and less colloquial/playful than the reference's brisk, jokey provocation. It loses a bit of the trickster, mediator tone that undercuts the preceding high drama."
         }
       ]
     },
@@ -60,10 +60,10 @@
       "candidate": "Such elevated...\nSuch elevated relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The translation uses a literal noun-phrase \"Such elevated relations,\" which sounds stilted in English and loses the original's sarcastic, stuttering playful delivery (the reference's elongated \"e-v-volved\"). The line is understandable but less natural and less comically pointed."
+          "justification": "The line uses a literal noun-phrase \"relations,\" producing an unnatural, wooden exclamation in English and misses the sarcastic stuttery delivery of the original (the theatrical stammer \"e-v-volved\"). This flattens the comic effect and the refrain quality described in the analysis."
         }
       ]
     },
@@ -82,10 +82,10 @@
       "candidate": "We don't live for pleasure,\nbut to do what's right.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"We don't live for pleasure, but to do what's right\" conveys the sentiment but softens the blunt, duty-bound military fatalism of the reference (\"you live to do your duty\"). The register shifts slightly toward general moralizing rather than the character's pragmatic, soldierly aphorism."
+          "justification": "The candidate softens the original soldierly fatalism and moral-duty thrust into a general 'do what's right,' losing the blunt, duty-centered logic ('you live to do your duty') that reveals the characters' justification for denying personal happiness."
         }
       ]
     },
@@ -102,7 +102,14 @@
         "language_specific": {}
       },
       "candidate": "Remember, it was your idea, not mine.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys refusal of responsibility but changes register and emphasis: it reads as a direct accusation rather than the theatrical defensive distancing of the original ('For the record'). The comedic, self-exculpatory flourish is weakened."
+        }
+      ]
     },
     {
       "id": 6,
@@ -127,7 +134,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering the exclamation as the single word \"Chef!\" follows a literal-noun approach that the analysis warned against. It loses the ironic, scornful bite of the reference's idiomatic rebuke (\"Some cook you are!\") and sounds more neutral or simply occupational."
+          "justification": "A single-word exclamation 'Chef!' mirrors the literal noun in the source but sounds unnatural and lacks the biting, sarcastic insult effect the analysis highlights ('Some cook you are!'). It doesn't work as a natural colloquial rebuke in English."
         }
       ]
     },
@@ -204,7 +211,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the referent from the abstract burden/situation to the person («He's my cross to bear»), which reverses the original meaning. The line should present the burden as something the speaker alone must bear, not label the person as the burden; this shift undermines the manipulative self-sacrificial trope central to the character."
+          "justification": "By making the person ('He') into 'my cross' the candidate distorts the idiom and the manipulative meaning: the original idiom ('a cross to bear') presents the supposed burden or moral duty as hers, not the person as an objectified burden. This alters the rhetorical self-victimizing posture central to the character."
         }
       ]
     },
@@ -226,26 +233,19 @@
         }
       },
       "candidate": "Oh, I'm so awkward,\nso terribly clumsy...\nSo full of contradictions!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's choice \"so terribly clumsy\" renders «угловатая» in a more physical, clumsy sense rather than the socially mannered, 'sharp-edged' nuance implied in the analysis. The self-deprecatory tone is preserved, but the specific coquettish, stylized awkwardness is weakened."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 10,
+    "total_points": 18,
     "meaning_units": 11,
-    "penalty_per_unit": 0.9090909090909091,
-    "major_equiv_per_unit": 0.18181818181818182,
-    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.6363636363636365,
+    "major_equiv_per_unit": 0.32727272727272727,
+    "interpretation": "1.64 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

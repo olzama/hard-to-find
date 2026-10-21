@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "Hello, I’m the Tsar, very pleased to meet you. The Tsar, very pleased. Tsar, very pleased. Hello, the Tsar.\nThe Tsar, very pleased.\nHello, Tsar! Very pleased!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The added final line 'Hello, Tsar! Very pleased!' with an exclamation and no article could be read as addressing a Tsar rather than introducing himself, which weakens the clarity required by the NB. The earlier lines clearly keep the self-introduction."
+        }
+      ]
     },
     {
       "id": 3,
@@ -136,7 +143,14 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar... and yes! Overseas spread... eggplant!\nEggplant!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The extra line 'Eggplant!' is a repetition not in the source. It slightly disrupts the punchline timing, though it does not call the spread caviar and the joke still works."
+        }
+      ]
     },
     {
       "id": 10,
@@ -153,10 +167,10 @@
       "candidate": "Everything I earned\nby backbreaking labor,\nis gone: three tape recorders,\nthree movie cameras,\nthree cigarette cases, domestic...\na suede jacket... Three.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a line ('Everything I earned by backbreaking labor, is gone:') that is not in the source or reference. It is not harmful and fits Shpak's character, but it is an addition. The list itself, including the 'suede jacket... Three' slip that makes the joke work, is preserved."
+          "justification": "The candidate adds 'Everything I earned by backbreaking labor, is gone:', which is not in the source or reference. It changes the line into a sentimental lament and shifts the joke away from the list of exaggerated items and the suede jacket count slip."
         }
       ]
     },
@@ -173,19 +187,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd they’ll cure you too!\nAnd they’ll cure me...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Exclamation marks on 'you' and 'you too' replace the calm, melodic resignation described in the analysis with a more emphatic tone, though the trailing ellipsis on the last phrase partly preserves it."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 1
+      "major": 1,
+      "minor": 3
     },
-    "total_points": 1,
+    "total_points": 8,
     "meaning_units": 11,
-    "penalty_per_unit": 0.09090909090909091,
-    "major_equiv_per_unit": 0.01818181818181818,
-    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.7272727272727273,
+    "major_equiv_per_unit": 0.14545454545454545,
+    "interpretation": "0.73 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

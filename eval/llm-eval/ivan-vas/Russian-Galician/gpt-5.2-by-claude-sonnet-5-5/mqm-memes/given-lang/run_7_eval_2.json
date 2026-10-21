@@ -136,14 +136,7 @@
         "language_specific": {}
       },
       "candidate": "Caviar negro, vermello… Si! Manxar de ultramar… de berenxena!\nDe berenxena!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate adds an extra line 'De berenxena!' that is not in the source, a small addition. The meaning, the 'manxar' (not 'caviar') rendering of the eggplant spread, and the joke are preserved, but the final repetition is unneeded."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -163,7 +156,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate repeats 'tres cigarreiras nacionais' and 'unha chaqueta de ante... tres' as an extra line, which is not in the source. The key joke is preserved, but the duplicated list is redundant and slightly muddles the escalating count."
+          "justification": "The candidate repeats the list partially in a second block ('tres cigarreiras nacionais, unha chaqueta de ante... tres.') which is not consecutive repetition of the full line and clutters the subtitle. The second block also drops the comic pause after 'chaqueta' and the 'de ante' beat, slightly weakening the joke about Shpak's count slipping."
         }
       ]
     },
@@ -186,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 0.18181818181818182,
-    "major_equiv_per_unit": 0.03636363636363636,
-    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

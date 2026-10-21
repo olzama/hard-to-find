@@ -48,10 +48,10 @@
       "candidate": "High... high relations.",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'High... high relations.' renders the line as a literal noun phrase and loses the sarcastic exclamatory register and rhythm of the original refrain. The analysis warns against literal noun-phrase phrasing; the candidate weakens the recognisable comic refrain."
+          "justification": "The candidate 'High... high relations.' renders the line as a literal noun phrase and sounds flat and unnatural in English, losing the sarcastic, exclamatory refrain and rhythmic stutter that produce the comic effect in the analysis. This contradicts the guidance to avoid a literal noun-phrase rendering."
         }
       ]
     },
@@ -70,10 +70,10 @@
       "candidate": "People don't live for joy—they live for conscience.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'conscience' ('live for conscience') which is awkward and shifts the pragmatic meaning from the reference's sense of duty/obligation ('live to do your duty'). This alters the intended soldierly fatalism and moral justification present in the source and analysis."
+          "justification": "'People don't live for joy—they live for conscience.' preserves the general sense but shifts nuance from dutiful, practical fatalism ('live to do your duty') toward a more inwardly moralistic idea ('conscience'), making the line slightly less aligned with the soldierly, pragmatic tone described in the analysis."
         }
       ]
     },
@@ -107,10 +107,10 @@
       "candidate": "Culinary genius!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Culinary genius!' uses a laudatory-sounding noun phrase rather than the biting domestic insult implied by the source. While it can read as sarcastic, it shifts tone and risks losing the sharp, mocking household rebuke described in the analysis."
+          "justification": "The candidate 'Culinary genius!' turns the original biting, ironic insult into a (positively framed) compliment. The comic effect depends on using a neutral professional term as a sharp domestic reproach; replacing it with a laudatory phrase reverses that effect and fails to capture the intended tone."
         }
       ]
     },
@@ -127,14 +127,7 @@
         "language_specific": {}
       },
       "candidate": "Natürlich, Margarita Pavlovna.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the German word (as required) but adds the name 'Margarita Pavlovna.' That addition slightly alters the original's brisk comic tic by making the line more formal/explicit; it changes rhythm and the simple quirk emphasized in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -154,7 +147,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate rearranges and softens the imperative: 'Cut it out, for the hell of it. Without waiting for peritonitis.' This loses the brusque medical urgency and blunt surgical verdict of the original ('Cut it the hell out, don't wait for peritonitis!'), undermining the farcical contrast between emotional torment and a harsh medical command."
+          "justification": "The candidate splits and softens the imperative: 'Cut it out, for the hell of it. Without waiting for peritonitis.' The original is a brusque, medically absurd surgical order ('Cut it the hell out, don't wait for peritonitis!'); the candidate's phrasing weakens the abrupt, farcical surgical command and introduces a change in meaning ('for the hell of it' suggests caprice rather than urgent surgical decisiveness)."
         }
       ]
     },
@@ -173,10 +166,10 @@
       "candidate": "Khabotov, that’s petty!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "terminology",
           "span": "",
-          "justification": "The candidate misspells the character's name ('Khabotov' instead of 'Khobotov'), which is an accuracy error affecting character identification. The rest of the line is fine, but a wrong proper name is a significant error for subtitles."
+          "justification": "The candidate 'Khabotov, that’s petty!' uses a nonstandard transliteration ('Khabotov' vs. the expected 'Khobotov'). The rest of the line preserves register and function, but the name spelling is inconsistent and may distract."
         }
       ]
     },
@@ -195,10 +188,10 @@
       "candidate": "He's my cross!\nAnd it's for me to bear it.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'He's my cross! And it's for me to bear it.' splits and slightly alters the idiom, making the phrasing more literal and a bit awkward. The analysis warns against splitting the fixed idiom; this weakens the manipulative rhetorical flourish without fully losing the meaning."
+          "justification": "The candidate 'He's my cross! And it's for me to bear it.' misconstrues the idiom and emphasis. The original expresses manipulative self-sacrifice with the idiom 'a cross to bear' (personal burden). Rendering it as 'He's my cross' literalizes and shifts the grammatical focus onto a person-as-object, and the clumsy second clause weakens the fixed English idiom and the manipulative tone warned against in the analysis."
         }
       ]
     },
@@ -220,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' which the analysis explicitly cautions against as an overly literal rendering of 'угловатая.' This choice sounds awkward and less idiomatic in English, diminishing the playful, self-mocking characterisation."
+          "justification": "The candidate uses 'angular' for 'угловатая,' which the analysis explicitly flagged as problematic (too literal). While the line still conveys awkwardness and contradiction, 'angular' reads as an awkward literalism in English and reduces the idiomatic, coquettish self-deprecation of the original."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 4,
+      "minor": 3
     },
-    "total_points": 20,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 1.8181818181818181,
-    "major_equiv_per_unit": 0.36363636363636365,
-    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

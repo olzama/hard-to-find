@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't bring\nin a Baba Yaga from outside.\nWe'll cultivate one in our own team!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The added exclamation mark in 'We'll cultivate one in our own team!' introduces an enthusiastic tone the source lacks. The source line is dry and managerial, so the closing punctuation pushes it toward exuberance and slightly weakens the flat, bureaucratic seriousness the analysis calls for."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -53,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "very briefly, forty minutes\nor so—I don't think we need more",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'very briefly' is a more emphatic intensifier than the diminutive 'коротенько'. The faux-modest, patronizing 'just a little short talk' sense that the analysis identifies as necessary for the 'forty minutes' punchline is only partly conveyed. The ordering (briefness claim before duration) is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -95,7 +81,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's stretched, broken vocalisation ('Лю-ди! А… ау-у!', with the hesitation and wavering call) is replaced by a clean 'People! Hello? Hello!' with no hesitation or stretch. The sense of a formal opening dissolving into unstable sound is only weakly conveyed, which reduces the physical comedy the analysis emphasises."
+          "justification": "\"Hello? Hello!\" is a clear, conventional call. It loses the faltering, stretched vocal shape the analysis describes (\"Peo-ple! Ah… hellooo!\"), so the sense of a formal opening dissolving into slurred sound is weakened."
         }
       ]
     },
@@ -122,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key comic element, the mangled idiom 'вооружённым глазом' (a corruption of 'невооружённым глазом', 'with the naked eye'), is omitted. 'And look through it' is a plain rendering that drops the mock-scientific deformed expression entirely, contrary to the analysis, which says the malformed idiom must be preserved. The joke of a familiar expression being wrongly upgraded into pseudo-scientific language is lost."
+          "justification": "The candidate drops the mangled idiom entirely. The source's «вооружённым глазом» (a corrupted «невооружённым глазом», 'with the naked eye') is the core comic device, and 'look through it' removes the eye-idiom distortion the analysis says must be preserved. The line becomes plain, and the joke does not survive."
         }
       ]
     },
@@ -149,7 +135,13 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'our eyes can see two stars, three stars...' is slightly unidiomatic compared with 'as we can already see', and 'already' is dropped. The dash-merged 'Four stars—and five stars is best' also weakens the trivial, rhythmic counting buildup before the sudden turn to cognac, which the analysis identifies as the source of the humour."
+          "justification": "'Four stars—and five stars is best' breaks the trivial counting rhythm. The 'four' is merged into the punchline, which blurs the flat build-up of two, three, four before the sudden click to five."
+        },
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Nothing signals the cognac association. 'Five stars' reads as a generic rating, so the sudden shift into a different semantic world is weaker. The analysis flags that this cultural link may need a translator's note, and the candidate provides none."
         }
       ]
     },
@@ -171,7 +163,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Science hasn't found out yet' is plainer than the source's colloquial 'не в курсе дела' (not up to speed / not in the loop). The personified, casual register mismatch that the analysis identifies as the main comic effect is partly flattened. The factual content and the 'is unknown to science' sentence are preserved, so the loss is limited."
+          "justification": "'Science hasn't found out yet' is less colloquial than the source's flat, out-of-the-loop phrasing («Наука ещё пока не в курсе дела»). The analysis's 'science not yet briefed' effect is only partly preserved, so the register mismatch is softened."
         }
       ]
     }
@@ -179,13 +171,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 10,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

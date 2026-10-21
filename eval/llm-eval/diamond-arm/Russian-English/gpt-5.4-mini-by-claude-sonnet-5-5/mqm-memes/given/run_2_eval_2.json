@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Guys,\nI should have been in his place.\nGet drunk enough, and you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The period after 'I should have been in his place' flattens the heroic declaration. The reference's exclamation mark keeps Gorbunkov's melodramatic spy-thriller tone, which is what the policeman's deadpan reply deflates."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -73,7 +66,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Леди' is rendered as 'You see', so the first term of the multilingual list of ladies is lost. This weakens the mashup of international forms of address, and 'You see' adds a filler that is not in the source."
+          "justification": "The opening address \"Lady\" is replaced by an added \"You see\", which weakens the string of international forms of address (lady, signora, frau, miss) that makes up Gena's mashup of Western worldliness."
         }
       ]
     },
@@ -140,7 +133,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "'even teetotalers drink / and convalescers' splits the paired terms across a line break and tacks the second on afterwards. The balanced, proverbial rhythm of 'trezvenniki/yazvenniki' is lost, which the notes ask to avoid."
+          "justification": "\"even teetotalers drink / and convalescers\" splits the parallel pair, and the dangling \"drink and convalescers\" reads awkwardly. The balanced, proverbial rhythm of trezvenniki/yazvenniki is lost, and no creative solution replaces it."
         }
       ]
     },
@@ -207,7 +200,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The elongated, melodic 'Семё-он' is rendered as a flat 'Semyon Semyonovich...'. The drawn-out sigh of weary disappointment is lost, though the ellipsis conveys some of the mood."
+          "justification": "The elongated, melodic \"Semyo-o-on\" is flattened to a plain \"Semyon Semyonovich...\", so the gentle facepalm-like sigh of weary patience is largely lost."
         }
       ]
     },
@@ -289,7 +282,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "'I'm not to blame!' is standard and neutral. The analysis says the comedy depends on the uneducated slip 'не виноватая' and her fall back into a provincial register. Nothing in the candidate, such as 'Twasn't my fault', reproduces that."
+          "justification": "\"I'm not to blame!\" is standard, neutral English. It loses the uneducated, provincial slip (\"vinovataya\") that exposes the seductress's facade, which the reference conveys with \"Twasn't my fault\"."
         }
       ]
     },
@@ -341,7 +334,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds 'Well, if you're ever in Kolyma - you are most welcome!', which is not in the source. It repeats the line and tacks on an invitation. The source has only the sincere offer, and this addition pads the exchange."
+          "justification": "The candidate repeats the invitation and adds \"you are most welcome!\", which is not in the source. The repeated line is awkward and slightly muddies the guest's offer and Gena's reflexive refusal."
         }
       ]
     },
@@ -363,7 +356,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The affected, hyper-refined pronunciation ('вѫнну', 'кофэ') is the comic marker of Gena's aristocratic pretension. The candidate renders it in plain standard English ('coffee', 'take a bath') with no equivalent such as 'coff-ey', so that character voice is lost."
+          "justification": "The affected pronunciation of \"coffee\" (\"kofe\"), the main marker of Gena's pretentious sophistication in the analysis, is not rendered. The plain \"coffee\" and \"I can't\" also flatten his aristocratic, mannered register."
         }
       ]
     },
@@ -385,7 +378,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Нет? Будем искать' becomes 'No, yes... we'll keep looking', which is confusing and does not match the source. The question 'No?' is mistranslated, though the stalling intent still comes through."
+          "justification": "\"No, yes... we'll keep looking\" introduces a confusing \"yes\" that does not correspond to the source \"Нет? Будем искать…\". It blurs the polite stalling tactic."
         }
       ]
     },
@@ -408,13 +401,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 5
     },
-    "total_points": 16,
+    "total_points": 15,
     "meaning_units": 23,
-    "penalty_per_unit": 0.6956521739130435,
-    "major_equiv_per_unit": 0.1391304347826087,
-    "interpretation": "0.70 MQM penalty points per meaning unit (≈ 0.14 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6521739130434783,
+    "major_equiv_per_unit": 0.13043478260869565,
+    "interpretation": "0.65 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.4-mini"

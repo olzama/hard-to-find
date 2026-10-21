@@ -48,10 +48,10 @@
       "candidate": "He gives a nice little talk—\nforty minutes or so. No longer\nthan that, I think.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts the speaker into third person (‘He gives a nice little talk’) instead of retaining the original first-person/self-directed tone. That change weakens Ogurtsov’s self-satisfied managerial voice and the faux-modest setup (‘коротенько’) that makes the following ‘forty minutes’ into the comic reversal."
+          "justification": "The candidate shifts the line from first-person direct speech to a third-person description (“He gives a nice little talk…”). That change of voice removes Ogurtsov’s self-satisfied, managerial delivery—which is central to the joke—and makes the line a narrator’s remark rather than the speaker’s faux-modest proclamation. This significantly alters the character and comic effect described in the analysis."
         }
       ]
     },
@@ -73,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The reply ‘He's been well and truly ready for ages!’ tends to read as emphatic, cheerful readiness rather than preserving the Russian double entendre where ‘готов’ can imply both ‘ready’ and ‘smashed/drunk.’ The candidate keeps literal readiness but weakens the alcoholic subtext that underpins the joke."
+          "justification": "The candidate preserves the surface meaning but weakens the crucial double reading (ready vs. drunk). Phrases like “well and truly ready for ages” push the interpretation toward straightforward preparedness rather than retaining the sly ambiguity that allows listeners to hear the lecturer as already drunk."
         }
       ]
     },
@@ -90,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "- Peo-ple!... Ah... yoo-hoo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate’s ‘yoo-hoo’ renders the faltering address as a jaunty call rather than the pitiful, wavering vocal collapse of a drunken man attempting a formal opening. The broken, unstable vocalization from the original is softened into a playful interjection, reducing the comic effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -120,9 +113,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The literal calque ‘armed eye’ reproduces the Russian wording but produces an oddly surreal phrase in English that misses the intended mock‑scientific, slightly off-kilter echo of the idiom (the recommended solution was an idiomatic approximation such as ‘aided eye’). This rendering risks making the line baffling rather than humorously pseudo‑scientific."
+          "justification": "The candidate uses the calque “armed eye,” which the analysis explicitly warns against: in English it reads oddly and more surreal than the intended mildly mock-scientific deformation. The result loses the subtly comic effect of a familiar idiom being slightly mangled into plausible-sounding pseudo-science; instead it becomes a jarring literalism that misfires stylistically."
         }
       ]
     },
@@ -164,14 +157,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 3
+      "major": 2,
+      "minor": 1
     },
-    "total_points": 8,
+    "total_points": 11,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.375,
+    "major_equiv_per_unit": 0.275,
+    "interpretation": "1.38 MQM penalty points per meaning unit (≈ 0.28 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies possession. The analysis explicitly warns these clauses indicate the items are missing/not in their possession (they were lost/stolen). The candidate therefore reverses the intended meaning."
+          "justification": "The candidate translates 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as possession. The analysis explicitly warns this phrasing is wrong: the original means these items were lost (they no longer have them). Rendering them as current possession reverses the meaning and undermines the joke about who lost what."
         }
       ]
     },
@@ -40,10 +40,10 @@
       "candidate": "Very nice, hello, Tsar!\nTsar, very nice!\nHello, Tsar! Very nice!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The original line is Bunsha introducing himself as the Tsar (a comedic self-introduction). The candidate's lines ('Very nice, hello, Tsar!') read as addressing a Tsar rather than introducing himself as the Tsar, which contradicts the analysis note and undermines the joke about him pretending to be the ruler."
+          "justification": "The candidate reads as addressing the Tsar ('Hello, Tsar!') rather than absurdly introducing himself as 'the Tsar' in repetitive, self-introducing Soviet-formal clichés. This loses some of the impersonation/self-introduction gag and the mock-ceremonial register described in the analysis, though it retains repetition and politeness."
         }
       ]
     },
@@ -65,7 +65,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate 'I demand the banquet continue!' is grammatical but slightly stilted compared with the reference's more natural 'I demand that the banquet continue!' The royal, commanding tone is preserved, so the problem is a small fluency blemish rather than a substantive error."
+          "justification": "‘I demand the banquet continue!’ is understandable and preserves the meaning and tone, but the phrasing is slightly terse/awkward in English compared with the idiomatic 'I demand that the banquet continue!'—a small fluency/style weakness rather than a loss of effect."
         }
       ]
     },
@@ -82,14 +82,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m in sorrow.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves meaning but uses the contraction 'I’m,' which reduces the archaic, high-register tone ('I am in sorrow') that contributes to the humor of a regal, old-fashioned voice. This weakens the intended archaic register slightly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -109,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis stresses that 'demons' are the subject (i.e., 'They've walled me in, the demons') rather than being addressed. The candidate 'Walled up, demons!' reads as a vocative address to demons, changing the syntax and the intended meaning (from accusing demons of sealing him in to shouting at them). This reverses the original rhetorical structure and the joke's implication."
+          "justification": "The candidate 'Walled up, demons!' reads as if the Tsar is addressing/deliberately calling out demons. The analysis/NB specifies that 'demons' must be the subject (they walled him in), not the addressee. This shifts the sentence from an anguished statement about being trapped to an invocation or address, changing the meaning."
         }
       ]
     },
@@ -131,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate keeps the meaning but modernizes the phrasing ('That’s what the life-giving cross can do!') and loses some of the elevated, declarative tone of 'Behold the power of the life-giving cross!' This slightly reduces the archaic, solemn register that fuels the joke."
+          "justification": "‘That’s what the life-giving cross can do!’ retains the basic idea but uses a more colloquial/modal phrasing ('can do') that slightly weakens the formal, archaic register and the solemn conviction of the original line."
         }
       ]
     },
@@ -183,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis explicitly warns not to render the cheap eggplant spread as 'caviar.' The candidate groups 'Overseas caviar... Eggplant!' which creates the misleading impression that the eggplant spread is being presented as caviar, losing the satirical inversion between luxury caviar and common 'eggplant caviar.' This undermines the central joke."
+          "justification": "The candidate renders 'баклажанная' as 'Overseas caviar... Eggplant!' which presents 'eggplant' as 'caviar' (overseas caviar... eggplant). The analysis warns strongly against calling eggplant spread 'caviar'—that inversion is the joke, but translating it as literal 'caviar' will confuse viewers and misrepresents the satirical contrast between luxury caviars and the humble eggplant spread."
         }
       ]
     },
@@ -202,10 +195,10 @@
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nthree suede jackets.",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "accuracy",
           "span": "",
-          "justification": "The humor in the original comes from Shpak's incremental counting and self-contradiction (the hesitation and correction around the suede jacket). The candidate flattens this into a simple list ending with 'three suede jackets,' removing the comic reveal/hesitation and thereby significantly weakening the intended joke and character effect."
+          "justification": "The candidate lists 'three suede jackets' outright, losing the comic detail in the source where the speaker hesitates/forgets the jacket count and then the repeated 'Three' is part of the joke. Turning it into a straightforward plural reduces the gag's incremental counting effect."
         }
       ]
     },
@@ -227,14 +220,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 3
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 28,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 2.5454545454545454,
-    "major_equiv_per_unit": 0.509090909090909,
-    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

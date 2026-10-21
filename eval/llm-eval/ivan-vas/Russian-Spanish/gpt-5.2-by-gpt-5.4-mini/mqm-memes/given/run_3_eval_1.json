@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Buenas noches, soy el zar, encantado. Soy el zar, encantado, el zar. Encantado, buenas noches, soy el zar.\nBuenas noches, soy el zar, encantado. Soy el zar, encantado, el zar. Encantado, buenas noches, soy el zar.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is duplicated in the candidate, which is unnecessary here and makes the subtitle bulky. The meaning and comic effect remain intact, so this is only a minor fluency issue."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -148,7 +141,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The second line repeats only the final fragment \"¡De berenjena!\", which is redundant and slightly clumsy as a subtitle, though the joke itself is preserved."
+          "justification": "The duplicated final line makes the subtitle awkward and slightly clumsy in Spanish, even though the core joke about the ‘eggplant caviar’ is preserved."
         }
       ]
     },
@@ -170,7 +163,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The entire subtitle is duplicated verbatim, which is not needed and may distract slightly, although the content and comic buildup are unchanged."
+          "justification": "The line is duplicated unnecessarily, which is redundant and slightly disrupts subtitle economy, though the meaning and comic effect remain intact."
         }
       ]
     },
@@ -193,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

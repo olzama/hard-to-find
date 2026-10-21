@@ -19,9 +19,15 @@
       "issues": [
         {
           "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate contains the reference line, but then adds a second line that repeats it with the stray, untranslated Russian preposition 'U' ('U Shpak desapareceulle...'). This is an untranslated artifact and an unneeded duplicate, so it clutters the subtitle. The first line keeps the mock-heroic register and correctly conveys that the items are lost."
+        },
+        {
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a second line, 'U Shpak desapareceulle o magnetófono...', which repeats the reference sentence and carries an untranslated Russian 'U' ('У'). It is not a consecutive-segment repetition, so it is a spurious addition. The meaning (each lost an item) and the mock-heroic register of the first line are preserved."
+          "justification": "The second line is a repetition that is not in a consecutive segment. It is within the same item, so it adds redundant text not present in the source."
         }
       ]
     },
@@ -38,7 +44,14 @@
         "language_specific": {}
       },
       "candidate": "Boas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.\nBoas noites, son o tsar, encantado. O tsar, encantado, o tsar. Encantado, boas noites, son o tsar.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The whole greeting is repeated twice within the item. The source has it only once, so the addition is redundant and makes the subtitle needlessly long. The first line itself is identical to the reference and preserves the self-introduction as the Tsar and the clichéd politeness."
+        }
+      ]
     },
     {
       "id": 3,
@@ -148,7 +161,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds a redundant extra line, 'De berenxena!', after the reference text. It is not a consecutive-segment repetition. It does not harm the meaning, and the eggplant item is correctly not called caviar."
+          "justification": "The candidate adds a redundant extra line 'De berenxena!' that is not in the source. The core translation matches the reference, with 'manxar de ultramar… de berenxena' avoiding calling the eggplant spread caviar, so the extra repetition is only a minor flaw."
         }
       ]
     },
@@ -170,7 +183,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses numerals ('3') for the first three items and then the word 'tres' at the end. This is inconsistent and weakens the rhythm of the escalating count, which is the joke. The forgotten increment on the jacket ('unha chaqueta') is preserved, so the joke still works."
+          "justification": "The candidate writes the first two counts as digits '3' while the last is spelled out as 'tres'. This inconsistency weakens the punchline, where the forgotten increment on the jacket should stand out. The line breaks also fragment the spoken list. The items and the joke structure are otherwise preserved."
         }
       ]
     },
@@ -193,13 +206,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 5
     },
-    "total_points": 3,
+    "total_points": 5,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.45454545454545453,
+    "major_equiv_per_unit": 0.09090909090909091,
+    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -44,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Raise one\" is more fairy-tale/parental than the workplace training logic of \"train one in-house\"; \"within our own collective\" keeps the Soviet flavor but the staffing/educational register is slightly weakened."
+          "justification": "\"Raise one\" keeps the workplace logic and the 'collective' wording, but 'raise' leans slightly toward upbringing, and 'collective' is a Sovietism that is less natural than 'in-house'. The joke still works."
         }
       ]
     },
@@ -67,10 +67,10 @@
       "candidate": "And briefly—about forty minutes,\nno more, I think,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest, self-satisfied tone is preserved, and briefness precedes duration. However, the line ends on a trailing comma and \"no more, I think\" is slightly flatter than the reference's \"I don't think we need any more than that\"."
+          "justification": "The line is cut off at 'I think,' and trails off with a comma, so the sentence is left incomplete. The faux-modest 'briefly' is kept before 'forty minutes', but there is no diminutive or patronizing tone, and 'no more' flattens the self-satisfied understatement. The punchline is weakened."
         }
       ]
     },
@@ -96,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of \"готов\" (ready / drunk) is not recreated. \"Ready\" is rendered flatly with no hint of intoxication, so the central joke is lost; the reference's \"Oh, he's ready\" at least adds a knowing tone."
+          "justification": "The candidate translates 'ready' literally and nothing in the wording signals the 'drunk' subtext of «готов». The double reading (official readiness on the surface, intoxication underneath) is lost, and 'been ready a long time' is only mildly suggestive. The core joke is mostly gone."
         }
       ]
     },
@@ -144,13 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis says to avoid; it sounds surreal and does not echo the English \"unaided eye\", so the mock-scientific deformation of a familiar idiom is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The ending on a comma and the omission of the emphatic \"all we have to do\" weakens the pompous rhetorical build-up."
+          "justification": "'Armed eye' is the literal calque the analysis warns against. In English it does not evoke a recognizable idiom like 'unaided eye', so the mock-scientific malformed phrase reads as surreal rather than as a damaged familiar expression. The line also ends on a comma instead of the exclamation or ellipsis, losing some of the pomp."
         }
       ]
     },
@@ -179,13 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The progression is garbled: \"Four little stars—best of all, of course, five little stars\" makes four stars part of the claim of being best, blurring the build-up and the sudden click to five stars (cognac). The punchline is weakened."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The \"little stars\" repeated diminutive adds to the silly counting, but \"five little stars\" sounds childish rather than evoking cognac, and no cue to the cognac association is given."
+          "justification": "The progression is garbled: 'Four little stars—best of all, of course, five little stars!' makes four stars part of the punchline, which destroys the build-up from two, three, four to the sudden payoff of 'five'. The cognac association is not recreated, and 'little stars' makes the sequence sound childish without the click into another domain. The ellipsis after four, which sets up the derailment, is missing."
         }
       ]
     },
@@ -211,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Is there no life on Mars\" is an awkward literal rendering of the colloquial \"нет ли\". \"Science is not yet in the know\" captures the casual register well, but the opening is stiffer than the reference's natural \"Whether there is life on Mars or not\"."
+          "justification": "The content and casual register are preserved, and 'in the know' is colloquial. However, 'Is there life on Mars, is there no life on Mars' is a stiff calque of the Russian, and 'science does not know' is slightly more formal than the casual phrasing. The comic effect is only a little weaker."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 20,
+    "total_points": 22,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.75,
+    "major_equiv_per_unit": 0.55,
+    "interpretation": "2.75 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

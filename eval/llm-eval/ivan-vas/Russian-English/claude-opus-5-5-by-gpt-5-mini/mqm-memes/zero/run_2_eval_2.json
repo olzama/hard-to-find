@@ -38,10 +38,10 @@
       "candidate": "Very pleased, tsar!\nVery pleased, hello, tsar!\nTsar, very pleased!\nHello, tsar! Very pleased!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing a tsar ('Very pleased, tsar!') rather than introducing himself as the Tsar. The analysis requires making clear he is impersonating/introducing himself as the Tsar, so this shifts the intended meaning and the gag's absurdity."
+          "justification": "The candidate reads as if Bunsha is addressing a tsar (vocative) rather than introducing himself as the Tsar ('I am the Tsar'), which contradicts the analysis point that he is impersonating/announcing himself. This changes the comic premise (the absurd self-introduction)."
         }
       ]
     },
@@ -98,7 +98,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian indicates demons are the agents who have walled him in (subject), and the line refers to being walled in personally. The candidate changes person ('us' instead of 'me') and punctuates in a way that reads as addressing the demons vocatively ('..., the demons!'), thus reversing the grammatical relation and harming the original comedic misunderstanding."
+          "justification": "The original has the demons as the implied subject who walled him in ('They walled me in, the demons'), not as people being addressed. The candidate changes number ('us' vs 'me') and makes 'demons' vocative ('...the demons!'), reversing the intended grammatical role and altering the meaning and tone of the line."
         }
       ]
     },
@@ -120,14 +120,7 @@
         }
       },
       "candidate": "That's the power of the life-giving cross!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's 'That's the power of the life-giving cross!' flattens the archaic, elevated register ('Behold...') a bit. Meaning is preserved but the mock-archaic, grand tone is slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -192,7 +185,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the cheap eggplant spread as 'overseas caviar... Eggplant!', effectively calling the eggplant spread 'caviar.' The analysis explicitly warns against labeling eggplant spread as 'caviar' because that will confuse the viewer and undermine the satirical inversion; this translation therefore misleads the gag."
+          "justification": "The candidate calls the cheap eggplant spread 'overseas caviar', which risks misleading viewers into thinking the eggplant product is actually caviar. The analysis specifically warns against translating 'баклажанная' in a way that presents eggplant spread as caviar; doing so undermines the satirical inversion between luxury caviar and common eggplant spread."
         }
       ]
     },
@@ -214,7 +207,14 @@
         }
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\nsuede jackets, three.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate renders the suede jacket line as 'suede jackets, three,' which flattens the original comic timing/gag where the speaker forgets to increment the count and then belatedly says 'Three.' The joke's humorous reveal is weakened, though the literal items are correct."
+        }
+      ]
     },
     {
       "id": 11,
@@ -232,23 +232,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The original distinguishes two different addressees ('And they'll cure you… and they'll cure you too…') which creates a list-like, resigned rhythm. The candidate repeats 'They'll cure you too!' twice, losing that subtle distinction between the first and second addressed persons and slightly blunting the line's rhythm and meaning."
+          "justification": "The candidate repeats 'They'll cure you too!' twice in succession, which makes the progression/rhythm of the original melodic resignation less natural. The original has a subtle variation ('And they’ll cure you… and they’ll cure you too…') that the candidate does not preserve."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 3
+      "major": 3,
+      "minor": 2
     },
-    "total_points": 13,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.1818181818181819,
-    "major_equiv_per_unit": 0.2363636363636364,
-    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

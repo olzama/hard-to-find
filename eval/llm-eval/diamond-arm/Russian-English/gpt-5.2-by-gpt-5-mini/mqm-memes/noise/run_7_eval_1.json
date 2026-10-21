@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is a literal, neutral rendering that preserves meaning but loses the playful, bouncing rhythm (Trus/Boyus) the analysis highlights. That rhythmic lightness is part of the comic, endearing effect."
+        }
+      ]
     },
     {
       "id": 3,
@@ -66,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Candidate adds 'You know,' which mildly weakens Gena's performative, faux-sophisticated parade of internationalisms. Also renders 'Obliko morale' as 'Moral character,' which is acceptable but slightly flattens the original pseudo-French/Italian theatricality."
+          "justification": "The candidate captures the multilingual gag but its phrasing ('You know,' and 'Moral character') is a bit stilted and weakens the faux-sophisticated, jumbled international patter that creates the humor."
         }
       ]
     },
@@ -113,14 +120,7 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kids,\nflowers for his woman.\nDon’t mix it up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Candidate uses the milder 'his woman' instead of the rougher 'broad/chez' register implied in the reference. This softens Lyolik’s coarse, uneducated voice slightly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -140,7 +140,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original relies on a rhythmic pairing (trezvenniki/yazvenniki). 'Teetotalers' / 'ulcer patients' preserves meaning but loses the balanced rhythm and punchy rhyme that give the line its proverbial feel."
+          "justification": "Meaning preserved, but the candidate loses the succinct rhythmic pairing (trezvenniki/yazvenniki) that gives the original its proverbial cadence; the punchline feels slightly less balanced."
         }
       ]
     },
@@ -177,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis highlights Lyolik's comic mispronunciation of 'tablet' as an important character tic. The candidate's neutral 'One tablet is enough...' loses that humorous mispronunciation and the line's distinctiveness."
+          "justification": "The line keeps the meaning but drops the comic effect of Lyolik's characteristic mispronunciation of 'tablet,' which the analysis treats as a memorable stylistic marker."
         }
       ]
     },
@@ -214,7 +214,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The Russian original's elongated, melodic sigh is an important rhythmic, exasperated effect. The candidate 'Semyon Semyonovich...' is correct but reduced in length and musicality, slightly weakening the intended weary tone."
+          "justification": "The candidate conveys the address but loses the elongated, melodic sigh implied by the original phrasing; the weary, musical quality is diminished."
         }
       ]
     },
@@ -236,7 +236,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's dramatic ellipses create a theatrical curse. The candidate conveys the meaning but compresses the delivery, losing some of the staged, drawn-out comic menace."
+          "justification": "Meaning is preserved but the theatrical pauses/ellipses that add weight to the curse are reduced, making the delivery less dramatic than the original intent."
         }
       ]
     },
@@ -268,14 +268,7 @@
         "language_specific": {}
       },
       "candidate": "slipped, fell...\na closed fracture...\nLost consciousness, came to—\na cast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate preserves the telegraphic list but the final line 'a cast!' is abrupt and slightly awkward in English rhythm compared with the staccato list in the reference; a minor fluency issue only."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -370,7 +363,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "Candidate introduces a misspelling/elongation 'baath' and uses an ordinary 'coffee' rather than the affected 'coff-ey' pronunciation emphasized in the analysis. This loses a marked comic pronunciation tic and contains a small typographic error."
+          "justification": "The candidate conveys the requests but includes an odd spelling ('baath') and fails to reproduce Gena's affected pronunciation of 'coffee' ('kof-e'), which is an important character marker in the analysis."
         }
       ]
     },
@@ -407,7 +400,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's folksy, ungrammatical refusal ('На это я пойтить не могу!') carries rural stubbornness and comic mis-grammar. The candidate's neutral 'No, I can’t do that!' loses that rustic, emphatic flavor."
+          "justification": "The candidate communicates the refusal but loses the folksy, grammatically marked form that adds comic character to the original line; the rustic stubbornness is weakened."
         }
       ]
     }
@@ -415,13 +408,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 9
+      "minor": 8
     },
-    "total_points": 9,
+    "total_points": 8,
     "meaning_units": 23,
-    "penalty_per_unit": 0.391304347826087,
-    "major_equiv_per_unit": 0.0782608695652174,
-    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.34782608695652173,
+    "major_equiv_per_unit": 0.06956521739130435,
+    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

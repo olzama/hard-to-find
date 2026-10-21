@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts the target from second person to third person by using ‘his’ (\"I'll knock his block off...\") instead of addressing the threatened person directly as in the reference and source. This changes the immediacy and performative threat of the original and contradicts the analysis guidance to keep an idiomatic, direct threat formula."
+          "justification": "The candidate switches the direct threat from second person to a third-person target with “his” in the first two clauses, altering who is being threatened. The original addresses the listener with compact, verdict-like phrasing; changing the target breaks the immediacy and intent of the threat."
         }
       ]
     },
@@ -133,7 +133,14 @@
         }
       },
       "candidate": "Move the horse, I’ll never see the outside if I’m wrong!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the nontechnical ‘horse’ for the chess piece, but renders the prison oath as “I’ll never see the outside,” which is slightly milder and less idiomatically prison-coded than the original’s blunt «век воли не видать». This reduces some of the prisoner-oath force."
+        }
+      ]
     },
     {
       "id": 8,
@@ -328,7 +335,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders «параша» as ‘punks,’ which neutralizes the original’s prison-argot function that assigns the addressee to the most degraded place in the inmate hierarchy. This softens the contempt and loses the strong institutional/toilet-status connotation the analysis says should be preserved or adapted into equivalent prison-status slang."
+          "justification": "The candidate’s “punks” reduces the impact of «параша», which in context assigns the addressee to the very bottom of the prison social hierarchy. Using a milder, more generic term weakens the brutal, contemptuous prison-register insult described in the analysis."
         }
       ]
     },
@@ -356,13 +363,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 1
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 18,
-    "penalty_per_unit": 0.3333333333333333,
-    "major_equiv_per_unit": 0.06666666666666667,
-    "interpretation": "0.33 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.3888888888888889,
+    "major_equiv_per_unit": 0.07777777777777778,
+    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

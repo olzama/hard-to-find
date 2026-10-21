@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vagas dudas' preserves the meaning, but it weakens the mock-heroic, literary tone of 'смутные сомнения' that the analysis highlights."
+          "justification": "“Me asaltan vagas dudas” preserves the sense, but it softens the mock-heroic, elevated flavor of the original phrase, which is important to the joke."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The repeated self-introduction works, but the candidate softens the awkward, overly polite Soviet-style greeting slightly more than the reference, so the comic stiffness is a bit reduced."
+          "justification": "The greeting is understandable and keeps the self-introduction, but it loses some of the awkward repetitive formal-cliché feel of the original, making the comic rhythm slightly less distinctive."
         }
       ]
     },
@@ -60,7 +60,14 @@
         "language_specific": {}
       },
       "candidate": "¡Exijo que continúe el banquete!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The meaning is preserved, but “que continúe el banquete” is a bit less forceful and less idiomatic than a direct demand for the banquet’s continuation, weakening the punch slightly."
+        }
+      ]
     },
     {
       "id": 4,
@@ -80,7 +87,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Apenado' is understandable, but it is less elevated and less specifically melancholy than the reference's 'afligido', which better fits the Tsar's regal, archaic tone."
+          "justification": "“Apenado” is clear, but it is a slightly flatter, more modern-sounding choice than the more elevated melancholy of the source, which matters for Ivan’s regal register."
         }
       ]
     },
@@ -97,7 +104,14 @@
         "language_specific": {}
       },
       "candidate": "¡Me han emparedado...\nme han emparedado los demonios!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The line is accurate, but the line break splits the repeated exclamation in a way that makes the subtitle a little less smooth and less punchy than the reference."
+        }
+      ]
     },
     {
       "id": 6,
@@ -115,9 +129,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Mira lo que hace' shifts the meaning toward an imperative/exclamation about what the cross does, rather than the more direct demonstrative sense of 'Esto es lo que obra la cruz vivificante'."
+          "justification": "“Mira lo que hace” conveys the idea, but it sounds more colloquial and less exclamatory than the source’s triumphant, miracle-like declaration."
         }
       ]
     },
@@ -154,7 +168,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Qué bien he entrado' changes the joke and can sound like he is speaking about having come in successfully, but it misses the specific casual boast of having picked the right place and weakens the anti-hero reaction described in the analysis."
+          "justification": "“¡Qué bien he entrado!” reverses the point of the joke: the source celebrates unexpectedly arriving at a lucky place, not merely the act of entering, and it sounds like a neutral comment rather than a delighted realization."
         }
       ]
     },
@@ -176,7 +190,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Crema de berenjena' is misleading and breaks the joke: the analysis explicitly says the item should not be called caviar, and the candidate does not preserve the satirical contrast clearly."
+          "justification": "“Crema de berenjena” is not the same as the source’s eggplant caviar/spread joke and loses the absurdly mismatched ‘overseas delicacy’ idea. It also weakens the satirical contrast with the caviar items."
         }
       ]
     },
@@ -195,10 +209,10 @@
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres pitilleras nacionales,\nchaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The line is understandable, but the formatting and ellipsis placement make the count feel awkward; 'chaqueta de ante... tres' is less smooth than the reference and slightly weakens the comic buildup."
+          "justification": "The final phrase drops the repeated count structure that is essential to the joke; the source ends with a self-contradictory delayed count (“...chaqueta… zamшевая… Три”), while the candidate turns it into a simpler list item and loses the comic slip."
         }
       ]
     },
@@ -220,14 +234,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 3,
+      "minor": 6
     },
-    "total_points": 15,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

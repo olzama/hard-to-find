@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrase \"a little glass\" is slightly awkward and unidiomatic in this casual invitation; a more natural colloquial rendering would be \"a quick one\" or \"a little something to drink.\" The overall meaning and ironic deflation of the previous line are preserved, so the problem is stylistic rather than accuracy-critical."
+          "justification": "The phrasing \"a little glass\" is slightly awkward and non-idiomatic in colloquial English for proposing a drink; more natural alternatives (\"a quick one\", \"a shot\", \"a little one\") would better match the casual, teasing register described in the analysis."
         }
       ]
     },
@@ -75,16 +75,10 @@
       "candidate": "Folks don't live for joy, they live for conscience.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate replaces the idea of duty/obligation ('you live to do your duty') with 'conscience,' which shifts the sentiment from outward moral duty and fatalistic pragmatism to an inward moral sense. That alteration damages the soldierly, duty-focused tone central to the character in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The informal \"Folks\" weakens the blunt, earthy register expected of Savva Ignatyevich and makes the line sound less like a soldier's maxim."
+          "justification": "\"they live for conscience\" is an odd, somewhat literal phrasing in English and weakens the soldierly fatalism and blunt moral duty of the original. A more idiomatic rendering (e.g. \"you live to do your duty\") would better capture the character's pragmatic tone."
         }
       ]
     },
@@ -126,7 +120,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Master chef!\" uses a modern, somewhat admiring-sounding phrase that shifts the bite of the original sarcastic domestic condemnation. It works communicatively but softens the original imperious, dismissive insult."
+          "justification": "\"Master chef!\" reads more like a compliment or modern phrase and loses some of the biting, domestic-invective quality of the original short exclamation. The target-register insultalike exclamation (\"Some cook you are!\", \"What a cook!\" with sarcastic delivery) would preserve the comic sting better."
         }
       ]
     },
@@ -198,7 +192,14 @@
         }
       },
       "candidate": "This is my cross!\nAnd it's mine to bear!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "Splitting the idiom into \"This is my cross! / And it's mine to bear!\" slightly disrupts the fixed English idiom \"a cross to bear\" and reduces the punch of the manipulative self-sacrifice line; the meaning is present but the idiomatic force is weakened."
+        }
+      ]
     },
     {
       "id": 11,
@@ -223,21 +224,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate includes the literal \"angular,\" which the analysis flags as an overly literal and potentially confusing rendering of «угловатая». While the general self-deprecating, awkward tone is present, the specific lexical choice weakens naturalness and may mislead English listeners."
+          "justification": "The candidate's use of \"angular\" mirrors the literal Russian adjective and sounds awkward in English, as noted in the analysis. This literalness makes the self-mocking line less natural; a more idiomatic choice than \"angular\" would better convey the coquettish, ungainly self-characterization."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 4
+      "major": 0,
+      "minor": 5
     },
-    "total_points": 9,
+    "total_points": 5,
     "meaning_units": 11,
-    "penalty_per_unit": 0.8181818181818182,
-    "major_equiv_per_unit": 0.16363636363636364,
-    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.45454545454545453,
+    "major_equiv_per_unit": 0.09090909090909091,
+    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

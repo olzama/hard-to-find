@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'I'm tormented by vague doubts again' is a plain rephrasing; it loses the mock-heroic, theatrical ring of 'Vague doubts haunt me once again'. The 'missing' meaning for Shpak and the ambassador is correct, as the NB requires."
+          "justification": "'I'm tormented by vague doubts again' is acceptable and keeps the mock-heroic register, but it is slightly less archaic/theatrical than 'Vague doubts haunt me once again'. The 'missing' items correctly convey that the things were lost, so the NB is respected."
         }
       ]
     },
@@ -38,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "Very pleased, Tsar!\nVery pleased—hello, Tsar!\nTsar, very pleased!\nHello, Tsar—very pleased!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Very pleased, Tsar!' and 'Hello, Tsar' read as Bunsha addressing a Tsar, which the NB explicitly forbids. Nothing signals that he is introducing himself as the Tsar, so the joke of the impersonator greeting the guests as himself is lost."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -75,14 +68,7 @@
         "language_specific": {}
       },
       "candidate": "Leave me, old woman, I’m in mourning.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'I'm in mourning' mistranslates 'в печали' (in sorrow/sadness). Mourning implies a specific bereavement, which changes the meaning, and the Tsar's regal melancholy is narrowed."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -97,14 +83,7 @@
         "language_specific": {}
       },
       "candidate": "They’ve bricked me in!\nBricked me in, the demons!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Bricked me in' is colloquial and modern. It is less archaic than 'walled in', which weakens the Tsar's high register. Demons correctly remain the subject, and the meaning is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -119,14 +98,7 @@
         "language_specific": {}
       },
       "candidate": "See what the life-giving Cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'See what the life-giving Cross can do!' is acceptable and preserves the Tsar's conviction, but it is slightly flatter and less solemn than 'Behold the power of...'. The capitalised 'Cross' is fine."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -156,14 +128,7 @@
         "language_specific": {}
       },
       "candidate": "I picked a good time to drop by!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'I picked a good time to drop by' is acceptable in sense (he has just arrived), but it shifts the meaning to timing rather than a lucky choice of apartment. This loses the focus on discovering the valuables, which is the point of the line. It is not misleading about leaving, however."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -193,14 +158,7 @@
         "language_specific": {}
       },
       "candidate": "3 tape recorders,\n3 movie cameras,\n3 domestic cigarette cases,\na suede jacket—three.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate puts 'a suede jacket—three' with a dash, which works as the punchline. However, 'domestic' is moved before 'cigarette cases' as an adjective, which is acceptable. The numerals '3' are fine for subtitles. The key joke, that he forgets to increment the jacket count and then corrects himself, is preserved by 'a suede jacket—three', so this is not a real error."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -215,26 +173,19 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nAnd you’ll be cured too!\nAnd I’ll be cured too!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate changes the active 'they'll cure you / me' pattern to passive 'you'll be cured'. This weakens the repetitive, melodic, resigned rhythm, and the second and third lines lose the parallel structure of the original."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 4
+      "major": 0,
+      "minor": 1
     },
-    "total_points": 24,
+    "total_points": 1,
     "meaning_units": 11,
-    "penalty_per_unit": 2.1818181818181817,
-    "major_equiv_per_unit": 0.43636363636363634,
-    "interpretation": "2.18 MQM penalty points per meaning unit (≈ 0.44 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.09090909090909091,
+    "major_equiv_per_unit": 0.01818181818181818,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

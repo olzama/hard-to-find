@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line wrongly states that Shpak and the ambassador still have the items. The analysis notes the opposite sense: these objects are missing from them, which is essential to the joke."
+          "justification": "The candidate says Shpak and the ambassador still have the items ('ten un', 'un medallón'), but the line means the items have gone missing from them. This breaks the callback and the theft implication noted in the analysis."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate no longer clearly shows Bunsha introducing himself as the tsar; it reads like he is addressing someone else. This breaks the comic premise specified in the analysis."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The repeated, awkwardly rearranged greetings weaken the mundane, bureaucratic politeness of the original Soviet-style speech."
+          "justification": "The greeting no longer clearly works as Bunsha repeatedly introducing himself as the tsar. By using 'Ola, tsar!' the line can read as addressing the tsar rather than saying 'I am the tsar,' which the analysis says must be unambiguous."
         }
       ]
     },
@@ -84,9 +78,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "'Estou triste' is correct in meaning but drops the more elevated, archaic melancholy of 'estou aflixido', slightly weakening the regal tone."
+          "justification": "'Estou triste' conveys the basic meaning, but it is flatter and less archaic/melancholic than 'que estou aflixido,' slightly weakening the Tsar's elevated, regal tone."
         }
       ]
     },
@@ -103,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The second line sounds like he is addressing the demons ('demos') rather than stating that demons sealed him in. The meaning is still partly recoverable, but the subject-object relation is blurred."
+        }
+      ]
     },
     {
       "id": 6,
@@ -123,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Isto é o que fai' sounds less natural and less epigrammatic than a more formulaic exclamation, so the triumphant miracle-like punch is somewhat weaker."
+          "justification": "The line preserves the meaning, but 'Isto é o que fai' is less marked and less exclamatory than the more emphatic Biblical/folk-register feel of the reference, so the miracle joke lands slightly less forcefully."
         }
       ]
     },
@@ -157,10 +158,10 @@
       "candidate": "Que ben pasei por aquí!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "'Que ben pasei por aquí!' suggests a pleasant past experience rather than the immediate, triumphant realization that he has happened upon a lucrative target. It also risks sounding like he is leaving, contrary to the analysis."
+          "justification": "'Que ben pasei por aquí!' is understandable, but it is less idiomatic and less casually triumphant than the reference, so the burglar's cheerful opportunism is a bit weakened."
         }
       ]
     },
@@ -182,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate incorrectly repeats 'caviar' for the eggplant spread, which the analysis explicitly says should not happen because it confuses the joke."
+          "justification": "The candidate repeats 'caviar' for the eggplant item, directly contradicting the analysis note that it should not be called caviar. This removes the Soviet food-shortage joke and risks confusing viewers."
         }
       ]
     },
@@ -202,15 +203,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The first item's count is reduced to numerals and the list is compressed, which weakens the cumulative comic exaggeration, though the main meaning remains clear."
-        },
-        {
-          "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The abrupt line breaks and bare enumeration make the sentence feel slightly less natural and less rhythmically funny than the reference."
+          "justification": "The list is compressed and the punctuation is awkward, which slightly weakens the comic rhythm of the escalating inventory. The meaning is preserved, but the delivery is less polished."
         }
       ]
     },
@@ -229,24 +224,24 @@
       "candidate": "E a ti tamén te curarán!\nE a min curaranme!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first and third clauses ('and you will be cured... and I will be cured'), losing the shared-resignation joke and the complete rhythmic buildup."
+          "justification": "The candidate omits the first clause about the first person being cured ('e a ti vante curar'), so the rhythmic three-part resignation is reduced. The shared, cumulative joke still survives, but the full pattern is lost."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 5
+      "major": 3,
+      "minor": 6
     },
-    "total_points": 30,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 2.727272727272727,
-    "major_equiv_per_unit": 0.5454545454545454,
-    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

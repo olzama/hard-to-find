@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The phrasing 'it should be me in his place.' is flat and lacks the emphatic, sacrificial declarative force of the original heroic exclamation; punctuation/capitalization choices also reduce impact. The policeman's line 'Get drunk and it will be!' is slightly awkward and loses the wry inevitability of 'Get drunk enough, and you will be!'"
+          "justification": "The policeman's line 'Get drunk and it will be!' is grammatically awkward and stilted in English. The intended dry, joking retort is present but the phrasing reads unnatural and weakens the comic deadpan."
         }
       ]
     },
@@ -48,7 +48,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the basic meaning but loses the light, bouncing comic rhythm of the Russian 'Trus/Bojus' rhyme. 'I'm scared...' is a more prosaic rendering than the compact, slightly comic paradox called for by the analysis."
+          "justification": "The candidate 'I'm no coward, but I'm scared...' preserves the literal meaning but loses the rhythmic, bouncing 'Trus/Boyus' effect described in the analysis. The line feels flatter and less comic/endearing than the intended light paradoxical register."
         }
       ]
     },
@@ -80,7 +80,14 @@
         "language_specific": {}
       },
       "candidate": "You know, signora, frau, miss,\nI'm afraid it's no go!\nRusso turisto…\nObliko morale… verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Starting with 'You know' shifts the vocative list's punch; the candidate conveys the general idea and the mock-sophisticated foreign phrases, but the opening loses some of the performative register of Gena trying to sound worldly."
+        }
+      ]
     },
     {
       "id": 5,
@@ -125,14 +132,7 @@
         "language_specific": {}
       },
       "candidate": "kiddies get ice cream,\nhis missus gets flowers.\nDon't mix it up!\nNelson!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Replacing the sarcastic historical jab 'Kutuzov' with 'Nelson' shifts the cultural reference and undercuts the specifically Russian mockery (comparing a bungling figure to the Russian general). The rest of the nonstandard register is preserved, but the target of the insult changes character nuance."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -157,7 +157,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the proverb's meaning but loses the tight rhythmic balance and punchy parallelism (trezvenniki / yazvenniki) that make the line feel like a worldly aphorism. The softer phrasing 'have a fine time' also reduces the cynical bite."
+          "justification": "The candidate keeps the meaning but sacrifices the tight rhythmic pairing (trezvenniki/yazvenniki) that gives the original its proverbial punch. 'Ulcer case' is functional but less idiomatic and less musically balanced than a paired wordplay."
         }
       ]
     },
@@ -189,7 +189,14 @@
         "language_specific": {}
       },
       "candidate": "Just vun tablet...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate 'Just vun tablet...' attempts to render accented speech but uses an inconsistent accent rendering ('vun' with English 'tablet') rather than the comic mispronunciation/rhythm ('tab-LEHT') described. The comic phonetic effect is weakened."
+        }
+      ]
     },
     {
       "id": 11,
@@ -219,7 +226,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Semyon Semyonovich...' conveys the address but loses the elongated, melodic sigh and weary rhythm of the original line that functions as a musical 'facepalm.'"
+        }
+      ]
     },
     {
       "id": 13,
@@ -339,14 +353,7 @@
         "language_specific": {}
       },
       "candidate": "Well, if you're ever up our way in Siberia...\nNo, you'd better come visit us!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "Replacing 'Kolyma' with 'Siberia' removes the crucial cultural/historical sting: Kolyma specifically evokes Gulag camps and thus reads as (per the analysis) an implied threat of imprisonment. 'Siberia' is geographically related but far less charged and weakens the joke and Gena's fearful misinterpretation."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 21,
@@ -361,14 +368,7 @@
         "language_specific": {}
       },
       "candidate": "In this state...\nI can't.\nFirst... I must...\ntake a ba-ath,\nhave a little cup of coffee...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate indicates hesitation and a stretched 'ba-ath' but doesn't capture Gena's affected pretentious pronunciation of 'coffee' ('kof-e'/'coff-ey') that signals his aristocratic posturing; 'have a little cup of coffee' is more ordinary and reduces the comic snobbery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 22,
@@ -403,14 +403,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 5
+      "major": 0,
+      "minor": 6
     },
-    "total_points": 10,
+    "total_points": 6,
     "meaning_units": 23,
-    "penalty_per_unit": 0.43478260869565216,
-    "major_equiv_per_unit": 0.08695652173913043,
-    "interpretation": "0.43 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.2608695652173913,
+    "major_equiv_per_unit": 0.05217391304347826,
+    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

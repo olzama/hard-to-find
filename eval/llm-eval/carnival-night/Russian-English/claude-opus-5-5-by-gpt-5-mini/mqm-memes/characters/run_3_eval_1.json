@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the comic reversal (calling a forty-minute talk “brief”), but it flattens the diminutive, faux-modest flavor of «коротенько» by rendering it simply as “just briefly.” The original’s petty, self-satisfied managerial tone is slightly weakened; a touch more playful or patronizing phrasing would better capture Ogurtsov’s voice."
+          "justification": "The candidate preserves the semantic reversal (claiming 'briefly' then giving 'forty minutes') but weakens the specific faux-modest, managerial flavor of «коротенько». 'just briefly' is flatter and less diminutive/patronizing than the Russian diminutive, so the comic contrast is somewhat softened."
         }
       ]
     },
@@ -68,7 +68,14 @@
         "language_specific": {}
       },
       "candidate": "Is the lecturer ready?\nThe lecturer's ready, he's been ready a while!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The double reading of готов (officially 'ready' vs. colloquially 'smashed/drunk') is not preserved: English 'ready' lacks the common drunk-sense that makes the line funny. The candidate therefore loses the crucial ambiguity that produces the joke."
+        }
+      ]
     },
     {
       "id": 5,
@@ -143,14 +150,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 1
     },
-    "total_points": 1,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.125,
-    "major_equiv_per_unit": 0.025,
-    "interpretation": "0.12 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

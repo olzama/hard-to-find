@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have a directive\nto greet the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Directive\" keeps the bureaucratic register and the contrast with festive content, but \"greet the New Year cheerfully\" is slightly less natural than \"celebrate merrily\"; the dry managerial tone is mostly preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -49,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Hire\" and \"bring her up in our own collective\" retain the workplace logic, but \"bring up\" suggests raising a child and \"collective\" is a Sovietism that weakens the 'train in-house' staffing joke slightly."
+          "justification": "\"Hire\" fits the staffing logic, but \"bring her up\" suggests raising a child, which is slightly off from the in-house training/cultivation idea. The workplace logic and the \"collective\" are still preserved, so the joke mostly works."
         }
       ]
     },
@@ -77,7 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest diminutive «коротенько» is rendered as a flat \"briefly\", and \"no more, I think that's enough\" loses the self-satisfied patronizing tone; the comic contrast with \"forty minutes\" is weakened. The lowercase fragment also reads flatly."
+          "justification": "The faux-modesty of \"коротенько\" is kept (\"briefly\"), but the sequence is changed: \"no more, I think that's enough\" adds a self-satisfied justification. The key comic reversal of \"briefly\" followed by \"forty minutes\" is still there, but the line is flatter than the patronizing, understated tone in the analysis."
         }
       ]
     },
@@ -100,10 +93,10 @@
       "candidate": "Is the lecturer ready?\n- The lecturer's ready—ready long ago!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Ready long ago\" keeps the double sense of 'ready' (drunk) reasonably well, but the phrasing is slightly awkward and the drunk subtext is less clear than \"ready for quite a while\"."
+          "justification": "\"Ready long ago\" keeps only the literal administrative sense. Nothing recreates the double meaning of \"готов\" as \"drunk/done for\", so the central alcoholic joke is lost for an English viewer."
         }
       ]
     },
@@ -151,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis explicitly says to avoid because it sounds surreal in English; it misses the echo of \"unaided eye\" that makes the mock-scientific malformed idiom work."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis says to avoid. It sounds surreal rather than echoing the familiar idiom \"unaided eye\", so the mock-scientific malformed-idiom effect is lost."
         }
       ]
     },
@@ -180,7 +173,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is garbled: \"Four little stars—best of all, of course, five little stars\" blurs the buildup, so five stars no longer snaps in as a distinct punchline after the trivial sequence, and \"Four little stars—best of all\" muddles the logic. The cognac association is not signalled, and the first line lacks the \"as we can see\" lecture framing."
+          "justification": "The punchline is garbled. \"Four little stars—best of all, of course, five little stars!\" merges four and five into one muddled sentence, which weakens the one-two-three-four buildup and the sudden click to \"five stars\" as cognac. The \"little stars\" wording does keep the childish counting tone, but the cognac association is not signaled, and no note is provided."
         }
       ]
     },
@@ -206,21 +199,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"Whether there is no life on Mars\" is a stilted literal rendering of «нет ли жизни», losing some colloquial looseness; the casual \"up to speed\" register is preserved, but the line is slightly more formal overall."
+          "justification": "\"Whether there is no life on Mars\" is a stiff, literal rendering of «нет ли жизни», which makes the line sound clumsy. The final \"up to speed\" correctly keeps the casual register, so the core effect is preserved."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 4
+      "major": 4,
+      "minor": 2
     },
-    "total_points": 19,
+    "total_points": 22,
     "meaning_units": 8,
-    "penalty_per_unit": 2.375,
-    "major_equiv_per_unit": 0.475,
-    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.75,
+    "major_equiv_per_unit": 0.55,
+    "interpretation": "2.75 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

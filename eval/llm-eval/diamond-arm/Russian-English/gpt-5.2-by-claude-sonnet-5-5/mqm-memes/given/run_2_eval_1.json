@@ -213,10 +213,10 @@
       "candidate": "Lunda hanamarun, Zigel-zigel, zigel, ai-lyu-lyu!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds the gibberish phrase 'Lunda hanamarun,' which is not in the source 'Цигель-цигель, цигель, ай-лю-лю'. This is an unsupported addition that changes the catchphrase. The analysis describes a sharp 'zigel' command followed by a soft 'ai-lyu-lyu', and the extra words break that rhythm."
+          "justification": "The candidate adds the gibberish phrase 'Lunda hanamarun' before the line, and the source has nothing corresponding to it. The core 'Zigel-zigel, zigel, ai-lyu-lyu!' is preserved, so the rhythmic urgency survives, but the added material is not in the source and dilutes the original catchphrase."
         }
       ]
     },
@@ -233,14 +233,7 @@
         "language_specific": {}
       },
       "candidate": "Slipped. Fell. Closed fracture. Passed out. Woke up in a cast.\nSlipped...\nClosed fracture...\nCast!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "After repeating the full telegraphic alibi correctly, the candidate adds a clipped variant ('Slipped... Closed fracture... Cast!') that is not in the source. The extra variant slightly dilutes the mechanical, identical-script effect described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 16,
@@ -365,14 +358,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 1
     },
-    "total_points": 6,
+    "total_points": 1,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.043478260869565216,
+    "major_equiv_per_unit": 0.008695652173913044,
+    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate shifts person from second-person threat in the source to third-person ('his'), changing who is being threatened. It also uses a more explanatory phrasing ('You'll spend your whole life working to pay for medicine') that loses the compact, verdict-like punch of the original line."
+          "justification": "The candidate keeps the literal image “knock his horns off,” which the analysis explicitly warned against as non-idiomatic and misleading in English. It also turns the compact, verdict-like final clause into a longer explanatory phrase (“You'll spend your whole life working to pay for medicine”), losing the terse, punchy courtroom/verdict rhythm that makes the original line comic."
         }
       ]
     },
@@ -58,14 +58,7 @@
         "language_specific": {}
       },
       "candidate": "How many I've stabbed, how many I've slashed,\nhow many souls I've destroyed!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The final word 'destroyed' is less idiomatic and less poetically charged than the reference's 'damned', slightly weakening the dark, sing-song villainous tone of the refrain."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -90,7 +83,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «нехороший человек» as 'bad person' flattens the oddly euphemistic, moralizing quality that the analysis requires; the candidate loses some of the comic restraint before the collapse into the coarse insult."
+          "justification": "Rendering «нехороший человек» as “bad person” flattens the oddly restrained, euphemistic moralizing tone the analysis requires. The contrast between the genteel label and the final coarse insult is weakened."
         }
       ]
     },
@@ -117,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The final exclamation 'Romance!' risks being read as literal love-romance rather than the ironic romanticization of a criminal routine; the reference's 'Romantic!' better signals the intended ironic tone."
+          "justification": "The repeated formula is rendered acceptably, but the final exclamation “Romance!” risks being read as love-related rather than the ironic romanticization of a criminal routine; the analysis warns against this potential ambiguity."
         }
       ]
     },
@@ -156,10 +149,10 @@
       "candidate": "Move the horse, may I never see freedom!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The oath 'may I never see freedom!' is understandable but slightly awkward and less idiomatic for the prison-coded, solemn curse of the original; a gruffer, more colloquial prison-oath would match the source more closely."
+          "justification": "The original issues a prison-styled curse about the addressee never seeing freedom (future, about the other person). The candidate’s “may I never see freedom!” changes the subject and turns the phrase into a self-directed wish rather than the intended oath about the listener’s fate, losing the original’s force and register."
         }
       ]
     },
@@ -241,7 +234,14 @@
         }
       },
       "candidate": "Hey, citizen! You no go there,\nyou come here,\nor snow fall on head -\nyou be totally dead!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate uses the grammatically correct address “Hey, citizen!” rather than preserving the awkward / incorrect grammatical flavor of «Эй, гражданина!», which is part of the comic effect. The warning remains practical and broken, but a bit of the original’s ungrammatical comic flavor is lost."
+        }
+      ]
     },
     {
       "id": 12,
@@ -336,7 +336,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's 'Stupid girl.' is a milder, less gender-marked insult than the reference's coarse feminine taunt 'You dumb broad!' which better preserves the abrupt feminine–masculine–feminine exchange that the joke depends on."
+          "justification": "The candidate’s “Stupid girl.” preserves the feminine-address sequence but is milder and more neutral than the rougher, directly contemptuous feminine insult signaled by «дура» in context. This softens the punch of the gag."
         }
       ]
     },
@@ -360,10 +360,10 @@
       "candidate": "Sonny, don't you think your place\nis by the latrine bucket?",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "Rendering «параша» as 'latrine bucket' literalizes the term and reduces its force as a prison-status insult; the line needs a functional prison-status slang equivalent rather than a sanitary object to preserve the original's hierarchical contempt."
+          "justification": "The candidate literalizes «параша» as “latrine bucket,” reducing a strong piece of prison argot that assigns lowest-status social positioning to a mere sanitary object. The analysis requires preserving the prison-hierarchy insult (possibly via idiomatic prison-status slang), not a literal toilet image; this change weakens the original contempt and register."
         }
       ]
     },
@@ -388,23 +388,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The use of 'hooligans' sounds dated/British and flattens the slightly formal, bureaucratic register of 'зрения лишают'; a more neutral contemporaneous phrasing that retains the formal-sounding panic would better match the source."
+          "justification": "Using “hooligans” risks a dated or regionally marked choice; the analysis recommends a contemporary, natural term rather than potentially old-fashioned or British-sounding wording. The formal register of «зрения лишают» is otherwise handled acceptably."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 7
+      "major": 3,
+      "minor": 5
     },
-    "total_points": 12,
+    "total_points": 20,
     "meaning_units": 18,
-    "penalty_per_unit": 0.6666666666666666,
-    "major_equiv_per_unit": 0.13333333333333333,
-    "interpretation": "0.67 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1111111111111112,
+    "major_equiv_per_unit": 0.22222222222222224,
+    "interpretation": "1.11 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

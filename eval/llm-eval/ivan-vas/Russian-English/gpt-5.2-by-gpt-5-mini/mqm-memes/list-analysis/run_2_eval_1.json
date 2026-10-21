@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I’m tormented by vague doubts again...\nShpak’s missing a tape recorder,\nthe ambassador’s missing a medallion.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate line 'Shpak’s missing a tape recorder, the ambassador’s missing a medallion' reads as if Shpak and the ambassador lack those items (i.e., they do not possess them). The analysis explicitly warns that У Шпака — У посла indicates the items are missing (they were lost), so the translation must present the objects as missing/was taken. The candidate's phrasing is ambiguous/wrong and therefore reverses the intended meaning."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,7 +36,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis requires that Bunsha's lines clearly read as him introducing himself as 'the Tsar' (mock self-introduction), not addressing an actual tsar. The candidate ('Very pleased, Tsar! ... Hello, Tsar') reads like greetings addressed to a Tsar rather than the repetitive, self-introducing, self-important formula that creates the joke, so it changes the comedic premise and fails to capture the intended effect."
+          "justification": "The candidate reads as if Bunsha is addressing a Tsar ('Very pleased, Tsar!'), rather than introducing himself as the Tsar. The analysis specifically requires that it be clear he is impersonating/introducing himself as the Tsar, not speaking to one; this candidate therefore misrepresents the performative joke."
         }
       ]
     },
@@ -80,7 +73,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'I’m in mourning,' which carries a stronger, death-related connotation than the original 'в печали' ('in sorrow'). This shifts register toward a more literal, formal sense of bereavement and slightly weakens the archaic/regal melancholy described in the analysis."
+          "justification": "Rendering 'в печали' as 'in mourning' shifts the nuance toward bereavement and formal ritual, whereas the original implies melancholic sorrow. The change subtly alters the archaic regal tone and emotional shade of the line."
         }
       ]
     },
@@ -97,7 +90,14 @@
         "language_specific": {}
       },
       "candidate": "They’ve bricked me in!\nBricked me in, the demons!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate 'Bricked me in, the demons!' is ambiguous between describing the demons as the agents (correct) and addressing them directly (vocative). The analysis notes the demons must be the subject (they walled me in), so the candidate's phrasing risks implying a direct address rather than the intended descriptive subject."
+        }
+      ]
     },
     {
       "id": 6,
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "See what the life-giving Cross can do!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's 'See what the life-giving Cross can do!' substitutes the elevated archaic 'Behold' with the more casual 'See,' which slightly reduces the high-register, religious-solemn tone that the analysis highlights. The meaning is preserved, but the register is softened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -199,14 +192,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 1,
       "minor": 2
     },
-    "total_points": 12,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0909090909090908,
-    "major_equiv_per_unit": 0.21818181818181817,
-    "interpretation": "1.09 MQM penalty points per meaning unit (≈ 0.22 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

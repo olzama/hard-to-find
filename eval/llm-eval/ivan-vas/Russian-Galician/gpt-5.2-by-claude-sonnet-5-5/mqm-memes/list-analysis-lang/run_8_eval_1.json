@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"unhas vagas dúbidas\" is flatter than the mock-heroic \"escuras sospeitas\". The torment connoted by \"терзают\" is also lost, which weakens the high-flown theatrical register. The \"faltoulle\" construction does convey that the items are missing."
+          "justification": "\"Volven asaltarme unhas vagas dúbidas\" is flatter and less mock-heroic than the elevated, literary \"terzan / smutnye somneniya\" register. \"Faltoulle\" does correctly convey that the items are missing."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The first two lines, \"Ola, tsar, encantado\" and \"Encantado, tsar\", read as Bunsha addressing a tsar. The analysis says it must be clear that he introduces himself as the Tsar. Only the later lines say \"Eu son o tsar\", so the ambiguity the note warns against remains for half the speech."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Ola\" is casual and does not reproduce the stiff formal Soviet greeting cliché (\"Boas noites\"). The restructured repetition also loses some of the rhythmic, drunken ritual quality."
+          "justification": "The first two lines (\"Ola, tsar, encantado. Encantado, tsar. Ola.\") read as Bunsha addressing a tsar, which the NB forbids. Only the later lines clearly make him introduce himself as the tsar, so the self-introduction joke is muddled."
         }
       ]
     },
@@ -86,7 +80,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"de loito\" means in mourning, which is narrower than \"в печали\" (in sorrow, aflixido). Bare \"vella\" is also blunter than the diminutive \"старушка\"/\"velliña\", which weakens the Tsar's archaic, regal melancholy."
+          "justification": "\"Estou de loito\" means being in mourning, which narrows and shifts the source's \"в печали\" (in sorrow)."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Plain \"vella\" loses the archaic, regal tone that \"старушка\" has in Ivan's speech."
         }
       ]
     },
@@ -118,14 +118,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Mira o que fai\" is plain and modern. It lacks the archaic, solemn tone of \"Вот что ... делает\" (e.g. \"Velaquí o que obra\"), so the Tsar's pious conviction is slightly weaker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -155,7 +148,14 @@
         "language_specific": {}
       },
       "candidate": "Mira que entrei ben!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Mira que entrei ben!\" is somewhat awkward. It does show he has just entered, but the sense of a lucky find is weaker than in the casual, cheerful original."
+        }
+      ]
     },
     {
       "id": 9,
@@ -173,9 +173,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Caviar de ultramar... De berenxena!\" calls the eggplant spread caviar. The note says it must not be called caviar, because it will confuse viewers. The reference uses \"manxar\" for the overseas delicacy, so the mock-grand build-up works without mislabelling it."
+          "justification": "The candidate calls the eggplant spread \"Caviar de ultramar... De berenxena\", which the NB explicitly warns against. It also loses the contrast between the real caviar and the 'rare delicacy' that is actually a cheap spread."
         }
       ]
     },
@@ -192,20 +192,7 @@
         "language_specific": {}
       },
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 cigarreiras nacionais,\ncazadora de camurza... tres.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"cámaras\" omits \"de cine\" (кинокамеры), so the specific status item is blurred."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"cazadora\" is a Spanish-sounding word, and the omitted article makes the line terse. Digits (\"3\") instead of words weaken the spoken, escalating-list effect. The delayed \"tres\" after the jacket is preserved, so the joke still works."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -226,13 +213,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 6
+      "minor": 4
     },
-    "total_points": 16,
+    "total_points": 14,
     "meaning_units": 11,
-    "penalty_per_unit": 1.4545454545454546,
-    "major_equiv_per_unit": 0.2909090909090909,
-    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.2727272727272727,
+    "major_equiv_per_unit": 0.2545454545454545,
+    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

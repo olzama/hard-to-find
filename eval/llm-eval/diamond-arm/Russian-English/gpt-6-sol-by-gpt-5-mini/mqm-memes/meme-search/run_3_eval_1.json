@@ -41,7 +41,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate is a literal rendering ('I'm not a coward... but I am scared...') that preserves meaning but loses the light, rhythmic bounce of the original 'Trus/Boyus' rhyme and the mildly comic, endearing quality noted in the analysis."
+          "justification": "The candidate is a correct literal rendering but lacks the light, bouncing comic rhythm and endearing register suggested by the analysis (the Trus/Boyus rhyme and playful tone). It reads more flatly earnest than gently self-mocking."
         }
       ]
     },
@@ -73,7 +73,14 @@
         "language_specific": {}
       },
       "candidate": "Listen, signora, Frau, miss,\nI'm afraid it's out of the question!\nRusso tourist—\nmorals impeccable! Verstehen?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the meaning but softens Gena's performative, mock-sophisticated parade of internationalisms. Phrases like \"I'm afraid it's out of the question\" are more polite and less comically grandiose than the reference's brisk, boastful register."
+        }
+      ]
     },
     {
       "id": 5,
@@ -123,7 +130,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate tones down Lyolik's rough, unpolished register by rendering 'его бабе' as the neutral 'his wife' instead of a coarser term. This softens the character's characteristic coarse, uneducated voice described in the analysis."
+          "justification": "The candidate neutralizes Lyolik's coarse, uneducated tone by rendering 'его бабе' as 'his wife.' That loses some of the original's rough humor and character voice (mocking vulgarity)."
         }
       ]
     },
@@ -145,7 +152,14 @@
         }
       },
       "candidate": "As our dear boss says,\non someone else's tab,\neven teetotalers—\nand ulcer patients—drink.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning is preserved, but the Russian's tight rhythmic pairing (trezvenniki/yazvenniki) is not fully matched. 'Ulcer patients' is a stilted phrase in English and weakens the punchy proverbial cadence the analysis highlights."
+        }
+      ]
     },
     {
       "id": 9,
@@ -180,7 +194,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the meaning but omits Lyolik's comic mispronunciation/mistranslation of 'tablet' that the analysis highlights as a memorable character tick; losing this diminishes the line's distinctive vocal humor."
+          "justification": "The candidate conveys the content but drops the comic effect of Lyolik's marked pronunciation/mispronunciation (the humorous phonetic emphasis on 'tablet'). The line reads neutrally rather than characterful and sinisterly economical."
         }
       ]
     },
@@ -217,7 +231,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate lacks the elongated, melodic sigh of the reference ('Semyo-o-on Semyonych!') that functions as a weary, musical facepalm; rendering it as a plain name loses some of that expressive prosody."
+          "justification": "The candidate is accurate but loses the melodic elongation and weary sigh of the original vocalization ('Semyo-o-on'), which is an important part of the expressive effect described in the analysis."
         }
       ]
     },
@@ -294,7 +308,14 @@
         "language_specific": {}
       },
       "candidate": "It's not my fault! He came here himself!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is a correct, neutral rendering but loses the comic register slip (the provincial/unrefined form) that the analysis points out—the line lacks the panicked, lower-register degradation of the seductress's facade."
+        }
+      ]
     },
     {
       "id": 18,
@@ -354,14 +375,7 @@
         "language_specific": {}
       },
       "candidate": "Looking like this...\nI can't.\nI must... first...\ntake a ba-ath,\nhave a cup of coffee...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate keeps the flustered priority (bath and coffee) but fails to convey Gena's affected pronunciation of 'coffee' ('kof-e') which the analysis marks as an important marker of his pretentious, flustered persona."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 22,
@@ -396,7 +410,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate expresses the refusal clearly but removes the rustic, intentionally ungrammatical flavor ('на это я пойтить не могу') that adds comic stubbornness in the original; the standardized phrasing loses that folksy character."
+          "justification": "The candidate renders the refusal idiomatically but loses the intentionally incorrect, folksy verb form that adds comic stubbornness and rural flavor in the source. The line is less characterful as a result."
         }
       ]
     }
@@ -404,13 +418,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 8
     },
-    "total_points": 6,
+    "total_points": 8,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.34782608695652173,
+    "major_equiv_per_unit": 0.06956521739130435,
+    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

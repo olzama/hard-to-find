@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key meaning in the NB: it says Shpak and the ambassador still have the items, whereas the joke is that those items have gone missing from them."
+          "justification": "The candidate reverses the key factual relation: the analysis says each person has lost the item, but this version says Shpak and the ambassador still have them, which breaks the joke and the callback."
         }
       ]
     },
@@ -43,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "It fails to convey that Bunsha is repeatedly introducing himself as the Tsar; instead it reads like he is greeting or addressing a tsar, which contradicts the scene and the note."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The repeated interjections are more naturally structured in the reference; the candidate’s punctuation and ordering sound slightly clunky and reduce the comic rhythm."
+          "justification": "The line should clearly show Bunsha introducing himself as the tsar, but the candidate mostly reads as if he is addressing a tsar or a person called tsar, which undermines the comic effect described in the analysis."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Estou de pena' is understandable, but it is a bit less idiomatic and less elegantly melancholic than the reference, slightly weakening the archaic/regal tone."
+          "justification": "\"Estou de pena\" is understandable, but it sounds less natural and less mock-archaic than the reference's formulation, slightly weakening the regal melancholy."
         }
       ]
     },
@@ -108,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The last line is mistranslated: 'demoños' is a direct address to demons, but here the demons are the subject of the sentence, not being addressed."
+          "justification": "The final line changes the meaning: \"demoños\" in this position reads as if he is addressing the demons, whereas the analysis requires them to be the cause/subject of the entombment."
         }
       ]
     },
@@ -125,14 +119,7 @@
         "language_specific": {}
       },
       "candidate": "Mira o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Mira' is a little more conversational than the elevated exclamatory force of the reference, so the religious amazement is slightly weakened."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -147,7 +134,14 @@
         "language_specific": {}
       },
       "candidate": "A bailar todo o mundo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate is understandable, but \"A bailar todo o mundo!\" sounds more like a general invitation than the brisk, imperative mass command of the original, slightly reducing the punch."
+        }
+      ]
     },
     {
       "id": 8,
@@ -167,7 +161,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Pois eu entrei con sorte!' sounds like a statement about entering successfully, but it misses the self-satisfied implication that he has luckily stumbled into a valuable haul; the comic meaning is too weak and potentially misleading."
+          "justification": "\"Pois eu entrei con sorte!\" implies he entered successfully, but the analysis emphasizes his cheerful reaction to discovering valuables after just coming in; the wording is misleading enough to blur the joke of stumbling onto a jackpot."
         }
       ]
     },
@@ -189,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Caviar de fóra' is misleading and the key satirical point is lost: the reference presents eggplant spread as an imported delicacy, not as actual caviar. The note explicitly warns not to call it caviar in a way that confuses viewers."
+          "justification": "The analysis explicitly says the eggplant item should not be called caviar, but the candidate repeats \"Caviar de fóra\", which obscures the satirical contrast and can confuse viewers."
         }
       ]
     },
@@ -208,16 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits 'três' before the suede jacket and therefore loses the joke that the count is being exaggerated and then forgotten at the end. That numerical build-up is essential to the line."
-        },
-        {
           "severity": "minor",
-          "category": "terminology",
+          "category": "fluency",
           "span": "",
-          "justification": "'Pitilleiras' is a less fitting choice than a term for cigarette cases; it is understandable, but the lexical choice is slightly off for the period/status-item list."
+          "justification": "Using numerals and compressing the list makes the subtitle a bit clunky and less lively than the reference, though the joke itself remains intact."
         }
       ]
     },
@@ -239,14 +227,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 4
+      "major": 5,
+      "minor": 3
     },
-    "total_points": 34,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 3.090909090909091,
-    "major_equiv_per_unit": 0.6181818181818182,
-    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

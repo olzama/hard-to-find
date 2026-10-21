@@ -24,9 +24,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "The source's 'медальон' (medallion, a pendant) is rendered as 'a medal', which names a different object. The reference's 'medallion' is the accurate term."
+          "justification": "'Медальон' is a pendant worn on a chain, but the candidate renders it as 'a medal', which is an award. The item still works because the joke depends on the ambassador having lost an object, but the object is misnamed."
         }
       ]
     },
@@ -153,14 +153,7 @@
         }
       },
       "candidate": "Well, I picked the right place to drop in!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Удачно' means 'luckily' or 'fortunately', which stresses chance. 'I picked the right place' presents the visit as a deliberate choice. The cheerful tone and the sense of having just entered are preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -180,7 +173,14 @@
         }
       },
       "candidate": "Black caviar, red caviar...\nAh, yes! A delicacy from overseas...\nEggplant spread!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Заморская икра' is rendered as 'A delicacy from overseas', which drops the word 'caviar' from the setup line. The satirical mechanism is that eggplant spread is passed off as overseas caviar, so the setup is weakened even though the final reveal 'Eggplant spread!' still lands."
+        }
+      ]
     },
     {
       "id": 10,
@@ -200,14 +200,7 @@
         }
       },
       "candidate": "Three tape recorders,\nthree movie cameras,\nthree locally made cigarette cases,\na suede jacket... three.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "terminology",
-          "span": "",
-          "justification": "'Отечественных' means domestic or Soviet-made. 'Locally made' can be read as made in the neighborhood or town, which narrows the meaning. 'Domestic' or 'Soviet-made' would be more precise for the status-item list."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 11,
@@ -228,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

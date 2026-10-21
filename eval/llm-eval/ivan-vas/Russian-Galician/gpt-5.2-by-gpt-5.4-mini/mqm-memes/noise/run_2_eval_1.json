@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reverses the key sense of the line: it says Shpak and the ambassador still have the items, whereas the joke depends on the items having disappeared from them."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line keeps the mock-solemn opening, but the ending is flatter and less pointed than the reference’s comic, slightly grandiose phrasing."
+          "justification": "The candidate gets the key factual relation wrong: it says Shpak and the ambassador still have the items, whereas the line means they are the ones who lost them. This breaks the callback to the theft joke described in the analysis."
         }
       ]
     },
@@ -49,13 +43,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate fails to make Bunsha’s self-introduction clear and instead sounds like he is addressing the tsar directly, which contradicts the analysis and weakens the joke."
+          "justification": "The line no longer clearly means Bunsha is introducing himself as the tsar; it reads like he is being addressed as 'tsar' and greeting someone else. This contradicts the note and weakens the joke."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reordered repetitions are understandable, but the delivery feels less like a repetitive drunken formal greeting and more like fragmented exclamations."
+          "justification": "The phrasing is less natural and less comically repetitive than the reference, so the bureaucratic/formulaic social-greeting effect is weaker."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Using \"triste\" is understandable, but it softens the more elevated, archaic-sounding melancholy conveyed by \"aflixido\" in the reference."
+          "justification": "'Estou triste' is understandable, but it loses some of the elevated, slightly archaic emotional coloring of 'estou aflixido', making the royal melancholy a bit flatter."
         }
       ]
     },
@@ -109,14 +103,7 @@
         "language_specific": {}
       },
       "candidate": "Emparedáronme!\nEmparedáronme, demos!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate drops the crucial idea that he has been entombed/embedded by the demons; \"Emparedáronme!\" alone loses the source of the complaint and the supernatural misunderstanding."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -166,7 +153,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate is misleading: \"Entrei\" can suggest simple entry, but it does not capture the cheerful lucky-accident meaning of having stumbled upon a valuable find, and it risks sounding too neutral."
+          "justification": "'Entrei no momento xusto!' suggests a neutral or practical timing and lacks the gleeful, opportunistic reaction to discovering valuables that makes the joke work. It also sounds more like a comment on arrival than on successfully stumbling onto the target apartment."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The exclamation is less lively and less cheeky than the original's self-satisfied, lucky-crime tone."
         }
       ]
     },
@@ -188,13 +181,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats \"caviar\" for the eggplant item, which the analysis explicitly warns against because it confuses the punchline and obscures the satirical contrast."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line break and capitalization make the final phrase slightly clunky, though the main problem is the mistranslation of the food item."
+          "justification": "Calling it 'caviar de ultramar' for the eggplant spread conflicts with the note that it should not be labeled caviar, since that obscures the joke about the absurdly humble Soviet substitute being presented as a delicacy."
         }
       ]
     },
@@ -213,16 +200,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras de cine,\n3 pitilleiras nacionais,\nchaquetas de camurza: tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate omits the final repeated item count structure that is the core of the joke, changing the comic rhythm and the explicit escalation of the list."
-        },
-        {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Pitilleiras\" and \"chaquetas de camurza\" are understandable, but the compressed formatting weakens the breathless, itemized comic delivery."
+          "justification": "The list is readable, but the shifted punctuation and order make the buildup less smooth and less punchy than the reference. The counting joke still comes through, though."
         }
       ]
     },
@@ -244,27 +225,27 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the meaning by using future passive-like wording about being cured, whereas the original is a resigned refrain about everyone being sent for treatment; this alters the comic fatalism."
+          "justification": "The candidate changes the meaning from passive resignation ('they will cure you too / me too') to an active promise ('they will cure you too'), which removes the shared, deadpan acceptance central to the humor."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The repetition is preserved, but the phrasing sounds more explicit and less naturally melodic than the reference, reducing the calm, resigned comic effect."
+          "justification": "The repeated future passive formulation is less idiomatic and less melodically resigned than the reference, so the comic calm is somewhat weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
-      "minor": 6
+      "major": 5,
+      "minor": 5
     },
-    "total_points": 41,
+    "total_points": 30,
     "meaning_units": 11,
-    "penalty_per_unit": 3.727272727272727,
-    "major_equiv_per_unit": 0.7454545454545454,
-    "interpretation": "3.73 MQM penalty points per meaning unit (≈ 0.75 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.727272727272727,
+    "major_equiv_per_unit": 0.5454545454545454,
+    "interpretation": "2.73 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

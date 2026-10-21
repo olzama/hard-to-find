@@ -34,9 +34,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Hire\" and \"raise\" work reasonably for the workplace/collective logic, but \"raise one\" leans toward child-rearing or fairy-tale imagery rather than the bureaucratic 'train in-house' staffing joke; the social type is kept via 'within our own collective', so the damage is small."
+          "justification": "\"Hire\" and \"raise\" preserve the workplace logic and the \"collective\" keeps the Soviet flavor, but \"raise\" is more fairy-tale/parental than the managerial \"train/cultivate in-house\", and \"hire\" slightly weakens the matter-of-fact staffing tone. The social-type joke still comes through."
         }
       ]
     },
@@ -58,13 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"he gives his address\" and drops the faux-modest framing; the bureaucratic speaker's own voice is replaced by a flat third-person description. \"Briefly, say, about forty minutes\" keeps the brief-then-forty order, but the self-satisfied managerial tone and the sense that Ogurtsov is proposing this are weakened."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"no more, I think\" followed by a dangling \"he gives his address\" reads awkwardly and sounds like a fragment, reducing the comic punch of the understatement."
+          "justification": "The candidate adds \"he gives his address\", a fragment that was not in this line, and it makes the sentence read as a description rather than Ogurtsov's own speech. The \"briefly\" before \"forty minutes\" order is preserved, but the faux-modest diminutive \"коротенько\" is lost. \"Say, about forty minutes, no more, I think\" gives some casual understatement, but the self-satisfied managerial tone and the punchline are weakened by the dangling clause."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Well past ready\" hints at excess but does not carry the 'ready = drunk' double meaning; the joke is mostly lost, as nothing signals intoxication. The 'for quite a while' idea is only loosely echoed."
+          "justification": "The double meaning of \"готов\" (ready / drunk) is not recreated. \"Well past ready\" hints at over-readiness, but nothing signals intoxication, so the alcoholic subtext joke is largely lost. The \"давно готов\" idea of time is partly kept but only as a vague exaggeration."
         }
       ]
     },
@@ -103,14 +97,7 @@
         "language_specific": {}
       },
       "candidate": "- People!.. Uh... Hello-o-o?!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The stretched \"Peo-ple\" is flattened into \"People!\", and \"Hello-o-o?!\" works for the wavering call, but the broken vocalization of the first word is lost, slightly reducing the drunken physical comedy."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -132,10 +119,10 @@
       "candidate": "But all we have to do is take\na telescope...\nAnd look with the un-naked eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Un-naked eye\" is a playful deformation of \"naked eye\" and keeps a malformed-idiom effect, but it sounds like a joke about nakedness rather than mock-scientific 'upgrading'; it loses the pseudo-scholarly pomposity and the 'aided/armed' logic tied to the telescope."
+          "justification": "\"Un-naked eye\" is an inventive deformation of \"naked eye\" and keeps the idea of a familiar idiom wrongly altered. However, it sounds more like a jokey wordplay than mock-scientific upgrade; it lacks the pseudo-scholarly precision of \"aided eye\" and edges toward the oddness the analysis warns about. The trailing comma also leaves the sentence hanging."
         }
       ]
     },
@@ -162,7 +149,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression and the shift to \"five-star\" are preserved, but \"is five-star\" lacks a noun and the cognac association is not made accessible; the sudden click into another semantic world is a bit weaker without a note."
+          "justification": "The counting progression and the final \"five-star\" punchline are preserved, so the cognac shift works for those who know the association. The line is slightly choppy and the \"Four stars...\" break splits the buildup, and \"five-star\" without \"cognac\" or a note leaves the derailment less clear to English viewers."
         }
       ]
     },
@@ -184,21 +171,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Brought into the loop\" is conversational and keeps the personified 'science not briefed' idea, but \"science does not know\" and the formal \"Is there life on Mars, or is there no life\" are slightly stiffer than the casual register, softening the register mismatch."
+          "justification": "\"Brought into the loop\" is colloquial and successfully personifies science as someone not yet briefed, so the register mismatch is kept. The first half, \"science does not know\", is slightly more formal than the flat \"unknown to science\" and the line breaks are somewhat awkward, but the effect is mostly intact."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 5
+      "major": 2,
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

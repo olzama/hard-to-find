@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Comrades, there's a directive to see\nin the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"There's a directive to see in the New Year cheerfully\" is clumsy. \"See in\" is an idiom that can be misread, and \"cheerfully\" lacks the old-fashioned merriness of \"merrily\" that supports the formal, mock-official tone the analysis describes."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't bring in\na Baba Yaga from outside,\nwe'll raise one within our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Keeping the proper name \"Baba Yaga\" with an indefinite article leans toward the fairy-tale reading that the analysis warns against. The workplace-collective logic is carried mainly by \"collective\" and \"raise\" rather than by the figure itself."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -65,7 +51,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The source's trailing ellipsis, which signals the speaker trailing off into smug hesitation, is replaced by a plain comma. The line also starts in lowercase, so the deliberate pacing of the self-satisfied understatement is weaker."
+          "justification": "The candidate ends on a comma ('I think,') where the source has a trailing ellipsis ('не надо…'). The trailing-off hesitancy that sets up Ogurtsov's self-satisfied tone is weakened."
         }
       ]
     },
@@ -84,10 +70,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer's ready, been ready a long time!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The alcoholic double meaning of \"ready\" (drunk or done for), which the analysis identifies as the core of the joke, is lost. The line reads only as an administrative confirmation. \"Been ready a long time!\" adds cheerfulness but no intoxication cue, so the humor does not land."
+          "justification": "The analysis says the alcoholic double meaning of 'готов' (ready / drunk) is the key joke and warns that rendering it only as 'ready' may make it disappear. The candidate renders only 'ready', so the drunk subtext is lost. The reference shares this limitation, so the severity is minor."
         }
       ]
     },
@@ -107,9 +93,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Yoo-hoo\" is a cheerful, whimsical call that replaces the faltering, half-collapsed \"ay-oo\". The stretched \"Peo-ple\" is also not carried over, so the drunken vocal instability the analysis emphasizes is weaker."
+          "justification": "A stray leading dash ('- People!..') appears on a single-speaker line where the source has none. 'Yoo-hoo!' is also a more cheerful, conventional call than the wavering 'ау-у', so the vocal instability the analysis asks for is only partly kept."
         }
       ]
     },
@@ -133,16 +119,10 @@
       "candidate": "But as soon as we take\na telescope...\nAnd look with the armed\neye",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate uses the literal calque \"armed eye\", which the language-specific note explicitly lists as something to avoid because it sounds stranger and more surreal than the Russian. This contradicts the analysis's requirement that the lecturer sound like he is upgrading a familiar idiom into mock-scientific language."
-        },
-        {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "\"As soon as we take\" shifts the meaning of \"стоит только нам взять\" (\"all we have to do is take\") from a condition of ease to a temporal sequence, slightly weakening the lecturer's pompous, instructional tone."
+          "justification": "The candidate uses the literal calque 'armed eye', which the language-specific note explicitly lists under things to avoid as stranger than the Russian. It still signals a mangled 'unaided eye' idiom, so the malformation is kept, but it reads as surreal rather than as a plausible mock-scientific upgrade."
         }
       ]
     },
@@ -167,15 +147,15 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Four stars, best of all, of course, five stars!\" garbles the structure. \"Best of all\" attaches to four stars, so the line briefly reads as though four stars is the best, and the sentence lacks a clear verb. The intended point, that five stars is best, is recovered only at the end."
+          "justification": "The cognac association behind 'пять звёздочек' is not signaled anywhere. The analysis says the 'sudden click into a different semantic world' must land, and the language-specific note says the cultural link may need a translator's note. The reference adds a bracketed note. Without it, most viewers will not get the punchline's shift."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate gives no note or other cue for the cognac association with five stars. The analysis flags that this association may not be obvious to most viewers, so the sudden shift into the cognac domain may be lost on them."
+          "justification": "'Four stars, best of all, of course, five stars!' merges the 'four stars' item into the superlative clause, so 'best of all' seems to attach to four stars. The source's 'Лучше всего, конечно' sets up the superlative for five only, and the candidate's placement muddles that build-up."
         }
       ]
     },
@@ -192,19 +172,26 @@
         "language_specific": {}
       },
       "candidate": "Whether there is life on Mars, or there isn't\nlife on Mars, science\ndoes not know.\nScience isn't yet in the know.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Science isn't yet in the know' is slightly unidiomatic for a subject like science, since 'in the know' usually describes a person who is informed about inside matters. The reference's 'up to speed' carries the casual, practical-awareness register the analysis describes more naturally."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 0,
       "minor": 7
     },
-    "total_points": 17,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 2.125,
-    "major_equiv_per_unit": 0.425,
-    "interpretation": "2.12 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

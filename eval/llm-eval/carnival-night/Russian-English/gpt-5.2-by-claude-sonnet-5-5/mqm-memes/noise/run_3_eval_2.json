@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is a directive to\ncelebrate the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"There is a directive\" keeps the bureaucratic register and the contrast with festive content. \"Cheerfully\" is slightly less stiff than \"merrily\", and \"directive\" is a bit more modern-corporate than \"instructions\", but the joke is preserved."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,7 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" and \"raise\" keep the staffing logic, and \"collective\" keeps the Soviet workplace flavor. \"Raise\" leans slightly toward upbringing and is less bureaucratic than \"train in-house\", and the translation does not clearly evoke the toxic-colleague type, so the workplace joke is a little weaker."
+          "justification": "\"Raise one within our own collective\" keeps the workplace/social logic and the collective reference, but \"raise\" leans slightly toward child-rearing rather than the managerial \"train in-house\" tone, and \"hire\" is acceptable. Slightly weaker staffing-matter deadpan."
         }
       ]
     },
@@ -75,9 +68,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest \"briefly\" is kept, but the diminutive, cozy tone of \"коротенько\" and the smug managerial flavor are lost. The lowercase fragment \"briefly, for about forty minutes\" reads flat, with no \"and\" or \"just\" to set up the reversal. The \"more, I think, isn't necessary\" phrasing is also stilted, so the punchline lands weakly."
+          "justification": "The faux-modest diminutive \"коротенько\" is rendered as plain \"briefly\" with no cozy or patronizing flavor, and the opening \"And\"/self-satisfied tone is lost. The contrast with \"forty minutes\" is weakened, and the line reads as flat rather than as smug understatement."
         }
       ]
     },
@@ -103,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The Russian word \"давно\" is left untranslated in the English subtitle (\"ready давно\"), which is a clear error. The drunk double meaning of \"ready\" is not recreated, and the \"has been ready for a while\" nuance is not conveyed in English."
+          "justification": "The Russian word \"давно\" is left untranslated in the English subtitle, which is a clear error. The \"ready\" = drunk double meaning is not recreated, so the joke is lost. The \"has been ready for a while\" sense that heightens the humor is also not conveyed in English."
         }
       ]
     },
@@ -126,10 +119,10 @@
       "candidate": "- People!.. Ah... Hullo!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, stretched vocalization (\"Лю-ди! А… ау-у!\") is normalized into a clean \"People!\" and \"Hullo!\". The analysis states that the drunken, wavering delivery carries the joke, and the candidate removes the syllable-splitting and elongation, so the physical comedy is lost."
+          "justification": "\"People!.. Ah... Hullo!\" keeps the broken address and the call-out, but the stretched, wavering vocalization (\"Peo-ple!\", \"hellooo!\") is normalized, so the drunken vocal instability is weaker. \"Hullo\" is also a bit dated."
         }
       ]
     },
@@ -158,7 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is exactly the literal calque that the analysis warns against. It does not evoke the familiar \"unaided eye\" idiom, so the mock-scientific malformed-idiom joke is lost and the phrase sounds merely surreal. Also, \"once we take\" loses the \"all we have to do\" nuance and the exclamatory pomp."
+          "justification": "\"Armed eye\" is the literal calque that the analysis explicitly warns against. It does not echo the English idiom \"unaided eye\", so the malformed-idiom joke (a familiar expression wrongly upgraded) is not conveyed and it sounds surreal rather than mock-scientific. Also, the \"all we have to do is\" emphasis is dropped."
         }
       ]
     },
@@ -184,10 +177,10 @@
       "candidate": "we already see\ntwo little stars, three little stars...\nFour little stars—best of all,\nof course, five little stars!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is trivial and silly, which works. However, the candidate breaks the build-up by merging four stars into the punchline (\"Four little stars—best of all\"), which weakens the sudden click to five stars. There is no cognac cue or note, though the analysis says one may be needed."
+          "justification": "The progression is garbled: \"Four little stars—best of all, of course, five little stars\" breaks the one-two-three-four buildup, as \"four\" becomes part of the buildup but the \"…\" pause before the punchline is lost, so the click into the cognac frame is weakened. Also, no cue for the five-star cognac association is given, although the analysis notes it may need a note, so most viewers will not get the shift."
         }
       ]
     },
@@ -213,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The content is accurate and \"Science is not yet informed\" is plain, but it lacks the colloquial \"not up to speed\" feel of «не в курсе дела». The register is a bit more formal than the casual, personified-science humor intended."
+          "justification": "\"Science is not yet informed\" is more formal than the colloquial \"isn't up to speed\" and loses some of the personified, casual register mismatch. The first part is accurate and the factual correctness is preserved, but the conversational comedy is slightly flattened."
         }
       ]
     }
@@ -221,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 24,
+    "total_points": 23,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.875,
+    "major_equiv_per_unit": 0.575,
+    "interpretation": "2.88 MQM penalty points per meaning unit (≈ 0.57 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

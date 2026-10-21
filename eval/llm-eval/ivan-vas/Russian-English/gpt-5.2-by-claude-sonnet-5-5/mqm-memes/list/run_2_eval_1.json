@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Shpak has a tape recorder, the ambassador has a medallion\" reverses the meaning: the analysis stresses that they no longer have these items, since each lost theirs. The candidate states possession, which breaks the callback to the thefts and the suspicion about Miloslavsky."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"I'm tormented by vague doubts again\" keeps the elevated register reasonably well, but the plain \"has\" structure in the second half weakens the mock-heroic, theatrical effect."
+          "justification": "\"Shpak has a tape recorder / the ambassador has a medallion\" says they possess the items, but the NB stresses the items are gone (stolen). The meaning is reversed, and the connection between the thefts is lost."
         }
       ]
     },
@@ -49,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Hello, Tsar!\" and \"Tsar, very nice!\" read as Bunsha addressing a Tsar rather than introducing himself as the Tsar. The analysis's NB explicitly requires making the self-introduction clear."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Very nice\" is a weaker rendering of the formal, cliché \"очень приятно\" (pleased to meet you). It loses the stiff social-ritual tone that drives the humor."
+          "justification": "\"Hello, Tsar!\" reads as addressing a Tsar, not introducing himself as the Tsar, which the NB explicitly requires to be clear. \"Very nice\" is also a weak rendering of the formulaic \"очень приятно\" (pleased to meet you), so the stiff social-ritual humor is lost."
         }
       ]
     },
@@ -107,7 +95,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Bricked me in\" is a colloquial, modern-sounding rendering of \"замуровали\" and less archaic than \"walled me in\". \"Devils\" instead of \"demons\" is acceptable, and the demons correctly remain the subject, so the damage is small."
+          "justification": "\"Bricked me in\" is colloquial and modern rather than the archaic, high-register feel of \"замуровали\"; \"devils\" is slightly off from \"demons\". The demons remain the subject and the meaning is preserved."
         }
       ]
     },
@@ -129,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"That's what the life-giving cross can do!\" is a casual rendering that lacks the solemn, archaic, miracle-announcing tone of the Tsar's conviction (\"Behold the power...\"). The comic contrast with the elevator is weakened."
+          "justification": "\"That's what the life-giving cross can do!\" is colloquial and flat compared to the regal, triumphant tone of the Tsar's declaration, so the solemn archaic register is weakened. The meaning is preserved."
         }
       ]
     },
@@ -151,7 +139,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Everybody dance!\" is literal and accurate but flat. It does not convey the host-like, ceremonial tone of a bureaucrat commanding the party, though the basic meaning and the chaotic-dance effect are preserved."
+          "justification": "\"Everybody dance!\" is accurate, but it lacks the host-like, party-leader flourish of the reference, so the sense of a bureaucrat's grand, inviting gesture is slightly weaker."
         }
       ]
     },
@@ -173,7 +161,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"I walked in at the perfect time\" is acceptable for having just entered, and does not suggest he is leaving. However, it shifts the meaning toward timing rather than the satisfied \"good call\" of choosing this apartment, and \"Just my luck\" can read as ironic or negative in English."
+          "justification": "\"I walked in at the perfect time\" correctly signals that he has just entered and is not leaving. \"Just my luck\" is an addition that slightly shifts the nuance, and the phrasing is somewhat wordy for the quick, cheerful reaction."
         }
       ]
     },
@@ -195,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate calls the \"заморская икра\" \"Exotic caviar\" and leaves \"Eggplant!\" as a separate line. This violates the NB against calling eggplant spread caviar. It also loses the \"overseas\" element and the joke that the eggplant spread is presented as a rare delicacy."
+          "justification": "\"Exotic caviar... Eggplant!\" fails to identify eggplant as a spread and calls it caviar, which the NB warns will confuse viewers. The \"overseas\" idea is weakened to \"exotic\", and the inversion of status symbols (a tiny, rare eggplant spread) is not conveyed."
         }
       ]
     },
@@ -217,7 +205,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "\"A suede jacket—three!\" works as the comic punchline. However, the source's hesitation, where the jacket is mentioned and the count is delayed (\"куртка… замшевая… Три\"), is compressed, so the joke of him forgetting to increment the count is slightly weakened."
+          "justification": "\"a suede jacket—three!\" conveys the joke of the jacket count being wrongly incremented late, but the reference's hesitating \"a suede jacket... Three\" is more natural. The omission of the pause and the \"domestic\" afterthought slightly dulls the timing of the slip."
         }
       ]
     },
@@ -234,19 +222,26 @@
         "language_specific": {}
       },
       "candidate": "And they’ll cure you!\nThey’ll cure you too!\nAnd they’ll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The exclamation marks give the lines an emphatic, emotional tone, while the analysis describes calm, melodic resignation. The meaning is preserved, but the delivery is somewhat less eerily calm."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 7
+      "minor": 6
     },
-    "total_points": 22,
+    "total_points": 21,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.9090909090909092,
+    "major_equiv_per_unit": 0.38181818181818183,
+    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

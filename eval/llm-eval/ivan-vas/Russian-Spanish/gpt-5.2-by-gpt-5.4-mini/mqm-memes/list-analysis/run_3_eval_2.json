@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "Hola, soy el zar, encantado.\nEl zar, encantado, soy el zar.\nSoy el zar, encantado.\nEncantado, hola, soy el zar.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The line preserves the repetition and self-introduction, but 'Hola' is less period-appropriate and slightly weakens the mundane formal-greeting effect described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -73,7 +66,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vieja' is more blunt and less archaic than 'старушка/viejecita', so it softens the mock-royal, high-register tone of the original."
+          "justification": "\"Vieja\" is less affectionate and slightly harsher than the reference’s \"viejecita,\" so it weakens the ironic high-register tone of the Tsar’s dismissive-but-regal speech."
         }
       ]
     },
@@ -95,7 +88,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The subject is changed from singular 'me han emparedado' to plural 'nos emparedaron', which alters the meaning and the joke; the Tsar is speaking about himself, not a group."
+          "justification": "The candidate changes the subject from \"me han emparedado\" to \"nos emparedaron,\" which alters the line’s meaning: Ivan is talking about himself being trapped, not a group of people."
         }
       ]
     },
@@ -117,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Mira lo que hace...' is more colloquial and demonstrative than the exclamatory, elevated 'Esto es lo que obra...', so it weakens the mock-solemn biblical tone."
+          "justification": "\"Mira\" shifts the line from an exclamatory revelation to a more neutral imperative, slightly weakening the amazed, miraculous tone of the original."
         }
       ]
     },
@@ -149,14 +142,7 @@
         "language_specific": {}
       },
       "candidate": "¡He entrado en el momento justo!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate suggests 'I entered at the right moment' but loses the clear nuance of a fortuitous, lucky arrival that fits the burglar's delighted reaction to finding valuables; it is less idiomatic and shifts the emphasis away from the smug 'well timed' discovery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -173,16 +159,10 @@
       "candidate": "Huevas negras, rojas...\n¡Sí! Huevas de ultramar...\n¡De berenjena!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Huevas' is the wrong food term here and obscures the satirical reference to caviar. The line no longer clearly conveys the joke about Soviet-style 'overseas' eggplant spread, which should be understandable without calling it caviar."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The segment breaks the punchline awkwardly with lineation and punctuation, making the exclamation feel less sharp and comic."
+          "justification": "\"Huevas\" is a poor lexical choice here because it suggests fish roe literally, while the joke relies on presenting an ordinary eggplant spread as a prestigious delicacy; it is less natural and less precise than the reference’s formulation."
         }
       ]
     },
@@ -201,16 +181,10 @@
       "candidate": "tres magnetófonos,\ntres cámaras de cine,\ntres pitilleras nacionales,\nchaqueta de ante... tres.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The final item is mistranslated as 'chaqueta de ante... tres', which reverses the joke about the count growing and losing track of the suede jacket; the original explicitly lists one jacket first and then adds 'three' at the end."
-        },
-        {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The capitalization/punctuation is uneven, which weakens the comic rhythm of the escalating inventory."
+          "justification": "The line is understandable, but the last segment \"chaqueta de ante... tres\" is awkwardly punctuated and less smooth than the reference, which better preserves the comic buildup of the list and the delayed count."
         }
       ]
     },
@@ -232,14 +206,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 25,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 2.272727272727273,
-    "major_equiv_per_unit": 0.4545454545454546,
-    "interpretation": "2.27 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

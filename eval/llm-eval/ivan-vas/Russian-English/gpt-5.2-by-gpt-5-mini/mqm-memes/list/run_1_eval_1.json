@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies possession. The analysis explicitly notes these items are missing (they were lost), not that the characters currently possess them. This reverses the intended meaning and undermines the comedic inference of vanished goods."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the ambassador has a medallion,' which reads as possession. The source (and the NB) indicate these items are missing / have been taken from them; the line lists who has lost which item. This reverses the intended meaning and undermines the comedic callback."
         }
       ]
     },
@@ -41,9 +41,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The original and analysis make clear Bunsha is introducing himself as 'the Tsar' in a repetitively mundane Soviet greeting (self-introduction), whereas the candidate addresses someone as 'Your Majesty.' This changes the direction of the joke (from self-introduction to courtly address) and loses the intended clash between petty Soviet formality and grandiose royal identity."
+          "justification": "The original is Bunsha impersonating and introducing himself as the Tsar ('I am the Tsar'), not addressing someone else as 'Your Majesty.' The candidate repeatedly addresses 'Your Majesty,' which changes the basic conceit (introducing himself) and thus the joke about his drunken self-introduction."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Leave me be, old woman—I'm sad.' preserves meaning but flattens the archaic, high-register tone ('I am in sorrow') that contrasts the Tsar's regal language with the mundane setting. This weakens the intended historical/literary feel."
+          "justification": "The source uses high-register, archaic phrasing ('я в печали'); the candidate 'Leave me be, old woman—I'm sad.' conveys the meaning but lowers the register to a more colloquial tone, weakening the intended archaic/regal voice."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate 'Bricked up, you demons!' addresses the demons directly ('you demons'), whereas the original has the demons as the subject causing the action ('They've walled me in... Walled me in, the demons'). The analysis stresses that 'demons' must read as the subject, not an addressee; reversing this relationship alters the meaning and tone of the line."
+          "justification": "The NB specifies that 'demons' are the subject (they walled him in), not addressees. The candidate's 'Bricked up, you demons!' makes the Tsar address the demons directly, altering who is doing the action and changing the line's meaning."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate 'Now that’s what the life-giving cross can do!' conveys the basic idea but in a colloquial, jokier register. The original's solemn, archaic 'Behold the power of the life-giving cross!' carries more religious grandeur and conviction; the candidate softens that lofty tone, reducing the contrast between sacred certainty and technological misunderstanding."
+          "justification": "The candidate preserves the sense (crediting the cross) but uses a colloquial, modern phrasing ('Now that’s what the life-giving cross can do!') rather than the terse, exalted register of the original, softening the archaic/religious tone that produces the comic contrast."
         }
       ]
     },
@@ -156,7 +156,14 @@
         "language_specific": {}
       },
       "candidate": "What a lucky break, me dropping by!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate captures Miloslavsky's pleased discovery but uses an awkward, informal clause ('me dropping by') that reads slightly ungrammatical/colloquial in English. A smoother phrasing would keep the same casual, lucky-tone without the clumsy construction."
+        }
+      ]
     },
     {
       "id": 9,
@@ -173,10 +180,10 @@
       "candidate": "Black caviar, red caviar...\nYes! Exotic caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's line 'Exotic caviar... Eggplant!' implies the eggplant spread is itself a kind of exotic caviar. The analysis warns explicitly that eggplant spread must not be called 'caviar' (it should be presented as a cheap domestic spread contrasted with true caviar). This rendering risks confusing the joke and collapsing the intended satirical inversion."
+          "justification": "The candidate's 'Exotic caviar... Eggplant!' risks implying that the eggplant spread is being presented as a kind of 'caviar,' which the NB warned against to avoid confusing viewers. The reference avoided calling eggplant 'caviar' explicitly; the candidate's line blurs that distinction."
         }
       ]
     },
@@ -213,14 +220,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 2
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 22,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

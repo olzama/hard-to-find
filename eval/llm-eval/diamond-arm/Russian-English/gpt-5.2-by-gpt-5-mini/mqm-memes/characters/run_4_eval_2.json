@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The policeman's line in the reference uses 'Get drunk enough, and you will be!' which mocks inevitability; the candidate's 'Get drunk and you will be!' omits the 'enough' qualifier, slightly reducing the caustic, inevitability-focused humor though overall meaning is preserved."
+          "justification": "Candidate omits the casual vocative ('Guys,') and flattens the register contrast between Gorbunkov's melodramatic line and the policeman's deadpan jokey retort. The cop's reply also loses the slightly inevitabilist phrasing ('Get drunk enough, and you will be!') that undercuts the drama; the effect is still present but weakened."
         }
       ]
     },
@@ -38,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "Meaning is preserved, but the candidate drops the light, bouncing rhythm implied by the Russian rhyme (Trus/Bojus). The line reads as a straightforward statement rather than the endearingly self-contradictory, comic admission described in the analysis."
+        }
+      ]
     },
     {
       "id": 3,
@@ -73,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference keeps playful foreignisms (e.g., 'Russo Turisto! Obliko Morale!') as performative gibberish; the candidate neutralizes some of that theatricality ('Russo tourist... Moral appearance...'), which weakens the comic effect of Gena's mock-sophistication."
+          "justification": "Candidate preserves the multilingual gag but introduces 'You know,' and literalizes 'Obliko morale' as 'Moral appearance,' which sounds awkward in English and slightly undermines the faux-sophisticated, performative worldliness of Gena's line. The original playful foreignism/loanword feel is weakened."
         }
       ]
     },
@@ -120,14 +127,7 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kids,\nflowers for his woman.\nDon’t mix them up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The reference uses a cruder, unrefined register ('his broad') to match Lyolik's rough voice; the candidate's 'his woman' softens that register, reducing the character's coarse tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -147,7 +147,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The Russian line relies on a rhythmic, rhyming couplet (trezvenniki/yazvenniki) to create a proverbial punch; the candidate conveys meaning but drops the rhythmic pairing, which diminishes the proverb-like, memorable quality emphasized in the analysis."
+          "justification": "Candidate conveys the proverb's meaning but loses the tight rhythmic pairing (trezvenniki / yazvenniki) that gives the original its punchy, proverbial feel. The line reads more prosaically and thus loses some of the comic cadence demanded by the analysis."
         }
       ]
     },
@@ -184,7 +184,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The original's comic effect depends on Lyolik's distinctive mispronunciation of 'tablet'; the candidate's neutral 'One tablet is enough...' loses that phonetic character-marker and so weakens the line's personality."
+          "justification": "The candidate conveys the content but drops the specific mispronunciation/phonetic humour of the original ('таблэтки') that makes the line characterful and memorable. The line becomes neutral and loses a marker of Lyolik's speech."
         }
       ]
     },
@@ -294,9 +294,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate 'He came himself!' is understandable but slightly awkward and less idiomatic than the reference's 'He came here on his own!', losing a bit of the natural panicked denial's register."
+          "justification": "Candidate preserves meaning but fails to convey the register slip (the provincial, slightly uneducated morphological flavor) that is central to the comedic effect. The phrasing is neutral and lacks the panicked, dialectal coloration described in the analysis."
         }
       ]
     },
@@ -358,14 +358,7 @@
         "language_specific": {}
       },
       "candidate": "Like this...\nI can’t.\nI must... first...\ntake a bath,\ndrink a cup of coffee...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Gena's affected pronunciation of 'coffee' ('kof-e') signals his pretentiousness; the candidate renders a normal 'coffee,' losing this small but telling character marker."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 22,
@@ -400,7 +393,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The source's deliberately nonstandard verb form adds a folksy, emphatic stubbornness to the refusal; the candidate's neutral 'No, I can’t do that!' removes that linguistic color and softens the comic stubborn tone."
+          "justification": "Candidate gives an idiomatic refusal but removes the intentionally nonstandard, folksy verb form that adds comic stubbornness and rural flavour to the original. The line thus feels more neutral and loses some character-specific colour."
         }
       ]
     }
@@ -408,13 +401,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 8
+      "minor": 7
     },
-    "total_points": 8,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.34782608695652173,
-    "major_equiv_per_unit": 0.06956521739130435,
-    "interpretation": "0.35 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

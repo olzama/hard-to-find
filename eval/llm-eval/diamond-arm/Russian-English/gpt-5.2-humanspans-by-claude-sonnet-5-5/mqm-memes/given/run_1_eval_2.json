@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The first line matches the reference, but the candidate adds a leading 'No,' and a redundant second line, 'but I'm afraid...'. This repeats the admission in a flat, literal form that the analysis says to avoid, and it weakens the single punchy, bouncing line. The repetition is within one segment, not across consecutive segments, so it is not excused."
+          "justification": "The candidate adds an initial \"No,\" and a second line, \"but I'm afraid...\", which restates the admission in plain literal terms. This duplicates the already-translated \"overpowered by fear\" and weakens the punchy, bouncy paradox the analysis describes."
         }
       ]
     },
@@ -220,10 +220,10 @@
       "candidate": "Lunda hanamarun, Zigel-zigel, zigel, ai-lyu-lyu!\nLyuche paron, ai-lyu-lyu, ai-lyu-lyu...",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds the gibberish phrases 'Lunda hanamarun' and 'Lyuche paron, ai-lyu-lyu, ai-lyu-lyu...', which have no basis in the source line 'Цигель-цигель, цигель, ай-лю-лю'. The extra lines muddy the short rhythmic catchphrase described in the analysis. Only the 'Zigel-zigel, zigel, ai-lyu-lyu!' part is faithful."
+          "justification": "The candidate adds gibberish lines that are not in the source segment (\"Lunda hanamarun,\" and \"Lyuche paron, ai-lyu-lyu, ai-lyu-lyu...\"). The core \"Zigel-zigel, zigel, ai-lyu-lyu\" is preserved, so the nonsense-urgency effect largely survives, but the extra material clutters the catchphrase."
         }
       ]
     },
@@ -365,14 +365,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 1
+      "major": 0,
+      "minor": 2
     },
-    "total_points": 6,
+    "total_points": 2,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.08695652173913043,
+    "major_equiv_per_unit": 0.017391304347826087,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

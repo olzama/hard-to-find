@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate weakens the comic timing and diminutive register that make the line funny. The original contrast depends on a faux-modest 'briefly' immediately followed by the surprisingly long 'forty minutes' as the punchline. The candidate's phrasing ('briefly—about forty minutes, more, I think, isn't necessary') is clumsy and reorders/softens the elements, reducing the sharp ironic reversal in Ogurtsov's tone."
+          "justification": "The candidate loses some of the diminutive, faux-modest tone of «коротенько так» that makes the comic contrast with 'forty minutes' land so well. The phrasing is also a bit stilted and awkward ('more, I think, isn’t necessary') compared with the smooth, self-satisfied managerial voice required by the analysis."
         }
       ]
     },
@@ -103,7 +103,14 @@
         }
       },
       "candidate": "- People!.. Uh... Heeey!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves a broken opening but renders the final hiccup as an exuberant 'Heeey!' which reads more like an excited call than the faltering, slurred attempt-to-be-formal described in the analysis. The vocal instability could be rendered more pitiable/slurred to match the drunken physical comedy."
+        }
+      ]
     },
     {
       "id": 6,
@@ -127,10 +134,10 @@
       "candidate": "But as soon as we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the playful idiom deformation as a literal 'armed eye,' which the analysis warns against: a calque here sounds more surreal and less mock‑scientific than intended. The line should keep a slightly wrong, pseudo‑technical feel (e.g. 'aided eye') rather than an odd literalism."
+          "justification": "The candidate uses 'armed eye' as a literal calque of «вооружённым глазом». The analysis explicitly notes that 'armed eye' in English reads oddly/surreal and fails to reproduce the intended mock‑scientific, slightly wrong echo of 'the unaided eye.' This choice alters the humorous effect and risks confusing the target audience."
         }
       ]
     },
@@ -178,14 +185,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 2
     },
-    "total_points": 2,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

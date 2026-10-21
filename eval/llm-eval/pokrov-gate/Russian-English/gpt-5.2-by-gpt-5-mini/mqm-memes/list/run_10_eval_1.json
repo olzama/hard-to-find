@@ -51,7 +51,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate ('The highest... the highest relations!') renders the line as a literal noun phrase and reads stilted in English. It fails to reproduce the sarcastic exclamatory cadence and refrain-like quality indicated in the analysis, making the line less natural and less comic."
+          "justification": "The candidate renders the line as a literal noun phrase ('The highest... the highest relations!'), losing the sarcastic, performative exclamation and the stuttering/self-mocking effect highlighted in the analysis. The phrasing sounds awkward and fails to capture the original's ironic register."
         }
       ]
     },
@@ -73,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'conscience' ('live for conscience') which shifts the nuance from the idiomatic sense of duty/obligation in the analysis to a more internal moral sense. This slightly alters the practical, fatalistic tone of the original maxim."
+          "justification": "Using 'conscience' ('live for conscience') is a literal lexical choice that sounds odd in English and weakens the soldierly, duty-focused fatalism the analysis says is central; 'duty' or a fixed idiom would better preserve the intended pragmatic force."
         }
       ]
     },
@@ -110,7 +110,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The reference's sharp ironic insult ('Some cook you are!') is a brusque domestic put-down. 'Culinary genius!' reads more like playful praise or an ironic compliment and softens the caustic, authoritative bite the analysis highlights."
+          "justification": "The candidate 'Culinary genius!' reads more like ironic praise than the sharp, scornful domestic insult the analysis describes. It loses the brusque, imperious bite achieved by the reference's sarcastic reproach."
         }
       ]
     },
@@ -142,7 +142,14 @@
         "language_specific": {}
       },
       "candidate": "Cut it out for God’s sake—\ndon’t wait for peritonitis.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate softens the coarse, abrupt medical farce by replacing 'Cut it the hell out' with 'Cut it out for God’s sake,' which is less blunt and slightly reduces the shock-value contrast emphasized in the analysis."
+        }
+      ]
     },
     {
       "id": 9,
@@ -160,9 +167,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "terminology",
+          "category": "accuracy",
           "span": "",
-          "justification": "The character name is transliterated as 'Khabotov' rather than the expected 'Khobotov' used in the reference. This inconsistency in name spelling can confuse recognition of the recurring formulaic rebuke."
+          "justification": "The surname is transliterated as 'Khabotov' instead of the expected 'Khobotov' (or consistent established form). This is a terminology/consistency issue; the rest of the line preserves the intended dismissive tone."
         }
       ]
     },
@@ -184,7 +191,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate splits and literalises the idiom ('This is my cross! And I’m the one to carry it.'), losing the compact, idiomatic English 'a cross to bear' noted in the analysis. The phrasing is understandable but less natural and weakens the manipulative grandiosity of the original."
+          "justification": "Rendering the line as 'This is my cross! And I’m the one to carry it.' splits and literalizes an English idiom, losing the natural fixed expression 'a cross to bear' that better conveys the manipulative grandiosity called for by the analysis."
         }
       ]
     },
@@ -206,7 +213,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'angular' directly ('awkward and angular'), but the analysis warns against a literal translation of 'угловатая.' That literal choice makes the self-characterisation sound awkward and overly literal in English, reducing the intended coquettish, self-mocking effect."
+          "justification": "The candidate uses 'angular' to translate 'угловатая,' which the analysis explicitly warns against; this literal choice sounds odd in English and weakens the coquettish, self-mocking register that makes the original line memetic."
         }
       ]
     }
@@ -214,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 11,
-    "penalty_per_unit": 0.5454545454545454,
-    "major_equiv_per_unit": 0.10909090909090909,
-    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.6363636363636364,
+    "major_equiv_per_unit": 0.12727272727272726,
+    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

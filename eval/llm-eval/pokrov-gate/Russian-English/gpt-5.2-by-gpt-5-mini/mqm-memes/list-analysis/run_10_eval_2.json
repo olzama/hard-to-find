@@ -46,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "Such... such lofty, lofty feelings!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate shifts the focus from the ironic comment on social/relational status ('relationship') to a more general emotional register ('feelings'). This softens the sarcastic bite that lampoons claimed 'high' social relations and slightly weakens the original register and target of the mockery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -73,7 +66,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The phrasing 'live for conscience' is a more literal rendering of 'для совести' but reads less idiomatically in English and downplays the quasi-military sense of duty/fatalism ('live to do your duty') emphasized in the analysis."
+          "justification": "The phrase \"You don't live for conscience\" is somewhat unnatural in English and shifts the nuance from the soldierly, duty‑focused fatalism in the analysis (\"live to do your duty\") to a blunter notion of 'living for one's conscience.' This slightly weakens the original pragmatic, duty‑bound tone."
         }
       ]
     },
@@ -105,7 +98,14 @@
         "language_specific": {}
       },
       "candidate": "You hopeless cook!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"You hopeless cook!\" preserves the mocking insult but is a bit less idiomatically punchy than the reference's colloquial retort (\"Some cook you are!\"). The candidate slightly softens the caustic, imperious bite of the original exclamation."
+        }
+      ]
     },
     {
       "id": 7,
@@ -140,7 +140,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses 'for God's sake' instead of the harsher 'the hell' and splits the sentence, which slightly reduces the brusque surgical bluntness of the original but preserves the urgent meaning."
+          "justification": "The candidate \"Cut it out, for God's sake—before he gets peritonitis!\" tones down the brusque, surgical harshness of the original imperative. The medical farce relies on a harsher, abrupt command; this version is slightly softened and thus loses some of the intended comic shock."
         }
       ]
     },
@@ -159,10 +159,10 @@
       "candidate": "Khabotov, that's petty!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate transliterates the name as 'Khabotov' instead of the correct 'Khobotov' (or another consistent spelling). Misrendering the recurring character name changes an important identifying element and undermines character continuity and recognition."
+          "justification": "The surname is transliterated as \"Khabotov\" instead of the expected \"Khobotov.\" This spelling change risks reducing immediate recognition of the recurring character tag that functions as a psychological cudgel in the scene."
         }
       ]
     },
@@ -184,7 +184,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the subject from the idiomatic, self-referential 'This is my cross to bear' to 'He's my cross to bear,' which reverses the intended meaning and undermines the manipulative self-sacrificial tone central to the line. This is a significant distortion of the original rhetorical stance."
+          "justification": "The candidate renders the line as \"He's my cross to bear... And I'm the one who'll carry it,\" which makes the PERSON (he) into the speaker's 'cross.' The original and the analysis present a fixed idiom about bearing a burden (a situation/duty), not labeling another person as the burden. This alters the manipulative meaning and the idiomatic phrasing, undermining the pivotal rhetorical tactic described in the analysis."
         }
       ]
     },
@@ -206,21 +206,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the self-deprecating, contradictory tone but uses 'mess' and 'clumsy,' which slightly increase bluntness compared with the original's coquettish, mannered self-description. The result is natural but a touch less playful and mannered than the source."
+          "justification": "The candidate captures the self-deprecating, mannered tone but introduces \"such a mess,\" which leans toward a broader personal-disorder reading rather than the specific coquettish awkwardness and 'sharp edges' suggested by the analysis. The phrasing is acceptable but slightly shifts the nuance and diminishes the original's precise, mock‑fragile characterization."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 1,
+      "minor": 5
     },
-    "total_points": 14,
+    "total_points": 10,
     "meaning_units": 11,
-    "penalty_per_unit": 1.2727272727272727,
-    "major_equiv_per_unit": 0.2545454545454545,
-    "interpretation": "1.27 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.9090909090909091,
+    "major_equiv_per_unit": 0.18181818181818182,
+    "interpretation": "0.91 MQM penalty points per meaning unit (≈ 0.18 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

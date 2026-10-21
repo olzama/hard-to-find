@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the comic reversal (claim of brevity followed by 'forty minutes') but loses the diminutive, self-mocking nuance of «коротенько» that makes Ogurtsov sound smugly modest. The phrasing 'I think that's enough' softens the managerial, tone-deaf register slightly, making the line less character-specific."
+          "justification": "The candidate preserves the contrast between 'briefly' and 'forty minutes' but flattens the diminutive, faux-modest flavor of «коротенько так». The cozy, patronizing understatement that makes the punchline sharper is weakened by the plainer phrasing and slightly awkward punctuation/casing."
         }
       ]
     },
@@ -127,10 +127,10 @@
       "candidate": "But once we take a telescope...\nAnd look with an armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye', which the analysis warns against: in English it reads more surreal and odd than the intended mock‑scientific deformation. That choice changes the register and makes the attempted pseudo‑academic effect less natural; a phrase like 'aided eye' would better preserve the subtle comic distortion."
+          "justification": "Using 'armed eye' is a literal calque that reads oddly and surreal in English, losing the intended mock‑scientific, slightly wrong-but-recognisable echo of the idiom. The analysis specifically warns that 'armed eye' overplays the oddness; a solution like 'aided eye' preserves the humorous near‑idiom without sounding bizarre. This candidate therefore fails to recreate the Russian's subtle comic deformation."
         }
       ]
     },
@@ -176,23 +176,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The content preserves the intended factual/casual contrast, but 'Science is not yet aware of the matter' sounds somewhat stilted and awkward in idiomatic English compared with the more conversational register desired ('isn't up to speed' or 'not yet aware'). This reduces the casual, colloquial comic effect described in the analysis."
+          "justification": "The candidate conveys the factual point but shifts the register toward a more formal, slightly stiff phrasing ('Science is not yet aware of the matter'), losing some of the original's conversational, colloquial casualness ('Наука ещё пока не в курсе дела') that produces the comedic contrast between sober fact and chatty tone."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -60,10 +60,10 @@
       "candidate": "about forty minutes, I don’t think we need any more than that…",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The candidate omits the diminutive faux-modesty of «коротенько» (a little/briefly in a patronizing, cozy way). By starting directly with the duration (‘about forty minutes’) the crucial comic contrast between claiming something is 'brief' and then naming a lengthy forty-minute slot is weakened, reducing the line's Ogurtsov-esque tone-deaf managerial voice."
+          "justification": "The candidate omits the diminutive faux-modesty («коротенько») that sets up the comic reversal; starting directly with “about forty minutes” removes the intended contrast between a supposedly ‘brief’ remark and an obviously long duration, which is central to the joke and Ogurtsov’s tone-deaf managerial voice."
         }
       ]
     },
@@ -149,16 +149,10 @@
       "candidate": "and we can already see two\nstars, three stars...\nFour stars... As we can already see, two stars, three stars, four stars… But of course five stars is best! [The best cognac in USSR was known as 5*]",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate includes an explicit explanatory note in brackets ('[The best cognac in USSR was known as 5*]') that was not in the reference. Adding a didactic aside onscreen changes the subtlety of the punchline and interrupts the comic derailment from astronomy to cognac."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate contains duplicated fragments and awkward line breaks (repeating the counting sequence), which makes the subtitle text feel cluttered and disrupts the smooth, escalating comic rhythm the analysis recommends. While repetition can be acceptable, here it reads as untidy rather than intentionally rhythmic."
+          "justification": "The candidate contains duplicated lines and an extraneous explanatory bracket about cognac embedded in the subtitle text. The bracketed note is an addition that should not appear in on-screen dialogue, and the repetition creates clutter; moreover the presentation disrupts the minimalist, escalating counting that leads to the gag about five stars being about cognac rather than astronomy."
         }
       ]
     },
@@ -184,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 3
+      "major": 2,
+      "minor": 0
     },
-    "total_points": 3,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

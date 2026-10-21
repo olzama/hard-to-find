@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «У Шпака — магнитофон, у посла — медальон» as 'Shpak has a tape recorder, the ambassador has a medallion,' which implies possession. The source (and analysis note) means they have been deprived/lost those items (they are missing), not that they currently possess them. This reverses the intended meaning and undermines the comedic callback."
+          "justification": "The candidate renders У Шпака — У посла as 'Shpak has... the ambassador has...', implying possession. The analysis explicitly notes these phrases mean they have been deprived of the items (they lost them / the items are missing). This reverses the meaning and contradicts the essential comic point."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original line is Bunsha introducing himself as 'the Tsar' in a repetitive, self-introducing, awkward way. The candidate ('Very pleased, Tsar! ... Hello, Tsar!') reads as if Bunsha is addressing someone called 'Tsar' rather than repeatedly introducing himself. This fails the NB requirement to make clear he is introducing himself as the Tsar, changing the intended joke."
+          "justification": "The candidate reads as if Bunsha is repeatedly addressing someone 'Tsar' ('Very pleased, Tsar!'), rather than introducing himself as the Tsar. The analysis requires that it be clear he is introducing himself (mock self-introduction), not speaking to a Tsar; the candidate therefore misrepresents the gag's basic premise."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The source means 'They have walled me in... (they are) the demons' — 'demons' is the subject causing the action. The candidate's 'Walled up, demons!' reads as if the speaker addresses demons (vocative), which contradicts the NB instruction and reverses the grammatical relation, changing the meaning."
+          "justification": "In the original the demons are the agent who walled him in (they've walled me in). The candidate's 'Walled up, demons!' reads like an address to the demons (vocative) or is ambiguous, which changes the syntactic subject and undermines the intended meaning noted in the analysis."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross does!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate ('That's what the life-giving cross does!') preserves the meaning but loses some of the high-register, archaic, solemn phrasing ('Behold the power of the life-giving cross!') that conveys the Tsar's regal conviction. The line is slightly more colloquial and less ceremonious, weakening the archaic tone."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -164,14 +157,7 @@
         "language_specific": {}
       },
       "candidate": "Black caviar, red caviar...\nYes! Exotic caviar...\nEggplant!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate presents 'Exotic caviar... Eggplant!' which effectively calls the eggplant spread 'caviar.' The analysis and NB explicitly warn against labeling eggplant spread as 'caviar' because that will confuse viewers; the joke relies on contrasting real caviar with cheap 'eggplant spread' described as if it were exotic, not actually renaming it caviar."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -191,7 +177,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate lists items plainly ('3 tape recorders... three suede jackets') but does not reproduce the comedic timing/hesitation whereby Shpak forgets to increment the jacket count (the joke's motor). The straightforward enumeration reduces the humor that depends on the character's faltering recounting."
+          "justification": "The original joke depends on Shpak stumbling from 'a suede jacket' to suddenly 'three' (the comedic self-contradiction). The candidate presents 'three suede jackets' outright, losing that small revealing slip that produces the humor."
         }
       ]
     },
@@ -213,14 +199,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 4,
-      "minor": 2
+      "major": 3,
+      "minor": 1
     },
-    "total_points": 22,
+    "total_points": 16,
     "meaning_units": 11,
-    "penalty_per_unit": 2.0,
-    "major_equiv_per_unit": 0.4,
-    "interpretation": "2.00 MQM penalty points per meaning unit (≈ 0.40 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.4545454545454546,
+    "major_equiv_per_unit": 0.2909090909090909,
+    "interpretation": "1.45 MQM penalty points per meaning unit (≈ 0.29 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which implies current possession. The analysis explicitly warns these phrases mean the items are missing/lost (they've been taken), not that the people possess them. This reverses the sentence's meaning."
+          "justification": "The candidate renders 'У Шпака — магнитофон, у посла — медальон' as 'Shpak has a tape recorder, the envoy has a medallion,' which reads as possession. The analysis and NB make clear the meaning is that these items are missing / were taken (they've been 'lost' or 'stripped' from them). This reverses the intended meaning and undermines the joke about theft."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate lines ('Very pleased, Tsar! ... Hello, Tsar! Very pleased!') read like Bunsha is addressing a tsar, whereas the analysis requires it to be clear he is introducing himself as the Tsar. This changes the intended joke (a bumbling man declaring himself 'the Tsar') and thus misrepresents the scene's comic premise."
+          "justification": "The line should convey Bunsha introducing himself as 'the Tsar' (comic self-introduction), not addressing an actual Tsar. The candidate reads like someone addressing the Tsar ('Very pleased, Tsar!'), which collapses the central gag described in the analysis (the absurdity of him repeatedly presenting himself as the Tsar). This misrepresents the comedic premise."
         }
       ]
     },
@@ -95,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The original means 'They've walled me in... (they) walled me in, the demons' with 'demons' as the subject/agent. The candidate's second line ('Walled up, demons!') reads like a vocative address to demons (calling them), which flips the grammatical role and undermines the intended meaning that he is accusing demons of walling him in."
+          "justification": "The Russian has an impersonal/passive sense ('They've walled me in') with 'demons' as the nominative subject (he's describing who did it). The candidate's 'Walled up! Walled up, demons!' reads as a vocative address to demons and loses the intended meaning that he believes he has been sealed in by demonic agents. This changes the syntax and weakens the historical/fevered reaction."
         }
       ]
     },
@@ -112,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "That's what the life-giving cross does!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate ('That's what the life-giving cross does!') preserves meaning but loses some of the elevated, archaic register and ceremonial tone of the reference ('Behold the power of the life-giving cross!'), softening the mock‑regal effect that the analysis highlights."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -169,7 +162,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as 'Overseas caviar... Eggplant!' which presents the eggplant spread as 'caviar' (or as an overseas caviar). The analysis warns explicitly not to call the eggplant spread 'caviar'; the joke depends on treating eggplant spread as a cheap Soviet product contrasted with real caviar. This rendering risks confusing the item and collapsing the satire."
+          "justification": "The original contrast hinges on calling out 'eggplant' (a cheap Soviet spread) as distinct from true caviar; the NB warns not to label eggplant spread as 'caviar.' The candidate's line ('Overseas caviar... Eggplant!') still presents the eggplant item in a way that implies it's being listed as caviar, blurring the intended satirical inversion and risking confusion."
         }
       ]
     },
@@ -207,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 1
+      "minor": 0
     },
-    "total_points": 21,
+    "total_points": 20,
     "meaning_units": 11,
-    "penalty_per_unit": 1.9090909090909092,
-    "major_equiv_per_unit": 0.38181818181818183,
-    "interpretation": "1.91 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.8181818181818181,
+    "major_equiv_per_unit": 0.36363636363636365,
+    "interpretation": "1.82 MQM penalty points per meaning unit (≈ 0.36 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

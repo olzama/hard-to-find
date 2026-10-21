@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't hire a Baba Yaga\nfrom outside.\nWe'll cultivate one in our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The added exclamation mark in 'cultivate one in our own collective!' turns the dry, self-satisfied managerial tone into an enthusiastic one. The source has no exclamation, and the analysis calls for a deadpan delivery."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -58,7 +51,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Nice' is added and 'коротенько' (briefly) is not stated outright. The faux-modest 'little talk' does carry the diminutive, so the setup works, but the explicit briefness claim the analysis wants before the forty-minute reversal is only implied."
+          "justification": "The source's explicit brevity claim («коротенько») is rendered only through the diminutive 'little' and the added 'nice'. The faux-modesty lands, but 'nice' adds warmth the source does not have, and the 'briefly' reading is less explicit than in the reference, which weakens the setup for the 'forty minutes' reversal."
         }
       ]
     },
@@ -80,7 +73,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Well and truly ready' signals only completeness, not intoxication. The double sense of 'готов' (ready / drunk) that the analysis treats as the core of the joke is not recreated. The reference also drops it, so the loss is limited."
+          "justification": "The analysis asks for the double sense of «готов» (ready / already drunk). 'Well and truly ready' hints at over-readiness but does not clearly signal intoxication. The reference has the same limitation, so the loss is minor, though the candidate's 'for ages' is a slightly weaker echo of «давно готов»."
         }
       ]
     },
@@ -97,14 +90,7 @@
         "language_specific": {}
       },
       "candidate": "- Peo-ple! Ah... Yoo-hoo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Yoo-hoo!' is a cheerful, playful call. The analysis asks for a vocally unstable, half-collapsed attempt at public address, and this reads as chipper rather than drunkenly wavering. The leading dash also marks a speaker change that the single-speaker reference does not use."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -126,10 +112,10 @@
       "candidate": "But all we have\nto do is take a telescope...\nand look with the armed eye,",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "'Look with the armed eye' is the literal calque that the language-specific note explicitly says sounds stranger and more surreal in English than the Russian. The malformed-idiom effect survives, but the phrasing is awkward. The line also ends on a trailing comma, which does not match the trailing-off '!..' of the source."
+          "justification": "The analysis identifies the comic mechanism as a familiar idiom being mangled, and its Things_to_avoid note explicitly warns that a literal 'armed eye' calque does not work in English. The candidate uses that calque. 'Armed eye' is not recognizable as a corruption of 'unaided eye', so the joke reads as surreal rather than as a drunk lecturer's pseudo-scientific error. The reference's 'aided eye' is the solution the analysis endorses."
         }
       ]
     },
@@ -154,9 +140,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The cognac association behind 'пять звёздочек' is not signalled. The reference adds a bracketed note, and the language-specific note says the link will not be obvious to most viewers. Without it, 'five-star' may not produce the sudden shift into the cognac domain that the analysis describes as the punchline."
+          "justification": "The candidate has no cognac cue, and 'five-star' in English most readily reads as a hotel rating, so the sudden shift into the cognac semantic world that the analysis calls for is weaker. 'Is five-star!' is also a clipped adjective with no noun, which is slightly unnatural. The reference's bracketed note, which the language-specific section suggests may be needed, is absent."
         }
       ]
     },
@@ -176,23 +162,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The single unresolved statement 'whether there is life on Mars or not' is split into two interrogatives, 'Is there life on Mars? Isn't there life on Mars?'. The structure reads choppier than the source, and 'Science doesn't know' is blunter than 'unknown to science', which slightly flattens the formal-to-casual register contrast."
+          "justification": "The source's 'whether there is or whether there isn't' («есть ли… нет ли») is a neutral disjunction. The candidate's 'Is there life on Mars? Isn't there life on Mars?' turns it into a rhetorical question pair with a slight yes-lean. The casual register and the 'Science hasn't been briefed yet' rendering do carry the intended effect, so the shift is minor."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 7
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 7,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

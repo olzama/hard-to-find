@@ -61,9 +61,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The phrase \"a little brief talk\" is redundant and slightly awkward in English. The candidate preserves the comic reversal (claiming \"brief\" before stating \"forty minutes\") and Ogurtsov's smug tone, but the duplication weakens the diminutive, faux-modest register that fuels the joke."
+          "justification": "The phrase “a little brief talk” is redundant and slightly clumsy in English; it weakens the cozy, faux-modest diminutive of «коротенько». The candidate still preserves the key comic reversal (claim of brevity followed by ‘forty minutes’), but the wording could be more natural and idiomatically small-sounding to match Ogurtsov’s smug tone."
         }
       ]
     },
@@ -127,10 +127,10 @@
       "candidate": "But all we have to do is take a telescope...\nAnd look with an armed eye!..",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses \"armed eye,\" a literal rendering the analysis warns against. In English this reads as oddly surreal rather than the mock‑scientific, slightly off idiom intended. The line still signals a mangled, pseudo‑scientific phrase, but the chosen wording shifts the tone away from the intended gentle parody."
+          "justification": "The candidate renders «вооружённым глазом» as “armed eye,” which in English reads as a bizarre, surreal image rather than the intended mock‑scientific deformation of the familiar idiom (“the unaided/ naked eye”). The analysis warns that a literal calque overplays the oddness; the translation should recreate a slightly off, pseudo‑scientific phrase (for example “aided eye”) rather than an unexpectedly literal and jarring ‘armed’ formulation."
         }
       ]
     },
@@ -178,14 +178,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 2
+      "major": 1,
+      "minor": 1
     },
-    "total_points": 2,
+    "total_points": 6,
     "meaning_units": 8,
-    "penalty_per_unit": 0.25,
-    "major_equiv_per_unit": 0.05,
-    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.75,
+    "major_equiv_per_unit": 0.15,
+    "interpretation": "0.75 MQM penalty points per meaning unit (≈ 0.15 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

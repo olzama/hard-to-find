@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB states the items are missing (each lost theirs). The candidate says Shpak 'ten' a magnetófono and the ambassador 'un medallón', i.e. they possess them, which reverses the meaning and loses the suspicion/theft connection."
-        },
-        {
-          "severity": "major",
-          "category": "style",
-          "span": "",
-          "justification": "'vagas dúbidas' with 'asaltan' is a weaker rendering of the mock-heroic 'terzar smutnye somneniya' (tormenting vague doubts). The line breaks and plain register lose the high-flown theatrical tone, though 'outra vez' keeps the callback."
+          "justification": "The candidate says Shpak 'ten un magnetófono' and the ambassador 'un medallón', so they still have the items. The source and the NB mean each of them lost his item. This reverses the meaning of the callback to the earlier thefts."
         }
       ]
     },
@@ -49,13 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires making clear that Bunsha introduces himself as the Tsar. The candidate's 'ola, tsar!' reads as addressing a tsar, which is the exact misreading the NB warns against. The reference's 'son o tsar' resolves this."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The greeting is 'ola' (a casual hello), which loses the formal Soviet-cliché politeness of 'Здравствуйте', and the structure no longer mirrors the original's repetitive permutation of the three elements."
+          "justification": "'Moito gusto, tsar!' reads as Bunsha greeting a tsar. The NB requires that he introduces himself as the Tsar. The candidate has no 'son o tsar' equivalent, so the drunken self-introduction joke is lost."
         }
       ]
     },
@@ -92,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'triste' is plainer and more colloquial than 'aflixido' (reference) or the archaic 'в печали', weakening the high-register, regal melancholy the analysis highlights."
+          "justification": "'triste' is flat and everyday. It loses the elevated, archaic melancholy of 'в печали', which the reference renders as 'aflixido'. The contrast with the Soviet apartment is weakened."
         }
       ]
     },
@@ -114,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says the demons must be the subject of the sentence and not be addressed. 'Emparedáronme, demos!' uses a vocative, so he is addressing the demons, which is exactly the error flagged."
+          "justification": "'Emparedáronme, demos!' puts a comma before 'demos', which makes it a vocative, so he addresses the demons. The NB requires the demons to be the subject, as in the reference 'emparedáronme os demos'."
         }
       ]
     },
@@ -161,14 +149,7 @@
         "language_specific": {}
       },
       "candidate": "Que ben que entrei!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'Que ben que entrei!' is acceptable in itself, but it loses the sense of luck in finding a jackpot of goods. More importantly, it is vague about the 'deficit goods' delight; it does stay in the arrival sense, so the main risk is only a weaker, less idiomatic effect."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -188,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB forbids calling eggplant spread 'caviar'. The candidate says 'Caviar de ultramar... De berenxena!', which labels the eggplant item as caviar and loses the satirical inversion (the reference uses 'Manxar de ultramar')."
+          "justification": "The candidate calls the item 'Caviar de ultramar' and then 'De berenxena', so the eggplant spread is still called caviar. The NB says this confuses viewers. The reference uses 'manxar de ultramar' so the cheap spread reads as a mock delicacy."
         }
       ]
     },
@@ -208,9 +189,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "terminology",
           "span": "",
-          "justification": "Digits '3' instead of spelled-out numbers, and the omission of 'de cine' and of the article 'unha' are minor losses. Also, the jacket line drops the pause structure ('куртка… замшевая… Три') that makes the forgotten increment funny, although 'tres' at the end does preserve the gag."
+          "justification": "'camurça' is the Portuguese spelling and term. Galician would use 'ante' or 'camurza'. 'cámaras' also drops 'de cine', which makes it less precise."
         }
       ]
     },
@@ -229,24 +210,24 @@
       "candidate": "E a ti tamén te curarán!\nE a ti tamén te curarán!\nE a min tamén me curarán!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "style",
           "span": "",
-          "justification": "The source is 'и тебя вылечат… и тебя тоже вылечат… и меня вылечат', with the escalation and calm resignation. The candidate repeats 'E a ti tamén' twice, so the progression from 'you' to 'also you' to 'me' is lost, and 'tamén' on 'a min' makes the sequence flatter."
+          "justification": "The candidate uses 'tamén' in all three lines, including the first, and the formal future 'curarán'. This flattens the melodic progression of the original, whose first line has no 'тоже'. The colloquial 'van curar' in the reference carries the calm, singsong resignation better."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 7,
+      "major": 4,
       "minor": 3
     },
-    "total_points": 38,
+    "total_points": 23,
     "meaning_units": 11,
-    "penalty_per_unit": 3.4545454545454546,
-    "major_equiv_per_unit": 0.6909090909090909,
-    "interpretation": "3.45 MQM penalty points per meaning unit (≈ 0.69 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.090909090909091,
+    "major_equiv_per_unit": 0.41818181818181815,
+    "interpretation": "2.09 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

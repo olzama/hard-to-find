@@ -31,7 +31,14 @@
         "language_specific": {}
       },
       "candidate": "We won't hire a Baba Yaga\nfrom outside.\nWe'll cultivate one\nwithin our own collective!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The added exclamation mark makes Ogurtsov's line more exuberant than the dry, managerial delivery of the source, which uses a dash and no emphasis. The workplace logic itself is preserved through 'hire' and 'collective'."
+        }
+      ]
     },
     {
       "id": 3,
@@ -46,7 +53,14 @@
         "language_specific": {}
       },
       "candidate": "He gives a nice little talk—\nforty minutes or so. No longer\nthan that, I think.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'He gives a nice little talk' recasts Ogurtsov's first-person managerial directive as a neutral third-person description. 'Nice' adds a warmth absent from the source. The 'we don't need' necessity framing that carries the bureaucratic stance is lost, weakening the self-satisfied, tone-deaf voice the analysis describes."
+        }
+      ]
     },
     {
       "id": 4,
@@ -66,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «готов» only as 'ready', and 'well and truly ready' is a fixed idiom meaning fully prepared. The drunk double reading that the analysis identifies as the core of the joke is lost, so the exchange no longer carries the intended ambiguity between official readiness and intoxication."
+          "justification": "The central double meaning of 'готов' (ready / drunk) is lost. 'Well and truly ready for ages' reads only as an emphatic statement of readiness, with no hint of intoxication. The analysis explicitly warns that translating only as 'ready' makes the alcohol joke disappear, and that is what happens here."
         }
       ]
     },
@@ -83,7 +97,14 @@
         "language_specific": {}
       },
       "candidate": "- Peo-ple!... Ah... yoo-hoo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "'Yoo-hoo' is a cheerful, sing-song hail rather than the faltering, half-collapsed 'ау-у' the analysis describes, so the drunken wavering is only partly preserved. The leading dash formats the entrance as dialogue, which the source does not have."
+        }
+      ]
     },
     {
       "id": 6,
@@ -105,10 +126,16 @@
       "candidate": "But if we take a telescope...\nand look with the armed eye,",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses 'the armed eye', the literal calque that the language-specific note explicitly says to avoid. English viewers do not recognize it as a mangled 'unaided eye', so the malformed-idiom joke does not register and the line reads as a translation error rather than a deliberate pseudo-scientific slip."
+          "justification": "The source 'стоит только нам взять' means 'all we have to do is take a telescope', which carries an easy, offhand 'only'. The candidate's 'But if we take a telescope' turns this into a plain conditional and loses that framing."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Armed eye' is the literal calque that the language-specific note flags as not working in English. It reads as surreal nonsense rather than a familiar idiom that has been wrongly 'upgraded', so the mock-scientific effect is weaker than in the reference's 'aided eye'."
         }
       ]
     },
@@ -130,7 +157,14 @@
         }
       },
       "candidate": "we can see two little stars,\nthree little stars...\nFour little stars...\nBut five stars, of course,\nare best!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The reference includes a cue that the 'five stars' are cognac (the bracketed note on the 5* cognac). The candidate omits it, so for most English viewers the sudden shift into the cognac frame that the analysis calls the punchline is not signposted and may read as an ordinary rating."
+        }
+      ]
     },
     {
       "id": 8,
@@ -145,19 +179,26 @@
         "language_specific": {}
       },
       "candidate": "Is there life on Mars?\nIsn't there life on Mars?\nScience doesn't know.\nScience hasn't been told yet.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The source 'есть ли жизнь на Марсе, нет ли' is a symmetrical statement of uncertainty ('whether there is life on Mars or not'). The candidate turns it into two opposed questions, 'Is there life on Mars? Isn't there life on Mars?', which changes the neutral 'whether... or not' into rhetorical questioning. The casual register of the closing lines is preserved."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 0
+      "major": 1,
+      "minor": 7
     },
-    "total_points": 10,
+    "total_points": 12,
     "meaning_units": 8,
-    "penalty_per_unit": 1.25,
-    "major_equiv_per_unit": 0.25,
-    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5,
+    "major_equiv_per_unit": 0.3,
+    "interpretation": "1.50 MQM penalty points per meaning unit (≈ 0.30 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

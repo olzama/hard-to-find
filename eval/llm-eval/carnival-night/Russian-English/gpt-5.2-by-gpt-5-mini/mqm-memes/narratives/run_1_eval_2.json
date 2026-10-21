@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate renders «коротенько» simply as “briefly,” losing the diminutive, faux-modest flavor that sets up the comic reversal with “forty minutes.” The modest, patronizing tone that makes the duration unexpectedly long is weakened."
+          "justification": "The candidate uses a plain \"briefly\" and loses the diminutive, faux-modest tone of «коротенько» that makes the forty-minute duration comic. The contrast between cosy understatement and an obviously long lecture is weakened."
         }
       ]
     },
@@ -87,9 +87,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The repetition “The lecturer is ready—ready a long time ago!” is understandable and preserves the double reading, but the phrasing is slightly stilted in English. A more natural rhythm would better preserve the backstage, offhand register while keeping the alcoholic subtext."
+          "justification": "The candidate preserves the surface meaning but the phrasing \"ready a long time ago\" is slightly awkward and reduces the snappy ambiguity between 'ready' (prepared) and 'ready' (already drunk) that the original exchange exploits."
         }
       ]
     },
@@ -135,9 +135,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque “armed eye,” which the analysis explicitly warns against: in English this reads oddly and surreal rather than mock‑scientific. That choice undermines the intended effect (a slightly wrong, pseudo‑scientific phrasing) and pushes the line into unwanted strangeness instead of the intended comic near‑legibility."
+          "justification": "The candidate renders «вооружённым глазом» as \"armed eye,\" which in English reads oddly and literal-surreal rather than the intended mock‑scientific deformation. The recommended treatment (e.g. \"aided/unaided eye\" play) preserves the recognisable idiom being mangled; \"armed eye\" breaks the delicate comic effect and reads unnatural."
         }
       ]
     },
@@ -161,7 +161,14 @@
         }
       },
       "candidate": "we already see two stars, three stars...\nFour stars—best of all,\nof course, five stars!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The counting and punchline are preserved, but the line breaks and punctuation make the build-up slightly clumsy (\"Four stars—best of all, of course, five stars!\") which weakens the rhythmic surprise of the final cognac-related punchline."
+        }
+      ]
     },
     {
       "id": 8,
@@ -185,7 +192,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the factual content but the phrase “Science is not yet up to date” feels slightly off-register compared with the original’s casual, idiomatic tone («Наука ещё пока не в курсе дела»). The translation is a bit more formal/odd and loses some of the conversational breeziness that produces the comic effect."
+          "justification": "The candidate keeps the factual content but renders «Наука ещё пока не в курсе дела» as \"Science is not yet up to date,\" which sounds slightly off-register (more like software or news). A more colloquial idiom (e.g. \"not yet up to speed\") would better capture the casual, conversational tone that produces the humor."
         }
       ]
     }
@@ -193,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 3
+      "minor": 4
     },
-    "total_points": 8,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

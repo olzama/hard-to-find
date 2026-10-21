@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, there is an instruction to\nwelcome the New Year cheerfully.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate preserves the bureaucratic directive and the clash with festive content, but the phrasing 'there is an instruction to welcome the New Year cheerfully' is slightly awkward and less idiomatically managerial than the reference. It weakens the clipped, officious register a little (e.g. 'we have our instructions to...'), making the line read more like an awkward invitation than a top-down order."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -65,7 +58,14 @@
         }
       },
       "candidate": "And then briefly—about\nforty minutes; more, I think,\nisn't necessary",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the comic reversal (’briefly’ followed by ‘forty minutes’) but loses some of the diminutive, faux-modest flavor of «коротенько так». ‘Briefly’ is adequate but slightly flatter than the Russian cozy, patronizing nuance that sharpens the joke."
+        }
+      ]
     },
     {
       "id": 4,
@@ -84,14 +84,7 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—has been ready a long time!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The literal wording preserves the surface meaning ('ready') but the candidate doesn't clearly keep the drunken double reading ('ready' = drunk) as strongly as the analysis suggests. The reply 'has been ready a long time' hints at it, but lacks the same cheeky, ambiguous tone that makes the line comically twofold."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 5,
@@ -135,9 +128,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis warns against because it reads oddly and more surreal in English. That choice distorts the intended mock‑scientific, slightly off idiom; a phrasing like 'aided eye' would better capture the original's near‑idiomatic deformation without sounding bizarre."
+          "justification": "The literal calque ‘armed eye’ reads oddly in English and risks sounding surreal rather than mock‑scientific. The analysis recommends a solution echoing ‘unaided eye’ (e.g. ‘aided eye’) to keep the comic register of pseudo‑academic distortion; ‘armed eye’ oversteps into strangeness and weakens the intended parody."
         }
       ]
     },
@@ -186,13 +179,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 2,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.25,
+    "major_equiv_per_unit": 0.05,
+    "interpretation": "0.25 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

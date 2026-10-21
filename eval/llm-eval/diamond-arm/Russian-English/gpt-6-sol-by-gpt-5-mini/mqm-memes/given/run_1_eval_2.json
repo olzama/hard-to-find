@@ -131,7 +131,14 @@
         }
       },
       "candidate": "As our dear boss says,\non someone else's dime,\neven teetotalers and convalescers drink!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The choice 'convalescers' is technically accurate but awkward and uncommon in natural English, which slightly disrupts the original's rhythmic, balanced couplet (teetotalers / yazvenniki). A more colloquial or rhythmic word would preserve the proverb-like punch better."
+        }
+      ]
     },
     {
       "id": 9,
@@ -362,13 +369,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 0
+      "minor": 1
     },
-    "total_points": 0,
+    "total_points": 1,
     "meaning_units": 23,
-    "penalty_per_unit": 0.0,
-    "major_equiv_per_unit": 0.0,
-    "interpretation": "0.00 MQM penalty points per meaning unit (≈ 0.00 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.043478260869565216,
+    "major_equiv_per_unit": 0.008695652173913044,
+    "interpretation": "0.04 MQM penalty points per meaning unit (≈ 0.01 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-6-sol"

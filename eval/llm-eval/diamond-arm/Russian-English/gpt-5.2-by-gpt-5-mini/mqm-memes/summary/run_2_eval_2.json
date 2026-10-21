@@ -21,7 +21,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate drops the initial vocative 'Guys' and softens the policeman's mocking, bored tone. The short, conversational clash of registers (Gorbunkov's melodrama vs the cop's deadpan joke) is preserved in content but the interplay is less punchy and comic."
+          "justification": "The policeman's line in the candidate ('Get drunk—you will be!') preserves the mocking idea but reads awkwardly and less natural than the reference's colloquial retort ('Get drunk enough, and you will be!'), weakening the bored/cop-humor tone."
         }
       ]
     },
@@ -38,7 +38,14 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate conveys the meaning but drops the light, bouncy rhythm implied by the Russian rhyme (Trus/Bo-yus). The line reads more prosaic and loses a bit of the endearing comic bounce the analysis recommends."
+        }
+      ]
     },
     {
       "id": 3,
@@ -98,14 +105,7 @@
         "language_specific": {}
       },
       "candidate": "As our beloved boss says,\nif a man’s an idiot—\nit’s for the long haul.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's 'it's for the long haul' conveys the meaning but loses some of the brusque, aphoristic punch and the blunt finality of the original phrasing ('it's for a long time!'), slightly softening Lyolik's diagnostic deadpan."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -170,7 +170,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate gives a neutral line 'One tablet is enough...' but omits the comic mispronunciation/phonetic play highlighted in the analysis, which is an important humorous character marker for Lyolik."
+          "justification": "The candidate communicates the idea but loses the comic effect of Lyolik's mispronunciation and emphasis on the word 'tablet' that the analysis highlights; the line is flatter and more neutral."
         }
       ]
     },
@@ -207,7 +207,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the address but removes the elongated, melodic sigh ('Semyo-o-on Semyonych!') that carries weary, musical exasperation in the original; the line becomes flatter and less characterful."
+          "justification": "The candidate conveys the sigh of exasperation but omits the elongated, melodic stretching of the name present in the source (Semyo-o-on), which reduces the musical, weary effect described in the analysis."
         }
       ]
     },
@@ -254,7 +254,14 @@
         "language_specific": {}
       },
       "candidate": "I slipped, I fell...\na closed fracture...\nLost consciousness, came to—\na cast!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The telegraphic rhythm is preserved, but the last beat ('Lost consciousness, came to— a cast!') reads slightly abrupt/awkward in English; a smoother cadence would better mirror the rehearsed, staccato alibi."
+        }
+      ]
     },
     {
       "id": 16,
@@ -347,9 +354,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate translates content but loses the affected pronunciation and comic pretension ('kof-e', 'vunnu') that mark Gena's attempted sophistication. The misspelling 'baath' also looks like a typo and the line no longer reads as a performed, affected register."
+          "justification": "The candidate attempts to mirror Gena's affectedness but misspells 'bath' as 'baath' and does not convey the specific comic mispronunciation of 'coffee' (kof-e) noted in the analysis; the register and mock-sophistication are therefore weakened."
         }
       ]
     },
@@ -386,7 +393,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the refusal but removes the intentionally nonstandard, folksy verb form that adds rustic stubbornness and comic emphasis in the original. The neutral 'No, I can’t do that!' loses that specific character color."
+          "justification": "The candidate correctly expresses refusal but loses the intentionally nonstandard, folksy verb form ('пойти' mis-shaped in the original) that adds a rustic, stubborn comic flavor to the line; the result is more neutral and less characterful."
         }
       ]
     }
@@ -394,13 +401,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 6
+      "minor": 7
     },
-    "total_points": 6,
+    "total_points": 7,
     "meaning_units": 23,
-    "penalty_per_unit": 0.2608695652173913,
-    "major_equiv_per_unit": 0.05217391304347826,
-    "interpretation": "0.26 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.30434782608695654,
+    "major_equiv_per_unit": 0.06086956521739131,
+    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

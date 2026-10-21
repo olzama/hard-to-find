@@ -21,13 +21,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says the items have been lost. 'Shpak: grabadora. El embajador: medallón.' is a bare list that does not say the items disappeared, so the callback to the thefts is lost. 'Grabadora' is also acceptable for magnetofón, but the meaning of loss is the main problem."
+          "justification": "The NB says the items are lost, but 'Shpak: grabadora. El embajador: medallón.' is a bare label list with no verb. It does not convey that each lost the item, so the callback to the thefts is unclear."
         },
         {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vagas sospechas' and 'me atormentan' keep a reasonably elevated register, but the telegraphic second half breaks the mock-heroic flow of the line."
+          "justification": "'Vagas sospechas' with 'atormentan' is acceptable, but the line breaks and clipped list format flatten the mock-heroic theatrical register and rhythm of the original."
         }
       ]
     },
@@ -49,13 +49,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB requires that Bunsha introduce himself as the Tsar. 'Mucho gusto, zar' and 'Hola, zar' read as addressing a Tsar, which is the misreading the NB warns against."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "An extra fourth line ('¡Hola, zar! ¡Mucho gusto!') is added, and the source has only three variations. This adds to the mismatch with the source structure."
+          "justification": "The NB requires that Bunsha introduces himself as the Tsar. 'Mucho gusto, zar!' and 'Hola, zar!' read as addressing a tsar, which reverses the meaning and loses the joke of the drunken impersonation."
         }
       ]
     },
@@ -92,7 +86,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Vieja' and 'estoy triste' are plainer and blunter than the reference's 'viejecita' and 'afligido'. This weakens the archaic, regal melancholy the analysis describes."
+          "justification": "'Vieja' and 'estoy triste' are plain and colloquial. They lose the archaic, high-register melancholy ('estoy afligido', 'viejecita') that contrasts with the Soviet setting."
         }
       ]
     },
@@ -114,7 +108,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says the demons must be the subject. 'Nos han emparedado' adds a 'nos' that is not in the source, and 'Emparedado, demonios!' reads as addressing the demons or exclaiming at them. This contradicts the NB."
+          "justification": "'Nos han emparedado' adds a plural subject that is not in the source. 'Emparedado, demonios!' reads as addressing the demons, which the NB forbids. The demons must be the subject: 'me han emparedado los demonios'."
         }
       ]
     },
@@ -163,10 +157,10 @@
       "candidate": "¡Qué bien que he entrado!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'¡Qué bien que he entrado!' is acceptable in meaning, but it loses the sense of luck in having chosen this apartment ('acerté de sitio'). It also does not clearly convey the cheerful discovery of the goods, which weakens the anti-hero's comic reaction."
+          "justification": "'¡Qué bien que he entrado!' correctly conveys that he has just entered, so it is not misleading. It loses the idiomatic, ironic sense of luck in choosing this apartment ('acerté de sitio') and the cheerful anti-hero tone."
         }
       ]
     },
@@ -188,7 +182,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The NB says eggplant spread must not be called 'caviar'. The candidate says 'Caviar de ultramar... De berenjena', which calls it caviar and confuses viewers. The satirical inversion is therefore muddled."
+          "justification": "The NB says not to call eggplant spread 'caviar'. The candidate says 'Caviar de ultramar... De berenjena', which does exactly that. It loses the 'manjar de ultramar' inversion and may confuse viewers."
         }
       ]
     },
@@ -210,13 +204,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The joke depends on Shpak forgetting to increment the jacket count, with a singular jacket followed by 'tres'. The candidate uses the plural 'chaquetas de ante: tres', which removes the slip that betrays him."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Digits ('3') in place of spelled-out numbers weaken the spoken rhythm of the enumeration."
+          "justification": "The joke depends on Shpak forgetting to increment the jacket count, and on the singular 'una chaqueta' and the hesitation. The candidate pluralizes 'chaquetas de ante: tres', which removes the slip and the humor."
         }
       ]
     },
@@ -233,26 +221,19 @@
         "language_specific": {}
       },
       "candidate": "¡Y a ti te curarán!\n¡Y a ti también te curarán!\n¡Y a mí me curarán!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The exclamation marks give an emphatic, shouted tone. The analysis describes a melodic, calm resignation, so the line is less accurate in tone."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 5,
+      "minor": 3
     },
-    "total_points": 35,
+    "total_points": 28,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.5454545454545454,
+    "major_equiv_per_unit": 0.509090909090909,
+    "interpretation": "2.55 MQM penalty points per meaning unit (≈ 0.51 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

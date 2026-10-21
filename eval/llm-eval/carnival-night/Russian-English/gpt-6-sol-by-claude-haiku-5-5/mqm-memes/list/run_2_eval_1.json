@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't recruit\nBaba Yaga from outside.\nWe'll cultivate one\nin our own collective!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The added exclamation mark gives the line an emphatic flourish that the source lacks. The source is a dry, deadpan statement, and the analysis stresses that the humor depends on its matter-of-fact workplace logic."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -55,16 +48,16 @@
       "candidate": "He gives a brief address—\nforty minutes or so. I don't think\nwe need any more than that.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "«Коротенько» is rendered as the plain 'brief address', which drops the faux-modest, cozy diminutive. The analysis identifies this as the mechanism that makes 'forty minutes' land as the punchline, and says a flat rendering weakens the contrast."
+          "justification": "The diminutive «коротенько» carries the faux-modest, patronizing tone the analysis calls for. \"A brief address\" is flatter and loses that cozy understatement before the forty-minute reversal."
         },
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "'He gives a brief address' introduces a third-person framing that is not in the source. The speaker's own voice, describing the planned talk in the first person ('I don't think we need any more'), is partly displaced."
+          "justification": "The source is Ogurtsov speaking in the first person about his own plan. The candidate opens with third-person narration (\"He gives\") and then switches back to \"I don't think,\" which makes the speaker's voice less direct."
         }
       ]
     },
@@ -84,9 +77,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The answer 'Ready? He's been ready for ages!' turns the source's assertive confirmation into an echoing, incredulous question. The double sense of 'ready' survives through repetition, but the drunken subtext is carried less clearly than in the reference."
+          "justification": "The source answer «Готов лектор, давно готов» is an affirmative confirmation. The candidate's \"Ready?\" turns it into a doubtful echo question, which changes the speech act. The drunk double meaning survives only through the ambiguity of \"ready,\" as in the reference."
         }
       ]
     },
@@ -108,7 +101,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'People! Hello? Yoo-hoo!' loses the stretched, faltering shape of «Лю-ди! А… ау-у!». 'Yoo-hoo' reads as a cheerful, playful call rather than a drunken, wavering attempt at public oratory, and the hesitation pause is absent."
+          "justification": "The stretched, broken «Лю-ди!» becomes a clean, unstretched \"People!\", which the analysis warns against. The hesitation and call-and-response shape partly survive in \"Hello? Yoo-hoo!\", so the vocal instability is weakened rather than lost."
         }
       ]
     },
@@ -132,10 +125,10 @@
       "candidate": "But once we take a telescope...\nand look with the armed eye,",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate uses 'armed eye', the literal calque that the language-specific note explicitly says to avoid because it sounds stranger and more surreal than the Russian. This contradicts the analysis. The chosen alternative ('aided eye', echoing 'unaided eye') was the intended solution for preserving the mock-scientific feel."
+          "justification": "\"Armed eye\" is the literal calque the analysis explicitly says does not work in English. It reads as surreal or sci-fi rather than as a slightly wrong, mock-scientific version of \"unaided eye,\" and it lacks the echo of the familiar English idiom."
         }
       ]
     },
@@ -160,15 +153,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Though five stars, of course, would be best!' makes the final line hypothetical ('would be') and contrastive ('Though'). The analysis asks for a sudden, confident click into a different semantic world, and this softens the snap of the punchline."
-        },
-        {
-          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits any note explaining that five-star is the USSR's best cognac rating. The analysis says this association may need a translator's note because most viewers won't recognize it, so part of the cultural punchline is lost for them."
+          "justification": "The cognac reference behind «пять звёздочек» is not recoverable for the target audience. Without the reference's translator's note, \"five stars\" reads only as a rating, so the sudden click into a different semantic world is weaker. The diminutive «звёздочки» is well rendered by \"little stars.\""
         }
       ]
     },
@@ -190,21 +177,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Science hasn't been informed yet' is stiffer and more passive than the source's conversational «не в курсе дела». The analysis identifies the casual register of this phrase as the core comic effect, and the candidate sounds more formal than intended."
+          "justification": "\"Science hasn't been informed yet\" is stiffer and more bureaucratic than the colloquial «Наука ещё пока не в курсе дела». The analysis depends on that casual register for the mismatch with the valid factual content. \"Not up to speed\" or \"not in the loop\" would sit closer to the source. The \"briefed\" nuance is still partly kept."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
+      "major": 0,
       "minor": 7
     },
-    "total_points": 17,
+    "total_points": 7,
     "meaning_units": 8,
-    "penalty_per_unit": 2.125,
-    "major_equiv_per_unit": 0.425,
-    "interpretation": "2.12 MQM penalty points per meaning unit (≈ 0.42 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.875,
+    "major_equiv_per_unit": 0.175,
+    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "gpt-6-sol"

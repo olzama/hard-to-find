@@ -20,7 +20,14 @@
         }
       },
       "candidate": "Comrades, we have instructions\nto greet the New Year cheerfully.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the bureaucratic register and the clash between official phrasing and festive content, but the phrasing 'instructions to greet the New Year cheerfully' is slightly less natural and less idiomatically festive than the reference 'instructions to celebrate the New Year merrily.' The verb 'greet' narrows the sense and weakens the warm, holiday connotation that heightens the bureaucratic absurdity."
+        }
+      ]
     },
     {
       "id": 2,
@@ -63,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate loses the diminutive, faux-modest flavor of «коротенько»—the single word 'briefly' is flatter and less patronizing. The comic contrast between claimed 'briefness' and the surprisingly long 'forty minutes' is still present, but the cozy, self-satisfied tone of Ogurtsov is weakened."
+          "justification": "The candidate keeps the crucial comic structure (claim of brevity followed by 'forty minutes'), but translating 'коротенько' simply as 'briefly' loses the diminutive, faux-modest tone that makes the understatement absurdly pompous. The contrast is still present but softened."
         }
       ]
     },
@@ -84,7 +91,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—has been ready for a long time!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The exchange in Russian relies on ambiguity of 'готов' which can imply 'ready' and colloquially 'smashed/drunk.' The candidate renders both lines only as literal 'ready' with no hint of the alcoholic double reading, removing the subtext that the lecturer may already be drunk and thereby losing the line's central comic ambiguity."
+        }
+      ]
     },
     {
       "id": 5,
@@ -108,7 +122,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the faltering, elongated address as a cry for 'help' ('heeellp!'), which changes the intent and comic effect. The original is a broken, theatrical attempt to call the audience ('Peo-ple!... Ah... hellooo!'), not a plea for assistance; the candidate therefore loses the drunken, pathetic public-speaking collapse that is central to the joke."
+          "justification": "The original faltering vocalization is an attempted formal address that collapses into a wavering sound ('А… ау-у!'), signaling drunken theatrical failure. The candidate's 'heeellp' turns this into a cry for help rather than a slurred greeting/attempt to address the audience, changing the comic effect and the character's intent."
         }
       ]
     },
@@ -135,9 +149,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate calques «вооружённым глазом» as 'armed eye,' which in English reads oddly and more surreal than the Russian. The analysis recommends a solution like 'aided eye' to preserve the mock-scientific wobble without making the phrase unexpectedly literal/strange; 'armed eye' therefore weakens the intended comic register."
+          "justification": "The candidate uses the literal calque 'armed eye,' which the analysis warns against: in English this sounds more surreal than the Russian playful deformation. This choice risks losing the mock‑scientific, slightly wrong-but-recognizable feel; a phrase like 'aided eye' would better preserve the intended comic proximity to 'the unaided eye.'"
         }
       ]
     },
@@ -185,14 +199,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
-      "minor": 2
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 7,
+    "total_points": 13,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.625,
+    "major_equiv_per_unit": 0.325,
+    "interpretation": "1.62 MQM penalty points per meaning unit (≈ 0.33 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

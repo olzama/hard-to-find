@@ -26,7 +26,13 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"I'm tormented by vague doubts again\" is a plain rendering and loses some of the mock-heroic, theatrical flavor of 'терзают смутные сомнения' that the reference keeps with 'Vague doubts haunt me once again'. The 'missing' structure correctly conveys that the items are gone, so meaning is preserved."
+          "justification": "'I'm tormented by vague doubts again' keeps the elevated register reasonably well, but the inverted, less archaic phrasing is slightly weaker than the mock-heroic 'Vague doubts haunt me'."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "'Shpak's missing a tape recorder' correctly conveys that the items are gone, but the explicit, parallel 'missing' construction loses the terse, ominous list rhythm of the original."
         }
       ]
     },
@@ -43,14 +49,7 @@
         "language_specific": {}
       },
       "candidate": "Pleased to meet you, I'm the Tsar!\nPleased to meet you, hello, I'm the Tsar!\nThe Tsar here, pleased to meet you!\nHello, I'm the Tsar! Pleased to meet you!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate correctly makes clear that Bunsha introduces himself as the Tsar. However, it adds exclamation marks and rephrases the greeting so that it reads as more enthusiastic and less like the stiff, repetitive Soviet formal cliché the analysis describes. The drunken, mundane repetition is only partly kept."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -140,14 +139,7 @@
         }
       },
       "candidate": "Everybody dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Everybody dance!\" is accurate and conveys the command. It is plainer than the reference's 'The floor is open to everyone!', which has a more festive, party-host feel, though it still fits the chaotic disco-style moment."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -167,7 +159,14 @@
         }
       },
       "candidate": "Well, I sure picked the right place to drop in!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "accuracy",
+          "span": "",
+          "justification": "'Drop in' correctly signals he has just arrived, so it is not misleading, but the phrase 'picked the right place' shifts the nuance slightly from a lucky chance entry to a deliberate choice."
+        }
+      ]
     },
     {
       "id": 9,
@@ -187,14 +186,7 @@
         }
       },
       "candidate": "Black caviar, red caviar...\nYes! And an exotic overseas delicacy...\nEggplant spread!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate correctly avoids calling the eggplant spread 'caviar'. However, \"an exotic overseas delicacy\" slightly softens the comedy: the joke relies on a cheap Soviet canned spread being presented as a rare 'заморская' item, and the plain 'delicacy' loses the deadpan inversion a little. The meaning is still understandable."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 10,
@@ -217,9 +209,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate moves 'domestic' to describe the cigarette cases, which is acceptable. Using numerals ('3') instead of spelled-out 'three' weakens the spoken rhythm of the count and the final punchline 'three' on the jacket. The joke of the forgotten increment is preserved."
+          "justification": "Numerals '3' instead of spelled-out 'Three' weaken the spoken comic rhythm, and the 'domestic' placement now modifies only cigarette cases, which is acceptable, but the numeral at the final 'three' is inconsistent."
         }
       ]
     },
@@ -242,13 +234,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 5,
+    "total_points": 4,
     "meaning_units": 11,
-    "penalty_per_unit": 0.45454545454545453,
-    "major_equiv_per_unit": 0.09090909090909091,
-    "interpretation": "0.45 MQM penalty points per meaning unit (≈ 0.09 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.36363636363636365,
+    "major_equiv_per_unit": 0.07272727272727272,
+    "interpretation": "0.36 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

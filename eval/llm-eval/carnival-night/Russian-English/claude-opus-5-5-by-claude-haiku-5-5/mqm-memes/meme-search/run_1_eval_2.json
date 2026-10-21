@@ -46,14 +46,7 @@
         "language_specific": {}
       },
       "candidate": "just a short one,\nforty minutes or so - no more is needed, I think",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Just a short one\" only partly recreates the faux-modest, diminutive coziness of «коротенько» that the analysis asks for, and \"no more is needed, I think\" is stiff, which weakens the patronizing tone before the forty-minute punchline."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -73,7 +66,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"long ready!\" is an unidiomatic calque of «давно готов». Natural English would be something like \"ready for ages,\" and the exclamation gives a less knowing, wry tone than the reference's \"Oh, he's ready.\""
+          "justification": "\"The lecturer's ready, long ready!\" uses \"long ready\", a calque of \"давно готов\" that is not idiomatic English. The reference's \"He's been ready for quite a while\" reads naturally. The drunk double sense survives through the repeated \"ready\", but the phrasing weakens the rhythm of the answer."
         }
       ]
     },
@@ -95,7 +88,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"People!..\" normalizes the stretched, faltering \"Лю-ди!\" that the analysis identifies as carrying the drunken physical comedy. The vocal instability is only partly kept by the ellipsis and \"Yoo-hoo\"."
+          "justification": "\"People!\" is unstretched, while the analysis stresses the broken, stretched shape of \"Лю-ди!\" as part of the drunken comedy. The reference's \"Peo-ple!\" keeps that stretch. \"Yoo-hoo\" does carry the wavering call well, so the loss is limited to the first word."
         }
       ]
     },
@@ -122,13 +115,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The analysis locates the joke in the mock-scientific upgrade of the idiom «невооружённым глазом» into «вооружённым глазом». \"Not with the naked eye but the dressed one\" substitutes a naked/dressed wordplay that does not convey the lecturer's pseudo-scientific pomp. It is a different, still somewhat funny joke, but the intended effect is weakened."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"the dressed one\" is ambiguous because the noun \"eye\" is dropped and the phrase can read as a person. The trailing emphatic \"!..\" is also replaced by a comma, which flattens the drunken, wavering close."
+          "justification": "\"Look not with the naked eye but the dressed one\" is a valid substitution: a standard idiom is deformed into a silly variant, which preserves the mangled-idiom mechanism. However, \"dressed\" reads as silly rather than as the lecturer's mock-scientific 'upgrade' of the idiom, so the pseudo-scientific pomp the analysis describes is weakened."
         }
       ]
     },
@@ -152,10 +139,10 @@
       "candidate": "and already we see two\nstars, three stars..\nFour stars, but best of all,\nof course, five stars!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"and already we see\" opens as an awkward lowercase fragment with a dropped \"As\", which is weak as a standalone subtitle. \"two stars, three stars\" also lacks the childish \"little\" diminution the analysis asks for, so the counting sounds less trivial."
+          "justification": "The punchline depends on the sudden shift from astronomy-style counting to the cognac star-rating system, which the analysis identifies as the crux of the joke. The candidate has no note or other bridge, so most English viewers will read \"five stars\" as a generic rating or astronomy-adjacent count and miss the click. The reference's bracketed translator's note addresses this, and the candidate omits it, so the cultural point is lost."
         }
       ]
     },
@@ -177,21 +164,21 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "\"is there no life on Mars\" is stilted and clunky compared with the natural \"Whether there is life on Mars or not\" of the reference, which slightly weakens the fluency of the casual, loose phrasing the analysis wants preserved."
+          "justification": "\"Is there life on Mars, is there no life on Mars\" is clunky: \"is there no life\" is an unidiomatic literal construction, and the comma splice reads awkwardly. \"Whether there is life on Mars or not\" (as in the reference) would be more natural. The casual register of \"science does not know\" and \"Science hasn't been briefed yet\" is good and preserves the mismatch the analysis describes."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
-      "minor": 7
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 7,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 0.875,
-    "major_equiv_per_unit": 0.175,
-    "interpretation": "0.88 MQM penalty points per meaning unit (≈ 0.17 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-haiku-5-5",
   "translator": "claude-opus-5-5"

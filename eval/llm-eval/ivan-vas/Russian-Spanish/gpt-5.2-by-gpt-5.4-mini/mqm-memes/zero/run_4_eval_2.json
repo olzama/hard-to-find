@@ -21,7 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the key meaning of the line: it says Shpak and the ambassador still have the items, while the source implies the items are missing from them. This breaks the callback to the earlier theft joke."
+          "justification": "The candidate says Shpak and the ambassador still have the items, but the line means the items are missing/lost. This breaks the callback and the setup for the suspicion joke."
         }
       ]
     },
@@ -43,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The line no longer clearly works as Bunsha repeatedly introducing himself as the Tsar; it reads like he is addressing the Tsar or simply saying 'zar' as a form of address. The required comic misunderstanding and self-identification are weakened."
+          "justification": "The line should clearly show Bunsha repeatedly introducing himself as the Tsar. Here it can read as addressing the Tsar, and the self-identification becomes too weak/ambiguous, which undercuts the comic effect described in the analysis."
         }
       ]
     },
@@ -80,7 +80,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Estoy triste\" is understandable, but it is flatter and less elevated than the reference's more regal, archaic tone. The melancholy sounds more ordinary and less like Ivan's high-register dismissal."
+          "justification": "The meaning is preserved, but 'estoy triste' is flatter and less elevated than the grave, somewhat archaic 'estoy afligido', so the regal melancholy is slightly weakened."
         }
       ]
     },
@@ -102,7 +102,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the subject from the Tsar alone to a plural 'we' ('Nos emparedaron'), which contradicts the original and the joke about the Tsar's misunderstanding. The second line also sounds like he is addressing the demons rather than naming them as the cause."
+          "justification": "The candidate changes the subject from 'me han emparedado' to 'nos emparedaron', adding 'we/us' that is not in the source and obscuring the Tsar's personal bewilderment. It also shifts the line away from the mistaken belief that demons are the agents."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hace\" is slightly more colloquial and less idiomatic than \"obra\" for this mock-biblical exaltation, so the solemn miracle-register is weakened a bit, though the meaning remains intact."
+          "justification": "'Hace' is understandable, but it sounds less idiomatic and slightly less forceful than the reference's 'obra', which better conveys the mock-religious astonishment of the moment."
         }
       ]
     },
@@ -141,14 +141,7 @@
         "language_specific": {}
       },
       "candidate": "¡Que baile todo el mundo!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"¡Que baile todo el mundo!\" is natural, but it is less sharp and more explanatory than the concise imperative force of \"¡Todos a bailar!\". The chant-like, energizing punch is slightly diluted."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -165,10 +158,10 @@
       "candidate": "¡Qué bien que pasé por aquí!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate implies he merely 'passed by here,' which can suggest random passing rather than a lucky entry into the apartment full of goods. It weakens the comic satisfaction of the burglar's successful discovery and the note that he has just entered."
+          "justification": "'¡Qué bien que pasé por aquí!' is more like 'I'm glad I came here' and is less clearly the smug reaction to unexpectedly finding valuables after entering. It slightly weakens the opportunistic, self-satisfied tone."
         }
       ]
     },
@@ -190,7 +183,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The last part is split awkwardly into 'Caviar de ultramar... ¡De berenjena!', which obscures the original's punchline that the cheap eggplant spread is being grandly mislabeled as an overseas delicacy. It risks losing the ironic contrast and the joke's rhythm."
+          "justification": "The joke depends on 'eggplant' being the absurd 'caviar' substitute, but the candidate splits it off so that 'de berenjena' stands alone without making the relation explicit. This makes the satirical punch much less clear and risks losing the gag."
         }
       ]
     },
@@ -209,10 +202,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 pitilleras nacionales,\nchaqueta de ante, tres.",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The abbreviated list is understandable, but the formatting is choppy and less rhythmic than the source. It also weakens the comic buildup of the repeated counts and the delayed 'chaqueta de ante' detail."
+          "justification": "The cumulative joke of 'three... three... three... three' is weakened because the final jacket count is not clearly marked as having been counted three times. 'chaqueta de ante, tres' is understandable, but it does not reproduce the incremental exaggeration cleanly."
         }
       ]
     },
@@ -234,7 +227,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate omits the first clause entirely, so it no longer conveys the full escalating reassurance ('and you too... and I too...'). This drops part of the shared, resigned comic effect of everyone being 'treated'."
+          "justification": "The candidate omits the first clause about the other person being cured, reducing the repetitive, escalating reassurance that is central to the joke and to Ulyana Andreyevna's resigned tone."
         }
       ]
     }
@@ -242,13 +235,13 @@
   "summary": {
     "counts": {
       "major": 6,
-      "minor": 4
+      "minor": 3
     },
-    "total_points": 34,
+    "total_points": 33,
     "meaning_units": 11,
-    "penalty_per_unit": 3.090909090909091,
-    "major_equiv_per_unit": 0.6181818181818182,
-    "interpretation": "3.09 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 3.0,
+    "major_equiv_per_unit": 0.6,
+    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

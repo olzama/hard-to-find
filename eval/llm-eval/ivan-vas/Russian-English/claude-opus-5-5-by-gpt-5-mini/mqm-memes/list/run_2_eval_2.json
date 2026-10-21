@@ -23,10 +23,16 @@
       "candidate": "Once again I'm plagued\nby vague suspicions...\nShpak loses a tape recorder,\nthe ambassador loses his order.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate changes the syntactic relation: 'Shpak loses a tape recorder, the ambassador loses his order' reads as present-tense actions (or possessions) rather than indicating those items are missing/lost as in the source and analysis note. More importantly, 'order' is an incorrect rendering of 'медальон' (medallion). This both misstates the status of the items and introduces a wrong object."
+          "justification": "The candidate renders 'у Шпака — у посла' as 'Shpak loses... the ambassador loses...', which is slightly awkward and imprecise: the Russian implies these people no longer have the items (they were taken/lost), not a present-tense habitual 'loses'. More importantly, 'medallion' is rendered as 'order', which is a different object/term and weakens the specific joke about a medallion being missing."
+        },
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The line breaks and phrasing ('Shpak loses a tape recorder, the ambassador loses his order') flatten the mock-heroic theatrical tone of the original 'терзают смутные сомнения...' and make the list sound more prosaic and less ceremonially comic."
         }
       ]
     },
@@ -43,7 +49,14 @@
         "language_specific": {}
       },
       "candidate": "Very pleased, hello, tsar!\nTsar, very pleased!\nHello, tsar! Very pleased!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The candidate reads like someone greeting an actual tsar (addressing the Tsar) rather than Bunsha introducing himself as 'the Tsar.' The analysis explicitly requires clarity that he is introducing himself (mock self-identification), so this version changes the pragmatic meaning and undermines the joke about the repetitive, self-important introduction."
+        }
+      ]
     },
     {
       "id": 3,
@@ -95,10 +108,10 @@
       "candidate": "Walled in!\nThey've walled me in, the demons!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The source means 'Demons (have) walled me in' (demons as the subject). The candidate punctuation/wording 'They've walled me in, the demons!' reads as if the speaker is addressing the demons (vocative), which reverses the intended grammatical role and weakens the joke about perceiving a mechanical failure as demonic action."
+          "justification": "The candidate's punctuation/word order ('They've walled me in, the demons!') reads as if the Tsar is directly addressing the demons (vocative), whereas the original means that demons are the subject who walled him in. This shifts the syntactic role and slightly alters the intended comic misunderstanding."
         }
       ]
     },
@@ -185,7 +198,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The analysis warns against calling the eggplant spread 'caviar' because that would confuse viewers; the contrast is precisely that eggplant spread is a cheap Soviet product presented as an exotic item. Rendering it as 'Eggplant caviar!' misrepresents the intended satirical inversion."
+          "justification": "The candidate translates 'баклажанная' as 'Eggplant caviar' (i.e., calls the eggplant spread 'caviar'). The analysis warns strongly not to label the eggplant spread as caviar because that will confuse viewers; the joke depends on contrasting real black/red caviar with a cheap eggplant spread presented as a mock 'overseas delicacy.' Calling it 'caviar' collapses that contrast and misleads."
         }
       ]
     },
@@ -227,14 +240,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 3,
-      "minor": 0
+      "major": 2,
+      "minor": 3
     },
-    "total_points": 15,
+    "total_points": 13,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.1818181818181819,
+    "major_equiv_per_unit": 0.2363636363636364,
+    "interpretation": "1.18 MQM penalty points per meaning unit (≈ 0.24 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

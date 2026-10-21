@@ -20,14 +20,7 @@
         }
       },
       "candidate": "Comrades, we have an instruction\nto greet the New Year merrily.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"We have an instruction\" keeps the directive framing, but \"greet the New Year merrily\" is slightly less natural than \"celebrate\" and the bureaucratic-versus-festive contrast is a bit weaker. The core joke survives."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -51,13 +44,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" is kept untranslated, which leans toward the fairy-tale reading. The analysis warns against this because the humor depends on the workplace type of a nasty woman. English viewers may not get the social-type layer. \"Bring one up\" and \"collective\" keep the in-house logic, so the damage is limited."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Hire a Baba Yaga\" followed by \"bring one up\" mixes staffing and upbringing metaphors a little awkwardly compared to the parallel bring in/train structure."
+          "justification": "The 'Baba Yaga' is kept as a foreign name with no gloss, so the workplace-type association (a nasty woman already in every collective) is less accessible to an English audience than 'witch'. 'Hire' and 'bring up in our own collective' still keep the staffing logic, so the effect is only slightly weakened."
         }
       ]
     },
@@ -83,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"More, I think, is not necessary\" is stiff and awkward English and loses the casual, self-satisfied managerial tone. The word \"briefly\" does come before \"forty minutes\", so the punchline order is kept, but the faux-modest cozy diminutive feel is not conveyed."
+          "justification": "'More, I think, is not necessary' is stiff and awkward in English, and it loses the self-satisfied, casual managerial tone. 'Briefly—about forty minutes' keeps the order and the reversal, but there is no diminutive or faux-modest flavor to make 'briefly' cozy."
         }
       ]
     },
@@ -109,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The translation renders only the literal \"ready\" and offers nothing to recreate the double meaning of \"drunk\" (готов). The analysis stresses that this alcoholic subtext is the core of the joke. The \"been ready for a long time\" phrasing adds no hint of intoxication, so the joke is effectively lost."
+          "justification": "The candidate renders only the surface sense 'ready' and adds nothing that hints at 'drunk'. The double meaning, which is the whole joke, is lost. 'Been ready for a long time' offers only a faint hint of the subtext."
         }
       ]
     },
@@ -157,13 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly says to avoid. It does not echo the familiar English idiom \"unaided eye\" or \"naked eye\", so the recognizable mangled idiom and the mock-scientific effect are not conveyed. It reads as merely strange and surreal."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The line is split with \"once we take a telescope...\" and the trailing comma, which weakens the pompous rhetorical build. \"Once we take\" is also less natural than \"all we have to do is take\"."
+          "justification": "'Armed eye' is the literal calque the analysis warns against. It does not echo the English 'unaided eye', so it sounds merely surreal and the mock-scientific malformed-idiom effect is weakened. The first line also drops the 'all we have to do' pompous phrasing."
         }
       ]
     },
@@ -192,7 +173,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting is changed so that \"four stars\" is separated from the progression by a period, and the rhythm of \"two, three, four…\" followed by the sudden \"five stars\" is somewhat disrupted. The line also gives no cue (note) about the cognac association, which the analysis says English viewers will need. The silly counting and the final \"five stars\" payoff are otherwise preserved."
+          "justification": "The counting is preserved and 'five stars' lands as the punchline. The cognac association is not signalled, though, as the reference does with a note, so many English viewers will not catch the click into the drinking frame. The counting rhythm is also broken by the line split."
         }
       ]
     },
@@ -218,13 +199,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Science is not yet up to date\" is a slightly off collocation. It does not capture the \"not in the loop / not yet briefed\" colloquial personification of \"не в курсе дела\", so the casual register is a bit weaker than in the original."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Is there life on Mars, is there no life on Mars\" is a literal calque of the Russian structure and sounds clunky in English, though the content and the casual tone are mostly kept."
+          "justification": "'Science is not yet up to date' is a slightly off collocation and is less idiomatically colloquial than 'not up to speed on the matter'. It loses the personification of science as someone not yet briefed, though the casual register and the factual correctness are kept."
         }
       ]
     }
@@ -232,13 +207,13 @@
   "summary": {
     "counts": {
       "major": 2,
-      "minor": 8
+      "minor": 4
     },
-    "total_points": 18,
+    "total_points": 14,
     "meaning_units": 8,
-    "penalty_per_unit": 2.25,
-    "major_equiv_per_unit": 0.45,
-    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.75,
+    "major_equiv_per_unit": 0.35,
+    "interpretation": "1.75 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

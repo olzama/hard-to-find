@@ -121,14 +121,7 @@
         "language_specific": {}
       },
       "candidate": "Now, this was a good call!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate is identical to the reference, but the item is flagged as ambiguous. However, per principle 4, an identical candidate must receive no issues."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -163,7 +156,7 @@
           "severity": "minor",
           "category": "fluency",
           "span": "",
-          "justification": "The candidate omits the capitalization of the sentence start and splits the list into separate lines, but the count structure, the suede jacket 'forgotten' increment and the final 'Three' are preserved, so the joke works. Only a slight loss of the spoken flow of the enumeration."
+          "justification": "The candidate starts with a lowercase 'three' and is split across lines, which makes it read as a fragment and slightly weakens the flow of the list. The joke (the count of suede jackets not being incremented until the end) is preserved."
         }
       ]
     },
@@ -185,7 +178,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Exclamation marks on the first two clauses replace the melodic, calm resignation described in the analysis; the soothing, trailing tone only appears at the final clause, slightly weakening the effect."
+          "justification": "The exclamation marks replace the calm, melodic, trailing resignation described in the analysis, and the first two clauses lose the ellipses. This makes Ulyana sound more emphatic than resigned, though the final 'And they'll cure me...' restores some of the tone."
         }
       ]
     }
@@ -193,13 +186,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 3
+      "minor": 2
     },
-    "total_points": 3,
+    "total_points": 2,
     "meaning_units": 11,
-    "penalty_per_unit": 0.2727272727272727,
-    "major_equiv_per_unit": 0.05454545454545454,
-    "interpretation": "0.27 MQM penalty points per meaning unit (≈ 0.05 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.18181818181818182,
+    "major_equiv_per_unit": 0.03636363636363636,
+    "interpretation": "0.18 MQM penalty points per meaning unit (≈ 0.04 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

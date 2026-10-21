@@ -19,15 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate leaves the Russian word “злой” untranslated and mixes languages in a single phrase (“I’m the злой and scary big bad wolf”), which breaks English fluency and reads awkwardly. The mock-theatrical rhythm and childlike playfulness of the original are otherwise attempted but undermined by the code-switching."
-        },
-        {
-          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The rendering ‘I know a thing or two about piglets’ softens the compact boastful rhythm of the reference (‘I know a piglet or two!’). It preserves meaning but weakens the snappy, theatrical voice."
+          "justification": "The candidate leaves the Russian word 'злой' untranslated and mixes languages ('I’m the злой and scary big bad wolf'), which breaks the mock-childish theatrical register and rhythmic flow the analysis emphasises. The code-switching weakens the playful, sing-song menace."
         }
       ]
     },
@@ -51,10 +45,10 @@
       "candidate": "knock his horns off, rip his maw open,\ngouge his peepers out! You’ll spend your whole life\nworking for medicine",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the discouraged phrasing ‘knock his horns off,’ which the analysis warned against as non-idiomatic, and it introduces a detached third-person pronoun (‘his’) rather than the direct-address punch of the original threat. It also renders the final clause as a more explanatory ‘You’ll spend your whole life working for medicine,’ losing the compact, verdict-like finish recommended in the analysis."
+          "justification": "The candidate uses the idiom 'knock his horns off' despite the guidance to avoid that literal phrasing, and shifts person/voice to third person ('his') rather than addressing the threatened party directly. It also renders the final clause as a descriptive phrase ('You’ll spend your whole life working for medicine') that loses the compact, verdict-like punch of the original."
         }
       ]
     },
@@ -71,14 +65,7 @@
         "language_specific": {}
       },
       "candidate": "How many I stabbed, how many I slit,\nhow many souls I ruined!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "‘How many souls I ruined!’ is a reasonable translation but softens the harsher, mythic register of ‘how many souls I’ve damned!’ used in the reference. The sung, self-mythologizing tone is largely preserved, but the final verb choice weakens the villainous punch slightly."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -103,7 +90,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «нехороший человек» as ‘bad person’ flattens the awkwardly euphemistic, moralizing register the analysis highlights. The sequence should keep that oddly restrained label before collapsing into the rough insult; here the euphemism reads as a routine phrase rather than the comic, stilted moralizing."
+          "justification": "Rendering «нехороший человек» as 'bad person' flattens the oddly euphemistic, moralizing tone the analysis requires. The final insult 'the bastard!' captures 'падла' registerally, but the middle phrase loses the comic contrast between restrained civility and collapse into rough slang."
         }
       ]
     },
@@ -127,10 +114,10 @@
       "candidate": "Stole, drank—back to prison.\nStole, drank—back to prison.\nRomance!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "fluency",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses past-tense fragments (‘Stole, drank—back to prison’) which the analysis warned can sound like broken narration in English rather than the compact, proverb-like life-cycle formula in Russian. Additionally, ‘Romance!’ risks reading as literal romantic love rather than the ironic romanticization of a criminal life."
+          "justification": "The candidate renders the sequence in past tense ('Stole, drank—back to prison') and uses 'Romance!' which risks being read as literal love rather than the ironic romanticization of a criminal cycle. This changes the formulaic, proverb-like present-tense rhythm and the ironic punchline the analysis highlights."
         }
       ]
     },
@@ -170,9 +157,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate translates «лошадью» as the correct chess term ‘knight,’ which destroys the joke’s core: the humor depends on using the unschooled everyday word for the piece. The second clause (‘may I never see freedom!’) attempts a prison-oath but the loss of the nontechnical term removes the collision between unschooled language and underworld solemnity described in the analysis."
+          "justification": "The candidate translates «лошадью» as the correct chess term 'knight,' which removes the unschooled, nontechnical word essential to the joke. The second part ('may I never see freedom!') also reads as an awkward wish rather than the prison-coded oath of the original, losing the intended underworld solemnity."
         }
       ]
     },
@@ -194,7 +181,14 @@
         }
       },
       "candidate": "- Was there a pond?\n- No. There were puddles.\nMaybe a monument?\n- There was a monument.\n- Whose monument?\n- How should I know? Some guy.\n- With a beard? - No!\n- With sideburns?\n- I don’t remember. In a jacket!\n- Sitting down? - What?\n- Sitting? - Who?\n- That guy of yours!\n- What a hick! You’re something else!\nWho’s going to sit him down? He’s a monument!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The candidate preserves the identification sequence and the final reversal, but the line 'Who’s going to sit him down?' is slightly awkward in English and risks sounding like literally seating someone rather than the punning prison/confinement reinterpretation the analysis relies on. The overall pun survives but the phrasing is clumsy."
+        }
+      ]
     },
     {
       "id": 9,
@@ -214,7 +208,14 @@
         }
       },
       "candidate": "This isn’t pocketing loose change!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "terminology",
+          "span": "",
+          "justification": "The candidate's 'pocketing loose change' is a fairly neutral phrase and loses some of the low-register, petty-thief slang of «тырить». The contrast between small-time pilfering and a more serious operation is therefore a bit weakened."
+        }
+      ]
     },
     {
       "id": 10,
@@ -259,7 +260,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate standardizes the vocative to ‘citizen’ and mostly smooths the broken non-native grammar. The analysis specified that the marked, slightly wrong address and odd word order are part of the comic effect; this polished wording reduces that effect even though the practical warning and blunt death prediction remain."
+          "justification": "The candidate smooths the grammatically odd vocative «гражданина» into the standard 'Hey, citizen!' which reduces the comic effect of non-native, colloquial grammar the analysis describes. The blunt death warning is preserved, but the marked spoken register is softened."
         }
       ]
     },
@@ -281,7 +282,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Changing ‘макароны’ to the more general ‘pasta’ slightly weakens the specific, colloquial punch of the delayed food-name; ‘macaroni’ carries a crisper, slightly childish resonance in the reference that better supports the wistful missed-meal gag."
+          "justification": "Using 'pasta' instead of the more specific, slightly childish 'macaroni' softens the small, wistful punchline that makes the escape reduced to a missed prison meal. The emotional tone is preserved but the lexical choice is less characterful."
         }
       ]
     },
@@ -325,10 +326,10 @@
       "candidate": "Dinner is served! Sit down and eat, please.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The vulgar verb «жрать» is key to the joke’s register clash—refined announcement plus crude imperative. Rendering it as polite ‘eat’ removes that deliberate vulgar collision and thus the comedic payoff; the contrast between ceremony and coarse verb is lost."
+          "justification": "The candidate replaces the vulgar «жрать» with the neutral 'eat,' losing the sharp register clash between polite invitation and coarse verb that the analysis identifies as the joke's motor."
         }
       ]
     },
@@ -367,10 +368,10 @@
       "candidate": "- Miss, what’s your name? - Tanya.\n- And I’m Fedya.\nWhat an idiot.",
       "issues": [
         {
-          "severity": "major",
-          "category": "style",
+          "severity": "minor",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate’s ‘What an idiot’ erases the feminine–masculine–feminine comic sequence: Tanya first treats the speaker as a woman, then hears a masculine name, then addresses the apparent woman with a feminine insult. The neutral ‘What an idiot’ removes the direct feminine insult and flattens the cross-gender misunderstanding that produces the joke."
+          "justification": "Rendering «дура» as 'What an idiot' removes the specifically feminine-direct-address sequence the analysis requires (woman perceived → masculine name → feminine insult). The line becomes a neutral comment rather than a pointed feminine insult addressed to the apparent woman."
         }
       ]
     },
@@ -397,7 +398,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "Rendering «параша» as ‘latrine bucket’ reduces the term to a literal sanitary object rather than preserving its force as prison-status argot that consigns someone to the lowest rank. The line loses some of the viciously contemptuous status-assignment the analysis requires."
+          "justification": "The candidate's literal 'latrine bucket' reduces «параша» to a sanitary object, rather than preserving its function as strong prison argot that assigns the lowest status. The refined patronizing frame is present, but the target-register insult is weakened by the literal wording."
         }
       ]
     },

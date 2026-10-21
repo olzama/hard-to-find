@@ -20,7 +20,14 @@
         }
       },
       "candidate": "Comrades, there is an instruction to\ncelebrate the New Year cheerfully.",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate preserves the bureaucratic register and the joke's contradiction, but 'there is an instruction to celebrate the New Year cheerfully' is slightly more clumsy and less idiomatically managerial than the reference. The phrasing weakens the dry, official-sounding brevity that heightens the comic contrast."
+        }
+      ]
     },
     {
       "id": 2,
@@ -63,7 +70,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate uses a plain 'briefly' which lacks the diminutive, faux-modest tone of «коротенько». That weakens the contrast between the speaker's claimed modesty and the absurdly long 'forty minutes,' reducing part of the comic effect."
+          "justification": "The candidate preserves the contrast between 'briefly' and 'forty minutes,' but the translation loses some of the diminutive, faux-modest flavor of «коротенько так». Rendering it simply as 'briefly' makes the speaker sound a bit flatter and reduces the comic smug understatement."
         }
       ]
     },
@@ -87,9 +94,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate renders both lines literally as readiness statements but does not preserve the useful ambiguity of «готов» (ready / already drunk). The drunk-subtext is not clearly recoverable here, so one layer of the joke is diminished."
+          "justification": "The double reading (official 'ready' vs. drunk) is retained, but 'ready long ago' is an awkward, non-idiomatic rendering of «давно готов». A more natural phrasing would better preserve the quick backstage rhythm and the amused ambiguity."
         }
       ]
     },
@@ -137,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate's 'armed eye' is a literal calque that sounds surreal in English and loses the intended mock‑scientific, slightly plausible deformation of a familiar idiom. The translation therefore fails to recreate the original's comedic effect; the suggested 'aided eye' (or similar) would better preserve the balance between recognizability and absurdity."
+          "justification": "The candidate's 'armed eye' is a literal calque of «вооружённым глазом» that misses the intended mock-scientific, slightly off idiom in English. As noted in the analysis, 'armed eye' reads as strange/surreal rather than a near-miss of a familiar idiom; it destroys the intended comic effect. A solution like 'aided eye' better preserves the mock-technical feel."
         }
       ]
     },
@@ -185,7 +192,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's phrasing ('science does not know. Science is not yet aware.') is a bit stilted and more formal than the Russian, which is conversational and colloquial. This reduces the register mismatch that creates the comic effect; a looser phrasing would better match the lecturer's casual, chatty tone."
+          "justification": "The candidate keeps the factual correctness and the casual register, but 'Science is not yet aware' is slightly awkward and more stilted than the conversational 'Science still isn’t up to speed on the matter.' The phrasing reduces a bit of the speaker's colloquial, offhand tone."
         }
       ]
     }
@@ -193,13 +200,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 3
+      "minor": 4
     },
-    "total_points": 8,
+    "total_points": 9,
     "meaning_units": 8,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.125,
+    "major_equiv_per_unit": 0.225,
+    "interpretation": "1.12 MQM penalty points per meaning unit (≈ 0.23 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

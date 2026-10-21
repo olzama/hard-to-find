@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "Volven asaltarme\nvagas dúbidas...\nA Shpak desapareceulle un magnetófono,\nao embaixador, un medallón.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The meaning is correct: the items are lost, not possessed. But 'vagas dúbidas' is plain and loses the mock-heroic, theatrical register of 'терзают смутные сомнения' (compare 'asáltanme escuras sospeitas'). It also drops the sense of 'again'/'de novo' that makes the line a callback."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -43,13 +36,13 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Ola, tsar, moito gusto' reads as Bunsha greeting or addressing a Tsar. The analysis requires that he introduces himself as the Tsar, as in the reference 'son o tsar' / 'o tsar, encantado'. The core joke of the drunken self-introduction is lost."
+          "justification": "'Ola, tsar, moito gusto' reads as Bunsha greeting a tsar, not introducing himself as the Tsar. This breaks the explicit NB. The reference's 'son o tsar' and 'o tsar' make the self-introduction clear, and the candidate never does."
         },
         {
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds extra repetitions ('Tsar, moito gusto. Ola, tsar. Moito gusto!') that are not in the source, which has three variations of the greeting."
+          "justification": "The candidate adds extra lines ('Tsar, moito gusto. Ola, tsar. Moito gusto!') that are not in the source, which lengthens and dilutes the drunken repetitive rhythm."
         }
       ]
     },
@@ -86,7 +79,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "'Estou de loito' means 'I am in mourning', which is narrower than 'в печали' (sorrowful, as in the reference 'aflixido'). It also lacks the lofty, archaic register of the Tsar's line."
+          "justification": "'Estou de loito' means 'I am in mourning', which is narrower than 'в печали' (in sorrow, melancholy). It also drops the causal link and the archaic-poetic quality of the Tsar's line."
         }
       ]
     },
@@ -148,14 +141,7 @@
         "language_specific": {}
       },
       "candidate": "Que ben entrei aquí!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'Que ben entrei aquí!' is awkward and unidiomatic in Galician. It does correctly convey that he has just entered, but it lacks the casual, cheerful 'lucky find' tone of 'Pois si que dei cun bo sitio!'."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -172,10 +158,10 @@
       "candidate": "Caviar negro, vermello...\nSi! Unha pasta de berenxena de ultramar...\nDe berenxena!",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
+          "severity": "minor",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate avoids calling the eggplant spread 'caviar', which is right. But 'Unha pasta de berenxena de ultramar... De berenxena!' gives away 'berenxena' before the punchline and then repeats it. The reveal loses its surprise, and the parallel with the preceding caviar and the 'overseas delicacy' inversion collapses."
+          "justification": "The candidate avoids calling the spread 'caviar', which is correct. However, 'Unha pasta de berenxena de ultramar... De berenxena!' repeats 'berenxena' awkwardly. It also loses the pompous 'overseas delicacy' feel, so the joke of a cheap spread presented as a rare delicacy is weaker."
         }
       ]
     },
@@ -197,7 +183,7 @@
           "severity": "minor",
           "category": "terminology",
           "span": "",
-          "justification": "'Cigarreiros' is the wrong word. It is masculine and suggests people, whereas the item is a cigarette case ('cigarreiras'). Using digits '3' instead of 'tres' also weakens the spoken, escalating-list rhythm."
+          "justification": "'Cigarreiros' means cigarette makers or sellers, not cigarette cases ('cigarreiras'), so the status item is wrong and the phrase is odd. The list structure and the delayed 'tres' after the jacket are preserved."
         }
       ]
     },
@@ -219,14 +205,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 1,
+      "minor": 4
     },
-    "total_points": 15,
+    "total_points": 9,
     "meaning_units": 11,
-    "penalty_per_unit": 1.3636363636363635,
-    "major_equiv_per_unit": 0.2727272727272727,
-    "interpretation": "1.36 MQM penalty points per meaning unit (≈ 0.27 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.8181818181818182,
+    "major_equiv_per_unit": 0.16363636363636364,
+    "interpretation": "0.82 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

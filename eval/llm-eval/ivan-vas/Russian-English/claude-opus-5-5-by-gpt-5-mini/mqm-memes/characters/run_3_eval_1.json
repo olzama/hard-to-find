@@ -38,10 +38,10 @@
       "candidate": "A pleasure, Tsar!\nA pleasure, hello, Tsar!\nTsar, a pleasure!\nHello, Tsar! A pleasure!",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads like addressing the Tsar (vocative) rather than clearly introducing himself as the Tsar, which is central to the comedic effect described in the analysis. The repetitive phrasing is preserved, but the intended meaning—Bunsha proclaiming himself to be the Tsar—is made slightly ambiguous."
+          "justification": "The candidate reads as if Bunsha is addressing a tsar ('A pleasure, Tsar!'), whereas the analysis requires that he be introducing himself as the Tsar (repeatedly declaring 'I am the Tsar'). This changes the joke's premise and undermines the impersonation gag."
         }
       ]
     },
@@ -93,14 +93,7 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nThey've walled me in, the demons!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate's punctuation and word order make it read as if the Tsar is addressing the demons ('...the demons!') rather than stating that demons are the ones who walled him in (the demons as the subject). The analysis explicitly notes the demons must read as the subject; this rendering leaves that relation slightly ambiguous."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 6,
@@ -182,10 +175,10 @@
       "candidate": "Black caviar, red...\nYes! And overseas caviar...\nEggplant!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the line as 'overseas caviar... Eggplant!' which risks equating the cheap eggplant spread with caviar. The analysis warns translators not to call the eggplant spread 'caviar'—the joke depends on eggplant spread being a humble non-caviar item presented as if exotic. This candidate blurs that contrast and therefore undermines the satirical inversion."
+          "justification": "By rendering the line as 'And overseas caviar... Eggplant!' the candidate risks implying that the eggplant spread is being presented as a type of caviar. The analysis warns against calling the eggplant spread 'caviar'; the humour depends on eggplant being a cheap spread juxtaposed with real caviar."
         }
       ]
     },
@@ -228,13 +221,13 @@
   "summary": {
     "counts": {
       "major": 1,
-      "minor": 2
+      "minor": 1
     },
-    "total_points": 7,
+    "total_points": 6,
     "meaning_units": 11,
-    "penalty_per_unit": 0.6363636363636364,
-    "major_equiv_per_unit": 0.12727272727272726,
-    "interpretation": "0.64 MQM penalty points per meaning unit (≈ 0.13 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.5454545454545454,
+    "major_equiv_per_unit": 0.10909090909090909,
+    "interpretation": "0.55 MQM penalty points per meaning unit (≈ 0.11 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

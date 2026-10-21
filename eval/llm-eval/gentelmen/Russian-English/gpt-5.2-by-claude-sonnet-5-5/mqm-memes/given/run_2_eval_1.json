@@ -36,14 +36,7 @@
         }
       },
       "candidate": "I’ll knock your block off, rip your trap, and poke your peepers out! You’ll be working for medicine all your life!\nworking for medicine all your life",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The approved threat is followed by a stray repeated fragment, \"working for medicine all your life\", which has no source counterpart. It adds clutter and weakens the compact, verdict-like ending."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -81,9 +74,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "fluency",
           "span": "",
-          "justification": "A garbled extra line, \"me on the foot a radiator dropped, the scumbag!\", is appended. It is an unnatural word-order duplicate that adds nothing and muddies the otherwise good rendering."
+          "justification": "The extra line \"me on the foot a radiator dropped, the scumbag!\" is a garbled, source-order rendering that is not natural English. It reads as a second, awkward version of the sentence already given in the first line."
         }
       ]
     },
@@ -142,10 +135,10 @@
       "candidate": "Move the horse! - Buzz off!\nMove the horse, I’ll never see the outside if I’m wrong!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate adds \"Move the horse! - Buzz off!\", a dialogue line with no basis in the source. It introduces an unrelated utterance and distorts the single piece of chess advice sealed by the prison oath. The second line itself preserves \"horse\" and the oath."
+          "justification": "\"Buzz off!\" has no counterpart in the source line and adds a dismissive remark that Fedya's confident chess advice does not contain. The remaining text keeps the unschooled \"horse\" and the prison oath, so the main effect survives."
         }
       ]
     },
@@ -172,7 +165,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The pun is lost. \"Seated?/Sitting?\" followed by \"Who'd seat him?\" has no prison or confinement reading in English, so the punchline (nobody can put a monument in jail) does not work. The candidate offers no compensating ambiguity such as \"inside\" and fails to adapt the setup as the analysis requires."
+          "justification": "The pun fails. \"Seated?\" / \"Sitting?\" sets up a seated statue, but \"Who'd seat him?\" has no prison or confinement meaning in English. The final reversal therefore does not work, whereas the reference's \"inside\" ambiguity supplies the legal/prison reading the analysis requires."
         }
       ]
     },
@@ -234,14 +227,7 @@
         }
       },
       "candidate": "Hey, citizin! You don’t go there, you go here! Snow fall on head — you be dead completely!\nor snow fall on head —\nyou be dead completely!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "An extra fragment, \"or snow fall on head — you be dead completely!\", repeats the warning with an unsourced \"or\". It is redundant and slightly disrupts the blunt, well-meant formulation, though the broken grammar of the main line is preserved well."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 12,
@@ -331,14 +317,7 @@
         }
       },
       "candidate": "Miss, what’s your name? — Tanya. — I’m Feodor. — You dumb broad!\nWhat a dumb broad.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate appends a redundant extra line, \"What a dumb broad.\", which is a third-person restatement of the insult. It slightly weakens the direct-address structure, but the feminine–masculine–feminine sequence is preserved in the main line."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 17,
@@ -383,14 +362,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 4
+      "major": 1,
+      "minor": 2
     },
-    "total_points": 14,
+    "total_points": 7,
     "meaning_units": 18,
-    "penalty_per_unit": 0.7777777777777778,
-    "major_equiv_per_unit": 0.15555555555555556,
-    "interpretation": "0.78 MQM penalty points per meaning unit (≈ 0.16 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.3888888888888889,
+    "major_equiv_per_unit": 0.07777777777777778,
+    "interpretation": "0.39 MQM penalty points per meaning unit (≈ 0.08 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

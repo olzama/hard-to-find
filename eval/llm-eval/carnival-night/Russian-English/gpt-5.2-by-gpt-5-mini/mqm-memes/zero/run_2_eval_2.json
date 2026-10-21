@@ -63,7 +63,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate preserves the comic reversal (claiming 'briefly' then giving 'forty minutes'), but it loses the diminutive, faux-modest tone of «коротенько так». Rendering as plain 'briefly' flattens the cozy/patronizing flavor that makes the line especially ridiculous."
+          "justification": "The candidate loses the diminutive, faux-modest tone of «коротенько» that makes the forty-minute claim comically outrageous. ‘briefly—about forty minutes’ is understandable but lacks the cozy, patronizing understating that heightens the joke."
         }
       ]
     },
@@ -84,7 +84,14 @@
         }
       },
       "candidate": "Is the lecturer ready?\n- The lecturer is ready—ready a long time ago!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "The reply ‘ready a long time ago’ is slightly unidiomatic in English and reads awkwardly. It preserves the ambiguity between ‘ready’ and ‘drunk,’ but the phrasing weakens the natural backstage rhythm compared with smoother alternatives (e.g. ‘he’s been ready for quite a while’)."
+        }
+      ]
     },
     {
       "id": 5,
@@ -127,10 +134,10 @@
       "candidate": "But it’s enough for us to take\na telescope...\nand look with the armed\neye",
       "issues": [
         {
-          "severity": "minor",
-          "category": "style",
+          "severity": "major",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye', which English readers find more surreal than the mock‑scientific wobble intended. The analysis recommends a solution like 'aided eye' to echo 'the unaided eye' and preserve the mildly wrong, pseudo‑academic feel; 'armed eye' overplays the oddness and changes the register."
+          "justification": "The candidate translates «вооружённым глазом» as ‘armed eye,’ a literal calque that reads strangely and surreal in English, losing the intended mock‑scientific but recognizable distortion of the idiom. The analysis recommends an echoed idiom (e.g. ‘aided eye’) to preserve the near‑familiar, humorously mangled register; ‘armed eye’ misfires and significantly harms the comic effect."
         }
       ]
     },
@@ -178,21 +185,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The overall meaning is preserved, but 'Science is not yet informed' reads a bit stilted and more formal than the casual, conversational tone in the analysis ('Science still isn’t up to speed'). This reduces some of the comedic register mismatch between sober content and flippant wording."
+          "justification": "The phrase ‘Science is not yet informed’ preserves the casual claim that science doesn’t know, but the wording is slightly stiff and formal compared with the colloquial punch of the original (‘наука... не в курсе дела’). A more conversational phrasing (e.g. ‘science isn’t up to speed’) would better match the line’s comic register."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 0,
+      "major": 1,
       "minor": 3
     },
-    "total_points": 3,
+    "total_points": 8,
     "meaning_units": 8,
-    "penalty_per_unit": 0.375,
-    "major_equiv_per_unit": 0.075,
-    "interpretation": "0.38 MQM penalty points per meaning unit (≈ 0.07 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.0,
+    "major_equiv_per_unit": 0.2,
+    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"

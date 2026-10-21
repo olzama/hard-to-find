@@ -31,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "We won't\nbring in an outside Baba Yaga.\nWe'll train one from our own staff!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Keeping 'Baba Yaga' untranslated makes the line more fairy-tale-flavored and less recognizable to English viewers as the nasty-woman workplace type; 'witch' in the reference carries the social-type reading more readily. The 'train one from our own staff' phrasing does preserve the workplace logic, so the damage is limited."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -55,16 +48,10 @@
       "candidate": "a nice short speech,\nabout forty minutes. I don't\nthink it needs to be longer.",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The faux-modesty of 'коротенько' is rendered as 'a nice short speech', which does the job, but the structure is changed: 'short' is attached to 'speech' and the self-satisfied, bureaucratic 'коротенько так' is lost. More importantly, 'I don't think it needs to be longer' shifts the meaning slightly from 'we don't need more than that', yet the main contrast (short vs. forty minutes) survives, so this is not a severe loss."
-        },
-        {
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'A nice short speech' is somewhat more generic than the diminutive, cozy managerial tone of «коротенько»; the patronizing, bureaucratic flavor is weaker."
+          "justification": "\"a nice short speech\" does convey faux-modesty and puts the brevity claim before the duration, but it drops the cozy diminutive/patronizing flavor of «коротенько» and the 'just a little' feel. The closing \"it needs to be longer\" is also a bit flat and less managerial."
         }
       ]
     },
@@ -86,7 +73,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The 'ready' = 'drunk' double meaning is not recreated. 'Ready. He's been ready for ages!' reads only as plain readiness, so the alcoholic subtext that is the core of the joke disappears; no hint (e.g., 'he's been ready for a while' with a loaded tone or 'ready' as 'done for') is added."
+          "justification": "The translation renders «готов» only as \"ready\", so the 'drunk/done for' double meaning is lost. Nothing recreates the intoxication subtext (e.g., a tone or phrasing hinting at his state), so the central joke of the exchange disappears."
         }
       ]
     },
@@ -108,7 +95,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The stretched, broken vocalization ('Лю-ди! А… ау-у!') is flattened into a clean 'People! Hey... hello!'. The drunken, faltering delivery and syllable breaks that carry the physical comedy are lost, which the analysis specifically warns against."
+          "justification": "The line is normalized into a clean \"People! Hey... hello!\". The broken, stretched vocalization («Лю-ди! А… ау-у!») is lost, with no syllable splitting or elongation. The drunken, faltering oratorical opening and its physical comedy are largely gone."
         }
       ]
     },
@@ -135,7 +122,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'With the aid of optics' is a correct, clean, plausible phrase; the malformed idiom («вооружённым» echoing «невооружённым глазом») and the mock-scientific wrongness are gone. The eye is no longer 'upgraded' incorrectly, so the joke disappears."
+          "justification": "\"with the aid of optics\" is a correct, plain, grammatical phrase. The malformed idiom («вооружённым глазом» as a mangled «невооружённым») is gone, along with the mock-scientific drunken distortion that is the joke. There is no echo of \"unaided eye\" or any other slightly-wrong expression, so the line is merely a normal statement."
         }
       ]
     },
@@ -162,7 +149,13 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting progression is kept and 'little stars' successfully conveys the silly, childish tone. However, 'Five little stars would be best' loses the sudden click to cognac: it reads as a continuation of counting, and without the five-star cognac cue (the reference adds a note) English viewers are unlikely to catch the derailment."
+          "justification": "The counting progression is trivial and silly, and the \"five stars\" punchline is kept, so the joke structure works. However, the cognac association is not signaled in any way, and \"little stars\" evokes a nursery rhyme more than cognac. The sudden click into a different semantic world is weaker for English viewers. The reference at least added a note."
+        },
+        {
+          "severity": "minor",
+          "category": "fluency",
+          "span": "",
+          "justification": "\"Five little stars would be best\" is a bit more childlike than the original and loses the exclamatory drunken finality of «Лучше всего, конечно, пять звёздочек!»."
         }
       ]
     },
@@ -184,21 +177,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Science hasn't found out yet' is casual enough, but the personified 'not up to speed on the matter' (science as someone not briefed) is lost. 'Is there no life on Mars?' is also a slightly stiff literal rendering of «нет ли жизни», which reads a bit awkwardly in English."
+          "justification": "The candidate is correct and keeps the factual content, but \"Science doesn't know. Science hasn't found out yet.\" is flatter than the original. It misses the colloquial personification of «не в курсе дела» (science not yet briefed), so the register mismatch between valid content and casual phrasing is weaker. The doubled question \"Is there no life on Mars?\" is slightly clunky."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 4,
+      "major": 3,
       "minor": 4
     },
-    "total_points": 24,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 3.0,
-    "major_equiv_per_unit": 0.6,
-    "interpretation": "3.00 MQM penalty points per meaning unit (≈ 0.60 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

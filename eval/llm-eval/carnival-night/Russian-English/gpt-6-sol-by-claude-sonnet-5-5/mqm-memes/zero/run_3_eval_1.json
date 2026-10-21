@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Hire\" frames Baba Yaga as a staffing matter, which fits the workplace logic, but \"develop one from within\" is more corporate and loses the pointed sense of cultivating a nasty woman in the collective. The humor is mostly kept, though slightly weaker than \"train one in-house\"."
+          "justification": "\"Hire\" keeps the workplace logic, but \"develop one from within\" is slightly less pointed than 'train/raise in-house' and loses a bit of the deadpan educational-staffing flavor. The Baba Yaga as nasty-colleague double reading is preserved reasonably well."
         }
       ]
     },
@@ -58,13 +58,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest diminutive \"коротенько\" is rendered as a plain \"a short speech\", and the brevity claim is no longer an adverbial self-satisfied understatement. The contrast with \"forty minutes\" is weakened and the patronizing managerial tone is lost."
-        },
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"Speech\" is added and \"I don't think it needs to be longer\" is slightly shifted from \"I don't think we need more\", with lowercase start and no ellipsis. These are small changes to the trailing tone."
+          "justification": "The key joke word «коротенько» (faux-modest diminutive 'briefly') is rendered as a flat \"a short speech\", and the fragment loses the 'briefly' claim followed by the punchline. \"I don't think it needs to be longer\" is fine, but the cozy, patronizing understatement that makes 'forty minutes' land is weakened; 'short speech, about forty minutes' reads as a plain statement rather than comic contradiction."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The double meaning of \"ready\" as official readiness versus drunk is not recreated. \"He's ready. Has been for ages!\" keeps only the literal sense and has no hint of intoxication, so the joke is largely lost, although \"for ages\" gives slight ambiguity."
+          "justification": "The double meaning of «готов» (ready / drunk) is not recreated. \"He's ready. Has been for ages!\" is only the surface administrative meaning, so the alcoholic subtext joke disappears, which the analysis flags as the main translation risk."
         }
       ]
     },
@@ -108,7 +102,7 @@
           "severity": "major",
           "category": "style",
           "span": "",
-          "justification": "The drunken, faltering vocalization is normalized to a clean \"People!\" and \"Hello?\". The stretched \"Peo-ple!\", the hesitation \"Ah…\" and the wavering \"hellooo\" are missing, so the physical comedy of a collapsing oratorical opening disappears."
+          "justification": "The drunken, faltering vocalization (\"Лю-ди! А… ау-у!\") is normalized to a clean \"People!... Hello?\". There is no stretched or broken sound pattern, so the physical comedy of failed oratory is lost."
         }
       ]
     },
@@ -135,7 +129,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The malformed idiom \"вооружённым глазом\" is omitted entirely: \"look through it\" is plain and there is no \"aided eye\" or equivalent mock-scientific distortion. The key joke of damaged learned language is lost."
+          "justification": "The key phrase «вооружённым глазом», the malformed mock-scientific idiom, is omitted entirely (\"And look through it,\"). The joke of the damaged idiom disappears, leaving a plain sentence with no comic effect."
         }
       ]
     },
@@ -160,15 +154,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Little stars\" in the buildup captures the childish counting, but the final \"five stars would be best\" lacks any cognac cue, so the click into a different semantic world is weaker for English viewers. The reference adds a note for this."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"Four little stars\" is split off after an ellipsis and the progression is slightly choppy. \"Would be best\" is a bit more tentative than the emphatic \"is best\"."
+          "justification": "The counting progression and the shift to \"five stars\" are kept, but the cognac association is not made accessible in any way, so the punchline reads as merely odd to English viewers. The reference adds a note; the candidate has none. The ordering also changes slightly (\"Four little stars\" is separated), though this is minor."
         }
       ]
     },
@@ -185,26 +173,19 @@
         "language_specific": {}
       },
       "candidate": "Is there life on Mars or isn't\nthere? Science doesn't know.\nScience hasn't been told yet.",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The casual register is mostly preserved, and \"Science hasn't been told yet\" personifies science in a colloquial way similar to \"not up to speed\". However, \"hasn't been told\" is slightly less idiomatic and less flatly conversational than \"isn't up to speed on the matter\"."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
       "major": 4,
-      "minor": 5
+      "minor": 2
     },
-    "total_points": 25,
+    "total_points": 22,
     "meaning_units": 8,
-    "penalty_per_unit": 3.125,
-    "major_equiv_per_unit": 0.625,
-    "interpretation": "3.12 MQM penalty points per meaning unit (≈ 0.62 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.75,
+    "major_equiv_per_unit": 0.55,
+    "interpretation": "2.75 MQM penalty points per meaning unit (≈ 0.55 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-6-sol"

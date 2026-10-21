@@ -21,13 +21,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Shpak has a tape recorder, the envoy has a medallion' reverses the meaning: the Russian implies each lost his item (stolen), not that they possess them, as the analysis NB explicitly warns."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Misgivings' and the 'I'm again tormented' word order are slightly less natural than 'Vague doubts haunt me once again'; the mock-heroic tone is only partly kept."
+          "justification": "'Shpak has a tape recorder, the envoy has a medallion' says they still possess the items. The source means each of them lost his item, as the analysis note stresses. The meaning is reversed, and the callback to the thefts is lost."
         }
       ]
     },
@@ -49,7 +43,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Very pleased, tsar!' reads as Bunsha addressing a tsar, not introducing himself as the Tsar. The analysis NB requires making clear he is the Tsar, so the self-introduction is lost and the joke is muddled."
+          "justification": "'Very pleased, tsar!' and 'Hello, tsar!' read as Bunsha addressing someone else as tsar. He is introducing himself as the Tsar, which the analysis note requires to be clear. The central joke of the impersonation is lost."
         }
       ]
     },
@@ -101,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Walled up, demons!' reads as a vocative address to the demons. The analysis NB requires the demons to be the subject, as in 'the demons have walled me in'. The candidate also omits the object 'me'."
+          "justification": "'Walled up, demons!' reads as a vocative, with the Tsar addressing the demons. The analysis requires the demons to be the subject, the ones who walled him in. The object 'me' is also dropped."
         }
       ]
     },
@@ -123,7 +117,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'That's what the life-giving cross does!' is colloquial and loses the Tsar's solemn, archaic register ('Behold the power of...'), weakening the contrast with the modern setting."
+          "justification": "The colloquial 'That's what the life-giving cross does!' loses some of the Tsar's solemn, archaic conviction. The meaning and the religious joke are preserved."
         }
       ]
     },
@@ -140,14 +134,7 @@
         "language_specific": {}
       },
       "candidate": "Everyone dance!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "'Everyone dance!' is a blunt, ungrammatical-sounding imperative. It conveys the sense, but lacks the host-like, party-leader flavor of the reference and sounds slightly unnatural."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -162,14 +149,7 @@
         "language_specific": {}
       },
       "candidate": "I picked the right time to drop by!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "'I picked the right time to drop by' is acceptable on its face, but it loses the sense of having just chosen a lucrative apartment and discovered the goods. It is not misleading about entering versus leaving, so the issue is mainly a shift in meaning, from the fortunate choice of place to the fortunate timing of the visit."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -189,7 +169,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "'Overseas caviar... Eggplant!' calls the eggplant spread 'caviar', which the analysis NB explicitly forbids because it confuses viewers. The line also drops the 'eggplant' qualifier, so the joke about the cheap spread posing as an exotic delicacy is lost."
+          "justification": "'Overseas caviar... Eggplant!' calls the eggplant spread caviar, which the analysis note warns against. It confuses viewers and blurs the inversion between luxury caviar and the cheap canned spread."
         }
       ]
     },
@@ -211,13 +191,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate writes 'three suede jackets', while the source has a single jacket and the humor depends on Shpak forgetting to increment the count for the jacket before correcting himself with 'Three'. The joke is lost and the meaning changed."
-        },
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The inconsistent use of numerals ('3') and the word 'three' in the final line is stylistically uneven."
+          "justification": "The candidate says 'three suede jackets', so the count is the same for every item. The joke is that Shpak first lists a single suede jacket and then corrects himself to 'Three'. That slip, which betrays his exaggeration, is lost."
         }
       ]
     },
@@ -239,21 +213,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The exclamation marks replace the ellipses, turning the calm, melodic resignation described in the analysis into more emphatic, less resigned delivery."
+          "justification": "The exclamation marks make the lines emphatic. The analysis describes a melodic, calm resignation, and the reference's ellipses carry that. The meaning is intact, but the dreamy, resigned tone is weakened."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 6,
-      "minor": 5
+      "major": 5,
+      "minor": 2
     },
-    "total_points": 35,
+    "total_points": 27,
     "meaning_units": 11,
-    "penalty_per_unit": 3.1818181818181817,
-    "major_equiv_per_unit": 0.6363636363636364,
-    "interpretation": "3.18 MQM penalty points per meaning unit (≈ 0.64 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.4545454545454546,
+    "major_equiv_per_unit": 0.4909090909090909,
+    "interpretation": "2.45 MQM penalty points per meaning unit (≈ 0.49 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

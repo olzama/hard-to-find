@@ -36,7 +36,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"Baba Yaga\" keeps the fairy-tale name, and the analysis stresses the human type (nasty woman in the workplace); \"witch\" is also fairy-tale, but \"Baba Yaga\" is less accessible to an English audience and slightly weakens the workplace-type association. The staffing logic (bring in from outside / raise within our own collective) is preserved, so the effect is only mildly reduced."
+          "justification": "\"Raise one\" and \"Baba Yaga\" keep the workplace/collective logic, but \"raise\" is slightly more fairy-tale/parental than the managerial \"train in-house\"; unglossed \"Baba Yaga\" may not evoke the toxic-coworker type for English viewers. The overall joke still works."
         }
       ]
     },
@@ -55,16 +55,10 @@
       "candidate": "just briefly, for about\nforty minutes, no more, I think\nthat'll do",
       "issues": [
         {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The key word «коротенько» is rendered as plain \"just briefly\", losing the diminutive, faux-modest, cozy tone. The 'about forty minutes' punchline therefore lands with much less contrast, and the patronizing, self-satisfied managerial voice described in the analysis is flattened."
-        },
-        {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"no more, I think that'll do\" is slightly choppy and loses the trailing hesitant 'I don't think we need more' tone, making Ogurtsov's smug moderation sound less natural."
+          "justification": "\"Just briefly\" is flat and lacks the faux-modest, cozy diminutive quality of «коротенько»; the contrast with \"forty minutes\" is weaker. The order (brevity claim before duration) is preserved and the smug tone partly survives."
         }
       ]
     },
@@ -86,7 +80,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders «готов» only as \"ready\", with nothing hinting at 'drunk / done for'. The double-meaning joke at the heart of the exchange disappears; \"he's been ready a while\" does not by itself carry the intoxication subtext."
+          "justification": "The translation renders only the literal \"ready\" and keeps no hint of the \"drunk\" subtext of «готов». The central double-meaning joke identified in the analysis is lost, and no compensation is provided."
         }
       ]
     },
@@ -105,10 +99,10 @@
       "candidate": "- People!.. Ah... Hello-o!",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The broken, wavering vocalization (\"Лю-ди!\", \"ау-у\") is normalized into a clean \"People!\" The drunken physical comedy of the stretched, faltering address is lost; only \"Hello-o\" keeps a trace of it."
+          "justification": "\"People!.. Ah... Hello-o!\" keeps the faltering structure and stretched \"Hello-o\", but \"People\" is not stretched or broken like «Лю-ди», so the drunken vocal instability is slightly weaker."
         }
       ]
     },
@@ -130,14 +124,7 @@
         }
       },
       "candidate": "But we need only take\na telescope...\nAnd look with the aided\neye",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "accuracy",
-          "span": "",
-          "justification": "\"We need only take a telescope\" replaces the 'all we have to do' phrasing and drops the emphatic exclamation structure (\"!\") that conveys the lecturer's pompous rhetorical build-up. The key \"aided eye\" solution is preserved, so the joke still works."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -160,9 +147,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "style",
           "span": "",
-          "justification": "The counting progression is altered: \"Four stars, but best of all...\" turns the four-star step into a separate sentence with \"but\", slightly disrupting the trivial one-two-three-four rhythm that makes the five-star punchline a sudden click. The cognac association is not signaled, though the reference needed a note for this too."
+          "justification": "The progression and \"five stars\" punchline are kept, but the line is broken so that \"Four stars, but best of all\" runs on and the build-up loses its trivial counting rhythm. The cognac association is not signaled, though that is a limitation shared with the reference."
         }
       ]
     },
@@ -182,23 +169,23 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "fluency",
+          "category": "style",
           "span": "",
-          "justification": "\"or there isn't life on Mars\" is stilted and \"science does not know\" is slightly more formal than the colloquial «это науке неизвестно». The final \"isn't yet in the know\" keeps the casual register well, so the overall effect is mostly preserved."
+          "justification": "\"Science isn't yet in the know\" keeps the casual personification well. \"Or there isn't life on Mars\" is a little stiff, and \"does not know\" is slightly more formal than the colloquial \"unknown to science,\" so the register mismatch is marginally less sharp."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 3,
+      "major": 1,
       "minor": 5
     },
-    "total_points": 20,
+    "total_points": 10,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.25,
+    "major_equiv_per_unit": 0.25,
+    "interpretation": "1.25 MQM penalty points per meaning unit (≈ 0.25 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "claude-opus-5-5"

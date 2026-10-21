@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "that ought to be me lying there.\nDrink enough and it will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The candidate preserves meaning and the cop's mocking deflation, but the phrasing 'that ought to be me lying there' is a bit stiff compared with the reference's brisk heroic boast. 'Drink enough and it will be!' is functional but slightly awkward in register and cadence for a pithy cop quip."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -46,9 +39,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps the literal meaning but loses the original's light, rhyming bounce (Trus/Bóyus) that makes the admission endearing. The phrasing is more prosaic and therefore a bit less comic and characterful."
+          "justification": "The candidate is a fairly literal rendering that loses the light, rhythmic bounce of the original 'Трус/боюсь' pairing. The comic, endearing paradox (rhythmic rhyme that makes the line playful) is weakened by the flat phrasing 'but I'm scared...' and so the intended comic effect from the analysis is reduced."
         }
       ]
     },
@@ -145,14 +138,7 @@
         }
       },
       "candidate": "As our dear chief says,\nwhen someone else is paying, even ascetics drink...\nand diabetics.",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate replaces the rhythmic pair 'teetotalers / ulcer-sufferers' (a balanced, humorous opposition) with 'ascetics / diabetics', which alters the original meaning and cultural resonance. 'Diabetics' is an odd and potentially insensitive choice here and breaks the intended rhyme/parallelism and the comic effect described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 9,
@@ -212,7 +198,14 @@
         "language_specific": {}
       },
       "candidate": "Semyon Semyonovich...",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate removes the elongated, melodic sigh implied in the source ('Семё-он') that functions as a weary, drawn-out exasperation. Rendering it as the plain 'Semyon Semyonovich...' loses some of the performative, melodic disappointment described in the analysis."
+        }
+      ]
     },
     {
       "id": 13,
@@ -382,14 +375,14 @@
   ],
   "summary": {
     "counts": {
-      "major": 1,
+      "major": 0,
       "minor": 2
     },
-    "total_points": 7,
+    "total_points": 2,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.08695652173913043,
+    "major_equiv_per_unit": 0.017391304347826087,
+    "interpretation": "0.09 MQM penalty points per meaning unit (≈ 0.02 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

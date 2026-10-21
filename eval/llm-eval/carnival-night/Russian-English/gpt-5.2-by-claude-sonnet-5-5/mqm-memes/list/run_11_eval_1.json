@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Hire\" fits the workplace logic, but \"bring one up\" suggests raising a child rather than training or cultivating a staff member. It weakens the staffing/educational framing of 'воспитаем'. 'Collective' keeps the Soviet flavor but is slightly stilted."
+          "justification": "\"Hire Baba Yaga\" keeps the staffing logic, and \"bring up within our own collective\" keeps the in-house cultivation idea. However, \"Baba Yaga\" is left untranslated with no gloss, so the 'nasty woman in the workplace' social type may be less accessible to English viewers. \"Bring up\" also leans toward child-rearing rather than workplace training, which slightly weakens the administrative tone."
         }
       ]
     },
@@ -68,15 +68,9 @@
       "issues": [
         {
           "severity": "major",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "The faux-modest diminutive 'коротенько' is rendered with plain 'briefly', and the 'I think more isn't necessary' ending is stiff. The cozy, self-satisfied understatement that sets up 'forty minutes' as the punchline is lost, so the contrast weakens, as the analysis warns."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "'more isn't necessary' is awkward and unidiomatic compared with 'I don't think we need any more than that'."
+          "justification": "The \"briefly\" claim is kept before \"forty minutes\", but the faux-modest, cozy diminutive tone of «коротенько» and the smug managerial self-satisfaction are lost. The line reads flatly (\"more isn't necessary\"), so the contrast that makes the forty minutes land as a punchline is weakened. The original «я думаю» hedge, which supplies the self-satisfied moderation, is also dropped."
         }
       ]
     },
@@ -102,7 +96,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate keeps only the surface meaning 'ready'. In English 'ready' does not carry the colloquial 'drunk' sense, and nothing recreates the double reading (official readiness vs intoxication). The alcoholic joke disappears. The reference partly signals it with 'Oh, he's ready'."
+          "justification": "The candidate translates \"ready\" literally and gives no sense of the 'drunk' reading of «готов». The double meaning (official readiness vs. intoxication) that makes the exchange funny is lost, leaving only a plain administrative exchange. The exclamation mark suggests some emphasis, but nothing signals the alcoholic subtext."
         }
       ]
     },
@@ -123,7 +117,14 @@
         }
       },
       "candidate": "- People!.. Ah... Hel-looo!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "\"People!.. Ah... Hel-looo!\" keeps the broken, wavering vocalization and the failed oratorical opening. However, the first word is not stretched as in «Лю-ди!» (\"Peo-ple!\"), so some of the drunken physical comedy is weakened. The leading dash is also unneeded."
+        }
+      ]
     },
     {
       "id": 6,
@@ -150,13 +151,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate uses the literal calque 'armed eye', which the analysis explicitly says to avoid. It sounds surreal rather than echoing 'unaided eye', so the mock-scientific malformed idiom does not register for English viewers."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "The phrasing is slightly changed: the exclamatory build-up 'But all we have to do is…!' becomes flatter and less pompous with 'we need only'."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the analysis specifically warns against. It does not evoke the familiar English phrase \"unaided eye\", so the sense of a known idiom being wrongly 'upgraded' into mock-scientific language is lost. The result sounds surreal rather than like drunken pseudo-scholarly pomp."
         }
       ]
     },
@@ -185,7 +180,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The five-star cognac association is not signalled to English viewers (no note), so the punchline's shift into a different semantic domain may not be clear. The star progression itself is preserved, and 'little stars' captures the childish counting."
+          "justification": "The counting progression is kept and sounds suitably trivial, and \"little stars\" matches the childish diminutive. The cognac association is not signaled at all (no note, no hint), so English viewers are likely to miss the click into a different semantic world. The punchline therefore works only weakly, though the analysis itself anticipates this and suggests a note."
         }
       ]
     },
@@ -211,7 +206,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "'Science is not yet in the know' captures the colloquial register of 'не в курсе дела' reasonably well, but the first clause 'science does not know' is flatter and more neutral than 'это науке неизвестно'. The result is slightly less comic, and the personification of science as someone not briefed is weaker."
+          "justification": "The content and colloquial \"in the know\" register are preserved well. The line break between \"science does not know\" and \"Science is not yet in the know\" works, but \"science does not know\" is a bit more plain and formal than «это науке неизвестно», and the repetition makes it slightly flatter than the reference. The deadpan comic effect is mostly intact."
         }
       ]
     }
@@ -219,13 +214,13 @@
   "summary": {
     "counts": {
       "major": 3,
-      "minor": 5
+      "minor": 4
     },
-    "total_points": 20,
+    "total_points": 19,
     "meaning_units": 8,
-    "penalty_per_unit": 2.5,
-    "major_equiv_per_unit": 0.5,
-    "interpretation": "2.50 MQM penalty points per meaning unit (≈ 0.50 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.375,
+    "major_equiv_per_unit": 0.475,
+    "interpretation": "2.38 MQM penalty points per meaning unit (≈ 0.47 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

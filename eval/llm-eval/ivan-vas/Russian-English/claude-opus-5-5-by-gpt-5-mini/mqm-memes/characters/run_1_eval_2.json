@@ -41,7 +41,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate reads as if Bunsha is addressing someone called 'Tsar' ('A pleasure, Tsar!'), whereas the analysis requires that he be introducing himself as the Tsar (i.e., claiming 'I am the Tsar'). This shifts who is being identified and weakens the specific comic contrast of Bunsha impersonating the ruler."
+          "justification": "The candidate reads as if Bunsha is addressing a Tsar ('A pleasure, Tsar!') rather than repeatedly introducing himself as 'the Tsar' (which is the comic point noted in the analysis). This changes the pragmatic role of 'Tsar' and undermines the gag about him impersonating/announcing himself as the monarch."
         }
       ]
     },
@@ -93,7 +93,14 @@
         "language_specific": {}
       },
       "candidate": "Walled in!\nThey've walled me in, the demons!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "major",
+          "category": "accuracy",
+          "span": "",
+          "justification": "The line must make clear that 'demons' are the agents who walled him in (subject), not the addressees. The candidate's punctuation/wording ('They've walled me in, the demons!') is ambiguous and can be read as addressing the demons, which contradicts the analysis requirement."
+        }
+      ]
     },
     {
       "id": 6,
@@ -178,7 +185,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate renders the cheap Soviet eggplant spread as 'eggplant caviar,' which the analysis explicitly warns against. Calling the spread 'caviar' confuses the intended satirical inversion (cheap eggplant spread contrasted with luxury caviar) and undermines the joke."
+          "justification": "The candidate calls the inexpensive Soviet eggplant spread 'eggplant caviar,' which the analysis explicitly warns against because it will confuse viewers; the joke depends on contrasting real black/red caviar with cheap 'eggplant' spread presented ironically as a rare imported delicacy, not literally naming it 'caviar.'"
         }
       ]
     },
@@ -205,7 +212,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate's punctuation and ordering ('suede jacket - three') make it read as if the suede jacket is counted immediately among the three items, losing the subtle comic beat in the original where the speaker hesitates and then finally supplies the count. This weakens the timing of the joke."
+          "justification": "The candidate's punctuation and ordering ('suede jacket - three') is slightly awkward and flattens the comic beat where the speaker hesitates/forgets the running tally. The register is otherwise preserved, but the delivery of the counting gag is weakened."
         }
       ]
     },
@@ -222,19 +229,26 @@
         "language_specific": {}
       },
       "candidate": "And they'll cure you!\nAnd they'll cure you too!\nAnd they'll cure me!",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The original has a resigned, almost melodic list (ellipses) that downplays panic; the candidate's use of exclamation marks makes the lines sound more frantic and less calm, which weakens the intended resigned/hysterical humour."
+        }
+      ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 1
+      "major": 3,
+      "minor": 2
     },
-    "total_points": 11,
+    "total_points": 17,
     "meaning_units": 11,
-    "penalty_per_unit": 1.0,
-    "major_equiv_per_unit": 0.2,
-    "interpretation": "1.00 MQM penalty points per meaning unit (≈ 0.20 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.5454545454545454,
+    "major_equiv_per_unit": 0.3090909090909091,
+    "interpretation": "1.55 MQM penalty points per meaning unit (≈ 0.31 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "claude-opus-5-5"

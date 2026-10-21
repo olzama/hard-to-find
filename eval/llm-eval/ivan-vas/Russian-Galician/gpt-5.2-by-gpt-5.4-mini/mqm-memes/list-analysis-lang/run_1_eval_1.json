@@ -19,9 +19,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "\"Volven asaltarme escuras dúbidas\" captures the elevated, mock-heroic tone well, but \"falta-lle\" is slightly flatter and less idiomatic than a stronger loss/dissapearance phrasing; it weakens the comic precision a bit without changing the meaning."
+          "justification": "The wording is understandable and keeps the mock-solemn tone, but 'falta-lle' is a bit less idiomatic than the reference's more natural lost-item phrasing."
         }
       ]
     },
@@ -38,14 +38,7 @@
         "language_specific": {}
       },
       "candidate": "Ola, tsar, moito gusto. Tsar, moito gusto, tsar.\nMoito gusto, ola, tsar.\nTsar, moito gusto.\nOla, tsar. Moito gusto!",
-      "issues": [
-        {
-          "severity": "major",
-          "category": "accuracy",
-          "span": "",
-          "justification": "The candidate starts with \"Ola, tsar,\" which can be read as addressing the tsar rather than introducing himself as the tsar; this misses the key comedic point noted in the analysis. The reference uses a first-person identification, and the candidate does not make that explicit enough throughout."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -60,14 +53,7 @@
         "language_specific": {}
       },
       "candidate": "Eu esixo que continúe o banquete!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Eu esixo que continúe o banquete!\" preserves the meaning, but it is slightly more neutral and less punchy than the concise imperative force of the original and reference. The line loses a bit of Bunsha's blunt, drunk authority."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 4,
@@ -85,9 +71,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "accuracy",
           "span": "",
-          "justification": "\"Estou de loito\" is understandable, but it softens the specific regal melancholy of \"estou aflixido\". The meaning is close, yet the phrasing is a little less characterful and less archaic in tone."
+          "justification": "'Estou de loito' shifts the meaning slightly: the source expresses melancholy/sadness, not literal mourning."
         }
       ]
     },
@@ -109,7 +95,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The second line is malformed and changes the meaning: \"os demoños\" is not the same as \"os demos,\" and the punctuation makes it sound like he is addressing the demons rather than stating that demons did it. This breaks the joke and the sentence structure."
+          "justification": "The second line is malformed and obscures the joke: 'os demoños' is unidiomatic and the syntax makes it harder to read as 'the demons' being the cause, which the analysis says must be clear."
         }
       ]
     },
@@ -126,14 +112,7 @@
         "language_specific": {}
       },
       "candidate": "Velaí o que fai a cruz vivificadora!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Velaí\" and \"fai\" are understandable, but the wording is a bit more conversational and less solemn than the reference's elevated exclamation. It slightly weakens the mock-religious grandeur of the line."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 7,
@@ -153,7 +132,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"A bailar todo o mundo!\" conveys the command, but it is slightly less direct and less idiomatic than the reference's concise rallying cry. The energetic, leader-like punch is weakened a little."
+          "justification": "The candidate conveys the imperative to dance, but 'A bailar todo o mundo!' sounds more like a general invitation than the forceful, rallying command of the source/reference."
         }
       ]
     },
@@ -175,7 +154,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Mira que entrei con bo pé!\" changes the meaning: it sounds like he entered on the right foot or in good spirits, not that he has \"happened upon\" an unexpectedly profitable situation. The luck/fortunate discovery joke is lost."
+          "justification": "'Mira que entrei con bo pé!' changes the meaning: it suggests entering on the right foot rather than the idea that he has just stumbled upon a fortunate place, and it loses the amused reaction to his crime."
         }
       ]
     },
@@ -197,7 +176,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The candidate repeats \"caviar\" for the eggplant spread, directly contradicting the note that it should not be called caviar. This removes the satirical contrast and makes the punchline confusing."
+          "justification": "The candidate drops the crucial 'eggplant' component of the final joke line, so the punchline about the fake 'overseas' delicacy is lost."
         }
       ]
     },
@@ -216,10 +195,10 @@
       "candidate": "3 magnetófonos,\n3 cámaras,\n3 cigarreiras nacionais,\ncazadora de camurza... tres.",
       "issues": [
         {
-          "severity": "major",
+          "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The inventory is incomplete and reordered: it omits the three film cameras and one of the briefcases/pocket cases from the full joke structure, and it changes the comedic buildup. The missing items significantly damage the gag about exaggerating losses."
+          "justification": "'3 cámaras' is less specific than the source's 'cámaras de cine,' slightly weakening the exact list of stolen prestige items."
         }
       ]
     },
@@ -236,26 +215,19 @@
         "language_specific": {}
       },
       "candidate": "E a ti vanche curar!\nE a ti tamén vanche curar!\nE a min vanme curar!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "\"Vanche curar\" is acceptable, but the repetition is a bit stiff and less flowing than the reference's calmer resignation. The line remains clear, though slightly less melodic and natural in delivery."
-        }
-      ]
+      "issues": []
     }
   ],
   "summary": {
     "counts": {
-      "major": 5,
-      "minor": 6
+      "major": 3,
+      "minor": 4
     },
-    "total_points": 31,
+    "total_points": 19,
     "meaning_units": 11,
-    "penalty_per_unit": 2.8181818181818183,
-    "major_equiv_per_unit": 0.5636363636363637,
-    "interpretation": "2.82 MQM penalty points per meaning unit (≈ 0.56 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 1.7272727272727273,
+    "major_equiv_per_unit": 0.34545454545454546,
+    "interpretation": "1.73 MQM penalty points per meaning unit (≈ 0.35 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5.4-mini",
   "translator": "gpt-5.2"

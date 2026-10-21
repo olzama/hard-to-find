@@ -42,9 +42,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "accuracy",
+          "category": "terminology",
           "span": "",
-          "justification": "\"Hire\" frames Baba Yaga as a staffing matter, which suits the workplace logic, but \"bring one up\" suggests raising a child and loses the in-house training/cultivation nuance. The shift from \"Baba Yaga\" to \"one\" is acceptable, but the human-type reading (a nasty woman already in the collective) is only implied by \"collective\"."
+          "justification": "\"Hire Baba Yaga\" keeps the staffing logic, and \"bring up within our own collective\" keeps the in-house cultivation idea. However, \"Baba Yaga\" is left untranslated with no gloss, so the 'nasty workplace woman' type is less accessible to English viewers than a generic 'witch'. \"Bring up\" also sounds more like child-rearing than workplace training."
         }
       ]
     },
@@ -70,13 +70,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The key word «коротенько» is rendered as plain \"briefly\", losing the diminutive, cozy faux-modesty that the analysis says is essential for the punchline. The contrast with \"forty minutes\" is weakened."
-        },
-        {
-          "severity": "minor",
-          "category": "fluency",
-          "span": "",
-          "justification": "\"more isn't necessary\" is stiff and loses the speaker's self-satisfied, managerial \"I don't think we need more than that\" tone; the sentence also lacks the leading \"and\" of the continuing speech."
+          "justification": "The diminutive, faux-modest 'коротенько' is rendered as a flat \"briefly\" with no sense of cozy understatement. \"More isn't necessary\" is also bland, lacking the self-satisfied managerial tone, so the contrast with 'forty minutes' is weakened. The order (briefly, then duration) is kept."
         }
       ]
     },
@@ -99,10 +93,10 @@
       "candidate": "Is the lecturer ready?\nThe lecturer is ready—been ready a long time!",
       "issues": [
         {
-          "severity": "minor",
+          "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "The \"ready\" double meaning (drunk) is only preserved by the ambiguity of the word \"ready\", which does not carry the \"done for/drunk\" connotation in English; the joke is not recreated, though the brisk backstage rhythm and 'been ready a long time' are kept."
+          "justification": "The candidate only says \"ready\", so the 'готов' = drunk double meaning is lost and nothing recreates the intoxication subtext. The joke disappears, leaving a plain administrative exchange."
         }
       ]
     },
@@ -150,7 +144,7 @@
           "severity": "major",
           "category": "accuracy",
           "span": "",
-          "justification": "\"Armed eye\" is the literal calque the analysis explicitly says to avoid: it sounds surreal rather than like a slightly wrong mock-scientific echo of \"unaided eye\", so the malformed-idiom joke does not work in English."
+          "justification": "The candidate uses the literal calque \"armed eye\", which the notes explicitly say to avoid. It does not echo the familiar English idiom \"unaided eye\", so the sense of a recognizable phrase being wrongly 'upgraded' is lost and the result is merely strange."
         }
       ]
     },
@@ -179,7 +173,7 @@
           "severity": "minor",
           "category": "accuracy",
           "span": "",
-          "justification": "The counting and the five-star punchline are preserved, but nothing signals the cognac association for the English viewer (no note); \"little stars\" renders the diminutive, but the click into the cognac frame is likely lost on the audience."
+          "justification": "The counting progression and the sudden 'five stars' punchline are preserved. However, there is no cognac cue or note, so English viewers are unlikely to catch the shift into the wrong domain. The \"little stars\" wording is a fair rendering of the diminutives, and the line breaks blur the pause before the punchline."
         }
       ]
     },
@@ -205,21 +199,21 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "\"science does not know\" is flatter and more formal than \"unknown to science\" would be in this context, and \"not yet in the know\" captures the casual register well but the first sentence loses some of the colloquial looseness; the overall effect is mostly preserved."
+          "justification": "The meaning and casual register are preserved, and \"not yet in the know\" is suitably colloquial. \"Science does not know\" is flatter than 'unknown to science', and the personification of science as someone not briefed is slightly weaker than in the reference."
         }
       ]
     }
   ],
   "summary": {
     "counts": {
-      "major": 2,
-      "minor": 5
+      "major": 3,
+      "minor": 3
     },
-    "total_points": 15,
+    "total_points": 18,
     "meaning_units": 8,
-    "penalty_per_unit": 1.875,
-    "major_equiv_per_unit": 0.375,
-    "interpretation": "1.88 MQM penalty points per meaning unit (≈ 0.38 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 2.25,
+    "major_equiv_per_unit": 0.45,
+    "interpretation": "2.25 MQM penalty points per meaning unit (≈ 0.45 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "claude-sonnet-5-5",
   "translator": "gpt-5.2"

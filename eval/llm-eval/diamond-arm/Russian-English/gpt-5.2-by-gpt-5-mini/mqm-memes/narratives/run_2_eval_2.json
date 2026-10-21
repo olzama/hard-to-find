@@ -16,14 +16,7 @@
         "language_specific": {}
       },
       "candidate": "I should be in his place.\nGet drunk—you will be!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate drops the casual address ('Guys') that helps set Gorbunkov's dramatic proclamation and slightly flattens his sacrificial tone. The policeman's retort 'Get drunk—you will be!' is also a bit stilted compared with the punchy, mocking cop humor in the analysis/reference ('Get drunk enough, and you will be!')."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 2,
@@ -38,14 +31,7 @@
         "language_specific": {}
       },
       "candidate": "I’m not a coward,\nbut I’m afraid...",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate is a literal, straightforward rendering and loses the light, bouncing comic effect created by the Russian rhyme ('trus/boyus'). The line remains clear and endearing but is stylistically flatter than the analysis suggests."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 3,
@@ -75,7 +61,14 @@
         "language_specific": {}
       },
       "candidate": "You see, signora, frau, miss,\nunfortunately nothing will happen!\nRusso tourist...\nMoral appearance... verstehn?",
-      "issues": []
+      "issues": [
+        {
+          "severity": "minor",
+          "category": "style",
+          "span": "",
+          "justification": "The candidate's rendering 'Moral appearance... verstehn?' is a literal, somewhat awkward phrasing that weakens the playful mash-up of pseudo-foreign loanwords and the performative sophistication Gena projects. The reference's odd, lively borrowings (Obliko Morale! Russo Turisto!) have more comic rhythm than the candidate's stiffer wording."
+        }
+      ]
     },
     {
       "id": 5,
@@ -120,14 +113,7 @@
         "language_specific": {}
       },
       "candidate": "ice cream for the kids,\nflowers for his woman.\nDon’t mix it up!\nKutuzov!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "Using 'his woman' softens the rough, colloquial bite of the original (which uses a coarse term). The candidate preserves meaning and command but the register is slightly less coarse and characterful than Lyolik's speech in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 8,
@@ -177,7 +163,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the basic meaning but omits the comic phonetic detail/mispronunciation of 'tablet' that the analysis highlights as a memorable character trait, weakening the line's humorous voice."
+          "justification": "The original's comic effect comes partly from Lyolik's idiosyncratic pronunciation of 'tablet' (a marked vocalism). The candidate 'One tablet is enough...' is neutral and loses that distinctive conversational mispronunciation that gives the line personality."
         }
       ]
     },
@@ -194,14 +180,7 @@
         "language_specific": {}
       },
       "candidate": "Our kind of people\ndon’t take taxis to the bakery!",
-      "issues": [
-        {
-          "severity": "minor",
-          "category": "style",
-          "span": "",
-          "justification": "The candidate's 'Our kind of people' shifts register slightly away from the collective, blunt Soviet phrasing of the original ('Our people'), which dilutes the terse, moralizing communal tone described in the analysis."
-        }
-      ]
+      "issues": []
     },
     {
       "id": 12,
@@ -354,9 +333,9 @@
       "issues": [
         {
           "severity": "minor",
-          "category": "style",
+          "category": "fluency",
           "span": "",
-          "justification": "The candidate includes an attempted misspelling 'baath' but otherwise uses a normal 'coffee' and thus fails to reproduce Gena's affected pronunciation ('kof-e') that signals his pretentious, fragile aristocratic pose. That phonetic affect is a small but meaningful character detail lost here."
+          "justification": "The candidate contains a misspelling/odd doubling ('baath') and neutralizes Gena's affected pronunciation of 'coffee' that signals his pretentiousness. This reduces a small but meaningful character marker and reads as a typographical/fluency fault."
         }
       ]
     },
@@ -393,7 +372,7 @@
           "severity": "minor",
           "category": "style",
           "span": "",
-          "justification": "The candidate conveys the refusal clearly but replaces the intentionally nonstandard, folksy verb form of the original (the rustic 'poytit') with a neutral phrasing. This loses a layer of rustic stubbornness and comic emphasis present in the source."
+          "justification": "The source's deliberate nonstandard verb form adds rustic stubbornness and comic character to the refusal. The candidate's standard phrasing ('No, I can’t go for that!') conveys the refusal but loses the folksy linguistic color that makes the line humorous."
         }
       ]
     }
@@ -401,13 +380,13 @@
   "summary": {
     "counts": {
       "major": 0,
-      "minor": 7
+      "minor": 4
     },
-    "total_points": 7,
+    "total_points": 4,
     "meaning_units": 23,
-    "penalty_per_unit": 0.30434782608695654,
-    "major_equiv_per_unit": 0.06086956521739131,
-    "interpretation": "0.30 MQM penalty points per meaning unit (≈ 0.06 major issues per unit; weights: minor=1, major=5)"
+    "penalty_per_unit": 0.17391304347826086,
+    "major_equiv_per_unit": 0.034782608695652174,
+    "interpretation": "0.17 MQM penalty points per meaning unit (≈ 0.03 major issues per unit; weights: minor=1, major=5)"
   },
   "evaluator": "gpt-5-mini",
   "translator": "gpt-5.2"
